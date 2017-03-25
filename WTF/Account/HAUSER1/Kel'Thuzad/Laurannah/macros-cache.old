@@ -1,0 +1,67 @@
+VER 3 0100000000000009 "Ancient Hysteria" "spell_shadow_unholyfrenzy"
+/cast Ancient Hysteria
+END
+VER 3 010000000000000D "Assist" "ability_hunter_pet_assist"
+/petassist
+END
+VER 3 0100000000000005 "Dire Beast" "INV_MISC_QUESTIONMARK"
+#showtooltip Dire Beast
+/petattack
+/cast Dire Beast
+/use 13
+/use 14
+END
+VER 3 0100000000000008 "Follow" "ability_tracking"
+/petfollow
+END
+VER 3 010000000000000A "Growl" "INV_Misc_QuestionMark"
+#showtooltip Growl
+/petautocasttoggle Growl
+END
+VER 3 0100000000000002 "Kill Command" "INV_MISC_QUESTIONMARK"
+#showtooltip Kill Command
+/petattack
+/cast Kill Command
+END
+VER 3 0100000000000006 "Misdirection" "INV_MISC_QUESTIONMARK"
+#showtooltip Misdirection
+/cast [@target, help] [@pet, nodead, exists] Misdirection
+END
+VER 3 010000000000000E "Mount" "INV_Misc_QuestionMark"
+#showtooltip Primal Flamesaber
+/cast [flyable] Cindermane Charger; Primal Flamesaber;
+END
+VER 3 0100000000000007 "Mounts" "236191"
+/click ORLOpen Mounts
+END
+VER 3 0100000000000003 "Move To" "ability_hunter_pet_goto"
+#showtooltip petmoveto
+/petmoveto
+END
+VER 3 010000000000000C "Passive" "ability_seal"
+/petpassive
+END
+VER 3 0100000000000010 "Pets" "INV_MISC_BONE_01"
+/click ORLOpen Pets
+END
+VER 3 010000000000000B "Phoenix" "inv_misc_pheonixpet_01"
+/cast Heart of the Phoenix
+END
+VER 3 010000000000000F "Stable" "ability_hunter_pet_corehound"
+/click ORLOpen Management
+END
+VER 3 0100000000000011 "Surface Trot" "spell_frost_windwalkon"
+/cast surface trot
+END
+VER 3 0100000000000004 "Target" "236188"
+/tar invas
+END
+VER 3 0100000000000001 "Turtle" "INV_MISC_QUESTIONMARK"
+#showtooltip Aspect of the Turtle
+/cancelaura Aspect of the Turtle
+/cast Aspect of the Turtle
+END
+VER 3 0100000000000012 "Updraft" "spell_magic_featherfall"
+#showtooltip Updraft
+/cast Updraft
+END

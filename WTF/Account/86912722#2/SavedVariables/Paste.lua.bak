@@ -1,0 +1,11 @@
+
+PasteDB = {
+	["profileKeys"] = {
+		["Hauzerogue - Kel'Thuzad"] = "Hauzerogue - Kel'Thuzad",
+	},
+	["profiles"] = {
+		["Hauzerogue - Kel'Thuzad"] = {
+			["loaded"] = true,
+		},
+	},
+}

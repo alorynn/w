@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Hauzer|Kel'Thuzad|Alliance|100|MAGE", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
+	},
+	["profiles"] = {
+		["Hauzer - Kel'Thuzad"] = {
+		},
+	},
+}

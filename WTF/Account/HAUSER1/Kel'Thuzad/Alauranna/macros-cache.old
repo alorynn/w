@@ -1,0 +1,36 @@
+VER 3 0100000000000007 "Bear" "INV_MISC_QUESTIONMARK"
+#showtooltip bear form
+/cast [nostance:1] bear form
+END
+VER 3 0100000000000002 "Bear" "INV_MISC_QUESTIONMARK"
+#showtooltip bear form
+/cancelform
+/cast bear form
+END
+VER 3 0100000000000006 "Cat" "INV_MISC_QUESTIONMARK"
+#showtooltip cat form 
+/cast [nostance:2] cat form
+/cancelaura [stealth] prowl
+END
+VER 3 0100000000000001 "Cat" "INV_MISC_QUESTIONMARK"
+#showtooltip cat form
+/cancelform
+/cast cat form
+END
+VER 3 0100000000000004 "Moonkin" "INV_MISC_QUESTIONMARK"
+#showtooltip moonkin form
+/cast [nostance:0] !moonkin form
+END
+VER 3 0100000000000003 "Prowl" "INV_MISC_QUESTIONMARK"
+#showtooltip prowl
+/cancelform [stance:3]
+/cast !prowl
+END
+VER 3 0100000000000009 "Travel Form" "INV_MISC_QUESTIONMARK"
+#showtooltip travel form
+/cast [nostance:3, outdoors] travel form; [outdoors] !cat form
+END
+VER 3 0100000000000005 "Travel Form" "INV_MISC_QUESTIONMARK"
+#showtooltip travel form
+/cast [nostance:3, outdoors] travel form; [outdoors] !moonkin form
+END

@@ -1,0 +1,15 @@
+Version: 1
+Frame: LootFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 203
+Y: -37
+W: 170
+H: 210
+Frame: ColorPickerFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 365
+H: 240

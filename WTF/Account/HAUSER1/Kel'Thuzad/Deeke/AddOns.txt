@@ -1,0 +1,15 @@
+BagBrother: disabled
+Bagnon: disabled
+Bagnon_Config: disabled
+Bagnon_GuildBank: disabled
+Bagnon_VoidStorage: disabled
+Scrap: disabled
+Scrap_Options: disabled
+Scrap_Spotlight: disabled
+Scrap_Visualizer: disabled
+Scrap_Merchant: disabled
+WorldQuestsList: disabled
+Skada: enabled
+ElvUI: enabled
+ElvUI_Config: enabled
+ConsLegion: disabled

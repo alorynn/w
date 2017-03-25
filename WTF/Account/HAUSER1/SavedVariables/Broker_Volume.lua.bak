@@ -1,0 +1,11 @@
+
+BrokerVolumeDB = {
+	["profileKeys"] = {
+		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
+	},
+	["profiles"] = {
+		["Hauzer - Kel'Thuzad"] = {
+			["bgSound"] = true,
+		},
+	},
+}

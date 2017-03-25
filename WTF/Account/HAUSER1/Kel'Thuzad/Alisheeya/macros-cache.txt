@@ -1,0 +1,3 @@
+VER 3 0100000000000001 "mount" "INV_Misc_QuestionMark"
+/cast [flyable] ashes of al'ar; traveler's tundra mammoth
+END

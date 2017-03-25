@@ -1,0 +1,20 @@
+
+TomTomDB = {
+	["profileKeys"] = {
+		["Hauzer - Kel'Thuzad"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+TomTomWaypoints = nil
+TomTomWaypointsMF = {
+	["profileKeys"] = {
+		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
+	},
+	["profiles"] = {
+		["Hauzer - Kel'Thuzad"] = {
+		},
+	},
+}

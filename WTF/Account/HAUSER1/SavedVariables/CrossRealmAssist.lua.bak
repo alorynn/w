@@ -1,0 +1,11 @@
+
+CrossRealmAssistDB = {
+	["profileKeys"] = {
+		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
+	},
+	["global"] = {
+		["minimap"] = {
+			["minimapPos"] = 136.607967158765,
+		},
+	},
+}

@@ -1,0 +1,12 @@
+
+VWQL = {
+	["Sort"] = 5,
+	["Houserina-Kel'Thuzad"] = {
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["VERSION"] = 29,
+}

@@ -1,0 +1,73 @@
+
+Bagnon_Sets = {
+	["tackleColor"] = {
+	},
+	["leatherColor"] = {
+	},
+	["enchantColor"] = {
+	},
+	["engineerColor"] = {
+	},
+	["refrigeColor"] = {
+	},
+	["mineColor"] = {
+	},
+	["inscribeColor"] = {
+	},
+	["frames"] = {
+		["vault"] = {
+			["color"] = {
+			},
+			["borderColor"] = {
+			},
+		},
+		["inventory"] = {
+			["color"] = {
+			},
+			["borderColor"] = {
+			},
+		},
+		["guild"] = {
+			["color"] = {
+			},
+			["borderColor"] = {
+			},
+		},
+		["bank"] = {
+			["color"] = {
+			},
+			["borderColor"] = {
+			},
+		},
+	},
+	["herbColor"] = {
+	},
+	["normalColor"] = {
+	},
+	["gemColor"] = {
+	},
+	["reagentColor"] = {
+	},
+	["players"] = {
+		["Kel'Thuzad"] = {
+			["Hauzer"] = {
+				["vault"] = {
+					["hiddenBags"] = {
+					},
+				},
+				["inventory"] = {
+					["hiddenBags"] = {
+					},
+				},
+				["guild"] = {
+					["hiddenBags"] = {
+					},
+				},
+				["bank"] = {
+					["hiddenBags"] = {
+					},
+				},
+			},
+		},
+	},
+}

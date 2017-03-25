@@ -1,0 +1,18 @@
+
+PasteDB = {
+	["profileKeys"] = {
+		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
+	},
+	["profiles"] = {
+		["Hauzer - Kel'Thuzad"] = {
+			["loaded"] = true,
+			["minimap"] = {
+				["minimapPos"] = 338.719195127498,
+			},
+			["where"] = "Default",
+			["whispertarget"] = "",
+			["pos"] = {
+			},
+		},
+	},
+}

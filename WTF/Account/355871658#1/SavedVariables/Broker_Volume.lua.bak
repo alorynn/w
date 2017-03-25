@@ -1,0 +1,10 @@
+
+BrokerVolumeDB = {
+	["profileKeys"] = {
+		["Wavymaieve - Dalaran"] = "Wavymaieve - Dalaran",
+	},
+	["profiles"] = {
+		["Wavymaieve - Dalaran"] = {
+		},
+	},
+}

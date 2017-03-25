@@ -1,0 +1,59 @@
+
+MogItDB = {
+	["profileKeys"] = {
+		["Hauzer - Kel'Thuzad"] = "Default",
+	},
+	["global"] = {
+		["version"] = "3.4.0",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["minimap"] = {
+				["minimapPos"] = 214.315237053371,
+			},
+			["x"] = 0,
+			["y"] = 0,
+			["gridHeight"] = 1079.99987792969,
+			["previewProps"] = {
+				{
+					["y"] = 0,
+					["h"] = 1079.99987792969,
+					["point"] = "TOPLEFT",
+					["w"] = 1601.0009765625,
+					["x"] = 0,
+				}, -- [1]
+				{
+					["y"] = 0,
+					["h"] = 384.999938964844,
+					["x"] = 0,
+				}, -- [2]
+			},
+			["gridWidth"] = 1892.00036621094,
+			["point"] = "TOPRIGHT",
+		},
+	},
+}
+MogItWishlist = {
+	["profileKeys"] = {
+		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
+	},
+	["profiles"] = {
+		["Hauzer - Kel'Thuzad"] = {
+			["sets"] = {
+				{
+					["items"] = {
+						["ChestSlot"] = "item:45240:0",
+						["FeetSlot"] = "item:115827:0",
+						["HeadSlot"] = "item:33758:0",
+						["HandsSlot"] = "item:115875:0",
+						["MainHandSlot"] = "item:50273:0",
+						["ShoulderSlot"] = "item:45253:0",
+					},
+					["name"] = "arcane",
+					["alternateItems"] = {
+					},
+				}, -- [1]
+			},
+		},
+	},
+}

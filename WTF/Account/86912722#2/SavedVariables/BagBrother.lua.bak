@@ -1,0 +1,22 @@
+
+BrotherBags = {
+	["Kel'Thuzad"] = {
+		["Hauzerogue"] = {
+			[0] = {
+				"6948", -- [1]
+			},
+			["race"] = "Scourge",
+			["faction"] = false,
+			["equip"] = {
+				[7] = "48",
+				[8] = "47",
+				[17] = "50055",
+				[16] = "2092",
+				[5] = "58234",
+			},
+			["class"] = "ROGUE",
+			["money"] = 0,
+			["sex"] = 3,
+		},
+	},
+}
