@@ -85,3 +85,4 @@ OPie: enabled
 BetterIconSelector: enabled
 BetterIconSelector-KeywordData: enabled
 ConsLegion: disabled
+Details: enabled
