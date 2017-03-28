@@ -1,6 +1,6 @@
 
-BADBOY_POPUP = nil
-BADBOY_NOREPORT = nil
 BADBOY_BLACKLIST = {
-	["dayFromCal"] = 8,
+	["dayFromCal"] = 28,
+}
+BADBOY_OPTIONS = {
 }

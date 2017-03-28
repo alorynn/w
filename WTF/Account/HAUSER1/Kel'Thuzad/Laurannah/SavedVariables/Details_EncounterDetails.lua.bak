@@ -1,7 +1,945 @@
 
 EncounterDetailsDB = {
 	["encounter_spells"] = {
+		[214335] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Star Augur Etraeus",
+		},
+		[88082] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Mirror Image",
+		},
+		[206398] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Star Augur Etraeus",
+		},
+		[224321] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Arc Well",
+		},
+		[213796] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Icy Enchantment",
+		},
+		[214606] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Thing That Should Not Be",
+		},
+		[226005] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Trained Shadescale",
+		},
+		[207813] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Star Augur Etraeus",
+		},
+		[98021] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Spirit Link Totem",
+		},
+		[206464] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Coronal Ejection",
+		},
+		[224387] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Sidereal Familiar",
+		},
+		[212735] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Spellblade Aluriel",
+		},
+		[224181] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Astral Defender",
+		},
+		[213275] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Spellblade Aluriel",
+		},
+		[206433] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Star Augur Etraeus",
+		},
+		[224483] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Duskwatch Sentinel",
+		},
+		[225404] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Trained Shadescale",
+		},
+		[212736] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+		},
+		[212530] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Spellblade Aluriel",
+		},
+		[206577] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Star Augur Etraeus",
+		},
+		[224246] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Celestial Acolyte",
+		},
+		[213864] = {
+			["school"] = 16,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Spellblade Aluriel",
+		},
+		[213182] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Spellblade Aluriel",
+		},
+		[216389] = {
+			["school"] = 16,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Spellblade Aluriel",
+		},
+		[206388] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Star Augur Etraeus",
+		},
+		[213278] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+		},
+		[213564] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Spellblade Aluriel",
+		},
+		[214486] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Star Augur Etraeus",
+		},
+		[225043] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Terrace Grove-Tender",
+		},
+		[213328] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[213852] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Spellblade Aluriel",
+		},
+		[205486] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Star Augur Etraeus",
+		},
+		[213567] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Spellblade Aluriel",
+		},
+		[224378] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Celestial Acolyte",
+		},
+		[213853] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Spellblade Aluriel",
+		},
+		[213869] = {
+			["school"] = 64,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Spellblade Aluriel",
+		},
+		[213504] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+		},
+		[213520] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[224205] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Astral Defender",
+		},
+		[215458] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Spellblade Aluriel",
+		},
+		[206965] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Star Augur Etraeus",
+		},
+		[225047] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Terrace Grove-Tender",
+		},
+		[213760] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Fiery Enchantment",
+		},
+		[227492] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Voidling",
+		},
+		[213808] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Arcane Enchantment",
+		},
+		[206585] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Star Augur Etraeus",
+		},
+		[222761] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Star Augur Etraeus",
+		},
+		[213761] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[205649] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Coronal Ejection",
+		},
+		[207720] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Thing That Should Not Be",
+		},
+		[213809] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[224194] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Astral Defender",
+		},
+		[213807] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[212494] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Spellblade Aluriel",
+		},
+		[213148] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Spellblade Aluriel",
+		},
+		[212492] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Spellblade Aluriel",
+		},
+		[120694] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Beast",
+		},
+		[206936] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Coronal Ejection",
+		},
+		[207714] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Star Augur Etraeus",
+		},
+		[214167] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Star Augur Etraeus",
+		},
+		[224229] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Celestial Acolyte",
+		},
+		[205984] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Star Augur Etraeus",
+		},
+		[221875] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Star Augur Etraeus",
+		},
+		[213867] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Spellblade Aluriel",
+		},
+		[206921] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Star Augur Etraeus",
+		},
+		[224390] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Sidereal Familiar",
+		},
+		[225374] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Sidereal Familiar",
+		},
 	},
 	["emotes"] = {
+		{
+			{
+				8.07399999978952, -- [1]
+				"The stars align! Fear their portents!", -- [2]
+				"Star Augur Etraeus", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				19.8389999999199, -- [1]
+				"Such insolence... very well, I shall show you!", -- [2]
+				"Star Augur Etraeus", -- [3]
+				7, -- [4]
+			}, -- [2]
+			{
+				25.9879999998957, -- [1]
+				"See for yourself the cruel, frozen void that lies beyond the margin of Azeroth's skies!", -- [2]
+				"Star Augur Etraeus", -- [3]
+				7, -- [4]
+			}, -- [3]
+			{
+				40.1359999999404, -- [1]
+				"The stars align! Fear their portents!", -- [2]
+				"Star Augur Etraeus", -- [3]
+				7, -- [4]
+			}, -- [4]
+			{
+				74.1790000000037, -- [1]
+				"As the stars wax, so your lives wane!", -- [2]
+				"Star Augur Etraeus", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				74.1790000000037, -- [1]
+				"Return to nothing.", -- [2]
+				"Star Augur Etraeus", -- [3]
+				7, -- [4]
+			}, -- [6]
+			{
+				92.5999999998603, -- [1]
+				"Return to nothing.", -- [2]
+				"Star Augur Etraeus", -- [3]
+				7, -- [4]
+			}, -- [7]
+			{
+				137.90699999989, -- [1]
+				"As the stars wax, so your lives wane!", -- [2]
+				"Star Augur Etraeus", -- [3]
+				7, -- [4]
+			}, -- [8]
+			{
+				169.45299999998, -- [1]
+				"As the stars wax, so your lives wane!", -- [2]
+				"Star Augur Etraeus", -- [3]
+				7, -- [4]
+			}, -- [9]
+			{
+				180.69899999979, -- [1]
+				"The Burning Legion. Slayers of whole worlds.", -- [2]
+				"Star Augur Etraeus", -- [3]
+				7, -- [4]
+			}, -- [10]
+			{
+				186.476999999955, -- [1]
+				"Could we hope to resist? Can you?!", -- [2]
+				"Star Augur Etraeus", -- [3]
+				7, -- [4]
+			}, -- [11]
+			{
+				200.513999999966, -- [1]
+				"The stars align! Fear their portents!", -- [2]
+				"Star Augur Etraeus", -- [3]
+				7, -- [4]
+			}, -- [12]
+			{
+				252.685999999987, -- [1]
+				"The stars align! Fear their portents!", -- [2]
+				"Star Augur Etraeus", -- [3]
+				7, -- [4]
+			}, -- [13]
+			{
+				288.275999999838, -- [1]
+				"The stars align! Fear their portents!", -- [2]
+				"Star Augur Etraeus", -- [3]
+				7, -- [4]
+			}, -- [14]
+			{
+				331.264999999898, -- [1]
+				"Is that not enough? Must I show you the true horror of our reality?", -- [2]
+				"Star Augur Etraeus", -- [3]
+				7, -- [4]
+			}, -- [15]
+			{
+				338.187999999849, -- [1]
+				"Very well... witness what I have seen, and TREMBLE!", -- [2]
+				"Star Augur Etraeus", -- [3]
+				7, -- [4]
+			}, -- [16]
+			{
+				345.025999999838, -- [1]
+				"Avatars of non-existence... knowing nothing but hunger.", -- [2]
+				"Star Augur Etraeus", -- [3]
+				7, -- [4]
+			}, -- [17]
+			{
+				345.48499999987, -- [1]
+				"The stars have judged you, and found you wanting.", -- [2]
+				"Star Augur Etraeus", -- [3]
+				7, -- [4]
+			}, -- [18]
+			{
+				351.258999999845, -- [1]
+				"These are the beings who will devour the future you so futilely fight to protect!", -- [2]
+				"Star Augur Etraeus", -- [3]
+				7, -- [4]
+			}, -- [19]
+			{
+				378.662000000011, -- [1]
+				"|TINTERFACE\\ICONS\\SHA_ABILITY_ROGUE_BLOODYEYE:20|tLook away when Things That Should Not Be cast |cFFFF0000|Hspell:207720|h[Witness the Void]|h|r to avoid being feared!", -- [2]
+				"Thing That Should Not Be", -- [3]
+				2, -- [4]
+			}, -- [20]
+			{
+				393.622999999905, -- [1]
+				"|TINTERFACE\\ICONS\\SHA_ABILITY_ROGUE_BLOODYEYE:20|tLook away when Things That Should Not Be cast |cFFFF0000|Hspell:207720|h[Witness the Void]|h|r to avoid being feared!", -- [2]
+				"Thing That Should Not Be", -- [3]
+				2, -- [4]
+			}, -- [21]
+			{
+				408.240999999922, -- [1]
+				"|TINTERFACE\\ICONS\\SHA_ABILITY_ROGUE_BLOODYEYE:20|tLook away when Things That Should Not Be cast |cFFFF0000|Hspell:207720|h[Witness the Void]|h|r to avoid being feared!", -- [2]
+				"Thing That Should Not Be", -- [3]
+				2, -- [4]
+			}, -- [22]
+			{
+				408.586999999825, -- [1]
+				"The stars align! Fear their portents!", -- [2]
+				"Star Augur Etraeus", -- [3]
+				7, -- [4]
+			}, -- [23]
+			{
+				422.378999999957, -- [1]
+				"|TINTERFACE\\ICONS\\SHA_ABILITY_ROGUE_BLOODYEYE:20|tLook away when Things That Should Not Be cast |cFFFF0000|Hspell:207720|h[Witness the Void]|h|r to avoid being feared!", -- [2]
+				"Thing That Should Not Be", -- [3]
+				2, -- [4]
+			}, -- [24]
+			{
+				444.233999999939, -- [1]
+				"|TINTERFACE\\ICONS\\SHA_ABILITY_ROGUE_BLOODYEYE:20|tLook away when Things That Should Not Be cast |cFFFF0000|Hspell:207720|h[Witness the Void]|h|r to avoid being feared!", -- [2]
+				"Thing That Should Not Be", -- [3]
+				2, -- [4]
+			}, -- [25]
+			{
+				458.811999999918, -- [1]
+				"|TINTERFACE\\ICONS\\SHA_ABILITY_ROGUE_BLOODYEYE:20|tLook away when Things That Should Not Be cast |cFFFF0000|Hspell:207720|h[Witness the Void]|h|r to avoid being feared!", -- [2]
+				"Thing That Should Not Be", -- [3]
+				2, -- [4]
+			}, -- [26]
+			{
+				469.083999999799, -- [1]
+				"The stars align! Fear their portents!", -- [2]
+				"Star Augur Etraeus", -- [3]
+				7, -- [4]
+			}, -- [27]
+			{
+				473.367999999784, -- [1]
+				"|TINTERFACE\\ICONS\\SHA_ABILITY_ROGUE_BLOODYEYE:20|tLook away when Things That Should Not Be cast |cFFFF0000|Hspell:207720|h[Witness the Void]|h|r to avoid being feared!", -- [2]
+				"Thing That Should Not Be", -- [3]
+				2, -- [4]
+			}, -- [28]
+			{
+				487.912999999942, -- [1]
+				"|TINTERFACE\\ICONS\\SHA_ABILITY_ROGUE_BLOODYEYE:20|tLook away when Things That Should Not Be cast |cFFFF0000|Hspell:207720|h[Witness the Void]|h|r to avoid being feared!", -- [2]
+				"Thing That Should Not Be", -- [3]
+				2, -- [4]
+			}, -- [29]
+			{
+				500.485999999801, -- [1]
+				"As the stars wax, so your lives wane!", -- [2]
+				"Star Augur Etraeus", -- [3]
+				7, -- [4]
+			}, -- [30]
+			{
+				507.339999999851, -- [1]
+				"|TINTERFACE\\ICONS\\SHA_ABILITY_ROGUE_BLOODYEYE:20|tLook away when Things That Should Not Be cast |cFFFF0000|Hspell:207720|h[Witness the Void]|h|r to avoid being feared!", -- [2]
+				"Thing That Should Not Be", -- [3]
+				2, -- [4]
+			}, -- [31]
+			{
+				521.929000000004, -- [1]
+				"|TINTERFACE\\ICONS\\SHA_ABILITY_ROGUE_BLOODYEYE:20|tLook away when Things That Should Not Be cast |cFFFF0000|Hspell:207720|h[Witness the Void]|h|r to avoid being feared!", -- [2]
+				"Thing That Should Not Be", -- [3]
+				2, -- [4]
+			}, -- [32]
+			{
+				536.537000000011, -- [1]
+				"|TINTERFACE\\ICONS\\SHA_ABILITY_ROGUE_BLOODYEYE:20|tLook away when Things That Should Not Be cast |cFFFF0000|Hspell:207720|h[Witness the Void]|h|r to avoid being feared!", -- [2]
+				"Thing That Should Not Be", -- [3]
+				2, -- [4]
+			}, -- [33]
+			{
+				551.106999999844, -- [1]
+				"|TINTERFACE\\ICONS\\SHA_ABILITY_ROGUE_BLOODYEYE:20|tLook away when Things That Should Not Be cast |cFFFF0000|Hspell:207720|h[Witness the Void]|h|r to avoid being feared!", -- [2]
+				"Thing That Should Not Be", -- [3]
+				2, -- [4]
+			}, -- [34]
+			["boss"] = "Star Augur Etraeus",
+		}, -- [1]
+		{
+			{
+				7.94100000010803, -- [1]
+				"Annihilate!", -- [2]
+				"Spellblade Aluriel", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				17.9810000001453, -- [1]
+				"Let your fates be bound together!", -- [2]
+				"Spellblade Aluriel", -- [3]
+				7, -- [4]
+			}, -- [2]
+			{
+				37.9950000001118, -- [1]
+				"Replicate!", -- [2]
+				"Spellblade Aluriel", -- [3]
+				7, -- [4]
+			}, -- [3]
+			{
+				52.9890000000596, -- [1]
+				"Annihilate!", -- [2]
+				"Spellblade Aluriel", -- [3]
+				7, -- [4]
+			}, -- [4]
+			{
+				60.0300000000279, -- [1]
+				"A gallant attempt... but a vain one.", -- [2]
+				"Spellblade Aluriel", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				67.9780000001192, -- [1]
+				"Detonate!", -- [2]
+				"Spellblade Aluriel", -- [3]
+				7, -- [4]
+			}, -- [6]
+			{
+				74.9840000001714, -- [1]
+				"Animate!", -- [2]
+				"Spellblade Aluriel", -- [3]
+				7, -- [4]
+			}, -- [7]
+			{
+				93.0150000001304, -- [1]
+				"Behold a true mistress of the blade!", -- [2]
+				"Spellblade Aluriel", -- [3]
+				7, -- [4]
+			}, -- [8]
+			{
+				111.996000000043, -- [1]
+				"Replicate!", -- [2]
+				"Spellblade Aluriel", -- [3]
+				7, -- [4]
+			}, -- [9]
+			{
+				130.016999999993, -- [1]
+				"Detonate!", -- [2]
+				"Spellblade Aluriel", -- [3]
+				7, -- [4]
+			}, -- [10]
+			{
+				137.00400000019, -- [1]
+				"Consider this a lesson in swordplay!", -- [2]
+				"Spellblade Aluriel", -- [3]
+				7, -- [4]
+			}, -- [11]
+			{
+				147.035000000149, -- [1]
+				"Animate!", -- [2]
+				"Spellblade Aluriel", -- [3]
+				7, -- [4]
+			}, -- [12]
+			{
+				171.553000000073, -- [1]
+				"Death comes from above!", -- [2]
+				"Spellblade Aluriel", -- [3]
+				7, -- [4]
+			}, -- [13]
+			{
+				175.01500000013, -- [1]
+				"Behold a true mistress of the blade!", -- [2]
+				"Spellblade Aluriel", -- [3]
+				7, -- [4]
+			}, -- [14]
+			{
+				185.006999999983, -- [1]
+				"Replicate!", -- [2]
+				"Spellblade Aluriel", -- [3]
+				7, -- [4]
+			}, -- [15]
+			{
+				205.023999999976, -- [1]
+				"Detonate!", -- [2]
+				"Spellblade Aluriel", -- [3]
+				7, -- [4]
+			}, -- [16]
+			{
+				211.998000000138, -- [1]
+				"Annihilate!", -- [2]
+				"Spellblade Aluriel", -- [3]
+				7, -- [4]
+			}, -- [17]
+			{
+				221.996000000043, -- [1]
+				"Animate!", -- [2]
+				"Spellblade Aluriel", -- [3]
+				7, -- [4]
+			}, -- [18]
+			{
+				241.538000000175, -- [1]
+				"Let your fates be bound together!", -- [2]
+				"Spellblade Aluriel", -- [3]
+				7, -- [4]
+			}, -- [19]
+			{
+				245.009000000078, -- [1]
+				"Behold a true mistress of the blade!", -- [2]
+				"Spellblade Aluriel", -- [3]
+				7, -- [4]
+			}, -- [20]
+			{
+				255.026000000071, -- [1]
+				"Replicate!", -- [2]
+				"Spellblade Aluriel", -- [3]
+				7, -- [4]
+			}, -- [21]
+			{
+				285.013000000035, -- [1]
+				"Detonate!", -- [2]
+				"Spellblade Aluriel", -- [3]
+				7, -- [4]
+			}, -- [22]
+			{
+				292.021000000183, -- [1]
+				"Annihilate!", -- [2]
+				"Spellblade Aluriel", -- [3]
+				7, -- [4]
+			}, -- [23]
+			{
+				302.039000000106, -- [1]
+				"Animate!", -- [2]
+				"Spellblade Aluriel", -- [3]
+				7, -- [4]
+			}, -- [24]
+			{
+				333.073000000091, -- [1]
+				"You cannot hope to match my skill!", -- [2]
+				"Spellblade Aluriel", -- [3]
+				7, -- [4]
+			}, -- [25]
+			{
+				352.065000000177, -- [1]
+				"Replicate!", -- [2]
+				"Spellblade Aluriel", -- [3]
+				7, -- [4]
+			}, -- [26]
+			{
+				370.100000000093, -- [1]
+				"Detonate!", -- [2]
+				"Spellblade Aluriel", -- [3]
+				7, -- [4]
+			}, -- [27]
+			{
+				377.056000000099, -- [1]
+				"Consider this a lesson in swordplay!", -- [2]
+				"Spellblade Aluriel", -- [3]
+				7, -- [4]
+			}, -- [28]
+			["boss"] = "Spellblade Aluriel",
+		}, -- [2]
 	},
 }
