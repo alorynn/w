@@ -1,9 +1,11 @@
 
 Details_StreamerDB = {
 	["characters"] = {
-		["Hauzer - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
+		["Kmkarbashian - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Alauranna - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Laurannah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
+		["Alisheeya - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
+		["Hauzer - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 	},
 	["profiles"] = {
 		["Laurannah - Kel'Thuzad"] = {
@@ -36,17 +38,7 @@ Details_StreamerDB = {
 			["author"] = "Details! Team",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["per_second"] = {
-				["enabled"] = false,
-				["point"] = "CENTER",
-				["scale"] = 1,
-				["font_shadow"] = true,
-				["y"] = 6.1035156250e-005,
-				["x"] = -6.1035156250e-005,
-				["attribute_type"] = 1,
-				["update_speed"] = 0.05,
-				["size"] = 32,
-			},
+			["y"] = -4.577636718750e-005,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -61,11 +53,21 @@ Details_StreamerDB = {
 				0.4, -- [4]
 			},
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = 6.1035156250e-005,
+				["x"] = -6.1035156250e-005,
+				["attribute_type"] = 1,
+				["update_speed"] = 0.05,
+				["size"] = 32,
+			},
 			["font_size"] = 10,
-			["use_spark"] = true,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
-			["y"] = -4.577636718750e-005,
+			["use_spark"] = true,
 			["main_frame_strata"] = "LOW",
 			["point"] = "CENTER",
 			["row_height"] = 20,

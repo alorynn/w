@@ -39,6 +39,9 @@ When PLH becomes disabled, set isAnnouncer to false
 	
 Changelog
 
+20170328 - 1.26
+	Bug fixes to "coordinate rolls" mode - sometimes trades were being ignored
+	
 20170328 - 1.25
 	Added eligibility check for class-restricted gear (ex: tier)
 	Significant performance/memory improvements
@@ -1925,7 +1928,10 @@ local function AskForRolls()
 		numOfQueuedRollItems = numOfQueuedRollItems - 1
 		
 		local fullItemInfo = GetFullItemInfo(currentRollItem)
-		local description = " (" .. fullItemInfo[FII_REAL_ILVL] .. " "
+		local description = " ("
+		if fullItemInfo[FII_REAL_ILVL] ~= nil then
+			description = description .. fullItemInfo[FII_REAL_ILVL] .. " "
+		end
 		if fullItemInfo[FII_IS_RELIC] then
 			description = description .. fullItemInfo[FII_RELIC_TYPE] .. " Relic"
 		else
@@ -2033,14 +2039,13 @@ local function ProcessWhisper(message, sender)
 		if not string.find(sender, '-') then
 			sender = PLH_GetUnitNameWithRealm(sender)
 		end
-
 		-- if the person whispered 'trade [item]' or '[item] trade', then add the item to the array so we can process it
-		local _, _, whisperedItem = string.find(message, 'trade  (|.+|r)')
+		local _, _, whisperedItem = string.find(message, 'trade (|.+|r)')
 		if whisperedItem == nil then
-			_, _, whisperedItem = string.find(message, 'Trade  (|.+|r)')
+			_, _, whisperedItem = string.find(message, 'Trade (|.+|r)')
 		end
 		if whisperedItem == nil then
-			_, _, whisperedItem = string.find(message, 'TRADE  (|.+|r)')
+			_, _, whisperedItem = string.find(message, 'TRADE (|.+|r)')
 		end
 		if whisperedItem == nil then
 			_, _, whisperedItem = string.find(message, '(|.+|r) trade')
@@ -2054,7 +2059,6 @@ local function ProcessWhisper(message, sender)
 		if whisperedItem ~= nil then
 			whisperedItems[sender] = whisperedItem
 		end
-
 		message = string.upper(message)
 		if whisperedItem ~= nil or message == TRADE_MESSAGE or message == '\'' .. TRADE_MESSAGE .. '\'' then
 			if whisperedItems[sender] ~= nil then

@@ -1,7 +1,9 @@
 
-Scrap_AutoSell = false
+Scrap_SharedJunk = {
+}
+Scrap_AutoSell = true
 Scrap_AutoRepair = true
-Scrap_GuildRepair = nil
+Scrap_GuildRepair = true
 Scrap_Safe = true
 Scrap_Learn = nil
 Scrap_Glow = false

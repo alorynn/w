@@ -10,18 +10,18 @@ DBM_AllSavedOptions = {
 		["RangeFrameRadarY"] = -100,
 		["HUDAlpha1"] = 0.5,
 		["StatusEnabled"] = true,
-		["InfoFrameX"] = 75,
+		["InfoFrameX"] = -461.759857177734,
 		["DontShowNameplateIcons"] = false,
-		["RangeFrameX"] = 50,
+		["RangeFrameX"] = -430.927032470703,
 		["AlwaysShowSpeedKillTimer"] = true,
-		["RangeFrameY"] = -50,
+		["RangeFrameY"] = -213.333480834961,
 		["FilterSayAndYell"] = false,
 		["EnableModels"] = true,
 		["SpecialWarningFlashAlph3"] = 0.4,
 		["ArrowPoint"] = "TOP",
 		["SWarnNameInNote"] = true,
 		["FakeBWVersion"] = false,
-		["InfoFramePoint"] = "CENTER",
+		["InfoFramePoint"] = "RIGHT",
 		["CRT_Enabled"] = false,
 		["SpecialWarningFlashCol2"] = {
 			1, -- [1]
@@ -39,6 +39,8 @@ DBM_AllSavedOptions = {
 		["DontShowSpecialWarnings"] = false,
 		["ShowMinimapButton"] = true,
 		["MoviesSeen"] = {
+			[549] = true,
+			["7201"] = true,
 		},
 		["ShowQueuePop"] = true,
 		["ShowAllVersions"] = true,
@@ -50,7 +52,7 @@ DBM_AllSavedOptions = {
 			0, -- [3]
 		},
 		["WarningFontStyle"] = "None",
-		["InfoFrameY"] = -75,
+		["InfoFrameY"] = -240.66633605957,
 		["ChatFrame"] = "DEFAULT_CHAT_FRAME",
 		["WarningIconRight"] = true,
 		["UseSoundChannel"] = "Master",
@@ -64,7 +66,7 @@ DBM_AllSavedOptions = {
 		["SpecialWarningFlashDura1"] = 0.4,
 		["DontShowPTNoID"] = false,
 		["HideGarrisonToasts"] = true,
-		["RangeFramePoint"] = "CENTER",
+		["RangeFramePoint"] = "RIGHT",
 		["SpecialWarningFontShadow"] = false,
 		["RLReadyCheckSound"] = true,
 		["WOTLKTWMessageShown"] = false,
@@ -111,7 +113,11 @@ DBM_AllSavedOptions = {
 		["DisableSFX"] = false,
 		["AutologBosses"] = false,
 		["SpecialWarningFlashDura4"] = 0.7,
-		["HUDTexture2"] = "highlight",
+		["HUDColor4"] = {
+			0, -- [1]
+			1, -- [2]
+			0, -- [3]
+		},
 		["SpecialWarningFlashRepeat1"] = false,
 		["SpecialWarningFlashCol3"] = {
 			1, -- [1]
@@ -144,11 +150,7 @@ DBM_AllSavedOptions = {
 		["SWarningAlphabetical"] = true,
 		["HUDAlpha4"] = 0.5,
 		["BlockNoteShare"] = false,
-		["HUDColor4"] = {
-			0, -- [1]
-			1, -- [2]
-			0, -- [3]
-		},
+		["HUDTexture2"] = "highlight",
 		["DontShowCTCount"] = false,
 		["DontShowInfoFrame"] = false,
 		["ModelSoundValue"] = "Short",
@@ -158,7 +160,7 @@ DBM_AllSavedOptions = {
 		["RangeFrameRadarPoint"] = "CENTER",
 		["SpecialWarningY"] = 75,
 		["DontRestoreRange"] = false,
-		["WarningX"] = 0,
+		["InfoFrameLines"] = 0,
 		["RangeFrameUpdates"] = "Average",
 		["AutoCorrectTimer"] = false,
 		["ShortTimerText"] = true,
@@ -169,7 +171,7 @@ DBM_AllSavedOptions = {
 		["RoleSpecAlert"] = true,
 		["WhisperStats"] = false,
 		["VoiceOverSpecW2"] = "DefaultOnly",
-		["HPFrameMaxEntries"] = 5,
+		["DontShowBossAnnounces"] = false,
 		["HUDAlpha3"] = 0.5,
 		["SpecialWarningFlashAlph5"] = 0.5,
 		["HUDColor3"] = {
@@ -232,8 +234,8 @@ DBM_AllSavedOptions = {
 		},
 		["RangeFrameLocked"] = false,
 		["WorldBossNearAlert"] = false,
-		["InfoFrameLines"] = 0,
-		["DontShowBossAnnounces"] = false,
+		["WarningX"] = 0,
+		["HPFrameMaxEntries"] = 5,
 		["SpecialWarningFlashRepeatAmount"] = 2,
 		["AutoAcceptFriendInvite"] = false,
 		["WarningIconChat"] = true,

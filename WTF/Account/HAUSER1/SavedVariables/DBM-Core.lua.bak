@@ -39,6 +39,7 @@ DBM_AllSavedOptions = {
 		["DontShowSpecialWarnings"] = false,
 		["ShowMinimapButton"] = true,
 		["MoviesSeen"] = {
+			["7201"] = true,
 		},
 		["ShowQueuePop"] = true,
 		["ShowAllVersions"] = true,
@@ -148,32 +149,28 @@ DBM_AllSavedOptions = {
 		["SWarningAlphabetical"] = true,
 		["ShowPizzaMessage"] = true,
 		["BlockNoteShare"] = false,
-		["SpecialWarningY"] = 75,
+		["FilterInterrupt"] = true,
 		["SpecialWarningSound5"] = "Sound\\Creature\\Loathstare\\Loa_Naxx_Aggro02.ogg",
-		["HUDColor4"] = {
-			0, -- [1]
-			1, -- [2]
-			0, -- [3]
-		},
+		["SpecialWarningY"] = 75,
 		["ModelSoundValue"] = "Short",
 		["FilterSelfHud"] = true,
 		["RaidWarningSound"] = "Sound\\Doodad\\BellTollNightElf.ogg",
-		["FilterInterrupt"] = true,
+		["HUDTexture2"] = "highlight",
 		["RangeFrameRadarPoint"] = "CENTER",
 		["DontShowInfoFrame"] = false,
 		["CustomSounds"] = 0,
 		["RoleSpecAlert"] = true,
 		["RangeFrameUpdates"] = "Average",
 		["AutoCorrectTimer"] = false,
-		["InfoFrameLines"] = 0,
+		["WarningX"] = 0,
 		["WarningY"] = 260,
 		["DontRestoreRange"] = false,
-		["WarningX"] = 0,
+		["InfoFrameLines"] = 0,
 		["SpecialWarningFlashRepeat3"] = true,
 		["ShortTimerText"] = true,
 		["WhisperStats"] = false,
 		["VoiceOverSpecW2"] = "DefaultOnly",
-		["DontShowBossAnnounces"] = false,
+		["HPFrameMaxEntries"] = 5,
 		["HUDAlpha3"] = 0.5,
 		["SpecialWarningFlashAlph5"] = 0.5,
 		["HUDColor3"] = {
@@ -236,7 +233,7 @@ DBM_AllSavedOptions = {
 		["HUDAlpha2"] = 0.5,
 		["ShowEngageMessage"] = true,
 		["WorldBossNearAlert"] = false,
-		["HPFrameMaxEntries"] = 5,
+		["DontShowBossAnnounces"] = false,
 		["DontPlayPTCountdown"] = false,
 		["SpecialWarningFlashRepeatAmount"] = 2,
 		["AutoAcceptFriendInvite"] = false,
@@ -248,7 +245,11 @@ DBM_AllSavedOptions = {
 		["HUDAlpha4"] = 0.5,
 		["AdvancedAutologBosses"] = false,
 		["SpecialWarningFlashRepeat1"] = false,
-		["HUDTexture2"] = "highlight",
+		["HUDColor4"] = {
+			0, -- [1]
+			1, -- [2]
+			0, -- [3]
+		},
 		["SpecialWarningFlashAlph4"] = 0.4,
 		["Enabled"] = true,
 		["SpecialWarningFlashDura5"] = 1,
