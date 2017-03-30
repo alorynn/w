@@ -44,8 +44,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABueo8UftHg",
 				}, -- [6]
 				["save"] = true,
-				["name"] = "Professions",
 				["limit"] = "Laurannah-Kel'Thuzad",
+				["name"] = "Professions",
 			},
 			["Mounts"] = {
 				{
@@ -65,8 +65,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABueo8Ra/Ei",
 				}, -- [4]
 				["save"] = true,
-				["limit"] = "Laurannah-Kel'Thuzad",
 				["name"] = "Mounts",
+				["limit"] = "Laurannah-Kel'Thuzad",
 			},
 			["Travel"] = {
 				{
@@ -105,8 +105,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABueoP7uCCi",
 				}, -- [7]
 				["save"] = true,
-				["name"] = "Travel",
 				["limit"] = "Laurannah-Kel'Thuzad",
+				["name"] = "Travel",
 			},
 			["OPieFlagStore"] = {
 				["FlushedDefaultColors"] = true,
@@ -128,8 +128,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABueoD8gCKt",
 				}, -- [3]
 				["save"] = true,
-				["name"] = "Toys",
 				["limit"] = "Laurannah-Kel'Thuzad",
+				["name"] = "Toys",
 			},
 			["Management"] = {
 				{
@@ -153,59 +153,59 @@ OneRing_Config = {
 					["sliceToken"] = "ABueoSfffGh",
 				}, -- [5]
 				["save"] = true,
-				["name"] = "Pet Management",
 				["limit"] = "Laurannah-Kel'Thuzad",
+				["name"] = "Pet Management",
 			},
 			["Emotes"] = {
 				{
+					["caption"] = "Cheer",
 					["sliceToken"] = "ABueo8E8ojk",
 					["id"] = "#show\n/cheer",
-					["caption"] = "Cheer",
 				}, -- [1]
 				{
+					["caption"] = "Dance",
 					["sliceToken"] = "ABueo8E8ojj",
 					["id"] = "/dance",
-					["caption"] = "Dance",
 				}, -- [2]
 				{
+					["caption"] = "Kiss",
 					["sliceToken"] = "ABueo8E8oj4",
 					["id"] = "/kiss",
-					["caption"] = "Kiss",
 				}, -- [3]
 				{
+					["caption"] = "Pet",
 					["sliceToken"] = "ABueo8E8ojh",
 					["id"] = "/pet",
-					["caption"] = "Pet",
 				}, -- [4]
 				{
+					["caption"] = "Cuddle",
 					["sliceToken"] = "ABueo8E8ojg",
 					["id"] = "/cuddle",
-					["caption"] = "Cuddle",
 				}, -- [5]
 				{
+					["caption"] = "Point",
 					["sliceToken"] = "ABueo8E8ojf",
 					["id"] = "/point",
-					["caption"] = "Point",
 				}, -- [6]
 				{
+					["caption"] = "Shrug",
 					["sliceToken"] = "ABueo8E8ojd",
 					["id"] = "/shrug",
-					["caption"] = "Shrug",
 				}, -- [7]
 				{
+					["caption"] = "Sleep",
 					["sliceToken"] = "ABueo8E8oj3",
 					["id"] = "/sleep",
-					["caption"] = "Sleep",
 				}, -- [8]
 				{
+					["caption"] = "Laugh",
 					["sliceToken"] = "ABueo8E8ojs",
 					["id"] = "/laugh",
-					["caption"] = "Laugh",
 				}, -- [9]
 				{
+					["caption"] = "Spit",
 					["sliceToken"] = "ABueo8E8oja",
 					["id"] = "/spit",
-					["caption"] = "Spit",
 				}, -- [10]
 				["noPersistentCA"] = true,
 				["name"] = "Emotes",
@@ -239,24 +239,24 @@ OneRing_Config = {
 					["id"] = "#showtooltip [@pet,exists,nodead,nopet:5] {{spell:83245}};\n/cast [@pet,exists,nopet:5,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:83245}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
 				}, -- [5]
 				["save"] = true,
-				["name"] = "Pets",
 				["limit"] = "HUNTER",
+				["name"] = "Pets",
 			},
 			["Outfits"] = {
 				{
 					"equipmentset", -- [1]
 					"BIS", -- [2]
-					["sliceToken"] = "ABueo03BsVu",
+					["sliceToken"] = "ABueoLj3Jiu",
 				}, -- [1]
 				{
 					"equipmentset", -- [1]
 					"Highlvl", -- [2]
-					["sliceToken"] = "ABueoJGgYs1",
+					["sliceToken"] = "ABueoLj3Jiy",
 				}, -- [2]
 				{
 					"equipmentset", -- [1]
 					"Naked", -- [2]
-					["sliceToken"] = "ABueo03BsVt",
+					["sliceToken"] = "ABueoLj3Jit",
 				}, -- [3]
 				["save"] = true,
 				["limit"] = "Laurannah-Kel'Thuzad",
@@ -274,8 +274,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABueo98aIgy",
 				}, -- [2]
 				["save"] = true,
-				["name"] = "Pets",
 				["limit"] = "Laurannah-Kel'Thuzad",
+				["name"] = "Pets",
 			},
 		},
 	},

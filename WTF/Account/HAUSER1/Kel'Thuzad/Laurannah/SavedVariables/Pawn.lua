@@ -1,14 +1,15 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.02,
+	["LastVersion"] = 2.0201,
 	["LastPlayerFullName"] = "Laurannah-Kel'Thuzad",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128861] = {
 			["Relics"] = {
 				{
-					["ItemLevel"] = 45,
+					["ItemLevel"] = 46,
 					["Type"] = "Wind",
 				}, -- [1]
 				{
@@ -23,7 +24,6 @@ PawnOptions = {
 			["Name"] = "Titanstrike",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "HUNTER",

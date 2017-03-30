@@ -42,9 +42,9 @@ Auctionator: enabled
 BadBoy: enabled
 BagBrother: disabled
 Bagnon: disabled
-Bagnon_Config: enabled
-Bagnon_GuildBank: enabled
-Bagnon_VoidStorage: enabled
+Bagnon_Config: disabled
+Bagnon_GuildBank: disabled
+Bagnon_VoidStorage: disabled
 Bartender4: enabled
 BigWigs: enabled
 BigWigs_BrokenIsles: enabled
