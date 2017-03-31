@@ -39,8 +39,15 @@ When PLH becomes disabled, set isAnnouncer to false
 	
 Changelog
 
+20170329 - 1.27
+	Increased inspect attempts back to 5; this may have been causing some characters' gear to not be fully inspected and thus missing recommendations
+	
+	Minor additional error checking
+		note: additional nil check in AskForRolls()
+		
 20170328 - 1.26
 	Bug fixes to "coordinate rolls" mode - sometimes trades were being ignored
+		note: removed extra spaces in ProcessWhisper, added nil check for description in CheckForRolls
 	
 20170328 - 1.25
 	Added eligibility check for class-restricted gear (ex: tier)
@@ -385,7 +392,7 @@ local NUM_EXPECTED_ITEMS = 15 -- number of items we expect each person to have e
 --local MAX_INSPECT_RETRIES = 2  -- maximum # of times to retry calling NotifyInspect for a specific character if we don't get an INSPECT_READY
 local NUM_EXPECTED_RELICS_110 = 3
 local NUM_EXPECTED_RELICS_101 = 1
-local MAX_INSPECTS_PER_CHARACTER = 3
+local MAX_INSPECTS_PER_CHARACTER = 5
 local MAX_NAMES_TO_SHOW = 4
 local PLH_RELICSLOT = 1000  -- for indexing relics in groupInfoCache
 
@@ -1932,7 +1939,7 @@ local function AskForRolls()
 		if fullItemInfo[FII_REAL_ILVL] ~= nil then
 			description = description .. fullItemInfo[FII_REAL_ILVL] .. " "
 		end
-		if fullItemInfo[FII_IS_RELIC] then
+		if fullItemInfo[FII_IS_RELIC] and fullItemInfo[FII_RELIC_TYPE] ~= nil then
 			description = description .. fullItemInfo[FII_RELIC_TYPE] .. " Relic"
 		else
 			if fullItemInfo[FII_CLASS] == LE_ITEM_CLASS_ARMOR then
