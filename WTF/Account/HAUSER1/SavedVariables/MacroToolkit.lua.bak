@@ -7,9 +7,9 @@ MacroToolkitDB = {
 		},
 	},
 	["global"] = {
-		["backups"] = {
-		},
 		["ebackups"] = {
+		},
+		["backups"] = {
 		},
 	},
 	["profileKeys"] = {

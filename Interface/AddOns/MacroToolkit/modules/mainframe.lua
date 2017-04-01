@@ -1,4 +1,4 @@
-﻿local _G = _G
+local _G = _G
 local MT = MacroToolkit
 local CreateFrame, PlaySound, GameTooltip, GameTooltip_Hide, UnitName = CreateFrame, PlaySound, GameTooltip, GameTooltip_Hide, UnitName
 local format, string, ipairs = format, string, ipairs
@@ -875,6 +875,8 @@ function MT:CreateMTFrame()
 	mtbbutton:SetSize(16, 16)
 	mtbbutton:SetPoint("LEFT", MT.brokericon, "RIGHT")
 	mtbbutton:SetScript("OnLeave", GameTooltip_Hide)
+	--mtbbutton:SetFrameLevel(99)
+	mtbbutton:SetFrameLevel(mtmscroll:GetFrameLevel() + 1)
 	mtbrokericon:Hide()
 	
 	local mterroricon = CreateFrame("Frame", "MacroToolkitErrorIcon", mtframe)

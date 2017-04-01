@@ -35,8 +35,8 @@ PremadeGroupsFilterState = {
 		["act"] = true,
 	},
 	["defeated"] = {
-		["max"] = "5",
-		["min"] = "3",
+		["max"] = "0",
+		["min"] = "",
 		["act"] = true,
 	},
 }

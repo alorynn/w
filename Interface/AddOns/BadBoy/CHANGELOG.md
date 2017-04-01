@@ -1,7 +1,6 @@
 # BadBoy
 
-## [v7.2.10](https://github.com/funkydude/BadBoy/tree/v7.2.10) (2017-03-31) [](#top)
-[Full Changelog](https://github.com/funkydude/BadBoy/compare/v7.2.9...v7.2.10)
+## [v7.2.13](https://github.com/funkydude/BadBoy/tree/v7.2.13) (2017-04-01) [](#top)
+[Full Changelog](https://github.com/funkydude/BadBoy/compare/v7.2.12...v7.2.13)
 
-- anti-spam update  
 - anti-spam update  
