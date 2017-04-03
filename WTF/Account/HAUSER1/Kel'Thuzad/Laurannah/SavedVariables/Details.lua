@@ -19,2759 +19,900 @@ _detalhes_database = {
 			{
 				{
 					["tipo"] = 2,
-					["combatId"] = 425,
+					["combatId"] = 601,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["damage_from"] = {
-								["Putrid Alchemist"] = true,
-								["Felbound Spirit"] = true,
-								["Spellstalker"] = true,
-								["Blazing Imp"] = true,
-								["Environment (Falling)"] = true,
-								["Debilitating Eye"] = true,
-								["Hungering Stalker"] = true,
-								["Cursed Pillager"] = true,
-								["Legion Webspewer"] = true,
+								["Feral Souldrinker"] = true,
+								["Feral Scavenger"] = true,
+								["Cliffclutch Thornwitch"] = true,
 							},
 							["targets"] = {
-								["Legion Painmaiden"] = 354139,
-								["Shadowy Illusion <[*] Shadow Illusion>"] = 335346,
-								["Felguard Invader"] = 3937371,
-								["Legion Venomretcher"] = 15839372,
-								["Spellstalker"] = 14008165,
-								["Than'otalion"] = 24230503,
-								["Rotwing Ripper"] = 21580997,
-								["Eredar Overseer"] = 1283355,
-								["Putrid Alchemist"] = 11449685,
-								["Cursed Pillager"] = 8732024,
-								["Felsworn Chaos Mage"] = 287945,
-								["Infectious Stalker"] = 3048763,
-								["Felbound Spirit"] = 2321939,
-								["Darkfiend Devourer"] = 3032332,
-								["Hungering Stalker"] = 1385615,
-								["Blazing Imp"] = 15499755,
-								["Draining Eye"] = 35531,
-								["Wrathguard"] = 2544170,
-								["Darkfire Fiend"] = 10140757,
-								["Debilitating Eye"] = 1545239,
-								["Battlesworn Nether-Mage"] = 1878738,
-								["Dark Felshrieker"] = 10707042,
-								["Virulent Imp"] = 16397254,
-								["Legion Webspewer"] = 16168835,
+								["Cliffclutch Thornwitch"] = 1253179,
+								["Feral Scavenger"] = 1313828,
 							},
 							["pets"] = {
-								"Beast <Laurannah>", -- [1]
-								"Corey <Laurannah>", -- [2]
-								"Hati <Laurannah>", -- [3]
+								"Hati <Laurannah>", -- [1]
+								"Beast <Laurannah>", -- [2]
+								"Corey <Laurannah>", -- [3]
 							},
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 197945.002046,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 76989307.001,
-							["on_hold"] = false,
+							["total_without_pet"] = 1242874.002046,
+							["last_event"] = 1491240917,
 							["dps_started"] = false,
-							["end_time"] = 1490993769,
-							["serial"] = "Player-3693-092AD332",
-							["total"] = 186744872.001,
+							["total"] = 2567007.002046,
+							["delay"] = 0,
+							["classe"] = "HUNTER",
 							["nome"] = "Laurannah",
 							["spells"] = {
 								["_ActorTable"] = {
-									[194392] = {
-										["c_amt"] = 75,
-										["b_amt"] = 0,
-										["c_dmg"] = 7205468,
-										["g_amt"] = 0,
-										["n_max"] = 60447,
-										["targets"] = {
-											["Infectious Stalker"] = 89386,
-											["Shadowy Illusion <[*] Shadow Illusion>"] = 103952,
-											["Felguard Invader"] = 130176,
-											["Legion Venomretcher"] = 1141637,
-											["Spellstalker"] = 1519464,
-											["Than'otalion"] = 450745,
-											["Rotwing Ripper"] = 2544898,
-											["Putrid Alchemist"] = 631346,
-											["Felbound Spirit"] = 60446,
-											["Eredar Overseer"] = 56842,
-											["Cursed Pillager"] = 764557,
-											["Blazing Imp"] = 1754796,
-											["Darkfiend Devourer"] = 144927,
-											["Hungering Stalker"] = 264255,
-											["Darkfire Fiend"] = 1285520,
-											["Debilitating Eye"] = 230783,
-											["Battlesworn Nether-Mage"] = 173566,
-											["Dark Felshrieker"] = 1309119,
-											["Virulent Imp"] = 1430177,
-											["Legion Webspewer"] = 1369006,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 8250130,
-										["n_min"] = 43391,
-										["g_dmg"] = 0,
-										["counter"] = 248,
-										["total"] = 15455598,
-										["c_max"] = 120894,
-										["id"] = 194392,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 86782,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 173,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[193455] = {
+									[235999] = {
 										["c_amt"] = 1,
 										["b_amt"] = 0,
-										["c_dmg"] = 402485,
-										["g_amt"] = 0,
-										["n_max"] = 263631,
-										["targets"] = {
-											["Putrid Alchemist"] = 402485,
-											["Than'otalion"] = 201242,
-											["Eredar Overseer"] = 263631,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 464873,
-										["n_min"] = 201242,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 867358,
-										["c_max"] = 402485,
-										["id"] = 193455,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 402485,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[75] = {
-										["c_amt"] = 21,
-										["b_amt"] = 0,
-										["c_dmg"] = 1582091,
-										["g_amt"] = 0,
-										["n_max"] = 49498,
-										["targets"] = {
-											["Legion Venomretcher"] = 213191,
-											["Spellstalker"] = 287913,
-											["Than'otalion"] = 1138772,
-											["Rotwing Ripper"] = 516980,
-											["Putrid Alchemist"] = 235215,
-											["Felsworn Chaos Mage"] = 46545,
-											["Felbound Spirit"] = 49498,
-											["Eredar Overseer"] = 46545,
-											["Cursed Pillager"] = 213187,
-											["Blazing Imp"] = 113352,
-											["Draining Eye"] = 35531,
-											["Darkfiend Devourer"] = 36596,
-											["Darkfire Fiend"] = 151137,
-											["Debilitating Eye"] = 95885,
-											["Battlesworn Nether-Mage"] = 35530,
-											["Dark Felshrieker"] = 224202,
-											["Virulent Imp"] = 314810,
-											["Legion Webspewer"] = 106595,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2279393,
-										["n_min"] = 35530,
-										["g_dmg"] = 0,
-										["counter"] = 79,
-										["total"] = 3861484,
-										["c_max"] = 98992,
-										["id"] = 75,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 71061,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 58,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[197465] = {
-										["c_amt"] = 30,
-										["b_amt"] = 0,
-										["c_dmg"] = 5536547,
-										["g_amt"] = 0,
-										["n_max"] = 111276,
-										["targets"] = {
-											["Putrid Alchemist"] = 164938,
-											["Infectious Stalker"] = 222552,
-											["Felguard Invader"] = 494816,
-											["Legion Venomretcher"] = 742227,
-											["Darkfiend Devourer"] = 222553,
-											["Spellstalker"] = 494816,
-											["Blazing Imp"] = 1060558,
-											["Than'otalion"] = 663706,
-											["Wrathguard"] = 494817,
-											["Darkfire Fiend"] = 412346,
-											["Rotwing Ripper"] = 648210,
-											["Cursed Pillager"] = 685321,
-											["Debilitating Eye"] = 333828,
-											["Virulent Imp"] = 1873709,
-											["Legion Webspewer"] = 742229,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 3720079,
-										["n_min"] = 82469,
-										["g_dmg"] = 0,
-										["counter"] = 71,
-										["total"] = 9256626,
-										["c_max"] = 222553,
-										["id"] = 197465,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 164939,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 41,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[201594] = {
-										["c_amt"] = 11,
-										["b_amt"] = 0,
-										["c_dmg"] = 2370380,
-										["g_amt"] = 0,
-										["n_max"] = 108319,
-										["targets"] = {
-											["Than'otalion"] = 2373533,
-											["Infectious Stalker"] = 974864,
-											["Debilitating Eye"] = 210327,
-											["Darkfiend Devourer"] = 974863,
-											["Hungering Stalker"] = 108318,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2271525,
-										["n_min"] = 105162,
-										["g_dmg"] = 0,
-										["counter"] = 32,
-										["total"] = 4641905,
-										["c_max"] = 216637,
-										["id"] = 201594,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 210327,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 21,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[229737] = {
-										["c_amt"] = 5,
-										["b_amt"] = 0,
-										["c_dmg"] = 3720824,
-										["g_amt"] = 0,
-										["n_max"] = 431352,
-										["targets"] = {
-											["Putrid Alchemist"] = 760628,
-											["Infectious Stalker"] = 329276,
-											["Legion Venomretcher"] = 1294057,
-											["Spellstalker"] = 2383960,
-											["Blazing Imp"] = 1294055,
-											["Than'otalion"] = 2324691,
-											["Hungering Stalker"] = 329276,
-											["Battlesworn Nether-Mage"] = 329276,
-											["Cursed Pillager"] = 760627,
-											["Virulent Imp"] = 1191980,
-											["Legion Webspewer"] = 431352,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 7708354,
-										["n_min"] = 329276,
-										["g_dmg"] = 0,
-										["counter"] = 25,
-										["total"] = 11429178,
-										["c_max"] = 862705,
-										["id"] = 229737,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 658553,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 20,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[2643] = {
-										["c_amt"] = 68,
-										["b_amt"] = 0,
-										["c_dmg"] = 5970412,
-										["g_amt"] = 0,
-										["n_max"] = 55901,
-										["targets"] = {
-											["Infectious Stalker"] = 105137,
-											["Felguard Invader"] = 77919,
-											["Hungering Stalker"] = 210745,
-											["Spellstalker"] = 1169976,
-											["Than'otalion"] = 456585,
-											["Rotwing Ripper"] = 1688529,
-											["Putrid Alchemist"] = 578948,
-											["Felsworn Chaos Mage"] = 51038,
-											["Felbound Spirit"] = 164449,
-											["Blazing Imp"] = 1148435,
-											["Darkfiend Devourer"] = 91528,
-											["Cursed Pillager"] = 425834,
-											["Darkfire Fiend"] = 864229,
-											["Legion Venomretcher"] = 1160635,
-											["Battlesworn Nether-Mage"] = 51039,
-											["Dark Felshrieker"] = 878552,
-											["Virulent Imp"] = 1527242,
-											["Legion Webspewer"] = 1520619,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 6201027,
-										["n_min"] = 38959,
-										["g_dmg"] = 0,
-										["counter"] = 207,
-										["total"] = 12171439,
-										["c_max"] = 108548,
-										["id"] = 2643,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 77919,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 139,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[235999] = {
-										["c_amt"] = 23,
-										["b_amt"] = 0,
-										["c_dmg"] = 19305719,
+										["c_dmg"] = 815565,
 										["g_amt"] = 0,
 										["n_max"] = 0,
 										["targets"] = {
-											["Putrid Alchemist"] = 1680633,
-											["Felguard Invader"] = 1658014,
-											["Legion Venomretcher"] = 3387087,
-											["Spellstalker"] = 1666106,
-											["Darkfiend Devourer"] = 848922,
-											["Than'otalion"] = 880513,
-											["Wrathguard"] = 878448,
-											["Cursed Pillager"] = 811904,
-											["Rotwing Ripper"] = 2506756,
-											["Battlesworn Nether-Mage"] = 848584,
-											["Dark Felshrieker"] = 1628556,
-											["Virulent Imp"] = 863506,
-											["Legion Webspewer"] = 1646690,
+											["Cliffclutch Thornwitch"] = 815565,
 										},
 										["m_dmg"] = 0,
 										["n_dmg"] = 0,
 										["n_min"] = 0,
 										["g_dmg"] = 0,
-										["counter"] = 23,
-										["total"] = 19305719,
-										["c_max"] = 880513,
+										["counter"] = 1,
+										["total"] = 815565,
+										["c_max"] = 815565,
 										["id"] = 235999,
 										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
+										["c_min"] = 815565,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
+										["a_amt"] = 0,
 										["m_amt"] = 0,
-										["c_min"] = 799771,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["a_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[193455] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 166672,
+										["targets"] = {
+											["Feral Scavenger"] = 166672,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 166672,
+										["n_min"] = 166672,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 166672,
+										["c_max"] = 0,
+										["id"] = 193455,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
 										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[75] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 58840,
+										["g_amt"] = 0,
+										["n_max"] = 29420,
+										["targets"] = {
+											["Cliffclutch Thornwitch"] = 29420,
+											["Feral Scavenger"] = 88260,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 58840,
+										["n_min"] = 29420,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 117680,
+										["c_max"] = 58840,
+										["id"] = 75,
+										["r_dmg"] = 0,
+										["c_min"] = 58840,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[194392] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 71479,
+										["g_amt"] = 0,
+										["n_max"] = 35739,
+										["targets"] = {
+											["Cliffclutch Thornwitch"] = 71479,
+											["Feral Scavenger"] = 71478,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 71478,
+										["n_min"] = 35739,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 142957,
+										["c_max"] = 71479,
+										["id"] = 194392,
+										["r_dmg"] = 0,
+										["c_min"] = 71479,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["tipo"] = 1,
+							["end_time"] = 1491240918,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1490993768,
-							["damage_taken"] = 3067746.001,
-							["start_time"] = 1490993470,
-							["delay"] = 0,
-							["classe"] = "HUNTER",
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1491240909,
+							["serial"] = "Player-3693-092AD332",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 8465,
 							["damage_from"] = {
-								["Battlesworn Nether-Mage"] = true,
-								["Infectious Stalker"] = true,
-								["Blazing Imp"] = true,
+								["Cliffclutch Thornwitch"] = true,
 							},
 							["targets"] = {
-								["Infectious Stalker"] = 963231,
-								["Shadowy Illusion <[*] Shadow Illusion>"] = 231394,
-								["Felguard Invader"] = 679373,
-								["Darkfiend Devourer"] = 461127,
-								["Spellstalker"] = 1937536,
-								["Than'otalion"] = 3346795,
-								["Rotwing Ripper"] = 2592528,
-								["Putrid Alchemist"] = 1331840,
-								["Felsworn Chaos Mage"] = 190362,
-								["Felbound Spirit"] = 39714,
-								["Hungering Stalker"] = 196072,
-								["Cursed Pillager"] = 833961,
-								["Blazing Imp"] = 2824370,
-								["Legion Venomretcher"] = 2692257,
-								["Wrathguard"] = 126712,
-								["Darkfire Fiend"] = 1966449,
-								["Debilitating Eye"] = 196073,
-								["Battlesworn Nether-Mage"] = 416978,
-								["Dark Felshrieker"] = 1667930,
-								["Virulent Imp"] = 1395982,
-								["Legion Webspewer"] = 2356860,
+								["Cliffclutch Thornwitch"] = 55088,
+								["Feral Scavenger"] = 212784,
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 1380.001312,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 26447544.003013,
-							["classe"] = "PET",
+							["total_without_pet"] = 267872.001312,
+							["last_event"] = 1491240916,
 							["dps_started"] = false,
-							["total"] = 26447544.003013,
-							["serial"] = "Creature-0-3778-1220-12524-113344-00005EC146",
+							["total"] = 267872.001312,
+							["delay"] = 0,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Hati <Laurannah>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 55089,
+										["g_amt"] = 0,
+										["n_max"] = 27545,
+										["targets"] = {
+											["Cliffclutch Thornwitch"] = 55088,
+											["Feral Scavenger"] = 82634,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 82633,
+										["n_min"] = 27544,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 137722,
+										["c_max"] = 55089,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_min"] = 55089,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+									[83381] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 86767,
+										["targets"] = {
+											["Feral Scavenger"] = 86767,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 86767,
+										["n_min"] = 86767,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 86767,
+										["c_max"] = 0,
+										["id"] = 83381,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[197163] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 43383,
+										["targets"] = {
+											["Feral Scavenger"] = 43383,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 43383,
+										["n_min"] = 43383,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 43383,
+										["c_max"] = 0,
+										["id"] = 197163,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1491240918,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1491240909,
+							["serial"] = "Creature-0-3019-1220-22446-106551-00006286B7",
+							["classe"] = "PET",
+						}, -- [2]
+						{
+							["flag_original"] = 8465,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Cliffclutch Thornwitch"] = 234734,
+								["Feral Scavenger"] = 75112,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 0.001219,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 309846.001219,
+							["last_event"] = 1491240917,
+							["dps_started"] = false,
+							["total"] = 309846.001219,
+							["delay"] = 0,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Beast <Laurannah>",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
-										["c_amt"] = 25,
+										["c_amt"] = 0,
 										["b_amt"] = 0,
-										["c_dmg"] = 1840039,
+										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 39714,
+										["n_max"] = 37557,
 										["targets"] = {
-											["Putrid Alchemist"] = 253811,
-											["Felbound Spirit"] = 39714,
-											["Cursed Pillager"] = 72517,
-											["Felguard Invader"] = 72518,
-											["Legion Venomretcher"] = 217554,
-											["Darkfiend Devourer"] = 74693,
-											["Spellstalker"] = 115671,
-											["Blazing Imp"] = 192787,
-											["Than'otalion"] = 1426052,
-											["Wrathguard"] = 36259,
-											["Darkfire Fiend"] = 347013,
-											["Rotwing Ripper"] = 688915,
-											["Battlesworn Nether-Mage"] = 36258,
-											["Dark Felshrieker"] = 145036,
-											["Virulent Imp"] = 253812,
-											["Legion Webspewer"] = 72518,
+											["Cliffclutch Thornwitch"] = 37557,
+											["Feral Scavenger"] = 75112,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 2205089,
-										["n_min"] = 36258,
+										["n_dmg"] = 112669,
+										["n_min"] = 37556,
 										["g_dmg"] = 0,
-										["counter"] = 85,
-										["total"] = 4045128,
-										["c_max"] = 77115,
+										["counter"] = 3,
+										["total"] = 112669,
+										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
+										["a_amt"] = 0,
 										["m_amt"] = 0,
-										["c_min"] = 72518,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 60,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									}, -- [1]
 									[201754] = {
-										["c_amt"] = 20,
+										["c_amt"] = 0,
 										["b_amt"] = 0,
-										["c_dmg"] = 7770700,
+										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 231394,
+										["n_max"] = 197177,
 										["targets"] = {
-											["Infectious Stalker"] = 963231,
-											["Shadowy Illusion <[*] Shadow Illusion>"] = 231394,
-											["Felguard Invader"] = 380724,
-											["Darkfiend Devourer"] = 386434,
-											["Spellstalker"] = 1821865,
-											["Than'otalion"] = 1920743,
-											["Rotwing Ripper"] = 1903613,
-											["Putrid Alchemist"] = 761444,
-											["Felsworn Chaos Mage"] = 190362,
-											["Hungering Stalker"] = 196072,
-											["Blazing Imp"] = 2631583,
-											["Cursed Pillager"] = 761444,
-											["Legion Venomretcher"] = 2474703,
-											["Darkfire Fiend"] = 1619436,
-											["Debilitating Eye"] = 196073,
-											["Battlesworn Nether-Mage"] = 380720,
-											["Dark Felshrieker"] = 1522894,
-											["Virulent Imp"] = 1142170,
-											["Legion Webspewer"] = 2284342,
+											["Cliffclutch Thornwitch"] = 197177,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 13998547,
-										["n_min"] = 190360,
+										["n_dmg"] = 197177,
+										["n_min"] = 197177,
 										["g_dmg"] = 0,
-										["counter"] = 92,
-										["total"] = 21769247,
-										["c_max"] = 404859,
+										["counter"] = 1,
+										["total"] = 197177,
+										["c_max"] = 0,
 										["id"] = 201754,
 										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
 										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 380723,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 72,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[207097] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 271358,
-										["g_amt"] = 0,
-										["n_max"] = 45227,
-										["targets"] = {
-											["Putrid Alchemist"] = 316585,
-											["Wrathguard"] = 90453,
-											["Felguard Invader"] = 226131,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 361811,
-										["n_min"] = 45226,
-										["g_dmg"] = 0,
-										["counter"] = 11,
-										["total"] = 633169,
-										["c_max"] = 90453,
-										["id"] = 207097,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 90452,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 8,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["end_time"] = 1490993769,
-							["tipo"] = 1,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1490993767,
-							["damage_taken"] = 130290.003013,
-							["start_time"] = 1490993581,
-							["delay"] = 1490993731,
 							["friendlyfire"] = {
 							},
-						}, -- [2]
+							["end_time"] = 1491240918,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1491240909,
+							["serial"] = "Creature-0-3019-1220-22446-113346-00006287D8",
+							["classe"] = "PET",
+						}, -- [3]
 						{
 							["flag_original"] = 4369,
 							["damage_from"] = {
-								["Putrid Alchemist"] = true,
-								["Legion Venomretcher"] = true,
-								["Spellstalker"] = true,
-								["Blazing Imp"] = true,
-								["Than'otalion"] = true,
-								["Eredar Overseer"] = true,
-								["Darkfire Fiend"] = true,
-								["Rotwing Ripper"] = true,
-								["Virulent Imp"] = true,
-								["Felbound Spirit"] = true,
-								["Cursed Pillager"] = true,
-								["Legion Webspewer"] = true,
+								["Feral Scavenger"] = true,
 							},
 							["targets"] = {
-								["Legion Painmaiden"] = 176547,
-								["Felguard Invader"] = 556900,
-								["Legion Venomretcher"] = 3062129,
-								["Spellstalker"] = 2771533,
-								["Than'otalion"] = 9229407,
-								["Rotwing Ripper"] = 6931352,
-								["Putrid Alchemist"] = 3845352,
-								["Eredar Overseer"] = 682060,
-								["Felbound Spirit"] = 1597630,
-								["Cursed Pillager"] = 2685754,
-								["Hungering Stalker"] = 149131,
-								["Blazing Imp"] = 4606341,
-								["Infectious Stalker"] = 204135,
-								["Wrathguard"] = 627125,
-								["Darkfire Fiend"] = 3266073,
-								["Debilitating Eye"] = 299977,
-								["Battlesworn Nether-Mage"] = 23765,
-								["Dark Felshrieker"] = 3111245,
-								["Virulent Imp"] = 5117668,
-								["Legion Webspewer"] = 4850306,
+								["Cliffclutch Thornwitch"] = 46893,
+								["Feral Scavenger"] = 699522,
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 32399.003187,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 53794430.00483,
-							["classe"] = "PET",
+							["total_without_pet"] = 746415.003187,
+							["last_event"] = 1491240917,
 							["dps_started"] = false,
-							["total"] = 53794430.00483,
-							["serial"] = "Pet-0-3778-1220-12524-11673-090283DFC8",
+							["total"] = 746415.003187,
+							["delay"] = 0,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Corey <Laurannah>",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
-										["c_amt"] = 47,
-										["b_amt"] = 0,
-										["c_dmg"] = 2360702,
-										["g_amt"] = 0,
-										["n_max"] = 30924,
-										["targets"] = {
-											["Putrid Alchemist"] = 507459,
-											["Eredar Overseer"] = 29080,
-											["Felguard Invader"] = 22198,
-											["Felbound Spirit"] = 128181,
-											["Cursed Pillager"] = 221988,
-											["Spellstalker"] = 200654,
-											["Blazing Imp"] = 118029,
-											["Than'otalion"] = 1345415,
-											["Wrathguard"] = 88795,
-											["Darkfire Fiend"] = 234412,
-											["Rotwing Ripper"] = 916139,
-											["Legion Venomretcher"] = 176039,
-											["Dark Felshrieker"] = 88793,
-											["Virulent Imp"] = 386482,
-											["Legion Webspewer"] = 146958,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2249920,
-										["n_min"] = 22198,
-										["g_dmg"] = 0,
-										["counter"] = 138,
-										["total"] = 4610622,
-										["c_max"] = 61848,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 44397,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 91,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[207097] = {
-										["c_amt"] = 12,
-										["b_amt"] = 0,
-										["c_dmg"] = 698919,
-										["g_amt"] = 0,
-										["n_max"] = 36276,
-										["targets"] = {
-											["Putrid Alchemist"] = 274975,
-											["Wrathguard"] = 83073,
-											["Rotwing Ripper"] = 362751,
-											["Than'otalion"] = 581506,
-											["Felguard Invader"] = 138452,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 741838,
-										["n_min"] = 27690,
-										["g_dmg"] = 0,
-										["counter"] = 36,
-										["total"] = 1440757,
-										["c_max"] = 72551,
-										["id"] = 207097,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 55381,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 24,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[118459] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 242611,
+										["n_max"] = 22993,
 										["targets"] = {
-											["Legion Painmaiden"] = 176547,
-											["Felguard Invader"] = 241200,
-											["Legion Venomretcher"] = 2476957,
-											["Spellstalker"] = 2020770,
-											["Rotwing Ripper"] = 3626917,
-											["Putrid Alchemist"] = 1005058,
-											["Felbound Spirit"] = 358055,
-											["Infectious Stalker"] = 181061,
-											["Blazing Imp"] = 3137280,
-											["Cursed Pillager"] = 1582182,
-											["Wrathguard"] = 432183,
-											["Darkfire Fiend"] = 2541961,
-											["Debilitating Eye"] = 268845,
-											["Hungering Stalker"] = 79219,
-											["Dark Felshrieker"] = 2533820,
-											["Virulent Imp"] = 2887718,
-											["Legion Webspewer"] = 4137090,
+											["Cliffclutch Thornwitch"] = 22993,
+											["Feral Scavenger"] = 45986,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 27686863,
-										["n_min"] = 24095,
-										["g_dmg"] = 0,
-										["counter"] = 428,
-										["total"] = 27686863,
-										["c_max"] = 0,
-										["id"] = 118459,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 428,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[83381] = {
-										["c_amt"] = 6,
-										["b_amt"] = 0,
-										["c_dmg"] = 3301758,
-										["g_amt"] = 0,
-										["n_max"] = 351154,
-										["targets"] = {
-											["Putrid Alchemist"] = 536114,
-											["Eredar Overseer"] = 351154,
-											["Rotwing Ripper"] = 268056,
-											["Felbound Spirit"] = 587204,
-											["Than'otalion"] = 3307818,
-											["Virulent Imp"] = 351154,
-											["Blazing Imp"] = 570100,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2669842,
-										["n_min"] = 268056,
-										["g_dmg"] = 0,
-										["counter"] = 15,
-										["total"] = 5971600,
-										["c_max"] = 587204,
-										["id"] = 83381,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 536112,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 9,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[53148] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Than'otalion"] = 0,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
+										["n_dmg"] = 68979,
+										["n_min"] = 22993,
 										["g_dmg"] = 0,
 										["counter"] = 3,
+										["total"] = 68979,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+									[63900] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 23900,
+										["targets"] = {
+											["Cliffclutch Thornwitch"] = 23900,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 23900,
+										["n_min"] = 23900,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 23900,
+										["c_max"] = 0,
+										["id"] = 63900,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+									[197163] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 138828,
+										["targets"] = {
+											["Feral Scavenger"] = 138828,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 138828,
+										["n_min"] = 138828,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 138828,
+										["c_max"] = 0,
+										["id"] = 197163,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+									[83381] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 277655,
+										["targets"] = {
+											["Feral Scavenger"] = 277655,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 277655,
+										["n_min"] = 277655,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 277655,
+										["c_max"] = 0,
+										["id"] = 83381,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[17253] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 158662,
+										["g_amt"] = 0,
+										["n_max"] = 78391,
+										["targets"] = {
+											["Feral Scavenger"] = 237053,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 78391,
+										["n_min"] = 78391,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 237053,
+										["c_max"] = 158662,
+										["id"] = 17253,
+										["r_dmg"] = 0,
+										["c_min"] = 158662,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1491240918,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1491240910,
+							["serial"] = "Pet-0-3019-1220-22446-11673-080283DFC8",
+							["classe"] = "PET",
+						}, -- [4]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 601,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorb"] = 0.005531,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["Laurannah"] = true,
+							},
+							["targets"] = {
+								["Corey <Laurannah>"] = 11198,
+								["Hati <Laurannah>"] = 2272,
+								["Laurannah"] = 74563,
+							},
+							["pets"] = {
+								"Corey <Laurannah>", -- [1]
+								"Hati <Laurannah>", -- [2]
+								"Beast <Laurannah>", -- [3]
+							},
+							["totalover_without_pet"] = 0.005531,
+							["targets_overheal"] = {
+							},
+							["classe"] = "HUNTER",
+							["totalover"] = 5402.005531,
+							["total_without_pet"] = 74563.005531,
+							["healing_taken"] = 74563.005531,
+							["iniciar_hps"] = false,
+							["fight_component"] = true,
+							["total"] = 87141.005531,
+							["heal_enemy_amt"] = 0,
+							["delay"] = 0,
+							["nome"] = "Laurannah",
+							["targets_absorbs"] = {
+							},
+							["grupo"] = true,
+							["end_time"] = 1491240918,
+							["heal_enemy"] = {
+							},
+							["spells"] = {
+								["_ActorTable"] = {
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 13528,
+										["targets"] = {
+											["Laurannah"] = 19899,
+										},
+										["n_min"] = 471,
+										["counter"] = 6,
+										["overheal"] = 0,
+										["total"] = 19899,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 6,
+										["m_healed"] = 0,
+										["n_curado"] = 19899,
+										["c_min"] = 0,
+										["absorbed"] = 0,
+									},
+									[197205] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 41648,
+										["targets"] = {
+											["Laurannah"] = 54664,
+										},
+										["n_min"] = 13016,
+										["counter"] = 2,
+										["overheal"] = 0,
+										["total"] = 54664,
+										["c_max"] = 0,
+										["id"] = 197205,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 2,
+										["m_healed"] = 0,
+										["n_curado"] = 54664,
+										["c_min"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["start_time"] = 1491240909,
+							["serial"] = "Player-3693-092AD332",
+							["last_event"] = 1491240918,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorb"] = 0.005453,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["Corey <Laurannah>"] = true,
+							},
+							["targets"] = {
+								["Corey <Laurannah>"] = 11198,
+							},
+							["targets_absorbs"] = {
+							},
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.005453,
+							["targets_overheal"] = {
+								["Corey <Laurannah>"] = 751,
+							},
+							["healing_taken"] = 11198.005453,
+							["totalover"] = 751.005453,
+							["total_without_pet"] = 11198.005453,
+							["iniciar_hps"] = false,
+							["fight_component"] = true,
+							["total"] = 11198.005453,
+							["heal_enemy_amt"] = 0,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Corey <Laurannah>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Corey <Laurannah>"] = 751,
+										},
+										["n_max"] = 11198,
+										["targets"] = {
+											["Corey <Laurannah>"] = 11198,
+										},
+										["n_min"] = 11198,
+										["counter"] = 2,
+										["overheal"] = 751,
+										["total"] = 11198,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 2,
+										["m_healed"] = 0,
+										["n_curado"] = 11198,
+										["c_min"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["classe"] = "PET",
+							["end_time"] = 1491240918,
+							["heal_enemy"] = {
+							},
+							["delay"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1491240917,
+							["on_hold"] = false,
+							["start_time"] = 1491240912,
+							["serial"] = "Pet-0-3019-1220-22446-11673-080283DFC8",
+							["tipo"] = 2,
+						}, -- [2]
+						{
+							["flag_original"] = 8465,
+							["totalabsorb"] = 0.00585,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["Hati <Laurannah>"] = true,
+							},
+							["targets"] = {
+								["Hati <Laurannah>"] = 2272,
+							},
+							["targets_absorbs"] = {
+							},
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.00585,
+							["targets_overheal"] = {
+								["Hati <Laurannah>"] = 892,
+							},
+							["healing_taken"] = 1380.00585,
+							["totalover"] = 892.00585,
+							["total_without_pet"] = 1380.00585,
+							["iniciar_hps"] = false,
+							["fight_component"] = true,
+							["total"] = 1380.00585,
+							["heal_enemy_amt"] = 0,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Hati <Laurannah>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Hati <Laurannah>"] = 892,
+										},
+										["n_max"] = 1380,
+										["targets"] = {
+											["Hati <Laurannah>"] = 1380,
+										},
+										["n_min"] = 1380,
+										["counter"] = 1,
+										["overheal"] = 892,
+										["total"] = 1380,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 1,
+										["m_healed"] = 0,
+										["n_curado"] = 1380,
+										["c_min"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["classe"] = "PET",
+							["end_time"] = 1491240918,
+							["heal_enemy"] = {
+							},
+							["delay"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1491240913,
+							["on_hold"] = false,
+							["start_time"] = 1491240913,
+							["serial"] = "Creature-0-3019-1220-22446-106551-00006286B7",
+							["tipo"] = 2,
+						}, -- [3]
+						{
+							["flag_original"] = 8465,
+							["totalabsorb"] = 0.00883,
+							["last_hps"] = 0,
+							["targets_overheal"] = {
+								["Beast <Laurannah>"] = 3759,
+							},
+							["heal_enemy_amt"] = 0,
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["healing_from"] = {
+							},
+							["healing_taken"] = 0.00883,
+							["totalover"] = 3759.00883,
+							["total_without_pet"] = 0.00883,
+							["serial"] = "Creature-0-3019-1220-22446-113346-00006287D8",
+							["totalover_without_pet"] = 0.00883,
+							["total"] = 0.00883,
+							["end_time"] = 1491240918,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Beast <Laurannah>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Beast <Laurannah>"] = 3759,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Beast <Laurannah>"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 1,
+										["overheal"] = 3759,
 										["total"] = 0,
 										["c_max"] = 0,
-										["IMMUNE"] = 3,
-										["id"] = 53148,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["b_dmg"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
 										["m_crit"] = 0,
-										["a_amt"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 1,
+										["m_healed"] = 0,
+										["n_curado"] = 0,
 										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["m_amt"] = 0,
-										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["r_amt"] = 0,
-									},
-									[160124] = {
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 238689,
-										["g_amt"] = 0,
-										["n_max"] = 36276,
-										["targets"] = {
-											["Putrid Alchemist"] = 127919,
-											["Than'otalion"] = 55381,
-											["Cursed Pillager"] = 155619,
-											["Virulent Imp"] = 36276,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 136506,
-										["n_min"] = 27688,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 375195,
-										["c_max"] = 72542,
-										["id"] = 160124,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 55377,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[17253] = {
-										["c_amt"] = 18,
-										["b_amt"] = 0,
-										["c_dmg"] = 3168685,
-										["g_amt"] = 0,
-										["n_max"] = 129291,
-										["targets"] = {
-											["Putrid Alchemist"] = 843349,
-											["Felguard Invader"] = 85830,
-											["Legion Venomretcher"] = 180012,
-											["Eredar Overseer"] = 126249,
-											["Spellstalker"] = 319376,
-											["Blazing Imp"] = 129248,
-											["Than'otalion"] = 2715856,
-											["Cursed Pillager"] = 564453,
-											["Darkfire Fiend"] = 313883,
-											["Rotwing Ripper"] = 1322323,
-											["Felbound Spirit"] = 423361,
-											["Dark Felshrieker"] = 259514,
-											["Virulent Imp"] = 769154,
-											["Legion Webspewer"] = 275068,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 5158991,
-										["n_min"] = 36605,
-										["g_dmg"] = 0,
-										["counter"] = 75,
-										["total"] = 8327676,
-										["c_max"] = 272242,
-										["id"] = 17253,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 81148,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 57,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[197163] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 285050,
-										["targets"] = {
-											["Putrid Alchemist"] = 268057,
-											["Eredar Overseer"] = 175577,
-											["Than'otalion"] = 1076246,
-											["Virulent Imp"] = 175577,
-											["Blazing Imp"] = 285050,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1980507,
-										["n_min"] = 134028,
-										["g_dmg"] = 0,
-										["counter"] = 10,
-										["total"] = 1980507,
-										["c_max"] = 0,
-										["id"] = 197163,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 10,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[63900] = {
-										["c_amt"] = 32,
-										["b_amt"] = 0,
-										["c_dmg"] = 1593919,
-										["g_amt"] = 0,
-										["n_max"] = 31132,
-										["targets"] = {
-											["Infectious Stalker"] = 23074,
-											["Felguard Invader"] = 69220,
-											["Legion Venomretcher"] = 229121,
-											["Spellstalker"] = 230733,
-											["Than'otalion"] = 147185,
-											["Rotwing Ripper"] = 435166,
-											["Putrid Alchemist"] = 282421,
-											["Felbound Spirit"] = 100829,
-											["Hungering Stalker"] = 69912,
-											["Blazing Imp"] = 366634,
-											["Cursed Pillager"] = 161512,
-											["Wrathguard"] = 23074,
-											["Darkfire Fiend"] = 175817,
-											["Debilitating Eye"] = 31132,
-											["Battlesworn Nether-Mage"] = 23765,
-											["Dark Felshrieker"] = 229118,
-											["Virulent Imp"] = 511307,
-											["Legion Webspewer"] = 291190,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1807291,
-										["n_min"] = 23072,
-										["g_dmg"] = 0,
-										["counter"] = 103,
-										["total"] = 3401210,
-										["c_max"] = 60453,
-										["id"] = 63900,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 46147,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 71,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["absorbed"] = 0,
 									},
 								},
-								["tipo"] = 2,
+								["tipo"] = 3,
 							},
-							["end_time"] = 1490993769,
-							["tipo"] = 1,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1490993768,
-							["damage_taken"] = 9150528.00483,
-							["start_time"] = 1490993493,
-							["delay"] = 1490993733,
-							["friendlyfire"] = {
-							},
-						}, -- [3]
-						{
-							["flag_original"] = 8465,
-							["damage_from"] = {
-								["Battlesworn Nether-Mage"] = true,
-								["Infectious Stalker"] = true,
-								["Darkfire Fiend"] = true,
-								["Rotwing Ripper"] = true,
-								["Darkfiend Devourer"] = true,
-								["Dark Felshrieker"] = true,
-								["Virulent Imp"] = true,
-								["Blazing Imp"] = true,
-							},
-							["targets"] = {
-								["Legion Painmaiden"] = 177592,
-								["Felguard Invader"] = 340173,
-								["Legion Venomretcher"] = 2146152,
-								["Spellstalker"] = 1776861,
-								["Than'otalion"] = 3164514,
-								["Rotwing Ripper"] = 4151744,
-								["Putrid Alchemist"] = 1818300,
-								["Eredar Overseer"] = 234277,
-								["Felbound Spirit"] = 410202,
-								["Cursed Pillager"] = 1550879,
-								["Darkfiend Devourer"] = 251816,
-								["Blazing Imp"] = 2697848,
-								["Infectious Stalker"] = 160182,
-								["Wrathguard"] = 417068,
-								["Darkfire Fiend"] = 2195003,
-								["Debilitating Eye"] = 178366,
-								["Hungering Stalker"] = 127818,
-								["Dark Felshrieker"] = 1887438,
-								["Virulent Imp"] = 2682180,
-								["Legion Webspewer"] = 3145178,
-							},
-							["pets"] = {
-							},
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 29513591.002344,
 							["classe"] = "PET",
-							["dps_started"] = false,
-							["total"] = 29513591.002344,
-							["serial"] = "Creature-0-3778-1220-12524-106551-00005EC0B6",
-							["ownerName"] = "Laurannah",
-							["nome"] = "Hati <Laurannah>",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 44,
-										["b_amt"] = 0,
-										["c_dmg"] = 2630456,
-										["g_amt"] = 0,
-										["n_max"] = 35882,
-										["targets"] = {
-											["Putrid Alchemist"] = 591416,
-											["Eredar Overseer"] = 69673,
-											["Felguard Invader"] = 26593,
-											["Felbound Spirit"] = 74090,
-											["Cursed Pillager"] = 239331,
-											["Spellstalker"] = 226227,
-											["Blazing Imp"] = 113112,
-											["Than'otalion"] = 1778872,
-											["Wrathguard"] = 26592,
-											["Darkfire Fiend"] = 158924,
-											["Rotwing Ripper"] = 966369,
-											["Legion Venomretcher"] = 157694,
-											["Dark Felshrieker"] = 106369,
-											["Virulent Imp"] = 401544,
-											["Legion Webspewer"] = 176044,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2482394,
-										["n_min"] = 26592,
-										["g_dmg"] = 0,
-										["counter"] = 128,
-										["total"] = 5112850,
-										["c_max"] = 74090,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 53185,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 84,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[207097] = {
-										["c_amt"] = 6,
-										["b_amt"] = 0,
-										["c_dmg"] = 439176,
-										["g_amt"] = 0,
-										["n_max"] = 43452,
-										["targets"] = {
-											["Putrid Alchemist"] = 329375,
-											["Wrathguard"] = 66338,
-											["Rotwing Ripper"] = 434524,
-											["Than'otalion"] = 563885,
-											["Felguard Invader"] = 132681,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1087627,
-										["n_min"] = 33169,
-										["g_dmg"] = 0,
-										["counter"] = 36,
-										["total"] = 1526803,
-										["c_max"] = 86906,
-										["id"] = 207097,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 66341,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 30,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[118459] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 181958,
-										["targets"] = {
-											["Legion Painmaiden"] = 177592,
-											["Felguard Invader"] = 180899,
-											["Legion Venomretcher"] = 1988458,
-											["Spellstalker"] = 1550634,
-											["Rotwing Ripper"] = 2499548,
-											["Putrid Alchemist"] = 771858,
-											["Felbound Spirit"] = 152611,
-											["Hungering Stalker"] = 127818,
-											["Cursed Pillager"] = 1311548,
-											["Blazing Imp"] = 2406579,
-											["Darkfiend Devourer"] = 251816,
-											["Wrathguard"] = 324138,
-											["Darkfire Fiend"] = 2036079,
-											["Debilitating Eye"] = 178366,
-											["Infectious Stalker"] = 160182,
-											["Dark Felshrieker"] = 1781069,
-											["Virulent Imp"] = 2170902,
-											["Legion Webspewer"] = 2969134,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 21039231,
-										["n_min"] = 18071,
-										["g_dmg"] = 0,
-										["counter"] = 437,
-										["total"] = 21039231,
-										["c_max"] = 0,
-										["id"] = 118459,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 437,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[83381] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 529193,
-										["g_amt"] = 0,
-										["n_max"] = 109736,
-										["targets"] = {
-											["Putrid Alchemist"] = 83768,
-											["Eredar Overseer"] = 109736,
-											["Rotwing Ripper"] = 167535,
-											["Felbound Spirit"] = 183501,
-											["Than'otalion"] = 696107,
-											["Virulent Imp"] = 109734,
-											["Blazing Imp"] = 178157,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 999345,
-										["n_min"] = 83767,
-										["g_dmg"] = 0,
-										["counter"] = 14,
-										["total"] = 1528538,
-										["c_max"] = 183501,
-										["id"] = 83381,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 167535,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 11,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[197163] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 83768,
-										["targets"] = {
-											["Putrid Alchemist"] = 41883,
-											["Eredar Overseer"] = 54868,
-											["Than'otalion"] = 125650,
-											["Rotwing Ripper"] = 83768,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 306169,
-										["n_min"] = 41883,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 306169,
-										["c_max"] = 0,
-										["id"] = 197163,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 6,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
+							["heal_enemy"] = {
 							},
-							["end_time"] = 1490993769,
-							["tipo"] = 1,
-							["last_dps"] = 0,
+							["targets_absorbs"] = {
+							},
 							["custom"] = 0,
-							["last_event"] = 1490993768,
-							["damage_taken"] = 379036.002344,
-							["start_time"] = 1490993501,
-							["delay"] = 1490993662,
-							["friendlyfire"] = {
-							},
+							["last_event"] = 1491240914,
+							["on_hold"] = false,
+							["start_time"] = 1491240914,
+							["delay"] = 0,
+							["tipo"] = 2,
 						}, -- [4]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 425,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorb"] = 0.006152,
-							["last_hps"] = 0,
-							["healing_from"] = {
-								["Laurannah"] = true,
-							},
-							["targets"] = {
-								["Corey <Laurannah>"] = 7257373,
-								["Laurannah"] = 2012722,
-								["Hati <Laurannah>"] = 843880,
-							},
-							["pets"] = {
-								"Corey <Laurannah>", -- [1]
-								"Hati <Laurannah>", -- [2]
-							},
-							["totalover_without_pet"] = 0.006152,
-							["targets_overheal"] = {
-								["Corey <Laurannah>"] = 4199327,
-								["Hati <Laurannah>"] = 2934851,
-								["Laurannah"] = 21958,
-							},
-							["heal_enemy_amt"] = 0,
-							["totalover"] = 7156136.006152,
-							["total_without_pet"] = 6645183.006152,
-							["classe"] = "HUNTER",
-							["iniciar_hps"] = false,
-							["fight_component"] = true,
-							["total"] = 6645183.006152,
-							["healing_taken"] = 2007225.006152,
-							["serial"] = "Player-3693-092AD332",
-							["nome"] = "Laurannah",
-							["targets_absorbs"] = {
-							},
-							["grupo"] = true,
-							["end_time"] = 1490993769,
-							["heal_enemy"] = {
-							},
-							["last_event"] = 1490993766,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["on_hold"] = false,
-							["start_time"] = 1490993652,
-							["delay"] = 1490993703,
-							["spells"] = {
-								["_ActorTable"] = {
-									[128594] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Corey <Laurannah>"] = 2296568,
-										},
-										["n_max"] = 1078955,
-										["targets"] = {
-											["Corey <Laurannah>"] = 1078955,
-										},
-										["n_min"] = 1078955,
-										["counter"] = 1,
-										["overheal"] = 2296568,
-										["total"] = 1078955,
-										["c_max"] = 0,
-										["id"] = 128594,
-										["targets_absorbs"] = {
-										},
-										["m_crit"] = 0,
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["n_curado"] = 1078955,
-										["n_amt"] = 1,
-										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-									[214303] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Hati <Laurannah>"] = 2934851,
-										},
-										["n_max"] = 73988,
-										["targets"] = {
-											["Hati <Laurannah>"] = 229702,
-										},
-										["n_min"] = 4815,
-										["counter"] = 30,
-										["overheal"] = 2934851,
-										["total"] = 229702,
-										["c_max"] = 0,
-										["id"] = 214303,
-										["targets_absorbs"] = {
-										},
-										["m_crit"] = 0,
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["n_curado"] = 229702,
-										["n_amt"] = 30,
-										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-									[109304] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 904158,
-										["targets"] = {
-											["Laurannah"] = 904158,
-										},
-										["n_min"] = 904158,
-										["counter"] = 1,
-										["overheal"] = 0,
-										["total"] = 904158,
-										["c_max"] = 0,
-										["id"] = 109304,
-										["targets_absorbs"] = {
-										},
-										["m_crit"] = 0,
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["n_curado"] = 904158,
-										["n_amt"] = 1,
-										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-									[136] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Corey <Laurannah>"] = 1902759,
-										},
-										["n_max"] = 168777,
-										["targets"] = {
-											["Corey <Laurannah>"] = 3329301,
-										},
-										["n_min"] = 0,
-										["counter"] = 31,
-										["overheal"] = 1902759,
-										["total"] = 3329301,
-										["c_max"] = 0,
-										["id"] = 136,
-										["targets_absorbs"] = {
-										},
-										["m_crit"] = 0,
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["n_curado"] = 3329301,
-										["n_amt"] = 31,
-										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-									[197205] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Laurannah"] = 21958,
-										},
-										["n_max"] = 88081,
-										["targets"] = {
-											["Laurannah"] = 1103067,
-										},
-										["n_min"] = 12565,
-										["counter"] = 29,
-										["overheal"] = 21958,
-										["total"] = 1103067,
-										["c_max"] = 0,
-										["id"] = 197205,
-										["targets_absorbs"] = {
-										},
-										["m_crit"] = 0,
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["n_curado"] = 1103067,
-										["n_amt"] = 29,
-										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-								},
-								["tipo"] = 3,
-							},
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["totalabsorb"] = 0.007059,
-							["last_hps"] = 0,
-							["healing_from"] = {
-								["Laurannah"] = true,
-							},
-							["targets"] = {
-							},
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 3,
-							},
-							["pets"] = {
-							},
-							["totalover_without_pet"] = 0.007059,
-							["targets_overheal"] = {
-							},
-							["healing_taken"] = 4408256.007059,
-							["totalover"] = 0.007059,
-							["total_without_pet"] = 0.007059,
-							["iniciar_hps"] = false,
-							["fight_component"] = true,
-							["total"] = 0.007059,
-							["classe"] = "PET",
-							["ownerName"] = "Laurannah",
-							["nome"] = "Corey <Laurannah>",
-							["targets_absorbs"] = {
-							},
-							["serial"] = "Pet-0-3778-1220-12524-11673-090283DFC8",
-							["end_time"] = 1490993769,
-							["heal_enemy"] = {
-							},
-							["heal_enemy_amt"] = 0,
-							["custom"] = 0,
-							["last_event"] = 0,
-							["on_hold"] = false,
-							["start_time"] = 1490993769,
-							["delay"] = 0,
-							["tipo"] = 2,
-						}, -- [2]
-						{
-							["flag_original"] = 8465,
-							["totalabsorb"] = 0.007784,
-							["last_hps"] = 0,
-							["healing_from"] = {
-								["Laurannah"] = true,
-							},
-							["targets"] = {
-							},
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 3,
-							},
-							["pets"] = {
-							},
-							["totalover_without_pet"] = 0.007784,
-							["targets_overheal"] = {
-							},
-							["healing_taken"] = 229702.007784,
-							["totalover"] = 0.007784,
-							["total_without_pet"] = 0.007784,
-							["iniciar_hps"] = false,
-							["fight_component"] = true,
-							["total"] = 0.007784,
-							["classe"] = "PET",
-							["ownerName"] = "Laurannah",
-							["nome"] = "Hati <Laurannah>",
-							["targets_absorbs"] = {
-							},
-							["serial"] = "Creature-0-3778-1220-12524-106551-00005EC0B6",
-							["end_time"] = 1490993769,
-							["heal_enemy"] = {
-							},
-							["heal_enemy_amt"] = 0,
-							["custom"] = 0,
-							["last_event"] = 0,
-							["on_hold"] = false,
-							["start_time"] = 1490993769,
-							["delay"] = 0,
-							["tipo"] = 2,
-						}, -- [3]
 					},
 				}, -- [2]
 				{
 					["tipo"] = 7,
-					["combatId"] = 425,
-					["_ActorTable"] = {
-						{
-							["received"] = 425.005686,
-							["resource"] = 0.005686,
-							["targets"] = {
-								["Laurannah"] = 43,
-							},
-							["pets"] = {
-								"Beast <Laurannah>", -- [1]
-							},
-							["powertype"] = 0,
-							["classe"] = "HUNTER",
-							["fight_component"] = true,
-							["total"] = 425.005686,
-							["nome"] = "Laurannah",
-							["spells"] = {
-								["_ActorTable"] = {
-									[193530] = {
-										["id"] = 193530,
-										["total"] = 43,
-										["targets"] = {
-											["Laurannah"] = 43,
-										},
-										["counter"] = 5,
-									},
-								},
-								["tipo"] = 7,
-							},
-							["grupo"] = true,
-							["tipo"] = 3,
-							["flag_original"] = 1297,
-							["serial"] = "Player-3693-092AD332",
-							["last_event"] = 1490993693,
-						}, -- [1]
-						{
-							["received"] = 0.004324,
-							["resource"] = 0.004324,
-							["targets"] = {
-								["Laurannah"] = 382,
-							},
-							["pets"] = {
-							},
-							["powertype"] = 0,
-							["classe"] = "PET",
-							["total"] = 382.004324,
-							["ownerName"] = "Laurannah",
-							["nome"] = "Beast <Laurannah>",
-							["spells"] = {
-								["_ActorTable"] = {
-									[120694] = {
-										["id"] = 120694,
-										["total"] = 382,
-										["targets"] = {
-											["Laurannah"] = 382,
-										},
-										["counter"] = 65,
-									},
-								},
-								["tipo"] = 7,
-							},
-							["last_event"] = 1490993771,
-							["flag_original"] = 8465,
-							["serial"] = "Creature-0-3778-1220-12524-113344-00005EC146",
-							["tipo"] = 3,
-						}, -- [2]
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 425,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[120679] = {
-										["uptime"] = 105,
-										["activedamt"] = 0,
-										["id"] = 120679,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[225746] = {
-										["uptime"] = 34,
-										["activedamt"] = 0,
-										["id"] = 225746,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["buff_uptime"] = 1870,
-							["classe"] = "HUNTER",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[35079] = {
-										["uptime"] = 16,
-										["activedamt"] = 2,
-										["id"] = 35079,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[231390] = {
-										["uptime"] = 52,
-										["activedamt"] = 24,
-										["id"] = 231390,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[186258] = {
-										["uptime"] = 9,
-										["activedamt"] = 1,
-										["id"] = 186258,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[240640] = {
-										["uptime"] = 299,
-										["activedamt"] = 1,
-										["id"] = 240640,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[19574] = {
-										["uptime"] = 90,
-										["activedamt"] = 6,
-										["id"] = 19574,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[186406] = {
-										["uptime"] = 299,
-										["activedamt"] = 1,
-										["id"] = 186406,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[207068] = {
-										["uptime"] = 40,
-										["activedamt"] = 5,
-										["id"] = 207068,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[201430] = {
-										["uptime"] = 12,
-										["activedamt"] = 1,
-										["id"] = 201430,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[982] = {
-										["uptime"] = 3,
-										["activedamt"] = 1,
-										["id"] = 982,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[194386] = {
-										["uptime"] = 230,
-										["activedamt"] = 1,
-										["id"] = 194386,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[227723] = {
-										["uptime"] = 299,
-										["activedamt"] = 1,
-										["id"] = 227723,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[186257] = {
-										["uptime"] = 3,
-										["activedamt"] = 1,
-										["id"] = 186257,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[212704] = {
-										["uptime"] = 15,
-										["activedamt"] = 1,
-										["id"] = 212704,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[221332] = {
-										["uptime"] = 25,
-										["activedamt"] = 4,
-										["id"] = 221332,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[193530] = {
-										["uptime"] = 13,
-										["activedamt"] = 1,
-										["id"] = 193530,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[120694] = {
-										["uptime"] = 166,
-										["activedamt"] = 21,
-										["id"] = 120694,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[239939] = {
-										["uptime"] = 299,
-										["activedamt"] = 1,
-										["id"] = 239939,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 139,
-							["buff_uptime_targets"] = {
-							},
-							["grupo"] = true,
-							["spell_cast"] = {
-								[34026] = 15,
-								[224574] = 5,
-								[224578] = 5,
-								[883] = 1,
-								[19574] = 6,
-								[136] = 6,
-								[211148] = 2,
-								[224575] = 4,
-								[193455] = 3,
-								[207068] = 5,
-								[221332] = 4,
-								[34477] = 2,
-								[781] = 1,
-								[982] = 2,
-								[193530] = 1,
-								[109304] = 1,
-								[201430] = 1,
-								[186257] = 1,
-								[224577] = 4,
-								[84342] = 5,
-								[224576] = 3,
-								[2643] = 49,
-								[120679] = 21,
-							},
-							["nome"] = "Laurannah",
-							["tipo"] = 4,
-							["debuff_uptime_targets"] = {
-							},
-							["pets"] = {
-								"Beast <Laurannah>", -- [1]
-								"Corey <Laurannah>", -- [2]
-								"Hati <Laurannah>", -- [3]
-							},
-							["serial"] = "Player-3693-092AD332",
-							["last_event"] = 1490993771,
-						}, -- [1]
-						{
-							["flag_original"] = 8465,
-							["ownerName"] = "Laurannah",
-							["nome"] = "Beast <Laurannah>",
-							["pets"] = {
-							},
-							["last_event"] = 0,
-							["classe"] = "PET",
-							["tipo"] = 4,
-							["serial"] = "Creature-0-3778-1220-12524-113344-00005EC146",
-							["spell_cast"] = {
-								[201754] = 21,
-								[120694] = 21,
-								[221332] = 4,
-							},
-						}, -- [2]
-						{
-							["flag_original"] = 4369,
-							["ownerName"] = "Laurannah",
-							["nome"] = "Corey <Laurannah>",
-							["tipo"] = 4,
-							["spell_cast"] = {
-								[61685] = 5,
-								[221332] = 1,
-								[2649] = 34,
-								[63900] = 25,
-								[17253] = 75,
-							},
-							["fight_component"] = true,
-							["last_event"] = 0,
-							["classe"] = "PET",
-							["serial"] = "Pet-0-3778-1220-12524-11673-090283DFC8",
-							["pets"] = {
-							},
-						}, -- [3]
-						{
-							["flag_original"] = 8465,
-							["ownerName"] = "Laurannah",
-							["nome"] = "Hati <Laurannah>",
-							["tipo"] = 4,
-							["spell_cast"] = {
-								[221332] = 1,
-							},
-							["fight_component"] = true,
-							["last_event"] = 0,
-							["classe"] = "PET",
-							["serial"] = "Creature-0-3778-1220-12524-106551-00005EC213",
-							["pets"] = {
-							},
-						}, -- [4]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 425,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Laurannah"] = true,
-				},
-				["last_events_tables"] = {
-				},
-				["enemy"] = "Spellstalker",
-				["combat_counter"] = 1324,
-				["playing_solo"] = true,
-				["totals"] = {
-					186744871.648861, -- [1]
-					6645182.86798499, -- [2]
-					{
-						6, -- [1]
-						[0] = 993.9441,
-						[6] = 29,
-						[3] = -604.003384,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = -0.0222850000000001,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Laurannah"] = 6645183.006152,
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["Laurannah"] = 186744872.001,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 1412195.361,
-				["combat_id"] = 425,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["frags"] = {
-					["Legion Painmaiden"] = 2,
-					["Felguard Invader"] = 4,
-					["Legion Venomretcher"] = 14,
-					["Eredar Overseer"] = 4,
-					["Spellstalker"] = 16,
-					["Draining Eye"] = 1,
-					["Than'otalion"] = 1,
-					["Abhorrent Felwing"] = 3,
-					["Infectious Stalker"] = 5,
-					["Dark Ritualist"] = 1,
-					["Beaming Eye"] = 9,
-					["Sentinax Interrogator"] = 3,
-					["Shadowy Illusion"] = 4,
-					["Sentinax Observer"] = 3,
-					["Putrid Alchemist"] = 6,
-					["Glare"] = 3,
-					["Felsworn Chaos Mage"] = 8,
-					["Rotwing Ripper"] = 7,
-					["Felbound Spirit"] = 11,
-					["Darkfiend Devourer"] = 10,
-					["Cursed Pillager"] = 6,
-					["Blazing Imp"] = 16,
-					["Hungering Stalker"] = 3,
-					["Wrathguard"] = 4,
-					["Darkfire Fiend"] = 10,
-					["Debilitating Eye"] = 5,
-					["Battlesworn Nether-Mage"] = 11,
-					["Dark Felshrieker"] = 5,
-					["Virulent Imp"] = 16,
-					["Legion Webspewer"] = 22,
-				},
-				["data_fim"] = "16:56:09",
-				["contra"] = "Legion Venomretcher",
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					76989307, -- [1]
-					6645183, -- [2]
-					{
-						0, -- [1]
-						[0] = 43,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 1411895.989,
-				["TimeData"] = {
-				},
-				["data_inicio"] = "16:51:10",
-			}, -- [1]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 424,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1300,
-							["damage_from"] = {
-								["Felbound Spirit"] = true,
-							},
-							["targets"] = {
-								["Infectious Stalker"] = 816704,
-								["Dark Ritualist"] = 795235,
-								["Felbound Spirit"] = 4011007,
-								["Hungering Stalker"] = 4279382,
-								["Battlesworn Nether-Mage"] = 1741047,
-							},
-							["pets"] = {
-								"Corey <Laurannah>", -- [1]
-								"Hati <Laurannah>", -- [2]
-								"Beast <Laurannah>", -- [3]
-							},
-							["friendlyfire"] = {
-							},
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 3346929.004228,
-							["on_hold"] = false,
-							["dps_started"] = false,
-							["total"] = 11643375.004228,
-							["serial"] = "Player-3693-092AD332",
-							["end_time"] = 1490993447,
-							["nome"] = "Laurannah",
-							["spells"] = {
-								["_ActorTable"] = {
-									[194392] = {
-										["c_amt"] = 5,
-										["b_amt"] = 0,
-										["c_dmg"] = 433916,
-										["g_amt"] = 0,
-										["n_max"] = 46142,
-										["targets"] = {
-											["Infectious Stalker"] = 86782,
-											["Dark Ritualist"] = 92284,
-											["Battlesworn Nether-Mage"] = 260348,
-											["Felbound Spirit"] = 268601,
-											["Hungering Stalker"] = 390524,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 664623,
-										["n_min"] = 43391,
-										["g_dmg"] = 0,
-										["counter"] = 20,
-										["total"] = 1098539,
-										["c_max"] = 86784,
-										["id"] = 194392,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 86782,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 15,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[193455] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 804982,
-										["g_amt"] = 0,
-										["n_max"] = 214003,
-										["targets"] = {
-											["Felbound Spirit"] = 1018985,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 214003,
-										["n_min"] = 214003,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 1018985,
-										["c_max"] = 402493,
-										["id"] = 193455,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 402489,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[75] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 146632,
-										["g_amt"] = 0,
-										["n_max"] = 37784,
-										["targets"] = {
-											["Felbound Spirit"] = 222199,
-											["Hungering Stalker"] = 213188,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 288755,
-										["n_min"] = 35531,
-										["g_dmg"] = 0,
-										["counter"] = 10,
-										["total"] = 435387,
-										["c_max"] = 75569,
-										["id"] = 75,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 71063,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 8,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[2643] = {
-										["c_amt"] = 7,
-										["b_amt"] = 0,
-										["c_dmg"] = 555318,
-										["g_amt"] = 0,
-										["n_max"] = 41430,
-										["targets"] = {
-											["Infectious Stalker"] = 77919,
-											["Dark Ritualist"] = 124288,
-											["Battlesworn Nether-Mage"] = 116881,
-											["Hungering Stalker"] = 350640,
-											["Felbound Spirit"] = 124290,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 238700,
-										["n_min"] = 38960,
-										["g_dmg"] = 0,
-										["counter"] = 13,
-										["total"] = 794018,
-										["c_max"] = 82860,
-										["id"] = 2643,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 77919,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 6,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["grupo"] = true,
-							["tipo"] = 1,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1490993446,
-							["damage_taken"] = 205993.004228,
-							["start_time"] = 1490993410,
-							["delay"] = 0,
-							["classe"] = "HUNTER",
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["damage_from"] = {
-								["Felbound Spirit"] = true,
-								["Infectious Stalker"] = true,
-								["Battlesworn Nether-Mage"] = true,
-								["Hungering Stalker"] = true,
-							},
-							["targets"] = {
-								["Infectious Stalker"] = 273685,
-								["Dark Ritualist"] = 228725,
-								["Felbound Spirit"] = 1878866,
-								["Hungering Stalker"] = 1399054,
-								["Battlesworn Nether-Mage"] = 628572,
-							},
-							["pets"] = {
-							},
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 4408902.001141,
-							["classe"] = "PET",
-							["dps_started"] = false,
-							["total"] = 4408902.001141,
-							["serial"] = "Pet-0-3778-1220-12524-11673-090283DFC8",
-							["ownerName"] = "Laurannah",
-							["nome"] = "Corey <Laurannah>",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 136006,
-										["g_amt"] = 0,
-										["n_max"] = 27748,
-										["targets"] = {
-											["Felbound Spirit"] = 191583,
-											["Hungering Stalker"] = 155390,
-											["Dark Ritualist"] = 23605,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 234572,
-										["n_min"] = 22198,
-										["g_dmg"] = 0,
-										["counter"] = 13,
-										["total"] = 370578,
-										["c_max"] = 47212,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 44397,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 10,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[83381] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 570100,
-										["g_amt"] = 0,
-										["n_max"] = 285050,
-										["targets"] = {
-											["Felbound Spirit"] = 1140200,
-											["Hungering Stalker"] = 536112,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1106212,
-										["n_min"] = 268056,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 1676312,
-										["c_max"] = 570100,
-										["id"] = 83381,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 570100,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[118459] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 202417,
-										["targets"] = {
-											["Battlesworn Nether-Mage"] = 376009,
-											["Infectious Stalker"] = 250611,
-											["Hungering Stalker"] = 310596,
-											["Dark Ritualist"] = 158973,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1096189,
-										["n_min"] = 24095,
-										["g_dmg"] = 0,
-										["counter"] = 14,
-										["total"] = 1096189,
-										["c_max"] = 0,
-										["id"] = 118459,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 14,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[17253] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 518783,
-										["g_amt"] = 0,
-										["n_max"] = 99366,
-										["targets"] = {
-											["Felbound Spirit"] = 358411,
-											["Battlesworn Nether-Mage"] = 160268,
-											["Hungering Stalker"] = 373882,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 373778,
-										["n_min"] = 87003,
-										["g_dmg"] = 0,
-										["counter"] = 7,
-										["total"] = 892561,
-										["c_max"] = 186473,
-										["id"] = 17253,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 160268,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[63900] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 138441,
-										["g_amt"] = 0,
-										["n_max"] = 23074,
-										["targets"] = {
-											["Infectious Stalker"] = 23074,
-											["Dark Ritualist"] = 46147,
-											["Hungering Stalker"] = 23074,
-											["Battlesworn Nether-Mage"] = 92295,
-											["Felbound Spirit"] = 46147,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 92296,
-										["n_min"] = 23074,
-										["g_dmg"] = 0,
-										["counter"] = 7,
-										["total"] = 230737,
-										["c_max"] = 46147,
-										["id"] = 63900,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 46147,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[197163] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 142525,
-										["targets"] = {
-											["Felbound Spirit"] = 142525,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 142525,
-										["n_min"] = 142525,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 142525,
-										["c_max"] = 0,
-										["id"] = 197163,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["end_time"] = 1490993447,
-							["tipo"] = 1,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1490993445,
-							["damage_taken"] = 145365.001141,
-							["start_time"] = 1490993410,
-							["delay"] = 0,
-							["friendlyfire"] = {
-							},
-						}, -- [2]
-						{
-							["flag_original"] = 8465,
-							["damage_from"] = {
-								["Hungering Stalker"] = true,
-								["Infectious Stalker"] = true,
-								["Battlesworn Nether-Mage"] = true,
-							},
-							["targets"] = {
-								["Infectious Stalker"] = 187956,
-								["Dark Ritualist"] = 147508,
-								["Hungering Stalker"] = 910721,
-								["Battlesworn Nether-Mage"] = 282006,
-								["Felbound Spirit"] = 461808,
-							},
-							["pets"] = {
-							},
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 1989999.006548,
-							["classe"] = "PET",
-							["dps_started"] = false,
-							["total"] = 1989999.006548,
-							["serial"] = "Creature-0-3778-1220-12524-106551-00005EC0B6",
-							["ownerName"] = "Laurannah",
-							["nome"] = "Hati <Laurannah>",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 109742,
-										["g_amt"] = 0,
-										["n_max"] = 28278,
-										["targets"] = {
-											["Felbound Spirit"] = 194576,
-											["Hungering Stalker"] = 132961,
-											["Dark Ritualist"] = 28278,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 246073,
-										["n_min"] = 26592,
-										["g_dmg"] = 0,
-										["counter"] = 11,
-										["total"] = 355815,
-										["c_max"] = 56557,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 53185,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 9,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[118459] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 151812,
-										["targets"] = {
-											["Battlesworn Nether-Mage"] = 282006,
-											["Infectious Stalker"] = 187956,
-											["Hungering Stalker"] = 400806,
-											["Dark Ritualist"] = 119230,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 989998,
-										["n_min"] = 18072,
-										["g_dmg"] = 0,
-										["counter"] = 17,
-										["total"] = 989998,
-										["c_max"] = 0,
-										["id"] = 118459,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 17,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[83381] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 167535,
-										["g_amt"] = 0,
-										["n_max"] = 89078,
-										["targets"] = {
-											["Hungering Stalker"] = 251303,
-											["Felbound Spirit"] = 178156,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 261924,
-										["n_min"] = 83768,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 429459,
-										["c_max"] = 167535,
-										["id"] = 83381,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 167535,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[197163] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 83767,
-										["targets"] = {
-											["Hungering Stalker"] = 125651,
-											["Felbound Spirit"] = 89076,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 214727,
-										["n_min"] = 41884,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 214727,
-										["c_max"] = 0,
-										["id"] = 197163,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["end_time"] = 1490993447,
-							["tipo"] = 1,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1490993445,
-							["damage_taken"] = 81063.006548,
-							["start_time"] = 1490993419,
-							["delay"] = 0,
-							["friendlyfire"] = {
-							},
-						}, -- [3]
-						{
-							["flag_original"] = 8465,
-							["damage_from"] = {
-								["Battlesworn Nether-Mage"] = true,
-								["Infectious Stalker"] = true,
-							},
-							["targets"] = {
-								["Infectious Stalker"] = 190362,
-								["Dark Ritualist"] = 202430,
-								["Hungering Stalker"] = 1015255,
-								["Battlesworn Nether-Mage"] = 453240,
-								["Felbound Spirit"] = 36258,
-							},
-							["pets"] = {
-							},
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 1897545.001792,
-							["classe"] = "PET",
-							["dps_started"] = false,
-							["total"] = 1897545.001792,
-							["serial"] = "Creature-0-3778-1220-12524-113347-00005EC113",
-							["ownerName"] = "Laurannah",
-							["nome"] = "Beast <Laurannah>",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 217554,
-										["g_amt"] = 0,
-										["n_max"] = 36258,
-										["targets"] = {
-											["Felbound Spirit"] = 36258,
-											["Battlesworn Nether-Mage"] = 72518,
-											["Hungering Stalker"] = 253810,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 145032,
-										["n_min"] = 36258,
-										["g_dmg"] = 0,
-										["counter"] = 7,
-										["total"] = 362586,
-										["c_max"] = 72518,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 72518,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[201754] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 380723,
-										["g_amt"] = 0,
-										["n_max"] = 202430,
-										["targets"] = {
-											["Battlesworn Nether-Mage"] = 380722,
-											["Infectious Stalker"] = 190362,
-											["Hungering Stalker"] = 761445,
-											["Dark Ritualist"] = 202430,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1154236,
-										["n_min"] = 190360,
-										["g_dmg"] = 0,
-										["counter"] = 7,
-										["total"] = 1534959,
-										["c_max"] = 380723,
-										["id"] = 201754,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 380723,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 6,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["end_time"] = 1490993447,
-							["tipo"] = 1,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1490993443,
-							["damage_taken"] = 8130.001792,
-							["start_time"] = 1490993431,
-							["delay"] = 1490993427,
-							["friendlyfire"] = {
-							},
-						}, -- [4]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 424,
+					["combatId"] = 601,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["totalabsorb"] = 0.00633,
-							["last_hps"] = 0,
-							["healing_from"] = {
-								["Laurannah"] = true,
-							},
-							["targets"] = {
-								["Laurannah"] = 315868,
-							},
-							["pets"] = {
-							},
-							["totalover_without_pet"] = 0.00633,
-							["targets_overheal"] = {
-							},
-							["classe"] = "HUNTER",
-							["totalover"] = 0.00633,
-							["total_without_pet"] = 315868.00633,
-							["healing_taken"] = 315868.00633,
-							["iniciar_hps"] = false,
-							["fight_component"] = true,
-							["total"] = 315868.00633,
-							["heal_enemy_amt"] = 0,
-							["serial"] = "Player-3693-092AD332",
-							["nome"] = "Laurannah",
-							["targets_absorbs"] = {
-							},
-							["grupo"] = true,
-							["end_time"] = 1490993447,
-							["heal_enemy"] = {
-							},
-							["spells"] = {
-								["_ActorTable"] = {
-									[197205] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 85515,
-										["targets"] = {
-											["Laurannah"] = 315868,
-										},
-										["n_min"] = 12566,
-										["counter"] = 9,
-										["overheal"] = 0,
-										["total"] = 315868,
-										["c_max"] = 0,
-										["id"] = 197205,
-										["targets_absorbs"] = {
-										},
-										["m_crit"] = 0,
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["n_curado"] = 315868,
-										["n_amt"] = 9,
-										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-								},
-								["tipo"] = 3,
-							},
-							["custom"] = 0,
-							["tipo"] = 2,
-							["on_hold"] = false,
-							["start_time"] = 1490993423,
-							["delay"] = 1490993410,
-							["last_event"] = 1490993445,
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 424,
-					["_ActorTable"] = {
-						{
-							["received"] = 71.004981,
-							["resource"] = 0.004981,
+							["resource"] = 0.006392,
 							["targets"] = {
 							},
 							["pets"] = {
@@ -2780,7 +921,7 @@ _detalhes_database = {
 							["powertype"] = 0,
 							["classe"] = "HUNTER",
 							["fight_component"] = true,
-							["total"] = 71.004981,
+							["total"] = 12.006392,
 							["nome"] = "Laurannah",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2789,1988 +930,13 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["tipo"] = 3,
-							["flag_original"] = 1297,
+							["received"] = 12.006392,
 							["serial"] = "Player-3693-092AD332",
 							["last_event"] = 0,
 						}, -- [1]
 						{
-							["received"] = 0.00654,
-							["resource"] = 0.00654,
-							["targets"] = {
-								["Laurannah"] = 71,
-							},
-							["pets"] = {
-							},
-							["powertype"] = 0,
-							["classe"] = "PET",
-							["total"] = 71.00654,
-							["ownerName"] = "Laurannah",
-							["nome"] = "Beast <Laurannah>",
-							["spells"] = {
-								["_ActorTable"] = {
-									[120694] = {
-										["id"] = 120694,
-										["total"] = 71,
-										["targets"] = {
-											["Laurannah"] = 71,
-										},
-										["counter"] = 12,
-									},
-								},
-								["tipo"] = 7,
-							},
-							["last_event"] = 1490993460,
 							["flag_original"] = 8465,
-							["serial"] = "Creature-0-3778-1220-12524-113342-00005EC101",
-							["tipo"] = 3,
-						}, -- [2]
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 424,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[120679] = {
-										["uptime"] = 7,
-										["activedamt"] = 0,
-										["id"] = 120679,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[225746] = {
-										["uptime"] = 3,
-										["activedamt"] = 0,
-										["id"] = 225746,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["buff_uptime"] = 212,
-							["classe"] = "HUNTER",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[194386] = {
-										["uptime"] = 37,
-										["activedamt"] = 1,
-										["id"] = 194386,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[186406] = {
-										["uptime"] = 37,
-										["activedamt"] = 1,
-										["id"] = 186406,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[35079] = {
-										["uptime"] = 8,
-										["activedamt"] = 1,
-										["id"] = 35079,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[231390] = {
-										["uptime"] = 3,
-										["activedamt"] = 5,
-										["id"] = 231390,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[227723] = {
-										["uptime"] = 37,
-										["activedamt"] = 1,
-										["id"] = 227723,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[239939] = {
-										["uptime"] = 37,
-										["activedamt"] = 1,
-										["id"] = 239939,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[240640] = {
-										["uptime"] = 37,
-										["activedamt"] = 1,
-										["id"] = 240640,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[120694] = {
-										["uptime"] = 16,
-										["activedamt"] = 3,
-										["id"] = 120694,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 10,
-							["buff_uptime_targets"] = {
-							},
-							["grupo"] = true,
-							["spell_cast"] = {
-								[34026] = 4,
-								[193455] = 3,
-								[224576] = 1,
-								[84342] = 1,
-								[120679] = 2,
-								[34477] = 1,
-								[224575] = 1,
-								[2643] = 5,
-							},
-							["nome"] = "Laurannah",
-							["tipo"] = 4,
-							["debuff_uptime_targets"] = {
-							},
-							["pets"] = {
-								"Corey <Laurannah>", -- [1]
-								"Beast <Laurannah>", -- [2]
-							},
-							["serial"] = "Player-3693-092AD332",
-							["last_event"] = 1490993460,
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["ownerName"] = "Laurannah",
-							["nome"] = "Corey <Laurannah>",
-							["pets"] = {
-							},
-							["last_event"] = 0,
-							["classe"] = "PET",
-							["tipo"] = 4,
-							["serial"] = "Pet-0-3778-1220-12524-11673-090283DFC8",
-							["spell_cast"] = {
-								[61685] = 1,
-								[2649] = 4,
-								[63900] = 3,
-								[17253] = 7,
-							},
-						}, -- [2]
-						{
-							["flag_original"] = 8465,
-							["ownerName"] = "Laurannah",
-							["nome"] = "Beast <Laurannah>",
-							["pets"] = {
-							},
-							["last_event"] = 0,
-							["classe"] = "PET",
-							["tipo"] = 4,
-							["serial"] = "Creature-0-3778-1220-12524-113347-00005EC113",
-							["spell_cast"] = {
-								[120694] = 2,
-								[201754] = 2,
-							},
-						}, -- [3]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 424,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Laurannah"] = true,
-				},
-				["last_events_tables"] = {
-				},
-				["enemy"] = "Felbound Spirit",
-				["combat_counter"] = 1322,
-				["playing_solo"] = true,
-				["totals"] = {
-					11643374.881728, -- [1]
-					315867.961156001, -- [2]
-					{
-						0, -- [1]
-						[0] = 35.974985,
-						[6] = 0,
-						[3] = 35,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = -0.00857299999999994,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Laurannah"] = 356077.010024,
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["Laurannah"] = 12578322.005246,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 1411873.243,
-				["combat_id"] = 424,
-				["instance_type"] = "none",
-				["resincked"] = true,
-				["hasSaved"] = true,
-				["frags"] = {
-					["Infectious Stalker"] = 3,
-					["Fledgling Fel Bat"] = 3,
-					["Felbound Spirit"] = 6,
-					["Blazing Imp"] = 4,
-					["Dark Ritualist"] = 3,
-					["Battlesworn Nether-Mage"] = 4,
-					["Darkfiend Devourer"] = 1,
-					["Virulent Imp"] = 11,
-					["Hungering Stalker"] = 3,
-				},
-				["data_fim"] = "16:50:47",
-				["contra"] = "Felbound Spirit",
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					3346929, -- [1]
-					315868, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 1411836.12,
-				["TimeData"] = {
-				},
-				["data_inicio"] = "16:50:10",
-			}, -- [2]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 423,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["damage_from"] = {
-								["[*] Sentinax Destruction Zone"] = true,
-								["Felsworn Chaos Mage"] = true,
-							},
-							["targets"] = {
-								["Legion Painmaiden"] = 2699723,
-								["Felsworn Chaos Mage"] = 5315761,
-								["Darkfiend Devourer"] = 5864532,
-								["Sentinax Observer"] = 5627834,
-								["Blazing Imp"] = 1562580,
-								["Sentinax Warden"] = 15004586,
-								["Darkfire Fiend"] = 1528088,
-								["Battlesworn Nether-Mage"] = 3431908,
-								["Sentinax Interrogator"] = 7536743,
-								["Virulent Imp"] = 1698642,
-								["Hungering Stalker"] = 1326043,
-							},
-							["pets"] = {
-								"Corey <Laurannah>", -- [1]
-								"Hati <Laurannah>", -- [2]
-								"Beast <Laurannah>", -- [3]
-							},
-							["friendlyfire"] = {
-							},
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 15938256.00327,
-							["on_hold"] = false,
-							["dps_started"] = false,
-							["total"] = 51596440.00327,
-							["serial"] = "Player-3693-092AD332",
-							["end_time"] = 1490993367,
-							["nome"] = "Laurannah",
-							["spells"] = {
-								["_ActorTable"] = {
-									[197465] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 329878,
-										["g_amt"] = 0,
-										["n_max"] = 82470,
-										["targets"] = {
-											["Sentinax Warden"] = 247408,
-											["Legion Painmaiden"] = 82470,
-											["Felsworn Chaos Mage"] = 164939,
-											["Battlesworn Nether-Mage"] = 164940,
-											["Sentinax Interrogator"] = 329878,
-											["Sentinax Observer"] = 82470,
-											["Darkfiend Devourer"] = 164939,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 907166,
-										["n_min"] = 82469,
-										["g_dmg"] = 0,
-										["counter"] = 13,
-										["total"] = 1237044,
-										["c_max"] = 164939,
-										["id"] = 197465,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 164939,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 11,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[75] = {
-										["c_amt"] = 10,
-										["b_amt"] = 0,
-										["c_dmg"] = 759190,
-										["g_amt"] = 0,
-										["n_max"] = 46547,
-										["targets"] = {
-											["Sentinax Warden"] = 847775,
-											["Legion Painmaiden"] = 93092,
-											["Felsworn Chaos Mage"] = 139638,
-											["Battlesworn Nether-Mage"] = 35531,
-											["Sentinax Interrogator"] = 264487,
-											["Darkfiend Devourer"] = 259732,
-											["Blazing Imp"] = 37784,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 918849,
-										["n_min"] = 35530,
-										["g_dmg"] = 0,
-										["counter"] = 33,
-										["total"] = 1678039,
-										["c_max"] = 93093,
-										["id"] = 75,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 71061,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 23,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[229737] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 329276,
-										["targets"] = {
-											["Sentinax Observer"] = 329276,
-											["Sentinax Warden"] = 329276,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 658552,
-										["n_min"] = 329276,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 658552,
-										["c_max"] = 0,
-										["id"] = 229737,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[235999] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 1737579,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Felsworn Chaos Mage"] = 863382,
-											["Darkfiend Devourer"] = 874197,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 1737579,
-										["c_max"] = 874197,
-										["id"] = 235999,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 863382,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[2643] = {
-										["c_amt"] = 22,
-										["b_amt"] = 0,
-										["c_dmg"] = 1885950,
-										["g_amt"] = 0,
-										["n_max"] = 54274,
-										["targets"] = {
-											["Legion Painmaiden"] = 255191,
-											["Felsworn Chaos Mage"] = 335837,
-											["Darkfiend Devourer"] = 452718,
-											["Sentinax Observer"] = 494253,
-											["Blazing Imp"] = 165719,
-											["Sentinax Warden"] = 1160625,
-											["Darkfire Fiend"] = 165717,
-											["Battlesworn Nether-Mage"] = 308957,
-											["Sentinax Interrogator"] = 921395,
-											["Virulent Imp"] = 38960,
-											["Hungering Stalker"] = 77920,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2491342,
-										["n_min"] = 38959,
-										["g_dmg"] = 0,
-										["counter"] = 79,
-										["total"] = 4377292,
-										["c_max"] = 108546,
-										["id"] = 2643,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 77919,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 57,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[194392] = {
-										["c_amt"] = 27,
-										["b_amt"] = 0,
-										["c_dmg"] = 2638410,
-										["g_amt"] = 0,
-										["n_max"] = 60446,
-										["targets"] = {
-											["Legion Painmaiden"] = 370998,
-											["Felsworn Chaos Mage"] = 374032,
-											["Darkfiend Devourer"] = 561049,
-											["Sentinax Observer"] = 731815,
-											["Blazing Imp"] = 92285,
-											["Sentinax Warden"] = 1983852,
-											["Darkfire Fiend"] = 92284,
-											["Battlesworn Nether-Mage"] = 430875,
-											["Sentinax Interrogator"] = 1225077,
-											["Virulent Imp"] = 130173,
-											["Hungering Stalker"] = 257310,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 3611340,
-										["n_min"] = 43391,
-										["g_dmg"] = 0,
-										["counter"] = 102,
-										["total"] = 6249750,
-										["c_max"] = 120894,
-										["id"] = 194392,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 86782,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 75,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["grupo"] = true,
-							["tipo"] = 1,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1490993366,
-							["damage_taken"] = 1125787.00327,
-							["start_time"] = 1490993268,
-							["delay"] = 0,
-							["classe"] = "HUNTER",
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["damage_from"] = {
-								["Sentinax Warden"] = true,
-								["Legion Painmaiden"] = true,
-								["Felsworn Chaos Mage"] = true,
-								["Darkfire Fiend"] = true,
-								["Virulent Imp"] = true,
-								["Sentinax Interrogator"] = true,
-								["Sentinax Observer"] = true,
-								["Blazing Imp"] = true,
-							},
-							["targets"] = {
-								["Legion Painmaiden"] = 1125695,
-								["Felsworn Chaos Mage"] = 1513713,
-								["Darkfiend Devourer"] = 1171564,
-								["Sentinax Observer"] = 2226823,
-								["Blazing Imp"] = 754963,
-								["Sentinax Warden"] = 5795462,
-								["Darkfire Fiend"] = 735655,
-								["Battlesworn Nether-Mage"] = 990995,
-								["Sentinax Interrogator"] = 2984374,
-								["Virulent Imp"] = 893342,
-								["Hungering Stalker"] = 441827,
-							},
-							["pets"] = {
-							},
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 18634413.002556,
-							["classe"] = "PET",
-							["dps_started"] = false,
-							["total"] = 18634413.002556,
-							["serial"] = "Pet-0-3778-1220-12524-11673-080283DFC8",
-							["ownerName"] = "Laurannah",
-							["nome"] = "Corey <Laurannah>",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 11,
-										["b_amt"] = 0,
-										["c_dmg"] = 571810,
-										["g_amt"] = 0,
-										["n_max"] = 29507,
-										["targets"] = {
-											["Sentinax Warden"] = 697258,
-											["Legion Painmaiden"] = 116322,
-											["Felsworn Chaos Mage"] = 205116,
-											["Battlesworn Nether-Mage"] = 29081,
-											["Sentinax Interrogator"] = 129836,
-											["Darkfiend Devourer"] = 145625,
-											["Blazing Imp"] = 76719,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 828147,
-										["n_min"] = 22198,
-										["g_dmg"] = 0,
-										["counter"] = 44,
-										["total"] = 1399957,
-										["c_max"] = 59015,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 44397,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 33,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[207097] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 166145,
-										["g_amt"] = 0,
-										["n_max"] = 27690,
-										["targets"] = {
-											["Felsworn Chaos Mage"] = 110764,
-											["Sentinax Warden"] = 83071,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 27690,
-										["n_min"] = 27690,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 193835,
-										["c_max"] = 55383,
-										["id"] = 207097,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 55381,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[83381] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 268057,
-										["targets"] = {
-											["Sentinax Warden"] = 804169,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 804169,
-										["n_min"] = 268056,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 804169,
-										["c_max"] = 0,
-										["id"] = 83381,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[63900] = {
-										["c_amt"] = 9,
-										["b_amt"] = 0,
-										["c_dmg"] = 429629,
-										["g_amt"] = 0,
-										["n_max"] = 30227,
-										["targets"] = {
-											["Legion Painmaiden"] = 60453,
-											["Felsworn Chaos Mage"] = 106599,
-											["Hungering Stalker"] = 30226,
-											["Sentinax Observer"] = 122520,
-											["Blazing Imp"] = 46147,
-											["Sentinax Warden"] = 214813,
-											["Darkfire Fiend"] = 23074,
-											["Battlesworn Nether-Mage"] = 60453,
-											["Sentinax Interrogator"] = 145594,
-											["Virulent Imp"] = 69218,
-											["Darkfiend Devourer"] = 113752,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 563220,
-										["n_min"] = 23072,
-										["g_dmg"] = 0,
-										["counter"] = 30,
-										["total"] = 992849,
-										["c_max"] = 60452,
-										["id"] = 63900,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 46147,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 21,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[160124] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 72550,
-										["g_amt"] = 0,
-										["n_max"] = 36278,
-										["targets"] = {
-											["Sentinax Warden"] = 72550,
-											["Sentinax Interrogator"] = 27690,
-											["Sentinax Observer"] = 36278,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 63968,
-										["n_min"] = 27690,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 136518,
-										["c_max"] = 72550,
-										["id"] = 160124,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 72550,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[17253] = {
-										["c_amt"] = 11,
-										["b_amt"] = 0,
-										["c_dmg"] = 1999592,
-										["g_amt"] = 0,
-										["n_max"] = 121969,
-										["targets"] = {
-											["Sentinax Warden"] = 1360465,
-											["Legion Painmaiden"] = 250040,
-											["Felsworn Chaos Mage"] = 330802,
-											["Battlesworn Nether-Mage"] = 219169,
-											["Sentinax Interrogator"] = 439978,
-											["Darkfiend Devourer"] = 171599,
-											["Blazing Imp"] = 353996,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1126457,
-										["n_min"] = 50898,
-										["g_dmg"] = 0,
-										["counter"] = 23,
-										["total"] = 3126049,
-										["c_max"] = 250040,
-										["id"] = 17253,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 98972,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 12,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[197163] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 134028,
-										["targets"] = {
-											["Sentinax Warden"] = 134028,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 134028,
-										["n_min"] = 134028,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 134028,
-										["c_max"] = 0,
-										["id"] = 197163,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[118459] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 288627,
-										["targets"] = {
-											["Legion Painmaiden"] = 698880,
-											["Felsworn Chaos Mage"] = 760432,
-											["Darkfiend Devourer"] = 740588,
-											["Sentinax Observer"] = 2068025,
-											["Blazing Imp"] = 278101,
-											["Sentinax Warden"] = 2429108,
-											["Darkfire Fiend"] = 712581,
-											["Battlesworn Nether-Mage"] = 682292,
-											["Sentinax Interrogator"] = 2241276,
-											["Virulent Imp"] = 824124,
-											["Hungering Stalker"] = 411601,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 11847008,
-										["n_min"] = 24095,
-										["g_dmg"] = 0,
-										["counter"] = 166,
-										["total"] = 11847008,
-										["c_max"] = 0,
-										["id"] = 118459,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 166,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["end_time"] = 1490993367,
-							["tipo"] = 1,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1490993366,
-							["damage_taken"] = 1479814.002556,
-							["start_time"] = 1490993279,
-							["delay"] = 1490993295,
-							["friendlyfire"] = {
-							},
-						}, -- [2]
-						{
-							["flag_original"] = 8465,
-							["damage_from"] = {
-								["Sentinax Warden"] = true,
-								["Legion Painmaiden"] = true,
-								["Darkfire Fiend"] = true,
-								["Hungering Stalker"] = true,
-							},
-							["targets"] = {
-								["Legion Painmaiden"] = 663500,
-								["Felsworn Chaos Mage"] = 565085,
-								["Darkfiend Devourer"] = 621955,
-								["Sentinax Observer"] = 1155907,
-								["Blazing Imp"] = 434715,
-								["Sentinax Warden"] = 2573416,
-								["Darkfire Fiend"] = 534432,
-								["Battlesworn Nether-Mage"] = 929524,
-								["Sentinax Interrogator"] = 1609102,
-								["Virulent Imp"] = 636167,
-								["Hungering Stalker"] = 286109,
-							},
-							["pets"] = {
-							},
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 10009912.004351,
-							["classe"] = "PET",
-							["dps_started"] = false,
-							["total"] = 10009912.004351,
-							["serial"] = "Creature-0-3778-1220-12524-106551-00005EBC5C",
-							["ownerName"] = "Laurannah",
-							["nome"] = "Hati <Laurannah>",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 9,
-										["b_amt"] = 0,
-										["c_dmg"] = 551360,
-										["g_amt"] = 0,
-										["n_max"] = 34836,
-										["targets"] = {
-											["Sentinax Warden"] = 579449,
-											["Legion Painmaiden"] = 139344,
-											["Felsworn Chaos Mage"] = 139343,
-											["Battlesworn Nether-Mage"] = 34835,
-											["Sentinax Interrogator"] = 113113,
-											["Darkfiend Devourer"] = 88020,
-											["Blazing Imp"] = 84835,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 627579,
-										["n_min"] = 26592,
-										["g_dmg"] = 0,
-										["counter"] = 29,
-										["total"] = 1178939,
-										["c_max"] = 69673,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 53185,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 20,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[118459] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 216469,
-										["targets"] = {
-											["Legion Painmaiden"] = 524156,
-											["Felsworn Chaos Mage"] = 425742,
-											["Darkfiend Devourer"] = 533935,
-											["Sentinax Observer"] = 1155907,
-											["Blazing Imp"] = 349880,
-											["Sentinax Warden"] = 1784548,
-											["Darkfire Fiend"] = 534432,
-											["Battlesworn Nether-Mage"] = 894689,
-											["Sentinax Interrogator"] = 1495989,
-											["Virulent Imp"] = 636167,
-											["Hungering Stalker"] = 286109,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 8621554,
-										["n_min"] = 18071,
-										["g_dmg"] = 0,
-										["counter"] = 151,
-										["total"] = 8621554,
-										["c_max"] = 0,
-										["id"] = 118459,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 151,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[83381] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 83768,
-										["targets"] = {
-											["Sentinax Warden"] = 167535,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 167535,
-										["n_min"] = 83767,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 167535,
-										["c_max"] = 0,
-										["id"] = 83381,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[197163] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 41884,
-										["targets"] = {
-											["Sentinax Warden"] = 41884,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 41884,
-										["n_min"] = 41884,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 41884,
-										["c_max"] = 0,
-										["id"] = 197163,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["end_time"] = 1490993367,
-							["tipo"] = 1,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1490993366,
-							["damage_taken"] = 329085.004351,
-							["start_time"] = 1490993306,
-							["delay"] = 1490993293,
-							["friendlyfire"] = {
-							},
-						}, -- [3]
-						{
-							["flag_original"] = 8465,
-							["damage_from"] = {
-								["Felsworn Chaos Mage"] = true,
-							},
-							["targets"] = {
-								["Legion Painmaiden"] = 108777,
-								["Felsworn Chaos Mage"] = 1359135,
-								["Hungering Stalker"] = 262877,
-								["Sentinax Observer"] = 607290,
-								["Blazing Imp"] = 77114,
-								["Sentinax Warden"] = 2066772,
-								["Battlesworn Nether-Mage"] = 571086,
-								["Sentinax Interrogator"] = 202430,
-								["Darkfiend Devourer"] = 1758378,
-							},
-							["pets"] = {
-							},
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 7013859.003007,
-							["classe"] = "PET",
-							["dps_started"] = false,
-							["total"] = 7013859.003007,
-							["serial"] = "Creature-0-3778-1220-12524-113344-00005EC084",
-							["ownerName"] = "Laurannah",
-							["nome"] = "Beast <Laurannah>",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 10,
-										["b_amt"] = 0,
-										["c_dmg"] = 729775,
-										["g_amt"] = 0,
-										["n_max"] = 36259,
-										["targets"] = {
-											["Sentinax Warden"] = 543880,
-											["Legion Painmaiden"] = 108777,
-											["Felsworn Chaos Mage"] = 326329,
-											["Darkfiend Devourer"] = 145033,
-											["Hungering Stalker"] = 72517,
-											["Blazing Imp"] = 77114,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 543875,
-										["n_min"] = 36258,
-										["g_dmg"] = 0,
-										["counter"] = 25,
-										["total"] = 1273650,
-										["c_max"] = 77114,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 72517,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 15,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[201754] = {
-										["c_amt"] = 8,
-										["b_amt"] = 0,
-										["c_dmg"] = 3069925,
-										["g_amt"] = 0,
-										["n_max"] = 202430,
-										["targets"] = {
-											["Sentinax Warden"] = 1522892,
-											["Felsworn Chaos Mage"] = 761447,
-											["Battlesworn Nether-Mage"] = 571086,
-											["Hungering Stalker"] = 190360,
-											["Sentinax Interrogator"] = 202430,
-											["Sentinax Observer"] = 607290,
-											["Darkfiend Devourer"] = 1522892,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 2308472,
-										["n_min"] = 190360,
-										["g_dmg"] = 0,
-										["counter"] = 20,
-										["total"] = 5378397,
-										["c_max"] = 404860,
-										["id"] = 201754,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 380723,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 12,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[207097] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 271359,
-										["g_amt"] = 0,
-										["n_max"] = 45227,
-										["targets"] = {
-											["Darkfiend Devourer"] = 90453,
-											["Felsworn Chaos Mage"] = 271359,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 90453,
-										["n_min"] = 45226,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 361812,
-										["c_max"] = 90453,
-										["id"] = 207097,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 90453,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["end_time"] = 1490993367,
-							["tipo"] = 1,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1490993366,
-							["damage_taken"] = 858.003007,
-							["start_time"] = 1490993302,
-							["delay"] = 1490993283,
-							["friendlyfire"] = {
-							},
-						}, -- [4]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 423,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorb"] = 0.007352,
-							["last_hps"] = 0,
-							["healing_from"] = {
-								["Laurannah"] = true,
-							},
-							["targets"] = {
-								["Corey <Laurannah>"] = 1350211,
-								["Laurannah"] = 145756,
-								["Hati <Laurannah>"] = 632912,
-							},
-							["pets"] = {
-								"Corey <Laurannah>", -- [1]
-								"Hati <Laurannah>", -- [2]
-							},
-							["totalover_without_pet"] = 0.007352,
-							["targets_overheal"] = {
-								["Hati <Laurannah>"] = 789863,
-								["Corey <Laurannah>"] = 541277,
-							},
-							["classe"] = "HUNTER",
-							["totalover"] = 1331140.007352,
-							["total_without_pet"] = 1557231.007352,
-							["healing_taken"] = 145756.007352,
-							["iniciar_hps"] = false,
-							["fight_component"] = true,
-							["total"] = 1557231.007352,
-							["heal_enemy_amt"] = 0,
-							["serial"] = "Player-3693-092AD332",
-							["nome"] = "Laurannah",
-							["targets_absorbs"] = {
-							},
-							["grupo"] = true,
-							["end_time"] = 1490993367,
-							["heal_enemy"] = {
-							},
-							["spells"] = {
-								["_ActorTable"] = {
-									[214303] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Hati <Laurannah>"] = 789863,
-										},
-										["n_max"] = 91557,
-										["targets"] = {
-											["Hati <Laurannah>"] = 264989,
-										},
-										["n_min"] = 0,
-										["counter"] = 10,
-										["overheal"] = 789863,
-										["total"] = 264989,
-										["c_max"] = 0,
-										["id"] = 214303,
-										["targets_absorbs"] = {
-										},
-										["m_crit"] = 0,
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["n_curado"] = 264989,
-										["n_amt"] = 10,
-										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-									[197205] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 40209,
-										["targets"] = {
-											["Laurannah"] = 145756,
-										},
-										["n_min"] = 12565,
-										["counter"] = 5,
-										["overheal"] = 0,
-										["total"] = 145756,
-										["c_max"] = 0,
-										["id"] = 197205,
-										["targets_absorbs"] = {
-										},
-										["m_crit"] = 0,
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["n_curado"] = 145756,
-										["n_amt"] = 5,
-										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-									[136] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Corey <Laurannah>"] = 541277,
-										},
-										["n_max"] = 168777,
-										["targets"] = {
-											["Corey <Laurannah>"] = 1146486,
-										},
-										["n_min"] = 0,
-										["counter"] = 10,
-										["overheal"] = 541277,
-										["total"] = 1146486,
-										["c_max"] = 0,
-										["id"] = 136,
-										["targets_absorbs"] = {
-										},
-										["m_crit"] = 0,
-										["c_curado"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["n_curado"] = 1146486,
-										["n_amt"] = 10,
-										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-								},
-								["tipo"] = 3,
-							},
-							["custom"] = 0,
-							["tipo"] = 2,
-							["on_hold"] = false,
-							["start_time"] = 1490993338,
-							["delay"] = 1490993317,
-							["last_event"] = 1490993361,
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["totalabsorb"] = 0.008515,
-							["last_hps"] = 0,
-							["targets_overheal"] = {
-							},
-							["targets"] = {
-							},
-							["targets_absorbs"] = {
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["healing_from"] = {
-								["Laurannah"] = true,
-							},
-							["healing_taken"] = 1146486.008515,
-							["totalover"] = 0.008515,
-							["total_without_pet"] = 0.008515,
-							["totalover_without_pet"] = 0.008515,
-							["fight_component"] = true,
-							["end_time"] = 1490993367,
-							["heal_enemy_amt"] = 0,
-							["ownerName"] = "Laurannah",
-							["nome"] = "Corey <Laurannah>",
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 3,
-							},
-							["serial"] = "Pet-0-3778-1220-12524-11673-090283DFC8",
-							["total"] = 0.008515,
-							["heal_enemy"] = {
-							},
-							["classe"] = "PET",
-							["custom"] = 0,
-							["last_event"] = 0,
-							["on_hold"] = false,
-							["start_time"] = 1490993367,
-							["delay"] = 0,
-							["tipo"] = 2,
-						}, -- [2]
-						{
-							["flag_original"] = 8465,
-							["totalabsorb"] = 0.004181,
-							["last_hps"] = 0,
-							["targets_overheal"] = {
-							},
-							["targets"] = {
-							},
-							["targets_absorbs"] = {
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["healing_from"] = {
-								["Laurannah"] = true,
-							},
-							["healing_taken"] = 264989.004181,
-							["totalover"] = 0.004181,
-							["total_without_pet"] = 0.004181,
-							["totalover_without_pet"] = 0.004181,
-							["fight_component"] = true,
-							["end_time"] = 1490993367,
-							["heal_enemy_amt"] = 0,
-							["ownerName"] = "Laurannah",
-							["nome"] = "Hati <Laurannah>",
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 3,
-							},
-							["serial"] = "Creature-0-3778-1220-12524-106551-00005EC0B6",
-							["total"] = 0.004181,
-							["heal_enemy"] = {
-							},
-							["classe"] = "PET",
-							["custom"] = 0,
-							["last_event"] = 0,
-							["on_hold"] = false,
-							["start_time"] = 1490993367,
-							["delay"] = 0,
-							["tipo"] = 2,
-						}, -- [3]
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 423,
-					["_ActorTable"] = {
-						{
-							["received"] = 259.004179,
-							["resource"] = 0.004179,
-							["targets"] = {
-								["Laurannah"] = 110,
-							},
-							["pets"] = {
-								"Beast <Laurannah>", -- [1]
-							},
-							["powertype"] = 0,
-							["classe"] = "HUNTER",
-							["fight_component"] = true,
-							["total"] = 259.004179,
-							["nome"] = "Laurannah",
-							["spells"] = {
-								["_ActorTable"] = {
-									[193530] = {
-										["id"] = 193530,
-										["total"] = 110,
-										["targets"] = {
-											["Laurannah"] = 110,
-										},
-										["counter"] = 11,
-									},
-								},
-								["tipo"] = 7,
-							},
-							["grupo"] = true,
-							["tipo"] = 3,
-							["flag_original"] = 1297,
-							["serial"] = "Player-3693-092AD332",
-							["last_event"] = 1490993330,
-						}, -- [1]
-						{
-							["received"] = 0.001694,
-							["resource"] = 0.001694,
-							["targets"] = {
-								["Laurannah"] = 149,
-							},
-							["pets"] = {
-							},
-							["powertype"] = 0,
-							["classe"] = "PET",
-							["total"] = 149.001694,
-							["ownerName"] = "Laurannah",
-							["nome"] = "Beast <Laurannah>",
-							["spells"] = {
-								["_ActorTable"] = {
-									[120694] = {
-										["id"] = 120694,
-										["total"] = 149,
-										["targets"] = {
-											["Laurannah"] = 149,
-										},
-										["counter"] = 25,
-									},
-								},
-								["tipo"] = 7,
-							},
-							["last_event"] = 1490993394,
-							["flag_original"] = 8465,
-							["serial"] = "Creature-0-3778-1220-12524-113344-00005EC084",
-							["tipo"] = 3,
-						}, -- [2]
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 423,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[120679] = {
-										["uptime"] = 27,
-										["activedamt"] = 0,
-										["id"] = 120679,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[225746] = {
-										["uptime"] = 3,
-										["activedamt"] = 0,
-										["id"] = 225746,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["buff_uptime"] = 600,
-							["classe"] = "HUNTER",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[231390] = {
-										["uptime"] = 3,
-										["activedamt"] = 3,
-										["id"] = 231390,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[193530] = {
-										["uptime"] = 13,
-										["activedamt"] = 1,
-										["id"] = 193530,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[120694] = {
-										["uptime"] = 48,
-										["activedamt"] = 8,
-										["id"] = 120694,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[227723] = {
-										["uptime"] = 99,
-										["activedamt"] = 1,
-										["id"] = 227723,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[240640] = {
-										["uptime"] = 99,
-										["activedamt"] = 1,
-										["id"] = 240640,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[207068] = {
-										["uptime"] = 8,
-										["activedamt"] = 1,
-										["id"] = 207068,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[239939] = {
-										["uptime"] = 99,
-										["activedamt"] = 1,
-										["id"] = 239939,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[19574] = {
-										["uptime"] = 30,
-										["activedamt"] = 2,
-										["id"] = 19574,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[982] = {
-										["uptime"] = 3,
-										["activedamt"] = 1,
-										["id"] = 982,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[186406] = {
-										["uptime"] = 99,
-										["activedamt"] = 1,
-										["id"] = 186406,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[194386] = {
-										["uptime"] = 99,
-										["activedamt"] = 1,
-										["id"] = 194386,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 30,
-							["buff_uptime_targets"] = {
-							},
-							["grupo"] = true,
-							["spell_cast"] = {
-								[224576] = 3,
-								[224578] = 1,
-								[2643] = 25,
-								[120679] = 7,
-								[207068] = 1,
-								[211148] = 1,
-								[224577] = 3,
-								[136] = 2,
-								[19574] = 2,
-								[193530] = 1,
-								[34026] = 3,
-								[982] = 1,
-							},
-							["nome"] = "Laurannah",
-							["tipo"] = 4,
-							["debuff_uptime_targets"] = {
-							},
-							["pets"] = {
-								"Corey <Laurannah>", -- [1]
-								"Beast <Laurannah>", -- [2]
-								"Hati <Laurannah>", -- [3]
-								"Broken Bond <Laurannah>", -- [4]
-							},
-							["serial"] = "Player-3693-092AD332",
-							["last_event"] = 1490993398,
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["ownerName"] = "Laurannah",
-							["nome"] = "Corey <Laurannah>",
-							["tipo"] = 4,
-							["spell_cast"] = {
-								[61685] = 3,
-								[2649] = 12,
-								[63900] = 9,
-								[17253] = 23,
-							},
-							["fight_component"] = true,
-							["last_event"] = 0,
-							["classe"] = "PET",
-							["serial"] = "Pet-0-3778-1220-12524-11673-080283DFC8",
-							["pets"] = {
-							},
-						}, -- [2]
-						{
-							["flag_original"] = 8465,
-							["ownerName"] = "Laurannah",
-							["nome"] = "Beast <Laurannah>",
-							["pets"] = {
-							},
-							["last_event"] = 0,
-							["classe"] = "PET",
-							["tipo"] = 4,
-							["serial"] = "Creature-0-3778-1220-12524-113344-00005EC084",
-							["spell_cast"] = {
-								[120694] = 7,
-								[201754] = 7,
-							},
-						}, -- [3]
-						{
-							["flag_original"] = 8465,
-							["ownerName"] = "Laurannah",
-							["nome"] = "Hati <Laurannah>",
-							["tipo"] = 4,
-							["spell_cast"] = {
-								[211117] = 1,
-							},
-							["fight_component"] = true,
-							["last_event"] = 0,
-							["classe"] = "PET",
-							["serial"] = "Creature-0-3778-1220-12524-106551-00005EBC5C",
-							["pets"] = {
-							},
-						}, -- [4]
-						{
-							["flag_original"] = 8465,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 9,
-							},
-							["pets"] = {
-							},
-							["classe"] = "PET",
-							["boss_debuff"] = true,
-							["debuff_uptime"] = 30,
-							["spellschool"] = 8,
-							["ownerName"] = "Laurannah",
-							["nome"] = "Broken Bond <Laurannah>",
-							["debuff_uptime_targets"] = {
-								["Laurannah"] = {
-									["activedamt"] = 0,
-									["uptime"] = 30,
-									["actived"] = false,
-								},
-							},
-							["last_event"] = 1490993324,
-							["damage_twin"] = "Hati",
-							["damage_spellid"] = 211117,
-							["serial"] = "Creature-0-3778-1220-12524-106551-00005EBC5C",
-							["tipo"] = 4,
-						}, -- [5]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 423,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Laurannah"] = true,
-				},
-				["last_events_tables"] = {
-				},
-				["enemy"] = "Felsworn Chaos Mage",
-				["combat_counter"] = 1317,
-				["playing_solo"] = true,
-				["totals"] = {
-					51596439.864076, -- [1]
-					1557230.951627, -- [2]
-					{
-						2, -- [1]
-						[0] = 243.985890000001,
-						[6] = 13,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = -0.0243590000000005,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Laurannah"] = 1622569.009688,
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["Laurannah"] = 59719462.030301,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 1411793.799,
-				["combat_id"] = 423,
-				["instance_type"] = "none",
-				["resincked"] = true,
-				["hasSaved"] = true,
-				["frags"] = {
-					["Mastakiller"] = 1,
-					["Hungering Stalker"] = 1,
-					["Sentinax Observer"] = 13,
-					["Sentinax Warden"] = 9,
-					["Beaming Eye"] = 18,
-					["Sentinax Interrogator"] = 12,
-					["Felsworn Chaos Mage"] = 4,
-					["Fledgling Fel Bat"] = 2,
-					["Felbound Spirit"] = 6,
-					["Blazing Imp"] = 6,
-					["Darkfiend Devourer"] = 5,
-					["Darkfire Fiend"] = 6,
-					["Legion Painmaiden"] = 9,
-					["Battlesworn Nether-Mage"] = 3,
-					["Legion Flying Disc"] = 1,
-					["Virulent Imp"] = 6,
-					["Eredar Overseer"] = 1,
-				},
-				["data_fim"] = "16:49:28",
-				["contra"] = "Sentinax Interrogator",
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					15938256, -- [1]
-					1557231, -- [2]
-					{
-						0, -- [1]
-						[0] = 110,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 1411694.789,
-				["TimeData"] = {
-				},
-				["data_inicio"] = "16:47:49",
-			}, -- [3]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 422,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Battlesworn Nether-Mage"] = 38960,
-								["Felsworn Chaos Mage"] = 38959,
-							},
-							["pets"] = {
-							},
-							["friendlyfire"] = {
-							},
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 77919.005835,
-							["on_hold"] = false,
-							["dps_started"] = false,
-							["total"] = 77919.005835,
-							["serial"] = "Player-3693-092AD332",
-							["end_time"] = 1490993266,
-							["nome"] = "Laurannah",
-							["spells"] = {
-								["_ActorTable"] = {
-									[2643] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 38960,
-										["targets"] = {
-											["Battlesworn Nether-Mage"] = 38960,
-											["Felsworn Chaos Mage"] = 38959,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 77919,
-										["n_min"] = 38959,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 77919,
-										["c_max"] = 0,
-										["id"] = 2643,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["grupo"] = true,
-							["tipo"] = 1,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1490993260,
-							["damage_taken"] = 0.005835,
-							["start_time"] = 1490993260,
-							["delay"] = 0,
-							["classe"] = "HUNTER",
-						}, -- [1]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 422,
-					["_ActorTable"] = {
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 422,
-					["_ActorTable"] = {
-						{
-							["received"] = 12.008047,
-							["total"] = 12.008047,
-							["resource"] = 0.008047,
-							["nome"] = "Laurannah",
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 7,
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-								"Beast <Laurannah>", -- [1]
-							},
-							["powertype"] = 0,
-							["flag_original"] = 1297,
-							["tipo"] = 3,
-							["grupo"] = true,
-							["classe"] = "HUNTER",
-							["serial"] = "Player-3693-092AD332",
-							["last_event"] = 0,
-						}, -- [1]
-						{
-							["received"] = 0.008323,
-							["resource"] = 0.008323,
+							["resource"] = 0.003621,
 							["targets"] = {
 								["Laurannah"] = 12,
 							},
@@ -4778,7 +944,7 @@ _detalhes_database = {
 							},
 							["powertype"] = 0,
 							["classe"] = "PET",
-							["total"] = 12.008323,
+							["total"] = 12.003621,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Beast <Laurannah>",
 							["spells"] = {
@@ -4794,104 +960,173 @@ _detalhes_database = {
 								},
 								["tipo"] = 7,
 							},
-							["last_event"] = 1490993262,
-							["flag_original"] = 8465,
-							["serial"] = "Creature-0-3778-1220-12524-113347-00005EC06D",
+							["last_event"] = 1491240917,
+							["received"] = 0.003621,
+							["serial"] = "Creature-0-3019-1220-22446-113346-00006287D8",
 							["tipo"] = 3,
 						}, -- [2]
 					},
 				}, -- [3]
 				{
 					["tipo"] = 9,
-					["combatId"] = 422,
+					["combatId"] = 601,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["nome"] = "Laurannah",
-							["grupo"] = true,
-							["pets"] = {
-							},
-							["buff_uptime_targets"] = {
-							},
-							["tipo"] = 4,
-							["classe"] = "HUNTER",
-							["buff_uptime"] = 36,
-							["buff_uptime_spells"] = {
+							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
-									[194386] = {
-										["uptime"] = 6,
-										["activedamt"] = 1,
-										["id"] = 194386,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[120694] = {
+									[120679] = {
 										["uptime"] = 2,
-										["activedamt"] = 1,
-										["id"] = 120694,
-										["actived"] = false,
+										["activedamt"] = 0,
+										["id"] = 120679,
 										["targets"] = {
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
-									[231390] = {
-										["uptime"] = 4,
-										["activedamt"] = 1,
-										["id"] = 231390,
-										["actived"] = false,
+									[225746] = {
+										["uptime"] = 2,
+										["activedamt"] = 0,
+										["id"] = 225746,
 										["targets"] = {
 										},
-										["counter"] = 0,
-									},
-									[227723] = {
-										["uptime"] = 6,
-										["activedamt"] = 1,
-										["id"] = 227723,
 										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[239939] = {
-										["uptime"] = 6,
-										["activedamt"] = 1,
-										["id"] = 239939,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[240640] = {
-										["uptime"] = 6,
-										["activedamt"] = 1,
-										["id"] = 240640,
-										["actived"] = false,
-										["targets"] = {
-										},
-										["counter"] = 0,
-									},
-									[186406] = {
-										["uptime"] = 6,
-										["activedamt"] = 1,
-										["id"] = 186406,
-										["actived"] = false,
-										["targets"] = {
-										},
 										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
+							["buff_uptime"] = 105,
+							["classe"] = "HUNTER",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[194386] = {
+										["uptime"] = 21,
+										["activedamt"] = 1,
+										["id"] = 194386,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[186406] = {
+										["uptime"] = 21,
+										["activedamt"] = 1,
+										["id"] = 186406,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[237137] = {
+										["uptime"] = 21,
+										["activedamt"] = 1,
+										["id"] = 237137,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[227723] = {
+										["uptime"] = 21,
+										["activedamt"] = 1,
+										["id"] = 227723,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[231390] = {
+										["uptime"] = 13,
+										["activedamt"] = 2,
+										["id"] = 231390,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[232405] = {
+										["counter"] = 0,
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["id"] = 232405,
+										["activedamt"] = 1,
+										["actived"] = true,
+										["actived_at"] = 1491240897,
+									},
+									[120694] = {
+										["uptime"] = 8,
+										["activedamt"] = 1,
+										["id"] = 120694,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 4,
+							["debuff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["spell_cast"] = {
+								[34026] = 1,
+								[193455] = 1,
+								[224578] = 1,
+								[120679] = 1,
+								[84342] = 1,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1491240918,
+							["buff_uptime_targets"] = {
+							},
+							["pets"] = {
+								"Beast <Laurannah>", -- [1]
+								"Corey <Laurannah>", -- [2]
+							},
 							["serial"] = "Player-3693-092AD332",
-							["last_event"] = 1490993266,
+							["nome"] = "Laurannah",
 						}, -- [1]
+						{
+							["flag_original"] = 8465,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Beast <Laurannah>",
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[120694] = 1,
+								[201754] = 1,
+							},
+							["classe"] = "PET",
+							["last_event"] = 0,
+							["serial"] = "Creature-0-3019-1220-22446-113346-00006287D8",
+							["tipo"] = 4,
+						}, -- [2]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Corey <Laurannah>",
+							["spell_cast"] = {
+								[17253] = 2,
+								[63900] = 1,
+								[2649] = 1,
+							},
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["serial"] = "Pet-0-3019-1220-22446-11673-080283DFC8",
+							["fight_component"] = true,
+						}, -- [3]
 					},
 				}, -- [4]
 				{
 					["tipo"] = 2,
-					["combatId"] = 422,
+					["combatId"] = 601,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -4900,30 +1135,1166 @@ _detalhes_database = {
 				},
 				["last_events_tables"] = {
 				},
-				["enemy"] = "Battlesworn Nether-Mage",
-				["combat_counter"] = 1316,
+				["enemy"] = "Feral Souldrinker",
+				["combat_counter"] = 1585,
 				["playing_solo"] = true,
 				["totals"] = {
-					77918.9297949987, -- [1]
-					-0.0211030000045866, -- [2]
+					2567006.952952, -- [1]
+					87141, -- [2]
 					{
 						0, -- [1]
-						[0] = 11.982749,
+						[0] = 11.9811890000021,
 						[6] = 0,
 						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = -0.0056480000000001,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+					["Laurannah"] = {
+						{
+							true, -- [1]
+							13445, -- [2]
+							12305, -- [3]
+							1491240920.983, -- [4]
+							2832717, -- [5]
+							"Cliffclutch Thornwitch", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							13445, -- [2]
+							12305, -- [3]
+							1491240923.987, -- [4]
+							2880073, -- [5]
+							"Cliffclutch Thornwitch", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 3,
+					},
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Laurannah"] = 2567007.002046,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Laurannah"] = 87141.005531,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 1659346.617,
+				["combat_id"] = 601,
+				["TimeData"] = {
+				},
+				["hasSaved"] = true,
+				["frags"] = {
+					["Cliffclutch Thornwitch"] = 1,
+					["Feral Scavenger"] = 1,
+				},
+				["data_fim"] = "13:35:18",
+				["data_inicio"] = "13:34:57",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					1242874, -- [1]
+					74563, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 1659325.461,
+				["contra"] = "Feral Souldrinker",
+				["instance_type"] = "none",
+			}, -- [1]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 600,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1300,
+							["damage_from"] = {
+								["Disturbed Apparition"] = true,
+								["Feral Scavenger"] = true,
+							},
+							["targets"] = {
+								["Feral Souldrinker"] = 656325,
+								["Disturbed Apparition"] = 1252295,
+							},
+							["pets"] = {
+								"Corey <Laurannah>", -- [1]
+								"Hati <Laurannah>", -- [2]
+								"Beast <Laurannah>", -- [3]
+							},
+							["damage_taken"] = 537756.008738,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 928719.008738,
+							["last_event"] = 1491240835,
+							["dps_started"] = false,
+							["total"] = 1908620.008738,
+							["delay"] = 1491240835,
+							["classe"] = "HUNTER",
+							["nome"] = "Laurannah",
+							["spells"] = {
+								["_ActorTable"] = {
+									[194392] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 35741,
+										["targets"] = {
+											["Feral Souldrinker"] = 35739,
+											["Disturbed Apparition"] = 35741,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 71480,
+										["n_min"] = 35739,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 71480,
+										["c_max"] = 0,
+										["id"] = 194392,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[229737] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 551879,
+										["g_amt"] = 0,
+										["n_max"] = 275940,
+										["targets"] = {
+											["Feral Souldrinker"] = 275940,
+											["Disturbed Apparition"] = 551879,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 275940,
+										["n_min"] = 275940,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 827819,
+										["c_max"] = 551879,
+										["id"] = 229737,
+										["r_dmg"] = 0,
+										["c_min"] = 551879,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[75] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 29420,
+										["targets"] = {
+											["Disturbed Apparition"] = 29420,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 29420,
+										["n_min"] = 29420,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 29420,
+										["c_max"] = 0,
+										["id"] = 75,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["end_time"] = 1491240862,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1491240854,
+							["serial"] = "Player-3693-092AD332",
+							["on_hold"] = false,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["damage_from"] = {
+								["Feral Souldrinker"] = true,
+							},
+							["targets"] = {
+								["Feral Souldrinker"] = 147469,
+								["Disturbed Apparition"] = 167662,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 142963.003409,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 315131.003409,
+							["last_event"] = 1491240835,
+							["dps_started"] = false,
+							["total"] = 315131.003409,
+							["delay"] = 1491240835,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Corey <Laurannah>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 45987,
+										["g_amt"] = 0,
+										["n_max"] = 22993,
+										["targets"] = {
+											["Feral Souldrinker"] = 22993,
+											["Disturbed Apparition"] = 91973,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 68979,
+										["n_min"] = 22993,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 114966,
+										["c_max"] = 45987,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_min"] = 45987,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+									[63900] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 23900,
+										["targets"] = {
+											["Feral Souldrinker"] = 23900,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 23900,
+										["n_min"] = 23900,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 23900,
+										["c_max"] = 0,
+										["id"] = 63900,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+									[17253] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 100576,
+										["targets"] = {
+											["Feral Souldrinker"] = 100576,
+											["Disturbed Apparition"] = 75689,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 176265,
+										["n_min"] = 75689,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 176265,
+										["c_max"] = 0,
+										["id"] = 17253,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1491240862,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1491240854,
+							["serial"] = "Pet-0-3019-1220-22446-11673-080283DFC8",
+							["classe"] = "PET",
+						}, -- [2]
+						{
+							["flag_original"] = 8465,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Disturbed Apparition"] = 82632,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 0.00129,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 82632.00129,
+							["last_event"] = 1491240833,
+							["dps_started"] = false,
+							["total"] = 82632.00129,
+							["delay"] = 1491240833,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Hati <Laurannah>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 27544,
+										["targets"] = {
+											["Disturbed Apparition"] = 82632,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 82632,
+										["n_min"] = 27544,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 82632,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1491240862,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1491240858,
+							["serial"] = "Creature-0-3019-1220-22446-106551-00006286B7",
+							["classe"] = "PET",
+						}, -- [3]
+						{
+							["flag_original"] = 8465,
+							["damage_from"] = {
+								["Disturbed Apparition"] = true,
+							},
+							["targets"] = {
+								["Disturbed Apparition"] = 384961,
+								["Feral Souldrinker"] = 197177,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 57039.005943,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 582138.005943,
+							["last_event"] = 1491240834,
+							["dps_started"] = false,
+							["total"] = 582138.005943,
+							["delay"] = 1491240834,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Beast <Laurannah>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 150227,
+										["g_amt"] = 0,
+										["n_max"] = 37557,
+										["targets"] = {
+											["Disturbed Apparition"] = 187784,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 37557,
+										["n_min"] = 37557,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 187784,
+										["c_max"] = 75114,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_min"] = 75113,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+									[201754] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 197177,
+										["targets"] = {
+											["Feral Souldrinker"] = 197177,
+											["Disturbed Apparition"] = 197177,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 394354,
+										["n_min"] = 197177,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 394354,
+										["c_max"] = 0,
+										["id"] = 201754,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1491240862,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1491240857,
+							["serial"] = "Creature-0-3019-1220-22446-113346-0000628789",
+							["classe"] = "PET",
+						}, -- [4]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 600,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorb"] = 0.003919,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["Laurannah"] = true,
+							},
+							["targets"] = {
+								["Corey <Laurannah>"] = 3268546,
+								["Laurannah"] = 889021,
+								["Beast <Laurannah>"] = 9321,
+							},
+							["pets"] = {
+								"Corey <Laurannah>", -- [1]
+								"Hati <Laurannah>", -- [2]
+								"Beast <Laurannah>", -- [3]
+							},
+							["totalover_without_pet"] = 0.003919,
+							["targets_overheal"] = {
+								["Laurannah"] = 360728,
+								["Corey <Laurannah>"] = 3061207,
+							},
+							["healing_taken"] = 590868.003919,
+							["totalover"] = 3423258.003919,
+							["total_without_pet"] = 793162.003919,
+							["heal_enemy_amt"] = 0,
+							["iniciar_hps"] = false,
+							["fight_component"] = true,
+							["total"] = 807528.003919,
+							["classe"] = "HUNTER",
+							["delay"] = 1491240839,
+							["nome"] = "Laurannah",
+							["targets_absorbs"] = {
+							},
+							["grupo"] = true,
+							["end_time"] = 1491240862,
+							["heal_enemy"] = {
+							},
+							["last_event"] = 1491240856,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["start_time"] = 1491240847,
+							["serial"] = "Player-3693-092AD332",
+							["spells"] = {
+								["_ActorTable"] = {
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Laurannah"] = 62575,
+										},
+										["n_max"] = 13254,
+										["targets"] = {
+											["Laurannah"] = 14869,
+										},
+										["n_min"] = 0,
+										["counter"] = 4,
+										["overheal"] = 62575,
+										["total"] = 14869,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 4,
+										["m_healed"] = 0,
+										["n_curado"] = 14869,
+										["c_min"] = 0,
+										["absorbed"] = 0,
+									},
+									[128594] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Corey <Laurannah>"] = 3061207,
+										},
+										["n_max"] = 202294,
+										["targets"] = {
+											["Corey <Laurannah>"] = 202294,
+										},
+										["n_min"] = 202294,
+										["counter"] = 1,
+										["overheal"] = 3061207,
+										["total"] = 202294,
+										["c_max"] = 0,
+										["id"] = 128594,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 1,
+										["m_healed"] = 0,
+										["n_curado"] = 202294,
+										["c_min"] = 0,
+										["absorbed"] = 0,
+									},
+									[109304] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Laurannah"] = 298153,
+										},
+										["n_max"] = 575999,
+										["targets"] = {
+											["Laurannah"] = 575999,
+										},
+										["n_min"] = 575999,
+										["counter"] = 1,
+										["overheal"] = 298153,
+										["total"] = 575999,
+										["c_max"] = 0,
+										["id"] = 109304,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 1,
+										["m_healed"] = 0,
+										["n_curado"] = 575999,
+										["c_min"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorb"] = 0.007111,
+							["last_hps"] = 0,
+							["targets_overheal"] = {
+							},
+							["targets"] = {
+								["Corey <Laurannah>"] = 5045,
+							},
+							["delay"] = 1491240837,
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.007111,
+							["healing_from"] = {
+								["Corey <Laurannah>"] = true,
+								["Laurannah"] = true,
+							},
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.007111,
+							["total_without_pet"] = 5045.007111,
+							["iniciar_hps"] = false,
+							["fight_component"] = true,
+							["end_time"] = 1491240862,
+							["healing_taken"] = 207339.007111,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Corey <Laurannah>",
+							["targets_absorbs"] = {
+							},
+							["classe"] = "PET",
+							["total"] = 5045.007111,
+							["heal_enemy"] = {
+							},
+							["spells"] = {
+								["_ActorTable"] = {
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 3097,
+										["targets"] = {
+											["Corey <Laurannah>"] = 5045,
+										},
+										["n_min"] = 1948,
+										["counter"] = 2,
+										["overheal"] = 0,
+										["total"] = 5045,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 2,
+										["m_healed"] = 0,
+										["n_curado"] = 5045,
+										["c_min"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["custom"] = 0,
+							["last_event"] = 1491240837,
+							["on_hold"] = false,
+							["start_time"] = 1491240856,
+							["serial"] = "Pet-0-3019-1220-22446-11673-080283DFC8",
+							["tipo"] = 2,
+						}, -- [2]
+						{
+							["flag_original"] = 8465,
+							["totalabsorb"] = 0.006574,
+							["last_hps"] = 0,
+							["targets_overheal"] = {
+								["Hati <Laurannah>"] = 1323,
+							},
+							["classe"] = "PET",
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["healing_from"] = {
+							},
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 1323.006574,
+							["total_without_pet"] = 0.006574,
+							["serial"] = "Creature-0-3019-1220-22446-106551-00006286B7",
+							["totalover_without_pet"] = 0.006574,
+							["total"] = 0.006574,
+							["end_time"] = 1491240862,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Hati <Laurannah>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Hati <Laurannah>"] = 1323,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Hati <Laurannah>"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 2,
+										["overheal"] = 1323,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 2,
+										["m_healed"] = 0,
+										["n_curado"] = 0,
+										["c_min"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["healing_taken"] = 0.006574,
+							["heal_enemy"] = {
+							},
+							["targets_absorbs"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1491240839,
+							["on_hold"] = false,
+							["start_time"] = 1491240855,
+							["delay"] = 1491240839,
+							["tipo"] = 2,
+						}, -- [3]
+						{
+							["flag_original"] = 8465,
+							["totalabsorb"] = 0.003778,
+							["last_hps"] = 0,
+							["targets_overheal"] = {
+							},
+							["targets"] = {
+								["Beast <Laurannah>"] = 9321,
+							},
+							["delay"] = 1491240835,
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.003778,
+							["healing_from"] = {
+								["Beast <Laurannah>"] = true,
+							},
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.003778,
+							["total_without_pet"] = 9321.003778,
+							["iniciar_hps"] = false,
+							["fight_component"] = true,
+							["end_time"] = 1491240862,
+							["healing_taken"] = 9321.003778,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Beast <Laurannah>",
+							["targets_absorbs"] = {
+							},
+							["classe"] = "PET",
+							["total"] = 9321.003778,
+							["heal_enemy"] = {
+							},
+							["spells"] = {
+								["_ActorTable"] = {
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 9321,
+										["targets"] = {
+											["Beast <Laurannah>"] = 9321,
+										},
+										["n_min"] = 9321,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 9321,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 1,
+										["m_healed"] = 0,
+										["n_curado"] = 9321,
+										["c_min"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["custom"] = 0,
+							["last_event"] = 1491240835,
+							["on_hold"] = false,
+							["start_time"] = 1491240861,
+							["serial"] = "Creature-0-3019-1220-22446-113346-0000628789",
+							["tipo"] = 2,
+						}, -- [4]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 600,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 600,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[120679] = {
+										["uptime"] = 5,
+										["activedamt"] = 0,
+										["id"] = 120679,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[225746] = {
+										["uptime"] = 3,
+										["activedamt"] = 0,
+										["id"] = 225746,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[224553] = {
+										["uptime"] = 5,
+										["activedamt"] = 0,
+										["id"] = 224553,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 178,
+							["classe"] = "HUNTER",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186406] = {
+										["uptime"] = 34,
+										["activedamt"] = 1,
+										["id"] = 186406,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[194386] = {
+										["uptime"] = 34,
+										["activedamt"] = 1,
+										["id"] = 194386,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[231390] = {
+										["uptime"] = 31,
+										["activedamt"] = 2,
+										["id"] = 231390,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[5384] = {
+										["uptime"] = 0,
+										["activedamt"] = 0,
+										["id"] = 5384,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[227723] = {
+										["uptime"] = 34,
+										["activedamt"] = 1,
+										["id"] = 227723,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[224553] = {
+										["uptime"] = 3,
+										["activedamt"] = 1,
+										["id"] = 224553,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[237137] = {
+										["uptime"] = 34,
+										["activedamt"] = 1,
+										["id"] = 237137,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[120694] = {
+										["uptime"] = 8,
+										["activedamt"] = 1,
+										["id"] = 120694,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 13,
+							["nome"] = "Laurannah",
+							["grupo"] = true,
+							["spell_cast"] = {
+								[224578] = 1,
+								[120679] = 1,
+								[109304] = 1,
+								[224553] = 1,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1491240862,
+							["buff_uptime_targets"] = {
+							},
+							["pets"] = {
+								"Corey <Laurannah>", -- [1]
+								"Beast <Laurannah>", -- [2]
+							},
+							["serial"] = "Player-3693-092AD332",
+							["debuff_uptime_targets"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Corey <Laurannah>",
+							["spell_cast"] = {
+								[2649] = 1,
+								[63900] = 1,
+								[17253] = 2,
+							},
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["serial"] = "Pet-0-3019-1220-22446-11673-080283DFC8",
+							["fight_component"] = true,
+						}, -- [2]
+						{
+							["flag_original"] = 8465,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Beast <Laurannah>",
+							["spell_cast"] = {
+								[120694] = 1,
+								[201754] = 1,
+							},
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3019-1220-22446-113346-0000628789",
+							["fight_component"] = true,
+						}, -- [3]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 600,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Laurannah"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["enemy"] = "Disturbed Apparition",
+				["combat_counter"] = 1582,
+				["playing_solo"] = true,
+				["totals"] = {
+					1908619.98652, -- [1]
+					807527.994561, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -4935,35 +2306,649 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Laurannah"] = 1908620.024123,
+						}, -- [1]
 					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
+							["Laurannah"] = 807528.003919,
 						}, -- [1]
 					},
-					["damage"] = {
-						{
-							["Laurannah"] = 77919.005835,
-						}, -- [1]
+					["damage_section"] = {
 					},
 				},
-				["end_time"] = 1411692.393,
-				["combat_id"] = 422,
-				["instance_type"] = "none",
+				["end_time"] = 1659290.328,
+				["combat_id"] = 600,
+				["TimeData"] = {
+				},
+				["resincked"] = true,
 				["hasSaved"] = true,
 				["frags"] = {
-					["Beaming Eye"] = 3,
-					["Felsworn Chaos Mage"] = 1,
-					["Battlesworn Nether-Mage"] = 1,
+					["Disturbed Apparition"] = 1,
 				},
-				["data_fim"] = "16:47:46",
-				["contra"] = "Battlesworn Nether-Mage",
+				["data_fim"] = "13:34:22",
+				["data_inicio"] = "13:33:48",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
-					77919, -- [1]
+					928719, -- [1]
+					793162, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 1659256.709,
+				["contra"] = "Feral Souldrinker",
+				["instance_type"] = "none",
+			}, -- [2]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 599,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Feral Scavenger"] = 84449,
+							},
+							["pets"] = {
+								"Beast <Laurannah>", -- [1]
+								"Corey <Laurannah>", -- [2]
+							},
+							["damage_taken"] = 0.003865,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.003865,
+							["last_event"] = 1491240816,
+							["dps_started"] = false,
+							["total"] = 84449.003865,
+							["delay"] = 0,
+							["classe"] = "HUNTER",
+							["nome"] = "Laurannah",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["end_time"] = 1491240824,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1491240815,
+							["serial"] = "Player-3693-092AD332",
+							["on_hold"] = false,
+						}, -- [1]
+						{
+							["flag_original"] = 8465,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Feral Scavenger"] = 37556,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 0.006784,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 37556.006784,
+							["last_event"] = 1491240815,
+							["dps_started"] = false,
+							["total"] = 37556.006784,
+							["delay"] = 0,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Beast <Laurannah>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 37556,
+										["targets"] = {
+											["Feral Scavenger"] = 37556,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 37556,
+										["n_min"] = 37556,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 37556,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1491240824,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1491240815,
+							["serial"] = "Creature-0-3019-1220-22446-113346-0000628776",
+							["classe"] = "PET",
+						}, -- [2]
+						{
+							["flag_original"] = 4369,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Feral Scavenger"] = 46893,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 0.002115,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 46893.002115,
+							["last_event"] = 1491240816,
+							["dps_started"] = false,
+							["total"] = 46893.002115,
+							["delay"] = 0,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Corey <Laurannah>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 22993,
+										["targets"] = {
+											["Feral Scavenger"] = 22993,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 22993,
+										["n_min"] = 22993,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 22993,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+									[63900] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 23900,
+										["targets"] = {
+											["Feral Scavenger"] = 23900,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 23900,
+										["n_min"] = 23900,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 23900,
+										["c_max"] = 0,
+										["id"] = 63900,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1491240824,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1491240816,
+							["serial"] = "Pet-0-3019-1220-22446-11673-080283DFC8",
+							["classe"] = "PET",
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 599,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1300,
+							["totalabsorb"] = 0.006841,
+							["last_hps"] = 0,
+							["targets_overheal"] = {
+							},
+							["targets"] = {
+								["Corey <Laurannah>"] = 3084,
+							},
+							["pets"] = {
+								"Corey <Laurannah>", -- [1]
+								"Beast <Laurannah>", -- [2]
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 4359.006841,
+							["total_without_pet"] = 0.006841,
+							["healing_from"] = {
+							},
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["totalover_without_pet"] = 0.006841,
+							["total"] = 3084.006841,
+							["end_time"] = 1491240824,
+							["healing_taken"] = 0.006841,
+							["nome"] = "Laurannah",
+							["targets_absorbs"] = {
+							},
+							["grupo"] = true,
+							["delay"] = 0,
+							["heal_enemy"] = {
+							},
+							["classe"] = "HUNTER",
+							["custom"] = 0,
+							["last_event"] = 1491240821,
+							["on_hold"] = false,
+							["start_time"] = 1491240816,
+							["serial"] = "Player-3693-092AD332",
+							["tipo"] = 2,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorb"] = 0.007069,
+							["last_hps"] = 0,
+							["targets_overheal"] = {
+							},
+							["targets"] = {
+								["Corey <Laurannah>"] = 3084,
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.007069,
+							["healing_from"] = {
+								["Corey <Laurannah>"] = true,
+							},
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.007069,
+							["total_without_pet"] = 3084.007069,
+							["iniciar_hps"] = false,
+							["fight_component"] = true,
+							["end_time"] = 1491240824,
+							["healing_taken"] = 3084.007069,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Corey <Laurannah>",
+							["targets_absorbs"] = {
+							},
+							["classe"] = "PET",
+							["total"] = 3084.007069,
+							["heal_enemy"] = {
+							},
+							["spells"] = {
+								["_ActorTable"] = {
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 2333,
+										["targets"] = {
+											["Corey <Laurannah>"] = 3084,
+										},
+										["n_min"] = 751,
+										["counter"] = 2,
+										["overheal"] = 0,
+										["total"] = 3084,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 2,
+										["m_healed"] = 0,
+										["n_curado"] = 3084,
+										["c_min"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["custom"] = 0,
+							["last_event"] = 1491240821,
+							["on_hold"] = false,
+							["start_time"] = 1491240816,
+							["serial"] = "Pet-0-3019-1220-22446-11673-080283DFC8",
+							["tipo"] = 2,
+						}, -- [2]
+						{
+							["flag_original"] = 8465,
+							["totalabsorb"] = 0.007745,
+							["last_hps"] = 0,
+							["targets_overheal"] = {
+								["Beast <Laurannah>"] = 4359,
+							},
+							["classe"] = "PET",
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["healing_from"] = {
+							},
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 4359.007745,
+							["total_without_pet"] = 0.007745,
+							["serial"] = "Creature-0-3019-1220-22446-113346-0000628776",
+							["totalover_without_pet"] = 0.007745,
+							["total"] = 0.007745,
+							["end_time"] = 1491240824,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Beast <Laurannah>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Beast <Laurannah>"] = 4359,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Beast <Laurannah>"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 1,
+										["overheal"] = 4359,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 1,
+										["m_healed"] = 0,
+										["n_curado"] = 0,
+										["c_min"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["healing_taken"] = 0.007745,
+							["heal_enemy"] = {
+							},
+							["targets_absorbs"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1491240817,
+							["on_hold"] = false,
+							["start_time"] = 1491240817,
+							["delay"] = 0,
+							["tipo"] = 2,
+						}, -- [3]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 599,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 599,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime"] = 2,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[224553] = {
+										["uptime"] = 2,
+										["activedamt"] = 0,
+										["id"] = 224553,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["nome"] = "Laurannah",
+							["grupo"] = true,
+							["debuff_uptime_targets"] = {
+							},
+							["pets"] = {
+								"Corey <Laurannah>", -- [1]
+							},
+							["buff_uptime_targets"] = {
+							},
+							["buff_uptime"] = 49,
+							["last_event"] = 1491240824,
+							["tipo"] = 4,
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[194386] = {
+										["uptime"] = 9,
+										["activedamt"] = 1,
+										["id"] = 194386,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[186406] = {
+										["uptime"] = 9,
+										["activedamt"] = 1,
+										["id"] = 186406,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[231390] = {
+										["uptime"] = 9,
+										["activedamt"] = 1,
+										["id"] = 231390,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[227723] = {
+										["uptime"] = 9,
+										["activedamt"] = 1,
+										["id"] = 227723,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[224553] = {
+										["uptime"] = 0,
+										["activedamt"] = 0,
+										["id"] = 224553,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[120694] = {
+										["uptime"] = 4,
+										["activedamt"] = 1,
+										["id"] = 120694,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[237137] = {
+										["uptime"] = 9,
+										["activedamt"] = 1,
+										["id"] = 237137,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["serial"] = "Player-3693-092AD332",
+							["classe"] = "HUNTER",
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Corey <Laurannah>",
+							["spell_cast"] = {
+								[63900] = 1,
+							},
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["serial"] = "Pet-0-3019-1220-22446-11673-080283DFC8",
+							["fight_component"] = true,
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 599,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Laurannah"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["enemy"] = "Feral Scavenger",
+				["combat_counter"] = 1581,
+				["playing_solo"] = true,
+				["totals"] = {
+					84448.991731, -- [1]
+					3084, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = false,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Laurannah"] = 84449.003865,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Laurannah"] = 3084.006841,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 1659253.019,
+				["combat_id"] = 599,
+				["TimeData"] = {
+				},
+				["hasSaved"] = true,
+				["frags"] = {
+				},
+				["data_fim"] = "13:33:45",
+				["data_inicio"] = "13:33:36",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					0, -- [1]
 					0, -- [2]
 					{
 						0, -- [1]
@@ -4974,190 +2959,80 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
-				["start_time"] = 1411686.172,
-				["TimeData"] = {
-				},
-				["data_inicio"] = "16:47:40",
-			}, -- [4]
+				["start_time"] = 1659244.095,
+				["contra"] = "Feral Scavenger",
+				["instance_type"] = "none",
+			}, -- [3]
 			{
 				{
 					["tipo"] = 2,
-					["combatId"] = 421,
+					["combatId"] = 598,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
 							["damage_from"] = {
+								["Disturbed Apparition"] = true,
 							},
 							["targets"] = {
-								["Legion Painmaiden"] = 619915,
-								["Darkfire Fiend"] = 653729,
-								["Sentinax Observer"] = 515872,
-								["Sentinax Interrogator"] = 708448,
-								["Virulent Imp"] = 882697,
-								["Blazing Imp"] = 251664,
+								["Feral Scavenger"] = 155102,
 							},
 							["pets"] = {
 								"Corey <Laurannah>", -- [1]
-								"Beast <Laurannah>", -- [2]
-								"Hati <Laurannah>", -- [3]
 							},
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 140071.002697,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 997245.001283,
-							["on_hold"] = false,
+							["total_without_pet"] = 0.002697,
+							["last_event"] = 1491240804,
 							["dps_started"] = false,
-							["total"] = 3632325.001283,
-							["serial"] = "Player-3693-092AD332",
-							["end_time"] = 1490993258,
+							["total"] = 155102.002697,
+							["delay"] = 0,
+							["classe"] = "HUNTER",
 							["nome"] = "Laurannah",
 							["spells"] = {
 								["_ActorTable"] = {
-									[194392] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 92284,
-										["g_amt"] = 0,
-										["n_max"] = 46142,
-										["targets"] = {
-											["Legion Painmaiden"] = 86782,
-											["Darkfire Fiend"] = 138426,
-											["Sentinax Observer"] = 46142,
-											["Sentinax Interrogator"] = 46142,
-											["Virulent Imp"] = 43391,
-											["Blazing Imp"] = 46142,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 314741,
-										["n_min"] = 43391,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 407025,
-										["c_max"] = 92284,
-										["id"] = 194392,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 92284,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 7,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[2643] = {
-										["c_amt"] = 3,
-										["b_amt"] = 0,
-										["c_dmg"] = 243638,
-										["g_amt"] = 0,
-										["n_max"] = 41429,
-										["targets"] = {
-											["Legion Painmaiden"] = 116880,
-											["Darkfire Fiend"] = 82858,
-											["Sentinax Observer"] = 82859,
-											["Sentinax Interrogator"] = 82859,
-											["Virulent Imp"] = 38959,
-											["Blazing Imp"] = 41429,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 202206,
-										["n_min"] = 38959,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 445844,
-										["c_max"] = 82859,
-										["id"] = 2643,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 77920,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 5,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[75] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 71061,
-										["g_amt"] = 0,
-										["n_max"] = 37784,
-										["targets"] = {
-											["Legion Painmaiden"] = 35531,
-											["Virulent Imp"] = 71061,
-											["Blazing Imp"] = 37784,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 73315,
-										["n_min"] = 35531,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 144376,
-										["c_max"] = 71061,
-										["id"] = 75,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 71061,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
 								},
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["tipo"] = 1,
+							["end_time"] = 1491240807,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1490993256,
-							["damage_taken"] = 0.001283,
-							["start_time"] = 1490993243,
-							["delay"] = 0,
-							["classe"] = "HUNTER",
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1491240802,
+							["serial"] = "Player-3693-092AD332",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["damage_from"] = {
-								["Virulent Imp"] = true,
+								["Feral Scavenger"] = true,
 							},
 							["targets"] = {
-								["Darkfire Fiend"] = 274566,
-								["Sentinax Observer"] = 184441,
-								["Sentinax Interrogator"] = 174588,
-								["Virulent Imp"] = 504591,
-								["Blazing Imp"] = 69752,
+								["Feral Scavenger"] = 155102,
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 37009.005595,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 1207938.002796,
-							["classe"] = "PET",
+							["total_without_pet"] = 155102.005595,
+							["last_event"] = 1491240804,
 							["dps_started"] = false,
-							["total"] = 1207938.002796,
-							["serial"] = "Pet-0-3778-1220-12524-11673-080283DFC8",
+							["total"] = 155102.005595,
+							["delay"] = 0,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Corey <Laurannah>",
 							["spells"] = {
@@ -5167,560 +3042,2395 @@ _detalhes_database = {
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 27748,
+										["n_max"] = 22993,
 										["targets"] = {
-											["Sentinax Observer"] = 23605,
-											["Virulent Imp"] = 72145,
-											["Blazing Imp"] = 23605,
+											["Feral Scavenger"] = 22993,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 119355,
-										["n_min"] = 22198,
+										["n_dmg"] = 22993,
+										["n_min"] = 22993,
 										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 119355,
+										["counter"] = 1,
+										["total"] = 22993,
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 5,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									}, -- [1]
 									[17253] = {
-										["c_amt"] = 3,
+										["c_amt"] = 0,
 										["b_amt"] = 0,
-										["c_dmg"] = 522019,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 79527,
+										["targets"] = {
+											["Feral Scavenger"] = 79527,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 79527,
+										["n_min"] = 79527,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 79527,
+										["c_max"] = 0,
+										["id"] = 17253,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[63900] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 23900,
+										["targets"] = {
+											["Feral Scavenger"] = 23900,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 23900,
+										["n_min"] = 23900,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 23900,
+										["c_max"] = 0,
+										["id"] = 63900,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+									[160124] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 28682,
+										["targets"] = {
+											["Feral Scavenger"] = 28682,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 28682,
+										["n_min"] = 28682,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 28682,
+										["c_max"] = 0,
+										["id"] = 160124,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1491240807,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1491240802,
+							["serial"] = "Pet-0-3019-1220-22446-11673-080283DFC8",
+							["classe"] = "PET",
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 598,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1300,
+							["totalabsorb"] = 0.00236,
+							["last_hps"] = 0,
+							["targets_overheal"] = {
+							},
+							["targets"] = {
+								["Corey <Laurannah>"] = 2483,
+							},
+							["pets"] = {
+								"Corey <Laurannah>", -- [1]
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.00236,
+							["total_without_pet"] = 0.00236,
+							["healing_from"] = {
+							},
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 3,
+							},
+							["totalover_without_pet"] = 0.00236,
+							["total"] = 2483.00236,
+							["end_time"] = 1491240807,
+							["healing_taken"] = 0.00236,
+							["nome"] = "Laurannah",
+							["targets_absorbs"] = {
+							},
+							["grupo"] = true,
+							["delay"] = 0,
+							["heal_enemy"] = {
+							},
+							["classe"] = "HUNTER",
+							["custom"] = 0,
+							["last_event"] = 1491240805,
+							["on_hold"] = false,
+							["start_time"] = 1491240805,
+							["serial"] = "Player-3693-092AD332",
+							["tipo"] = 2,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorb"] = 0.004743,
+							["last_hps"] = 0,
+							["targets_overheal"] = {
+							},
+							["targets"] = {
+								["Corey <Laurannah>"] = 2483,
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.004743,
+							["healing_from"] = {
+								["Corey <Laurannah>"] = true,
+							},
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.004743,
+							["total_without_pet"] = 2483.004743,
+							["iniciar_hps"] = false,
+							["fight_component"] = true,
+							["end_time"] = 1491240807,
+							["healing_taken"] = 2483.004743,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Corey <Laurannah>",
+							["targets_absorbs"] = {
+							},
+							["classe"] = "PET",
+							["total"] = 2483.004743,
+							["heal_enemy"] = {
+							},
+							["spells"] = {
+								["_ActorTable"] = {
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 2483,
+										["targets"] = {
+											["Corey <Laurannah>"] = 2483,
+										},
+										["n_min"] = 2483,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 2483,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 1,
+										["m_healed"] = 0,
+										["n_curado"] = 2483,
+										["c_min"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["custom"] = 0,
+							["last_event"] = 1491240805,
+							["on_hold"] = false,
+							["start_time"] = 1491240805,
+							["serial"] = "Pet-0-3019-1220-22446-11673-080283DFC8",
+							["tipo"] = 2,
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 598,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 598,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[224553] = {
+										["uptime"] = 2,
+										["activedamt"] = 0,
+										["id"] = 224553,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 33,
+							["classe"] = "HUNTER",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[194386] = {
+										["uptime"] = 6,
+										["activedamt"] = 1,
+										["id"] = 194386,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[186406] = {
+										["uptime"] = 6,
+										["activedamt"] = 1,
+										["id"] = 186406,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[5384] = {
+										["uptime"] = 0,
+										["activedamt"] = 0,
+										["id"] = 5384,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[227723] = {
+										["uptime"] = 6,
+										["activedamt"] = 1,
+										["id"] = 227723,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[224553] = {
+										["uptime"] = 3,
+										["activedamt"] = 1,
+										["id"] = 224553,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[231390] = {
+										["uptime"] = 6,
+										["activedamt"] = 1,
+										["id"] = 231390,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[237137] = {
+										["uptime"] = 6,
+										["activedamt"] = 1,
+										["id"] = 237137,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 2,
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["spell_cast"] = {
+								[224553] = 1,
+							},
+							["nome"] = "Laurannah",
+							["tipo"] = 4,
+							["debuff_uptime_targets"] = {
+							},
+							["pets"] = {
+								"Corey <Laurannah>", -- [1]
+							},
+							["serial"] = "Player-3693-092AD332",
+							["last_event"] = 1491240807,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Corey <Laurannah>",
+							["spell_cast"] = {
+								[17253] = 1,
+								[63900] = 1,
+								[2649] = 1,
+							},
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["serial"] = "Pet-0-3019-1220-22446-11673-080283DFC8",
+							["fight_component"] = true,
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 598,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Laurannah"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["enemy"] = "Disturbed Apparition",
+				["combat_counter"] = 1579,
+				["playing_solo"] = true,
+				["totals"] = {
+					155101.993254, -- [1]
+					2483, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = false,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Laurannah"] = 1429087.004629,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Laurannah"] = 16788.004819,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 1659235.795,
+				["combat_id"] = 598,
+				["TimeData"] = {
+				},
+				["resincked"] = true,
+				["hasSaved"] = true,
+				["frags"] = {
+				},
+				["data_fim"] = "13:33:27",
+				["data_inicio"] = "13:33:21",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					0, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 1659229.697,
+				["contra"] = "Disturbed Apparition",
+				["instance_type"] = "none",
+			}, -- [4]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 597,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["damage_from"] = {
+								["Leleyna"] = true,
+								["Duskwatch Spellshield"] = true,
+							},
+							["targets"] = {
+								["Leleyna"] = 15016559,
+								["Duskwatch Spellshield"] = 10186587,
+							},
+							["pets"] = {
+								"Beast <Laurannah>", -- [1]
+								"Corey <Laurannah>", -- [2]
+								"Hati <Laurannah>", -- [3]
+								"Cyrille <Laurannah>", -- [4]
+								"Lorin <Laurannah>", -- [5]
+								"Sylessa <Laurannah>", -- [6]
+							},
+							["damage_taken"] = 659928.005126,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 5239390.005126,
+							["last_event"] = 1491240381,
+							["dps_started"] = false,
+							["total"] = 25203146.005126,
+							["delay"] = 0,
+							["classe"] = "HUNTER",
+							["nome"] = "Laurannah",
+							["spells"] = {
+								["_ActorTable"] = {
+									[194392] = {
+										["c_amt"] = 8,
+										["b_amt"] = 0,
+										["c_dmg"] = 682630,
+										["g_amt"] = 0,
+										["n_max"] = 46820,
+										["targets"] = {
+											["Leleyna"] = 542169,
+											["Duskwatch Spellshield"] = 696208,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 555747,
+										["n_min"] = 35739,
+										["g_dmg"] = 0,
+										["counter"] = 22,
+										["total"] = 1238377,
+										["c_max"] = 93639,
+										["id"] = 194392,
+										["r_dmg"] = 0,
+										["c_min"] = 71479,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 14,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[193455] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 166675,
+										["targets"] = {
+											["Leleyna"] = 333346,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 333346,
+										["n_min"] = 166671,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 333346,
+										["c_max"] = 0,
+										["id"] = 193455,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[75] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 135921,
+										["g_amt"] = 0,
+										["n_max"] = 38541,
+										["targets"] = {
+											["Leleyna"] = 339802,
+											["Duskwatch Spellshield"] = 156217,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 360098,
+										["n_min"] = 29419,
+										["g_dmg"] = 0,
+										["counter"] = 13,
+										["total"] = 496019,
+										["c_max"] = 77082,
+										["id"] = 75,
+										["r_dmg"] = 0,
+										["c_min"] = 58839,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 11,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[2643] = {
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 318155,
+										["g_amt"] = 0,
+										["n_max"] = 42270,
+										["targets"] = {
+											["Leleyna"] = 211348,
+											["Duskwatch Spellshield"] = 402695,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 295888,
+										["n_min"] = 42269,
+										["g_dmg"] = 0,
+										["counter"] = 11,
+										["total"] = 614043,
+										["c_max"] = 84540,
+										["id"] = 2643,
+										["r_dmg"] = 0,
+										["c_min"] = 64535,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 7,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[229737] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 722961,
+										["g_amt"] = 0,
+										["n_max"] = 361481,
+										["targets"] = {
+											["Duskwatch Spellshield"] = 361481,
+											["Leleyna"] = 722961,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 361481,
+										["n_min"] = 361481,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1084442,
+										["c_max"] = 722961,
+										["id"] = 229737,
+										["r_dmg"] = 0,
+										["c_min"] = 722961,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[235999] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 803404,
 										["g_amt"] = 0,
 										["n_max"] = 0,
 										["targets"] = {
-											["Virulent Imp"] = 361183,
-											["Sentinax Observer"] = 160836,
+											["Leleyna"] = 803404,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 803404,
+										["c_max"] = 803404,
+										["id"] = 235999,
+										["r_dmg"] = 0,
+										["c_min"] = 803404,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[197465] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 355938,
+										["g_amt"] = 0,
+										["n_max"] = 88984,
+										["targets"] = {
+											["Leleyna"] = 355938,
+											["Duskwatch Spellshield"] = 313821,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 313821,
+										["n_min"] = 67926,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 669759,
+										["c_max"] = 177969,
+										["id"] = 197465,
+										["r_dmg"] = 0,
+										["c_min"] = 177969,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["end_time"] = 1491240381,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1491240345,
+							["serial"] = "Player-3693-092AD332",
+							["on_hold"] = false,
+						}, -- [1]
+						{
+							["flag_original"] = 8465,
+							["damage_from"] = {
+								["Leleyna"] = true,
+								["Beast <Laurannah>"] = true,
+							},
+							["targets"] = {
+								["Leleyna"] = 1356761,
+								["Duskwatch Spellshield"] = 1333956,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 198087.003522,
+							["friendlyfire_total"] = 185037,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 2690717.003522,
+							["last_event"] = 1491240380,
+							["dps_started"] = false,
+							["total"] = 2690717.003522,
+							["delay"] = 0,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Beast <Laurannah>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 375571,
+										["g_amt"] = 0,
+										["n_max"] = 56336,
+										["targets"] = {
+											["Leleyna"] = 469463,
+											["Duskwatch Spellshield"] = 446659,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 540551,
+										["n_min"] = 33532,
+										["g_dmg"] = 0,
+										["counter"] = 16,
+										["total"] = 916122,
+										["c_max"] = 112672,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_min"] = 75114,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 12,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+									[201754] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 788710,
+										["g_amt"] = 0,
+										["n_max"] = 295766,
+										["targets"] = {
+											["Leleyna"] = 887298,
+											["Duskwatch Spellshield"] = 887297,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 985885,
+										["n_min"] = 197177,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 1774595,
+										["c_max"] = 394355,
+										["id"] = 201754,
+										["r_dmg"] = 0,
+										["c_min"] = 394355,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[207097] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Duskwatch Spellshield"] = 0,
 										},
 										["m_dmg"] = 0,
 										["n_dmg"] = 0,
 										["n_min"] = 0,
 										["g_dmg"] = 0,
 										["counter"] = 3,
-										["total"] = 522019,
-										["c_max"] = 201018,
-										["id"] = 17253,
+										["total"] = 0,
+										["c_max"] = 0,
+										["c_min"] = 0,
+										["id"] = 207097,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
+										["r_amt"] = 0,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 160165,
-										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
 										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["n_amt"] = 0,
+										["spellschool"] = 8,
+										["REFLECT"] = 3,
 									},
-									[63900] = {
-										["c_amt"] = 1,
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+								["Beast <Laurannah>"] = {
+									["total"] = 185037,
+									["spells"] = {
+										[207097] = 185037,
+									},
+								},
+							},
+							["end_time"] = 1491240381,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1491240346,
+							["serial"] = "Creature-0-3019-1220-22446-113346-00006285A5",
+							["classe"] = "PET",
+						}, -- [2]
+						{
+							["flag_original"] = 4369,
+							["damage_from"] = {
+								["Duskwatch Spellshield"] = true,
+								["Leleyna"] = true,
+							},
+							["targets"] = {
+								["Leleyna"] = 3411663,
+								["Duskwatch Spellshield"] = 1750645,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 1830107.004798,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 5162308.004798,
+							["last_event"] = 1491240381,
+							["dps_started"] = false,
+							["total"] = 5162308.004798,
+							["delay"] = 0,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Corey <Laurannah>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 7,
 										["b_amt"] = 0,
-										["c_dmg"] = 46147,
+										["c_dmg"] = 378935,
 										["g_amt"] = 0,
-										["n_max"] = 23072,
+										["n_max"] = 30122,
 										["targets"] = {
-											["Virulent Imp"] = 23072,
-											["Blazing Imp"] = 46147,
+											["Leleyna"] = 478035,
+											["Duskwatch Spellshield"] = 205332,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 23072,
-										["n_min"] = 23072,
+										["n_dmg"] = 304432,
+										["n_min"] = 22993,
 										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 69219,
-										["c_max"] = 46147,
-										["id"] = 63900,
+										["counter"] = 19,
+										["total"] = 683367,
+										["c_max"] = 60244,
+										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
+										["c_min"] = 45987,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
+										["a_amt"] = 0,
 										["m_amt"] = 0,
-										["c_min"] = 46147,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
+										["n_amt"] = 12,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+									[207097] = {
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 229462,
+										["g_amt"] = 0,
+										["n_max"] = 37574,
+										["targets"] = {
+											["Leleyna"] = 353082,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 123620,
+										["n_min"] = 28682,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 353082,
+										["c_max"] = 57366,
+										["id"] = 207097,
+										["r_dmg"] = 0,
+										["c_min"] = 57365,
 										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+									[83381] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 363727,
+										["targets"] = {
+											["Leleyna"] = 1282761,
+											["Duskwatch Spellshield"] = 277653,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1560414,
+										["n_min"] = 277653,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 1560414,
+										["c_max"] = 0,
+										["id"] = 83381,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 									[118459] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 184881,
+										["n_max"] = 253342,
 										["targets"] = {
-											["Sentinax Interrogator"] = 174588,
-											["Virulent Imp"] = 48191,
-											["Darkfire Fiend"] = 274566,
+											["Duskwatch Spellshield"] = 853243,
+											["Leleyna"] = 65394,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 497345,
-										["n_min"] = 24095,
+										["n_dmg"] = 918637,
+										["n_min"] = 24960,
 										["g_dmg"] = 0,
-										["counter"] = 7,
-										["total"] = 497345,
+										["counter"] = 11,
+										["total"] = 918637,
 										["c_max"] = 0,
 										["id"] = 118459,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 7,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["n_amt"] = 11,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
-								},
-								["tipo"] = 2,
-							},
-							["end_time"] = 1490993258,
-							["tipo"] = 1,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1490993256,
-							["damage_taken"] = 66479.002796,
-							["start_time"] = 1490993245,
-							["delay"] = 0,
-							["friendlyfire"] = {
-							},
-						}, -- [2]
-						{
-							["flag_original"] = 8465,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Sentinax Interrogator"] = 404859,
-								["Legion Painmaiden"] = 380722,
-								["Virulent Imp"] = 108775,
-								["Sentinax Observer"] = 202430,
-							},
-							["pets"] = {
-							},
-							["on_hold"] = false,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 1096786.007816,
-							["classe"] = "PET",
-							["dps_started"] = false,
-							["total"] = 1096786.007816,
-							["serial"] = "Creature-0-3778-1220-12524-113342-00005EC05F",
-							["ownerName"] = "Laurannah",
-							["nome"] = "Beast <Laurannah>",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
+									[17253] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 233387,
+										["g_amt"] = 0,
+										["n_max"] = 134229,
+										["targets"] = {
+											["Leleyna"] = 832596,
+											["Duskwatch Spellshield"] = 311412,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 910621,
+										["n_min"] = 74051,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 1144008,
+										["c_max"] = 233387,
+										["id"] = 17253,
+										["r_dmg"] = 0,
+										["c_min"] = 233387,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 9,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[63900] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 36259,
+										["n_max"] = 31308,
 										["targets"] = {
-											["Virulent Imp"] = 108775,
+											["Leleyna"] = 79106,
+											["Duskwatch Spellshield"] = 103005,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 108775,
-										["n_min"] = 36258,
+										["n_dmg"] = 182111,
+										["n_min"] = 23899,
 										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 108775,
+										["counter"] = 7,
+										["total"] = 182111,
 										["c_max"] = 0,
-										["id"] = 1,
+										["id"] = 63900,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[201754] = {
-										["c_amt"] = 1,
+										["n_amt"] = 7,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+									[197163] = {
+										["c_amt"] = 0,
 										["b_amt"] = 0,
-										["c_dmg"] = 404859,
+										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 202430,
+										["n_max"] = 181863,
 										["targets"] = {
-											["Sentinax Interrogator"] = 404859,
-											["Sentinax Observer"] = 202430,
-											["Legion Painmaiden"] = 380722,
+											["Leleyna"] = 320689,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 583152,
-										["n_min"] = 190360,
+										["n_dmg"] = 320689,
+										["n_min"] = 138826,
 										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 988011,
-										["c_max"] = 404859,
-										["id"] = 201754,
+										["counter"] = 2,
+										["total"] = 320689,
+										["c_max"] = 0,
+										["id"] = 197163,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
+										["a_amt"] = 0,
 										["m_amt"] = 0,
-										["c_min"] = 404859,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["end_time"] = 1490993258,
-							["tipo"] = 1,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1490993255,
-							["damage_taken"] = 0.007816,
-							["start_time"] = 1490993245,
-							["delay"] = 0,
 							["friendlyfire"] = {
 							},
+							["end_time"] = 1491240381,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1491240346,
+							["serial"] = "Pet-0-3019-1220-22446-11673-060283DFC8",
+							["classe"] = "PET",
 						}, -- [3]
 						{
 							["flag_original"] = 8465,
 							["damage_from"] = {
-								["Darkfire Fiend"] = true,
+								["Leleyna"] = true,
 							},
 							["targets"] = {
-								["Virulent Imp"] = 115920,
-								["Darkfire Fiend"] = 157879,
-								["Blazing Imp"] = 56557,
+								["Leleyna"] = 1867605,
+								["Duskwatch Spellshield"] = 849822,
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 6404.002127,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 330356.00178,
-							["classe"] = "PET",
+							["total_without_pet"] = 2717427.002127,
+							["last_event"] = 1491240379,
 							["dps_started"] = false,
-							["total"] = 330356.00178,
-							["serial"] = "Creature-0-3778-1220-12524-106551-00005EBC5C",
+							["total"] = 2717427.002127,
+							["delay"] = 0,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Hati <Laurannah>",
 							["spells"] = {
 								["_ActorTable"] = {
 									{
-										["c_amt"] = 2,
+										["c_amt"] = 6,
 										["b_amt"] = 0,
-										["c_dmg"] = 109743,
+										["c_dmg"] = 381771,
 										["g_amt"] = 0,
-										["n_max"] = 26592,
+										["n_max"] = 36084,
 										["targets"] = {
-											["Virulent Imp"] = 79778,
-											["Blazing Imp"] = 56557,
+											["Leleyna"] = 572654,
+											["Duskwatch Spellshield"] = 209890,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 26592,
-										["n_min"] = 26592,
+										["n_dmg"] = 400773,
+										["n_min"] = 27544,
 										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 136335,
-										["c_max"] = 56557,
+										["counter"] = 19,
+										["total"] = 782544,
+										["c_max"] = 72168,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["c_min"] = 55089,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
+										["a_amt"] = 0,
 										["m_amt"] = 0,
-										["c_min"] = 53186,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["n_amt"] = 13,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									}, -- [1]
+									[207097] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 90017,
+										["g_amt"] = 0,
+										["n_max"] = 34357,
+										["targets"] = {
+											["Leleyna"] = 330515,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 240498,
+										["n_min"] = 34356,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 330515,
+										["c_max"] = 90017,
+										["id"] = 207097,
+										["r_dmg"] = 0,
+										["c_min"] = 90017,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 7,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
 									[118459] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 138662,
+										["n_max"] = 190007,
 										["targets"] = {
-											["Darkfire Fiend"] = 157879,
-											["Virulent Imp"] = 36142,
+											["Duskwatch Spellshield"] = 639932,
+											["Leleyna"] = 49046,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 194021,
-										["n_min"] = 18071,
+										["n_dmg"] = 688978,
+										["n_min"] = 18719,
 										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 194021,
+										["counter"] = 11,
+										["total"] = 688978,
 										["c_max"] = 0,
 										["id"] = 118459,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["a_amt"] = 0,
+										["n_amt"] = 11,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[83381] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 628192,
+										["g_amt"] = 0,
+										["n_max"] = 86766,
+										["targets"] = {
+											["Leleyna"] = 714958,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 86766,
+										["n_min"] = 86766,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 714958,
+										["c_max"] = 227329,
+										["id"] = 83381,
+										["r_dmg"] = 0,
+										["c_min"] = 173534,
 										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[197163] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 113665,
+										["targets"] = {
+											["Leleyna"] = 200432,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 200432,
+										["n_min"] = 86767,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 200432,
+										["c_max"] = 0,
+										["id"] = 197163,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["end_time"] = 1490993258,
-							["tipo"] = 1,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1490993252,
-							["damage_taken"] = 57229.00178,
-							["start_time"] = 1490993246,
-							["delay"] = 0,
 							["friendlyfire"] = {
 							},
+							["end_time"] = 1491240381,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1491240347,
+							["serial"] = "Creature-0-3019-1220-22446-106551-0000628521",
+							["classe"] = "PET",
 						}, -- [4]
+						{
+							["flag_original"] = 8465,
+							["damage_from"] = {
+								["Leleyna"] = true,
+								["Duskwatch Spellshield"] = true,
+							},
+							["targets"] = {
+								["Duskwatch Spellshield"] = 512528,
+								["Leleyna"] = 647241,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 503718.008635,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1159769.008635,
+							["last_event"] = 1491240381,
+							["dps_started"] = false,
+							["total"] = 1159769.008635,
+							["delay"] = 1491240368,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Cyrille <Laurannah>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 144776,
+										["targets"] = {
+											["Duskwatch Spellshield"] = 512528,
+											["Leleyna"] = 647241,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1159769,
+										["n_min"] = 109337,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 1159769,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 9,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1491240381,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1491240366,
+							["serial"] = "Creature-0-3019-1220-22446-112484-00006285AF",
+							["classe"] = "PET",
+						}, -- [5]
+						{
+							["flag_original"] = 8465,
+							["damage_from"] = {
+								["Leleyna"] = true,
+							},
+							["targets"] = {
+								["Duskwatch Spellshield"] = 622951,
+								["Leleyna"] = 608304,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 132656.001617,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1231255.001617,
+							["last_event"] = 1491240381,
+							["dps_started"] = false,
+							["total"] = 1231255.001617,
+							["delay"] = 0,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Lorin <Laurannah>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 87699,
+										["targets"] = {
+											["Duskwatch Spellshield"] = 87699,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 87699,
+										["n_min"] = 87699,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 87699,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+									[215241] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 147856,
+										["targets"] = {
+											["Duskwatch Spellshield"] = 535252,
+											["Leleyna"] = 608304,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1143556,
+										["n_min"] = 104085,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 1143556,
+										["c_max"] = 0,
+										["id"] = 215241,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 9,
+										["a_dmg"] = 0,
+										["spellschool"] = 64,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1491240381,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1491240356,
+							["serial"] = "Creature-0-3019-1220-22446-112483-00006285AF",
+							["classe"] = "PET",
+						}, -- [6]
+						{
+							["flag_original"] = 8465,
+							["damage_from"] = {
+								["Leleyna"] = true,
+							},
+							["targets"] = {
+								["Duskwatch Spellshield"] = 3186263,
+								["Leleyna"] = 3816017,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 261372.008036,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 7002280.008036,
+							["last_event"] = 1491240381,
+							["dps_started"] = false,
+							["total"] = 7002280.008036,
+							["delay"] = 0,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Sylessa <Laurannah>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 202208,
+										["g_amt"] = 0,
+										["n_max"] = 222165,
+										["targets"] = {
+											["Duskwatch Spellshield"] = 3087520,
+											["Leleyna"] = 3619197,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 6504509,
+										["n_min"] = 77038,
+										["g_dmg"] = 0,
+										["counter"] = 51,
+										["total"] = 6706717,
+										["c_max"] = 202208,
+										["c_min"] = 202208,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["b_dmg"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 46,
+										["spellschool"] = 1,
+										["MISS"] = 4,
+									}, -- [1]
+									[214226] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 99411,
+										["targets"] = {
+											["Leleyna"] = 196820,
+											["Duskwatch Spellshield"] = 98743,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 295563,
+										["n_min"] = 97409,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 295563,
+										["c_max"] = 0,
+										["id"] = 214226,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 64,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1491240381,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1491240356,
+							["serial"] = "Creature-0-3019-1220-22446-112482-00006285AF",
+							["classe"] = "PET",
+						}, -- [7]
 					},
 				}, -- [1]
 				{
 					["tipo"] = 3,
-					["combatId"] = 421,
+					["combatId"] = 597,
 					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorb"] = 0.003244,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["Laurannah"] = true,
+							},
+							["targets"] = {
+								["Corey <Laurannah>"] = 891683,
+								["Cyrille <Laurannah>"] = 10362,
+								["Laurannah"] = 346023,
+								["Hati <Laurannah>"] = 6734,
+								["Sylessa <Laurannah>"] = 78194,
+								["Beast <Laurannah>"] = 12714,
+							},
+							["pets"] = {
+								"Hati <Laurannah>", -- [1]
+								"Beast <Laurannah>", -- [2]
+								"Corey <Laurannah>", -- [3]
+								"Cyrille <Laurannah>", -- [4]
+								"Sylessa <Laurannah>", -- [5]
+							},
+							["totalover_without_pet"] = 0.003244,
+							["targets_overheal"] = {
+								["Laurannah"] = 104597,
+								["Hati <Laurannah>"] = 509922,
+							},
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 665762.003244,
+							["total_without_pet"] = 1161898.003244,
+							["healing_taken"] = 346023.003244,
+							["iniciar_hps"] = false,
+							["fight_component"] = true,
+							["end_time"] = 1491240381,
+							["classe"] = "HUNTER",
+							["delay"] = 0,
+							["nome"] = "Laurannah",
+							["targets_absorbs"] = {
+							},
+							["grupo"] = true,
+							["total"] = 1339134.003244,
+							["heal_enemy"] = {
+							},
+							["last_event"] = 1491240381,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["start_time"] = 1491240346,
+							["serial"] = "Player-3693-092AD332",
+							["spells"] = {
+								["_ActorTable"] = {
+									[214303] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Hati <Laurannah>"] = 509922,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Hati <Laurannah>"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 5,
+										["overheal"] = 509922,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 214303,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 5,
+										["m_healed"] = 0,
+										["n_curado"] = 0,
+										["c_min"] = 0,
+										["absorbed"] = 0,
+									},
+									[197205] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Laurannah"] = 88659,
+										},
+										["n_max"] = 54559,
+										["targets"] = {
+											["Laurannah"] = 252649,
+										},
+										["n_min"] = 13015,
+										["counter"] = 9,
+										["overheal"] = 88659,
+										["total"] = 252649,
+										["c_max"] = 0,
+										["id"] = 197205,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 9,
+										["m_healed"] = 0,
+										["n_curado"] = 252649,
+										["c_min"] = 0,
+										["absorbed"] = 0,
+									},
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Laurannah"] = 15938,
+										},
+										["n_max"] = 20229,
+										["targets"] = {
+											["Laurannah"] = 93374,
+										},
+										["n_min"] = 471,
+										["counter"] = 27,
+										["overheal"] = 15938,
+										["total"] = 93374,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 27,
+										["m_healed"] = 0,
+										["n_curado"] = 93374,
+										["c_min"] = 0,
+										["absorbed"] = 0,
+									},
+									[136] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 163175,
+										["targets"] = {
+											["Corey <Laurannah>"] = 815875,
+										},
+										["n_min"] = 163175,
+										["counter"] = 5,
+										["overheal"] = 0,
+										["total"] = 815875,
+										["c_max"] = 0,
+										["id"] = 136,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 5,
+										["m_healed"] = 0,
+										["n_curado"] = 815875,
+										["c_min"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 8465,
+							["totalabsorb"] = 0.008856,
+							["last_hps"] = 0,
+							["targets_overheal"] = {
+								["Hati <Laurannah>"] = 28160,
+							},
+							["targets"] = {
+								["Hati <Laurannah>"] = 6734,
+							},
+							["spells"] = {
+								["_ActorTable"] = {
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Hati <Laurannah>"] = 28160,
+										},
+										["n_max"] = 6404,
+										["targets"] = {
+											["Hati <Laurannah>"] = 6404,
+										},
+										["n_min"] = 0,
+										["counter"] = 7,
+										["overheal"] = 28160,
+										["total"] = 6404,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 7,
+										["m_healed"] = 0,
+										["n_curado"] = 6404,
+										["c_min"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["healing_from"] = {
+								["Hati <Laurannah>"] = true,
+							},
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 28160.008856,
+							["total_without_pet"] = 6404.008856,
+							["totalover_without_pet"] = 0.008856,
+							["fight_component"] = true,
+							["end_time"] = 1491240381,
+							["healing_taken"] = 6404.008856,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Hati <Laurannah>",
+							["targets_absorbs"] = {
+							},
+							["delay"] = 0,
+							["total"] = 6404.008856,
+							["heal_enemy"] = {
+							},
+							["classe"] = "PET",
+							["custom"] = 0,
+							["last_event"] = 1491240379,
+							["on_hold"] = false,
+							["start_time"] = 1491240347,
+							["serial"] = "Creature-0-3019-1220-22446-106551-0000628521",
+							["tipo"] = 2,
+						}, -- [2]
+						{
+							["flag_original"] = 8465,
+							["totalabsorb"] = 0.008485,
+							["last_hps"] = 0,
+							["targets_overheal"] = {
+								["Beast <Laurannah>"] = 23083,
+							},
+							["targets"] = {
+								["Beast <Laurannah>"] = 12714,
+							},
+							["spells"] = {
+								["_ActorTable"] = {
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Beast <Laurannah>"] = 23083,
+										},
+										["n_max"] = 6468,
+										["targets"] = {
+											["Beast <Laurannah>"] = 6468,
+										},
+										["n_min"] = 0,
+										["counter"] = 3,
+										["overheal"] = 23083,
+										["total"] = 6468,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 3,
+										["m_healed"] = 0,
+										["n_curado"] = 6468,
+										["c_min"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["healing_from"] = {
+								["Beast <Laurannah>"] = true,
+							},
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 23083.008485,
+							["total_without_pet"] = 6468.008485,
+							["totalover_without_pet"] = 0.008485,
+							["fight_component"] = true,
+							["end_time"] = 1491240381,
+							["healing_taken"] = 6468.008485,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Beast <Laurannah>",
+							["targets_absorbs"] = {
+							},
+							["delay"] = 1491240371,
+							["total"] = 6468.008485,
+							["heal_enemy"] = {
+							},
+							["classe"] = "PET",
+							["custom"] = 0,
+							["last_event"] = 1491240371,
+							["on_hold"] = false,
+							["start_time"] = 1491240371,
+							["serial"] = "Creature-0-3019-1220-22446-113346-00006285A5",
+							["tipo"] = 2,
+						}, -- [3]
+						{
+							["flag_original"] = 69905,
+							["totalabsorb"] = 0.002515,
+							["last_hps"] = 0,
+							["targets_overheal"] = {
+							},
+							["targets"] = {
+								["Corey <Laurannah>"] = 75808,
+							},
+							["spells"] = {
+								["_ActorTable"] = {
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 20707,
+										["targets"] = {
+											["Corey <Laurannah>"] = 75808,
+										},
+										["n_min"] = 4346,
+										["counter"] = 6,
+										["overheal"] = 0,
+										["total"] = 75808,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 6,
+										["m_healed"] = 0,
+										["n_curado"] = 75808,
+										["c_min"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["healing_from"] = {
+								["Corey <Laurannah>"] = true,
+								["Laurannah"] = true,
+							},
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.002515,
+							["total_without_pet"] = 75808.002515,
+							["totalover_without_pet"] = 0.002515,
+							["fight_component"] = true,
+							["end_time"] = 1491240381,
+							["healing_taken"] = 891683.002515,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Corey <Laurannah>",
+							["targets_absorbs"] = {
+							},
+							["delay"] = 0,
+							["total"] = 75808.002515,
+							["heal_enemy"] = {
+							},
+							["classe"] = "PET",
+							["custom"] = 0,
+							["last_event"] = 1491240378,
+							["on_hold"] = false,
+							["start_time"] = 1491240351,
+							["serial"] = "Pet-0-3019-1220-22446-11673-060283DFC8",
+							["tipo"] = 2,
+						}, -- [4]
+						{
+							["flag_original"] = 8465,
+							["totalabsorb"] = 0.008871,
+							["last_hps"] = 0,
+							["targets_overheal"] = {
+							},
+							["targets"] = {
+								["Cyrille <Laurannah>"] = 10362,
+							},
+							["spells"] = {
+								["_ActorTable"] = {
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 4199,
+										["targets"] = {
+											["Cyrille <Laurannah>"] = 10362,
+										},
+										["n_min"] = 2174,
+										["counter"] = 3,
+										["overheal"] = 0,
+										["total"] = 10362,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 3,
+										["m_healed"] = 0,
+										["n_curado"] = 10362,
+										["c_min"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["healing_from"] = {
+								["Cyrille <Laurannah>"] = true,
+							},
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.008871,
+							["total_without_pet"] = 10362.008871,
+							["totalover_without_pet"] = 0.008871,
+							["fight_component"] = true,
+							["end_time"] = 1491240381,
+							["healing_taken"] = 10362.008871,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Cyrille <Laurannah>",
+							["targets_absorbs"] = {
+							},
+							["delay"] = 0,
+							["total"] = 10362.008871,
+							["heal_enemy"] = {
+							},
+							["classe"] = "PET",
+							["custom"] = 0,
+							["last_event"] = 1491240372,
+							["on_hold"] = false,
+							["start_time"] = 1491240361,
+							["serial"] = "Creature-0-3019-1220-22446-112484-00006285AF",
+							["tipo"] = 2,
+						}, -- [5]
+						{
+							["flag_original"] = 8465,
+							["totalabsorb"] = 0.007697,
+							["last_hps"] = 0,
+							["targets_overheal"] = {
+							},
+							["targets"] = {
+								["Sylessa <Laurannah>"] = 78194,
+							},
+							["spells"] = {
+								["_ActorTable"] = {
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 32686,
+										["targets"] = {
+											["Sylessa <Laurannah>"] = 78194,
+										},
+										["n_min"] = 12446,
+										["counter"] = 4,
+										["overheal"] = 0,
+										["total"] = 78194,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["m_crit"] = 0,
+										["c_curado"] = 0,
+										["m_amt"] = 0,
+										["n_amt"] = 4,
+										["m_healed"] = 0,
+										["n_curado"] = 78194,
+										["c_min"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["healing_from"] = {
+								["Sylessa <Laurannah>"] = true,
+							},
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 0.007697,
+							["total_without_pet"] = 78194.007697,
+							["totalover_without_pet"] = 0.007697,
+							["fight_component"] = true,
+							["end_time"] = 1491240381,
+							["healing_taken"] = 78194.007697,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Sylessa <Laurannah>",
+							["targets_absorbs"] = {
+							},
+							["delay"] = 0,
+							["total"] = 78194.007697,
+							["heal_enemy"] = {
+							},
+							["classe"] = "PET",
+							["custom"] = 0,
+							["last_event"] = 1491240377,
+							["on_hold"] = false,
+							["start_time"] = 1491240361,
+							["serial"] = "Creature-0-3019-1220-22446-112482-00006285AF",
+							["tipo"] = 2,
+						}, -- [6]
 					},
 				}, -- [2]
 				{
 					["tipo"] = 7,
-					["combatId"] = 421,
+					["combatId"] = 597,
 					["_ActorTable"] = {
 						{
-							["received"] = 16.003005,
-							["total"] = 16.003005,
-							["resource"] = 0.003005,
-							["nome"] = "Laurannah",
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 7,
-							},
+							["flag_original"] = 1297,
+							["resource"] = 0.001132,
 							["targets"] = {
 							},
 							["pets"] = {
 								"Beast <Laurannah>", -- [1]
 							},
 							["powertype"] = 0,
-							["flag_original"] = 1297,
-							["tipo"] = 3,
-							["grupo"] = true,
 							["classe"] = "HUNTER",
+							["fight_component"] = true,
+							["total"] = 84.001132,
+							["nome"] = "Laurannah",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["tipo"] = 3,
+							["received"] = 84.001132,
 							["serial"] = "Player-3693-092AD332",
 							["last_event"] = 0,
 						}, -- [1]
 						{
-							["received"] = 0.006616,
-							["resource"] = 0.006616,
+							["received"] = 0.003993,
+							["resource"] = 0.003993,
 							["targets"] = {
-								["Laurannah"] = 16,
+								["Laurannah"] = 84,
 							},
 							["pets"] = {
 							},
 							["powertype"] = 0,
 							["classe"] = "PET",
-							["total"] = 16.006616,
+							["fight_component"] = true,
+							["total"] = 84.003993,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Beast <Laurannah>",
 							["spells"] = {
 								["_ActorTable"] = {
 									[120694] = {
 										["id"] = 120694,
-										["total"] = 16,
+										["total"] = 84,
 										["targets"] = {
-											["Laurannah"] = 16,
+											["Laurannah"] = 84,
 										},
-										["counter"] = 3,
+										["counter"] = 14,
 									},
 								},
 								["tipo"] = 7,
 							},
-							["last_event"] = 1490993256,
-							["flag_original"] = 8465,
-							["serial"] = "Creature-0-3778-1220-12524-113342-00005EC05F",
 							["tipo"] = 3,
+							["flag_original"] = 8465,
+							["serial"] = "Creature-0-3019-1220-22446-113346-00006285A5",
+							["last_event"] = 1491240383,
 						}, -- [2]
 					},
 				}, -- [3]
 				{
 					["tipo"] = 9,
-					["combatId"] = 421,
+					["combatId"] = 597,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[225746] = {
-										["uptime"] = 3,
+										["uptime"] = 4,
 										["activedamt"] = 0,
 										["id"] = 225746,
-										["actived"] = false,
 										["targets"] = {
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 									[120679] = {
-										["uptime"] = 1,
-										["activedamt"] = 0,
+										["uptime"] = 28,
+										["activedamt"] = -1,
 										["id"] = 120679,
-										["actived"] = false,
 										["targets"] = {
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
-							["pets"] = {
-								"Corey <Laurannah>", -- [1]
-								"Beast <Laurannah>", -- [2]
-							},
+							["buff_uptime"] = 201,
 							["classe"] = "HUNTER",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
-									[194386] = {
-										["uptime"] = 15,
+									[218441] = {
+										["uptime"] = 6,
 										["activedamt"] = 1,
-										["id"] = 194386,
-										["actived"] = false,
+										["id"] = 218441,
 										["targets"] = {
 										},
-										["counter"] = 0,
-									},
-									[120694] = {
-										["uptime"] = 4,
-										["activedamt"] = 1,
-										["id"] = 120694,
 										["actived"] = false,
-										["targets"] = {
-										},
 										["counter"] = 0,
 									},
 									[231390] = {
-										["uptime"] = 4,
+										["uptime"] = 1,
 										["activedamt"] = 2,
 										["id"] = 231390,
-										["actived"] = false,
 										["targets"] = {
 										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[35079] = {
+										["uptime"] = 8,
+										["activedamt"] = 1,
+										["id"] = 35079,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[120694] = {
+										["uptime"] = 18,
+										["activedamt"] = 3,
+										["id"] = 120694,
+										["targets"] = {
+										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 									[227723] = {
-										["uptime"] = 15,
+										["uptime"] = 36,
 										["activedamt"] = 1,
 										["id"] = 227723,
-										["actived"] = false,
 										["targets"] = {
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
-									[239939] = {
-										["uptime"] = 15,
+									[237137] = {
+										["uptime"] = 36,
 										["activedamt"] = 1,
-										["id"] = 239939,
-										["actived"] = false,
+										["id"] = 237137,
 										["targets"] = {
 										},
-										["counter"] = 0,
-									},
-									[240640] = {
-										["uptime"] = 15,
-										["activedamt"] = 1,
-										["id"] = 240640,
 										["actived"] = false,
-										["targets"] = {
-										},
 										["counter"] = 0,
 									},
 									[186406] = {
-										["uptime"] = 15,
+										["uptime"] = 36,
 										["activedamt"] = 1,
 										["id"] = 186406,
-										["actived"] = false,
 										["targets"] = {
 										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[19574] = {
+										["uptime"] = 15,
+										["activedamt"] = 1,
+										["id"] = 19574,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[194386] = {
+										["uptime"] = 36,
+										["activedamt"] = 1,
+										["id"] = 194386,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[207068] = {
+										["uptime"] = 9,
+										["activedamt"] = 1,
+										["id"] = 207068,
+										["targets"] = {
+										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
-							["debuff_uptime"] = 4,
-							["debuff_uptime_targets"] = {
-							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 32,
+							["nome"] = "Laurannah",
 							["grupo"] = true,
 							["spell_cast"] = {
-								[84342] = 1,
-								[2643] = 2,
-								[120679] = 1,
-								[224575] = 1,
+								[34477] = 1,
+								[224578] = 3,
+								[2643] = 6,
+								[223924] = 1,
+								[120679] = 3,
+								[207068] = 1,
+								[223926] = 1,
+								[136] = 1,
+								[19574] = 1,
+								[223925] = 1,
+								[34026] = 5,
+								[193455] = 2,
 							},
-							["nome"] = "Laurannah",
 							["tipo"] = 4,
+							["last_event"] = 1491240795,
 							["buff_uptime_targets"] = {
 							},
-							["last_event"] = 1490993258,
-							["serial"] = "Player-3693-092AD332",
-							["buff_uptime"] = 83,
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["ownerName"] = "Laurannah",
-							["nome"] = "Corey <Laurannah>",
 							["pets"] = {
+								"Beast <Laurannah>", -- [1]
+								"Corey <Laurannah>", -- [2]
+								"Lorin <Laurannah>", -- [3]
+								"Sylessa <Laurannah>", -- [4]
+								"Cyrille <Laurannah>", -- [5]
 							},
-							["last_event"] = 0,
-							["classe"] = "PET",
-							["tipo"] = 4,
-							["serial"] = "Pet-0-3778-1220-12524-11673-080283DFC8",
-							["spell_cast"] = {
-								[61685] = 1,
-								[2649] = 2,
-								[63900] = 1,
-								[17253] = 3,
+							["serial"] = "Player-3693-092AD332",
+							["debuff_uptime_targets"] = {
 							},
-						}, -- [2]
+						}, -- [1]
 						{
 							["flag_original"] = 8465,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Beast <Laurannah>",
+							["spell_cast"] = {
+								[201754] = 4,
+								[120694] = 3,
+							},
 							["pets"] = {
 							},
 							["last_event"] = 0,
 							["classe"] = "PET",
 							["tipo"] = 4,
-							["serial"] = "Creature-0-3778-1220-12524-113347-00005EC06D",
+							["serial"] = "Creature-0-3019-1220-22446-113346-00006285A5",
+							["fight_component"] = true,
+						}, -- [2]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Corey <Laurannah>",
 							["spell_cast"] = {
-								[120694] = 1,
-								[201754] = 1,
+								[2649] = 5,
+								[63900] = 4,
+								[17253] = 10,
 							},
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["serial"] = "Pet-0-3019-1220-22446-11673-060283DFC8",
+							["fight_component"] = true,
 						}, -- [3]
+						{
+							["flag_original"] = 8465,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Lorin <Laurannah>",
+							["pets"] = {
+							},
+							["spell_cast"] = {
+								[215241] = 9,
+								[218441] = 1,
+							},
+							["classe"] = "PET",
+							["last_event"] = 0,
+							["serial"] = "Creature-0-3019-1220-22446-112483-00006285AF",
+							["tipo"] = 4,
+						}, -- [4]
+						{
+							["flag_original"] = 8465,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Sylessa <Laurannah>",
+							["spell_cast"] = {
+								[218309] = 2,
+								[214226] = 3,
+							},
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3019-1220-22446-112482-00006285AF",
+							["fight_component"] = true,
+						}, -- [5]
+						{
+							["flag_original"] = 8465,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Cyrille <Laurannah>",
+							["spell_cast"] = {
+								[218329] = 2,
+								[214221] = 1,
+							},
+							["pets"] = {
+							},
+							["last_event"] = 0,
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["serial"] = "Creature-0-3019-1220-22446-112484-00006285AF",
+							["fight_component"] = true,
+						}, -- [6]
 					},
 				}, -- [4]
 				{
 					["tipo"] = 2,
-					["combatId"] = 421,
+					["combatId"] = 597,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
@@ -5729,30 +5439,30 @@ _detalhes_database = {
 				},
 				["last_events_tables"] = {
 				},
-				["enemy"] = "Legion Painmaiden",
-				["combat_counter"] = 1315,
+				["enemy"] = "Leleyna",
+				["combat_counter"] = 1576,
 				["playing_solo"] = true,
 				["totals"] = {
-					3632324.893647, -- [1]
-					-0.0294630000862526, -- [2]
+					25203145.960255, -- [1]
+					1339134, -- [2]
 					{
 						0, -- [1]
-						[0] = -14.012989,
-						[6] = 0,
-						[3] = 30,
+						[0] = 195.991658,
+						[6] = -112.007541,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -5764,41 +5474,38 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Laurannah"] = 25326055.019332,
+						}, -- [1]
 					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
+							["Laurannah"] = 1339134.003244,
 						}, -- [1]
 					},
-					["damage"] = {
-						{
-							["Laurannah"] = 3632325.001283,
-						}, -- [1]
+					["damage_section"] = {
 					},
 				},
-				["end_time"] = 1411683.838,
-				["combat_id"] = 421,
-				["instance_type"] = "none",
+				["end_time"] = 1659223.977,
+				["TimeData"] = {
+				},
+				["combat_id"] = 597,
+				["resincked"] = true,
 				["hasSaved"] = true,
 				["frags"] = {
-					["Infectious Stalker"] = 1,
-					["Legion Painmaiden"] = 2,
-					["Darkfire Fiend"] = 3,
-					["Sentinax Observer"] = 1,
-					["Hungering Stalker"] = 1,
-					["Sentinax Interrogator"] = 1,
-					["Virulent Imp"] = 3,
-					["Blazing Imp"] = 1,
+					["Leleyna"] = 1,
+					["Duskwatch Spellshield"] = 1,
 				},
-				["data_fim"] = "16:47:38",
-				["contra"] = "Virulent Imp",
+				["data_fim"] = "13:33:16",
+				["data_inicio"] = "13:25:46",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
-					997245, -- [1]
-					0, -- [2]
+					5239390, -- [1]
+					1161898, -- [2]
 					{
 						0, -- [1]
 						[0] = 0,
@@ -5808,18 +5515,17 @@ _detalhes_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
-				["start_time"] = 1411669.802,
-				["TimeData"] = {
-				},
-				["data_inicio"] = "16:47:24",
+				["start_time"] = 1658774.119,
+				["contra"] = "Leleyna",
+				["instance_type"] = "none",
 			}, -- [5]
 		},
 	},
@@ -5828,8 +5534,9 @@ _detalhes_database = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["combat_counter"] = 1326,
-	["force_font_outline"] = "",
+	["combat_counter"] = 1586,
+	["savedbuffs"] = {
+	},
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
@@ -5942,10 +5649,10 @@ _detalhes_database = {
 			["row_texture"] = "Details Serenity",
 			["arrow_anchor_y"] = 0,
 			["main_frame_locked"] = false,
-			["author"] = "Details! Team",
+			["main_frame_strata"] = "LOW",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["y"] = -4.577636718750e-005,
+			["font_size"] = 10,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -5953,13 +5660,12 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["author"] = "Details! Team",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["use_spark"] = true,
+			["y"] = -4.577636718750e-005,
+			["x"] = 0,
+			["font_face"] = "Friz Quadrata TT",
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -5971,32 +5677,59 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
-			["font_size"] = 10,
-			["x"] = 0,
-			["font_face"] = "Friz Quadrata TT",
-			["use_spark"] = true,
-			["main_frame_strata"] = "LOW",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["point"] = "CENTER",
 			["row_height"] = 20,
 			["scale"] = 1,
 		},
 	},
-	["savedbuffs"] = {
-	},
-	["character_data"] = {
-		["logons"] = 38,
-	},
 	["last_encounter"] = "Helya",
+	["character_data"] = {
+		["logons"] = 42,
+	},
+	["force_font_outline"] = "",
 	["SoloTablesSaved"] = {
 		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
 		["Mode"] = 1,
 	},
 	["tabela_instancias"] = {
 	},
-	["combat_id"] = 425,
+	["combat_id"] = 601,
 	["savedStyles"] = {
 	},
 	["cached_talents"] = {
+		["Player-3693-07A58E99"] = {
+			22183, -- [1]
+			22590, -- [2]
+			22185, -- [3]
+			22319, -- [4]
+			22215, -- [5]
+			21811, -- [6]
+			22485, -- [7]
+		},
+		["Player-3693-08107F9B"] = {
+			22282, -- [1]
+			22269, -- [2]
+			22284, -- [3]
+			21986, -- [4]
+			22769, -- [5]
+			19347, -- [6]
+			19357, -- [7]
+		},
+		["Player-3693-093D49B0"] = {
+			21202, -- [1]
+			22438, -- [2]
+			22179, -- [3]
+			22558, -- [4]
+			22705, -- [5]
+			22434, -- [6]
+			22431, -- [7]
+		},
 		["Player-3693-092AD332"] = {
 			22282, -- [1]
 			22269, -- [2]
@@ -6035,7 +5768,7 @@ _detalhes_database = {
 						["Shatterbone Skeleton"] = 0,
 						["Odyn"] = 0,
 					},
-					["total"] = 21931591.013852,
+					["end_time"] = 1490983556,
 					["pets"] = {
 					},
 					["friendlyfire_total"] = 416672,
@@ -6044,24 +5777,6 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 21931591.013852,
-					["friendlyfire"] = {
-						["Bruccius-MoonGuard"] = {
-							["spells"] = {
-								[186439] = 0,
-								[228874] = 0,
-							},
-							["total"] = 416672,
-						},
-						["Stormvadar-Perenolde"] = {
-							["total"] = 0,
-							["spells"] = {
-								[228874] = 0,
-							},
-						},
-					},
-					["dps_started"] = false,
-					["end_time"] = 1490983556,
-					["last_event"] = 0,
 					["avoidance"] = {
 						["overall"] = {
 							["DODGE"] = 0,
@@ -6078,6 +5793,24 @@ _detalhes_database = {
 							["FULL_HIT"] = 0,
 							["HITS"] = 0,
 							["FULL_HIT_AMT"] = 0,
+						},
+					},
+					["dps_started"] = false,
+					["total"] = 21931591.013852,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+						["Bruccius-MoonGuard"] = {
+							["spells"] = {
+								[186439] = 0,
+								[228874] = 0,
+							},
+							["total"] = 416672,
+						},
+						["Stormvadar-Perenolde"] = {
+							["total"] = 0,
+							["spells"] = {
+								[228874] = 0,
+							},
 						},
 					},
 					["boss_fight_component"] = true,
@@ -6612,7 +6345,7 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["damage_taken"] = 500519618.018267,
+					["on_hold"] = false,
 					["boss_fight_component"] = true,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
@@ -6626,9 +6359,9 @@ _detalhes_database = {
 					["serial"] = "Vehicle-0-3018-1648-7257-114537-00005E8AC1",
 					["dps_started"] = false,
 					["end_time"] = 1490983556,
-					["last_dps"] = 0,
 					["friendlyfire"] = {
 					},
+					["last_dps"] = 0,
 					["nome"] = "Helya",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -7025,7 +6758,7 @@ _detalhes_database = {
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["on_hold"] = false,
+					["damage_taken"] = 500519618.018267,
 					["start_time"] = 1490983354,
 					["delay"] = 0,
 					["monster"] = true,
@@ -8441,11 +8174,12 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 32158773.015991,
-					["damage_taken"] = 14785352.015991,
+					["on_hold"] = false,
 					["dps_started"] = false,
 					["end_time"] = 1490983556,
 					["serial"] = "Pet-0-3024-1220-11816-17447-010259C4A1",
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -8630,13 +8364,12 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["total"] = 32158773.015991,
 					["nome"] = "Core Hound <Darunia-Norgannon>",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["on_hold"] = false,
+					["damage_taken"] = 14785352.015991,
 					["start_time"] = 1490983365,
 					["delay"] = 0,
 					["friendlyfire_total"] = 0,
@@ -8661,7 +8394,7 @@ _detalhes_database = {
 					["serial"] = "Creature-0-3018-1648-7257-106551-00005E9772",
 					["dps_started"] = false,
 					["total"] = 12100666.015712,
-					["damage_taken"] = 11715801.015712,
+					["last_dps"] = 0,
 					["ownerName"] = "Darunia-Norgannon",
 					["boss_fight_component"] = true,
 					["spells"] = {
@@ -8813,13 +8546,13 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 					["end_time"] = 1490983792,
 					["on_hold"] = false,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["friendlyfire"] = {
-					},
+					["damage_taken"] = 11715801.015712,
 					["start_time"] = 1490983698,
 					["delay"] = 0,
 					["friendlyfire_total"] = 0,
@@ -9532,7 +9265,13 @@ _detalhes_database = {
 						["Valarjar Runebearer"] = 0,
 						["Than'otalion"] = 0,
 						["Rotwing Ripper"] = 0,
+						["Duskwatch Spellshield"] = 0,
+						["Ancient Flamecaller"] = 0,
+						["Ancient Chillwitch"] = 0,
+						["Brethkaz the Dominator"] = 0,
 						["Felsworn Chaos Mage"] = 0,
+						["Smoldering Familiar"] = 0,
+						["Hatecoil Raider"] = 0,
 						["Hymdall"] = 0,
 						["Hyrja"] = 0,
 						["Darkfire Fiend"] = 0,
@@ -9540,23 +9279,33 @@ _detalhes_database = {
 						["Dark Felshrieker"] = 0,
 						["Virulent Imp"] = 0,
 						["Odyn"] = 0,
+						["Disturbed Apparition"] = 0,
+						["Cliffclutch Thornwitch"] = 0,
+						["Leleyna"] = 0,
 						["Sentinax Observer"] = 0,
-						["Sentinax Warden"] = 0,
-						["Sentinax Interrogator"] = 0,
-						["Putrid Alchemist"] = 0,
-						["Dark Ritualist"] = 0,
-						["Legion Painmaiden"] = 0,
-						["Blazing Imp"] = 0,
-						["Felbound Spirit"] = 0,
-						["Wrathguard"] = 0,
-						["Cursed Pillager"] = 0,
-						["Hungering Stalker"] = 0,
-						["Bilewater Slime"] = 22324280,
-						["Helya"] = 51362432,
-						["Guarm"] = 0,
-						["Debilitating Eye"] = 0,
 						["Eredar Overseer"] = 0,
+						["Sentinax Warden"] = 0,
+						["Feral Scavenger"] = 0,
+						["Blazing Imp"] = 0,
+						["Icy Familiar"] = 0,
+						["Legion Painmaiden"] = 0,
+						["Sentinax Interrogator"] = 0,
+						["Dark Ritualist"] = 0,
+						["Tugar Bloodtotem"] = 0,
+						["Ancient Flamewraith"] = 0,
+						["Cursed Pillager"] = 0,
+						["Wrathguard"] = 0,
+						["Bilewater Slime"] = 22324280,
+						["Felbound Spirit"] = 0,
+						["Hungering Stalker"] = 0,
+						["Feral Souldrinker"] = 0,
+						["Guarm"] = 0,
+						["Putrid Alchemist"] = 0,
+						["Helya"] = 51362432,
 						["Legion Venomretcher"] = 0,
+						["Debilitating Eye"] = 0,
+						["Valiyaka the Stormbringer"] = 0,
+						["Jormog the Behemoth"] = 0,
 						["Draining Eye"] = 0,
 						["Legion Webspewer"] = 0,
 					},
@@ -9586,30 +9335,38 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 67928,
 								["targets"] = {
-									["Infectious Stalker"] = 0,
+									["Legion Painmaiden"] = 0,
 									["Felguard Invader"] = 0,
 									["Darkfiend Devourer"] = 0,
 									["Spellstalker"] = 0,
 									["Valarjar Runebearer"] = 0,
 									["Than'otalion"] = 0,
 									["Rotwing Ripper"] = 0,
-									["Sentinax Interrogator"] = 0,
-									["Odyn"] = 0,
-									["Bilewater Slime"] = 543418,
-									["Virulent Imp"] = 0,
+									["Duskwatch Spellshield"] = 0,
+									["Ancient Flamecaller"] = 0,
 									["Felsworn Chaos Mage"] = 0,
-									["Wrathguard"] = 0,
-									["Sentinax Warden"] = 0,
-									["Sentinax Observer"] = 0,
-									["Legion Venomretcher"] = 0,
+									["Smoldering Familiar"] = 0,
+									["Hatecoil Raider"] = 0,
 									["Blazing Imp"] = 0,
-									["Putrid Alchemist"] = 0,
-									["Helya"] = 543417,
 									["Darkfire Fiend"] = 0,
-									["Debilitating Eye"] = 0,
 									["Battlesworn Nether-Mage"] = 0,
-									["Legion Painmaiden"] = 0,
 									["Cursed Pillager"] = 0,
+									["Odyn"] = 0,
+									["Sentinax Observer"] = 0,
+									["Sentinax Warden"] = 0,
+									["Sentinax Interrogator"] = 0,
+									["Putrid Alchemist"] = 0,
+									["Leleyna"] = 0,
+									["Infectious Stalker"] = 0,
+									["Legion Venomretcher"] = 0,
+									["Virulent Imp"] = 0,
+									["Tugar Bloodtotem"] = 0,
+									["Helya"] = 543417,
+									["Bilewater Slime"] = 543418,
+									["Debilitating Eye"] = 0,
+									["Valiyaka the Stormbringer"] = 0,
+									["Ancient Flamewraith"] = 0,
+									["Wrathguard"] = 0,
 									["Legion Webspewer"] = 0,
 								},
 								["m_dmg"] = 0,
@@ -9638,16 +9395,22 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 213878,
 								["targets"] = {
-									["Putrid Alchemist"] = 0,
+									["Leleyna"] = 0,
+									["Valarjar Runebearer"] = 0,
+									["Than'otalion"] = 0,
+									["Ancient Flamecaller"] = 0,
+									["Bilewater Slime"] = 1603393,
+									["Brethkaz the Dominator"] = 0,
 									["Felbound Spirit"] = 0,
 									["Hymdall"] = 0,
-									["Guarm"] = 0,
-									["Than'otalion"] = 0,
-									["Helya"] = 8460289,
-									["Odyn"] = 0,
-									["Valarjar Runebearer"] = 0,
 									["Hyrja"] = 0,
-									["Bilewater Slime"] = 1603393,
+									["Putrid Alchemist"] = 0,
+									["Helya"] = 8460289,
+									["Guarm"] = 0,
+									["Odyn"] = 0,
+									["Valiyaka the Stormbringer"] = 0,
+									["Ancient Chillwitch"] = 0,
+									["Feral Scavenger"] = 0,
 									["Eredar Overseer"] = 0,
 								},
 								["m_dmg"] = 0,
@@ -9677,34 +9440,46 @@ _detalhes_database = {
 								["n_max"] = 38541,
 								["targets"] = {
 									["Legion Painmaiden"] = 0,
-									["Legion Venomretcher"] = 0,
-									["Odyn"] = 0,
+									["Darkfiend Devourer"] = 0,
 									["Spellstalker"] = 0,
 									["Valarjar Runebearer"] = 0,
 									["Than'otalion"] = 0,
-									["Virulent Imp"] = 0,
-									["Hungering Stalker"] = 0,
 									["Rotwing Ripper"] = 0,
-									["Sentinax Warden"] = 0,
-									["Sentinax Interrogator"] = 0,
-									["Legion Webspewer"] = 0,
-									["Bilewater Slime"] = 681664,
-									["Putrid Alchemist"] = 0,
-									["Blazing Imp"] = 0,
+									["Duskwatch Spellshield"] = 0,
+									["Ancient Flamecaller"] = 0,
+									["Ancient Chillwitch"] = 0,
+									["Brethkaz the Dominator"] = 0,
 									["Felsworn Chaos Mage"] = 0,
-									["Draining Eye"] = 0,
-									["Felbound Spirit"] = 0,
-									["Guarm"] = 0,
+									["Smoldering Familiar"] = 0,
 									["Hymdall"] = 0,
-									["Hyrja"] = 0,
-									["Darkfiend Devourer"] = 0,
-									["Helya"] = 1790482,
+									["Guarm"] = 0,
 									["Darkfire Fiend"] = 0,
-									["Debilitating Eye"] = 0,
 									["Battlesworn Nether-Mage"] = 0,
 									["Dark Felshrieker"] = 0,
+									["Virulent Imp"] = 0,
+									["Odyn"] = 0,
+									["Disturbed Apparition"] = 0,
+									["Cliffclutch Thornwitch"] = 0,
+									["Sentinax Warden"] = 0,
+									["Sentinax Interrogator"] = 0,
+									["Leleyna"] = 0,
+									["Feral Scavenger"] = 0,
+									["Putrid Alchemist"] = 0,
+									["Bilewater Slime"] = 681664,
+									["Ancient Flamewraith"] = 0,
+									["Hyrja"] = 0,
+									["Felbound Spirit"] = 0,
 									["Cursed Pillager"] = 0,
+									["Tugar Bloodtotem"] = 0,
+									["Blazing Imp"] = 0,
+									["Legion Venomretcher"] = 0,
+									["Helya"] = 1790482,
+									["Hungering Stalker"] = 0,
+									["Debilitating Eye"] = 0,
+									["Valiyaka the Stormbringer"] = 0,
 									["Eredar Overseer"] = 0,
+									["Draining Eye"] = 0,
+									["Legion Webspewer"] = 0,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 1375946,
@@ -9732,22 +9507,27 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
+									["Cliffclutch Thornwitch"] = 0,
 									["Felguard Invader"] = 0,
 									["Legion Venomretcher"] = 0,
 									["Spellstalker"] = 0,
 									["Valarjar Runebearer"] = 0,
 									["Than'otalion"] = 0,
 									["Rotwing Ripper"] = 0,
-									["Bilewater Slime"] = 1627281,
-									["Felsworn Chaos Mage"] = 0,
+									["Leleyna"] = 0,
 									["Odyn"] = 0,
+									["Bilewater Slime"] = 1627281,
+									["Brethkaz the Dominator"] = 0,
+									["Felsworn Chaos Mage"] = 0,
 									["Virulent Imp"] = 0,
+									["Darkfiend Devourer"] = 0,
+									["Jormog the Behemoth"] = 0,
 									["Hymdall"] = 0,
 									["Guarm"] = 0,
 									["Wrathguard"] = 0,
 									["Helya"] = 2572687,
 									["Putrid Alchemist"] = 0,
-									["Darkfiend Devourer"] = 0,
+									["Tugar Bloodtotem"] = 0,
 									["Battlesworn Nether-Mage"] = 0,
 									["Dark Felshrieker"] = 0,
 									["Cursed Pillager"] = 0,
@@ -9779,13 +9559,16 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 92783,
 								["targets"] = {
+									["Infectious Stalker"] = 0,
+									["Darkfiend Devourer"] = 0,
+									["Guarm"] = 0,
 									["Than'otalion"] = 0,
 									["Helya"] = 4639146,
-									["Guarm"] = 0,
+									["Jormog the Behemoth"] = 0,
 									["Debilitating Eye"] = 0,
+									["Tugar Bloodtotem"] = 0,
+									["Brethkaz the Dominator"] = 0,
 									["Hungering Stalker"] = 0,
-									["Darkfiend Devourer"] = 0,
-									["Infectious Stalker"] = 0,
 									["Odyn"] = 0,
 								},
 								["m_dmg"] = 0,
@@ -9814,24 +9597,32 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 361481,
 								["targets"] = {
+									["Disturbed Apparition"] = 0,
 									["Infectious Stalker"] = 0,
 									["Hungering Stalker"] = 0,
 									["Spellstalker"] = 0,
 									["Valarjar Runebearer"] = 0,
 									["Than'otalion"] = 0,
-									["Bilewater Slime"] = 1084442,
+									["Leleyna"] = 0,
+									["Feral Souldrinker"] = 0,
+									["Duskwatch Spellshield"] = 0,
 									["Odyn"] = 0,
 									["Virulent Imp"] = 0,
-									["Guarm"] = 0,
-									["Sentinax Observer"] = 0,
-									["Hymdall"] = 0,
-									["Blazing Imp"] = 0,
-									["Legion Venomretcher"] = 0,
-									["Helya"] = 3824519,
-									["Hyrja"] = 0,
-									["Putrid Alchemist"] = 0,
+									["Bilewater Slime"] = 1084442,
+									["Ancient Flamewraith"] = 0,
+									["Brethkaz the Dominator"] = 0,
 									["Battlesworn Nether-Mage"] = 0,
 									["Sentinax Warden"] = 0,
+									["Legion Venomretcher"] = 0,
+									["Guarm"] = 0,
+									["Hymdall"] = 0,
+									["Blazing Imp"] = 0,
+									["Hyrja"] = 0,
+									["Helya"] = 3824519,
+									["Sentinax Observer"] = 0,
+									["Tugar Bloodtotem"] = 0,
+									["Valiyaka the Stormbringer"] = 0,
+									["Putrid Alchemist"] = 0,
 									["Cursed Pillager"] = 0,
 									["Legion Webspewer"] = 0,
 								},
@@ -9861,32 +9652,42 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 42270,
 								["targets"] = {
-									["Infectious Stalker"] = 0,
+									["Legion Painmaiden"] = 0,
 									["Felguard Invader"] = 0,
-									["Darkfiend Devourer"] = 0,
+									["Hungering Stalker"] = 0,
 									["Spellstalker"] = 0,
 									["Valarjar Runebearer"] = 0,
 									["Than'otalion"] = 0,
-									["Rotwing Ripper"] = 0,
-									["Odyn"] = 0,
-									["Sentinax Interrogator"] = 0,
-									["Virulent Imp"] = 0,
-									["Legion Painmaiden"] = 0,
-									["Putrid Alchemist"] = 0,
 									["Dark Ritualist"] = 0,
+									["Duskwatch Spellshield"] = 0,
+									["Ancient Flamecaller"] = 0,
+									["Ancient Chillwitch"] = 0,
 									["Felsworn Chaos Mage"] = 0,
-									["Legion Venomretcher"] = 0,
-									["Felbound Spirit"] = 0,
-									["Sentinax Observer"] = 0,
-									["Hungering Stalker"] = 0,
+									["Smoldering Familiar"] = 0,
+									["Hatecoil Raider"] = 0,
 									["Blazing Imp"] = 0,
-									["Bilewater Slime"] = 546288,
-									["Helya"] = 158038,
 									["Darkfire Fiend"] = 0,
-									["Sentinax Warden"] = 0,
 									["Battlesworn Nether-Mage"] = 0,
 									["Dark Felshrieker"] = 0,
+									["Virulent Imp"] = 0,
+									["Odyn"] = 0,
+									["Sentinax Observer"] = 0,
+									["Sentinax Warden"] = 0,
+									["Sentinax Interrogator"] = 0,
+									["Bilewater Slime"] = 546288,
+									["Leleyna"] = 0,
+									["Putrid Alchemist"] = 0,
+									["Felbound Spirit"] = 0,
 									["Cursed Pillager"] = 0,
+									["Rotwing Ripper"] = 0,
+									["Legion Venomretcher"] = 0,
+									["Darkfiend Devourer"] = 0,
+									["Helya"] = 158038,
+									["Ancient Flamewraith"] = 0,
+									["Tugar Bloodtotem"] = 0,
+									["Valiyaka the Stormbringer"] = 0,
+									["Infectious Stalker"] = 0,
+									["Icy Familiar"] = 0,
 									["Legion Webspewer"] = 0,
 								},
 								["m_dmg"] = 0,
@@ -9915,32 +9716,45 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
-									["Infectious Stalker"] = 0,
+									["Legion Painmaiden"] = 0,
 									["Shadowy Illusion <[*] Shadow Illusion>"] = 0,
 									["Felguard Invader"] = 0,
-									["Darkfiend Devourer"] = 0,
+									["Legion Venomretcher"] = 0,
 									["Spellstalker"] = 0,
 									["Than'otalion"] = 0,
 									["Rotwing Ripper"] = 0,
-									["Sentinax Interrogator"] = 0,
-									["Legion Webspewer"] = 0,
-									["Virulent Imp"] = 0,
-									["Putrid Alchemist"] = 0,
-									["Legion Painmaiden"] = 0,
+									["Duskwatch Spellshield"] = 0,
+									["Ancient Flamecaller"] = 0,
+									["Ancient Chillwitch"] = 0,
 									["Felsworn Chaos Mage"] = 0,
-									["Dark Ritualist"] = 0,
-									["Felbound Spirit"] = 0,
-									["Sentinax Warden"] = 0,
-									["Sentinax Observer"] = 0,
+									["Smoldering Familiar"] = 0,
+									["Hatecoil Raider"] = 0,
 									["Blazing Imp"] = 0,
-									["Legion Venomretcher"] = 0,
-									["Hungering Stalker"] = 0,
 									["Darkfire Fiend"] = 0,
-									["Debilitating Eye"] = 0,
 									["Battlesworn Nether-Mage"] = 0,
 									["Dark Felshrieker"] = 0,
-									["Cursed Pillager"] = 0,
+									["Virulent Imp"] = 0,
 									["Eredar Overseer"] = 0,
+									["Disturbed Apparition"] = 0,
+									["Cliffclutch Thornwitch"] = 0,
+									["Sentinax Observer"] = 0,
+									["Sentinax Warden"] = 0,
+									["Sentinax Interrogator"] = 0,
+									["Putrid Alchemist"] = 0,
+									["Leleyna"] = 0,
+									["Ancient Flamewraith"] = 0,
+									["Felbound Spirit"] = 0,
+									["Feral Scavenger"] = 0,
+									["Feral Souldrinker"] = 0,
+									["Hungering Stalker"] = 0,
+									["Cursed Pillager"] = 0,
+									["Icy Familiar"] = 0,
+									["Dark Ritualist"] = 0,
+									["Debilitating Eye"] = 0,
+									["Valiyaka the Stormbringer"] = 0,
+									["Darkfiend Devourer"] = 0,
+									["Infectious Stalker"] = 0,
+									["Legion Webspewer"] = 0,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 0,
@@ -9951,9 +9765,9 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 194392,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
-								["m_crit"] = 0,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
@@ -10024,7 +9838,8 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["damage_taken"] = 4311197.011887,
+					["friendlyfire"] = {
+					},
 					["last_event"] = 0,
 					["classe"] = "PET",
 					["raid_targets"] = {
@@ -10033,7 +9848,7 @@ _detalhes_database = {
 					["serial"] = "Pet-0-3018-1648-7257-103326-020286D36D",
 					["dps_started"] = false,
 					["end_time"] = 1490983556,
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["ownerName"] = "Laurannah",
 					["boss_fight_component"] = true,
 					["spells"] = {
@@ -10214,13 +10029,12 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["on_hold"] = false,
+					["last_dps"] = 0,
 					["friendlyfire_total"] = 0,
 					["total"] = 10840281.011887,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["friendlyfire"] = {
-					},
+					["damage_taken"] = 4311197.011887,
 					["start_time"] = 1490983470,
 					["delay"] = 0,
 					["nome"] = "Spirit Beast <Laurannah> <Laurannah>",
@@ -10245,7 +10059,7 @@ _detalhes_database = {
 					["serial"] = "Creature-0-3018-1648-7257-106551-00005E9773",
 					["dps_started"] = false,
 					["total"] = 9958228.01541,
-					["damage_taken"] = 4168799.01541,
+					["last_dps"] = 0,
 					["ownerName"] = "Laurannah",
 					["boss_fight_component"] = true,
 					["spells"] = {
@@ -10398,13 +10212,13 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 					["end_time"] = 1490983792,
 					["on_hold"] = false,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["friendlyfire"] = {
-					},
+					["damage_taken"] = 4168799.01541,
 					["start_time"] = 1490983708,
 					["delay"] = 0,
 					["friendlyfire_total"] = 0,
@@ -11686,7 +11500,7 @@ _detalhes_database = {
 					["serial"] = "Pet-0-3018-1648-7257-53240-020269CC6E",
 					["dps_started"] = false,
 					["total"] = 6448763.010165,
-					["damage_taken"] = 8137816.010165,
+					["last_dps"] = 0,
 					["ownerName"] = "Colandros-Draka",
 					["boss_fight_component"] = true,
 					["spells"] = {
@@ -11781,13 +11595,13 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 					["end_time"] = 1490983792,
 					["on_hold"] = false,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["friendlyfire"] = {
-					},
+					["damage_taken"] = 8137816.010165,
 					["start_time"] = 1490983710,
 					["delay"] = 0,
 					["friendlyfire_total"] = 0,
@@ -11809,7 +11623,7 @@ _detalhes_database = {
 						["Hymdall"] = 0,
 						["Odyn"] = 0,
 					},
-					["total"] = 28227332.010023,
+					["end_time"] = 1490983556,
 					["pets"] = {
 					},
 					["friendlyfire_total"] = 373911,
@@ -11818,19 +11632,6 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 28227332.010023,
-					["friendlyfire"] = {
-						["Skymane-Proudmoore"] = {
-							["spells"] = {
-								[186439] = 0,
-								[229457] = 0,
-								[228874] = 0,
-							},
-							["total"] = 373911,
-						},
-					},
-					["dps_started"] = false,
-					["end_time"] = 1490983556,
-					["last_event"] = 0,
 					["avoidance"] = {
 						["overall"] = {
 							["DODGE"] = 0,
@@ -11847,6 +11648,19 @@ _detalhes_database = {
 							["FULL_HIT"] = 0,
 							["HITS"] = 0,
 							["FULL_HIT_AMT"] = 0,
+						},
+					},
+					["dps_started"] = false,
+					["total"] = 28227332.010023,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+						["Skymane-Proudmoore"] = {
+							["spells"] = {
+								[186439] = 0,
+								[229457] = 0,
+								[228874] = 0,
+							},
+							["total"] = 373911,
 						},
 					},
 					["boss_fight_component"] = true,
@@ -13000,7 +12814,7 @@ _detalhes_database = {
 					["serial"] = "Creature-0-3018-1648-7257-62005-00005E9A22",
 					["dps_started"] = false,
 					["total"] = 10894328.012398,
-					["damage_taken"] = 4810437.012398,
+					["last_dps"] = 0,
 					["ownerName"] = "Laurannah",
 					["boss_fight_component"] = true,
 					["spells"] = {
@@ -13094,13 +12908,13 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 					["end_time"] = 1490983792,
 					["on_hold"] = false,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["friendlyfire"] = {
-					},
+					["damage_taken"] = 4810437.012398,
 					["start_time"] = 1490983714,
 					["delay"] = 0,
 					["friendlyfire_total"] = 0,
@@ -13125,7 +12939,7 @@ _detalhes_database = {
 					["serial"] = "Creature-0-3018-1648-7257-62005-00005E9A23",
 					["dps_started"] = false,
 					["total"] = 13367094.017246,
-					["damage_taken"] = 14393923.017246,
+					["last_dps"] = 0,
 					["ownerName"] = "Darunia-Norgannon",
 					["boss_fight_component"] = true,
 					["spells"] = {
@@ -13219,13 +13033,13 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 					["end_time"] = 1490983792,
 					["on_hold"] = false,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["friendlyfire"] = {
-					},
+					["damage_taken"] = 14393923.017246,
 					["start_time"] = 1490983712,
 					["delay"] = 0,
 					["friendlyfire_total"] = 0,
@@ -13917,7 +13731,7 @@ _detalhes_database = {
 					["serial"] = "Creature-0-3018-1648-7257-95061-00005E9A25",
 					["dps_started"] = false,
 					["total"] = 7556835.013086,
-					["damage_taken"] = 0.013086,
+					["last_dps"] = 0,
 					["ownerName"] = "Yúka-Ravencrest",
 					["boss_fight_component"] = true,
 					["spells"] = {
@@ -13953,13 +13767,13 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 					["end_time"] = 1490983792,
 					["on_hold"] = false,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["friendlyfire"] = {
-					},
+					["damage_taken"] = 0.013086,
 					["start_time"] = 1490983732,
 					["delay"] = 0,
 					["friendlyfire_total"] = 0,
@@ -13983,7 +13797,7 @@ _detalhes_database = {
 					["serial"] = "Creature-0-3018-1648-7257-104493-00005E9A2B",
 					["dps_started"] = false,
 					["total"] = 4117510.018377,
-					["damage_taken"] = 0.018377,
+					["last_dps"] = 0,
 					["ownerName"] = "Colandros-Draka",
 					["boss_fight_component"] = true,
 					["spells"] = {
@@ -14020,13 +13834,13 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 					["end_time"] = 1490983792,
 					["on_hold"] = false,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["friendlyfire"] = {
-					},
+					["damage_taken"] = 0.018377,
 					["start_time"] = 1490983757,
 					["delay"] = 0,
 					["friendlyfire_total"] = 0,
@@ -14061,7 +13875,7 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["damage_taken"] = 129123741.019589,
+					["on_hold"] = false,
 					["boss_fight_component"] = true,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
@@ -14070,9 +13884,9 @@ _detalhes_database = {
 					["serial"] = "Creature-0-3018-1648-7257-114553-00005E9A30",
 					["dps_started"] = false,
 					["end_time"] = 1490983556,
-					["last_dps"] = 0,
 					["friendlyfire"] = {
 					},
+					["last_dps"] = 0,
 					["nome"] = "Bilewater Slime",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -14084,7 +13898,7 @@ _detalhes_database = {
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["on_hold"] = false,
+					["damage_taken"] = 129123741.019589,
 					["start_time"] = 1490983553,
 					["delay"] = 0,
 					["monster"] = true,
@@ -14914,7 +14728,7 @@ _detalhes_database = {
 					["serial"] = "Creature-0-3018-1648-7257-97022-00005E9A3E",
 					["dps_started"] = false,
 					["total"] = 853879.012758,
-					["damage_taken"] = 0.012758,
+					["last_dps"] = 0,
 					["ownerName"] = "Yúka-Ravencrest",
 					["boss_fight_component"] = true,
 					["spells"] = {
@@ -14950,13 +14764,13 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 					["end_time"] = 1490983792,
 					["on_hold"] = false,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["friendlyfire"] = {
-					},
+					["damage_taken"] = 0.012758,
 					["start_time"] = 1490983785,
 					["delay"] = 0,
 					["friendlyfire_total"] = 0,
@@ -15008,11 +14822,12 @@ _detalhes_database = {
 						[2] = 769054,
 					},
 					["total_without_pet"] = 884098.012012,
-					["damage_taken"] = 0.012012,
+					["on_hold"] = false,
 					["dps_started"] = false,
 					["end_time"] = 1490983556,
 					["serial"] = "",
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -15079,13 +14894,12 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["total"] = 884098.012012,
 					["nome"] = "Environment (Falling)",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["on_hold"] = false,
+					["damage_taken"] = 0.012012,
 					["start_time"] = 1490983550,
 					["delay"] = 0,
 					["friendlyfire_total"] = 0,
@@ -15103,7 +14917,7 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["damage_taken"] = 0.021667,
+					["on_hold"] = false,
 					["boss_fight_component"] = true,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
@@ -15112,9 +14926,9 @@ _detalhes_database = {
 					["serial"] = "Creature-0-3018-1648-7257-114881-00005E9A43",
 					["dps_started"] = false,
 					["end_time"] = 1490983556,
-					["last_dps"] = 0,
 					["friendlyfire"] = {
 					},
+					["last_dps"] = 0,
 					["nome"] = "Striking Tentacle",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -15160,7 +14974,7 @@ _detalhes_database = {
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["on_hold"] = false,
+					["damage_taken"] = 0.021667,
 					["start_time"] = 1490983545,
 					["delay"] = 0,
 					["monster"] = true,
@@ -15189,7 +15003,8 @@ _detalhes_database = {
 					["dps_started"] = false,
 					["end_time"] = 1490983792,
 					["serial"] = "Pet-0-3018-1648-7257-103326-030286D36D",
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 					["nome"] = "Spirit Beast <Laurannah>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -15392,16 +15207,15 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["damage_taken"] = 0.008346,
+					["on_hold"] = false,
 					["total"] = 13918811.008346,
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["on_hold"] = false,
+					["damage_taken"] = 0.008346,
 					["start_time"] = 1490983708,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 				}, -- [30]
 				{
 					["flag_original"] = 8466,
@@ -15419,12 +15233,11 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.004634,
-					["on_hold"] = false,
+					["damage_taken"] = 0.004634,
 					["dps_started"] = false,
 					["end_time"] = 1490984573,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["nome"] = "Hati <Darunia-Norgannon>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -15579,12 +15392,13 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 					["total"] = 0.004634,
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 0.004634,
+					["on_hold"] = false,
 					["start_time"] = 1490984570,
 					["serial"] = "Creature-0-3018-1648-7257-106551-00005E9AC2",
 					["boss_fight_component"] = true,
@@ -15594,38 +15408,52 @@ _detalhes_database = {
 					["damage_from"] = {
 					},
 					["targets"] = {
-						["Odyn"] = 0,
-						["Legion Painmaiden"] = 0,
-						["Virulent Imp"] = 0,
-						["Felguard Invader"] = 0,
-						["Legion Venomretcher"] = 0,
-						["Than'otalion"] = 0,
-						["Sentinax Observer"] = 0,
-						["Valarjar Runebearer"] = 0,
-						["Sentinax Warden"] = 0,
-						["Darkfiend Devourer"] = 0,
-						["Dark Ritualist"] = 0,
-						["Rotwing Ripper"] = 0,
-						["Spellstalker"] = 0,
-						["Sentinax Interrogator"] = 0,
-						["Helya"] = 0,
-						["Hungering Stalker"] = 0,
-						["Bilewater Slime"] = 0,
-						["Guarm"] = 0,
-						["Felsworn Chaos Mage"] = 0,
 						["Infectious Stalker"] = 0,
-						["Felbound Spirit"] = 0,
-						["Legion Webspewer"] = 0,
+						["Felguard Invader"] = 0,
+						["Hungering Stalker"] = 0,
+						["Spellstalker"] = 0,
+						["Valarjar Runebearer"] = 0,
+						["Than'otalion"] = 0,
+						["Rotwing Ripper"] = 0,
+						["Duskwatch Spellshield"] = 0,
+						["Ancient Flamecaller"] = 0,
+						["Ancient Chillwitch"] = 0,
+						["Brethkaz the Dominator"] = 0,
+						["Felsworn Chaos Mage"] = 0,
+						["Smoldering Familiar"] = 0,
+						["Hatecoil Raider"] = 0,
 						["Hymdall"] = 0,
 						["Blazing Imp"] = 0,
-						["Putrid Alchemist"] = 0,
-						["Wrathguard"] = 0,
 						["Darkfire Fiend"] = 0,
-						["Debilitating Eye"] = 0,
 						["Battlesworn Nether-Mage"] = 0,
 						["Dark Felshrieker"] = 0,
 						["Cursed Pillager"] = 0,
 						["Eredar Overseer"] = 0,
+						["Disturbed Apparition"] = 0,
+						["Cliffclutch Thornwitch"] = 0,
+						["Sentinax Observer"] = 0,
+						["Sentinax Warden"] = 0,
+						["Leleyna"] = 0,
+						["Feral Scavenger"] = 0,
+						["Sentinax Interrogator"] = 0,
+						["Legion Venomretcher"] = 0,
+						["Legion Painmaiden"] = 0,
+						["Bilewater Slime"] = 0,
+						["Virulent Imp"] = 0,
+						["Odyn"] = 0,
+						["Tugar Bloodtotem"] = 0,
+						["Felbound Spirit"] = 0,
+						["Darkfiend Devourer"] = 0,
+						["Wrathguard"] = 0,
+						["Dark Ritualist"] = 0,
+						["Guarm"] = 0,
+						["Helya"] = 0,
+						["Putrid Alchemist"] = 0,
+						["Debilitating Eye"] = 0,
+						["Valiyaka the Stormbringer"] = 0,
+						["Ancient Flamewraith"] = 0,
+						["Icy Familiar"] = 0,
+						["Legion Webspewer"] = 0,
 					},
 					["pets"] = {
 					},
@@ -15634,12 +15462,11 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.004672,
-					["on_hold"] = false,
+					["damage_taken"] = 0.004672,
 					["dps_started"] = false,
 					["end_time"] = 1490984573,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["nome"] = "Hati <Laurannah>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -15652,33 +15479,45 @@ _detalhes_database = {
 								["targets"] = {
 									["Legion Painmaiden"] = 0,
 									["Felguard Invader"] = 0,
-									["Legion Venomretcher"] = 0,
+									["Darkfiend Devourer"] = 0,
 									["Spellstalker"] = 0,
 									["Valarjar Runebearer"] = 0,
 									["Than'otalion"] = 0,
-									["Odyn"] = 0,
-									["Virulent Imp"] = 0,
-									["Rotwing Ripper"] = 0,
-									["Sentinax Warden"] = 0,
-									["Sentinax Interrogator"] = 0,
 									["Dark Ritualist"] = 0,
-									["Wrathguard"] = 0,
-									["Bilewater Slime"] = 0,
-									["Darkfiend Devourer"] = 0,
+									["Duskwatch Spellshield"] = 0,
+									["Ancient Flamecaller"] = 0,
+									["Ancient Chillwitch"] = 0,
+									["Brethkaz the Dominator"] = 0,
 									["Felsworn Chaos Mage"] = 0,
-									["Legion Webspewer"] = 0,
-									["Felbound Spirit"] = 0,
-									["Putrid Alchemist"] = 0,
+									["Smoldering Familiar"] = 0,
 									["Hymdall"] = 0,
-									["Blazing Imp"] = 0,
 									["Guarm"] = 0,
-									["Helya"] = 0,
 									["Darkfire Fiend"] = 0,
-									["Hungering Stalker"] = 0,
 									["Battlesworn Nether-Mage"] = 0,
 									["Dark Felshrieker"] = 0,
+									["Virulent Imp"] = 0,
+									["Odyn"] = 0,
+									["Disturbed Apparition"] = 0,
+									["Cliffclutch Thornwitch"] = 0,
+									["Sentinax Warden"] = 0,
+									["Sentinax Interrogator"] = 0,
+									["Leleyna"] = 0,
+									["Putrid Alchemist"] = 0,
+									["Feral Scavenger"] = 0,
+									["Ancient Flamewraith"] = 0,
+									["Blazing Imp"] = 0,
+									["Felbound Spirit"] = 0,
+									["Bilewater Slime"] = 0,
 									["Cursed Pillager"] = 0,
+									["Legion Venomretcher"] = 0,
+									["Rotwing Ripper"] = 0,
+									["Helya"] = 0,
+									["Wrathguard"] = 0,
+									["Tugar Bloodtotem"] = 0,
+									["Valiyaka the Stormbringer"] = 0,
+									["Hungering Stalker"] = 0,
 									["Eredar Overseer"] = 0,
+									["Legion Webspewer"] = 0,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 0,
@@ -15707,12 +15546,16 @@ _detalhes_database = {
 								["n_max"] = 0,
 								["targets"] = {
 									["Putrid Alchemist"] = 0,
+									["Brethkaz the Dominator"] = 0,
 									["Felguard Invader"] = 0,
+									["Leleyna"] = 0,
 									["Hymdall"] = 0,
 									["Guarm"] = 0,
 									["Than'otalion"] = 0,
 									["Wrathguard"] = 0,
 									["Rotwing Ripper"] = 0,
+									["Tugar Bloodtotem"] = 0,
+									["Valiyaka the Stormbringer"] = 0,
 									["Bilewater Slime"] = 0,
 									["Helya"] = 0,
 									["Odyn"] = 0,
@@ -15743,33 +15586,39 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
-									["Legion Painmaiden"] = 0,
+									["Infectious Stalker"] = 0,
 									["Felguard Invader"] = 0,
-									["Hungering Stalker"] = 0,
+									["Legion Venomretcher"] = 0,
 									["Spellstalker"] = 0,
 									["Valarjar Runebearer"] = 0,
-									["Sentinax Warden"] = 0,
-									["Odyn"] = 0,
-									["Rotwing Ripper"] = 0,
-									["Virulent Imp"] = 0,
-									["Sentinax Interrogator"] = 0,
 									["Dark Ritualist"] = 0,
-									["Legion Venomretcher"] = 0,
-									["Putrid Alchemist"] = 0,
-									["Sentinax Observer"] = 0,
+									["Duskwatch Spellshield"] = 0,
+									["Ancient Flamecaller"] = 0,
 									["Felsworn Chaos Mage"] = 0,
-									["Darkfiend Devourer"] = 0,
-									["Felbound Spirit"] = 0,
-									["Helya"] = 0,
-									["Bilewater Slime"] = 0,
+									["Smoldering Familiar"] = 0,
+									["Hatecoil Raider"] = 0,
 									["Blazing Imp"] = 0,
-									["Infectious Stalker"] = 0,
-									["Wrathguard"] = 0,
 									["Darkfire Fiend"] = 0,
-									["Debilitating Eye"] = 0,
 									["Battlesworn Nether-Mage"] = 0,
 									["Dark Felshrieker"] = 0,
 									["Cursed Pillager"] = 0,
+									["Odyn"] = 0,
+									["Sentinax Observer"] = 0,
+									["Sentinax Warden"] = 0,
+									["Sentinax Interrogator"] = 0,
+									["Bilewater Slime"] = 0,
+									["Leleyna"] = 0,
+									["Felbound Spirit"] = 0,
+									["Legion Painmaiden"] = 0,
+									["Virulent Imp"] = 0,
+									["Hungering Stalker"] = 0,
+									["Rotwing Ripper"] = 0,
+									["Wrathguard"] = 0,
+									["Darkfiend Devourer"] = 0,
+									["Debilitating Eye"] = 0,
+									["Helya"] = 0,
+									["Putrid Alchemist"] = 0,
+									["Icy Familiar"] = 0,
 									["Legion Webspewer"] = 0,
 								},
 								["m_dmg"] = 0,
@@ -15798,19 +15647,25 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
-									["Putrid Alchemist"] = 0,
-									["Odyn"] = 0,
-									["Felbound Spirit"] = 0,
 									["Hungering Stalker"] = 0,
-									["Blazing Imp"] = 0,
-									["Hymdall"] = 0,
-									["Guarm"] = 0,
-									["Sentinax Warden"] = 0,
-									["Helya"] = 0,
-									["Bilewater Slime"] = 0,
-									["Rotwing Ripper"] = 0,
+									["Leleyna"] = 0,
 									["Valarjar Runebearer"] = 0,
+									["Sentinax Warden"] = 0,
+									["Rotwing Ripper"] = 0,
+									["Ancient Flamecaller"] = 0,
+									["Bilewater Slime"] = 0,
+									["Brethkaz the Dominator"] = 0,
+									["Feral Scavenger"] = 0,
+									["Felbound Spirit"] = 0,
+									["Odyn"] = 0,
+									["Hymdall"] = 0,
+									["Blazing Imp"] = 0,
 									["Than'otalion"] = 0,
+									["Helya"] = 0,
+									["Guarm"] = 0,
+									["Tugar Bloodtotem"] = 0,
+									["Valiyaka the Stormbringer"] = 0,
+									["Putrid Alchemist"] = 0,
 									["Virulent Imp"] = 0,
 									["Eredar Overseer"] = 0,
 								},
@@ -15840,17 +15695,22 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
-									["Putrid Alchemist"] = 0,
 									["Hungering Stalker"] = 0,
+									["Leleyna"] = 0,
+									["Sentinax Warden"] = 0,
+									["Rotwing Ripper"] = 0,
+									["Ancient Flamecaller"] = 0,
+									["Bilewater Slime"] = 0,
+									["Felbound Spirit"] = 0,
 									["Hymdall"] = 0,
 									["Guarm"] = 0,
-									["Than'otalion"] = 0,
+									["Putrid Alchemist"] = 0,
 									["Helya"] = 0,
+									["Than'otalion"] = 0,
+									["Tugar Bloodtotem"] = 0,
+									["Valiyaka the Stormbringer"] = 0,
 									["Odyn"] = 0,
-									["Rotwing Ripper"] = 0,
-									["Bilewater Slime"] = 0,
-									["Sentinax Warden"] = 0,
-									["Felbound Spirit"] = 0,
+									["Feral Scavenger"] = 0,
 									["Eredar Overseer"] = 0,
 								},
 								["m_dmg"] = 0,
@@ -15875,12 +15735,13 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 					["total"] = 0.004672,
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 0.004672,
+					["on_hold"] = false,
 					["start_time"] = 1490984570,
 					["serial"] = "Creature-0-3018-1648-7257-106551-00005E9AC3",
 					["boss_fight_component"] = true,
@@ -15905,12 +15766,11 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.004533,
-					["on_hold"] = false,
+					["damage_taken"] = 0.004533,
 					["dps_started"] = false,
 					["end_time"] = 1490984573,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["nome"] = "Pinchee <Colandros-Draka>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -16018,12 +15878,13 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 					["total"] = 0.004533,
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 0.004533,
+					["on_hold"] = false,
 					["start_time"] = 1490984570,
 					["serial"] = "Pet-0-3018-1648-7257-53240-030269CC6E",
 					["boss_fight_component"] = true,
@@ -16033,37 +15894,52 @@ _detalhes_database = {
 					["damage_from"] = {
 					},
 					["targets"] = {
-						["Odyn"] = 0,
-						["Infectious Stalker"] = 0,
+						["Legion Painmaiden"] = 0,
 						["Shadowy Illusion <[*] Shadow Illusion>"] = 0,
 						["Felguard Invader"] = 0,
-						["Darkfiend Devourer"] = 0,
-						["Virulent Imp"] = 0,
+						["Legion Venomretcher"] = 0,
 						["Spellstalker"] = 0,
 						["Valarjar Runebearer"] = 0,
-						["Sentinax Warden"] = 0,
-						["Sentinax Observer"] = 0,
-						["Legion Painmaiden"] = 0,
-						["Rotwing Ripper"] = 0,
-						["Dark Ritualist"] = 0,
-						["Sentinax Interrogator"] = 0,
 						["Than'otalion"] = 0,
-						["Helya"] = 0,
-						["Putrid Alchemist"] = 0,
-						["Hungering Stalker"] = 0,
+						["Dark Ritualist"] = 0,
+						["Duskwatch Spellshield"] = 0,
+						["Ancient Flamecaller"] = 0,
+						["Ancient Chillwitch"] = 0,
+						["Brethkaz the Dominator"] = 0,
 						["Felsworn Chaos Mage"] = 0,
-						["Guarm"] = 0,
-						["Felbound Spirit"] = 0,
-						["Legion Venomretcher"] = 0,
+						["Smoldering Familiar"] = 0,
+						["Hatecoil Raider"] = 0,
 						["Hymdall"] = 0,
 						["Blazing Imp"] = 0,
-						["Bilewater Slime"] = 0,
-						["Wrathguard"] = 0,
 						["Darkfire Fiend"] = 0,
-						["Debilitating Eye"] = 0,
 						["Battlesworn Nether-Mage"] = 0,
 						["Dark Felshrieker"] = 0,
 						["Cursed Pillager"] = 0,
+						["Odyn"] = 0,
+						["Disturbed Apparition"] = 0,
+						["Cliffclutch Thornwitch"] = 0,
+						["Sentinax Observer"] = 0,
+						["Sentinax Warden"] = 0,
+						["Leleyna"] = 0,
+						["Helya"] = 0,
+						["Sentinax Interrogator"] = 0,
+						["Feral Scavenger"] = 0,
+						["Rotwing Ripper"] = 0,
+						["Bilewater Slime"] = 0,
+						["Darkfiend Devourer"] = 0,
+						["Virulent Imp"] = 0,
+						["Infectious Stalker"] = 0,
+						["Felbound Spirit"] = 0,
+						["Tugar Bloodtotem"] = 0,
+						["Feral Souldrinker"] = 0,
+						["Putrid Alchemist"] = 0,
+						["Guarm"] = 0,
+						["Wrathguard"] = 0,
+						["Hungering Stalker"] = 0,
+						["Debilitating Eye"] = 0,
+						["Valiyaka the Stormbringer"] = 0,
+						["Ancient Flamewraith"] = 0,
+						["Icy Familiar"] = 0,
 						["Legion Webspewer"] = 0,
 					},
 					["pets"] = {
@@ -16073,12 +15949,11 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.00668,
-					["on_hold"] = false,
+					["damage_taken"] = 0.00668,
 					["dps_started"] = false,
 					["end_time"] = 1490984573,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["nome"] = "Beast <Laurannah>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -16091,29 +15966,41 @@ _detalhes_database = {
 								["targets"] = {
 									["Legion Painmaiden"] = 0,
 									["Felguard Invader"] = 0,
-									["Darkfiend Devourer"] = 0,
+									["Hungering Stalker"] = 0,
 									["Spellstalker"] = 0,
 									["Valarjar Runebearer"] = 0,
 									["Than'otalion"] = 0,
 									["Rotwing Ripper"] = 0,
-									["Odyn"] = 0,
-									["Virulent Imp"] = 0,
-									["Hungering Stalker"] = 0,
-									["Bilewater Slime"] = 0,
-									["Sentinax Warden"] = 0,
+									["Duskwatch Spellshield"] = 0,
+									["Ancient Flamecaller"] = 0,
+									["Ancient Chillwitch"] = 0,
+									["Brethkaz the Dominator"] = 0,
 									["Felsworn Chaos Mage"] = 0,
-									["Wrathguard"] = 0,
-									["Felbound Spirit"] = 0,
-									["Guarm"] = 0,
+									["Smoldering Familiar"] = 0,
 									["Hymdall"] = 0,
-									["Blazing Imp"] = 0,
-									["Putrid Alchemist"] = 0,
-									["Helya"] = 0,
+									["Guarm"] = 0,
 									["Darkfire Fiend"] = 0,
-									["Legion Venomretcher"] = 0,
 									["Battlesworn Nether-Mage"] = 0,
 									["Dark Felshrieker"] = 0,
+									["Virulent Imp"] = 0,
+									["Odyn"] = 0,
+									["Disturbed Apparition"] = 0,
+									["Cliffclutch Thornwitch"] = 0,
+									["Sentinax Warden"] = 0,
+									["Bilewater Slime"] = 0,
+									["Leleyna"] = 0,
+									["Feral Scavenger"] = 0,
+									["Felbound Spirit"] = 0,
 									["Cursed Pillager"] = 0,
+									["Helya"] = 0,
+									["Legion Venomretcher"] = 0,
+									["Ancient Flamewraith"] = 0,
+									["Wrathguard"] = 0,
+									["Blazing Imp"] = 0,
+									["Tugar Bloodtotem"] = 0,
+									["Valiyaka the Stormbringer"] = 0,
+									["Darkfiend Devourer"] = 0,
+									["Putrid Alchemist"] = 0,
 									["Legion Webspewer"] = 0,
 								},
 								["m_dmg"] = 0,
@@ -16142,35 +16029,47 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
-									["Infectious Stalker"] = 0,
+									["Legion Painmaiden"] = 0,
 									["Shadowy Illusion <[*] Shadow Illusion>"] = 0,
 									["Felguard Invader"] = 0,
-									["Hungering Stalker"] = 0,
+									["Legion Venomretcher"] = 0,
 									["Spellstalker"] = 0,
 									["Valarjar Runebearer"] = 0,
 									["Than'otalion"] = 0,
-									["Odyn"] = 0,
-									["Virulent Imp"] = 0,
-									["Rotwing Ripper"] = 0,
-									["Sentinax Warden"] = 0,
-									["Sentinax Interrogator"] = 0,
 									["Dark Ritualist"] = 0,
-									["Legion Painmaiden"] = 0,
-									["Putrid Alchemist"] = 0,
-									["Sentinax Observer"] = 0,
+									["Duskwatch Spellshield"] = 0,
+									["Ancient Flamecaller"] = 0,
+									["Brethkaz the Dominator"] = 0,
 									["Felsworn Chaos Mage"] = 0,
-									["Bilewater Slime"] = 0,
-									["Legion Venomretcher"] = 0,
-									["Guarm"] = 0,
+									["Smoldering Familiar"] = 0,
+									["Hatecoil Raider"] = 0,
 									["Hymdall"] = 0,
-									["Blazing Imp"] = 0,
-									["Darkfiend Devourer"] = 0,
-									["Helya"] = 0,
+									["Guarm"] = 0,
 									["Darkfire Fiend"] = 0,
-									["Debilitating Eye"] = 0,
 									["Battlesworn Nether-Mage"] = 0,
 									["Dark Felshrieker"] = 0,
+									["Virulent Imp"] = 0,
+									["Odyn"] = 0,
+									["Disturbed Apparition"] = 0,
+									["Cliffclutch Thornwitch"] = 0,
+									["Sentinax Observer"] = 0,
+									["Sentinax Warden"] = 0,
+									["Sentinax Interrogator"] = 0,
+									["Bilewater Slime"] = 0,
+									["Leleyna"] = 0,
+									["Hungering Stalker"] = 0,
+									["Icy Familiar"] = 0,
+									["Darkfiend Devourer"] = 0,
+									["Putrid Alchemist"] = 0,
+									["Feral Souldrinker"] = 0,
+									["Tugar Bloodtotem"] = 0,
+									["Rotwing Ripper"] = 0,
+									["Helya"] = 0,
 									["Cursed Pillager"] = 0,
+									["Debilitating Eye"] = 0,
+									["Valiyaka the Stormbringer"] = 0,
+									["Infectious Stalker"] = 0,
+									["Blazing Imp"] = 0,
 									["Legion Webspewer"] = 0,
 								},
 								["m_dmg"] = 0,
@@ -16200,12 +16099,16 @@ _detalhes_database = {
 								["n_max"] = 0,
 								["targets"] = {
 									["Putrid Alchemist"] = 0,
+									["Brethkaz the Dominator"] = 0,
 									["Felsworn Chaos Mage"] = 0,
 									["Felguard Invader"] = 0,
 									["Darkfiend Devourer"] = 0,
 									["Hymdall"] = 0,
 									["Guarm"] = 0,
 									["Wrathguard"] = 0,
+									["Tugar Bloodtotem"] = 0,
+									["Valiyaka the Stormbringer"] = 0,
+									["Duskwatch Spellshield"] = 0,
 									["Bilewater Slime"] = 0,
 									["Odyn"] = 0,
 								},
@@ -16231,12 +16134,19 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+						["Beast <Laurannah>"] = {
+							["spells"] = {
+								[207097] = 0,
+							},
+							["total"] = 0,
+						},
+					},
 					["total"] = 0.00668,
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 0.00668,
+					["on_hold"] = false,
 					["start_time"] = 1490984570,
 					["serial"] = "Creature-0-3018-1648-7257-62005-00005E9B1E",
 					["boss_fight_component"] = true,
@@ -16257,12 +16167,11 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.00791,
-					["on_hold"] = false,
+					["damage_taken"] = 0.00791,
 					["dps_started"] = false,
 					["end_time"] = 1490984573,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["nome"] = "Beast <Darunia-Norgannon>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -16358,12 +16267,13 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 					["total"] = 0.00791,
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 0.00791,
+					["on_hold"] = false,
 					["start_time"] = 1490984570,
 					["serial"] = "Creature-0-3018-1648-7257-62005-00005E9B1F",
 					["boss_fight_component"] = true,
@@ -16386,12 +16296,11 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.007199,
-					["on_hold"] = false,
+					["damage_taken"] = 0.007199,
 					["dps_started"] = false,
 					["end_time"] = 1490984573,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["nome"] = "Greater Fire Elemental <Yúka-Ravencrest>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -16430,12 +16339,13 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 					["total"] = 0.007199,
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 0.007199,
+					["on_hold"] = false,
 					["start_time"] = 1490984570,
 					["serial"] = "Creature-0-3018-1648-7257-95061-00005E9B22",
 					["boss_fight_component"] = true,
@@ -16459,12 +16369,11 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.002107,
-					["on_hold"] = false,
+					["damage_taken"] = 0.002107,
 					["dps_started"] = false,
 					["end_time"] = 1490984573,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["nome"] = "Spitting Cobra <Colandros-Draka>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -16504,12 +16413,13 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 					["total"] = 0.002107,
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 0.002107,
+					["on_hold"] = false,
 					["start_time"] = 1490984570,
 					["serial"] = "Creature-0-3018-1648-7257-104493-00005E9B24",
 					["boss_fight_component"] = true,
@@ -16531,12 +16441,11 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.001721,
-					["on_hold"] = false,
+					["damage_taken"] = 0.001721,
 					["dps_started"] = false,
 					["end_time"] = 1490984573,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["nome"] = "Greater Lightning Elemental <Yúka-Ravencrest>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -16574,12 +16483,13 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 					["total"] = 0.001721,
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 0.001721,
+					["on_hold"] = false,
 					["start_time"] = 1490984570,
 					["serial"] = "Creature-0-3018-1648-7257-97022-00005E9B38",
 					["boss_fight_component"] = true,
@@ -16629,8 +16539,9 @@ _detalhes_database = {
 					["delay"] = 0,
 					["monster"] = true,
 					["end_time"] = 1490984573,
-					["on_hold"] = false,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.005092,
+					["friendlyfire"] = {
+					},
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -16950,13 +16861,22 @@ _detalhes_database = {
 								["a_amt"] = 0,
 								["a_dmg"] = 0,
 							},
-							[227673] = {
+							[227642] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["c_dmg"] = 0,
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
+									["Arthbyrud-WyrmrestAccord"] = 0,
+									["Baalzephon-BlackwaterRaiders"] = 0,
+									["Bruccius-MoonGuard"] = 0,
+									["Skymane-Proudmoore"] = 0,
+									["Yúka-Ravencrest"] = 0,
+									["Arroezze-EarthenRing"] = 0,
+									["Colandros-Draka"] = 0,
+									["Stormvadar-Perenolde"] = 0,
+									["Narlinn-Tichondrius"] = 0,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 0,
@@ -16965,7 +16885,7 @@ _detalhes_database = {
 								["counter"] = 0,
 								["total"] = 0,
 								["c_max"] = 0,
-								["id"] = 227673,
+								["id"] = 227642,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
@@ -17012,22 +16932,13 @@ _detalhes_database = {
 								["a_amt"] = 0,
 								["a_dmg"] = 0,
 							},
-							[227642] = {
+							[227735] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["c_dmg"] = 0,
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
-									["Arthbyrud-WyrmrestAccord"] = 0,
-									["Baalzephon-BlackwaterRaiders"] = 0,
-									["Bruccius-MoonGuard"] = 0,
-									["Skymane-Proudmoore"] = 0,
-									["Yúka-Ravencrest"] = 0,
-									["Arroezze-EarthenRing"] = 0,
-									["Colandros-Draka"] = 0,
-									["Stormvadar-Perenolde"] = 0,
-									["Narlinn-Tichondrius"] = 0,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 0,
@@ -17036,7 +16947,7 @@ _detalhes_database = {
 								["counter"] = 0,
 								["total"] = 0,
 								["c_max"] = 0,
-								["id"] = 227642,
+								["id"] = 227735,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
@@ -17337,10 +17248,10 @@ _detalhes_database = {
 								["targets"] = {
 									["Outranked-Bloodhoof"] = 0,
 									["Skymane-Proudmoore"] = 0,
-									["Stormvadar-Perenolde"] = 0,
-									["Baalzephon-BlackwaterRaiders"] = 0,
 									["Colandros-Draka"] = 0,
+									["Baalzephon-BlackwaterRaiders"] = 0,
 									["Bruccius-MoonGuard"] = 0,
+									["Stormvadar-Perenolde"] = 0,
 									["Donm-Goldrinn"] = 0,
 									["Narlinn-Tichondrius"] = 0,
 								},
@@ -17363,7 +17274,7 @@ _detalhes_database = {
 								["a_amt"] = 0,
 								["a_dmg"] = 0,
 							},
-							[227735] = {
+							[227673] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["c_dmg"] = 0,
@@ -17378,7 +17289,7 @@ _detalhes_database = {
 								["counter"] = 0,
 								["total"] = 0,
 								["c_max"] = 0,
-								["id"] = 227735,
+								["id"] = 227673,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
@@ -17461,10 +17372,10 @@ _detalhes_database = {
 									["Yúka-Ravencrest"] = 0,
 									["Narlinn-Tichondrius"] = 0,
 									["Pinchee <Colandros-Draka>"] = 0,
-									["Wormon-Nemesis"] = 0,
 									["Hati <Darunia-Norgannon>"] = 0,
-									["Arthbyrud-WyrmrestAccord"] = 0,
 									["Water Elemental <Wormon-Nemesis>"] = 0,
+									["Arthbyrud-WyrmrestAccord"] = 0,
+									["Wormon-Nemesis"] = 0,
 									["Baalzephon-BlackwaterRaiders"] = 0,
 									["Samanthia-Sen'jin"] = 0,
 									["Bruccius-MoonGuard"] = 0,
@@ -17560,11 +17471,10 @@ _detalhes_database = {
 					["total"] = 0.005092,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["start_time"] = 1490984570,
 					["serial"] = "Vehicle-0-3018-1648-7257-114323-00005E941B",
-					["damage_taken"] = 0.005092,
+					["on_hold"] = false,
 				}, -- [39]
 				{
 					["flag_original"] = 1300,
@@ -17575,7 +17485,7 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["on_hold"] = false,
+					["damage_taken"] = 0.003045,
 					["tipo"] = 1,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
@@ -17584,6 +17494,7 @@ _detalhes_database = {
 					["delay"] = 0,
 					["dps_started"] = false,
 					["end_time"] = 1490984573,
+					["last_dps"] = 0,
 					["friendlyfire"] = {
 						["Phìlthy-Stormrage"] = {
 							["total"] = 0,
@@ -17592,7 +17503,6 @@ _detalhes_database = {
 							},
 						},
 					},
-					["last_dps"] = 0,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -17828,7 +17738,7 @@ _detalhes_database = {
 					["nome"] = "Phìlthy-Stormrage",
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 0.003045,
+					["on_hold"] = false,
 					["start_time"] = 1490984570,
 					["serial"] = "Player-60-0AC63E91",
 					["classe"] = "MAGE",
@@ -17846,7 +17756,7 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["on_hold"] = false,
+					["damage_taken"] = 0.007545,
 					["tipo"] = 1,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
@@ -17855,6 +17765,7 @@ _detalhes_database = {
 					["delay"] = 0,
 					["dps_started"] = false,
 					["end_time"] = 1490984573,
+					["last_dps"] = 0,
 					["friendlyfire"] = {
 						["Lonely Worn Doll <Baalzephon-BlackwaterRaiders>"] = {
 							["total"] = 0,
@@ -17870,7 +17781,6 @@ _detalhes_database = {
 							},
 						},
 					},
-					["last_dps"] = 0,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -18579,7 +18489,7 @@ _detalhes_database = {
 					["nome"] = "Narlinn-Tichondrius",
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 0.007545,
+					["on_hold"] = false,
 					["start_time"] = 1490984570,
 					["serial"] = "Player-11-0AA1CFDE",
 					["classe"] = "DEMONHUNTER",
@@ -18599,12 +18509,11 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.001975,
-					["on_hold"] = false,
+					["damage_taken"] = 0.001975,
 					["dps_started"] = false,
 					["end_time"] = 1490984573,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["nome"] = "Mindbender <Samanthia-Sen'jin>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -18640,12 +18549,13 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 					["total"] = 0.001975,
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 0.001975,
+					["on_hold"] = false,
 					["start_time"] = 1490984570,
 					["serial"] = "Creature-0-3018-1648-7257-62982-00005E96AD",
 					["boss_fight_component"] = true,
@@ -18677,8 +18587,9 @@ _detalhes_database = {
 					["delay"] = 0,
 					["monster"] = true,
 					["end_time"] = 1490984573,
-					["on_hold"] = false,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.0064,
+					["friendlyfire"] = {
+					},
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -18727,11 +18638,10 @@ _detalhes_database = {
 					["total"] = 0.0064,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["start_time"] = 1490984570,
 					["serial"] = "",
-					["damage_taken"] = 0.0064,
+					["on_hold"] = false,
 				}, -- [43]
 				{
 					["flag_original"] = 2600,
@@ -18746,24 +18656,24 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.005478,
-					["on_hold"] = false,
+					["damage_taken"] = 0.005478,
 					["dps_started"] = false,
 					["end_time"] = 1490984573,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["nome"] = "Spirit Link Totem <Outranked-Bloodhoof>",
 					["spells"] = {
 						["_ActorTable"] = {
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 					["total"] = 0.005478,
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 0.005478,
+					["on_hold"] = false,
 					["start_time"] = 1490984570,
 					["serial"] = "Creature-0-3018-1648-7257-53006-00005E972F",
 					["boss_fight_component"] = true,
@@ -18781,24 +18691,24 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.00313,
-					["on_hold"] = false,
+					["damage_taken"] = 0.00313,
 					["dps_started"] = false,
 					["end_time"] = 1490984573,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["nome"] = "Spirit Link Totem <Oryón-Ragnaros>",
 					["spells"] = {
 						["_ActorTable"] = {
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 					["total"] = 0.00313,
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 0.00313,
+					["on_hold"] = false,
 					["start_time"] = 1490984570,
 					["serial"] = "Creature-0-3018-1648-7257-53006-0000DE972F",
 					["boss_fight_component"] = true,
@@ -18812,7 +18722,7 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["on_hold"] = false,
+					["damage_taken"] = 0.00888,
 					["tipo"] = 1,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
@@ -18821,6 +18731,7 @@ _detalhes_database = {
 					["delay"] = 0,
 					["dps_started"] = false,
 					["end_time"] = 1490984573,
+					["last_dps"] = 0,
 					["friendlyfire"] = {
 						["Donm-Goldrinn"] = {
 							["total"] = 0,
@@ -18829,7 +18740,6 @@ _detalhes_database = {
 							},
 						},
 					},
-					["last_dps"] = 0,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -18897,7 +18807,7 @@ _detalhes_database = {
 					["nome"] = "Donm-Goldrinn",
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 0.00888,
+					["on_hold"] = false,
 					["start_time"] = 1490984570,
 					["serial"] = "Player-3207-060C8310",
 					["classe"] = "PALADIN",
@@ -18915,7 +18825,7 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["on_hold"] = false,
+					["damage_taken"] = 0.008801,
 					["tipo"] = 1,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
@@ -18924,6 +18834,7 @@ _detalhes_database = {
 					["delay"] = 0,
 					["dps_started"] = false,
 					["end_time"] = 1490984573,
+					["last_dps"] = 0,
 					["friendlyfire"] = {
 						["Outranked-Bloodhoof"] = {
 							["total"] = 0,
@@ -18958,7 +18869,6 @@ _detalhes_database = {
 							},
 						},
 					},
-					["last_dps"] = 0,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -19342,7 +19252,7 @@ _detalhes_database = {
 					["nome"] = "Wormon-Nemesis",
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 0.008801,
+					["on_hold"] = false,
 					["start_time"] = 1490984570,
 					["serial"] = "Player-3208-08C08492",
 					["classe"] = "MAGE",
@@ -19364,18 +19274,11 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.003283,
-					["on_hold"] = false,
+					["damage_taken"] = 0.003283,
 					["dps_started"] = false,
 					["end_time"] = 1490984573,
 					["delay"] = 0,
-					["friendlyfire"] = {
-						["Hyrja"] = {
-							["total"] = 0,
-							["spells"] = {
-								[59638] = 0,
-							},
-						},
-					},
+					["last_dps"] = 0,
 					["nome"] = "Wormon-Nemesis <Wormon-Nemesis>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -19413,12 +19316,19 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+						["Hyrja"] = {
+							["total"] = 0,
+							["spells"] = {
+								[59638] = 0,
+							},
+						},
+					},
 					["total"] = 0.003283,
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 0.003283,
+					["on_hold"] = false,
 					["start_time"] = 1490984570,
 					["serial"] = "Creature-0-3018-1648-7257-31216-00005E92F5",
 					["boss_fight_component"] = true,
@@ -19441,18 +19351,11 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.005015,
-					["on_hold"] = false,
+					["damage_taken"] = 0.005015,
 					["dps_started"] = false,
 					["end_time"] = 1490984573,
 					["delay"] = 0,
-					["friendlyfire"] = {
-						["Hyrja"] = {
-							["total"] = 0,
-							["spells"] = {
-								[31707] = 0,
-							},
-						},
-					},
+					["last_dps"] = 0,
 					["nome"] = "Water Elemental <Wormon-Nemesis>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -19522,12 +19425,19 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+						["Hyrja"] = {
+							["total"] = 0,
+							["spells"] = {
+								[31707] = 0,
+							},
+						},
+					},
 					["total"] = 0.005015,
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 0.005015,
+					["on_hold"] = false,
 					["start_time"] = 1490984570,
 					["serial"] = "Pet-0-3018-1648-7257-78116-0102511276",
 					["boss_fight_component"] = true,
@@ -19548,12 +19458,11 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.006069,
-					["on_hold"] = false,
+					["damage_taken"] = 0.006069,
 					["dps_started"] = false,
 					["end_time"] = 1490984573,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["nome"] = "Greater Earth Elemental <Yúka-Ravencrest>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -19619,12 +19528,13 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 					["total"] = 0.006069,
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 0.006069,
+					["on_hold"] = false,
 					["start_time"] = 1490984570,
 					["serial"] = "Creature-0-3018-1648-7257-95072-00005E92FC",
 					["boss_fight_component"] = true,
@@ -19643,12 +19553,11 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.006243,
-					["on_hold"] = false,
+					["damage_taken"] = 0.006243,
 					["dps_started"] = false,
 					["end_time"] = 1490984573,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["nome"] = "Elemental Raptor <Outranked-Bloodhoof>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -19767,12 +19676,13 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 					["total"] = 0.006243,
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 0.006243,
+					["on_hold"] = false,
 					["start_time"] = 1490984570,
 					["serial"] = "Creature-0-3018-1648-7257-100820-00005E930C",
 					["boss_fight_component"] = true,
@@ -19807,8 +19717,9 @@ _detalhes_database = {
 					["delay"] = 0,
 					["monster"] = true,
 					["end_time"] = 1490984573,
-					["on_hold"] = false,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.00542,
+					["friendlyfire"] = {
+					},
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -19942,11 +19853,10 @@ _detalhes_database = {
 					["total"] = 0.00542,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["start_time"] = 1490984570,
 					["serial"] = "Creature-0-3018-1648-7257-114360-00005E8AC1",
-					["damage_taken"] = 0.00542,
+					["on_hold"] = false,
 				}, -- [52]
 				{
 					["flag_original"] = 68168,
@@ -19969,8 +19879,9 @@ _detalhes_database = {
 					["delay"] = 0,
 					["monster"] = true,
 					["end_time"] = 1490984573,
-					["on_hold"] = false,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.005795,
+					["friendlyfire"] = {
+					},
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -20094,11 +20005,10 @@ _detalhes_database = {
 					["total"] = 0.005795,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["start_time"] = 1490984570,
 					["serial"] = "Creature-0-3018-1648-7257-114361-00005E8AC1",
-					["damage_taken"] = 0.005795,
+					["on_hold"] = false,
 				}, -- [53]
 				{
 					["flag_original"] = 1300,
@@ -20113,7 +20023,7 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["on_hold"] = false,
+					["damage_taken"] = 0.008375,
 					["tipo"] = 1,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
@@ -20122,17 +20032,24 @@ _detalhes_database = {
 					["delay"] = 0,
 					["dps_started"] = false,
 					["end_time"] = 1490984573,
+					["last_dps"] = 0,
 					["friendlyfire"] = {
-						["Wormon-Nemesis"] = {
+						["Hymdall"] = {
 							["total"] = 0,
 							["spells"] = {
-								[228874] = 0,
+								[148022] = 0,
 							},
 						},
 						["Greater Earth Elemental <Yúka-Ravencrest>"] = {
 							["total"] = 0,
 							["spells"] = {
 								[148022] = 0,
+							},
+						},
+						["Wormon-Nemesis"] = {
+							["total"] = 0,
+							["spells"] = {
+								[228874] = 0,
 							},
 						},
 						["Selbink-Sargeras"] = {
@@ -20143,14 +20060,7 @@ _detalhes_database = {
 								[228874] = 0,
 							},
 						},
-						["Hymdall"] = {
-							["total"] = 0,
-							["spells"] = {
-								[148022] = 0,
-							},
-						},
 					},
-					["last_dps"] = 0,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -20492,7 +20402,7 @@ _detalhes_database = {
 					["nome"] = "Selbink-Sargeras",
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 0.008375,
+					["on_hold"] = false,
 					["start_time"] = 1490984570,
 					["serial"] = "Player-76-053E4BAB",
 					["classe"] = "MAGE",
@@ -20509,7 +20419,7 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["on_hold"] = false,
+					["damage_taken"] = 0.001865,
 					["tipo"] = 1,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
@@ -20518,6 +20428,7 @@ _detalhes_database = {
 					["delay"] = 0,
 					["dps_started"] = false,
 					["end_time"] = 1490984573,
+					["last_dps"] = 0,
 					["friendlyfire"] = {
 						["Arroezze-EarthenRing"] = {
 							["total"] = 0,
@@ -20532,7 +20443,6 @@ _detalhes_database = {
 							},
 						},
 					},
-					["last_dps"] = 0,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -20567,14 +20477,13 @@ _detalhes_database = {
 								["a_amt"] = 0,
 								["a_dmg"] = 0,
 							}, -- [1]
-							[225777] = {
+							[209577] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["c_dmg"] = 0,
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
-									["Hyrja"] = 0,
 									["Hymdall"] = 0,
 									["Odyn"] = 0,
 								},
@@ -20585,7 +20494,7 @@ _detalhes_database = {
 								["counter"] = 0,
 								["total"] = 0,
 								["c_max"] = 0,
-								["id"] = 225777,
+								["id"] = 209577,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
@@ -20865,13 +20774,15 @@ _detalhes_database = {
 								["a_amt"] = 0,
 								["a_dmg"] = 0,
 							},
-							[52174] = {
+							[225777] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["c_dmg"] = 0,
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
+									["Hyrja"] = 0,
+									["Hymdall"] = 0,
 									["Odyn"] = 0,
 								},
 								["m_dmg"] = 0,
@@ -20881,7 +20792,7 @@ _detalhes_database = {
 								["counter"] = 0,
 								["total"] = 0,
 								["c_max"] = 0,
-								["id"] = 52174,
+								["id"] = 225777,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
@@ -20955,14 +20866,13 @@ _detalhes_database = {
 								["a_amt"] = 0,
 								["a_dmg"] = 0,
 							},
-							[209577] = {
+							[52174] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["c_dmg"] = 0,
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
-									["Hymdall"] = 0,
 									["Odyn"] = 0,
 								},
 								["m_dmg"] = 0,
@@ -20972,7 +20882,7 @@ _detalhes_database = {
 								["counter"] = 0,
 								["total"] = 0,
 								["c_max"] = 0,
-								["id"] = 209577,
+								["id"] = 52174,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
@@ -21051,7 +20961,7 @@ _detalhes_database = {
 					["nome"] = "Héman-Perenolde",
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 0.001865,
+					["on_hold"] = false,
 					["start_time"] = 1490984570,
 					["serial"] = "Player-122-07567315",
 					["classe"] = "WARRIOR",
@@ -21068,7 +20978,7 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["on_hold"] = false,
+					["damage_taken"] = 0.007226,
 					["tipo"] = 1,
 					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
@@ -21077,6 +20987,7 @@ _detalhes_database = {
 					["delay"] = 0,
 					["dps_started"] = false,
 					["end_time"] = 1490984573,
+					["last_dps"] = 0,
 					["friendlyfire"] = {
 						["Stormvadar-Perenolde"] = {
 							["total"] = 0,
@@ -21097,7 +21008,6 @@ _detalhes_database = {
 							},
 						},
 					},
-					["last_dps"] = 0,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -21710,7 +21620,7 @@ _detalhes_database = {
 					["nome"] = "Wuussaatron-EmeraldDream",
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 0.007226,
+					["on_hold"] = false,
 					["start_time"] = 1490984570,
 					["serial"] = "Player-162-0919B4FF",
 					["classe"] = "WARRIOR",
@@ -21728,24 +21638,24 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.007135,
-					["on_hold"] = false,
+					["damage_taken"] = 0.007135,
 					["dps_started"] = false,
 					["end_time"] = 1490984573,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["nome"] = "Lonely Worn Doll <Baalzephon-BlackwaterRaiders>",
 					["spells"] = {
 						["_ActorTable"] = {
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 					["total"] = 0.007135,
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 0.007135,
+					["on_hold"] = false,
 					["start_time"] = 1490984570,
 					["serial"] = "Creature-0-3018-1648-7257-99535-00005E8E09",
 					["boss_fight_component"] = true,
@@ -21781,8 +21691,9 @@ _detalhes_database = {
 					["delay"] = 0,
 					["monster"] = true,
 					["end_time"] = 1490984573,
-					["on_hold"] = false,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.00656,
+					["friendlyfire"] = {
+					},
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -21943,11 +21854,10 @@ _detalhes_database = {
 					["total"] = 0.00656,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["start_time"] = 1490984570,
 					["serial"] = "Creature-0-3018-1648-7257-114996-00025E8E4A",
-					["damage_taken"] = 0.00656,
+					["on_hold"] = false,
 				}, -- [58]
 				{
 					["flag_original"] = 2632,
@@ -21967,8 +21877,9 @@ _detalhes_database = {
 					["delay"] = 0,
 					["monster"] = true,
 					["end_time"] = 1490984573,
-					["on_hold"] = false,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.007447,
+					["friendlyfire"] = {
+					},
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -22008,11 +21919,10 @@ _detalhes_database = {
 					["total"] = 0.007447,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["start_time"] = 1490984570,
 					["serial"] = "",
-					["damage_taken"] = 0.007447,
+					["on_hold"] = false,
 				}, -- [59]
 				{
 					["flag_original"] = 2584,
@@ -22044,114 +21954,11 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.002791,
-					["on_hold"] = false,
+					["damage_taken"] = 0.002791,
 					["dps_started"] = false,
 					["end_time"] = 1490984573,
 					["delay"] = 0,
-					["friendlyfire"] = {
-						["Héman-Perenolde"] = {
-							["total"] = 0,
-							["spells"] = {
-								[230990] = 0,
-							},
-						},
-						["Stormvadar-Perenolde"] = {
-							["total"] = 0,
-							["spells"] = {
-								[230990] = 0,
-							},
-						},
-						["Oryón-Ragnaros"] = {
-							["total"] = 0,
-							["spells"] = {
-								[230990] = 0,
-							},
-						},
-						["Skymane-Proudmoore"] = {
-							["total"] = 0,
-							["spells"] = {
-								[230990] = 0,
-							},
-						},
-						["Outranked-Bloodhoof"] = {
-							["total"] = 0,
-							["spells"] = {
-								[230990] = 0,
-							},
-						},
-						["Neocordey-Hydraxis"] = {
-							["total"] = 0,
-							["spells"] = {
-								[230990] = 0,
-							},
-						},
-						["Yúka-Ravencrest"] = {
-							["total"] = 0,
-							["spells"] = {
-								[230990] = 0,
-							},
-						},
-						["Wuussaatron-EmeraldDream"] = {
-							["total"] = 0,
-							["spells"] = {
-								[230990] = 0,
-							},
-						},
-						["Samanthia-Sen'jin"] = {
-							["total"] = 0,
-							["spells"] = {
-								[230990] = 0,
-							},
-						},
-						["Baalzephon-BlackwaterRaiders"] = {
-							["total"] = 0,
-							["spells"] = {
-								[230990] = 0,
-							},
-						},
-						["Bruccius-MoonGuard"] = {
-							["total"] = 0,
-							["spells"] = {
-								[230990] = 0,
-							},
-						},
-						["Selbink-Sargeras"] = {
-							["total"] = 0,
-							["spells"] = {
-								[230990] = 0,
-							},
-						},
-						["Laurannah"] = {
-							["total"] = 0,
-							["spells"] = {
-								[230990] = 0,
-							},
-						},
-						["Arroezze-EarthenRing"] = {
-							["total"] = 0,
-							["spells"] = {
-								[230990] = 0,
-							},
-						},
-						["Colandros-Draka"] = {
-							["total"] = 0,
-							["spells"] = {
-								[230990] = 0,
-							},
-						},
-						["Wormon-Nemesis"] = {
-							["total"] = 0,
-							["spells"] = {
-								[230990] = 0,
-							},
-						},
-						["Narlinn-Tichondrius"] = {
-							["total"] = 0,
-							["spells"] = {
-								[230990] = 0,
-							},
-						},
-					},
+					["last_dps"] = 0,
 					["nome"] = "Odyn",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -22488,12 +22295,115 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+						["Héman-Perenolde"] = {
+							["total"] = 0,
+							["spells"] = {
+								[230990] = 0,
+							},
+						},
+						["Stormvadar-Perenolde"] = {
+							["total"] = 0,
+							["spells"] = {
+								[230990] = 0,
+							},
+						},
+						["Oryón-Ragnaros"] = {
+							["total"] = 0,
+							["spells"] = {
+								[230990] = 0,
+							},
+						},
+						["Skymane-Proudmoore"] = {
+							["total"] = 0,
+							["spells"] = {
+								[230990] = 0,
+							},
+						},
+						["Outranked-Bloodhoof"] = {
+							["total"] = 0,
+							["spells"] = {
+								[230990] = 0,
+							},
+						},
+						["Neocordey-Hydraxis"] = {
+							["total"] = 0,
+							["spells"] = {
+								[230990] = 0,
+							},
+						},
+						["Yúka-Ravencrest"] = {
+							["total"] = 0,
+							["spells"] = {
+								[230990] = 0,
+							},
+						},
+						["Wuussaatron-EmeraldDream"] = {
+							["total"] = 0,
+							["spells"] = {
+								[230990] = 0,
+							},
+						},
+						["Samanthia-Sen'jin"] = {
+							["total"] = 0,
+							["spells"] = {
+								[230990] = 0,
+							},
+						},
+						["Baalzephon-BlackwaterRaiders"] = {
+							["total"] = 0,
+							["spells"] = {
+								[230990] = 0,
+							},
+						},
+						["Bruccius-MoonGuard"] = {
+							["total"] = 0,
+							["spells"] = {
+								[230990] = 0,
+							},
+						},
+						["Selbink-Sargeras"] = {
+							["total"] = 0,
+							["spells"] = {
+								[230990] = 0,
+							},
+						},
+						["Laurannah"] = {
+							["total"] = 0,
+							["spells"] = {
+								[230990] = 0,
+							},
+						},
+						["Arroezze-EarthenRing"] = {
+							["total"] = 0,
+							["spells"] = {
+								[230990] = 0,
+							},
+						},
+						["Colandros-Draka"] = {
+							["total"] = 0,
+							["spells"] = {
+								[230990] = 0,
+							},
+						},
+						["Wormon-Nemesis"] = {
+							["total"] = 0,
+							["spells"] = {
+								[230990] = 0,
+							},
+						},
+						["Narlinn-Tichondrius"] = {
+							["total"] = 0,
+							["spells"] = {
+								[230990] = 0,
+							},
+						},
+					},
 					["total"] = 0.002791,
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 0.002791,
+					["on_hold"] = false,
 					["start_time"] = 1490984570,
 					["serial"] = "Creature-0-3018-1648-7257-114263-00005E8AC1",
 					["boss_fight_component"] = true,
@@ -22533,12 +22443,11 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.005364,
-					["on_hold"] = false,
+					["damage_taken"] = 0.005364,
 					["dps_started"] = false,
 					["end_time"] = 1490984573,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["nome"] = "Unknown",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -22594,12 +22503,13 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 					["total"] = 0.005364,
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 0.005364,
+					["on_hold"] = false,
 					["start_time"] = 1490984570,
 					["serial"] = "Creature-0-3018-1648-7257-114467-00005E8E9A",
 					["boss_fight_component"] = true,
@@ -22633,8 +22543,9 @@ _detalhes_database = {
 					["delay"] = 0,
 					["monster"] = true,
 					["end_time"] = 1490984573,
-					["on_hold"] = false,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.005761,
+					["friendlyfire"] = {
+					},
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -22685,11 +22596,10 @@ _detalhes_database = {
 					["total"] = 0.005761,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["start_time"] = 1490984570,
 					["serial"] = "",
-					["damage_taken"] = 0.005761,
+					["on_hold"] = false,
 				}, -- [62]
 				{
 					["flag_original"] = 2600,
@@ -22705,11 +22615,11 @@ _detalhes_database = {
 						["Yúka-Ravencrest"] = 0,
 						["Narlinn-Tichondrius"] = 0,
 						["Héman-Perenolde"] = 0,
-						["Water Elemental <Wormon-Nemesis>"] = 0,
-						["Wuussaatron-EmeraldDream"] = 0,
 						["Samanthia-Sen'jin"] = 0,
-						["Bruccius-MoonGuard"] = 0,
+						["Wuussaatron-EmeraldDream"] = 0,
 						["Wormon-Nemesis"] = 0,
+						["Bruccius-MoonGuard"] = 0,
+						["Water Elemental <Wormon-Nemesis>"] = 0,
 						["Baalzephon-BlackwaterRaiders"] = 0,
 						["Spitting Cobra <Colandros-Draka>"] = 0,
 						["Greater Earth Elemental <Yúka-Ravencrest>"] = 0,
@@ -22731,12 +22641,11 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.007419,
-					["on_hold"] = false,
+					["damage_taken"] = 0.007419,
 					["dps_started"] = false,
 					["end_time"] = 1490984573,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["nome"] = "Spear of Light",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -22756,11 +22665,11 @@ _detalhes_database = {
 									["Yúka-Ravencrest"] = 0,
 									["Narlinn-Tichondrius"] = 0,
 									["Héman-Perenolde"] = 0,
-									["Water Elemental <Wormon-Nemesis>"] = 0,
-									["Wuussaatron-EmeraldDream"] = 0,
 									["Samanthia-Sen'jin"] = 0,
-									["Bruccius-MoonGuard"] = 0,
+									["Wuussaatron-EmeraldDream"] = 0,
 									["Wormon-Nemesis"] = 0,
+									["Bruccius-MoonGuard"] = 0,
+									["Water Elemental <Wormon-Nemesis>"] = 0,
 									["Baalzephon-BlackwaterRaiders"] = 0,
 									["Spitting Cobra <Colandros-Draka>"] = 0,
 									["Greater Earth Elemental <Yúka-Ravencrest>"] = 0,
@@ -22797,12 +22706,13 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 					["total"] = 0.007419,
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 0.007419,
+					["on_hold"] = false,
 					["start_time"] = 1490984570,
 					["serial"] = "Creature-0-3018-1648-7257-114467-00005E8EA2",
 					["boss_fight_component"] = true,
@@ -22821,12 +22731,11 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.006017,
-					["on_hold"] = false,
+					["damage_taken"] = 0.006017,
 					["dps_started"] = false,
 					["end_time"] = 1490984573,
 					["delay"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["nome"] = "T'uure <Neocordey-Hydraxis>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -22861,12 +22770,13 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 					["total"] = 0.006017,
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["damage_taken"] = 0.006017,
+					["on_hold"] = false,
 					["start_time"] = 1490984570,
 					["serial"] = "Creature-0-3018-1648-7257-99904-00005E8EC3",
 					["boss_fight_component"] = true,
@@ -22889,8 +22799,9 @@ _detalhes_database = {
 					["delay"] = 0,
 					["monster"] = true,
 					["end_time"] = 1490984573,
-					["on_hold"] = false,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.002139,
+					["friendlyfire"] = {
+					},
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -22930,11 +22841,10 @@ _detalhes_database = {
 					["total"] = 0.002139,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["start_time"] = 1490984570,
 					["serial"] = "",
-					["damage_taken"] = 0.002139,
+					["on_hold"] = false,
 				}, -- [65]
 				{
 					["flag_original"] = 2632,
@@ -22965,8 +22875,9 @@ _detalhes_database = {
 					["delay"] = 0,
 					["monster"] = true,
 					["end_time"] = 1490984573,
-					["on_hold"] = false,
-					["last_dps"] = 0,
+					["damage_taken"] = 0.003182,
+					["friendlyfire"] = {
+					},
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -23017,11 +22928,10 @@ _detalhes_database = {
 					["total"] = 0.003182,
 					["custom"] = 0,
 					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["start_time"] = 1490984570,
 					["serial"] = "",
-					["damage_taken"] = 0.003182,
+					["on_hold"] = false,
 				}, -- [66]
 			},
 		}, -- [1]
@@ -23273,30 +23183,30 @@ _detalhes_database = {
 					["targets_overheal"] = {
 						["Beast <Laurannah>"] = 0,
 						["Héman-Perenolde"] = 0,
-						["Water Elemental <Wormon-Nemesis>"] = 0,
 						["Outranked-Bloodhoof"] = 0,
+						["Core Hound <Darunia-Norgannon>"] = 0,
 						["Yúka-Ravencrest"] = 0,
 						["Stormvadar-Perenolde"] = 0,
 						["Oryón-Ragnaros"] = 0,
 						["Skymane-Proudmoore"] = 0,
-						["Core Hound <Darunia-Norgannon>"] = 0,
+						["Darunia-Norgannon"] = 0,
 						["Neocordey-Hydraxis"] = 0,
 						["Beast <Darunia-Norgannon>"] = 0,
 						["Nourishing-Stormrage"] = 0,
-						["Darunia-Norgannon"] = 0,
-						["Greater Lightning Elemental <Yúka-Ravencrest>"] = 0,
 						["Narlinn-Tichondrius"] = 0,
-						["Wuussaatron-EmeraldDream"] = 0,
-						["Wormon-Nemesis"] = 0,
-						["Arthbyrud-WyrmrestAccord"] = 0,
+						["Greater Lightning Elemental <Yúka-Ravencrest>"] = 0,
 						["Hati <Darunia-Norgannon>"] = 0,
+						["Wuussaatron-EmeraldDream"] = 0,
+						["Samanthia-Sen'jin"] = 0,
+						["Arthbyrud-WyrmrestAccord"] = 0,
+						["Water Elemental <Wormon-Nemesis>"] = 0,
 						["Baalzephon-BlackwaterRaiders"] = 0,
 						["Spitting Cobra <Colandros-Draka>"] = 0,
 						["Bruccius-MoonGuard"] = 0,
 						["Phìlthy-Stormrage"] = 0,
 						["Hati <Laurannah>"] = 0,
 						["Greater Earth Elemental <Yúka-Ravencrest>"] = 0,
-						["Samanthia-Sen'jin"] = 0,
+						["Wormon-Nemesis"] = 0,
 						["Selbink-Sargeras"] = 0,
 						["Spirit Beast <Laurannah>"] = 0,
 						["Arroezze-EarthenRing"] = 0,
@@ -23315,13 +23225,13 @@ _detalhes_database = {
 						["Neocordey-Hydraxis"] = 0,
 						["Pinchee <Colandros-Draka>"] = 0,
 						["Nourishing-Stormrage"] = 0,
-						["Samanthia-Sen'jin"] = 0,
 						["Hati <Laurannah>"] = 0,
-						["Hati <Darunia-Norgannon>"] = 0,
-						["Wuussaatron-EmeraldDream"] = 0,
-						["Water Elemental <Wormon-Nemesis>"] = 0,
-						["Arthbyrud-WyrmrestAccord"] = 0,
 						["Wormon-Nemesis"] = 0,
+						["Water Elemental <Wormon-Nemesis>"] = 0,
+						["Wuussaatron-EmeraldDream"] = 0,
+						["Hati <Darunia-Norgannon>"] = 0,
+						["Arthbyrud-WyrmrestAccord"] = 0,
+						["Samanthia-Sen'jin"] = 0,
 						["Baalzephon-BlackwaterRaiders"] = 0,
 						["Spitting Cobra <Colandros-Draka>"] = 0,
 						["Bruccius-MoonGuard"] = 0,
@@ -23543,14 +23453,14 @@ _detalhes_database = {
 									["Narlinn-Tichondrius"] = 0,
 									["Beast <Laurannah>"] = 0,
 									["Stormvadar-Perenolde"] = 0,
-									["Laurannah"] = 0,
+									["Oryón-Ragnaros"] = 0,
 									["Skymane-Proudmoore"] = 0,
 									["Darunia-Norgannon"] = 0,
 									["Neocordey-Hydraxis"] = 0,
 									["Beast <Darunia-Norgannon>"] = 0,
 									["Yúka-Ravencrest"] = 0,
-									["Oryón-Ragnaros"] = 0,
 									["Water Elemental <Wormon-Nemesis>"] = 0,
+									["Hati <Darunia-Norgannon>"] = 0,
 									["Samanthia-Sen'jin"] = 0,
 									["Wuussaatron-EmeraldDream"] = 0,
 									["Greater Lightning Elemental <Yúka-Ravencrest>"] = 0,
@@ -23567,7 +23477,7 @@ _detalhes_database = {
 									["Spirit Beast <Laurannah>"] = 0,
 									["Arroezze-EarthenRing"] = 0,
 									["Colandros-Draka"] = 0,
-									["Hati <Darunia-Norgannon>"] = 0,
+									["Laurannah"] = 0,
 									["Pinchee <Colandros-Draka>"] = 0,
 								},
 								["n_min"] = 0,
@@ -23994,11 +23904,11 @@ _detalhes_database = {
 									["Yúka-Ravencrest"] = 0,
 									["Darunia-Norgannon"] = 0,
 									["Outranked-Bloodhoof"] = 0,
-									["Water Elemental <Wormon-Nemesis>"] = 0,
-									["Wuussaatron-EmeraldDream"] = 0,
 									["Wormon-Nemesis"] = 0,
-									["Arthbyrud-WyrmrestAccord"] = 0,
+									["Wuussaatron-EmeraldDream"] = 0,
 									["Hati <Darunia-Norgannon>"] = 0,
+									["Arthbyrud-WyrmrestAccord"] = 0,
+									["Water Elemental <Wormon-Nemesis>"] = 0,
 									["Baalzephon-BlackwaterRaiders"] = 0,
 									["Spitting Cobra <Colandros-Draka>"] = 0,
 									["Bruccius-MoonGuard"] = 0,
@@ -24102,13 +24012,13 @@ _detalhes_database = {
 						["Oryón-Ragnaros"] = true,
 						["Skymane-Proudmoore"] = true,
 					},
-					["healing_taken"] = 23304535.016119,
+					["classe"] = "WARRIOR",
 					["totalover"] = 49770.016119,
 					["total_without_pet"] = 7842436.016119,
 					["totalover_without_pet"] = 0.016119,
 					["isTank"] = true,
-					["classe"] = "WARRIOR",
-					["total"] = 7842436.016119,
+					["heal_enemy_amt"] = 0,
+					["end_time"] = 1490983556,
 					["spells"] = {
 						["_ActorTable"] = {
 							[190456] = {
@@ -24231,13 +24141,13 @@ _detalhes_database = {
 						},
 						["tipo"] = 3,
 					},
-					["heal_enemy_amt"] = 0,
+					["healing_taken"] = 23304535.016119,
 					["nome"] = "Bruccius-MoonGuard",
 					["targets_absorbs"] = {
 						["Bruccius-MoonGuard"] = 0,
 					},
 					["grupo"] = true,
-					["end_time"] = 1490983556,
+					["total"] = 7842436.016119,
 					["heal_enemy"] = {
 					},
 					["last_event"] = 0,
@@ -24263,8 +24173,10 @@ _detalhes_database = {
 						["Arthbyrud-WyrmrestAccord"] = 0,
 						["Baalzephon-BlackwaterRaiders"] = 0,
 						["Laurannah"] = 0,
+						["Sylessa <Laurannah>"] = 0,
 						["Darunia-Norgannon"] = 0,
 						["Neocordey-Hydraxis"] = 0,
+						["Cyrille <Laurannah>"] = 0,
 						["Spirit Beast <Laurannah>"] = 0,
 						["Beast <Laurannah>"] = 0,
 						["Donm-Goldrinn"] = 0,
@@ -24470,6 +24382,7 @@ _detalhes_database = {
 								["c_amt"] = 0,
 								["totalabsorb"] = 0,
 								["targets_overheal"] = {
+									["Laurannah"] = 0,
 								},
 								["n_max"] = 874152,
 								["targets"] = {
@@ -24965,9 +24878,9 @@ _detalhes_database = {
 								["targets"] = {
 									["Pinchee <Colandros-Draka>"] = 0,
 									["Héman-Perenolde"] = 0,
+									["Narlinn-Tichondrius"] = 0,
 									["Donm-Goldrinn"] = 0,
 									["Darunia-Norgannon"] = 95325,
-									["Narlinn-Tichondrius"] = 0,
 									["Stormvadar-Perenolde"] = 40540,
 									["Hati <Laurannah>"] = 0,
 									["Skymane-Proudmoore"] = 345919,
@@ -24976,19 +24889,19 @@ _detalhes_database = {
 									["Beast <Darunia-Norgannon>"] = 0,
 									["Nourishing-Stormrage"] = 37509,
 									["Laurannah"] = 159738,
-									["Hati <Darunia-Norgannon>"] = 0,
-									["Wuussaatron-EmeraldDream"] = 0,
-									["Greater Fire Elemental <Yúka-Ravencrest>"] = 78470,
-									["Wormon-Nemesis"] = 0,
-									["Arthbyrud-WyrmrestAccord"] = 0,
+									["Yúka-Ravencrest"] = 0,
 									["Water Elemental <Wormon-Nemesis>"] = 0,
+									["Wuussaatron-EmeraldDream"] = 0,
+									["Samanthia-Sen'jin"] = 0,
+									["Arthbyrud-WyrmrestAccord"] = 0,
+									["Hati <Darunia-Norgannon>"] = 0,
 									["Baalzephon-BlackwaterRaiders"] = 254626,
 									["Outranked-Bloodhoof"] = 229306,
 									["Bruccius-MoonGuard"] = 55721,
 									["Phìlthy-Stormrage"] = 0,
 									["Greater Earth Elemental <Yúka-Ravencrest>"] = 0,
-									["Samanthia-Sen'jin"] = 0,
-									["Yúka-Ravencrest"] = 0,
+									["Wormon-Nemesis"] = 0,
+									["Greater Fire Elemental <Yúka-Ravencrest>"] = 78470,
 									["Selbink-Sargeras"] = 0,
 									["Spirit Beast <Laurannah>"] = 0,
 									["Arroezze-EarthenRing"] = 223985,
@@ -25102,34 +25015,34 @@ _detalhes_database = {
 								["targets"] = {
 									["Héman-Perenolde"] = 0,
 									["Pinchee <Colandros-Draka>"] = 0,
-									["Laurannah"] = 127584,
+									["Oryón-Ragnaros"] = 219107,
 									["Outranked-Bloodhoof"] = 0,
 									["Stormvadar-Perenolde"] = 0,
-									["Donm-Goldrinn"] = 0,
+									["Laurannah"] = 127584,
 									["Skymane-Proudmoore"] = 0,
 									["Core Hound <Darunia-Norgannon>"] = 0,
 									["Neocordey-Hydraxis"] = 0,
 									["Beast <Darunia-Norgannon>"] = 0,
 									["Nourishing-Stormrage"] = 24357,
 									["Hati <Laurannah>"] = 0,
-									["Hati <Darunia-Norgannon>"] = 0,
-									["Wuussaatron-EmeraldDream"] = 0,
-									["Greater Fire Elemental <Yúka-Ravencrest>"] = 0,
 									["Yúka-Ravencrest"] = 0,
+									["Greater Fire Elemental <Yúka-Ravencrest>"] = 0,
+									["Wuussaatron-EmeraldDream"] = 0,
+									["Samanthia-Sen'jin"] = 0,
 									["Arthbyrud-WyrmrestAccord"] = 0,
-									["Wormon-Nemesis"] = 0,
+									["Water Elemental <Wormon-Nemesis>"] = 0,
 									["Baalzephon-BlackwaterRaiders"] = 194749,
 									["Narlinn-Tichondrius"] = 0,
 									["Bruccius-MoonGuard"] = 0,
 									["Phìlthy-Stormrage"] = 0,
 									["Darunia-Norgannon"] = 0,
 									["Greater Earth Elemental <Yúka-Ravencrest>"] = 0,
-									["Water Elemental <Wormon-Nemesis>"] = 0,
-									["Samanthia-Sen'jin"] = 0,
+									["Wormon-Nemesis"] = 0,
+									["Hati <Darunia-Norgannon>"] = 0,
 									["Spirit Beast <Laurannah>"] = 0,
 									["Arroezze-EarthenRing"] = 0,
 									["Colandros-Draka"] = 0,
-									["Oryón-Ragnaros"] = 219107,
+									["Donm-Goldrinn"] = 0,
 									["Beast <Laurannah>"] = 0,
 								},
 								["n_min"] = 0,
@@ -25251,10 +25164,10 @@ _detalhes_database = {
 								["targets"] = {
 									["Héman-Perenolde"] = 0,
 									["Beast <Laurannah>"] = 0,
-									["Laurannah"] = 0,
+									["Hati <Laurannah>"] = 0,
 									["Nourishing-Stormrage"] = 29393,
 									["Stormvadar-Perenolde"] = 23592,
-									["Oryón-Ragnaros"] = 83470,
+									["Laurannah"] = 0,
 									["Skymane-Proudmoore"] = 0,
 									["Core Hound <Darunia-Norgannon>"] = 0,
 									["Neocordey-Hydraxis"] = 0,
@@ -25278,7 +25191,7 @@ _detalhes_database = {
 									["Spirit Beast <Laurannah>"] = 0,
 									["Arroezze-EarthenRing"] = 0,
 									["Colandros-Draka"] = 0,
-									["Hati <Laurannah>"] = 0,
+									["Oryón-Ragnaros"] = 83470,
 									["Narlinn-Tichondrius"] = 0,
 								},
 								["n_min"] = 0,
@@ -25706,7 +25619,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["healing_taken"] = 0.01525,
+					["heal_enemy_amt"] = 0,
 					["totalover"] = 0.01525,
 					["total_without_pet"] = 0.01525,
 					["healing_from"] = {
@@ -25716,7 +25629,7 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.01525,
 					["total"] = 0.01525,
 					["boss_fight_component"] = true,
-					["heal_enemy_amt"] = 0,
+					["classe"] = "PET",
 					["nome"] = "Core Hound <Darunia-Norgannon>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -25724,7 +25637,7 @@ _detalhes_database = {
 						["tipo"] = 3,
 					},
 					["serial"] = "Pet-0-3024-1220-11816-17447-010259C4A1",
-					["classe"] = "PET",
+					["healing_taken"] = 0.01525,
 					["heal_enemy"] = {
 					},
 					["end_time"] = 1490983556,
@@ -26044,13 +25957,13 @@ _detalhes_database = {
 						["Oryón-Ragnaros"] = true,
 						["Skymane-Proudmoore"] = true,
 					},
-					["healing_taken"] = 60477207.015577,
+					["classe"] = "DRUID",
 					["totalover"] = 1297100.015577,
 					["total_without_pet"] = 31712880.015577,
 					["totalover_without_pet"] = 0.015577,
 					["isTank"] = true,
-					["classe"] = "DRUID",
-					["total"] = 31712880.015577,
+					["heal_enemy_amt"] = 0,
+					["end_time"] = 1490983556,
 					["spells"] = {
 						["_ActorTable"] = {
 							[227034] = {
@@ -26314,13 +26227,13 @@ _detalhes_database = {
 						},
 						["tipo"] = 3,
 					},
-					["heal_enemy_amt"] = 0,
+					["healing_taken"] = 60477207.015577,
 					["nome"] = "Skymane-Proudmoore",
 					["targets_absorbs"] = {
 						["Skymane-Proudmoore"] = 0,
 					},
 					["grupo"] = true,
-					["end_time"] = 1490983556,
+					["total"] = 31712880.015577,
 					["heal_enemy"] = {
 					},
 					["last_event"] = 0,
@@ -26383,10 +26296,10 @@ _detalhes_database = {
 						["Stormvadar-Perenolde"] = 0,
 						["Laurannah"] = 0,
 						["Skymane-Proudmoore"] = 0,
-						["Darunia-Norgannon"] = 0,
-						["Neocordey-Hydraxis"] = 0,
 						["Core Hound <Darunia-Norgannon>"] = 0,
+						["Neocordey-Hydraxis"] = 0,
 						["Yúka-Ravencrest"] = 0,
+						["Nourishing-Stormrage"] = 0,
 						["Outranked-Bloodhoof"] = 0,
 						["Oryón-Ragnaros"] = 0,
 						["Samanthia-Sen'jin"] = 0,
@@ -26405,7 +26318,7 @@ _detalhes_database = {
 						["Spirit Beast <Laurannah>"] = 0,
 						["Arroezze-EarthenRing"] = 0,
 						["Colandros-Draka"] = 0,
-						["Nourishing-Stormrage"] = 0,
+						["Darunia-Norgannon"] = 0,
 						["Narlinn-Tichondrius"] = 0,
 					},
 					["targets"] = {
@@ -26498,10 +26411,10 @@ _detalhes_database = {
 									["Stormvadar-Perenolde"] = 0,
 									["Laurannah"] = 0,
 									["Skymane-Proudmoore"] = 122002,
-									["Darunia-Norgannon"] = 0,
-									["Neocordey-Hydraxis"] = 708691,
 									["Core Hound <Darunia-Norgannon>"] = 0,
+									["Neocordey-Hydraxis"] = 708691,
 									["Yúka-Ravencrest"] = 0,
+									["Nourishing-Stormrage"] = 215286,
 									["Hati <Laurannah>"] = 0,
 									["Outranked-Bloodhoof"] = 0,
 									["Samanthia-Sen'jin"] = 279531,
@@ -26520,7 +26433,7 @@ _detalhes_database = {
 									["Spirit Beast <Laurannah>"] = 0,
 									["Arroezze-EarthenRing"] = 97681,
 									["Colandros-Draka"] = 132808,
-									["Nourishing-Stormrage"] = 215286,
+									["Darunia-Norgannon"] = 0,
 									["Narlinn-Tichondrius"] = 0,
 								},
 								["n_max"] = 227332,
@@ -26968,10 +26881,10 @@ _detalhes_database = {
 									["Yúka-Ravencrest"] = 0,
 									["Narlinn-Tichondrius"] = 0,
 									["Outranked-Bloodhoof"] = 0,
-									["Wormon-Nemesis"] = 0,
 									["Hati <Darunia-Norgannon>"] = 0,
-									["Arthbyrud-WyrmrestAccord"] = 0,
 									["Water Elemental <Wormon-Nemesis>"] = 0,
+									["Arthbyrud-WyrmrestAccord"] = 0,
+									["Wormon-Nemesis"] = 0,
 									["Baalzephon-BlackwaterRaiders"] = 0,
 									["Hati <Laurannah>"] = 0,
 									["Bruccius-MoonGuard"] = 0,
@@ -28074,9 +27987,9 @@ _detalhes_database = {
 								["targets"] = {
 									["Wormon-Nemesis"] = 0,
 									["Samanthia-Sen'jin"] = 0,
-									["Oryón-Ragnaros"] = 0,
+									["Laurannah"] = 0,
 									["Bruccius-MoonGuard"] = 262269,
-									["Phìlthy-Stormrage"] = 0,
+									["Oryón-Ragnaros"] = 0,
 									["Skymane-Proudmoore"] = 174846,
 									["Outranked-Bloodhoof"] = 0,
 									["Stormvadar-Perenolde"] = 0,
@@ -28084,7 +27997,7 @@ _detalhes_database = {
 									["Yúka-Ravencrest"] = 0,
 									["Arroezze-EarthenRing"] = 0,
 									["Donm-Goldrinn"] = 0,
-									["Laurannah"] = 0,
+									["Phìlthy-Stormrage"] = 0,
 									["Wuussaatron-EmeraldDream"] = 0,
 								},
 								["n_min"] = 0,
@@ -28096,9 +28009,9 @@ _detalhes_database = {
 								["targets_absorbs"] = {
 									["Wormon-Nemesis"] = 0,
 									["Samanthia-Sen'jin"] = 0,
-									["Oryón-Ragnaros"] = 0,
+									["Laurannah"] = 0,
 									["Bruccius-MoonGuard"] = 262269,
-									["Phìlthy-Stormrage"] = 0,
+									["Oryón-Ragnaros"] = 0,
 									["Skymane-Proudmoore"] = 174846,
 									["Outranked-Bloodhoof"] = 0,
 									["Stormvadar-Perenolde"] = 0,
@@ -28106,7 +28019,7 @@ _detalhes_database = {
 									["Yúka-Ravencrest"] = 0,
 									["Arroezze-EarthenRing"] = 0,
 									["Donm-Goldrinn"] = 0,
-									["Laurannah"] = 0,
+									["Phìlthy-Stormrage"] = 0,
 									["Wuussaatron-EmeraldDream"] = 0,
 								},
 								["m_crit"] = 0,
@@ -28864,7 +28777,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["healing_taken"] = 100268.002359,
+					["heal_enemy_amt"] = 0,
 					["totalover"] = 194344.002359,
 					["total_without_pet"] = 525623.002359,
 					["healing_from"] = {
@@ -28876,7 +28789,7 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.002359,
 					["total"] = 525623.002359,
 					["boss_fight_component"] = true,
-					["heal_enemy_amt"] = 0,
+					["classe"] = "PET",
 					["nome"] = "Spirit Beast <Laurannah>",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -28946,7 +28859,7 @@ _detalhes_database = {
 						["tipo"] = 3,
 					},
 					["serial"] = "Pet-0-3018-1648-7257-103326-030286D36D",
-					["classe"] = "PET",
+					["healing_taken"] = 100268.002359,
 					["heal_enemy"] = {
 					},
 					["end_time"] = 1490983792,
@@ -28968,7 +28881,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
+					["healing_taken"] = 0.006001,
 					["totalover"] = 0.006001,
 					["total_without_pet"] = 0.006001,
 					["healing_from"] = {
@@ -28976,8 +28889,8 @@ _detalhes_database = {
 					["last_event"] = 0,
 					["totalover_without_pet"] = 0.006001,
 					["end_time"] = 1490984573,
-					["healing_taken"] = 0.006001,
 					["classe"] = "PET",
+					["heal_enemy_amt"] = 0,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -29010,7 +28923,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
+					["healing_taken"] = 0.003235,
 					["totalover"] = 0.003235,
 					["total_without_pet"] = 0.003235,
 					["healing_from"] = {
@@ -29018,8 +28931,8 @@ _detalhes_database = {
 					["last_event"] = 0,
 					["totalover_without_pet"] = 0.003235,
 					["end_time"] = 1490984573,
-					["healing_taken"] = 0.003235,
 					["classe"] = "PET",
+					["heal_enemy_amt"] = 0,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -29077,7 +28990,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
+					["healing_taken"] = 0.004086,
 					["totalover"] = 0.004086,
 					["total_without_pet"] = 0.004086,
 					["healing_from"] = {
@@ -29085,8 +28998,8 @@ _detalhes_database = {
 					["last_event"] = 0,
 					["totalover_without_pet"] = 0.004086,
 					["end_time"] = 1490984573,
-					["healing_taken"] = 0.004086,
 					["classe"] = "PET",
+					["heal_enemy_amt"] = 0,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -29119,7 +29032,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
+					["healing_taken"] = 0.001787,
 					["totalover"] = 0.001787,
 					["total_without_pet"] = 0.001787,
 					["healing_from"] = {
@@ -29127,8 +29040,8 @@ _detalhes_database = {
 					["last_event"] = 0,
 					["totalover_without_pet"] = 0.001787,
 					["end_time"] = 1490984573,
-					["healing_taken"] = 0.001787,
 					["classe"] = "PET",
+					["heal_enemy_amt"] = 0,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -29188,7 +29101,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
+					["healing_taken"] = 0.001092,
 					["totalover"] = 0.001092,
 					["total_without_pet"] = 0.001092,
 					["healing_from"] = {
@@ -29196,8 +29109,8 @@ _detalhes_database = {
 					["last_event"] = 0,
 					["totalover_without_pet"] = 0.001092,
 					["end_time"] = 1490984573,
-					["healing_taken"] = 0.001092,
 					["classe"] = "PET",
+					["heal_enemy_amt"] = 0,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -29257,7 +29170,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
+					["healing_taken"] = 0.002061,
 					["totalover"] = 0.002061,
 					["total_without_pet"] = 0.002061,
 					["healing_from"] = {
@@ -29265,8 +29178,8 @@ _detalhes_database = {
 					["last_event"] = 0,
 					["totalover_without_pet"] = 0.002061,
 					["end_time"] = 1490984573,
-					["healing_taken"] = 0.002061,
 					["classe"] = "PET",
+					["heal_enemy_amt"] = 0,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -29326,7 +29239,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
+					["healing_taken"] = 0.004833,
 					["totalover"] = 0.004833,
 					["total_without_pet"] = 0.004833,
 					["healing_from"] = {
@@ -29334,8 +29247,8 @@ _detalhes_database = {
 					["last_event"] = 0,
 					["totalover_without_pet"] = 0.004833,
 					["end_time"] = 1490984573,
-					["healing_taken"] = 0.004833,
 					["classe"] = "PET",
+					["heal_enemy_amt"] = 0,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -29395,7 +29308,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
+					["healing_taken"] = 0.002489,
 					["totalover"] = 0.002489,
 					["total_without_pet"] = 0.002489,
 					["healing_from"] = {
@@ -29403,8 +29316,8 @@ _detalhes_database = {
 					["last_event"] = 0,
 					["totalover_without_pet"] = 0.002489,
 					["end_time"] = 1490984573,
-					["healing_taken"] = 0.002489,
 					["classe"] = "PET",
+					["heal_enemy_amt"] = 0,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -29485,7 +29398,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
+					["healing_taken"] = 0.004025,
 					["totalover"] = 0.004025,
 					["total_without_pet"] = 0.004025,
 					["healing_from"] = {
@@ -29493,8 +29406,8 @@ _detalhes_database = {
 					["last_event"] = 0,
 					["totalover_without_pet"] = 0.004025,
 					["end_time"] = 1490984573,
-					["healing_taken"] = 0.004025,
 					["classe"] = "PET",
+					["heal_enemy_amt"] = 0,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -29885,7 +29798,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
+					["healing_taken"] = 0.006532,
 					["totalover"] = 0.006532,
 					["total_without_pet"] = 0.006532,
 					["healing_from"] = {
@@ -29893,8 +29806,8 @@ _detalhes_database = {
 					["last_event"] = 0,
 					["totalover_without_pet"] = 0.006532,
 					["end_time"] = 1490984573,
-					["healing_taken"] = 0.006532,
 					["classe"] = "UNKNOW",
+					["heal_enemy_amt"] = 0,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -29957,7 +29870,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
+					["healing_taken"] = 0.005064,
 					["totalover"] = 0.005064,
 					["total_without_pet"] = 0.005064,
 					["healing_from"] = {
@@ -29965,8 +29878,8 @@ _detalhes_database = {
 					["last_event"] = 0,
 					["totalover_without_pet"] = 0.005064,
 					["end_time"] = 1490984573,
-					["healing_taken"] = 0.005064,
 					["classe"] = "UNKNOW",
+					["heal_enemy_amt"] = 0,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -30232,9 +30145,9 @@ _detalhes_database = {
 									["Arthbyrud-WyrmrestAccord"] = 0,
 									["Wormon-Nemesis"] = 0,
 									["Bruccius-MoonGuard"] = 0,
-									["Hati <Laurannah>"] = 0,
+									["Oryón-Ragnaros"] = 0,
 									["Greater Earth Elemental <Yúka-Ravencrest>"] = 0,
-									["Donm-Goldrinn"] = 0,
+									["Hati <Laurannah>"] = 0,
 									["Skymane-Proudmoore"] = 0,
 									["Water Elemental <Wormon-Nemesis>"] = 0,
 									["Neocordey-Hydraxis"] = 0,
@@ -30242,7 +30155,7 @@ _detalhes_database = {
 									["Yúka-Ravencrest"] = 0,
 									["Arroezze-EarthenRing"] = 0,
 									["Laurannah"] = 0,
-									["Oryón-Ragnaros"] = 0,
+									["Donm-Goldrinn"] = 0,
 									["Narlinn-Tichondrius"] = 0,
 								},
 								["n_min"] = 0,
@@ -30312,13 +30225,13 @@ _detalhes_database = {
 								},
 								["n_max"] = 0,
 								["targets"] = {
-									["Laurannah"] = 0,
-									["Arthbyrud-WyrmrestAccord"] = 0,
 									["Oryón-Ragnaros"] = 0,
+									["Arthbyrud-WyrmrestAccord"] = 0,
+									["Donm-Goldrinn"] = 0,
 									["Stormvadar-Perenolde"] = 0,
 									["Arroezze-EarthenRing"] = 0,
 									["Bruccius-MoonGuard"] = 0,
-									["Donm-Goldrinn"] = 0,
+									["Laurannah"] = 0,
 									["Skymane-Proudmoore"] = 0,
 								},
 								["n_min"] = 0,
@@ -30342,9 +30255,9 @@ _detalhes_database = {
 								["c_amt"] = 0,
 								["totalabsorb"] = 0,
 								["targets_overheal"] = {
+									["Wormon-Nemesis"] = 0,
 									["Greater Lightning Elemental <Yúka-Ravencrest>"] = 0,
 									["Donm-Goldrinn"] = 0,
-									["Wormon-Nemesis"] = 0,
 								},
 								["n_max"] = 0,
 								["targets"] = {
@@ -30664,7 +30577,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
+					["healing_taken"] = 0.005763,
 					["totalover"] = 0.005763,
 					["total_without_pet"] = 0.005763,
 					["healing_from"] = {
@@ -30672,8 +30585,8 @@ _detalhes_database = {
 					["last_event"] = 0,
 					["totalover_without_pet"] = 0.005763,
 					["end_time"] = 1490984573,
-					["healing_taken"] = 0.005763,
 					["classe"] = "PET",
+					["heal_enemy_amt"] = 0,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -30733,7 +30646,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
+					["healing_taken"] = 0.007655,
 					["totalover"] = 0.007655,
 					["total_without_pet"] = 0.007655,
 					["healing_from"] = {
@@ -30741,8 +30654,8 @@ _detalhes_database = {
 					["last_event"] = 0,
 					["totalover_without_pet"] = 0.007655,
 					["end_time"] = 1490984573,
-					["healing_taken"] = 0.007655,
 					["classe"] = "PET",
+					["heal_enemy_amt"] = 0,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -30802,7 +30715,7 @@ _detalhes_database = {
 					["pets"] = {
 					},
 					["iniciar_hps"] = false,
-					["heal_enemy_amt"] = 0,
+					["healing_taken"] = 0.003473,
 					["totalover"] = 0.003473,
 					["total_without_pet"] = 0.003473,
 					["healing_from"] = {
@@ -30810,8 +30723,8 @@ _detalhes_database = {
 					["last_event"] = 0,
 					["totalover_without_pet"] = 0.003473,
 					["end_time"] = 1490984573,
-					["healing_taken"] = 0.003473,
 					["classe"] = "PET",
+					["heal_enemy_amt"] = 0,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -31613,7 +31526,7 @@ _detalhes_database = {
 				}, -- [7]
 				{
 					["received"] = 535.018401,
-					["resource"] = 0.120591,
+					["resource"] = 0.199467,
 					["targets"] = {
 						["Laurannah"] = 0,
 					},
@@ -31953,7 +31866,7 @@ _detalhes_database = {
 				}, -- [15]
 				{
 					["received"] = 0.004782,
-					["resource"] = 0.1094,
+					["resource"] = 0.18806,
 					["targets"] = {
 						["Laurannah"] = 0,
 					},
@@ -32472,7 +32385,8 @@ _detalhes_database = {
 					["cooldowns_defensive"] = 13.017392,
 					["pets"] = {
 					},
-					["ress"] = 0,
+					["buff_uptime_targets"] = {
+					},
 					["classe"] = "DRUID",
 					["cooldowns_defensive_targets"] = {
 						["Skymane-Proudmoore"] = 13,
@@ -32732,9 +32646,9 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["nome"] = "Skymane-Proudmoore",
-					["debuff_uptime"] = 396,
 					["boss_fight_component"] = true,
+					["debuff_uptime"] = 396,
+					["buff_uptime"] = 719,
 					["cooldowns_defensive_spells"] = {
 						["_ActorTable"] = {
 							[22812] = {
@@ -32761,8 +32675,7 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["debuff_uptime_targets"] = {
-					},
+					["nome"] = "Skymane-Proudmoore",
 					["grupo"] = true,
 					["spell_cast"] = {
 						[6807] = 27,
@@ -32799,11 +32712,11 @@ _detalhes_database = {
 						["tipo"] = 9,
 					},
 					["tipo"] = 4,
-					["buff_uptime_targets"] = {
+					["debuff_uptime_targets"] = {
 					},
 					["isTank"] = true,
 					["serial"] = "Player-5-0A4BCA66",
-					["buff_uptime"] = 719,
+					["ress"] = 0,
 				}, -- [1]
 				{
 					["flag_original"] = 1300,
@@ -33044,10 +32957,9 @@ _detalhes_database = {
 						["tipo"] = 9,
 					},
 					["debuff_uptime"] = 393,
-					["nome"] = "Stormvadar-Perenolde",
+					["boss_fight_component"] = true,
 					["buff_uptime"] = 322,
-					["debuff_uptime_targets"] = {
-					},
+					["nome"] = "Stormvadar-Perenolde",
 					["grupo"] = true,
 					["spell_cast"] = {
 						[49184] = 13,
@@ -33087,7 +32999,8 @@ _detalhes_database = {
 					},
 					["last_event"] = 0,
 					["tipo"] = 4,
-					["boss_fight_component"] = true,
+					["debuff_uptime_targets"] = {
+					},
 					["serial"] = "Player-122-0781ABE0",
 					["ress"] = 1.003406,
 				}, -- [2]
@@ -33411,9 +33324,9 @@ _detalhes_database = {
 						["tipo"] = 9,
 					},
 					["debuff_uptime"] = 181,
+					["boss_fight_component"] = true,
 					["debuff_uptime_targets"] = {
 					},
-					["nome"] = "Arroezze-EarthenRing",
 					["grupo"] = true,
 					["spell_cast"] = {
 						[96103] = 22,
@@ -33455,7 +33368,7 @@ _detalhes_database = {
 					},
 					["tipo"] = 4,
 					["serial"] = "Player-100-04EA4F77",
-					["boss_fight_component"] = true,
+					["nome"] = "Arroezze-EarthenRing",
 				}, -- [3]
 				{
 					["flag_original"] = 1300,
@@ -33613,9 +33526,9 @@ _detalhes_database = {
 						["tipo"] = 9,
 					},
 					["debuff_uptime"] = 427,
+					["boss_fight_component"] = true,
 					["debuff_uptime_targets"] = {
 					},
-					["nome"] = "Nourishing-Stormrage",
 					["grupo"] = true,
 					["spell_cast"] = {
 						[93402] = 10,
@@ -33649,14 +33562,16 @@ _detalhes_database = {
 					},
 					["tipo"] = 4,
 					["serial"] = "Player-60-09BF9077",
-					["boss_fight_component"] = true,
+					["nome"] = "Nourishing-Stormrage",
 				}, -- [4]
 				{
 					["flag_original"] = 1300,
 					["debuff_uptime_spells"] = {
 						["_ActorTable"] = {
-							[80354] = {
-								["id"] = 80354,
+							[204081] = {
+								["uptime"] = 195,
+								["id"] = 204081,
+								["activedamt"] = 2,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -33667,8 +33582,8 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[95809] = {
-								["id"] = 95809,
+							[80354] = {
+								["id"] = 80354,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -33705,10 +33620,8 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[204081] = {
-								["uptime"] = 195,
-								["id"] = 204081,
-								["activedamt"] = 2,
+							[95809] = {
+								["id"] = 95809,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -33716,10 +33629,7 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["pets"] = {
-						"Pinchee <Colandros-Draka> <Colandros-Draka>", -- [1]
-						"Spitting Cobra <Colandros-Draka> <Colandros-Draka>", -- [2]
-					},
+					["buff_uptime"] = 477,
 					["classe"] = "HUNTER",
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
@@ -33925,15 +33835,18 @@ _detalhes_database = {
 						[59543] = 1,
 						[185855] = 3,
 					},
-					["buff_uptime"] = 477,
+					["last_event"] = 0,
 					["nome"] = "Colandros-Draka",
 					["tipo"] = 4,
-					["debuff_uptime_targets"] = {
+					["pets"] = {
+						"Pinchee <Colandros-Draka> <Colandros-Draka>", -- [1]
+						"Spitting Cobra <Colandros-Draka> <Colandros-Draka>", -- [2]
 					},
 					["buff_uptime_targets"] = {
 					},
 					["serial"] = "Player-113-05CC075C",
-					["last_event"] = 0,
+					["debuff_uptime_targets"] = {
+					},
 				}, -- [5]
 				{
 					["flag_original"] = 1300,
@@ -34050,10 +33963,10 @@ _detalhes_database = {
 					},
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
-							[202573] = {
-								["uptime"] = 12,
-								["id"] = 202573,
-								["activedamt"] = 5,
+							[225947] = {
+								["uptime"] = 53,
+								["id"] = 225947,
+								["activedamt"] = 4,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -34092,8 +34005,10 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[225730] = {
-								["id"] = 225730,
+							[202573] = {
+								["uptime"] = 12,
+								["id"] = 202573,
+								["activedamt"] = 5,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -34140,10 +34055,8 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[225947] = {
-								["uptime"] = 53,
-								["id"] = 225947,
-								["activedamt"] = 4,
+							[225730] = {
+								["id"] = 225730,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -34192,8 +34105,8 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[23920] = {
-								["id"] = 23920,
+							[225603] = {
+								["id"] = 225603,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -34254,8 +34167,10 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[225603] = {
-								["id"] = 225603,
+							["Mana Divining Stone"] = {
+								["uptime"] = 0,
+								["id"] = "Mana Divining Stone",
+								["activedamt"] = 0,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -34266,10 +34181,8 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							["Mana Divining Stone"] = {
-								["uptime"] = 0,
-								["id"] = "Mana Divining Stone",
-								["activedamt"] = 0,
+							[23920] = {
+								["id"] = 23920,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -34365,19 +34278,19 @@ _detalhes_database = {
 					},
 					["cooldowns_defensive_spells"] = {
 						["_ActorTable"] = {
+							[98008] = {
+								["id"] = 98008,
+								["targets"] = {
+									["[*] raid wide cooldown"] = 0,
+								},
+								["counter"] = 0,
+							},
 							[108271] = {
 								["id"] = 108271,
 								["targets"] = {
 									["Oryón-Ragnaros"] = 0,
 								},
 								["counter"] = 0,
-							},
-							[108280] = {
-								["id"] = 108280,
-								["targets"] = {
-									["[*] raid wide cooldown"] = 1,
-								},
-								["counter"] = 1,
 							},
 							[108281] = {
 								["id"] = 108281,
@@ -34386,12 +34299,12 @@ _detalhes_database = {
 								},
 								["counter"] = 1,
 							},
-							[98008] = {
-								["id"] = 98008,
+							[108280] = {
+								["id"] = 108280,
 								["targets"] = {
-									["[*] raid wide cooldown"] = 0,
+									["[*] raid wide cooldown"] = 1,
 								},
-								["counter"] = 0,
+								["counter"] = 1,
 							},
 						},
 						["tipo"] = 9,
@@ -34447,14 +34360,14 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							["Ancestral Vigor"] = {
-								["id"] = "Ancestral Vigor",
+							[208416] = {
+								["id"] = 208416,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							[208416] = {
-								["id"] = 208416,
+							["Ancestral Vigor"] = {
+								["id"] = "Ancestral Vigor",
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -34505,10 +34418,10 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[77762] = {
-								["uptime"] = 10,
-								["id"] = 77762,
-								["activedamt"] = 4,
+							[61295] = {
+								["uptime"] = 6,
+								["id"] = 61295,
+								["activedamt"] = 1,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -34529,10 +34442,10 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[53390] = {
-								["uptime"] = 109,
-								["id"] = 53390,
-								["activedamt"] = 8,
+							[77762] = {
+								["uptime"] = 10,
+								["id"] = 77762,
+								["activedamt"] = 4,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -34559,10 +34472,10 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[61295] = {
-								["uptime"] = 6,
-								["id"] = 61295,
-								["activedamt"] = 1,
+							[53390] = {
+								["uptime"] = 109,
+								["id"] = 53390,
+								["activedamt"] = 8,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -35346,12 +35259,11 @@ _detalhes_database = {
 						["tipo"] = 9,
 					},
 					["debuff_uptime"] = 88,
-					["nome"] = "Outranked-Bloodhoof",
+					["boss_fight_component"] = true,
 					["dispell_oque"] = {
 						[228054] = 6,
 					},
-					["debuff_uptime_targets"] = {
-					},
+					["nome"] = "Outranked-Bloodhoof",
 					["grupo"] = true,
 					["spell_cast"] = {
 						[79206] = 0,
@@ -35365,11 +35277,11 @@ _detalhes_database = {
 						[5394] = 4,
 						[193796] = 0,
 						[235966] = 0,
-						[8004] = 0,
+						[51505] = 0,
 						[2645] = 1,
 						[196881] = 0,
 						[204945] = 0,
-						[51505] = 0,
+						[188838] = 1,
 						[1064] = 1,
 						[207778] = 0,
 						[32182] = 0,
@@ -35379,7 +35291,7 @@ _detalhes_database = {
 						[51533] = 0,
 						[196884] = 0,
 						[60103] = 0,
-						[188838] = 1,
+						[8004] = 0,
 						[108280] = 0,
 						[201897] = 0,
 						[199116] = 0,
@@ -35389,7 +35301,8 @@ _detalhes_database = {
 					["last_event"] = 0,
 					["tipo"] = 4,
 					["buff_uptime"] = 206,
-					["boss_fight_component"] = true,
+					["debuff_uptime_targets"] = {
+					},
 					["serial"] = "Player-64-035EDD02",
 					["dispell_targets"] = {
 						["Outranked-Bloodhoof"] = 1,
@@ -35409,6 +35322,12 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
+							[57723] = {
+								["id"] = 57723,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
 							[80354] = {
 								["id"] = 80354,
 								["targets"] = {
@@ -35423,19 +35342,10 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[57723] = {
-								["id"] = 57723,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
 						},
 						["tipo"] = 9,
 					},
-					["pets"] = {
-						"Greater Fire Elemental <Yúka-Ravencrest> <Yúka-Ravencrest>", -- [1]
-						"Greater Lightning Elemental <Yúka-Ravencrest> <Yúka-Ravencrest>", -- [2]
-					},
+					["buff_uptime"] = 382,
 					["classe"] = "SHAMAN",
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
@@ -35608,15 +35518,18 @@ _detalhes_database = {
 						[21169] = 0,
 						[51490] = 0,
 					},
-					["buff_uptime"] = 382,
+					["last_event"] = 0,
 					["nome"] = "Yúka-Ravencrest",
 					["tipo"] = 4,
-					["debuff_uptime_targets"] = {
+					["pets"] = {
+						"Greater Fire Elemental <Yúka-Ravencrest> <Yúka-Ravencrest>", -- [1]
+						"Greater Lightning Elemental <Yúka-Ravencrest> <Yúka-Ravencrest>", -- [2]
 					},
 					["buff_uptime_targets"] = {
 					},
 					["serial"] = "Player-1072-09F44B7C",
-					["last_event"] = 0,
+					["debuff_uptime_targets"] = {
+					},
 				}, -- [10]
 				{
 					["flag_original"] = 1300,
@@ -35841,11 +35754,7 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["pets"] = {
-						"Beast <Darunia-Norgannon> <Darunia-Norgannon>", -- [1]
-						"Hati <Darunia-Norgannon> <Darunia-Norgannon>", -- [2]
-						"Broken Bond <Darunia-Norgannon> <Darunia-Norgannon>", -- [3]
-					},
+					["buff_uptime"] = 435,
 					["classe"] = "HUNTER",
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
@@ -36010,15 +35919,19 @@ _detalhes_database = {
 						[34026] = 27,
 						[2643] = 20,
 					},
-					["buff_uptime"] = 435,
+					["last_event"] = 0,
 					["nome"] = "Darunia-Norgannon",
 					["tipo"] = 4,
-					["debuff_uptime_targets"] = {
+					["pets"] = {
+						"Beast <Darunia-Norgannon> <Darunia-Norgannon>", -- [1]
+						"Hati <Darunia-Norgannon> <Darunia-Norgannon>", -- [2]
+						"Broken Bond <Darunia-Norgannon> <Darunia-Norgannon>", -- [3]
 					},
 					["buff_uptime_targets"] = {
 					},
 					["serial"] = "Player-98-065C79CA",
-					["last_event"] = 0,
+					["debuff_uptime_targets"] = {
+					},
 				}, -- [12]
 				{
 					["flag_original"] = 1300,
@@ -36047,8 +35960,7 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["pets"] = {
-					},
+					["buff_uptime"] = 361,
 					["classe"] = "WARRIOR",
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
@@ -36072,8 +35984,10 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[201009] = {
-								["id"] = 201009,
+							[184362] = {
+								["uptime"] = 52,
+								["id"] = 184362,
+								["activedamt"] = 15,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -36084,9 +35998,9 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							["Sign of the Critter"] = {
+							["Well Fed"] = {
 								["uptime"] = 0,
-								["id"] = "Sign of the Critter",
+								["id"] = "Well Fed",
 								["activedamt"] = 0,
 								["targets"] = {
 								},
@@ -36114,9 +36028,9 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							["Well Fed"] = {
+							["Sign of the Critter"] = {
 								["uptime"] = 0,
-								["id"] = "Well Fed",
+								["id"] = "Sign of the Critter",
 								["activedamt"] = 0,
 								["targets"] = {
 								},
@@ -36144,9 +36058,9 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							["Mana Divining Stone"] = {
+							["Potion of Prolonged Power"] = {
 								["uptime"] = 0,
-								["id"] = "Mana Divining Stone",
+								["id"] = "Potion of Prolonged Power",
 								["activedamt"] = 0,
 								["targets"] = {
 								},
@@ -36184,25 +36098,23 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[225603] = {
+							["Mana Divining Stone"] = {
 								["uptime"] = 0,
-								["id"] = 225603,
+								["id"] = "Mana Divining Stone",
 								["activedamt"] = 0,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							[109128] = {
-								["uptime"] = 6,
-								["id"] = 109128,
-								["activedamt"] = 1,
+							[225599] = {
+								["id"] = 225599,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							["Potion of Prolonged Power"] = {
+							[225603] = {
 								["uptime"] = 0,
-								["id"] = "Potion of Prolonged Power",
+								["id"] = 225603,
 								["activedamt"] = 0,
 								["targets"] = {
 								},
@@ -36216,8 +36128,10 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[225599] = {
-								["id"] = 225599,
+							[200954] = {
+								["uptime"] = 62,
+								["id"] = 200954,
+								["activedamt"] = 9,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -36230,18 +36144,16 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[200954] = {
-								["uptime"] = 62,
-								["id"] = 200954,
-								["activedamt"] = 9,
+							[109128] = {
+								["uptime"] = 6,
+								["id"] = 109128,
+								["activedamt"] = 1,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							[184362] = {
-								["uptime"] = 52,
-								["id"] = 184362,
-								["activedamt"] = 15,
+							[201009] = {
+								["id"] = 201009,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -36318,24 +36230,24 @@ _detalhes_database = {
 						[199667] = 63,
 						[85288] = 14,
 					},
-					["buff_uptime"] = 361,
+					["last_event"] = 0,
 					["nome"] = "Arthbyrud-WyrmrestAccord",
 					["tipo"] = 4,
-					["debuff_uptime_targets"] = {
+					["pets"] = {
 					},
 					["buff_uptime_targets"] = {
 					},
 					["serial"] = "Player-1171-07893385",
-					["last_event"] = 0,
+					["debuff_uptime_targets"] = {
+					},
 				}, -- [13]
 				{
 					["flag_original"] = 1300,
-					["debuff_uptime_targets"] = {
-					},
+					["boss_fight_component"] = true,
 					["debuff_uptime_spells"] = {
 						["_ActorTable"] = {
-							[80354] = {
-								["id"] = 80354,
+							[14914] = {
+								["id"] = 14914,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -36346,14 +36258,14 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[57723] = {
-								["id"] = 57723,
+							[80354] = {
+								["id"] = 80354,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							[14914] = {
-								["id"] = 14914,
+							[57723] = {
+								["id"] = 57723,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -36696,7 +36608,7 @@ _detalhes_database = {
 					["debuff_uptime"] = 0,
 					["nome"] = "Neocordey-Hydraxis",
 					["last_event"] = 0,
-					["buff_uptime_targets"] = {
+					["debuff_uptime_targets"] = {
 					},
 					["cc_break"] = 0,
 					["spell_cast"] = {
@@ -36719,7 +36631,8 @@ _detalhes_database = {
 					},
 					["cc_break_oque"] = {
 					},
-					["boss_fight_component"] = true,
+					["buff_uptime_targets"] = {
+					},
 					["tipo"] = 4,
 					["dispell_targets"] = {
 						["Laurannah"] = 0,
@@ -36769,6 +36682,12 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
+							[224553] = {
+								["id"] = 224553,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
 							[120679] = {
 								["uptime"] = 177,
 								["id"] = 120679,
@@ -36786,118 +36705,33 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["pets"] = {
-						"Spirit Beast <Laurannah> <Laurannah>", -- [1]
-						"Beast <Laurannah> <Laurannah>", -- [2]
-						"Hati <Laurannah> <Laurannah>", -- [3]
-					},
+					["buff_uptime"] = 295,
 					["classe"] = "HUNTER",
+					["interrupt_spells"] = {
+						["_ActorTable"] = {
+							[147362] = {
+								["id"] = 147362,
+								["interrompeu_oque"] = {
+								},
+								["targets"] = {
+									["Valiyaka the Stormbringer"] = 0,
+									["Brethkaz the Dominator"] = 0,
+								},
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 9,
+					},
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
-							[35079] = {
-								["id"] = 35079,
+							[212704] = {
+								["id"] = 212704,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							[231390] = {
-								["uptime"] = 19,
-								["id"] = 231390,
-								["activedamt"] = 6,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[186258] = {
-								["id"] = 186258,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[120694] = {
-								["uptime"] = 103,
-								["id"] = 120694,
-								["activedamt"] = 14,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[19574] = {
-								["uptime"] = 73,
-								["id"] = 19574,
-								["activedamt"] = 5,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[186406] = {
-								["id"] = 186406,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[126311] = {
-								["id"] = 126311,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[207068] = {
-								["uptime"] = 32,
-								["id"] = 207068,
-								["activedamt"] = 4,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[221332] = {
-								["id"] = 221332,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							["Dire Beast"] = {
-								["id"] = "Dire Beast",
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							["Trailblazer"] = {
-								["uptime"] = 0,
-								["id"] = "Trailblazer",
-								["activedamt"] = 0,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							["Bestial Wrath"] = {
-								["id"] = "Bestial Wrath",
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[90361] = {
-								["id"] = 90361,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[982] = {
-								["id"] = 982,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							["Mana Divining Stone"] = {
-								["uptime"] = 0,
-								["id"] = "Mana Divining Stone",
-								["activedamt"] = 0,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[194386] = {
-								["id"] = 194386,
+							[227723] = {
+								["id"] = 227723,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -36910,8 +36744,14 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[227723] = {
-								["id"] = 227723,
+							["Dire Beast"] = {
+								["id"] = "Dire Beast",
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[982] = {
+								["id"] = 982,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -36924,42 +36764,16 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							["Sign of the Critter"] = {
-								["uptime"] = 0,
-								["id"] = "Sign of the Critter",
-								["activedamt"] = 0,
+							[160007] = {
+								["id"] = 160007,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							[186257] = {
-								["id"] = 186257,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[212704] = {
-								["id"] = 212704,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[186265] = {
-								["uptime"] = 8,
-								["id"] = 186265,
-								["activedamt"] = 1,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[240640] = {
-								["id"] = 240640,
-								["targets"] = {
-								},
-								["counter"] = 0,
-							},
-							[239939] = {
-								["id"] = 239939,
+							[120694] = {
+								["uptime"] = 103,
+								["id"] = 120694,
+								["activedamt"] = 14,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -36972,16 +36786,188 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
+							["Sign of the Critter"] = {
+								["uptime"] = 0,
+								["id"] = "Sign of the Critter",
+								["activedamt"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[239939] = {
+								["id"] = 239939,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[240640] = {
+								["id"] = 240640,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[19574] = {
+								["uptime"] = 73,
+								["id"] = 19574,
+								["activedamt"] = 5,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[5384] = {
+								["id"] = 5384,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[218441] = {
+								["id"] = 218441,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							["Bestial Wrath"] = {
+								["id"] = "Bestial Wrath",
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[186406] = {
+								["id"] = 186406,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[237137] = {
+								["id"] = 237137,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[221332] = {
+								["id"] = 221332,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[224553] = {
+								["id"] = 224553,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[186257] = {
+								["id"] = 186257,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[186265] = {
+								["uptime"] = 8,
+								["id"] = 186265,
+								["activedamt"] = 1,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[127271] = {
+								["id"] = 127271,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[232405] = {
+								["id"] = 232405,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[90361] = {
+								["id"] = 90361,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[35079] = {
+								["id"] = 35079,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[186258] = {
+								["id"] = 186258,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							["Mana Divining Stone"] = {
+								["uptime"] = 0,
+								["id"] = "Mana Divining Stone",
+								["activedamt"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[126311] = {
+								["id"] = 126311,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[194386] = {
+								["id"] = 194386,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[231390] = {
+								["uptime"] = 19,
+								["id"] = 231390,
+								["activedamt"] = 6,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[207068] = {
+								["uptime"] = 32,
+								["id"] = 207068,
+								["activedamt"] = 4,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[240122] = {
+								["id"] = 240122,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							["Trailblazer"] = {
+								["uptime"] = 0,
+								["id"] = "Trailblazer",
+								["activedamt"] = 0,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
 						},
 						["tipo"] = 9,
 					},
+					["interrompeu_oque"] = {
+					},
 					["debuff_uptime"] = 207,
 					["boss_fight_component"] = true,
+					["interrupt"] = 0,
+					["interrupt_targets"] = {
+						["Valiyaka the Stormbringer"] = 0,
+						["Brethkaz the Dominator"] = 0,
+					},
 					["grupo"] = true,
 					["spell_cast"] = {
 						[34026] = 19,
 						[224574] = 0,
 						[224578] = 0,
+						[223925] = 0,
 						[132764] = 14,
 						[883] = 0,
 						[19574] = 5,
@@ -36991,9 +36977,13 @@ _detalhes_database = {
 						[193455] = 43,
 						[207068] = 4,
 						[2643] = 10,
-						[34477] = 0,
-						[781] = 0,
+						[223926] = 0,
+						[223924] = 0,
 						[201430] = 2,
+						[147362] = 0,
+						[982] = 0,
+						[781] = 0,
+						[224553] = 0,
 						[120679] = 14,
 						[193530] = 2,
 						[109304] = 2,
@@ -37003,22 +36993,26 @@ _detalhes_database = {
 						[186265] = 1,
 						[224576] = 0,
 						[221332] = 0,
-						[982] = 0,
+						[34477] = 0,
 					},
-					["buff_uptime"] = 295,
-					["nome"] = "Laurannah",
-					["tipo"] = 4,
 					["debuff_uptime_targets"] = {
 					},
+					["nome"] = "Laurannah",
+					["tipo"] = 4,
+					["last_event"] = 0,
 					["buff_uptime_targets"] = {
 					},
 					["serial"] = "Player-3693-092AD332",
-					["last_event"] = 0,
+					["pets"] = {
+						"Spirit Beast <Laurannah> <Laurannah>", -- [1]
+						"Beast <Laurannah> <Laurannah>", -- [2]
+						"Hati <Laurannah> <Laurannah>", -- [3]
+					},
 				}, -- [15]
 				{
 					["flag_original"] = 4370,
 					["nome"] = "Core Hound <Darunia-Norgannon>",
-					["last_event"] = 0,
+					["classe"] = "PET",
 					["pets"] = {
 					},
 					["spell_cast"] = {
@@ -37026,8 +37020,8 @@ _detalhes_database = {
 						[17253] = 49,
 						[90355] = 0,
 					},
+					["last_event"] = 0,
 					["tipo"] = 4,
-					["classe"] = "PET",
 					["serial"] = "Pet-0-3024-1220-11816-17447-010259C4A1",
 					["boss_fight_component"] = true,
 				}, -- [16]
@@ -37035,7 +37029,7 @@ _detalhes_database = {
 					["flag_original"] = 4369,
 					["ownerName"] = "Laurannah",
 					["nome"] = "Spirit Beast <Laurannah> <Laurannah>",
-					["last_event"] = 0,
+					["tipo"] = 4,
 					["pets"] = {
 					},
 					["spell_cast"] = {
@@ -37043,8 +37037,8 @@ _detalhes_database = {
 						[16827] = 25,
 						[61684] = 3,
 					},
+					["last_event"] = 0,
 					["classe"] = "PET",
-					["tipo"] = 4,
 					["serial"] = "Pet-0-3018-1648-7257-103326-020286D36D",
 					["boss_fight_component"] = true,
 				}, -- [17]
@@ -37052,7 +37046,7 @@ _detalhes_database = {
 					["flag_original"] = 4372,
 					["ownerName"] = "Colandros-Draka",
 					["nome"] = "Pinchee <Colandros-Draka> <Colandros-Draka>",
-					["classe"] = "PET",
+					["tipo"] = 4,
 					["spell_cast"] = {
 						[160060] = 25,
 						[61684] = 6,
@@ -37060,8 +37054,8 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
+					["classe"] = "PET",
 					["last_event"] = 0,
-					["tipo"] = 4,
 					["serial"] = "Pet-0-3018-1648-7257-53240-020269CC6E",
 					["boss_fight_component"] = true,
 				}, -- [18]
@@ -37069,15 +37063,15 @@ _detalhes_database = {
 					["flag_original"] = 8465,
 					["ownerName"] = "Laurannah",
 					["nome"] = "Beast <Laurannah> <Laurannah>",
-					["classe"] = "PET",
+					["tipo"] = 4,
 					["spell_cast"] = {
 						[120694] = 14,
 						[201754] = 14,
 					},
 					["pets"] = {
 					},
+					["classe"] = "PET",
 					["last_event"] = 0,
-					["tipo"] = 4,
 					["serial"] = "Creature-0-3018-1648-7257-62005-00005E9A22",
 					["boss_fight_component"] = true,
 				}, -- [19]
@@ -37085,15 +37079,15 @@ _detalhes_database = {
 					["flag_original"] = 8466,
 					["ownerName"] = "Darunia-Norgannon",
 					["nome"] = "Beast <Darunia-Norgannon> <Darunia-Norgannon>",
-					["classe"] = "PET",
+					["tipo"] = 4,
 					["spell_cast"] = {
 						[120694] = 18,
 						[201754] = 18,
 					},
 					["pets"] = {
 					},
+					["classe"] = "PET",
 					["last_event"] = 0,
-					["tipo"] = 4,
 					["serial"] = "Creature-0-3018-1648-7257-62005-00005E9A23",
 					["boss_fight_component"] = true,
 				}, -- [20]
@@ -37101,14 +37095,14 @@ _detalhes_database = {
 					["flag_original"] = 8468,
 					["ownerName"] = "Yúka-Ravencrest",
 					["nome"] = "Greater Fire Elemental <Yúka-Ravencrest> <Yúka-Ravencrest>",
-					["classe"] = "PET",
+					["tipo"] = 4,
 					["spell_cast"] = {
 						[57984] = 48,
 					},
 					["pets"] = {
 					},
+					["classe"] = "PET",
 					["last_event"] = 0,
-					["tipo"] = 4,
 					["serial"] = "Creature-0-3018-1648-7257-95061-00005E9A25",
 					["boss_fight_component"] = true,
 				}, -- [21]
@@ -37116,14 +37110,14 @@ _detalhes_database = {
 					["flag_original"] = 8468,
 					["ownerName"] = "Colandros-Draka",
 					["nome"] = "Spitting Cobra <Colandros-Draka> <Colandros-Draka>",
-					["classe"] = "PET",
+					["tipo"] = 4,
 					["spell_cast"] = {
 						[206685] = 52,
 					},
 					["pets"] = {
 					},
+					["classe"] = "PET",
 					["last_event"] = 0,
-					["tipo"] = 4,
 					["serial"] = "Creature-0-3018-1648-7257-104493-00005E9A2B",
 					["boss_fight_component"] = true,
 				}, -- [22]
@@ -37131,14 +37125,14 @@ _detalhes_database = {
 					["flag_original"] = 8468,
 					["ownerName"] = "Outranked-Bloodhoof",
 					["nome"] = "Healing Stream Totem <Outranked-Bloodhoof> <Outranked-Bloodhoof>",
-					["classe"] = "PET",
+					["tipo"] = 4,
 					["spell_cast"] = {
 						[5672] = 4,
 					},
 					["pets"] = {
 					},
+					["classe"] = "PET",
 					["last_event"] = 0,
-					["tipo"] = 4,
 					["serial"] = "Creature-0-3018-1648-7257-3527-00005E9A2C",
 					["boss_fight_component"] = true,
 				}, -- [23]
@@ -37175,29 +37169,29 @@ _detalhes_database = {
 					["spellschool"] = 16,
 					["debuff_uptime_targets"] = {
 						["Darunia-Norgannon"] = {
+							["uptime"] = 30,
 							["actived"] = false,
 							["activedamt"] = 0,
-							["uptime"] = 30,
 						},
 						["Arthbyrud-WyrmrestAccord"] = {
+							["uptime"] = 59,
 							["actived"] = false,
 							["activedamt"] = 0,
-							["uptime"] = 59,
 						},
 						["Bruccius-MoonGuard"] = {
+							["uptime"] = 60,
 							["actived"] = false,
 							["activedamt"] = 0,
-							["uptime"] = 60,
 						},
 						["Stormvadar-Perenolde"] = {
+							["uptime"] = 0,
 							["actived"] = false,
 							["activedamt"] = 0,
-							["uptime"] = 0,
 						},
 						["Skymane-Proudmoore"] = {
+							["uptime"] = 24,
 							["actived"] = false,
 							["activedamt"] = 0,
-							["uptime"] = 24,
 						},
 					},
 					["nome"] = "Bilewater Redox",
@@ -37224,69 +37218,69 @@ _detalhes_database = {
 					["spellschool"] = 16,
 					["debuff_uptime_targets"] = {
 						["Arthbyrud-WyrmrestAccord"] = {
+							["uptime"] = 32,
 							["actived"] = false,
 							["activedamt"] = 0,
-							["uptime"] = 32,
 						},
 						["Samanthia-Sen'jin"] = {
+							["uptime"] = 14,
 							["actived"] = false,
 							["activedamt"] = 0,
-							["uptime"] = 14,
 						},
 						["Baalzephon-BlackwaterRaiders"] = {
+							["uptime"] = 20,
 							["actived"] = false,
 							["activedamt"] = 0,
-							["uptime"] = 20,
 						},
 						["Stormvadar-Perenolde"] = {
+							["uptime"] = 20,
 							["actived"] = false,
 							["activedamt"] = 0,
-							["uptime"] = 20,
 						},
 						["Oryón-Ragnaros"] = {
+							["uptime"] = 23,
 							["actived"] = false,
 							["activedamt"] = 0,
-							["uptime"] = 23,
 						},
 						["Skymane-Proudmoore"] = {
+							["uptime"] = 78,
 							["actived"] = false,
 							["activedamt"] = 0,
-							["uptime"] = 78,
 						},
 						["Outranked-Bloodhoof"] = {
+							["uptime"] = 24,
 							["actived"] = false,
 							["activedamt"] = 0,
-							["uptime"] = 24,
 						},
 						["Neocordey-Hydraxis"] = {
+							["uptime"] = 18,
 							["actived"] = false,
 							["activedamt"] = 0,
-							["uptime"] = 18,
 						},
 						["Yúka-Ravencrest"] = {
+							["uptime"] = 20,
 							["actived"] = false,
 							["activedamt"] = 0,
-							["uptime"] = 20,
 						},
 						["Arroezze-EarthenRing"] = {
+							["uptime"] = 16,
 							["actived"] = false,
 							["activedamt"] = 0,
-							["uptime"] = 16,
 						},
 						["Bruccius-MoonGuard"] = {
+							["uptime"] = 23,
 							["actived"] = false,
 							["activedamt"] = 0,
-							["uptime"] = 23,
 						},
 						["Darunia-Norgannon"] = {
+							["uptime"] = 25,
 							["actived"] = false,
 							["activedamt"] = 0,
-							["uptime"] = 25,
 						},
 						["Laurannah"] = {
+							["uptime"] = 8,
 							["actived"] = false,
 							["activedamt"] = 0,
-							["uptime"] = 8,
 						},
 					},
 					["nome"] = "Taint of the Sea",
@@ -37313,29 +37307,29 @@ _detalhes_database = {
 					["spellschool"] = 16,
 					["debuff_uptime_targets"] = {
 						["Outranked-Bloodhoof"] = {
+							["uptime"] = 2,
 							["actived"] = false,
 							["activedamt"] = 0,
-							["uptime"] = 2,
 						},
 						["Baalzephon-BlackwaterRaiders"] = {
+							["uptime"] = 3,
 							["actived"] = false,
 							["activedamt"] = 0,
-							["uptime"] = 3,
 						},
 						["Arroezze-EarthenRing"] = {
+							["uptime"] = 8,
 							["actived"] = false,
 							["activedamt"] = 0,
-							["uptime"] = 8,
 						},
 						["Colandros-Draka"] = {
+							["uptime"] = 2,
 							["actived"] = false,
 							["activedamt"] = 0,
-							["uptime"] = 2,
 						},
 						["Stormvadar-Perenolde"] = {
+							["uptime"] = 2,
 							["actived"] = false,
 							["activedamt"] = 0,
-							["uptime"] = 2,
 						},
 					},
 					["nome"] = "Bilewater Corrosion",
@@ -37362,54 +37356,54 @@ _detalhes_database = {
 					["spellschool"] = 32,
 					["debuff_uptime_targets"] = {
 						["Samanthia-Sen'jin"] = {
+							["uptime"] = 16,
 							["actived"] = false,
 							["activedamt"] = 0,
-							["uptime"] = 16,
 						},
 						["Bruccius-MoonGuard"] = {
+							["uptime"] = 29,
 							["actived"] = false,
 							["activedamt"] = 0,
-							["uptime"] = 29,
 						},
 						["Outranked-Bloodhoof"] = {
+							["uptime"] = 3,
 							["actived"] = false,
 							["activedamt"] = 0,
-							["uptime"] = 3,
 						},
 						["Neocordey-Hydraxis"] = {
+							["uptime"] = 11,
 							["actived"] = false,
 							["activedamt"] = 0,
-							["uptime"] = 11,
 						},
 						["Darunia-Norgannon"] = {
+							["uptime"] = 4,
 							["actived"] = false,
 							["activedamt"] = 0,
-							["uptime"] = 4,
 						},
 						["Nourishing-Stormrage"] = {
+							["uptime"] = 3,
 							["actived"] = false,
 							["activedamt"] = 0,
-							["uptime"] = 3,
 						},
 						["Arroezze-EarthenRing"] = {
+							["uptime"] = 16,
 							["actived"] = false,
 							["activedamt"] = 0,
-							["uptime"] = 16,
 						},
 						["Colandros-Draka"] = {
+							["uptime"] = 4,
 							["actived"] = false,
 							["activedamt"] = 0,
-							["uptime"] = 4,
 						},
 						["Stormvadar-Perenolde"] = {
+							["uptime"] = 7,
 							["actived"] = false,
 							["activedamt"] = 0,
-							["uptime"] = 7,
 						},
 						["Yúka-Ravencrest"] = {
+							["uptime"] = 17,
 							["actived"] = false,
 							["activedamt"] = 0,
-							["uptime"] = 17,
 						},
 					},
 					["nome"] = "Orb of Corruption",
@@ -37424,14 +37418,14 @@ _detalhes_database = {
 					["flag_original"] = 8468,
 					["ownerName"] = "Yúka-Ravencrest",
 					["nome"] = "Greater Lightning Elemental <Yúka-Ravencrest> <Yúka-Ravencrest>",
-					["classe"] = "PET",
+					["tipo"] = 4,
 					["spell_cast"] = {
 						[191726] = 7,
 					},
 					["pets"] = {
 					},
+					["classe"] = "PET",
 					["last_event"] = 0,
-					["tipo"] = 4,
 					["serial"] = "Creature-0-3018-1648-7257-97022-00005E9A3E",
 					["boss_fight_component"] = true,
 				}, -- [29]
@@ -37454,14 +37448,14 @@ _detalhes_database = {
 					["flag_original"] = 8466,
 					["ownerName"] = "Neocordey-Hydraxis",
 					["nome"] = "T'uure <Neocordey-Hydraxis> <Neocordey-Hydraxis>",
-					["classe"] = "PET",
+					["tipo"] = 4,
 					["spell_cast"] = {
 						[196687] = 2,
 					},
 					["pets"] = {
 					},
+					["classe"] = "PET",
 					["last_event"] = 0,
-					["tipo"] = 4,
 					["serial"] = "Creature-0-3018-1648-7257-99904-00005E9A5E",
 					["boss_fight_component"] = true,
 				}, -- [31]
@@ -37469,14 +37463,14 @@ _detalhes_database = {
 					["flag_original"] = 8466,
 					["ownerName"] = "Darunia-Norgannon",
 					["nome"] = "Hati <Darunia-Norgannon> <Darunia-Norgannon>",
-					["classe"] = "PET",
+					["tipo"] = 4,
 					["spell_cast"] = {
 						[211117] = 2,
 					},
 					["pets"] = {
 					},
+					["classe"] = "PET",
 					["last_event"] = 0,
-					["tipo"] = 4,
 					["serial"] = "Creature-0-3018-1648-7257-106551-00005E9772",
 					["boss_fight_component"] = true,
 				}, -- [32]
@@ -37497,14 +37491,14 @@ _detalhes_database = {
 					["boss_fight_component"] = true,
 					["debuff_uptime_targets"] = {
 						["Darunia-Norgannon"] = {
+							["uptime"] = 0,
 							["actived"] = false,
 							["activedamt"] = 2,
-							["uptime"] = 0,
 						},
 						["Laurannah"] = {
+							["uptime"] = 0,
 							["actived"] = false,
 							["activedamt"] = 1,
-							["uptime"] = 0,
 						},
 					},
 					["tipo"] = 4,
@@ -37518,21 +37512,21 @@ _detalhes_database = {
 					["flag_original"] = 8465,
 					["ownerName"] = "Laurannah",
 					["nome"] = "Hati <Laurannah> <Laurannah>",
-					["last_event"] = 0,
+					["tipo"] = 4,
 					["pets"] = {
 					},
 					["spell_cast"] = {
 						[211117] = 1,
 					},
+					["last_event"] = 0,
 					["classe"] = "PET",
-					["tipo"] = 4,
 					["serial"] = "Creature-0-3018-1648-7257-106551-00005E9773",
 					["boss_fight_component"] = true,
 				}, -- [34]
 				{
 					["flag_original"] = 4369,
 					["nome"] = "Spirit Beast <Laurannah>",
-					["last_event"] = 0,
+					["classe"] = "PET",
 					["pets"] = {
 					},
 					["spell_cast"] = {
@@ -37540,8 +37534,8 @@ _detalhes_database = {
 						[16827] = 25,
 						[61684] = 3,
 					},
+					["last_event"] = 0,
 					["tipo"] = 4,
-					["classe"] = "PET",
 					["serial"] = "Pet-0-3018-1648-7257-103326-030286D36D",
 					["boss_fight_component"] = true,
 				}, -- [35]
@@ -37549,26 +37543,26 @@ _detalhes_database = {
 					["flag_original"] = 8468,
 					["ownerName"] = "Oryón-Ragnaros",
 					["nome"] = "Healing Stream Totem <Oryón-Ragnaros> <Oryón-Ragnaros>",
-					["last_event"] = 0,
+					["tipo"] = 4,
 					["pets"] = {
 					},
 					["spell_cast"] = {
 						[5672] = 3,
 					},
+					["last_event"] = 0,
 					["classe"] = "PET",
-					["tipo"] = 4,
 					["serial"] = "Creature-0-3018-1648-7257-3527-00005E9B1E",
 					["boss_fight_component"] = true,
 				}, -- [36]
 				{
 					["flag_original"] = 4372,
 					["nome"] = "Pinchee <Colandros-Draka>",
-					["tipo"] = 4,
+					["last_event"] = 0,
 					["pets"] = {
 					},
 					["boss_fight_component"] = true,
+					["tipo"] = 4,
 					["classe"] = "PET",
-					["last_event"] = 0,
 					["serial"] = "Pet-0-3018-1648-7257-53240-030269CC6E",
 					["spell_cast"] = {
 						[160060] = 0,
@@ -37579,12 +37573,12 @@ _detalhes_database = {
 				{
 					["flag_original"] = 8468,
 					["nome"] = "Healing Stream Totem <Oryón-Ragnaros>",
-					["tipo"] = 4,
+					["last_event"] = 0,
 					["pets"] = {
 					},
 					["boss_fight_component"] = true,
+					["tipo"] = 4,
 					["classe"] = "PET",
-					["last_event"] = 0,
 					["serial"] = "Creature-0-3018-1648-7257-3527-00005E9B1E",
 					["spell_cast"] = {
 						[5672] = 0,
@@ -37593,12 +37587,12 @@ _detalhes_database = {
 				{
 					["flag_original"] = 8465,
 					["nome"] = "Beast <Laurannah>",
-					["tipo"] = 4,
+					["last_event"] = 0,
 					["pets"] = {
 					},
 					["boss_fight_component"] = true,
+					["tipo"] = 4,
 					["classe"] = "PET",
-					["last_event"] = 0,
 					["serial"] = "Creature-0-3018-1648-7257-62005-00005E9B1E",
 					["spell_cast"] = {
 						[201754] = 0,
@@ -37609,12 +37603,12 @@ _detalhes_database = {
 				{
 					["flag_original"] = 8466,
 					["nome"] = "Beast <Darunia-Norgannon>",
-					["tipo"] = 4,
+					["last_event"] = 0,
 					["pets"] = {
 					},
 					["boss_fight_component"] = true,
+					["tipo"] = 4,
 					["classe"] = "PET",
-					["last_event"] = 0,
 					["serial"] = "Creature-0-3018-1648-7257-62005-00005E9B1F",
 					["spell_cast"] = {
 						[120694] = 0,
@@ -37624,12 +37618,12 @@ _detalhes_database = {
 				{
 					["flag_original"] = 8468,
 					["nome"] = "Healing Stream Totem <Outranked-Bloodhoof>",
-					["tipo"] = 4,
+					["last_event"] = 0,
 					["pets"] = {
 					},
 					["boss_fight_component"] = true,
+					["tipo"] = 4,
 					["classe"] = "PET",
-					["last_event"] = 0,
 					["serial"] = "Creature-0-3018-1648-7257-3527-00005E9B23",
 					["spell_cast"] = {
 						[5672] = 0,
@@ -37638,12 +37632,12 @@ _detalhes_database = {
 				{
 					["flag_original"] = 8468,
 					["nome"] = "Greater Fire Elemental <Yúka-Ravencrest>",
-					["tipo"] = 4,
+					["last_event"] = 0,
 					["pets"] = {
 					},
 					["boss_fight_component"] = true,
+					["tipo"] = 4,
 					["classe"] = "PET",
-					["last_event"] = 0,
 					["serial"] = "Creature-0-3018-1648-7257-95061-00005E9B22",
 					["spell_cast"] = {
 						[57984] = 0,
@@ -37652,12 +37646,12 @@ _detalhes_database = {
 				{
 					["flag_original"] = 8468,
 					["nome"] = "Spitting Cobra <Colandros-Draka>",
-					["tipo"] = 4,
+					["last_event"] = 0,
 					["pets"] = {
 					},
 					["boss_fight_component"] = true,
+					["tipo"] = 4,
 					["classe"] = "PET",
-					["last_event"] = 0,
 					["serial"] = "Creature-0-3018-1648-7257-104493-00005E9B24",
 					["spell_cast"] = {
 						[206685] = 0,
@@ -37666,12 +37660,12 @@ _detalhes_database = {
 				{
 					["flag_original"] = 8468,
 					["nome"] = "Greater Lightning Elemental <Yúka-Ravencrest>",
-					["tipo"] = 4,
+					["last_event"] = 0,
 					["pets"] = {
 					},
 					["boss_fight_component"] = true,
+					["tipo"] = 4,
 					["classe"] = "PET",
-					["last_event"] = 0,
 					["serial"] = "Creature-0-3018-1648-7257-97022-00005E9B38",
 					["spell_cast"] = {
 						[191726] = 0,
@@ -37680,12 +37674,12 @@ _detalhes_database = {
 				{
 					["flag_original"] = 8466,
 					["nome"] = "T'uure <Neocordey-Hydraxis>",
-					["tipo"] = 4,
+					["last_event"] = 0,
 					["pets"] = {
 					},
 					["boss_fight_component"] = true,
+					["tipo"] = 4,
 					["classe"] = "PET",
-					["last_event"] = 0,
 					["serial"] = "Creature-0-3018-1648-7257-99904-00005E9B41",
 					["spell_cast"] = {
 						[196687] = 0,
@@ -37694,12 +37688,12 @@ _detalhes_database = {
 				{
 					["flag_original"] = 8466,
 					["nome"] = "Hati <Darunia-Norgannon>",
-					["tipo"] = 4,
+					["last_event"] = 0,
 					["pets"] = {
 					},
 					["boss_fight_component"] = true,
+					["tipo"] = 4,
 					["classe"] = "PET",
-					["last_event"] = 0,
 					["serial"] = "Creature-0-3018-1648-7257-106551-00005E9AC2",
 					["spell_cast"] = {
 						[211117] = 0,
@@ -37731,12 +37725,12 @@ _detalhes_database = {
 				{
 					["flag_original"] = 8465,
 					["nome"] = "Hati <Laurannah>",
-					["tipo"] = 4,
+					["last_event"] = 0,
 					["pets"] = {
 					},
 					["boss_fight_component"] = true,
+					["tipo"] = 4,
 					["classe"] = "PET",
-					["last_event"] = 0,
 					["serial"] = "Creature-0-3018-1648-7257-106551-00005E9773",
 					["spell_cast"] = {
 						[211117] = 0,
@@ -37762,8 +37756,7 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["pets"] = {
-					},
+					["buff_uptime"] = 0,
 					["classe"] = "MAGE",
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
@@ -37827,8 +37820,8 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							["Sign of the Critter"] = {
-								["id"] = "Sign of the Critter",
+							["Well Fed"] = {
+								["id"] = "Well Fed",
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -37863,8 +37856,8 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							["Well Fed"] = {
-								["id"] = "Well Fed",
+							[205473] = {
+								["id"] = 205473,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -37875,8 +37868,8 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[205473] = {
-								["id"] = 205473,
+							["Sign of the Critter"] = {
+								["id"] = "Sign of the Critter",
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -37935,15 +37928,16 @@ _detalhes_database = {
 						[214634] = 0,
 						[229206] = 0,
 					},
-					["debuff_uptime_targets"] = {
+					["pets"] = {
 					},
 					["boss_fight_component"] = true,
 					["tipo"] = 4,
-					["last_event"] = 0,
+					["debuff_uptime_targets"] = {
+					},
 					["buff_uptime_targets"] = {
 					},
 					["serial"] = "Player-60-0AC63E91",
-					["buff_uptime"] = 0,
+					["last_event"] = 0,
 				}, -- [49]
 				{
 					["flag_original"] = 1300,
@@ -38177,14 +38171,14 @@ _detalhes_database = {
 						[232775] = 0,
 						[232810] = 0,
 						[227573] = 0,
-						[227514] = 0,
-						[227735] = 0,
 						[227669] = 0,
+						[227735] = 0,
+						[228227] = 0,
 						[228251] = 0,
 						[227816] = 0,
 						[232807] = 0,
 						[232811] = 0,
-						[228227] = 0,
+						[227514] = 0,
 						[227673] = 0,
 						[227894] = 0,
 						[232808] = 0,
@@ -38316,12 +38310,12 @@ _detalhes_database = {
 				{
 					["flag_original"] = 8468,
 					["nome"] = "Mindbender <Samanthia-Sen'jin>",
-					["tipo"] = 4,
+					["last_event"] = 0,
 					["pets"] = {
 					},
 					["boss_fight_component"] = true,
+					["tipo"] = 4,
 					["classe"] = "PET",
-					["last_event"] = 0,
 					["serial"] = "Creature-0-3018-1648-7257-62982-00005E96AD",
 					["spell_cast"] = {
 						[63619] = 0,
@@ -38445,14 +38439,14 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							["Sign of the Critter"] = {
-								["id"] = "Sign of the Critter",
+							["Jouster"] = {
+								["id"] = "Jouster",
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							["Jouster"] = {
-								["id"] = "Jouster",
+							["Potion of Prolonged Power"] = {
+								["id"] = "Potion of Prolonged Power",
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -38481,8 +38475,8 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							["Potion of Prolonged Power"] = {
-								["id"] = "Potion of Prolonged Power",
+							[12472] = {
+								["id"] = 12472,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -38511,8 +38505,8 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[212653] = {
-								["id"] = 212653,
+							["Sign of the Critter"] = {
+								["id"] = "Sign of the Critter",
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -38547,14 +38541,14 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[12472] = {
-								["id"] = 12472,
+							[55342] = {
+								["id"] = 55342,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							[11426] = {
-								["id"] = 11426,
+							[212653] = {
+								["id"] = 212653,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -38577,8 +38571,8 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[55342] = {
-								["id"] = 55342,
+							[11426] = {
+								["id"] = 11426,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -38626,17 +38620,17 @@ _detalhes_database = {
 						[55342] = 0,
 						[59638] = 0,
 						[212653] = 0,
-						[229206] = 0,
+						[116] = 0,
 						[11426] = 0,
 						[30455] = 0,
-						[190356] = 0,
+						[229206] = 0,
 						[45438] = 0,
 						[214634] = 0,
 						[44614] = 0,
 						[12472] = 0,
 						[84714] = 0,
 						[59548] = 0,
-						[116] = 0,
+						[190356] = 0,
 						[80353] = 0,
 					},
 					["serial"] = "Player-3208-08C08492",
@@ -38875,12 +38869,12 @@ _detalhes_database = {
 				{
 					["flag_original"] = 4372,
 					["nome"] = "Water Elemental <Wormon-Nemesis>",
-					["tipo"] = 4,
+					["last_event"] = 0,
 					["pets"] = {
 					},
 					["boss_fight_component"] = true,
+					["tipo"] = 4,
 					["classe"] = "PET",
-					["last_event"] = 0,
 					["serial"] = "Pet-0-3018-1648-7257-78116-0102511276",
 					["spell_cast"] = {
 						[31707] = 0,
@@ -38890,12 +38884,12 @@ _detalhes_database = {
 				{
 					["flag_original"] = 8468,
 					["nome"] = "Greater Earth Elemental <Yúka-Ravencrest>",
-					["tipo"] = 4,
+					["last_event"] = 0,
 					["pets"] = {
 					},
 					["boss_fight_component"] = true,
+					["tipo"] = 4,
 					["classe"] = "PET",
-					["last_event"] = 0,
 					["serial"] = "Creature-0-3018-1648-7257-95072-00005E92FC",
 					["spell_cast"] = {
 						[36213] = 0,
@@ -38904,12 +38898,12 @@ _detalhes_database = {
 				{
 					["flag_original"] = 8468,
 					["nome"] = "Elemental Raptor <Outranked-Bloodhoof>",
-					["tipo"] = 4,
+					["last_event"] = 0,
 					["pets"] = {
 					},
 					["boss_fight_component"] = true,
+					["tipo"] = 4,
 					["classe"] = "PET",
-					["last_event"] = 0,
 					["serial"] = "Creature-0-3018-1648-7257-100820-00005E930C",
 					["spell_cast"] = {
 						[198453] = 0,
@@ -39020,8 +39014,8 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							["Icy Veins"] = {
-								["id"] = "Icy Veins",
+							["Mana Divining Stone"] = {
+								["id"] = "Mana Divining Stone",
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -39038,8 +39032,8 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							["Potion of Prolonged Power"] = {
-								["id"] = "Potion of Prolonged Power",
+							["Icy Veins"] = {
+								["id"] = "Icy Veins",
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -39074,8 +39068,8 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							["Mana Divining Stone"] = {
-								["id"] = "Mana Divining Stone",
+							["Potion of Prolonged Power"] = {
+								["id"] = "Potion of Prolonged Power",
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -39381,8 +39375,7 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["pets"] = {
-					},
+					["buff_uptime"] = 0,
 					["classe"] = "WARRIOR",
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
@@ -39416,14 +39409,14 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[200977] = {
-								["id"] = 200977,
+							["Xavaric's Magnum Opus"] = {
+								["id"] = "Xavaric's Magnum Opus",
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							[107574] = {
-								["id"] = 107574,
+							[200977] = {
+								["id"] = 200977,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -39440,8 +39433,8 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[225141] = {
-								["id"] = 225141,
+							[225947] = {
+								["id"] = 225947,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -39464,8 +39457,8 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							["Xavaric's Magnum Opus"] = {
-								["id"] = "Xavaric's Magnum Opus",
+							[107574] = {
+								["id"] = 107574,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -39542,14 +39535,14 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[225947] = {
-								["id"] = 225947,
+							[215562] = {
+								["id"] = 215562,
 								["targets"] = {
 								},
 								["counter"] = 0,
 							},
-							[215562] = {
-								["id"] = 215562,
+							[225141] = {
+								["id"] = 225141,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -39582,15 +39575,16 @@ _detalhes_database = {
 						[44949] = 0,
 						[199667] = 0,
 					},
-					["debuff_uptime_targets"] = {
+					["pets"] = {
 					},
 					["boss_fight_component"] = true,
 					["tipo"] = 4,
-					["last_event"] = 0,
+					["debuff_uptime_targets"] = {
+					},
 					["buff_uptime_targets"] = {
 					},
 					["serial"] = "Player-162-0919B4FF",
-					["buff_uptime"] = 0,
+					["last_event"] = 0,
 				}, -- [67]
 				{
 					["monster"] = true,
@@ -39717,12 +39711,12 @@ _detalhes_database = {
 				{
 					["flag_original"] = 2584,
 					["nome"] = "Odyn",
-					["tipo"] = 4,
+					["last_event"] = 0,
 					["pets"] = {
 					},
 					["boss_fight_component"] = true,
+					["tipo"] = 4,
 					["classe"] = "UNKNOW",
-					["last_event"] = 0,
 					["serial"] = "Creature-0-3018-1648-7257-114263-00005E8AC1",
 					["spell_cast"] = {
 						[227629] = 0,
@@ -39840,7 +39834,7 @@ _detalhes_database = {
 		},
 		["combat_counter"] = 1281,
 		["totals"] = {
-			1130916270.15068, -- [1]
+			1130916270.13271, -- [1]
 			195926122.275079, -- [2]
 			{
 				0, -- [1]
@@ -39881,27 +39875,8 @@ _detalhes_database = {
 			},
 		},
 		["end_time"] = 1402218.33,
-		["totals_grupo"] = {
-			629643359.16072, -- [1]
-			192538546.159789, -- [2]
-			{
-				0, -- [1]
-				[0] = 310946.125297,
-				[6] = 0,
-				[3] = 0,
-			}, -- [3]
-			{
-				["buff_uptime"] = 0,
-				["ress"] = 1.003406,
-				["cooldowns_defensive"] = 29.06494,
-				["dispell"] = 11.008269,
-				["interrupt"] = 0,
-				["debuff_uptime"] = 0,
-				["cc_break"] = 0,
-				["dead"] = 0,
-			}, -- [4]
-		},
 		["overall_refreshed"] = true,
+		["data_inicio"] = "14:04:09",
 		["hasSaved"] = true,
 		["frags"] = {
 		},
@@ -39926,7 +39901,26 @@ _detalhes_database = {
 			["Raid Damage Done"] = {
 			},
 		},
-		["data_inicio"] = "14:04:09",
+		["totals_grupo"] = {
+			629643359.16072, -- [1]
+			192538546.159789, -- [2]
+			{
+				0, -- [1]
+				[0] = 310946.125297,
+				[6] = 0,
+				[3] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 1.003406,
+				["cooldowns_defensive"] = 29.06494,
+				["dispell"] = 11.008269,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["cc_break"] = 0,
+				["dead"] = 0,
+			}, -- [4]
+		},
 	},
 	["last_instance_time"] = 1490979516,
 	["local_instances_config"] = {
@@ -39964,7 +39958,7 @@ _detalhes_database = {
 			},
 		}, -- [1]
 	},
-	["last_day"] = "02",
+	["last_day"] = "03",
 	["announce_cooldowns"] = {
 		["ignored_cooldowns"] = {
 		},
