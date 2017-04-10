@@ -75,10 +75,10 @@ VWQL = {
 	["Alauranna-Kel'Thuzad"] = {
 		["Filter"] = 63,
 		["Quests"] = {
-			[44934] = true,
-			[41257] = true,
-			[41700] = true,
 			[43755] = true,
+			[41257] = true,
+			[44934] = true,
+			[41700] = true,
 		},
 		["FilterType"] = {
 		},
@@ -137,9 +137,9 @@ VWQL = {
 			[43814] = true,
 			[42633] = true,
 			[44811] = true,
-			[43336] = true,
-			[41127] = true,
 			[43457] = true,
+			[41127] = true,
+			[43336] = true,
 			[41257] = true,
 			[41700] = true,
 			[46112] = true,
