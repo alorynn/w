@@ -1,9 +1,434 @@
 
 GottaGoFastHistoryDB = {
 	["profileKeys"] = {
-		["Hauzer - Kel'Thuzad"] = "Default",
 		["Kmkarbashian - Kel'Thuzad"] = "Default",
 		["Alauranna - Kel'Thuzad"] = "Default",
+		["Hauzerina - Kel'Thuzad"] = "Default",
 		["Laurannah - Kel'Thuzad"] = "Default",
+		["Alisheeya - Kel'Thuzad"] = "Default",
+		["Hauzer - Kel'Thuzad"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["History"] = {
+				[1492] = {
+					["runs"] = {
+						{
+							["corrupt"] = false,
+							["deaths"] = 4,
+							["affixes"] = {
+								[7] = {
+									["name"] = "Bolstering",
+									["desc"] = "When any non-boss enemy dies, its death cry empowers nearby allies, increasing their maximum health and damage by 20%.",
+								},
+								[12] = {
+									["name"] = "Grievous",
+									["desc"] = "When injured below 90% health, players will suffer increasing damage over time until healed above 90% health.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 107707.213,
+							["timeStamp"] = {
+								["day"] = 12,
+								["month"] = 4,
+								["hours"] = 11,
+								["mins"] = 59,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Demon Hunter",
+									["name"] = "Madpicaizzy (*)",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Rogue",
+									["name"] = "Yolobaylife (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Death Knight",
+									["name"] = "Korex (*)",
+									["role"] = "TANK",
+								}, -- [3]
+								{
+									["class"] = "Priest",
+									["name"] = "Pandorina (*)",
+									["role"] = "HEALER",
+								}, -- [4]
+								{
+									["class"] = "Hunter",
+									["name"] = "Laurannah",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+							["level"] = 7,
+							["objectiveTimes"] = {
+								"02:35.389", -- [1]
+								"07:47.578", -- [2]
+								"13:18.341", -- [3]
+								"10:24.051", -- [4]
+							},
+							["startTime"] = 106928.41,
+						}, -- [1]
+					},
+					["name"] = "Maw of Souls",
+					["zoneID"] = 1492,
+					["objectives"] = {
+						"Ymiron, the Fallen King", -- [1]
+						"Harbaron", -- [2]
+						"Helya", -- [3]
+						"Enemy Forces", -- [4]
+					},
+				},
+				[1458] = {
+					["runs"] = {
+						{
+							["corrupt"] = false,
+							["deaths"] = 0,
+							["affixes"] = {
+								[8] = {
+									["name"] = "Sanguine",
+									["desc"] = "When slain, non-boss enemies leave behind a lingering pool of ichor that heals their allies and damages players.",
+								},
+								[3] = {
+									["name"] = "Volcanic",
+									["desc"] = "While in combat, enemies periodically cause gouts of flame to erupt beneath the feet of distant players.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 464584.649,
+							["timeStamp"] = {
+								["day"] = 18,
+								["month"] = 4,
+								["hours"] = 14,
+								["mins"] = 39,
+								["year"] = 2017,
+							},
+							["players"] = {
+								{
+									["class"] = "Priest",
+									["name"] = "Eraylå (*)",
+									["role"] = "HEALER",
+								}, -- [1]
+								{
+									["class"] = "Paladin",
+									["name"] = "Ekhor (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Paladin",
+									["name"] = "Dazandrah (*)",
+									["role"] = "TANK",
+								}, -- [3]
+								{
+									["class"] = "Demon Hunter",
+									["name"] = "Reborne (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Hunter",
+									["name"] = "Laurannah",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+							["level"] = 9,
+							["objectiveTimes"] = {
+								"04:41.259", -- [1]
+								"12:47.570", -- [2]
+								"17:22.971", -- [3]
+								"21:31.300", -- [4]
+								"19:54.814", -- [5]
+							},
+							["startTime"] = 463292.719,
+						}, -- [1]
+					},
+					["name"] = "Neltharion's Lair",
+					["zoneID"] = 1458,
+					["objectives"] = {
+						"Rokmora", -- [1]
+						"Ularogg Cragshaper", -- [2]
+						"Naraxas", -- [3]
+						"Dargrul", -- [4]
+						"Enemy Forces", -- [5]
+					},
+				},
+				[1466] = {
+					["objectives"] = {
+						"Archdruid Glaidalis", -- [1]
+						"Oakheart", -- [2]
+						"Dresaron", -- [3]
+						"Shade of Xavius", -- [4]
+						"Enemy Forces", -- [5]
+					},
+					["zoneID"] = 1466,
+					["name"] = "Darkheart Thicket",
+					["runs"] = {
+						{
+							["corrupt"] = false,
+							["deaths"] = 5,
+							["affixes"] = {
+								[7] = {
+									["name"] = "Bolstering",
+									["desc"] = "When any non-boss enemy dies, its death cry empowers nearby allies, increasing their maximum health and damage by 20%.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 31690.115,
+							["timeStamp"] = {
+								["day"] = 11,
+								["month"] = 4,
+								["hours"] = 14,
+								["year"] = 2017,
+								["mins"] = 50,
+							},
+							["startTime"] = 30788.4,
+							["level"] = 5,
+							["objectiveTimes"] = {
+								"03:33.757", -- [1]
+								"07:52.574", -- [2]
+								"12:30.455", -- [3]
+								"15:26.228", -- [4]
+								"14:30.605", -- [5]
+							},
+							["players"] = {
+								{
+									["class"] = "Warrior",
+									["name"] = "Wandris (*)",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Paladin",
+									["name"] = "Rhysode",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Mage",
+									["name"] = "Xerosucks (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Paladin",
+									["name"] = "Glauben (*)",
+									["role"] = "HEALER",
+								}, -- [4]
+								{
+									["class"] = "Hunter",
+									["name"] = "Laurannah",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+						}, -- [1]
+						{
+							["corrupt"] = false,
+							["deaths"] = 2,
+							["affixes"] = {
+								[7] = {
+									["name"] = "Bolstering",
+									["desc"] = "When any non-boss enemy dies, its death cry empowers nearby allies, increasing their maximum health and damage by 20%.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 98295.218,
+							["timeStamp"] = {
+								["day"] = 12,
+								["month"] = 4,
+								["hours"] = 9,
+								["year"] = 2017,
+								["mins"] = 21,
+							},
+							["startTime"] = 97322.613,
+							["level"] = 4,
+							["objectiveTimes"] = {
+								"04:10.360", -- [1]
+								"08:14.119", -- [2]
+								"12:58.893", -- [3]
+								"16:22.119", -- [4]
+								"15:19.425", -- [5]
+							},
+							["players"] = {
+								{
+									["class"] = "Shaman",
+									["name"] = "Kalyope (*)",
+									["role"] = "HEALER",
+								}, -- [1]
+								{
+									["class"] = "Mage",
+									["name"] = "Ruhannii (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Priest",
+									["name"] = "Ekoes (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Paladin",
+									["name"] = "Frankzappa (*)",
+									["role"] = "TANK",
+								}, -- [4]
+								{
+									["class"] = "Hunter",
+									["name"] = "Laurannah",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+						}, -- [2]
+					},
+				},
+				[1477] = {
+					["objectives"] = {
+						"Hymdall", -- [1]
+						"Hyrja", -- [2]
+						"Fenryr", -- [3]
+						"God-King Skovald", -- [4]
+						"Odyn", -- [5]
+						"Enemy Forces", -- [6]
+					},
+					["zoneID"] = 1477,
+					["name"] = "Halls of Valor",
+					["runs"] = {
+						{
+							["corrupt"] = false,
+							["deaths"] = 4,
+							["affixes"] = {
+								[7] = {
+									["name"] = "Bolstering",
+									["desc"] = "When any non-boss enemy dies, its death cry empowers nearby allies, increasing their maximum health and damage by 20%.",
+								},
+								[12] = {
+									["name"] = "Grievous",
+									["desc"] = "When injured below 90% health, players will suffer increasing damage over time until healed above 90% health.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 102412.92,
+							["timeStamp"] = {
+								["day"] = 12,
+								["month"] = 4,
+								["hours"] = 10,
+								["year"] = 2017,
+								["mins"] = 29,
+							},
+							["startTime"] = 100915.642,
+							["level"] = 8,
+							["objectiveTimes"] = {
+								"03:43.703", -- [1]
+								"11:27.614", -- [2]
+								"16:49.314", -- [3]
+								"23:06.302", -- [4]
+								"25:16.807", -- [5]
+								"23:06.302", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Death Knight",
+									["name"] = "Gooberino (*)",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Druid",
+									["name"] = "Borismcgee (*)",
+									["role"] = "HEALER",
+								}, -- [2]
+								{
+									["class"] = "Paladin",
+									["name"] = "Tyrdhal (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Priest",
+									["name"] = "Roozvelt (*)",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Hunter",
+									["name"] = "Laurannah",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+						}, -- [1]
+					},
+				},
+				[1456] = {
+					["objectives"] = {
+						"Warlord Parjesh", -- [1]
+						"Lady Hatecoil", -- [2]
+						"King Deepbeard", -- [3]
+						"Serpentrix", -- [4]
+						"Wrath of Azshara", -- [5]
+						"Enemy Forces", -- [6]
+					},
+					["zoneID"] = 1456,
+					["name"] = "Eye of Azshara",
+					["runs"] = {
+						{
+							["corrupt"] = false,
+							["deaths"] = 120,
+							["affixes"] = {
+								[3] = {
+									["name"] = "Volcanic",
+									["desc"] = "While in combat, enemies periodically cause gouts of flame to erupt beneath the feet of distant players.",
+								},
+								[10] = {
+									["name"] = "Fortified",
+									["desc"] = "Non-boss enemies have 20% more health and inflict up to 30% increased damage.",
+								},
+								[8] = {
+									["name"] = "Sanguine",
+									["desc"] = "When slain, non-boss enemies leave behind a lingering pool of ichor that heals their allies and damages players.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 462024.312,
+							["timeStamp"] = {
+								["day"] = 18,
+								["month"] = 4,
+								["hours"] = 13,
+								["year"] = 2017,
+								["mins"] = 59,
+							},
+							["startTime"] = 460375.796,
+							["level"] = 10,
+							["objectiveTimes"] = {
+								"04:39.139", -- [1]
+								"09:11.986", -- [2]
+								"21:26.873", -- [3]
+								"14:43.745", -- [4]
+								"37:27.928", -- [5]
+								"23:10.516", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Warrior",
+									["name"] = "Alphøns (*)",
+									["role"] = "TANK",
+								}, -- [1]
+								{
+									["class"] = "Druid",
+									["name"] = "Ilustion (*)",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Priest",
+									["name"] = "Iustis (*)",
+									["role"] = "HEALER",
+								}, -- [3]
+								{
+									["class"] = "Druid",
+									["name"] = "Rayv (*)",
+									["role"] = "TANK",
+								}, -- [4]
+								{
+									["class"] = "Hunter",
+									["name"] = "Laurannah",
+									["role"] = "DAMAGER",
+								}, -- [5]
+							},
+						}, -- [1]
+					},
+				},
+			},
+		},
 	},
 }

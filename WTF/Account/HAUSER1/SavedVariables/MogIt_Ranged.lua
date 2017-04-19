@@ -2,23 +2,21 @@
 MogIt_RangedDB = {
 	["Crossbow"] = {
 		[14405] = {
-			{
+			[30718] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 30718,
-			}, -- [1]
+			},
 		},
 		[10977] = {
-			{
+			[20551] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 20551,
-			}, -- [1]
+			},
 		},
 		[11614] = {
-			{
+			[22179] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -34,12 +32,11 @@ MogIt_RangedDB = {
 						["instance"] = "Ulduar",
 					}, -- [1]
 				},
-				["sourceID"] = 22179,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[12378] = {
-			{
+			[24647] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -55,20 +52,18 @@ MogIt_RangedDB = {
 						["instance"] = "Pit of Saron",
 					}, -- [1]
 				},
-				["sourceID"] = 24647,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[15935] = {
-			{
+			[36784] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 36784,
-			}, -- [1]
+			},
 		},
 		[23108] = {
-			{
+			[62703] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -84,34 +79,30 @@ MogIt_RangedDB = {
 						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
-				["sourceID"] = 62703,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[7049] = {
-			{
+			[12243] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 12243,
-			}, -- [1]
-			{
+			},
+			[78354] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 78354,
-			}, -- [2]
+			},
 		},
 		[16069] = {
-			{
+			[37671] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 37671,
-			}, -- [1]
+			},
 		},
 		[15816] = {
-			{
+			[36382] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -128,18 +119,16 @@ MogIt_RangedDB = {
 						["instance"] = "Firelands",
 					}, -- [1]
 				},
-				["sourceID"] = 36382,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[36619] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 36619,
-			}, -- [2]
+			},
 		},
 		[7242] = {
-			{
+			[12512] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -154,18 +143,16 @@ MogIt_RangedDB = {
 						["instance"] = "Karazhan",
 					}, -- [1]
 				},
-				["sourceID"] = 12512,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[66508] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 66508,
-			}, -- [2]
+			},
 		},
 		[25412] = {
-			{
+			[73319] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -181,20 +168,18 @@ MogIt_RangedDB = {
 						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
-				["sourceID"] = 73319,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[12646] = {
-			{
+			[25268] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 25268,
-			}, -- [1]
+			},
 		},
 		[11504] = {
-			{
+			[21995] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -221,12 +206,11 @@ MogIt_RangedDB = {
 						["instance"] = "Ulduar",
 					}, -- [2]
 				},
-				["sourceID"] = 21995,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[20112] = {
-			{
+			[50244] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -242,12 +226,11 @@ MogIt_RangedDB = {
 						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
-				["sourceID"] = 50244,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[23106] = {
-			{
+			[62701] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -263,12 +246,11 @@ MogIt_RangedDB = {
 						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
-				["sourceID"] = 62701,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[12753] = {
-			{
+			[25538] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -284,10 +266,9 @@ MogIt_RangedDB = {
 						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
-				["sourceID"] = 25538,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[25654] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -303,34 +284,30 @@ MogIt_RangedDB = {
 						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
-				["sourceID"] = 25654,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[9070] = {
-			{
+			[16173] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 16173,
-			}, -- [1]
+			},
 		},
 		[7126] = {
-			{
+			[12372] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 12372,
-			}, -- [1]
-			{
+			},
+			[14673] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 14673,
-			}, -- [2]
+			},
 		},
 		[10338] = {
-			{
+			[19366] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -357,12 +334,11 @@ MogIt_RangedDB = {
 						["instance"] = "Naxxramas",
 					}, -- [2]
 				},
-				["sourceID"] = 19366,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[6873] = {
-			{
+			[11941] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -378,12 +354,11 @@ MogIt_RangedDB = {
 						["instance"] = "The Blood Furnace",
 					}, -- [1]
 				},
-				["sourceID"] = 11941,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[16052] = {
-			{
+			[38935] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -400,12 +375,11 @@ MogIt_RangedDB = {
 						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
-				["sourceID"] = 38935,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[12241] = {
-			{
+			[24467] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -421,10 +395,9 @@ MogIt_RangedDB = {
 						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
-				["sourceID"] = 24467,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[24835] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -440,12 +413,11 @@ MogIt_RangedDB = {
 						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
-				["sourceID"] = 24835,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[7181] = {
-			{
+			[12443] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -461,20 +433,18 @@ MogIt_RangedDB = {
 						["instance"] = "The Arcatraz",
 					}, -- [1]
 				},
-				["sourceID"] = 12443,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[9114] = {
-			{
+			[16261] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 16261,
-			}, -- [1]
+			},
 		},
 		[22207] = {
-			{
+			[66851] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -490,12 +460,11 @@ MogIt_RangedDB = {
 						["instance"] = "The Everbloom",
 					}, -- [1]
 				},
-				["sourceID"] = 66851,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[8354] = {
-			{
+			[14881] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -510,64 +479,56 @@ MogIt_RangedDB = {
 						["instance"] = "Black Temple",
 					}, -- [1]
 				},
-				["sourceID"] = 14881,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[13308] = {
-			{
+			[26939] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 26939,
-			}, -- [1]
+			},
 		},
 		[13309] = {
-			{
+			[26941] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 26941,
-			}, -- [1]
-			{
+			},
+			[30800] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 30800,
-			}, -- [2]
+			},
 		},
 		[13310] = {
-			{
+			[26943] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 26943,
-			}, -- [1]
+			},
 		},
 		[13311] = {
-			{
+			[26945] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 26945,
-			}, -- [1]
-			{
+			},
+			[29788] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
 				["faction"] = 1,
-				["sourceID"] = 29788,
-			}, -- [2]
+			},
 		},
 		[13312] = {
-			{
+			[31388] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 31388,
-			}, -- [1]
+			},
 		},
 		[26371] = {
-			{
+			[70121] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -583,48 +544,42 @@ MogIt_RangedDB = {
 						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
-				["sourceID"] = 70121,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[23329] = {
-			{
+			[60898] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 60898,
-			}, -- [1]
-			{
+			},
+			[65339] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 65339,
-			}, -- [2]
+			},
 		},
 		[23327] = {
-			{
+			[65322] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 65322,
-			}, -- [1]
-			{
+			},
+			[67080] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 67080,
-			}, -- [2]
+			},
 		},
 		[6817] = {
-			{
+			[11872] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 11872,
-			}, -- [1]
+			},
 		},
 		[21172] = {
-			{
+			[60985] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -639,12 +594,11 @@ MogIt_RangedDB = {
 						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
-				["sourceID"] = 60985,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[21170] = {
-			{
+			[60984] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -659,26 +613,23 @@ MogIt_RangedDB = {
 						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
-				["sourceID"] = 60984,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[13705] = {
-			{
+			[28251] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 28251,
-			}, -- [1]
-			{
+			},
+			[33205] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 33205,
-			}, -- [2]
+			},
 		},
 		[13505] = {
-			{
+			[31861] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -695,72 +646,62 @@ MogIt_RangedDB = {
 						["instance"] = "The Bastion of Twilight",
 					}, -- [1]
 				},
-				["sourceID"] = 31861,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[22196] = {
-			{
+			[72509] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 65424,
-			}, -- [1]
-			{
+			},
+			[65475] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 65475,
-			}, -- [2]
-			{
+			},
+			[65424] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 72509,
-			}, -- [3]
+			},
 		},
 		[22198] = {
-			{
+			[65407] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 65407,
-			}, -- [1]
-			{
+			},
+			[65492] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 65492,
-			}, -- [2]
+			},
 		},
 		[9313] = {
-			{
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-				["sourceID"] = 16620,
-			}, -- [1]
-			{
+			[17366] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17366,
-			}, -- [2]
-			{
+			},
+			[16620] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 17544,
-			}, -- [3]
-			{
+			},
+			[17563] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 17563,
-			}, -- [4]
+			},
+			[17544] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
 		},
 		[1880] = {
-			{
+			[7309] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -775,12 +716,11 @@ MogIt_RangedDB = {
 						["instance"] = "Dire Maul",
 					}, -- [1]
 				},
-				["sourceID"] = 7309,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[22204] = {
-			{
+			[59652] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -796,10 +736,9 @@ MogIt_RangedDB = {
 						["instance"] = "Auchindoun",
 					}, -- [1]
 				},
-				["sourceID"] = 59652,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[61117] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -814,12 +753,11 @@ MogIt_RangedDB = {
 						["instance"] = "Auchindoun",
 					}, -- [1]
 				},
-				["sourceID"] = 61117,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[22206] = {
-			{
+			[61118] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -835,12 +773,11 @@ MogIt_RangedDB = {
 						["instance"] = "Auchindoun",
 					}, -- [1]
 				},
-				["sourceID"] = 61118,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[5743] = {
-			{
+			[8463] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -855,10 +792,9 @@ MogIt_RangedDB = {
 						["instance"] = "Ruins of Ahn'Qiraj",
 					}, -- [1]
 				},
-				["sourceID"] = 8463,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[9526] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -874,12 +810,11 @@ MogIt_RangedDB = {
 						["instance"] = "The Slave Pens",
 					}, -- [1]
 				},
-				["sourceID"] = 9526,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[11725] = {
-			{
+			[22509] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -895,12 +830,11 @@ MogIt_RangedDB = {
 						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
-				["sourceID"] = 22509,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[9755] = {
-			{
+			[17651] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -916,26 +850,23 @@ MogIt_RangedDB = {
 						["instance"] = "Utgarde Keep",
 					}, -- [1]
 				},
-				["sourceID"] = 17651,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[14602] = {
-			{
+			[32311] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 32311,
-			}, -- [1]
-			{
+			},
+			[32324] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 32324,
-			}, -- [2]
+			},
 		},
 		[23105] = {
-			{
+			[62702] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -951,26 +882,53 @@ MogIt_RangedDB = {
 						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
-				["sourceID"] = 62702,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[25266] = {
-			{
+			[71309] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 71309,
-			}, -- [1]
+			},
 		},
 		[889] = {
-			{
+			[2341] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 2341,
-			}, -- [1]
-			{
+			},
+			[10264] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[10251] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[10253] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[31621] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[28340] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[10263] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[7465] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -985,114 +943,72 @@ MogIt_RangedDB = {
 						["instance"] = "Stratholme",
 					}, -- [1]
 				},
-				["sourceID"] = 7465,
 				["faction"] = 1,
-			}, -- [2]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 10251,
-			}, -- [3]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 10253,
-			}, -- [4]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 10263,
-			}, -- [5]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 10264,
-			}, -- [6]
-			{
+			},
+			[29779] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 28340,
-			}, -- [7]
-			{
+			},
+			[28383] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 28383,
-			}, -- [8]
-			{
+			},
+			[31538] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 29779,
-			}, -- [9]
-			{
+			},
+			[33119] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 31538,
-			}, -- [10]
-			{
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-				["sourceID"] = 31621,
-			}, -- [11]
-			{
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-				["sourceID"] = 33119,
-			}, -- [12]
+			},
 		},
 		[13307] = {
-			{
+			[26942] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 26938,
-			}, -- [1]
-			{
+			},
+			[26940] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 26940,
-			}, -- [2]
-			{
+			},
+			[26938] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 26942,
-			}, -- [3]
-			{
+			},
+			[26944] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 26944,
-			}, -- [4]
+			},
 		},
 		[17979] = {
-			{
+			[42051] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 42051,
-			}, -- [1]
+			},
 		},
 		[15622] = {
-			{
+			[35785] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 35785,
-			}, -- [1]
+			},
 		},
 		[3614] = {
-			{
+			[4680] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[4508] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -1107,112 +1023,76 @@ MogIt_RangedDB = {
 						["instance"] = "Lower Blackrock Spire",
 					}, -- [1]
 				},
-				["sourceID"] = 4508,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[4677] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 4677,
-			}, -- [2]
-			{
+			},
+			[10259] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 4680,
-			}, -- [3]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 10259,
-			}, -- [4]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 10260,
-			}, -- [5]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 10261,
-			}, -- [6]
-			{
+			},
+			[11873] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 11873,
-			}, -- [7]
+			},
+			[10260] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[10261] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
 		},
 		[6640] = {
-			{
+			[10256] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 10256,
-			}, -- [1]
+			},
 		},
 		[6638] = {
-			{
+			[10252] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 10252,
-			}, -- [1]
-			{
+			},
+			[13381] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 13381,
-			}, -- [2]
+			},
 		},
 		[6641] = {
-			{
+			[10258] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 10258,
-			}, -- [1]
+			},
 		},
 		[25411] = {
-			{
+			[70567] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 70567,
-			}, -- [1]
+			},
 		},
 		[25413] = {
-			{
+			[71478] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 71478,
-			}, -- [1]
+			},
 		},
 		[9660] = {
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 17364,
-			}, -- [1]
-			{
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-				["sourceID"] = 19134,
-			}, -- [2]
-			{
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-				["sourceID"] = 20773,
-			}, -- [3]
-			{
+			[45667] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -1229,138 +1109,134 @@ MogIt_RangedDB = {
 						["instance"] = "Scarlet Halls",
 					}, -- [1]
 				},
-				["sourceID"] = 45667,
 				["faction"] = 1,
-			}, -- [4]
+			},
+			[19134] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[20773] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[17364] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
 		},
 		[9661] = {
-			{
+			[17365] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17365,
-			}, -- [1]
+			},
 		},
 		[9662] = {
-			{
+			[17375] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17367,
-			}, -- [1]
-			{
+			},
+			[17367] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17375,
-			}, -- [2]
-			{
+			},
+			[21229] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 21229,
-			}, -- [3]
+			},
 		},
 		[9663] = {
-			{
+			[17368] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17368,
-			}, -- [1]
+			},
 		},
 		[9664] = {
-			{
+			[17369] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17369,
-			}, -- [1]
-			{
+			},
+			[17376] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17376,
-			}, -- [2]
+			},
 		},
 		[9665] = {
-			{
+			[17370] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17370,
-			}, -- [1]
+			},
 		},
 		[9666] = {
-			{
+			[18677] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[21478] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[17371] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17371,
-			}, -- [1]
-			{
+			},
+			[17372] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17372,
-			}, -- [2]
-			{
+			},
+			[18290] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 18290,
-			}, -- [3]
-			{
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-				["sourceID"] = 18677,
-			}, -- [4]
-			{
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-				["sourceID"] = 21478,
-			}, -- [5]
+			},
 		},
 		[9667] = {
-			{
+			[17373] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17373,
-			}, -- [1]
+			},
 		},
 		[9668] = {
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 17374,
-			}, -- [1]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 17377,
-			}, -- [2]
-			{
+			[18270] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 18270,
-			}, -- [3]
+			},
+			[17377] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[17374] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
 		},
 		[8551] = {
-			{
+			[15235] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 15235,
-			}, -- [1]
+			},
 		},
 		[16053] = {
-			{
+			[39770] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -1377,54 +1253,47 @@ MogIt_RangedDB = {
 						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
-				["sourceID"] = 39770,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[10976] = {
-			{
+			[20550] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 20550,
-			}, -- [1]
+			},
 		},
 		[16276] = {
-			{
+			[45309] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 45309,
-			}, -- [1]
+			},
 		},
 		[17821] = {
-			{
+			[41570] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[41623] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[41538] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[41421] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 41421,
-			}, -- [1]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 41538,
-			}, -- [2]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 41570,
-			}, -- [3]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 41623,
-			}, -- [4]
+			},
 		},
 		[20109] = {
-			{
+			[49662] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -1441,12 +1310,11 @@ MogIt_RangedDB = {
 						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
-				["sourceID"] = 49662,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[20111] = {
-			{
+			[50868] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -1463,12 +1331,11 @@ MogIt_RangedDB = {
 						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
-				["sourceID"] = 50868,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[11079] = {
-			{
+			[20945] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -1484,20 +1351,18 @@ MogIt_RangedDB = {
 						["instance"] = "Ahn'kahet: The Old Kingdom",
 					}, -- [1]
 				},
-				["sourceID"] = 20945,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[21639] = {
-			{
+			[67740] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 67740,
-			}, -- [1]
+			},
 		},
 		[14748] = {
-			{
+			[32678] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -1514,64 +1379,55 @@ MogIt_RangedDB = {
 						["instance"] = "The Bastion of Twilight",
 					}, -- [1]
 				},
-				["sourceID"] = 32678,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[14786] = {
-			{
+			[32944] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 32944,
-			}, -- [1]
+			},
 		},
 		[13617] = {
-			{
+			[29534] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 27887,
-			}, -- [1]
-			{
+			},
+			[29290] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 27928,
-			}, -- [2]
-			{
+			},
+			[30880] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 28107,
-			}, -- [3]
-			{
+			},
+			[28107] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 29290,
-			}, -- [4]
-			{
+			},
+			[27928] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 29500,
-			}, -- [5]
-			{
+			},
+			[27887] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 29534,
-			}, -- [6]
-			{
+			},
+			[29500] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 30880,
-			}, -- [7]
+			},
 		},
 		[15917] = {
-			{
+			[36646] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -1588,72 +1444,62 @@ MogIt_RangedDB = {
 						["instance"] = "Firelands",
 					}, -- [1]
 				},
-				["sourceID"] = 36646,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[6905] = {
-			{
+			[11982] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 11982,
-			}, -- [1]
-			{
+			},
+			[13747] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 13747,
-			}, -- [2]
-			{
+			},
+			[15063] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 15063,
-			}, -- [3]
+			},
 		},
 		[9038] = {
-			{
+			[16105] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 16105,
-			}, -- [1]
+			},
 		},
 		[3723] = {
-			{
+			[10257] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 4678,
-			}, -- [1]
-			{
+			},
+			[10255] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[28403] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 7589,
-			}, -- [2]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 10255,
-			}, -- [3]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 10257,
-			}, -- [4]
-			{
+			},
+			[7589] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 28403,
-			}, -- [5]
+			},
+			[4678] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
 		},
 		[5420] = {
-			{
+			[7671] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -1668,58 +1514,51 @@ MogIt_RangedDB = {
 						["instance"] = "Blackwing Lair",
 					}, -- [1]
 				},
-				["sourceID"] = 7671,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[6639] = {
-			{
+			[10254] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 10254,
-			}, -- [1]
-			{
+			},
+			[10262] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 10262,
-			}, -- [2]
+			},
 		},
 		[17781] = {
-			{
+			[41276] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 41276,
-			}, -- [1]
+			},
 		},
 		[3724] = {
-			{
+			[4679] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 4679,
-			}, -- [1]
+			},
 		},
 		[19695] = {
-			{
+			[52984] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 52984,
-			}, -- [1]
+			},
 		},
 		[10963] = {
-			{
+			[20531] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 20531,
-			}, -- [1]
+			},
 		},
 		[16051] = {
-			{
+			[39777] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -1735,12 +1574,11 @@ MogIt_RangedDB = {
 						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
-				["sourceID"] = 39777,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[11724] = {
-			{
+			[22508] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -1756,10 +1594,9 @@ MogIt_RangedDB = {
 						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
-				["sourceID"] = 22508,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[22957] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -1775,10 +1612,9 @@ MogIt_RangedDB = {
 						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
-				["sourceID"] = 22957,
 				["faction"] = 1,
-			}, -- [2]
-			{
+			},
+			[23143] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -1794,12 +1630,11 @@ MogIt_RangedDB = {
 						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
-				["sourceID"] = 23143,
 				["faction"] = 1,
-			}, -- [3]
+			},
 		},
 		[26370] = {
-			{
+			[70122] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -1815,12 +1650,11 @@ MogIt_RangedDB = {
 						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
-				["sourceID"] = 70122,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[26372] = {
-			{
+			[70120] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -1836,54 +1670,47 @@ MogIt_RangedDB = {
 						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
-				["sourceID"] = 70120,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[23326] = {
-			{
+			[62021] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 62021,
-			}, -- [1]
-			{
+			},
+			[65356] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 65356,
-			}, -- [2]
-			{
+			},
+			[78401] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 66618,
-			}, -- [3]
-			{
+			},
+			[66618] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 78401,
-			}, -- [4]
+			},
 		},
 		[23328] = {
-			{
+			[65373] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 65373,
-			}, -- [1]
+			},
 		},
 		[6341] = {
-			{
+			[9511] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 9511,
-			}, -- [1]
+			},
 		},
 		[21173] = {
-			{
+			[60986] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -1898,20 +1725,18 @@ MogIt_RangedDB = {
 						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
-				["sourceID"] = 60986,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[5326] = {
-			{
+			[39147] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 39147,
-			}, -- [1]
+			},
 		},
 		[22205] = {
-			{
+			[66849] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -1927,10 +1752,9 @@ MogIt_RangedDB = {
 						["instance"] = "The Everbloom",
 					}, -- [1]
 				},
-				["sourceID"] = 66849,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[66850] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -1945,136 +1769,117 @@ MogIt_RangedDB = {
 						["instance"] = "The Everbloom",
 					}, -- [1]
 				},
-				["sourceID"] = 66850,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[22195] = {
-			{
+			[65441] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[66026] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[58949] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 58949,
-			}, -- [1]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 65441,
-			}, -- [2]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 66026,
-			}, -- [3]
+			},
 		},
 		[22197] = {
-			{
+			[65390] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 65390,
-			}, -- [1]
-			{
+			},
+			[65458] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 65458,
-			}, -- [2]
-			{
+			},
+			[66452] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 66452,
-			}, -- [3]
+			},
 		},
 		[17500] = {
-			{
+			[41782] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[47013] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 40673,
-			}, -- [1]
-			{
+			},
+			[40673] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[41676] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 41676,
-			}, -- [2]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 41729,
-			}, -- [3]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 41782,
-			}, -- [4]
-			{
+			},
+			[42420] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 42420,
-			}, -- [5]
-			{
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-				["sourceID"] = 47013,
-			}, -- [6]
-			{
+			},
+			[41729] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 48542,
-			}, -- [7]
-			{
+			},
+			[48542] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 51989,
-			}, -- [8]
+			},
+			[51989] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
 		},
 		[10974] = {
-			{
+			[20548] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 20548,
-			}, -- [1]
+			},
 		},
 		[10975] = {
-			{
+			[20549] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 20549,
-			}, -- [1]
+			},
 		},
 		[25263] = {
-			{
+			[70398] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 70398,
-			}, -- [1]
+			},
 		},
 	},
 	["Gun"] = {
 		[9985] = {
-			{
+			[18910] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 18910,
-			}, -- [1]
+			},
 		},
 		[21201] = {
-			{
+			[61729] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -2089,32 +1894,28 @@ MogIt_RangedDB = {
 						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
-				["sourceID"] = 61729,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[17890] = {
-			{
+			[41573] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 41534,
-			}, -- [1]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 41573,
-			}, -- [2]
-			{
+			},
+			[42907] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 42907,
-			}, -- [3]
+			},
+			[41534] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
 		},
 		[12045] = {
-			{
+			[24067] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -2130,10 +1931,9 @@ MogIt_RangedDB = {
 						["instance"] = "Onyxia's Lair",
 					}, -- [1]
 				},
-				["sourceID"] = 24067,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[24199] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -2149,106 +1949,92 @@ MogIt_RangedDB = {
 						["instance"] = "Onyxia's Lair",
 					}, -- [1]
 				},
-				["sourceID"] = 24199,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[22245] = {
-			{
+			[65326] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 65326,
-			}, -- [1]
-			{
+			},
+			[65428] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 65428,
-			}, -- [2]
+			},
 		},
 		[8991] = {
-			{
+			[16020] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 16020,
-			}, -- [1]
+			},
 		},
 		[11288] = {
-			{
+			[21661] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 21661,
-			}, -- [1]
+			},
 		},
 		[13330] = {
-			{
+			[29805] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[26979] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 26979,
-			}, -- [1]
-			{
+			},
+			[29808] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 29805,
-			}, -- [2]
-			{
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-				["sourceID"] = 29808,
-			}, -- [3]
+			},
 		},
 		[13332] = {
-			{
+			[26981] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 26981,
-			}, -- [1]
-			{
+			},
+			[33212] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 33212,
-			}, -- [2]
+			},
 		},
 		[5666] = {
-			{
+			[8349] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 8349,
-			}, -- [1]
+			},
 		},
 		[16930] = {
-			{
+			[38927] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 38927,
-			}, -- [1]
+			},
 		},
 		[12330] = {
-			{
+			[27961] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 27961,
-			}, -- [1]
-			{
+			},
+			[27965] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 27965,
-			}, -- [2]
+			},
 		},
 		[7713] = {
-			{
+			[13412] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -2263,26 +2049,23 @@ MogIt_RangedDB = {
 						["instance"] = "The Eye",
 					}, -- [1]
 				},
-				["sourceID"] = 13412,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[22074] = {
-			{
+			[65360] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 65360,
-			}, -- [1]
-			{
+			},
+			[65553] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 65553,
-			}, -- [2]
+			},
 		},
 		[6954] = {
-			{
+			[12069] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -2297,12 +2080,11 @@ MogIt_RangedDB = {
 						["instance"] = "The Steamvault",
 					}, -- [1]
 				},
-				["sourceID"] = 12069,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[25405] = {
-			{
+			[73139] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -2318,12 +2100,11 @@ MogIt_RangedDB = {
 						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
-				["sourceID"] = 73139,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[22106] = {
-			{
+			[59660] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -2339,10 +2120,9 @@ MogIt_RangedDB = {
 						["instance"] = "Iron Docks",
 					}, -- [1]
 				},
-				["sourceID"] = 59660,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[61143] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -2357,42 +2137,37 @@ MogIt_RangedDB = {
 						["instance"] = "Iron Docks",
 					}, -- [1]
 				},
-				["sourceID"] = 61143,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[14404] = {
-			{
+			[30717] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 30717,
-			}, -- [1]
+			},
 		},
 		[7474] = {
-			{
+			[12981] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 12981,
-			}, -- [1]
-			{
+			},
+			[19907] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
 				["faction"] = 1,
-				["sourceID"] = 19907,
-			}, -- [2]
+			},
 		},
 		[14918] = {
-			{
+			[33664] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 33664,
-			}, -- [1]
+			},
 		},
 		[11352] = {
-			{
+			[21748] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -2408,34 +2183,30 @@ MogIt_RangedDB = {
 						["instance"] = "Ulduar",
 					}, -- [1]
 				},
-				["sourceID"] = 21748,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[22443] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 22443,
-			}, -- [2]
+			},
 		},
 		[22652] = {
-			{
+			[64487] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 64487,
-			}, -- [1]
+			},
 		},
 		[22656] = {
-			{
+			[66866] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 66866,
-			}, -- [1]
+			},
 		},
 		[20114] = {
-			{
+			[50288] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -2451,36 +2222,32 @@ MogIt_RangedDB = {
 						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
-				["sourceID"] = 50288,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[11876] = {
-			{
+			[46957] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 46957,
-			}, -- [1]
+			},
 		},
 		[14430] = {
-			{
+			[30864] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 30864,
-			}, -- [1]
+			},
 		},
 		[7490] = {
-			{
+			[13006] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 13006,
-			}, -- [1]
+			},
 		},
 		[16225] = {
-			{
+			[37346] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -2495,42 +2262,37 @@ MogIt_RangedDB = {
 						["instance"] = "Hour of Twilight",
 					}, -- [1]
 				},
-				["sourceID"] = 37346,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[16229] = {
-			{
+			[37350] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 37350,
-			}, -- [1]
+			},
 		},
 		[14446] = {
-			{
+			[31237] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 31237,
-			}, -- [1]
-			{
+			},
+			[31240] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 31240,
-			}, -- [2]
+			},
 		},
 		[25270] = {
-			{
+			[71310] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 71310,
-			}, -- [1]
+			},
 		},
 		[21198] = {
-			{
+			[61731] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -2545,78 +2307,68 @@ MogIt_RangedDB = {
 						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
-				["sourceID"] = 61731,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[13956] = {
-			{
+			[29455] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 29455,
-			}, -- [1]
+			},
 		},
 		[22242] = {
-			{
+			[62102] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 62102,
-			}, -- [1]
-			{
+			},
+			[65394] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 65394,
-			}, -- [2]
+			},
 		},
 		[22509] = {
-			{
+			[81581] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 81581,
-			}, -- [1]
+			},
 		},
 		[29908] = {
-			{
+			[78576] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 78576,
-			}, -- [1]
+			},
 		},
 		[1057] = {
-			{
+			[78575] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 78575,
-			}, -- [1]
+			},
 		},
 		[5222] = {
-			{
+			[7247] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
 				["faction"] = 1,
-				["sourceID"] = 7247,
-			}, -- [1]
-			{
+			},
+			[18433] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 18433,
-			}, -- [2]
-			{
+			},
+			[20748] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 20748,
-			}, -- [3]
+			},
 		},
 		[8374] = {
-			{
+			[14906] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -2631,12 +2383,11 @@ MogIt_RangedDB = {
 						["instance"] = "Black Temple",
 					}, -- [1]
 				},
-				["sourceID"] = 14906,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[7011] = {
-			{
+			[12138] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -2651,80 +2402,70 @@ MogIt_RangedDB = {
 						["instance"] = "Shadow Labyrinth",
 					}, -- [1]
 				},
-				["sourceID"] = 12138,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[23087] = {
-			{
+			[66559] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 66559,
-			}, -- [1]
+			},
 		},
 		[4466] = {
-			{
+			[6094] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 6094,
-			}, -- [1]
-			{
+			},
+			[10446] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 10446,
-			}, -- [2]
+			},
 		},
 		[6252] = {
-			{
+			[9379] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
 				["faction"] = 1,
-				["sourceID"] = 9379,
-			}, -- [1]
+			},
 		},
 		[6253] = {
-			{
+			[9381] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
 				["faction"] = 1,
-				["sourceID"] = 9381,
-			}, -- [1]
+			},
 		},
 		[6254] = {
-			{
+			[9382] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
 				["faction"] = 1,
-				["sourceID"] = 9382,
-			}, -- [1]
-			{
+			},
+			[31626] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 31626,
-			}, -- [2]
+			},
 		},
 		[6255] = {
-			{
+			[9383] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
 				["faction"] = 1,
-				["sourceID"] = 9383,
-			}, -- [1]
+			},
 		},
 		[25406] = {
-			{
+			[71479] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 71479,
-			}, -- [1]
+			},
 		},
 		[12737] = {
-			{
+			[25401] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -2740,10 +2481,9 @@ MogIt_RangedDB = {
 						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
-				["sourceID"] = 25401,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[25562] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -2759,188 +2499,164 @@ MogIt_RangedDB = {
 						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
-				["sourceID"] = 25562,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[20828] = {
-			{
+			[54788] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 54788,
-			}, -- [1]
+			},
 		},
 		[948] = {
-			{
+			[37458] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 37458,
-			}, -- [1]
+			},
 		},
 		[10964] = {
-			{
+			[20532] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 20532,
-			}, -- [1]
-			{
+			},
+			[20542] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 20542,
-			}, -- [2]
+			},
 		},
 		[1064] = {
-			{
+			[1073] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 1073,
-			}, -- [1]
+			},
 		},
 		[10968] = {
-			{
+			[20540] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 20540,
-			}, -- [1]
+			},
 		},
 		[10970] = {
-			{
+			[20543] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 20543,
-			}, -- [1]
+			},
 		},
 		[1065] = {
-			{
+			[1074] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 1074,
-			}, -- [1]
+			},
 		},
 		[8683] = {
-			{
+			[49182] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 49182,
-			}, -- [1]
+			},
 		},
 		[1066] = {
-			{
+			[1075] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 1075,
-			}, -- [1]
+			},
 		},
 		[9966] = {
-			{
+			[18665] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 18295,
-			}, -- [1]
-			{
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-				["sourceID"] = 18665,
-			}, -- [2]
-			{
+			},
+			[78382] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 78382,
-			}, -- [3]
+			},
+			[18295] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
 		},
 		[3784] = {
-			{
+			[4762] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 4762,
-			}, -- [1]
+			},
 		},
 		[2637] = {
-			{
+			[3088] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 3088,
-			}, -- [1]
+			},
 		},
 		[3785] = {
-			{
+			[4763] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 4763,
-			}, -- [1]
+			},
 		},
 		[14058] = {
-			{
+			[29789] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
 				["faction"] = 1,
-				["sourceID"] = 29789,
-			}, -- [1]
+			},
 		},
 		[3786] = {
-			{
+			[4764] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 4764,
-			}, -- [1]
-			{
+			},
+			[26089] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 26089,
-			}, -- [2]
+			},
 		},
 		[9982] = {
-			{
+			[18342] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 18342,
-			}, -- [1]
+			},
 		},
 		[8068] = {
-			{
+			[14071] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 14071,
-			}, -- [1]
+			},
 		},
 		[951] = {
-			{
+			[1097] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 1097,
-			}, -- [1]
+			},
 		},
 		[3789] = {
-			{
+			[4769] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 4769,
-			}, -- [1]
+			},
 		},
 		[21199] = {
-			{
+			[61730] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -2955,46 +2671,75 @@ MogIt_RangedDB = {
 						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
-				["sourceID"] = 61730,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[12803] = {
-			{
+			[31765] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 31765,
-			}, -- [1]
+			},
 		},
 		[17896] = {
-			{
+			[41626] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 41626,
-			}, -- [1]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 41679,
-			}, -- [2]
-			{
+			},
+			[41950] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 41950,
-			}, -- [3]
-			{
+			},
+			[41679] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 65496,
-			}, -- [4]
+			},
+			[65496] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
 		},
 		[4507] = {
-			{
+			[18311] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[10277] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[17540] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[26160] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[29774] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[31255] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[31259] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[7081] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -3009,132 +2754,78 @@ MogIt_RangedDB = {
 						["instance"] = "Molten Core",
 					}, -- [1]
 				},
-				["sourceID"] = 7081,
 				["faction"] = 1,
-			}, -- [1]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 10277,
-			}, -- [2]
-			{
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-				["sourceID"] = 17540,
-			}, -- [3]
-			{
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-				["sourceID"] = 18311,
-			}, -- [4]
-			{
+			},
+			[21412] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 21412,
-			}, -- [5]
-			{
+			},
+			[31525] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 26160,
-			}, -- [6]
-			{
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-				["sourceID"] = 29774,
-			}, -- [7]
-			{
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-				["sourceID"] = 31255,
-			}, -- [8]
-			{
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-				["sourceID"] = 31259,
-			}, -- [9]
-			{
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-				["sourceID"] = 31525,
-			}, -- [10]
+			},
 		},
 		[8474] = {
-			{
+			[15084] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
 				["faction"] = 1,
-				["sourceID"] = 15084,
-			}, -- [1]
+			},
 		},
 		[3920] = {
-			{
+			[6565] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
 				["faction"] = 1,
-				["sourceID"] = 6565,
-			}, -- [1]
+			},
 		},
 		[13325] = {
-			{
+			[26974] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 26974,
-			}, -- [1]
+			},
 		},
 		[13327] = {
-			{
+			[26976] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 26976,
-			}, -- [1]
-			{
+			},
+			[32028] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 32028,
-			}, -- [2]
+			},
 		},
 		[13329] = {
-			{
+			[26978] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 26978,
-			}, -- [1]
-			{
+			},
+			[28207] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 28207,
-			}, -- [2]
+			},
 		},
 		[13331] = {
-			{
+			[26980] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 26980,
-			}, -- [1]
-			{
+			},
+			[34652] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 34652,
-			}, -- [2]
+			},
 		},
 		[11293] = {
-			{
+			[21666] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -3150,36 +2841,11 @@ MogIt_RangedDB = {
 						["instance"] = "Ulduar",
 					}, -- [1]
 				},
-				["sourceID"] = 21666,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[2776] = {
-			{
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Galgann Firehammer",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Uldaman",
-					}, -- [1]
-				},
-				["sourceID"] = 3263,
-				["faction"] = 1,
-			}, -- [1]
-			{
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-				["sourceID"] = 3977,
-			}, -- [2]
-			{
+			[4860] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -3194,32 +2860,50 @@ MogIt_RangedDB = {
 						["instance"] = "Stratholme",
 					}, -- [1]
 				},
-				["sourceID"] = 4860,
 				["faction"] = 1,
-			}, -- [3]
-			{
+			},
+			[3263] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Galgann Firehammer",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Uldaman",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[10273] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 10270,
-			}, -- [4]
-			{
+			},
+			[10270] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 10273,
-			}, -- [5]
-		},
-		[3288] = {
-			{
+			},
+			[3977] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
 				["faction"] = 1,
-				["sourceID"] = 3978,
-			}, -- [1]
+			},
+		},
+		[3288] = {
+			[3978] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
 		},
 		[9269] = {
-			{
+			[16569] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -3235,60 +2919,52 @@ MogIt_RangedDB = {
 						["instance"] = "The Violet Hold",
 					}, -- [1]
 				},
-				["sourceID"] = 16569,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[12331] = {
-			{
+			[31722] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 31722,
-			}, -- [1]
+			},
 		},
 		[2262] = {
-			{
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-				["sourceID"] = 2622,
-			}, -- [1]
-			{
+			[6561] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
 				["faction"] = 1,
-				["sourceID"] = 6561,
-			}, -- [2]
-			{
+			},
+			[10276] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 10276,
-			}, -- [3]
-			{
+			},
+			[77349] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 26235,
-			}, -- [4]
-			{
+			},
+			[2622] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 77349,
-			}, -- [5]
+			},
+			[26235] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
 		},
 		[15621] = {
-			{
+			[35784] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 35784,
-			}, -- [1]
+			},
 		},
 		[11572] = {
-			{
+			[22100] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -3304,20 +2980,18 @@ MogIt_RangedDB = {
 						["instance"] = "Ulduar",
 					}, -- [1]
 				},
-				["sourceID"] = 22100,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[13326] = {
-			{
+			[26975] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 26975,
-			}, -- [1]
+			},
 		},
 		[26235] = {
-			{
+			[70144] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -3333,66 +3007,57 @@ MogIt_RangedDB = {
 						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
-				["sourceID"] = 70144,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[14594] = {
-			{
+			[32220] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 32220,
-			}, -- [1]
-			{
+			},
+			[32224] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 32224,
-			}, -- [2]
+			},
 		},
 		[668] = {
-			{
+			[10271] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 593,
-			}, -- [1]
-			{
+			},
+			[10268] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 6096,
-			}, -- [2]
-			{
+			},
+			[6096] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 10268,
-			}, -- [3]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 10271,
-			}, -- [4]
-			{
+			},
+			[13678] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 13678,
-			}, -- [5]
-		},
-		[2784] = {
-			{
+			},
+			[593] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 3271,
-			}, -- [1]
+			},
+		},
+		[2784] = {
+			[3271] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
 		},
 		[19024] = {
-			{
+			[44754] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -3408,50 +3073,44 @@ MogIt_RangedDB = {
 						["instance"] = "Terrace of Endless Spring",
 					}, -- [1]
 				},
-				["sourceID"] = 44754,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[5299] = {
-			{
+			[7475] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 7475,
-			}, -- [1]
+			},
 		},
 		[4725] = {
-			{
+			[6564] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
 				["faction"] = 1,
-				["sourceID"] = 6564,
-			}, -- [1]
+			},
 		},
 		[22657] = {
-			{
+			[67765] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 67765,
-			}, -- [1]
+			},
 		},
 		[13328] = {
-			{
+			[26977] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 26977,
-			}, -- [1]
-			{
+			},
+			[32031] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 32031,
-			}, -- [2]
+			},
 		},
 		[5303] = {
-			{
+			[17954] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -3467,26 +3126,23 @@ MogIt_RangedDB = {
 						["instance"] = "The Culling of Stratholme",
 					}, -- [1]
 				},
-				["sourceID"] = 17954,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[19034] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
 				["faction"] = 1,
-				["sourceID"] = 19034,
-			}, -- [2]
+			},
 		},
 		[22108] = {
-			{
+			[67849] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 67849,
-			}, -- [1]
+			},
 		},
 		[5305] = {
-			{
+			[7678] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -3501,74 +3157,64 @@ MogIt_RangedDB = {
 						["instance"] = "Blackwing Lair",
 					}, -- [1]
 				},
-				["sourceID"] = 7678,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[22334] = {
-			{
+			[62917] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
 				["faction"] = 1,
-				["sourceID"] = 62917,
-			}, -- [1]
+			},
 		},
 		[4467] = {
-			{
+			[6095] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 6095,
-			}, -- [1]
-			{
+			},
+			[10681] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 10681,
-			}, -- [2]
+			},
 		},
 		[22243] = {
-			{
+			[65411] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[62029] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 62029,
-			}, -- [1]
-			{
+			},
+			[65592] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 65411,
-			}, -- [2]
-			{
+			},
+			[72514] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 65592,
-			}, -- [3]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 72514,
-			}, -- [4]
+			},
 		},
 		[14916] = {
-			{
+			[33360] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 33360,
-			}, -- [1]
-			{
+			},
+			[33399] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 33399,
-			}, -- [2]
+			},
 		},
 		[12628] = {
-			{
+			[25243] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -3584,10 +3230,9 @@ MogIt_RangedDB = {
 						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
-				["sourceID"] = 25243,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[25571] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -3603,48 +3248,42 @@ MogIt_RangedDB = {
 						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
-				["sourceID"] = 25571,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[667] = {
-			{
+			[4765] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 592,
-			}, -- [1]
-			{
+			},
+			[592] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 4765,
-			}, -- [2]
-			{
+			},
+			[69195] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 69195,
-			}, -- [3]
+			},
 		},
 		[11224] = {
-			{
+			[21517] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
 				["faction"] = 1,
-				["sourceID"] = 21517,
-			}, -- [1]
+			},
 		},
 		[1464] = {
-			{
+			[26054] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 26054,
-			}, -- [1]
+			},
 		},
 		[22658] = {
-			{
+			[65270] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -3660,12 +3299,11 @@ MogIt_RangedDB = {
 						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
-				["sourceID"] = 65270,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[26232] = {
-			{
+			[70145] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -3681,12 +3319,11 @@ MogIt_RangedDB = {
 						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
-				["sourceID"] = 70145,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[23176] = {
-			{
+			[62865] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -3702,12 +3339,11 @@ MogIt_RangedDB = {
 						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
-				["sourceID"] = 62865,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[5471] = {
-			{
+			[35545] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -3723,18 +3359,16 @@ MogIt_RangedDB = {
 						["instance"] = "Zul'Gurub",
 					}, -- [1]
 				},
-				["sourceID"] = 35545,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[1210] = {
-			{
+			[1257] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 1257,
-			}, -- [1]
-			{
+			},
+			[4206] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -3749,10 +3383,9 @@ MogIt_RangedDB = {
 						["instance"] = "Blackrock Depths",
 					}, -- [1]
 				},
-				["sourceID"] = 4206,
 				["faction"] = 1,
-			}, -- [2]
-			{
+			},
+			[7180] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -3767,34 +3400,30 @@ MogIt_RangedDB = {
 						["instance"] = "Maraudon",
 					}, -- [1]
 				},
-				["sourceID"] = 7180,
 				["faction"] = 1,
-			}, -- [3]
+			},
 		},
 		[666] = {
-			{
+			[591] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 591,
-			}, -- [1]
+			},
 		},
 		[19489] = {
-			{
+			[46850] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 46850,
-			}, -- [1]
-			{
+			},
+			[59967] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 59967,
-			}, -- [2]
+			},
 		},
 		[6089] = {
-			{
+			[18858] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -3810,10 +3439,9 @@ MogIt_RangedDB = {
 						["instance"] = "Naxxramas",
 					}, -- [1]
 				},
-				["sourceID"] = 18858,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[24389] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -3829,26 +3457,23 @@ MogIt_RangedDB = {
 						["instance"] = "Pit of Saron",
 					}, -- [1]
 				},
-				["sourceID"] = 24389,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[6642] = {
-			{
+			[10266] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 10266,
-			}, -- [1]
-			{
+			},
+			[10520] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 10520,
-			}, -- [2]
+			},
 		},
 		[11889] = {
-			{
+			[22850] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -3864,12 +3489,11 @@ MogIt_RangedDB = {
 						["instance"] = "Trial of the Champion",
 					}, -- [1]
 				},
-				["sourceID"] = 22850,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[11381] = {
-			{
+			[21781] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -3885,12 +3509,11 @@ MogIt_RangedDB = {
 						["instance"] = "Ulduar",
 					}, -- [1]
 				},
-				["sourceID"] = 21781,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[7277] = {
-			{
+			[12561] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -3905,18 +3528,16 @@ MogIt_RangedDB = {
 						["instance"] = "Karazhan",
 					}, -- [1]
 				},
-				["sourceID"] = 12561,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[5836] = {
-			{
+			[8614] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 8614,
-			}, -- [1]
-			{
+			},
+			[9358] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -3931,142 +3552,121 @@ MogIt_RangedDB = {
 						["instance"] = "Temple of Ahn'Qiraj",
 					}, -- [1]
 				},
-				["sourceID"] = 9358,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[2818] = {
-			{
+			[17381] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 3317,
-			}, -- [1]
-			{
+			},
+			[17385] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17378,
-			}, -- [2]
-			{
+			},
+			[3317] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17379,
-			}, -- [3]
-			{
+			},
+			[17378] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17380,
-			}, -- [4]
-			{
+			},
+			[17382] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17381,
-			}, -- [5]
-			{
+			},
+			[17386] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17382,
-			}, -- [6]
-			{
+			},
+			[17390] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17383,
-			}, -- [7]
-			{
+			},
+			[17379] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17384,
-			}, -- [8]
-			{
+			},
+			[17383] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17385,
-			}, -- [9]
-			{
+			},
+			[17387] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17386,
-			}, -- [10]
-			{
+			},
+			[17391] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17387,
-			}, -- [11]
-			{
+			},
+			[17380] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17388,
-			}, -- [12]
-			{
+			},
+			[17384] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17389,
-			}, -- [13]
-			{
+			},
+			[17388] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17390,
-			}, -- [14]
-			{
+			},
+			[17389] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17391,
-			}, -- [15]
-			{
+			},
+			[26203] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 26203,
-			}, -- [16]
+			},
 		},
 		[14951] = {
-			{
+			[34260] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 34260,
-			}, -- [1]
+			},
 		},
 		[25272] = {
-			{
+			[70399] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 70399,
-			}, -- [1]
+			},
 		},
 		[14198] = {
-			{
+			[30314] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 30314,
-			}, -- [1]
+			},
 		},
 		[12670] = {
-			{
+			[25302] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 25302,
-			}, -- [1]
+			},
 		},
 		[19104] = {
-			{
+			[44996] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -4083,34 +3683,30 @@ MogIt_RangedDB = {
 						["instance"] = "Terrace of Endless Spring",
 					}, -- [1]
 				},
-				["sourceID"] = 44996,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[5333] = {
-			{
+			[39136] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 39136,
-			}, -- [1]
+			},
 		},
 		[18403] = {
-			{
+			[47777] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 47777,
-			}, -- [1]
+			},
 		},
 		[2803] = {
-			{
+			[3295] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 3295,
-			}, -- [1]
-			{
+			},
+			[7353] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -4145,12 +3741,11 @@ MogIt_RangedDB = {
 						["instance"] = "Dire Maul",
 					}, -- [3]
 				},
-				["sourceID"] = 7353,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[6356] = {
-			{
+			[9530] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -4166,31 +3761,11 @@ MogIt_RangedDB = {
 						["instance"] = "The Blood Furnace",
 					}, -- [1]
 				},
-				["sourceID"] = 9530,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[13449] = {
-			{
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Asaad, Caliph of Zephyrs",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "The Vortex Pinnacle",
-					}, -- [1]
-				},
-				["sourceID"] = 27418,
-				["faction"] = 1,
-			}, -- [1]
-			{
+			[27689] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -4206,50 +3781,41 @@ MogIt_RangedDB = {
 						["instance"] = "The Vortex Pinnacle",
 					}, -- [1]
 				},
-				["sourceID"] = 27689,
 				["faction"] = 1,
-			}, -- [2]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 34110,
-			}, -- [3]
-		},
-		[22244] = {
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 65343,
-			}, -- [1]
-		},
-		[7124] = {
-			{
+			},
+			[27418] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Pathaleon the Calculator",
+						["encounter"] = "Asaad, Caliph of Zephyrs",
 						["tiers"] = {
-							"Burning Crusade", -- [1]
+							"Cataclysm", -- [1]
 						},
 						["difficulties"] = {
+							"Normal", -- [1]
 						},
-						["instance"] = "The Mechanar",
+						["instance"] = "The Vortex Pinnacle",
 					}, -- [1]
 				},
-				["sourceID"] = 12370,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[34110] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 13870,
-			}, -- [2]
-			{
+			},
+		},
+		[22244] = {
+			[65343] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[7124] = {
+			[15090] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -4265,10 +3831,31 @@ MogIt_RangedDB = {
 						["instance"] = "Sethekk Halls",
 					}, -- [1]
 				},
-				["sourceID"] = 15090,
 				["faction"] = 1,
-			}, -- [3]
-			{
+			},
+			[13870] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[12370] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Pathaleon the Calculator",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Mechanar",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[17522] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -4284,74 +3871,64 @@ MogIt_RangedDB = {
 						["instance"] = "Halls of Lightning",
 					}, -- [1]
 				},
-				["sourceID"] = 17522,
 				["faction"] = 1,
-			}, -- [4]
+			},
 		},
 		[1598] = {
-			{
+			[1712] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
 				["faction"] = 1,
-				["sourceID"] = 1712,
-			}, -- [1]
+			},
 		},
 		[8136] = {
-			{
+			[14217] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 14217,
-			}, -- [1]
+			},
 		},
 		[12437] = {
-			{
+			[24725] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 24725,
-			}, -- [1]
+			},
 		},
 		[17909] = {
-			{
+			[48541] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 41732,
-			}, -- [1]
-			{
+			},
+			[41732] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 41785,
-			}, -- [2]
-			{
+			},
+			[78391] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[43101] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 43101,
-			}, -- [3]
-			{
+			},
+			[41785] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 48541,
-			}, -- [4]
-			{
+			},
+			[51991] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 51991,
-			}, -- [5]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 78391,
-			}, -- [6]
+			},
 		},
 		[10346] = {
-			{
+			[19387] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -4367,46 +3944,40 @@ MogIt_RangedDB = {
 						["instance"] = "Naxxramas",
 					}, -- [1]
 				},
-				["sourceID"] = 19387,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[14552] = {
-			{
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-				["sourceID"] = 31957,
-			}, -- [1]
-			{
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-				["sourceID"] = 31960,
-			}, -- [2]
-			{
+			[78330] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 78330,
-			}, -- [3]
+			},
+			[31960] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[31957] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
 		},
 		[16074] = {
-			{
+			[39120] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
 				["faction"] = 1,
-				["sourceID"] = 39120,
-			}, -- [1]
+			},
 		},
 		[17532] = {
-			{
+			[45202] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 45202,
-			}, -- [1]
-			{
+			},
+			[84396] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -4423,44 +3994,38 @@ MogIt_RangedDB = {
 						["instance"] = "Temple of the Jade Serpent",
 					}, -- [1]
 				},
-				["sourceID"] = 84396,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[1600] = {
-			{
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-				["sourceID"] = 1715,
-			}, -- [1]
-			{
+			[10265] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 10265,
-			}, -- [2]
-			{
+			},
+			[1715] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+			[25898] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 25898,
-			}, -- [3]
-			{
+			},
+			[28440] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 28440,
-			}, -- [4]
-			{
+			},
+			[29728] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 29728,
-			}, -- [5]
+			},
 		},
 		[11941] = {
-			{
+			[22956] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -4476,10 +4041,9 @@ MogIt_RangedDB = {
 						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
-				["sourceID"] = 22956,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[23120] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -4495,98 +4059,85 @@ MogIt_RangedDB = {
 						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
-				["sourceID"] = 23120,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[866] = {
-			{
+			[1713] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
 				["faction"] = 1,
-				["sourceID"] = 1713,
-			}, -- [1]
-			{
+			},
+			[6093] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 6093,
-			}, -- [2]
+			},
 		},
 		[9340] = {
-			{
+			[16650] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 16650,
-			}, -- [1]
-			{
+			},
+			[17567] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 17567,
-			}, -- [2]
+			},
 		},
 		[1601] = {
-			{
+			[1716] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
 				["faction"] = 1,
-				["sourceID"] = 1716,
-			}, -- [1]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 4809,
-			}, -- [2]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 10272,
-			}, -- [3]
-			{
+			},
+			[31908] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 31908,
-			}, -- [4]
-		},
-		[14085] = {
-			{
+			},
+			[4809] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 29976,
-			}, -- [1]
+			},
+			[10272] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[14085] = {
+			[29976] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
 		},
 		[9146] = {
-			{
+			[16312] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 16312,
-			}, -- [1]
+			},
 		},
 		[14503] = {
-			{
+			[34148] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 34148,
-			}, -- [1]
+			},
 		},
 		[17127] = {
-			{
+			[39121] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
 				["faction"] = 1,
-				["sourceID"] = 39121,
-			}, -- [1]
+			},
 		},
 		[13453] = {
-			{
+			[27423] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -4602,10 +4153,9 @@ MogIt_RangedDB = {
 						["instance"] = "The Vortex Pinnacle",
 					}, -- [1]
 				},
-				["sourceID"] = 27423,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[27696] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -4621,52 +4171,45 @@ MogIt_RangedDB = {
 						["instance"] = "The Vortex Pinnacle",
 					}, -- [1]
 				},
-				["sourceID"] = 27696,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[867] = {
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 1613,
-			}, -- [1]
-			{
+			[1710] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
 				["faction"] = 1,
-				["sourceID"] = 1710,
-			}, -- [2]
-			{
+			},
+			[1768] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 1768,
-			}, -- [3]
-			{
+			},
+			[1613] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 10275,
-			}, -- [4]
+			},
+			[10275] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
 		},
 		[22073] = {
-			{
+			[65377] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 65377,
-			}, -- [1]
-			{
+			},
+			[65479] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 65479,
-			}, -- [2]
+			},
 		},
 		[18880] = {
-			{
+			[44381] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -4683,65 +4226,57 @@ MogIt_RangedDB = {
 						["instance"] = "Terrace of Endless Spring",
 					}, -- [1]
 				},
-				["sourceID"] = 44381,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[14260] = {
-			{
+			[30520] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 30520,
-			}, -- [1]
-			{
+			},
+			[74253] = {
 				["classes"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 74253,
-			}, -- [2]
+			},
 		},
 		[14007] = {
-			{
+			[29603] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
 				["faction"] = 1,
-				["sourceID"] = 29603,
-			}, -- [1]
+			},
 		},
 		[25404] = {
-			{
+			[70568] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 70568,
-			}, -- [1]
+			},
 		},
 		[19134] = {
-			{
+			[45203] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 45203,
-			}, -- [1]
+			},
 		},
 		[8170] = {
-			{
+			[14314] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 14314,
-			}, -- [1]
+			},
 		},
 		[20826] = {
-			{
+			[55333] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 55333,
-			}, -- [1]
+			},
 		},
 		[22105] = {
-			{
+			[61144] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -4757,62 +4292,54 @@ MogIt_RangedDB = {
 						["instance"] = "Iron Docks",
 					}, -- [1]
 				},
-				["sourceID"] = 61144,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[6643] = {
-			{
+			[10267] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 10267,
-			}, -- [1]
-			{
+			},
+			[28163] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 28163,
-			}, -- [2]
+			},
 		},
 		[6644] = {
-			{
+			[10269] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 10269,
-			}, -- [1]
-			{
+			},
+			[10278] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 10278,
-			}, -- [2]
+			},
 		},
 		[6645] = {
-			{
+			[10274] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 10274,
-			}, -- [1]
+			},
 		},
 		[23532] = {
-			{
+			[65445] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 65445,
-			}, -- [1]
-			{
+			},
+			[70380] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 70380,
-			}, -- [2]
+			},
 		},
 		[20116] = {
-			{
+			[50912] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -4829,50 +4356,44 @@ MogIt_RangedDB = {
 						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
-				["sourceID"] = 50912,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[10969] = {
-			{
+			[20541] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 20541,
-			}, -- [1]
+			},
 		},
 		[22075] = {
-			{
+			[65462] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 65462,
-			}, -- [1]
+			},
 		},
 		[16073] = {
-			{
+			[37668] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 37668,
-			}, -- [1]
+			},
 		},
 		[22333] = {
-			{
+			[59100] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
 				["faction"] = 1,
-				["sourceID"] = 59100,
-			}, -- [1]
-			{
+			},
+			[62916] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
 				["faction"] = 1,
-				["sourceID"] = 62916,
-			}, -- [2]
+			},
 		},
 		[17555] = {
-			{
+			[84395] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -4889,20 +4410,18 @@ MogIt_RangedDB = {
 						["instance"] = "Stormstout Brewery",
 					}, -- [1]
 				},
-				["sourceID"] = 84395,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[22335] = {
-			{
+			[62918] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
 				["faction"] = 1,
-				["sourceID"] = 62918,
-			}, -- [1]
+			},
 		},
 		[20113] = {
-			{
+			[49773] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -4919,12 +4438,11 @@ MogIt_RangedDB = {
 						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
-				["sourceID"] = 49773,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[23177] = {
-			{
+			[62864] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -4940,12 +4458,11 @@ MogIt_RangedDB = {
 						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
-				["sourceID"] = 62864,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[23178] = {
-			{
+			[62866] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -4961,20 +4478,18 @@ MogIt_RangedDB = {
 						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
-				["sourceID"] = 62866,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[15832] = {
-			{
+			[36441] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
 				["faction"] = 1,
-				["sourceID"] = 36441,
-			}, -- [1]
+			},
 		},
 		[26234] = {
-			{
+			[70146] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -4990,38 +4505,34 @@ MogIt_RangedDB = {
 						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
-				["sourceID"] = 70146,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[19368] = {
-			{
+			[46294] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 46294,
-			}, -- [1]
+			},
 		},
 		[29917] = {
-			{
+			[78577] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 78577,
-			}, -- [1]
+			},
 		},
 		[29931] = {
-			{
+			[78578] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 78578,
-			}, -- [1]
+			},
 		},
 	},
 	["Bow"] = {
 		[12525] = {
-			{
+			[24861] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -5037,12 +4548,11 @@ MogIt_RangedDB = {
 						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
-				["sourceID"] = 24861,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[21169] = {
-			{
+			[61526] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -5067,36 +4577,32 @@ MogIt_RangedDB = {
 						["instance"] = "Siege of Orgrimmar",
 					}, -- [2]
 				},
-				["sourceID"] = 61526,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[22193] = {
-			{
+			[67325] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 67325,
-			}, -- [1]
+			},
 		},
 		[13298] = {
-			{
+			[26921] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 26921,
-			}, -- [1]
+			},
 		},
 		[13300] = {
-			{
+			[26925] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 26925,
-			}, -- [1]
+			},
 		},
 		[12792] = {
-			{
+			[25642] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -5112,20 +4618,18 @@ MogIt_RangedDB = {
 						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
-				["sourceID"] = 25642,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[25277] = {
-			{
+			[70397] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 70397,
-			}, -- [1]
+			},
 		},
 		[9232] = {
-			{
+			[16526] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -5141,18 +4645,16 @@ MogIt_RangedDB = {
 						["instance"] = "Gundrak",
 					}, -- [1]
 				},
-				["sourceID"] = 16526,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[18040] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 18040,
-			}, -- [2]
+			},
 		},
 		[16125] = {
-			{
+			[39744] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -5169,12 +4671,11 @@ MogIt_RangedDB = {
 						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
-				["sourceID"] = 39744,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[16127] = {
-			{
+			[39848] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -5191,12 +4692,11 @@ MogIt_RangedDB = {
 						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
-				["sourceID"] = 39848,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[5410] = {
-			{
+			[7661] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -5211,12 +4711,11 @@ MogIt_RangedDB = {
 						["instance"] = "Blackwing Lair",
 					}, -- [1]
 				},
-				["sourceID"] = 7661,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[15894] = {
-			{
+			[36609] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -5233,72 +4732,62 @@ MogIt_RangedDB = {
 						["instance"] = "Firelands",
 					}, -- [1]
 				},
-				["sourceID"] = 36609,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[1618] = {
-			{
+			[1738] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 1738,
-			}, -- [1]
+			},
 		},
 		[21811] = {
-			{
+			[65321] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 65321,
-			}, -- [1]
+			},
 		},
 		[971] = {
-			{
+			[7751] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[7753] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[967] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 967,
-			}, -- [1]
-			{
+			},
+			[7752] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 7751,
-			}, -- [2]
-			{
+			},
+			[7754] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 7752,
-			}, -- [3]
-			{
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-				["sourceID"] = 7753,
-			}, -- [4]
-			{
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-				["sourceID"] = 7754,
-			}, -- [5]
-			{
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-				["sourceID"] = 8080,
-			}, -- [6]
-			{
+			},
+			[10246] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 10246,
-			}, -- [7]
+			},
+			[8080] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
 		},
 		[10312] = {
-			{
+			[19292] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -5325,12 +4814,11 @@ MogIt_RangedDB = {
 						["instance"] = "Naxxramas",
 					}, -- [2]
 				},
-				["sourceID"] = 19292,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[3615] = {
-			{
+			[4509] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -5345,56 +4833,49 @@ MogIt_RangedDB = {
 						["instance"] = "Lower Blackrock Spire",
 					}, -- [1]
 				},
-				["sourceID"] = 4509,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[22102] = {
-			{
+			[65406] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 65406,
-			}, -- [1]
-			{
+			},
+			[65474] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 65474,
-			}, -- [2]
+			},
 		},
 		[14912] = {
-			{
+			[33338] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 33338,
-			}, -- [1]
+			},
 		},
 		[972] = {
-			{
+			[968] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 968,
-			}, -- [1]
+			},
 		},
 		[9308] = {
-			{
+			[17351] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17351,
-			}, -- [1]
-			{
+			},
+			[17354] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17354,
-			}, -- [2]
+			},
 		},
 		[6968] = {
-			{
+			[12084] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -5410,18 +4891,16 @@ MogIt_RangedDB = {
 						["instance"] = "Mana-Tombs",
 					}, -- [1]
 				},
-				["sourceID"] = 12084,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[14300] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 14300,
-			}, -- [2]
+			},
 		},
 		[15946] = {
-			{
+			[36818] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -5438,28 +4917,25 @@ MogIt_RangedDB = {
 						["instance"] = "Firelands",
 					}, -- [1]
 				},
-				["sourceID"] = 36818,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[12635] = {
-			{
+			[25251] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 25251,
-			}, -- [1]
+			},
 		},
 		[20377] = {
-			{
+			[50351] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 50351,
-			}, -- [1]
+			},
 		},
 		[21150] = {
-			{
+			[61895] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -5474,20 +4950,18 @@ MogIt_RangedDB = {
 						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
-				["sourceID"] = 61895,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[5960] = {
-			{
+			[8786] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 8786,
-			}, -- [1]
+			},
 		},
 		[21166] = {
-			{
+			[61528] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -5512,26 +4986,23 @@ MogIt_RangedDB = {
 						["instance"] = "Siege of Orgrimmar",
 					}, -- [2]
 				},
-				["sourceID"] = 61528,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[14952] = {
-			{
+			[34261] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 34261,
-			}, -- [1]
-			{
+			},
+			[78339] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 78339,
-			}, -- [2]
+			},
 		},
 		[22194] = {
-			{
+			[61174] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -5547,40 +5018,35 @@ MogIt_RangedDB = {
 						["instance"] = "Shadowmoon Burial Grounds",
 					}, -- [1]
 				},
-				["sourceID"] = 61174,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[14199] = {
-			{
+			[30327] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 30327,
-			}, -- [1]
+			},
 		},
 		[1054] = {
-			{
+			[1060] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 1060,
-			}, -- [1]
-			{
+			},
+			[4016] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 4016,
-			}, -- [2]
-			{
+			},
+			[14359] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 14359,
-			}, -- [3]
+			},
 		},
 		[2228] = {
-			{
+			[2579] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -5595,20 +5061,18 @@ MogIt_RangedDB = {
 						["instance"] = "Razorfen Kraul",
 					}, -- [1]
 				},
-				["sourceID"] = 2579,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[13958] = {
-			{
+			[29459] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 29459,
-			}, -- [1]
+			},
 		},
 		[2105] = {
-			{
+			[2427] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -5623,66 +5087,58 @@ MogIt_RangedDB = {
 						["instance"] = "Wailing Caverns",
 					}, -- [1]
 				},
-				["sourceID"] = 2427,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[10143] = {
-			{
+			[18911] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 18911,
-			}, -- [1]
+			},
 		},
 		[4451] = {
-			{
+			[6068] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 6068,
-			}, -- [1]
+			},
 		},
 		[4452] = {
-			{
+			[6070] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 6070,
-			}, -- [1]
+			},
 		},
 		[4453] = {
-			{
+			[6071] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 6071,
-			}, -- [1]
-			{
+			},
+			[10417] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 10417,
-			}, -- [2]
+			},
 		},
 		[9131] = {
-			{
+			[16284] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 16284,
-			}, -- [1]
+			},
 		},
 		[4455] = {
-			{
+			[6073] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 6073,
-			}, -- [1]
+			},
 		},
 		[13980] = {
-			{
+			[29571] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -5699,10 +5155,9 @@ MogIt_RangedDB = {
 						["instance"] = "Blackwing Descent",
 					}, -- [1]
 				},
-				["sourceID"] = 29571,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[32649] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -5719,12 +5174,11 @@ MogIt_RangedDB = {
 						["instance"] = "Blackwing Descent",
 					}, -- [1]
 				},
-				["sourceID"] = 32649,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[12201] = {
-			{
+			[24418] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -5740,190 +5194,164 @@ MogIt_RangedDB = {
 						["instance"] = "Halls of Reflection",
 					}, -- [1]
 				},
-				["sourceID"] = 24418,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[9653] = {
-			{
+			[17357] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17357,
-			}, -- [1]
-			{
+			},
+			[21238] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 21238,
-			}, -- [2]
+			},
 		},
 		[9655] = {
-			{
+			[17359] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17359,
-			}, -- [1]
-			{
+			},
+			[18325] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 18325,
-			}, -- [2]
+			},
 		},
 		[9657] = {
-			{
+			[17361] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17361,
-			}, -- [1]
+			},
 		},
 		[9659] = {
-			{
+			[17363] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17363,
-			}, -- [1]
-			{
+			},
+			[19143] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 19143,
-			}, -- [2]
+			},
 		},
 		[21812] = {
-			{
+			[65372] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[63754] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 63754,
-			}, -- [1]
-			{
+			},
+			[65355] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 65355,
-			}, -- [2]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 65372,
-			}, -- [3]
+			},
 		},
 		[1061] = {
-			{
+			[1070] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 1070,
-			}, -- [1]
+			},
 		},
 		[947] = {
-			{
+			[10250] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 10238,
-			}, -- [1]
-			{
+			},
+			[10241] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 10241,
-			}, -- [2]
-			{
+			},
+			[10249] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 10249,
-			}, -- [3]
-			{
+			},
+			[10238] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 10250,
-			}, -- [4]
+			},
 		},
 		[14006] = {
-			{
+			[29602] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
 				["faction"] = 1,
-				["sourceID"] = 29602,
-			}, -- [1]
+			},
 		},
 		[1508] = {
-			{
+			[1611] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 1611,
-			}, -- [1]
+			},
 		},
 		[1062] = {
-			{
+			[1071] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 1071,
-			}, -- [1]
+			},
 		},
 		[1891] = {
-			{
+			[2142] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 2142,
-			}, -- [1]
+			},
 		},
 		[14779] = {
-			{
+			[32860] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 32860,
-			}, -- [1]
+			},
 		},
 		[22103] = {
-			{
+			[65491] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 65389,
-			}, -- [1]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 65491,
-			}, -- [2]
-			{
+			},
+			[66383] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 66383,
-			}, -- [3]
+			},
+			[65389] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
 		},
 		[14528] = {
-			{
+			[31739] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 31739,
-			}, -- [1]
-			{
+			},
+			[31744] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 31744,
-			}, -- [2]
+			},
 		},
 		[5751] = {
-			{
+			[8480] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -5938,26 +5366,23 @@ MogIt_RangedDB = {
 						["instance"] = "Ruins of Ahn'Qiraj",
 					}, -- [1]
 				},
-				["sourceID"] = 8480,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[10962] = {
-			{
+			[20530] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 20530,
-			}, -- [1]
-			{
+			},
+			[20546] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 20546,
-			}, -- [2]
+			},
 		},
 		[1319] = {
-			{
+			[7459] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -5972,48 +5397,42 @@ MogIt_RangedDB = {
 						["instance"] = "Stratholme",
 					}, -- [1]
 				},
-				["sourceID"] = 7459,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[10244] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 10244,
-			}, -- [2]
-			{
+			},
+			[15324] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 15324,
-			}, -- [3]
+			},
 		},
 		[8675] = {
-			{
+			[49189] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 49189,
-			}, -- [1]
+			},
 		},
 		[10972] = {
-			{
+			[20545] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 20545,
-			}, -- [1]
+			},
 		},
 		[2633] = {
-			{
+			[3083] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 3083,
-			}, -- [1]
+			},
 		},
 		[7803] = {
-			{
+			[13542] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -6028,20 +5447,18 @@ MogIt_RangedDB = {
 						["instance"] = "Serpentshrine Cavern",
 					}, -- [1]
 				},
-				["sourceID"] = 13542,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[20378] = {
-			{
+			[50975] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 50975,
-			}, -- [1]
+			},
 		},
 		[7040] = {
-			{
+			[12196] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -6057,12 +5474,11 @@ MogIt_RangedDB = {
 						["instance"] = "The Black Morass",
 					}, -- [1]
 				},
-				["sourceID"] = 12196,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[26263] = {
-			{
+			[70117] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -6078,48 +5494,42 @@ MogIt_RangedDB = {
 						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
-				["sourceID"] = 70117,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[1833] = {
-			{
+			[6074] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 6074,
-			}, -- [1]
-			{
+			},
+			[66971] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 66971,
-			}, -- [2]
+			},
 		},
 		[1642] = {
-			{
+			[1767] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 1767,
-			}, -- [1]
-			{
+			},
+			[9047] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 9047,
-			}, -- [2]
+			},
 		},
 		[3404] = {
-			{
+			[4162] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 4162,
-			}, -- [1]
+			},
 		},
 		[7558] = {
-			{
+			[13096] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -6135,20 +5545,18 @@ MogIt_RangedDB = {
 						["instance"] = "The Steamvault",
 					}, -- [1]
 				},
-				["sourceID"] = 13096,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[3405] = {
-			{
+			[4164] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 4164,
-			}, -- [1]
+			},
 		},
 		[6796] = {
-			{
+			[10665] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -6164,36 +5572,32 @@ MogIt_RangedDB = {
 						["instance"] = "Mana-Tombs",
 					}, -- [1]
 				},
-				["sourceID"] = 10665,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[25279] = {
-			{
+			[71308] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 71308,
-			}, -- [1]
+			},
 		},
 		[3790] = {
-			{
+			[26851] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 26851,
-			}, -- [1]
+			},
 		},
 		[18402] = {
-			{
+			[47729] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 47729,
-			}, -- [1]
+			},
 		},
 		[5526] = {
-			{
+			[35534] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -6209,20 +5613,18 @@ MogIt_RangedDB = {
 						["instance"] = "Zul'Gurub",
 					}, -- [1]
 				},
-				["sourceID"] = 35534,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[23514] = {
-			{
+			[66552] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 66552,
-			}, -- [1]
+			},
 		},
 		[16126] = {
-			{
+			[39857] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -6238,18 +5640,16 @@ MogIt_RangedDB = {
 						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
-				["sourceID"] = 39857,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[17657] = {
-			{
+			[57191] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 57191,
-			}, -- [1]
-			{
+			},
+			[84444] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -6266,56 +5666,49 @@ MogIt_RangedDB = {
 						["instance"] = "Siege of Niuzao Temple",
 					}, -- [1]
 				},
-				["sourceID"] = 84444,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[8990] = {
-			{
+			[16019] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 16019,
-			}, -- [1]
+			},
 		},
 		[3406] = {
-			{
+			[4165] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 4165,
-			}, -- [1]
+			},
 		},
 		[5280] = {
-			{
+			[69183] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 69183,
-			}, -- [1]
+			},
 		},
 		[2631] = {
-			{
+			[25826] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[3080] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 3080,
-			}, -- [1]
-			{
+			},
+			[25871] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 25826,
-			}, -- [2]
-			{
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-				["sourceID"] = 25871,
-			}, -- [3]
+			},
 		},
 		[26262] = {
-			{
+			[70118] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -6331,12 +5724,11 @@ MogIt_RangedDB = {
 						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
-				["sourceID"] = 70118,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[23908] = {
-			{
+			[62436] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -6352,34 +5744,30 @@ MogIt_RangedDB = {
 						["instance"] = "Highmaul",
 					}, -- [1]
 				},
-				["sourceID"] = 62436,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[9651] = {
-			{
+			[17352] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17352,
-			}, -- [1]
-			{
+			},
+			[17479] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 17479,
-			}, -- [2]
+			},
 		},
 		[11699] = {
-			{
+			[22446] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 22446,
-			}, -- [1]
+			},
 		},
 		[18842] = {
-			{
+			[44289] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -6396,20 +5784,18 @@ MogIt_RangedDB = {
 						["instance"] = "Mogu'shan Vaults",
 					}, -- [1]
 				},
-				["sourceID"] = 44289,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[22345] = {
-			{
+			[80292] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 80292,
-			}, -- [1]
+			},
 		},
 		[22191] = {
-			{
+			[59641] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -6425,10 +5811,9 @@ MogIt_RangedDB = {
 						["instance"] = "Shadowmoon Burial Grounds",
 					}, -- [1]
 				},
-				["sourceID"] = 59641,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[61173] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -6443,26 +5828,23 @@ MogIt_RangedDB = {
 						["instance"] = "Shadowmoon Burial Grounds",
 					}, -- [1]
 				},
-				["sourceID"] = 61173,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[954] = {
-			{
+			[6067] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 6067,
-			}, -- [1]
-			{
+			},
+			[27461] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 27461,
-			}, -- [2]
+			},
 		},
 		[5799] = {
-			{
+			[8556] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -6477,12 +5859,11 @@ MogIt_RangedDB = {
 						["instance"] = "Temple of Ahn'Qiraj",
 					}, -- [1]
 				},
-				["sourceID"] = 8556,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[18996] = {
-			{
+			[44685] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -6498,12 +5879,11 @@ MogIt_RangedDB = {
 						["instance"] = "Mogu'shan Vaults",
 					}, -- [1]
 				},
-				["sourceID"] = 44685,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[21167] = {
-			{
+			[61527] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -6528,12 +5908,11 @@ MogIt_RangedDB = {
 						["instance"] = "Siege of Orgrimmar",
 					}, -- [2]
 				},
-				["sourceID"] = 61527,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[8019] = {
-			{
+			[13979] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -6548,20 +5927,18 @@ MogIt_RangedDB = {
 						["instance"] = "The Battle for Mount Hyjal",
 					}, -- [1]
 				},
-				["sourceID"] = 13979,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[21813] = {
-			{
+			[65423] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 65423,
-			}, -- [1]
+			},
 		},
 		[20107] = {
-			{
+			[50203] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -6577,58 +5954,51 @@ MogIt_RangedDB = {
 						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
-				["sourceID"] = 50203,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[13302] = {
-			{
+			[26927] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 26927,
-			}, -- [1]
+			},
 		},
 		[8267] = {
-			{
+			[14598] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 14598,
-			}, -- [1]
+			},
 		},
 		[10457] = {
-			{
+			[20153] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 20153,
-			}, -- [1]
+			},
 		},
 		[3295] = {
-			{
+			[3991] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 3991,
-			}, -- [1]
-			{
+			},
+			[4661] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 4661,
-			}, -- [2]
+			},
 		},
 		[20593] = {
-			{
+			[55286] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 55286,
-			}, -- [1]
+			},
 		},
 		[5115] = {
-			{
+			[7078] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -6643,20 +6013,18 @@ MogIt_RangedDB = {
 						["instance"] = "Molten Core",
 					}, -- [1]
 				},
-				["sourceID"] = 7078,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[22100] = {
-			{
+			[65338] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 65338,
-			}, -- [1]
+			},
 		},
 		[20106] = {
-			{
+			[49622] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -6673,36 +6041,32 @@ MogIt_RangedDB = {
 						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
-				["sourceID"] = 49622,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[22707] = {
-			{
+			[64485] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 64485,
-			}, -- [1]
+			},
 		},
 		[2788] = {
-			{
+			[3275] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 3275,
-			}, -- [1]
+			},
 		},
 		[6326] = {
-			{
+			[10243] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 10243,
-			}, -- [1]
+			},
 		},
 		[1753] = {
-			{
+			[7270] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -6717,18 +6081,16 @@ MogIt_RangedDB = {
 						["instance"] = "Dire Maul",
 					}, -- [1]
 				},
-				["sourceID"] = 7270,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[9044] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 9044,
-			}, -- [2]
+			},
 		},
 		[23909] = {
-			{
+			[62435] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -6744,86 +6106,74 @@ MogIt_RangedDB = {
 						["instance"] = "Highmaul",
 					}, -- [1]
 				},
-				["sourceID"] = 62435,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[17908] = {
-			{
+			[41727] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 41727,
-			}, -- [1]
-			{
+			},
+			[42789] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 42789,
-			}, -- [2]
+			},
 		},
 		[1463] = {
-			{
+			[9252] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[4161] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 4161,
-			}, -- [1]
-			{
+			},
+			[12276] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 9252,
-			}, -- [2]
-			{
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-				["sourceID"] = 12276,
-			}, -- [3]
+			},
 		},
 		[17755] = {
-			{
+			[41621] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[41674] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[41568] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[41173] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 41173,
-			}, -- [1]
-			{
+			},
+			[41540] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 41540,
-			}, -- [2]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 41568,
-			}, -- [3]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 41621,
-			}, -- [4]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 41674,
-			}, -- [5]
+			},
 		},
 		[25463] = {
-			{
+			[71477] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 71477,
-			}, -- [1]
+			},
 		},
 		[19084] = {
-			{
+			[44913] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -6840,12 +6190,11 @@ MogIt_RangedDB = {
 						["instance"] = "Mogu'shan Vaults",
 					}, -- [1]
 				},
-				["sourceID"] = 44913,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[20108] = {
-			{
+			[50827] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -6862,12 +6211,11 @@ MogIt_RangedDB = {
 						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
-				["sourceID"] = 50827,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[7355] = {
-			{
+			[12718] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -6882,66 +6230,57 @@ MogIt_RangedDB = {
 						["instance"] = "Karazhan",
 					}, -- [1]
 				},
-				["sourceID"] = 12718,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[20375] = {
-			{
+			[50117] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 50117,
-			}, -- [1]
+			},
 		},
 		[9327] = {
-			{
+			[16634] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 16634,
-			}, -- [1]
-			{
+			},
+			[17355] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17355,
-			}, -- [2]
+			},
 		},
 		[862] = {
-			{
+			[4160] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 4160,
-			}, -- [1]
-			{
+			},
+			[31557] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[13644] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[28384] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[7364] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 7364,
-			}, -- [2]
-			{
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-				["sourceID"] = 13644,
-			}, -- [3]
-			{
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-				["sourceID"] = 28384,
-			}, -- [4]
-			{
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-				["sourceID"] = 31557,
-			}, -- [5]
+			},
 		},
 		[21148] = {
-			{
+			[61894] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -6956,67 +6295,42 @@ MogIt_RangedDB = {
 						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
-				["sourceID"] = 61894,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[6637] = {
-			{
+			[10247] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 10247,
-			}, -- [1]
+			},
 		},
 		[22192] = {
-			{
+			[67846] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 67846,
-			}, -- [1]
+			},
 		},
 		[3708] = {
-			{
+			[8140] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[4660] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 4660,
-			}, -- [1]
-			{
+			},
+			[28346] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 8140,
-			}, -- [2]
-			{
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-				["sourceID"] = 28346,
-			}, -- [3]
+			},
 		},
 		[13419] = {
-			{
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Ascendant Lord Obsidius",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Blackrock Caverns",
-					}, -- [1]
-				},
-				["sourceID"] = 27383,
-				["faction"] = 1,
-			}, -- [1]
-			{
+			[27656] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -7032,56 +6346,62 @@ MogIt_RangedDB = {
 						["instance"] = "Blackrock Caverns",
 					}, -- [1]
 				},
-				["sourceID"] = 27656,
 				["faction"] = 1,
-			}, -- [2]
-			{
+			},
+			[30744] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 30744,
-			}, -- [3]
+			},
+			[27383] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Ascendant Lord Obsidius",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Blackrock Caverns",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
 		},
 		[5324] = {
-			{
+			[39146] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 39146,
-			}, -- [1]
+			},
 		},
 		[19132] = {
-			{
+			[45200] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 45200,
-			}, -- [1]
+			},
 		},
 		[10875] = {
-			{
+			[37353] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 37353,
-			}, -- [1]
+			},
 		},
-		[21814] = {
-			{
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-				["sourceID"] = 62146,
-			}, -- [1]
-			{
+		[3707] = {
+			[4659] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 65440,
-			}, -- [2]
+			},
 		},
 		[19144] = {
-			{
+			[84486] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -7098,20 +6418,18 @@ MogIt_RangedDB = {
 						["instance"] = "Gate of the Setting Sun",
 					}, -- [1]
 				},
-				["sourceID"] = 84486,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
-		[3707] = {
-			{
+		[6633] = {
+			[10239] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 4659,
-			}, -- [1]
+			},
 		},
 		[11393] = {
-			{
+			[21796] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -7127,58 +6445,51 @@ MogIt_RangedDB = {
 						["instance"] = "Ulduar",
 					}, -- [1]
 				},
-				["sourceID"] = 21796,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[13180] = {
-			{
+			[26720] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 26720,
-			}, -- [1]
+			},
 		},
 		[16067] = {
-			{
+			[37678] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 37678,
-			}, -- [1]
+			},
 		},
 		[1915] = {
-			{
+			[2172] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 2172,
-			}, -- [1]
-			{
+			},
+			[4163] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 4163,
-			}, -- [2]
+			},
 		},
 		[13186] = {
-			{
+			[26777] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 26777,
-			}, -- [1]
+			},
 		},
 		[5521] = {
-			{
+			[35508] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 35508,
-			}, -- [1]
+			},
 		},
 		[8855] = {
-			{
+			[15786] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -7193,12 +6504,11 @@ MogIt_RangedDB = {
 						["instance"] = "Sunwell Plateau",
 					}, -- [1]
 				},
-				["sourceID"] = 15786,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[6885] = {
-			{
+			[11956] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -7214,20 +6524,18 @@ MogIt_RangedDB = {
 						["instance"] = "The Shattered Halls",
 					}, -- [1]
 				},
-				["sourceID"] = 11956,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[1063] = {
-			{
+			[1072] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 1072,
-			}, -- [1]
+			},
 		},
 		[8379] = {
-			{
+			[14915] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -7242,44 +6550,39 @@ MogIt_RangedDB = {
 						["instance"] = "Black Temple",
 					}, -- [1]
 				},
-				["sourceID"] = 14915,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[9652] = {
-			{
+			[17356] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17356,
-			}, -- [1]
+			},
 		},
 		[4450] = {
-			{
+			[6066] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 6066,
-			}, -- [1]
+			},
 		},
 		[4456] = {
-			{
+			[6075] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 6075,
-			}, -- [1]
+			},
 		},
 		[4454] = {
-			{
+			[6072] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 6072,
-			}, -- [1]
+			},
 		},
 		[11573] = {
-			{
+			[22101] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -7295,20 +6598,18 @@ MogIt_RangedDB = {
 						["instance"] = "Ulduar",
 					}, -- [1]
 				},
-				["sourceID"] = 22101,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[13178] = {
-			{
+			[26717] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 26717,
-			}, -- [1]
+			},
 		},
 		[6090] = {
-			{
+			[18780] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -7335,12 +6636,11 @@ MogIt_RangedDB = {
 						["instance"] = "Naxxramas",
 					}, -- [2]
 				},
-				["sourceID"] = 18780,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[1084] = {
-			{
+			[1096] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -7355,180 +6655,161 @@ MogIt_RangedDB = {
 						["instance"] = "Blackfathom Deeps",
 					}, -- [1]
 				},
-				["sourceID"] = 1096,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[6069] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 6069,
-			}, -- [2]
+			},
 		},
 		[14403] = {
-			{
+			[30716] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 30716,
-			}, -- [1]
+			},
 		},
 		[15620] = {
-			{
+			[35783] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 35783,
-			}, -- [1]
+			},
 		},
 		[14580] = {
-			{
+			[32075] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 32075,
-			}, -- [1]
-			{
+			},
+			[34127] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 34127,
-			}, -- [2]
+			},
 		},
 		[9650] = {
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 17350,
-			}, -- [1]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 17353,
-			}, -- [2]
-			{
+			[17615] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 17615,
-			}, -- [3]
-			{
+			},
+			[18681] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 18681,
-			}, -- [4]
+			},
+			[17353] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[17350] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
 		},
 		[5097] = {
-			{
+			[12161] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 12161,
-			}, -- [1]
+			},
 		},
 		[9654] = {
-			{
+			[17358] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17358,
-			}, -- [1]
+			},
 		},
 		[9656] = {
-			{
+			[17360] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17360,
-			}, -- [1]
+			},
 		},
 		[9658] = {
-			{
+			[18680] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[18277] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[17362] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 17362,
-			}, -- [1]
-			{
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-				["sourceID"] = 18277,
-			}, -- [2]
-			{
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-				["sourceID"] = 18680,
-			}, -- [3]
+			},
 		},
 		[7906] = {
-			{
+			[14140] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 14140,
-			}, -- [1]
+			},
 		},
 		[6632] = {
-			{
+			[10237] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 10237,
-			}, -- [1]
+			},
 		},
-		[6633] = {
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 10239,
-			}, -- [1]
-		},
-		[6634] = {
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 10240,
-			}, -- [1]
-		},
-		[6635] = {
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 10242,
-			}, -- [1]
-		},
-		[6636] = {
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 10245,
-			}, -- [1]
-			{
+		[21814] = {
+			[62146] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 66419,
-			}, -- [2]
-		},
-		[3709] = {
-			{
+			},
+			[65440] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 4662,
-			}, -- [1]
+			},
+		},
+		[6634] = {
+			[10240] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[6635] = {
+			[10242] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[6636] = {
+			[10245] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[66419] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[3709] = {
+			[4662] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
 		},
 		[26264] = {
-			{
+			[70119] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -7544,102 +6825,87 @@ MogIt_RangedDB = {
 						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
-				["sourceID"] = 70119,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[3710] = {
-			{
+			[10248] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 4663,
-			}, -- [1]
-			{
+			},
+			[4663] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 10248,
-			}, -- [2]
-			{
+			},
+			[10680] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 10680,
-			}, -- [3]
+			},
 		},
 		[22352] = {
-			{
+			[81576] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 81576,
-			}, -- [1]
+			},
 		},
 		[22101] = {
-			{
+			[64184] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[64192] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[64200] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[64208] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[64216] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[63762] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 61858,
-			}, -- [1]
-			{
+			},
+			[64364] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[61858] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 63762,
-			}, -- [2]
-			{
+			},
+			[64176] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 64176,
-			}, -- [3]
-			{
+			},
+			[65457] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 64184,
-			}, -- [4]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 64192,
-			}, -- [5]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 64200,
-			}, -- [6]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 64208,
-			}, -- [7]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 64216,
-			}, -- [8]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 64364,
-			}, -- [9]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 65457,
-			}, -- [10]
+			},
 		},
 		[3427] = {
-			{
+			[4205] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -7654,26 +6920,23 @@ MogIt_RangedDB = {
 						["instance"] = "Blackrock Depths",
 					}, -- [1]
 				},
-				["sourceID"] = 4205,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[17916] = {
-			{
+			[41780] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 41780,
-			}, -- [1]
-			{
+			},
+			[42883] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 42883,
-			}, -- [2]
+			},
 		},
 		[12462] = {
-			{
+			[24760] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -7689,20 +6952,18 @@ MogIt_RangedDB = {
 						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
-				["sourceID"] = 24760,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[22882] = {
-			{
+			[67079] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 67079,
-			}, -- [1]
+			},
 		},
 		[23906] = {
-			{
+			[62434] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -7718,128 +6979,111 @@ MogIt_RangedDB = {
 						["instance"] = "Highmaul",
 					}, -- [1]
 				},
-				["sourceID"] = 62434,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[20595] = {
-			{
+			[54782] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 54782,
-			}, -- [1]
+			},
 		},
 		[13301] = {
-			{
+			[26926] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 26926,
-			}, -- [1]
+			},
 		},
 		[10971] = {
-			{
+			[20544] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 20544,
-			}, -- [1]
+			},
 		},
 		[10973] = {
-			{
+			[20547] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 20547,
-			}, -- [1]
+			},
 		},
 		[13299] = {
-			{
+			[26923] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 26923,
-			}, -- [1]
+			},
 		},
 		[25460] = {
-			{
+			[70566] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 70566,
-			}, -- [1]
+			},
 		},
 		[5378] = {
-			{
+			[25827] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 25827,
-			}, -- [1]
+			},
 		},
 		[13297] = {
-			{
+			[26922] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 26920,
-			}, -- [1]
-			{
+			},
+			[26924] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 26922,
-			}, -- [2]
-			{
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-				["sourceID"] = 26924,
-			}, -- [3]
-			{
+			},
+			[29935] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 29935,
-			}, -- [4]
-			{
+			},
+			[29939] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
-				["sourceID"] = 29939,
-			}, -- [5]
-			{
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-				["sourceID"] = 33185,
-			}, -- [6]
-			{
+			},
+			[26920] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 78360,
-			}, -- [7]
+			},
+			[33185] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[78360] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
 		},
 		[19352] = {
-			{
+			[49674] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-				["sourceID"] = 49674,
-			}, -- [1]
+			},
 		},
 		[22879] = {
-			{
+			[67763] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
-				["sourceID"] = 67763,
-			}, -- [1]
+			},
 		},
 		[22880] = {
-			{
+			[65232] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -7855,12 +7099,11 @@ MogIt_RangedDB = {
 						["instance"] = "Highmaul",
 					}, -- [1]
 				},
-				["sourceID"] = 65232,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[21149] = {
-			{
+			[61893] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -7875,12 +7118,11 @@ MogIt_RangedDB = {
 						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
-				["sourceID"] = 61893,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[9716] = {
-			{
+			[17568] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -7896,12 +7138,11 @@ MogIt_RangedDB = {
 						["instance"] = "Utgarde Pinnacle",
 					}, -- [1]
 				},
-				["sourceID"] = 17568,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[12268] = {
-			{
+			[24505] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -7917,12 +7158,11 @@ MogIt_RangedDB = {
 						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
-				["sourceID"] = 24505,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[25462] = {
-			{
+			[73317] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -7938,24 +7178,23 @@ MogIt_RangedDB = {
 						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
-				["sourceID"] = 73317,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 	},
 	["Wand"] = {
 		[7569] = {
-			{
+			[13110] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 13110,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[18994] = {
-			{
+			[44680] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -7969,22 +7208,20 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 44680,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[11058] = {
-			{
+			[20894] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 20894,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[12599] = {
-			{
+			[25197] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -7998,12 +7235,11 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 25197,
-				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[25577] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -8017,22 +7253,20 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 25577,
-				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[13625] = {
-			{
+			[27922] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 27922,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[19082] = {
-			{
+			[44910] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -8047,58 +7281,51 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 44910,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[21653] = {
-			{
+			[66513] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 66513,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[11126] = {
-			{
+			[21189] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 21189,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[25334] = {
-			{
+			[71352] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 71352,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[71353] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 71353,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[13709] = {
-			{
+			[28272] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 28272,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[28276] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 28276,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[14735] = {
-			{
+			[32654] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -8113,194 +7340,169 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 32654,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[22292] = {
-			{
+			[62136] = {
 				["classes"] = 128,
 				["sourceType"] = 6,
-				["sourceID"] = 62136,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[10144] = {
-			{
+			[18912] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 18912,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[13733] = {
-			{
+			[28555] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 28555,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[8154] = {
-			{
+			[14273] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 14273,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[9669] = {
-			{
+			[17392] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 17392,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[17404] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 17404,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[9673] = {
-			{
+			[17405] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 17398,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[30873] = {
+				["classes"] = 128,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[17398] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 17405,
 				["faction"] = 1,
-			}, -- [2]
-			{
+			},
+			[28316] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 28316,
 				["faction"] = 1,
-			}, -- [3]
-			{
-				["classes"] = 128,
-				["sourceType"] = 2,
-				["sourceID"] = 30873,
-				["faction"] = 1,
-			}, -- [4]
+			},
 		},
 		[11218] = {
-			{
+			[21479] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 21479,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[21480] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 21480,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[1792] = {
-			{
+			[1969] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 1969,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[1793] = {
-			{
+			[1970] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 1970,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[6647] = {
-			{
+			[10281] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 10281,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[6649] = {
-			{
+			[10284] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 10284,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[6651] = {
-			{
+			[10286] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 10286,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[6653] = {
-			{
+			[10288] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 10288,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[6655] = {
-			{
+			[10290] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 10290,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[6657] = {
-			{
+			[10292] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 10292,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[21997] = {
-			{
+			[62149] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 62149,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[65352] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 65352,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[14859] = {
-			{
+			[33167] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 33167,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[5651] = {
-			{
+			[8615] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 8615,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[11310] = {
-			{
+			[21688] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -8314,14 +7516,13 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 21688,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[25662] = {
-			{
+			[73135] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -8335,14 +7536,13 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 73135,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[10308] = {
-			{
+			[19277] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -8367,66 +7567,58 @@ MogIt_RangedDB = {
 						},
 					}, -- [2]
 				},
-				["sourceID"] = 19277,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[13378] = {
-			{
+			[27085] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 27085,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[27087] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 27087,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[23698] = {
-			{
+			[67848] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 67848,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[1810] = {
-			{
+			[1995] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 1995,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[9061] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 9061,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[9326] = {
-			{
+			[16633] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 16633,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[14448] = {
-			{
+			[31254] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 31254,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[22748] = {
-			{
+			[67149] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -8440,20 +7632,18 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 67149,
-				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[67771] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 67771,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[5196] = {
-			{
+			[7197] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
@@ -8466,36 +7656,32 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 7197,
-				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[14597] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 14597,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[1815] = {
-			{
+			[2000] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 2000,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[1816] = {
-			{
+			[2001] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 2001,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[12440] = {
-			{
+			[24734] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -8509,12 +7695,11 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 24734,
-				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[24757] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -8528,46 +7713,41 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 24757,
-				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[1817] = {
-			{
+			[2002] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 2002,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[1818] = {
-			{
+			[2003] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 2003,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[1819] = {
-			{
+			[2004] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 2004,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[9913] = {
-			{
+			[18048] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 18048,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[8384] = {
-			{
+			[14922] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -8580,51 +7760,45 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 14922,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[1822] = {
-			{
+			[2011] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 2011,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[14532] = {
-			{
+			[31774] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 31774,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[1823] = {
-			{
+			[2012] = {
 				["classes"] = 128,
-				["sourceID"] = 2012,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[1824] = {
-			{
+			[2013] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 2013,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[6061] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 6061,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[11486] = {
-			{
+			[21952] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -8638,110 +7812,96 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 21952,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[10979] = {
-			{
+			[20567] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 20553,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[20562] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 20562,
 				["faction"] = 1,
-			}, -- [2]
-			{
+			},
+			[20553] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 20567,
 				["faction"] = 1,
-			}, -- [3]
+			},
 		},
 		[10987] = {
-			{
+			[20569] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 20569,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[24005] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 24005,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[1829] = {
-			{
+			[13004] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 13004,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[2634] = {
-			{
+			[3084] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 3084,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[8464] = {
-			{
+			[15066] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 15066,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[23699] = {
-			{
+			[67847] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 67847,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[8572] = {
-			{
+			[15273] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 15273,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[49180] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 49180,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[22749] = {
-			{
+			[67772] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 67772,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[12672] = {
-			{
+			[25304] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 25304,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[17144] = {
-			{
+			[39775] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -8756,14 +7916,13 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 39775,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[6352] = {
-			{
+			[9525] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
@@ -8777,111 +7936,48 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 9525,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[3694] = {
-			{
+			[4644] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 4644,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[12720] = {
-			{
+			[25379] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 25379,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[17751] = {
-			{
+			[41169] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 41169,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[9670] = {
-			{
+			[17393] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 17393,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[9674] = {
-			{
+			[17402] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 17402,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[6895] = {
-			{
+			[59664] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Warchief Kargath Bladefist",
-						["tiers"] = {
-							"Burning Crusade", -- [1]
-						},
-						["instance"] = "The Shattered Halls",
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-					}, -- [1]
-				},
-				["sourceID"] = 11968,
 				["faction"] = 1,
-			}, -- [1]
-			{
-				["classes"] = 128,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Grand Magus Telestra",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["instance"] = "The Nexus",
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-					}, -- [1]
-				},
-				["sourceID"] = 16551,
-				["faction"] = 1,
-			}, -- [2]
-			{
-				["classes"] = 128,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Prince Keleseth",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["instance"] = "Utgarde Keep",
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-					}, -- [1]
-				},
-				["sourceID"] = 17640,
-				["faction"] = 1,
-			}, -- [3]
-			{
-				["classes"] = 128,
-				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
@@ -8895,14 +7991,67 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 59664,
-				["faction"] = 1,
-			}, -- [4]
-		},
-		[13275] = {
-			{
+			},
+			[16551] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Grand Magus Telestra",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["instance"] = "The Nexus",
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+					}, -- [1]
+				},
+			},
+			[11968] = {
+				["classes"] = 128,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Warchief Kargath Bladefist",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["instance"] = "The Shattered Halls",
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+					}, -- [1]
+				},
+			},
+			[17640] = {
+				["classes"] = 128,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Prince Keleseth",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["instance"] = "Utgarde Keep",
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+					}, -- [1]
+				},
+			},
+		},
+		[13275] = {
+			[26891] = {
+				["classes"] = 128,
+				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
@@ -8916,12 +8065,11 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 26891,
-				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[27640] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
@@ -8935,14 +8083,13 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 27640,
-				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[9702] = {
-			{
+			[17518] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
@@ -8956,28 +8103,25 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 17518,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[9710] = {
-			{
+			[17538] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 17538,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[15850] = {
-			{
+			[36485] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 36485,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[36604] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -8992,84 +8136,72 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 36604,
-				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[17887] = {
-			{
+			[41639] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 41522,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[41692] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 41586,
 				["faction"] = 1,
-			}, -- [2]
-			{
+			},
+			[48540] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 41639,
 				["faction"] = 1,
-			}, -- [3]
-			{
+			},
+			[41798] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 41692,
 				["faction"] = 1,
-			}, -- [4]
-			{
+			},
+			[41522] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 41745,
 				["faction"] = 1,
-			}, -- [5]
-			{
+			},
+			[51990] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 41798,
 				["faction"] = 1,
-			}, -- [6]
-			{
+			},
+			[52011] = {
+				["classes"] = 128,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[41586] = {
+				["classes"] = 128,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[41946] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 41946,
 				["faction"] = 1,
-			}, -- [7]
-			{
+			},
+			[41745] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 48540,
 				["faction"] = 1,
-			}, -- [8]
-			{
-				["classes"] = 128,
-				["sourceType"] = 4,
-				["sourceID"] = 51990,
-				["faction"] = 1,
-			}, -- [9]
-			{
-				["classes"] = 128,
-				["sourceType"] = 4,
-				["sourceID"] = 52011,
-				["faction"] = 1,
-			}, -- [10]
+			},
 		},
 		[8209] = {
-			{
+			[14411] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 14411,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[21560] = {
-			{
+			[61819] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -9082,78 +8214,68 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 61819,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[25664] = {
-			{
+			[71513] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 71513,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[71514] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 71514,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[9275] = {
-			{
+			[16575] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 16575,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[13375] = {
-			{
+			[27082] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 27082,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[30752] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 30752,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[13379] = {
-			{
+			[27086] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 27086,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[32163] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 32163,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[20618] = {
-			{
+			[55304] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 55304,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[55432] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 55432,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[10333] = {
-			{
+			[19357] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -9178,36 +8300,32 @@ MogIt_RangedDB = {
 						},
 					}, -- [2]
 				},
-				["sourceID"] = 19357,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[3742] = {
-			{
+			[4704] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 4704,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[5945] = {
-			{
+			[8757] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 8757,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[19133] = {
-			{
+			[45201] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 45201,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[45704] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
@@ -9222,58 +8340,51 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 45704,
-				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[5442] = {
-			{
+			[7709] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 7709,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[13938] = {
-			{
+			[29323] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 29323,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[2216] = {
-			{
+			[13802] = {
+				["classes"] = 128,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[13654] = {
+				["classes"] = 128,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[4629] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 4629,
 				["faction"] = 1,
-			}, -- [1]
-			{
-				["classes"] = 128,
-				["sourceType"] = 2,
-				["sourceID"] = 13654,
-				["faction"] = 1,
-			}, -- [2]
-			{
-				["classes"] = 128,
-				["sourceType"] = 2,
-				["sourceID"] = 13802,
-				["faction"] = 1,
-			}, -- [3]
+			},
 		},
 		[13946] = {
-			{
+			[29385] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 29385,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[17145] = {
-			{
+			[39782] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -9287,52 +8398,46 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 39782,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[12948] = {
-			{
+			[26172] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 26172,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[23325] = {
-			{
+			[65437] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 65437,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[65488] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 65488,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[4446] = {
-			{
+			[6062] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 6062,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[4448] = {
-			{
+			[6064] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 6064,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[7005] = {
-			{
+			[12130] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
@@ -9345,28 +8450,25 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 12130,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[1630] = {
-			{
+			[4703] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 4703,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[7277] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 7277,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[18838] = {
-			{
+			[44284] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -9381,116 +8483,101 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 44284,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[2751] = {
-			{
+			[4702] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 3232,
 				["faction"] = 1,
-			}, -- [1]
-			{
-				["classes"] = 128,
-				["sourceType"] = 4,
-				["sourceID"] = 4702,
-				["faction"] = 1,
-			}, -- [2]
-			{
+			},
+			[9503] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 9503,
 				["faction"] = 1,
-			}, -- [3]
+			},
+			[3232] = {
+				["classes"] = 128,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
 		},
 		[10980] = {
-			{
+			[20568] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 20554,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[20563] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 20563,
 				["faction"] = 1,
-			}, -- [2]
-			{
+			},
+			[20554] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 20568,
 				["faction"] = 1,
-			}, -- [3]
+			},
 		},
 		[7033] = {
-			{
+			[12166] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 12166,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[15619] = {
-			{
+			[35782] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 35782,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[1896] = {
-			{
+			[9045] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 9045,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[12275] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 12275,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[10018] = {
-			{
+			[18440] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 18440,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[2261] = {
-			{
+			[2621] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 2621,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[10054] = {
-			{
+			[18619] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 18619,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[15184] = {
-			{
+			[36795] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 36795,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[17066] = {
-			{
+			[38936] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -9505,36 +8592,32 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 38936,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[3297] = {
-			{
+			[3995] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 3995,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[12244] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 12244,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[11120] = {
-			{
+			[21157] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 21157,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[24771] = {
-			{
+			[62617] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -9548,44 +8631,39 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 62617,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[14194] = {
-			{
+			[30297] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 30297,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[14210] = {
-			{
+			[30386] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 30386,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[13703] = {
-			{
+			[28239] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 28239,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[32027] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 32027,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[6099] = {
-			{
+			[13095] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
@@ -9599,18 +8677,16 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 13095,
-				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[18907] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 18907,
 				["faction"] = 1,
-			}, -- [2]
-			{
+			},
+			[19309] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -9635,171 +8711,148 @@ MogIt_RangedDB = {
 						},
 					}, -- [2]
 				},
-				["sourceID"] = 19309,
-				["faction"] = 1,
-			}, -- [3]
+			},
 		},
 		[11164] = {
-			{
+			[21347] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 21347,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[12721] = {
-			{
+			[25380] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 25380,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[14258] = {
-			{
+			[30482] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 30482,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[7143] = {
-			{
+			[15745] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 12396,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[15637] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 15202,
 				["faction"] = 1,
-			}, -- [2]
-			{
+			},
+			[16341] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 15637,
 				["faction"] = 1,
-			}, -- [3]
-			{
+			},
+			[16302] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 15744,
 				["faction"] = 1,
-			}, -- [4]
-			{
+			},
+			[16228] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 15745,
 				["faction"] = 1,
-			}, -- [5]
-			{
+			},
+			[15744] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 16228,
 				["faction"] = 1,
-			}, -- [6]
-			{
+			},
+			[15202] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 16302,
 				["faction"] = 1,
-			}, -- [7]
-			{
+			},
+			[12396] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 16341,
 				["faction"] = 1,
-			}, -- [8]
+			},
 		},
 		[3832] = {
-			{
+			[28382] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 28382,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[17817] = {
-			{
+			[41417] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 41417,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[6646] = {
-			{
+			[10280] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 10280,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[6648] = {
-			{
+			[10283] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 10283,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[6650] = {
-			{
+			[10285] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 10285,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[2308] = {
-			{
+			[2676] = {
 				["classes"] = 128,
-				["sourceID"] = 2676,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[3086] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 3086,
 				["faction"] = 1,
-			}, -- [2]
-			{
+			},
+			[10682] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 10682,
 				["faction"] = 1,
-			}, -- [3]
+			},
 		},
 		[6654] = {
-			{
+			[10289] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 10289,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[6656] = {
-			{
+			[10291] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 10291,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[8191] = {
-			{
+			[14367] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 14367,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[7175] = {
-			{
+			[12436] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
@@ -9813,12 +8866,11 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 12436,
-				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[17557] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
@@ -9832,22 +8884,20 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 17557,
-				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[7696] = {
-			{
+			[13380] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 13380,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[20564] = {
-			{
+			[50813] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -9862,14 +8912,13 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 50813,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[15931] = {
-			{
+			[36700] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -9884,22 +8933,20 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 36700,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[14402] = {
-			{
+			[30715] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 30715,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[11348] = {
-			{
+			[21744] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -9913,29 +8960,26 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 21744,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[19135] = {
-			{
+			[45204] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 45204,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[9851] = {
-			{
+			[72733] = {
 				["classes"] = 128,
-				["sourceID"] = 72733,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[9855] = {
-			{
+			[17905] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
@@ -9949,34 +8993,30 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 17905,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[13967] = {
-			{
+			[33386] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 29497,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[33328] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 33328,
 				["faction"] = 1,
-			}, -- [2]
-			{
+			},
+			[29497] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 33386,
 				["faction"] = 1,
-			}, -- [3]
+			},
 		},
 		[26425] = {
-			{
+			[70206] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -9990,14 +9030,13 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 70206,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[3380] = {
-			{
+			[4115] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
@@ -10010,14 +9049,13 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 4115,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[5225] = {
-			{
+			[7252] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
@@ -10030,34 +9068,30 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 7252,
-				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[10514] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 10514,
 				["faction"] = 1,
-			}, -- [2]
-			{
+			},
+			[10517] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 10517,
 				["faction"] = 1,
-			}, -- [3]
+			},
 		},
 		[6762] = {
-			{
+			[10596] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 10596,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[7279] = {
-			{
+			[12568] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -10070,52 +9104,46 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 12568,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[8937] = {
-			{
+			[15898] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 15898,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[14055] = {
-			{
+			[29730] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 29730,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[9971] = {
-			{
+			[18319] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 18319,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[9975] = {
-			{
+			[18323] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 18323,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[78375] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 78375,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[6788] = {
-			{
+			[10652] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
@@ -10129,50 +9157,44 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 10652,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[3401] = {
-			{
+			[4156] = {
 				["classes"] = 128,
 				["sourceType"] = 6,
-				["sourceID"] = 4156,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[4157] = {
 				["classes"] = 128,
 				["sourceType"] = 6,
-				["sourceID"] = 4157,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[3402] = {
-			{
+			[4158] = {
 				["classes"] = 128,
 				["sourceType"] = 6,
-				["sourceID"] = 4158,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[3403] = {
-			{
+			[4159] = {
 				["classes"] = 128,
 				["sourceType"] = 6,
-				["sourceID"] = 4159,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[26246] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 26246,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[11552] = {
-			{
+			[22059] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -10186,14 +9208,13 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 22059,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[7323] = {
-			{
+			[12634] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -10206,80 +9227,70 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 12634,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[11057] = {
-			{
+			[20893] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 20893,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[8510] = {
-			{
+			[15148] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 15148,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[78350] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 78350,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[20621] = {
-			{
+			[54784] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 54784,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[54787] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 54787,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[17060] = {
-			{
+			[38868] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 38868,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[16227] = {
-			{
+			[37348] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 37348,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[25661] = {
-			{
+			[70602] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 70602,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[70603] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 70603,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[24773] = {
-			{
+			[67092] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -10293,22 +9304,20 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 67092,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[11129] = {
-			{
+			[21205] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 21205,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[7363] = {
-			{
+			[12729] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -10321,72 +9330,63 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 12729,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[10003] = {
-			{
+			[18380] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 18380,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[9726] = {
-			{
+			[17591] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 17591,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[14211] = {
-			{
+			[30389] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 30389,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[25332] = {
-			{
+			[70441] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 70441,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[70442] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 70442,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[10965] = {
-			{
+			[20565] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 20533,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[20560] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 20560,
 				["faction"] = 1,
-			}, -- [2]
-			{
+			},
+			[20533] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 20565,
 				["faction"] = 1,
-			}, -- [3]
+			},
 		},
 		[24770] = {
-			{
+			[67091] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -10400,14 +9400,13 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 67091,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[20428] = {
-			{
+			[49609] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -10422,60 +9421,53 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 49609,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[14587] = {
-			{
+			[32162] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 32162,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[23324] = {
-			{
+			[65420] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 65420,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[23322] = {
-			{
+			[65335] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 65335,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[65454] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 65454,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[16108] = {
-			{
+			[37658] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 37658,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[21998] = {
-			{
+			[65403] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 65403,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[26426] = {
-			{
+			[70204] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -10489,22 +9481,20 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 70204,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[11189] = {
-			{
+			[21395] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 21395,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[3445] = {
-			{
+			[4236] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
@@ -10517,14 +9507,13 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 4236,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[1806] = {
-			{
+			[1990] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
@@ -10539,12 +9528,11 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 1990,
-				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[32735] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
@@ -10559,66 +9547,58 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 32735,
-				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[1934] = {
-			{
+			[11874] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 11874,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[25828] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 25828,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[9672] = {
-			{
+			[17395] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 17395,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[22281] = {
-			{
+			[58947] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 58947,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[6652] = {
-			{
+			[10287] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 10287,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[22543] = {
-			{
+			[64527] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 64527,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[64528] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 64528,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[6100] = {
-			{
+			[18864] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -10632,12 +9612,11 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 18864,
-				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[24669] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
@@ -10651,22 +9630,20 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 24669,
-				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[22293] = {
-			{
+			[62137] = {
 				["classes"] = 128,
 				["sourceType"] = 6,
-				["sourceID"] = 62137,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[11895] = {
-			{
+			[22892] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -10680,12 +9657,11 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 22892,
-				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[23100] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -10699,14 +9675,13 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 23100,
-				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[10211] = {
-			{
+			[19047] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -10731,22 +9706,20 @@ MogIt_RangedDB = {
 						},
 					}, -- [2]
 				},
-				["sourceID"] = 19047,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[3864] = {
-			{
+			[4874] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 4874,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[20551] = {
-			{
+			[50189] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -10760,14 +9733,13 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 50189,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[12267] = {
-			{
+			[24504] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -10781,12 +9753,11 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 24504,
-				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[24794] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -10800,14 +9771,13 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 24794,
-				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[5426] = {
-			{
+			[7677] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -10820,66 +9790,58 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 7677,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[5379] = {
-			{
+			[13309] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 13309,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[14401] = {
-			{
+			[30714] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 30714,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[5383] = {
-			{
+			[31551] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 31551,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[13376] = {
-			{
+			[27083] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 27083,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[21995] = {
-			{
+			[67071] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 65471,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[72524] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 67071,
 				["faction"] = 1,
-			}, -- [2]
-			{
+			},
+			[65471] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 72524,
 				["faction"] = 1,
-			}, -- [3]
+			},
 		},
 		[21571] = {
-			{
+			[61818] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -10892,14 +9854,13 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 61818,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[7008] = {
-			{
+			[12134] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
@@ -10912,14 +9873,13 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 12134,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[21508] = {
-			{
+			[61817] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -10932,22 +9892,20 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 61817,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[14862] = {
-			{
+			[33184] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 33184,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[26427] = {
-			{
+			[70205] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -10961,30 +9919,27 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 70205,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[16933] = {
-			{
+			[38869] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 38869,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[16385] = {
-			{
+			[37672] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 37672,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[3877] = {
-			{
+			[4903] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
@@ -10997,28 +9952,25 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 4903,
-				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[29531] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 29531,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[13926] = {
-			{
+			[29279] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 29279,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[12735] = {
-			{
+			[25397] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -11032,12 +9984,11 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 25397,
-				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[25566] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -11051,126 +10002,117 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 25566,
-				["faction"] = 1,
-			}, -- [2]
-		},
-		[12950] = {
-			{
-				["classes"] = 128,
-				["sourceType"] = 2,
-				["sourceID"] = 26205,
-				["faction"] = 1,
-			}, -- [1]
-			{
-				["classes"] = 128,
-				["sourceType"] = 2,
-				["sourceID"] = 29786,
-				["faction"] = 1,
-			}, -- [2]
-		},
-		[14894] = {
-			{
-				["classes"] = 128,
-				["sourceType"] = 2,
-				["sourceID"] = 33266,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[22291] = {
-			{
+			[62131] = {
 				["classes"] = 128,
 				["sourceType"] = 6,
-				["sourceID"] = 62131,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[62135] = {
 				["classes"] = 128,
 				["sourceType"] = 6,
-				["sourceID"] = 62135,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
-		[4401] = {
-			{
+		[14894] = {
+			[33266] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 11875,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
-		[7978] = {
-			{
-				["classes"] = 128,
-				["sourceType"] = 2,
-				["sourceID"] = 13938,
-				["faction"] = 1,
-			}, -- [1]
-			{
-				["classes"] = 128,
-				["sourceType"] = 2,
-				["sourceID"] = 30511,
-				["faction"] = 1,
-			}, -- [2]
-			{
-				["classes"] = 128,
-				["sourceType"] = 2,
-				["sourceID"] = 34249,
-				["faction"] = 1,
-			}, -- [3]
-		},
-		[13377] = {
-			{
-				["classes"] = 128,
-				["sourceType"] = 4,
-				["sourceID"] = 27084,
-				["faction"] = 1,
-			}, -- [1]
-		},
-		[13381] = {
-			{
-				["classes"] = 128,
-				["sourceType"] = 4,
-				["sourceID"] = 27089,
-				["faction"] = 1,
-			}, -- [1]
-		},
-		[15940] = {
-			{
-				["classes"] = 128,
-				["sourceType"] = 3,
-				["sourceID"] = 36794,
-				["faction"] = 1,
-			}, -- [1]
-		},
-		[3743] = {
-			{
-				["classes"] = 128,
-				["sourceType"] = 4,
-				["sourceID"] = 4705,
-				["faction"] = 1,
-			}, -- [1]
-		},
-		[14926] = {
-			{
-				["classes"] = 128,
-				["sourceType"] = 4,
-				["sourceID"] = 34090,
-				["faction"] = 1,
-			}, -- [1]
-		},
-		[16237] = {
-			{
-				["classes"] = 128,
-				["sourceType"] = 2,
-				["sourceID"] = 37360,
-				["faction"] = 1,
-			}, -- [1]
-		},
-		[2464] = {
-			{
+		[5972] = {
+			[8817] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Lord Aurius Rivendare",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["instance"] = "Stratholme",
+						["difficulties"] = {
+						},
+					}, -- [1]
+				},
+			},
+		},
+		[15940] = {
+			[36794] = {
+				["classes"] = 128,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
+		[4401] = {
+			[11875] = {
+				["classes"] = 128,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[13377] = {
+			[27084] = {
+				["classes"] = 128,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[13381] = {
+			[27089] = {
+				["classes"] = 128,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[7978] = {
+			[13938] = {
+				["classes"] = 128,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[34249] = {
+				["classes"] = 128,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[30511] = {
+				["classes"] = 128,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[3743] = {
+			[4705] = {
+				["classes"] = 128,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[14926] = {
+			[34090] = {
+				["classes"] = 128,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[16237] = {
+			[37360] = {
+				["classes"] = 128,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[2464] = {
+			[7365] = {
+				["classes"] = 128,
+				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
@@ -11183,28 +10125,25 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 7365,
-				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[17403] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 17403,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[14938] = {
-			{
+			[34161] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 34161,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[11369] = {
-			{
+			[21769] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -11218,58 +10157,51 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 21769,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[9325] = {
-			{
+			[16632] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 16632,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[4938] = {
-			{
+			[10279] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 10279,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[6763] = {
-			{
-				["classes"] = 128,
-				["sourceType"] = 2,
-				["sourceID"] = 10597,
-				["faction"] = 1,
-			}, -- [1]
-			{
+			[17399] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 17399,
 				["faction"] = 1,
-			}, -- [2]
-			{
+			},
+			[10597] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 17537,
 				["faction"] = 1,
-			}, -- [3]
+			},
+			[17537] = {
+				["classes"] = 128,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
 		},
 		[12207] = {
-			{
+			[24425] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 24425,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[5790] = {
-			{
+			[8544] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -11282,101 +10214,83 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 8544,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[11900] = {
-			{
+			[22900] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 22900,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[12926] = {
-			{
+			[26049] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 26049,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[13441] = {
-			{
+			[27406] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 27406,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[76601] = {
 				["classes"] = 128,
-				["sourceID"] = 76601,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[1820] = {
-			{
+			[3313] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 3313,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[12938] = {
-			{
+			[26090] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 26090,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[11127] = {
-			{
+			[21193] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 21193,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[9671] = {
-			{
+			[17394] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 17394,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[33136] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 33136,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
-		[5972] = {
-			{
+		[12950] = {
+			[26205] = {
 				["classes"] = 128,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Lord Aurius Rivendare",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["instance"] = "Stratholme",
-						["difficulties"] = {
-						},
-					}, -- [1]
-				},
-				["sourceID"] = 8817,
+				["sourceType"] = 2,
 				["faction"] = 1,
-			}, -- [1]
+			},
+			[29786] = {
+				["classes"] = 128,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
 		},
 		[15509] = {
-			{
+			[35540] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
@@ -11423,54 +10337,48 @@ MogIt_RangedDB = {
 						},
 					}, -- [4]
 				},
-				["sourceID"] = 35540,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[12645] = {
-			{
+			[25267] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 25267,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[14495] = {
-			{
+			[31520] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 31520,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[4447] = {
-			{
+			[6063] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 6063,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[4449] = {
-			{
+			[6065] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 6065,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[14507] = {
-			{
+			[31609] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 31609,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[5475] = {
-			{
+			[35517] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
@@ -11484,14 +10392,13 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 35517,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[7729] = {
-			{
+			[13437] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -11504,12 +10411,11 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 13437,
-				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[13520] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -11522,12 +10428,11 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 13520,
-				["faction"] = 1,
-			}, -- [2]
-			{
+			},
+			[14935] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -11540,56 +10445,49 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 14935,
-				["faction"] = 1,
-			}, -- [3]
+			},
 		},
 		[13380] = {
-			{
+			[27088] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 27088,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[2266] = {
-			{
+			[17397] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 17397,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[17400] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 17400,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[23323] = {
-			{
+			[65386] = {
+				["classes"] = 128,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[65505] = {
+				["classes"] = 128,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[62032] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 62032,
 				["faction"] = 1,
-			}, -- [1]
-			{
-				["classes"] = 128,
-				["sourceType"] = 4,
-				["sourceID"] = 65386,
-				["faction"] = 1,
-			}, -- [2]
-			{
-				["classes"] = 128,
-				["sourceType"] = 4,
-				["sourceID"] = 65505,
-				["faction"] = 1,
-			}, -- [3]
+			},
 		},
 		[13977] = {
-			{
+			[29566] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -11604,38 +10502,34 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 29566,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[15849] = {
-			{
+			[36484] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 36484,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[14028] = {
-			{
+			[29684] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 29684,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[8503] = {
-			{
+			[15134] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 15134,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[13525] = {
-			{
+			[27566] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
@@ -11649,12 +10543,11 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 27566,
-				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[27739] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
@@ -11668,14 +10561,13 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 27739,
-				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[3352] = {
-			{
+			[4075] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
@@ -11688,174 +10580,151 @@ MogIt_RangedDB = {
 						},
 					}, -- [1]
 				},
-				["sourceID"] = 4075,
-				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[14584] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 14584,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[10978] = {
-			{
+			[20561] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 20552,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[20566] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 20561,
 				["faction"] = 1,
-			}, -- [2]
-			{
+			},
+			[20552] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 20566,
 				["faction"] = 1,
-			}, -- [3]
+			},
 		},
 		[8938] = {
-			{
+			[15899] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 15899,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[10986] = {
-			{
+			[20564] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 20564,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[15618] = {
-			{
+			[35781] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 35781,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[9972] = {
-			{
+			[25829] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 25829,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[9976] = {
-			{
+			[18324] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 18324,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[14068] = {
-			{
+			[29865] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 29865,
 				["faction"] = 1,
-			}, -- [1]
-			{
+			},
+			[29868] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 29868,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
 		[10981] = {
-			{
+			[20555] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 20555,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[5513] = {
-			{
+			[10521] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 10521,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[21996] = {
-			{
+			[65369] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 65369,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[5517] = {
-			{
+			[32886] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 32886,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[9715] = {
-			{
+			[17565] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 17565,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[1794] = {
-			{
+			[2008] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 2008,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[2820] = {
-			{
-				["classes"] = 128,
-				["sourceType"] = 4,
-				["sourceID"] = 3319,
-				["faction"] = 1,
-			}, -- [1]
-			{
+			[7590] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["sourceID"] = 7590,
 				["faction"] = 1,
-			}, -- [2]
-			{
+			},
+			[17396] = {
 				["classes"] = 128,
 				["sourceType"] = 4,
-				["sourceID"] = 17396,
 				["faction"] = 1,
-			}, -- [3]
-			{
-				["classes"] = 128,
-				["sourceType"] = 4,
-				["sourceID"] = 17401,
-				["faction"] = 1,
-			}, -- [4]
-			{
+			},
+			[37558] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["sourceID"] = 37558,
 				["faction"] = 1,
-			}, -- [5]
+			},
+			[3319] = {
+				["classes"] = 128,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[17401] = {
+				["classes"] = 128,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
 		},
 		[5122] = {
-			{
+			[7086] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
+				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
@@ -11898,9 +10767,7 @@ MogIt_RangedDB = {
 						},
 					}, -- [4]
 				},
-				["sourceID"] = 7086,
-				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 	},
 }

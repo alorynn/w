@@ -1,4 +1,11 @@
 Version: 1
+Frame: DBMMinimapButton
+FrameLevel: 5
+Anchor: TOPRIGHT
+X: -141
+Y: -115
+W: 32
+H: 32
 Frame: LootFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -9,7 +16,7 @@ H: 210
 Frame: ColorPickerFrame
 FrameLevel: 1
 Anchor: CENTER
-X: 0
-Y: 0
+X: 362
+Y: 186
 W: 365
 H: 240

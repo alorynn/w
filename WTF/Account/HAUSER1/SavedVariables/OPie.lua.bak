@@ -44,8 +44,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABueo8UftHg",
 				}, -- [6]
 				["save"] = true,
-				["limit"] = "Laurannah-Kel'Thuzad",
 				["name"] = "Professions",
+				["limit"] = "Laurannah-Kel'Thuzad",
 			},
 			["Mounts"] = {
 				{
@@ -61,13 +61,9 @@ OneRing_Config = {
 					["sliceToken"] = "ABueo8Ra/E1",
 				}, -- [3]
 				{
-					["id"] = 61465,
-					["sliceToken"] = "ABueo8Ra/Ei",
-				}, -- [4]
-				{
 					["id"] = 223018,
 					["sliceToken"] = "ABueoCW1IFe",
-				}, -- [5]
+				}, -- [4]
 				["save"] = true,
 				["limit"] = "Laurannah-Kel'Thuzad",
 				["name"] = "Mounts",
@@ -109,8 +105,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABueoP7uCCi",
 				}, -- [7]
 				["save"] = true,
-				["limit"] = "Laurannah-Kel'Thuzad",
 				["name"] = "Travel",
+				["limit"] = "Laurannah-Kel'Thuzad",
 			},
 			["OPieFlagStore"] = {
 				["FlushedDefaultColors"] = true,
@@ -132,8 +128,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABueoD8gCKt",
 				}, -- [3]
 				["save"] = true,
-				["limit"] = "Laurannah-Kel'Thuzad",
 				["name"] = "Toys",
+				["limit"] = "Laurannah-Kel'Thuzad",
 			},
 			["Management"] = {
 				{
@@ -161,8 +157,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABueoXQbBSe",
 				}, -- [6]
 				["save"] = true,
-				["name"] = "Pet Management",
 				["limit"] = "Laurannah-Kel'Thuzad",
+				["name"] = "Pet Management",
 			},
 			["Emotes"] = {
 				{
@@ -247,8 +243,8 @@ OneRing_Config = {
 					["id"] = "#showtooltip [@pet,exists,nodead,nopet:5] {{spell:83245}};\n/cast [@pet,exists,nopet:5,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:83245}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
 				}, -- [5]
 				["save"] = true,
-				["limit"] = "HUNTER",
 				["name"] = "Pets",
+				["limit"] = "HUNTER",
 			},
 			["Outfits"] = {
 				{
@@ -267,8 +263,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABueoLj3Jit",
 				}, -- [3]
 				["save"] = true,
-				["limit"] = "Laurannah-Kel'Thuzad",
 				["name"] = "Outfits",
+				["limit"] = "Laurannah-Kel'Thuzad",
 			},
 			["Pets"] = {
 				{
@@ -282,8 +278,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABueo98aIgy",
 				}, -- [2]
 				["save"] = true,
-				["limit"] = "Laurannah-Kel'Thuzad",
 				["name"] = "Pets",
+				["limit"] = "Laurannah-Kel'Thuzad",
 			},
 		},
 	},

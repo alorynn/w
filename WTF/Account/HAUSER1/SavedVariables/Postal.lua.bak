@@ -5,11 +5,11 @@ Postal3DB = {
 		["Hauzerogue - Kel'Thuzad"] = "Hauzerogue - Kel'Thuzad",
 		["Hauzerina - Moon Guard"] = "Hauzerina - Moon Guard",
 		["Hauzerone - Dalaran"] = "Hauzerone - Dalaran",
-		["Hauzerdemon - Kel'Thuzad"] = "Hauzerdemon - Kel'Thuzad",
+		["Alurannah - Kel'Thuzad"] = "Alurannah - Kel'Thuzad",
 		["Deeke - Kel'Thuzad"] = "Deeke - Kel'Thuzad",
 		["Hauser - Mal'Ganis"] = "Hauser - Mal'Ganis",
 		["Kmkarbashian - Kel'Thuzad"] = "Kmkarbashian - Kel'Thuzad",
-		["Beatryce - Kel'Thuzad"] = "Beatryce - Kel'Thuzad",
+		["Hauzerdemon - Kel'Thuzad"] = "Hauzerdemon - Kel'Thuzad",
 		["Pharrah - Kel'Thuzad"] = "Pharrah - Kel'Thuzad",
 		["Laurannah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Alisheeya - Kel'Thuzad"] = "Alisheeya - Kel'Thuzad",
@@ -17,7 +17,7 @@ Postal3DB = {
 		["Nigellah - Kel'Thuzad"] = "Nigellah - Kel'Thuzad",
 		["Bazoomercom - Dark Iron"] = "Bazoomercom - Dark Iron",
 		["Hoobastanko - Kel'Thuzad"] = "Hoobastanko - Kel'Thuzad",
-		["Alurannah - Kel'Thuzad"] = "Alurannah - Kel'Thuzad",
+		["Beatryce - Kel'Thuzad"] = "Beatryce - Kel'Thuzad",
 		["Beatryss - Kel'Thuzad"] = "Beatryss - Kel'Thuzad",
 		["Hauzerina - Kel'Thuzad"] = "Hauzerina - Kel'Thuzad",
 		["Fsdkjhskdjfh - Kel'Thuzad"] = "Fsdkjhskdjfh - Kel'Thuzad",
@@ -78,24 +78,29 @@ Postal3DB = {
 		},
 		["Hauzerone - Dalaran"] = {
 		},
-		["Hauzerdemon - Kel'Thuzad"] = {
+		["Alurannah - Kel'Thuzad"] = {
 		},
 		["Deeke - Kel'Thuzad"] = {
 		},
 		["Hauser - Mal'Ganis"] = {
 		},
 		["Kmkarbashian - Kel'Thuzad"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Laurannah|Kel'Thuzad|Alliance", -- [1]
+				},
+			},
 		},
-		["Beatryce - Kel'Thuzad"] = {
+		["Hauzerdemon - Kel'Thuzad"] = {
 		},
 		["Pharrah - Kel'Thuzad"] = {
 		},
 		["Laurannah - Kel'Thuzad"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Kmkarbashian|Kel'Thuzad|Alliance", -- [1]
+					"Hauzerina|Kel'Thuzad|Alliance", -- [1]
 					"Alauranna|Kel'Thuzad|Alliance", -- [2]
-					"Hauzerina|Kel'Thuzad|Alliance", -- [3]
+					"Kmkarbashian|Kel'Thuzad|Alliance", -- [3]
 					"Darxor|Kel'Thuzad|Alliance", -- [4]
 					"Darknstormie|Kel'Thuzad|Alliance", -- [5]
 				},
@@ -111,7 +116,7 @@ Postal3DB = {
 		},
 		["Hoobastanko - Kel'Thuzad"] = {
 		},
-		["Alurannah - Kel'Thuzad"] = {
+		["Beatryce - Kel'Thuzad"] = {
 		},
 		["Beatryss - Kel'Thuzad"] = {
 		},
@@ -141,8 +146,9 @@ Postal3DB = {
 		["Alauranna - Kel'Thuzad"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Hauzer|Kel'Thuzad|Alliance", -- [1]
-					"Wizengammot-Kel'Thuzad|Kel'Thuzad|Alliance", -- [2]
+					"Laurannah|Kel'Thuzad|Alliance", -- [1]
+					"Hauzer|Kel'Thuzad|Alliance", -- [2]
+					"Wizengammot-Kel'Thuzad|Kel'Thuzad|Alliance", -- [3]
 				},
 			},
 		},

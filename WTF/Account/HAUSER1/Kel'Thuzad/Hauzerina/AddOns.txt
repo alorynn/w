@@ -83,3 +83,4 @@ TellMeWhen_Options: disabled
 AddOnSkins: enabled
 OPie: enabled
 ConsLegion: disabled
+Details: disabled

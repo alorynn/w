@@ -2,8 +2,8 @@ Version: 1
 Frame: DBMMinimapButton
 FrameLevel: 5
 Anchor: TOPRIGHT
-X: -147
-Y: -112
+X: 4
+Y: -81
 W: 32
 H: 32
 Frame: ColorPickerFrame
@@ -20,3 +20,10 @@ X: 0
 Y: 0
 W: 790
 H: 454
+Frame: MphCopyFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 39
+Y: -26
+W: 700
+H: 450

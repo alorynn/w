@@ -39,7 +39,7 @@ AtlasLoot_WarlordsofDraenor: disabled
 AtlasLoot_WorldEvents: disabled
 AtlasLoot_WrathoftheLichKing: disabled
 Auctionator: enabled
-BadBoy: enabled
+BadBoy: disabled
 BagBrother: disabled
 Bagnon: disabled
 Bagnon_Config: disabled

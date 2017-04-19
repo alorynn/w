@@ -17,7 +17,7 @@ PasteDB = {
 		["Nigellah - Kel'Thuzad"] = "Nigellah - Kel'Thuzad",
 		["Bazoomercom - Dark Iron"] = "Bazoomercom - Dark Iron",
 		["Kmkarbashian - Kel'Thuzad"] = "Kmkarbashian - Kel'Thuzad",
-		["Hauzerdemon - Kel'Thuzad"] = "Hauzerdemon - Kel'Thuzad",
+		["Alurannah - Kel'Thuzad"] = "Alurannah - Kel'Thuzad",
 		["Beatryss - Kel'Thuzad"] = "Beatryss - Kel'Thuzad",
 		["Hauzerina - Kel'Thuzad"] = "Hauzerina - Kel'Thuzad",
 		["Darknstormie - Kel'Thuzad"] = "Darknstormie - Kel'Thuzad",
@@ -26,10 +26,10 @@ PasteDB = {
 		["Skãdi - Kel'Thuzad"] = "Skãdi - Kel'Thuzad",
 		["Fsdkjhskdjfh - Kel'Thuzad"] = "Fsdkjhskdjfh - Kel'Thuzad",
 		["Alauranna - Kel'Thuzad"] = "Alauranna - Kel'Thuzad",
-		["Alurannah - Kel'Thuzad"] = "Alurannah - Kel'Thuzad",
+		["Beatryce - Kel'Thuzad"] = "Beatryce - Kel'Thuzad",
 		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
 		["Alisheeya - Kel'Thuzad"] = "Alisheeya - Kel'Thuzad",
-		["Beatryce - Kel'Thuzad"] = "Beatryce - Kel'Thuzad",
+		["Hauzerdemon - Kel'Thuzad"] = "Hauzerdemon - Kel'Thuzad",
 		["Hauser - Mal'Ganis"] = "Hauser - Mal'Ganis",
 	},
 	["profiles"] = {
@@ -64,12 +64,12 @@ PasteDB = {
 			["loaded"] = true,
 		},
 		["Laurannah - Kel'Thuzad"] = {
+			["whispertarget"] = "",
+			["where"] = "Default",
 			["loaded"] = true,
 			["minimap"] = {
 				["hide"] = true,
 			},
-			["where"] = "Default",
-			["whispertarget"] = "",
 			["pos"] = {
 				["height"] = 320.000030517578,
 				["top"] = 760,
@@ -99,7 +99,7 @@ PasteDB = {
 				["hide"] = true,
 			},
 		},
-		["Hauzerdemon - Kel'Thuzad"] = {
+		["Alurannah - Kel'Thuzad"] = {
 			["loaded"] = true,
 		},
 		["Beatryss - Kel'Thuzad"] = {
@@ -124,17 +124,17 @@ PasteDB = {
 			["loaded"] = true,
 		},
 		["Alauranna - Kel'Thuzad"] = {
-			["whispertarget"] = "",
-			["where"] = "Default",
 			["loaded"] = true,
 			["minimap"] = {
 				["minimapPos"] = 217.049291469845,
 				["hide"] = true,
 			},
+			["where"] = "Default",
+			["whispertarget"] = "",
 			["pos"] = {
 			},
 		},
-		["Alurannah - Kel'Thuzad"] = {
+		["Beatryce - Kel'Thuzad"] = {
 			["loaded"] = true,
 		},
 		["Hauzer - Kel'Thuzad"] = {
@@ -155,7 +155,7 @@ PasteDB = {
 		["Alisheeya - Kel'Thuzad"] = {
 			["loaded"] = true,
 		},
-		["Beatryce - Kel'Thuzad"] = {
+		["Hauzerdemon - Kel'Thuzad"] = {
 			["loaded"] = true,
 		},
 		["Hauser - Mal'Ganis"] = {
