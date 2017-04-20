@@ -5,19 +5,19 @@ BrokerVolumeDB = {
 		["Hauzerina - Moon Guard"] = "Hauzerina - Moon Guard",
 		["Leeroyjenkem - Kel'Thuzad"] = "Leeroyjenkem - Kel'Thuzad",
 		["Laurenn - Kel'Thuzad"] = "Laurenn - Kel'Thuzad",
-		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
-		["Hauzerone - Dalaran"] = "Hauzerone - Dalaran",
 		["Kmkarbashian - Kel'Thuzad"] = "Kmkarbashian - Kel'Thuzad",
-		["Alurannah - Kel'Thuzad"] = "Alurannah - Kel'Thuzad",
+		["Hauser - Mal'Ganis"] = "Hauser - Mal'Ganis",
+		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
+		["Beatryce - Kel'Thuzad"] = "Beatryce - Kel'Thuzad",
 		["Pharrah - Kel'Thuzad"] = "Pharrah - Kel'Thuzad",
 		["Laurannah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
-		["Deeke - Kel'Thuzad"] = "Deeke - Kel'Thuzad",
+		["Alisheeya - Kel'Thuzad"] = "Alisheeya - Kel'Thuzad",
 		["Sdkfhsdkjfhs - Kel'Thuzad"] = "Sdkfhsdkjfhs - Kel'Thuzad",
 		["Nigellah - Kel'Thuzad"] = "Nigellah - Kel'Thuzad",
 		["Bazoomercom - Dark Iron"] = "Bazoomercom - Dark Iron",
-		["Hoobastanko - Kel'Thuzad"] = "Hoobastanko - Kel'Thuzad",
-		["Beatryce - Kel'Thuzad"] = "Beatryce - Kel'Thuzad",
-		["Hauzerina - Kel'Thuzad"] = "Hauzerina - Kel'Thuzad",
+		["Ugiyo - Kel'Thuzad"] = "Ugiyo - Kel'Thuzad",
+		["Alurannah - Kel'Thuzad"] = "Alurannah - Kel'Thuzad",
+		["Beatryss - Kel'Thuzad"] = "Beatryss - Kel'Thuzad",
 		["Hauzerdemon - Kel'Thuzad"] = "Hauzerdemon - Kel'Thuzad",
 		["Darknstormie - Kel'Thuzad"] = "Darknstormie - Kel'Thuzad",
 		["Hauzerhunter - Kel'Thuzad"] = "Hauzerhunter - Kel'Thuzad",
@@ -25,11 +25,11 @@ BrokerVolumeDB = {
 		["Skãdi - Kel'Thuzad"] = "Skãdi - Kel'Thuzad",
 		["Fsdkjhskdjfh - Kel'Thuzad"] = "Fsdkjhskdjfh - Kel'Thuzad",
 		["Alauranna - Kel'Thuzad"] = "Alauranna - Kel'Thuzad",
-		["Beatryss - Kel'Thuzad"] = "Beatryss - Kel'Thuzad",
+		["Hauzerina - Kel'Thuzad"] = "Hauzerina - Kel'Thuzad",
 		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
-		["Alisheeya - Kel'Thuzad"] = "Alisheeya - Kel'Thuzad",
-		["Ugiyo - Kel'Thuzad"] = "Ugiyo - Kel'Thuzad",
-		["Hauser - Mal'Ganis"] = "Hauser - Mal'Ganis",
+		["Deeke - Kel'Thuzad"] = "Deeke - Kel'Thuzad",
+		["Hoobastanko - Kel'Thuzad"] = "Hoobastanko - Kel'Thuzad",
+		["Hauzerone - Dalaran"] = "Hauzerone - Dalaran",
 	},
 	["profiles"] = {
 		["Hoobastankie - Kel'Thuzad"] = {
@@ -40,19 +40,20 @@ BrokerVolumeDB = {
 		},
 		["Laurenn - Kel'Thuzad"] = {
 		},
-		["Alorannah - Kel'Thuzad"] = {
-		},
-		["Hauzerone - Dalaran"] = {
-		},
 		["Kmkarbashian - Kel'Thuzad"] = {
 		},
-		["Alurannah - Kel'Thuzad"] = {
+		["Hauser - Mal'Ganis"] = {
+		},
+		["Alorannah - Kel'Thuzad"] = {
+		},
+		["Beatryce - Kel'Thuzad"] = {
+			["bgSound"] = true,
 		},
 		["Pharrah - Kel'Thuzad"] = {
 		},
 		["Laurannah - Kel'Thuzad"] = {
 		},
-		["Deeke - Kel'Thuzad"] = {
+		["Alisheeya - Kel'Thuzad"] = {
 		},
 		["Sdkfhsdkjfhs - Kel'Thuzad"] = {
 		},
@@ -60,13 +61,11 @@ BrokerVolumeDB = {
 		},
 		["Bazoomercom - Dark Iron"] = {
 		},
-		["Hoobastanko - Kel'Thuzad"] = {
+		["Ugiyo - Kel'Thuzad"] = {
 		},
-		["Beatryce - Kel'Thuzad"] = {
-			["bgSound"] = true,
+		["Alurannah - Kel'Thuzad"] = {
 		},
-		["Hauzerina - Kel'Thuzad"] = {
-			["bgSound"] = true,
+		["Beatryss - Kel'Thuzad"] = {
 		},
 		["Hauzerdemon - Kel'Thuzad"] = {
 		},
@@ -84,16 +83,17 @@ BrokerVolumeDB = {
 		["Alauranna - Kel'Thuzad"] = {
 			["bgSound"] = true,
 		},
-		["Beatryss - Kel'Thuzad"] = {
+		["Hauzerina - Kel'Thuzad"] = {
+			["bgSound"] = true,
 		},
 		["Hauzer - Kel'Thuzad"] = {
 			["bgSound"] = true,
 		},
-		["Alisheeya - Kel'Thuzad"] = {
+		["Deeke - Kel'Thuzad"] = {
 		},
-		["Ugiyo - Kel'Thuzad"] = {
+		["Hoobastanko - Kel'Thuzad"] = {
 		},
-		["Hauser - Mal'Ganis"] = {
+		["Hauzerone - Dalaran"] = {
 		},
 	},
 }

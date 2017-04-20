@@ -1,0 +1,40 @@
+
+NewOpenablesProfile = {
+	["char"] = {
+		["Hauzer - Kel'Thuzad"] = {
+			["itemID"] = 144330,
+		},
+	},
+	["profileKeys"] = {
+		["Laurannah - Kel'Thuzad"] = "Default",
+		["Kmkarbashian - Kel'Thuzad"] = "Default",
+		["Alauranna - Kel'Thuzad"] = "Default",
+		["Hauzer - Kel'Thuzad"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["skinButton"] = true,
+			["iconSize"] = 64,
+			["T_BLACKLIST"] = {
+				[0] = true,
+				[147348] = true,
+				[141028] = true,
+				[147349] = true,
+			},
+			["button"] = {
+				nil, -- [1]
+				"UIParent", -- [2]
+				nil, -- [3]
+				130, -- [4]
+				-489, -- [5]
+			},
+			["qb"] = {
+				"TOPLEFT", -- [1]
+				"UIParent", -- [2]
+				"TOPLEFT", -- [3]
+			},
+			["version"] = "|cFFFFFFFF07.26 18.04.2017 use |cFFFF00FF/nop|cFFFFFFFF",
+			["lockButton"] = true,
+		},
+	},
+}

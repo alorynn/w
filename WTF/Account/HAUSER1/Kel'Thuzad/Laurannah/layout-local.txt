@@ -23,7 +23,14 @@ H: 454
 Frame: MphCopyFrame
 FrameLevel: 1
 Anchor: CENTER
-X: 42
+X: 37
 Y: -27
 W: 700
 H: 450
+Frame: TipTac
+FrameLevel: 1
+Anchor: BOTTOM
+X: -146
+Y: 4
+W: 114
+H: 24
