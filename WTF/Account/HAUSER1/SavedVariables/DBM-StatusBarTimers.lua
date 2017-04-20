@@ -3,7 +3,7 @@ DBT_AllPersistentOptions = {
 	["Default"] = {
 		["DBM"] = {
 			["FontSize"] = 10,
-			["HugeTimerY"] = -120,
+			["HugeTimerY"] = -214.999816894531,
 			["HugeBarXOffset"] = 0,
 			["Scale"] = 0.899999976158142,
 			["EnlargeBarsPercent"] = 0.125,
@@ -14,13 +14,13 @@ DBT_AllPersistentOptions = {
 			["TimerPoint"] = "TOPRIGHT",
 			["Width"] = 183,
 			["HugeTimerPoint"] = "CENTER",
-			["TimerY"] = -260,
-			["Decimal"] = 60,
-			["HugeTimerX"] = 0,
-			["Height"] = 20,
-			["TimerX"] = -223.000015258789,
-			["BarXOffset"] = 0,
 			["HugeWidth"] = 200,
+			["Decimal"] = 60,
+			["TimerX"] = -216.333755493164,
+			["HugeTimerX"] = 9.99992942810059,
+			["Height"] = 20,
+			["BarXOffset"] = 0,
+			["TimerY"] = -261.666656494141,
 		},
 	},
 }

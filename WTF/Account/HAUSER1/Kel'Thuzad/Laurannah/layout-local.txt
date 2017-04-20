@@ -23,7 +23,7 @@ H: 454
 Frame: MphCopyFrame
 FrameLevel: 1
 Anchor: CENTER
-X: 39
-Y: -26
+X: 42
+Y: -27
 W: 700
 H: 450
