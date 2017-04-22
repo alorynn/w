@@ -57,7 +57,7 @@ BigWigs_TrialOfValor: enabled
 Broker_Volume: enabled
 CrossRealmAssist: disabled
 Grid: disabled
-MoveAnything: disabled
+MoveAnything: enabled
 Paste: enabled
 Postal: enabled
 premade-filter: disabled

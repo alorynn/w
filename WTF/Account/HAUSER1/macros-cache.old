@@ -81,15 +81,15 @@ VER 3 0000000000000019 "LiteMount" "ABILITY_MOUNT_MECHASTRIDER"
 /click [nobtn:2] LiteMount
 /click [btn:2] LiteMount RightButton
 END
-VER 3 0000000000000032 "Mount" "STAVE_2H_TARECGOSA_E_01STAGEFINAL.BLP"
-/use 16
-/run local a="Dragonwrath, Tarecgosa's Rest" if (IsEquippedItem(a) or InCombatLockdown()) then a="Primal Gladiator's Battle Staff" end if not (UnitCastingInfo("player") or IsMounted()) then EquipItemByName(a) end
-/dismount
-END
 VER 3 0000000000000005 "Mount" "INV_Misc_QuestionMark"
 #showtooltip Black War Tiger
 /cast [nomounted, flyable] Ironbound Proto-Drake;  [nomounted, noflyable] Traveler's Tundra Mammoth
 /dismount [mounted]
+END
+VER 3 0000000000000032 "Mount" "STAVE_2H_TARECGOSA_E_01STAGEFINAL.BLP"
+/use 16
+/run local a="Dragonwrath, Tarecgosa's Rest" if (IsEquippedItem(a) or InCombatLockdown()) then a="Primal Gladiator's Battle Staff" end if not (UnitCastingInfo("player") or IsMounted()) then EquipItemByName(a) end
+/dismount
 END
 VER 3 000000000000001A "Move To" "SPELL_ARCANE_BLAST"
 /petmoveto
@@ -122,12 +122,12 @@ END
 VER 3 000000000000005D "Professions" "inv_enchanting_70_pet_cauldron"
 /click ORLOpen rofessions
 END
+VER 3 000000000000000B "PVE" "Spell_Fire_Fireball02"
+/run UseEquipmentSet"PVE"; SetCurrentTitle(-1);
+END
 VER 3 0000000000000057 "PVE" "SPELL_NATURE_PURGE"
 /settitle Predator
 /equipset PVE
-END
-VER 3 000000000000000B "PVE" "Spell_Fire_Fireball02"
-/run UseEquipmentSet"PVE"; SetCurrentTitle(-1);
 END
 VER 3 0000000000000058 "PVP" "SPELL_ARCANE_RUNE"
 /settitle of stormwind

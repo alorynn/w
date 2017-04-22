@@ -37,6 +37,8 @@ bind SHIFT-4 CLICK BT4Button28:LeftButton
 bind SHIFT-5 CLICK BT4Button29:LeftButton
 bind SHIFT-UP NONE
 bind SHIFT-DOWN NONE
+bind CTRL-TAB NONE
+bind CTRL-SHIFT-TAB NONE
 bind G CLICK BT4Button17:LeftButton
 bind F CLICK BT4Button16:LeftButton
 bind V CLICK BT4Button21:LeftButton
