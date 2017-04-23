@@ -47,34 +47,25 @@ OneRing_Config = {
 				["save"] = true,
 				["limit"] = "Laurannah-Kel'Thuzad",
 			},
-			["Management"] = {
+			["Toys"] = {
 				{
-					["sliceToken"] = "ABueoSfffGl",
-					["id"] = 883,
+					"item", -- [1]
+					49040, -- [2]
+					["sliceToken"] = "ABueoD8gCKu",
 				}, -- [1]
 				{
-					["sliceToken"] = "ABueoSfffGk",
-					["id"] = 83242,
+					"toy", -- [1]
+					40768, -- [2]
+					["sliceToken"] = "ABueoD8gCKy",
 				}, -- [2]
 				{
-					["sliceToken"] = "ABueoSfffGj",
-					["id"] = 83243,
+					"toy", -- [1]
+					13379, -- [2]
+					["sliceToken"] = "ABueoD8gCKt",
 				}, -- [3]
-				{
-					["sliceToken"] = "ABueoSfffG4",
-					["id"] = 83244,
-				}, -- [4]
-				{
-					["sliceToken"] = "ABueoSfffGh",
-					["id"] = 83245,
-				}, -- [5]
-				{
-					["sliceToken"] = "ABueoXQbBSe",
-					["id"] = 982,
-				}, -- [6]
-				["limit"] = "Laurannah-Kel'Thuzad",
+				["name"] = "Toys",
 				["save"] = true,
-				["name"] = "Pet Management",
+				["limit"] = "Laurannah-Kel'Thuzad",
 			},
 			["Travel"] = {
 				{
@@ -124,27 +115,6 @@ OneRing_Config = {
 			["OPieFlagStore"] = {
 				["FlushedDefaultColors"] = true,
 			},
-			["Mounts"] = {
-				{
-					["sliceToken"] = "ABueo8Ra/Eu",
-					["id"] = 127271,
-				}, -- [1]
-				{
-					["sliceToken"] = "ABueo8Ra/Et",
-					["id"] = 61425,
-				}, -- [2]
-				{
-					["sliceToken"] = "ABueo8Ra/E1",
-					["id"] = 75973,
-				}, -- [3]
-				{
-					["sliceToken"] = "ABueoCW1IFe",
-					["id"] = 223018,
-				}, -- [4]
-				["limit"] = "Laurannah-Kel'Thuzad",
-				["save"] = true,
-				["name"] = "Mounts",
-			},
 			["HunterPets"] = {
 				{
 					["sliceToken"] = "OPCHP1",
@@ -174,6 +144,27 @@ OneRing_Config = {
 				["name"] = "Pets",
 				["save"] = true,
 				["limit"] = "HUNTER",
+			},
+			["Mounts"] = {
+				{
+					["sliceToken"] = "ABueo8Ra/Eu",
+					["id"] = 127271,
+				}, -- [1]
+				{
+					["sliceToken"] = "ABueo8Ra/Et",
+					["id"] = 61425,
+				}, -- [2]
+				{
+					["sliceToken"] = "ABueo8Ra/E1",
+					["id"] = 75973,
+				}, -- [3]
+				{
+					["sliceToken"] = "ABueoCW1IFe",
+					["id"] = 223018,
+				}, -- [4]
+				["limit"] = "Laurannah-Kel'Thuzad",
+				["save"] = true,
+				["name"] = "Mounts",
 			},
 			["Emotes"] = {
 				{
@@ -231,25 +222,34 @@ OneRing_Config = {
 				["noOpportunisticCA"] = true,
 				["save"] = true,
 			},
-			["Toys"] = {
+			["Management"] = {
 				{
-					"item", -- [1]
-					49040, -- [2]
-					["sliceToken"] = "ABueoD8gCKu",
+					["sliceToken"] = "ABueoSfffGl",
+					["id"] = 883,
 				}, -- [1]
 				{
-					"toy", -- [1]
-					40768, -- [2]
-					["sliceToken"] = "ABueoD8gCKy",
+					["sliceToken"] = "ABueoSfffGk",
+					["id"] = 83242,
 				}, -- [2]
 				{
-					"toy", -- [1]
-					13379, -- [2]
-					["sliceToken"] = "ABueoD8gCKt",
+					["sliceToken"] = "ABueoSfffGj",
+					["id"] = 83243,
 				}, -- [3]
-				["name"] = "Toys",
-				["save"] = true,
+				{
+					["sliceToken"] = "ABueoSfffG4",
+					["id"] = 83244,
+				}, -- [4]
+				{
+					["sliceToken"] = "ABueoSfffGh",
+					["id"] = 83245,
+				}, -- [5]
+				{
+					["sliceToken"] = "ABueoXQbBSe",
+					["id"] = 982,
+				}, -- [6]
 				["limit"] = "Laurannah-Kel'Thuzad",
+				["save"] = true,
+				["name"] = "Pet Management",
 			},
 			["Outfits"] = {
 				{
