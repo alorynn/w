@@ -1,3 +1,7 @@
+VER 3 0100000000000016 "Countershot" "INV_Misc_QuestionMark"
+#showtooltip Counter shot
+/cast [@focus] Counter shot
+END
 VER 3 0100000000000005 "Dire Beast" "INV_MISC_QUESTIONMARK"
 #showtooltip Dire Beast
 /petattack
@@ -9,6 +13,10 @@ VER 3 0100000000000014 "Hunter Pets" "INV_Misc_QuestionMark"
 #showtooltip Mend Pet
 /cast [@pet, exists] Revive Pet;
 /click [nopet] ORLOpen Management; 
+END
+VER 3 0100000000000015 "Intimidation" "INV_Misc_QuestionMark"
+#showtooltip intimidation
+/cast [@focus] intimidation
 END
 VER 3 0100000000000002 "Kill Command" "INV_MISC_QUESTIONMARK"
 #showtooltip Kill Command

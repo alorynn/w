@@ -6,20 +6,20 @@ MacroToolkitDB = {
 			},
 		},
 	},
+	["global"] = {
+		["ebackups"] = {
+		},
+		["backups"] = {
+		},
+	},
 	["profileKeys"] = {
 		["Kmkarbashian - Kel'Thuzad"] = "profile",
 		["Alauranna - Kel'Thuzad"] = "profile",
 		["Hauzerina - Kel'Thuzad"] = "profile",
 		["Laurannah - Kel'Thuzad"] = "profile",
 		["Alisheeya - Kel'Thuzad"] = "profile",
-		["Darknstormie - Kel'Thuzad"] = "profile",
 		["Hauzer - Kel'Thuzad"] = "profile",
-	},
-	["global"] = {
-		["backups"] = {
-		},
-		["ebackups"] = {
-		},
+		["Darknstormie - Kel'Thuzad"] = "profile",
 	},
 	["profiles"] = {
 		["profile"] = {
