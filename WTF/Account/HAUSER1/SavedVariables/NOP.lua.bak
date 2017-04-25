@@ -6,10 +6,11 @@ NewOpenablesProfile = {
 		},
 	},
 	["profileKeys"] = {
-		["Laurannah - Kel'Thuzad"] = "Default",
 		["Kmkarbashian - Kel'Thuzad"] = "Default",
 		["Alauranna - Kel'Thuzad"] = "Default",
 		["Hauzer - Kel'Thuzad"] = "Default",
+		["Alisheeya - Kel'Thuzad"] = "Default",
+		["Laurannah - Kel'Thuzad"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
