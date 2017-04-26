@@ -1,10 +1,5 @@
 
 NewOpenablesProfile = {
-	["char"] = {
-		["Hauzer - Kel'Thuzad"] = {
-			["itemID"] = 144330,
-		},
-	},
 	["profileKeys"] = {
 		["Kmkarbashian - Kel'Thuzad"] = "Default",
 		["Alauranna - Kel'Thuzad"] = "Default",
@@ -26,6 +21,7 @@ NewOpenablesProfile = {
 				[0] = true,
 				[147348] = true,
 				[147349] = true,
+				[147350] = true,
 				[141028] = true,
 			},
 			["iconSize"] = 64,

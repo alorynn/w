@@ -1,10 +1,5 @@
 
 NewOpenablesProfile = {
-	["char"] = {
-		["Hauzer - Kel'Thuzad"] = {
-			["itemID"] = 144330,
-		},
-	},
 	["profileKeys"] = {
 		["Kmkarbashian - Kel'Thuzad"] = "Default",
 		["Alauranna - Kel'Thuzad"] = "Default",
@@ -19,8 +14,9 @@ NewOpenablesProfile = {
 			["T_BLACKLIST"] = {
 				[0] = true,
 				[147348] = true,
-				[141028] = true,
 				[147349] = true,
+				[147350] = true,
+				[141028] = true,
 			},
 			["button"] = {
 				nil, -- [1]
