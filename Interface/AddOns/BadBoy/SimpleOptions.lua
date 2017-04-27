@@ -8,7 +8,7 @@ end
 
 --[[ Main Panel ]]--
 local badboy = CreateFrame("Frame", "BadBoyConfig", UIParent)
-badboy:SetSize(475, 450)
+badboy:SetSize(475, 500)
 badboy:SetPoint("CENTER")
 badboy:SetClampedToScreen(true)
 badboy:EnableMouse(true)
@@ -25,7 +25,7 @@ close:SetPoint("TOPRIGHT", badboy, "TOPRIGHT", -5, -5)
 
 local title = badboy:CreateFontString(nil, nil, "GameFontNormalLarge")
 title:SetPoint("TOPLEFT", 16, -16)
-title:SetText("BadBoy v7.2.55") -- packager magic, replaced with tag version
+title:SetText("BadBoy v7.2.60") -- packager magic, replaced with tag version
 
 --[[ Show spam checkbox ]]--
 local btnShowSpam = CreateFrame("CheckButton", nil, badboy, "OptionsBaseCheckButtonTemplate")
@@ -88,17 +88,17 @@ levelsTitle:SetText("BadBoy_Levels ["..ADDON_MISSING.."]")
 
 --[[ BadBoy_Guilded Title ]]--
 local guildedTitle = badboy:CreateFontString("BadBoyGuildedConfigTitle", nil, "GameFontNormalLarge")
-guildedTitle:SetPoint("TOPLEFT", btnFreqButton, "BOTTOMLEFT", 0, -48)
+guildedTitle:SetPoint("TOPLEFT", btnFreqButton, "BOTTOMLEFT", 0, -88)
 guildedTitle:SetText("BadBoy_Guilded ["..ADDON_MISSING.."]")
 
 --[[ BadBoy_Ignore Title ]]--
 local guildedTitle = badboy:CreateFontString("BadBoyIgnoreConfigTitle", nil, "GameFontNormalLarge")
-guildedTitle:SetPoint("TOPLEFT", btnFreqButton, "BOTTOMLEFT", 0, -116)
+guildedTitle:SetPoint("TOPLEFT", btnFreqButton, "BOTTOMLEFT", 0, -156)
 guildedTitle:SetText("BadBoy_Ignore ["..ADDON_MISSING.."]")
 
 --[[ BadBoy_CCleaner Title ]]--
 local ccleanerTitle = badboy:CreateFontString("BadBoyCCleanerConfigTitle", nil, "GameFontNormalLarge")
-ccleanerTitle:SetPoint("TOPLEFT", btnFreqButton, "BOTTOMLEFT", 0, -166)
+ccleanerTitle:SetPoint("TOPLEFT", btnFreqButton, "BOTTOMLEFT", 0, -206)
 ccleanerTitle:SetText("BadBoy_CCleaner ["..ADDON_MISSING.."]")
 
 --[[ Slash Handler ]]--
