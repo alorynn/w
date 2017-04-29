@@ -176,54 +176,54 @@ OneRing_Config = {
 			},
 			["Emotes"] = {
 				{
-					["caption"] = "Cheer",
 					["sliceToken"] = "ABueo8E8ojk",
 					["id"] = "#show\n/cheer",
+					["caption"] = "Cheer",
 				}, -- [1]
 				{
-					["caption"] = "Dance",
 					["sliceToken"] = "ABueo8E8ojj",
 					["id"] = "/dance",
+					["caption"] = "Dance",
 				}, -- [2]
 				{
-					["caption"] = "Kiss",
 					["sliceToken"] = "ABueo8E8oj4",
 					["id"] = "/kiss",
+					["caption"] = "Kiss",
 				}, -- [3]
 				{
-					["caption"] = "Pet",
 					["sliceToken"] = "ABueo8E8ojh",
 					["id"] = "/pet",
+					["caption"] = "Pet",
 				}, -- [4]
 				{
-					["caption"] = "Cuddle",
 					["sliceToken"] = "ABueo8E8ojg",
 					["id"] = "/cuddle",
+					["caption"] = "Cuddle",
 				}, -- [5]
 				{
-					["caption"] = "Point",
 					["sliceToken"] = "ABueo8E8ojf",
 					["id"] = "/point",
+					["caption"] = "Point",
 				}, -- [6]
 				{
-					["caption"] = "Shrug",
 					["sliceToken"] = "ABueo8E8ojd",
 					["id"] = "/shrug",
+					["caption"] = "Shrug",
 				}, -- [7]
 				{
-					["caption"] = "Sleep",
 					["sliceToken"] = "ABueo8E8oj3",
 					["id"] = "/sleep",
+					["caption"] = "Sleep",
 				}, -- [8]
 				{
-					["caption"] = "Laugh",
 					["sliceToken"] = "ABueo8E8ojs",
 					["id"] = "/laugh",
+					["caption"] = "Laugh",
 				}, -- [9]
 				{
-					["caption"] = "Spit",
 					["sliceToken"] = "ABueo8E8oja",
 					["id"] = "/spit",
+					["caption"] = "Spit",
 				}, -- [10]
 				["noPersistentCA"] = true,
 				["name"] = "Emotes",
