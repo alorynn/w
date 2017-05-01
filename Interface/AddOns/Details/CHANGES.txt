@@ -1,7 +1,7 @@
-changeset:   602:ceed3f6a4911
-tag:         v7.2.0.3512.116
+changeset:   606:b49765e69839
+tag:         v7.2.0.3512-3.116
 user:        Tercio
-date:        Thu Apr 27 16:23:29 2017 -0300
-summary:     - added back the localizations on ToC file.
+date:        Sun Apr 30 22:19:44 2017 -0300
+summary:     - fix to work okay on ptr.
 
 

@@ -4,19 +4,19 @@ PasteDB = {
 		["Hoobastankie - Kel'Thuzad"] = "Hoobastankie - Kel'Thuzad",
 		["Hauzerogue - Kel'Thuzad"] = "Hauzerogue - Kel'Thuzad",
 		["Hauzerina - Moon Guard"] = "Hauzerina - Moon Guard",
-		["Hauser - Mal'Ganis"] = "Hauser - Mal'Ganis",
-		["Beatryce - Kel'Thuzad"] = "Beatryce - Kel'Thuzad",
-		["Alisheeya - Kel'Thuzad"] = "Alisheeya - Kel'Thuzad",
 		["Hauzerone - Dalaran"] = "Hauzerone - Dalaran",
-		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
+		["Beatryce - Kel'Thuzad"] = "Beatryce - Kel'Thuzad",
+		["Deeke - Kel'Thuzad"] = "Deeke - Kel'Thuzad",
+		["Hauser - Mal'Ganis"] = "Hauser - Mal'Ganis",
+		["Kmkarbashian - Kel'Thuzad"] = "Kmkarbashian - Kel'Thuzad",
 		["Alurannah - Kel'Thuzad"] = "Alurannah - Kel'Thuzad",
 		["Pharrah - Kel'Thuzad"] = "Pharrah - Kel'Thuzad",
 		["Laurannah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
-		["Deeke - Kel'Thuzad"] = "Deeke - Kel'Thuzad",
+		["Alisheeya - Kel'Thuzad"] = "Alisheeya - Kel'Thuzad",
 		["Sdkfhsdkjfhs - Kel'Thuzad"] = "Sdkfhsdkjfhs - Kel'Thuzad",
 		["Nigellah - Kel'Thuzad"] = "Nigellah - Kel'Thuzad",
 		["Bazoomercom - Dark Iron"] = "Bazoomercom - Dark Iron",
-		["Ugiyo - Kel'Thuzad"] = "Ugiyo - Kel'Thuzad",
+		["Hoobastanko - Kel'Thuzad"] = "Hoobastanko - Kel'Thuzad",
 		["Hauzerdemon - Kel'Thuzad"] = "Hauzerdemon - Kel'Thuzad",
 		["Beatryss - Kel'Thuzad"] = "Beatryss - Kel'Thuzad",
 		["Hauzerina - Kel'Thuzad"] = "Hauzerina - Kel'Thuzad",
@@ -26,9 +26,9 @@ PasteDB = {
 		["Skãdi - Kel'Thuzad"] = "Skãdi - Kel'Thuzad",
 		["Darknstormie - Kel'Thuzad"] = "Darknstormie - Kel'Thuzad",
 		["Alauranna - Kel'Thuzad"] = "Alauranna - Kel'Thuzad",
-		["Kmkarbashian - Kel'Thuzad"] = "Kmkarbashian - Kel'Thuzad",
+		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
 		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
-		["Hoobastanko - Kel'Thuzad"] = "Hoobastanko - Kel'Thuzad",
+		["Ugiyo - Kel'Thuzad"] = "Ugiyo - Kel'Thuzad",
 		["Laurenn - Kel'Thuzad"] = "Laurenn - Kel'Thuzad",
 		["Leeroyjenkem - Kel'Thuzad"] = "Leeroyjenkem - Kel'Thuzad",
 	},
@@ -42,20 +42,23 @@ PasteDB = {
 		["Hauzerina - Moon Guard"] = {
 			["loaded"] = true,
 		},
-		["Hauser - Mal'Ganis"] = {
+		["Hauzerone - Dalaran"] = {
 			["loaded"] = true,
 		},
 		["Beatryce - Kel'Thuzad"] = {
 			["loaded"] = true,
 		},
-		["Alisheeya - Kel'Thuzad"] = {
+		["Deeke - Kel'Thuzad"] = {
 			["loaded"] = true,
 		},
-		["Hauzerone - Dalaran"] = {
+		["Hauser - Mal'Ganis"] = {
 			["loaded"] = true,
 		},
-		["Alorannah - Kel'Thuzad"] = {
+		["Kmkarbashian - Kel'Thuzad"] = {
 			["loaded"] = true,
+			["minimap"] = {
+				["hide"] = true,
+			},
 		},
 		["Alurannah - Kel'Thuzad"] = {
 			["loaded"] = true,
@@ -77,7 +80,7 @@ PasteDB = {
 				["width"] = 499.999938964844,
 			},
 		},
-		["Deeke - Kel'Thuzad"] = {
+		["Alisheeya - Kel'Thuzad"] = {
 			["loaded"] = true,
 		},
 		["Sdkfhsdkjfhs - Kel'Thuzad"] = {
@@ -93,7 +96,7 @@ PasteDB = {
 		["Bazoomercom - Dark Iron"] = {
 			["loaded"] = true,
 		},
-		["Ugiyo - Kel'Thuzad"] = {
+		["Hoobastanko - Kel'Thuzad"] = {
 			["loaded"] = true,
 		},
 		["Hauzerdemon - Kel'Thuzad"] = {
@@ -131,11 +134,8 @@ PasteDB = {
 			["pos"] = {
 			},
 		},
-		["Kmkarbashian - Kel'Thuzad"] = {
+		["Alorannah - Kel'Thuzad"] = {
 			["loaded"] = true,
-			["minimap"] = {
-				["hide"] = true,
-			},
 		},
 		["Hauzer - Kel'Thuzad"] = {
 			["whispertarget"] = "",
@@ -152,7 +152,7 @@ PasteDB = {
 				["hide"] = true,
 			},
 		},
-		["Hoobastanko - Kel'Thuzad"] = {
+		["Ugiyo - Kel'Thuzad"] = {
 			["loaded"] = true,
 		},
 		["Laurenn - Kel'Thuzad"] = {
