@@ -27,10 +27,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
-						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 			},
@@ -47,10 +47,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Pit of Saron",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
-						["instance"] = "Pit of Saron",
 					}, -- [1]
 				},
 			},
@@ -74,10 +74,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 			},
@@ -113,11 +113,11 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
+						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
-						["instance"] = "Firelands",
 					}, -- [1]
 				},
 			},
@@ -139,9 +139,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
+						["instance"] = "Karazhan",
 						["difficulties"] = {
 						},
-						["instance"] = "Karazhan",
 					}, -- [1]
 				},
 			},
@@ -163,10 +163,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 			},
@@ -190,10 +190,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
-						["instance"] = "Ulduar",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -201,10 +201,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
-						["instance"] = "Ulduar",
 					}, -- [2]
 				},
 			},
@@ -221,10 +221,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Throne of Thunder",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
-						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 			},
@@ -316,10 +316,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
+						["instance"] = "The Blood Furnace",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
-						["instance"] = "The Blood Furnace",
 					}, -- [1]
 				},
 			},
@@ -370,10 +370,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "The Everbloom",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "The Everbloom",
 					}, -- [1]
 				},
 			},
@@ -388,9 +388,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "The Everbloom",
 						["difficulties"] = {
 						},
-						["instance"] = "The Everbloom",
 					}, -- [1]
 				},
 			},
@@ -414,10 +414,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "The Everbloom",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
-						["instance"] = "The Everbloom",
 					}, -- [1]
 				},
 			},
@@ -434,9 +434,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
+						["instance"] = "Black Temple",
 						["difficulties"] = {
 						},
-						["instance"] = "Black Temple",
 					}, -- [1]
 				},
 			},
@@ -498,10 +498,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 			},
@@ -549,9 +549,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
-						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 			},
@@ -568,9 +568,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
-						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 			},
@@ -587,9 +587,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Dire Maul",
 						["difficulties"] = {
 						},
-						["instance"] = "Dire Maul",
 					}, -- [1]
 				},
 			},
@@ -657,10 +657,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 			},
@@ -689,10 +689,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Auchindoun",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Auchindoun",
 					}, -- [1]
 				},
 			},
@@ -707,9 +707,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Auchindoun",
 						["difficulties"] = {
 						},
-						["instance"] = "Auchindoun",
 					}, -- [1]
 				},
 			},
@@ -726,10 +726,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Auchindoun",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
-						["instance"] = "Auchindoun",
 					}, -- [1]
 				},
 			},
@@ -746,9 +746,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Ruins of Ahn'Qiraj",
 						["difficulties"] = {
 						},
-						["instance"] = "Ruins of Ahn'Qiraj",
 					}, -- [1]
 				},
 			},
@@ -763,10 +763,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
+						["instance"] = "The Slave Pens",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "The Slave Pens",
 					}, -- [1]
 				},
 			},
@@ -783,10 +783,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 			},
@@ -803,10 +803,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Utgarde Keep",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
-						["instance"] = "Utgarde Keep",
 					}, -- [1]
 				},
 			},
@@ -823,10 +823,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
+						["instance"] = "Dragon Soul",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
-						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
 			},
@@ -843,18 +843,23 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 			},
 		},
-		[25266] = {
-			[71309] = {
+		[14602] = {
+			[32311] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[32324] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -925,9 +930,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Stratholme",
 						["difficulties"] = {
 						},
-						["instance"] = "Stratholme",
 					}, -- [1]
 				},
 			},
@@ -979,11 +984,6 @@ MogIt_RangedDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[10260] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
 			[4508] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -995,11 +995,16 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Lower Blackrock Spire",
 						["difficulties"] = {
 						},
-						["instance"] = "Lower Blackrock Spire",
 					}, -- [1]
 				},
+			},
+			[10260] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
 			},
 		},
 		[17781] = {
@@ -1021,13 +1026,6 @@ MogIt_RangedDB = {
 				["faction"] = 1,
 			},
 		},
-		[25411] = {
-			[70567] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
 		[6639] = {
 			[10254] = {
 				["classes"] = 4,
@@ -1040,6 +1038,13 @@ MogIt_RangedDB = {
 				["faction"] = 1,
 			},
 		},
+		[25411] = {
+			[70567] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
 		[25413] = {
 			[71478] = {
 				["classes"] = 4,
@@ -1047,40 +1052,11 @@ MogIt_RangedDB = {
 				["faction"] = 1,
 			},
 		},
-		[9660] = {
-			[19134] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[17364] = {
+		[6640] = {
+			[10256] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-			},
-			[20773] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[45667] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Houndmaster Braun",
-						["tiers"] = {
-							"Classic", -- [1]
-							"Mists of Pandaria", -- [2]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Scarlet Halls",
-					}, -- [1]
-				},
 			},
 		},
 		[9661] = {
@@ -1090,20 +1066,10 @@ MogIt_RangedDB = {
 				["faction"] = 1,
 			},
 		},
-		[9662] = {
-			[17375] = {
+		[6641] = {
+			[10258] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[17367] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[21229] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -1196,9 +1162,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Blackwing Lair",
 						["difficulties"] = {
 						},
-						["instance"] = "Blackwing Lair",
 					}, -- [1]
 				},
 			},
@@ -1215,13 +1181,27 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
+						["instance"] = "Dragon Soul",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
-						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
+			},
+		},
+		[9038] = {
+			[16105] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
+		[16276] = {
+			[45309] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
 			},
 		},
 		[17821] = {
@@ -1246,20 +1226,6 @@ MogIt_RangedDB = {
 				["faction"] = 1,
 			},
 		},
-		[16276] = {
-			[45309] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[9038] = {
-			[16105] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
 		[20109] = {
 			[49662] = {
 				["classes"] = 4,
@@ -1272,11 +1238,11 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Throne of Thunder",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
-						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 			},
@@ -1293,11 +1259,11 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Throne of Thunder",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
-						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 			},
@@ -1338,11 +1304,11 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
+						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
-						["instance"] = "Firelands",
 					}, -- [1]
 				},
 			},
@@ -1403,11 +1369,11 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
+						["instance"] = "The Bastion of Twilight",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
-						["instance"] = "The Bastion of Twilight",
 					}, -- [1]
 				},
 			},
@@ -1424,10 +1390,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Ahn'kahet: The Old Kingdom",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
-						["instance"] = "Ahn'kahet: The Old Kingdom",
 					}, -- [1]
 				},
 			},
@@ -1473,18 +1439,57 @@ MogIt_RangedDB = {
 				["faction"] = 1,
 			},
 		},
-		[6641] = {
-			[10258] = {
+		[9662] = {
+			[17375] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-		},
-		[6640] = {
-			[10256] = {
+			[17367] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
+			},
+			[21229] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[9660] = {
+			[19134] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[17364] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[20773] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[45667] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Houndmaster Braun",
+						["tiers"] = {
+							"Classic", -- [1]
+							"Mists of Pandaria", -- [2]
+						},
+						["instance"] = "Scarlet Halls",
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+					}, -- [1]
+				},
 			},
 		},
 		[3724] = {
@@ -1523,15 +1528,10 @@ MogIt_RangedDB = {
 				["faction"] = 1,
 			},
 		},
-		[14602] = {
-			[32311] = {
+		[25266] = {
+			[71309] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[32324] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -1547,10 +1547,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -1565,10 +1565,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -1583,10 +1583,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -1603,10 +1603,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -1645,11 +1645,11 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
+						["instance"] = "The Bastion of Twilight",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
-						["instance"] = "The Bastion of Twilight",
 					}, -- [1]
 				},
 			},
@@ -1680,9 +1680,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
-						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 			},
@@ -1706,10 +1706,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
+						["instance"] = "The Arcatraz",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "The Arcatraz",
 					}, -- [1]
 				},
 			},
@@ -1726,10 +1726,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 			},
@@ -1744,10 +1744,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 			},
@@ -1764,11 +1764,11 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
+						["instance"] = "Dragon Soul",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
-						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
 			},
@@ -1785,10 +1785,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
-						["instance"] = "Naxxramas",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -1796,10 +1796,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
-						["instance"] = "Naxxramas",
 					}, -- [2]
 				},
 			},
@@ -1823,10 +1823,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 			},
@@ -1841,10 +1841,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 			},
@@ -1861,10 +1861,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 			},
@@ -1890,9 +1890,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
-						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 			},
@@ -1926,10 +1926,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Onyxia's Lair",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
-						["instance"] = "Onyxia's Lair",
 					}, -- [1]
 				},
 			},
@@ -1944,10 +1944,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Onyxia's Lair",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
-						["instance"] = "Onyxia's Lair",
 					}, -- [1]
 				},
 			},
@@ -2045,9 +2045,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
+						["instance"] = "The Eye",
 						["difficulties"] = {
 						},
-						["instance"] = "The Eye",
 					}, -- [1]
 				},
 			},
@@ -2076,9 +2076,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
+						["instance"] = "The Steamvault",
 						["difficulties"] = {
 						},
-						["instance"] = "The Steamvault",
 					}, -- [1]
 				},
 			},
@@ -2095,10 +2095,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 			},
@@ -2115,10 +2115,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Iron Docks",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Iron Docks",
 					}, -- [1]
 				},
 			},
@@ -2133,9 +2133,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Iron Docks",
 						["difficulties"] = {
 						},
-						["instance"] = "Iron Docks",
 					}, -- [1]
 				},
 			},
@@ -2178,10 +2178,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
-						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 			},
@@ -2217,10 +2217,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Throne of Thunder",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
-						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 			},
@@ -2258,9 +2258,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
+						["instance"] = "Hour of Twilight",
 						["difficulties"] = {
 						},
-						["instance"] = "Hour of Twilight",
 					}, -- [1]
 				},
 			},
@@ -2303,9 +2303,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
-						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 			},
@@ -2379,9 +2379,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
+						["instance"] = "Black Temple",
 						["difficulties"] = {
 						},
-						["instance"] = "Black Temple",
 					}, -- [1]
 				},
 			},
@@ -2398,9 +2398,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
+						["instance"] = "Shadow Labyrinth",
 						["difficulties"] = {
 						},
-						["instance"] = "Shadow Labyrinth",
 					}, -- [1]
 				},
 			},
@@ -2476,10 +2476,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 			},
@@ -2494,10 +2494,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 			},
@@ -2667,9 +2667,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
-						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 			},
@@ -2682,16 +2682,6 @@ MogIt_RangedDB = {
 			},
 		},
 		[17896] = {
-			[41679] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[41950] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
 			[65496] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
@@ -2700,6 +2690,16 @@ MogIt_RangedDB = {
 			[41626] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[41679] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[41950] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -2719,7 +2719,7 @@ MogIt_RangedDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[31255] = {
+			[31525] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -2729,7 +2729,7 @@ MogIt_RangedDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[31525] = {
+			[31255] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -2750,9 +2750,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Molten Core",
 						["difficulties"] = {
 						},
-						["instance"] = "Molten Core",
 					}, -- [1]
 				},
 			},
@@ -2836,10 +2836,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
-						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 			},
@@ -2856,9 +2856,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Stratholme",
 						["difficulties"] = {
 						},
-						["instance"] = "Stratholme",
 					}, -- [1]
 				},
 			},
@@ -2873,9 +2873,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Uldaman",
 						["difficulties"] = {
 						},
-						["instance"] = "Uldaman",
 					}, -- [1]
 				},
 			},
@@ -2914,10 +2914,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "The Violet Hold",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "The Violet Hold",
 					}, -- [1]
 				},
 			},
@@ -2955,10 +2955,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
-						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 			},
@@ -2982,10 +2982,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 			},
@@ -3048,10 +3048,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Terrace of Endless Spring",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
-						["instance"] = "Terrace of Endless Spring",
 					}, -- [1]
 				},
 			},
@@ -3075,10 +3075,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 			},
@@ -3114,10 +3114,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "The Culling of Stratholme",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
-						["instance"] = "The Culling of Stratholme",
 					}, -- [1]
 				},
 			},
@@ -3146,9 +3146,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Blackwing Lair",
 						["difficulties"] = {
 						},
-						["instance"] = "Blackwing Lair",
 					}, -- [1]
 				},
 			},
@@ -3208,10 +3208,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 			},
@@ -3226,10 +3226,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 			},
@@ -3248,44 +3248,32 @@ MogIt_RangedDB = {
 				["faction"] = 1,
 			},
 		},
-		[23176] = {
-			[62865] = {
+		[20116] = {
+			[50912] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "The Iron Maidens",
+						["encounter"] = "Iron Qon",
 						["tiers"] = {
-							"Warlords of Draenor", -- [1]
+							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Throne of Thunder",
 						["difficulties"] = {
-							"Heroic", -- [1]
+							"10 Player (Heroic)", -- [1]
+							"25 Player (Heroic)", -- [2]
 						},
-						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 			},
 		},
-		[22658] = {
-			[65270] = {
+		[1464] = {
+			[26054] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
+				["sourceType"] = 2,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Operator Thogar",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Looking For Raid", -- [1]
-						},
-						["instance"] = "Blackrock Foundry",
-					}, -- [1]
-				},
 			},
 		},
 		[26232] = {
@@ -3300,31 +3288,30 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 			},
 		},
-		[20116] = {
-			[50912] = {
+		[23176] = {
+			[62865] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Iron Qon",
+						["encounter"] = "The Iron Maidens",
 						["tiers"] = {
-							"Mists of Pandaria", -- [1]
+							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
-							"10 Player (Heroic)", -- [1]
-							"25 Player (Heroic)", -- [2]
+							"Heroic", -- [1]
 						},
-						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 			},
@@ -3358,9 +3345,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Blackrock Depths",
 						["difficulties"] = {
 						},
-						["instance"] = "Blackrock Depths",
 					}, -- [1]
 				},
 			},
@@ -3375,9 +3362,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Maraudon",
 						["difficulties"] = {
 						},
-						["instance"] = "Maraudon",
 					}, -- [1]
 				},
 			},
@@ -3413,10 +3400,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
-						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 			},
@@ -3433,10 +3420,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Iron Docks",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
-						["instance"] = "Iron Docks",
 					}, -- [1]
 				},
 			},
@@ -3453,10 +3440,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Trial of the Champion",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
-						["instance"] = "Trial of the Champion",
 					}, -- [1]
 				},
 			},
@@ -3473,10 +3460,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
-						["instance"] = "Naxxramas",
 					}, -- [1]
 				},
 			},
@@ -3491,10 +3478,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Pit of Saron",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Pit of Saron",
 					}, -- [1]
 				},
 			},
@@ -3511,9 +3498,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
+						["instance"] = "Karazhan",
 						["difficulties"] = {
 						},
-						["instance"] = "Karazhan",
 					}, -- [1]
 				},
 			},
@@ -3535,9 +3522,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Temple of Ahn'Qiraj",
 						["difficulties"] = {
 						},
-						["instance"] = "Temple of Ahn'Qiraj",
 					}, -- [1]
 				},
 			},
@@ -3589,11 +3576,11 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Terrace of Endless Spring",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
-						["instance"] = "Terrace of Endless Spring",
 					}, -- [1]
 				},
 			},
@@ -3629,9 +3616,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Dire Maul",
 						["difficulties"] = {
 						},
-						["instance"] = "Dire Maul",
 					}, -- [1]
 					{
 						["instanceType"] = 1,
@@ -3639,9 +3626,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Dire Maul",
 						["difficulties"] = {
 						},
-						["instance"] = "Dire Maul",
 					}, -- [2]
 					{
 						["instanceType"] = 1,
@@ -3649,9 +3636,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Dire Maul",
 						["difficulties"] = {
 						},
-						["instance"] = "Dire Maul",
 					}, -- [3]
 				},
 			},
@@ -3668,10 +3655,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
+						["instance"] = "The Blood Furnace",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "The Blood Furnace",
 					}, -- [1]
 				},
 			},
@@ -3695,10 +3682,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
+						["instance"] = "The Vortex Pinnacle",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
-						["instance"] = "The Vortex Pinnacle",
 					}, -- [1]
 				},
 			},
@@ -3713,10 +3700,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
+						["instance"] = "The Vortex Pinnacle",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "The Vortex Pinnacle",
 					}, -- [1]
 				},
 			},
@@ -3738,10 +3725,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
+						["instance"] = "Sethekk Halls",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
-						["instance"] = "Sethekk Halls",
 					}, -- [1]
 				},
 			},
@@ -3756,12 +3743,17 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Halls of Lightning",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Halls of Lightning",
 					}, -- [1]
 				},
+			},
+			[13870] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
 			},
 			[12370] = {
 				["classes"] = 4,
@@ -3774,16 +3766,11 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
+						["instance"] = "The Mechanar",
 						["difficulties"] = {
 						},
-						["instance"] = "The Mechanar",
 					}, -- [1]
 				},
-			},
-			[13870] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
 			},
 		},
 		[1598] = {
@@ -3805,11 +3792,11 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Terrace of Endless Spring",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
-						["instance"] = "Terrace of Endless Spring",
 					}, -- [1]
 				},
 			},
@@ -3865,10 +3852,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
-						["instance"] = "Naxxramas",
 					}, -- [1]
 				},
 			},
@@ -3885,10 +3872,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
+						["instance"] = "The Vortex Pinnacle",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "The Vortex Pinnacle",
 					}, -- [1]
 				},
 			},
@@ -3903,10 +3890,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
+						["instance"] = "The Vortex Pinnacle",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
-						["instance"] = "The Vortex Pinnacle",
 					}, -- [1]
 				},
 			},
@@ -3935,11 +3922,11 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Temple of the Jade Serpent",
 						["difficulties"] = {
 							"Normal", -- [1]
 							"Timewalking", -- [2]
 						},
-						["instance"] = "Temple of the Jade Serpent",
 					}, -- [1]
 				},
 			},
@@ -3950,16 +3937,6 @@ MogIt_RangedDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[28440] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[25898] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
 			[29728] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
@@ -3968,6 +3945,16 @@ MogIt_RangedDB = {
 			[1715] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+			[28440] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[25898] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -3983,10 +3970,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -4001,10 +3988,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -4317,19 +4304,32 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
+						["instance"] = "Zul'Gurub",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Zul'Gurub",
 					}, -- [1]
 				},
 			},
 		},
-		[1464] = {
-			[26054] = {
+		[22658] = {
+			[65270] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
 				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Operator Thogar",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["instance"] = "Blackrock Foundry",
+						["difficulties"] = {
+							"Looking For Raid", -- [1]
+						},
+					}, -- [1]
+				},
 			},
 		},
 		[11224] = {
@@ -4397,11 +4397,11 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Stormstout Brewery",
 						["difficulties"] = {
 							"Normal", -- [1]
 							"Timewalking", -- [2]
 						},
-						["instance"] = "Stormstout Brewery",
 					}, -- [1]
 				},
 			},
@@ -4425,11 +4425,11 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Throne of Thunder",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
-						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 			},
@@ -4446,10 +4446,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 			},
@@ -4480,10 +4480,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 			},
@@ -4543,10 +4543,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 			},
@@ -4563,9 +4563,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
-						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -4573,9 +4573,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
-						["instance"] = "Siege of Orgrimmar",
 					}, -- [2]
 				},
 			},
@@ -4613,10 +4613,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 			},
@@ -4640,10 +4640,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Gundrak",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Gundrak",
 					}, -- [1]
 				},
 			},
@@ -4665,11 +4665,11 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
+						["instance"] = "Dragon Soul",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
-						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
 			},
@@ -4686,11 +4686,11 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
+						["instance"] = "Dragon Soul",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
-						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
 			},
@@ -4707,9 +4707,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Blackwing Lair",
 						["difficulties"] = {
 						},
-						["instance"] = "Blackwing Lair",
 					}, -- [1]
 				},
 			},
@@ -4726,11 +4726,11 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
+						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
-						["instance"] = "Firelands",
 					}, -- [1]
 				},
 			},
@@ -4770,9 +4770,9 @@ MogIt_RangedDB = {
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[7754] = {
+			[967] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 			[10246] = {
@@ -4780,9 +4780,9 @@ MogIt_RangedDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[967] = {
+			[7754] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -4798,10 +4798,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
-						["instance"] = "Naxxramas",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -4809,10 +4809,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
-						["instance"] = "Naxxramas",
 					}, -- [2]
 				},
 			},
@@ -4829,9 +4829,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Lower Blackrock Spire",
 						["difficulties"] = {
 						},
-						["instance"] = "Lower Blackrock Spire",
 					}, -- [1]
 				},
 			},
@@ -4886,10 +4886,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
+						["instance"] = "Mana-Tombs",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
-						["instance"] = "Mana-Tombs",
 					}, -- [1]
 				},
 			},
@@ -4911,11 +4911,11 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
+						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
-						["instance"] = "Firelands",
 					}, -- [1]
 				},
 			},
@@ -4946,9 +4946,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
-						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 			},
@@ -4972,9 +4972,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
-						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -4982,9 +4982,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
-						["instance"] = "Siege of Orgrimmar",
 					}, -- [2]
 				},
 			},
@@ -5013,10 +5013,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Shadowmoon Burial Grounds",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
-						["instance"] = "Shadowmoon Burial Grounds",
 					}, -- [1]
 				},
 			},
@@ -5057,9 +5057,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Razorfen Kraul",
 						["difficulties"] = {
 						},
-						["instance"] = "Razorfen Kraul",
 					}, -- [1]
 				},
 			},
@@ -5083,9 +5083,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Wailing Caverns",
 						["difficulties"] = {
 						},
-						["instance"] = "Wailing Caverns",
 					}, -- [1]
 				},
 			},
@@ -5149,11 +5149,11 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
+						["instance"] = "Blackwing Descent",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
-						["instance"] = "Blackwing Descent",
 					}, -- [1]
 				},
 			},
@@ -5168,11 +5168,11 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
+						["instance"] = "Blackwing Descent",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
-						["instance"] = "Blackwing Descent",
 					}, -- [1]
 				},
 			},
@@ -5189,10 +5189,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Halls of Reflection",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Halls of Reflection",
 					}, -- [1]
 				},
 			},
@@ -5362,9 +5362,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Ruins of Ahn'Qiraj",
 						["difficulties"] = {
 						},
-						["instance"] = "Ruins of Ahn'Qiraj",
 					}, -- [1]
 				},
 			},
@@ -5393,9 +5393,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Stratholme",
 						["difficulties"] = {
 						},
-						["instance"] = "Stratholme",
 					}, -- [1]
 				},
 			},
@@ -5443,9 +5443,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
+						["instance"] = "Serpentshrine Cavern",
 						["difficulties"] = {
 						},
-						["instance"] = "Serpentshrine Cavern",
 					}, -- [1]
 				},
 			},
@@ -5469,10 +5469,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
+						["instance"] = "The Black Morass",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "The Black Morass",
 					}, -- [1]
 				},
 			},
@@ -5489,10 +5489,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 			},
@@ -5540,10 +5540,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
+						["instance"] = "The Steamvault",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
-						["instance"] = "The Steamvault",
 					}, -- [1]
 				},
 			},
@@ -5567,10 +5567,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
+						["instance"] = "Mana-Tombs",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Mana-Tombs",
 					}, -- [1]
 				},
 			},
@@ -5608,10 +5608,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
+						["instance"] = "Zul'Gurub",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Zul'Gurub",
 					}, -- [1]
 				},
 			},
@@ -5635,10 +5635,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
+						["instance"] = "Dragon Soul",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
-						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
 			},
@@ -5660,11 +5660,11 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Siege of Niuzao Temple",
 						["difficulties"] = {
 							"Normal", -- [1]
 							"Timewalking", -- [2]
 						},
-						["instance"] = "Siege of Niuzao Temple",
 					}, -- [1]
 				},
 			},
@@ -5688,10 +5688,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 			},
@@ -5739,10 +5739,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 			},
@@ -5759,10 +5759,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Highmaul",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
-						["instance"] = "Highmaul",
 					}, -- [1]
 				},
 			},
@@ -5797,12 +5797,12 @@ MogIt_RangedDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[26920] = {
+			[78360] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[78360] = {
+			[26920] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -5837,10 +5837,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Shadowmoon Burial Grounds",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Shadowmoon Burial Grounds",
 					}, -- [1]
 				},
 			},
@@ -5855,9 +5855,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Shadowmoon Burial Grounds",
 						["difficulties"] = {
 						},
-						["instance"] = "Shadowmoon Burial Grounds",
 					}, -- [1]
 				},
 			},
@@ -5893,10 +5893,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Mogu'shan Vaults",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
-						["instance"] = "Mogu'shan Vaults",
 					}, -- [1]
 				},
 			},
@@ -5913,9 +5913,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
-						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -5923,9 +5923,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
-						["instance"] = "Siege of Orgrimmar",
 					}, -- [2]
 				},
 			},
@@ -5942,9 +5942,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
+						["instance"] = "The Battle for Mount Hyjal",
 						["difficulties"] = {
 						},
-						["instance"] = "The Battle for Mount Hyjal",
 					}, -- [1]
 				},
 			},
@@ -6015,10 +6015,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 			},
@@ -6054,9 +6054,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Dire Maul",
 						["difficulties"] = {
 						},
-						["instance"] = "Dire Maul",
 					}, -- [1]
 				},
 			},
@@ -6092,9 +6092,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Blackrock Depths",
 						["difficulties"] = {
 						},
-						["instance"] = "Blackrock Depths",
 					}, -- [1]
 				},
 			},
@@ -6111,10 +6111,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Highmaul",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
-						["instance"] = "Highmaul",
 					}, -- [1]
 				},
 			},
@@ -6175,13 +6175,8 @@ MogIt_RangedDB = {
 				["faction"] = 1,
 			},
 		},
-		[9327] = {
-			[16634] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[17355] = {
+		[20375] = {
+			[50117] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -6199,34 +6194,20 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Mogu'shan Vaults",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
-						["instance"] = "Mogu'shan Vaults",
 					}, -- [1]
 				},
 			},
 		},
-		[20108] = {
-			[50827] = {
+		[25463] = {
+			[71477] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
+				["sourceType"] = 3,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Tortos",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player (Heroic)", -- [1]
-							"25 Player (Heroic)", -- [2]
-						},
-						["instance"] = "Throne of Thunder",
-					}, -- [1]
-				},
 			},
 		},
 		[7355] = {
@@ -6241,9 +6222,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
+						["instance"] = "Karazhan",
 						["difficulties"] = {
 						},
-						["instance"] = "Karazhan",
 					}, -- [1]
 				},
 			},
@@ -6255,8 +6236,13 @@ MogIt_RangedDB = {
 				["faction"] = 1,
 			},
 		},
-		[20375] = {
-			[50117] = {
+		[9327] = {
+			[16634] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[17355] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -6301,9 +6287,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
-						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 			},
@@ -6320,10 +6306,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 			},
@@ -6354,10 +6340,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
+						["instance"] = "Blackrock Caverns",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
-						["instance"] = "Blackrock Caverns",
 					}, -- [1]
 				},
 			},
@@ -6377,10 +6363,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
+						["instance"] = "Blackrock Caverns",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Blackrock Caverns",
 					}, -- [1]
 				},
 			},
@@ -6425,11 +6411,11 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Gate of the Setting Sun",
 						["difficulties"] = {
 							"Normal", -- [1]
 							"Timewalking", -- [2]
 						},
-						["instance"] = "Gate of the Setting Sun",
 					}, -- [1]
 				},
 			},
@@ -6453,10 +6439,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
-						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 			},
@@ -6523,9 +6509,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
+						["instance"] = "Sunwell Plateau",
 						["difficulties"] = {
 						},
-						["instance"] = "Sunwell Plateau",
 					}, -- [1]
 				},
 			},
@@ -6596,9 +6582,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Blackfathom Deeps",
 						["difficulties"] = {
 						},
-						["instance"] = "Blackfathom Deeps",
 					}, -- [1]
 				},
 			},
@@ -6620,10 +6606,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
-						["instance"] = "Naxxramas",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -6631,10 +6617,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
-						["instance"] = "Naxxramas",
 					}, -- [2]
 				},
 			},
@@ -6658,10 +6644,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
-						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 			},
@@ -6728,9 +6714,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
+						["instance"] = "Black Temple",
 						["difficulties"] = {
 						},
-						["instance"] = "Black Temple",
 					}, -- [1]
 				},
 			},
@@ -6754,10 +6740,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
+						["instance"] = "The Shattered Halls",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "The Shattered Halls",
 					}, -- [1]
 				},
 			},
@@ -6831,11 +6817,25 @@ MogIt_RangedDB = {
 				["faction"] = 1,
 			},
 		},
-		[25463] = {
-			[71477] = {
+		[20108] = {
+			[50827] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
 				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Tortos",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["instance"] = "Throne of Thunder",
+						["difficulties"] = {
+							"10 Player (Heroic)", -- [1]
+							"25 Player (Heroic)", -- [2]
+						},
+					}, -- [1]
+				},
 			},
 		},
 		[3710] = {
@@ -6933,11 +6933,11 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Throne of Thunder",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
-						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 			},
@@ -6961,9 +6961,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Molten Core",
 						["difficulties"] = {
 						},
-						["instance"] = "Molten Core",
 					}, -- [1]
 				},
 			},
@@ -6980,10 +6980,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Highmaul",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Highmaul",
 					}, -- [1]
 				},
 			},
@@ -7007,10 +7007,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Throne of Thunder",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
-						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 			},
@@ -7041,9 +7041,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Temple of Ahn'Qiraj",
 						["difficulties"] = {
 						},
-						["instance"] = "Temple of Ahn'Qiraj",
 					}, -- [1]
 				},
 			},
@@ -7081,11 +7081,11 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Mogu'shan Vaults",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
-						["instance"] = "Mogu'shan Vaults",
 					}, -- [1]
 				},
 			},
@@ -7114,10 +7114,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Highmaul",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
-						["instance"] = "Highmaul",
 					}, -- [1]
 				},
 			},
@@ -7134,9 +7134,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
-						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 			},
@@ -7153,10 +7153,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Utgarde Pinnacle",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Utgarde Pinnacle",
 					}, -- [1]
 				},
 			},
@@ -7173,10 +7173,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 			},
@@ -7207,10 +7207,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Mogu'shan Vaults",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Mogu'shan Vaults",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -7234,10 +7234,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -7252,10 +7252,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -7279,11 +7279,11 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Mogu'shan Vaults",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Mogu'shan Vaults",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -7338,11 +7338,11 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Blackwing Descent",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Blackwing Descent",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -7515,10 +7515,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -7535,10 +7535,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -7555,10 +7555,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Naxxramas",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -7566,10 +7566,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Naxxramas",
 					}, -- [2]
 				},
 				["faction"] = 1,
@@ -7631,10 +7631,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -7656,9 +7656,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Maraudon",
 						["difficulties"] = {
 						},
+						["instance"] = "Maraudon",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -7694,10 +7694,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -7712,10 +7712,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -7760,9 +7760,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Black Temple",
 						["difficulties"] = {
 						},
+						["instance"] = "Black Temple",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -7811,10 +7811,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -7914,11 +7914,11 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Dragon Soul",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -7935,10 +7935,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "The Slave Pens",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "The Slave Pens",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -7980,24 +7980,6 @@ MogIt_RangedDB = {
 			},
 		},
 		[6895] = {
-			[16551] = {
-				["classes"] = 128,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Grand Magus Telestra",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["instance"] = "The Nexus",
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
 			[17640] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
@@ -8008,28 +7990,28 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Utgarde Keep",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Utgarde Keep",
 					}, -- [1]
 				},
 				["faction"] = 1,
 			},
-			[11968] = {
+			[16551] = {
 				["classes"] = 128,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Warchief Kargath Bladefist",
+						["encounter"] = "Grand Magus Telestra",
 						["tiers"] = {
-							"Burning Crusade", -- [1]
+							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "The Shattered Halls",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "The Nexus",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -8044,10 +8026,28 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Iron Docks",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Iron Docks",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[11968] = {
+				["classes"] = 128,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Warchief Kargath Bladefist",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "The Shattered Halls",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -8064,10 +8064,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Blackrock Caverns",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Blackrock Caverns",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -8082,10 +8082,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Blackrock Caverns",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Blackrock Caverns",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -8102,10 +8102,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Halls of Lightning",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Halls of Lightning",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -8134,11 +8134,11 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -8214,9 +8214,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -8288,10 +8288,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Naxxramas",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -8299,10 +8299,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Naxxramas",
 					}, -- [2]
 				},
 				["faction"] = 1,
@@ -8339,10 +8339,10 @@ MogIt_RangedDB = {
 							"Classic", -- [1]
 							"Mists of Pandaria", -- [2]
 						},
-						["instance"] = "Scholomance",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Scholomance",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -8397,10 +8397,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Dragon Soul",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -8450,9 +8450,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Shadow Labyrinth",
 						["difficulties"] = {
 						},
+						["instance"] = "Shadow Labyrinth",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -8481,11 +8481,11 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Mogu'shan Vaults",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Mogu'shan Vaults",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -8590,11 +8590,11 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Dragon Soul",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -8630,10 +8630,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Highmaul",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Highmaul",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -8676,10 +8676,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "The Underbog",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "The Underbog",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -8699,10 +8699,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Naxxramas",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -8710,10 +8710,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Naxxramas",
 					}, -- [2]
 				},
 				["faction"] = 1,
@@ -8865,10 +8865,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "The Arcatraz",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "The Arcatraz",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -8883,10 +8883,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Utgarde Pinnacle",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Utgarde Pinnacle",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -8910,11 +8910,11 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Throne of Thunder",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -8931,11 +8931,11 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -8959,10 +8959,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -8992,10 +8992,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Gundrak",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Gundrak",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -9029,10 +9029,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -9049,9 +9049,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "The Temple of Atal'hakkar",
 						["difficulties"] = {
 						},
+						["instance"] = "The Temple of Atal'hakkar",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -9068,9 +9068,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Dire Maul",
 						["difficulties"] = {
 						},
+						["instance"] = "Dire Maul",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -9104,9 +9104,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Karazhan",
 						["difficulties"] = {
 						},
+						["instance"] = "Karazhan",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -9156,10 +9156,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Mana-Tombs",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Mana-Tombs",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -9207,10 +9207,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -9227,9 +9227,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Karazhan",
 						["difficulties"] = {
 						},
+						["instance"] = "Karazhan",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -9291,9 +9291,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Molten Core",
 						["difficulties"] = {
 						},
+						["instance"] = "Molten Core",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -9301,9 +9301,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Molten Core",
 						["difficulties"] = {
 						},
+						["instance"] = "Molten Core",
 					}, -- [2]
 					{
 						["instanceType"] = 2,
@@ -9311,9 +9311,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Molten Core",
 						["difficulties"] = {
 						},
+						["instance"] = "Molten Core",
 					}, -- [3]
 					{
 						["instanceType"] = 2,
@@ -9321,9 +9321,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Molten Core",
 						["difficulties"] = {
 						},
+						["instance"] = "Molten Core",
 					}, -- [4]
 				},
 				["faction"] = 1,
@@ -9340,10 +9340,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Highmaul",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
+						["instance"] = "Highmaul",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -9367,9 +9367,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Magtheridon's Lair",
 						["difficulties"] = {
 						},
+						["instance"] = "Magtheridon's Lair",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -9446,10 +9446,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Highmaul",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Highmaul",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -9466,11 +9466,11 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Throne of Thunder",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -9527,10 +9527,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -9554,9 +9554,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Blackrock Depths",
 						["difficulties"] = {
 						},
+						["instance"] = "Blackrock Depths",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -9613,9 +9613,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Razorfen Downs",
 						["difficulties"] = {
 						},
+						["instance"] = "Razorfen Downs",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -9637,10 +9637,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Naxxramas",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -9655,10 +9655,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Halls of Reflection",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Halls of Reflection",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -9682,10 +9682,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -9700,10 +9700,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -9720,10 +9720,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Naxxramas",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -9731,10 +9731,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Naxxramas",
 					}, -- [2]
 				},
 				["faction"] = 1,
@@ -9758,11 +9758,11 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Blackwing Descent",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Blackwing Descent",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -9779,10 +9779,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -9797,10 +9797,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -9884,9 +9884,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "The Eye",
 						["difficulties"] = {
 						},
+						["instance"] = "The Eye",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -9901,9 +9901,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Serpentshrine Cavern",
 						["difficulties"] = {
 						},
+						["instance"] = "Serpentshrine Cavern",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -9918,9 +9918,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Black Temple",
 						["difficulties"] = {
 						},
+						["instance"] = "Black Temple",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -9937,10 +9937,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Zul'Gurub",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Zul'Gurub",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -9957,9 +9957,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -10004,9 +10004,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Stratholme",
 						["difficulties"] = {
 						},
+						["instance"] = "Stratholme",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -10144,9 +10144,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Dire Maul",
 						["difficulties"] = {
 						},
+						["instance"] = "Dire Maul",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -10182,10 +10182,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -10226,9 +10226,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Temple of Ahn'Qiraj",
 						["difficulties"] = {
 						},
+						["instance"] = "Temple of Ahn'Qiraj",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -10305,9 +10305,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Stratholme",
 						["difficulties"] = {
 						},
+						["instance"] = "Stratholme",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -10324,10 +10324,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Zul'Gurub",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Zul'Gurub",
 					}, -- [1]
 					{
 						["instanceType"] = 1,
@@ -10335,10 +10335,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Zul'Gurub",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Zul'Gurub",
 					}, -- [2]
 					{
 						["instanceType"] = 1,
@@ -10346,10 +10346,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Zul'Gurub",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Zul'Gurub",
 					}, -- [3]
 					{
 						["instanceType"] = 1,
@@ -10357,10 +10357,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Zul'Gurub",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Zul'Gurub",
 					}, -- [4]
 				},
 				["faction"] = 1,
@@ -10377,10 +10377,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -10395,10 +10395,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -10436,10 +10436,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -10456,9 +10456,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Shadow Labyrinth",
 						["difficulties"] = {
 						},
+						["instance"] = "Shadow Labyrinth",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -10475,9 +10475,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -10508,9 +10508,9 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Blackwing Lair",
 						["difficulties"] = {
 						},
+						["instance"] = "Blackwing Lair",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -10527,10 +10527,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Throne of Thunder",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -10568,10 +10568,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Grim Batol",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Grim Batol",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -10586,10 +10586,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Grim Batol",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Grim Batol",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -10650,10 +10650,10 @@ MogIt_RangedDB = {
 							"Cataclysm", -- [1]
 							"Classic", -- [2]
 						},
-						["instance"] = "Deadmines",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Deadmines",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -10669,10 +10669,10 @@ MogIt_RangedDB = {
 							"Cataclysm", -- [1]
 							"Classic", -- [2]
 						},
-						["instance"] = "Deadmines",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Deadmines",
 					}, -- [1]
 				},
 				["faction"] = 1,

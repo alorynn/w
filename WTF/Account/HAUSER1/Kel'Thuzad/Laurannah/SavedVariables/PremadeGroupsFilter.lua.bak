@@ -1,6 +1,6 @@
 
 PremadeGroupsFilterState = {
-	["enabled"] = false,
+	["enabled"] = true,
 	["tanks"] = {
 		["max"] = "",
 		["min"] = "",
@@ -19,14 +19,14 @@ PremadeGroupsFilterState = {
 	["noilvl"] = {
 		["act"] = false,
 	},
-	["expression"] = "",
+	["expression"] = "\"+5\"\n",
 	["difficulty"] = {
+		["val"] = 3,
 		["act"] = true,
-		["val"] = 2,
 	},
-	["members"] = {
+	["defeated"] = {
 		["max"] = "",
-		["min"] = "",
+		["min"] = "3",
 		["act"] = false,
 	},
 	["heals"] = {
@@ -34,9 +34,9 @@ PremadeGroupsFilterState = {
 		["min"] = "",
 		["act"] = false,
 	},
-	["defeated"] = {
+	["members"] = {
 		["max"] = "",
-		["min"] = "3",
-		["act"] = true,
+		["min"] = "",
+		["act"] = false,
 	},
 }

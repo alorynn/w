@@ -1,4 +1,4 @@
-local VERSION = 33
+local VERSION = 34
 
 --[[
 Special icons for rares, pvp or pet battle quests in list
@@ -89,6 +89,10 @@ Sorting by reward: Gear rewards had low priority for high ilvl chars
 Minor fixes
 
 Bugfixes
+
+Added invasions quests to list for low level chars
+Added faction icons for emissary quests (can be disabled in options)
+Threshold for lower priority on gear rewards was lowered to 880 ilvl
 ]]
 
 
@@ -133,6 +137,7 @@ local LOCALE =
 		headerEnable = "Включить полосу-заголовок",
 		disabeHighlightNewQuests = "Отключить подсветку новых заданий",
 		distance = "Расстояние",
+		disableBountyIcon = "Отключить иконку фракций для заданий посланника",
 	} or
 	locale == "deDE" and {
 		gear = "Ausrüstung",
@@ -155,6 +160,7 @@ local LOCALE =
 		headerEnable = "Enable header line",
 		disabeHighlightNewQuests = "Disable highlight for new quests",
 		distance = "Distance",
+		disableBountyIcon = "Disable Emissary icons for faction names",
 	} or
 	locale == "frFR" and {
 		gear = "Équipement",
@@ -177,6 +183,7 @@ local LOCALE =
 		headerEnable = "Enable header line",
 		disabeHighlightNewQuests = "Disable highlight for new quests",
 		distance = "Distance",
+		disableBountyIcon = "Disable Emissary icons for faction names",
 	} or
 	(locale == "esES" or locale == "esMX") and {
 		gear = "Equipo",
@@ -199,6 +206,7 @@ local LOCALE =
 		headerEnable = "Enable header line",
 		disabeHighlightNewQuests = "Disable highlight for new quests",
 		distance = "Distance",
+		disableBountyIcon = "Disable Emissary icons for faction names",
 	} or	
 	locale == "itIT" and {
 		gear = "Equipaggiamento",
@@ -221,6 +229,7 @@ local LOCALE =
 		headerEnable = "Enable header line",
 		disabeHighlightNewQuests = "Disable highlight for new quests",
 		distance = "Distance",
+		disableBountyIcon = "Disable Emissary icons for faction names",
 	} or
 	locale == "ptBR" and {
 		gear = "Equipamento",
@@ -243,6 +252,7 @@ local LOCALE =
 		headerEnable = "Enable header line",
 		disabeHighlightNewQuests = "Disable highlight for new quests",
 		distance = "Distance",
+		disableBountyIcon = "Disable Emissary icons for faction names",
 	} or
 	locale == "koKR" and {
 		gear = "Gear",
@@ -265,28 +275,30 @@ local LOCALE =
 		headerEnable = "Enable header line",
 		disabeHighlightNewQuests = "Disable highlight for new quests",
 		distance = "Distance",
+		disableBountyIcon = "Disable Emissary icons for faction names",
 	} or
 	(locale == "zhCN" or locale == "zhTW") and {
 		gear = "装备",
 		gold = "黄金",
 		blood = "萨格拉斯之血",
-		knowledgeTooltip = "** Can be completed after reaching next artifact knowledge level",
-		disableArrow = "Disable arrow",
-		anchor = "Anchor",
-		totalap = "Total Artifact Power: ",
-		totalapdisable = 'Disable "Total AP"',
-		timeToComplete = "Time to complete: ",
-		bountyIgnoreFilter = "Emissary quests",
-		enigmaHelper = "Enable Enigma Helper",
-		barrelsHelper = "Enable Barrels Helper",
-		honorIgnoreFilter = "PvP quests",
-		ignoreFilter = "Ignore filter for",
-		epicIgnoreFilter = '"Golden" quests',
-		wantedIgnoreFilter = "WANTED quests",	
-		apFormatSetup = "Artifact Power format",
-		headerEnable = "Enable header line",
-		disabeHighlightNewQuests = "Disable highlight for new quests",
-		distance = "Distance",
+		knowledgeTooltip = "** 可在达到下一个神器知识等级后完成",
+		disableArrow = "禁用 箭头",
+		anchor = "插件位置",
+		totalap = "神器能量总数：",
+		totalapdisable = '禁用 "神器能量总数"',
+		timeToComplete = "剩余时间：",
+		bountyIgnoreFilter = "宝箱任务",
+		enigmaHelper = "开启 迷宫助手",
+		barrelsHelper = "开启 欢乐桶助手",
+		honorIgnoreFilter = "PvP 任务",
+		ignoreFilter = "不过滤：",
+		epicIgnoreFilter = '精英任务',
+		wantedIgnoreFilter = "通缉任务", 
+		apFormatSetup = "神器能量数字格式",
+		headerEnable = "开启 标题行",
+		disabeHighlightNewQuests = "禁用 新任务高亮",
+		distance = "距离",
+		disableBountyIcon = "Disable Emissary icons for faction names",
 	} or	
 	{
 		gear = "Gear",
@@ -309,6 +321,7 @@ local LOCALE =
 		headerEnable = "Enable header line",
 		disabeHighlightNewQuests = "Disable highlight for new quests",
 		distance = "Distance",
+		disableBountyIcon = "Disable Emissary icons for faction names",
 	}
 
 local orderResName = GetCurrencyInfo(1220)
@@ -816,6 +829,7 @@ end
 local function WorldQuestList_LineReward_OnLeave(self)
 	self:UnregisterEvent('MODIFIER_STATE_CHANGED')
 	GameTooltip_Hide()
+	GameTooltip:ClearLines()
 	WorldQuestList_Line_OnLeave(self:GetParent())
 	for _,tip in pairs(additionalTooltips) do
 		tip:Hide()
@@ -1802,7 +1816,17 @@ do
 		end,
 		checkable = true,
 	}
-		
+
+	list[#list+1] = {
+		text = LOCALE.disableBountyIcon,
+		func = function()
+			VWQL.DisableBountyIcon = not VWQL.DisableBountyIcon
+			ELib.ScrollDropDown.Close()
+			WorldQuestList_Update_PrevZone = nil
+			WorldQuestList_Update()
+		end,
+		checkable = true,
+	}	
 	
 	function WorldQuestList.optionsDropDown.Button:additionalToggle()
 		for i=1,#self.List do
@@ -1818,6 +1842,8 @@ do
 				self.List[i].checkState = not VWQL.DisableHeader
 			elseif self.List[i].text == LOCALE.disabeHighlightNewQuests then
 				self.List[i].checkState = VWQL.DisableHighlightNewQuest
+			elseif self.List[i].text == LOCALE.disableBountyIcon then
+				self.List[i].checkState = VWQL.DisableBountyIcon
 			end
 		end
 		anchorSubMenu[1].checkState = not VWQL.Anchor
@@ -1911,7 +1937,6 @@ local dalaranWQs = {	--Invincible outside dalaran, API broken too
 }
 
 local function WorldQuestList_Leveling_Update()
-
 	local quests = {}
 	local prevHeader = nil
 	for i=1,GetNumQuestLogEntries() do
@@ -1926,6 +1951,41 @@ local function WorldQuestList_Leveling_Update()
 				isCompleted = IsQuestComplete(questID),
 				id = i,
 			}
+		end
+	end
+	
+	if UnitLevel'player' < 110 then
+		local taskInfo
+		local mapAreaID = GetCurrentMapAreaID()
+		if mapAreaID == 1007 then
+			taskInfo = {}
+			for i=1,#BrokenIslesZones do
+				local currTaskInfo = C_TaskQuest.GetQuestsForPlayerByMapID(BrokenIslesZones[i])
+				if currTaskInfo and #currTaskInfo > 0 then
+					for j=1,#currTaskInfo do
+						taskInfo[#taskInfo + 1] = currTaskInfo[j]
+					end
+				end
+			end	
+		else
+			taskInfo = C_TaskQuest.GetQuestsForPlayerByMapID(mapAreaID)
+		end	
+	
+		
+		for _,info in pairs(taskInfo or {}) do
+			if HaveQuestData(info.questId) and QuestUtils_IsQuestWorldQuest(info.questId) then
+				local _,_,worldQuestType,rarity, isElite, tradeskillLineIndex, allowDisplayPastCritical = GetQuestTagInfo(info.questId)
+				
+				quests[#quests+1] = {
+					title = C_TaskQuest.GetQuestInfoByQuestID(info.questId),
+					header = MAP_UNDER_INVASION,
+					questID = info.questId,
+					isCompleted = false,
+					isInvasion = worldQuestType == LE.LE_QUEST_TAG_TYPE_INVASION,
+					isElite = isElite,
+					isWQ = true,
+				}				
+			end
 		end
 	end
 	
@@ -1948,8 +2008,11 @@ local function WorldQuestList_Leveling_Update()
 			local title = questData.title
 			local header = questData.header
 			local questID = questData.questID
-		
+
 			local _,x,y = QuestPOIGetIconInfo(questID)
+			if questData.isWQ then
+				x,y = C_TaskQuest.GetQuestLocation(questID)
+			end
 			if x and y and x ~= 0 and y ~= 0 then
 				local rewardXP = GetQuestLogRewardXP(questID)
 				if rewardXP == 0 then
@@ -1971,6 +2034,16 @@ local function WorldQuestList_Leveling_Update()
 					
 				end
 				
+				if not reward then
+					local numQuestCurrencies = GetNumQuestLogRewardCurrencies(questID)
+					for i = 1, numQuestCurrencies do
+						local name, texture, numItems = GetQuestLogRewardCurrencyInfo(i, questID)
+						local text = BONUS_OBJECTIVE_REWARD_WITH_COUNT_FORMAT:format(texture, numItems, name)
+						
+						reward = text
+					end
+				end
+					
 				tinsert(result,{
 					questID = questID,
 					name = (questData.isCompleted and "|cff00ff00" or "")..title,
@@ -1983,6 +2056,8 @@ local function WorldQuestList_Leveling_Update()
 					rewardColor = rewardColor,
 					header = header,
 					numRewards = numRewards,
+					isInvasion = questData.isInvasion,
+					isElite = questData.isElite,
 				})
 			end
 		end
@@ -1999,7 +2074,6 @@ local function WorldQuestList_Leveling_Update()
 		line.nameicon:SetWidth(1)
 		line.secondicon:SetTexture("")
 		line.secondicon:SetWidth(1)		
-		line.name:SetWidth(NAME_WIDTH)
 		
 		line.reward:SetText(data.reward or "")
 		if data.rewardColor then
@@ -2017,6 +2091,24 @@ local function WorldQuestList_Leveling_Update()
 		else
 			line.reward.IDs = nil
 		end
+		
+		local questNameWidth = NAME_WIDTH
+		if data.isInvasion then
+			line.secondicon:SetAtlas("worldquest-icon-burninglegion")
+			line.secondicon:SetWidth(16)
+			
+			line.name:SetTextColor(0.78, 1, 0)
+			
+			if data.isElite then
+				line.nameicon:SetAtlas("nameplates-icon-elite-silver")
+				line.nameicon:SetWidth(16)
+				questNameWidth = questNameWidth - 15
+			end
+			
+			questNameWidth = questNameWidth - 15
+		end
+
+		line.name:SetWidth(questNameWidth)
 		
 		line.faction:SetText(data.header or "")
 		line.faction:SetTextColor(1,1,1)
@@ -2111,6 +2203,8 @@ local QuestsCachedPosX,QuestsCachedPosY = {},{}
 local WorldQuestList_Update_Timer = nil
 local TableQuestsViewed = {}
 local TableQuestsViewed_Time = {}
+
+local FactionBountyIcons,FactionBountyIconsCounter = {},0
 
 local WANTED_TEXT,DANGER_TEXT,DANGER_TEXT_2,DANGER_TEXT_3
 
@@ -2237,7 +2331,7 @@ function WorldQuestList_Update()
 	
 	local artifactKnowlegeLevel = select(2,GetCurrencyInfo(1171)) or 0
 	
-	local isGearLessRelevant = (select(2,GetAverageItemLevel()) or 0) > 900
+	local isGearLessRelevant = (select(2,GetAverageItemLevel()) or 0) >= 880
 		
 	local bounties = GetQuestBountyInfoForMapID(1007)
 	local bountiesInProgress = {}
@@ -2402,8 +2496,15 @@ function WorldQuestList_Update()
 					end
 				end
 				
+				--FactionBountyIconsCounter = 0
 				for bountyQuestID,bountyIcon in pairs(bountiesInProgress) do
 					if IsQuestCriteriaForBounty(questID, bountyQuestID) then
+						if not VWQL.DisableBountyIcon then
+							--FactionBountyIconsCounter = FactionBountyIconsCounter + 1
+							--FactionBountyIcons[FactionBountyIconsCounter] = "|T" .. bountyIcon .. ":0|t "
+							faction = "|T" .. bountyIcon .. ":0|t " .. (faction or "")
+						end
+					
 						factionInProgress = true
 						
 						if bountyIcon and bountyIcon ~= 0 then
@@ -2412,6 +2513,15 @@ function WorldQuestList_Update()
 						end
 					end
 				end
+				
+				--[[
+				if FactionBountyIconsCounter > 0 then
+					sort(FactionBountyIcons)
+					for i=1,FactionBountyIconsCounter do
+						faction = FactionBountyIcons[i] .. (faction or "")
+					end
+				end
+				]]
 				
 				if ( GetQuestLogRewardXP(questID) > 0 or GetNumQuestLogRewardCurrencies(questID) > 0 or GetNumQuestLogRewards(questID) > 0 or GetQuestLogRewardMoney(questID) > 0 or GetQuestLogRewardArtifactXP(questID) > 0 or (GetQuestLogRewardHonor and GetQuestLogRewardHonor(questID) > 0) ) then
 					local hasRewardFiltered = false
@@ -2558,7 +2668,6 @@ function WorldQuestList_Update()
 										end
 									end
 									
-								
 									if artifactXP then
 										ap = ap + artifactXP
 										totalAP = totalAP - totalAPadded
@@ -2632,7 +2741,11 @@ function WorldQuestList_Update()
 					if WarSupplies and WarSupplies > 0 then
 						local name, amount, texturePath, earnedThisWeek, weeklyMax, totalMax, isDiscovered, quality = GetCurrencyInfo(1342)
 						if mapAreaID == 1021 and factionID == 2045 then
-							faction = "|T" .. (texturePath or "") .. ":0|t " .. WarSupplies .. " " .. name
+							local prevFaction
+							if faction and faction:find(":0|t") then
+								prevFaction = faction:match("^(.-:0|t )[^|]*$")
+							end
+							faction = (prevFaction or "").."|T" .. (texturePath or "") .. ":0|t " .. WarSupplies .. " " .. name
 						else
 							if reward ~= "" then
 								reward = reward .. ", "
@@ -2646,7 +2759,11 @@ function WorldQuestList_Update()
 					if ShardsNothing and ShardsNothing > 0 then
 						local name, amount, texturePath, earnedThisWeek, weeklyMax, totalMax, isDiscovered, quality = GetCurrencyInfo(1226)
 						if mapAreaID ~= 1007 then
-							faction = "|T" .. (texturePath or "") .. ":0|t|cffffffff" .. ShardsNothing .. (faction~="" and "," or "").."|r " .. faction
+							local prevFaction
+							if faction and faction:find(":0|t") then
+								prevFaction = faction:match("^(.-:0|t )[^|]*$")
+							end
+							faction = (prevFaction or "").."|T" .. (texturePath or "") .. ":0|t|cffffffff" .. ShardsNothing .. (faction~="" and "," or "").."|r " .. faction
 						else
 							if reward ~= "" then
 								reward = reward .. ", "
@@ -2903,9 +3020,10 @@ function WorldQuestList_Update()
 	WorldQuestList.C:SetHeight(max(16*(taskIconIndex-1),1))
 	
 	local lowestLine = #WorldQuestList.Cheader.lines
+	local lowestPosConst = VWQL.DisableHeader and 60 or 40
 	for i=1,#WorldQuestList.Cheader.lines do
 		local bottomPos = WorldQuestList.Cheader.lines[i]:GetBottom()
-		if bottomPos and bottomPos < 40 then
+		if bottomPos and bottomPos < lowestPosConst then
 			lowestLine = i - 1
 			break
 		end
@@ -2981,6 +3099,20 @@ hooksecurefunc("WorldMap_UpdateQuestBonusObjectives", function ()
 	prevZone = currZone
 	UpdateTicker = true
 end)
+--[[
+local WorldMap_UpdateQuestBonusObjectives_Replace = CreateFrame'Frame'
+WorldMap_UpdateQuestBonusObjectives_Replace:RegisterEvent("QUEST_LOG_UPDATE")
+WorldMap_UpdateQuestBonusObjectives_Replace:SetScript("OnEvent",function()
+	if WorldMapFrame:IsVisible() then
+		local currZone = GetCurrentMapAreaID()
+		if currZone ~= prevZone then
+			WorldQuestList_Update()
+		end
+		prevZone = currZone
+		UpdateTicker = true
+	end
+end)
+]]
 
 local UpdateDB_Sch = nil
 
@@ -3118,8 +3250,10 @@ end
 
 local KirinTorQuests = {
 	[43756]=true,	--VS
-	[43772]=true,	--S
+	[43772]=true,	--SH
 	[43767]=true,	--HM
+	[43328]=true,	--A
+	[43778]=true,	--SU
 }
 
 --[[
