@@ -1,64 +1,64 @@
 
 VWQL = {
 	["Skãdi-Kel'Thuzad"] = {
-		["FilterType"] = {
-		},
+		["Filter"] = 63,
 		["Quests"] = {
 		},
-		["Filter"] = 63,
+		["FilterType"] = {
+		},
 	},
 	["Alorannah-Kel'Thuzad"] = {
-		["FilterType"] = {
-		},
+		["Filter"] = 63,
 		["Quests"] = {
 		},
-		["Filter"] = 63,
+		["FilterType"] = {
+		},
 	},
 	["Alisheeya-Kel'Thuzad"] = {
-		["Filter"] = 63,
-		["Quests"] = {
-		},
 		["FilterType"] = {
 		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
 	},
 	["Hauzerina-MoonGuard"] = {
-		["Filter"] = 63,
-		["Quests"] = {
-		},
 		["FilterType"] = {
 		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
 	},
 	["Beatryce-Kel'Thuzad"] = {
-		["FilterType"] = {
-		},
+		["Filter"] = 63,
 		["Quests"] = {
 		},
-		["Filter"] = 63,
+		["FilterType"] = {
+		},
 	},
 	["Fsdkjhskdjfh-Kel'Thuzad"] = {
-		["Filter"] = 63,
-		["Quests"] = {
-		},
 		["FilterType"] = {
 		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
 	},
 	["Sort"] = 5,
 	["VERSION"] = 22,
 	["Pharrah-Kel'Thuzad"] = {
-		["Filter"] = 63,
-		["Quests"] = {
-		},
 		["FilterType"] = {
 		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
 	},
 	["Hoobastankie-Kel'Thuzad"] = {
-		["Filter"] = 63,
-		["Quests"] = {
-		},
 		["FilterType"] = {
 		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
 	},
-	["Nigellah-Kel'Thuzad"] = {
+	["Hauzerone-Dalaran"] = {
 		["FilterType"] = {
 		},
 		["Quests"] = {
@@ -66,27 +66,27 @@ VWQL = {
 		["Filter"] = 63,
 	},
 	["Beatryss-Kel'Thuzad"] = {
-		["FilterType"] = {
-		},
+		["Filter"] = 63,
 		["Quests"] = {
 		},
-		["Filter"] = 63,
+		["FilterType"] = {
+		},
 	},
-	["Alauranna-Kel'Thuzad"] = {
-		["Filter"] = 63,
-		["Quests"] = {
-		},
+	["Olrapey-Kel'Thuzad"] = {
 		["FilterType"] = {
 		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
 	},
 	["Hauzerdemon-Kel'Thuzad"] = {
-		["Filter"] = 63,
-		["Quests"] = {
-		},
 		["FilterType"] = {
 		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
 	},
-	["Deeke-Kel'Thuzad"] = {
+	["Darknstormie-Kel'Thuzad"] = {
 		["FilterType"] = {
 		},
 		["Quests"] = {
@@ -94,78 +94,54 @@ VWQL = {
 		["Filter"] = 63,
 	},
 	["Ugiyo-Kel'Thuzad"] = {
-		["FilterType"] = {
-		},
+		["Filter"] = 63,
 		["Quests"] = {
 		},
-		["Filter"] = 63,
+		["FilterType"] = {
+		},
 	},
 	["ReverseSort"] = false,
-	["Laurannah-Kel'Thuzad"] = {
+	["Leeroyjenkem-Kel'Thuzad"] = {
 		["FilterType"] = {
 		},
 		["Quests"] = {
-			[44939] = true,
-			[42240] = true,
-			[42183] = true,
-			[41624] = true,
-			[43453] = true,
-			[45473] = true,
-			[42075] = true,
-			[42146] = true,
-			[43347] = true,
-			[42028] = true,
-			[44867] = true,
-			[45068] = true,
-			[41794] = true,
-			[41926] = true,
-			[41995] = true,
-			[44895] = true,
-			[41308] = true,
-			[43641] = true,
-			[43712] = true,
-			[44893] = true,
-			[46076] = true,
-			[46112] = true,
-			[42019] = true,
-			[43964] = true,
-			[42023] = true,
-			[42277] = true,
-			[42027] = true,
-			[43248] = true,
-			[42090] = true,
-			[42080] = true,
-			[44744] = true,
-			[45035] = true,
-			[44811] = true,
-			[43599] = true,
 		},
 		["Filter"] = 63,
 	},
 	["Hoobastanko-Kel'Thuzad"] = {
-		["Filter"] = 63,
-		["Quests"] = {
-		},
 		["FilterType"] = {
 		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
 	},
 	["Hauzerina-Kel'Thuzad"] = {
-		["FilterType"] = {
-		},
+		["Filter"] = 63,
 		["Quests"] = {
 		},
-		["Filter"] = 63,
+		["FilterType"] = {
+		},
 	},
 	["Sdkfhsdkjfhs-Kel'Thuzad"] = {
-		["Filter"] = 63,
+		["FilterType"] = {
+		},
 		["Quests"] = {
 		},
+		["Filter"] = 63,
+	},
+	["Hauzer-Kel'Thuzad"] = {
 		["FilterType"] = {
 		},
+		["Quests"] = {
+			[45878] = true,
+			[43798] = true,
+			[43943] = true,
+			[41864] = true,
+		},
+		["Filter"] = 63,
 	},
 	["Kmkarbashian-Kel'Thuzad"] = {
-		["FilterType"] = {
-		},
+		["Filter"] = 63,
 		["Quests"] = {
 			[43175] = true,
 			[42108] = true,
@@ -181,24 +157,24 @@ VWQL = {
 			[44784] = true,
 			[43599] = true,
 			[42026] = true,
-			[43963] = true,
-			[44813] = true,
+			[42624] = true,
+			[41091] = true,
 			[42160] = true,
 			[44934] = true,
-			[41914] = true,
 			[43426] = true,
+			[41914] = true,
 			[44121] = true,
 			[44816] = true,
 			[41416] = true,
 			[42240] = true,
 			[43751] = true,
-			[45068] = true,
+			[41298] = true,
 			[43755] = true,
-			[40980] = true,
-			[42176] = true,
-			[43450] = true,
-			[43448] = true,
+			[42124] = true,
+			[43764] = true,
 			[41686] = true,
+			[43448] = true,
+			[43450] = true,
 			[43452] = true,
 			[43769] = true,
 			[41692] = true,
@@ -207,61 +183,93 @@ VWQL = {
 			[41824] = true,
 			[41700] = true,
 			[40920] = true,
-			[43710] = true,
 			[41257] = true,
+			[43710] = true,
 			[42023] = true,
 			[42151] = true,
 			[41964] = true,
-			[43764] = true,
-			[42124] = true,
-			[41298] = true,
+			[42176] = true,
+			[40980] = true,
+			[45068] = true,
 			[44744] = true,
 			[43738] = true,
-			[41091] = true,
-			[42624] = true,
-		},
-		["Filter"] = 63,
-	},
-	["Hauzer-Kel'Thuzad"] = {
-		["Filter"] = 63,
-		["Quests"] = {
-			[45878] = true,
-			[43798] = true,
-			[41864] = true,
-			[43943] = true,
+			[44813] = true,
+			[43963] = true,
 		},
 		["FilterType"] = {
 		},
 	},
 	["Laurenn-Kel'Thuzad"] = {
-		["FilterType"] = {
-		},
-		["Quests"] = {
-		},
-		["Filter"] = 63,
-	},
-	["Leeroyjenkem-Kel'Thuzad"] = {
 		["Filter"] = 63,
 		["Quests"] = {
 		},
 		["FilterType"] = {
 		},
 	},
-	["Darknstormie-Kel'Thuzad"] = {
+	["Laurannah-Kel'Thuzad"] = {
+		["Filter"] = 63,
+		["Quests"] = {
+			[46201] = true,
+			[42108] = true,
+			[40850] = true,
+			[41860] = true,
+			[43943] = true,
+			[44892] = true,
+			[42880] = true,
+			[42063] = true,
+			[42071] = true,
+			[46111] = true,
+			[41766] = true,
+			[41896] = true,
+			[45930] = true,
+			[40896] = true,
+			[43040] = true,
+			[43183] = true,
+			[43426] = true,
+			[43428] = true,
+			[44816] = true,
+			[46021] = true,
+			[40920] = true,
+			[43807] = true,
+			[44011] = true,
+			[44895] = true,
+			[42240] = true,
+			[43324] = true,
+			[43641] = true,
+			[41818] = true,
+			[43712] = true,
+			[43336] = true,
+			[45786] = true,
+			[42211] = true,
+			[41011] = true,
+			[45549] = true,
+			[43347] = true,
+			[45379] = true,
+			[41257] = true,
+			[45559] = true,
+			[43777] = true,
+			[43738] = true,
+			[42021] = true,
+			[44856] = true,
+		},
+		["FilterType"] = {
+		},
+	},
+	["Deeke-Kel'Thuzad"] = {
 		["Filter"] = 63,
 		["Quests"] = {
 		},
 		["FilterType"] = {
 		},
 	},
-	["Olrapey-Kel'Thuzad"] = {
-		["Filter"] = 63,
-		["Quests"] = {
-		},
+	["Alauranna-Kel'Thuzad"] = {
 		["FilterType"] = {
 		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
 	},
-	["Hauzerone-Dalaran"] = {
+	["Nigellah-Kel'Thuzad"] = {
 		["Filter"] = 63,
 		["Quests"] = {
 		},
