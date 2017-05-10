@@ -19,15 +19,15 @@ PremadeGroupsFilterState = {
 	["noilvl"] = {
 		["act"] = false,
 	},
-	["expression"] = "\"+5\"\n",
+	["expression"] = "",
 	["difficulty"] = {
 		["val"] = 3,
-		["act"] = true,
+		["act"] = false,
 	},
 	["defeated"] = {
 		["max"] = "",
-		["min"] = "3",
-		["act"] = true,
+		["min"] = "",
+		["act"] = false,
 	},
 	["heals"] = {
 		["max"] = "",
