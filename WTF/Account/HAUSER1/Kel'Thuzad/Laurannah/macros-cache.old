@@ -29,7 +29,7 @@ VER 3 0100000000000006 "Misdirection" "INV_MISC_QUESTIONMARK"
 END
 VER 3 010000000000000E "Mount" "INV_Misc_QuestionMark"
 #showtooltip Primal Flamesaber
-/cast [flyable] Cindermane Charger; Primal Flamesaber;
+/cast [flyable] Pureblood Fire Hawk; Primal Flamesaber;
 END
 VER 3 0100000000000007 "Mounts" "236191"
 /click ORLOpen Mounts
