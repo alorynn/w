@@ -24,6 +24,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ragnaros",
 		},
+		[99112] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Son of Flame",
+		},
 		[99399] = {
 			["school"] = 4,
 			["type"] = "DEBUFF",
@@ -32,14 +40,6 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Ragnaros",
-		},
-		[99112] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Son of Flame",
 		},
 		[98953] = {
 			["school"] = 4,
