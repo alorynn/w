@@ -34,13 +34,6 @@ X: -146
 Y: 4
 W: 114
 H: 24
-Frame: MogItPreview1
-FrameLevel: 2
-Anchor: TOP
-X: 94
-Y: 0
-W: 1291
-H: 1200
 Frame: QuestFrame
 FrameLevel: 1
 Anchor: TOPLEFT
