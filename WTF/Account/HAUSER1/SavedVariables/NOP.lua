@@ -10,14 +10,6 @@ NewOpenablesProfile = {
 	["profiles"] = {
 		["Default"] = {
 			["skinButton"] = true,
-			["iconSize"] = 64,
-			["T_BLACKLIST"] = {
-				[0] = true,
-				[147348] = true,
-				[147349] = true,
-				[147350] = true,
-				[141028] = true,
-			},
 			["button"] = {
 				nil, -- [1]
 				"UIParent", -- [2]
@@ -25,12 +17,20 @@ NewOpenablesProfile = {
 				130, -- [4]
 				-489, -- [5]
 			},
+			["T_BLACKLIST"] = {
+				[0] = true,
+				[147348] = true,
+				[147349] = true,
+				[147350] = true,
+				[141028] = true,
+			},
+			["iconSize"] = 64,
 			["qb"] = {
 				"TOPLEFT", -- [1]
 				"UIParent", -- [2]
 				"TOPLEFT", -- [3]
 			},
-			["version"] = "|cFFFFFFFF07.28 10.05.2017 use |cFFFF00FF/nop|cFFFFFFFF",
+			["version"] = "|cFFFFFFFF07.30 02.06.2017 use |cFFFF00FF/nop|cFFFFFFFF",
 			["lockButton"] = true,
 		},
 	},
