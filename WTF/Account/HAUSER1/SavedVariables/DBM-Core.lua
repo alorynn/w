@@ -185,8 +185,8 @@ DBM_AllSavedOptions = {
 		["RoleSpecAlert"] = true,
 		["WhisperStats"] = false,
 		["VoiceOverSpecW2"] = "DefaultOnly",
+		["HUDAlpha3"] = 0.5,
 		["DontPlayPTCountdown"] = false,
-		["MISTSTWMessageShown"] = false,
 		["SpecialWarningFlashAlph5"] = 0.5,
 		["ShowEngageMessage"] = true,
 		["HealthFrameWidth"] = 200,
@@ -246,7 +246,7 @@ DBM_AllSavedOptions = {
 			0.5, -- [2]
 			0, -- [3]
 		},
-		["HUDAlpha3"] = 0.5,
+		["MISTSTWMessageShown"] = false,
 		["WorldBossNearAlert"] = false,
 		["WarningX"] = 0,
 		["RaidWarningSound"] = "Sound\\Doodad\\BellTollNightElf.ogg",

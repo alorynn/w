@@ -2,13 +2,13 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
+	["_10000"] = 200,
+	["_500"] = 5,
+	["_1000000"] = 2500,
 	["_200000"] = 1000,
 	["STARTING_DISCOUNT"] = 5,
-	["_1000000"] = 2500,
-	["_5000000"] = 10000,
 	["LOG_DE_DATA_X"] = true,
-	["_500"] = 5,
-	["_10000"] = 200,
+	["_5000000"] = 10000,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 	["Khorium Bar"] = {
@@ -14397,9 +14397,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2349"] = 726128,
 			["mr"] = 726128,
 		},
-		["Grotesque"] = {
-			["H2349"] = 54539999,
-			["mr"] = 54539999,
+		["Enchant Ring - Binding of Mastery"] = {
+			["H2349"] = 10889997,
+			["mr"] = 10889997,
 		},
 		["Haustvelt Hood of the Fireflash"] = {
 			["H2349"] = 998776,
@@ -14585,9 +14585,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2349"] = 11869997,
 			["mr"] = 11869997,
 		},
-		["Ettinbone Gauntlets of the Peerless"] = {
-			["H2349"] = 947688,
-			["mr"] = 947688,
+		["Lesser Nether Essence"] = {
+			["H2349"] = 181414,
+			["mr"] = 181414,
 		},
 		["Drums of the Mountain"] = {
 			["H2349"] = 1200000,
@@ -15814,9 +15814,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2349"] = 450238,
 			["mr"] = 450238,
 		},
-		["Embersilk Robes of Stamina"] = {
-			["H2349"] = 42949998,
-			["mr"] = 42949998,
+		["Infinite Dust"] = {
+			["H2349"] = 18800,
+			["mr"] = 18800,
 		},
 		["Fractured Temporal Crystal"] = {
 			["H2349"] = 1138,
@@ -15826,9 +15826,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2349"] = 5000000,
 			["mr"] = 5000000,
 		},
-		["Arachnidian Circlet of Intellect"] = {
-			["H2349"] = 1081247,
-			["mr"] = 1081247,
+		["Embersilk Robes of Stamina"] = {
+			["H2349"] = 42949998,
+			["mr"] = 42949998,
 		},
 		["Leystone Greaves of the Fireflash"] = {
 			["H2349"] = 7928615,
@@ -15963,9 +15963,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2349"] = 9229834,
 			["mr"] = 9229834,
 		},
-		["Infinite Dust"] = {
-			["H2349"] = 18800,
-			["mr"] = 18800,
+		["Arachnidian Circlet of Intellect"] = {
+			["H2349"] = 1081247,
+			["mr"] = 1081247,
 		},
 		["Bonelink Belt of the Eagle"] = {
 			["H2349"] = 14856270,
@@ -16764,13 +16764,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2349"] = 7900,
 			["mr"] = 7900,
 		},
-		["Lesser Nether Essence"] = {
-			["H2349"] = 181414,
-			["mr"] = 181414,
-		},
 		["Azsunite"] = {
 			["H2349"] = 115496,
 			["mr"] = 115496,
+		},
+		["Ettinbone Gauntlets of the Peerless"] = {
+			["H2349"] = 947688,
+			["mr"] = 947688,
 		},
 		["Ghost Iron Nugget"] = {
 			["H2349"] = 9999,
@@ -16855,17 +16855,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2349"] = 715617,
 			["mr"] = 715617,
 		},
-		["Enchant Ring - Binding of Mastery"] = {
-			["H2349"] = 10889997,
-			["mr"] = 10889997,
+		["Enchant Neck - Gift of Haste"] = {
+			["H2349"] = 2749999,
+			["mr"] = 2749999,
 		},
 		["Imbued Silkweave Gloves of the Fireflash"] = {
 			["H2349"] = 52880000,
 			["mr"] = 52880000,
 		},
-		["Enchant Neck - Gift of Haste"] = {
-			["H2349"] = 2749999,
-			["mr"] = 2749999,
+		["Grotesque"] = {
+			["H2349"] = 54539999,
+			["mr"] = 54539999,
 		},
 		["Ace of Dominion"] = {
 			["H2349"] = 40000000,
