@@ -43,9 +43,9 @@ OneRing_Config = {
 					["sliceToken"] = "ABueo8UftHg",
 					["id"] = 78670,
 				}, -- [6]
-				["limit"] = "Laurannah-Kel'Thuzad",
-				["save"] = true,
 				["name"] = "Professions",
+				["save"] = true,
+				["limit"] = "Laurannah-Kel'Thuzad",
 			},
 			["Management"] = {
 				{
@@ -72,9 +72,9 @@ OneRing_Config = {
 					["sliceToken"] = "ABueoXQbBSe",
 					["id"] = 982,
 				}, -- [6]
-				["name"] = "Pet Management",
-				["save"] = true,
 				["limit"] = "Laurannah-Kel'Thuzad",
+				["save"] = true,
+				["name"] = "Pet Management",
 			},
 			["Travel"] = {
 				{
@@ -117,9 +117,9 @@ OneRing_Config = {
 					112059, -- [2]
 					["sliceToken"] = "ABueoP7uCCi",
 				}, -- [8]
-				["name"] = "Travel",
-				["save"] = true,
 				["limit"] = "Laurannah-Kel'Thuzad",
+				["save"] = true,
+				["name"] = "Travel",
 			},
 			["OPieFlagStore"] = {
 				["FlushedDefaultColors"] = true,
@@ -141,9 +141,9 @@ OneRing_Config = {
 					["sliceToken"] = "ABueoCW1IFe",
 					["id"] = 223018,
 				}, -- [4]
-				["name"] = "Mounts",
-				["save"] = true,
 				["limit"] = "Laurannah-Kel'Thuzad",
+				["save"] = true,
+				["name"] = "Mounts",
 			},
 			["HunterPets"] = {
 				{
@@ -171,60 +171,60 @@ OneRing_Config = {
 					["id"] = "#showtooltip [@pet,exists,nodead,nopet:5] {{spell:83245}};\n/cast [@pet,exists,nopet:5,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:83245}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
 					["show"] = "[known:83245,havepet:5]",
 				}, -- [5]
-				["limit"] = "HUNTER",
-				["save"] = true,
 				["name"] = "Pets",
+				["save"] = true,
+				["limit"] = "HUNTER",
 			},
 			["Emotes"] = {
 				{
+					["caption"] = "Cheer",
 					["sliceToken"] = "ABueo8E8ojk",
 					["id"] = "#show\n/cheer",
-					["caption"] = "Cheer",
 				}, -- [1]
 				{
+					["caption"] = "Dance",
 					["sliceToken"] = "ABueo8E8ojj",
 					["id"] = "/dance",
-					["caption"] = "Dance",
 				}, -- [2]
 				{
+					["caption"] = "Kiss",
 					["sliceToken"] = "ABueo8E8oj4",
 					["id"] = "/kiss",
-					["caption"] = "Kiss",
 				}, -- [3]
 				{
+					["caption"] = "Pet",
 					["sliceToken"] = "ABueo8E8ojh",
 					["id"] = "/pet",
-					["caption"] = "Pet",
 				}, -- [4]
 				{
+					["caption"] = "Cuddle",
 					["sliceToken"] = "ABueo8E8ojg",
 					["id"] = "/cuddle",
-					["caption"] = "Cuddle",
 				}, -- [5]
 				{
+					["caption"] = "Point",
 					["sliceToken"] = "ABueo8E8ojf",
 					["id"] = "/point",
-					["caption"] = "Point",
 				}, -- [6]
 				{
+					["caption"] = "Shrug",
 					["sliceToken"] = "ABueo8E8ojd",
 					["id"] = "/shrug",
-					["caption"] = "Shrug",
 				}, -- [7]
 				{
+					["caption"] = "Sleep",
 					["sliceToken"] = "ABueo8E8oj3",
 					["id"] = "/sleep",
-					["caption"] = "Sleep",
 				}, -- [8]
 				{
+					["caption"] = "Laugh",
 					["sliceToken"] = "ABueo8E8ojs",
 					["id"] = "/laugh",
-					["caption"] = "Laugh",
 				}, -- [9]
 				{
+					["caption"] = "Spit",
 					["sliceToken"] = "ABueo8E8oja",
 					["id"] = "/spit",
-					["caption"] = "Spit",
 				}, -- [10]
 				["noPersistentCA"] = true,
 				["name"] = "Emotes",
@@ -247,9 +247,9 @@ OneRing_Config = {
 					13379, -- [2]
 					["sliceToken"] = "ABueoD8gCKt",
 				}, -- [3]
-				["limit"] = "Laurannah-Kel'Thuzad",
-				["save"] = true,
 				["name"] = "Toys",
+				["save"] = true,
+				["limit"] = "Laurannah-Kel'Thuzad",
 			},
 			["Outfits"] = {
 				{
@@ -267,9 +267,9 @@ OneRing_Config = {
 					"Naked", -- [2]
 					["sliceToken"] = "ABueoLj3Jit",
 				}, -- [3]
-				["limit"] = "Laurannah-Kel'Thuzad",
-				["save"] = true,
 				["name"] = "Outfits",
+				["save"] = true,
+				["limit"] = "Laurannah-Kel'Thuzad",
 			},
 			["Pets"] = {
 				{
@@ -282,9 +282,9 @@ OneRing_Config = {
 					"BattlePet-0-000005F0B637", -- [2]
 					["sliceToken"] = "ABueo98aIgy",
 				}, -- [2]
-				["limit"] = "Laurannah-Kel'Thuzad",
-				["save"] = true,
 				["name"] = "Pets",
+				["save"] = true,
+				["limit"] = "Laurannah-Kel'Thuzad",
 			},
 		},
 	},

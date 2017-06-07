@@ -2,13 +2,13 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
+	["_200000"] = 1000,
+	["STARTING_DISCOUNT"] = 5,
+	["_1000000"] = 2500,
 	["_5000000"] = 10000,
 	["LOG_DE_DATA_X"] = true,
-	["_1000000"] = 2500,
-	["_10000"] = 200,
 	["_500"] = 5,
-	["STARTING_DISCOUNT"] = 5,
-	["_200000"] = 1000,
+	["_10000"] = 200,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 	["Khorium Bar"] = {
@@ -248,10 +248,6 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["is"] = "127835:0:0:0:0",
 		["4556753"] = "49800:1",
 	},
-	["Windwool Cloth"] = {
-		["is"] = "72988:0:0:0:0",
-		["4536869"] = "8900:1",
-	},
 	["Hrydshal Wristwraps of the Feverflare"] = {
 		["is"] = "121165:0:0:0:1812",
 		["4513649"] = "994000:1",
@@ -333,13 +329,17 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["4310538"] = "202000:2",
 		["4604522"] = "131000:5",
 	},
-	["Stormscale"] = {
-		["is"] = "124115:0:0:0:0",
-		["4542387"] = "69500:40",
+	["Windwool Cloth"] = {
+		["is"] = "72988:0:0:0:0",
+		["4536869"] = "8900:1",
 	},
 	["Ettinbone Sabatons of the Peerless"] = {
 		["is"] = "121062:0:0:0:1812",
 		["4587019"] = "942000:1",
+	},
+	["Stormscale"] = {
+		["is"] = "124115:0:0:0:0",
+		["4542387"] = "69500:40",
 	},
 	["Hrydshal Cord of the Aurora"] = {
 		["is"] = "121158:0:0:0:1812",
@@ -349,6 +349,10 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["is"] = "124640:0:0:0:0",
 		["4591339"] = "243000:1",
 		["4595811"] = "138000:1",
+	},
+	["Moonfall Robe of the Fireflash"] = {
+		["is"] = "121272:0:0:0:1812",
+		["4587019"] = "659000:1",
 	},
 	["Leyblood"] = {
 		["4554172"] = "17200:4",
@@ -379,20 +383,16 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["4530907"] = "10600:2",
 		["4623377"] = "9200:13",
 	},
-	["Moonfall Robe of the Fireflash"] = {
-		["is"] = "121272:0:0:0:1812",
-		["4587019"] = "659000:1",
-	},
-	["Titansteel Bar"] = {
-		["is"] = "37663:0:0:0:0",
-		["4542412"] = "13890000:1",
-		["4536868"] = "14480000:1",
-	},
 	["Truesilver Bar"] = {
 		["4525128"] = "299999:3",
 		["4526548"] = "299999:1",
 		["4530748"] = "73000:1",
 		["is"] = "6037:0:0:0:0",
+	},
+	["Titansteel Bar"] = {
+		["is"] = "37663:0:0:0:0",
+		["4542412"] = "13890000:1",
+		["4536868"] = "14480000:1",
 	},
 	["Shal'dorei Silk"] = {
 		["is"] = "124437:0:0:0:0",
@@ -486,10 +486,6 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["4542412"] = "44200:25",
 		["4623377"] = "20400:31",
 	},
-	["Obliterum"] = {
-		["is"] = "124125:0:0:0:0",
-		["4556752"] = "15600000:1",
-	},
 	["Defiled Augment Rune"] = {
 		["4554172"] = "3370000:1",
 		["is"] = "140587:0:0:0:0",
@@ -529,9 +525,9 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["4613197"] = "3490000:1",
 		["4623377"] = "4482500:1",
 	},
-	["Aethril"] = {
-		["is"] = "124101:0:0:0:0",
-		["4394508"] = "179500:30",
+	["Obliterum"] = {
+		["is"] = "124125:0:0:0:0",
+		["4556752"] = "15600000:1",
 	},
 	["Draught of Raw Magic"] = {
 		["is"] = "127837:0:0:0:0",
@@ -14362,9 +14358,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["mr"] = 1870,
 			["H2349"] = 1870,
 		},
-		["Grotesque"] = {
-			["mr"] = 54539999,
-			["H2349"] = 54539999,
+		["Enchant Ring - Binding of Mastery"] = {
+			["mr"] = 10889997,
+			["H2349"] = 10889997,
 		},
 		["Imbued Silkweave Gloves of the Fireflash"] = {
 			["mr"] = 52880000,
@@ -14374,17 +14370,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["mr"] = 1069676,
 			["H2349"] = 1069676,
 		},
-		["Enchant Neck - Gift of Haste"] = {
-			["mr"] = 2749999,
-			["H2349"] = 2749999,
+		["Grotesque"] = {
+			["mr"] = 54539999,
+			["H2349"] = 54539999,
 		},
 		["Nightfallen Outcast's Cloak of the Feverflare"] = {
 			["mr"] = 726128,
 			["H2349"] = 726128,
 		},
-		["Enchant Ring - Binding of Mastery"] = {
-			["mr"] = 10889997,
-			["H2349"] = 10889997,
+		["Enchant Neck - Gift of Haste"] = {
+			["mr"] = 2749999,
+			["H2349"] = 2749999,
 		},
 		["Embersilk Mitts of the Falcon"] = {
 			["mr"] = 28232116,
@@ -14561,21 +14557,21 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["mr"] = 9999,
 			["H2349"] = 9999,
 		},
-		["Ettinbone Gauntlets of the Peerless"] = {
-			["mr"] = 947688,
-			["H2349"] = 947688,
+		["Lesser Nether Essence"] = {
+			["mr"] = 181414,
+			["H2349"] = 181414,
 		},
 		["Umbral Wand of Intellect"] = {
 			["mr"] = 300000,
 			["H2349"] = 300000,
 		},
+		["Ettinbone Gauntlets of the Peerless"] = {
+			["mr"] = 947688,
+			["H2349"] = 947688,
+		},
 		["Azsunite"] = {
 			["mr"] = 115496,
 			["H2349"] = 115496,
-		},
-		["Lesser Nether Essence"] = {
-			["mr"] = 181414,
-			["H2349"] = 181414,
 		},
 		["Enormous Abyssal Gulper Eel"] = {
 			["mr"] = 7900,
@@ -15796,9 +15792,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["mr"] = 14856270,
 			["H2349"] = 14856270,
 		},
-		["Arachnidian Circlet of Intellect"] = {
-			["mr"] = 1081247,
-			["H2349"] = 1081247,
+		["Embersilk Robes of Stamina"] = {
+			["mr"] = 42949998,
+			["H2349"] = 42949998,
 		},
 		["Fractured Temporal Crystal"] = {
 			["mr"] = 1138,
@@ -15808,9 +15804,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["mr"] = 5000000,
 			["H2349"] = 5000000,
 		},
-		["Infinite Dust"] = {
-			["mr"] = 18800,
-			["H2349"] = 18800,
+		["Arachnidian Circlet of Intellect"] = {
+			["mr"] = 1081247,
+			["H2349"] = 1081247,
 		},
 		["Leystone Greaves of the Fireflash"] = {
 			["mr"] = 7928615,
@@ -15945,9 +15941,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["mr"] = 9229834,
 			["H2349"] = 9229834,
 		},
-		["Embersilk Robes of Stamina"] = {
-			["mr"] = 42949998,
-			["H2349"] = 42949998,
+		["Infinite Dust"] = {
+			["mr"] = 18800,
+			["H2349"] = 18800,
 		},
 		["Solstice Staff of the Monkey"] = {
 			["mr"] = 450238,
