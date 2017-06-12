@@ -1,5 +1,10 @@
 
 NewOpenablesProfile = {
+	["char"] = {
+		["Laurannah - Kel'Thuzad"] = {
+			["itemID"] = 139512,
+		},
+	},
 	["profileKeys"] = {
 		["Kmkarbashian - Kel'Thuzad"] = "Default",
 		["Alauranna - Kel'Thuzad"] = "Default",
