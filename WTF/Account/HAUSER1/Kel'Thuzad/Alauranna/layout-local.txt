@@ -5,14 +5,14 @@ Anchor: TOPLEFT
 X: 16
 Y: -116
 W: 170
-H: 210
+H: 240
 Frame: ColorPickerFrame
 FrameLevel: 21
 Anchor: CENTER
 X: 0
 Y: 0
 W: 365
-H: 240
+H: 200
 Frame: DBMMinimapButton
 FrameLevel: 5
 Anchor: TOPRIGHT
