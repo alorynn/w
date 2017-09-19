@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Wavymaieve|Dalaran|Alliance|1|DRUID", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Wavymaieve - Dalaran"] = "Wavymaieve - Dalaran",
+	},
+	["profiles"] = {
+		["Wavymaieve - Dalaran"] = {
+		},
+	},
+}

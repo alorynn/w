@@ -40,12 +40,16 @@ L["STRING_ATTRIBUTE_DAMAGE_FRAGS"] = "Убийства"
 L["STRING_ATTRIBUTE_DAMAGE_FRIENDLYFIRE"] = "Урон по союзникам"
 L["STRING_ATTRIBUTE_DAMAGE_TAKEN"] = "Полученный урон"
 L["STRING_ATTRIBUTE_ENERGY"] = "Ресурсы"
+--Translation missing 
+-- L["STRING_ATTRIBUTE_ENERGY_ALTERNATEPOWER"] = ""
 L["STRING_ATTRIBUTE_ENERGY_ENERGY"] = "Получено: Энергия"
 L["STRING_ATTRIBUTE_ENERGY_MANA"] = "Получено: Мана"
 L["STRING_ATTRIBUTE_ENERGY_RAGE"] = "Получено: Ярость"
 L["STRING_ATTRIBUTE_ENERGY_RESOURCES"] = "Прочие ресурсы"
 L["STRING_ATTRIBUTE_ENERGY_RUNEPOWER"] = "Получено: Сила рун"
 L["STRING_ATTRIBUTE_HEAL"] = "Исцеление"
+--Translation missing 
+-- L["STRING_ATTRIBUTE_HEAL_ABSORBED"] = ""
 L["STRING_ATTRIBUTE_HEAL_DONE"] = "Исцеление"
 L["STRING_ATTRIBUTE_HEAL_ENEMY"] = "Произведено исцеления врагом"
 L["STRING_ATTRIBUTE_HEAL_HPS"] = "ИВС"
@@ -111,6 +115,8 @@ L["STRING_CUSTOM_CREATE"] = "Создать"
 L["STRING_CUSTOM_CREATED"] = "Новый Монитор создан."
 L["STRING_CUSTOM_DAMAGEONANYMARKEDTARGET"] = "Урон по другим меткам "
 L["STRING_CUSTOM_DAMAGEONANYMARKEDTARGET_DESC"] = "Показать полученный урон по целям с другими метками."
+--Translation missing 
+-- L["STRING_CUSTOM_DAMAGEONSHIELDS"] = ""
 L["STRING_CUSTOM_DAMAGEONSKULL"] = "Урон по \"Черепу\""
 L["STRING_CUSTOM_DAMAGEONSKULL_DESC"] = "Показать полученный урон целью с меткой \"Череп\""
 L["STRING_CUSTOM_DESCRIPTION"] = "Описание:"
@@ -118,6 +124,8 @@ L["STRING_CUSTOM_DESCRIPTION_DESC"] = "Описание того, что дел�
 L["STRING_CUSTOM_DONE"] = "Готово"
 L["STRING_CUSTOM_DTBS"] = "Урон, полученный от заклинаний"
 L["STRING_CUSTOM_DTBS_DESC"] = "Показать урон от вражеских заклинаний, полученный вашей группой "
+--Translation missing 
+-- L["STRING_CUSTOM_DYNAMICOVERAL"] = ""
 L["STRING_CUSTOM_EDIT"] = "Редактировать"
 L["STRING_CUSTOM_EDIT_SEARCH_CODE"] = "Изменить параметры поиска кода"
 L["STRING_CUSTOM_EDIT_TOOLTIP_CODE"] = "Изменить код подсказки"
@@ -207,11 +215,129 @@ L["STRING_FEEDBACK_PREFERED_SITE"] = "Выберите предпочитаем�
 L["STRING_FEEDBACK_SEND_FEEDBACK"] = "Отправить отзыв"
 L["STRING_FEEDBACK_WOWI_DESC"] = "Оставить комментарий на странице проекта Details! "
 L["STRING_FIGHTNUMBER"] = "Бой #"
+--Translation missing 
+-- L["STRING_FORGE_BUTTON_ALLSPELLS"] = ""
+--Translation missing 
+-- L["STRING_FORGE_BUTTON_ALLSPELLS_DESC"] = ""
+--Translation missing 
+-- L["STRING_FORGE_BUTTON_BWTIMERS"] = ""
+--Translation missing 
+-- L["STRING_FORGE_BUTTON_BWTIMERS_DESC"] = ""
+--Translation missing 
+-- L["STRING_FORGE_BUTTON_DBMTIMERS"] = ""
+--Translation missing 
+-- L["STRING_FORGE_BUTTON_DBMTIMERS_DESC"] = ""
+--Translation missing 
+-- L["STRING_FORGE_BUTTON_ENCOUNTERSPELLS"] = ""
+--Translation missing 
+-- L["STRING_FORGE_BUTTON_ENCOUNTERSPELLS_DESC"] = ""
+--Translation missing 
+-- L["STRING_FORGE_BUTTON_ENEMIES"] = ""
+--Translation missing 
+-- L["STRING_FORGE_BUTTON_ENEMIES_DESC"] = ""
+--Translation missing 
+-- L["STRING_FORGE_BUTTON_PETS"] = ""
+--Translation missing 
+-- L["STRING_FORGE_BUTTON_PETS_DESC"] = ""
+--Translation missing 
+-- L["STRING_FORGE_BUTTON_PLAYERS"] = ""
+--Translation missing 
+-- L["STRING_FORGE_BUTTON_PLAYERS_DESC"] = ""
+--Translation missing 
+-- L["STRING_FORGE_ENABLEPLUGINS"] = ""
+--Translation missing 
+-- L["STRING_FORGE_FILTER_BARTEXT"] = ""
+--Translation missing 
+-- L["STRING_FORGE_FILTER_CASTERNAME"] = ""
+--Translation missing 
+-- L["STRING_FORGE_FILTER_ENCOUNTERNAME"] = ""
+--Translation missing 
+-- L["STRING_FORGE_FILTER_ENEMYNAME"] = ""
+--Translation missing 
+-- L["STRING_FORGE_FILTER_OWNERNAME"] = ""
+--Translation missing 
+-- L["STRING_FORGE_FILTER_PETNAME"] = ""
+--Translation missing 
+-- L["STRING_FORGE_FILTER_PLAYERNAME"] = ""
+--Translation missing 
+-- L["STRING_FORGE_FILTER_SPELLNAME"] = ""
+--Translation missing 
+-- L["STRING_FORGE_HEADER_BARTEXT"] = ""
+--Translation missing 
+-- L["STRING_FORGE_HEADER_CASTER"] = ""
+--Translation missing 
+-- L["STRING_FORGE_HEADER_CLASS"] = ""
+--Translation missing 
+-- L["STRING_FORGE_HEADER_CREATEAURA"] = ""
+--Translation missing 
+-- L["STRING_FORGE_HEADER_ENCOUNTERID"] = ""
+--Translation missing 
+-- L["STRING_FORGE_HEADER_ENCOUNTERNAME"] = ""
+--Translation missing 
+-- L["STRING_FORGE_HEADER_EVENT"] = ""
+--Translation missing 
+-- L["STRING_FORGE_HEADER_FLAG"] = ""
+--Translation missing 
+-- L["STRING_FORGE_HEADER_GUID"] = ""
+--Translation missing 
+-- L["STRING_FORGE_HEADER_ICON"] = ""
+--Translation missing 
+-- L["STRING_FORGE_HEADER_ID"] = ""
+--Translation missing 
+-- L["STRING_FORGE_HEADER_INDEX"] = ""
+--Translation missing 
+-- L["STRING_FORGE_HEADER_NAME"] = ""
+--Translation missing 
+-- L["STRING_FORGE_HEADER_NPCID"] = ""
+--Translation missing 
+-- L["STRING_FORGE_HEADER_OWNER"] = ""
+--Translation missing 
+-- L["STRING_FORGE_HEADER_SCHOOL"] = ""
+--Translation missing 
+-- L["STRING_FORGE_HEADER_SPELLID"] = ""
+--Translation missing 
+-- L["STRING_FORGE_HEADER_TIMER"] = ""
+--Translation missing 
+-- L["STRING_FORGE_TUTORIAL_DESC"] = ""
+--Translation missing 
+-- L["STRING_FORGE_TUTORIAL_TITLE"] = ""
+--Translation missing 
+-- L["STRING_FORGE_TUTORIAL_VIDEO"] = ""
 L["STRING_FREEZE"] = "Этот сегмент недоступен в данный момент"
 L["STRING_FROM"] = "От"
 --Translation missing 
 -- L["STRING_GERAL"] = ""
 L["STRING_GLANCING"] = "Вскользь"
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_BOSS"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_DATABASEERROR"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_DIFF"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_GUILD"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_PLAYERBASE"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_PLAYERBASE_INDIVIDUAL"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_PLAYERBASE_PLAYER"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_PLAYERBASE_RAID"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_RAID"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_ROLE"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_SHOWHISTORY"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_SHOWRANK"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_SYNCBUTTONTEXT"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_TUTORIAL_DESC"] = ""
+--Translation missing 
+-- L["STRING_GUILDDAMAGERANK_WINDOWALERT"] = ""
 L["STRING_HEAL"] = "Исцеление"
 L["STRING_HEAL_ABSORBED"] = "Исцеления поглощено"
 L["STRING_HEAL_CRIT"] = "Критическое исцеление"
@@ -316,6 +442,10 @@ L["STRING_MIRROR_IMAGE"] = "Зеркальное изображение"
 -- L["STRING_MISS"] = ""
 L["STRING_MODE_ALL"] = "Всё и вся"
 L["STRING_MODE_GROUP"] = "Стандартный"
+--Translation missing 
+-- L["STRING_MODE_OPENFORGE"] = ""
+--Translation missing 
+-- L["STRING_MODE_OPENGUILDDAMAGERANK"] = ""
 L["STRING_MODE_PLUGINS"] = "плагины"
 L["STRING_MODE_RAID"] = "Плагины: Рейд "
 L["STRING_MODE_SELF"] = "Плагины: Одиночная игра"
@@ -367,6 +497,10 @@ L["STRING_OPTIONS_ADVANCED"] = "Дополнительно"
 L["STRING_OPTIONS_ALPHAMOD_ANCHOR"] = "Авто-скрытие:"
 L["STRING_OPTIONS_ALWAYS_USE"] = "Использовать на всех персонажах"
 L["STRING_OPTIONS_ALWAYS_USE_DESC"] = "Профиль, используемый всеми персонажами. Вы можете изменить это на любом персонаже, просто выбрав другой профиль."
+--Translation missing 
+-- L["STRING_OPTIONS_ALWAYSSHOWPLAYERS"] = ""
+--Translation missing 
+-- L["STRING_OPTIONS_ALWAYSSHOWPLAYERS_DESC"] = ""
 --Translation missing 
 -- L["STRING_OPTIONS_ANCHOR"] = ""
 L["STRING_OPTIONS_ANIMATEBARS"] = "Анимация полос"
@@ -597,6 +731,10 @@ L["STRING_OPTIONS_DEATHLIMIT"] = "Счетчик смертей"
 L["STRING_OPTIONS_DEATHLIMIT_DESC"] = [=[Установить количество событий, отображаемых в мониторе смертей.
 
 |cFFFFFF00Важно|r: относится только к новым смертям после применения.]=]
+--Translation missing 
+-- L["STRING_OPTIONS_DEATHLOG_MINHEALING"] = ""
+--Translation missing 
+-- L["STRING_OPTIONS_DEATHLOG_MINHEALING_DESC"] = ""
 L["STRING_OPTIONS_DESATURATE_MENU"] = "Ненасыщенный"
 L["STRING_OPTIONS_DESATURATE_MENU_DESC"] = "Включив данную опцию, все иконки меню на панели инструментов станут черно-белыми"
 L["STRING_OPTIONS_DISABLE_ALLDISPLAYSWINDOW"] = "Отключить меню 'Все Мониторы'"
@@ -788,14 +926,16 @@ L["STRING_OPTIONS_OPEN_TEXT_EDITOR"] = "Открыть редактор текс
 L["STRING_OPTIONS_OVERALL_ALL"] = "Все сегменты"
 L["STRING_OPTIONS_OVERALL_ALL_DESC"] = "Все сегменты идут в зачет всеобщих данных"
 L["STRING_OPTIONS_OVERALL_ANCHOR"] = "Всеобщие данные:"
-L["STRING_OPTIONS_OVERALL_CHALLENGE"] = "Сбрасывать в режиме испытаний (эпох+)"
-L["STRING_OPTIONS_OVERALL_CHALLENGE_DESC"] = "Когда включено, всеобщие данные сбрасываются автоматически, когда начинается новый режим испытаний (эпох+)."
 L["STRING_OPTIONS_OVERALL_DUNGEONBOSS"] = "Боссы подземелий"
 L["STRING_OPTIONS_OVERALL_DUNGEONBOSS_DESC"] = "Сегменты с боссами подземелий идут в зачет всеобщих данных."
 L["STRING_OPTIONS_OVERALL_DUNGEONCLEAN"] = "Треш подземелий"
 L["STRING_OPTIONS_OVERALL_DUNGEONCLEAN_DESC"] = "Сегменты с трешем подземелий идут в зачет всеобщих данных."
 L["STRING_OPTIONS_OVERALL_LOGOFF"] = "Сбрасывать при выходе"
 L["STRING_OPTIONS_OVERALL_LOGOFF_DESC"] = "Когда включено, всеобщие данные сбрасываются автоматически, когда вы выходите из игрового мира."
+--Translation missing 
+-- L["STRING_OPTIONS_OVERALL_MYTHICPLUS"] = ""
+--Translation missing 
+-- L["STRING_OPTIONS_OVERALL_MYTHICPLUS_DESC"] = ""
 L["STRING_OPTIONS_OVERALL_NEWBOSS"] = "Сбрасывать на новом боссе"
 L["STRING_OPTIONS_OVERALL_NEWBOSS_DESC"] = "Когда включено, всеобщие данные сбрасываются автоматически, когда начинается бой с другим рейдовым боссом."
 L["STRING_OPTIONS_OVERALL_RAIDBOSS"] = "Рейдовые боссы"
@@ -1405,7 +1545,7 @@ L["STRING_PLUGINOPTIONS_TEXTSTYLE"] = "Стиль текста"
 --Translation missing 
 -- L["STRING_QUERY_INSPECT_FAIL1"] = ""
 --Translation missing 
--- L["STRING_QUERY_INSPECT_TALENTS"] = ""
+-- L["STRING_QUERY_INSPECT_REFRESH"] = ""
 --Translation missing 
 -- L["STRING_RAID_WIDE"] = ""
 --Translation missing 
@@ -1490,9 +1630,20 @@ L["STRING_SEGMENT_ENEMY"] = "Враг"
 L["STRING_SEGMENT_LOWER"] = "сегмент"
 L["STRING_SEGMENT_OVERALL"] = "Всеобщие данные"
 L["STRING_SEGMENT_START"] = "Начало"
-L["STRING_SEGMENT_TIME"] = "Время"
 L["STRING_SEGMENT_TRASH"] = "Зачистка треша"
 L["STRING_SEGMENTS"] = "Сегменты"
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_BOSS"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_COMBATTIME"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_OVERALL"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_TIMEINCOMBAT"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_TOTALTIME"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_TRASH"] = ""
 --Translation missing 
 -- L["STRING_SHIELD_HEAL"] = ""
 --Translation missing 
@@ -1602,10 +1753,10 @@ L["STRING_VERSION_UPDATE"] = "новая версия: что изменилос
 L["STRING_WAITPLUGIN"] = [=[ожидание
 плагинов]=]
 L["STRING_WAVE"] = "волна"
-L["STRING_WELCOME_1"] = [=[|cFFFFFFFFДобро пожаловать в Details! С Вами - Мастер быстрой настройки 
+L["STRING_WELCOME_1"] = [=[|cFFFFFFFFДобро пожаловать в Details! С Вами - Мастер быстрой установки
 
-|rДанный гайд поможет Вам в настройке некоторых важных элементов.
-Заходите пропустить? Просто кликните в любой момент по кнопке "Пропустить".]=]
+|rЭто руководство поможет вам с некоторыми важными конфигурациями.
+Вы можете пропустить это в любое время, просто нажав на кнопку 'пропустить'.]=]
 L["STRING_WELCOME_11"] = "передумали? всегда сможете всё изменить в панели настроек"
 L["STRING_WELCOME_12"] = "Выберите как быстро будет обновляться окно, Вы также можете включить анимации и обновление ИВС и УВС в реальном времени"
 --Translation missing 
@@ -1618,7 +1769,7 @@ L["STRING_WELCOME_16"] = "Включить анимации"
 L["STRING_WELCOME_17"] = [=[Если включено, все полосы плавно движутся влево и вправо.
 
 |cffffff00Важно|r: Ютуберам и Стримерам может потребоваться для развлечения зрителей.]=]
-L["STRING_WELCOME_2"] = "если Вы передумаете, то всегда сможете это изменить в панели настроек"
+L["STRING_WELCOME_2"] = "если вы передумали, то вы сможете всегда снова \\nизменить в панели настроек"
 L["STRING_WELCOME_26"] = "Фишки интерфейса: Растягиватель"
 L["STRING_WELCOME_27"] = [=[Подсвеченная кнопка это Растягиватель. |cFFFFFF00Кликните|r и |cFFFFFF00потяните вверх!|r 
 

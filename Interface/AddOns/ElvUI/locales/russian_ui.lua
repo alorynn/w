@@ -7,7 +7,7 @@ if not L then return; end
 L["INCOMPATIBLE_ADDON"] = "Аддон %s не совместим с модулем %s ElvUI. Пожалуйста, выберите отключить ли несовместимый аддон или модуль."
 
 --*_MSG locales
-L["LOGIN_MSG"] = "Добро пожаловать в %sElvUI|r версии %s%s|r, наберите /ec для доступа в меню настроек. Если Вам нужна техническая поддержка, посетите наш форум на http://www.tukui.org"
+L["LOGIN_MSG"] = "Добро пожаловать в %sElvUI|r версии %s%s|r, наберите /ec для доступа в меню настроек. Если Вам нужна техническая поддержка, посетите наш форум на https://www.tukui.org"
 
 --ActionBars
 L["Binding"] = "Назначение"
@@ -79,6 +79,8 @@ L["Building(s) Report:"] = "Отчет зданий:"
 L["Character: "] = "Персонаж: "
 L["Chest"] = "Грудь"
 L["Combat"] = "Бой"
+L["Combat/Arena Time"] = "Время боя/арены"
+L["Coords"] = "Коорд."
 L["copperabbrev"] = "|cffeda55fм|r" --Also used in Bags
 L["Deficit:"] = "Убыток:"
 L["Download"] = "Загрузка"
@@ -87,7 +89,8 @@ L["Earned:"] = "Заработано"
 L["Feet"] = "Ступни"
 L["Friends List"] = "Список друзей"
 L["Friends"] = "Друзья" --Also in Skins
-L["Gold:"] = "Золото:"
+L["Garrison"] = "Гарнизон"
+L["Gold"] = "Золото"
 L["goldabbrev"] = "|cffffd700з|r" --Also used in Bags
 L["Hands"] = "Кисти рук"
 L["Head"] = "Голова"
@@ -112,9 +115,12 @@ L["Session:"] = "За сеанс:"
 L["Shoulder"] = "Плечо"
 L["silverabbrev"] = "|cffc7c7cfс|r" --Also used in Bags
 L["SP"] = "+ Закл."
+L["Spell/Heal Power"] = "Сила заклинаний";
 L["Spec"] = "Спек"
 L["Spent:"] = "Потрачено:"
 L["Stats For:"] = "Статистика для:"
+L["System"] = "Система"
+L["Talent/Loot Specialization"] = "Таланты/добыча"
 L["Total CPU:"] = "Использование процессора:"
 L["Total Memory:"] = "Всего памяти:"
 L["Total: "] = "Всего: "
@@ -320,6 +326,8 @@ L["|cFFE30000Lua error recieved. You can view the error message when you exit co
 
 --Static Popups
 L["A setting you have changed will change an option for this character only. This setting that you have changed will be uneffected by changing user profiles. Changing this setting requires that you reload your User Interface."] = "Настройка, которую Вы только что изменили, будет влиять только на этого персонажа. Она не будет изменяться при смене профиля. Также это изменение требует перезагрузки интерфейса для вступления в силу."
+L["Accepting this will reset your Filter Priority lists for all auras on NamePlates. Are you sure?"] = true;
+L["Accepting this will reset your Filter Priority lists for all auras on UnitFrames. Are you sure?"] = true;
 L["Are you sure you want to apply this font to all ElvUI elements?"] = "Вы уверены, что хоттите применить этот шрифт ко всем элементам ElvUI?"
 L["Are you sure you want to delete all your gray items?"] = "Вы уверены, что хотите удалить все предметы серого качества?"
 L["Are you sure you want to disband the group?"] = "Вы уверены, что хотите распустить группу?"

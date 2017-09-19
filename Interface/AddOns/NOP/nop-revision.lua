@@ -1,4 +1,52 @@
 -- Revisions:
+--[[<p>08.06 18.09.2017</p>
+<ul>
+<li>Added Libram of Truth, Krokul Ridgestalker, Argussian Reach Insignia, Greater Argussian Reach Insignia, Army of the Light Insignia, Greater Army of the Light Insignia and Void-Purged Krokul.</li>
+</ul>
+]]
+--[[<p>08.04 01.09.2017</p>
+<ul>
+<li>Added Stolen Shado-Pan Insignia, Broken Isles Recipe Scrap.</li>
+<li>Fix QuestButton tooltip.</li>
+</ul>
+]]
+--[[<p>08.02 31.08.2017</p>
+<ul>
+<li>7.3 patch is here, lets up TOC and version to new milenia.</li>
+<li>Mouse buttons have icon in tooltip.</li>
+<li>Update to all libraries to 7.3 patch compatible version.</li>
+</ul>
+]]
+--[[<p>07.40 24.07.2017</p>
+<ul>
+<li>Cooldown on button and quest bar, fix.</li>
+<li>Exposed profiling function use <b>/nop profile</b> to start profiling, use slash command for 2nd time to get timings and turn it off.</li>
+</ul>
+]]
+--[[<p>07.38 17.07.2017</p>
+<ul>
+<li>Hook to new event SPELLS_CHANGED.</li>
+<li>Added Abundant Order Resources Cache, Stabilized Titan Essence</li>
+<li>Cooldown on button and quest bar, fix. Swaping Count and Timer, fix. Now need to find out if cooldown will not show on button twice.</li>
+</ul>
+]]
+--[[<p>07.36 21.06.2017</p>
+<ul>
+<li>Fix for colorblind mode when lines past 2nd line are used in pattern matching.</li>
+<li>To detect colorblind mode CVARS is used.</li>
+</ul>
+]]
+--[[<p>07.34 20.06.2017</p>
+<ul>
+<li>Fix LUA errors.</li>
+</ul>
+]]
+--[[<p>07.32 19.06.2017</p>
+<ul>
+<li>Added Artifact Research Compendium up to volume nine.</li>
+<li>Added Mark of Prey.</li>
+</ul>
+]]
 --[[<p>07.30 02.06.2017</p>
 <ul>
 <li>Added Legionfall Insignia for exalted.</li>
@@ -848,11 +896,22 @@ Tooltip can be anchored to WorldFrame and anchor place can be configured.[/list]
 --[[Known issues:
 <ul>
 <strong>Known issues:</strong>
-<li>None known.</li>
+<li>Lockpick on item sometime won't work on 1st click, new method of use item doesn't always update and apply proper spell on proper item.</li>
 </ul>
 ]]
 --[[To-Do:
 
 <li>Separate size and position for Usable Item and Quest Button bar is done, now need separate movers.</li>
 
+http://www.wowhead.com/item=130899/striding-with-the-sunwalkers a http://www.wowhead.com/item=130898/light-in-the-darkness
+1007 	Broken Isles
+1015 	Aszuna
+1021 	Broken Shore
+1014 	Dalaran
+1098 	Eye of Azshara
+1024 	Highmountain
+1017 	Stormheim
+1033 	Suramar
+1018 	Val'sharah
+Sanctum of Light
 ]]

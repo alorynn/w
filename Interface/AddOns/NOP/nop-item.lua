@@ -8,11 +8,12 @@ function NOP:ItemIsBlacklisted(itemID) -- is item blacklisted?
   if NOP.T_BLACKLIST and NOP.T_BLACKLIST[itemID] then -- temporary blacklist
     self:Verbose("itemID",itemID,"is temporary blacklisted")
     return true
-  else
-    if NOP.DB["T_BLACKLIST"] and NOP.DB.T_BLACKLIST[itemID] then -- Permanent blacklist
-      self:Verbose("itemID",itemID,"is permanently blacklisted")
-      return true
-    end
+  elseif NOP.DB["T_BLACKLIST"] and NOP.DB.T_BLACKLIST[itemID] then -- Permanent blacklist
+    self:Verbose("itemID",itemID,"is permanently blacklisted")
+    return true
+  elseif private.BLACKLIST[itemID] then
+    self:Verbose("itemID",itemID,"build-in blacklisted")
+    return true
   end
 end
 function NOP:ItemGetSpell(itemID) -- looking for usable item by spell attached to item returns (count, 2) or nil
@@ -361,6 +362,6 @@ function NOP:ItemShowNew() -- check bags for usable item and place it on button
 end
 function NOP:ItemTimer() -- slow backpack recheck
   if self:inCombat() or not (self.spellLoad and self.itemLoad) then return end -- still loading or in combat
-  wipe(NOP.T_CHECK) -- invalidate cache
+  -- wipe(NOP.T_CHECK) -- invalidate cache
   self:ItemShowNew() -- find item to place on button
 end

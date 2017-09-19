@@ -69,6 +69,11 @@ function NOP:QBButton(i, p) -- create new quest bar button
   bt.questMark:SetAllPoints()
   bt.questMark:Hide()
   self:ButtonStore(bt)
+  bt.timer = bt:CreateFontString(nil,"OVERLAY","GameFontWhite")
+  local timer = bt.timer
+  local font, size = bt.count:GetFont()
+  timer:SetFont(font, size-2,"OUTLINE")
+  self:ButtonSwap(bt,NOP.DB.swap)
   self:ButtonSkin(bt,NOP.DB.skinButton)
   p.buttons[i] = bt -- store button ref to anchor frame
   return bt -- return button
@@ -89,8 +94,8 @@ function NOP:QBOnEnter(bt) -- build and show tooltip
   end
   GameTooltip:AddLine(text, 0, 1, 0)
   GameTooltip:AddLine(" ")
-  GameTooltip:AddLine(private.CLICK_SKIP_MSG,0,1,0)
-  GameTooltip:AddLine(private.CLICK_BLACKLIST_MSG)
+  GameTooltip:AddLine(private.MOUSE_RB .. private.CLICK_SKIP_MSG,0,1,0)
+  GameTooltip:AddLine(private.MOUSE_RB .. private.CLICK_BLACKLIST_MSG)
   GameTooltip:Show()
 end
 function NOP:QBOnLeave(bt) -- close tooltip

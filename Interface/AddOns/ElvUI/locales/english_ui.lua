@@ -7,7 +7,7 @@ if not L then return; end
 L["INCOMPATIBLE_ADDON"] = "The addon %s is not compatible with ElvUI's %s module. Please select either the addon or the ElvUI module to disable."
 
 --*_MSG locales
-L["LOGIN_MSG"] = "Welcome to %sElvUI|r version %s%s|r, type /ec to access the in-game configuration menu. If you are in need of technical support you can visit us at http://www.tukui.org"
+L["LOGIN_MSG"] = "Welcome to %sElvUI|r version %s%s|r, type /ec to access the in-game configuration menu. If you are in need of technical support you can visit us at https://www.tukui.org"
 
 --ActionBars
 L["Binding"] = true;
@@ -79,6 +79,8 @@ L["Building(s) Report:"] = true;
 L["Character: "] = true
 L["Chest"] = true;
 L["Combat"] = true;
+L["Combat/Arena Time"] = true;
+L["Coords"] = true;
 L["copperabbrev"] = "|cffeda55fc|r" --Also used in Bags
 L["Deficit:"] = true;
 L["Download"] = true;
@@ -87,7 +89,8 @@ L["Earned:"] = true;
 L["Feet"] = true;
 L["Friends List"] = true;
 L["Friends"] = true; --Also in Skins
-L["Gold:"] = true;
+L["Garrison"] = true;
+L["Gold"] = true;
 L["goldabbrev"] = "|cffffd700g|r" --Also used in Bags
 L["Hands"] = true;
 L["Head"] = true;
@@ -112,9 +115,12 @@ L["Session:"] = true;
 L["Shoulder"] = true;
 L["silverabbrev"] = "|cffc7c7cfs|r" --Also used in Bags
 L["SP"] = true;
+L["Spell/Heal Power"] = true;
 L["Spec"] = true;
 L["Spent:"] = true;
 L["Stats For:"] = true;
+L["System"] = true;
+L["Talent/Loot Specialization"] = true;
 L["Total CPU:"] = true;
 L["Total Memory:"] = true;
 L["Total: "] = true;
@@ -321,6 +327,8 @@ L["|cFFE30000Lua error recieved. You can view the error message when you exit co
 
 --Static Popups
 L["A setting you have changed will change an option for this character only. This setting that you have changed will be uneffected by changing user profiles. Changing this setting requires that you reload your User Interface."] = true;
+L["Accepting this will reset your Filter Priority lists for all auras on NamePlates. Are you sure?"] = true;
+L["Accepting this will reset your Filter Priority lists for all auras on UnitFrames. Are you sure?"] = true;
 L["Are you sure you want to apply this font to all ElvUI elements?"] = true;
 L["Are you sure you want to delete all your gray items?"] = true;
 L["Are you sure you want to disband the group?"] = true;

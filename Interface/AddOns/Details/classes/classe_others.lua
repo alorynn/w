@@ -162,6 +162,8 @@ function atributo_misc:CreateBuffTargetObject()
 		uptime = 0,
 		actived = false,
 		activedamt = 0,
+		refreshamt = 0,
+		appliedamt = 0,
 	}
 end
 
@@ -228,10 +230,11 @@ function _detalhes:ToolTipDead (instancia, morte, esta_barra, keydown)
 					end
 				else
 					--> heal
-					GameCooltip:AddLine ("" .. _cstr ("%.1f", time - hora_da_morte) .. "s " .. spellname .. " (|cFFC6B0D9" .. source .. "|r)", "+" .. _detalhes:ToK (amount) .. " (" .. hp .. "%)", 1, "white", "white")
-					GameCooltip:AddIcon (spellicon)
-					GameCooltip:AddStatusBar (hp, 1, "green", true) --, backgroud_bar_heal
-					
+					if (amount > _detalhes.deathlog_healingdone_min) then
+						GameCooltip:AddLine ("" .. _cstr ("%.1f", time - hora_da_morte) .. "s " .. spellname .. " (|cFFC6B0D9" .. source .. "|r)", "+" .. _detalhes:ToK (amount) .. " (" .. hp .. "%)", 1, "white", "white")
+						GameCooltip:AddIcon (spellicon)
+						GameCooltip:AddStatusBar (hp, 1, "green", true) --, backgroud_bar_heal
+					end
 				end
 				
 			elseif (type (evtype) == "number") then
@@ -248,7 +251,12 @@ function _detalhes:ToolTipDead (instancia, morte, esta_barra, keydown)
 				elseif (evtype == 3) then
 					--> last cooldown used
 					lastcooldown = event
-					
+				
+				elseif (evtype == 4) then
+					GameCooltip:AddLine ("" .. _cstr ("%.1f", time - hora_da_morte) .. "s [x" .. amount .. "] " .. spellname .. " (" .. source .. ")", "debuff (" .. hp .. "%)", 1, "white", "white")
+					GameCooltip:AddIcon (spellicon)
+					GameCooltip:AddStatusBar (100, 1, "purple", true)
+				
 				end
 			end
 		end
@@ -384,21 +392,40 @@ function atributo_misc:ReportSingleDeadLine (morte, instancia)
 			end
 			
 		elseif (not evento [1] and type (evento [1]) == "boolean") then --> heal
+		
+			local amount = evento [3]
+			
+			if (amount > _detalhes.deathlog_healingdone_min) then
+				local elapsed = _cstr ("%.1f", evento [4] - time_of_death) .."s"
+				local spelllink = GetSpellLink (evento [2])
+				local source = _detalhes:GetOnlyName (evento [6])
+				local spellname, _, spellicon = _GetSpellInfo (evento [2])
+				
+				local hp = _math_floor (evento [5] / max_health * 100)
+				if (hp > 100) then 
+					hp = 100
+				end
+
+				if (_detalhes.report_heal_links) then
+					tinsert (report_array, {elapsed .. " ", spelllink, " (" .. source .. ")", "+" .. _detalhes:ToK (amount) .. " (" .. hp .. "%) "})
+				else
+					tinsert (report_array, {elapsed .. " ", spellname, " (" .. source .. ")", "+" .. _detalhes:ToK (amount) .. " (" .. hp .. "%) "})
+				end
+			end
+			
+		elseif (type (evento [1]) == "number" and evento [1] == 4) then --> debuff
+			
 			local elapsed = _cstr ("%.1f", evento [4] - time_of_death) .."s"
 			local spelllink = GetSpellLink (evento [2])
 			local source = _detalhes:GetOnlyName (evento [6])
 			local spellname, _, spellicon = _GetSpellInfo (evento [2])
-			local amount = evento [3]
+			local stacks = evento [3]
 			local hp = _math_floor (evento [5] / max_health * 100)
 			if (hp > 100) then 
 				hp = 100
 			end
 
-			if (_detalhes.report_heal_links) then
-				tinsert (report_array, {elapsed .. " ", spelllink, " (" .. source .. ")", "+" .. _detalhes:ToK (amount) .. " (" .. hp .. "%) "})
-			else
-				tinsert (report_array, {elapsed .. " ", spellname, " (" .. source .. ")", "+" .. _detalhes:ToK (amount) .. " (" .. hp .. "%) "})
-			end
+			tinsert (report_array, {elapsed .. " ", "x" .. stacks .. "" .. spelllink, " (" .. source .. ")", "(" .. hp .. "%) "})
 		end
 	end
 	
@@ -1352,8 +1379,7 @@ function _detalhes:CatchRaidBuffUptime (in_or_out)
 				for buffIndex = 1, 41 do
 					local name, _, _, _, _, _, _, unitCaster, _, _, spellid  = _UnitAura (RaidIndex, buffIndex, nil, "HELPFUL")
 					if (name and unitCaster == RaidIndex) then
-						_detalhes.parser:add_buff_uptime (nil, cacheGetTime, playerGUID, playerName, 0x00000514, playerGUID, playerName, 0x00000514, spellid, name, in_or_out)
-						
+						_detalhes.parser:add_buff_uptime (nil, cacheGetTime, playerGUID, playerName, 0x00000514, playerGUID, playerName, 0x00000514, 0x0, spellid, name, in_or_out)
 						if (in_or_out == "BUFF_UPTIME_IN") then
 							if (_detalhes.PotionList [spellid]) then
 								pot_usage [playerName] = spellid
@@ -1383,7 +1409,7 @@ function _detalhes:CatchRaidBuffUptime (in_or_out)
 				for buffIndex = 1, 41 do
 					local name, _, _, _, _, _, _, unitCaster, _, _, spellid  = _UnitAura (PartyIndex, buffIndex, nil, "HELPFUL")
 					if (name and unitCaster == PartyIndex) then
-						_detalhes.parser:add_buff_uptime (nil, cacheGetTime, playerGUID, playerName, 0x00000514, playerGUID, playerName, 0x00000514, spellid, name, in_or_out)
+						_detalhes.parser:add_buff_uptime (nil, cacheGetTime, playerGUID, playerName, 0x00000514, playerGUID, playerName, 0x00000514, 0x0, spellid, name, in_or_out)
 						
 						if (in_or_out == "BUFF_UPTIME_IN") then
 							if (_detalhes.PotionList [spellid]) then
@@ -1413,7 +1439,7 @@ function _detalhes:CatchRaidBuffUptime (in_or_out)
 						end
 					end
 					
-					_detalhes.parser:add_buff_uptime (nil, cacheGetTime, playerGUID, playerName, 0x00000514, playerGUID, playerName, 0x00000514, spellid, name, in_or_out)
+					_detalhes.parser:add_buff_uptime (nil, cacheGetTime, playerGUID, playerName, 0x00000514, playerGUID, playerName, 0x00000514, 0x0, spellid, name, in_or_out)
 				end
 			end
 		end
@@ -1462,7 +1488,7 @@ function _detalhes:CatchRaidBuffUptime (in_or_out)
 							end
 						end
 					
-						_detalhes.parser:add_buff_uptime (nil, GetTime(), playerGUID, playerName, 0x00000417, playerGUID, playerName, 0x00000417, spellid, name, in_or_out)
+						_detalhes.parser:add_buff_uptime (nil, GetTime(), playerGUID, playerName, 0x00000417, playerGUID, playerName, 0x00000417, 0x0, spellid, name, in_or_out)
 					end
 				end
 			end
@@ -1482,7 +1508,7 @@ function _detalhes:CatchRaidBuffUptime (in_or_out)
 						end
 					end
 				
-					_detalhes.parser:add_buff_uptime (nil, GetTime(), playerGUID, playerName, 0x00000417, playerGUID, playerName, 0x00000417, spellid, name, in_or_out)
+					_detalhes.parser:add_buff_uptime (nil, GetTime(), playerGUID, playerName, 0x00000417, playerGUID, playerName, 0x00000417, 0x0, spellid, name, in_or_out)
 				end
 			end
 		end
@@ -1523,7 +1549,7 @@ function _detalhes:CatchRaidBuffUptime (in_or_out)
 							focus_augmentation [playerName] = true
 						end
 					end
-					_detalhes.parser:add_buff_uptime (nil, GetTime(), playerGUID, playerName, 0x00000417, playerGUID, playerName, 0x00000417, nil, spellid, name, in_or_out)
+					_detalhes.parser:add_buff_uptime (nil, GetTime(), playerGUID, playerName, 0x00000417, playerGUID, playerName, 0x00000417, 0x0, spellid, name, in_or_out)
 				end
 			end
 		end
@@ -2387,10 +2413,12 @@ local somar_habilidades = function (container1, container2)
 	end
 end
 
-function atributo_misc:r_connect_shadow (actor, no_refresh)
+function atributo_misc:r_connect_shadow (actor, no_refresh, combat_object)
+
+	local host_combat = combat_object or _detalhes.tabela_overall
 
 	--> criar uma shadow desse ator se ainda n�o tiver uma
-	local overall_misc = _detalhes.tabela_overall [4]
+	local overall_misc = host_combat [4]
 	local shadow = overall_misc._ActorTable [overall_misc._NameIndexTable [actor.nome]]
 
 	if (not actor.nome) then
@@ -2447,9 +2475,9 @@ function atributo_misc:r_connect_shadow (actor, no_refresh)
 		end
 	
 		shadow.cooldowns_defensive = shadow.cooldowns_defensive + actor.cooldowns_defensive
-		_detalhes.tabela_overall.totals[4].cooldowns_defensive = _detalhes.tabela_overall.totals[4].cooldowns_defensive + actor.cooldowns_defensive
+		host_combat.totals[4].cooldowns_defensive = host_combat.totals[4].cooldowns_defensive + actor.cooldowns_defensive
 		if (actor.grupo) then
-			_detalhes.tabela_overall.totals_grupo[4].cooldowns_defensive = _detalhes.tabela_overall.totals_grupo[4].cooldowns_defensive + actor.cooldowns_defensive
+			host_combat.totals_grupo[4].cooldowns_defensive = host_combat.totals_grupo[4].cooldowns_defensive + actor.cooldowns_defensive
 		end
 		
 		somar_alvos (shadow.cooldowns_defensive_targets, actor.cooldowns_defensive_targets)
@@ -2496,6 +2524,8 @@ function atributo_misc:r_connect_shadow (actor, no_refresh)
 				end
 				t.uptime = t.uptime + amount.uptime
 				t.activedamt = t.activedamt + amount.activedamt
+				t.refreshamt = t.refreshamt + amount.refreshamt
+				t.appliedamt = t.appliedamt + amount.appliedamt
 			else
 				shadow.debuff_uptime_targets [target_name] = (shadow.debuff_uptime_targets [target_name] or 0) + amount
 			end
@@ -2514,9 +2544,9 @@ function atributo_misc:r_connect_shadow (actor, no_refresh)
 		end
 	
 		shadow.interrupt = shadow.interrupt + actor.interrupt
-		_detalhes.tabela_overall.totals[4].interrupt = _detalhes.tabela_overall.totals[4].interrupt + actor.interrupt
+		host_combat.totals[4].interrupt = host_combat.totals[4].interrupt + actor.interrupt
 		if (actor.grupo) then
-			_detalhes.tabela_overall.totals_grupo[4].interrupt = _detalhes.tabela_overall.totals_grupo[4].interrupt + actor.interrupt
+			host_combat.totals_grupo[4].interrupt = host_combat.totals_grupo[4].interrupt + actor.interrupt
 		end
 	
 		somar_alvos (shadow.interrupt_targets, actor.interrupt_targets)
@@ -2545,9 +2575,9 @@ function atributo_misc:r_connect_shadow (actor, no_refresh)
 		end
 		
 		shadow.ress = shadow.ress + actor.ress
-		_detalhes.tabela_overall.totals[4].ress = _detalhes.tabela_overall.totals[4].ress + actor.ress
+		host_combat.totals[4].ress = host_combat.totals[4].ress + actor.ress
 		if (actor.grupo) then
-			_detalhes.tabela_overall.totals_grupo[4].ress = _detalhes.tabela_overall.totals_grupo[4].ress + actor.ress
+			host_combat.totals_grupo[4].ress = host_combat.totals_grupo[4].ress + actor.ress
 		end
 		
 		somar_alvos (shadow.ress_targets, actor.ress_targets)
@@ -2564,9 +2594,9 @@ function atributo_misc:r_connect_shadow (actor, no_refresh)
 		end
 	
 		shadow.dispell = shadow.dispell + actor.dispell
-		_detalhes.tabela_overall.totals[4].dispell = _detalhes.tabela_overall.totals[4].dispell + actor.dispell
+		host_combat.totals[4].dispell = host_combat.totals[4].dispell + actor.dispell
 		if (actor.grupo) then
-			_detalhes.tabela_overall.totals_grupo[4].dispell = _detalhes.tabela_overall.totals_grupo[4].dispell + actor.dispell
+			host_combat.totals_grupo[4].dispell = host_combat.totals_grupo[4].dispell + actor.dispell
 		end
 		
 		somar_alvos (shadow.dispell_targets, actor.dispell_targets)
@@ -2594,9 +2624,9 @@ function atributo_misc:r_connect_shadow (actor, no_refresh)
 		end
 
 		shadow.cc_break = shadow.cc_break + actor.cc_break
-		_detalhes.tabela_overall.totals[4].cc_break = _detalhes.tabela_overall.totals[4].cc_break + actor.cc_break
+		host_combat.totals[4].cc_break = host_combat.totals[4].cc_break + actor.cc_break
 		if (actor.grupo) then
-			_detalhes.tabela_overall.totals_grupo[4].cc_break = _detalhes.tabela_overall.totals_grupo[4].cc_break + actor.cc_break
+			host_combat.totals_grupo[4].cc_break = host_combat.totals_grupo[4].cc_break + actor.cc_break
 		end
 		
 		somar_alvos (shadow.cc_break_targets, actor.cc_break_targets)
@@ -2882,6 +2912,8 @@ atributo_misc.__add = function (tabela1, tabela2)
 				end
 				t.uptime = t.uptime + amount.uptime
 				t.activedamt = t.activedamt + amount.activedamt
+				t.refreshamt = t.refreshamt + amount.refreshamt
+				t.appliedamt = t.appliedamt + amount.appliedamt
 			else
 				tabela1.debuff_uptime_targets [target_name] = (tabela1.debuff_uptime_targets [target_name] or 0) + amount
 			end
@@ -3116,6 +3148,8 @@ atributo_misc.__sub = function (tabela1, tabela2)
 				end
 				t.uptime = t.uptime - amount.uptime
 				t.activedamt = t.activedamt - amount.activedamt
+				t.refreshamt = t.refreshamt - amount.refreshamt
+				t.appliedamt = t.appliedamt - amount.appliedamt
 			else
 				tabela2.debuff_uptime_targets [target_name] = (tabela2.debuff_uptime_targets [target_name] or 0) - amount
 			end

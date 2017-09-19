@@ -2,16 +2,18 @@ local _, MPH = ...
 
 MPH = LibStub("AceAddon-3.0"):NewAddon(MPH, "MPH", "AceConsole-3.0", "AceEvent-3.0")
 
+local LibRealmInfo = LibStub("LibRealmInfo")
+
 --Stronghly inspired by the Simcraft AddOn, thank you to them! 
 
 local GetApplicants = _G.C_LFGList.GetApplicants
 local GetApplicantInfo = _G.C_LFGList.GetApplicantInfo
 local GetApplicantMemberInfo = _G.C_LFGList.GetApplicantMemberInfo
-
-local REGIONS = {"us", "kr", "eu", "tw", "cn", "oc"}
+-- local MPHSelf = true
 
 function MPH:OnInitialize()
   MPH:RegisterChatCommand('mph', 'PrintMPH')
+  -- MPH:RegisterChatCommand('mphself', 'ToggleSelfMPH')
 end
 
 function MPH:OnEnable()
@@ -94,7 +96,7 @@ end
 --End helper functions
 
 function LookupRegion(id)
-    return id ~= nil and REGIONS[id] or "us"
+    return LibStub("LibRealmInfo"):GetCurrentRegion("player") or "us"
 end
 
 -- Main function, grabs applicants and formats them nicely in JSON for the website
@@ -197,6 +199,15 @@ function MPH:GenerateOutput()
         end
 
         output = string.sub(output,1,-3) -- trim trailing comma and newline
+
+        -- if MPHSelf == true then
+          output = output .. ",\n{"
+          output = output .. "\"character\": \"" .. UnitName("player") .. "\","
+          output = output .. "\"server\": \"" .. FixRealmName(GetRealmName("player")) .. "\","
+          output = output .. "\"playerType\": \"self\","
+          output = output .. "\"role\": \"" .. UnitGroupRolesAssigned("player") .. "\"}"
+        -- end
+
   end 
 
   return output, err
@@ -215,6 +226,15 @@ function MPH:PrintMPH()
     MphCopyFrameScrollText:HighlightText()
   end
 end
+
+-- function MPH:ToggleSelfMPH()
+--   if MPHSelf then MPHSelf = false else MPHSelf = true end
+--   if MPHSelf then
+--     print("Now including self in MPH Report.")
+--   else
+--     print("Now excluding self from MPH Report.")
+--   end
+-- end
 
 -- this mess receives a server name that might need spaces in it and returns it properly spaced
 -- this is necessary because the wow ingame api strips spaces, but the web api needs the spaces

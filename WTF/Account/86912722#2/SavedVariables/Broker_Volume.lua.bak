@@ -1,0 +1,11 @@
+
+BrokerVolumeDB = {
+	["profileKeys"] = {
+		["Alaurogue - Kel'Thuzad"] = "Alaurogue - Kel'Thuzad",
+	},
+	["profiles"] = {
+		["Alaurogue - Kel'Thuzad"] = {
+			["bgSound"] = true,
+		},
+	},
+}

@@ -1,4 +1,4 @@
-## Interface: 70200
+## Interface: 70300
 ## Title: SecureTabs-2.0
 ## Notes: Easly and securely add tabs to existing panels
 ## Author: Jaliborc (João Cardoso)

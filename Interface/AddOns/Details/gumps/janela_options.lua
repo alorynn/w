@@ -4,7 +4,7 @@
 	search for "~number" without the quotes to quick access the page:
 	
 	1 - general
-	2 - combat
+	2 - combat / pvp pve
 	3 - skin
 	4 - row settings
 	5 - row texts
@@ -272,7 +272,7 @@ function _detalhes:OpenOptionsWindow (instance, no_reopen, section)
 		forge_button:SetIcon ([[Interface\AddOns\Details\images\icons]], nil, nil, nil, {396/512, 428/512, 243/512, 273/512}, nil, nil, 2)
 		forge_button:SetPoint ("topleft", 80, -61)
 
-		local history_button = g:NewButton (window, _, "$parentHistoryButton", "HistoryButton", 90, 20, function() _detalhes:OpenRaidHistoryWindow(); window:Hide() end, nil, nil, nil, "Open History", 1) --, g:GetTemplate ("dropdown", "OPTIONS_DROPDOWN_TEMPLATE")
+		local history_button = g:NewButton (window, _, "$parentHistoryButton", "HistoryButton", 90, 20, function() _detalhes:OpenRaidHistoryWindow(); window:Hide() end, nil, nil, nil, "Guild Rank", 1) --, g:GetTemplate ("dropdown", "OPTIONS_DROPDOWN_TEMPLATE")
 		history_button:SetIcon ([[Interface\AddOns\Details\images\icons]], nil, nil, nil, {434/512, 466/512, 243/512, 273/512}, nil, nil, 2)
 		history_button:SetPoint ("topleft", 180, -61)
 
@@ -4306,10 +4306,49 @@ function window:CreateFrame2()
 
 		window:CreateLineBackground2 (frame2, "DeathLogLimitDropdown", "DeathLogLimitLabel", Loc ["STRING_OPTIONS_DEATHLIMIT_DESC"])
 
+	--> damage taken always on everything
+		g:NewLabel (frame2, _, "$parentDamageTakenEverythingLabel", "DamageTakenEverythingLabel", Loc ["STRING_OPTIONS_DTAKEN_EVERYTHING"], "GameFontHighlightLeft")
+		g:NewSwitch (frame2, _, "$parentDamageTakenEverythingSlider", "DamageTakenEverythingSlider", 60, 20, _, _, _detalhes.damage_taken_everything, nil, nil, nil, nil, options_switch_template)
+
+		frame2.DamageTakenEverythingSlider:SetPoint ("left", frame2.DamageTakenEverythingLabel, "right", 2)
+		frame2.DamageTakenEverythingSlider:SetAsCheckBox()
+		frame2.DamageTakenEverythingSlider.OnSwitch = function (_, _, value)
+			_detalhes.damage_taken_everything = value
+			_detalhes:SendOptionsModifiedEvent (DetailsOptionsWindow.instance)
+		end
+		
+		window:CreateLineBackground2 (frame2, "DamageTakenEverythingSlider", "DamageTakenEverythingLabel", Loc ["STRING_OPTIONS_DTAKEN_EVERYTHING_DESC"])		
+		
+	--> deathlog healing done threshold
+		g:NewLabel (frame2, _, "$parentDeathLogHealingThresholdLabel", "DeathLogHealingThresholdLabel", Loc ["STRING_OPTIONS_DEATHLOG_MINHEALING"], "GameFontHighlightLeft")
+		
+		local s = g:NewSlider (frame2, _, "$parentDeathLogHealingThresholdSlider", "DeathLogHealingThresholdSlider", SLIDER_WIDTH, SLIDER_HEIGHT, 0, 100000, 1, _detalhes.deathlog_healingdone_min, nil, nil, nil, options_slider_template)
+		
+		frame2.DeathLogHealingThresholdSlider:SetPoint ("left", frame2.DeathLogHealingThresholdLabel, "right", 2, -1)
+		frame2.DeathLogHealingThresholdSlider:SetHook ("OnValueChange", function (self, _, amount) --> slider, fixedValue, sliderValue
+			_detalhes.deathlog_healingdone_min = amount
+			_detalhes:SendOptionsModifiedEvent (DetailsOptionsWindow.instance)
+		end)
+		
+		window:CreateLineBackground2 (frame2, "DeathLogHealingThresholdSlider", "DeathLogHealingThresholdLabel", Loc ["STRING_OPTIONS_DEATHLOG_MINHEALING_DESC"])
+		
+	--> always show players
+		g:NewLabel (frame2, _, "$parentAlwaysShowPlayersLabel", "AlwaysShowPlayersLabel", Loc ["STRING_OPTIONS_ALWAYSSHOWPLAYERS"], "GameFontHighlightLeft")
+		--
+		g:NewSwitch (frame2, _, "$parentAlwaysShowPlayersSlider", "AlwaysShowPlayersSlider", 60, 20, _, _, _detalhes.all_players_are_group, nil, nil, nil, nil, options_switch_template)
+		frame2.AlwaysShowPlayersSlider:SetPoint ("left", frame2.AlwaysShowPlayersLabel, "right", 2, 0)
+		frame2.AlwaysShowPlayersSlider:SetAsCheckBox()
+		frame2.AlwaysShowPlayersSlider.OnSwitch = function (self, _, amount) --> slider, fixedValue, sliderValue
+			_detalhes.all_players_are_group = amount
+			_detalhes:SendOptionsModifiedEvent (DetailsOptionsWindow.instance)
+		end
+		
+		window:CreateLineBackground2 (frame2, "AlwaysShowPlayersSlider", "AlwaysShowPlayersLabel", Loc ["STRING_OPTIONS_ALWAYSSHOWPLAYERS_DESC"])
+	
 	--> Overall Data
 		g:NewLabel (frame2, _, "$parentOverallDataAnchor", "OverallDataLabel", Loc ["STRING_OPTIONS_OVERALL_ANCHOR"], "GameFontNormal")
 		
-		--raid boss
+	--raid boss
 		g:NewLabel (frame2, _, "$parentOverallDataRaidBossLabel", "OverallDataRaidBossLabel", Loc ["STRING_OPTIONS_OVERALL_RAIDBOSS"], "GameFontHighlightLeft")
 		--
 		g:NewSwitch (frame2, _, "$parentOverallDataRaidBossSlider", "OverallDataRaidBossSlider", 60, 20, _, _, false, nil, nil, nil, nil, options_switch_template)
@@ -4327,7 +4366,7 @@ function window:CreateFrame2()
 		--
 		window:CreateLineBackground2 (frame2, "OverallDataRaidBossSlider", "OverallDataRaidBossLabel", Loc ["STRING_OPTIONS_OVERALL_RAIDBOSS_DESC"])
 		
-		--raid cleanup
+	--raid cleanup
 		g:NewLabel (frame2, _, "$parentOverallDataRaidCleaupLabel", "OverallDataRaidCleaupLabel", Loc ["STRING_OPTIONS_OVERALL_RAIDCLEAN"], "GameFontHighlightLeft")
 		--
 		local raid_cleanup = g:NewSwitch (frame2, _, "$parentOverallDataRaidCleaupSlider", "OverallDataRaidCleaupSlider", 60, 20, _, _, false, nil, nil, nil, nil, options_switch_template)
@@ -4345,7 +4384,7 @@ function window:CreateFrame2()
 		--
 		window:CreateLineBackground2 (frame2, "OverallDataRaidCleaupSlider", "OverallDataRaidCleaupLabel", Loc ["STRING_OPTIONS_OVERALL_RAIDCLEAN_DESC"])
 		
-		--dungeon boss
+	--dungeon boss
 		g:NewLabel (frame2, _, "$parentOverallDataDungeonBossLabel", "OverallDataDungeonBossLabel", Loc ["STRING_OPTIONS_OVERALL_DUNGEONBOSS"], "GameFontHighlightLeft")
 		--
 		g:NewSwitch (frame2, _, "$parentOverallDataDungeonBossSlider", "OverallDataDungeonBossSlider", 60, 20, _, _, false, nil, nil, nil, nil, options_switch_template)
@@ -4363,7 +4402,7 @@ function window:CreateFrame2()
 		--
 		window:CreateLineBackground2 (frame2, "OverallDataDungeonBossSlider", "OverallDataDungeonBossLabel", Loc ["STRING_OPTIONS_OVERALL_DUNGEONBOSS_DESC"])
 		
-		--dungeon cleanup
+	--dungeon cleanup
 		g:NewLabel (frame2, _, "$parentOverallDataDungeonCleaupLabel", "OverallDataDungeonCleaupLabel", Loc ["STRING_OPTIONS_OVERALL_DUNGEONCLEAN"], "GameFontHighlightLeft")
 		--
 		g:NewSwitch (frame2, _, "$parentOverallDataDungeonCleaupSlider", "OverallDataDungeonCleaupSlider", 60, 20, _, _, false, nil, nil, nil, nil, options_switch_template)
@@ -4381,7 +4420,7 @@ function window:CreateFrame2()
 		--
 		window:CreateLineBackground2 (frame2, "OverallDataDungeonCleaupSlider", "OverallDataDungeonCleaupLabel", Loc ["STRING_OPTIONS_OVERALL_DUNGEONCLEAN_DESC"])
 		
-		--everything
+	--everything
 		g:NewLabel (frame2, _, "$parentOverallDataAllLabel", "OverallDataAllLabel", Loc ["STRING_OPTIONS_OVERALL_ALL"], "GameFontHighlightLeft")
 		--
 		g:NewSwitch (frame2, _, "$parentOverallDataAllSlider", "OverallDataAllSlider", 60, 20, _, _, false, nil, nil, nil, nil, options_switch_template)
@@ -4420,7 +4459,7 @@ function window:CreateFrame2()
 		--
 		window:CreateLineBackground2 (frame2, "OverallDataAllSlider", "OverallDataAllLabel", Loc ["STRING_OPTIONS_OVERALL_ALL_DESC"])
 		
-		--erase on new boss
+	--erase on new boss
 		g:NewLabel (frame2, _, "$parentOverallNewBossLabel", "OverallNewBossLabel", Loc ["STRING_OPTIONS_OVERALL_NEWBOSS"], "GameFontHighlightLeft")
 		--
 		g:NewSwitch (frame2, _, "$parentOverallNewBossSlider", "OverallNewBossSlider", 60, 20, _, _, false, nil, nil, nil, nil, options_switch_template)
@@ -4434,8 +4473,8 @@ function window:CreateFrame2()
 		--
 		window:CreateLineBackground2 (frame2, "OverallNewBossSlider", "OverallNewBossLabel", Loc ["STRING_OPTIONS_OVERALL_NEWBOSS_DESC"])
 
-		--erase on challenge mode
-		g:NewLabel (frame2, _, "$parentOverallNewChallengeLabel", "OverallNewChallengeLabel", Loc ["STRING_OPTIONS_OVERALL_CHALLENGE"], "GameFontHighlightLeft")
+	--erase on new mythic+ dungeon
+		g:NewLabel (frame2, _, "$parentOverallNewChallengeLabel", "OverallNewChallengeLabel", Loc ["STRING_OPTIONS_OVERALL_MYTHICPLUS"], "GameFontHighlightLeft")
 		--
 		g:NewSwitch (frame2, _, "$parentOverallNewChallengeSlider", "OverallNewChallengeSlider", 60, 20, _, _, false, nil, nil, nil, nil, options_switch_template)
 		frame2.OverallNewChallengeSlider:SetPoint ("left", frame2.OverallNewChallengeLabel, "right", 2, 0)
@@ -4446,9 +4485,9 @@ function window:CreateFrame2()
 			_detalhes:SendOptionsModifiedEvent (DetailsOptionsWindow.instance)
 		end
 		--
-		window:CreateLineBackground2 (frame2, "OverallNewChallengeSlider", "OverallNewChallengeLabel", Loc ["STRING_OPTIONS_OVERALL_CHALLENGE_DESC"])
+		window:CreateLineBackground2 (frame2, "OverallNewChallengeSlider", "OverallNewChallengeLabel", Loc ["STRING_OPTIONS_OVERALL_MYTHICPLUS_DESC"])
 		
-		--erase on logout overall_clear_logout
+	--erase on logout overall_clear_logout
 		g:NewLabel (frame2, _, "$parentOverallOnLogoutLabel", "OverallOnLogoutLabel", Loc ["STRING_OPTIONS_OVERALL_LOGOFF"], "GameFontHighlightLeft")
 		--
 		g:NewSwitch (frame2, _, "$parentOverallOnLogoutSlider", "OverallOnLogoutSlider", 60, 20, _, _, false, nil, nil, nil, nil, options_switch_template)
@@ -4474,7 +4513,7 @@ function window:CreateFrame2()
 		end
 		window:CreateLineBackground2 (frame2, "RemoteParserSlider", "RemoteParserLabel", Loc ["STRING_OPTIONS_BG_REMOTE_PARSER_DESC"])
 		
-		--> show all
+	--> show all
 		g:NewLabel (frame2, _, "$parentShowAllLabel", "ShowAllLabel", Loc ["STRING_OPTIONS_BG_ALL_ALLY"], "GameFontHighlightLeft")
 		g:NewSwitch (frame2, _, "$parentShowAllSlider", "ShowAllSlider", 60, 20, _, _, _detalhes.pvp_as_group, nil, nil, nil, nil, options_switch_template)
 		frame2.ShowAllSlider:SetPoint ("left", frame2.ShowAllLabel, "right", 2)
@@ -4486,18 +4525,7 @@ function window:CreateFrame2()
 		
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-		--> damage taken always on everything
-		g:NewLabel (frame2, _, "$parentDamageTakenEverythingLabel", "DamageTakenEverythingLabel", Loc ["STRING_OPTIONS_DTAKEN_EVERYTHING"], "GameFontHighlightLeft")
-		g:NewSwitch (frame2, _, "$parentDamageTakenEverythingSlider", "DamageTakenEverythingSlider", 60, 20, _, _, _detalhes.damage_taken_everything, nil, nil, nil, nil, options_switch_template)
 
-		frame2.DamageTakenEverythingSlider:SetPoint ("left", frame2.DamageTakenEverythingLabel, "right", 2)
-		frame2.DamageTakenEverythingSlider:SetAsCheckBox()
-		frame2.DamageTakenEverythingSlider.OnSwitch = function (_, _, value)
-			_detalhes.damage_taken_everything = value
-			_detalhes:SendOptionsModifiedEvent (DetailsOptionsWindow.instance)
-		end
-		
-		window:CreateLineBackground2 (frame2, "DamageTakenEverythingSlider", "DamageTakenEverythingLabel", Loc ["STRING_OPTIONS_DTAKEN_EVERYTHING_DESC"])
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -4516,11 +4544,11 @@ function window:CreateFrame2()
 
 		local left_side = {
 			{"GeneralAnchorLabel", 1, true},
-			{"fragsPvpLabel", 2},
-			--{"EraseChartDataLabel", 3},
-			--{"timetypeLabel", 4, true},
-			{"DeathLogLimitLabel", 5, },
-			{"DamageTakenEverythingLabel", 6, true},
+			{"fragsPvpLabel"},
+			{"DeathLogLimitLabel"},
+			{"DeathLogHealingThresholdLabel"},
+			{"DamageTakenEverythingLabel"},
+			{"AlwaysShowPlayersLabel"},
 			
 			{"BattlegroundAnchorLabel", 10, true},
 			{"RemoteParserLabel", 11},
@@ -10305,8 +10333,7 @@ function window:CreateFrame11()
 		--slider para quantidade de danos a mostrar
 		g:NewLabel (frame11, _, "$parentDeathsDamageLabel", "DeathsDamageLabel", Loc ["STRING_OPTIONS_RT_DEATHS_HITS"], "GameFontHighlightLeft")
 		local s = g:NewSlider (frame11, _, "$parentDeathsDamageSlider", "DeathsDamageSlider", SLIDER_WIDTH, SLIDER_HEIGHT, 1, 5, 1, _detalhes.announce_deaths.last_hits, nil, nil, nil, options_slider_template)
-		--config_slider (s)
-	
+
 		frame11.DeathsDamageSlider:SetPoint ("left", frame11.DeathsDamageLabel, "right", 2)
 		frame11.DeathsDamageSlider:SetHook ("OnValueChange", function (self, _, amount)
 			_detalhes.announce_deaths.last_hits = amount
@@ -10351,6 +10378,59 @@ function window:CreateFrame11()
 		frame11.DeathChannelDropdown:SetPoint ("left", frame11.DeathChannelLabel, "right", 2)
 		window:CreateLineBackground2 (frame11, "DeathChannelDropdown", "DeathChannelLabel", Loc ["STRING_OPTIONS_RT_DEATHS_WHERE_DESC"])
 
+	--> death recap
+		--enabled?
+		g:NewLabel (frame11, _, "$parentEnableDeathRecapLabel", "EnableDeathRecapLabel", "Enabled", "GameFontHighlightLeft")
+		g:NewSwitch (frame11, _, "$parentEnableDeathRecapSlider", "EnableDeathRecapSlider", 60, 20, _, _, _detalhes.death_recap.enabled, nil, nil, nil, nil, options_switch_template)
+
+		frame11.EnableDeathRecapSlider:SetPoint ("left", frame11.EnableDeathRecapLabel, "right", 2)
+		frame11.EnableDeathRecapSlider:SetAsCheckBox()
+		frame11.EnableDeathRecapSlider.OnSwitch = function (_, _, value)
+			_detalhes.death_recap.enabled = value
+			_detalhes:SendOptionsModifiedEvent (DetailsOptionsWindow.instance)
+		end
+		
+		window:CreateLineBackground2 (frame11, "EnableDeathRecapSlider", "EnableDeathRecapLabel", "Modify the Blizzard's Death Recap screen.")
+		
+		--time relevance
+		g:NewLabel (frame11, _, "$parentDeathRecapRelevanceLabel", "DeathRecapRelevanceLabel", "Relevance Time", "GameFontHighlightLeft")
+		g:NewSlider (frame11, _, "$parentDeathRecapRelevanceSlider", "DeathRecapRelevanceSlider", SLIDER_WIDTH, SLIDER_HEIGHT, 1, 12, 1, _detalhes.death_recap.relevance_time, nil, nil, nil, options_slider_template)
+
+		frame11.DeathRecapRelevanceSlider:SetPoint ("left", frame11.DeathRecapRelevanceLabel, "right", 2)
+		frame11.DeathsDamageSlider:SetHook ("OnValueChange", function (self, _, amount)
+			_detalhes.death_recap.relevance_time = amount
+			_detalhes:SendOptionsModifiedEvent (DetailsOptionsWindow.instance)
+		end)
+		
+		window:CreateLineBackground2 (frame11, "DeathRecapRelevanceSlider", "DeathRecapRelevanceLabel", "Attempt to fill the Death Recap with high damage (discart low hits) in the relevant time before death.")
+		
+		--show life
+		g:NewLabel (frame11, _, "$parentEnableDeathRecapLifePercentLabel", "EnableDeathRecapLifePercentLabel", "Life Percent", "GameFontHighlightLeft")
+		g:NewSwitch (frame11, _, "$parentEnableDeathRecapLifePercentSlider", "EnableDeathRecapLifePercentSlider", 60, 20, _, _, _detalhes.death_recap.show_life_percent, nil, nil, nil, nil, options_switch_template)
+
+		frame11.EnableDeathRecapLifePercentSlider:SetPoint ("left", frame11.EnableDeathRecapLifePercentLabel, "right", 2)
+		frame11.EnableDeathRecapLifePercentSlider:SetAsCheckBox()
+		frame11.EnableDeathRecapLifePercentSlider.OnSwitch = function (_, _, value)
+			_detalhes.death_recap.show_life_percent = value
+			_detalhes:SendOptionsModifiedEvent (DetailsOptionsWindow.instance)
+		end
+		
+		window:CreateLineBackground2 (frame11, "EnableDeathRecapLifePercentSlider", "EnableDeathRecapLifePercentLabel", "Show the percent of life the player had when received the hit.")
+		
+		--show segments
+		g:NewLabel (frame11, _, "$parentEnableDeathRecapSegmentsLabel", "EnableDeathRecapSegmentsLabel", "Segment List", "GameFontHighlightLeft")
+		g:NewSwitch (frame11, _, "$parentEnableDeathRecapSegmentsSlider", "EnableDeathRecapSegmentsSlider", 60, 20, _, _, _detalhes.death_recap.show_segments, nil, nil, nil, nil, options_switch_template)
+
+		frame11.EnableDeathRecapSegmentsSlider:SetPoint ("left", frame11.EnableDeathRecapSegmentsLabel, "right", 2)
+		frame11.EnableDeathRecapSegmentsSlider:SetAsCheckBox()
+		frame11.EnableDeathRecapSegmentsSlider.OnSwitch = function (_, _, value)
+			_detalhes.death_recap.show_segments = value
+			_detalhes:SendOptionsModifiedEvent (DetailsOptionsWindow.instance)
+		end
+		
+		window:CreateLineBackground2 (frame11, "EnableDeathRecapSegmentsSlider", "EnableDeathRecapSegmentsLabel", "Show a list of the latest segments in case you want to see recaps from previous fights.")
+		
+		
 	--> general tools
 		--> pre pots
 		g:NewLabel (frame11, _, "$parentEnabledPrePotLabel", "EnabledPrePotLabel", Loc ["STRING_OPTIONS_RT_INFOS_PREPOTION"], "GameFontHighlightLeft")
@@ -10384,6 +10464,7 @@ function window:CreateFrame11()
 		g:NewLabel (frame11, _, "$parentAnnouncersAnchorInterrupt", "AnnouncersInterrupt", Loc ["STRING_OPTIONS_RT_INTERRUPT_ANCHOR"], "GameFontNormal")
 		g:NewLabel (frame11, _, "$parentAnnouncersAnchorCooldowns", "AnnouncersCooldowns", Loc ["STRING_OPTIONS_RT_COOLDOWNS_ANCHOR"], "GameFontNormal")
 		g:NewLabel (frame11, _, "$parentAnnouncersAnchorDeaths", "AnnouncersDeaths", Loc ["STRING_OPTIONS_RT_DEATHS_ANCHOR"], "GameFontNormal")
+		g:NewLabel (frame11, _, "$parentAnnouncersAnchorDeathRecap", "AnnouncersDeathRecap", "Death Recap:", "GameFontNormal")
 		g:NewLabel (frame11, _, "$parentAnnouncersAnchorOther", "AnnouncersOther", Loc ["STRING_OPTIONS_RT_OTHER_ANCHOR"], "GameFontNormal")
 		
 		local x = window.left_start_at
@@ -10414,6 +10495,12 @@ function window:CreateFrame11()
 			{"DeathChannelLabel", 3},
 			{"DeathsDamageLabel", 4},
 			{"DeathsAmountLabel", 5},
+			
+			{"AnnouncersDeathRecap", 5, true},
+			{"EnableDeathRecapLabel", 5},
+			{"DeathRecapRelevanceLabel", 5},
+			{"EnableDeathRecapLifePercentLabel", 5},
+			{"EnableDeathRecapSegmentsLabel", 5},
 			{"AnnouncersOther", 6, true},
 			{"EnabledPrePotLabel", 7},
 			{"EnabledFirstHitLabel", 8},
@@ -10930,6 +11017,12 @@ end --> if not window
 		--damage taken advanced
 		_G.DetailsOptionsWindow2DamageTakenEverythingSlider.MyObject:SetValue (_detalhes.damage_taken_everything)
 		
+		--healing done mim on death log
+		_G.DetailsOptionsWindow2DeathLogHealingThresholdSlider.MyObject:SetValue (_detalhes.deathlog_healingdone_min)
+		
+		--always show all players (consider they as in group)
+		_G.DetailsOptionsWindow2AlwaysShowPlayersSlider.MyObject:SetValue (_detalhes.all_players_are_group)
+
 		--> window 3
 		
 		local skin = editing_instance.skin

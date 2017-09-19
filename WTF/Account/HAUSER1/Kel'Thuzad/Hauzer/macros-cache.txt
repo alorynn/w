@@ -1,0 +1,66 @@
+VER 3 010000000000000A " " "INV_MISC_QUESTIONMARK"
+#showtooltip Icy Veins
+/cast Icy Veins
+/use Primal Gladiator's Badge of Dominance
+END
+VER 3 0100000000000001 " " "INV_Misc_QuestionMark"
+#showtooltip ice block
+/cast ice block
+END
+VER 3 0100000000000002 "armor" "INV_Misc_QuestionMark"
+#showtooltip
+/castsequence !Mage Armor, !Frost Armor, !Molten Armor
+END
+VER 3 0100000000000003 "can" "INV_MISC_QUESTIONMARK"
+/cancelaura Ice Block
+END
+VER 3 0100000000000004 "cs" "SPELL_FROST_ICESHOCK"
+/cast [target=focus] counterspell
+END
+VER 3 0100000000000008 "deep" "INV_MISC_QUESTIONMARK"
+/cast [target=focus] deep freeze
+END
+VER 3 010000000000000F "Eat" "INV_MISC_QUESTIONMARK"
+#showtooltip  conjured mana pudding
+/use Conjured Mana Fritter
+/use Conjured Mana Pudding
+END
+VER 3 0100000000000009 "focus" "INV_MISC_QUESTIONMARK"
+/focus
+END
+VER 3 010000000000000B "m" "INV_MISC_QUESTIONMARK"
+.item 1 59449
+.item 3 22499
+.item 5 22652
+.item 7 22497
+.item 8 22500
+.item 9 32270
+.item 6 22502
+.item 10 22501
+.item 16 39344
+.enchant 16 4446
+.item 19 23709
+.item 17 28187
+END
+VER 3 010000000000000C "Mount" "INV_MISC_QUESTIONMARK"
+#showtooltip mystic runesaber
+/cast [worn:shirt] crimson water strider ; [flyable] mystic runesaber ; mystic runesaber
+END
+VER 3 010000000000000E "Pet" "133246"
+/summonpet [worn:shirt] winterspring cub; brightpaw
+END
+VER 3 0100000000000005 "pet" "INV_MISC_QUESTIONMARK"
+/petattack
+END
+VER 3 0100000000000006 "poly" "SPELL_NATURE_POLYMORPH"
+/cast [target=focus] polymorph
+END
+VER 3 0100000000000007 "ring" "INV_Misc_QuestionMark"
+#showtooltip ring of frost
+/cast presence of mind
+/cast ring of frost
+END
+VER 3 010000000000000D "Target" "236188"
+#showtooltip Hunter's Mark
+/tar torm
+END

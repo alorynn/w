@@ -1,0 +1,177 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Alauranna|Kel'Thuzad|Alliance|110|DRUID", -- [1]
+				"Alisheeya|Kel'Thuzad|Alliance|101|DEMONHUNTER", -- [2]
+				"Alorannah|Kel'Thuzad|Horde|1|ROGUE", -- [3]
+				"Alurannah|Kel'Thuzad|Horde|100|ROGUE", -- [4]
+				"Bazoomercom|Dark Iron|Alliance|1|WARRIOR", -- [5]
+				"Beatryce|Kel'Thuzad|Alliance|55|DEATHKNIGHT", -- [6]
+				"Beatryss|Kel'Thuzad|Alliance|10|WARLOCK", -- [7]
+				"Darknstormie|Kel'Thuzad|Alliance|50|SHAMAN", -- [8]
+				"Deeke|Kel'Thuzad|Alliance|60|DEATHKNIGHT", -- [9]
+				"Fsdkjhskdjfh|Kel'Thuzad|Alliance|100|WARLOCK", -- [10]
+				"Hauser|Mal'Ganis|Horde|1|WARLOCK", -- [11]
+				"Hauzerdemon|Kel'Thuzad|Alliance|98|DEMONHUNTER", -- [12]
+				"Hauzerhunter|Kel'Thuzad|Alliance|100|DEMONHUNTER", -- [13]
+				"Hauzerina|Kel'Thuzad|Alliance|1|MAGE", -- [14]
+				"Hauzerina|Moon Guard|Alliance|1|MAGE", -- [15]
+				"Hauzerogue|Kel'Thuzad|Horde|1|ROGUE", -- [16]
+				"Hauzerone|Dalaran|Alliance|7|PALADIN", -- [17]
+				"Hauzer|Kel'Thuzad|Alliance|110|MAGE", -- [18]
+				"Hoobastankie|Kel'Thuzad|Alliance|1|HUNTER", -- [19]
+				"Hoobastanko|Kel'Thuzad|Alliance|100|HUNTER", -- [20]
+				"Kmkarbashian|Kel'Thuzad|Alliance|110|PALADIN", -- [21]
+				"Laurannah|Kel'Thuzad|Alliance|110|HUNTER", -- [22]
+				"Laurannah|Kel'Thuzad|Horde|1|ROGUE", -- [23]
+				"Laurenn|Kel'Thuzad|Alliance|1|HUNTER", -- [24]
+				"Leeroyjenkem|Kel'Thuzad|Neutral|1|HUNTER", -- [25]
+				"Nigellah|Kel'Thuzad|Alliance|59|WARLOCK", -- [26]
+				"Olrapey|Kel'Thuzad|Alliance|1|SHAMAN", -- [27]
+				"Pharrah|Kel'Thuzad|Alliance|100|HUNTER", -- [28]
+				"Sdkfhsdkjfhs|Kel'Thuzad|Alliance|100|HUNTER", -- [29]
+				"Skãdi|Kel'Thuzad|Alliance|1|HUNTER", -- [30]
+				"Ugiyo|Kel'Thuzad|Alliance|100|HUNTER", -- [31]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Hoobastankie - Kel'Thuzad"] = "Hoobastankie - Kel'Thuzad",
+		["Hauzerogue - Kel'Thuzad"] = "Hauzerogue - Kel'Thuzad",
+		["Hauzerina - Moon Guard"] = "Hauzerina - Moon Guard",
+		["Leeroyjenkem - Kel'Thuzad"] = "Leeroyjenkem - Kel'Thuzad",
+		["Laurenn - Kel'Thuzad"] = "Laurenn - Kel'Thuzad",
+		["Hoobastanko - Kel'Thuzad"] = "Hoobastanko - Kel'Thuzad",
+		["Hauser - Mal'Ganis"] = "Hauser - Mal'Ganis",
+		["Ugiyo - Kel'Thuzad"] = "Ugiyo - Kel'Thuzad",
+		["Kmkarbashian - Kel'Thuzad"] = "Kmkarbashian - Kel'Thuzad",
+		["Pharrah - Kel'Thuzad"] = "Pharrah - Kel'Thuzad",
+		["Laurannah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
+		["Alisheeya - Kel'Thuzad"] = "Alisheeya - Kel'Thuzad",
+		["Sdkfhsdkjfhs - Kel'Thuzad"] = "Sdkfhsdkjfhs - Kel'Thuzad",
+		["Nigellah - Kel'Thuzad"] = "Nigellah - Kel'Thuzad",
+		["Bazoomercom - Dark Iron"] = "Bazoomercom - Dark Iron",
+		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
+		["Alurannah - Kel'Thuzad"] = "Alurannah - Kel'Thuzad",
+		["Beatryss - Kel'Thuzad"] = "Beatryss - Kel'Thuzad",
+		["Hauzerina - Kel'Thuzad"] = "Hauzerina - Kel'Thuzad",
+		["Darknstormie - Kel'Thuzad"] = "Darknstormie - Kel'Thuzad",
+		["Hauzerhunter - Kel'Thuzad"] = "Hauzerhunter - Kel'Thuzad",
+		["Olrapey - Kel'Thuzad"] = "Olrapey - Kel'Thuzad",
+		["Skãdi - Kel'Thuzad"] = "Skãdi - Kel'Thuzad",
+		["Fsdkjhskdjfh - Kel'Thuzad"] = "Fsdkjhskdjfh - Kel'Thuzad",
+		["Alauranna - Kel'Thuzad"] = "Alauranna - Kel'Thuzad",
+		["Beatryce - Kel'Thuzad"] = "Beatryce - Kel'Thuzad",
+		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
+		["Deeke - Kel'Thuzad"] = "Deeke - Kel'Thuzad",
+		["Hauzerdemon - Kel'Thuzad"] = "Hauzerdemon - Kel'Thuzad",
+		["Hauzerone - Dalaran"] = "Hauzerone - Dalaran",
+	},
+	["profiles"] = {
+		["Hoobastankie - Kel'Thuzad"] = {
+		},
+		["Hauzerogue - Kel'Thuzad"] = {
+		},
+		["Hauzerina - Moon Guard"] = {
+		},
+		["Leeroyjenkem - Kel'Thuzad"] = {
+		},
+		["Laurenn - Kel'Thuzad"] = {
+		},
+		["Hoobastanko - Kel'Thuzad"] = {
+		},
+		["Hauser - Mal'Ganis"] = {
+		},
+		["Ugiyo - Kel'Thuzad"] = {
+		},
+		["Kmkarbashian - Kel'Thuzad"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Laurannah|Kel'Thuzad|Alliance", -- [1]
+				},
+			},
+		},
+		["Pharrah - Kel'Thuzad"] = {
+		},
+		["Laurannah - Kel'Thuzad"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Alauranna|Kel'Thuzad|Alliance", -- [1]
+					"Kmkarbashian|Kel'Thuzad|Alliance", -- [2]
+					"Hauzerina|Kel'Thuzad|Alliance", -- [3]
+					"Darxor|Kel'Thuzad|Alliance", -- [4]
+					"Darknstormie|Kel'Thuzad|Alliance", -- [5]
+				},
+			},
+		},
+		["Alisheeya - Kel'Thuzad"] = {
+		},
+		["Sdkfhsdkjfhs - Kel'Thuzad"] = {
+		},
+		["Nigellah - Kel'Thuzad"] = {
+		},
+		["Bazoomercom - Dark Iron"] = {
+		},
+		["Alorannah - Kel'Thuzad"] = {
+		},
+		["Alurannah - Kel'Thuzad"] = {
+		},
+		["Beatryss - Kel'Thuzad"] = {
+		},
+		["Hauzerina - Kel'Thuzad"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Laurannah|Kel'Thuzad|Alliance", -- [1]
+					"Hauzer|Kel'Thuzad|Alliance", -- [2]
+				},
+			},
+		},
+		["Darknstormie - Kel'Thuzad"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Laurannah|Kel'Thuzad|Alliance", -- [1]
+				},
+			},
+		},
+		["Hauzerhunter - Kel'Thuzad"] = {
+		},
+		["Olrapey - Kel'Thuzad"] = {
+		},
+		["Skãdi - Kel'Thuzad"] = {
+		},
+		["Fsdkjhskdjfh - Kel'Thuzad"] = {
+		},
+		["Alauranna - Kel'Thuzad"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Laurannah|Kel'Thuzad|Alliance", -- [1]
+					"Hauzer|Kel'Thuzad|Alliance", -- [2]
+					"Wizengammot-Kel'Thuzad|Kel'Thuzad|Alliance", -- [3]
+				},
+			},
+		},
+		["Beatryce - Kel'Thuzad"] = {
+		},
+		["Hauzer - Kel'Thuzad"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Laurannah|Kel'Thuzad|Alliance", -- [1]
+					"Nigellah|Kel'Thuzad|Alliance", -- [2]
+					"Alauranna|Kel'Thuzad|Alliance", -- [3]
+					"Kmkarbashian|Kel'Thuzad|Alliance", -- [4]
+					"Cardnelfang|Kel'Thuzad|Alliance", -- [5]
+					"Oliviafaye|Kel'Thuzad|Alliance", -- [6]
+					"Hauzerina|Kel'Thuzad|Alliance", -- [7]
+				},
+			},
+		},
+		["Deeke - Kel'Thuzad"] = {
+		},
+		["Hauzerdemon - Kel'Thuzad"] = {
+		},
+		["Hauzerone - Dalaran"] = {
+		},
+	},
+}

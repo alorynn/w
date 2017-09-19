@@ -47,7 +47,7 @@ local function LoadSkin()
 			end
 		end)
 
-		hooksecurefunc("GarrisonMissionPage_SetReward", function(frame, reward)
+		hooksecurefunc("GarrisonMissionPage_SetReward", function(frame, reward, missionComplete)
 			frame.BG:SetTexture()
 			if not frame.backdrop then
 				S:HandleIcon(frame.Icon)
@@ -82,6 +82,16 @@ local function LoadSkin()
 	S:HandleCloseButton(GarrisonBuildingFrame.CloseButton, GarrisonBuildingFrame.backdrop)
 	GarrisonBuildingFrame.BuildingLevelTooltip:StripTextures()
 	GarrisonBuildingFrame.BuildingLevelTooltip:SetTemplate('Transparent')
+
+	-- Follower List
+	local FollowerList = GarrisonBuildingFrame.FollowerList
+	S:HandleScrollBar(FollowerList.listScroll.scrollBar)
+
+	FollowerList:ClearAllPoints()
+	FollowerList:SetPoint("BOTTOMLEFT", 24, 34)
+
+	local scrollFrame = FollowerList.listScroll
+	S:HandleScrollBar(scrollFrame.scrollBar)
 
 	-- Capacitive display frame
 	GarrisonCapacitiveDisplayFrame:StripTextures(true)

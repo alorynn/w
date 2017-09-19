@@ -184,8 +184,9 @@
 					return
 				end
 			end
+			
 			novo_objeto.classe = "UNKNOW"
-			return
+			return true
 		end
 	end
 
@@ -201,16 +202,27 @@
 					novo_objeto.displayName = _detalhes:GetNickname (serial, false, true) --> serial, default, silent
 				end
 				if (not novo_objeto.displayName) then
+					if (_detalhes.remove_realm_from_name) then
+						novo_objeto.displayName = nome:gsub (("%-.*"), "")
+					else
+						novo_objeto.displayName = nome
+					end				
+					--[=[
 				
 					if (_IsInInstance() and _detalhes.remove_realm_from_name) then
 						novo_objeto.displayName = nome:gsub (("%-.*"), "")
 						
 					elseif (_detalhes.remove_realm_from_name) then
-						novo_objeto.displayName = nome:gsub (("%-.*"), "%*")
+						novo_objeto.displayName = nome:gsub (("%-.*"), "%*") --nome = nil
 						
 					else
 						novo_objeto.displayName = nome
 					end
+					--]=]
+				end
+				
+				if (_detalhes.all_players_are_group or _detalhes.immersion_enabled) then
+					novo_objeto.grupo = true
 				end
 				
 				if ((_bit_band (flag, IS_GROUP_OBJECT) ~= 0 and novo_objeto.classe ~= "UNKNOW" and novo_objeto.classe ~= "UNGROUPPLAYER") or _detalhes:IsInCache (serial)) then
@@ -302,6 +314,13 @@
 				
 			else
 				novo_objeto.displayName = nome
+				
+				--Chromie - From 'The Deaths of Chromie'
+				if (serial and type (serial) == "string") then
+					if (serial:match ("^Creature%-0%-%d+%-%d+%-%d+%-122663%-%w+$")) then
+						novo_objeto.grupo = true
+					end
+				end
 			end
 			
 			--> � inimigo
@@ -479,7 +498,8 @@
 
 			if (self.tipo == container_damage) then --> CONTAINER DAMAGE
 
-				get_actor_class (novo_objeto, nome, flag, serial)
+				local shouldScanOnce = get_actor_class (novo_objeto, nome, flag, serial)
+				
 				read_actor_flag (novo_objeto, dono_do_pet, serial, flag, nome, "damage")
 				
 				if (dono_do_pet) then
@@ -501,6 +521,10 @@
 					if (self.shadow) then --> n�o executar 2x
 						_detalhes:ScheduleTimer ("GuessClass", 1, {novo_objeto, self, 1})
 					end
+					
+				elseif (shouldScanOnce) then
+					
+					
 				end
 				
 				if (novo_objeto.isTank) then
@@ -509,7 +533,7 @@
 				
 			elseif (self.tipo == container_heal) then --> CONTAINER HEALING
 				
-				get_actor_class (novo_objeto, nome, flag, serial)
+				local shouldScanOnce = get_actor_class (novo_objeto, nome, flag, serial)
 				read_actor_flag (novo_objeto, dono_do_pet, serial, flag, nome, "heal")
 				
 				if (dono_do_pet) then
@@ -536,7 +560,7 @@
 				
 			elseif (self.tipo == container_energy) then --> CONTAINER ENERGY
 				
-				get_actor_class (novo_objeto, nome, flag, serial)
+				local shouldScanOnce = get_actor_class (novo_objeto, nome, flag, serial)
 				read_actor_flag (novo_objeto, dono_do_pet, serial, flag, nome, "energy")
 				
 				if (dono_do_pet) then
@@ -556,7 +580,7 @@
 				
 			elseif (self.tipo == container_misc) then --> CONTAINER MISC
 				
-				get_actor_class (novo_objeto, nome, flag, serial)
+				local shouldScanOnce = get_actor_class (novo_objeto, nome, flag, serial)
 				read_actor_flag (novo_objeto, dono_do_pet, serial, flag, nome, "misc")
 				
 				--local teste_classe = 
@@ -596,7 +620,7 @@
 				
 			elseif (self.tipo == container_friendlyfire) then --> CONTAINER FRIENDLY FIRE
 				
-				get_actor_class (novo_objeto, nome, serial)
+				local shouldScanOnce = get_actor_class (novo_objeto, nome, serial)
 
 			end
 		

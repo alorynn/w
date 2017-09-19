@@ -8,7 +8,7 @@ local _G = _G
 local tonumber, pairs, ipairs, error, unpack, select, tostring = tonumber, pairs, ipairs, error, unpack, select, tostring
 local assert, print, type, collectgarbage, pcall, date = assert, print, type, collectgarbage, pcall, date
 local twipe, tinsert, tremove = table.wipe, tinsert, tremove
-local floor = floor
+local floor, gsub, match = floor, string.gsub, string.match
 local format, find, strrep, len, sub = string.format, string.find, strrep, string.len, string.sub
 --WoW API / Variables
 local CreateFrame = CreateFrame
@@ -32,22 +32,23 @@ local UnitGroupRolesAssigned = UnitGroupRolesAssigned
 local UnitHasVehicleUI = UnitHasVehicleUI
 local UnitLevel, UnitStat, UnitAttackPower = UnitLevel, UnitStat, UnitAttackPower
 local COMBAT_RATING_RESILIENCE_PLAYER_DAMAGE_TAKEN = COMBAT_RATING_RESILIENCE_PLAYER_DAMAGE_TAKEN
-local CUSTOM_CLASS_COLORS = CUSTOM_CLASS_COLORS
 local ERR_NOT_IN_COMBAT = ERR_NOT_IN_COMBAT
 local LE_PARTY_CATEGORY_HOME = LE_PARTY_CATEGORY_HOME
 local LE_PARTY_CATEGORY_INSTANCE = LE_PARTY_CATEGORY_INSTANCE
 local RAID_CLASS_COLORS = RAID_CLASS_COLORS
 
 --Global variables that we don't cache, list them here for the mikk's Find Globals script
--- GLOBALS: LibStub, UIParent, MAX_PLAYER_LEVEL, ScriptErrorsFrame_OnError
+-- GLOBALS: LibStub, UIParent, MAX_PLAYER_LEVEL, ScriptErrorsFrame
 -- GLOBALS: ElvUIPlayerBuffs, ElvUIPlayerDebuffs, LeftChatPanel, RightChatPanel
 -- GLOBALS: ElvUI_StaticPopup1, ElvUI_StaticPopup1Button1, OrderHallCommandBar
 -- GLOBALS: ElvUI_StanceBar, ObjectiveTrackerFrame, GameTooltip, Minimap
 -- GLOBALS: ElvUIParent, ElvUI_TopPanel, hooksecurefunc, InterfaceOptionsCameraPanelMaxDistanceSlider
+-- GLOBALS: CUSTOM_CLASS_COLORS
 
 
 --Constants
 E.myclass = select(2, UnitClass("player"));
+E.myClassID = select(3, UnitClass("player"));
 E.myspec = GetSpecialization()
 E.myrace = select(2, UnitRace("player"))
 E.myfaction = select(2, UnitFactionGroup('player'))
@@ -71,6 +72,8 @@ E["texts"] = {};
 E['snapBars'] = {}
 E["RegisteredModules"] = {}
 E['RegisteredInitialModules'] = {}
+E["ModuleCallbacks"] = {["CallPriority"] = {}}
+E["InitialModuleCallbacks"] = {["CallPriority"] = {}}
 E['valueColorUpdateFuncs'] = {};
 E.TexCoords = {.08, .92, .08, .92}
 E.FrameLocks = {}
@@ -168,10 +171,17 @@ E.ClassRole = {
 	},
 }
 
+E.DEFAULT_FILTER = {}
+for filter, tbl in pairs(G.unitframe.aurafilters) do
+	E.DEFAULT_FILTER[filter] = tbl.type
+end
+
 E.noop = function() end;
 
+local hexvaluecolor
 function E:Print(...)
-	print(self["media"].hexvaluecolor..'ElvUI:|r', ...)
+	hexvaluecolor = self["media"].hexvaluecolor or "|cff00b3ff"
+	print(hexvaluecolor..'ElvUI:|r', ...)
 end
 
 --Workaround for people wanting to use white and it reverting to their class color.
@@ -247,7 +257,7 @@ function E:UpdateMedia()
 	end
 
 	self["media"].bordercolor = {border.r, border.g, border.b}
-	
+
 	--UnitFrame Border Color
 	border = E.db['unitframe'].colors.borderColor
 	if self:CheckClassColor(border.r, border.g, border.b) then
@@ -430,6 +440,11 @@ function E:PLAYER_ENTERING_WORLD()
 		self:CancelTimer(self.BGTimer)
 		self.BGTimer = nil;
 	end
+	
+	if tonumber(E.version) >= 10.60 and not E.global.userInformedNewChanges1 then
+		E:StaticPopup_Show("ELVUI_INFORM_NEW_CHANGES")
+		E.global.userInformedNewChanges1 = true
+	end
 end
 
 function E:ValueFuncCall()
@@ -446,7 +461,7 @@ function E:UpdateFrameTemplates()
 			self["frames"][frame] = nil;
 		end
 	end
-	
+
 	for frame in pairs(self["unitFrameElements"]) do
 		if frame and frame.template and not frame.ignoreUpdates then
 			frame:SetTemplate(frame.template, frame.glossTex);
@@ -466,7 +481,7 @@ function E:UpdateBorderColors()
 			self["frames"][frame] = nil;
 		end
 	end
-	
+
 	for frame, _ in pairs(self["unitFrameElements"]) do
 		if frame and not frame.ignoreUpdates then
 			if frame.template == 'Default' or frame.template == 'Transparent' or frame.template == nil then
@@ -494,7 +509,7 @@ function E:UpdateBackdropColors()
 			self["frames"][frame] = nil;
 		end
 	end
-	
+
 	for frame, _ in pairs(self["unitFrameElements"]) do
 		if frame then
 			if frame.template == 'Default' or frame.template == nil then
@@ -569,16 +584,6 @@ function E:IsDispellableByMe(debuffType)
 
 	if self.DispelClasses[self.myclass][debuffType] then
 		return true;
-	end
-end
-
-local SymbiosisName = GetSpellInfo(110309)
-local CleanseName = GetSpellInfo(4987)
-function E:SPELLS_CHANGED()
-	if GetSpellInfo(SymbiosisName) == CleanseName then
-		self.DispelClasses["DRUID"].Disease = true
-	else
-		self.DispelClasses["DRUID"].Disease = false
 	end
 end
 
@@ -792,9 +797,8 @@ local profileFormat = {
 	["profile"] = "E.db",
 	["private"] = "E.private",
 	["global"] = "E.global",
-	["filtersNP"] = "E.global",
-	["filtersUF"] = "E.global",
-	["filtersAll"] = "E.global",
+	["filters"] = "E.global",
+	["styleFilters"] = "E.global",
 }
 
 local lineStructureTable = {}
@@ -912,11 +916,9 @@ function E:SendMessage()
 	end
 end
 
-local myName = E.myname.."-"..E.myrealm;
-myName = myName:gsub("%s+", "")
-
+local myRealm = gsub(E.myrealm,'[%s%-]','')
+local myName = E.myname..'-'..myRealm
 local function SendRecieve(_, event, prefix, message, _, sender)
-
 	if event == "CHAT_MSG_ADDON" then
 		if(sender == myName) then return end
 
@@ -1217,25 +1219,67 @@ function E:ResetUI(...)
 	self:ResetMovers(...)
 end
 
-function E:RegisterModule(name)
-	if self.initialized then
-		self:GetModule(name):Initialize()
+function E:RegisterModule(name, loadFunc)
+	if (loadFunc and type(loadFunc) == "function") then --New method using callbacks
+		if self.initialized then
+			loadFunc()
+		else
+			if self.ModuleCallbacks[name] then
+				--Don't allow a registered module name to be overwritten
+				E:Print("Invalid argument #1 to E:RegisterModule (module name:", name, "is already registered, please use a unique name)")
+				return
+			end
+
+			--Add module name to registry
+			self.ModuleCallbacks[name] = true
+			self.ModuleCallbacks["CallPriority"][#self.ModuleCallbacks["CallPriority"] + 1] = name
+
+			--Register loadFunc to be called when event is fired
+			E:RegisterCallback(name, loadFunc, E:GetModule(name))
+		end
 	else
-		self['RegisteredModules'][#self['RegisteredModules'] + 1] = name
+		if self.initialized then
+			self:GetModule(name):Initialize()
+		else
+			self['RegisteredModules'][#self['RegisteredModules'] + 1] = name
+		end
 	end
 end
 
-function E:RegisterInitialModule(name)
-	self['RegisteredInitialModules'][#self['RegisteredInitialModules'] + 1] = name
+function E:RegisterInitialModule(name, loadFunc)
+	if (loadFunc and type(loadFunc) == "function") then --New method using callbacks
+		if self.InitialModuleCallbacks[name] then
+			--Don't allow a registered module name to be overwritten
+			E:Print("Invalid argument #1 to E:RegisterInitialModule (module name:", name, "is already registered, please use a unique name)")
+			return
+		end
+
+		--Add module name to registry
+		self.InitialModuleCallbacks[name] = true
+		self.InitialModuleCallbacks["CallPriority"][#self.InitialModuleCallbacks["CallPriority"] + 1] = name
+
+		--Register loadFunc to be called when event is fired
+		E:RegisterCallback(name, loadFunc, E:GetModule(name))
+	else
+		self['RegisteredInitialModules'][#self['RegisteredInitialModules'] + 1] = name
+	end
 end
 
 function E:InitializeInitialModules()
+	--Fire callbacks for any module using the new system
+	for index, moduleName in ipairs(self.InitialModuleCallbacks["CallPriority"]) do
+		self.InitialModuleCallbacks[moduleName] = nil;
+		self.InitialModuleCallbacks["CallPriority"][index] = nil
+		E.callbacks:Fire(moduleName)
+	end
+
+	--Old deprecated initialize method, we keep it for any plugins that may need it
 	for _, module in pairs(E['RegisteredInitialModules']) do
 		local module = self:GetModule(module, true)
 		if module and module.Initialize then
 			local _, catch = pcall(module.Initialize, module)
 			if catch and GetCVarBool('scriptErrors') == true then
-				ScriptErrorsFrame_OnError(catch, false)
+				ScriptErrorsFrame:OnError(catch, false, false)
 			end
 		end
 	end
@@ -1248,65 +1292,101 @@ function E:RefreshModulesDB()
 end
 
 function E:InitializeModules()
+	--Fire callbacks for any module using the new system
+	for index, moduleName in ipairs(self.ModuleCallbacks["CallPriority"]) do
+		self.ModuleCallbacks[moduleName] = nil;
+		self.ModuleCallbacks["CallPriority"][index] = nil
+		E.callbacks:Fire(moduleName)
+	end
+
+	--Old deprecated initialize method, we keep it for any plugins that may need it
 	for _, module in pairs(E['RegisteredModules']) do
 		local module = self:GetModule(module)
 		if module.Initialize then
 			local _, catch = pcall(module.Initialize, module)
 
 			if catch and GetCVarBool('scriptErrors') == true then
-				ScriptErrorsFrame_OnError(catch, false)
+				ScriptErrorsFrame:OnError(catch, false, false)
 			end
 		end
 	end
 end
 
 --DATABASE CONVERSIONS
+local function auraFilterStrip(name, content, value)
+	if match(name, value) then
+		E.global.unitframe.aurafilters[gsub(name, value, '')] = E:CopyTable({}, content)
+		E.global.unitframe.aurafilters[name] = nil
+	end
+end
 function E:DBConversions()
-	--Convert actionbar button spacing to backdrop spacing, so users don't get any unwanted changes
-	if not E.db.actionbar.backdropSpacingConverted then
-		for i = 1, 10 do
-			if E.db.actionbar["bar"..i] then
-				E.db.actionbar["bar"..i].backdropSpacing = E.db.actionbar["bar"..i].buttonspacing
+	--Make sure default filters use the correct filter type
+	for filter, filterType in pairs(E.DEFAULT_FILTER) do
+		E.global.unitframe.aurafilters[filter].type = filterType
+	end
+
+	--Remove commas from aura filters
+	for name, content in pairs(E.global.unitframe.aurafilters) do
+		auraFilterStrip(name, content, ',')
+		auraFilterStrip(name, content, '^Friendly:')
+		auraFilterStrip(name, content, '^Enemy:')
+	end
+
+	--Add missing nameplates table to Minimalistic profile
+	if ElvDB.profiles["Minimalistic"] and not ElvDB.profiles["Minimalistic"].nameplates then
+		ElvDB.profiles["Minimalistic"].nameplates = {
+			["filters"] = {},
+		}
+	end
+
+	--Prevent error for testers, remove this a week after release
+	for filter, content in pairs(E.global.nameplate.filters) do
+		if not E.db.nameplates.filters[filter] then --switch to profile based style filter enabling
+			E.global.nameplate.filters[filter].triggers.enable = nil --remove trigger enable from global filter
+			if P.nameplates.filters[filter] then --if its a default filter just copy the settings
+				E.db.nameplates.filters[filter] = E:CopyTable({}, P.nameplates.filters[filter])
+			else --otherwise just use a default table and set enable to false
+				E.db.nameplates.filters[filter] = {}
+				E.db.nameplates.filters[filter].triggers = {
+					["enable"] = false,
+				}
 			end
 		end
-		E.db.actionbar.barPet.backdropSpacing = E.db.actionbar.barPet.buttonspacing
-		E.db.actionbar.stanceBar.backdropSpacing = E.db.actionbar.stanceBar.buttonspacing
+		if not content.triggers.role then
+			E.global.nameplate.filters[filter].triggers.role = {
+				["tank"] = false,
+				["healer"] = false,
+				["damager"] = false,
+			}
+		end
+		if not content.triggers.class then --this can stay empty we only will accept values that exist
+			E.global.nameplate.filters[filter].triggers.class = {}
+		end
 
-		E.db.actionbar.backdropSpacingConverted = true
-	end
-
-	--Convert E.db.actionbar.showGrid to E.db.actionbar["barX"].showGrid
-	if E.db.actionbar.showGrid ~= nil then
-		local gridEnabled = E.db.actionbar.showGrid
-		for i = 1, 10 do
-			if E.db.actionbar["bar"..i] then
-				E.db.actionbar["bar"..i].showGrid = gridEnabled
+		--older ones below here
+		if filter == "TestFilter" then
+			E.global.nameplate.filters[filter] = nil --Remove it
+		else
+			if not content.triggers.casting then
+				E.global.nameplate.filters[filter].triggers.casting = {
+					["interruptible"] = false,
+					["spells"] = {},
+				}
+			end
+			if content.triggers.healthThreshold == nil then
+				E.global.nameplate.filters[filter].triggers.healthThreshold = false
+				E.global.nameplate.filters[filter].triggers.underHealthThreshold = 0
+				E.global.nameplate.filters[filter].triggers.overHealthThreshold = 0
+			end
+			if not content.actions.color.nameColor then
+				E.global.nameplate.filters[filter].actions.color.name = false
+				E.global.nameplate.filters[filter].actions.color.nameColor = {r=1,g=1,b=1,a=1}
+			end
+			if content.actions.color.color then
+				E.global.nameplate.filters[filter].actions.color.healthColor = E.global.nameplate.filters[filter].actions.color.color
+				E.global.nameplate.filters[filter].actions.color.color = nil
 			end
 		end
-		E.db.actionbar.showGrid = nil
-	end
-
-	--Convert old WorldMapCoordinates from boolean to new table format
-	if type(E.global.general.WorldMapCoordinates) == "boolean" then
-		local enabledState = E.global.general.WorldMapCoordinates
-
-		--Remove boolean value
-		E.global.general.WorldMapCoordinates = nil
-
-		--Add old enabled state
-		E.global.general.WorldMapCoordinates.enable = enabledState
-	end
-
-	--Remove old nameplate settings, no need for them to take up space
-	if E.db.nameplate then
-		E.db.nameplate = nil
-	end
-	
-	if not E.db.thinBorderColorSet then
-		if E.PixelMode then
-			E.db.general.bordercolor = {r = 0, g = 0, b = 0}
-		end
-		E.db.thinBorderColorSet = true
 	end
 end
 
@@ -1464,9 +1544,6 @@ function E:Initialize()
 	self:RegisterEvent("UNIT_ENTERED_VEHICLE", "EnterVehicleHideFrames")
 	self:RegisterEvent("UNIT_EXITED_VEHICLE", "ExitVehicleShowFrames")
 	self:RegisterEvent("PLAYER_REGEN_ENABLED")
-	if self.myclass == "DRUID" then
-		self:RegisterEvent("SPELLS_CHANGED")
-	end
 
 	if self.db.general.kittys then
 		self:CreateKittys()

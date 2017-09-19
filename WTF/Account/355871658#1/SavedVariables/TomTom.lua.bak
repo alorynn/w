@@ -1,0 +1,20 @@
+
+TomTomDB = {
+	["profileKeys"] = {
+		["Wavymaieve - Dalaran"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+TomTomWaypoints = nil
+TomTomWaypointsMF = {
+	["profileKeys"] = {
+		["Wavymaieve - Dalaran"] = "Wavymaieve - Dalaran",
+	},
+	["profiles"] = {
+		["Wavymaieve - Dalaran"] = {
+		},
+	},
+}

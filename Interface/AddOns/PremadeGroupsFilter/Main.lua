@@ -60,8 +60,30 @@ function PGF.GetExpressionFromAdvancedExpression(model)
     return ""
 end
 
+function PGF.GetModel()
+    local tab = PVEFrame.activeTabIndex
+    local category = LFGListFrame.SearchPanel.categoryID or LFGListFrame.CategorySelection.selectedCategory
+    local filters = LFGListFrame.SearchPanel.filters or LFGListFrame.CategorySelection.selectedFilters or 0
+    if not tab then return nil end
+    if not category then return nil end
+    if filters < 0 then filters = "n" .. filters end
+    local modelKey = "t" .. tab .. "c" .. category .. "f" .. filters
+    if PremadeGroupsFilterState[modelKey] == nil then
+        local defaultState = {}
+        -- if we have an old v1.10 state, take it instead of the default one
+        local oldGlobalState = PremadeGroupsFilterState["v110"]
+        if oldGlobalState ~= nil then
+            defaultState = PGF.Table_Copy_Rec(oldGlobalState)
+        end
+        PGF.Table_UpdateWithDefaults(defaultState, C.MODEL_DEFAULT)
+        PremadeGroupsFilterState[modelKey] = defaultState
+    end
+    return PremadeGroupsFilterState[modelKey]
+end
+
 function PGF.GetExpressionFromModel()
-    local model = PremadeGroupsFilterState
+    local model = PGF.GetModel()
+    if not model then return "true" end
     local exp = "true" -- start with neutral element
     exp = exp .. PGF.GetExpressionFromDifficultyModel(model)
     exp = exp .. PGF.GetExpressionFromIlvlModel(model)
@@ -101,7 +123,8 @@ function PGF.DoFilterSearchResults(results)
     PGF.ResetSearchEntries()
     local exp = PGF.GetExpressionFromModel()
     PGF.currentSearchExpression = exp
-    if not PremadeGroupsFilterState.enabled then return false end
+    local model = PGF.GetModel()
+    if not model or not model.enabled then return false end
     if not results or #results == 0 then return false end
     if exp == "true" then return false end -- skip trivial expression
 
@@ -111,9 +134,10 @@ function PGF.DoFilterSearchResults(results)
         local _, activity, name, comment, voiceChat, iLvl, honorLevel, age,
               numBNetFriends, numCharFriends, numGuildMates, _, leaderName,
               numMembers = C_LFGList.GetSearchResultInfo(resultID)
-        local completedEncounters = C_LFGList.GetSearchResultEncounterInfo(resultID)
+        local defeatedBossNames = C_LFGList.GetSearchResultEncounterInfo(resultID)
         local memberCounts = C_LFGList.GetSearchResultMemberCounts(resultID)
-        local partialLockout, fullLockout = PGF.HasDungeonOrRaidLockout(activity)
+        local numGroupDefeated, numPlayerDefeated, maxBosses,
+              matching, groupAhead, groupBehind = PGF.GetLockoutInfo(activity, resultID)
         local avName, avShortName, avCategoryID, avGroupID, avILevel, avFilters,
               avMinLevel, avMaxPlayers, avDisplayType, avOrderIndex,
               avUseHonorLevel, avShowQuickJoin = C_LFGList.GetActivityInfo(activity)
@@ -136,15 +160,19 @@ function PGF.DoFilterSearchResults(results)
         env.heals = memberCounts.HEALER
         env.healers = memberCounts.HEALER
         env.dps = memberCounts.DAMAGER + memberCounts.NOROLE
-        env.defeated = completedEncounters and #completedEncounters or 0
+        env.defeated = numGroupDefeated
         env.normal     = difficulty == C.NORMAL
         env.heroic     = difficulty == C.HEROIC
         env.mythic     = difficulty == C.MYTHIC
         env.mythicplus = difficulty == C.MYTHICPLUS
-        env.myrealm = leaderName and not leaderName:find('-')
-        env.partialid = partialLockout
-        env.fullid = fullLockout
-        env.noid = not fullLockout and not partialLockout
+        env.myrealm = leaderName and leaderName ~= "" and not leaderName:find('-')
+        env.partialid = numPlayerDefeated > 0
+        env.fullid = numPlayerDefeated > 0 and numPlayerDefeated == maxBosses
+        env.noid = not env.partialid and not env.fullid
+        env.matchingid = groupAhead == 0 and groupBehind == 0
+        env.bossesmatching = matching
+        env.bossesahead = groupAhead
+        env.bossesbehind = groupBehind
         env.maxplayers = avMaxPlayers
         env.suggestedilvl = avILevel
         env.minlvl = avMinLevel
@@ -163,17 +191,18 @@ function PGF.DoFilterSearchResults(results)
             end
         end
 
-        env.arena2v2 = activity == 6
-        env.arena3v3 = activity == 7
+        env.arena2v2 = activity == 6 or activity == 491
+        env.arena3v3 = activity == 7 or activity == 490
 
         -- raids            normal             heroic             mythic
         env.hm   = activity ==  37 or activity ==  38 or activity == 399  -- Highmaul
         env.brf  = activity ==  39 or activity ==  40 or activity == 400  -- Blackrock Foundry
         env.hfc  = activity == 409 or activity == 410 or activity == 412  -- Hellfire Citadel
         env.en   = activity == 413 or activity == 414 or activity == 468  -- The Emerald Nightmare
-        env.nh   = activity == 415 or activity == 416                     -- The Nighthold
+        env.nh   = activity == 415 or activity == 416 or activity == 481  -- The Nighthold
         env.tov  = activity == 456 or activity == 457                     -- Trial of Valor
         env.tos  = activity == 479 or activity == 478                     -- Tomb of Sargeras
+        env.atbt = activity == 482 or activity == 483                     -- Antorus, the Burning Throne
 
         -- dungeons         normal             heroic             mythic            mythic+
         env.eoa  = activity == 425 or activity == 435 or activity == 445 or activity == 459  -- Eye of Azshara
@@ -192,6 +221,7 @@ function PGF.DoFilterSearchResults(results)
         env.lkara =                   activity == 470                    or activity == 471  -- Lower Karazahn
         env.ukara =                   activity == 472                    or activity == 473  -- Upper Karazhan
         env.coen =                    activity == 474 or activity == 475 or activity == 476  -- Cathedral of Eternal Night
+        env.sott =                    activity == 484 or activity == 485 or activity == 486  -- Seat of the Triumvirate
 
         local numbers = PGF.String_ExtractNumbers(name .. " " .. comment)
         env.findnumber = function (min, max)
@@ -213,24 +243,15 @@ function PGF.DoFilterSearchResults(results)
     end
     -- sort by age
     table.sort(results, PGF.SortByFriendsAndAge)
+    LFGListFrame.SearchPanel.totalResults = #results
     return true
 end
 
-function PGF.LFGListOnSearchResultsReceived()
-    local totalResults, results = C_LFGList.GetSearchResults()
-    if PGF.DoFilterSearchResults(results) then
-        LFGListFrame.SearchPanel.results = results
-        LFGListFrame.SearchPanel.totalResults = #results
-        LFGListFrame.SearchPanel.applications = C_LFGList.GetApplications()
-        LFGListSearchPanel_UpdateResults(LFGListFrame.SearchPanel)
-    end
-end
-
 function PGF.OnLFGListSearchEntryUpdate(self)
-    local _, activity, _, _, _, _, _, _, _, _, _, isDelisted, leaderName = C_LFGList.GetSearchResultInfo(self.resultID)
+    local resultID, activity, _, _, _, _, _, _, _, _, _, isDelisted, leaderName = C_LFGList.GetSearchResultInfo(self.resultID)
     -- try once again to update the leaderName (this information is not immediately available)
     if leaderName then PGF.currentSearchLeaders[leaderName] = true end
-    --self.ActivityName:SetText("[" .. activity .. "] " .. self.ActivityName:GetText())
+    --self.ActivityName:SetText("[" .. activity .. "/" .. resultID .. "] " .. self.ActivityName:GetText()) -- DEBUG
     if not isDelisted then
         -- color name if new
         if PGF.currentSearchExpression ~= "true"                        -- not trivial search
@@ -240,13 +261,16 @@ function PGF.OnLFGListSearchEntryUpdate(self)
             self.Name:SetTextColor(color.R, color.G, color.B);
         end
         -- color activity if lockout
-        local partialLockout, fullLockout = PGF.HasDungeonOrRaidLockout(activity)
-        if fullLockout then
-            local color = C.COLOR_LOCKOUT_FULL
-            self.ActivityName:SetTextColor(color.R, color.G, color.B);
-        elseif partialLockout then
-            local color = C.COLOR_LOCKOUT_PARTIAL
-            self.ActivityName:SetTextColor(color.R, color.G, color.B);
+        local numGroupDefeated, numPlayerDefeated, maxBosses,
+              matching, groupAhead, groupBehind = PGF.GetLockoutInfo(activity, resultID)
+        local color
+        if numPlayerDefeated > 0 and numPlayerDefeated == maxBosses then
+            color = C.COLOR_LOCKOUT_FULL
+        elseif numPlayerDefeated > 0 and groupAhead == 0 and groupBehind == 0 then
+            color = C.COLOR_LOCKOUT_MATCH
+        end
+        if color then
+            self.ActivityName:SetTextColor(color.R, color.G, color.B)
         end
     end
 end
@@ -287,6 +311,6 @@ function PGF.OnLFGListSearchEntryOnEnter(self)
     GameTooltip:Show()
 end
 
-LFGListFrame.SearchPanel:HookScript("OnShow", function () PGF.LFGListOnSearchResultsReceived() end)
 hooksecurefunc("LFGListSearchEntry_Update", PGF.OnLFGListSearchEntryUpdate)
 hooksecurefunc("LFGListSearchEntry_OnEnter", PGF.OnLFGListSearchEntryOnEnter)
+hooksecurefunc("LFGListUtil_SortSearchResults", PGF.DoFilterSearchResults)

@@ -79,8 +79,15 @@ local UnitFullName = UnitFullName
 local UnitGroupRolesAssigned = UnitGroupRolesAssigned
 local UnitName, UnitGUID = UnitName, UnitGUID
 local UnitRealmRelationship = UnitRealmRelationship
-local NUM_CHAT_WINDOWS = NUM_CHAT_WINDOWS
 local LE_REALM_RELATION_SAME = LE_REALM_RELATION_SAME
+local NUM_CHAT_WINDOWS = NUM_CHAT_WINDOWS
+local RAID_CLASS_COLORS = RAID_CLASS_COLORS
+local TELL_MESSAGE
+if SOUNDKIT then
+	TELL_MESSAGE = SOUNDKIT.TELL_MESSAGE
+end
+local PlaySoundKitID = PlaySoundKitID
+
 --Variables that are only used in ChatFrame_MessageEventHandler
 --Store them in a table as we would otherwise hit the "max 60 upvalues" limit
 local GlobalStrings = {
@@ -119,6 +126,7 @@ local GlobalStrings = {
 -- GLOBALS: WIM, ChatTypeGroup, GeneralDockManagerOverflowButtonList, GeneralDockManagerScrollFrame
 -- GLOBALS: CombatLogQuickButtonFrame_CustomAdditionalFilterButton, UISpecialFrames, ChatFontNormal
 -- GLOBALS: ChatFrame_AddMessageEventFilter, ChatFrame_GetMessageEventFilters
+-- GLOBALS: CUSTOM_CLASS_COLORS
 
 local CreatedFrames = 0;
 local lines = {};
@@ -128,9 +136,6 @@ local chatFilters = {};
 
 local PLAYER_REALM = gsub(E.myrealm,'[%s%-]','')
 local PLAYER_NAME = E.myname.."-"..PLAYER_REALM
-
-local RAID_CLASS_COLORS = RAID_CLASS_COLORS
-local CUSTOM_CLASS_COLORS = CUSTOM_CLASS_COLORS
 
 local DEFAULT_STRINGS = {
 	GUILD = L["G"],
@@ -434,18 +439,20 @@ function CH:StyleChat(frame)
 			self.historyIndex = self.historyIndex - 1
 
 			if self.historyIndex < 1 then
-				self.historyIndex = #self.historyLines
+				self.historyIndex = 0
+				self:SetText("")
+				return
 			end
 		elseif key == "UP" then
 			self.historyIndex = self.historyIndex + 1
 
 			if self.historyIndex > #self.historyLines then
-				self.historyIndex = 1
+				self.historyIndex = #self.historyLines
 			end
 		else
 			return
 		end
-		self:SetText(self.historyLines[self.historyIndex])
+		self:SetText(self.historyLines[#self.historyLines - (self.historyIndex - 1)])
 	end
 
 	local a, b, c = select(6, editbox:GetRegions()); a:Kill(); b:Kill(); c:Kill()
@@ -454,8 +461,6 @@ function CH:StyleChat(frame)
 	_G[format(editbox:GetName().."Right", id)]:Kill()
 	editbox:SetTemplate('Default', true)
 	editbox:SetAltArrowKeyMode(CH.db.useAltKey)
-	editbox:HookScript("OnEditFocusGained", function(self) self:Show(); if not LeftChatPanel:IsShown() then LeftChatPanel.editboxforced = true; LeftChatToggleButton:GetScript('OnEnter')(LeftChatToggleButton) end end)
-	editbox:HookScript("OnEditFocusLost", function(self) if LeftChatPanel.editboxforced then LeftChatPanel.editboxforced = nil; if LeftChatPanel:IsShown() then LeftChatToggleButton:GetScript('OnLeave')(LeftChatToggleButton) end end self:Hide() end)
 	editbox:SetAllPoints(LeftChatDataPanel)
 	self:SecureHook(editbox, "AddHistoryLine", "ChatEdit_AddHistory")
 	editbox:HookScript("OnTextChanged", OnTextChanged)
@@ -465,6 +470,9 @@ function CH:StyleChat(frame)
 	editbox.historyIndex = 0
 	editbox:HookScript("OnArrowPressed", OnArrowPressed)
 	editbox:Hide()
+
+	editbox:HookScript("OnEditFocusGained", function(self) self:Show(); if not LeftChatPanel:IsShown() then LeftChatPanel.editboxforced = true; LeftChatToggleButton:GetScript('OnEnter')(LeftChatToggleButton) end end)
+	editbox:HookScript("OnEditFocusLost", function(self) if LeftChatPanel.editboxforced then LeftChatPanel.editboxforced = nil; if LeftChatPanel:IsShown() then LeftChatToggleButton:GetScript('OnLeave')(LeftChatToggleButton) end end self.historyIndex = 0; self:Hide()  end)
 
 	for i, text in pairs(ElvCharacterDB.ChatEditHistory) do
 		editbox:AddHistoryLine(text)
@@ -1083,7 +1091,8 @@ function CH:ChatFrame_MessageEventHandler(event, ...)
 		realm = (realm and realm ~= '') and gsub(realm,"[%s%-]","")
 		if name and name ~= '' then
 			CH.ClassNames[name:lower()] = englishClass
-			CH.ClassNames[(realm and name.."-"..realm) or name.."-"..PLAYER_REALM] = englishClass
+			local className = (realm and name.."-"..realm) or name.."-"..PLAYER_REALM
+			CH.ClassNames[className:lower()] = englishClass
 		end
 
 		local channelLength = strlen(arg4);
@@ -1457,7 +1466,7 @@ function CH:ChatFrame_MessageEventHandler(event, ...)
 			--BN_WHISPER FIXME
 			ChatEdit_SetLastTellTarget(arg2, type);
 			if ( self.tellTimer and (GetTime() > self.tellTimer) ) then
-				PlaySound("TellMessage");
+				PlaySound(PlaySoundKitID and "TellMessage" or TELL_MESSAGE);
 			end
 			self.tellTimer = GetTime() + GlobalStrings.CHAT_TELL_ALERT_TIME;
 			--FCF_FlashTab(self);
@@ -1648,12 +1657,11 @@ function CH:CheckKeyword(message)
 
 	local classColorTable, tempWord, rebuiltString, lowerCaseWord, wordMatch, classMatch
 	local isFirstWord = true
-	for word in message:gmatch("[^%s]+") do
-		lowerCaseWord = word:lower()
-		lowerCaseWord = lowerCaseWord:gsub("%p", "")
+	for word in message:gmatch("%s-[^%s]+%s*") do
+		tempWord = word:gsub("[%s%p]", "")
+		lowerCaseWord = tempWord:lower()
 		for keyword, _ in pairs(CH.Keywords) do
 			if lowerCaseWord == keyword:lower() then
-				local tempWord = word:gsub("%p", "")
 				word = word:gsub(tempWord, format("%s%s|r", E.media.hexvaluecolor, tempWord))
 				if self.db.keywordSound ~= 'None' and not self.SoundPlayed  then
 					if (self.db.noAlertInCombat and not InCombatLockdown()) or not self.db.noAlertInCombat then
@@ -1666,11 +1674,11 @@ function CH:CheckKeyword(message)
 		end
 
 		if self.db.classColorMentionsChat then
-			tempWord = word:gsub("^%p-([^%p]+)([%-]?[^%p]-)%p-$","%1%2")
+			tempWord = word:gsub("^[%s%p]-([^%s%p]+)([%-]?[^%s%p]-)[%s%p]*$","%1%2")
 			lowerCaseWord = tempWord:lower()
 
-			classMatch = CH.ClassNames[lowerCaseWord] or CH.ClassNames[tempWord]
-			wordMatch = (CH.ClassNames[lowerCaseWord] and lowerCaseWord) or (CH.ClassNames[tempWord] and tempWord:lower())
+			classMatch = CH.ClassNames[lowerCaseWord]
+			wordMatch = classMatch and lowerCaseWord
 
 			if(wordMatch and not E.global.chat.classColorMentionExcludedNames[wordMatch]) then
 				classColorTable = CUSTOM_CLASS_COLORS and CUSTOM_CLASS_COLORS[classMatch] or RAID_CLASS_COLORS[classMatch];
@@ -1682,7 +1690,7 @@ function CH:CheckKeyword(message)
 			rebuiltString = word
 			isFirstWord = false
 		else
-			rebuiltString = format("%s %s", rebuiltString, word)
+			rebuiltString = format("%s%s", rebuiltString, word)
 		end
 	end
 
@@ -1739,7 +1747,7 @@ function CH:ChatEdit_AddHistory(editBox, line)
 		end
 
 		tinsert(ElvCharacterDB.ChatEditHistory, #ElvCharacterDB.ChatEditHistory + 1, line)
-		if #ElvCharacterDB.ChatEditHistory > 5 then
+		if #ElvCharacterDB.ChatEditHistory > 20 then
 			tremove(ElvCharacterDB.ChatEditHistory, 1)
 		end
 	end
@@ -2173,4 +2181,8 @@ function CH:Initialize()
 	CombatLogQuickButtonFrame_CustomAdditionalFilterButton:Point("TOPRIGHT", CombatLogQuickButtonFrame_Custom, "TOPRIGHT", 0, -1)
 end
 
-E:RegisterModule(CH:GetName())
+local function InitializeCallback()
+	CH:Initialize()
+end
+
+E:RegisterModule(CH:GetName(), InitializeCallback)

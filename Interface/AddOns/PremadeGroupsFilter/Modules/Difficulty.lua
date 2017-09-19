@@ -109,6 +109,16 @@ PGF.ACTIVITY_TO_DIFFICULTY = {
 
     [478] = C.HEROIC,     -- Tomb of Sargeras
     [479] = C.NORMAL,     -- Tomb of Sargeras
+
+    [480] = C.MYTHIC,     -- Trial of Valor
+    [481] = C.MYTHIC,     -- The Nighthold
+
+    [482] = C.NORMAL,     -- Antorus, the Burning Throne
+    [483] = C.HEROIC,     -- Antorus, the Burning Throne
+
+    [484] = C.HEROIC,     -- Seat of the Triumvirate
+    [485] = C.MYTHIC,     -- Seat of the Triumvirate
+    [486] = C.MYTHICPLUS, -- Seat of the Triumvirate
 }
 
 -- maps localized shortNames from C_LFGList.GetActivityInfo() to difficulties
@@ -123,7 +133,17 @@ PGF.SHORTNAME_TO_DIFFICULTY = {
     [select(2, C_LFGList.GetActivityInfo(459))] = C.MYTHICPLUS, -- Mythic+
 }
 
-function PGF.ExtractNameSuffix(name) return name:lower():match("%(([^)]+)%)") end
+function PGF.ExtractNameSuffix(name)
+    if GetLocale() == "zhCN" or GetLocale() == "zhTW" then
+        -- Chinese clients use different parenthesis
+        return name:lower():match("[(（]([^)）]+)[)）]")
+    else
+        -- however we cannot use the regex above for every language
+        -- because the Chinese parenthesis somehow breaks the recognition
+        -- of other Western special characters such as Umlauts
+        return name:lower():match("%(([^)]+)%)")
+    end
+end
 
 -- maps localized name suffixes (the value in parens) from C_LFGList.GetActivityInfo() to difficulties
 PGF.NAMESUFFIX_TO_DIFFICULTY = {
