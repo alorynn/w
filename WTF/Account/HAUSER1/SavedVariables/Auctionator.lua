@@ -2,13 +2,13 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
+	["_200000"] = 1000,
+	["STARTING_DISCOUNT"] = 5,
+	["_1000000"] = 2500,
 	["_5000000"] = 10000,
 	["LOG_DE_DATA_X"] = true,
-	["_1000000"] = 2500,
-	["_10000"] = 200,
 	["_500"] = 5,
-	["STARTING_DISCOUNT"] = 5,
-	["_200000"] = 1000,
+	["_10000"] = 200,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 	["Leylight Shard"] = {
@@ -60,17 +60,6 @@ AUCTIONATOR_PRICING_HISTORY = {
 	["Infernal Brimstone"] = {
 		["is"] = "124444:0:0:0:0",
 		["4556751"] = "1030000:2",
-	},
-	["Skystep Potion"] = {
-		["4545246"] = "2308000:1",
-		["4542412"] = "2502500:1",
-		["is"] = "127841:0:0:0:0",
-		["4536981"] = "4872500:1",
-		["4545467"] = "888000:1",
-		["4342204"] = "813000:1",
-		["4333648"] = "713000:1",
-		["4330634"] = "932000:1",
-		["4322190"] = "367000:1",
 	},
 	["Arcane Dust"] = {
 		["is"] = "22445:0:0:0:0",
@@ -297,17 +286,13 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["4530907"] = "58000:57",
 		["4613196"] = "25400:19",
 	},
-	["Temporal Scholar's Sandals of the Quickblade"] = {
-		["is"] = "121053:0:0:0:1812",
-		["4601374"] = "1490000:1",
-	},
 	["Moonfall Robe of the Fireflash"] = {
 		["is"] = "121272:0:0:0:1812",
 		["4587019"] = "659000:1",
 	},
-	["Ettinbone Sabatons of the Peerless"] = {
-		["is"] = "121062:0:0:0:1812",
-		["4587019"] = "942000:1",
+	["Temporal Scholar's Sandals of the Quickblade"] = {
+		["is"] = "121053:0:0:0:1812",
+		["4601374"] = "1490000:1",
 	},
 	["Chaos Crystal"] = {
 		["is"] = "124442:0:0:0:0",
@@ -413,10 +398,14 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["4623377"] = "535000:1",
 		["4604522"] = "837000:1",
 	},
-	["Draught of Raw Magic"] = {
-		["is"] = "127837:0:0:0:0",
-		["4542412"] = "31910000:1",
-		["4545467"] = "198500:1",
+	["Ettinbone Sabatons of the Peerless"] = {
+		["is"] = "121062:0:0:0:1812",
+		["4587019"] = "942000:1",
+	},
+	["Inky Black Potion"] = {
+		["is"] = "124640:0:0:0:0",
+		["4591339"] = "243000:1",
+		["4595811"] = "138000:1",
 	},
 	["Defiled Augment Rune"] = {
 		["4554172"] = "3370000:1",
@@ -456,11 +445,6 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["4345168"] = "5830000:1",
 		["4643089"] = "3987500:1",
 		["4604522"] = "4057500:1",
-	},
-	["Inky Black Potion"] = {
-		["is"] = "124640:0:0:0:0",
-		["4591339"] = "243000:1",
-		["4595811"] = "138000:1",
 	},
 	["Obliterum"] = {
 		["is"] = "124125:0:0:0:0",
@@ -13935,10 +13919,6 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2349"] = 4493470,
 			["mr"] = 4493470,
 		},
-		["Fire Ammonite"] = {
-			["H2349"] = 11200,
-			["mr"] = 11200,
-		},
 		["Stone Hammer of the Monkey"] = {
 			["H2349"] = 1999977,
 			["mr"] = 1999977,
@@ -13947,9 +13927,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2349"] = 11431816,
 			["mr"] = 11431816,
 		},
-		["Slayer's Slippers"] = {
-			["H2349"] = 56271244,
-			["mr"] = 56271244,
+		["Silver Contact"] = {
+			["H2349"] = 999500,
+			["mr"] = 999500,
+		},
+		["Shadow Pigment"] = {
+			["H2349"] = 3657500,
+			["mr"] = 3657500,
 		},
 		["Immaculate Wand of the Flameblaze"] = {
 			["H2349"] = 2780000,
@@ -13995,13 +13979,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2349"] = 24999999,
 			["mr"] = 24999999,
 		},
-		["Silver Contact"] = {
-			["H2349"] = 999500,
-			["mr"] = 999500,
+		["Kal'delar Girdle of the Fireflash"] = {
+			["H2349"] = 1344999,
+			["mr"] = 1344999,
 		},
-		["Shadow Pigment"] = {
-			["H2349"] = 3657500,
-			["mr"] = 3657500,
+		["Eternal Cord of the Eagle"] = {
+			["H2349"] = 1892796,
+			["mr"] = 1892796,
 		},
 		["Brutish Shield of the Bear"] = {
 			["H2349"] = 12985042,
@@ -14011,10 +13995,6 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2349"] = 14117399,
 			["mr"] = 14117399,
 		},
-		["Kal'delar Girdle of the Fireflash"] = {
-			["H2349"] = 1344999,
-			["mr"] = 1344999,
-		},
 		["Glyph of Disguise"] = {
 			["H2349"] = 578184,
 			["mr"] = 578184,
@@ -14022,6 +14002,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["Stonegrinder"] = {
 			["H2349"] = 25000099,
 			["mr"] = 25000099,
+		},
+		["Slayer's Slippers"] = {
+			["H2349"] = 56271244,
+			["mr"] = 56271244,
 		},
 		["Leystone Boots of the Aurora"] = {
 			["H2349"] = 800000,
@@ -14031,9 +14015,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2349"] = 290883974,
 			["mr"] = 290883974,
 		},
-		["Warhide Pants of the Peerless"] = {
-			["H2349"] = 5761485,
-			["mr"] = 5761485,
+		["Yak Helm of the Galeburst"] = {
+			["H2349"] = 447034,
+			["mr"] = 447034,
 		},
 		["Hyperion Greaves of Dodge"] = {
 			["H2349"] = 7958964,
@@ -14087,17 +14071,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2349"] = 500000,
 			["mr"] = 500000,
 		},
-		["Enchant Ring - Binding of Mastery"] = {
-			["H2349"] = 10889997,
-			["mr"] = 10889997,
+		["Phase-Twister Leggings"] = {
+			["H2349"] = 2697998,
+			["mr"] = 2697998,
 		},
 		["Umbral Wand of Intellect"] = {
 			["H2349"] = 300000,
 			["mr"] = 300000,
 		},
-		["Phase-Twister Leggings"] = {
-			["H2349"] = 2697998,
-			["mr"] = 2697998,
+		["Adamantite Maul"] = {
+			["H2349"] = 142185527,
+			["mr"] = 142185527,
 		},
 		["Ettinbone Gauntlets of the Peerless"] = {
 			["H2349"] = 947688,
@@ -14123,13 +14107,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2349"] = 34459564,
 			["mr"] = 34459564,
 		},
-		["Jazeraint Shield of Agility"] = {
-			["H2349"] = 2979219,
-			["mr"] = 2979219,
+		["Sting Ray Pup"] = {
+			["H2349"] = 118650000,
+			["mr"] = 118650000,
 		},
-		["Exalted Legplates of the Tiger"] = {
-			["H2349"] = 37680040,
-			["mr"] = 37680040,
+		["Warstrike Belt"] = {
+			["H2349"] = 19352638,
+			["mr"] = 19352638,
 		},
 		["Netherweave Cloth"] = {
 			["H2349"] = 2176,
@@ -14147,10 +14131,6 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2349"] = 1083736,
 			["mr"] = 1083736,
 		},
-		["Autographed Hearthstone Card"] = {
-			["H2349"] = 465000,
-			["mr"] = 465000,
-		},
 		["Bloodwoven Boots of Intellect"] = {
 			["H2349"] = 1515428,
 			["mr"] = 1515428,
@@ -14159,13 +14139,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2349"] = 2499999,
 			["mr"] = 2499999,
 		},
+		["Porcupette"] = {
+			["H2349"] = 98970000,
+			["mr"] = 98970000,
+		},
 		["Formula: Enchant Boots - Minor Agility"] = {
 			["H2349"] = 4999999,
 			["mr"] = 4999999,
 		},
-		["Porcupette"] = {
-			["H2349"] = 98970000,
-			["mr"] = 98970000,
+		["JewelCraft"] = {
+			["H2349"] = 98870000,
+			["mr"] = 98870000,
 		},
 		["Blazing Cindercrawler"] = {
 			["H2349"] = 130629058,
@@ -14636,13 +14620,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2349"] = 41599,
 			["mr"] = 41599,
 		},
-		["Glyph of Mighty Victory"] = {
-			["H2349"] = 1926626,
-			["mr"] = 1926626,
-		},
 		["Gossamer Boots of the Whale"] = {
 			["H2349"] = 999999,
 			["mr"] = 999999,
+		},
+		["Imbued Silkweave Epaulets of the Harmonious"] = {
+			["H2349"] = 27999997,
+			["mr"] = 27999997,
 		},
 		["Black Grasp of the Destroyer"] = {
 			["H2349"] = 762392949,
@@ -14656,17 +14640,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2349"] = 26527416,
 			["mr"] = 26527416,
 		},
-		["Battlebound Leggings of the Quickblade"] = {
-			["H2349"] = 13500000,
-			["mr"] = 13500000,
-		},
 		["Perfect Deviate Scale"] = {
 			["H2349"] = 252092,
 			["mr"] = 252092,
 		},
-		["Feathermane Feather Cloak"] = {
-			["H2349"] = 15000000,
-			["mr"] = 15000000,
+		["Scrapbot Construction Kit"] = {
+			["H2349"] = 6124968,
+			["mr"] = 6124968,
+		},
+		["Coldwraith Bindings of the Whale"] = {
+			["H2349"] = 371489,
+			["mr"] = 371489,
 		},
 		["Azsunite Pendant of the Fireflash"] = {
 			["H2349"] = 9500000,
@@ -16000,9 +15984,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2349"] = 11895000,
 			["mr"] = 11895000,
 		},
-		["Coldwraith Bindings of the Whale"] = {
-			["H2349"] = 371489,
-			["mr"] = 371489,
+		["Feathermane Feather Cloak"] = {
+			["H2349"] = 15000000,
+			["mr"] = 15000000,
 		},
 		["Petrified Sword of the Sorcerer"] = {
 			["H2349"] = 2589549,
@@ -16012,9 +15996,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2349"] = 3000000,
 			["mr"] = 3000000,
 		},
-		["Imbued Silkweave Epaulets of the Harmonious"] = {
-			["H2349"] = 27999997,
-			["mr"] = 27999997,
+		["Battlebound Leggings of the Quickblade"] = {
+			["H2349"] = 13500000,
+			["mr"] = 13500000,
 		},
 		["Raw Longjaw Mud Snapper"] = {
 			["H2349"] = 1999,
@@ -16023,6 +16007,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["The Hungry Magister"] = {
 			["H2349"] = 408000,
 			["mr"] = 408000,
+		},
+		["Glyph of Mighty Victory"] = {
+			["H2349"] = 1926626,
+			["mr"] = 1926626,
 		},
 		["Ranger Gloves of the Tiger"] = {
 			["H2349"] = 999999,
@@ -16035,10 +16023,6 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["Hagfeather Leggings of the Fireflash"] = {
 			["H2349"] = 870000,
 			["mr"] = 870000,
-		},
-		["Scrapbot Construction Kit"] = {
-			["H2349"] = 6124968,
-			["mr"] = 6124968,
 		},
 		["Demonsteel Helm of the Harmonious"] = {
 			["H2349"] = 96030394,
@@ -16316,9 +16300,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2349"] = 1671702,
 			["mr"] = 1671702,
 		},
-		["JewelCraft"] = {
-			["H2349"] = 98870000,
-			["mr"] = 98870000,
+		["Autographed Hearthstone Card"] = {
+			["H2349"] = 465000,
+			["mr"] = 465000,
 		},
 		["Nightmare Whelpling"] = {
 			["H2349"] = 121860000,
@@ -16340,21 +16324,25 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2349"] = 818990,
 			["mr"] = 818990,
 		},
-		["Warstrike Belt"] = {
-			["H2349"] = 19352638,
-			["mr"] = 19352638,
+		["Exalted Legplates of the Tiger"] = {
+			["H2349"] = 37680040,
+			["mr"] = 37680040,
 		},
 		["Archmage Robe of Stamina"] = {
 			["H2349"] = 715617,
 			["mr"] = 715617,
 		},
-		["Sting Ray Pup"] = {
-			["H2349"] = 118650000,
-			["mr"] = 118650000,
+		["Jazeraint Shield of Agility"] = {
+			["H2349"] = 2979219,
+			["mr"] = 2979219,
 		},
 		["Blackmetal Cape"] = {
 			["H2349"] = 31895822,
 			["mr"] = 31895822,
+		},
+		["Imbued Silkweave Gloves of the Fireflash"] = {
+			["H2349"] = 52880000,
+			["mr"] = 52880000,
 		},
 		["Everbloom Peachick"] = {
 			["H2349"] = 13989999,
@@ -16364,10 +16352,6 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2349"] = 17499999,
 			["mr"] = 17499999,
 		},
-		["Adamantite Maul"] = {
-			["H2349"] = 142185527,
-			["mr"] = 142185527,
-		},
 		["Bruiseweed"] = {
 			["H2349"] = 4485,
 			["mr"] = 4485,
@@ -16376,9 +16360,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2349"] = 18532,
 			["mr"] = 18532,
 		},
-		["Imbued Silkweave Gloves of the Fireflash"] = {
-			["H2349"] = 52880000,
-			["mr"] = 52880000,
+		["Enchant Ring - Binding of Mastery"] = {
+			["H2349"] = 10889997,
+			["mr"] = 10889997,
 		},
 		["Enchant Neck - Gift of Haste"] = {
 			["H2349"] = 2749999,
@@ -16392,21 +16376,21 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2349"] = 31589,
 			["mr"] = 31589,
 		},
-		["Yak Helm of the Galeburst"] = {
-			["H2349"] = 447034,
-			["mr"] = 447034,
+		["Warhide Pants of the Peerless"] = {
+			["H2349"] = 5761485,
+			["mr"] = 5761485,
 		},
 		["High Chief's Shield of the Monkey"] = {
 			["H2349"] = 21849992,
 			["mr"] = 21849992,
 		},
+		["Fire Ammonite"] = {
+			["H2349"] = 11200,
+			["mr"] = 11200,
+		},
 		["Bonecaster's Shroud of the Owl"] = {
 			["H2349"] = 6045780,
 			["mr"] = 6045780,
-		},
-		["Eternal Cord of the Eagle"] = {
-			["H2349"] = 1892796,
-			["mr"] = 1892796,
 		},
 		["Enchant Boots - Fortitude"] = {
 			["H2349"] = 4500000,
@@ -17899,7 +17883,6 @@ AUCTIONATOR_TOONS = {
 	},
 	["Laurannah"] = {
 		["firstSeen"] = 1447788893,
-		["guid"] = "Player-3693-092AD332",
 		["firstVersion"] = "3.2.6",
 	},
 	["Hauzerdemon"] = {
