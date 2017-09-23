@@ -4,11 +4,11 @@ TomTomDB = {
 		["Hoobastankie - Kel'Thuzad"] = "Default",
 		["Hauzerogue - Kel'Thuzad"] = "Default",
 		["Hauzerina - Moon Guard"] = "Default",
-		["Hauser - Mal'Ganis"] = "Default",
-		["Alorannah - Kel'Thuzad"] = "Default",
-		["Alisheeya - Kel'Thuzad"] = "Default",
+		["Leeroyjenkem - Kel'Thuzad"] = "Default",
+		["Laurenn - Kel'Thuzad"] = "Default",
+		["Hoobastanko - Kel'Thuzad"] = "Default",
 		["Hauzerone - Dalaran"] = "Default",
-		["Ugiyo - Kel'Thuzad"] = "Default",
+		["Kmkarbashian - Kel'Thuzad"] = "Default",
 		["Beatryce - Kel'Thuzad"] = "Default",
 		["Pharrah - Kel'Thuzad"] = "Default",
 		["Laurannah - Kel'Thuzad"] = "Default",
@@ -16,21 +16,21 @@ TomTomDB = {
 		["Sdkfhsdkjfhs - Kel'Thuzad"] = "Default",
 		["Nigellah - Kel'Thuzad"] = "Default",
 		["Bazoomercom - Dark Iron"] = "Default",
-		["Hoobastanko - Kel'Thuzad"] = "Default",
+		["Ugiyo - Kel'Thuzad"] = "Default",
 		["Alurannah - Kel'Thuzad"] = "Default",
 		["Beatryss - Kel'Thuzad"] = "Default",
 		["Hauzerina - Kel'Thuzad"] = "Default",
-		["Darknstormie - Kel'Thuzad"] = "Default",
+		["Fsdkjhskdjfh - Kel'Thuzad"] = "Default",
 		["Hauzerhunter - Kel'Thuzad"] = "Default",
 		["Olrapey - Kel'Thuzad"] = "Default",
 		["Skãdi - Kel'Thuzad"] = "Default",
-		["Fsdkjhskdjfh - Kel'Thuzad"] = "Default",
+		["Darknstormie - Kel'Thuzad"] = "Default",
 		["Alauranna - Kel'Thuzad"] = "Default",
 		["Hauzerdemon - Kel'Thuzad"] = "Default",
 		["Hauzer - Kel'Thuzad"] = "Default",
-		["Kmkarbashian - Kel'Thuzad"] = "Default",
-		["Laurenn - Kel'Thuzad"] = "Default",
-		["Leeroyjenkem - Kel'Thuzad"] = "Default",
+		["Alisheeya - Kel'Thuzad"] = "Default",
+		["Alorannah - Kel'Thuzad"] = "Default",
+		["Hauser - Mal'Ganis"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -73,11 +73,11 @@ TomTomWaypointsMF = {
 		["Hoobastankie - Kel'Thuzad"] = "Hoobastankie - Kel'Thuzad",
 		["Hauzerogue - Kel'Thuzad"] = "Hauzerogue - Kel'Thuzad",
 		["Hauzerina - Moon Guard"] = "Hauzerina - Moon Guard",
-		["Hauser - Mal'Ganis"] = "Hauser - Mal'Ganis",
-		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
-		["Alisheeya - Kel'Thuzad"] = "Alisheeya - Kel'Thuzad",
+		["Leeroyjenkem - Kel'Thuzad"] = "Leeroyjenkem - Kel'Thuzad",
+		["Laurenn - Kel'Thuzad"] = "Laurenn - Kel'Thuzad",
+		["Hoobastanko - Kel'Thuzad"] = "Hoobastanko - Kel'Thuzad",
 		["Hauzerone - Dalaran"] = "Hauzerone - Dalaran",
-		["Ugiyo - Kel'Thuzad"] = "Ugiyo - Kel'Thuzad",
+		["Kmkarbashian - Kel'Thuzad"] = "Kmkarbashian - Kel'Thuzad",
 		["Beatryce - Kel'Thuzad"] = "Beatryce - Kel'Thuzad",
 		["Pharrah - Kel'Thuzad"] = "Pharrah - Kel'Thuzad",
 		["Laurannah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
@@ -85,21 +85,21 @@ TomTomWaypointsMF = {
 		["Sdkfhsdkjfhs - Kel'Thuzad"] = "Sdkfhsdkjfhs - Kel'Thuzad",
 		["Nigellah - Kel'Thuzad"] = "Nigellah - Kel'Thuzad",
 		["Bazoomercom - Dark Iron"] = "Bazoomercom - Dark Iron",
-		["Hoobastanko - Kel'Thuzad"] = "Hoobastanko - Kel'Thuzad",
+		["Ugiyo - Kel'Thuzad"] = "Ugiyo - Kel'Thuzad",
 		["Alurannah - Kel'Thuzad"] = "Alurannah - Kel'Thuzad",
 		["Beatryss - Kel'Thuzad"] = "Beatryss - Kel'Thuzad",
 		["Hauzerina - Kel'Thuzad"] = "Hauzerina - Kel'Thuzad",
-		["Darknstormie - Kel'Thuzad"] = "Darknstormie - Kel'Thuzad",
+		["Fsdkjhskdjfh - Kel'Thuzad"] = "Fsdkjhskdjfh - Kel'Thuzad",
 		["Hauzerhunter - Kel'Thuzad"] = "Hauzerhunter - Kel'Thuzad",
 		["Olrapey - Kel'Thuzad"] = "Olrapey - Kel'Thuzad",
 		["Skãdi - Kel'Thuzad"] = "Skãdi - Kel'Thuzad",
-		["Fsdkjhskdjfh - Kel'Thuzad"] = "Fsdkjhskdjfh - Kel'Thuzad",
+		["Darknstormie - Kel'Thuzad"] = "Darknstormie - Kel'Thuzad",
 		["Alauranna - Kel'Thuzad"] = "Alauranna - Kel'Thuzad",
 		["Hauzerdemon - Kel'Thuzad"] = "Hauzerdemon - Kel'Thuzad",
 		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
-		["Kmkarbashian - Kel'Thuzad"] = "Kmkarbashian - Kel'Thuzad",
-		["Laurenn - Kel'Thuzad"] = "Laurenn - Kel'Thuzad",
-		["Leeroyjenkem - Kel'Thuzad"] = "Leeroyjenkem - Kel'Thuzad",
+		["Alisheeya - Kel'Thuzad"] = "Alisheeya - Kel'Thuzad",
+		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
+		["Hauser - Mal'Ganis"] = "Hauser - Mal'Ganis",
 	},
 	["profiles"] = {
 		["Hoobastankie - Kel'Thuzad"] = {
@@ -108,15 +108,15 @@ TomTomWaypointsMF = {
 		},
 		["Hauzerina - Moon Guard"] = {
 		},
-		["Hauser - Mal'Ganis"] = {
+		["Leeroyjenkem - Kel'Thuzad"] = {
 		},
-		["Alorannah - Kel'Thuzad"] = {
+		["Laurenn - Kel'Thuzad"] = {
 		},
-		["Alisheeya - Kel'Thuzad"] = {
+		["Hoobastanko - Kel'Thuzad"] = {
 		},
 		["Hauzerone - Dalaran"] = {
 		},
-		["Ugiyo - Kel'Thuzad"] = {
+		["Kmkarbashian - Kel'Thuzad"] = {
 		},
 		["Beatryce - Kel'Thuzad"] = {
 		},
@@ -132,7 +132,7 @@ TomTomWaypointsMF = {
 		},
 		["Bazoomercom - Dark Iron"] = {
 		},
-		["Hoobastanko - Kel'Thuzad"] = {
+		["Ugiyo - Kel'Thuzad"] = {
 		},
 		["Alurannah - Kel'Thuzad"] = {
 		},
@@ -140,7 +140,7 @@ TomTomWaypointsMF = {
 		},
 		["Hauzerina - Kel'Thuzad"] = {
 		},
-		["Darknstormie - Kel'Thuzad"] = {
+		["Fsdkjhskdjfh - Kel'Thuzad"] = {
 		},
 		["Hauzerhunter - Kel'Thuzad"] = {
 		},
@@ -148,7 +148,7 @@ TomTomWaypointsMF = {
 		},
 		["Skãdi - Kel'Thuzad"] = {
 		},
-		["Fsdkjhskdjfh - Kel'Thuzad"] = {
+		["Darknstormie - Kel'Thuzad"] = {
 		},
 		["Alauranna - Kel'Thuzad"] = {
 		},
@@ -156,11 +156,11 @@ TomTomWaypointsMF = {
 		},
 		["Hauzer - Kel'Thuzad"] = {
 		},
-		["Kmkarbashian - Kel'Thuzad"] = {
+		["Alisheeya - Kel'Thuzad"] = {
 		},
-		["Laurenn - Kel'Thuzad"] = {
+		["Alorannah - Kel'Thuzad"] = {
 		},
-		["Leeroyjenkem - Kel'Thuzad"] = {
+		["Hauser - Mal'Ganis"] = {
 		},
 	},
 }
