@@ -888,12 +888,12 @@ MogIt_OneHandedDB = {
 			},
 		},
 		[5253] = {
-			[10190] = {
+			[17296] = {
 				["classes"] = 3076,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[10191] = {
+			[17305] = {
 				["classes"] = 3076,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -950,12 +950,12 @@ MogIt_OneHandedDB = {
 				},
 				["faction"] = 1,
 			},
-			[17296] = {
+			[10190] = {
 				["classes"] = 3076,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[17305] = {
+			[10191] = {
 				["classes"] = 3076,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -982,7 +982,7 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[21202] = {
+			[17542] = {
 				["classes"] = 3076,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -997,7 +997,7 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[17542] = {
+			[21202] = {
 				["classes"] = 3076,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -1257,24 +1257,6 @@ MogIt_OneHandedDB = {
 			},
 		},
 		[22016] = {
-			[59637] = {
-				["classes"] = 3076,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "High Sage Viryx",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Skyreach",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
 			[72512] = {
 				["classes"] = 3076,
 				["sourceType"] = 4,
@@ -1291,6 +1273,24 @@ MogIt_OneHandedDB = {
 							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
+						},
+						["instance"] = "Skyreach",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[59637] = {
+				["classes"] = 3076,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "High Sage Viryx",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
 						},
 						["instance"] = "Skyreach",
 					}, -- [1]
@@ -1730,10 +1730,10 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[5331] = {
-			[39138] = {
+		[19156] = {
+			[66503] = {
 				["classes"] = 3076,
-				["sourceType"] = 3,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -1754,10 +1754,10 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[19156] = {
-			[66503] = {
+		[5331] = {
+			[39138] = {
 				["classes"] = 3076,
-				["sourceType"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -1782,7 +1782,7 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[10186] = {
+			[67972] = {
 				["classes"] = 3076,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -1792,7 +1792,7 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[67972] = {
+			[10186] = {
 				["classes"] = 3076,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -3024,11 +3024,6 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[37447] = {
-				["classes"] = 2,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
 			[17429] = {
 				["classes"] = 1026,
 				["sourceType"] = 4,
@@ -3037,6 +3032,11 @@ MogIt_OneHandedDB = {
 			[17226] = {
 				["classes"] = 1026,
 				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[37447] = {
+				["classes"] = 2,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -3316,11 +3316,6 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[32949] = {
-				["classes"] = 1026,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
 			[10312] = {
 				["classes"] = 1026,
 				["sourceType"] = 4,
@@ -3329,6 +3324,11 @@ MogIt_OneHandedDB = {
 			[10111] = {
 				["classes"] = 1026,
 				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[32949] = {
+				["classes"] = 1026,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -4029,22 +4029,22 @@ MogIt_OneHandedDB = {
 			},
 		},
 		[395] = {
-			[29760] = {
-				["classes"] = 1026,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
 			[32875] = {
 				["classes"] = 1026,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[262] = {
+			[29760] = {
+				["classes"] = 1026,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[10123] = {
 				["classes"] = 1026,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[10123] = {
+			[262] = {
 				["classes"] = 1026,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -4616,7 +4616,7 @@ MogIt_OneHandedDB = {
 			},
 		},
 		[9678] = {
-			[21163] = {
+			[18251] = {
 				["classes"] = 1026,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -4626,7 +4626,7 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[18251] = {
+			[18272] = {
 				["classes"] = 1026,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -4651,7 +4651,7 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[18272] = {
+			[21163] = {
 				["classes"] = 1026,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -4718,8 +4718,105 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
+		[22989] = {
+			[65261] = {
+				["classes"] = 1026,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Flamebender Ka'graz",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Looking For Raid", -- [1]
+						},
+						["instance"] = "Blackrock Foundry",
+					}, -- [1]
+				},
+			},
+		},
+		[17895] = {
+			[41954] = {
+				["classes"] = 1026,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[41577] = {
+				["classes"] = 1026,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[42908] = {
+				["classes"] = 1026,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[3711] = {
+			[4664] = {
+				["classes"] = 1026,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[3712] = {
+			[4665] = {
+				["classes"] = 1026,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[12776] = {
+			[25596] = {
+				["classes"] = 1026,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Rotface",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player (Heroic)", -- [1]
+						},
+						["instance"] = "Icecrown Citadel",
+					}, -- [1]
+				},
+			},
+		},
+		[3714] = {
+			[4667] = {
+				["classes"] = 1026,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[3715] = {
+			[4668] = {
+				["classes"] = 1026,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[15020] = {
+				["classes"] = 1026,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
 		[12277] = {
 			[24520] = {
+				["classes"] = 1026,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[10748] = {
+			[20179] = {
 				["classes"] = 1026,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -4745,95 +4842,24 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[3711] = {
-			[4664] = {
-				["classes"] = 1026,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[3712] = {
-			[4665] = {
-				["classes"] = 1026,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[3713] = {
-			[4666] = {
-				["classes"] = 1026,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[3714] = {
-			[4667] = {
-				["classes"] = 1026,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[3715] = {
-			[4668] = {
-				["classes"] = 1026,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[15020] = {
-				["classes"] = 1026,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[22989] = {
-			[65261] = {
+		[11786] = {
+			[22633] = {
 				["classes"] = 1026,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Flamebender Ka'graz",
+						["encounter"] = "Anub'arak",
 						["tiers"] = {
-							"Warlords of Draenor", -- [1]
+							"Wrath of the Lich King", -- [1]
 						},
 						["difficulties"] = {
-							"Looking For Raid", -- [1]
+							"25 Player (Heroic)", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
-			},
-		},
-		[10748] = {
-			[20179] = {
-				["classes"] = 1026,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
-		[17895] = {
-			[41954] = {
-				["classes"] = 1026,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[41577] = {
-				["classes"] = 1026,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[42908] = {
-				["classes"] = 1026,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
-		[22518] = {
-			[81583] = {
-				["classes"] = 1026,
-				["sourceType"] = 3,
-				["faction"] = 1,
 			},
 		},
 		[21932] = {
@@ -4858,24 +4884,11 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[11786] = {
-			[22633] = {
+		[22518] = {
+			[81583] = {
 				["classes"] = 1026,
-				["sourceType"] = 1,
+				["sourceType"] = 3,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Anub'arak",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"25 Player (Heroic)", -- [1]
-						},
-						["instance"] = "Trial of the Crusader",
-					}, -- [1]
-				},
 			},
 		},
 		[24024] = {
@@ -5104,7 +5117,7 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[64218] = {
+			[72515] = {
 				["classes"] = 1026,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -5124,7 +5137,7 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[61127] = {
+			[62027] = {
 				["classes"] = 1026,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -5134,7 +5147,7 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[72515] = {
+			[64218] = {
 				["classes"] = 1026,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -5169,7 +5182,7 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[62027] = {
+			[61127] = {
 				["classes"] = 1026,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -5343,42 +5356,15 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[22255] = {
-			[66857] = {
+		[25321] = {
+			[70395] = {
 				["classes"] = 1026,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Yalnu",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "The Everbloom",
-					}, -- [1]
-				},
-			},
-			[67327] = {
-				["classes"] = 1026,
-				["sourceType"] = 2,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-		},
-		[5969] = {
-			[8809] = {
+			[70542] = {
 				["classes"] = 1026,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-		},
-		[5967] = {
-			[10313] = {
-				["classes"] = 1026,
-				["sourceType"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -5394,23 +5380,25 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[21297] = {
-			[61950] = {
+		[1879] = {
+			[2113] = {
 				["classes"] = 1026,
-				["sourceType"] = 1,
+				["sourceType"] = 6,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Garrosh Hellscream",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Siege of Orgrimmar",
-					}, -- [1]
-				},
+			},
+		},
+		[5969] = {
+			[8809] = {
+				["classes"] = 1026,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+		},
+		[7001] = {
+			[12121] = {
+				["classes"] = 1026,
+				["sourceType"] = 4,
+				["faction"] = 1,
 			},
 		},
 		[12952] = {
@@ -5465,11 +5453,23 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[7001] = {
-			[12121] = {
+		[21297] = {
+			[61950] = {
 				["classes"] = 1026,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
 				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Garrosh Hellscream",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Siege of Orgrimmar",
+					}, -- [1]
+				},
 			},
 		},
 		[2739] = {
@@ -5545,8 +5545,8 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[20411] = {
-			[50983] = {
+		[2755] = {
+			[3237] = {
 				["classes"] = 1026,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -5725,20 +5725,29 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[21936] = {
-			[65362] = {
+		[18870] = {
+			[44359] = {
 				["classes"] = 1026,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
 				["faction"] = 1,
-			},
-			[65464] = {
-				["classes"] = 1026,
-				["sourceType"] = 4,
-				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Grand Empress Shek'zeer",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+							"25 Player", -- [2]
+						},
+						["instance"] = "Heart of Fear",
+					}, -- [1]
+				},
 			},
 		},
-		[2755] = {
-			[3237] = {
+		[20411] = {
+			[50983] = {
 				["classes"] = 1026,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -6039,23 +6048,22 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[19086] = {
-			[44917] = {
+		[7087] = {
+			[12331] = {
 				["classes"] = 1026,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 2,
-						["encounter"] = "Will of the Emperor",
+						["instanceType"] = 1,
+						["encounter"] = "Lieutenant Drake",
 						["tiers"] = {
-							"Mists of Pandaria", -- [1]
+							"Burning Crusade", -- [1]
 						},
 						["difficulties"] = {
-							"10 Player (Heroic)", -- [1]
-							"25 Player (Heroic)", -- [2]
+							"Heroic", -- [1]
 						},
-						["instance"] = "Mogu'shan Vaults",
+						["instance"] = "Old Hillsbrad Foothills",
 					}, -- [1]
 				},
 			},
@@ -6074,26 +6082,38 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[9563] = {
-			[18259] = {
-				["classes"] = 1026,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[19954] = {
+		[2782] = {
+			[13513] = {
 				["classes"] = 1026,
 				["sourceType"] = 6,
 				["faction"] = 1,
 			},
-			[17224] = {
+			[10414] = {
 				["classes"] = 1026,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[17431] = {
+			[4545] = {
 				["classes"] = 1026,
-				["sourceType"] = 4,
+				["sourceType"] = 6,
 				["faction"] = 1,
+			},
+			[3269] = {
+				["classes"] = 1026,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Galgann Firehammer",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Uldaman",
+					}, -- [1]
+				},
 			},
 		},
 		[26243] = {
@@ -6136,6 +6156,45 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
+		[9567] = {
+			[17228] = {
+				["classes"] = 1026,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[17536] = {
+				["classes"] = 1026,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[26240] = {
+			[70154] = {
+				["classes"] = 1026,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Iron Reaver",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Hellfire Citadel",
+					}, -- [1]
+				},
+			},
+		},
+		[6578] = {
+			[10124] = {
+				["classes"] = 1026,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
 		[22168] = {
 			[61153] = {
 				["classes"] = 1026,
@@ -6156,76 +6215,15 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[7087] = {
-			[12331] = {
-				["classes"] = 1026,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Lieutenant Drake",
-						["tiers"] = {
-							"Burning Crusade", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Old Hillsbrad Foothills",
-					}, -- [1]
-				},
-			},
-		},
-		[2782] = {
-			[10414] = {
-				["classes"] = 1026,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[13513] = {
-				["classes"] = 1026,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-			[3269] = {
-				["classes"] = 1026,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Galgann Firehammer",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Uldaman",
-					}, -- [1]
-				},
-			},
-			[4545] = {
-				["classes"] = 1026,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-		},
-		[9567] = {
-			[17228] = {
+		[9571] = {
+			[17232] = {
 				["classes"] = 1026,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[17536] = {
+			[17476] = {
 				["classes"] = 1026,
 				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
-		[3806] = {
-			[4793] = {
-				["classes"] = 1026,
-				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -6281,23 +6279,11 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[5419] = {
-			[7670] = {
+		[7974] = {
+			[13927] = {
 				["classes"] = 1026,
-				["sourceType"] = 1,
+				["sourceType"] = 3,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Nefarian",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Blackwing Lair",
-					}, -- [1]
-				},
 			},
 		},
 		[572] = {
@@ -6369,34 +6355,22 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[10311] = {
-			[19291] = {
+		[5419] = {
+			[7670] = {
 				["classes"] = 1026,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Patchwerk",
+						["encounter"] = "Nefarian",
 						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
+							"Classic", -- [1]
 						},
 						["difficulties"] = {
-							"25 Player", -- [1]
 						},
-						["instance"] = "Naxxramas",
+						["instance"] = "Blackwing Lair",
 					}, -- [1]
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Gluth",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"25 Player", -- [1]
-						},
-						["instance"] = "Naxxramas",
-					}, -- [2]
 				},
 			},
 		},
@@ -6511,33 +6485,24 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[2804] = {
-			[7298] = {
+		[26424] = {
+			[70150] = {
 				["classes"] = 1026,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 1,
-						["encounter"] = "Prince Tortheldrin",
+						["instanceType"] = 2,
+						["encounter"] = "Archimonde",
 						["tiers"] = {
-							"Classic", -- [1]
+							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
+							"Normal", -- [1]
 						},
-						["instance"] = "Dire Maul",
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
-			},
-			[3296] = {
-				["classes"] = 1026,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[29304] = {
-				["classes"] = 1026,
-				["sourceType"] = 2,
-				["faction"] = 1,
 			},
 		},
 		[13220] = {
@@ -6567,24 +6532,11 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[26424] = {
-			[70150] = {
+		[22847] = {
+			[67066] = {
 				["classes"] = 1026,
-				["sourceType"] = 1,
+				["sourceType"] = 4,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Archimonde",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Hellfire Citadel",
-					}, -- [1]
-				},
 			},
 		},
 		[20300] = {
@@ -6654,22 +6606,21 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[24460] = {
-			[62742] = {
+		[961] = {
+			[4787] = {
 				["classes"] = 1026,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 2,
-						["encounter"] = "Hans'gar and Franzok",
+						["instanceType"] = 1,
+						["encounter"] = "Mother Smolderweb",
 						["tiers"] = {
-							"Warlords of Draenor", -- [1]
+							"Classic", -- [1]
 						},
 						["difficulties"] = {
-							"Mythic", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
+						["instance"] = "Lower Blackrock Spire",
 					}, -- [1]
 				},
 			},
@@ -6693,28 +6644,34 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[11252] = {
-			[21592] = {
+		[418] = {
+			[288] = {
+				["classes"] = 1026,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[28457] = {
 				["classes"] = 1026,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
-		[961] = {
-			[4787] = {
+		[24460] = {
+			[62742] = {
 				["classes"] = 1026,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 1,
-						["encounter"] = "Mother Smolderweb",
+						["instanceType"] = 2,
+						["encounter"] = "Hans'gar and Franzok",
 						["tiers"] = {
-							"Classic", -- [1]
+							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
+							"Mythic", -- [1]
 						},
-						["instance"] = "Lower Blackrock Spire",
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 			},
@@ -6746,49 +6703,92 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[9735] = {
-			[17607] = {
-				["classes"] = 1026,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Mal'Ganis",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "The Culling of Stratholme",
-					}, -- [1]
-				},
-			},
-			[21386] = {
-				["classes"] = 1026,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
-		[6139] = {
-			[18861] = {
+		[11779] = {
+			[23024] = {
 				["classes"] = 1026,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Kel'Thuzad",
+						["encounter"] = "Anub'arak",
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
-						["instance"] = "Naxxramas",
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
+			},
+			[22623] = {
+				["classes"] = 1026,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Anub'arak",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"25 Player", -- [1]
+						},
+						["instance"] = "Trial of the Crusader",
+					}, -- [1]
+				},
+			},
+			[46961] = {
+				["classes"] = 1026,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[23130] = {
+				["classes"] = 1026,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Anub'arak",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player (Heroic)", -- [1]
+						},
+						["instance"] = "Trial of the Crusader",
+					}, -- [1]
+				},
+			},
+		},
+		[21937] = {
+			[61860] = {
+				["classes"] = 1026,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[66385] = {
+				["classes"] = 1026,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[65413] = {
+				["classes"] = 1026,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[66380] = {
+				["classes"] = 1026,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[65447] = {
+				["classes"] = 1026,
+				["sourceType"] = 4,
+				["faction"] = 1,
 			},
 		},
 		[2819] = {
@@ -6820,13 +6820,8 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[418] = {
-			[288] = {
-				["classes"] = 1026,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[28457] = {
+		[11252] = {
+			[21592] = {
 				["classes"] = 1026,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -6896,90 +6891,36 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[11779] = {
-			[23024] = {
-				["classes"] = 1026,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Anub'arak",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-						},
-						["instance"] = "Trial of the Crusader",
-					}, -- [1]
-				},
-			},
-			[22623] = {
-				["classes"] = 1026,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Anub'arak",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"25 Player", -- [1]
-						},
-						["instance"] = "Trial of the Crusader",
-					}, -- [1]
-				},
-			},
-			[46961] = {
-				["classes"] = 1026,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[23130] = {
-				["classes"] = 1026,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Anub'arak",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player (Heroic)", -- [1]
-						},
-						["instance"] = "Trial of the Crusader",
-					}, -- [1]
-				},
-			},
-		},
-		[6666] = {
-			[10314] = {
-				["classes"] = 1026,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[16134] = {
+		[9735] = {
+			[17607] = {
 				["classes"] = 1026,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Priestess Delrissa",
+						["encounter"] = "Mal'Ganis",
 						["tiers"] = {
-							"Burning Crusade", -- [1]
+							"Wrath of the Lich King", -- [1]
 						},
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Magisters' Terrace",
+						["instance"] = "The Culling of Stratholme",
 					}, -- [1]
 				},
+			},
+			[21386] = {
+				["classes"] = 1026,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
+		[964] = {
+			[960] = {
+				["classes"] = 1026,
+				["sourceType"] = 4,
+				["faction"] = 1,
 			},
 		},
 		[581] = {
@@ -7136,16 +7077,24 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[8745] = {
-			[15560] = {
+		[11300] = {
+			[21674] = {
 				["classes"] = 1026,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
 				["faction"] = 1,
-			},
-			[15616] = {
-				["classes"] = 1026,
-				["sourceType"] = 3,
-				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Razorscale",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"25 Player", -- [1]
+						},
+						["instance"] = "Ulduar",
+					}, -- [1]
+				},
 			},
 		},
 		[10282] = {
@@ -7195,14 +7144,14 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[41423] = {
-				["classes"] = 1026,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
 			[78385] = {
 				["classes"] = 1026,
 				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[41423] = {
+				["classes"] = 1026,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 			[41956] = {
@@ -7420,24 +7369,21 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[11867] = {
-			[22810] = {
+		[9312] = {
+			[16619] = {
 				["classes"] = 1026,
-				["sourceType"] = 1,
+				["sourceType"] = 2,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Eadric the Pure",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Trial of the Champion",
-					}, -- [1]
-				},
+			},
+			[17478] = {
+				["classes"] = 1026,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[17428] = {
+				["classes"] = 1026,
+				["sourceType"] = 4,
+				["faction"] = 1,
 			},
 		},
 		[16783] = {
@@ -7598,24 +7544,11 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[23279] = {
-			[62726] = {
+		[3369] = {
+			[4101] = {
 				["classes"] = 1026,
-				["sourceType"] = 1,
+				["sourceType"] = 4,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Hans'gar and Franzok",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Blackrock Foundry",
-					}, -- [1]
-				},
 			},
 		},
 		[8825] = {
@@ -7688,17 +7621,30 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[3369] = {
-			[4101] = {
+		[23279] = {
+			[62726] = {
 				["classes"] = 1026,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
 				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Hans'gar and Franzok",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Blackrock Foundry",
+					}, -- [1]
+				},
 			},
 		},
-		[10929] = {
-			[20489] = {
+		[6239] = {
+			[9357] = {
 				["classes"] = 1026,
-				["sourceType"] = 3,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 		},
@@ -7722,17 +7668,34 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[10901] = {
-			[20450] = {
+		[21259] = {
+			[61657] = {
+				["classes"] = 1026,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Kor'kron Dark Shaman",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Siege of Orgrimmar",
+					}, -- [1]
+				},
+			},
+		},
+		[20812] = {
+			[55282] = {
 				["classes"] = 1026,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-		},
-		[424] = {
-			[294] = {
+			[55434] = {
 				["classes"] = 1026,
-				["sourceType"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -7770,6 +7733,113 @@ MogIt_OneHandedDB = {
 						["instance"] = "The Temple of Atal'hakkar",
 					}, -- [1]
 				},
+			},
+		},
+		[361] = {
+			[226] = {
+				["classes"] = 1026,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[10318] = {
+				["classes"] = 1026,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[6235] = {
+			[9352] = {
+				["classes"] = 1026,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+		},
+		[10925] = {
+			[20484] = {
+				["classes"] = 1026,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[20491] = {
+				["classes"] = 1026,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[26811] = {
+				["classes"] = 1026,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+		},
+		[10929] = {
+			[20489] = {
+				["classes"] = 1026,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
+		[11955] = {
+			[23031] = {
+				["classes"] = 1026,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Anub'arak",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+						},
+						["instance"] = "Trial of the Crusader",
+					}, -- [1]
+				},
+			},
+			[23141] = {
+				["classes"] = 1026,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Anub'arak",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player (Heroic)", -- [1]
+						},
+						["instance"] = "Trial of the Crusader",
+					}, -- [1]
+				},
+			},
+		},
+		[975] = {
+			[973] = {
+				["classes"] = 1026,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+			[1243] = {
+				["classes"] = 1026,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[22361] = {
+			[65509] = {
+				["classes"] = 1026,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+		},
+		[18338] = {
+			[45227] = {
+				["classes"] = 1026,
+				["sourceType"] = 4,
+				["faction"] = 1,
 			},
 		},
 		[14027] = {
@@ -7812,77 +7882,6 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[6235] = {
-			[9352] = {
-				["classes"] = 1026,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-		},
-		[591] = {
-			[503] = {
-				["classes"] = 1026,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[6239] = {
-			[9357] = {
-				["classes"] = 1026,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-		},
-		[20812] = {
-			[55282] = {
-				["classes"] = 1026,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[55434] = {
-				["classes"] = 1026,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
-		[975] = {
-			[973] = {
-				["classes"] = 1026,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-			[1243] = {
-				["classes"] = 1026,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[22361] = {
-			[65509] = {
-				["classes"] = 1026,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-		},
-		[18338] = {
-			[45227] = {
-				["classes"] = 1026,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[361] = {
-			[226] = {
-				["classes"] = 1026,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[10318] = {
-				["classes"] = 1026,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
 		[12486] = {
 			[24795] = {
 				["classes"] = 1026,
@@ -7903,8 +7902,8 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[297] = {
-			[6010] = {
+		[1184] = {
+			[3994] = {
 				["classes"] = 1026,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -7917,6 +7916,25 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
+		[18337] = {
+			[45311] = {
+				["classes"] = 1026,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[2878] = {
+			[26675] = {
+				["classes"] = 1026,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[26738] = {
+				["classes"] = 1026,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
 		[3390] = {
 			[10433] = {
 				["classes"] = 1026,
@@ -7926,37 +7944,6 @@ MogIt_OneHandedDB = {
 			[13317] = {
 				["classes"] = 1026,
 				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
-		[489] = {
-			[361] = {
-				["classes"] = 1026,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[7218] = {
-				["classes"] = 1026,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Landslide",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Maraudon",
-					}, -- [1]
-				},
-			},
-		},
-		[18337] = {
-			[45311] = {
-				["classes"] = 1026,
-				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -8152,7 +8139,7 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[64369] = {
+			[64189] = {
 				["classes"] = 1026,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -8167,7 +8154,7 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[64189] = {
+			[64369] = {
 				["classes"] = 1026,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -8187,14 +8174,14 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[64221] = {
-				["classes"] = 1026,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
 			[58956] = {
 				["classes"] = 1026,
 				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[64221] = {
+				["classes"] = 1026,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -8238,11 +8225,6 @@ MogIt_OneHandedDB = {
 			},
 		},
 		[726] = {
-			[27472] = {
-				["classes"] = 1026,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
 			[8142] = {
 				["classes"] = 1026,
 				["sourceType"] = 2,
@@ -8251,6 +8233,11 @@ MogIt_OneHandedDB = {
 			[657] = {
 				["classes"] = 1026,
 				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[27472] = {
+				["classes"] = 1026,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -8360,45 +8347,43 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[302] = {
-			[4879] = {
+		[21180] = {
+			[60925] = {
 				["classes"] = 1026,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 1,
-						["encounter"] = "Timmy the Cruel",
+						["instanceType"] = 2,
+						["encounter"] = "Immerseus",
 						["tiers"] = {
-							"Classic", -- [1]
+							"Mists of Pandaria", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Stratholme",
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 			},
-			[164] = {
-				["classes"] = 1026,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[10575] = {
-				["classes"] = 1026,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[10122] = {
-				["classes"] = 1026,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
 		},
-		[14195] = {
-			[30300] = {
+		[24270] = {
+			[62783] = {
 				["classes"] = 1026,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
 				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Kromog",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Blackrock Foundry",
+					}, -- [1]
+				},
 			},
 		},
 		[9113] = {
@@ -8446,14 +8431,14 @@ MogIt_OneHandedDB = {
 			},
 		},
 		[9568] = {
-			[20745] = {
-				["classes"] = 1026,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
 			[17229] = {
 				["classes"] = 1026,
 				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[18288] = {
+				["classes"] = 1026,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 			[17236] = {
@@ -8461,7 +8446,7 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[18288] = {
+			[20745] = {
 				["classes"] = 1026,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -8529,23 +8514,16 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[21180] = {
-			[60925] = {
+		[6333] = {
+			[9509] = {
 				["classes"] = 1026,
-				["sourceType"] = 1,
+				["sourceType"] = 2,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Immerseus",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Siege of Orgrimmar",
-					}, -- [1]
-				},
+			},
+			[16101] = {
+				["classes"] = 1026,
+				["sourceType"] = 3,
+				["faction"] = 1,
 			},
 		},
 		[22274] = {
@@ -8590,30 +8568,17 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[24270] = {
-			[62783] = {
-				["classes"] = 1026,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Kromog",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Blackrock Foundry",
-					}, -- [1]
-				},
-			},
-		},
 		[18649] = {
 			[46295] = {
 				["classes"] = 1026,
 				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
+		[14195] = {
+			[30300] = {
+				["classes"] = 1026,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -8688,60 +8653,8 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[6351] = {
-			[9523] = {
-				["classes"] = 1026,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Rokmar the Crackler",
-						["tiers"] = {
-							"Burning Crusade", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "The Slave Pens",
-					}, -- [1]
-				},
-			},
-		},
-		[6353] = {
-			[9527] = {
-				["classes"] = 1026,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "The Maker",
-						["tiers"] = {
-							"Burning Crusade", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "The Blood Furnace",
-					}, -- [1]
-				},
-			},
-		},
 		[11153] = {
 			[21320] = {
-				["classes"] = 1026,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
-		[6333] = {
-			[9509] = {
-				["classes"] = 1026,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[16101] = {
 				["classes"] = 1026,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -8762,6 +8675,80 @@ MogIt_OneHandedDB = {
 						["difficulties"] = {
 						},
 						["instance"] = "Temple of Ahn'Qiraj",
+					}, -- [1]
+				},
+			},
+		},
+		[6351] = {
+			[9523] = {
+				["classes"] = 1026,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Rokmar the Crackler",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "The Slave Pens",
+					}, -- [1]
+				},
+			},
+		},
+		[302] = {
+			[4879] = {
+				["classes"] = 1026,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Timmy the Cruel",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Stratholme",
+					}, -- [1]
+				},
+			},
+			[164] = {
+				["classes"] = 1026,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[10575] = {
+				["classes"] = 1026,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[10122] = {
+				["classes"] = 1026,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[6353] = {
+			[9527] = {
+				["classes"] = 1026,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "The Maker",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "The Blood Furnace",
 					}, -- [1]
 				},
 			},
@@ -8939,16 +8926,28 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[2878] = {
-			[26675] = {
+		[489] = {
+			[361] = {
 				["classes"] = 1026,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[26738] = {
+			[7218] = {
 				["classes"] = 1026,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
 				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Landslide",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Maraudon",
+					}, -- [1]
+				},
 			},
 		},
 		[25484] = {
@@ -8982,8 +8981,8 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[1184] = {
-			[3994] = {
+		[297] = {
+			[6010] = {
 				["classes"] = 1026,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -9001,58 +9000,17 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[11955] = {
-			[23031] = {
+		[424] = {
+			[294] = {
 				["classes"] = 1026,
-				["sourceType"] = 1,
+				["sourceType"] = 4,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Anub'arak",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-						},
-						["instance"] = "Trial of the Crusader",
-					}, -- [1]
-				},
-			},
-			[23141] = {
-				["classes"] = 1026,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Anub'arak",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player (Heroic)", -- [1]
-						},
-						["instance"] = "Trial of the Crusader",
-					}, -- [1]
-				},
 			},
 		},
-		[10925] = {
-			[20484] = {
+		[591] = {
+			[503] = {
 				["classes"] = 1026,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[20491] = {
-				["classes"] = 1026,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[26811] = {
-				["classes"] = 1026,
-				["sourceType"] = 6,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -9063,23 +9021,11 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[21259] = {
-			[61657] = {
+		[10901] = {
+			[20450] = {
 				["classes"] = 1026,
-				["sourceType"] = 1,
+				["sourceType"] = 3,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Kor'kron Dark Shaman",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Siege of Orgrimmar",
-					}, -- [1]
-				},
 			},
 		},
 		[22482] = {
@@ -9127,21 +9073,24 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[9312] = {
-			[16619] = {
+		[11867] = {
+			[22810] = {
 				["classes"] = 1026,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
 				["faction"] = 1,
-			},
-			[17478] = {
-				["classes"] = 1026,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[17428] = {
-				["classes"] = 1026,
-				["sourceType"] = 4,
-				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Eadric the Pure",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Trial of the Champion",
+					}, -- [1]
+				},
 			},
 		},
 		[11269] = {
@@ -9177,24 +9126,16 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[11300] = {
-			[21674] = {
+		[8745] = {
+			[15560] = {
 				["classes"] = 1026,
-				["sourceType"] = 1,
+				["sourceType"] = 3,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Razorscale",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"25 Player", -- [1]
-						},
-						["instance"] = "Ulduar",
-					}, -- [1]
-				},
+			},
+			[15616] = {
+				["classes"] = 1026,
+				["sourceType"] = 3,
+				["faction"] = 1,
 			},
 		},
 		[13333] = {
@@ -9213,12 +9154,12 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[29895] = {
+			[26983] = {
 				["classes"] = 1026,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[26983] = {
+			[26990] = {
 				["classes"] = 1026,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -9228,9 +9169,9 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[26990] = {
+			[29895] = {
 				["classes"] = 1026,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -9246,23 +9187,49 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[964] = {
-			[960] = {
+		[6666] = {
+			[10314] = {
 				["classes"] = 1026,
 				["sourceType"] = 4,
 				["faction"] = 1,
+			},
+			[16134] = {
+				["classes"] = 1026,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Priestess Delrissa",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Magisters' Terrace",
+					}, -- [1]
+				},
 			},
 		},
-		[962] = {
-			[10307] = {
+		[6139] = {
+			[18861] = {
 				["classes"] = 1026,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
 				["faction"] = 1,
-			},
-			[29329] = {
-				["classes"] = 1026,
-				["sourceType"] = 2,
-				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Kel'Thuzad",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+						},
+						["instance"] = "Naxxramas",
+					}, -- [1]
+				},
 			},
 		},
 		[5405] = {
@@ -9302,30 +9269,15 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[21937] = {
-			[61860] = {
-				["classes"] = 1026,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[66385] = {
-				["classes"] = 1026,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[65413] = {
+		[962] = {
+			[10307] = {
 				["classes"] = 1026,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[66380] = {
+			[29329] = {
 				["classes"] = 1026,
 				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[65447] = {
-				["classes"] = 1026,
-				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -9367,10 +9319,32 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[22847] = {
-			[67066] = {
+		[2804] = {
+			[7298] = {
+				["classes"] = 1026,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Prince Tortheldrin",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Dire Maul",
+					}, -- [1]
+				},
+			},
+			[3296] = {
 				["classes"] = 1026,
 				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[29304] = {
+				["classes"] = 1026,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -9425,11 +9399,35 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[7974] = {
-			[13927] = {
+		[10311] = {
+			[19291] = {
 				["classes"] = 1026,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
 				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Patchwerk",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"25 Player", -- [1]
+						},
+						["instance"] = "Naxxramas",
+					}, -- [1]
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Gluth",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"25 Player", -- [1]
+						},
+						["instance"] = "Naxxramas",
+					}, -- [2]
+				},
 			},
 		},
 		[24686] = {
@@ -9459,15 +9457,10 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[9571] = {
-			[17232] = {
+		[3806] = {
+			[4793] = {
 				["classes"] = 1026,
 				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[17476] = {
-				["classes"] = 1026,
-				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -9492,8 +9485,23 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[6578] = {
-			[10124] = {
+		[9563] = {
+			[19954] = {
+				["classes"] = 1026,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+			[18259] = {
+				["classes"] = 1026,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[17431] = {
+				["classes"] = 1026,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[17224] = {
 				["classes"] = 1026,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -9519,22 +9527,23 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[26240] = {
-			[70154] = {
+		[19086] = {
+			[44917] = {
 				["classes"] = 1026,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Iron Reaver",
+						["encounter"] = "Will of the Emperor",
 						["tiers"] = {
-							"Warlords of Draenor", -- [1]
+							"Mists of Pandaria", -- [1]
 						},
 						["difficulties"] = {
-							"Heroic", -- [1]
+							"10 Player (Heroic)", -- [1]
+							"25 Player (Heroic)", -- [2]
 						},
-						["instance"] = "Hellfire Citadel",
+						["instance"] = "Mogu'shan Vaults",
 					}, -- [1]
 				},
 			},
@@ -9827,6 +9836,39 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
+		[10902] = {
+			[20454] = {
+				["classes"] = 1026,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
+		[21936] = {
+			[65362] = {
+				["classes"] = 1026,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[65464] = {
+				["classes"] = 1026,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[156] = {
+			[31536] = {
+				["classes"] = 1026,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[20774] = {
+			[55334] = {
+				["classes"] = 1026,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
 		[8858] = {
 			[15789] = {
 				["classes"] = 1026,
@@ -9846,64 +9888,35 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[18870] = {
-			[44359] = {
+		[5967] = {
+			[10313] = {
+				["classes"] = 1026,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[22255] = {
+			[66857] = {
 				["classes"] = 1026,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 2,
-						["encounter"] = "Grand Empress Shek'zeer",
+						["instanceType"] = 1,
+						["encounter"] = "Yalnu",
 						["tiers"] = {
-							"Mists of Pandaria", -- [1]
+							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
-							"10 Player", -- [1]
-							"25 Player", -- [2]
+							"Heroic", -- [1]
 						},
-						["instance"] = "Heart of Fear",
+						["instance"] = "The Everbloom",
 					}, -- [1]
 				},
 			},
-		},
-		[156] = {
-			[31536] = {
+			[67327] = {
 				["classes"] = 1026,
 				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
-		[20774] = {
-			[55334] = {
-				["classes"] = 1026,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
-		[10902] = {
-			[20454] = {
-				["classes"] = 1026,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
-		[1879] = {
-			[2113] = {
-				["classes"] = 1026,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-		},
-		[25321] = {
-			[70395] = {
-				["classes"] = 1026,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[70542] = {
-				["classes"] = 1026,
-				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -10166,6 +10179,18 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
+		[2498] = {
+			[6006] = {
+				["classes"] = 1026,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[10311] = {
+				["classes"] = 1026,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
 		[12515] = {
 			[24840] = {
 				["classes"] = 1026,
@@ -10186,36 +10211,11 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[2498] = {
-			[6006] = {
+		[3713] = {
+			[4666] = {
 				["classes"] = 1026,
 				["sourceType"] = 4,
 				["faction"] = 1,
-			},
-			[10311] = {
-				["classes"] = 1026,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[12776] = {
-			[25596] = {
-				["classes"] = 1026,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Rotface",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player (Heroic)", -- [1]
-						},
-						["instance"] = "Icecrown Citadel",
-					}, -- [1]
-				},
 			},
 		},
 		[22366] = {
@@ -10449,12 +10449,12 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[42906] = {
+			[40674] = {
 				["classes"] = 2054,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[40674] = {
+			[42906] = {
 				["classes"] = 2054,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -10542,6 +10542,16 @@ MogIt_OneHandedDB = {
 			},
 		},
 		[19138] = {
+			[47016] = {
+				["classes"] = 2054,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[45228] = {
+				["classes"] = 2054,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
 			[84485] = {
 				["classes"] = 2054,
 				["sourceType"] = 1,
@@ -10560,16 +10570,6 @@ MogIt_OneHandedDB = {
 						["instance"] = "Stormstout Brewery",
 					}, -- [1]
 				},
-			},
-			[47016] = {
-				["classes"] = 2054,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[45228] = {
-				["classes"] = 2054,
-				["sourceType"] = 4,
-				["faction"] = 1,
 			},
 		},
 		[21733] = {
@@ -12341,14 +12341,14 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[20397] = {
-				["classes"] = 2054,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
 			[32206] = {
 				["classes"] = 2054,
 				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+			[20397] = {
+				["classes"] = 2054,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[20399] = {
@@ -12807,19 +12807,19 @@ MogIt_OneHandedDB = {
 			},
 		},
 		[17499] = {
-			[40672] = {
-				["classes"] = 2054,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[42791] = {
-				["classes"] = 2054,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
 			[78395] = {
 				["classes"] = 2054,
 				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[42917] = {
+				["classes"] = 2054,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[40672] = {
+				["classes"] = 2054,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 			[41542] = {
@@ -12827,7 +12827,7 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[42917] = {
+			[42791] = {
 				["classes"] = 2054,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -13115,22 +13115,29 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
+		[3437] = {
+			[4222] = {
+				["classes"] = 2054,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Ring of Law",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Blackrock Depths",
+					}, -- [1]
+				},
+			},
+		},
 		[21779] = {
 			[90865] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[989] = {
-			[989] = {
-				["classes"] = 2054,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[31250] = {
-				["classes"] = 2054,
-				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -13160,23 +13167,16 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[3437] = {
-			[4222] = {
+		[989] = {
+			[989] = {
 				["classes"] = 2054,
-				["sourceType"] = 1,
+				["sourceType"] = 4,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Ring of Law",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Blackrock Depths",
-					}, -- [1]
-				},
+			},
+			[31250] = {
+				["classes"] = 2054,
+				["sourceType"] = 2,
+				["faction"] = 1,
 			},
 		},
 		[24342] = {
@@ -13460,29 +13460,6 @@ MogIt_OneHandedDB = {
 			},
 		},
 		[11764] = {
-			[23134] = {
-				["classes"] = 2054,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Anub'arak",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player (Heroic)", -- [1]
-						},
-						["instance"] = "Trial of the Crusader",
-					}, -- [1]
-				},
-			},
-			[46966] = {
-				["classes"] = 2054,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
 			[23023] = {
 				["classes"] = 2054,
 				["sourceType"] = 1,
@@ -13501,6 +13478,11 @@ MogIt_OneHandedDB = {
 					}, -- [1]
 				},
 			},
+			[46966] = {
+				["classes"] = 2054,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
 			[22591] = {
 				["classes"] = 2054,
 				["sourceType"] = 1,
@@ -13514,6 +13496,24 @@ MogIt_OneHandedDB = {
 						},
 						["difficulties"] = {
 							"25 Player", -- [1]
+						},
+						["instance"] = "Trial of the Crusader",
+					}, -- [1]
+				},
+			},
+			[23134] = {
+				["classes"] = 2054,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Anub'arak",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player (Heroic)", -- [1]
 						},
 						["instance"] = "Trial of the Crusader",
 					}, -- [1]
@@ -13612,31 +13612,18 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
+		[218] = {
+			[26756] = {
+				["classes"] = 2054,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
 		[25125] = {
 			[90808] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
-			},
-		},
-		[18993] = {
-			[44676] = {
-				["classes"] = 2054,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Elegon",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"Looking For Raid", -- [1]
-						},
-						["instance"] = "Mogu'shan Vaults",
-					}, -- [1]
-				},
 			},
 		},
 		[8734] = {
@@ -13675,11 +13662,24 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[218] = {
-			[26756] = {
+		[18993] = {
+			[44676] = {
 				["classes"] = 2054,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
 				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Elegon",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"Looking For Raid", -- [1]
+						},
+						["instance"] = "Mogu'shan Vaults",
+					}, -- [1]
+				},
 			},
 		},
 		[6938] = {
@@ -14158,9 +14158,9 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[62034] = {
+			[65319] = {
 				["classes"] = 2054,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 			[65387] = {
@@ -14208,9 +14208,9 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[65319] = {
+			[62034] = {
 				["classes"] = 2054,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -16531,6 +16531,34 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
+		[1852] = {
+			[8966] = {
+				["classes"] = 2182,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[272] = {
+			[133] = {
+				["classes"] = 2182,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[12716] = {
+			[25369] = {
+				["classes"] = 2182,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
+		[23380] = {
+			[66553] = {
+				["classes"] = 2182,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
 		[15790] = {
 			[36331] = {
 				["classes"] = 2182,
@@ -16550,47 +16578,6 @@ MogIt_OneHandedDB = {
 						["instance"] = "Firelands",
 					}, -- [1]
 				},
-			},
-		},
-		[272] = {
-			[133] = {
-				["classes"] = 2182,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[6877] = {
-			[11945] = {
-				["classes"] = 2182,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Keli'dan the Breaker",
-						["tiers"] = {
-							"Burning Crusade", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "The Blood Furnace",
-					}, -- [1]
-				},
-			},
-		},
-		[23380] = {
-			[66553] = {
-				["classes"] = 2182,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
-		[1852] = {
-			[8966] = {
-				["classes"] = 2182,
-				["sourceType"] = 2,
-				["faction"] = 1,
 			},
 		},
 		[5350] = {
@@ -16793,24 +16780,11 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[6909] = {
-			[11996] = {
+		[5376] = {
+			[7591] = {
 				["classes"] = 2182,
-				["sourceType"] = 1,
+				["sourceType"] = 4,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Quagmirran",
-						["tiers"] = {
-							"Burning Crusade", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "The Slave Pens",
-					}, -- [1]
-				},
 			},
 		},
 		[22246] = {
@@ -16880,24 +16854,11 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[12285] = {
-			[24532] = {
+		[3718] = {
+			[4672] = {
 				["classes"] = 2182,
-				["sourceType"] = 1,
+				["sourceType"] = 4,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Professor Putricide",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"25 Player", -- [1]
-						},
-						["instance"] = "Icecrown Citadel",
-					}, -- [1]
-				},
 			},
 		},
 		[3719] = {
@@ -17075,23 +17036,11 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[5412] = {
-			[7663] = {
+		[22095] = {
+			[67070] = {
 				["classes"] = 2182,
-				["sourceType"] = 1,
+				["sourceType"] = 4,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Chromaggus",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Blackwing Lair",
-					}, -- [1]
-				},
 			},
 		},
 		[11122] = {
@@ -17135,35 +17084,11 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[10337] = {
-			[19365] = {
+		[4410] = {
+			[6003] = {
 				["classes"] = 2182,
-				["sourceType"] = 1,
+				["sourceType"] = 4,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "The Four Horsemen",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"25 Player", -- [1]
-						},
-						["instance"] = "Naxxramas",
-					}, -- [1]
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Gluth",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"25 Player", -- [1]
-						},
-						["instance"] = "Naxxramas",
-					}, -- [2]
-				},
 			},
 		},
 		[4402] = {
@@ -17173,11 +17098,25 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[4404] = {
-			[5995] = {
+		[17552] = {
+			[84390] = {
 				["classes"] = 2182,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
 				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Ook-Ook",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+							"Timewalking", -- [2]
+						},
+						["instance"] = "Stormstout Brewery",
+					}, -- [1]
+				},
 			},
 		},
 		[4406] = {
@@ -17225,11 +17164,35 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[4410] = {
-			[6003] = {
+		[10337] = {
+			[19365] = {
 				["classes"] = 2182,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
 				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "The Four Horsemen",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"25 Player", -- [1]
+						},
+						["instance"] = "Naxxramas",
+					}, -- [1]
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Gluth",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"25 Player", -- [1]
+						},
+						["instance"] = "Naxxramas",
+					}, -- [2]
+				},
 			},
 		},
 		[21216] = {
@@ -17251,23 +17214,23 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[25257] = {
-			[71307] = {
+		[7991] = {
+			[13951] = {
 				["classes"] = 2182,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
 				["faction"] = 1,
-			},
-			[71454] = {
-				["classes"] = 2182,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
-		[25273] = {
-			[70440] = {
-				["classes"] = 2182,
-				["sourceType"] = 3,
-				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Anetheron",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Battle for Mount Hyjal",
+					}, -- [1]
+				},
 			},
 		},
 		[7995] = {
@@ -17287,6 +17250,13 @@ MogIt_OneHandedDB = {
 						["instance"] = "The Battle for Mount Hyjal",
 					}, -- [1]
 				},
+			},
+		},
+		[25273] = {
+			[70440] = {
+				["classes"] = 2182,
+				["sourceType"] = 3,
+				["faction"] = 1,
 			},
 		},
 		[21217] = {
@@ -17598,17 +17568,17 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[22383] = {
-			[81594] = {
-				["classes"] = 2182,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
 		[1375] = {
 			[1457] = {
 				["classes"] = 2182,
 				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+		},
+		[22383] = {
+			[81594] = {
+				["classes"] = 2182,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -17806,42 +17776,22 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[1634] = {
-			[7356] = {
+		[21417] = {
+			[61050] = {
 				["classes"] = 2182,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 1,
-						["encounter"] = "Guard Mol'dar",
+						["instanceType"] = 2,
+						["encounter"] = "Norushen",
 						["tiers"] = {
-							"Classic", -- [1]
+							"Mists of Pandaria", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Dire Maul",
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Guard Fengus",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Dire Maul",
-					}, -- [2]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Guard Slip'kik",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Dire Maul",
-					}, -- [3]
 				},
 			},
 		},
@@ -17949,22 +17899,15 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[5512] = {
-			[13111] = {
-				["classes"] = 2182,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
-		[4408] = {
-			[6000] = {
+		[2760] = {
+			[3243] = {
 				["classes"] = 2182,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
-		[4411] = {
-			[6004] = {
+		[4408] = {
+			[6000] = {
 				["classes"] = 2182,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -17988,6 +17931,13 @@ MogIt_OneHandedDB = {
 						["instance"] = "Pit of Saron",
 					}, -- [1]
 				},
+			},
+		},
+		[4411] = {
+			[6004] = {
+				["classes"] = 2182,
+				["sourceType"] = 4,
+				["faction"] = 1,
 			},
 		},
 		[21660] = {
@@ -18341,43 +18291,32 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[20550] = {
-			[50174] = {
+		[15912] = {
+			[36638] = {
 				["classes"] = 2182,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Jin'rokh the Breaker",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"Looking For Raid", -- [1]
-						},
-						["instance"] = "Throne of Thunder",
-					}, -- [1]
-				},
-			},
-		},
-		[16222] = {
-			[37343] = {
-				["classes"] = 2182,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Archbishop Benedictus",
+						["encounter"] = "Beth'tilac",
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
 						["difficulties"] = {
+							"10 Player (Heroic)", -- [1]
+							"25 Player (Heroic)", -- [2]
 						},
-						["instance"] = "Hour of Twilight",
+						["instance"] = "Firelands",
 					}, -- [1]
 				},
+			},
+		},
+		[2786] = {
+			[3273] = {
+				["classes"] = 2182,
+				["sourceType"] = 4,
+				["faction"] = 1,
 			},
 		},
 		[13361] = {
@@ -18427,46 +18366,31 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[15912] = {
-			[36638] = {
+		[20550] = {
+			[50174] = {
 				["classes"] = 2182,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Beth'tilac",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player (Heroic)", -- [1]
-							"25 Player (Heroic)", -- [2]
-						},
-						["instance"] = "Firelands",
-					}, -- [1]
-				},
-			},
-		},
-		[19102] = {
-			[44993] = {
-				["classes"] = 2182,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Tsulong",
+						["encounter"] = "Jin'rokh the Breaker",
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
 						["difficulties"] = {
-							"10 Player (Heroic)", -- [1]
-							"25 Player (Heroic)", -- [2]
+							"Looking For Raid", -- [1]
 						},
-						["instance"] = "Terrace of Endless Spring",
+						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
+			},
+		},
+		[570] = {
+			[29751] = {
+				["classes"] = 2182,
+				["sourceType"] = 2,
+				["faction"] = 1,
 			},
 		},
 		[20132] = {
@@ -18501,11 +18425,23 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[2786] = {
-			[3273] = {
+		[16222] = {
+			[37343] = {
 				["classes"] = 2182,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
 				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Archbishop Benedictus",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Hour of Twilight",
+					}, -- [1]
+				},
 			},
 		},
 		[6588] = {
@@ -18529,9 +18465,10 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[32444] = {
-			[82063] = {
+		[9595] = {
+			[17264] = {
 				["classes"] = 2182,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -18542,28 +18479,10 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[22264] = {
-			[61106] = {
+		[14214] = {
+			[30411] = {
 				["classes"] = 2182,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Rukhran",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Skyreach",
-					}, -- [1]
-				},
-			},
-			[67866] = {
-				["classes"] = 2182,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -18584,17 +18503,17 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[21793] = {
-			[90841] = {
-				["classes"] = 132,
+		[8147] = {
+			[14247] = {
+				["classes"] = 2182,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
-		[14214] = {
-			[30411] = {
+		[3306] = {
+			[10144] = {
 				["classes"] = 2182,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -18605,21 +18524,21 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[7137] = {
-			[12387] = {
+		[21330] = {
+			[61699] = {
 				["classes"] = 2182,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 1,
-						["encounter"] = "Commander Sarannis",
+						["instanceType"] = 2,
+						["encounter"] = "General Nazgrim",
 						["tiers"] = {
-							"Burning Crusade", -- [1]
+							"Mists of Pandaria", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "The Botanica",
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 			},
@@ -18651,30 +18570,35 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[8147] = {
-			[14247] = {
-				["classes"] = 2182,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[7127] = {
-			[14738] = {
+		[5592] = {
+			[13008] = {
 				["classes"] = 2182,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
+			[13677] = {
+				["classes"] = 2182,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[7127] = {
 			[12383] = {
 				["classes"] = 2182,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[12373] = {
+			[14738] = {
 				["classes"] = 2182,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[14713] = {
+				["classes"] = 2182,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[12373] = {
 				["classes"] = 2182,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -18725,10 +18649,10 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[11208] = {
-			[21430] = {
+		[22384] = {
+			[81592] = {
 				["classes"] = 2182,
-				["sourceType"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -18744,29 +18668,29 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[21330] = {
-			[61699] = {
+		[7137] = {
+			[12387] = {
 				["classes"] = 2182,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 2,
-						["encounter"] = "General Nazgrim",
+						["instanceType"] = 1,
+						["encounter"] = "Commander Sarannis",
 						["tiers"] = {
-							"Mists of Pandaria", -- [1]
+							"Burning Crusade", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Siege of Orgrimmar",
+						["instance"] = "The Botanica",
 					}, -- [1]
 				},
 			},
 		},
-		[7950] = {
-			[13878] = {
+		[5395] = {
+			[7635] = {
 				["classes"] = 2182,
-				["sourceType"] = 4,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 		},
@@ -18802,17 +18726,17 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[22384] = {
-			[81592] = {
+		[11208] = {
+			[21430] = {
 				["classes"] = 2182,
-				["sourceType"] = 3,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
-		[5395] = {
-			[7635] = {
+		[7950] = {
+			[13878] = {
 				["classes"] = 2182,
-				["sourceType"] = 6,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -18877,41 +18801,42 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[21418] = {
-			[61051] = {
+		[18863] = {
+			[44352] = {
 				["classes"] = 2182,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Norushen",
+						["encounter"] = "Amber-Shaper Un'sok",
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
 						["difficulties"] = {
+							"10 Player", -- [1]
+							"25 Player", -- [2]
 						},
-						["instance"] = "Siege of Orgrimmar",
+						["instance"] = "Heart of Fear",
 					}, -- [1]
 				},
 			},
 		},
-		[9719] = {
-			[17576] = {
+		[5123] = {
+			[7089] = {
 				["classes"] = 2182,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 1,
-						["encounter"] = "King Ymiron",
+						["instanceType"] = 2,
+						["encounter"] = "Golemagg the Incinerator",
 						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
+							"Classic", -- [1]
 						},
 						["difficulties"] = {
-							"Normal", -- [1]
 						},
-						["instance"] = "Utgarde Pinnacle",
+						["instance"] = "Molten Core",
 					}, -- [1]
 				},
 			},
@@ -18958,21 +18883,22 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[5123] = {
-			[7089] = {
+		[9719] = {
+			[17576] = {
 				["classes"] = 2182,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 2,
-						["encounter"] = "Golemagg the Incinerator",
+						["instanceType"] = 1,
+						["encounter"] = "King Ymiron",
 						["tiers"] = {
-							"Classic", -- [1]
+							"Wrath of the Lich King", -- [1]
 						},
 						["difficulties"] = {
+							"Normal", -- [1]
 						},
-						["instance"] = "Molten Core",
+						["instance"] = "Utgarde Pinnacle",
 					}, -- [1]
 				},
 			},
@@ -18984,27 +18910,10 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[3845] = {
-			[4850] = {
+		[580] = {
+			[492] = {
 				["classes"] = 2182,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Lord Aurius Rivendare",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Stratholme",
-					}, -- [1]
-				},
-			},
-			[69216] = {
-				["classes"] = 2182,
-				["sourceType"] = 3,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -19140,6 +19049,39 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
+		[13360] = {
+			[27057] = {
+				["classes"] = 2182,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[22249] = {
+			[62026] = {
+				["classes"] = 2182,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[65350] = {
+				["classes"] = 2182,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[14937] = {
+			[34150] = {
+				["classes"] = 2182,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[12334] = {
+			[30399] = {
+				["classes"] = 2182,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
 		[19023] = {
 			[44751] = {
 				["classes"] = 2182,
@@ -19160,48 +19102,6 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[3368] = {
-			[4100] = {
-				["classes"] = 2182,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[20133] = {
-			[49774] = {
-				["classes"] = 2182,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Iron Qon",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-							"25 Player", -- [2]
-						},
-						["instance"] = "Throne of Thunder",
-					}, -- [1]
-				},
-			},
-		},
-		[12334] = {
-			[30399] = {
-				["classes"] = 2182,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
-		[13360] = {
-			[27057] = {
-				["classes"] = 2182,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
 		[7201] = {
 			[12464] = {
 				["classes"] = 2182,
@@ -19214,15 +19114,15 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[7203] = {
-			[12466] = {
+		[17506] = {
+			[40679] = {
 				["classes"] = 2182,
-				["sourceType"] = 6,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[49477] = {
+			[41687] = {
 				["classes"] = 2182,
-				["sourceType"] = 6,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -19246,73 +19146,49 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[18129] = {
-			[42421] = {
+		[3364] = {
+			[4094] = {
 				["classes"] = 2182,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Wardens of the Dream",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Temple of Atal'hakkar",
+					}, -- [1]
+				},
+			},
+		},
+		[3892] = {
+			[7062] = {
+				["classes"] = 2182,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 		},
-		[17754] = {
-			[41172] = {
-				["classes"] = 2182,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[41581] = {
+		[3368] = {
+			[4100] = {
 				["classes"] = 2182,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
-		[10885] = {
-			[20408] = {
+		[10905] = {
+			[20457] = {
 				["classes"] = 2182,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[20409] = {
+			[20461] = {
 				["classes"] = 2182,
 				["sourceType"] = 3,
 				["faction"] = 1,
-			},
-		},
-		[13460] = {
-			[27431] = {
-				["classes"] = 2182,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "High Prophet Barim",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Lost City of the Tol'vir",
-					}, -- [1]
-				},
-			},
-			[27702] = {
-				["classes"] = 2182,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "High Prophet Barim",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Lost City of the Tol'vir",
-					}, -- [1]
-				},
 			},
 		},
 		[14925] = {
@@ -19384,11 +19260,25 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[14937] = {
-			[34150] = {
+		[20133] = {
+			[49774] = {
 				["classes"] = 2182,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
 				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Iron Qon",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+							"25 Player", -- [2]
+						},
+						["instance"] = "Throne of Thunder",
+					}, -- [1]
+				},
 			},
 		},
 		[18097] = {
@@ -19415,22 +19305,22 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[10350] = {
-			[19392] = {
+		[11372] = {
+			[21772] = {
 				["classes"] = 2182,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Kel'Thuzad",
+						["encounter"] = "Razorscale",
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
 						["difficulties"] = {
-							"25 Player", -- [1]
+							"10 Player", -- [1]
 						},
-						["instance"] = "Naxxramas",
+						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 			},
@@ -19442,55 +19332,76 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[3364] = {
-			[4094] = {
+		[18129] = {
+			[42421] = {
+				["classes"] = 2182,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
+		[719] = {
+			[12978] = {
+				["classes"] = 2182,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[6002] = {
+				["classes"] = 2182,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[26263] = {
+				["classes"] = 2182,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[78343] = {
+				["classes"] = 2182,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[17754] = {
+			[41172] = {
+				["classes"] = 2182,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[41581] = {
+				["classes"] = 2182,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[8394] = {
+			[14939] = {
 				["classes"] = 2182,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 1,
-						["encounter"] = "Wardens of the Dream",
+						["instanceType"] = 2,
+						["encounter"] = "Mother Shahraz",
 						["tiers"] = {
-							"Classic", -- [1]
+							"Burning Crusade", -- [1]
 						},
 						["difficulties"] = {
+							"Normal", -- [1]
 						},
-						["instance"] = "The Temple of Atal'hakkar",
+						["instance"] = "Black Temple",
 					}, -- [1]
 				},
 			},
 		},
-		[9907] = {
-			[18038] = {
+		[10885] = {
+			[20408] = {
 				["classes"] = 2182,
-				["sourceType"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-		},
-		[3892] = {
-			[7062] = {
+			[20409] = {
 				["classes"] = 2182,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-		},
-		[18289] = {
-			[43100] = {
-				["classes"] = 2182,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
-		[22249] = {
-			[62026] = {
-				["classes"] = 2182,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[65350] = {
-				["classes"] = 2182,
-				["sourceType"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -19506,8 +19417,8 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[295] = {
-			[15322] = {
+		[12937] = {
+			[26084] = {
 				["classes"] = 2182,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -19558,16 +19469,42 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[10905] = {
-			[20457] = {
+		[13460] = {
+			[27431] = {
 				["classes"] = 2182,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
 				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "High Prophet Barim",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Lost City of the Tol'vir",
+					}, -- [1]
+				},
 			},
-			[20461] = {
+			[27702] = {
 				["classes"] = 2182,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
 				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "High Prophet Barim",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Lost City of the Tol'vir",
+					}, -- [1]
+				},
 			},
 		},
 		[590] = {
@@ -19610,10 +19547,10 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[21794] = {
-			[90844] = {
-				["classes"] = 132,
-				["sourceType"] = 4,
+		[6231] = {
+			[9348] = {
+				["classes"] = 2182,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 		},
@@ -19683,23 +19620,8 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[719] = {
-			[12978] = {
-				["classes"] = 2182,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[6002] = {
-				["classes"] = 2182,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[26263] = {
-				["classes"] = 2182,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[78343] = {
+		[9907] = {
+			[18038] = {
 				["classes"] = 2182,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -19724,34 +19646,22 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[6243] = {
-			[18802] = {
+		[21331] = {
+			[61698] = {
 				["classes"] = 2182,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Gothik the Harvester",
+						["encounter"] = "General Nazgrim",
 						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
+							"Mists of Pandaria", -- [1]
 						},
 						["difficulties"] = {
-							"10 Player", -- [1]
 						},
-						["instance"] = "Naxxramas",
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Gluth",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-						},
-						["instance"] = "Naxxramas",
-					}, -- [2]
 				},
 			},
 		},
@@ -19807,22 +19717,21 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[8394] = {
-			[14939] = {
+		[21355] = {
+			[61800] = {
 				["classes"] = 2182,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Mother Shahraz",
+						["encounter"] = "Spoils of Pandaria",
 						["tiers"] = {
-							"Burning Crusade", -- [1]
+							"Mists of Pandaria", -- [1]
 						},
 						["difficulties"] = {
-							"Normal", -- [1]
 						},
-						["instance"] = "Black Temple",
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 			},
@@ -19976,33 +19885,6 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[6283] = {
-			[9419] = {
-				["classes"] = 2182,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Watchkeeper Gargolmar",
-						["tiers"] = {
-							"Burning Crusade", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Hellfire Ramparts",
-					}, -- [1]
-				},
-			},
-		},
-		[1701] = {
-			[1845] = {
-				["classes"] = 2182,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
 		[12039] = {
 			[24059] = {
 				["classes"] = 2182,
@@ -20041,10 +19923,37 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[20461] = {
-			[50368] = {
+		[1701] = {
+			[1845] = {
 				["classes"] = 2182,
-				["sourceType"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
+		[6283] = {
+			[9419] = {
+				["classes"] = 2182,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Watchkeeper Gargolmar",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Hellfire Ramparts",
+					}, -- [1]
+				},
+			},
+		},
+		[1702] = {
+			[1846] = {
+				["classes"] = 2182,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -20213,24 +20122,16 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[19032] = {
-			[44769] = {
+		[492] = {
+			[364] = {
 				["classes"] = 2182,
-				["sourceType"] = 1,
+				["sourceType"] = 4,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Sha of Fear",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"Looking For Raid", -- [1]
-						},
-						["instance"] = "Terrace of Endless Spring",
-					}, -- [1]
-				},
+			},
+			[27865] = {
+				["classes"] = 2182,
+				["sourceType"] = 2,
+				["faction"] = 1,
 			},
 		},
 		[9029] = {
@@ -20250,15 +20151,15 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[492] = {
-			[364] = {
-				["classes"] = 2182,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[27865] = {
+		[13620] = {
+			[27909] = {
 				["classes"] = 2182,
 				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[44336] = {
+				["classes"] = 2182,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -20314,21 +20215,22 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[7337] = {
-			[12683] = {
+		[24174] = {
+			[62797] = {
 				["classes"] = 2182,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Netherspite",
+						["encounter"] = "Kromog",
 						["tiers"] = {
-							"Burning Crusade", -- [1]
+							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
+							"Heroic", -- [1]
 						},
-						["instance"] = "Karazhan",
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 			},
@@ -20440,6 +20342,13 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
+		[14690] = {
+			[32493] = {
+				["classes"] = 2182,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+		},
 		[11624] = {
 			[22191] = {
 				["classes"] = 2182,
@@ -20460,31 +20369,39 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[14690] = {
-			[32493] = {
-				["classes"] = 2182,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-		},
-		[430] = {
-			[300] = {
-				["classes"] = 2182,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[25276] = {
-			[71351] = {
-				["classes"] = 2182,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
 		[11125] = {
 			[21187] = {
 				["classes"] = 2182,
 				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+		},
+		[9588] = {
+			[17254] = {
+				["classes"] = 2182,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[37443] = {
+				["classes"] = 2,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
+		[9592] = {
+			[78384] = {
+				["classes"] = 2182,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[17259] = {
+				["classes"] = 2182,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[18673] = {
+				["classes"] = 2182,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -20512,31 +20429,16 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[9592] = {
-			[78384] = {
+		[430] = {
+			[300] = {
 				["classes"] = 2182,
 				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[17259] = {
-				["classes"] = 2182,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[18673] = {
-				["classes"] = 2182,
-				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
-		[9588] = {
-			[17254] = {
+		[25276] = {
+			[71351] = {
 				["classes"] = 2182,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[37443] = {
-				["classes"] = 2,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
@@ -20604,36 +20506,43 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[24174] = {
-			[62797] = {
+		[7337] = {
+			[12683] = {
 				["classes"] = 2182,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Kromog",
+						["encounter"] = "Netherspite",
 						["tiers"] = {
-							"Warlords of Draenor", -- [1]
+							"Burning Crusade", -- [1]
 						},
 						["difficulties"] = {
-							"Heroic", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
+						["instance"] = "Karazhan",
 					}, -- [1]
 				},
 			},
 		},
-		[13620] = {
-			[27909] = {
+		[19032] = {
+			[44769] = {
 				["classes"] = 2182,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
 				["faction"] = 1,
-			},
-			[44336] = {
-				["classes"] = 2182,
-				["sourceType"] = 4,
-				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Sha of Fear",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"Looking For Raid", -- [1]
+						},
+						["instance"] = "Terrace of Endless Spring",
+					}, -- [1]
+				},
 			},
 		},
 		[26386] = {
@@ -20710,10 +20619,10 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[1702] = {
-			[1846] = {
+		[20461] = {
+			[50368] = {
 				["classes"] = 2182,
-				["sourceType"] = 3,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -20814,23 +20723,11 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[21355] = {
-			[61800] = {
+		[18289] = {
+			[43100] = {
 				["classes"] = 2182,
-				["sourceType"] = 1,
+				["sourceType"] = 2,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Spoils of Pandaria",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Siege of Orgrimmar",
-					}, -- [1]
-				},
 			},
 		},
 		[6381] = {
@@ -20840,17 +20737,17 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[6231] = {
-			[9348] = {
-				["classes"] = 2182,
-				["sourceType"] = 6,
+		[21794] = {
+			[90844] = {
+				["classes"] = 132,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
-		[22265] = {
-			[67864] = {
+		[295] = {
+			[15322] = {
 				["classes"] = 2182,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -20861,41 +20758,53 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[21331] = {
-			[61698] = {
+		[6243] = {
+			[18802] = {
 				["classes"] = 2182,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "General Nazgrim",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Siege of Orgrimmar",
-					}, -- [1]
-				},
-			},
-		},
-		[11372] = {
-			[21772] = {
-				["classes"] = 2182,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Razorscale",
+						["encounter"] = "Gothik the Harvester",
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
-						["instance"] = "Ulduar",
+						["instance"] = "Naxxramas",
+					}, -- [1]
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Gluth",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+						},
+						["instance"] = "Naxxramas",
+					}, -- [2]
+				},
+			},
+		},
+		[10350] = {
+			[19392] = {
+				["classes"] = 2182,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Kel'Thuzad",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"25 Player", -- [1]
+						},
+						["instance"] = "Naxxramas",
 					}, -- [1]
 				},
 			},
@@ -20907,10 +20816,10 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[12937] = {
-			[26084] = {
+		[22265] = {
+			[67864] = {
 				["classes"] = 2182,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -20921,15 +20830,15 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[17506] = {
-			[40679] = {
+		[7203] = {
+			[12466] = {
 				["classes"] = 2182,
-				["sourceType"] = 2,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
-			[41687] = {
+			[49477] = {
 				["classes"] = 2182,
-				["sourceType"] = 4,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 		},
@@ -21015,6 +20924,42 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
+		[3845] = {
+			[4850] = {
+				["classes"] = 2182,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Lord Aurius Rivendare",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Stratholme",
+					}, -- [1]
+				},
+			},
+			[69216] = {
+				["classes"] = 2182,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
+		[307] = {
+			[560] = {
+				["classes"] = 2182,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[1383] = {
+				["classes"] = 2182,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
 		[9727] = {
 			[17593] = {
 				["classes"] = 2182,
@@ -21035,25 +20980,6 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[307] = {
-			[560] = {
-				["classes"] = 2182,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[1383] = {
-				["classes"] = 2182,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[580] = {
-			[492] = {
-				["classes"] = 2182,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
 		[435] = {
 			[305] = {
 				["classes"] = 2182,
@@ -21061,23 +20987,21 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[18863] = {
-			[44352] = {
+		[21418] = {
+			[61051] = {
 				["classes"] = 2182,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Amber-Shaper Un'sok",
+						["encounter"] = "Norushen",
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
 						["difficulties"] = {
-							"10 Player", -- [1]
-							"25 Player", -- [2]
 						},
-						["instance"] = "Heart of Fear",
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 			},
@@ -21109,20 +21033,33 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[5592] = {
-			[13008] = {
-				["classes"] = 2182,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[13677] = {
-				["classes"] = 2182,
-				["sourceType"] = 2,
+		[21793] = {
+			[90841] = {
+				["classes"] = 132,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
-		[3306] = {
-			[10144] = {
+		[22264] = {
+			[61106] = {
+				["classes"] = 2182,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Rukhran",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Skyreach",
+					}, -- [1]
+				},
+			},
+			[67866] = {
 				["classes"] = 2182,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -21188,18 +21125,31 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[9595] = {
-			[17264] = {
+		[32444] = {
+			[82063] = {
 				["classes"] = 2182,
-				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
-		[570] = {
-			[29751] = {
+		[19102] = {
+			[44993] = {
 				["classes"] = 2182,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
 				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Tsulong",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player (Heroic)", -- [1]
+							"25 Player (Heroic)", -- [2]
+						},
+						["instance"] = "Terrace of Endless Spring",
+					}, -- [1]
+				},
 			},
 		},
 		[16705] = {
@@ -21330,10 +21280,10 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[2760] = {
-			[3243] = {
+		[5512] = {
+			[13111] = {
 				["classes"] = 2182,
-				["sourceType"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -21351,22 +21301,42 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[21417] = {
-			[61050] = {
+		[1634] = {
+			[7356] = {
 				["classes"] = 2182,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 2,
-						["encounter"] = "Norushen",
+						["instanceType"] = 1,
+						["encounter"] = "Guard Mol'dar",
 						["tiers"] = {
-							"Mists of Pandaria", -- [1]
+							"Classic", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Siege of Orgrimmar",
+						["instance"] = "Dire Maul",
 					}, -- [1]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Guard Fengus",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Dire Maul",
+					}, -- [2]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Guard Slip'kik",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Dire Maul",
+					}, -- [3]
 				},
 			},
 		},
@@ -21487,44 +21457,23 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[7991] = {
-			[13951] = {
+		[25257] = {
+			[71307] = {
 				["classes"] = 2182,
-				["sourceType"] = 1,
+				["sourceType"] = 3,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Anetheron",
-						["tiers"] = {
-							"Burning Crusade", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The Battle for Mount Hyjal",
-					}, -- [1]
-				},
+			},
+			[71454] = {
+				["classes"] = 2182,
+				["sourceType"] = 3,
+				["faction"] = 1,
 			},
 		},
-		[17552] = {
-			[84390] = {
+		[4404] = {
+			[5995] = {
 				["classes"] = 2182,
-				["sourceType"] = 1,
+				["sourceType"] = 4,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Ook-Ook",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-							"Timewalking", -- [2]
-						},
-						["instance"] = "Stormstout Brewery",
-					}, -- [1]
-				},
 			},
 		},
 		[26419] = {
@@ -21579,11 +21528,23 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[22095] = {
-			[67070] = {
+		[5412] = {
+			[7663] = {
 				["classes"] = 2182,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
 				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Chromaggus",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Blackwing Lair",
+					}, -- [1]
+				},
 			},
 		},
 		[8898] = {
@@ -21668,11 +21629,24 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[3718] = {
-			[4672] = {
+		[12285] = {
+			[24532] = {
 				["classes"] = 2182,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
 				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Professor Putricide",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"25 Player", -- [1]
+						},
+						["instance"] = "Icecrown Citadel",
+					}, -- [1]
+				},
 			},
 		},
 		[7787] = {
@@ -21682,11 +21656,24 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[5376] = {
-			[7591] = {
+		[6909] = {
+			[11996] = {
 				["classes"] = 2182,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
 				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Quagmirran",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "The Slave Pens",
+					}, -- [1]
+				},
 			},
 		},
 		[22938] = {
@@ -21753,11 +21740,24 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[12716] = {
-			[25369] = {
+		[6877] = {
+			[11945] = {
 				["classes"] = 2182,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
 				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Keli'dan the Breaker",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "The Blood Furnace",
+					}, -- [1]
+				},
 			},
 		},
 		[5511] = {
@@ -22311,26 +22311,21 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[897] = {
-			[871] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[67920] = {
+		[3580] = {
+			[4465] = {
 				["classes"] = 3204,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Thruk",
+						["encounter"] = "War Master Voone",
 						["tiers"] = {
 							"Classic", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Blackfathom Deeps",
+						["instance"] = "Lower Blackrock Spire",
 					}, -- [1]
 				},
 			},
@@ -22577,21 +22572,26 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[3580] = {
-			[4465] = {
+		[897] = {
+			[871] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[67920] = {
 				["classes"] = 3204,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "War Master Voone",
+						["encounter"] = "Thruk",
 						["tiers"] = {
 							"Classic", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Lower Blackrock Spire",
+						["instance"] = "Blackfathom Deeps",
 					}, -- [1]
 				},
 			},
@@ -22710,8 +22710,8 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[9713] = {
-			[17561] = {
+		[1795] = {
+			[30883] = {
 				["classes"] = 3204,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -22895,11 +22895,24 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[22085] = {
-			[67859] = {
+		[7198] = {
+			[12460] = {
 				["classes"] = 3204,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
 				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Harbinger Skyriss",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "The Arcatraz",
+					}, -- [1]
+				},
 			},
 		},
 		[5663] = {
@@ -22927,24 +22940,11 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[7198] = {
-			[12460] = {
+		[22085] = {
+			[67859] = {
 				["classes"] = 3204,
-				["sourceType"] = 1,
+				["sourceType"] = 4,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Harbinger Skyriss",
-						["tiers"] = {
-							"Burning Crusade", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "The Arcatraz",
-					}, -- [1]
-				},
 			},
 		},
 		[9557] = {
@@ -23079,7 +23079,7 @@ MogIt_OneHandedDB = {
 			},
 		},
 		[14919] = {
-			[48849] = {
+			[33756] = {
 				["classes"] = 3204,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -23089,12 +23089,12 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[33756] = {
+			[84281] = {
 				["classes"] = 3204,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[84281] = {
+			[48849] = {
 				["classes"] = 3204,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -23117,24 +23117,11 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[11493] = {
-			[21962] = {
+		[9960] = {
+			[18266] = {
 				["classes"] = 3204,
-				["sourceType"] = 1,
+				["sourceType"] = 2,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Yogg-Saron",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"25 Player", -- [1]
-						},
-						["instance"] = "Ulduar",
-					}, -- [1]
-				},
 			},
 		},
 		[17055] = {
@@ -23158,26 +23145,24 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[1762] = {
-			[25886] = {
+		[11493] = {
+			[21962] = {
 				["classes"] = 3204,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
 				["faction"] = 1,
-			},
-			[25824] = {
-				["classes"] = 3204,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[28550] = {
-				["classes"] = 3204,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[10295] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
-				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Yogg-Saron",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"25 Player", -- [1]
+						},
+						["instance"] = "Ulduar",
+					}, -- [1]
+				},
 			},
 		},
 		[21254] = {
@@ -23281,28 +23266,41 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[14955] = {
-			[35580] = {
+		[5186] = {
+			[7176] = {
 				["classes"] = 3204,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
 				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Princess Theradras",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Maraudon",
+					}, -- [1]
+				},
 			},
 		},
-		[21255] = {
-			[61906] = {
+		[8344] = {
+			[14869] = {
 				["classes"] = 3204,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Paragons of the Klaxxi",
+						["encounter"] = "High Warlord Naj'entus",
 						["tiers"] = {
-							"Mists of Pandaria", -- [1]
+							"Burning Crusade", -- [1]
 						},
 						["difficulties"] = {
+							"Normal", -- [1]
 						},
-						["instance"] = "Siege of Orgrimmar",
+						["instance"] = "Black Temple",
 					}, -- [1]
 				},
 			},
@@ -23385,22 +23383,21 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[8344] = {
-			[14869] = {
+		[21255] = {
+			[61906] = {
 				["classes"] = 3204,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "High Warlord Naj'entus",
+						["encounter"] = "Paragons of the Klaxxi",
 						["tiers"] = {
-							"Burning Crusade", -- [1]
+							"Mists of Pandaria", -- [1]
 						},
 						["difficulties"] = {
-							"Normal", -- [1]
 						},
-						["instance"] = "Black Temple",
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 			},
@@ -23415,52 +23412,6 @@ MogIt_OneHandedDB = {
 				["classes"] = 3204,
 				["sourceType"] = 2,
 				["faction"] = 1,
-			},
-		},
-		[8364] = {
-			[14893] = {
-				["classes"] = 3204,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Gurtogg Bloodboil",
-						["tiers"] = {
-							"Burning Crusade", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Black Temple",
-					}, -- [1]
-				},
-			},
-		},
-		[25399] = {
-			[70562] = {
-				["classes"] = 3204,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
-		[2098] = {
-			[2418] = {
-				["classes"] = 3204,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Skum",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Wailing Caverns",
-					}, -- [1]
-				},
 			},
 		},
 		[3632] = {
@@ -23495,6 +23446,62 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
+		[21822] = {
+			[58951] = {
+				["classes"] = 3204,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[65340] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[78403] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[2098] = {
+			[2418] = {
+				["classes"] = 3204,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Skum",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Wailing Caverns",
+					}, -- [1]
+				},
+			},
+		},
+		[26405] = {
+			[70137] = {
+				["classes"] = 3204,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Mannoroth",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Mythic", -- [1]
+						},
+						["instance"] = "Hellfire Citadel",
+					}, -- [1]
+				},
+			},
+		},
 		[12483] = {
 			[24789] = {
 				["classes"] = 3204,
@@ -23515,20 +23522,10 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[21822] = {
-			[58951] = {
+		[10927] = {
+			[20487] = {
 				["classes"] = 3204,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[65340] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[78403] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -23628,10 +23625,29 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[18293] = {
-			[43110] = {
+		[20337] = {
+			[50881] = {
 				["classes"] = 3204,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Durumu the Forgotten",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player (Heroic)", -- [1]
+							"25 Player (Heroic)", -- [2]
+						},
+						["instance"] = "Throne of Thunder",
+					}, -- [1]
+				},
+			},
+			[50976] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -23641,17 +23657,17 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[65493] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
 			[62028] = {
 				["classes"] = 3204,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 			[66491] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[65493] = {
 				["classes"] = 3204,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -23788,6 +23804,46 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
+		[13554] = {
+			[27736] = {
+				["classes"] = 3204,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "General Umbriss",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Grim Batol",
+					}, -- [1]
+				},
+			},
+		},
+		[23507] = {
+			[62680] = {
+				["classes"] = 3204,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Oregorger",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Mythic", -- [1]
+						},
+						["instance"] = "Blackrock Foundry",
+					}, -- [1]
+				},
+			},
+		},
 		[20433] = {
 			[50222] = {
 				["classes"] = 3204,
@@ -23851,46 +23907,6 @@ MogIt_OneHandedDB = {
 				["classes"] = 3204,
 				["sourceType"] = 3,
 				["faction"] = 1,
-			},
-		},
-		[13554] = {
-			[27736] = {
-				["classes"] = 3204,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "General Umbriss",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Grim Batol",
-					}, -- [1]
-				},
-			},
-		},
-		[23507] = {
-			[62680] = {
-				["classes"] = 3204,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Oregorger",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Mythic", -- [1]
-						},
-						["instance"] = "Blackrock Foundry",
-					}, -- [1]
-				},
 			},
 		},
 		[18341] = {
@@ -24147,12 +24163,17 @@ MogIt_OneHandedDB = {
 			},
 		},
 		[1835] = {
+			[14594] = {
+				["classes"] = 3204,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
 			[69193] = {
 				["classes"] = 3204,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[14594] = {
+			[14596] = {
 				["classes"] = 3204,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -24160,11 +24181,6 @@ MogIt_OneHandedDB = {
 			[2030] = {
 				["classes"] = 3204,
 				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[14596] = {
-				["classes"] = 3204,
-				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -24263,24 +24279,11 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[6837] = {
-			[11895] = {
+		[22174] = {
+			[65494] = {
 				["classes"] = 3204,
-				["sourceType"] = 1,
+				["sourceType"] = 4,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Epoch Hunter",
-						["tiers"] = {
-							"Burning Crusade", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Old Hillsbrad Foothills",
-					}, -- [1]
-				},
 			},
 		},
 		[665] = {
@@ -24306,6 +24309,11 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
+			[17588] = {
+				["classes"] = 3204,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
 			[45675] = {
 				["classes"] = 3204,
 				["sourceType"] = 1,
@@ -24324,11 +24332,6 @@ MogIt_OneHandedDB = {
 						["instance"] = "Scarlet Halls",
 					}, -- [1]
 				},
-			},
-			[17588] = {
-				["classes"] = 3204,
-				["sourceType"] = 2,
-				["faction"] = 1,
 			},
 			[18275] = {
 				["classes"] = 3204,
@@ -24363,32 +24366,6 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[7352] = {
-			[12715] = {
-				["classes"] = 3204,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Prince Malchezaar",
-						["tiers"] = {
-							"Burning Crusade", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Karazhan",
-					}, -- [1]
-				},
-			},
-		},
-		[22174] = {
-			[65494] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
 		[26278] = {
 			[70123] = {
 				["classes"] = 3204,
@@ -24405,6 +24382,45 @@ MogIt_OneHandedDB = {
 							"Normal", -- [1]
 						},
 						["instance"] = "Hellfire Citadel",
+					}, -- [1]
+				},
+			},
+		},
+		[6837] = {
+			[11895] = {
+				["classes"] = 3204,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Epoch Hunter",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Old Hillsbrad Foothills",
+					}, -- [1]
+				},
+			},
+		},
+		[7352] = {
+			[12715] = {
+				["classes"] = 3204,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Prince Malchezaar",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Karazhan",
 					}, -- [1]
 				},
 			},
@@ -24598,21 +24614,23 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[21256] = {
-			[61905] = {
+		[20234] = {
+			[50906] = {
 				["classes"] = 3204,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Paragons of the Klaxxi",
+						["encounter"] = "Dark Animus",
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
 						["difficulties"] = {
+							"10 Player (Heroic)", -- [1]
+							"25 Player (Heroic)", -- [2]
 						},
-						["instance"] = "Siege of Orgrimmar",
+						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 			},
@@ -24621,18 +24639,6 @@ MogIt_OneHandedDB = {
 			[901] = {
 				["classes"] = 3204,
 				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[22302] = {
-			[80291] = {
-				["classes"] = 3204,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[81577] = {
-				["classes"] = 3204,
-				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -24652,7 +24658,7 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[28200] = {
+			[29922] = {
 				["classes"] = 3204,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -24667,16 +24673,21 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[29922] = {
+			[28200] = {
 				["classes"] = 3204,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
-		[13219] = {
-			[26822] = {
+		[22302] = {
+			[80291] = {
 				["classes"] = 3204,
-				["sourceType"] = 6,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[81577] = {
+				["classes"] = 3204,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -24698,6 +24709,13 @@ MogIt_OneHandedDB = {
 						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
+			},
+		},
+		[13219] = {
+			[26822] = {
+				["classes"] = 3204,
+				["sourceType"] = 6,
+				["faction"] = 1,
 			},
 		},
 		[12712] = {
@@ -24732,11 +24750,25 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[8778] = {
-			[15636] = {
+		[17013] = {
+			[39851] = {
 				["classes"] = 3204,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
 				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Madness of Deathwing",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player (Heroic)", -- [1]
+							"25 Player (Heroic)", -- [2]
+						},
+						["instance"] = "Dragon Soul",
+					}, -- [1]
+				},
 			},
 		},
 		[15822] = {
@@ -24998,54 +25030,23 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[24167] = {
-			[62768] = {
+		[8778] = {
+			[15636] = {
 				["classes"] = 3204,
-				["sourceType"] = 1,
+				["sourceType"] = 3,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Flamebender Ka'graz",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Blackrock Foundry",
-					}, -- [1]
-				},
 			},
 		},
 		[9690] = {
-			[21303] = {
-				["classes"] = 3204,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
 			[18033] = {
 				["classes"] = 3204,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[17644] = {
+			[21303] = {
 				["classes"] = 3204,
-				["sourceType"] = 1,
+				["sourceType"] = 2,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Skarvald & Dalronn",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Utgarde Keep",
-					}, -- [1]
-				},
 			},
 			[17491] = {
 				["classes"] = 3204,
@@ -25062,6 +25063,24 @@ MogIt_OneHandedDB = {
 							"Normal", -- [1]
 						},
 						["instance"] = "The Oculus",
+					}, -- [1]
+				},
+			},
+			[17644] = {
+				["classes"] = 3204,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Skarvald & Dalronn",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Utgarde Keep",
 					}, -- [1]
 				},
 			},
@@ -25107,7 +25126,7 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[48545] = {
+			[58400] = {
 				["classes"] = 3204,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -25117,12 +25136,12 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[58580] = {
+			[48545] = {
 				["classes"] = 3204,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[58400] = {
+			[58580] = {
 				["classes"] = 3204,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -25349,8 +25368,13 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[11271] = {
-			[21642] = {
+		[16381] = {
+			[37663] = {
+				["classes"] = 3204,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[37669] = {
 				["classes"] = 3204,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -25368,13 +25392,8 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[16381] = {
-			[37663] = {
-				["classes"] = 3204,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[37669] = {
+		[11271] = {
+			[21642] = {
 				["classes"] = 3204,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -25387,39 +25406,82 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[10888] = {
-			[20423] = {
+		[9866] = {
+			[17935] = {
 				["classes"] = 3204,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
 				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Sjonnir the Ironshaper",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Halls of Stone",
+					}, -- [1]
+				},
 			},
-			[20427] = {
-				["classes"] = 3204,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[20431] = {
-				["classes"] = 3204,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
-		[22175] = {
-			[65477] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[66506] = {
+			[59034] = {
 				["classes"] = 3204,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
-		[14944] = {
-			[34202] = {
+		[7476] = {
+			[12984] = {
+				["classes"] = 3204,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
+		[9323] = {
+			[17415] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[17539] = {
 				["classes"] = 3204,
 				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[20757] = {
+				["classes"] = 3204,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[21226] = {
+				["classes"] = 3204,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[21230] = {
+				["classes"] = 3204,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[17222] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[16630] = {
+				["classes"] = 3204,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[18307] = {
+				["classes"] = 3204,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[17215] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -25449,10 +25511,10 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[22566] = {
-			[64524] = {
+		[15898] = {
+			[36614] = {
 				["classes"] = 3204,
-				["sourceType"] = 3,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -25482,20 +25544,20 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[1878] = {
-			[10109] = {
+		[10888] = {
+			[20423] = {
 				["classes"] = 3204,
-				["sourceType"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[29263] = {
+			[20427] = {
 				["classes"] = 3204,
-				["sourceType"] = 2,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[2112] = {
+			[20431] = {
 				["classes"] = 3204,
-				["sourceType"] = 6,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -25548,24 +25610,21 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[12349] = {
-			[24602] = {
+		[8772] = {
+			[15627] = {
 				["classes"] = 3204,
-				["sourceType"] = 1,
+				["sourceType"] = 3,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Valithria Dreamwalker",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"25 Player", -- [1]
-						},
-						["instance"] = "Icecrown Citadel",
-					}, -- [1]
-				},
+			},
+			[15629] = {
+				["classes"] = 3204,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[15653] = {
+				["classes"] = 3204,
+				["sourceType"] = 3,
+				["faction"] = 1,
 			},
 		},
 		[1614] = {
@@ -25598,11 +25657,23 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[7502] = {
-			[13020] = {
+		[8856] = {
+			[15787] = {
 				["classes"] = 3204,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
 				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "The Eredar Twins",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Sunwell Plateau",
+					}, -- [1]
+				},
 			},
 		},
 		[1733] = {
@@ -25650,10 +25721,25 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[10960] = {
-			[20527] = {
+		[21888] = {
+			[65392] = {
 				["classes"] = 3204,
-				["sourceType"] = 6,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[72511] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[60399] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[62349] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -25676,27 +25762,22 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[9311] = {
-			[18262] = {
-				["classes"] = 3204,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[16618] = {
-				["classes"] = 3204,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[78383] = {
+		[2208] = {
+			[2555] = {
 				["classes"] = 3204,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
-		[7476] = {
-			[12984] = {
+		[22175] = {
+			[65477] = {
 				["classes"] = 3204,
-				["sourceType"] = 3,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[66506] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -25707,50 +25788,10 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[9323] = {
-			[17415] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[17539] = {
+		[14944] = {
+			[34202] = {
 				["classes"] = 3204,
 				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[20757] = {
-				["classes"] = 3204,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[21226] = {
-				["classes"] = 3204,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[21230] = {
-				["classes"] = 3204,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[17222] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[16630] = {
-				["classes"] = 3204,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[18307] = {
-				["classes"] = 3204,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[17215] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -25853,17 +25894,17 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[78377] = {
+			[17413] = {
 				["classes"] = 3204,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[18343] = {
+			[16649] = {
 				["classes"] = 3204,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[17413] = {
+			[78377] = {
 				["classes"] = 3204,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -25878,7 +25919,7 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[16649] = {
+			[18343] = {
 				["classes"] = 3204,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -25901,136 +25942,6 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[21784] = {
-			[90904] = {
-				["classes"] = 132,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[2226] = {
-			[2576] = {
-				["classes"] = 3204,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Roogug",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Razorfen Kraul",
-					}, -- [1]
-				},
-			},
-		},
-		[9866] = {
-			[17935] = {
-				["classes"] = 3204,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Sjonnir the Ironshaper",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Halls of Stone",
-					}, -- [1]
-				},
-			},
-			[59034] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[25401] = {
-			[73127] = {
-				["classes"] = 3204,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Hellfire Assault",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Looking For Raid", -- [1]
-						},
-						["instance"] = "Hellfire Citadel",
-					}, -- [1]
-				},
-			},
-		},
-		[12429] = {
-			[24716] = {
-				["classes"] = 3204,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "The Lich King",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"25 Player", -- [1]
-						},
-						["instance"] = "Icecrown Citadel",
-					}, -- [1]
-				},
-			},
-		},
-		[8856] = {
-			[15787] = {
-				["classes"] = 3204,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "The Eredar Twins",
-						["tiers"] = {
-							"Burning Crusade", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Sunwell Plateau",
-					}, -- [1]
-				},
-			},
-		},
-		[25465] = {
-			[73129] = {
-				["classes"] = 3204,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Kilrogg Deadeye",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Looking For Raid", -- [1]
-						},
-						["instance"] = "Hellfire Citadel",
-					}, -- [1]
-				},
-			},
-		},
 		[6995] = {
 			[12115] = {
 				["classes"] = 3204,
@@ -26049,13 +25960,6 @@ MogIt_OneHandedDB = {
 						["instance"] = "The Shattered Halls",
 					}, -- [1]
 				},
-			},
-		},
-		[25369] = {
-			[70599] = {
-				["classes"] = 3204,
-				["sourceType"] = 3,
-				["faction"] = 1,
 			},
 		},
 		[11938] = {
@@ -26096,35 +26000,20 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[26407] = {
-			[70135] = {
+		[1878] = {
+			[10109] = {
 				["classes"] = 3204,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Mannoroth",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Hellfire Citadel",
-					}, -- [1]
-				},
-			},
-		},
-		[10924] = {
-			[20483] = {
-				["classes"] = 3204,
-				["sourceType"] = 3,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[20486] = {
+			[29263] = {
 				["classes"] = 3204,
-				["sourceType"] = 3,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[2112] = {
+				["classes"] = 3204,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 		},
@@ -26206,6 +26095,158 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
+		[12429] = {
+			[24716] = {
+				["classes"] = 3204,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "The Lich King",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"25 Player", -- [1]
+						},
+						["instance"] = "Icecrown Citadel",
+					}, -- [1]
+				},
+			},
+		},
+		[20235] = {
+			[50282] = {
+				["classes"] = 3204,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Dark Animus",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"Looking For Raid", -- [1]
+						},
+						["instance"] = "Throne of Thunder",
+					}, -- [1]
+				},
+			},
+		},
+		[689] = {
+			[9258] = {
+				["classes"] = 3204,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[1948] = {
+				["classes"] = 3204,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[28110] = {
+				["classes"] = 3204,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[13463] = {
+			[27434] = {
+				["classes"] = 3204,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Lockmaw",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Lost City of the Tol'vir",
+					}, -- [1]
+				},
+			},
+			[27706] = {
+				["classes"] = 3204,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Lockmaw",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Lost City of the Tol'vir",
+					}, -- [1]
+				},
+			},
+		},
+		[25369] = {
+			[70599] = {
+				["classes"] = 3204,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
+		[2226] = {
+			[2576] = {
+				["classes"] = 3204,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Roogug",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Razorfen Kraul",
+					}, -- [1]
+				},
+			},
+		},
+		[22319] = {
+			[65506] = {
+				["classes"] = 3204,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+		},
+		[10924] = {
+			[20483] = {
+				["classes"] = 3204,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[20486] = {
+				["classes"] = 3204,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
+		[10928] = {
+			[20488] = {
+				["classes"] = 3204,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[24007] = {
+				["classes"] = 3204,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
 		[5474] = {
 			[49190] = {
 				["classes"] = 3204,
@@ -26280,35 +26321,20 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[21888] = {
-			[72511] = {
+		[10960] = {
+			[20527] = {
 				["classes"] = 3204,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[65392] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[62349] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[60399] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 		},
-		[9958] = {
-			[18254] = {
+		[2753] = {
+			[3235] = {
 				["classes"] = 3204,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[18679] = {
+			[15319] = {
 				["classes"] = 3204,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -26331,27 +26357,61 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[689] = {
-			[9258] = {
+		[25465] = {
+			[73129] = {
 				["classes"] = 3204,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
 				["faction"] = 1,
-			},
-			[1948] = {
-				["classes"] = 3204,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[28110] = {
-				["classes"] = 3204,
-				["sourceType"] = 2,
-				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Kilrogg Deadeye",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Looking For Raid", -- [1]
+						},
+						["instance"] = "Hellfire Citadel",
+					}, -- [1]
+				},
 			},
 		},
 		[11225] = {
 			[21518] = {
 				["classes"] = 3204,
 				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[9958] = {
+			[18254] = {
+				["classes"] = 3204,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[18679] = {
+				["classes"] = 3204,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[1382] = {
+			[5463] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[29288] = {
+				["classes"] = 3204,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[8077] = {
+			[14084] = {
+				["classes"] = 3204,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -26412,32 +26472,6 @@ MogIt_OneHandedDB = {
 						["instance"] = "Heart of Fear",
 					}, -- [1]
 				},
-			},
-		},
-		[11519] = {
-			[22011] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[1640] = {
-			[1765] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[2753] = {
-			[3235] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[15319] = {
-				["classes"] = 3204,
-				["sourceType"] = 2,
-				["faction"] = 1,
 			},
 		},
 		[946] = {
@@ -26515,47 +26549,55 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[9137] = {
-			[16332] = {
-				["classes"] = 3204,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[16295] = {
-				["classes"] = 3204,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[16330] = {
-				["classes"] = 3204,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
-		[22306] = {
-			[81578] = {
-				["classes"] = 3204,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
-		[15603] = {
-			[35763] = {
-				["classes"] = 3204,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
-		[1382] = {
-			[5463] = {
+		[21819] = {
+			[65357] = {
 				["classes"] = 3204,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[29288] = {
+			[62152] = {
 				["classes"] = 3204,
 				["sourceType"] = 2,
 				["faction"] = 1,
+			},
+			[65391] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[8614] = {
+			[49184] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[14581] = {
+			[32076] = {
+				["classes"] = 3204,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[7556] = {
+			[13093] = {
+				["classes"] = 3204,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Vazruden the Herald",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Hellfire Ramparts",
+					}, -- [1]
+				},
 			},
 		},
 		[8646] = {
@@ -26565,21 +26607,40 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[16218] = {
-			[37339] = {
+		[26272] = {
+			[70127] = {
 				["classes"] = 3204,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 1,
-						["encounter"] = "Archbishop Benedictus",
+						["instanceType"] = 2,
+						["encounter"] = "Kilrogg Deadeye",
 						["tiers"] = {
-							"Cataclysm", -- [1]
+							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
+							"Heroic", -- [1]
 						},
-						["instance"] = "Hour of Twilight",
+						["instance"] = "Hellfire Citadel",
+					}, -- [1]
+				},
+			},
+			[70133] = {
+				["classes"] = 3204,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Kilrogg Deadeye",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 			},
@@ -26624,10 +26685,10 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[8077] = {
-			[14084] = {
+		[1640] = {
+			[1765] = {
 				["classes"] = 3204,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -26674,24 +26735,21 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[12203] = {
-			[24420] = {
+		[9137] = {
+			[16332] = {
 				["classes"] = 3204,
-				["sourceType"] = 1,
+				["sourceType"] = 3,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Escape from Arthas",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Halls of Reflection",
-					}, -- [1]
-				},
+			},
+			[16295] = {
+				["classes"] = 3204,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[16330] = {
+				["classes"] = 3204,
+				["sourceType"] = 3,
+				["faction"] = 1,
 			},
 		},
 		[17968] = {
@@ -26706,94 +26764,50 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[9559] = {
-			[17411] = {
+		[18064] = {
+			[42251] = {
 				["classes"] = 3204,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[18671] = {
-				["classes"] = 3204,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[18271] = {
-				["classes"] = 3204,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[17216] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 		},
-		[22176] = {
-			[62101] = {
+		[12637] = {
+			[25254] = {
 				["classes"] = 3204,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[65460] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
-		[25372] = {
-			[73315] = {
+		[22306] = {
+			[81578] = {
 				["classes"] = 3204,
-				["sourceType"] = 1,
+				["sourceType"] = 3,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Mannoroth",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Looking For Raid", -- [1]
-						},
-						["instance"] = "Hellfire Citadel",
-					}, -- [1]
-				},
 			},
 		},
-		[5562] = {
-			[11912] = {
+		[16218] = {
+			[37339] = {
 				["classes"] = 3204,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Omor the Unscarred",
+						["encounter"] = "Archbishop Benedictus",
 						["tiers"] = {
-							"Burning Crusade", -- [1]
+							"Cataclysm", -- [1]
 						},
 						["difficulties"] = {
-							"Heroic", -- [1]
 						},
-						["instance"] = "Hellfire Ramparts",
+						["instance"] = "Hour of Twilight",
 					}, -- [1]
 				},
 			},
 		},
-		[9072] = {
-			[16175] = {
+		[22200] = {
+			[67326] = {
 				["classes"] = 3204,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[16222] = {
-				["classes"] = 3204,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[16225] = {
-				["classes"] = 3204,
-				["sourceType"] = 3,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -26873,32 +26887,37 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[9555] = {
-			[17210] = {
+		[6574] = {
+			[10102] = {
 				["classes"] = 3204,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[17412] = {
+			[10110] = {
 				["classes"] = 3204,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[17218] = {
+		},
+		[9559] = {
+			[17411] = {
 				["classes"] = 3204,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[19135] = {
+			[18671] = {
 				["classes"] = 3204,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-		},
-		[18064] = {
-			[42251] = {
+			[18271] = {
 				["classes"] = 3204,
-				["sourceType"] = 6,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[17216] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -26921,69 +26940,107 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[12637] = {
-			[25254] = {
+		[9060] = {
+			[17764] = {
+				["classes"] = 3204,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Skadi the Ruthless",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Utgarde Pinnacle",
+					}, -- [1]
+				},
+			},
+			[21366] = {
 				["classes"] = 3204,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
-		[26272] = {
-			[70127] = {
+		[5562] = {
+			[11912] = {
+				["classes"] = 3204,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Omor the Unscarred",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Hellfire Ramparts",
+					}, -- [1]
+				},
+			},
+		},
+		[10134] = {
+			[18862] = {
 				["classes"] = 3204,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Kilrogg Deadeye",
+						["encounter"] = "Kel'Thuzad",
 						["tiers"] = {
-							"Warlords of Draenor", -- [1]
+							"Wrath of the Lich King", -- [1]
 						},
 						["difficulties"] = {
-							"Heroic", -- [1]
+							"10 Player", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
-					}, -- [1]
-				},
-			},
-			[70133] = {
-				["classes"] = 3204,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Kilrogg Deadeye",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Hellfire Citadel",
+						["instance"] = "Naxxramas",
 					}, -- [1]
 				},
 			},
 		},
-		[3308] = {
-			[29454] = {
+		[9072] = {
+			[16175] = {
 				["classes"] = 3204,
-				["sourceType"] = 2,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[16222] = {
+				["classes"] = 3204,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[16225] = {
+				["classes"] = 3204,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
-		[22200] = {
-			[67326] = {
+		[8173] = {
+			[34752] = {
 				["classes"] = 3204,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-		},
-		[2302] = {
-			[10638] = {
+			[21042] = {
 				["classes"] = 3204,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[45573] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[14320] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -27054,10 +27111,25 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[1918] = {
-			[2176] = {
+		[9675] = {
+			[17406] = {
 				["classes"] = 3204,
 				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[19914] = {
+				["classes"] = 3204,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+			[19915] = {
+				["classes"] = 3204,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+			[18291] = {
+				["classes"] = 3204,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -27152,24 +27224,11 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[10134] = {
-			[18862] = {
+		[3308] = {
+			[29454] = {
 				["classes"] = 3204,
-				["sourceType"] = 1,
+				["sourceType"] = 2,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Kel'Thuzad",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-						},
-						["instance"] = "Naxxramas",
-					}, -- [1]
-				},
 			},
 		},
 		[3309] = {
@@ -27186,32 +27245,39 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[25370] = {
-			[71510] = {
+		[2800] = {
+			[3292] = {
 				["classes"] = 3204,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Viscous Fallout",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Gnomeregan",
+					}, -- [1]
+				},
+			},
+			[13379] = {
+				["classes"] = 3204,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[78347] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
-		[8173] = {
-			[14320] = {
+		[9687] = {
+			[17477] = {
 				["classes"] = 3204,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[21042] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[34752] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[45573] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -27222,23 +27288,11 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[3846] = {
-			[4851] = {
+		[6662] = {
+			[10299] = {
 				["classes"] = 3204,
-				["sourceType"] = 1,
+				["sourceType"] = 4,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Lord Aurius Rivendare",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Stratholme",
-					}, -- [1]
-				},
 			},
 		},
 		[25402] = {
@@ -27248,10 +27302,15 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[6113] = {
-			[9049] = {
+		[5602] = {
+			[14070] = {
 				["classes"] = 3204,
 				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[16097] = {
+				["classes"] = 3204,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -27307,120 +27366,85 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[9675] = {
-			[18291] = {
-				["classes"] = 3204,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[17406] = {
+		[1918] = {
+			[2176] = {
 				["classes"] = 3204,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[19915] = {
+		},
+		[14789] = {
+			[32965] = {
+				["classes"] = 3204,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[6660] = {
+			[10297] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[12242] = {
+			[24468] = {
+				["classes"] = 3204,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Lady Deathwhisper",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"25 Player", -- [1]
+						},
+						["instance"] = "Icecrown Citadel",
+					}, -- [1]
+				},
+			},
+		},
+		[708] = {
+			[7633] = {
 				["classes"] = 3204,
 				["sourceType"] = 6,
 				["faction"] = 1,
 			},
-			[19914] = {
+			[636] = {
 				["classes"] = 3204,
-				["sourceType"] = 6,
+				["sourceType"] = 4,
 				["faction"] = 1,
+			},
+			[10105] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[7203] = {
+				["classes"] = 3204,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Lord Vyletongue",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Maraudon",
+					}, -- [1]
+				},
 			},
 		},
-		[21881] = {
-			[61859] = {
+		[8210] = {
+			[14412] = {
 				["classes"] = 3204,
 				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[64177] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[64185] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[64193] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[64201] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[64209] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[64217] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[61128] = {
-				["classes"] = 3204,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[65538] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[66384] = {
-				["classes"] = 3204,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[63763] = {
-				["classes"] = 3204,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[65476] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[64365] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[3334] = {
-			[27468] = {
-				["classes"] = 3204,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
-		[9687] = {
-			[17477] = {
-				["classes"] = 3204,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
-		[6662] = {
-			[10299] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[18432] = {
-			[47872] = {
-				["classes"] = 3204,
-				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -27469,8 +27493,8 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[579] = {
-			[491] = {
+		[20412] = {
+			[49565] = {
 				["classes"] = 3204,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -27607,44 +27631,27 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[6660] = {
-			[10297] = {
+		[10749] = {
+			[20180] = {
 				["classes"] = 3204,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
-		[708] = {
-			[7633] = {
-				["classes"] = 3204,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-			[7203] = {
-				["classes"] = 3204,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Lord Vyletongue",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Maraudon",
-					}, -- [1]
-				},
-			},
-			[636] = {
+		[17897] = {
+			[41638] = {
 				["classes"] = 3204,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[10105] = {
+			[41691] = {
 				["classes"] = 3204,
 				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[46774] = {
+				["classes"] = 3204,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -27662,17 +27669,17 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[8210] = {
-			[14412] = {
+		[18432] = {
+			[47872] = {
 				["classes"] = 3204,
-				["sourceType"] = 2,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
-		[709] = {
-			[637] = {
+		[8214] = {
+			[14428] = {
 				["classes"] = 3204,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -27707,30 +27714,17 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[17011] = {
-			[39860] = {
-				["classes"] = 3204,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Madness of Deathwing",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"Looking For Raid", -- [1]
-						},
-						["instance"] = "Dragon Soul",
-					}, -- [1]
-				},
-			},
-		},
-		[12322] = {
-			[26083] = {
+		[8266] = {
+			[14593] = {
 				["classes"] = 3204,
 				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[15899] = {
+			[84236] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -27761,11 +27755,24 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[8266] = {
-			[14593] = {
+		[17011] = {
+			[39860] = {
 				["classes"] = 3204,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
 				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Madness of Deathwing",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"Looking For Raid", -- [1]
+						},
+						["instance"] = "Dragon Soul",
+					}, -- [1]
+				},
 			},
 		},
 		[3348] = {
@@ -27928,13 +27935,6 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[18057] = {
-			[42244] = {
-				["classes"] = 3204,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-		},
 		[14921] = {
 			[34059] = {
 				["classes"] = 3204,
@@ -27942,76 +27942,55 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
+		[713] = {
+			[10107] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[32727] = {
+				["classes"] = 3204,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Glubtok",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+							"Classic", -- [2]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Deadmines",
+					}, -- [1]
+				},
+			},
+			[642] = {
+				["classes"] = 3204,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Glubtok",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+							"Classic", -- [2]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Deadmines",
+					}, -- [1]
+				},
+			},
+		},
 		[13745] = {
 			[28620] = {
 				["classes"] = 3204,
 				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
-		[26273] = {
-			[70128] = {
-				["classes"] = 3204,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Kilrogg Deadeye",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Mythic", -- [1]
-						},
-						["instance"] = "Hellfire Citadel",
-					}, -- [1]
-				},
-			},
-			[70134] = {
-				["classes"] = 3204,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Kilrogg Deadeye",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Mythic", -- [1]
-						},
-						["instance"] = "Hellfire Citadel",
-					}, -- [1]
-				},
-			},
-		},
-		[19103] = {
-			[44995] = {
-				["classes"] = 3204,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Lei Shi",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player (Heroic)", -- [1]
-							"25 Player (Heroic)", -- [2]
-						},
-						["instance"] = "Terrace of Endless Spring",
-					}, -- [1]
-				},
-			},
-		},
-		[22177] = {
-			[65443] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -28056,6 +28035,54 @@ MogIt_OneHandedDB = {
 							"Timewalking", -- [2]
 						},
 						["instance"] = "Siege of Niuzao Temple",
+					}, -- [1]
+				},
+			},
+		},
+		[19103] = {
+			[44995] = {
+				["classes"] = 3204,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Lei Shi",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player (Heroic)", -- [1]
+							"25 Player (Heroic)", -- [2]
+						},
+						["instance"] = "Terrace of Endless Spring",
+					}, -- [1]
+				},
+			},
+		},
+		[22177] = {
+			[65443] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[10342] = {
+			[19379] = {
+				["classes"] = 3204,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Sapphiron",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"25 Player", -- [1]
+						},
+						["instance"] = "Naxxramas",
 					}, -- [1]
 				},
 			},
@@ -28115,9 +28142,9 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[29894] = {
+			[27044] = {
 				["classes"] = 3204,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 			[27040] = {
@@ -28125,9 +28152,9 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[27044] = {
+			[29894] = {
 				["classes"] = 3204,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 			[29891] = {
@@ -28153,21 +28180,24 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[2346] = {
-			[76896] = {
+		[11396] = {
+			[21800] = {
 				["classes"] = 3204,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
 				["faction"] = 1,
-			},
-			[9245] = {
-				["classes"] = 3204,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[28459] = {
-				["classes"] = 3204,
-				["sourceType"] = 2,
-				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "The Assembly of Iron",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+						},
+						["instance"] = "Ulduar",
+					}, -- [1]
+				},
 			},
 		},
 		[588] = {
@@ -28194,41 +28224,49 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[11396] = {
-			[21800] = {
+		[7750] = {
+			[13464] = {
+				["classes"] = 3204,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[17147] = {
+			[39793] = {
 				["classes"] = 3204,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "The Assembly of Iron",
+						["encounter"] = "Yor'sahj the Unsleeping",
 						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
+							"Cataclysm", -- [1]
 						},
 						["difficulties"] = {
-							"10 Player", -- [1]
+							"Looking For Raid", -- [1]
 						},
-						["instance"] = "Ulduar",
+						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
 			},
-		},
-		[10889] = {
-			[20432] = {
+			[39802] = {
 				["classes"] = 3204,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
 				["faction"] = 1,
-			},
-			[20424] = {
-				["classes"] = 3204,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[20428] = {
-				["classes"] = 3204,
-				["sourceType"] = 3,
-				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Hagara the Stormbinder",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"Looking For Raid", -- [1]
+						},
+						["instance"] = "Dragon Soul",
+					}, -- [1]
+				},
 			},
 		},
 		[589] = {
@@ -28238,23 +28276,21 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[21251] = {
-			[61684] = {
+		[359] = {
+			[33145] = {
 				["classes"] = 3204,
-				["sourceType"] = 1,
+				["sourceType"] = 2,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "General Nazgrim",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Siege of Orgrimmar",
-					}, -- [1]
-				},
+			},
+			[60339] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[224] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
+				["faction"] = 1,
 			},
 		},
 		[20592] = {
@@ -28264,10 +28300,27 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[6237] = {
-			[9355] = {
+		[3378] = {
+			[4112] = {
 				["classes"] = 3204,
-				["sourceType"] = 6,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Shade of Eranikus",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Temple of Atal'hakkar",
+					}, -- [1]
+				},
+			},
+			[10104] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -28298,21 +28351,45 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[7255] = {
-			[12527] = {
+		[11939] = {
+			[23123] = {
 				["classes"] = 3204,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Moroes",
+						["encounter"] = "Twin Val'kyr",
 						["tiers"] = {
-							"Burning Crusade", -- [1]
+							"Wrath of the Lich King", -- [1]
 						},
 						["difficulties"] = {
+							"10 Player (Heroic)", -- [1]
 						},
-						["instance"] = "Karazhan",
+						["instance"] = "Trial of the Crusader",
+					}, -- [1]
+				},
+			},
+			[46956] = {
+				["classes"] = 3204,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[22952] = {
+				["classes"] = 3204,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Twin Val'kyr",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -28324,27 +28401,10 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[3378] = {
-			[4112] = {
+		[6237] = {
+			[9355] = {
 				["classes"] = 3204,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Shade of Eranikus",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The Temple of Atal'hakkar",
-					}, -- [1]
-				},
-			},
-			[10104] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 		},
@@ -28407,11 +28467,24 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[6758] = {
-			[10576] = {
+		[23902] = {
+			[62614] = {
 				["classes"] = 3204,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
 				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Ko'ragh",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Highmaul",
+					}, -- [1]
+				},
 			},
 		},
 		[11460] = {
@@ -28732,24 +28805,11 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[23902] = {
-			[62614] = {
+		[6758] = {
+			[10576] = {
 				["classes"] = 3204,
-				["sourceType"] = 1,
+				["sourceType"] = 2,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Ko'ragh",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Highmaul",
-					}, -- [1]
-				},
 			},
 		},
 		[12562] = {
@@ -28772,45 +28832,21 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[11939] = {
-			[23123] = {
+		[7255] = {
+			[12527] = {
 				["classes"] = 3204,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Twin Val'kyr",
+						["encounter"] = "Moroes",
 						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
+							"Burning Crusade", -- [1]
 						},
 						["difficulties"] = {
-							"10 Player (Heroic)", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
-					}, -- [1]
-				},
-			},
-			[46956] = {
-				["classes"] = 3204,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[22952] = {
-				["classes"] = 3204,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Twin Val'kyr",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-						},
-						["instance"] = "Trial of the Crusader",
+						["instance"] = "Karazhan",
 					}, -- [1]
 				},
 			},
@@ -28880,84 +28916,93 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[17147] = {
-			[39793] = {
+		[10889] = {
+			[20432] = {
 				["classes"] = 3204,
-				["sourceType"] = 1,
+				["sourceType"] = 3,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Yor'sahj the Unsleeping",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"Looking For Raid", -- [1]
-						},
-						["instance"] = "Dragon Soul",
-					}, -- [1]
-				},
 			},
-			[39802] = {
+			[20424] = {
 				["classes"] = 3204,
-				["sourceType"] = 1,
+				["sourceType"] = 3,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Hagara the Stormbinder",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"Looking For Raid", -- [1]
-						},
-						["instance"] = "Dragon Soul",
-					}, -- [1]
-				},
+			},
+			[20428] = {
+				["classes"] = 3204,
+				["sourceType"] = 3,
+				["faction"] = 1,
 			},
 		},
-		[7750] = {
-			[13464] = {
+		[2346] = {
+			[76896] = {
+				["classes"] = 3204,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[9245] = {
+				["classes"] = 3204,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[28459] = {
 				["classes"] = 3204,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
-		[359] = {
-			[33145] = {
-				["classes"] = 3204,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[60339] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[224] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[10342] = {
-			[19379] = {
+		[21251] = {
+			[61684] = {
 				["classes"] = 3204,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Sapphiron",
+						["encounter"] = "General Nazgrim",
 						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
+							"Mists of Pandaria", -- [1]
 						},
 						["difficulties"] = {
-							"25 Player", -- [1]
 						},
-						["instance"] = "Naxxramas",
+						["instance"] = "Siege of Orgrimmar",
+					}, -- [1]
+				},
+			},
+		},
+		[26273] = {
+			[70128] = {
+				["classes"] = 3204,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Kilrogg Deadeye",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Mythic", -- [1]
+						},
+						["instance"] = "Hellfire Citadel",
+					}, -- [1]
+				},
+			},
+			[70134] = {
+				["classes"] = 3204,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Kilrogg Deadeye",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Mythic", -- [1]
+						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 			},
@@ -28969,49 +29014,11 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[713] = {
-			[10107] = {
+		[18057] = {
+			[42244] = {
 				["classes"] = 3204,
-				["sourceType"] = 4,
+				["sourceType"] = 6,
 				["faction"] = 1,
-			},
-			[32727] = {
-				["classes"] = 3204,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Glubtok",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-							"Classic", -- [2]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Deadmines",
-					}, -- [1]
-				},
-			},
-			[642] = {
-				["classes"] = 3204,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Glubtok",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-							"Classic", -- [2]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Deadmines",
-					}, -- [1]
-				},
 			},
 		},
 		[14388] = {
@@ -29048,10 +29055,10 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[15899] = {
-			[84236] = {
+		[12322] = {
+			[26083] = {
 				["classes"] = 3204,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -29061,12 +29068,12 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[31285] = {
+			[10447] = {
 				["classes"] = 3204,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[10447] = {
+			[31285] = {
 				["classes"] = 3204,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -29100,9 +29107,9 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[19136] = {
+			[17414] = {
 				["classes"] = 3204,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 			[18287] = {
@@ -29115,9 +29122,9 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[17414] = {
+			[40798] = {
 				["classes"] = 3204,
-				["sourceType"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[17408] = {
@@ -29125,9 +29132,9 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[40798] = {
+			[19136] = {
 				["classes"] = 3204,
-				["sourceType"] = 3,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -29152,32 +29159,34 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[8214] = {
-			[14428] = {
-				["classes"] = 3204,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
-		[17897] = {
-			[41638] = {
+		[709] = {
+			[637] = {
 				["classes"] = 3204,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[41691] = {
+		},
+		[3846] = {
+			[4851] = {
 				["classes"] = 3204,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
 				["faction"] = 1,
-			},
-			[46774] = {
-				["classes"] = 3204,
-				["sourceType"] = 2,
-				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Lord Aurius Rivendare",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Stratholme",
+					}, -- [1]
+				},
 			},
 		},
-		[10749] = {
-			[20180] = {
+		[3334] = {
+			[27468] = {
 				["classes"] = 3204,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -29227,31 +29236,18 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[20412] = {
-			[49565] = {
+		[579] = {
+			[491] = {
 				["classes"] = 3204,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
-		[12242] = {
-			[24468] = {
+		[2302] = {
+			[10638] = {
 				["classes"] = 3204,
-				["sourceType"] = 1,
+				["sourceType"] = 2,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Lady Deathwhisper",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"25 Player", -- [1]
-						},
-						["instance"] = "Icecrown Citadel",
-					}, -- [1]
-				},
 			},
 		},
 		[19671] = {
@@ -29261,29 +29257,89 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[14789] = {
-			[32965] = {
+		[21881] = {
+			[61859] = {
 				["classes"] = 3204,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
+			[64177] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[64185] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[64193] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[64201] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[64209] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[64217] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[61128] = {
+				["classes"] = 3204,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[65538] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[66384] = {
+				["classes"] = 3204,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[63763] = {
+				["classes"] = 3204,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[65476] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[64365] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
 		},
-		[6343] = {
-			[9513] = {
+		[12159] = {
+			[24369] = {
 				["classes"] = 3204,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Mennu the Betrayer",
+						["encounter"] = "Devourer of Souls",
 						["tiers"] = {
-							"Burning Crusade", -- [1]
+							"Wrath of the Lich King", -- [1]
 						},
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "The Slave Pens",
+						["instance"] = "The Forge of Souls",
 					}, -- [1]
 				},
 			},
@@ -29314,44 +29370,17 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[5602] = {
-			[14070] = {
+		[6113] = {
+			[9049] = {
 				["classes"] = 3204,
 				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[16097] = {
-				["classes"] = 3204,
-				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
-		[2800] = {
-			[3292] = {
+		[25370] = {
+			[71510] = {
 				["classes"] = 3204,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Viscous Fallout",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Gnomeregan",
-					}, -- [1]
-				},
-			},
-			[13379] = {
-				["classes"] = 3204,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[78347] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -29398,22 +29427,22 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[12159] = {
-			[24369] = {
+		[6343] = {
+			[9513] = {
 				["classes"] = 3204,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Devourer of Souls",
+						["encounter"] = "Mennu the Betrayer",
 						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
+							"Burning Crusade", -- [1]
 						},
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "The Forge of Souls",
+						["instance"] = "The Slave Pens",
 					}, -- [1]
 				},
 			},
@@ -29425,65 +29454,78 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[8614] = {
-			[49184] = {
+		[25372] = {
+			[73315] = {
+				["classes"] = 3204,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Mannoroth",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Looking For Raid", -- [1]
+						},
+						["instance"] = "Hellfire Citadel",
+					}, -- [1]
+				},
+			},
+		},
+		[22176] = {
+			[62101] = {
+				["classes"] = 3204,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[65460] = {
 				["classes"] = 3204,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
-		[9060] = {
-			[17764] = {
+		[9555] = {
+			[17210] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[17412] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[17218] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[19135] = {
+				["classes"] = 3204,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[12203] = {
+			[24420] = {
 				["classes"] = 3204,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Skadi the Ruthless",
+						["encounter"] = "Escape from Arthas",
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
 						["difficulties"] = {
-							"Heroic", -- [1]
+							"Normal", -- [1]
 						},
-						["instance"] = "Utgarde Pinnacle",
+						["instance"] = "Halls of Reflection",
 					}, -- [1]
 				},
-			},
-			[21366] = {
-				["classes"] = 3204,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
-		[6574] = {
-			[10102] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[10110] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[21819] = {
-			[65357] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[62152] = {
-				["classes"] = 3204,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[65391] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
-				["faction"] = 1,
 			},
 		},
 		[18761] = {
@@ -29638,30 +29680,17 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[7556] = {
-			[13093] = {
+		[11519] = {
+			[22011] = {
 				["classes"] = 3204,
-				["sourceType"] = 1,
+				["sourceType"] = 4,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Vazruden the Herald",
-						["tiers"] = {
-							"Burning Crusade", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Hellfire Ramparts",
-					}, -- [1]
-				},
 			},
 		},
-		[14581] = {
-			[32076] = {
+		[15603] = {
+			[35763] = {
 				["classes"] = 3204,
-				["sourceType"] = 2,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -29770,61 +29799,51 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[10928] = {
-			[20488] = {
-				["classes"] = 3204,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[24007] = {
-				["classes"] = 3204,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
-		[22319] = {
-			[65506] = {
-				["classes"] = 3204,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-		},
-		[13463] = {
-			[27434] = {
+		[25401] = {
+			[73127] = {
 				["classes"] = 3204,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 1,
-						["encounter"] = "Lockmaw",
+						["instanceType"] = 2,
+						["encounter"] = "Hellfire Assault",
 						["tiers"] = {
-							"Cataclysm", -- [1]
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Looking For Raid", -- [1]
+						},
+						["instance"] = "Hellfire Citadel",
+					}, -- [1]
+				},
+			},
+		},
+		[26407] = {
+			[70135] = {
+				["classes"] = 3204,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Mannoroth",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Lost City of the Tol'vir",
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 			},
-			[27706] = {
-				["classes"] = 3204,
-				["sourceType"] = 1,
+		},
+		[21784] = {
+			[90904] = {
+				["classes"] = 132,
+				["sourceType"] = 4,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Lockmaw",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Lost City of the Tol'vir",
-					}, -- [1]
-				},
 			},
 		},
 		[22985] = {
@@ -29879,24 +29898,11 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[20235] = {
-			[50282] = {
+		[7502] = {
+			[13020] = {
 				["classes"] = 3204,
-				["sourceType"] = 1,
+				["sourceType"] = 3,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Dark Animus",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"Looking For Raid", -- [1]
-						},
-						["instance"] = "Throne of Thunder",
-					}, -- [1]
-				},
 			},
 		},
 		[26083] = {
@@ -30011,28 +30017,41 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[2208] = {
-			[2555] = {
+		[9311] = {
+			[16618] = {
+				["classes"] = 3204,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[78383] = {
 				["classes"] = 3204,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
+			[18262] = {
+				["classes"] = 3204,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
 		},
-		[8772] = {
-			[15627] = {
+		[12349] = {
+			[24602] = {
 				["classes"] = 3204,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
 				["faction"] = 1,
-			},
-			[15629] = {
-				["classes"] = 3204,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[15653] = {
-				["classes"] = 3204,
-				["sourceType"] = 3,
-				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Valithria Dreamwalker",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"25 Player", -- [1]
+						},
+						["instance"] = "Icecrown Citadel",
+					}, -- [1]
+				},
 			},
 		},
 		[12830] = {
@@ -30054,10 +30073,10 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[15898] = {
-			[36614] = {
+		[22566] = {
+			[64524] = {
 				["classes"] = 3204,
-				["sourceType"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -30159,23 +30178,22 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[17013] = {
-			[39851] = {
+		[24167] = {
+			[62768] = {
 				["classes"] = 3204,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Madness of Deathwing",
+						["encounter"] = "Flamebender Ka'graz",
 						["tiers"] = {
-							"Cataclysm", -- [1]
+							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
-							"10 Player (Heroic)", -- [1]
-							"25 Player (Heroic)", -- [2]
+							"Normal", -- [1]
 						},
-						["instance"] = "Dragon Soul",
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 			},
@@ -30265,23 +30283,21 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[20234] = {
-			[50906] = {
+		[21256] = {
+			[61905] = {
 				["classes"] = 3204,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Dark Animus",
+						["encounter"] = "Paragons of the Klaxxi",
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
 						["difficulties"] = {
-							"10 Player (Heroic)", -- [1]
-							"25 Player (Heroic)", -- [2]
 						},
-						["instance"] = "Throne of Thunder",
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 			},
@@ -30693,29 +30709,10 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[20337] = {
-			[50881] = {
+		[18293] = {
+			[43110] = {
 				["classes"] = 3204,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Durumu the Forgotten",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player (Heroic)", -- [1]
-							"25 Player (Heroic)", -- [2]
-						},
-						["instance"] = "Throne of Thunder",
-					}, -- [1]
-				},
-			},
-			[50976] = {
-				["classes"] = 3204,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -30764,29 +30761,29 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[6238] = {
-			[9356] = {
+		[25399] = {
+			[70562] = {
 				["classes"] = 3204,
-				["sourceType"] = 6,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
-		[26405] = {
-			[70137] = {
+		[8364] = {
+			[14893] = {
 				["classes"] = 3204,
 				["sourceType"] = 1,
 				["faction"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Mannoroth",
+						["encounter"] = "Gurtogg Bloodboil",
 						["tiers"] = {
-							"Warlords of Draenor", -- [1]
+							"Burning Crusade", -- [1]
 						},
 						["difficulties"] = {
-							"Mythic", -- [1]
+							"Normal", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
+						["instance"] = "Black Temple",
 					}, -- [1]
 				},
 			},
@@ -30856,10 +30853,10 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[10927] = {
-			[20487] = {
+		[6238] = {
+			[9356] = {
 				["classes"] = 3204,
-				["sourceType"] = 3,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 		},
@@ -30870,44 +30867,47 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[5186] = {
-			[7176] = {
-				["classes"] = 3204,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Princess Theradras",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Maraudon",
-					}, -- [1]
-				},
-			},
-		},
-		[9960] = {
-			[18266] = {
-				["classes"] = 3204,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
-		[3521] = {
-			[6027] = {
+		[14955] = {
+			[35580] = {
 				["classes"] = 3204,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
+		},
+		[1762] = {
+			[25886] = {
+				["classes"] = 3204,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[25824] = {
+				["classes"] = 3204,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[28550] = {
+				["classes"] = 3204,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[10295] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[3521] = {
 			[4371] = {
 				["classes"] = 3204,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[10108] = {
+				["classes"] = 3204,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[6027] = {
 				["classes"] = 3204,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -31082,8 +31082,8 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[1795] = {
-			[30883] = {
+		[9713] = {
+			[17561] = {
 				["classes"] = 3204,
 				["sourceType"] = 2,
 				["faction"] = 1,
