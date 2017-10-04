@@ -10,14 +10,6 @@ NewOpenablesProfile = {
 	["profiles"] = {
 		["Default"] = {
 			["skinButton"] = true,
-			["iconSize"] = 64,
-			["T_BLACKLIST"] = {
-				[0] = true,
-				[147348] = true,
-				[147349] = true,
-				[147350] = true,
-				[141028] = true,
-			},
 			["button"] = {
 				nil, -- [1]
 				"UIParent", -- [2]
@@ -25,6 +17,14 @@ NewOpenablesProfile = {
 				130, -- [4]
 				-489, -- [5]
 			},
+			["T_BLACKLIST"] = {
+				[0] = true,
+				[147348] = true,
+				[147349] = true,
+				[147350] = true,
+				[141028] = true,
+			},
+			["iconSize"] = 64,
 			["qb"] = {
 				"TOPLEFT", -- [1]
 				"UIParent", -- [2]
