@@ -1,5 +1,10 @@
 
 NewOpenablesProfile = {
+	["char"] = {
+		["Laurannah - Kel'Thuzad"] = {
+			["itemID"] = 153132,
+		},
+	},
 	["profileKeys"] = {
 		["Kmkarbashian - Kel'Thuzad"] = "Default",
 		["Alauranna - Kel'Thuzad"] = "Default",
@@ -10,13 +15,7 @@ NewOpenablesProfile = {
 	["profiles"] = {
 		["Default"] = {
 			["skinButton"] = true,
-			["button"] = {
-				nil, -- [1]
-				"UIParent", -- [2]
-				nil, -- [3]
-				130, -- [4]
-				-489, -- [5]
-			},
+			["iconSize"] = 64,
 			["T_BLACKLIST"] = {
 				[0] = true,
 				[147348] = true,
@@ -24,7 +23,13 @@ NewOpenablesProfile = {
 				[147350] = true,
 				[141028] = true,
 			},
-			["iconSize"] = 64,
+			["button"] = {
+				nil, -- [1]
+				"UIParent", -- [2]
+				nil, -- [3]
+				130, -- [4]
+				-489, -- [5]
+			},
 			["qb"] = {
 				"TOPLEFT", -- [1]
 				"UIParent", -- [2]
