@@ -2,13 +2,13 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
+	["_200000"] = 1000,
+	["STARTING_DISCOUNT"] = 5,
+	["_1000000"] = 2500,
 	["_5000000"] = 10000,
 	["LOG_DE_DATA_X"] = true,
-	["_1000000"] = 2500,
-	["_10000"] = 200,
 	["_500"] = 5,
-	["STARTING_DISCOUNT"] = 5,
-	["_200000"] = 1000,
+	["_10000"] = 200,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 	["Leylight Shard"] = {
@@ -375,20 +375,6 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["4623377"] = "535000:1",
 		["4604522"] = "837000:1",
 	},
-	["Inky Black Potion"] = {
-		["is"] = "124640:0:0:0:0",
-		["4591339"] = "243000:1",
-		["4595811"] = "138000:1",
-	},
-	["Felwort"] = {
-		["is"] = "124106:0:0:0:0",
-		["4573017"] = "2397500:1",
-		["4567008"] = "2895000:1",
-	},
-	["Moonfall Cowl of the Feverflare"] = {
-		["is"] = "121269:0:0:0:1812",
-		["4601374"] = "838870000:1",
-	},
 	["Defiled Augment Rune"] = {
 		["4554172"] = "3370000:1",
 		["is"] = "140587:0:0:0:0",
@@ -427,6 +413,20 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["4345168"] = "5830000:1",
 		["4575424"] = "3897500:1",
 		["4604522"] = "4057500:1",
+	},
+	["Felwort"] = {
+		["is"] = "124106:0:0:0:0",
+		["4573017"] = "2397500:1",
+		["4567008"] = "2895000:1",
+	},
+	["Inky Black Potion"] = {
+		["is"] = "124640:0:0:0:0",
+		["4591339"] = "243000:1",
+		["4595811"] = "138000:1",
+	},
+	["Moonfall Cowl of the Feverflare"] = {
+		["is"] = "121269:0:0:0:1812",
+		["4601374"] = "838870000:1",
 	},
 	["Hrydshal Cord of the Aurora"] = {
 		["is"] = "121158:0:0:0:1812",
@@ -13974,9 +13974,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2349"] = 25000099,
 			["mr"] = 25000099,
 		},
-		["Slayer's Slippers"] = {
-			["H2349"] = 56271244,
-			["mr"] = 56271244,
+		["Yak Helm of the Galeburst"] = {
+			["H2349"] = 447034,
+			["mr"] = 447034,
 		},
 		["Leystone Boots of the Aurora"] = {
 			["H2349"] = 800000,
@@ -13986,9 +13986,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2349"] = 290883974,
 			["mr"] = 290883974,
 		},
-		["Warhide Pants of the Peerless"] = {
-			["H2349"] = 5761485,
-			["mr"] = 5761485,
+		["Fire Ammonite"] = {
+			["H2349"] = 11200,
+			["mr"] = 11200,
 		},
 		["Hyperion Greaves of Dodge"] = {
 			["H2349"] = 7958964,
@@ -13998,9 +13998,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2349"] = 6849072,
 			["mr"] = 6849072,
 		},
-		["Fire Ammonite"] = {
-			["H2349"] = 11200,
-			["mr"] = 11200,
+		["Warhide Pants of the Peerless"] = {
+			["H2349"] = 5761485,
+			["mr"] = 5761485,
 		},
 		["Wisdom Carver of the Elder"] = {
 			["H2349"] = 459636,
@@ -14082,13 +14082,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2349"] = 2176,
 			["mr"] = 2176,
 		},
-		["Exalted Legplates of the Tiger"] = {
-			["H2349"] = 37680040,
-			["mr"] = 37680040,
-		},
 		["Warstrike Belt"] = {
 			["H2349"] = 19352638,
 			["mr"] = 19352638,
+		},
+		["Sting Ray Pup"] = {
+			["H2349"] = 118650000,
+			["mr"] = 118650000,
 		},
 		["Flask of Spring Blossoms"] = {
 			["H2349"] = 974902,
@@ -14118,17 +14118,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2349"] = 4999999,
 			["mr"] = 4999999,
 		},
-		["Autographed Hearthstone Card"] = {
-			["H2349"] = 465000,
-			["mr"] = 465000,
+		["JewelCraft"] = {
+			["H2349"] = 98870000,
+			["mr"] = 98870000,
 		},
 		["Blazing Cindercrawler"] = {
 			["H2349"] = 130629058,
 			["mr"] = 130629058,
 		},
-		["JewelCraft"] = {
-			["H2349"] = 98870000,
-			["mr"] = 98870000,
+		["Porcupette"] = {
+			["H2349"] = 98970000,
+			["mr"] = 98970000,
 		},
 		["Warpwind Legguards of the Aurora"] = {
 			["H2349"] = 1089339,
@@ -14619,13 +14619,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2349"] = 17478688,
 			["mr"] = 17478688,
 		},
-		["Feathermane Feather Cloak"] = {
-			["H2349"] = 15000000,
-			["mr"] = 15000000,
-		},
 		["Scrapbot Construction Kit"] = {
 			["H2349"] = 6124968,
 			["mr"] = 6124968,
+		},
+		["Coldwraith Bindings of the Whale"] = {
+			["H2349"] = 371489,
+			["mr"] = 371489,
 		},
 		["Shimmering Stave of the Eagle"] = {
 			["H2349"] = 500000,
@@ -15955,9 +15955,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2349"] = 11895000,
 			["mr"] = 11895000,
 		},
-		["Coldwraith Bindings of the Whale"] = {
-			["H2349"] = 371489,
-			["mr"] = 371489,
+		["Feathermane Feather Cloak"] = {
+			["H2349"] = 15000000,
+			["mr"] = 15000000,
 		},
 		["Petrified Sword of the Sorcerer"] = {
 			["H2349"] = 2589549,
@@ -16271,9 +16271,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2349"] = 1671702,
 			["mr"] = 1671702,
 		},
-		["Porcupette"] = {
-			["H2349"] = 98970000,
-			["mr"] = 98970000,
+		["Autographed Hearthstone Card"] = {
+			["H2349"] = 465000,
+			["mr"] = 465000,
 		},
 		["Nightmare Whelpling"] = {
 			["H2349"] = 121860000,
@@ -16295,9 +16295,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2349"] = 818990,
 			["mr"] = 818990,
 		},
-		["Sting Ray Pup"] = {
-			["H2349"] = 118650000,
-			["mr"] = 118650000,
+		["Exalted Legplates of the Tiger"] = {
+			["H2349"] = 37680040,
+			["mr"] = 37680040,
 		},
 		["Archmage Robe of Stamina"] = {
 			["H2349"] = 715617,
@@ -16347,9 +16347,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2349"] = 31589,
 			["mr"] = 31589,
 		},
-		["Yak Helm of the Galeburst"] = {
-			["H2349"] = 447034,
-			["mr"] = 447034,
+		["Slayer's Slippers"] = {
+			["H2349"] = 56271244,
+			["mr"] = 56271244,
 		},
 		["High Chief's Shield of the Monkey"] = {
 			["H2349"] = 21849992,
