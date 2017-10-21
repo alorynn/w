@@ -135,14 +135,14 @@ do
 		
 		-- Restoration Druid:
 
-		[145518] = 105, -- Genesis
+		[145518] = 105, -- Genesis --no exists
 		[145205] = 105, -- Wild Mushroom
 		[48438] = 105, -- Wild Growth
 		[740] = 105, -- Tranquility
 		[102342] = 105, -- Ironbark
 		[33763] = 105, -- Lifebloom
 		[88423] = 105, -- Nature's Cure
-		[8936] = 105, -- Regrowth
+		--[8936] = 105, -- Regrowth -overlap
 		[18562] = 105, -- Swiftmend
 		
 		-- Beast Mastery Hunter:
@@ -228,14 +228,14 @@ do
 		
 		-- Holy Paladin:
 		[156910] = 65, -- Beacon of Faith
-		[157007] = 65, -- Beacon of Insight
+		[157007] = 65, -- Beacon of Insight --nao existe mais
 		[85222] = 65, -- Light of Dawn
 		[31821] = 65, -- Devotion Aura
 		[82326] = 65, -- Holy Light
-		[148039] = 65, -- Sacred Shield
+		[148039] = 65, -- Sacred Shield --nao existe mais
 		[53563] = 65, -- Beacon of Light
-		[82327] = 65, -- Holy Radiance
-		[2812] = 65, -- Denounce
+		[82327] = 65, -- Holy Radiance --nao existe mais
+		[2812] = 65, -- Denounce --nao existe mais
 		[20473] = 65, -- Holy Shock
 		
 		-- Protection Paladin:
@@ -1570,6 +1570,34 @@ do
 			[109128]	=	"WARRIOR", --charge
 			[12880]	=	"WARRIOR", --enrage
 			--[29842]	=	"WARRIOR", --undribled wrath
+	}
+	
+	_detalhes.HardCrowdControlSpells = {
+		--> death knight
+		
+		--> deamon hunter
+		
+		--> druid
+		[33786] 	= true, -- Cyclone
+		
+		--> hunter
+		
+		--> mage
+		
+		--> monk
+		
+		--> paladin
+		
+		--> priest
+		
+		--> rogue
+		
+		--> shaman
+		
+		--> warlock
+		
+		--> warrior
+		
 	}
 	
 	-- updated on 25/04/2015 (@Tonyleila - WoWInterface)

@@ -1,4 +1,22 @@
 -- Revisions:
+--[[<p>08.10 12.10.2017</p>
+<ul>
+<li>/nop list is more verbose and /nop unlist itemID as well. Fixed printing help when /nop unlist was used even command is known and processed.</li>
+<li>Added Runed Aspirant's Band, Scroll of Forgotten Knowledge, Fel Armor Enhancement Token and Ashtongue Beacon.</li>
+<li>Workaround for possible Quest Watcher frame taint in AutoQuest.</li>
+<li>Added option to set strata for item button, issue #34 Ability to set strata.</li>
+<li>Added announce function where completion of work orders, gain in artifact points, paragon reward and others.</li>
+<li>Automatic temporary blacklist item on button when click producing any error message.</li>
+</ul>
+]]
+--[[<p>08.08 04.10.2017</p>
+<ul>
+<li>Added Mac'Aree Armor Set, Relinquished Relics, Lightforged Bulwark, Nathrezim Tome of Manipulation and Xenedar Armor Set.</li>
+<li>Removed obsolete Artifact Research Notes.</li>
+<li>Fix for ticket #35, Toggle -> Swap: Option in configuration GUI is broken.</li>
+<li>Cooldown text on buttons now corectly dismiss when item on button is replaced and new item has no active cooldown.</li>
+</ul>
+]]
 --[[<p>08.06 18.09.2017</p>
 <ul>
 <li>Added Libram of Truth, Krokul Ridgestalker, Argussian Reach Insignia, Greater Argussian Reach Insignia, Army of the Light Insignia, Greater Army of the Light Insignia and Void-Purged Krokul.</li>
