@@ -1,9 +1,0 @@
-Skada: enabled
-ElvUI: enabled
-ElvUI_Config: enabled
-ConsLegion: disabled
-Bagnon: disabled
-Bagnon_Config: disabled
-Bagnon_GuildBank: disabled
-Bagnon_VoidStorage: disabled
-BagBrother: disabled
