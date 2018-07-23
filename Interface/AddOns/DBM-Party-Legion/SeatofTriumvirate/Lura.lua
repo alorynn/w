@@ -1,7 +1,7 @@
 local mod	= DBM:NewMod(1982, "DBM-Party-Legion", 13, 945)
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision(("$Revision: 16737 $"):sub(12, -3))
+mod:SetRevision(("$Revision: 17603 $"):sub(12, -3))
 mod:SetCreatureID(124870)--124745 Greater Rift Warden
 mod:SetEncounterID(2068)
 mod:SetZone()
@@ -34,10 +34,6 @@ local timerBacklash						= mod:NewBuffActiveTimer(12.5, 247816, nil, nil, nil, 6
 
 --local countdownBreath					= mod:NewCountdown(22, 227233)
 
-local voiceCalltoVoid					= mod:NewVoice(247795)--killmob
-local voiceFragmentOfDespair			= mod:NewVoice(245164)--helpsoak
-local voiceGrandShift					= mod:NewVoice(249009)--watchstep
-
 mod.vb.phase = 1
 
 function mod:OnCombatStart(delay)
@@ -49,14 +45,14 @@ function mod:SPELL_CAST_START(args)
 	local spellId = args.spellId
 	if spellId == 247795 then
 		specWarnCalltoVoid:Show()
-		voiceCalltoVoid:Play("killmob")
+		specWarnCalltoVoid:Play("killmob")
 		--timerCalltoVoidCD:Start()
 	elseif spellId == 245164 and self:AntiSpam(3, 1) then
 		specWarnFragmentOfDespair:Show()
-		voiceFragmentOfDespair:Play("helpsoak")
+		specWarnFragmentOfDespair:Play("helpsoak")
 	elseif spellId == 249009 then
 		specWarnGrandShift:Show()
-		voiceGrandShift:Play("watchstep")
+		specWarnGrandShift:Play("watchstep")
 		timerGrandShiftCD:Start()
 	end
 end
@@ -94,8 +90,8 @@ function mod:CHAT_MSG_RAID_BOSS_EMOTE(msg)
 	end
 end
 
-function mod:UNIT_SPELLCAST_SUCCEEDED(uId, _, _, spellGUID)
-	local spellId = tonumber(select(5, strsplit("-", spellGUID)), 10)
+function mod:UNIT_SPELLCAST_SUCCEEDED(uId, _, bfaSpellId, _, legacySpellId)
+	local spellId = legacySpellId or bfaSpellId
 	if spellId == 250011 then--Alleria Describes L'ura Conversation
 
 	end

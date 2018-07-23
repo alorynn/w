@@ -1,7 +1,7 @@
 local mod	= DBM:NewMod(1981, "DBM-Party-Legion", 13, 945)
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision(("$Revision: 16766 $"):sub(12, -3))
+mod:SetRevision(("$Revision: 17603 $"):sub(12, -3))
 mod:SetCreatureID(124874)
 mod:SetEncounterID(2067)
 mod:SetZone()
@@ -35,10 +35,6 @@ local timerAddsCD						= mod:NewAddsTimer(61.9, 249336, nil, "-Healer")
 
 local countdownEternalTwilight			= mod:NewCountdown("AltTwo10", 248736)
 
-local voiceHowlingDark					= mod:NewVoice(244751, "HasInterrupt")--kickcast
-local voiceEntropicForce				= mod:NewVoice(246324)--keepmove
-local voiceAdds							= mod:NewVoice(249336, "-Healer", DBM_CORE_AUTO_VOICE3_OPTION_TEXT)--killmob
-
 mod.vb.guardsActive = 0
 
 function mod:OnCombatStart(delay)
@@ -56,7 +52,7 @@ function mod:SPELL_CAST_START(args)
 	if spellId == 244751 then
 		timerHowlingDarkCD:Start()
 		specWarnHowlingDark:Show(args.sourceName)
-		voiceHowlingDark:Play("kickcast")
+		specWarnHowlingDark:Play("kickcast")
 	elseif spellId == 248736 and self:AntiSpam(3, 1) then
 		warnEternalTwilight:Show()
 		timerEternalTwilight:Start()
@@ -68,7 +64,7 @@ function mod:SPELL_CAST_SUCCESS(args)
 	local spellId = args.spellId
 	if spellId == 246324 then
 		specWarnEntropicForce:Show()
-		voiceEntropicForce:Play("keepmove")
+		specWarnEntropicForce:Play("keepmove")
 		timerEntropicForceCD:Start()
 	end
 end
@@ -92,14 +88,14 @@ function mod:SPELL_AURA_REMOVED(args)
 	end
 end
 
-function mod:UNIT_SPELLCAST_SUCCEEDED(uId, _, _, spellGUID)
-	local spellId = tonumber(select(5, strsplit("-", spellGUID)), 10)
+function mod:UNIT_SPELLCAST_SUCCEEDED(uId, _, bfaSpellId, _, legacySpellId)
+	local spellId = legacySpellId or bfaSpellId
 	if spellId == 245038 then
 		warnTentacles:Show()
 		timerUmbralTentaclesCD:Start()
 	elseif spellId == 249336 then--or 249335
 		specWarnAdds:Show()
-		voiceAdds:Play("killmob")
+		specWarnAdds:Play("killmob")
 		timerAddsCD:Start()
 	end
 end

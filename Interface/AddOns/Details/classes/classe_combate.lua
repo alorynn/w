@@ -126,6 +126,10 @@
 		return self.last_events_tables
 	end
 	
+	function combate:GetCombatId()
+		return self.combat_id
+	end
+	
 	function combate:GetCombatNumber()
 		return self.combat_counter
 	end
@@ -158,6 +162,9 @@
 		end
 		return Loc ["STRING_UNKNOW"]
 	end
+	
+	DETAILS_SEGMENTID_OVERALL = -1
+	DETAILS_SEGMENTID_CURRENT = 0
 	
 	--enum segments type
 	

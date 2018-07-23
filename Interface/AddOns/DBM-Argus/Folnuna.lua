@@ -1,7 +1,7 @@
 local mod	= DBM:NewMod(2010, "DBM-Argus", nil, 959)
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision(("$Revision: 16712 $"):sub(12, -3))
+mod:SetRevision(("$Revision: 17471 $"):sub(12, -3))
 mod:SetCreatureID(124514)
 mod:SetEncounterID(2081)
 --mod:SetReCombatTime(20)
@@ -20,16 +20,13 @@ local warnInfectedClaws					= mod:NewStackAnnounce(247361, 2, nil, "Tank")
 local warnSlumberingGasp				= mod:NewTargetAnnounce(247389, 2, nil, false)
 local warnGrotesqueSpawn				= mod:NewSpellAnnounce(247443, 2)
 
-local specWarnInfectedClaws				= mod:NewSpecialWarningStack(247361, nil, 6, nil, nil, 1, 2)
+local specWarnInfectedClaws				= mod:NewSpecialWarningStack(247361, nil, 6, nil, nil, 1, 6)
 local specWarnInfectedClawsOther		= mod:NewSpecialWarningTaunt(247361, nil, nil, nil, 1, 2)
 local specWarnSlumberingGasp			= mod:NewSpecialWarningDodge(247379, nil, nil, nil, 2, 2)
 
 --local timerInfectedClawsCD				= mod:NewAITimer(13.4, 247361, nil, "Tank", nil, 5, nil, DBM_CORE_TANK_ICON)
 local timerSlumberingGaspCD				= mod:NewCDTimer(54.7, 247379, nil, nil, nil, 3, nil, DBM_CORE_IMPORTANT_ICON)
 local timerGrotesqueSpawnCD				= mod:NewCDTimer(32.8, 247443, nil, nil, nil, 1)
-
-local voiceInfectedClaws				= mod:NewVoice(247361)--tauntboss/stackhigh
-local voiceSlumberingGasp				= mod:NewVoice(247379)--breathsoon
 
 mod:AddReadyCheckOption(49199, false)
 
@@ -44,7 +41,7 @@ function mod:SPELL_CAST_START(args)
 	local spellId = args.spellId
 	if spellId == 247379 then
 		specWarnSlumberingGasp:Show()
-		voiceSlumberingGasp:Play("breathsoon")
+		specWarnSlumberingGasp:Play("breathsoon")
 		timerSlumberingGaspCD:Start()
 	elseif spellId == 247443 then
 		warnGrotesqueSpawn:Show()
@@ -62,11 +59,11 @@ function mod:SPELL_AURA_APPLIED(args)
 				if amount >= 6 then--Lasts 30 seconds, cast every 5 seconds, swapping will be at 6
 					if args:IsPlayer() then--At this point the other tank SHOULD be clear.
 						specWarnInfectedClaws:Show(amount)
-						voiceInfectedClaws:Play("stackhigh")
+						specWarnInfectedClaws:Play("stackhigh")
 					else--Taunt as soon as stacks are clear, regardless of stack count.
-						if not UnitIsDeadOrGhost("player") and not UnitDebuff("player", args.spellName) then
+						if not UnitIsDeadOrGhost("player") and not DBM:UnitDebuff("player", args.spellName) then
 							specWarnInfectedClawsOther:Show(args.destName)
-							voiceInfectedClaws:Play("tauntboss")
+							specWarnInfectedClawsOther:Play("tauntboss")
 						else
 							warnInfectedClaws:Show(args.destName, amount)
 						end

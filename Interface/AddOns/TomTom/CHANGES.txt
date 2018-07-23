@@ -1,12 +1,18 @@
-tag 412617e74c70cd8d1151606664fe1625af5f0364 v70200-1.0.0
+tag d364447e0c7b30c3633de85c37b4651efa777d5d v80001-1.0.0
 Author:	Jim Whitehead <jnwhiteh@gmail.com>
-Date:	Thu Apr 6 18:52:14 2017 +0200
+Date:	Mon Jul 23 14:01:00 2018 +0200
 
-Tagging v70200-1.0.0
+Tagging v80001-1.0.0
 
-commit 6d2e98b474fa5da185fd3b5fc6abe8afa058f7b5
-Author: Jim Whitehead <jnwhiteh@gmail.com>
-Date:   Thu Apr 6 18:52:04 2017 +0200
+commit a3d1583346f906c8003dd87afc565768dc920c46
+Author: Ludovicus <ludovicus.maior@gmail.com>
+Date:   Thu Jul 19 20:30:40 2018 -0400
 
-    Update TOC for 7.2
+    Uncomment call to EnableDisablePOIIntegration()
+
+commit 7586e9a4c0cdbfcf50eaffa82daacff3d491c946
+Author: Ludovicus <ludovicus.maior@gmail.com>
+Date:   Fri Jul 6 15:39:41 2018 -0400
+
+    Merged Commit from BFA branch.
 

@@ -1,7 +1,7 @@
 local mod	= DBM:NewMod(1706, "DBM-Nighthold", nil, 786)
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision(("$Revision: 16739 $"):sub(12, -3))
+mod:SetRevision(("$Revision: 17611 $"):sub(12, -3))
 mod:SetCreatureID(102263)
 mod:SetEncounterID(1849)
 mod:DisableESCombatDetection()--Remove if blizz fixes trash firing ENCOUNTER_START
@@ -56,19 +56,12 @@ local countdownShockwave			= mod:NewCountdown(58.3, 204316)
 local countdownCallofScorpid		= mod:NewCountdown("Alt20", 204372)
 local countdownFocusedBlast			= mod:NewCountdown("AltTwo30.4", 204471)
 
-local voiceTether					= mod:NewVoice(204531)-- "180880" for "break chain"
-local voiceArcanoslash				= mod:NewVoice(204275, "Tank")--defensive
-local voiceCallScorp				= mod:NewVoice(204372)--killmob
-local voiceShockwave				= mod:NewVoice(204316)--findshelter/safenow
-local voiceFocusedBlast				= mod:NewVoice(204471)--"watchstep". "shockwave" makes more sense, but may confuse users because boss has an actual ability called "shockwave"
-local voiceToxicChit				= mod:NewVoice(204744)--runaway
-
 mod:AddSetIconOption("SetIconOnVolatileScorpion", 204697, true, true)
 mod:AddInfoFrameOption(204284)
 
 mod.vb.volatileScorpCount = 0
 
-local shardName = GetSpellInfo(204292)
+local shardName, goodDebuff = DBM:GetSpellInfo(204292), DBM:GetSpellInfo(204284)
 
 function mod:OnCombatStart(delay)
 	self.vb.volatileScorpCount = 0
@@ -93,10 +86,9 @@ end
 function mod:SPELL_CAST_START(args)
 	local spellId = args.spellId
 	if spellId == 204275 and self:AntiSpam(5, 1) then
-		local tanking, status = UnitDetailedThreatSituation("player", "boss1")
-		if tanking or (status == 3) then--Player is current target
+		if self:IsTanking("player", "boss1", nil, true) then
 			specWarnArcanoslash:Show()
-			voiceArcanoslash:Play("defensive")
+			specWarnArcanoslash:Play("defensive")
 		end
 		timerArcanoslashCD:Start()
 	elseif spellId == 204372 then
@@ -104,13 +96,13 @@ function mod:SPELL_CAST_START(args)
 		countdownCallofScorpid:Start()
 		if self.Options.SpecWarn204372switch and self:AntiSpam(3.5, 2) then--Even if enabled, only special warn once every 3.5 seconds
 			specWarnCallofScorp:Show()
-			voiceCallScorp:Play("killmob")
+			specWarnCallofScorp:Play("killmob")
 		end
 	elseif spellId == 204316 then
 		specWarnShockwave:Show(shardName)
-		voiceShockwave:Play("findshelter")
-		--voiceShockwave:Cancel()--In case boss stutter cases or starts cast over
-		--voiceShockwave:Schedule(3.5, "safenow")
+		specWarnShockwave:Play("findshelter")
+		--specWarnShockwave:CancelVoice()--In case boss stutter cases or starts cast over
+		--specWarnShockwave:ScheduleVoice(3.5, "safenow")
 		timerShockwaveCD:Start()
 		countdownShockwave:Start()
 		local scorptAdjust = 11
@@ -147,12 +139,12 @@ function mod:SPELL_CAST_START(args)
 			end
 		end
 		if self.Options.InfoFrame then
-			DBM.InfoFrame:SetHeader(DBM_NO_DEBUFF:format(GetSpellInfo(204284)))
-			DBM.InfoFrame:Show(5, "playergooddebuff", 204284)
+			DBM.InfoFrame:SetHeader(DBM_NO_DEBUFF:format(goodDebuff))
+			DBM.InfoFrame:Show(5, "playergooddebuff", goodDebuff)
 		end
 	elseif spellId == 204471 then
 		specWarnFocusedBlast:Show()
-		voiceFocusedBlast:Play("watchstep")
+		specWarnFocusedBlast:Play("watchstep")
 		timerFocusedBlastCD:Start()
 		countdownFocusedBlast:Start()
 	end
@@ -177,7 +169,7 @@ function mod:SPELL_AURA_APPLIED(args)
 	if spellId == 204531 then
 		if args:IsPlayer() then
 			specWarnTether:Show()
-			voiceTether:Play("180880")
+			specWarnTether:Play("180880")
 		end
 	elseif spellId == 204459 then
 		if self.Options.SpecWarn204459switch then
@@ -211,7 +203,7 @@ function mod:SPELL_AURA_APPLIED(args)
 	elseif spellId == 204697 then--Red scorpion
 		if self.Options.SpecWarn204372switch and self:AntiSpam(3.5, 2) then--Even if enabled, only special warn once every 3.5 seconds
 			specWarnCallofScorp:Show()
-			voiceCallScorp:Play("killmob")
+			specWarnCallofScorp:Play("killmob")
 		end
 		self.vb.volatileScorpCount = self.vb.volatileScorpCount + 1
 		if self.Options.SetIconOnVolatileScorpion then
@@ -220,7 +212,7 @@ function mod:SPELL_AURA_APPLIED(args)
 		end
 	elseif spellId == 204744 and args:IsPlayer() and self:AntiSpam(2, 3) then
 		specWarnToxicChit:Show()
-		voiceToxicChit:Play("runaway")
+		specWarnToxicChit:Play("runaway")
 	end
 end
 
@@ -236,13 +228,13 @@ end
 function mod:SPELL_PERIODIC_DAMAGE(_, _, _, _, destGUID, _, _, _, spellId)
 	if spellId == 204744 and destGUID == UnitGUID("player") and self:AntiSpam(2, 3) then
 		specWarnToxicChit:Show()
-		voiceToxicChit:Play("runaway")
+		specWarnToxicChit:Play("runaway")
 	end
 end
 mod.SPELL_PERIODIC_MISSED = mod.SPELL_PERIODIC_DAMAGE
 
-function mod:UNIT_SPELLCAST_SUCCEEDED(uId, _, _, spellGUID)
-	local _, _, _, _, spellId = strsplit("-", spellGUID)
+function mod:UNIT_SPELLCAST_SUCCEEDED(uId, _, bfaSpellId, _, legacySpellId)
+	local spellId = legacySpellId or bfaSpellId
 	if spellId == 214800 then--Transform(Red)
 		warnRed:Show()
 --		timerAcidicFragments:Start()
@@ -256,8 +248,8 @@ function mod:UNIT_SPELLCAST_SUCCEEDED(uId, _, _, spellGUID)
 end
 
 --Shockwave does NOT go on cooldown if he doesn't finish cast. This happens if he gets stunned before cast finishes
-function mod:UNIT_SPELLCAST_INTERRUPTED(uId, _, _, spellGUID)
-	local spellId = tonumber(select(5, strsplit("-", spellGUID)), 10)
+function mod:UNIT_SPELLCAST_INTERRUPTED(uId, _, bfaSpellId, _, legacySpellId)
+	local spellId = legacySpellId or bfaSpellId
 	if spellId == 204316 then--Shockwave
 		timerShockwaveCD:Stop()
 		countdownShockwave:Cancel()

@@ -1,7 +1,7 @@
 ﻿local mod	= DBM:NewMod("ArtifactQueen", "DBM-Challenges", 2)
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision(("$Revision: 84 $"):sub(12, -3))
+mod:SetRevision(("$Revision: 105 $"):sub(12, -3))
 mod:SetCreatureID(116484, 116499, 116496)--Sigryn, Jarl Velbrand, Runeseer Faljar
 mod:SetEncounterID(2059)
 mod:SetZone()--Healer (1710), Tank (1698), DPS (1703-The God-Queen's Fury), DPS (Fel Totem Fall)
@@ -48,18 +48,7 @@ local timerBladeStormCD			= mod:NewCDCountTimer(13.4, 237857, nil, nil, nil, 2)
 local timerRunicDetonationCD	= mod:NewCDCountTimer(13.4, 237914, nil, nil, nil, 5)
 local timerKnowledgeCD			= mod:NewCDCountTimer(13.4, 237952, nil, nil, nil, 3)
 
---local countdownTimer		= mod:NewCountdownFades(10, 141582)
-
---Sigryn
-local voiceThrowSpear			= mod:NewVoice(238694)--watchstep
-local voiceBloodFather			= mod:NewVoice(237945)--crowdcontrol (new)
---Jarl Velbrand
-local voiceBerserkersRage		= mod:NewVoice(237947)--justrun
-local voiceBladeStorm			= mod:NewVoice(237857)--justrun
---
-local voiceRunicDetonation		= mod:NewVoice(237914)--157060 (are runes yellow?)
-local voiceKnowledge			= mod:NewVoice(237952)--targetchange
-local voiceDarkWings			= mod:NewVoice(237772)--stilldanger
+local countdownTimer			= mod:NewCountdown(13.4, 237945)
 
 --This may not be accurate way to do it, it may be some kind of shared CD like HFC council and just be grossly affected by CCs
 --These are ones consistent between 4 pulls (including kill) though
@@ -90,6 +79,7 @@ function mod:OnCombatStart(delay)
 	timerBerserkersRageCD:Start(26, 1)
 	timerRunicDetonationCD:Start(43, 1)
 	timerBloodFatherCD:Start(61, 1)
+	countdownTimer:Start(61)
 	timerKnowledgeCD:Start(98, 1)
 	timerBladeStormCD:Start(125, 1)
 	timerDarkWingsCD:Start(146)
@@ -99,30 +89,31 @@ function mod:SPELL_CAST_START(args)
 	local spellId = args.spellId
 	if spellId == 238694 then
 		specWarnThrowSpear:Show()
-		voiceThrowSpear:Play("watchstep")
+		specWarnThrowSpear:Play("watchstep")
 		timerThrowSpearCD:Start()
 	elseif spellId == 237870 then
 		warnHurlAxe:Show()
 	elseif spellId == 237947 then
 		berserkerCount = berserkerCount + 1
 		specWarnBerserkersRage:Show()
-		voiceBerserkersRage:Play("justrun")
+		specWarnBerserkersRage:Play("justrun")
 		local timer = berserkerRageTimers[berserkerCount+1]
 		if timer then
 			timerBerserkersRageCD:Start(timer, berserkerCount+1)
 		end
 	elseif spellId == 237945 then
 		bloodCount = bloodCount + 1
-		specWarnBloodFather:Show(args.destName)
-		voiceBloodFather:Play("crowdcontrol")
+		specWarnBloodFather:Show(args.sourceName)
+		specWarnBloodFather:Play("crowdcontrol")
 		local timer = bloodFatherTimers[bloodCount+1]
 		if timer then
 			timerBloodFatherCD:Start(timer, bloodCount+1)
+			countdownTimer:Start(timer)
 		end
 	elseif spellId == 237857 then
 		bladeCount = bladeCount + 1
 		specWarnBladeStorm:Show()
-		voiceBladeStorm:Play("justrun")
+		specWarnBladeStorm:Play("justrun")
 		local timer = bladeStormTimers[bladeCount+1]
 		if timer then
 			timerBladeStormCD:Start(timer, bladeCount+1)
@@ -130,7 +121,7 @@ function mod:SPELL_CAST_START(args)
 	elseif spellId == 237952 then
 		knowledgeCast = knowledgeCast + 1
 		specWarnKnowledge:Show()
-		voiceKnowledge:Play("targetchange")
+		specWarnKnowledge:Play("targetchange")
 		local timer = ancestralKnowledgeTimers[knowledgeCast+1] or 25
 		if timer then
 			timerBladeStormCD:Start(timer, knowledgeCast+1)
@@ -140,7 +131,7 @@ end
 
 function mod:SPELL_CAST_SUCCESS(args)
 	local spellId = args.spellId
-	if spellId == 237849 or spellId == 238432 then
+	if (spellId == 237849 or spellId == 238432) and self:AntiSpam(5, 1) then
 		warnAdvance:Show()
 		--timerAdvanceCD:Start()
 	end
@@ -173,16 +164,15 @@ function mod:UNIT_DIED(args)
 --	end
 end
 
-function mod:UNIT_SPELLCAST_SUCCEEDED(uId, _, _, spellGUID)
-	local spellId = tonumber(select(5, strsplit("-", spellGUID)), 10)
+function mod:UNIT_SPELLCAST_SUCCEEDED(uId, _, spellId)
 	if spellId == 237914 then--Runic Detonation
 		runicDetonationCount = runicDetonationCount + 1
 		specWarnRunicDetonation:Show(RUNES)
-		voiceRunicDetonation:Play("157060")
+		specWarnRunicDetonation:Play("157060")
 		timerRunicDetonationCD:Start()
 	elseif spellId == 237772 then--Dark Wings
 		specWarnDarkWings:Show()
-		voiceDarkWings:Play("stilldanger")
+		specWarnDarkWings:Play("stilldanger")
 		timerDarkWingsCD:Start()
 	end
 end

@@ -1,13 +1,13 @@
 ﻿-- Pawn by Vger-Azjol-Nerub
 -- www.vgermods.com
--- © 2006-2017 Green Eclipse.  This mod is released under the Creative Commons Attribution-NonCommercial-NoDerivs 3.0 license.
+-- © 2006-2018 Green Eclipse.  This mod is released under the Creative Commons Attribution-NonCommercial-NoDerivs 3.0 license.
 -- See Readme.htm for more information.
 
 -- 
 -- Main non-UI code
 ------------------------------------------------------------
 
-PawnVersion = 2.0214
+PawnVersion = 2.0221
 
 -- Pawn requires this version of VgerCore:
 local PawnVgerCoreVersionRequired = 1.09
@@ -591,6 +591,10 @@ function PawnInitializeOptions()
 		-- Relic upgrade detection is on by default starting in Pawn 2.2.
 		PawnCommon.ShowRelicUpgrades = true
 	end
+	if PawnOptions.LastVersion < 2.0219 then
+		-- The item squish happened in WoW 8.0, so relic item levels changed.
+		PawnOptions.Artifacts = nil
+	end
 	if PawnCommon.LastVersion < PawnMrRobotLastUpdatedVersion then
 		-- If the Ask Mr. Robot scales have been updated since the last time they used Pawn, re-scan gear.
 		PawnInvalidateBestItems()
@@ -1156,17 +1160,19 @@ function PawnGetItemDataFromTooltip(TooltipName, MethodName, Param1, ...)
 	return Item
 end
 
--- Returns the same information as PawnGetItemData, but based on an inventory slot index instead of an item link.
+-- 	Returns: Item, SlotHadItem
+-- 		Item: The same information as PawnGetItemData, but based on an inventory slot index instead of an item link.
+--		SlotHadItem: true if the slot had an item in it, whether or not we were successful in getting item data.
 -- If requested, data for the base unenchanted item can be returned instead; otherwise, the actual item is returned.
 function PawnGetItemDataForInventorySlot(Slot, Unenchanted, UnitName)
 	if UnitName == nil then UnitName = "player" end
 	local ItemLink = GetInventoryItemLink(UnitName, Slot)
-	if not ItemLink then return end
+	if not ItemLink then return nil, false end
 	if Unenchanted then
 		local UnenchantedItem = PawnUnenchantItemLink(ItemLink)
 		if UnenchantedItem then ItemLink = UnenchantedItem end
 	end
-	return PawnGetItemData(ItemLink)
+	return PawnGetItemData(ItemLink), true
 end
 
 -- Recalculates the scale values for a cached item if necessary, and returns them.
@@ -3001,13 +3007,15 @@ function PawnIsItemAnUpgrade(Item, DoNotRescan)
 					BestData = CharacterOptions.BestItems[InvType]
 				else
 					-- If upgrade tracking is disabled, manually create a BestData table based on the currently-equipped items for this slot.
-					local Slot1, Slot2, Item1, Item2, ItemLink1, ItemLink2, Value1, Value2
+					local Slot1, Slot2, Item1, Item2, SlotHadItem1, SlotHadItem2, ItemLink1, ItemLink2, Value1, Value2
 					Slot1 = PawnItemEquipLocToSlot1[InvType]
-					if Slot1 then Item1 = PawnGetItemDataForInventorySlot(Slot1, true) end
+					if Slot1 then Item1, SlotHadItem1 = PawnGetItemDataForInventorySlot(Slot1, true) end
+					if SlotHadItem1 and not Item1 then return end -- If there is an item in the slot but we don't have data yet, we can't evaluate upgrades yet.
 					if Item1 then ItemLink1 = PawnUnenchantItemLink(Item1.Link, true) end
 					if not TwoSlotsForThisItemType and ItemLink1 and UnenchantedItemLink == ItemLink1 then return end -- If this item is already equipped, it can't be an upgrade for any scale. 
 					if TwoSlotsForThisItemType then Slot2 = PawnItemEquipLocToSlot2[InvType] end -- Don't check the off-hand slot for weapon upgrades if they can't dual-wield
 					if Slot2 then Item2 = PawnGetItemDataForInventorySlot(Slot2, true) end
+					if SlotHadItem2 and not Item2 then return end -- If there is an item in the slot but we don't have data yet, we can't evaluate upgrades yet.
 					if Item2 then ItemLink2 = PawnUnenchantItemLink(Item2.Link, true) end
 					if not TwoSlotsForThisItemType and ItemLink2 and UnenchantedItemLink == PawnUnenchantItemLink(Item2.Link, true) then return end
 					if Item1 then _, Value1 = PawnGetSingleValueFromItem(Item1, ScaleName) end
@@ -3272,12 +3280,13 @@ function PawnFindBestItems(ScaleName, InventoryOnly)
 	
 	-- Now, scan all of the items in the player's equipment sets.
 	if not InventoryOnly then
-		local NumSets = GetNumEquipmentSets()
+		local NumSets = C_EquipmentSet.GetNumEquipmentSets()
 		local ItemLocations = { }
 		local i
 		for i = 1, NumSets do
 			wipe(ItemLocations)
-			GetEquipmentSetLocations(GetEquipmentSetInfo(i), ItemLocations)
+			local _, _, EquipmentSetID = C_EquipmentSet.GetEquipmentSetInfo(i)
+			ItemLocations = C_EquipmentSet.GetItemLocations(EquipmentSetID)
 			PreviousItemLink = nil
 			for Slot = 1, 17 do if Slot ~= 4 and Slot ~= 13 and Slot ~= 14 then
 				local Location = ItemLocations[Slot]
@@ -3288,7 +3297,7 @@ function PawnFindBestItems(ScaleName, InventoryOnly)
 					if IsInVoidStorage then
 						-- The item link for this item should be GetVoidItemHyperlinkString(VoidSlot), but we'll never get here; location will
 						-- be -1 (item unavailable) for items in void storage.
-						ItemLink = GetVoidItemHyperlinkString(VoidSlot)
+						ItemLink = nil --GetVoidItemHyperlinkString(VoidSlot) -- API no longer exists in 8.0
 						VgerCore.Fail("Didn't expect to find an equipment set item in void storage!")
 					elseif not IsInBags then
 						VgerCore.Assert(IsOnPlayer or IsInBank, "Equipment set contains new location data that Pawn doesn't understand; EquipmentManager_UnpackLocation may have been updated.")
@@ -3881,6 +3890,7 @@ function PawnAddRelicUpgradesToTooltip(TooltipName, UpgradeInfo)
 			if PawnCommon.AlignNumbersRight then
 				local RightLine = _G[TooltipName .. "TextRight" .. i]
 				RightLine:SetText(format(PawnLocal.TooltipRelicUpgradeAnnotation, "", ArtifactUpgradeInfo.ItemLevelIncrease, ""))
+				RightLine:Show()
 			else
 				LeftLine:SetText(format(PawnLocal.TooltipRelicUpgradeAnnotation, tostring(ArtifactName) .. ":", ArtifactUpgradeInfo.ItemLevelIncrease, ""))
 			end
@@ -4721,6 +4731,10 @@ function PawnAddPluginScale(ProviderInternalName, ScaleInternalName, LocalizedNa
 	NewScale.LocalizedName = LocalizedName
 	NewScale.Header = PawnScaleProviders[ProviderInternalName].Name
 	NewScale.NormalizationFactor = NormalizationFactor
+	-- If the plugin supplied any stat values of 0, remove them now.
+	for StatName, Value in pairs(Values) do
+		if Value == 0 then Values[StatName] = nil end
+	end
 	NewScale.Values = Values
 	if not NewScale.PerCharacterOptions then NewScale.PerCharacterOptions = {} end
 	if not NewScale.PerCharacterOptions[PawnPlayerFullName] then NewScale.PerCharacterOptions[PawnPlayerFullName] = {} end
@@ -4848,13 +4862,28 @@ end
 function PawnShouldItemLinkHaveUpgradeArrow(ItemLink, CheckLevel)
 	if not PawnIsInitialized then VgerCore.Fail("Can't check to see if items are upgrades until Pawn is initialized") return end
 
+	--if PawnOptions.DebugBagArrows then VgerCore.Message("Checking upgrade information for " .. tostring(ItemLink)) end
+
 	local _, _, _, _, MinLevel = GetItemInfo(ItemLink)
 	if MinLevel == nil then return nil end
 	if CheckLevel and UnitLevel("player") < MinLevel then return false end
 	if PawnCanItemHaveStats(ItemLink) then
 		local Item = PawnGetItemData(ItemLink)
 		if not Item then return nil end -- If we don't have stats for the item yet, ask again later.
-		return PawnIsItemAnUpgrade(Item) ~= nil
+		if PawnOptions.DebugBagArrows then
+			local UpgradeInfo, BestItemFor, SecondBestItemFor, NeedsEnhancements = PawnIsItemAnUpgrade(Item)
+			if UpgradeInfo ~= nil then
+				if PawnOptions.DebugBagArrows then VgerCore.Message("Found upgrade for " .. ItemLink) end
+				local i
+				for i = 1, #UpgradeInfo do
+					local u = UpgradeInfo[i]
+					if PawnOptions.DebugBagArrows then VgerCore.Message("  " .. u.LocalizedScaleName .. ": +" .. u.PercentUpgrade .. "% vs. " .. tostring(u.ExistingItemLink)) end
+				end
+			end
+			return UpgradeInfo ~= nil
+		else
+			return PawnIsItemAnUpgrade(Item) ~= nil
+		end
 	elseif PawnCommon.ShowRelicUpgrades and PawnCanItemBeArtifactUpgrade(ItemLink) then
 		return PawnGetRelicUpgradeInfo(ItemLink) ~= nil
 	else

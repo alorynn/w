@@ -1,14 +1,10 @@
-﻿## Interface: 70100
+## Interface: 80000
 ## Title: Broker Volume
 ## Notes: A volume control for Data Broker.
 ## Author: Shenton
 ## SavedVariables: BrokerVolumeDB
-## Version: 1.7.1
+## Version: 1.7.4
 ## OptionalDeps: Ace3, LibDBIcon-1.0
-## X-Curse-Packaged-Version: v1.7.1
-## X-Curse-Project-Name: Data Broker Volume Control
-## X-Curse-Project-ID: data-broker-volume-controle
-## X-Curse-Repository-ID: wow/data-broker-volume-controle/mainline
 
 #@no-lib-strip@
 Libs\LibStub\LibStub.lua

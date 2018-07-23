@@ -1,8 +1,8 @@
-## Interface: 70300
+## Interface: 80000
 ## Title: Mythic Plus Helper
 ## Notes: Creates MPH export strings
 ## Author: Stikkers, Honkman
-## Version: 1.3
+## Version: 1.4
 ## OptionalDependencies: Ace3
 
 libs\LibStub\LibStub.lua

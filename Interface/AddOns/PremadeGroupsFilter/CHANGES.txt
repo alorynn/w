@@ -1,14 +1,8 @@
-Changes since tag 1.15
+Changes since tag 1.17
 
-commit 58e9c98bca0b5f0934f048c0dfeeb9e3a9e27311
+commit d7cd5d111f18812ce56f22456daf7199df613691
 Author: Bernhard Saumweber <b.saumweber@gmail.com>
-Date:   Tue Sep 12 00:06:18 2017 +0200
+Date:   Tue Dec 26 14:01:33 2017 +0100
 
-    Skip filtering if we cannot find out which search tab and/or category was used
-
-commit 50c80f0a3402695b99fc8b9adc2f77fa67dc3a97
-Author: Bernhard Saumweber <b.saumweber@gmail.com>
-Date:   Tue Sep 12 00:02:08 2017 +0200
-
-    Set version to next release version: 1.16
+    Set version to next release version: 1.18
 

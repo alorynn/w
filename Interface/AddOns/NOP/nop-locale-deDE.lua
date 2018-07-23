@@ -1,35 +1,38 @@
--- German localization file for deDE by Ragnar_F
+-- German localization file for deDE by Ragnar_F and Google translator, announce corrections by Salty
+local _
+-- global functions and variebles to locals to keep LINT happy
+local assert = _G.assert
+local LibStub = _G.LibStub; assert(LibStub ~= nil,'LibStub')
+-- local AddOn
 local ADDON = ...
-local _ ;
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local L = AceLocale:NewLocale(ADDON, "deDE");
 if not L then return; end
-
+--
 L["NOP_TITLE"] = "New Openables"
 L["NOP_VERSION"] = "|cFFFFFFFF%s - benutze |cFFFF00FF/nop|cFFFFFFFF"
-
-L["ALT-LeftClick and drag to move."] = "ALT-Linksklick und ziehen, um zu verschieben."
-L["LeftClick to open or use."] = "Linksklick, um Gegenstand zu öffnen oder benutzen."
-L["RightClick to skip item."] = "Rechtsklick, um Gegenstand zu überspringen."
-L["CTRL-RightClick to blacklist item."] = "STRG-Rechtsklick, um Gegenstand dauerhaft zu ignorieren."
+L["CLICK_DRAG_MSG"] = "ALT-Linksklick und ziehen, um zu verschieben."
+L["CLICK_OPEN_MSG"] = "Linksklick, um Gegenstand zu öffnen oder benutzen."
+L["CLICK_SKIP_MSG"] = "Rechtsklick, um Gegenstand zu überspringen."
+L["CLICK_BLACKLIST_MSG"] = "STRG-Rechtsklick, um Gegenstand dauerhaft zu ignorieren."
 L["No openable items!"] = "Keine Gegenstände, die geöffnet werden können!"
-L["Reset and move button to middle of screen!"] = "Schaltfläche auf die Mitte des Bildschirms zurückgesetzt!"
-L["Use: "] = "Benutze: "
+L["BUTTON_RESET"] = "Schaltfläche auf die Mitte des Bildschirms zurückgesetzt!"
+L["NOP_USE"] = "Benutze: "
 L["Spell:"] = "Zauber:"
-L["|cFFFF00FFPermanently blacklisted items:"] = "|cFFFF00FFDauerhaft ignorierte Gegenstände:"
-L["|cFFFF00FFPermanent blacklist is empty"] = "|cFFFF00FFKeine ignorierten Gegenstände"
-L["Permanently Blacklisted:|cFF00FF00"] = "Dauerhaft ignoriert:|cFF00FF00"
-L["Session Blacklisted:|cFF00FF00"] = "Für diese Session ignoriert:|cFF00FF00"
-L["Temporary Blacklisted:|cFF00FF00"] = "Temporär ignoriert:|cFF00FF00"
+L["BLACKLISTED_ITEMS"] = "|cFFFF00FFDauerhaft ignorierte Gegenstände:"
+L["BLACKLIST_EMPTY"] = "|cFFFF00FFKeine ignorierten Gegenstände"
+L["PERMA_BLACKLIST"] = "Dauerhaft ignoriert:|cFF00FF00"
+L["SESSION_BLACKLIST"] = "Für diese Session ignoriert:|cFF00FF00"
+L["TEMP_BLACKLIST"] = "Temporär ignoriert:|cFF00FF00"
 L["|cFFFF0000Error loading tooltip for|r "] = "|cFFFF0000Fehler beim Laden des Tooltips für|r "
 L["Plans, patterns and recipes cache update."] = "Cache-Aktualisierung von Plänen, Mustern und Rezepten."
 L["Spell patterns cache update."] = "Cache-Aktualisierung von Zaubermustern."
 L["|cFFFF0000Error loading tooltip for spell |r "] = "|cFFFF0000Fehler beim Laden des Tooltips für Zauber |r "
 L["|cFFFF0000Error loading tooltip for spellID %d"] = "|cFFFF0000Fehler beim Laden des Tooltips für Zauber-ID %d"
-L["Toggle"] = "Optionen"
+L["TOGGLE"] = "Optionen"
 L["Skin Button"] = "Schaltfläche mit Skin versehen"
-L["Masque Enable"] = true
-L["Need UI reload or relogin to activate."] = true
+L["Masque Enable"] = "Masque Aktivieren"
+L["Need UI reload or relogin to activate."] = "Sie müssen die UI neu laden oder neu anmelden, um sie zu aktivieren."
 L["Lock Button"] = "Schaltfläche sperren"
 L["Lock button in place to disbale drag."] = "Schaltfläche auf aktueller Position sperren, um Ziehen zu deaktivieren."
 L["Glow Button"] = "Schaltfläche aufleuchten lassen"
@@ -59,12 +62,20 @@ L["Swap"] = "Tauschen"
 L["Swap location of numbers for count and cooldown timer"] = "Position von Anzahl und Abklingzeit tauschen"
 L["AutoQuest"]  = "Automatische Suche"
 L["Auto accept or hand out quests from AutoQuestPopupTracker!"] = "Automatische Annahme oder Abgabe von Quests aus AutoQuestPopupTracker"
-L["Strata"] = true
-L["Set strata for items button to HIGH, place it over normal windows."] = true
-L["Herald"] = true
-L["Announce completed work orders, artifact points etc.."] = true
-L["Skip on Error"] = true
-L["Temporary blacklist item when click produce error message"] = true
+L["Strata"] = "Schichten"
+L["Set strata for items button to HIGH, place it over normal windows."] = "Setze die Schichten für die Items auf HIGH, lege sie über normale Fenster."
+L["Herald"] = "Herold"
+L["Announce completed work orders, artifact points etc.."] = "Melden Sie abgeschlossene Arbeitsaufträge, Artefaktpunkte usw. an."
+L["Skip on Error"] = "Überspringen bei Fehler"
+L["Temporary blacklist item when click produce error message"] = "Temporärer Blacklist-Eintrag, wenn Sie auf eine Fehlermeldung klicken"
+L["HIDE_IN_COMBAT"] = "Hide in combat"
+L["HIDE_IN_COMBAT_HELP"] = "Hide items button when in combat"
+L["SHOW_REPUTATION"] = "Show reputation"
+L["SHOW_REPUTATION_HELP"] = "Show Legion reputation standing in tooltip for reputation token items. Activate/Deactivate need game client reload."
+L["SKIP_EXALTED"] = "Skip exalted"
+L["SKIP_EXALTED_HELP"] = "Don't use Legion reputation tokens when already exalted."
+L["SKIP_MAXPOWER"] = "Skip artifact"
+L["SKIP_MAXPOWER_HELP"] = "Skip artifact power tokens when artifact have maximum traits."
 L["Buttons per row"] = "Schaltflächen pro Reihe"
 L["Number of buttons placed in one row"] = "Wie viele Schaltflächen auf einer Reihe angezeigt werden sollen"
 L["Spacing"] = "Abstand"
@@ -85,13 +96,13 @@ L["Quest"] = "Quest"
 L["Quest not found for this item."] = "Quest für diesen Gegenstand nicht gefunden."
 L["Items cache update run |cFF00FF00%d."] = "Cache-Aktualisierung von Gegenständen |cFF00FF00%d."
 L["Spells cache update run |cFF00FF00%d."] = "Cache-Aktualisierung von Zaubern |cFF00FF00%d."
-L["%s: %d done %d to go!"] = true
-L["Paragon reward for %s is ready!"] = true
-L["Shipyard have %d/%d ships!"] = true
-L["Artifact have %d talents ready!"] = true
-L["Archaeology %s is ready!"] = true
-L["%s is ready!"] = true
-
+L["TOGO_ANNOUNCE"] = "%s: %d fertig, %d startbereit!"
+L["REWARD_ANNOUNCE"] = "Paragon-Belohnung für %s ist bereit!"
+L["SHIPYARD_ANNOUNCE"] = "Werft hat %d/%d Schiffe!"
+L["ARTIFACT_ANNOUNCE"] = "%s hat %d unverteilte(n) Talentpunkt(e)!"
+L["ARCHAELOGY_ANNOUNCE"] = "Archäologie %s ist fertig!"
+L["TALENT_ANNOUNCE"] = "%s ist fertig!"
+L["RESTARTED_LOOKUP"] = "Temporäre Blacklist gelöscht, Neustart der Suche!"
 L["CONSOLE_USAGE"] = [=[ [reset|skin|lock|clear|list|unlist|skip|glow|zone|quest|show]
 reset  - setzt die Schaltfläche auf die Mitte des Bildschirms zurück
 skin   - versieht die Schaltfläche mit einem Skin

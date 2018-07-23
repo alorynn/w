@@ -85,6 +85,7 @@ L["STRING_CLOSEALL"] = "모든 창이 닫혔습니다, 다시 열려면 '/detail
 L["STRING_COLOR"] = "색상"
 L["STRING_COMMAND_LIST"] = "명령어 목록"
 L["STRING_COOLTIP_NOOPTIONS"] = "옵션 없음"
+L["STRING_CREATEAURA"] = "오라 만들기"
 L["STRING_CRITICAL_HITS"] = "치명타 및 극대화 적중"
 L["STRING_CRITICAL_ONLY"] = "치명타"
 L["STRING_CURRENT"] = "현재"
@@ -356,8 +357,7 @@ L["STRING_MIRROR_IMAGE"] = "미러 이미지"
 L["STRING_MISS"] = "빗나감"
 L["STRING_MODE_ALL"] = "전체"
 L["STRING_MODE_GROUP"] = "표준"
-L["STRING_MODE_OPENFORGE"] = "오라 생성기"
-L["STRING_MODE_OPENGUILDDAMAGERANK"] = "피해 순위"
+L["STRING_MODE_OPENFORGE"] = "주문 목록"
 L["STRING_MODE_PLUGINS"] = "플러그인"
 L["STRING_MODE_RAID"] = "플러그인: 공격대"
 L["STRING_MODE_SELF"] = "플러그인: 솔로 플레이"
@@ -536,6 +536,8 @@ L["STRING_OPTIONS_CENERGY_DESC"] = [=[수집 허용:
 - |cFFFFFF00룬 마력 생성|r]=]
 L["STRING_OPTIONS_CHANGE_CLASSCOLORS"] = "직업 색상 수정"
 L["STRING_OPTIONS_CHANGE_CLASSCOLORS_DESC"] = "직업을 위한 새로운 색상을 선택합니다."
+--[[Translation missing --]]
+--[[ L["STRING_OPTIONS_CHANGECOLOR"] = ""--]] 
 L["STRING_OPTIONS_CHANGELOG"] = "버전 노트"
 L["STRING_OPTIONS_CHART_ADD"] = "데이터 추가"
 L["STRING_OPTIONS_CHART_ADD2"] = "추가"
@@ -1529,6 +1531,7 @@ L["STRING_SLASH_WIPECONFIG_DESC"] = "모든 설정을 기본값으로 돌립니�
 L["STRING_SLASH_WORLDBOSS"] = "worldboss"
 L["STRING_SLASH_WORLDBOSS_DESC"] = "이번 주에 처치한 우두머리를 보여주는 매크로를 실행합니다."
 L["STRING_SPELL_INTERRUPTED"] = "시전 방해된 주문"
+L["STRING_SPELLLIST"] = "주문 목록"
 L["STRING_SPELLS"] = "주문"
 L["STRING_SPIRIT_LINK_TOTEM"] = "생명력 교환"
 L["STRING_SPIRIT_LINK_TOTEM_DESC"] = [=[토템 범위 안의 플레이어들 간에
@@ -1536,6 +1539,7 @@ L["STRING_SPIRIT_LINK_TOTEM_DESC"] = [=[토템 범위 안의 플레이어들 간
 
 이 치유는 플레이어의 전체 치유량에
 합산되지 않습니다.]=]
+L["STRING_STATISTICS"] = "통계"
 L["STRING_STATUSBAR_NOOPTIONS"] = "이 위젯은 옵션이 없습니다."
 L["STRING_SWITCH_CLICKME"] = "북마크 추가"
 L["STRING_SWITCH_SELECTMSG"] = "북마크 #%d의 디스플레이를 선택하세요."
@@ -1654,6 +1658,20 @@ L["STRING_WELCOME_7"] = "순위를 매길때 쓰입니다, 이 방법은 모든 
 L["STRING_WELCOME_70"] = "제목 바 설정"
 L["STRING_WELCOME_71"] = "바 설정"
 L["STRING_WELCOME_72"] = "창 설정"
+--[[Translation missing --]]
+--[[ L["STRING_WELCOME_73"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["STRING_WELCOME_74"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["STRING_WELCOME_75"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["STRING_WELCOME_76"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["STRING_WELCOME_77"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["STRING_WELCOME_78"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["STRING_WELCOME_79"] = ""--]] 
 L["STRING_WINDOW_NOTFOUND"] = "창을 찾을 수 없습니다."
 L["STRING_WINDOW_NUMBER"] = "창 번호"
 L["STRING_WINDOW1ATACH_DESC"] = "창 그룹을 만들려면 창 #2를 창 #1 가까이 드래그하세요."

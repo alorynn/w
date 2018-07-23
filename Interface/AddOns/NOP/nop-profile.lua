@@ -1,19 +1,30 @@
---[[ LUA variables in WTF ]]
+-- LUA variables in WTF
 local _
-local ADDON, private = ...
+-- global functions and variebles to locals to keep LINT happy
+local assert = _G.assert
+local LibStub = _G.LibStub; assert(LibStub ~= nil,'LibStub')
+local pairs = _G.pairs; assert(pairs ~= nil,'pairs')
+local RegisterStateDriver = _G.RegisterStateDriver; assert(RegisterStateDriver ~= nil,'RegisterStateDriver')
+local string = _G.string; assert(string ~= nil,'string')
+local wipe = _G.wipe; assert(wipe ~= nil,'wipe')
+-- local AddOn
+local ADDON, P = ...
 local NOP = LibStub("AceAddon-3.0"):GetAddon(ADDON)
+--
+local T_CHECK = P.T_CHECK; assert(T_CHECK ~= nil,'T_CHECK')
+--
 function NOP:ProfileChanged() -- LUA stored variables changed
-  self.DB = self.AceDB.profile.char.settings
+  self.DB = self.AceDB.profile
   self:ButtonLoad()
   self:QBUpdate()
   self:QBSkin()
-  wipe(NOP.T_CHECK)
-  self:ItemShowNew()
+  wipe(T_CHECK)
+  self:BAG_UPDATE()
 end
 function NOP:ProfileLoad() -- LUA stored variables load and init
   local defaults = {
     profile = {
-      ["iconSize"] = private.DEFAULT_ICON_SIZE, -- default size
+      ["iconSize"] = P.DEFAULT_ICON_SIZE, -- default size
       ["lockButton"] = false, -- unlock
       ["skinButton"] = false, -- buttons are skinned
       ["masque"] = true, -- if Masque addon is loaded then hand skinning to addon
@@ -41,20 +52,16 @@ function NOP:ProfileLoad() -- LUA stored variables load and init
       ["hiSTRATA"] = false,
       ["herald"] = true,
       ["SkipOnError"] = true,
+      ["HideInCombat"] = false,
+      ["ShowReputation"] = true,
+      ["SkipExalted"] = false,
+      ["SkipMaxPower"] = true,
     },
   }
-
   self.AceDB = LibStub("AceDB-3.0"):New("NewOpenablesProfile",defaults,true)
   self.AceDB.RegisterCallback(self, "OnProfileChanged", "ProfileChanged")
   self.AceDB.RegisterCallback(self, "OnProfileCopied",  "ProfileChanged")
   self.AceDB.RegisterCallback(self, "OnProfileReset",   "ProfileChanged")
-  if self.AceDB.profile.char then -- one-time migration
-    local dst = self.AceDB.profile -- new location 
-    for key,val in pairs(self.AceDB.profile.char.settings) do
-      dst[key] = val
-    end
-    self.AceDB.profile.char = nil -- remove it from saved variables
-  end
   self.DB = self.AceDB.profile -- profile
   self.profileOn = self.DB.profiling
 end
@@ -63,178 +70,209 @@ function NOP:OptionsLoad() -- load options for UI config
     type = "group",
     args = {
       ver = {
-        name = private.NOP_VERSION,
+        name = P.NOP_VERSION,
         type = "header",
         order = 0,
         width = "full",    
       },
       toggle = {
         order = 1,
-        name = private.L["Toggle"],
+        name = P.L["TOGGLE"],
         type = "group",
         args = {
-          skin = {
-            name = private.L["Skin Button"],
+          blacklist = {
+            name = P.L["Clear Blacklist"],
             order = 1,
-            type = "toggle",
+            desc = P.L["Reset Permanent blacklist."],
+            type = "execute",
             width = "full",    
-            set = function(info,val) NOP.DB["skinButton"] = val; NOP:ButtonLoad(); NOP:QBSkin(); end,
-            get = function(info) return NOP.DB.skinButton end,
-          },
-          masque = {
-            name = private.L["Masque Enable"],
-            order = 2,
-            desc = private.L["Need UI reload or relogin to activate."],
-            type = "toggle",
-            width = "full",    
-            set = function(info,val) NOP.DB["masque"] = val; end,
-            get = function(info) return NOP.DB.masque end,
-          },
-          backdrop = {
-            name = private.L["Backdrop Button"],
-            order = 3,
-            desc = private.L["Create or remove backdrop around button, need reload UI."],
-            type = "toggle",
-            width = "full",    
-            set = function(info,val) NOP.DB["backdrop"] = val; end,
-            get = function(info) return NOP.DB.backdrop end,
-          },
-          lock = {
-            name = private.L["Lock Button"],
-            order = 4,
-            desc = private.L["Lock button in place to disbale drag."],
-            type = "toggle",
-            width = "full",    
-            set = function(info,val) NOP.DB["lockButton"] = val; end,
-            get = function(info) return NOP.DB.lockButton end,
-          },
-          glow = {
-            name = private.L["Glow Button"],
-            order = 5,
-            desc = private.L["When item is placed by zone change, button will have glow effect."],
-            type = "toggle",
-            width = "full",    
-            set = function(info,val) NOP.DB["glowButton"] = val; end,
-            get = function(info) return NOP.DB.glowButton end,
-          },
-          skip = {
-            name = private.L["Session skip"],
-            order = 6,
-            desc = private.L["Skipping item last until relog."],
-            type = "toggle",
-            width = "full",    
-            set = function(info,val) NOP.DB["Skip"] = val; if NOP:BlacklistClear() then NOP:ItemShowNew() end; end,
-            get = function(info) return NOP.DB.Skip end,
-          },
-          zoneUnlock = {
-            name = private.L["Zone unlock"],
-            order = 7,
-            desc = private.L["Don't zone restrict openable items"],
-            type = "toggle",
-            width = "full",    
-            set = function(info,val) NOP.DB["zoneUnlock"] = val; NOP:ItemShowNew(); end,
-            get = function(info) return NOP.DB.zoneUnlock end,
-          },
-          profession = {
-            name = private.L["Profession"],
-            order = 8,
-            desc = private.L["Place items usable by lockpicking"],
-            type = "toggle",
-            width = "full",    
-            set = function(info,val) NOP.DB["profession"] = val; NOP:ItemShowNew(); end,
-            get = function(info) return NOP.DB.profession end,
-          },
-          quest = {
-            name = private.L["Quest bar"],
-            order = 9,
-            desc = private.L["Quest items placed on bar"],
-            type = "toggle",
-            width = "full",    
-            set = function(info,val) NOP.DB["quest"] = val; NOP:QBUpdate(); end,
-            get = function(info) return NOP.DB.quest end,
-          },
-          visible = {
-            name = private.L["Visible"],
-            order = 10,
-            desc = private.L["Make button visible by placing fake item on it"],
-            type = "toggle",
-            width = "full",    
-            set = function(info,val) NOP.DB["visible"] = val; NOP:ItemShowNew(); NOP:QBUpdate(); end,
-            get = function(info) return NOP.DB.visible end,
-          },
-          swap = {
-            name = private.L["Swap"],
-            order = 11,
-            desc = private.L["Swap location of numbers for count and cooldown timer"],
-            type = "toggle",
-            width = "full",    
-            set = function(info,val) NOP.DB["swap"] = val; NOP:ButtonSwap(NOP.BF,NOP.DB.swap) end,
-            get = function(info) return NOP.DB.swap end,
-          },
-          autoquest = {
-            name = private.L["AutoQuest"],
-            order = 13,
-            desc = private.L["Auto accept or hand out quests from AutoQuestPopupTracker!"],
-            type = "toggle",
-            width = "full",    
-            set = function(info,val) NOP.DB["autoquest"] = val; end,
-            get = function(info) return NOP.DB.autoquest end,
-          },
-          strata = {
-            name = private.L["Strata"],
-            order = 14,
-            desc = private.L["Set strata for items button to HIGH, place it over normal windows."],
-            type = "toggle",
-            width = "full",    
-            set = function(info,val) NOP.DB["strata"] = val; NOP.BF:SetFrameStrata(NOP.DB.strata and "HIGH" or "MEDIUM")  end,
-            get = function(info) return NOP.DB.strata end,
-          },
-          herald = {
-            name = private.L["Herald"],
-            order = 15,
-            desc = private.L["Announce completed work orders, artifact points etc.."],
-            type = "toggle",
-            width = "full",    
-            set = function(info,val) NOP.DB["herald"] = val; end,
-            get = function(info) return NOP.DB.herald end,
-          },
-          SkipOnError = {
-            name = private.L["Skip on Error"],
-            order = 16,
-            desc = private.L["Temporary blacklist item when click produce error message"],
-            type = "toggle",
-            width = "full",    
-            set = function(info,val) NOP.DB["SkipOnError"] = val; end,
-            get = function(info) return NOP.DB.SkipOnError end,
+            func = function() NOP:BlacklistReset() end,
           },
           header1 = {
             type = "header",
             name = "",
-            order = 17,
+            order = 2,
           },
-          blacklist = {
-            name = private.L["Clear Blacklist"],
+          skin = {
+            name = P.L["Skin Button"],
+            order = 3,
+            type = "toggle",
+            -- width = "full",    
+            set = function(info,val) NOP.DB["skinButton"] = val; NOP:ButtonLoad(); NOP:QBSkin(); end,
+            get = function(info) return NOP.DB.skinButton end,
+          },
+          masque = {
+            name = P.L["Masque Enable"],
+            order = 4,
+            desc = P.L["Need UI reload or relogin to activate."],
+            type = "toggle",
+            -- width = "full",    
+            set = function(info,val) NOP.DB["masque"] = val; end,
+            get = function(info) return NOP.DB.masque end,
+          },
+          backdrop = {
+            name = P.L["Backdrop Button"],
+            order = 5,
+            desc = P.L["Create or remove backdrop around button, need reload UI."],
+            type = "toggle",
+            -- width = "full",    
+            set = function(info,val) NOP.DB["backdrop"] = val; end,
+            get = function(info) return NOP.DB.backdrop end,
+          },
+          lock = {
+            name = P.L["Lock Button"],
+            order = 6,
+            desc = P.L["Lock button in place to disbale drag."],
+            type = "toggle",
+            -- width = "full",    
+            set = function(info,val) NOP.DB["lockButton"] = val; end,
+            get = function(info) return NOP.DB.lockButton end,
+          },
+          glow = {
+            name = P.L["Glow Button"],
+            order = 7,
+            desc = P.L["When item is placed by zone change, button will have glow effect."],
+            type = "toggle",
+            -- width = "full",    
+            set = function(info,val) NOP.DB["glowButton"] = val; end,
+            get = function(info) return NOP.DB.glowButton end,
+          },
+          skip = {
+            name = P.L["Session skip"],
+            order = 8,
+            desc = P.L["Skipping item last until relog."],
+            type = "toggle",
+            -- width = "full",
+            set = function(info,val) NOP.DB["Skip"] = val; if NOP:BlacklistClear() then NOP:BAG_UPDATE() end; end,
+            get = function(info) return NOP.DB.Skip end,
+          },
+          zoneUnlock = {
+            name = P.L["Zone unlock"],
+            order = 9,
+            desc = P.L["Don't zone restrict openable items"],
+            type = "toggle",
+            -- width = "full",
+            set = function(info,val) NOP.DB["zoneUnlock"] = val; NOP:BAG_UPDATE(); end,
+            get = function(info) return NOP.DB.zoneUnlock end,
+          },
+          profession = {
+            name = P.L["Profession"],
+            order = 10,
+            desc = P.L["Place items usable by lockpicking"],
+            type = "toggle",
+            -- width = "full",
+            set = function(info,val) NOP.DB["profession"] = val; NOP:BAG_UPDATE(); end,
+            get = function(info) return NOP.DB.profession end,
+          },
+          quest = {
+            name = P.L["Quest bar"],
+            order = 11,
+            desc = P.L["Quest items placed on bar"],
+            type = "toggle",
+            -- width = "full",
+            set = function(info,val) NOP.DB["quest"] = val; NOP:QBUpdate(); end,
+            get = function(info) return NOP.DB.quest end,
+          },
+          visible = {
+            name = P.L["Visible"],
+            order = 12,
+            desc = P.L["Make button visible by placing fake item on it"],
+            type = "toggle",
+            -- width = "full",
+            set = function(info,val) NOP.DB["visible"] = val; NOP:BAG_UPDATE(); NOP:QBUpdate(); end,
+            get = function(info) return NOP.DB.visible end,
+          },
+          swap = {
+            name = P.L["Swap"],
+            order = 13,
+            desc = P.L["Swap location of numbers for count and cooldown timer"],
+            type = "toggle",
+            -- width = "full",
+            set = function(info,val) NOP.DB["swap"] = val; NOP:ButtonSwap(NOP.BF,NOP.DB.swap) end,
+            get = function(info) return NOP.DB.swap end,
+          },
+          autoquest = {
+            name = P.L["AutoQuest"],
+            order = 14,
+            desc = P.L["Auto accept or hand out quests from AutoQuestPopupTracker!"],
+            type = "toggle",
+            -- width = "full",
+            set = function(info,val) NOP.DB["autoquest"] = val; end,
+            get = function(info) return NOP.DB.autoquest end,
+          },
+          strata = {
+            name = P.L["Strata"],
+            order = 15,
+            desc = P.L["Set strata for items button to HIGH, place it over normal windows."],
+            type = "toggle",
+            -- width = "full",
+            set = function(info,val) NOP.DB["strata"] = val; NOP.BF:SetFrameStrata(NOP.DB.strata and "HIGH" or "MEDIUM")  end,
+            get = function(info) return NOP.DB.strata end,
+          },
+          herald = {
+            name = P.L["Herald"],
+            order = 16,
+            desc = P.L["Announce completed work orders, artifact points etc.."],
+            type = "toggle",
+            -- width = "full",
+            set = function(info,val) NOP.DB["herald"] = val; end,
+            get = function(info) return NOP.DB.herald end,
+          },
+          SkipOnError = {
+            name = P.L["Skip on Error"],
+            order = 17,
+            desc = P.L["Temporary blacklist item when click produce error message"],
+            type = "toggle",
+            -- width = "full",
+            set = function(info,val) NOP.DB["SkipOnError"] = val; end,
+            get = function(info) return NOP.DB.SkipOnError end,
+          },
+          HideInCombat = {
+            name = P.L["HIDE_IN_COMBAT"],
             order = 18,
-            desc = private.L["Reset Permanent blacklist."],
-            type = "execute",
-            func = function() NOP:BlacklistReset() end,
+            desc = P.L["HIDE_IN_COMBAT_HELP"],
+            type = "toggle",
+            -- width = "full",
+            set = function(info,val)
+              NOP.DB["HideInCombat"] = val; 
+              RegisterStateDriver(self.frameHiderB, "visibility", string.format( "[petbattle] [vehicleui] %shide; show", NOP.DB.HideInCombat and "[combat] " or ""))
+            end,
+            get = function(info) return NOP.DB.HideInCombat end,
+          },
+          ShowReputation = {
+            name = P.L["SHOW_REPUTATION"],
+            order = 19,
+            desc = P.L["SHOW_REPUTATION_HELP"],
+            type = "toggle",
+            -- width = "full",
+            set = function(info,val) NOP.DB["ShowReputation"] = val; end,
+            get = function(info) return NOP.DB.ShowReputation end,
+          },
+          SkipExalted = {
+            name = P.L["SKIP_EXALTED"],
+            order = 20,
+            desc = P.L["SKIP_EXALTED_HELP"],
+            type = "toggle",
+            -- width = "full",
+            set = function(info,val) NOP.DB["SkipExalted"] = val; wipe(T_CHECK); end,
+            get = function(info) return NOP.DB.SkipExalted end,
           },
         },
       },
       pos = {
-        name = private.L["Button"],
+        name = P.L["Button"],
         type = "group",
         order = 2,
         args = {
           header1 = {
-            name = private.L["Buttom location"],
+            name = P.L["Buttom location"],
             type = "header",
             order = 1,
           },
           GMFx = {
             name = "X",
             type = "range",
-            -- width = "full",    
+            -- width = "full",
             order = 2,
             min = -1000,
             max = 1000,
@@ -246,7 +284,7 @@ function NOP:OptionsLoad() -- load options for UI config
           GMFy = {
             name = "Y",
             type = "range",
-            -- width = "full",    
+            -- width = "full",
             order = 3,
             min = -500,
             max = 500,
@@ -256,14 +294,14 @@ function NOP:OptionsLoad() -- load options for UI config
             get = function(info) return NOP.DB.button[5] end,
           },
           header2 = {
-            name = private.L["Button size"],
+            name = P.L["Button size"],
             type = "header",
             order = 4,
           },
           iconSize = {
-            name = private.L["Width and Height"],
-            desc = private.L["Button size in pixels"],
-            width = "full",    
+            name = P.L["Width and Height"],
+            desc = P.L["Button size in pixels"],
+            width = "full",
             type = "range",
             order = 5,
             min = 16,
@@ -278,10 +316,10 @@ function NOP:OptionsLoad() -- load options for UI config
             order = 6,
           },
           cofeeStacks = {
-            name = private.L["Miner's Coffee stacks"],
-            desc = private.L["Allow buff up to this number of stacks"],
+            name = P.L["Miner's Coffee stacks"],
+            desc = P.L["Allow buff up to this number of stacks"],
             type = "range",
-            width = "full",    
+            width = "full",
             order = 7,
             min = 1,
             max = 5,
@@ -293,21 +331,21 @@ function NOP:OptionsLoad() -- load options for UI config
       },
       quest = {
         order = 3,
-        name = private.L["Quest bar"],
+        name = P.L["Quest bar"],
         type = "group",
         args = {
           sticky = {
             order = 1,
-            name = private.L["Sticky"],
-            desc = private.L["Anchor to Item button"],
+            name = P.L["Sticky"],
+            desc = P.L["Anchor to Item button"],
             type = "toggle",
-            width = "full",    
+            width = "full",
             set = function(info,val) NOP.DB["qb_sticky"] = val; NOP:QBUpdate(); end,
             get = function(info) return NOP.DB.qb_sticky end,
           },
           slots = {
-            name = private.L["Buttons per row"],
-            desc = private.L["Number of buttons placed in one row"],
+            name = P.L["Buttons per row"],
+            desc = P.L["Number of buttons placed in one row"],
             type = "range",
             order = 2,
             min = 5,
@@ -317,8 +355,8 @@ function NOP:OptionsLoad() -- load options for UI config
             get = function(info) return NOP.DB.slots end,
           },
           spacing = {
-            name = private.L["Spacing"],
-            desc = private.L["Space between buttons"],
+            name = P.L["Spacing"],
+            desc = P.L["Space between buttons"],
             type = "range",
             order = 3,
             min = -10,
@@ -333,20 +371,20 @@ function NOP:OptionsLoad() -- load options for UI config
             order = 4,
           },
           direction = {
-            name = private.L["Direction"],
-            desc = private.L["Expand bar to"],
+            name = P.L["Direction"],
+            desc = P.L["Expand bar to"],
             order = 5,
             type = "select",
-            values = { UP = private.L["Up"], DOWN = private.L["Down"], LEFT = private.L["Left"], RIGHT = private.L["Right"] },
+            values = { UP = P.L["Up"], DOWN = P.L["Down"], LEFT = P.L["Left"], RIGHT = P.L["Right"] },
             set = function(info,val) NOP.DB["direction"] = val; NOP:QBUpdate(); end,
             get = function(info) return NOP.DB.direction end,
           },
           expand = {
             order = 6,
             type = "select",
-            name = private.L["Add new row"],
-            desc = private.L["Above or below last one"],
-            values = { [1] = private.L["Up"], [-1] = private.L["Down"] },
+            name = P.L["Add new row"],
+            desc = P.L["Above or below last one"],
+            values = { [1] = P.L["Up"], [-1] = P.L["Down"] },
             set = function(info,val) NOP.DB["expand"] = val; NOP:QBUpdate(); end,
             get = function(info) return NOP.DB.expand end,
           },
@@ -357,10 +395,10 @@ function NOP:OptionsLoad() -- load options for UI config
           },
           keyBind = {
             order = 8,
-            name = private.L["Hot-Key"],
-            desc = private.L["Key to use for automatic key binding."],
+            name = P.L["Hot-Key"],
+            desc = P.L["Key to use for automatic key binding."],
             type = "keybinding",
-            width = "full",    
+            width = "full",
             set = function(info,val) NOP.DB["keyBind"] = val; NOP:QBUpdate(); end,
             get = function(info) return NOP.DB.keyBind end,
           }
@@ -369,6 +407,6 @@ function NOP:OptionsLoad() -- load options for UI config
     },
   }
   NewOpenablesOptions.args.profiles = LibStub("AceDBOptions-3.0"):GetOptionsTable(self.AceDB)
-  LibStub("AceConfig-3.0"):RegisterOptionsTable(private.NOP_TITLE, NewOpenablesOptions)
-  LibStub("AceConfigDialog-3.0"):AddToBlizOptions(private.NOP_TITLE,ADDON,nil)
+  LibStub("AceConfig-3.0"):RegisterOptionsTable(P.NOP_TITLE, NewOpenablesOptions)
+  LibStub("AceConfigDialog-3.0"):AddToBlizOptions(P.NOP_TITLE,ADDON,nil)
 end

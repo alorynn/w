@@ -1,4 +1,4 @@
-﻿-- ********************************************************************************
+-- ********************************************************************************
 -- Data Broker Volume Control (Broker_Volume)
 -- A volume control for Data Broker.
 -- By: Shenton
@@ -1039,6 +1039,7 @@ end
 -- This is needed as LDB will use OnEnter over OnTooltipShow
 function A:SetTooltipMode()
     if ( A.db.profile.noTooltipMode ) then
+        A.ldb.OnTooltipShow = nil;
         A.ldb.OnEnter = function(self)
             if ( not A.slidersFrame ) then A:CreateSlidersFrame(); end
             local point, relativePoint = A:GetAnchor();
@@ -1051,6 +1052,37 @@ function A:SetTooltipMode()
         end
     else
         A.ldb.OnEnter = nil;
+        A.ldb.OnTooltipShow = function(tooltip)
+            if ( A.db.profile.noTooltipMode ) then return; end
+
+            tooltip:AddDoubleLine(A.color["WHITE"]..L["Broker Volume"], A.color["GREEN"].." v"..A.version);
+            tooltip:AddLine(" ");
+
+            local master = A:GetVolumePercent("Sound_MasterVolume");
+            local sfx = A:GetVolumePercent("Sound_SFXVolume");
+            local music = A:GetVolumePercent("Sound_MusicVolume");
+            local ambience = A:GetVolumePercent("Sound_AmbienceVolume");
+            local dialog = A:GetVolumePercent("Sound_DialogVolume");
+
+            if ( GetCVar("Sound_EnableAllSound") == "0" ) then
+                tooltip:AddLine(SOUND_DISABLED);
+                tooltip:AddLine(" ");
+            end
+
+            if ( GetCVar("Sound_EnableSFX") == "0" ) then
+                tooltip:AddLine(L["Mute"]);
+                tooltip:AddLine(" ");
+            end
+
+            tooltip:AddLine(L["Master volume"]..": "..A:ColorGradient(master)..master.."%");
+            tooltip:AddLine(L["Effects volume"]..": "..A:ColorGradient(sfx)..sfx.."%");
+            tooltip:AddLine(L["Music volume"]..": "..A:ColorGradient(music)..music.."%");
+            tooltip:AddLine(L["Ambience volume"]..": "..A:ColorGradient(ambience)..ambience.."%");
+            tooltip:AddLine(L["Dialog volume"]..": "..A:ColorGradient(dialog)..dialog.."%");
+
+            tooltip:AddLine(" ");
+            tooltip:AddLine(L["|cffc79c6eLeft-Click: |cff33ff99Mute sound\n|cffc79c6eRight-Click: |cff33ff99Display the volume sliders\n|cffc79c6eShift+Right-Click: |cff33ff99Display the configuration menu"]);
+        end
     end
 end
 
@@ -1117,7 +1149,7 @@ function A:LFG_PROPOSAL_SHOW()
 end
 
 function A:PlaySound()
-    PlaySound("ReadyCheck");
+    PlaySound(SOUNDKIT.READY_CHECK);
 end
 
 --- Callback function for event LFG_PROPOSAL_FAILED
@@ -1280,37 +1312,6 @@ function A:OnInitialize()
                     end
                 end
             end
-        end,
-        OnTooltipShow = function(tooltip)
-            if ( A.db.profile.noTooltipMode ) then return; end
-
-            tooltip:AddDoubleLine(A.color["WHITE"]..L["Broker Volume"], A.color["GREEN"].." v"..A.version);
-            tooltip:AddLine(" ");
-
-            local master = A:GetVolumePercent("Sound_MasterVolume");
-            local sfx = A:GetVolumePercent("Sound_SFXVolume");
-            local music = A:GetVolumePercent("Sound_MusicVolume");
-            local ambience = A:GetVolumePercent("Sound_AmbienceVolume");
-            local dialog = A:GetVolumePercent("Sound_DialogVolume");
-
-            if ( GetCVar("Sound_EnableAllSound") == "0" ) then
-                tooltip:AddLine(SOUND_DISABLED);
-                tooltip:AddLine(" ");
-            end
-
-            if ( GetCVar("Sound_EnableSFX") == "0" ) then
-                tooltip:AddLine(L["Mute"]);
-                tooltip:AddLine(" ");
-            end
-
-            tooltip:AddLine(L["Master volume"]..": "..A:ColorGradient(master)..master.."%");
-            tooltip:AddLine(L["Effects volume"]..": "..A:ColorGradient(sfx)..sfx.."%");
-            tooltip:AddLine(L["Music volume"]..": "..A:ColorGradient(music)..music.."%");
-            tooltip:AddLine(L["Ambience volume"]..": "..A:ColorGradient(ambience)..ambience.."%");
-            tooltip:AddLine(L["Dialog volume"]..": "..A:ColorGradient(dialog)..dialog.."%");
-
-            tooltip:AddLine(" ");
-            tooltip:AddLine(L["|cffc79c6eLeft-Click: |cff33ff99Mute sound\n|cffc79c6eRight-Click: |cff33ff99Display the volume sliders\n|cffc79c6eShift+Right-Click: |cff33ff99Display the configuration menu"]);
         end,
     });
 

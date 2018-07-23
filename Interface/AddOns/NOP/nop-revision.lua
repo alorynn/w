@@ -1,4 +1,169 @@
 -- Revisions:
+--[[<p>09.06 23.07.2018</p>
+<p><ul>
+<li>Tooltip for couple of item can be broken when WoW client is freshly started and 1st toon does login. After switch to another toon tooltips are OK. Seems like bug in Blizzard's code because tooltips are striped off last line!.</li>
+<li>Retry mechanic in pattern loading is now extended to tooltip scans and fixed tooltip reading as well.</li>
+<li>Removed extra diagnostic prints, reson for problem is known now.</li>
+</ul><hr></p>
+]]
+
+--[[<p>09.04 22.07.2018</p>
+<p><ul>
+<li>Bug Fix pattern matching and erros in match table.</li>
+</ul><hr></p>
+]]
+--[[<p>09.02 20.07.2018</p>
+<p><ul>
+<li>Fix garrison mapID, missing 4th mapID for tier1.</li>
+<li>Removed all code for build 7.3.x.</li>
+<li>Check mapID not only on zone change, sometime event for zone chnges is not fired up!</li>
+<li>More events could trigger up item rescan in bags including mail, bank, guild bank and trade. Item rescan now is staggered into 1 seconds delay to make just one call if too many events are triggered at once.</li>
+<li>Artifact realted code removed as it is obsolete now</li>
+</ul><hr></p>
+]]
+--[[<p>09.00 18.07.2018</p>
+<p><ul>
+<li>TOC updated to match Live.</li>
+<li>New milenia new mayor version.</li>
+<li>Remaped mapIDs to new build. Trash white items still are in tables and need more cleanup.</li>
+</ul><hr></p>
+]]
+--[[<p>08.48 15.07.2018</p>
+<p><ul>
+<li>Updated libraries for better compatibility with WoW BFA Beta.</li>
+<li>Option not to place tokes for artifact when artifact have all traits, actually when it has level 75.</li>
+<li>Added Pandaria reputation tokens.</li>
+</ul><hr></p>
+]]
+--[[<p>08.46 21.05.2018</p>
+<p><ul>
+<li>Fix for call to undefined function printt.</li>
+</ul><hr></p>
+]]
+--[[<p>08.44 01.05.2018</p>
+<p><ul>
+<li>Added Petrified Wyrmtongue.</li>
+<li>WoW 8.x support. Ace3 libraries and other libraries updated to 8.0.1 support as well. For mapID now is used HereBeDragons 1.0 and 2.0</li>
+<li>Full LINT declaration and assertion check with call stack on wrong arguments.</li>
+<li>Timer function calls now doesn't overlap by default.</li>
+<li>Migration all references P. to local LINT friendly, prevents use of not defined variables.</li>
+</ul><hr></p>
+]]
+--[[<p>08.42 17.04.2018</p>
+<p><ul>
+<li>Fix. Restore item buttom and quest bar button frame anchor according to saved anchor in profile, instead reseting position.</li>
+<li>Fix. Tooltip anchor and if ElvUI is installed, then is forced to use uberTooltip anchor.</li>
+<li>Fix. Save procedure calls parent frame as nil for anchor when buttons are moved.</li>
+</ul><hr></p>
+]]
+--[[<p>08.40 04.04.2018</p>
+<p><ul>
+<li>Some MIA clams items returns back and Strange Ball of Energy.</li>
+<li>Items with Learning spell on it reinstated back.</li>
+<li>Only left text in tooltip is comared to red.</li>
+<li>Removed Stabilized Titan Essence now it is vendor trash.</li>
+<li>When faction is exalted and there is paragong reward pending then standing is shown as Exalted+.</li>
+</ul><hr></p>
+]]
+--[[<p>08.38 22.03.2018</p>
+<p><ul>
+<li>Herald option now obey setting for artifact as well.</li>
+</ul><hr></p>
+]]
+--[[<p>08.36 16.03.2018</p>
+<p><ul>
+<li>When reputation tokens aren't disabled on exalted, these will not be placed if paragon reward is pending.</li>
+<li>All declarations rewriten to use LINT and strict locak check. Found 3 variables refered before use.</li>
+<li>Hope it will fix Garrison mine buff problem, quest bar hotkey bind and reputation rewards.</li>
+<li>Added Illusion: items and Badge of Honor.</li>
+</ul><hr></p>
+]]
+--[[<p>08.34 21.02.2018</p>
+<p><ul>
+<li>Workaround for bug in WoW API function C_Reputation.GetFactionParagonInfo() it returns empty values in certain dungeon.</li>
+<li>References to WoWBox removed not needit anymore it is in mainsteream.</li>
+</ul><hr></p>
+]]
+--[[<p>08.32 01.02.2018</p>
+<p><ul>
+<li>If <b>/nop unlist #itemID</b> remove item from blacklist then rescan is started.</li>
+<li>Clash with MogIT addon fixed.</li>
+</ul><hr></p>
+]]
+--[[<p>08.30 29.01.2018</p>
+<p><ul>
+<li>Thanks to LibArtifactData now addon can notify about all artifacts seen in bags or bank when there are unsped points or free traits.</li>
+<li>Some German translations corrected, thanks to Salty.</li>
+</ul><hr></p>
+]]
+--[[<p>08.28 21.01.2018</p>
+<p><ul>
+<li>Updated Chinese Traditional localization thanks to BNSSNB.</li>
+<li>Diagnostic message tied to pick-locking now printed only in verbose mode.</li>
+<li>Red text in tooltips is now searched on both sides of tooltip.</li>
+<li>When exalted is reached by using token then is validate right after and removed from button.</li>
+<li>Added announce for A new trait is available at the Netherlight Crucible.</li>
+<li>Rest of locale translated by Google translator if you don't like it, please, supply own translation and I will merge it into code. Even for English localization suggestions are welcomed is not my native language as well.</li>
+</ul><hr></p>
+]]
+--[[<p>08.26 28.12.2017</p>
+<ul>
+<li>Ability to filter items when reputation with Legion faction is Exalted. Filtering for other pre Legion reputation tokens are not implemented yet.</li>
+<li>Two new events hook for incoming items ITEM_PUSH and CHAT_MSG_LOOT.</li>
+<li>Caching patterns is now more patient to fetch items from server to local cache, it should take some time until all items are recognized and placed on button.</li>
+</ul>
+]]
+--[[<p>08.24 14.12.2017</p>
+<ul>
+<li>Added Carefully Hidden Muffin, Krokul Armor Set, Demon's Soulstone and Awoken Titan Essence.</li>
+<li>Now are shown standings for Legion reputation in tooltip for proper tokens. When there is installed Order Hall Commander add-on then in tooltip at mission table is NOP standing disabled.</li>
+<li>Legion reputation tokens optimized, now all using pattern matching.</li>
+</ul>
+]]
+--[[<p>08.22 04.12.2017</p>
+<ul>
+<li>Mana Crystal and Ancient Mana Crystal as items not pattern.</li>
+<li>Added Summon Grimtotem Warrior, Summoning Portal, Lucky Rabbit's Foot, Scream of the Dead</li>
+</ul>
+]]
+--[[<p>08.20 17.11.2017</p>
+<ul>
+<li>Final fix for picklocking? Now when item is possible to unlock then item starts to glow.</li>
+<li>Most items identified by GetItemSpell() function moved. T_SPELL_BY_USE_TEXT now use only pattern for standard global strings ITEM_OPENABLE, and ITEM_SPELL_TRIGGER_ONUSE pattern match.</li>
+<li>Tokens leading to use spell Create Item.</li>
+</ul>
+]]
+--[[<p>08.18 14.11.2017</p>
+<ul>
+<li>Fix announce generating error when reagent name is not yet in cache.</li>
+<li>When spellLoad or itemLoad reach retry limit it prints last offending itemID and or spellID as well.</li>
+</ul>
+]]
+--[[<p>08.16 10.11.2017</p>
+<ul>
+<li>Instant world quest completion skills are now announced when become ready, it does check if necessary consumable is present.</li>
+<li>Implemented different priorities for groups of items like artefact power, tokens, reputation.</li>
+<li>Cleanup code and updates to item button is done only when really new item is placed on.</li>
+<li>Possible fix for lockpicking.</li>
+<li>Possible fix for stacks of cofee in garrison mine.</li>
+</ul>
+]]
+--[[<p>08.14 29.10.2017</p>
+<ul>
+<li>Verbose message when preload of items and spells does fail.</li>
+<li>Fix for armor Unsullied tokens. Developers decide to put type of armor inside string!</li>
+<li>SpellLoad() rewritten if there is bad item to load it does at least load all remaining patterns.</li>
+<li>Option to hide items button in combat. Quest bar still is shown in combat because there could be items usable in combat.</li>
+</ul>
+]]
+--[[<p>08.12 25.10.2017</p>
+<ul>
+<li>Added Golden Banana, Earthen Mark, Imp Pact, Reaves Battery, Shattered Soul, Squire's Oath</li>
+<li>Some locale now using short-names.</li>
+<li>ERR_SPELL_FAILED_ANOTHER_IN_PROGRESS won't trigger temp blacklist, it shall be produced when someone bash button too often.</li>
+<li>Fix for itemID 129097 GetItemInfo doesn't return any value.</li>
+</ul>
+]]
 --[[<p>08.10 12.10.2017</p>
 <ul>
 <li>/nop list is more verbose and /nop unlist itemID as well. Fixed printing help when /nop unlist was used even command is known and processed.</li>

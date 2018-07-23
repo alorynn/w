@@ -1,35 +1,38 @@
-﻿-- localization file for esES made by annthizze
+﻿-- localization file for esES made by annthizze and Google translator
+local _
+-- global functions and variebles to locals to keep LINT happy
+local assert = _G.assert
+local LibStub = _G.LibStub; assert(LibStub ~= nil,'LibStub')
+-- local AddOn
 local ADDON = ...
-local _ ;
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local L = AceLocale:NewLocale(ADDON, "esES");
 if not L then return end
-
+--
 L["NOP_TITLE"] = "New Openables"
 L["NOP_VERSION"] = "|cFFFFFFFF%s use |cFFFF00FF/nop|cFFFFFFFF"
-
-L["ALT-LeftClick and drag to move."] = "ALT-ClicIzq y arrastre para mover."
-L["LeftClick to open or use."] = "ClicIzq para abrir o usar."
-L["RightClick to skip item."] = "ClicDcho para omitir el objeto."
-L["CTRL-RightClick to blacklist item."] = "CTRL-ClicDcho para la lista negra de objetos."
+L["CLICK_DRAG_MSG"] = "ALT-ClicIzq y arrastre para mover."
+L["CLICK_OPEN_MSG"] = "ClicIzq para abrir o usar."
+L["CLICK_SKIP_MSG"] = "ClicDcho para omitir el objeto."
+L["CLICK_BLACKLIST_MSG"] = "CTRL-ClicDcho para la lista negra de objetos."
 L["No openable items!"] = "¡No hay objetos que pueden abrirse!"
-L["Reset and move button to middle of screen!"] = "!Resetea el botón y lo mueve al medio de la pantalla!"
-L["Use: "] = "Utilizar: "
+L["BUTTON_RESET"] = "!Resetea el botón y lo mueve al medio de la pantalla!"
+L["NOP_USE"] = "Utilizar: "
 L["Spell:"] = "Hechizo:"
-L["|cFFFF00FFPermanently blacklisted items:"] = "|cFFFF00FFObjetos Añadidos de forma permante a la lista negra:"
-L["|cFFFF00FFPermanent blacklist is empty"] = "|cFFFF00FFLa lista negra esta vacía"
-L["Permanently Blacklisted:|cFF00FF00"] = "Añadidos a la lista negra permanentemente:|cFF00FF00"
-L["Session Blacklisted:|cFF00FF00"] = "Añadidos esta sesión a la Lista negra:|cFF00FF00"
-L["Temporary Blacklisted:|cFF00FF00"] = "Añadidos a la lista negra temporal:|cFF00FF00"
+L["BLACKLISTED_ITEMS"] = "|cFFFF00FFObjetos Añadidos de forma permante a la lista negra:"
+L["BLACKLIST_EMPTY"] = "|cFFFF00FFLa lista negra esta vacía"
+L["PERMA_BLACKLIST"] = "Añadidos a la lista negra permanentemente:|cFF00FF00"
+L["SESSION_BLACKLIST"] = "Añadidos esta sesión a la Lista negra:|cFF00FF00"
+L["TEMP_BLACKLIST"] = "Añadidos a la lista negra temporal:|cFF00FF00"
 L["|cFFFF0000Error loading tooltip for|r "] = "|cFFFF0000Se ha producido un error al cargar la ventana emergente de|r "
 L["Plans, patterns and recipes cache update."] = "Cache de planos, patrones y recetas actualizada."
 L["Spell patterns cache update."] = "Cache de patrones de hechizo actualizada."
 L["|cFFFF0000Error loading tooltip for spell |r "] = "|cFFFF0000Se ha producido un error al cargar la ventana emergente de hechizos |r "
 L["|cFFFF0000Error loading tooltip for spellID %d"] = "|cFFFF0000Se ha producido un error al cargar la ventana emergente del hechizo idientificado como %d"
-L["Toggle"] = "Cambiar"
+L["TOGGLE"] = "Cambiar"
 L["Skin Button"] = "Diseño del botón"
 L["Masque Enable"] = true
-L["Need UI reload or relogin to activate."] = true
+L["Need UI reload or relogin to activate."] = "Necesita la IU volver a cargar o volver a iniciar sesión para activar."
 L["Lock Button"] = "Bloquear botón"
 L["Lock button in place to disbale drag."] = "Bloquea la posición del botón, no permitiendo su reubicación."
 L["Glow Button"] = "Resplandor del botón"
@@ -59,12 +62,20 @@ L["Swap"] = "Intercambiar"
 L["Swap location of numbers for count and cooldown timer"] = "Intercambia la ubicación de los números para contador y temporizador de tiempo de reutilización"
 L["AutoQuest"]  = "Búsqueda automática"
 L["Auto accept or hand out quests from AutoQuestPopupTracker!"] = "¡Acepte automáticamente o entregue las misiones de AutoQuestPopupTracker!"
-L["Strata"] = true
-L["Set strata for items button to HIGH, place it over normal windows."] = true
-L["Herald"] = true
-L["Announce completed work orders, artifact points etc.."] = true
-L["Skip on Error"] = true
-L["Temporary blacklist item when click produce error message"] = true
+L["Strata"] = "Estratos"
+L["Set strata for items button to HIGH, place it over normal windows."] = "Establezca el botón Estratos para elementos en ALTO, colóquelo sobre las ventanas normales."
+L["Herald"] = "Heraldo"
+L["Announce completed work orders, artifact points etc.."] = "Anunciar órdenes de trabajo completadas, puntos de artefactos, etc."
+L["Skip on Error"] = "Omitir error"
+L["Temporary blacklist item when click produce error message"] = "Artículo temporal de la lista negra cuando haga clic en producir mensaje de error"
+L["HIDE_IN_COMBAT"] = "Ocultar en combate"
+L["HIDE_IN_COMBAT_HELP"] = "Ocultar el botón de elementos cuando está en combate"
+L["SHOW_REPUTATION"] = "Mostrar reputación"
+L["SHOW_REPUTATION_HELP"] = "Muestra la reputación de la Legión en la información sobre herramientas para artículos de tokens de reputación. Activar / Desactivar necesita volver a cargar el juego del cliente."
+L["SKIP_EXALTED"] = "Saltar exaltado"
+L["SKIP_EXALTED_HELP"] = "No use los tokens de reputación de Legión cuando ya estén exaltados."
+L["SKIP_MAXPOWER"] = "Skip artifact"
+L["SKIP_MAXPOWER_HELP"] = "Skip artifact power tokens when artifact have maximum traits."
 L["Buttons per row"] = "Número de botones por línea"
 L["Number of buttons placed in one row"] = "Número de botones colocados en una línea"
 L["Spacing"] = "Espaciado"
@@ -85,13 +96,13 @@ L["Quest"] = "Misión"
 L["Quest not found for this item."] = "No se encuentra la misión relacionada con este objeto."
 L["Items cache update run |cFF00FF00%d."] = "Actualizados los objetos de cache |cFF00FF00%d."
 L["Spells cache update run |cFF00FF00%d."] = "Actualizados los hechizos de cache |cFF00FF00%d."
-L["%s: %d done %d to go!"] = true
-L["Paragon reward for %s is ready!"] = true
-L["Shipyard have %d/%d ships!"] = true
-L["Artifact have %d talents ready!"] = true
-L["Archaeology %s is ready!"] = true
-L["%s is ready!"] = true
-
+L["TOGO_ANNOUNCE"] = "%s: %d hecho %d por ir!"
+L["REWARD_ANNOUNCE"] = "¡La recompensa de Paragon para %s está lista!"
+L["SHIPYARD_ANNOUNCE"] = "¡Astillero tiene %d/%d naves!"
+L["ARTIFACT_ANNOUNCE"] = "¡%s tiene %d rasgos listos!"
+L["ARCHAELOGY_ANNOUNCE"] = "¡Archaeology %s está listo!"
+L["TALENT_ANNOUNCE"] = "¡%s está listo!"
+L["RESTARTED_LOOKUP"] = "Lista negra temporal borrada, reiniciando la búsqueda!"
 L["CONSOLE_USAGE"] = [=[ [reset|skin|lock|clear|list|unlist|skip|glow|zone|quest|show]
 reset  - Resetea la posición del botón colocándolo en el medio de la pantalla
 skin   - Activa/desactiva el diseño del botón

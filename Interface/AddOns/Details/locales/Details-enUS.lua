@@ -87,6 +87,7 @@ L["STRING_CLOSEALL"] = "All windows are closed, you may type '/details show' to 
 L["STRING_COLOR"] = "Color"
 L["STRING_COMMAND_LIST"] = "command list"
 L["STRING_COOLTIP_NOOPTIONS"] = "no options"
+L["STRING_CREATEAURA"] = "Create Aura"
 L["STRING_CRITICAL_HITS"] = "Critical Hits"
 L["STRING_CRITICAL_ONLY"] = "critical"
 L["STRING_CURRENT"] = "Current"
@@ -358,8 +359,7 @@ L["STRING_MIRROR_IMAGE"] = "Mirror Image"
 L["STRING_MISS"] = "Miss"
 L["STRING_MODE_ALL"] = "Everything"
 L["STRING_MODE_GROUP"] = "Standard"
-L["STRING_MODE_OPENFORGE"] = "Aura Forge"
-L["STRING_MODE_OPENGUILDDAMAGERANK"] = "Damage Ranking"
+L["STRING_MODE_OPENFORGE"] = "Spell List"
 L["STRING_MODE_PLUGINS"] = "plugins"
 L["STRING_MODE_RAID"] = "Plugins: Raid"
 L["STRING_MODE_SELF"] = "Plugins: Solo Play"
@@ -447,7 +447,7 @@ L["STRING_OPTIONS_BAR_FOLLOWING_ANCHOR"] = "Player Bar:"
 L["STRING_OPTIONS_BAR_FOLLOWING_DESC"] = "When enabled, your bar will always be shown even when you aren't one of the top ranked players."
 L["STRING_OPTIONS_BAR_GROW"] = "Bar Growth Direction"
 L["STRING_OPTIONS_BAR_GROW_DESC"] = "Bars grow from the top or bottom of the window."
-L["STRING_OPTIONS_BAR_HEIGHT"] = "Height"
+L["STRING_OPTIONS_BAR_HEIGHT"] = "Bar Height"
 L["STRING_OPTIONS_BAR_HEIGHT_DESC"] = "Increase or decrease the bar height."
 L["STRING_OPTIONS_BAR_ICONFILE"] = "Icon File"
 L["STRING_OPTIONS_BAR_ICONFILE_DESC"] = [=[Path for a custom icon file.
@@ -537,6 +537,7 @@ L["STRING_OPTIONS_CENERGY_DESC"] = [=[Enable capture of:
 - |cFFFFFF00Runic Power Generated|r]=]
 L["STRING_OPTIONS_CHANGE_CLASSCOLORS"] = "Modify Class Colors"
 L["STRING_OPTIONS_CHANGE_CLASSCOLORS_DESC"] = "Select new colors for classes."
+L["STRING_OPTIONS_CHANGECOLOR"] = "Change Color"
 L["STRING_OPTIONS_CHANGELOG"] = "Version Notes"
 L["STRING_OPTIONS_CHART_ADD"] = "Add Data"
 L["STRING_OPTIONS_CHART_ADD2"] = "Add"
@@ -784,14 +785,16 @@ L["STRING_OPTIONS_MENU_ATTRIBUTE_ANCHORY_DESC"] = "Adjust the attribute text loc
 L["STRING_OPTIONS_MENU_ATTRIBUTE_ENABLED_DESC"] = "Active shows the display name currently shown in the window."
 L["STRING_OPTIONS_MENU_ATTRIBUTE_ENCOUNTERTIMER"] = "Encounter Timer"
 L["STRING_OPTIONS_MENU_ATTRIBUTE_ENCOUNTERTIMER_DESC"] = "When enabled, a stopwatch is shown on the left side of the text."
-L["STRING_OPTIONS_MENU_ATTRIBUTE_FONT"] = "Text Font"
+--[[Translation missing --]]
+--[[ L["STRING_OPTIONS_MENU_ATTRIBUTE_FONT"] = ""--]] 
 L["STRING_OPTIONS_MENU_ATTRIBUTE_FONT_DESC"] = "Select the text font for attribute text."
 L["STRING_OPTIONS_MENU_ATTRIBUTE_SHADOW_DESC"] = "Enable or disable the shadow on the text."
 L["STRING_OPTIONS_MENU_ATTRIBUTE_SIDE"] = "Attach to Top Side"
 L["STRING_OPTIONS_MENU_ATTRIBUTE_SIDE_DESC"] = "Choose where the text is anchored."
 L["STRING_OPTIONS_MENU_ATTRIBUTE_TEXTCOLOR"] = "Text Color"
 L["STRING_OPTIONS_MENU_ATTRIBUTE_TEXTCOLOR_DESC"] = "Change the attribute text color."
-L["STRING_OPTIONS_MENU_ATTRIBUTE_TEXTSIZE"] = "Text Size"
+--[[Translation missing --]]
+--[[ L["STRING_OPTIONS_MENU_ATTRIBUTE_TEXTSIZE"] = ""--]] 
 L["STRING_OPTIONS_MENU_ATTRIBUTE_TEXTSIZE_DESC"] = "Adjust the size of attribute text."
 L["STRING_OPTIONS_MENU_ATTRIBUTESETTINGS_ANCHOR"] = "Settings:"
 L["STRING_OPTIONS_MENU_AUTOHIDE_DESC"] = "Hide buttons automatically when the mouse leaves the window and shows up when you back to interact within the window again."
@@ -1162,7 +1165,9 @@ L["STRING_OPTIONS_TEXT_ROWICONS_ANCHOR"] = "Icons:"
 L["STRING_OPTIONS_TEXT_SHOW_BRACKET"] = "Bracket"
 L["STRING_OPTIONS_TEXT_SHOW_BRACKET_DESC"] = "Choose which character is used to open and close the per second and percent block."
 L["STRING_OPTIONS_TEXT_SHOW_PERCENT"] = "Show Percent"
-L["STRING_OPTIONS_TEXT_SHOW_PERCENT_DESC"] = "Show the percentage."
+L["STRING_OPTIONS_TEXT_SHOW_PERCENT_DESC"] = [=[Show the percentage. 
+
+When disabling the percent, you might want to set 'Separator' to 'none' to avoid an extra comma after the DPS.]=]
 L["STRING_OPTIONS_TEXT_SHOW_PS"] = "Show Per Second"
 L["STRING_OPTIONS_TEXT_SHOW_PS_DESC"] = "Show Damage per Second and Healing per Second."
 L["STRING_OPTIONS_TEXT_SHOW_SEPARATOR"] = "Separator"
@@ -1236,10 +1241,12 @@ L["STRING_OPTIONS_TOOLTIPS_BORDER_SIZE_DESC"] = "Change the border size."
 L["STRING_OPTIONS_TOOLTIPS_BORDER_TEXTURE_DESC"] = "Modify the border texture file."
 L["STRING_OPTIONS_TOOLTIPS_FONTCOLOR"] = "Text Color"
 L["STRING_OPTIONS_TOOLTIPS_FONTCOLOR_DESC"] = "Change the color used on tooltip texts."
-L["STRING_OPTIONS_TOOLTIPS_FONTFACE"] = "Text Font"
+--[[Translation missing --]]
+--[[ L["STRING_OPTIONS_TOOLTIPS_FONTFACE"] = ""--]] 
 L["STRING_OPTIONS_TOOLTIPS_FONTFACE_DESC"] = "Choose the font used on tooltip texts."
 L["STRING_OPTIONS_TOOLTIPS_FONTSHADOW_DESC"] = "Enable or disable the shadow in the text."
-L["STRING_OPTIONS_TOOLTIPS_FONTSIZE"] = "Text Size"
+--[[Translation missing --]]
+--[[ L["STRING_OPTIONS_TOOLTIPS_FONTSIZE"] = ""--]] 
 L["STRING_OPTIONS_TOOLTIPS_FONTSIZE_DESC"] = "Increase or decrease the size of tooltip texts"
 L["STRING_OPTIONS_TOOLTIPS_IGNORESUBWALLPAPER"] = "Sub Menu Wallpaper"
 L["STRING_OPTIONS_TOOLTIPS_IGNORESUBWALLPAPER_DESC"] = "When enabled, some menus may use their own wallpaper on sub menus."
@@ -1534,6 +1541,7 @@ L["STRING_SLASH_WIPECONFIG_DESC"] = "set all configurations to default, use this
 L["STRING_SLASH_WORLDBOSS"] = "worldboss"
 L["STRING_SLASH_WORLDBOSS_DESC"] = "run a macro showing which boss you killed this week."
 L["STRING_SPELL_INTERRUPTED"] = "Spells interrupted"
+L["STRING_SPELLLIST"] = "Spell List"
 L["STRING_SPELLS"] = "Spells"
 L["STRING_SPIRIT_LINK_TOTEM"] = "Health Exchange"
 L["STRING_SPIRIT_LINK_TOTEM_DESC"] = [=[Amount of health exchanged between
@@ -1541,6 +1549,7 @@ players inside the totem's circle.
 
 This healing isn't added on the
 player's healing done total.]=]
+L["STRING_STATISTICS"] = "Statistics"
 L["STRING_STATUSBAR_NOOPTIONS"] = "This widget doesn't have options."
 L["STRING_SWITCH_CLICKME"] = "add bookmark"
 L["STRING_SWITCH_SELECTMSG"] = "Select the display for Bookmark #%d."
@@ -1570,21 +1579,21 @@ L["STRING_VOIDZONE_TOOLTIP"] = "Damage and Time"
 L["STRING_WAITPLUGIN"] = [=[waiting for
 plugins]=]
 L["STRING_WAVE"] = "wave"
-L["STRING_WELCOME_1"] = [=[|cFFFFFFFFWelcome to Details! Quick Setup Wizard
+L["STRING_WELCOME_1"] = [=[|cFFFFFFFFWelcome to Details! Quick Setup Wizard|r
 
-|rThis guide will help you with some important configurations.
-You can skip this at any time just clicking on 'skip' button.]=]
+Use the arrows in the bottom right to navigate.]=]
 L["STRING_WELCOME_11"] = "if you change your mind, you can always modify again through options panel"
 L["STRING_WELCOME_12"] = "Choose how fast the window get updated, you may also enable animations and real time updates for Hps and Dps numbers."
-L["STRING_WELCOME_13"] = ""
-L["STRING_WELCOME_14"] = "Update Speed"
-L["STRING_WELCOME_15"] = [=[Interval in seconds between each update in the window.
-
-|cffffff00Important|r: Youtubers and Streamers might want use |cFFFF55000.05|r for more entertainment for the viewers.]=]
-L["STRING_WELCOME_16"] = "Enable Animations"
-L["STRING_WELCOME_17"] = [=[When enabled, all bars will animate to left and right.
-
-|cffffff00Important|r: Youtubers and Streamers might want to enable to increase the entertainment for the viewers.]=]
+--[[Translation missing --]]
+--[[ L["STRING_WELCOME_13"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["STRING_WELCOME_14"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["STRING_WELCOME_15"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["STRING_WELCOME_16"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["STRING_WELCOME_17"] = ""--]] 
 L["STRING_WELCOME_2"] = "if you change your mind, you can always modify again through options panel"
 L["STRING_WELCOME_26"] = "Using the Interface: Stretch"
 L["STRING_WELCOME_27"] = [=[The highlighted button is the Stretcher. |cFFFFFF00Click|r and |cFFFFFF00drag up!|r.
@@ -1619,25 +1628,29 @@ L["STRING_WELCOME_4"] = "Activity Time: "
 L["STRING_WELCOME_41"] = "Interface Entertainment Tweaks:"
 L["STRING_WELCOME_42"] = "Quick Appearance Settings"
 L["STRING_WELCOME_43"] = "Choose your prefered skin:"
-L["STRING_WELCOME_44"] = "Wallpaper"
+--[[Translation missing --]]
+--[[ L["STRING_WELCOME_44"] = ""--]] 
 L["STRING_WELCOME_45"] = "For more customization options, check the options panel."
-L["STRING_WELCOME_46"] = "Import Settings"
+--[[Translation missing --]]
+--[[ L["STRING_WELCOME_46"] = ""--]] 
 L["STRING_WELCOME_5"] = "Effective Time: "
-L["STRING_WELCOME_57"] = [=[Import basic settings from addons already installed.
-
-Each skin reacts differently with the imported settings.]=]
+--[[Translation missing --]]
+--[[ L["STRING_WELCOME_57"] = ""--]] 
 L["STRING_WELCOME_58"] = [=[Predefined sets of appearance configurations.
 
 |cFFFFFF00Important|r: all settings can be modified later on the options panel.]=]
-L["STRING_WELCOME_59"] = "Enable background wallpaper."
+--[[Translation missing --]]
+--[[ L["STRING_WELCOME_59"] = ""--]] 
 L["STRING_WELCOME_6"] = "the timer of each raid member is put on hold if their activity is ceased and back again to count when resumed."
-L["STRING_WELCOME_60"] = "Nickname and Avatar"
-L["STRING_WELCOME_61"] = "Avatars are shown upon tooltips and also at the player detail window."
-L["STRING_WELCOME_62"] = "Both are sent to other members of your guild who also use Details!. The nickname replaces your character name."
+--[[Translation missing --]]
+--[[ L["STRING_WELCOME_60"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["STRING_WELCOME_61"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["STRING_WELCOME_62"] = ""--]] 
 L["STRING_WELCOME_63"] = "Update DPS/HPS on Real Time"
-L["STRING_WELCOME_64"] = [=[When enabled, DPS and HPS numbers are updated very fast not having to wait until the next window update.
-
-|cffffff00Important|r: Youtubers and Streamers might want to enable to increase the entertainment for the viewers.]=]
+--[[Translation missing --]]
+--[[ L["STRING_WELCOME_64"] = ""--]] 
 L["STRING_WELCOME_65"] = "Press Right Button!"
 L["STRING_WELCOME_66"] = [=[Drag a window near other to create a group.
 
@@ -1656,9 +1669,19 @@ helps you with many tasks.
 Examples are: threat meter, dps analysis, encounter summary, charts creation, and more.]=]
 L["STRING_WELCOME_69"] = "Skip"
 L["STRING_WELCOME_7"] = "used for rankings, this method uses the elapsed combat time for measure the DPS and HPS of all raid members."
-L["STRING_WELCOME_70"] = "Title Bar Settings"
-L["STRING_WELCOME_71"] = "Bar Settings"
-L["STRING_WELCOME_72"] = "Window Settings"
+--[[Translation missing --]]
+--[[ L["STRING_WELCOME_70"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["STRING_WELCOME_71"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["STRING_WELCOME_72"] = ""--]] 
+L["STRING_WELCOME_73"] = "Select the Alphabet or Region:"
+L["STRING_WELCOME_74"] = "Latin Alphabet"
+L["STRING_WELCOME_75"] = "Cyrillic Alphabet"
+L["STRING_WELCOME_76"] = "China"
+L["STRING_WELCOME_77"] = "Korea"
+L["STRING_WELCOME_78"] = "Taiwan"
+L["STRING_WELCOME_79"] = "Create 2nd Window"
 L["STRING_WINDOW_NOTFOUND"] = "No window found."
 L["STRING_WINDOW_NUMBER"] = "window number"
 L["STRING_WINDOW1ATACH_DESC"] = "To create a group of windows, drag window #2 near window #1."

@@ -1,0 +1,12 @@
+tag f69d757a05113c8dfe02f326cb5b156589177e11 v1.7.4
+Author:	Shenton <shenton@shenton.fr>
+Date:	Sat Jul 21 11:22:16 2018 +0200
+
+Tagging as v1.7.4
+
+commit d42191ae5a39a1864134f0c9e1f3fbcdbf3864e0
+Author: Shenton <shenton@shenton.fr>
+Date:   Sat Jul 21 11:21:41 2018 +0200
+
+    Poking repo
+
