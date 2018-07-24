@@ -1,0 +1,27 @@
+
+MogItDB = {
+	["profileKeys"] = {
+		["Kmkarbashian - Moon Guard"] = "Default",
+	},
+	["global"] = {
+		["version"] = "3.5.5",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["x"] = 0,
+			["y"] = 0,
+		},
+	},
+}
+MogItWishlist = {
+	["global"] = {
+		["version"] = 60200,
+	},
+	["profileKeys"] = {
+		["Kmkarbashian - Moon Guard"] = "Kmkarbashian - Moon Guard",
+	},
+	["profiles"] = {
+		["Kmkarbashian - Moon Guard"] = {
+		},
+	},
+}

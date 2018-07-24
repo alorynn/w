@@ -1,0 +1,88 @@
+
+TomTomDB = {
+	["profileKeys"] = {
+		["Hoobastankie - Kel'Thuzad"] = "Default",
+		["Hauzerogue - Kel'Thuzad"] = "Default",
+		["Hauzerina - Moon Guard"] = "Default",
+		["Hauser - Mal'Ganis"] = "Default",
+		["Alorannah - Kel'Thuzad"] = "Default",
+		["Alisheeya - Kel'Thuzad"] = "Default",
+		["Hauzerone - Dalaran"] = "Default",
+		["Ugiyo - Kel'Thuzad"] = "Default",
+		["Beatryce - Kel'Thuzad"] = "Default",
+		["Pharrah - Kel'Thuzad"] = "Default",
+		["Laurannah - Kel'Thuzad"] = "Default",
+		["Deeke - Kel'Thuzad"] = "Default",
+		["Sdkfhsdkjfhs - Kel'Thuzad"] = "Default",
+		["Nigellah - Kel'Thuzad"] = "Default",
+		["Bazoomercom - Dark Iron"] = "Default",
+		["Hoobastanko - Kel'Thuzad"] = "Default",
+		["Alurannah - Kel'Thuzad"] = "Default",
+		["Beatryss - Kel'Thuzad"] = "Default",
+		["Hauzerina - Kel'Thuzad"] = "Default",
+		["Darknstormie - Kel'Thuzad"] = "Default",
+		["Hauzerhunter - Kel'Thuzad"] = "Default",
+		["Olrapey - Kel'Thuzad"] = "Default",
+		["Skãdi - Kel'Thuzad"] = "Default",
+		["Fsdkjhskdjfh - Kel'Thuzad"] = "Default",
+		["Alauranna - Kel'Thuzad"] = "Default",
+		["Hauzerdemon - Kel'Thuzad"] = "Default",
+		["Hauzer - Kel'Thuzad"] = "Default",
+		["Kmkarbashian - Kel'Thuzad"] = "Default",
+		["Laurenn - Kel'Thuzad"] = "Default",
+		["Leeroyjenkem - Kel'Thuzad"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["general"] = {
+				["corpse_arrow"] = false,
+			},
+			["arrow"] = {
+				["autoqueue"] = false,
+				["closestusecontinent"] = true,
+			},
+			["persistence"] = {
+				["cleardistance"] = 0,
+			},
+			["block"] = {
+				["bgcolor"] = {
+					nil, -- [1]
+					nil, -- [2]
+					nil, -- [3]
+					0, -- [4]
+				},
+				["accuracy"] = 1,
+				["enable"] = false,
+				["bordercolor"] = {
+					0, -- [1]
+					0, -- [2]
+					nil, -- [3]
+					0, -- [4]
+				},
+				["width"] = 75,
+				["fontsize"] = 11,
+				["lock"] = true,
+				["height"] = 20,
+			},
+		},
+	},
+}
+TomTomWaypoints = nil
+TomTomWaypointsM = {
+	["profileKeys"] = {
+		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
+		["Laurannah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
+		["Alauranna - Kel'Thuzad"] = "Alauranna - Kel'Thuzad",
+		["Hauzerina - Kel'Thuzad"] = "Hauzerina - Kel'Thuzad",
+	},
+	["profiles"] = {
+		["Hauzer - Kel'Thuzad"] = {
+		},
+		["Laurannah - Kel'Thuzad"] = {
+		},
+		["Alauranna - Kel'Thuzad"] = {
+		},
+		["Hauzerina - Kel'Thuzad"] = {
+		},
+	},
+}

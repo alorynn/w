@@ -1,0 +1,27 @@
+
+MogItDB = {
+	["profileKeys"] = {
+		["Hauzerogue - Kel'Thuzad"] = "Default",
+	},
+	["global"] = {
+		["version"] = "3.5.5",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["x"] = 0,
+			["y"] = 0,
+		},
+	},
+}
+MogItWishlist = {
+	["global"] = {
+		["version"] = 60200,
+	},
+	["profileKeys"] = {
+		["Hauzerogue - Kel'Thuzad"] = "Hauzerogue - Kel'Thuzad",
+	},
+	["profiles"] = {
+		["Hauzerogue - Kel'Thuzad"] = {
+		},
+	},
+}

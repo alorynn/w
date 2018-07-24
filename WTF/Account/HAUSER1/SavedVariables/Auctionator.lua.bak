@@ -1,0 +1,357 @@
+
+AUCTIONATOR_SAVEDVARS = {
+	["_50000"] = 500,
+	["_2000"] = 100,
+	["_5000000"] = 10000,
+	["LOG_DE_DATA_X"] = true,
+	["_1000000"] = 2500,
+	["_10000"] = 200,
+	["_500"] = 5,
+	["STARTING_DISCOUNT"] = 5,
+	["_200000"] = 1000,
+}
+AUCTIONATOR_PRICING_HISTORY = {
+}
+AUCTIONATOR_SHOPPING_LISTS = {
+	{
+		["items"] = {
+			"Glorious", -- [1]
+			"Glorious legplates", -- [2]
+			"silkweave bandage", -- [3]
+			"Ancient healing", -- [4]
+			"healing", -- [5]
+			"Goldfish", -- [6]
+			"stormscale", -- [7]
+			"cobalt bar", -- [8]
+			"king's amber", -- [9]
+			"titansteel bar", -- [10]
+			"windwool clo", -- [11]
+			"Ghost iron", -- [12]
+			"silver con", -- [13]
+			"silver bar", -- [14]
+			"Iron bar", -- [15]
+			"medium leather", -- [16]
+			"wool cloth", -- [17]
+			"bronze bar", -- [18]
+			"heavy stone", -- [19]
+			"silk cloth", -- [20]
+			"true iron ore", -- [21]
+			"blackrock ore", -- [22]
+			"bandage", -- [23]
+			"health pot", -- [24]
+			"bag", -- [25]
+			"Arkhana", -- [26]
+			"leylight", -- [27]
+			"firework", -- [28]
+			"Auto-hammer", -- [29]
+			"leystone ore", -- [30]
+			"highmountain salmon", -- [31]
+			"big gamy", -- [32]
+			"black barracuda", -- [33]
+			"wildfowl egg", -- [34]
+			"felslate", -- [35]
+			"Ancient mana", -- [36]
+			"enormous", -- [37]
+			"sorcerous earth", -- [38]
+			"temporal crystal", -- [39]
+			"bait", -- [40]
+			"breath of", -- [41]
+			"mark of ", -- [42]
+			"luminous shard", -- [43]
+			"Draenic dust", -- [44]
+			"Arcane powder", -- [45]
+			"mote of earth", -- [46]
+			"mote of fire", -- [47]
+			"primal earth", -- [48]
+			"Iron ore", -- [49]
+		},
+		["isRecents"] = 1,
+		["name"] = "Recent Searches",
+	}, -- [1]
+	{
+		["items"] = {
+			"Greater Cosmic Essence", -- [1]
+			"Infinite Dust", -- [2]
+			"Dream Shard", -- [3]
+			"Abyss Crystal", -- [4]
+		},
+		["name"] = "Sample Shopping List #1",
+		["isSorted"] = false,
+	}, -- [2]
+}
+AUCTIONATOR_SHOPPING_LISTS_MIGRATED_V2 = true
+AUCTIONATOR_PRICE_DATABASE = {
+	["__dbversion"] = 4,
+	["Kel'Thuzad_Horde"] = {
+	},
+	["Kel'Thuzad_Alliance"] = {
+	},
+	["Moon Guard_Alliance"] = {
+	},
+	["Dark Iron_Alliance"] = {
+	},
+	["Mal'Ganis_Horde"] = {
+	},
+	["Dalaran_Alliance"] = {
+	},
+	["Kel'Thuzad_Neutral"] = {
+	},
+}
+AUCTIONATOR_LAST_SCAN_TIME = 1492784468
+AUCTIONATOR_TOONS = {
+	["Hauzer"] = {
+		["firstSeen"] = 1433589598,
+		["firstVersion"] = "3.2.3",
+		["guid"] = "Player-3693-07375FB3",
+	},
+	["Hauzerogue"] = {
+		["firstSeen"] = 1448641766,
+		["firstVersion"] = "3.2.6",
+	},
+	["Hauzerone"] = {
+		["firstSeen"] = 1486560048,
+		["firstVersion"] = "4.0.16",
+	},
+	["Laurannah"] = {
+		["firstSeen"] = 1447788893,
+		["guid"] = "Player-3693-092AD332",
+		["firstVersion"] = "3.2.6",
+	},
+	["Hauzerdemon"] = {
+		["firstSeen"] = 1478650187,
+		["firstVersion"] = "4.0.16",
+	},
+	["Ugiyo"] = {
+		["firstSeen"] = 1486129629,
+		["guid"] = "Player-3693-092AC29B",
+		["firstVersion"] = "4.0.16",
+	},
+	["Pharrah"] = {
+		["firstSeen"] = 1486134858,
+		["firstVersion"] = "4.0.16",
+		["guid"] = "Player-3693-092AC55C",
+	},
+	["Beatryss"] = {
+		["firstSeen"] = 1447789139,
+		["firstVersion"] = "3.2.6",
+	},
+	["Hauser"] = {
+		["firstSeen"] = 1476825478,
+		["firstVersion"] = "4.0.13",
+	},
+	["Kmkarbashian"] = {
+		["firstSeen"] = 1483457428,
+		["firstVersion"] = "4.0.16",
+	},
+	["Leeroyjenkem"] = {
+		["firstSeen"] = 1486989600,
+		["firstVersion"] = "4.0.16",
+	},
+	["Hoobastanko"] = {
+		["firstSeen"] = 1486133975,
+		["guid"] = "Player-3693-092AC4C9",
+		["firstVersion"] = "4.0.16",
+	},
+	["Laurenn"] = {
+		["firstSeen"] = 1486150519,
+		["guid"] = "Player-3693-092AD2BA",
+		["firstVersion"] = "4.0.16",
+	},
+	["Alorannah"] = {
+		["firstSeen"] = 1484663806,
+		["firstVersion"] = "4.0.16",
+	},
+	["Alurannah"] = {
+		["firstSeen"] = 1477057426,
+		["firstVersion"] = "4.0.13",
+	},
+	["Sdkfhsdkjfhs"] = {
+		["firstSeen"] = 1486405846,
+		["firstVersion"] = "4.0.16",
+		["guid"] = "Player-3693-092BED7A",
+	},
+	["Olrapey"] = {
+		["firstSeen"] = 1488579932,
+		["guid"] = "Player-3693-09343B2E",
+		["firstVersion"] = "4.0.16",
+	},
+	["Skãdi"] = {
+		["firstSeen"] = 1485987189,
+		["firstVersion"] = "4.0.16",
+	},
+	["Alisheeya"] = {
+		["firstSeen"] = 1484749076,
+		["firstVersion"] = "4.0.16",
+	},
+	["Hauzerina"] = {
+		["firstSeen"] = 1439570462,
+		["guid"] = "Player-3693-07E54548",
+		["firstVersion"] = "3.2.4",
+	},
+	["Hoobastankie"] = {
+		["firstSeen"] = 1486133302,
+		["firstVersion"] = "4.0.16",
+	},
+	["Deeke"] = {
+		["firstSeen"] = 1486995657,
+		["firstVersion"] = "4.0.16",
+	},
+	["Beatryce"] = {
+		["firstSeen"] = 1448028708,
+		["guid"] = "Player-3693-0849596D",
+		["firstVersion"] = "3.2.6",
+	},
+	["Bazoomercom"] = {
+		["firstSeen"] = 1476825560,
+		["firstVersion"] = "4.0.13",
+	},
+	["Alauranna"] = {
+		["firstSeen"] = 1447074824,
+		["guid"] = "Player-3693-0844F6BF",
+		["firstVersion"] = "3.2.6",
+	},
+	["Hauzerhunter"] = {
+		["firstSeen"] = 1471638447,
+		["firstVersion"] = "4.0.9",
+	},
+	["Fsdkjhskdjfh"] = {
+		["firstSeen"] = 1486406068,
+		["guid"] = "Player-3693-092BEDB2",
+		["firstVersion"] = "4.0.16",
+	},
+	["Nigellah"] = {
+		["firstSeen"] = 1487270433,
+		["firstVersion"] = "4.0.16",
+	},
+	["Darknstormie"] = {
+		["firstSeen"] = 1488646170,
+		["firstVersion"] = "4.0.16",
+	},
+}
+AUCTIONATOR_STACKING_PREFS = {
+	["lesser celestial essence"] = {
+		["numstacks"] = 0,
+		["stacksize"] = 1,
+	},
+	["greater cosmic essence"] = {
+		["numstacks"] = 0,
+		["stacksize"] = 1,
+	},
+	["enchanted elementium bar"] = {
+		["numstacks"] = 0,
+		["stacksize"] = 1,
+	},
+	["large prismatic shard"] = {
+		["numstacks"] = 0,
+		["stacksize"] = 1,
+	},
+	["void crystal"] = {
+		["numstacks"] = 0,
+		["stacksize"] = 1,
+	},
+	["awesomefish"] = {
+		["numstacks"] = 0,
+		["stacksize"] = 1,
+	},
+	["felwort"] = {
+		["stacksize"] = 1,
+		["numstacks"] = 0,
+	},
+	["titansteel bar"] = {
+		["numstacks"] = 0,
+		["stacksize"] = 1,
+	},
+	["cobalt bar"] = {
+		["numstacks"] = 0,
+		["stacksize"] = 1,
+	},
+	["frozen orb"] = {
+		["stacksize"] = 1,
+		["numstacks"] = 0,
+	},
+	["greater celestial essence"] = {
+		["numstacks"] = 0,
+		["stacksize"] = 1,
+	},
+	["huge snowball"] = {
+		["stacksize"] = 1,
+		["numstacks"] = 0,
+	},
+	["defiled augment rune"] = {
+		["stacksize"] = 1,
+		["numstacks"] = 0,
+	},
+	["elixir of the rapid mind"] = {
+		["stacksize"] = 1,
+		["numstacks"] = 0,
+	},
+	["lesser cosmic essence"] = {
+		["numstacks"] = 0,
+		["stacksize"] = 1,
+	},
+	["windwool cloth"] = {
+		["numstacks"] = 0,
+		["stacksize"] = 1,
+	},
+	["chaos crystal"] = {
+		["numstacks"] = 0,
+		["stacksize"] = 1,
+	},
+	["invisibility potion"] = {
+		["numstacks"] = 0,
+		["stacksize"] = 5,
+	},
+	["hypnotic dust"] = {
+		["numstacks"] = 0,
+		["stacksize"] = 1,
+	},
+	["khorium bar"] = {
+		["numstacks"] = 0,
+		["stacksize"] = 1,
+	},
+	["chaos orb"] = {
+		["stacksize"] = 1,
+		["numstacks"] = 0,
+	},
+	["stormscale"] = {
+		["stacksize"] = 40,
+		["numstacks"] = 0,
+	},
+	["aquadynamic fish attractor"] = {
+		["numstacks"] = 0,
+		["stacksize"] = 1,
+	},
+	["broken weapon attachment"] = {
+		["stacksize"] = 1,
+		["numstacks"] = 0,
+	},
+	["leylight shard"] = {
+		["numstacks"] = 0,
+		["stacksize"] = 1,
+	},
+	["truesilver bar"] = {
+		["numstacks"] = 0,
+		["stacksize"] = 1,
+	},
+	["raw riverbeast meat"] = {
+		["numstacks"] = 0,
+		["stacksize"] = 1,
+	},
+	["goblin glider kit"] = {
+		["numstacks"] = 0,
+		["stacksize"] = 1,
+	},
+	["medallion of the legion"] = {
+		["stacksize"] = 1,
+		["numstacks"] = 0,
+	},
+}
+AUCTIONATOR_SCAN_MINLEVEL = 1
+AUCTIONATOR_DB_MAXITEM_AGE = 180
+AUCTIONATOR_DB_MAXHIST_AGE = -1
+AUCTIONATOR_DB_MAXHIST_DAYS = 5
+AUCTIONATOR_FS_CHUNK = nil
+AUCTIONATOR_DE_DATA = nil
+AUCTIONATOR_DE_DATA_BAK = nil
+ITEM_ID_VERSION = "3.2.6"
+AUCTIONATOR_SHOW_MAILBOX_TIPS = nil

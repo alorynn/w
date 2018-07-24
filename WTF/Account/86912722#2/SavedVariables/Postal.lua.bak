@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Hauzerogue|Kel'Thuzad|Horde|1|ROGUE", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Hauzerogue - Kel'Thuzad"] = "Hauzerogue - Kel'Thuzad",
+	},
+	["profiles"] = {
+		["Hauzerogue - Kel'Thuzad"] = {
+		},
+	},
+}

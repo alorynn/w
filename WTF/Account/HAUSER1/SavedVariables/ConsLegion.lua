@@ -1,0 +1,88 @@
+
+ConsLegionSavedVar = {
+	["Hauzerina-MoonGuard"] = {
+		["Settings"] = {
+			["AutoPickup"] = 0,
+			["Textleft"] = 1015.87309337798,
+			["Newstop"] = -400,
+			["TextLock"] = 0,
+			["Scale"] = 0.639999985694885,
+			["XPalpha"] = 1,
+			["left"] = 426.66669921875,
+			["XPHide"] = 0,
+			["Arrowx"] = 1066.66674804688,
+			["TextInvert"] = 0,
+			["XPleft"] = 355.555582682292,
+			["Lock"] = 0,
+			["Newsalpha"] = 1,
+			["TextHide"] = 0,
+			["SkipCutScene"] = 1,
+			["Hide"] = 0,
+			["AutoChoice"] = 0,
+			["XPLock"] = 0,
+			["Texttop"] = -923.076923076923,
+			["AutoHandin"] = 0,
+			["Textalpha"] = 1,
+			["XPtop"] = -800,
+			["alpha"] = 1,
+			["Arrowy"] = -600,
+			["top"] = -600,
+			["XPInvert"] = 0,
+			["TextScale"] = 0.639999985694885,
+			["NewsScale"] = 0.639999985694885,
+			["NewsLock"] = 0,
+			["XPScale"] = 0.639999985694885,
+			["Newsleft"] = 1641.02576622596,
+			["NewsHide"] = 0,
+		},
+	},
+	["Laurannah-Kel'Thuzad"] = {
+		["Settings"] = {
+			["Textleft"] = 1015.87309337798,
+			["Scale"] = 0.639999985694885,
+			["TextScale"] = 0.639999985694885,
+			["SkipCutScene"] = 1,
+			["Newsleft"] = 1525.19250488281,
+			["Newsalpha"] = 1,
+			["Hide"] = 0,
+			["AutoChoice"] = 0,
+			["XPLock"] = 0,
+			["AutoHandin"] = 0,
+			["Textalpha"] = 1,
+			["Arrowy"] = -600,
+			["XPScale"] = 0.639999985694885,
+			["NewsHide"] = 1,
+			["AutoPickup"] = 0,
+			["Newstop"] = -447.500061035156,
+			["XPalpha"] = 1,
+			["NewsScale"] = 0.64,
+			["XPHide"] = 0,
+			["Arrowx"] = 1066.66674804688,
+			["XPleft"] = 355.555582682292,
+			["Lock"] = 0,
+			["AutoShare"] = 0,
+			["TextHide"] = 0,
+			["Texttop"] = -923.076923076923,
+			["TextLock"] = 0,
+			["alpha"] = 1,
+			["top"] = -600,
+			["XPInvert"] = 0,
+			["NewsLock"] = 0,
+			["XPtop"] = -800,
+			["TextInvert"] = 0,
+			["left"] = 426.66669921875,
+		},
+	},
+}
+ConsLegionSteps = {
+	["Hauzerina-MoonGuard"] = {
+	},
+	["Laurannah-Kel'Thuzad"] = {
+	},
+}
+CL_NewsEpics = {
+	["Nr"] = 0,
+}
+CL_Temp_Import = nil
+CL_AddonUpdate = {
+}
