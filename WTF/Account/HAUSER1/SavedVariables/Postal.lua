@@ -54,7 +54,7 @@ Postal3DB = {
 		["Nigellah - Kel'Thuzad"] = "Nigellah - Kel'Thuzad",
 		["Bazoomercom - Dark Iron"] = "Bazoomercom - Dark Iron",
 		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
-		["Hauzerdemon - Kel'Thuzad"] = "Hauzerdemon - Kel'Thuzad",
+		["Alurannah - Kel'Thuzad"] = "Alurannah - Kel'Thuzad",
 		["Beatryss - Kel'Thuzad"] = "Beatryss - Kel'Thuzad",
 		["Hauzerina - Kel'Thuzad"] = "Hauzerina - Kel'Thuzad",
 		["Darknstormie - Kel'Thuzad"] = "Darknstormie - Kel'Thuzad",
@@ -63,10 +63,10 @@ Postal3DB = {
 		["Skãdi - Kel'Thuzad"] = "Skãdi - Kel'Thuzad",
 		["Fsdkjhskdjfh - Kel'Thuzad"] = "Fsdkjhskdjfh - Kel'Thuzad",
 		["Alauranna - Kel'Thuzad"] = "Alauranna - Kel'Thuzad",
-		["Alurannah - Kel'Thuzad"] = "Alurannah - Kel'Thuzad",
+		["Beatryce - Kel'Thuzad"] = "Beatryce - Kel'Thuzad",
 		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
 		["Deeke - Kel'Thuzad"] = "Deeke - Kel'Thuzad",
-		["Beatryce - Kel'Thuzad"] = "Beatryce - Kel'Thuzad",
+		["Hauzerdemon - Kel'Thuzad"] = "Hauzerdemon - Kel'Thuzad",
 		["Hauzerone - Dalaran"] = "Hauzerone - Dalaran",
 	},
 	["profiles"] = {
@@ -116,7 +116,7 @@ Postal3DB = {
 		},
 		["Alorannah - Kel'Thuzad"] = {
 		},
-		["Hauzerdemon - Kel'Thuzad"] = {
+		["Alurannah - Kel'Thuzad"] = {
 		},
 		["Beatryss - Kel'Thuzad"] = {
 		},
@@ -152,7 +152,7 @@ Postal3DB = {
 				},
 			},
 		},
-		["Alurannah - Kel'Thuzad"] = {
+		["Beatryce - Kel'Thuzad"] = {
 		},
 		["Hauzer - Kel'Thuzad"] = {
 			["BlackBook"] = {
@@ -169,7 +169,7 @@ Postal3DB = {
 		},
 		["Deeke - Kel'Thuzad"] = {
 		},
-		["Beatryce - Kel'Thuzad"] = {
+		["Hauzerdemon - Kel'Thuzad"] = {
 		},
 		["Hauzerone - Dalaran"] = {
 		},

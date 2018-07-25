@@ -59,7 +59,6 @@ VER 3 000000000000005F "Go Baby" "INV_Misc_QuestionMark"
 /cast Kill Command
 /cast Aspect of the Wild
 /cast Stampede
-/cast Titan's Thunder
 END
 VER 3 000000000000000E "Grand Marshal" "Ability_Warrior_ImprovedDisciplines"
 /run UseEquipmentSet"Grand Marshal"; SetCurrentTitle(35);

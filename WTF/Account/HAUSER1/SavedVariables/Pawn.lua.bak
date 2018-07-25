@@ -91,6 +91,9 @@ PawnCommon = {
 		["\"MrRobot\":MAGE3"] = {
 			["IconTexturePath"] = 135846,
 			["PerCharacterOptions"] = {
+				["Hauzerina-Moon Guard"] = {
+					["Visible"] = true,
+				},
 				["Hauzer-Kel'Thuzad"] = {
 					["Visible"] = true,
 				},

@@ -43,6 +43,8 @@ L["Emote Sounds"] = "감정 표현 음성"
 L["Enable Pet Sounds"] = "소환수 소리 사용"
 L["Enable Reverb"] = "울림 효과 사용"
 --[[Translation missing --]]
+--[[ L["Enable Sound"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["Enabled"] = ""--]] 
 L["Error Speech"] = "오류 음성"
 L["Loop Music"] = "배경음악 반복"
@@ -61,6 +63,8 @@ L["Options"] = "옵션"
 L["Pet Battle Music"] = "애완동물 대전 음악"
 --[[Translation missing --]]
 --[[ L["PLayback"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Playback"] = ""--]] 
 L["Queued volume boost"] = "대기열 종료시 음량 키움"
 L["Queued volume is enabled but all sound is currently disabled."] = "대기열 음량 키움 옵션이 켜졌지만 모든 효과음이 꺼져있는 상태입니다."
 L["Show/Hide minimap icon"] = "미니맵 아이콘 표시/숨김"

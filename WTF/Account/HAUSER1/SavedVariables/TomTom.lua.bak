@@ -9,7 +9,7 @@ TomTomDB = {
 		["Hoobastanko - Kel'Thuzad"] = "Default",
 		["Hauzerone - Dalaran"] = "Default",
 		["Kmkarbashian - Kel'Thuzad"] = "Default",
-		["Alurannah - Kel'Thuzad"] = "Default",
+		["Beatryce - Kel'Thuzad"] = "Default",
 		["Pharrah - Kel'Thuzad"] = "Default",
 		["Laurannah - Kel'Thuzad"] = "Default",
 		["Deeke - Kel'Thuzad"] = "Default",
@@ -17,7 +17,7 @@ TomTomDB = {
 		["Nigellah - Kel'Thuzad"] = "Default",
 		["Bazoomercom - Dark Iron"] = "Default",
 		["Ugiyo - Kel'Thuzad"] = "Default",
-		["Hauzerdemon - Kel'Thuzad"] = "Default",
+		["Alurannah - Kel'Thuzad"] = "Default",
 		["Beatryss - Kel'Thuzad"] = "Default",
 		["Hauzerina - Kel'Thuzad"] = "Default",
 		["Fsdkjhskdjfh - Kel'Thuzad"] = "Default",
@@ -26,7 +26,7 @@ TomTomDB = {
 		["Skãdi - Kel'Thuzad"] = "Default",
 		["Darknstormie - Kel'Thuzad"] = "Default",
 		["Alauranna - Kel'Thuzad"] = "Default",
-		["Beatryce - Kel'Thuzad"] = "Default",
+		["Hauzerdemon - Kel'Thuzad"] = "Default",
 		["Hauzer - Kel'Thuzad"] = "Default",
 		["Alisheeya - Kel'Thuzad"] = "Default",
 		["Alorannah - Kel'Thuzad"] = "Default",
@@ -71,15 +71,18 @@ TomTomWaypoints = nil
 TomTomWaypointsM = {
 	["profileKeys"] = {
 		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
-		["Alauranna - Kel'Thuzad"] = "Alauranna - Kel'Thuzad",
 		["Laurannah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
+		["Alauranna - Kel'Thuzad"] = "Alauranna - Kel'Thuzad",
+		["Hauzerina - Kel'Thuzad"] = "Hauzerina - Kel'Thuzad",
 	},
 	["profiles"] = {
 		["Hauzer - Kel'Thuzad"] = {
 		},
+		["Laurannah - Kel'Thuzad"] = {
+		},
 		["Alauranna - Kel'Thuzad"] = {
 		},
-		["Laurannah - Kel'Thuzad"] = {
+		["Hauzerina - Kel'Thuzad"] = {
 		},
 	},
 }

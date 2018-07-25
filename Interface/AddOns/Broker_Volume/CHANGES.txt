@@ -1,12 +1,32 @@
-tag f69d757a05113c8dfe02f326cb5b156589177e11 v1.7.4
+tag 21e00144361d8d0eae8be21fd19c7e9cccff95ed v1.7.5
 Author:	Shenton <shenton@shenton.fr>
-Date:	Sat Jul 21 11:22:16 2018 +0200
+Date:	Tue Jul 24 23:15:36 2018 +0200
 
-Tagging as v1.7.4
+Tagging as v1.7.5
 
-commit d42191ae5a39a1864134f0c9e1f3fbcdbf3864e0
+commit d3c069f85131132672f89a170ee68bd4ccfaa208
 Author: Shenton <shenton@shenton.fr>
-Date:   Sat Jul 21 11:21:41 2018 +0200
+Date:   Tue Jul 24 23:14:57 2018 +0200
 
-    Poking repo
+    Merge pull request #1 from dartraiden
+    Updating localization
+    Bumping to 1.7.5
+
+commit f8013c6e00bc90abcde12198e458ae18820529d5
+Author: dartraiden <wowemuh@gmail.com>
+Date:   Tue Jul 24 22:33:58 2018 +0300
+
+    This string should be translatable
+
+commit f8013c6e00bc90abcde12198e458ae18820529d5
+Author: dartraiden <wowemuh@gmail.com>
+Date:   Tue Jul 24 22:33:58 2018 +0300
+
+    This string should be translatable
+
+commit 005dbba2efd41865084b7fcbc54760f84375ffb9
+Author: dartraiden <wowemuh@gmail.com>
+Date:   Tue Jul 24 22:31:59 2018 +0300
+
+    Fix capital letter
 

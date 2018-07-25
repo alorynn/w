@@ -86,10 +86,10 @@ AddOnSkinsDB = {
 		},
 		["Hauzerina - Kel'Thuzad"] = {
 			["Blizzard_WorldStateCaptureBar"] = false,
-			["Blizzard_Transmogrify"] = false,
 			["BigWigs"] = true,
-			["ArtifactPowerUser"] = true,
+			["Blizzard_Transmogrify"] = false,
 			["Clique"] = true,
+			["ArtifactPowerUser"] = true,
 			["Bagnon"] = true,
 		},
 		["Hauzer - Kel'Thuzad"] = {
@@ -168,15 +168,15 @@ AddOnSkinsDB = {
 		},
 		["Default"] = {
 			["Blizzard_WorldStateCaptureBar"] = false,
-			["Ace3"] = true,
-			["BigWigs"] = true,
-			["Clique"] = true,
 			["Blizzard_Transmogrify"] = false,
-			["ArkInventory"] = true,
 			["MoveAnything"] = true,
+			["BigWigs"] = true,
+			["ArkInventory"] = true,
+			["Ace3"] = true,
+			["Bagnon"] = true,
 			["Skada"] = true,
 			["ArtifactPowerUser"] = true,
-			["Bagnon"] = true,
+			["Clique"] = true,
 		},
 	},
 }
