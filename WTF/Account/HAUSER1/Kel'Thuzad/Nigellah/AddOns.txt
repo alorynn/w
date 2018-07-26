@@ -9,6 +9,5 @@ Scrap_Options: disabled
 Scrap_Visualizer: disabled
 Scrap_Spotlight: disabled
 Skada: enabled
-ElvUI: enabled
+ElvUI: disabled
 ElvUI_Config: enabled
-ConsLegion: disabled

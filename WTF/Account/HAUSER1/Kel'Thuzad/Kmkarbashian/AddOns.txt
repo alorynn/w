@@ -42,5 +42,4 @@ TomTom: enabled
 WorldQuestsList: enabled
 AddOnSkins: enabled
 ElvUI_Config: enabled
-ElvUI: enabled
-ConsLegion: disabled
+ElvUI: disabled

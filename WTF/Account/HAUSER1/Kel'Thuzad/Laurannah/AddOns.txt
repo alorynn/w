@@ -87,4 +87,3 @@ BetterIconSelector-KeywordData: enabled
 ConsLegion: disabled
 Details: enabled
 Clique: disabled
-Immersion: disabled

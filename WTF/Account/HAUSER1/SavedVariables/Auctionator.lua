@@ -2,13 +2,13 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
+	["_5000000"] = 10000,
+	["LOG_DE_DATA_X"] = true,
+	["_1000000"] = 2500,
 	["_10000"] = 200,
 	["_500"] = 5,
-	["_1000000"] = 2500,
-	["_200000"] = 1000,
 	["STARTING_DISCOUNT"] = 5,
-	["LOG_DE_DATA_X"] = true,
-	["_5000000"] = 10000,
+	["_200000"] = 1000,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 }
@@ -84,25 +84,25 @@ AUCTIONATOR_PRICE_DATABASE = {
 	["__dbversion"] = 4,
 	["Kel'Thuzad_Horde"] = {
 	},
-	["Kel'Thuzad_Neutral"] = {
+	["Kel'Thuzad_Alliance"] = {
 	},
 	["Moon Guard_Alliance"] = {
 	},
-	["Dalaran_Alliance"] = {
+	["Dark Iron_Alliance"] = {
 	},
 	["Mal'Ganis_Horde"] = {
 	},
-	["Dark Iron_Alliance"] = {
+	["Dalaran_Alliance"] = {
 	},
-	["Kel'Thuzad_Alliance"] = {
+	["Kel'Thuzad_Neutral"] = {
 	},
 }
 AUCTIONATOR_LAST_SCAN_TIME = 1492784468
 AUCTIONATOR_TOONS = {
 	["Hauzer"] = {
 		["firstSeen"] = 1433589598,
-		["guid"] = "Player-3693-07375FB3",
 		["firstVersion"] = "3.2.3",
+		["guid"] = "Player-3693-07375FB3",
 	},
 	["Hauzerogue"] = {
 		["firstSeen"] = 1448641766,
@@ -114,8 +114,8 @@ AUCTIONATOR_TOONS = {
 	},
 	["Laurannah"] = {
 		["firstSeen"] = 1447788893,
-		["firstVersion"] = "3.2.6",
 		["guid"] = "Player-3693-092AD332",
+		["firstVersion"] = "3.2.6",
 	},
 	["Hauzerdemon"] = {
 		["firstSeen"] = 1478650187,
@@ -123,12 +123,13 @@ AUCTIONATOR_TOONS = {
 	},
 	["Ugiyo"] = {
 		["firstSeen"] = 1486129629,
-		["firstVersion"] = "4.0.16",
 		["guid"] = "Player-3693-092AC29B",
-	},
-	["Darknstormie"] = {
-		["firstSeen"] = 1488646170,
 		["firstVersion"] = "4.0.16",
+	},
+	["Pharrah"] = {
+		["firstSeen"] = 1486134858,
+		["firstVersion"] = "4.0.16",
+		["guid"] = "Player-3693-092AC55C",
 	},
 	["Beatryss"] = {
 		["firstSeen"] = 1447789139,
@@ -148,66 +149,66 @@ AUCTIONATOR_TOONS = {
 	},
 	["Hoobastanko"] = {
 		["firstSeen"] = 1486133975,
-		["firstVersion"] = "4.0.16",
 		["guid"] = "Player-3693-092AC4C9",
+		["firstVersion"] = "4.0.16",
 	},
 	["Laurenn"] = {
 		["firstSeen"] = 1486150519,
-		["firstVersion"] = "4.0.16",
 		["guid"] = "Player-3693-092AD2BA",
+		["firstVersion"] = "4.0.16",
 	},
 	["Alorannah"] = {
 		["firstSeen"] = 1484663806,
-		["firstVersion"] = "4.0.16",
-	},
-	["Olrapey"] = {
-		["firstSeen"] = 1488579932,
-		["firstVersion"] = "4.0.16",
-		["guid"] = "Player-3693-09343B2E",
-	},
-	["Sdkfhsdkjfhs"] = {
-		["firstSeen"] = 1486405846,
-		["guid"] = "Player-3693-092BED7A",
 		["firstVersion"] = "4.0.16",
 	},
 	["Alurannah"] = {
 		["firstSeen"] = 1477057426,
 		["firstVersion"] = "4.0.13",
 	},
+	["Sdkfhsdkjfhs"] = {
+		["firstSeen"] = 1486405846,
+		["firstVersion"] = "4.0.16",
+		["guid"] = "Player-3693-092BED7A",
+	},
+	["Olrapey"] = {
+		["firstSeen"] = 1488579932,
+		["guid"] = "Player-3693-09343B2E",
+		["firstVersion"] = "4.0.16",
+	},
 	["Skãdi"] = {
 		["firstSeen"] = 1485987189,
 		["firstVersion"] = "4.0.16",
-	},
-	["Bazoomercom"] = {
-		["firstSeen"] = 1476825560,
-		["firstVersion"] = "4.0.13",
-	},
-	["Beatryce"] = {
-		["firstSeen"] = 1448028708,
-		["firstVersion"] = "3.2.6",
-		["guid"] = "Player-3693-0849596D",
-	},
-	["Deeke"] = {
-		["firstSeen"] = 1486995657,
-		["firstVersion"] = "4.0.16",
-	},
-	["Hoobastankie"] = {
-		["firstSeen"] = 1486133302,
-		["firstVersion"] = "4.0.16",
-	},
-	["Hauzerina"] = {
-		["firstSeen"] = 1439570462,
-		["firstVersion"] = "3.2.4",
-		["guid"] = "Player-3693-07E54548",
 	},
 	["Alisheeya"] = {
 		["firstSeen"] = 1484749076,
 		["firstVersion"] = "4.0.16",
 	},
+	["Hauzerina"] = {
+		["firstSeen"] = 1439570462,
+		["guid"] = "Player-3693-07E54548",
+		["firstVersion"] = "3.2.4",
+	},
+	["Hoobastankie"] = {
+		["firstSeen"] = 1486133302,
+		["firstVersion"] = "4.0.16",
+	},
+	["Deeke"] = {
+		["firstSeen"] = 1486995657,
+		["firstVersion"] = "4.0.16",
+	},
+	["Beatryce"] = {
+		["firstSeen"] = 1448028708,
+		["guid"] = "Player-3693-0849596D",
+		["firstVersion"] = "3.2.6",
+	},
+	["Bazoomercom"] = {
+		["firstSeen"] = 1476825560,
+		["firstVersion"] = "4.0.13",
+	},
 	["Alauranna"] = {
 		["firstSeen"] = 1447074824,
-		["firstVersion"] = "3.2.6",
 		["guid"] = "Player-3693-0844F6BF",
+		["firstVersion"] = "3.2.6",
 	},
 	["Hauzerhunter"] = {
 		["firstSeen"] = 1471638447,
@@ -215,133 +216,132 @@ AUCTIONATOR_TOONS = {
 	},
 	["Fsdkjhskdjfh"] = {
 		["firstSeen"] = 1486406068,
-		["firstVersion"] = "4.0.16",
 		["guid"] = "Player-3693-092BEDB2",
+		["firstVersion"] = "4.0.16",
 	},
 	["Nigellah"] = {
 		["firstSeen"] = 1487270433,
 		["firstVersion"] = "4.0.16",
 	},
-	["Pharrah"] = {
-		["firstSeen"] = 1486134858,
-		["guid"] = "Player-3693-092AC55C",
+	["Darknstormie"] = {
+		["firstSeen"] = 1488646170,
 		["firstVersion"] = "4.0.16",
 	},
 }
 AUCTIONATOR_STACKING_PREFS = {
 	["lesser celestial essence"] = {
-		["stacksize"] = 1,
 		["numstacks"] = 0,
+		["stacksize"] = 1,
 	},
 	["greater cosmic essence"] = {
-		["stacksize"] = 1,
 		["numstacks"] = 0,
+		["stacksize"] = 1,
 	},
 	["enchanted elementium bar"] = {
-		["stacksize"] = 1,
 		["numstacks"] = 0,
+		["stacksize"] = 1,
 	},
 	["large prismatic shard"] = {
-		["stacksize"] = 1,
 		["numstacks"] = 0,
+		["stacksize"] = 1,
 	},
 	["void crystal"] = {
-		["stacksize"] = 1,
-		["numstacks"] = 0,
-	},
-	["medallion of the legion"] = {
 		["numstacks"] = 0,
 		["stacksize"] = 1,
 	},
-	["cobalt bar"] = {
+	["awesomefish"] = {
+		["numstacks"] = 0,
+		["stacksize"] = 1,
+	},
+	["felwort"] = {
 		["stacksize"] = 1,
 		["numstacks"] = 0,
 	},
 	["titansteel bar"] = {
-		["stacksize"] = 1,
 		["numstacks"] = 0,
+		["stacksize"] = 1,
 	},
-	["felwort"] = {
+	["cobalt bar"] = {
 		["numstacks"] = 0,
 		["stacksize"] = 1,
 	},
 	["frozen orb"] = {
-		["numstacks"] = 0,
 		["stacksize"] = 1,
+		["numstacks"] = 0,
 	},
 	["greater celestial essence"] = {
-		["stacksize"] = 1,
-		["numstacks"] = 0,
-	},
-	["elixir of the rapid mind"] = {
-		["numstacks"] = 0,
-		["stacksize"] = 1,
-	},
-	["defiled augment rune"] = {
 		["numstacks"] = 0,
 		["stacksize"] = 1,
 	},
 	["huge snowball"] = {
-		["numstacks"] = 0,
 		["stacksize"] = 1,
+		["numstacks"] = 0,
+	},
+	["defiled augment rune"] = {
+		["stacksize"] = 1,
+		["numstacks"] = 0,
+	},
+	["elixir of the rapid mind"] = {
+		["stacksize"] = 1,
+		["numstacks"] = 0,
 	},
 	["lesser cosmic essence"] = {
+		["numstacks"] = 0,
 		["stacksize"] = 1,
-		["numstacks"] = 0,
-	},
-	["truesilver bar"] = {
-		["stacksize"] = 1,
-		["numstacks"] = 0,
-	},
-	["chaos crystal"] = {
-		["stacksize"] = 1,
-		["numstacks"] = 0,
-	},
-	["invisibility potion"] = {
-		["stacksize"] = 5,
-		["numstacks"] = 0,
 	},
 	["windwool cloth"] = {
+		["numstacks"] = 0,
+		["stacksize"] = 1,
+	},
+	["chaos crystal"] = {
+		["numstacks"] = 0,
+		["stacksize"] = 1,
+	},
+	["invisibility potion"] = {
+		["numstacks"] = 0,
+		["stacksize"] = 5,
+	},
+	["hypnotic dust"] = {
+		["numstacks"] = 0,
+		["stacksize"] = 1,
+	},
+	["khorium bar"] = {
+		["numstacks"] = 0,
+		["stacksize"] = 1,
+	},
+	["chaos orb"] = {
+		["stacksize"] = 1,
+		["numstacks"] = 0,
+	},
+	["stormscale"] = {
+		["stacksize"] = 40,
+		["numstacks"] = 0,
+	},
+	["aquadynamic fish attractor"] = {
+		["numstacks"] = 0,
+		["stacksize"] = 1,
+	},
+	["broken weapon attachment"] = {
 		["stacksize"] = 1,
 		["numstacks"] = 0,
 	},
 	["leylight shard"] = {
-		["stacksize"] = 1,
-		["numstacks"] = 0,
-	},
-	["chaos orb"] = {
 		["numstacks"] = 0,
 		["stacksize"] = 1,
 	},
-	["stormscale"] = {
-		["numstacks"] = 0,
-		["stacksize"] = 40,
-	},
-	["broken weapon attachment"] = {
+	["truesilver bar"] = {
 		["numstacks"] = 0,
 		["stacksize"] = 1,
-	},
-	["aquadynamic fish attractor"] = {
-		["stacksize"] = 1,
-		["numstacks"] = 0,
-	},
-	["khorium bar"] = {
-		["stacksize"] = 1,
-		["numstacks"] = 0,
-	},
-	["hypnotic dust"] = {
-		["stacksize"] = 1,
-		["numstacks"] = 0,
 	},
 	["raw riverbeast meat"] = {
-		["stacksize"] = 1,
 		["numstacks"] = 0,
+		["stacksize"] = 1,
 	},
 	["goblin glider kit"] = {
-		["stacksize"] = 1,
 		["numstacks"] = 0,
+		["stacksize"] = 1,
 	},
-	["awesomefish"] = {
+	["medallion of the legion"] = {
 		["stacksize"] = 1,
 		["numstacks"] = 0,
 	},

@@ -6,8 +6,8 @@ NewOpenablesProfile = {
 		["Hauzerina - Kel'Thuzad"] = "Default",
 		["Hauzer - Kel'Thuzad"] = "Default",
 		["Alisheeya - Kel'Thuzad"] = "Default",
-		["Laurannah - Kel'Thuzad"] = "Default",
 		["Hauzerina - Moon Guard"] = "Default",
+		["Laurannah - Kel'Thuzad"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
