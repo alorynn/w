@@ -5,25 +5,33 @@ CliqueDB3 = {
 		["Darknstormie - Kel'Thuzad"] = {
 			["alerthidden"] = true,
 		},
+		["Kmkarbashian - Kel'Thuzad"] = {
+			["spec1_profileKey"] = "Kmkarbashian - Kel'Thuzad",
+			["spec2_profileKey"] = "Kmkarbashian - Kel'Thuzad",
+			["downclick"] = false,
+			["fastooc"] = false,
+			["specswap"] = false,
+			["spec3_profileKey"] = "Kmkarbashian - Kel'Thuzad",
+		},
 	},
 	["profileKeys"] = {
-		["Hauzerina - Moon Guard"] = "Hauzerina - Moon Guard",
+		["Laurannah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Darknstormie - Kel'Thuzad"] = "Darknstormie - Kel'Thuzad",
 		["Alauranna - Kel'Thuzad"] = "Alauranna - Kel'Thuzad",
 		["Hauzerina - Kel'Thuzad"] = "Hauzerina - Kel'Thuzad",
-		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
+		["Hauzerina - Moon Guard"] = "Hauzerina - Moon Guard",
 		["Alisheeya - Kel'Thuzad"] = "Alisheeya - Kel'Thuzad",
 		["Kmkarbashian - Kel'Thuzad"] = "Kmkarbashian - Kel'Thuzad",
-		["Laurannah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
+		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
 	},
 	["profiles"] = {
-		["Hauzerina - Moon Guard"] = {
+		["Laurannah - Kel'Thuzad"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -138,7 +146,7 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Hauzer - Kel'Thuzad"] = {
+		["Hauzerina - Moon Guard"] = {
 			["bindings"] = {
 				{
 					["sets"] = {
@@ -195,13 +203,13 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Laurannah - Kel'Thuzad"] = {
+		["Hauzer - Kel'Thuzad"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]

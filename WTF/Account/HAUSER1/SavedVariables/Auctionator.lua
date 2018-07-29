@@ -2,13 +2,13 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
+	["_10000"] = 200,
+	["_500"] = 5,
+	["_1000000"] = 2500,
 	["_200000"] = 1000,
 	["STARTING_DISCOUNT"] = 5,
-	["_1000000"] = 2500,
-	["_5000000"] = 10000,
 	["LOG_DE_DATA_X"] = true,
-	["_500"] = 5,
-	["_10000"] = 200,
+	["_5000000"] = 10000,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 }
@@ -140,6 +140,7 @@ AUCTIONATOR_TOONS = {
 	},
 	["Kmkarbashian"] = {
 		["firstSeen"] = 1483457428,
+		["guid"] = "Player-3693-0920553F",
 		["firstVersion"] = "4.0.16",
 	},
 	["Leeroyjenkem"] = {
@@ -202,6 +203,7 @@ AUCTIONATOR_TOONS = {
 	},
 	["Alisheeya"] = {
 		["firstSeen"] = 1484749076,
+		["guid"] = "Player-3693-0924EEC0",
 		["firstVersion"] = "4.0.16",
 	},
 	["Alauranna"] = {
@@ -249,17 +251,17 @@ AUCTIONATOR_STACKING_PREFS = {
 		["stacksize"] = 1,
 		["numstacks"] = 0,
 	},
-	["medallion of the legion"] = {
-		["numstacks"] = 0,
+	["titansteel bar"] = {
 		["stacksize"] = 1,
+		["numstacks"] = 0,
 	},
 	["cobalt bar"] = {
 		["stacksize"] = 1,
 		["numstacks"] = 0,
 	},
-	["titansteel bar"] = {
-		["stacksize"] = 1,
+	["medallion of the legion"] = {
 		["numstacks"] = 0,
+		["stacksize"] = 1,
 	},
 	["felwort"] = {
 		["numstacks"] = 0,
@@ -301,7 +303,7 @@ AUCTIONATOR_STACKING_PREFS = {
 		["stacksize"] = 5,
 		["numstacks"] = 0,
 	},
-	["windwool cloth"] = {
+	["hypnotic dust"] = {
 		["stacksize"] = 1,
 		["numstacks"] = 0,
 	},
@@ -329,7 +331,7 @@ AUCTIONATOR_STACKING_PREFS = {
 		["stacksize"] = 1,
 		["numstacks"] = 0,
 	},
-	["hypnotic dust"] = {
+	["windwool cloth"] = {
 		["stacksize"] = 1,
 		["numstacks"] = 0,
 	},

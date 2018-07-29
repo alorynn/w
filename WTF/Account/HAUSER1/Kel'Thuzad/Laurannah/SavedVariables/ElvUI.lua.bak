@@ -1,50 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/i so anyway can anyone here tank", -- [1]
-		"/i this is ez as fk", -- [2]
-		"/i gj tanking", -- [3]
-		"/cw Nahark-Stormrage ty!", -- [4]
-		"/cw Nahark-Stormrage lol np", -- [5]
-		"/cw Misericordia-Magtheridon np!", -- [6]
-		"/cw Demonjager-Quel'Thalas ty!", -- [7]
-		"/wave", -- [8]
-		"/s ty!", -- [9]
-		"/cw Shairiel-Stormrage np!", -- [10]
-		"/reload", -- [11]
-		"/tar wolk", -- [12]
-		"/who wolkeers", -- [13]
-		"/cw Wolkeers-Kel'Thuzad u jelly?", -- [14]
-		"/use 13", -- [15]
-		"/use 14", -- [16]
-		"/elvui", -- [17]
-		"/tar nimi", -- [18]
-		"/tar pan", -- [19]
-		"/bartender", -- [20]
+		"/i this is ez as fk", -- [1]
+		"/i gj tanking", -- [2]
+		"/cw Nahark-Stormrage ty!", -- [3]
+		"/cw Nahark-Stormrage lol np", -- [4]
+		"/cw Misericordia-Magtheridon np!", -- [5]
+		"/cw Demonjager-Quel'Thalas ty!", -- [6]
+		"/wave", -- [7]
+		"/s ty!", -- [8]
+		"/cw Shairiel-Stormrage np!", -- [9]
+		"/reload", -- [10]
+		"/tar wolk", -- [11]
+		"/who wolkeers", -- [12]
+		"/cw Wolkeers-Kel'Thuzad u jelly?", -- [13]
+		"/use 13", -- [14]
+		"/use 14", -- [15]
+		"/elvui", -- [16]
+		"/tar nimi", -- [17]
+		"/tar pan", -- [18]
+		"/bartender", -- [19]
+		"/nop", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"Poison Bomb Down!!!", -- [1]
-			"Mcstunna-Stormrage", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Mcstunna-Stormrage", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			446, -- [11]
-			"Player-60-0BA2E27C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "Mcstunna-Stormrage",
-			[51] = 1532453783,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [1]
 		{
 			"Poison Bomb Down!!!", -- [1]
 			"Mcstunna-Stormrage", -- [2]
@@ -66,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "Mcstunna-Stormrage",
 			[51] = 1532453812,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [2]
+		}, -- [1]
 		{
 			"Demonic Charge on Laurannah", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -88,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "Laurannah",
 			[51] = 1532453814,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [3]
+		}, -- [2]
 		{
 			"Poison Bomb Down!!!", -- [1]
 			"Mcstunna-Stormrage", -- [2]
@@ -110,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "Mcstunna-Stormrage",
 			[51] = 1532453821,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [4]
+		}, -- [3]
 		{
 			"Poison Bomb Down!!!", -- [1]
 			"Mcstunna-Stormrage", -- [2]
@@ -132,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "Mcstunna-Stormrage",
 			[51] = 1532453881,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [5]
+		}, -- [4]
 		{
 			"Poison Bomb Down!!!", -- [1]
 			"Mcstunna-Stormrage", -- [2]
@@ -154,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "Mcstunna-Stormrage",
 			[51] = 1532453934,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [6]
+		}, -- [5]
 		{
 			"wraith u need that?", -- [1]
 			"Revilian-Sargeras", -- [2]
@@ -176,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "Revilian-Sargeras",
 			[51] = 1532453959,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [7]
+		}, -- [6]
 		{
 			"lol", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -198,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "Laurannah",
 			[51] = 1532454080,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
+		}, -- [7]
 		{
 			"anduin is Barron", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -220,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "Laurannah",
 			[51] = 1532454098,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
+		}, -- [8]
 		{
 			"bernie is khadga, old man who wont shut up and go away", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -242,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "Laurannah",
 			[51] = 1532454321,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
+		}, -- [9]
 		{
 			"May I please have |cffa335ee|Hitem:152688::::::::110:253::4:3:3613:1467:3336:::|h[Loop of the Life-Binder]|h|r if you don't need it?", -- [1]
 			"Hayman-Dragonblight", -- [2]
@@ -264,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "Hayman-Dragonblight",
 			[51] = 1532454962,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [11]
+		}, -- [10]
 		{
 			"|cffa335ee|Hitem:152688::::::::110:105::4:3:3613:1467:3336:::|h[Loop of the Life-Binder]|h|r roll", -- [1]
 			"Hayman-Dragonblight", -- [2]
@@ -286,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "Hayman-Dragonblight",
 			[51] = 1532454997,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [12]
+		}, -- [11]
 		{
 			"edhin gear is better", -- [1]
 			"Dence-Stormrage", -- [2]
@@ -308,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "Dence-Stormrage",
 			[51] = 1532455040,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [13]
+		}, -- [12]
 		{
 			"r", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -330,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "Laurannah",
 			[51] = 1532455055,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [14]
+		}, -- [13]
 		{
 			"bech won i think", -- [1]
 			"Swarfcoolya-Kargath", -- [2]
@@ -352,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "Swarfcoolya-Kargath",
 			[51] = 1532455055,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [15]
+		}, -- [14]
 		{
 			"yeah", -- [1]
 			"Hayman-Dragonblight", -- [2]
@@ -374,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "Hayman-Dragonblight",
 			[51] = 1532455067,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [16]
+		}, -- [15]
 		{
 			"turns her |Hitem:118427|h|cFFFFFFFF[Autographed Hearthstone Card]|r|h card over, revealing an |cFFa335ee[Epic Hearthstone Card]|r!", -- [1]
 			"Misericordia-Magtheridon", -- [2]
@@ -396,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "Misericordia-Magtheridon",
 			[51] = 1532455099,
 			[50] = "CHAT_MSG_EMOTE",
-		}, -- [17]
+		}, -- [16]
 		{
 			"ride mah saw", -- [1]
 			"Bech-Ravenholdt", -- [2]
@@ -418,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "Bech-Ravenholdt",
 			[51] = 1532455179,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [18]
+		}, -- [17]
 		{
 			"see saw", -- [1]
 			"Bech-Ravenholdt", -- [2]
@@ -440,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "Bech-Ravenholdt",
 			[51] = 1532455197,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [19]
+		}, -- [18]
 		{
 			"geeet it", -- [1]
 			"Bech-Ravenholdt", -- [2]
@@ -462,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "Bech-Ravenholdt",
 			[51] = 1532455200,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [20]
+		}, -- [19]
 		{
 			"turns his |Hitem:118427|h|cFFFFFFFF[Autographed Hearthstone Card]|r|h card over, revealing an |cFFa335ee[Epic Hearthstone Card]|r!", -- [1]
 			"Swarfcoolya-Kargath", -- [2]
@@ -484,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "Swarfcoolya-Kargath",
 			[51] = 1532455329,
 			[50] = "CHAT_MSG_EMOTE",
-		}, -- [21]
+		}, -- [20]
 		{
 			"this shit sucks lol", -- [1]
 			"Frontman-Medivh", -- [2]
@@ -506,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "Frontman-Medivh",
 			[51] = 1532455385,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [22]
+		}, -- [21]
 		{
 			"ja", -- [1]
 			"Ryleigha-MoonGuard", -- [2]
@@ -528,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "Ryleigha-MoonGuard",
 			[51] = 1532455392,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [23]
+		}, -- [22]
 		{
 			"we have a smash group cant get a tank", -- [1]
 			"Frontman-Medivh", -- [2]
@@ -550,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "Frontman-Medivh",
 			[51] = 1532455401,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [24]
+		}, -- [23]
 		{
 			"So one of the folks in DPS qued as a tank and swapped when they got in because we have 18 dps and the que says we already have 2 tanks.", -- [1]
 			"Faraieth-MoonGuard", -- [2]
@@ -572,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "Faraieth-MoonGuard",
 			[51] = 1532455414,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [25]
+		}, -- [24]
 		{
 			"well we have 2 in the group, one swapped to dps", -- [1]
 			"Jaîmê-Frostmourne", -- [2]
@@ -594,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "Jaîmê-Frostmourne",
 			[51] = 1532455415,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [26]
+		}, -- [25]
 		{
 			"what an awesome guy", -- [1]
 			"Ryleigha-MoonGuard", -- [2]
@@ -616,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "Ryleigha-MoonGuard",
 			[51] = 1532455428,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [27]
+		}, -- [26]
 		{
 			"swap back pls this is ez", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -638,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "Laurannah",
 			[51] = 1532455429,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [28]
+		}, -- [27]
 		{
 			"look who it was and kick them", -- [1]
 			"Hayman-Dragonblight", -- [2]
@@ -660,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "Hayman-Dragonblight",
 			[51] = 1532455436,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [29]
+		}, -- [28]
 		{
 			"They didn't", -- [1]
 			"Kyunghu-Illidan", -- [2]
@@ -682,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "Kyunghu-Illidan",
 			[51] = 1532455439,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [30]
+		}, -- [29]
 		{
 			"it's a bug", -- [1]
 			"Kyunghu-Illidan", -- [2]
@@ -704,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "Kyunghu-Illidan",
 			[51] = 1532455441,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [31]
+		}, -- [30]
 		{
 			"What an oddly specific and convenient bug.", -- [1]
 			"Faraieth-MoonGuard", -- [2]
@@ -726,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "Faraieth-MoonGuard",
 			[51] = 1532455471,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [32]
+		}, -- [31]
 		{
 			"lol", -- [1]
 			"Ryleigha-MoonGuard", -- [2]
@@ -748,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "Ryleigha-MoonGuard",
 			[51] = 1532455477,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [33]
+		}, -- [32]
 		{
 			"so anyway can anyone here tank", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -770,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "Laurannah",
 			[51] = 1532455486,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [34]
+		}, -- [33]
 		{
 			"lol", -- [1]
 			"Frontman-Medivh", -- [2]
@@ -792,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "Frontman-Medivh",
 			[51] = 1532455490,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [35]
+		}, -- [34]
 		{
 			"this is ez as fk", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -814,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "Laurannah",
 			[51] = 1532455494,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [36]
+		}, -- [35]
 		{
 			"I mean, we'll ignore the fact that a toddler with basic counting skills can count 18 dps in the group but sure, it's the que that's got it wrong.", -- [1]
 			"Faraieth-MoonGuard", -- [2]
@@ -836,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "Faraieth-MoonGuard",
 			[51] = 1532455523,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [37]
+		}, -- [36]
 		{
 			"lol", -- [1]
 			"Ryleigha-MoonGuard", -- [2]
@@ -858,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "Ryleigha-MoonGuard",
 			[51] = 1532455538,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [38]
+		}, -- [37]
 		{
 			"this is like eating clocks", -- [1]
 			"Jaîmê-Frostmourne", -- [2]
@@ -880,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "Jaîmê-Frostmourne",
 			[51] = 1532455591,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [39]
+		}, -- [38]
 		{
 			"what's the tank setup on this?", -- [1]
 			"Duriden-Gorgonnash", -- [2]
@@ -902,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "Duriden-Gorgonnash",
 			[51] = 1532455599,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [40]
+		}, -- [39]
 		{
 			"damn i read that wrong", -- [1]
 			"Ryleigha-MoonGuard", -- [2]
@@ -924,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "Ryleigha-MoonGuard",
 			[51] = 1532455602,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [41]
+		}, -- [40]
 		{
 			"haha", -- [1]
 			"Jaîmê-Frostmourne", -- [2]
@@ -946,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "Jaîmê-Frostmourne",
 			[51] = 1532455608,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [42]
+		}, -- [41]
 		{
 			"I'm terribly geared artifact wise but fuck this Q", -- [1]
 			"Duriden-Gorgonnash", -- [2]
@@ -968,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "Duriden-Gorgonnash",
 			[51] = 1532455614,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [43]
+		}, -- [42]
 		{
 			"p sure one tank tanks the boss and the other takes the portals", -- [1]
 			"Ryleigha-MoonGuard", -- [2]
@@ -990,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "Ryleigha-MoonGuard",
 			[51] = 1532455615,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [44]
+		}, -- [43]
 		{
 			"tank swap on 4 reality tears", -- [1]
 			"Frontman-Medivh", -- [2]
@@ -1012,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "Frontman-Medivh",
 			[51] = 1532455627,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [45]
+		}, -- [44]
 		{
 			"Does there have to be a rotation?", -- [1]
 			"Duriden-Gorgonnash", -- [2]
@@ -1034,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "Duriden-Gorgonnash",
 			[51] = 1532455628,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [46]
+		}, -- [45]
 		{
 			"alright", -- [1]
 			"Duriden-Gorgonnash", -- [2]
@@ -1056,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "Duriden-Gorgonnash",
 			[51] = 1532455632,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [47]
+		}, -- [46]
 		{
 			"tank not tanking jumps into portals", -- [1]
 			"Frontman-Medivh", -- [2]
@@ -1078,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "Frontman-Medivh",
 			[51] = 1532455638,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [48]
+		}, -- [47]
 		{
 			"Simple alright", -- [1]
 			"Duriden-Gorgonnash", -- [2]
@@ -1100,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "Duriden-Gorgonnash",
 			[51] = 1532455648,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [49]
+		}, -- [48]
 		{
 			"gj tanking", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1122,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "Laurannah",
 			[51] = 1532456006,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [50]
+		}, -- [49]
 		{
 			"rip", -- [1]
 			"Ryleigha-MoonGuard", -- [2]
@@ -1144,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "Ryleigha-MoonGuard",
 			[51] = 1532456095,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [51]
+		}, -- [50]
 		{
 			"he look a tanked got in", -- [1]
 			"Kyunghu-Illidan", -- [2]
@@ -1166,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "Kyunghu-Illidan",
 			[51] = 1532456185,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [52]
+		}, -- [51]
 		{
 			"what do you know", -- [1]
 			"Kyunghu-Illidan", -- [2]
@@ -1188,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "Kyunghu-Illidan",
 			[51] = 1532456187,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [53]
+		}, -- [52]
 		{
 			"After we kicked a dps", -- [1]
 			"Faraieth-MoonGuard", -- [2]
@@ -1210,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "Faraieth-MoonGuard",
 			[51] = 1532456192,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [54]
+		}, -- [53]
 		{
 			"^^", -- [1]
 			"Geomancer-Kel'Thuzad", -- [2]
@@ -1232,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "Geomancer",
 			[51] = 1532456199,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [55]
+		}, -- [54]
 		{
 			"*Thinkingemoji*", -- [1]
 			"Faraieth-MoonGuard", -- [2]
@@ -1254,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "Faraieth-MoonGuard",
 			[51] = 1532456199,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [56]
+		}, -- [55]
 		{
 			"the roles stick in lfr", -- [1]
 			"Kyunghu-Illidan", -- [2]
@@ -1276,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "Kyunghu-Illidan",
 			[51] = 1532456203,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [57]
+		}, -- [56]
 		{
 			"LOL", -- [1]
 			"Ryleigha-MoonGuard", -- [2]
@@ -1298,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "Ryleigha-MoonGuard",
 			[51] = 1532456203,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [58]
+		}, -- [57]
 		{
 			"lol", -- [1]
 			"Frontman-Medivh", -- [2]
@@ -1320,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "Frontman-Medivh",
 			[51] = 1532456207,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [59]
+		}, -- [58]
 		{
 			"HAHAHAH", -- [1]
 			"Bech-Ravenholdt", -- [2]
@@ -1342,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "Bech-Ravenholdt",
 			[51] = 1532456391,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [60]
+		}, -- [59]
 		{
 			"Good to see Kyunghu reminding everyone that most people from Illidan, are retarded.", -- [1]
 			"Faraieth-MoonGuard", -- [2]
@@ -1364,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "Faraieth-MoonGuard",
 			[51] = 1532456489,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [61]
+		}, -- [60]
 		{
 			"lmao", -- [1]
 			"Ryleigha-MoonGuard", -- [2]
@@ -1386,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "Ryleigha-MoonGuard",
 			[51] = 1532456499,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [62]
+		}, -- [61]
 		{
 			"we can prob hero and just kill him", -- [1]
 			"Ironcliff-Stormrage", -- [2]
@@ -1408,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "Ironcliff-Stormrage",
 			[51] = 1532457156,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [63]
+		}, -- [62]
 		{
 			"May I please have |cffa335ee|Hitem:152280::::::::110:253::4:3:3613:1467:3336:::|h[Scalding Shatterguards]|h|r if you don't need it?", -- [1]
 			"Nahark-Stormrage", -- [2]
@@ -1430,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "Nahark-Stormrage",
 			[51] = 1532457223,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [64]
+		}, -- [63]
 		{
 			"May I please have |cffa335ee|Hitem:152132::::::::110:253::4:3:3613:1467:3336:::|h[Serpentstalker Grips]|h|r if you don't need it?", -- [1]
 			"Rakkaani-EmeraldDream", -- [2]
@@ -1452,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "Rakkaani-EmeraldDream",
 			[51] = 1532457226,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [65]
+		}, -- [64]
 		{
 			"sure", -- [1]
 			"Nahark-Stormrage", -- [2]
@@ -1474,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "Nahark-Stormrage",
 			[51] = 1532457229,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [66]
+		}, -- [65]
 		{
 			"ty!", -- [1]
 			"Nahark-Stormrage", -- [2]
@@ -1496,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "Nahark-Stormrage",
 			[51] = 1532457239,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [67]
+		}, -- [66]
 		{
 			"hunters roll |cffa335ee|Hitem:152132::::::::110:254::4:3:3613:1467:3336:::|h[Serpentstalker Grips]|h|r", -- [1]
 			"Rakkaani-EmeraldDream", -- [2]
@@ -1518,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "Rakkaani-EmeraldDream",
 			[51] = 1532457244,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [68]
+		}, -- [67]
 		{
 			"jesus i'm blind", -- [1]
 			"Nahark-Stormrage", -- [2]
@@ -1540,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "Nahark-Stormrage",
 			[51] = 1532457261,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [69]
+		}, -- [68]
 		{
 			"lol np", -- [1]
 			"Nahark-Stormrage", -- [2]
@@ -1562,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "Nahark-Stormrage",
 			[51] = 1532457273,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [70]
+		}, -- [69]
 		{
 			"roll in instance chat :)", -- [1]
 			"Rakkaani-EmeraldDream", -- [2]
@@ -1584,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "Rakkaani-EmeraldDream",
 			[51] = 1532457306,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [71]
+		}, -- [70]
 		{
 			"Flames of Reorigination on Laurannah", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1606,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "Laurannah",
 			[51] = 1532457317,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [72]
+		}, -- [71]
 		{
 			"Flames of Reorigination on Laurannah", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1628,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "Laurannah",
 			[51] = 1532457331,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [73]
+		}, -- [72]
 		{
 			"Flames of Reorigination on Laurannah", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1650,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "Laurannah",
 			[51] = 1532457338,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [74]
+		}, -- [73]
 		{
 			"i hate you wraith", -- [1]
 			"Rakkaani-EmeraldDream", -- [2]
@@ -1672,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "Rakkaani-EmeraldDream",
 			[51] = 1532457345,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [75]
+		}, -- [74]
 		{
 			"wraithshadow dont just walk into fire", -- [1]
 			"Geomancer-Kel'Thuzad", -- [2]
@@ -1694,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "Geomancer",
 			[51] = 1532457348,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [76]
+		}, -- [75]
 		{
 			"heals?", -- [1]
 			"Rawpwent-Baelgun", -- [2]
@@ -1716,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "Rawpwent-Baelgun",
 			[51] = 1532457370,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [77]
+		}, -- [76]
 		{
 			"thanks", -- [1]
 			"Rawpwent-Baelgun", -- [2]
@@ -1738,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "Rawpwent-Baelgun",
 			[51] = 1532457374,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [78]
+		}, -- [77]
 		{
 			"I'll go dps for this", -- [1]
 			"Ironcliff-Stormrage", -- [2]
@@ -1760,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "Ironcliff-Stormrage",
 			[51] = 1532457401,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [79]
+		}, -- [78]
 		{
 			"3", -- [1]
 			"Hildolfr-Stormrage", -- [2]
@@ -1782,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "Hildolfr-Stormrage",
 			[51] = 1532457481,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [80]
+		}, -- [79]
 		{
 			"2", -- [1]
 			"Hildolfr-Stormrage", -- [2]
@@ -1804,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "Hildolfr-Stormrage",
 			[51] = 1532457482,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [81]
+		}, -- [80]
 		{
 			"1", -- [1]
 			"Hildolfr-Stormrage", -- [2]
@@ -1826,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "Hildolfr-Stormrage",
 			[51] = 1532457483,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [82]
+		}, -- [81]
 		{
 			"May I please have |cffa335ee|Hitem:151966::::::::110:253::4:3:3613:1457:3528:::|h[Riveted Choker of Delirium]|h|r if you don't need it?", -- [1]
 			"Misericordia-Magtheridon", -- [2]
@@ -1848,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "Misericordia-Magtheridon",
 			[51] = 1532457608,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [83]
+		}, -- [82]
 		{
 			"i need the haste", -- [1]
 			"Misericordia-Magtheridon", -- [2]
@@ -1870,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "Misericordia-Magtheridon",
 			[51] = 1532457637,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [84]
+		}, -- [83]
 		{
 			"np!", -- [1]
 			"Misericordia-Magtheridon", -- [2]
@@ -1892,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "Misericordia-Magtheridon",
 			[51] = 1532457645,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [85]
+		}, -- [84]
 		{
 			"im worthy of 2 grips???", -- [1]
 			"Misericordia-Magtheridon", -- [2]
@@ -1914,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "Misericordia-Magtheridon",
 			[51] = 1532457687,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [86]
+		}, -- [85]
 		{
 			"wow", -- [1]
 			"Misericordia-Magtheridon", -- [2]
@@ -1936,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "Misericordia-Magtheridon",
 			[51] = 1532457692,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [87]
+		}, -- [86]
 		{
 			"fire adds, stay out of middle", -- [1]
 			"Ironcliff-Stormrage", -- [2]
@@ -1958,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "Ironcliff-Stormrage",
 			[51] = 1532457800,
 			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [88]
+		}, -- [87]
 		{
 			"save lusts and warps for amunthul :/", -- [1]
 			"Geomancer-Kel'Thuzad", -- [2]
@@ -1980,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "Geomancer",
 			[51] = 1532457862,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [89]
+		}, -- [88]
 		{
 			"it's fine", -- [1]
 			"Ironcliff-Stormrage", -- [2]
@@ -2002,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "Ironcliff-Stormrage",
 			[51] = 1532457867,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [90]
+		}, -- [89]
 		{
 			"we won't get aman thuls", -- [1]
 			"Ironcliff-Stormrage", -- [2]
@@ -2024,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "Ironcliff-Stormrage",
 			[51] = 1532457872,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [91]
+		}, -- [90]
 		{
 			"they'll be dead", -- [1]
 			"Nightseyes-Dalaran", -- [2]
@@ -2046,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "Nightseyes-Dalaran",
 			[51] = 1532457873,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [92]
+		}, -- [91]
 		{
 			"turns his |Hitem:118427|h|cFFFFFFFF[Autographed Hearthstone Card]|r|h card over, revealing a |cFFFFFFFF[Common Hearthstone Card]|r!", -- [1]
 			"Demonjager-Quel'Thalas", -- [2]
@@ -2068,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "Demonjager-Quel'Thalas",
 			[51] = 1532458222,
 			[50] = "CHAT_MSG_EMOTE",
-		}, -- [93]
+		}, -- [92]
 		{
 			"2", -- [1]
 			"Notoriousfat-Gallywix", -- [2]
@@ -2090,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "Notoriousfat-Gallywix",
 			[51] = 1532458256,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [94]
+		}, -- [93]
 		{
 			"1", -- [1]
 			"Notoriousfat-Gallywix", -- [2]
@@ -2112,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "Notoriousfat-Gallywix",
 			[51] = 1532458257,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [95]
+		}, -- [94]
 		{
 			"Decimation to the right ", -- [1]
 			"Elodîe-Stormrage", -- [2]
@@ -2134,7 +2112,7 @@ ElvCharacterDB = {
 			[52] = "Elodîe-Stormrage",
 			[51] = 1532458270,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [96]
+		}, -- [95]
 		{
 			"or left", -- [1]
 			"Elodîe-Stormrage", -- [2]
@@ -2156,7 +2134,7 @@ ElvCharacterDB = {
 			[52] = "Elodîe-Stormrage",
 			[51] = 1532458272,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [97]
+		}, -- [96]
 		{
 			"not in the raid", -- [1]
 			"Elodîe-Stormrage", -- [2]
@@ -2178,7 +2156,7 @@ ElvCharacterDB = {
 			[52] = "Elodîe-Stormrage",
 			[51] = 1532458276,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [98]
+		}, -- [97]
 		{
 			"Decimation", -- [1]
 			"Saarrin-Stormrage", -- [2]
@@ -2200,7 +2178,7 @@ ElvCharacterDB = {
 			[52] = "Saarrin-Stormrage",
 			[51] = 1532458322,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [99]
+		}, -- [98]
 		{
 			"Decimation", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2222,7 +2200,7 @@ ElvCharacterDB = {
 			[52] = "Laurannah",
 			[51] = 1532458338,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [100]
+		}, -- [99]
 		{
 			"3", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2244,7 +2222,7 @@ ElvCharacterDB = {
 			[52] = "Laurannah",
 			[51] = 1532458340,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [101]
+		}, -- [100]
 		{
 			"2", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2266,7 +2244,7 @@ ElvCharacterDB = {
 			[52] = "Laurannah",
 			[51] = 1532458341,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [102]
+		}, -- [101]
 		{
 			"1", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2288,7 +2266,7 @@ ElvCharacterDB = {
 			[52] = "Laurannah",
 			[51] = 1532458342,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [103]
+		}, -- [102]
 		{
 			"Decimation", -- [1]
 			"Jessop-Proudmoore", -- [2]
@@ -2310,7 +2288,7 @@ ElvCharacterDB = {
 			[52] = "Jessop-Proudmoore",
 			[51] = 1532458370,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [104]
+		}, -- [103]
 		{
 			"3", -- [1]
 			"Jessop-Proudmoore", -- [2]
@@ -2332,7 +2310,7 @@ ElvCharacterDB = {
 			[52] = "Jessop-Proudmoore",
 			[51] = 1532458372,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [105]
+		}, -- [104]
 		{
 			"2", -- [1]
 			"Jessop-Proudmoore", -- [2]
@@ -2354,7 +2332,7 @@ ElvCharacterDB = {
 			[52] = "Jessop-Proudmoore",
 			[51] = 1532458373,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [106]
+		}, -- [105]
 		{
 			"guess they no habla ingles", -- [1]
 			"Elricke-EmeraldDream", -- [2]
@@ -2376,7 +2354,7 @@ ElvCharacterDB = {
 			[52] = "Elricke-EmeraldDream",
 			[51] = 1532458373,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [107]
+		}, -- [106]
 		{
 			"May I please have |cffa335ee|Hitem:151937::::::::110:253::4:3:3613:1472:3337:::|h[Cloak of the Burning Vanguard]|h|r if you don't need it?", -- [1]
 			"Demonjager-Quel'Thalas", -- [2]
@@ -2398,7 +2376,7 @@ ElvCharacterDB = {
 			[52] = "Demonjager-Quel'Thalas",
 			[51] = 1532458431,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [108]
+		}, -- [107]
 		{
 			"May I please have |cffa335ee|Hitem:151962::::::::110:253::4:3:3613:1457:3528:::|h[Prototype Personnel Decimator]|h|r if you don't need it?", -- [1]
 			"Runnescape-Zul'jin", -- [2]
@@ -2420,7 +2398,7 @@ ElvCharacterDB = {
 			[52] = "Runnescape-Zul'jin",
 			[51] = 1532458432,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [109]
+		}, -- [108]
 		{
 			"sure", -- [1]
 			"Runnescape-Zul'jin", -- [2]
@@ -2442,7 +2420,7 @@ ElvCharacterDB = {
 			[52] = "Runnescape-Zul'jin",
 			[51] = 1532458445,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [110]
+		}, -- [109]
 		{
 			"trade", -- [1]
 			"Demonjager-Quel'Thalas", -- [2]
@@ -2464,7 +2442,7 @@ ElvCharacterDB = {
 			[52] = "Demonjager-Quel'Thalas",
 			[51] = 1532458456,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [111]
+		}, -- [110]
 		{
 			"Poison Bomb Down!!!", -- [1]
 			"Elricke-EmeraldDream", -- [2]
@@ -2486,7 +2464,7 @@ ElvCharacterDB = {
 			[52] = "Elricke-EmeraldDream",
 			[51] = 1532458464,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [112]
+		}, -- [111]
 		{
 			"Poison Bomb Down!!!", -- [1]
 			"Elricke-EmeraldDream", -- [2]
@@ -2508,7 +2486,7 @@ ElvCharacterDB = {
 			[52] = "Elricke-EmeraldDream",
 			[51] = 1532458475,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [113]
+		}, -- [112]
 		{
 			"ty!", -- [1]
 			"Demonjager-Quel'Thalas", -- [2]
@@ -2530,7 +2508,7 @@ ElvCharacterDB = {
 			[52] = "Demonjager-Quel'Thalas",
 			[51] = 1532458476,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [114]
+		}, -- [113]
 		{
 			"ty!", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2552,7 +2530,7 @@ ElvCharacterDB = {
 			[52] = "Laurannah",
 			[51] = 1532458519,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [115]
+		}, -- [114]
 		{
 			"Poison Bomb Down!!!", -- [1]
 			"Elricke-EmeraldDream", -- [2]
@@ -2574,7 +2552,7 @@ ElvCharacterDB = {
 			[52] = "Elricke-EmeraldDream",
 			[51] = 1532458700,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [116]
+		}, -- [115]
 		{
 			"Poison Bomb Down!!!", -- [1]
 			"Elricke-EmeraldDream", -- [2]
@@ -2596,7 +2574,7 @@ ElvCharacterDB = {
 			[52] = "Elricke-EmeraldDream",
 			[51] = 1532458730,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [117]
+		}, -- [116]
 		{
 			"Poison Bomb Down!!!", -- [1]
 			"Elricke-EmeraldDream", -- [2]
@@ -2618,7 +2596,7 @@ ElvCharacterDB = {
 			[52] = "Elricke-EmeraldDream",
 			[51] = 1532458742,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [118]
+		}, -- [117]
 		{
 			"Poison Bomb Down!!!", -- [1]
 			"Elricke-EmeraldDream", -- [2]
@@ -2640,7 +2618,7 @@ ElvCharacterDB = {
 			[52] = "Elricke-EmeraldDream",
 			[51] = 1532458793,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [119]
+		}, -- [118]
 		{
 			"Desolate Gaze on Laurannah", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2662,7 +2640,7 @@ ElvCharacterDB = {
 			[52] = "Laurannah",
 			[51] = 1532458814,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [120]
+		}, -- [119]
 		{
 			"May I please have |cffa335ee|Hitem:151973::::::::110:253::4:3:3613:1457:3528:::|h[Collar of Null-Flame]|h|r if you don't need it?", -- [1]
 			"Rakkaani-EmeraldDream", -- [2]
@@ -2684,7 +2662,7 @@ ElvCharacterDB = {
 			[52] = "Rakkaani-EmeraldDream",
 			[51] = 1532458827,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [121]
+		}, -- [120]
 		{
 			"May I please have |cffa335ee|Hitem:151973::::::::110:253::4:3:3613:1487:3337:::|h[Collar of Null-Flame]|h|r if you don't need it?", -- [1]
 			"Shairiel-Stormrage", -- [2]
@@ -2706,7 +2684,7 @@ ElvCharacterDB = {
 			[52] = "Shairiel-Stormrage",
 			[51] = 1532458832,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [122]
+		}, -- [121]
 		{
 			"I need", -- [1]
 			"Shairiel-Stormrage", -- [2]
@@ -2728,7 +2706,7 @@ ElvCharacterDB = {
 			[52] = "Shairiel-Stormrage",
 			[51] = 1532458851,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [123]
+		}, -- [122]
 		{
 			"np!", -- [1]
 			"Shairiel-Stormrage", -- [2]
@@ -2750,7 +2728,7 @@ ElvCharacterDB = {
 			[52] = "Shairiel-Stormrage",
 			[51] = 1532458856,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [124]
+		}, -- [123]
 		{
 			"Srry :c", -- [1]
 			"Shairiel-Stormrage", -- [2]
@@ -2772,7 +2750,7 @@ ElvCharacterDB = {
 			[52] = "Shairiel-Stormrage",
 			[51] = 1532458860,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [125]
+		}, -- [124]
 		{
 			"don't run away when you're linked", -- [1]
 			"Rakkaani-EmeraldDream", -- [2]
@@ -2794,7 +2772,7 @@ ElvCharacterDB = {
 			[52] = "Rakkaani-EmeraldDream",
 			[51] = 1532458882,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [126]
+		}, -- [125]
 		{
 			"u jelly?", -- [1]
 			"Wolkeers-Kel'Thuzad", -- [2]
@@ -2816,6 +2794,28 @@ ElvCharacterDB = {
 			[52] = "Wolkeers",
 			[51] = 1532528861,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [126]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:10561:Player-3693-0745E824:1:7:28:18:4294967295:4294967295:4294967295:4294967295|h[Honorable Medallion]|h|r!", -- [1]
+			"Jakthedog-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Jakthedog", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1, -- [11]
+			"Player-3693-0745E824", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "Jakthedog",
+			[51] = 1532789677,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [127]
 	},
 }
