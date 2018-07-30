@@ -82,7 +82,7 @@ TellMeWhen: disabled
 TellMeWhen_Options: disabled
 AddOnSkins: enabled
 OPie: enabled
-ConsLegion: enabled
+ConsLegion: disabled
 AutoLootPlus: enabled
 BetterIconSelector: enabled
 BetterIconSelector-KeywordData: enabled

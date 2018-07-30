@@ -11,6 +11,12 @@ ElvCharacterDB = {
 		"/dance", -- [8]
 		"/wave", -- [9]
 		"/hi", -- [10]
+		"/pet", -- [11]
+		"/conslegion", -- [12]
+		"/p ty", -- [13]
+		"/2 so to unlock these BFA races do you actually have to level them to max level", -- [14]
+		"/2 or is that just to unlock their cosmetics and mounts", -- [15]
+		"/2 oic cool", -- [16]
 	},
 	["ChatHistoryLog"] = {
 		{
@@ -35,5 +41,269 @@ ElvCharacterDB = {
 			[51] = 1532873853,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [1]
+		{
+			"hey goons does anyone have a horde alt? I need to xfer like 100g to my lil BE rogue noob alt", -- [1]
+			"Hauzer-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			31, -- [11]
+			"Player-3693-07375FB3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc6eaHauzer|r",
+			[51] = 1532950607,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [2]
+		{
+			"|cffffff00Starstalker's Point is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Val'sharah", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Val'sharah", -- [9]
+			0, -- [10]
+			111, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1532960203,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [3]
+		{
+			"|cffffff00Starstalker's Point is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Val'sharah", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Val'sharah", -- [9]
+			0, -- [10]
+			114, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1532960289,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [4]
+		{
+			"|cffffff00Cordana's Apex is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Highmountain", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Highmountain", -- [9]
+			0, -- [10]
+			128, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1532960482,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [5]
+		{
+			"|cffffff00Cordana's Apex is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Highmountain", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Highmountain", -- [9]
+			0, -- [10]
+			139, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1532960579,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [6]
+		{
+			"|cffffff00Cordana's Apex is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Highmountain", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Highmountain", -- [9]
+			0, -- [10]
+			143, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1532960650,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [7]
+		{
+			"can i get a port to stormshield", -- [1]
+			"Faesrol-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Faesrol", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			171, -- [11]
+			"Player-3693-09A0020F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaFaesrol|r",
+			[51] = 1532961545,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [8]
+		{
+			"ty", -- [1]
+			"Hauzer-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hauzer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			176, -- [11]
+			"Player-3693-07375FB3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc6eaHauzer|r",
+			[51] = 1532961577,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [9]
+		{
+			"ty", -- [1]
+			"Faesrol-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Faesrol", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			177, -- [11]
+			"Player-3693-09A0020F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaFaesrol|r",
+			[51] = 1532961583,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [10]
+		{
+			"so to unlock these BFA races do you actually have to level them to max level", -- [1]
+			"Hauzer-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hauzer", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			181, -- [11]
+			"Player-3693-07375FB3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3fc6eaHauzer|r",
+			[51] = 1532961931,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [11]
+		{
+			"or is that just to unlock their cosmetics and mounts", -- [1]
+			"Hauzer-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hauzer", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			183, -- [11]
+			"Player-3693-07375FB3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3fc6eaHauzer|r",
+			[51] = 1532961961,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [12]
+		{
+			"oic cool", -- [1]
+			"Hauzer-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hauzer", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			188, -- [11]
+			"Player-3693-07375FB3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3fc6eaHauzer|r",
+			[51] = 1532962035,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [13]
 	},
 }

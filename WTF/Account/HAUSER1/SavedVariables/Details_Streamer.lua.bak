@@ -1,13 +1,14 @@
 
 Details_StreamerDB = {
 	["characters"] = {
+		["Laurannah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Kmkarbashian - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Alauranna - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Hauzerina - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
-		["Laurannah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
+		["Hauzerina - Moon Guard"] = "Laurannah - Kel'Thuzad",
 		["Alisheeya - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Hauzer - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
-		["Hauzerina - Moon Guard"] = "Laurannah - Kel'Thuzad",
+		["Alorannah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 	},
 	["profiles"] = {
 		["Laurannah - Kel'Thuzad"] = {

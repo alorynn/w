@@ -1,5 +1,37 @@
 
 Postal3DB = {
+	["profileKeys"] = {
+		["Hoobastankie - Kel'Thuzad"] = "Hoobastankie - Kel'Thuzad",
+		["Hauzerogue - Kel'Thuzad"] = "Hauzerogue - Kel'Thuzad",
+		["Hauzerina - Moon Guard"] = "Hauzerina - Moon Guard",
+		["Hauser - Mal'Ganis"] = "Hauser - Mal'Ganis",
+		["Beatryce - Kel'Thuzad"] = "Beatryce - Kel'Thuzad",
+		["Alisheeya - Kel'Thuzad"] = "Alisheeya - Kel'Thuzad",
+		["Hauzerone - Dalaran"] = "Hauzerone - Dalaran",
+		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
+		["Alurannah - Kel'Thuzad"] = "Alurannah - Kel'Thuzad",
+		["Pharrah - Kel'Thuzad"] = "Pharrah - Kel'Thuzad",
+		["Laurannah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
+		["Deeke - Kel'Thuzad"] = "Deeke - Kel'Thuzad",
+		["Sdkfhsdkjfhs - Kel'Thuzad"] = "Sdkfhsdkjfhs - Kel'Thuzad",
+		["Nigellah - Kel'Thuzad"] = "Nigellah - Kel'Thuzad",
+		["Bazoomercom - Dark Iron"] = "Bazoomercom - Dark Iron",
+		["Ugiyo - Kel'Thuzad"] = "Ugiyo - Kel'Thuzad",
+		["Hauzerdemon - Kel'Thuzad"] = "Hauzerdemon - Kel'Thuzad",
+		["Beatryss - Kel'Thuzad"] = "Beatryss - Kel'Thuzad",
+		["Hauzerina - Kel'Thuzad"] = "Hauzerina - Kel'Thuzad",
+		["Fsdkjhskdjfh - Kel'Thuzad"] = "Fsdkjhskdjfh - Kel'Thuzad",
+		["Hauzerhunter - Kel'Thuzad"] = "Hauzerhunter - Kel'Thuzad",
+		["Olrapey - Kel'Thuzad"] = "Olrapey - Kel'Thuzad",
+		["Skãdi - Kel'Thuzad"] = "Skãdi - Kel'Thuzad",
+		["Darknstormie - Kel'Thuzad"] = "Darknstormie - Kel'Thuzad",
+		["Alauranna - Kel'Thuzad"] = "Alauranna - Kel'Thuzad",
+		["Kmkarbashian - Kel'Thuzad"] = "Kmkarbashian - Kel'Thuzad",
+		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
+		["Hoobastanko - Kel'Thuzad"] = "Hoobastanko - Kel'Thuzad",
+		["Laurenn - Kel'Thuzad"] = "Laurenn - Kel'Thuzad",
+		["Leeroyjenkem - Kel'Thuzad"] = "Leeroyjenkem - Kel'Thuzad",
+	},
 	["global"] = {
 		["BlackBook"] = {
 			["alts"] = {
@@ -37,38 +69,6 @@ Postal3DB = {
 			},
 		},
 	},
-	["profileKeys"] = {
-		["Hoobastankie - Kel'Thuzad"] = "Hoobastankie - Kel'Thuzad",
-		["Hauzerogue - Kel'Thuzad"] = "Hauzerogue - Kel'Thuzad",
-		["Hauzerina - Moon Guard"] = "Hauzerina - Moon Guard",
-		["Leeroyjenkem - Kel'Thuzad"] = "Leeroyjenkem - Kel'Thuzad",
-		["Laurenn - Kel'Thuzad"] = "Laurenn - Kel'Thuzad",
-		["Ugiyo - Kel'Thuzad"] = "Ugiyo - Kel'Thuzad",
-		["Hauzerone - Dalaran"] = "Hauzerone - Dalaran",
-		["Hoobastanko - Kel'Thuzad"] = "Hoobastanko - Kel'Thuzad",
-		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
-		["Pharrah - Kel'Thuzad"] = "Pharrah - Kel'Thuzad",
-		["Laurannah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
-		["Deeke - Kel'Thuzad"] = "Deeke - Kel'Thuzad",
-		["Sdkfhsdkjfhs - Kel'Thuzad"] = "Sdkfhsdkjfhs - Kel'Thuzad",
-		["Nigellah - Kel'Thuzad"] = "Nigellah - Kel'Thuzad",
-		["Bazoomercom - Dark Iron"] = "Bazoomercom - Dark Iron",
-		["Kmkarbashian - Kel'Thuzad"] = "Kmkarbashian - Kel'Thuzad",
-		["Alurannah - Kel'Thuzad"] = "Alurannah - Kel'Thuzad",
-		["Beatryss - Kel'Thuzad"] = "Beatryss - Kel'Thuzad",
-		["Hauzerina - Kel'Thuzad"] = "Hauzerina - Kel'Thuzad",
-		["Darknstormie - Kel'Thuzad"] = "Darknstormie - Kel'Thuzad",
-		["Hauzerhunter - Kel'Thuzad"] = "Hauzerhunter - Kel'Thuzad",
-		["Olrapey - Kel'Thuzad"] = "Olrapey - Kel'Thuzad",
-		["Skãdi - Kel'Thuzad"] = "Skãdi - Kel'Thuzad",
-		["Fsdkjhskdjfh - Kel'Thuzad"] = "Fsdkjhskdjfh - Kel'Thuzad",
-		["Alauranna - Kel'Thuzad"] = "Alauranna - Kel'Thuzad",
-		["Beatryce - Kel'Thuzad"] = "Beatryce - Kel'Thuzad",
-		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
-		["Alisheeya - Kel'Thuzad"] = "Alisheeya - Kel'Thuzad",
-		["Hauzerdemon - Kel'Thuzad"] = "Hauzerdemon - Kel'Thuzad",
-		["Hauser - Mal'Ganis"] = "Hauser - Mal'Ganis",
-	},
 	["profiles"] = {
 		["Hoobastankie - Kel'Thuzad"] = {
 		},
@@ -76,28 +76,29 @@ Postal3DB = {
 		},
 		["Hauzerina - Moon Guard"] = {
 		},
-		["Leeroyjenkem - Kel'Thuzad"] = {
+		["Hauser - Mal'Ganis"] = {
 		},
-		["Laurenn - Kel'Thuzad"] = {
+		["Beatryce - Kel'Thuzad"] = {
 		},
-		["Ugiyo - Kel'Thuzad"] = {
+		["Alisheeya - Kel'Thuzad"] = {
 		},
 		["Hauzerone - Dalaran"] = {
 		},
-		["Hoobastanko - Kel'Thuzad"] = {
-		},
 		["Alorannah - Kel'Thuzad"] = {
+		},
+		["Alurannah - Kel'Thuzad"] = {
 		},
 		["Pharrah - Kel'Thuzad"] = {
 		},
 		["Laurannah - Kel'Thuzad"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Alauranna|Kel'Thuzad|Alliance", -- [1]
-					"Kmkarbashian|Kel'Thuzad|Alliance", -- [2]
-					"Hauzerina|Kel'Thuzad|Alliance", -- [3]
-					"Darxor|Kel'Thuzad|Alliance", -- [4]
-					"Darknstormie|Kel'Thuzad|Alliance", -- [5]
+					"Hauzer|Kel'Thuzad|Alliance", -- [1]
+					"Alauranna|Kel'Thuzad|Alliance", -- [2]
+					"Kmkarbashian|Kel'Thuzad|Alliance", -- [3]
+					"Hauzerina|Kel'Thuzad|Alliance", -- [4]
+					"Darxor|Kel'Thuzad|Alliance", -- [5]
+					"Darknstormie|Kel'Thuzad|Alliance", -- [6]
 				},
 			},
 		},
@@ -109,14 +110,9 @@ Postal3DB = {
 		},
 		["Bazoomercom - Dark Iron"] = {
 		},
-		["Kmkarbashian - Kel'Thuzad"] = {
-			["BlackBook"] = {
-				["recent"] = {
-					"Laurannah|Kel'Thuzad|Alliance", -- [1]
-				},
-			},
+		["Ugiyo - Kel'Thuzad"] = {
 		},
-		["Alurannah - Kel'Thuzad"] = {
+		["Hauzerdemon - Kel'Thuzad"] = {
 		},
 		["Beatryss - Kel'Thuzad"] = {
 		},
@@ -128,12 +124,7 @@ Postal3DB = {
 				},
 			},
 		},
-		["Darknstormie - Kel'Thuzad"] = {
-			["BlackBook"] = {
-				["recent"] = {
-					"Laurannah|Kel'Thuzad|Alliance", -- [1]
-				},
-			},
+		["Fsdkjhskdjfh - Kel'Thuzad"] = {
 		},
 		["Hauzerhunter - Kel'Thuzad"] = {
 		},
@@ -141,7 +132,12 @@ Postal3DB = {
 		},
 		["Skãdi - Kel'Thuzad"] = {
 		},
-		["Fsdkjhskdjfh - Kel'Thuzad"] = {
+		["Darknstormie - Kel'Thuzad"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Laurannah|Kel'Thuzad|Alliance", -- [1]
+				},
+			},
 		},
 		["Alauranna - Kel'Thuzad"] = {
 			["BlackBook"] = {
@@ -152,7 +148,12 @@ Postal3DB = {
 				},
 			},
 		},
-		["Beatryce - Kel'Thuzad"] = {
+		["Kmkarbashian - Kel'Thuzad"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Laurannah|Kel'Thuzad|Alliance", -- [1]
+				},
+			},
 		},
 		["Hauzer - Kel'Thuzad"] = {
 			["BlackBook"] = {
@@ -167,11 +168,11 @@ Postal3DB = {
 				},
 			},
 		},
-		["Alisheeya - Kel'Thuzad"] = {
+		["Hoobastanko - Kel'Thuzad"] = {
 		},
-		["Hauzerdemon - Kel'Thuzad"] = {
+		["Laurenn - Kel'Thuzad"] = {
 		},
-		["Hauser - Mal'Ganis"] = {
+		["Leeroyjenkem - Kel'Thuzad"] = {
 		},
 	},
 }

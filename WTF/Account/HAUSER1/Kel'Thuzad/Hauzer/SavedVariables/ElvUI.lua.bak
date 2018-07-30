@@ -10,7 +10,164 @@ ElvCharacterDB = {
 		"/kiss", -- [7]
 		"/dance", -- [8]
 		"/wave", -- [9]
+		"/hi", -- [10]
+		"/pet", -- [11]
+		"/conslegion", -- [12]
 	},
 	["ChatHistoryLog"] = {
+		{
+			" <Beyond> is a raiding guild in need of DPS for our core progression team in BFA. Raids times: Thur & Sun, 7-10PM EST. Pst for more info!", -- [1]
+			"Destinyy-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Destinyy", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			36, -- [11]
+			"Player-3693-07366A00", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffff7c0aDestinyy|r",
+			[51] = 1532873853,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [1]
+		{
+			"hey goons does anyone have a horde alt? I need to xfer like 100g to my lil BE rogue noob alt", -- [1]
+			"Hauzer-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			31, -- [11]
+			"Player-3693-07375FB3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc6eaHauzer|r",
+			[51] = 1532950607,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [2]
+		{
+			"|cffffff00Starstalker's Point is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Val'sharah", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Val'sharah", -- [9]
+			0, -- [10]
+			111, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1532960203,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [3]
+		{
+			"|cffffff00Starstalker's Point is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Val'sharah", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Val'sharah", -- [9]
+			0, -- [10]
+			114, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1532960289,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [4]
+		{
+			"|cffffff00Cordana's Apex is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Highmountain", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Highmountain", -- [9]
+			0, -- [10]
+			128, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1532960482,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [5]
+		{
+			"|cffffff00Cordana's Apex is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Highmountain", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Highmountain", -- [9]
+			0, -- [10]
+			139, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1532960579,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [6]
+		{
+			"|cffffff00Cordana's Apex is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Highmountain", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Highmountain", -- [9]
+			0, -- [10]
+			143, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1532960650,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [7]
 	},
 }

@@ -6,13 +6,14 @@ NewOpenablesProfile = {
 		},
 	},
 	["profileKeys"] = {
+		["Alorannah - Kel'Thuzad"] = "Default",
 		["Kmkarbashian - Kel'Thuzad"] = "Default",
 		["Alauranna - Kel'Thuzad"] = "Default",
 		["Hauzerina - Kel'Thuzad"] = "Default",
 		["Hauzer - Kel'Thuzad"] = "Default",
 		["Alisheeya - Kel'Thuzad"] = "Default",
-		["Hauzerina - Moon Guard"] = "Default",
 		["Laurannah - Kel'Thuzad"] = "Default",
+		["Hauzerina - Moon Guard"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

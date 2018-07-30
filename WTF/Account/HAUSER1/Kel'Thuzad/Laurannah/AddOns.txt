@@ -84,7 +84,7 @@ AddOnSkins: enabled
 OPie: enabled
 BetterIconSelector: enabled
 BetterIconSelector-KeywordData: enabled
-ConsLegion: enabled
+ConsLegion: disabled
 Details: enabled
 Clique: enabled
 AutoLootPlus: enabled

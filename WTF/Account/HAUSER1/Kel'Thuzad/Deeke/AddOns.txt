@@ -21,7 +21,7 @@ BetterIconSelector: enabled
 BetterIconSelector-KeywordData: enabled
 Broker_Volume: enabled
 Clique: enabled
-ConsLegion: enabled
+ConsLegion: disabled
 Details: enabled
 Details_DmgRank: enabled
 Details_DpsTuning: enabled

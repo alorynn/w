@@ -429,15 +429,15 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.004109,
 							["targets_overheal"] = {
 							},
-							["healing_taken"] = 484.004109,
+							["classe"] = "HUNTER",
 							["totalover"] = 5529.004109,
 							["total_without_pet"] = 484.004109,
 							["iniciar_hps"] = false,
 							["totaldenied"] = 0.004109,
 							["fight_component"] = true,
 							["end_time"] = 1532790336,
-							["classe"] = "HUNTER",
 							["heal_enemy_amt"] = 0,
+							["healing_taken"] = 484.004109,
 							["nome"] = "Laurannah",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -701,15 +701,15 @@ _detalhes_database = {
 							["flag_original"] = 4369,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Corey <Laurannah>",
-							["tipo"] = 4,
+							["classe"] = "PET",
 							["spell_cast"] = {
 								[17253] = 5,
 								[61684] = 1,
 							},
 							["pets"] = {
 							},
+							["tipo"] = 4,
 							["last_event"] = 0,
-							["classe"] = "PET",
 							["serial"] = "Pet-0-3779-1669-20602-11673-010283DFC8",
 							["fight_component"] = true,
 						}, -- [2]
@@ -721,12 +721,12 @@ _detalhes_database = {
 							},
 							["classe"] = "PET",
 							["tipo"] = 4,
-							["last_event"] = 0,
-							["serial"] = "Creature-0-3779-1669-20602-119082-00005C863C",
 							["spell_cast"] = {
 								[235922] = 1,
 								[242903] = 1,
 							},
+							["serial"] = "Creature-0-3779-1669-20602-119082-00005C863C",
+							["last_event"] = 0,
 						}, -- [3]
 					},
 				}, -- [4]
@@ -747,11 +747,11 @@ _detalhes_database = {
 				["combat_counter"] = 6733,
 				["playing_solo"] = true,
 				["totals"] = {
-					30937.888574, -- [1]
+					30937.832554, -- [1]
 					5624.997656, -- [2]
 					{
 						-103.003993, -- [1]
-						[0] = 102.960347,
+						[0] = 102.935799,
 						["alternatepower"] = 0,
 						[6] = 0,
 						[3] = 0,
@@ -1182,15 +1182,15 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Laurannah"] = true,
 							},
-							["classe"] = "HUNTER",
+							["healing_taken"] = 314.00799,
 							["totalover"] = 2161.00799,
 							["total_without_pet"] = 314.00799,
 							["totalover_without_pet"] = 0.00799,
 							["totaldenied"] = 0.00799,
 							["fight_component"] = true,
 							["end_time"] = 1532790309,
-							["healing_taken"] = 314.00799,
 							["heal_enemy_amt"] = 0,
+							["classe"] = "HUNTER",
 							["nome"] = "Laurannah",
 							["targets_absorbs"] = {
 							},
@@ -1419,14 +1419,14 @@ _detalhes_database = {
 							["flag_original"] = 4369,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Corey <Laurannah>",
-							["tipo"] = 4,
+							["classe"] = "PET",
 							["spell_cast"] = {
 								[17253] = 2,
 							},
 							["pets"] = {
 							},
+							["tipo"] = 4,
 							["last_event"] = 0,
-							["classe"] = "PET",
 							["serial"] = "Pet-0-3779-1669-20602-11673-010283DFC8",
 							["fight_component"] = true,
 						}, -- [2]
@@ -1850,15 +1850,15 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Laurannah"] = true,
 							},
-							["classe"] = "HUNTER",
+							["healing_taken"] = 142.005873,
 							["totalover"] = 1441.005873,
 							["total_without_pet"] = 142.005873,
 							["totalover_without_pet"] = 0.005873,
 							["totaldenied"] = 0.005873,
 							["fight_component"] = true,
 							["end_time"] = 1532790297,
-							["healing_taken"] = 142.005873,
 							["heal_enemy_amt"] = 0,
+							["classe"] = "HUNTER",
 							["nome"] = "Laurannah",
 							["targets_absorbs"] = {
 							},
@@ -1997,18 +1997,18 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["nome"] = "Laurannah",
-							["spell_cast"] = {
-								[34477] = 1,
-								[2643] = 4,
-								[34026] = 1,
-								[193455] = 1,
-							},
+							["buff_uptime"] = 74,
 							["last_event"] = 1532790297,
+							["spell_cast"] = {
+								[193455] = 1,
+								[34477] = 1,
+								[34026] = 1,
+								[2643] = 4,
+							},
+							["classe"] = "HUNTER",
 							["pets"] = {
 								"Corey <Laurannah>", -- [1]
 							},
-							["classe"] = "HUNTER",
-							["buff_uptime"] = 74,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[225787] = {
@@ -2087,15 +2087,15 @@ _detalhes_database = {
 							["flag_original"] = 4369,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Corey <Laurannah>",
-							["tipo"] = 4,
+							["classe"] = "PET",
 							["spell_cast"] = {
 								[61684] = 1,
 								[17253] = 4,
 							},
 							["pets"] = {
 							},
+							["tipo"] = 4,
 							["last_event"] = 0,
-							["classe"] = "PET",
 							["serial"] = "Pet-0-3779-1669-20602-11673-010283DFC8",
 							["fight_component"] = true,
 						}, -- [2]
@@ -3177,24 +3177,24 @@ _detalhes_database = {
 							},
 							["classe"] = "PET",
 							["tipo"] = 4,
-							["last_event"] = 0,
-							["serial"] = "Creature-0-3779-1669-20602-119082-00005C85CC",
 							["spell_cast"] = {
 								[235922] = 1,
 							},
+							["serial"] = "Creature-0-3779-1669-20602-119082-00005C85CC",
+							["last_event"] = 0,
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Corey <Laurannah>",
-							["tipo"] = 4,
+							["classe"] = "PET",
 							["spell_cast"] = {
 								[17253] = 11,
 							},
 							["pets"] = {
 							},
+							["tipo"] = 4,
 							["last_event"] = 0,
-							["classe"] = "PET",
 							["serial"] = "Pet-0-3779-1669-20602-11673-010283DFC8",
 							["fight_component"] = true,
 						}, -- [3]
@@ -3206,11 +3206,11 @@ _detalhes_database = {
 							},
 							["classe"] = "PET",
 							["tipo"] = 4,
-							["last_event"] = 0,
-							["serial"] = "Creature-0-3779-1669-20602-119082-00005C85CC",
 							["spell_cast"] = {
 								[242903] = 1,
 							},
+							["serial"] = "Creature-0-3779-1669-20602-119082-00005C85CC",
+							["last_event"] = 0,
 						}, -- [4]
 						{
 							["flag_original"] = 8465,
@@ -3220,11 +3220,11 @@ _detalhes_database = {
 							},
 							["classe"] = "PET",
 							["tipo"] = 4,
-							["last_event"] = 0,
-							["serial"] = "Creature-0-3779-1669-20602-128752-00005C85E7",
 							["spell_cast"] = {
 								[120694] = 1,
 							},
+							["serial"] = "Creature-0-3779-1669-20602-128752-00005C85E7",
+							["last_event"] = 0,
 						}, -- [5]
 					},
 				}, -- [4]
@@ -3772,15 +3772,15 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Laurannah"] = true,
 							},
-							["classe"] = "HUNTER",
+							["healing_taken"] = 509.005337,
 							["totalover"] = 2632.005337,
 							["total_without_pet"] = 509.005337,
 							["totalover_without_pet"] = 0.005337,
 							["totaldenied"] = 0.005337,
 							["fight_component"] = true,
 							["end_time"] = 1532790202,
-							["healing_taken"] = 509.005337,
 							["heal_enemy_amt"] = 0,
+							["classe"] = "HUNTER",
 							["nome"] = "Laurannah",
 							["targets_absorbs"] = {
 							},
@@ -4116,10 +4116,10 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["spell_cast"] = {
-								[2643] = 1,
-								[34477] = 1,
-								[34026] = 1,
 								[193455] = 1,
+								[2643] = 1,
+								[34026] = 1,
+								[34477] = 1,
 							},
 							["tipo"] = 4,
 							["last_event"] = 1532790202,
@@ -4135,14 +4135,14 @@ _detalhes_database = {
 							["flag_original"] = 4369,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Corey <Laurannah>",
-							["tipo"] = 4,
+							["classe"] = "PET",
 							["spell_cast"] = {
 								[17253] = 2,
 							},
 							["pets"] = {
 							},
+							["tipo"] = 4,
 							["last_event"] = 0,
-							["classe"] = "PET",
 							["serial"] = "Pet-0-3779-1669-20602-11673-010283DFC8",
 							["fight_component"] = true,
 						}, -- [2]
@@ -4710,15 +4710,8 @@ _detalhes_database = {
 							["delay"] = 0,
 							["fight_component"] = true,
 							["total"] = 94479.005279,
-							["friendlyfire"] = {
-								["Chromie"] = {
-									["total"] = 45780,
-									["spells"] = {
-										[247684] = 45780,
-									},
-								},
-							},
 							["damage_taken"] = 45780.005279,
+							["on_hold"] = false,
 							["nome"] = "Chromie",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4789,7 +4782,14 @@ _detalhes_database = {
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["on_hold"] = false,
+							["friendlyfire"] = {
+								["Chromie"] = {
+									["total"] = 45780,
+									["spells"] = {
+										[247684] = 45780,
+									},
+								},
+							},
 							["start_time"] = 1532617087,
 							["serial"] = "Creature-0-3779-1756-14533-122663-000059E13C",
 							["friendlyfire_total"] = 45780,
@@ -4884,15 +4884,15 @@ _detalhes_database = {
 							["totalover_without_pet"] = 0.004448,
 							["targets_overheal"] = {
 							},
-							["healing_taken"] = 33203.004448,
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 0.004448,
 							["total_without_pet"] = 14612.004448,
 							["iniciar_hps"] = false,
 							["totaldenied"] = 0.004448,
 							["fight_component"] = true,
 							["end_time"] = 1532617138,
-							["heal_enemy_amt"] = 0,
 							["classe"] = "MAGE",
+							["healing_taken"] = 33203.004448,
 							["nome"] = "Chromie",
 							["targets_absorbs"] = {
 							},
@@ -5501,17 +5501,17 @@ _detalhes_database = {
 							["flag_original"] = 4369,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Spirit Beast <Laurannah>",
-							["classe"] = "PET",
+							["last_event"] = 0,
 							["spell_cast"] = {
-								[90328] = 1,
-								[2649] = 6,
-								[90361] = 1,
 								[16827] = 12,
+								[90328] = 1,
+								[90361] = 1,
+								[2649] = 6,
 							},
 							["pets"] = {
 							},
+							["classe"] = "PET",
 							["tipo"] = 4,
-							["last_event"] = 0,
 							["serial"] = "Pet-0-3779-1756-14533-103326-020286D36D",
 							["fight_component"] = true,
 						}, -- [3]
@@ -5521,11 +5521,11 @@ _detalhes_database = {
 							["nome"] = "Beast <Laurannah>",
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["tipo"] = 4,
 							["spell_cast"] = {
 								[120694] = 2,
 							},
+							["tipo"] = 4,
+							["classe"] = "PET",
 							["serial"] = "Creature-0-3779-1756-14533-62005-000059E17F",
 							["last_event"] = 0,
 						}, -- [4]
@@ -6308,15 +6308,15 @@ _detalhes_database = {
 								["Chromie"] = true,
 								["Spirit Beast <Laurannah>"] = true,
 							},
-							["healing_taken"] = 30231.002288,
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 0.002288,
 							["total_without_pet"] = 11445.002288,
 							["totalover_without_pet"] = 0.002288,
 							["totaldenied"] = 0.002288,
 							["fight_component"] = true,
 							["end_time"] = 1532616851,
-							["heal_enemy_amt"] = 0,
 							["classe"] = "MAGE",
+							["healing_taken"] = 30231.002288,
 							["nome"] = "Chromie",
 							["targets_absorbs"] = {
 							},
@@ -6385,15 +6385,15 @@ _detalhes_database = {
 								["Laurannah"] = true,
 								["Chromie"] = true,
 							},
-							["healing_taken"] = 1132.008731,
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 0.008731,
 							["total_without_pet"] = 24849.008731,
 							["totalover_without_pet"] = 0.008731,
 							["totaldenied"] = 0.008731,
 							["fight_component"] = true,
 							["end_time"] = 1532616851,
-							["heal_enemy_amt"] = 0,
 							["classe"] = "HUNTER",
+							["healing_taken"] = 1132.008731,
 							["nome"] = "Laurannah",
 							["targets_absorbs"] = {
 							},
@@ -6957,17 +6957,17 @@ _detalhes_database = {
 							["flag_original"] = 4369,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Spirit Beast <Laurannah>",
-							["classe"] = "PET",
+							["last_event"] = 0,
 							["spell_cast"] = {
-								[90328] = 1,
-								[2649] = 5,
-								[90361] = 1,
 								[16827] = 10,
+								[90328] = 1,
+								[90361] = 1,
+								[2649] = 5,
 							},
 							["pets"] = {
 							},
+							["classe"] = "PET",
 							["tipo"] = 4,
-							["last_event"] = 0,
 							["serial"] = "Pet-0-4218-1756-11469-103326-020286D36D",
 							["fight_component"] = true,
 						}, -- [3]
@@ -6977,11 +6977,11 @@ _detalhes_database = {
 							["nome"] = "Beast <Laurannah>",
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["tipo"] = 4,
 							["spell_cast"] = {
 								[120694] = 2,
 							},
+							["tipo"] = 4,
+							["classe"] = "PET",
 							["serial"] = "Creature-0-4218-1756-11469-62005-000059E06D",
 							["last_event"] = 0,
 						}, -- [4]
@@ -7662,15 +7662,15 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Chromie"] = true,
 							},
-							["healing_taken"] = 3571.007407,
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 56.007407,
 							["total_without_pet"] = 8200.007407,
 							["totalover_without_pet"] = 0.007407,
 							["totaldenied"] = 0.007407,
 							["fight_component"] = true,
 							["end_time"] = 1532616784,
-							["heal_enemy_amt"] = 0,
 							["classe"] = "MAGE",
+							["healing_taken"] = 3571.007407,
 							["nome"] = "Chromie",
 							["targets_absorbs"] = {
 							},
@@ -7742,15 +7742,15 @@ _detalhes_database = {
 								["Chromie"] = true,
 								["Laurannah"] = true,
 							},
-							["healing_taken"] = 3249.003119,
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 0.003119,
 							["total_without_pet"] = 10816.003119,
 							["totalover_without_pet"] = 0.003119,
 							["totaldenied"] = 0.003119,
 							["fight_component"] = true,
 							["end_time"] = 1532616784,
-							["heal_enemy_amt"] = 0,
 							["classe"] = "HUNTER",
+							["healing_taken"] = 3249.003119,
 							["nome"] = "Laurannah",
 							["targets_absorbs"] = {
 							},
@@ -8302,14 +8302,14 @@ _detalhes_database = {
 							["flag_original"] = 8465,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Beast <Laurannah>",
-							["classe"] = "PET",
+							["last_event"] = 0,
 							["spell_cast"] = {
 								[120694] = 1,
 							},
 							["pets"] = {
 							},
+							["classe"] = "PET",
 							["tipo"] = 4,
-							["last_event"] = 0,
 							["serial"] = "Creature-0-4218-1756-11469-62005-000059E040",
 							["fight_component"] = true,
 						}, -- [3]
@@ -8317,7 +8317,7 @@ _detalhes_database = {
 							["flag_original"] = 4369,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Spirit Beast <Laurannah>",
-							["classe"] = "PET",
+							["last_event"] = 0,
 							["spell_cast"] = {
 								[2649] = 2,
 								[16827] = 5,
@@ -8325,8 +8325,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["classe"] = "PET",
 							["tipo"] = 4,
-							["last_event"] = 0,
 							["serial"] = "Pet-0-4218-1756-11469-103326-020286D36D",
 							["fight_component"] = true,
 						}, -- [4]
@@ -8967,15 +8967,15 @@ _detalhes_database = {
 								["Laurannah"] = true,
 								["Chromie"] = true,
 							},
-							["healing_taken"] = 5076.002485,
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 0.002485,
 							["total_without_pet"] = 1877.002485,
 							["totalover_without_pet"] = 0.002485,
 							["totaldenied"] = 0.002485,
 							["fight_component"] = true,
 							["end_time"] = 1532616731,
-							["heal_enemy_amt"] = 0,
 							["classe"] = "HUNTER",
+							["healing_taken"] = 5076.002485,
 							["nome"] = "Laurannah",
 							["targets_absorbs"] = {
 							},
@@ -9041,15 +9041,15 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Chromie"] = true,
 							},
-							["healing_taken"] = 6550.007892,
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 456.007892,
 							["total_without_pet"] = 13444.007892,
 							["totalover_without_pet"] = 0.007892,
 							["totaldenied"] = 0.007892,
 							["fight_component"] = true,
 							["end_time"] = 1532616731,
-							["heal_enemy_amt"] = 0,
 							["classe"] = "MAGE",
+							["healing_taken"] = 6550.007892,
 							["nome"] = "Chromie",
 							["targets_absorbs"] = {
 							},
@@ -9541,15 +9541,15 @@ _detalhes_database = {
 							["flag_original"] = 4369,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Spirit Beast <Laurannah>",
-							["classe"] = "PET",
+							["last_event"] = 0,
 							["spell_cast"] = {
 								[16827] = 8,
 								[2649] = 3,
 							},
 							["pets"] = {
 							},
+							["classe"] = "PET",
 							["tipo"] = 4,
-							["last_event"] = 0,
 							["serial"] = "Pet-0-4218-1756-11469-103326-020286D36D",
 							["fight_component"] = true,
 						}, -- [3]
@@ -9559,11 +9559,11 @@ _detalhes_database = {
 							["nome"] = "Beast <Laurannah>",
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["tipo"] = 4,
 							["spell_cast"] = {
 								[120694] = 1,
 							},
+							["tipo"] = 4,
+							["classe"] = "PET",
 							["serial"] = "Creature-0-4218-1756-11469-62005-000059E016",
 							["last_event"] = 0,
 						}, -- [4]
@@ -10223,15 +10223,15 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Chromie"] = true,
 							},
-							["healing_taken"] = 2382.001673,
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 26.001673,
 							["total_without_pet"] = 6305.001673,
 							["totalover_without_pet"] = 0.001673,
 							["totaldenied"] = 0.001673,
 							["fight_component"] = true,
 							["end_time"] = 1532616690,
-							["heal_enemy_amt"] = 0,
 							["classe"] = "MAGE",
+							["healing_taken"] = 2382.001673,
 							["nome"] = "Chromie",
 							["targets_absorbs"] = {
 							},
@@ -10304,15 +10304,15 @@ _detalhes_database = {
 								["Laurannah"] = true,
 								["Chromie"] = true,
 							},
-							["healing_taken"] = 3084.002486,
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 7.002486,
 							["total_without_pet"] = 3720.002486,
 							["totalover_without_pet"] = 0.002486,
 							["totaldenied"] = 0.002486,
 							["fight_component"] = true,
 							["end_time"] = 1532616690,
-							["heal_enemy_amt"] = 0,
 							["classe"] = "HUNTER",
+							["healing_taken"] = 3084.002486,
 							["nome"] = "Laurannah",
 							["targets_absorbs"] = {
 							},
@@ -10893,14 +10893,14 @@ _detalhes_database = {
 							["flag_original"] = 8465,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Beast <Laurannah>",
-							["classe"] = "PET",
+							["last_event"] = 0,
 							["spell_cast"] = {
 								[120694] = 1,
 							},
 							["pets"] = {
 							},
+							["classe"] = "PET",
 							["tipo"] = 4,
-							["last_event"] = 0,
 							["serial"] = "Creature-0-4218-1756-11469-62005-000059DFE6",
 							["fight_component"] = true,
 						}, -- [3]
@@ -10908,7 +10908,7 @@ _detalhes_database = {
 							["flag_original"] = 4369,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Spirit Beast <Laurannah>",
-							["classe"] = "PET",
+							["last_event"] = 0,
 							["spell_cast"] = {
 								[16827] = 4,
 								[2649] = 2,
@@ -10916,8 +10916,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["classe"] = "PET",
 							["tipo"] = 4,
-							["last_event"] = 0,
 							["serial"] = "Pet-0-4218-1756-11469-103326-020286D36D",
 							["fight_component"] = true,
 						}, -- [4]
@@ -11687,15 +11687,15 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Chromie"] = true,
 							},
-							["healing_taken"] = 1786.005239,
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 0.005239,
 							["total_without_pet"] = 4187.005239,
 							["totalover_without_pet"] = 0.005239,
 							["totaldenied"] = 0.005239,
 							["fight_component"] = true,
 							["end_time"] = 1532616667,
-							["heal_enemy_amt"] = 0,
 							["classe"] = "MAGE",
+							["healing_taken"] = 1786.005239,
 							["nome"] = "Chromie",
 							["targets_absorbs"] = {
 							},
@@ -12103,7 +12103,7 @@ _detalhes_database = {
 							["flag_original"] = 4369,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Spirit Beast <Laurannah>",
-							["classe"] = "PET",
+							["last_event"] = 0,
 							["spell_cast"] = {
 								[2649] = 1,
 								[16827] = 4,
@@ -12111,8 +12111,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["classe"] = "PET",
 							["tipo"] = 4,
-							["last_event"] = 0,
 							["serial"] = "Pet-0-4218-1756-11469-103326-020286D36D",
 							["fight_component"] = true,
 						}, -- [3]
@@ -12120,14 +12120,14 @@ _detalhes_database = {
 							["flag_original"] = 8465,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Beast <Laurannah>",
-							["classe"] = "PET",
+							["last_event"] = 0,
 							["spell_cast"] = {
 								[120694] = 1,
 							},
 							["pets"] = {
 							},
+							["classe"] = "PET",
 							["tipo"] = 4,
-							["last_event"] = 0,
 							["serial"] = "Creature-0-4218-1756-11469-62005-000059DFD2",
 							["fight_component"] = true,
 						}, -- [4]
@@ -12807,15 +12807,15 @@ _detalhes_database = {
 								["Laurannah"] = true,
 								["Chromie"] = true,
 							},
-							["healing_taken"] = 6247.005639,
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 119.005639,
 							["total_without_pet"] = 13540.005639,
 							["totalover_without_pet"] = 0.005639,
 							["totaldenied"] = 0.005639,
 							["fight_component"] = true,
 							["end_time"] = 1532616638,
-							["heal_enemy_amt"] = 0,
 							["classe"] = "HUNTER",
+							["healing_taken"] = 6247.005639,
 							["nome"] = "Laurannah",
 							["targets_absorbs"] = {
 							},
@@ -12907,15 +12907,15 @@ _detalhes_database = {
 							["iniciar_hps"] = false,
 							["healing_from"] = {
 							},
-							["healing_taken"] = 0.005946,
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 211.005946,
 							["total_without_pet"] = 9239.005946,
 							["totalover_without_pet"] = 0.005946,
 							["totaldenied"] = 0.005946,
 							["fight_component"] = true,
 							["end_time"] = 1532616638,
-							["heal_enemy_amt"] = 0,
 							["classe"] = "MAGE",
+							["healing_taken"] = 0.005946,
 							["nome"] = "Chromie",
 							["targets_absorbs"] = {
 							},
@@ -13478,17 +13478,17 @@ _detalhes_database = {
 							["flag_original"] = 4369,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Spirit Beast <Laurannah>",
-							["classe"] = "PET",
+							["last_event"] = 0,
 							["spell_cast"] = {
-								[90361] = 1,
-								[2649] = 4,
-								[16827] = 9,
 								[61684] = 1,
+								[90361] = 1,
+								[16827] = 9,
+								[2649] = 4,
 							},
 							["pets"] = {
 							},
+							["classe"] = "PET",
 							["tipo"] = 4,
-							["last_event"] = 0,
 							["serial"] = "Pet-0-4218-1756-11469-103326-020286D36D",
 							["fight_component"] = true,
 						}, -- [3]
@@ -13496,14 +13496,14 @@ _detalhes_database = {
 							["flag_original"] = 8465,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Beast <Laurannah>",
-							["classe"] = "PET",
+							["last_event"] = 0,
 							["spell_cast"] = {
 								[120694] = 2,
 							},
 							["pets"] = {
 							},
+							["classe"] = "PET",
 							["tipo"] = 4,
-							["last_event"] = 0,
 							["serial"] = "Creature-0-4218-1756-11469-62005-000059DFA4",
 							["fight_component"] = true,
 						}, -- [4]
@@ -14176,15 +14176,15 @@ _detalhes_database = {
 								["Laurannah"] = true,
 								["Chromie"] = true,
 							},
-							["healing_taken"] = 3559.006785,
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 1731.006785,
 							["total_without_pet"] = 18795.006785,
 							["totalover_without_pet"] = 0.006785,
 							["totaldenied"] = 0.006785,
 							["fight_component"] = true,
 							["end_time"] = 1532616593,
-							["heal_enemy_amt"] = 0,
 							["classe"] = "HUNTER",
+							["healing_taken"] = 3559.006785,
 							["nome"] = "Laurannah",
 							["targets_absorbs"] = {
 							},
@@ -14350,15 +14350,15 @@ _detalhes_database = {
 							["iniciar_hps"] = false,
 							["healing_from"] = {
 							},
-							["healing_taken"] = 0.00681,
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 71.00681,
 							["total_without_pet"] = 5717.00681,
 							["totalover_without_pet"] = 0.00681,
 							["totaldenied"] = 0.00681,
 							["fight_component"] = true,
 							["end_time"] = 1532616593,
-							["heal_enemy_amt"] = 0,
 							["classe"] = "MAGE",
+							["healing_taken"] = 0.00681,
 							["nome"] = "Chromie",
 							["targets_absorbs"] = {
 							},
@@ -14732,15 +14732,15 @@ _detalhes_database = {
 							["flag_original"] = 4369,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Spirit Beast <Laurannah>",
-							["classe"] = "PET",
+							["last_event"] = 0,
 							["spell_cast"] = {
 								[16827] = 7,
 								[2649] = 3,
 							},
 							["pets"] = {
 							},
+							["classe"] = "PET",
 							["tipo"] = 4,
-							["last_event"] = 0,
 							["serial"] = "Pet-0-4218-1756-11469-103326-020286D36D",
 							["fight_component"] = true,
 						}, -- [3]
@@ -14748,14 +14748,14 @@ _detalhes_database = {
 							["flag_original"] = 8465,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Beast <Laurannah>",
-							["classe"] = "PET",
+							["last_event"] = 0,
 							["spell_cast"] = {
 								[120694] = 1,
 							},
 							["pets"] = {
 							},
+							["classe"] = "PET",
 							["tipo"] = 4,
-							["last_event"] = 0,
 							["serial"] = "Creature-0-4218-1756-11469-62005-000059DF7F",
 							["fight_component"] = true,
 						}, -- [4]
@@ -15523,15 +15523,15 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Chromie"] = true,
 							},
-							["healing_taken"] = 814.00543,
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 377.00543,
 							["total_without_pet"] = 5860.00543,
 							["totalover_without_pet"] = 0.00543,
 							["totaldenied"] = 0.00543,
 							["fight_component"] = true,
 							["end_time"] = 1532616552,
-							["heal_enemy_amt"] = 0,
 							["classe"] = "MAGE",
+							["healing_taken"] = 814.00543,
 							["nome"] = "Chromie",
 							["targets_absorbs"] = {
 							},
@@ -15601,15 +15601,15 @@ _detalhes_database = {
 								["Chromie"] = true,
 								["Laurannah"] = true,
 							},
-							["healing_taken"] = 3992.006696,
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 4926.006696,
 							["total_without_pet"] = 794.006696,
 							["totalover_without_pet"] = 0.006696,
 							["totaldenied"] = 0.006696,
 							["fight_component"] = true,
 							["end_time"] = 1532616552,
-							["heal_enemy_amt"] = 0,
 							["classe"] = "HUNTER",
+							["healing_taken"] = 3992.006696,
 							["nome"] = "Laurannah",
 							["targets_absorbs"] = {
 							},
@@ -16082,11 +16082,11 @@ _detalhes_database = {
 							["nome"] = "Beast <Laurannah>",
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["tipo"] = 4,
 							["spell_cast"] = {
 								[120694] = 1,
 							},
+							["tipo"] = 4,
+							["classe"] = "PET",
 							["serial"] = "Creature-0-4218-1756-11469-62005-000059DF57",
 							["last_event"] = 0,
 						}, -- [3]
@@ -16094,7 +16094,7 @@ _detalhes_database = {
 							["flag_original"] = 4369,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Spirit Beast <Laurannah>",
-							["classe"] = "PET",
+							["last_event"] = 0,
 							["spell_cast"] = {
 								[2649] = 2,
 								[16827] = 5,
@@ -16102,8 +16102,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["classe"] = "PET",
 							["tipo"] = 4,
-							["last_event"] = 0,
 							["serial"] = "Pet-0-4218-1756-11469-103326-020286D36D",
 							["fight_component"] = true,
 						}, -- [4]
@@ -16247,6 +16247,35 @@ _detalhes_database = {
 							["nome"] = "Laurannah",
 							["spells"] = {
 								["_ActorTable"] = {
+									[217200] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 160,
+										["targets"] = {
+											["Smoldering Skeleton"] = 320,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 320,
+										["n_min"] = 160,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 320,
+										["c_max"] = 0,
+										["id"] = 217200,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
 									[193455] = {
 										["c_amt"] = 1,
 										["b_amt"] = 0,
@@ -16273,36 +16302,6 @@ _detalhes_database = {
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
-									},
-									[2643] = {
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 1343,
-										["g_amt"] = 0,
-										["n_max"] = 168,
-										["targets"] = {
-											["Smoldering Geist"] = 1847,
-											["Smoldering Skeleton"] = 671,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1175,
-										["n_min"] = 167,
-										["g_dmg"] = 0,
-										["counter"] = 11,
-										["total"] = 2518,
-										["c_max"] = 336,
-										["id"] = 2643,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 335,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 7,
 										["a_dmg"] = 0,
 										["spellschool"] = 1,
 									},
@@ -16336,32 +16335,33 @@ _detalhes_database = {
 										["a_dmg"] = 0,
 										["spellschool"] = 1,
 									},
-									[217200] = {
-										["c_amt"] = 0,
+									[2643] = {
+										["c_amt"] = 4,
 										["b_amt"] = 0,
-										["c_dmg"] = 0,
+										["c_dmg"] = 1343,
 										["g_amt"] = 0,
-										["n_max"] = 160,
+										["n_max"] = 168,
 										["targets"] = {
-											["Smoldering Skeleton"] = 320,
+											["Smoldering Geist"] = 1847,
+											["Smoldering Skeleton"] = 671,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 320,
-										["n_min"] = 160,
+										["n_dmg"] = 1175,
+										["n_min"] = 167,
 										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 320,
-										["c_max"] = 0,
-										["id"] = 217200,
+										["counter"] = 11,
+										["total"] = 2518,
+										["c_max"] = 336,
+										["id"] = 2643,
 										["r_dmg"] = 0,
 										["r_amt"] = 0,
 										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
+										["c_min"] = 335,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 2,
+										["n_amt"] = 7,
 										["a_dmg"] = 0,
 										["spellschool"] = 1,
 									},
@@ -16702,15 +16702,15 @@ _detalhes_database = {
 								["Laurannah"] = true,
 								["Chromie"] = true,
 							},
-							["healing_taken"] = 3082.005676,
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 2463.005676,
 							["total_without_pet"] = 7899.005676,
 							["totalover_without_pet"] = 0.005676,
 							["totaldenied"] = 0.005676,
 							["fight_component"] = true,
 							["end_time"] = 1532616522,
-							["heal_enemy_amt"] = 0,
 							["classe"] = "HUNTER",
+							["healing_taken"] = 3082.005676,
 							["nome"] = "Laurannah",
 							["targets_absorbs"] = {
 							},
@@ -16877,15 +16877,15 @@ _detalhes_database = {
 							["iniciar_hps"] = false,
 							["healing_from"] = {
 							},
-							["healing_taken"] = 0.004978,
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 252.004978,
 							["total_without_pet"] = 4611.004978,
 							["totalover_without_pet"] = 0.004978,
 							["totaldenied"] = 0.004978,
 							["fight_component"] = true,
 							["end_time"] = 1532616522,
-							["heal_enemy_amt"] = 0,
 							["classe"] = "MAGE",
+							["healing_taken"] = 0.004978,
 							["nome"] = "Chromie",
 							["targets_absorbs"] = {
 							},
@@ -17307,7 +17307,7 @@ _detalhes_database = {
 							["flag_original"] = 4369,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Spirit Beast <Laurannah>",
-							["classe"] = "PET",
+							["last_event"] = 0,
 							["spell_cast"] = {
 								[2649] = 3,
 								[16827] = 5,
@@ -17315,8 +17315,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["classe"] = "PET",
 							["tipo"] = 4,
-							["last_event"] = 0,
 							["serial"] = "Pet-0-4218-1756-11469-103326-020286D36D",
 							["fight_component"] = true,
 						}, -- [3]
@@ -17324,14 +17324,14 @@ _detalhes_database = {
 							["flag_original"] = 8465,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Beast <Laurannah>",
-							["classe"] = "PET",
+							["last_event"] = 0,
 							["spell_cast"] = {
 								[120694] = 1,
 							},
 							["pets"] = {
 							},
+							["classe"] = "PET",
 							["tipo"] = 4,
-							["last_event"] = 0,
 							["serial"] = "Creature-0-4218-1756-11469-62005-000059DF41",
 							["fight_component"] = true,
 						}, -- [4]
@@ -17979,15 +17979,15 @@ _detalhes_database = {
 							["iniciar_hps"] = false,
 							["healing_from"] = {
 							},
-							["healing_taken"] = 0.008129,
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 142.008129,
 							["total_without_pet"] = 2432.008129,
 							["totalover_without_pet"] = 0.008129,
 							["totaldenied"] = 0.008129,
 							["fight_component"] = true,
 							["end_time"] = 1532616496,
-							["heal_enemy_amt"] = 0,
 							["classe"] = "MAGE",
+							["healing_taken"] = 0.008129,
 							["nome"] = "Chromie",
 							["targets_absorbs"] = {
 							},
@@ -18059,15 +18059,15 @@ _detalhes_database = {
 								["Chromie"] = true,
 								["Laurannah"] = true,
 							},
-							["healing_taken"] = 963.001792,
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 0.001792,
 							["total_without_pet"] = 2560.001792,
 							["totalover_without_pet"] = 0.001792,
 							["totaldenied"] = 0.001792,
 							["fight_component"] = true,
 							["end_time"] = 1532616496,
-							["heal_enemy_amt"] = 0,
 							["classe"] = "HUNTER",
+							["healing_taken"] = 963.001792,
 							["nome"] = "Laurannah",
 							["targets_absorbs"] = {
 							},
@@ -18613,17 +18613,17 @@ _detalhes_database = {
 							["flag_original"] = 4369,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Spirit Beast <Laurannah>",
-							["classe"] = "PET",
+							["last_event"] = 0,
 							["spell_cast"] = {
-								[90328] = 1,
-								[16827] = 3,
-								[2649] = 1,
 								[61684] = 1,
+								[90328] = 1,
+								[2649] = 1,
+								[16827] = 3,
 							},
 							["pets"] = {
 							},
+							["classe"] = "PET",
 							["tipo"] = 4,
-							["last_event"] = 0,
 							["serial"] = "Pet-0-4218-1756-11469-103326-020286D36D",
 							["fight_component"] = true,
 						}, -- [3]
@@ -18631,14 +18631,14 @@ _detalhes_database = {
 							["flag_original"] = 8465,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Beast <Laurannah>",
-							["classe"] = "PET",
+							["last_event"] = 0,
 							["spell_cast"] = {
 								[120694] = 1,
 							},
 							["pets"] = {
 							},
+							["classe"] = "PET",
 							["tipo"] = 4,
-							["last_event"] = 0,
 							["serial"] = "Creature-0-4218-1756-11469-62005-000059DF27",
 							["fight_component"] = true,
 						}, -- [4]
@@ -19301,15 +19301,15 @@ _detalhes_database = {
 								["Laurannah"] = true,
 								["Chromie"] = true,
 							},
-							["healing_taken"] = 4282.004893,
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 0.004893,
 							["total_without_pet"] = 13404.004893,
 							["totalover_without_pet"] = 0.004893,
 							["totaldenied"] = 0.004893,
 							["fight_component"] = true,
 							["end_time"] = 1532616473,
-							["heal_enemy_amt"] = 0,
 							["classe"] = "HUNTER",
+							["healing_taken"] = 4282.004893,
 							["nome"] = "Laurannah",
 							["targets_absorbs"] = {
 							},
@@ -19403,15 +19403,15 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Chromie"] = true,
 							},
-							["healing_taken"] = 4170.008618,
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 96.008618,
 							["total_without_pet"] = 10037.008618,
 							["totalover_without_pet"] = 0.008618,
 							["totaldenied"] = 0.008618,
 							["fight_component"] = true,
 							["end_time"] = 1532616473,
-							["heal_enemy_amt"] = 0,
 							["classe"] = "MAGE",
+							["healing_taken"] = 4170.008618,
 							["nome"] = "Chromie",
 							["targets_absorbs"] = {
 							},
@@ -19989,17 +19989,17 @@ _detalhes_database = {
 							["flag_original"] = 4369,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Spirit Beast <Laurannah>",
-							["classe"] = "PET",
+							["last_event"] = 0,
 							["spell_cast"] = {
-								[90361] = 1,
-								[2649] = 3,
-								[61684] = 1,
 								[16827] = 6,
+								[90361] = 1,
+								[61684] = 1,
+								[2649] = 3,
 							},
 							["pets"] = {
 							},
+							["classe"] = "PET",
 							["tipo"] = 4,
-							["last_event"] = 0,
 							["serial"] = "Pet-0-4218-1756-11469-103326-020286D36D",
 							["fight_component"] = true,
 						}, -- [3]
@@ -20007,14 +20007,14 @@ _detalhes_database = {
 							["flag_original"] = 8465,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Beast <Laurannah>",
-							["classe"] = "PET",
+							["last_event"] = 0,
 							["spell_cast"] = {
 								[120694] = 1,
 							},
 							["pets"] = {
 							},
+							["classe"] = "PET",
 							["tipo"] = 4,
-							["last_event"] = 0,
 							["serial"] = "Creature-0-4218-1756-11469-62005-000059DF0D",
 							["fight_component"] = true,
 						}, -- [4]
@@ -20662,15 +20662,15 @@ _detalhes_database = {
 								["Laurannah"] = true,
 								["Chromie"] = true,
 							},
-							["healing_taken"] = 2145.001884,
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 4174.001884,
 							["total_without_pet"] = 20986.001884,
 							["totalover_without_pet"] = 0.001884,
 							["totaldenied"] = 0.001884,
 							["fight_component"] = true,
 							["end_time"] = 1532616299,
-							["heal_enemy_amt"] = 0,
 							["classe"] = "HUNTER",
+							["healing_taken"] = 2145.001884,
 							["nome"] = "Laurannah",
 							["targets_absorbs"] = {
 							},
@@ -20839,15 +20839,15 @@ _detalhes_database = {
 							["healing_from"] = {
 								["Chromie"] = true,
 							},
-							["healing_taken"] = 3083.003068,
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 697.003068,
 							["total_without_pet"] = 9596.003068,
 							["totalover_without_pet"] = 0.003068,
 							["totaldenied"] = 0.003068,
 							["fight_component"] = true,
 							["end_time"] = 1532616299,
-							["heal_enemy_amt"] = 0,
 							["classe"] = "MAGE",
+							["healing_taken"] = 3083.003068,
 							["nome"] = "Chromie",
 							["targets_absorbs"] = {
 							},
@@ -21360,17 +21360,17 @@ _detalhes_database = {
 							["flag_original"] = 4369,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Spirit Beast <Laurannah>",
-							["classe"] = "PET",
+							["last_event"] = 0,
 							["spell_cast"] = {
-								[90328] = 1,
-								[2649] = 5,
-								[61684] = 1,
 								[16827] = 11,
+								[90328] = 1,
+								[61684] = 1,
+								[2649] = 5,
 							},
 							["pets"] = {
 							},
+							["classe"] = "PET",
 							["tipo"] = 4,
-							["last_event"] = 0,
 							["serial"] = "Pet-0-4220-1756-15712-103326-090286D36D",
 							["fight_component"] = true,
 						}, -- [3]
@@ -21378,14 +21378,14 @@ _detalhes_database = {
 							["flag_original"] = 8465,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Beast <Laurannah>",
-							["classe"] = "PET",
+							["last_event"] = 0,
 							["spell_cast"] = {
 								[120694] = 2,
 							},
 							["pets"] = {
 							},
+							["classe"] = "PET",
 							["tipo"] = 4,
-							["last_event"] = 0,
 							["serial"] = "Creature-0-4220-1756-15712-62005-000059DE4A",
 							["fight_component"] = true,
 						}, -- [4]
@@ -21638,7 +21638,7 @@ _detalhes_database = {
 	},
 	["last_instance_time"] = 1532458002,
 	["active_profile"] = "Laurannah-Kel'Thuzad",
-	["last_day"] = "29",
+	["last_day"] = "30",
 	["benchmark_db"] = {
 		["frame"] = {
 		},
@@ -21758,7 +21758,12 @@ _detalhes_database = {
 			["point"] = "CENTER",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["main_frame_strata"] = "LOW",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -21766,12 +21771,9 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["author"] = "Details! Team",
+			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["font_size"] = 10,
-			["use_spark"] = true,
-			["x"] = 0,
-			["font_face"] = "Friz Quadrata TT",
+			["y"] = -4.577636718750e-005,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -21783,25 +21785,23 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
-			["y"] = -4.577636718750e-005,
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["x"] = 0,
+			["font_face"] = "Friz Quadrata TT",
+			["use_spark"] = true,
+			["font_size"] = 10,
+			["author"] = "Details! Team",
 			["main_frame_locked"] = false,
 			["arrow_anchor_y"] = 0,
 		},
-	},
-	["last_realversion"] = 132,
-	["character_data"] = {
-		["logons"] = 212,
 	},
 	["announce_prepots"] = {
 		["enabled"] = true,
 		["reverse"] = false,
 		["channel"] = "SELF",
+	},
+	["last_realversion"] = 132,
+	["character_data"] = {
+		["logons"] = 216,
 	},
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "",
@@ -21820,7 +21820,7 @@ _detalhes_database = {
 	},
 	["cached_talents"] = {
 	},
-	["combat_counter"] = 6739,
+	["combat_counter"] = 6743,
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -21942,9 +21942,9 @@ _detalhes_database = {
 									["Training Dummy"] = 0,
 									["Zorathides"] = 0,
 									["Smoldering Construct"] = 0,
+									["Charredbone Goliath"] = 0,
 									["Talar Icechill"] = 0,
 									["Darkstone Basilisk"] = 0,
-									["Charredbone Goliath"] = 0,
 									["Raider's Training Dummy"] = 0,
 									["Annihilan Fanatic"] = 0,
 								},
@@ -22257,15 +22257,8 @@ _detalhes_database = {
 					["serial"] = "Creature-0-3779-1756-14533-122663-000059E13C",
 					["dps_started"] = false,
 					["end_time"] = 1532619320,
-					["on_hold"] = false,
-					["friendlyfire"] = {
-						["Chromie"] = {
-							["spells"] = {
-								[247684] = 0,
-							},
-							["total"] = 0,
-						},
-					},
+					["last_dps"] = 0,
+					["damage_taken"] = 0.00828,
 					["nome"] = "Chromie",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -22375,10 +22368,17 @@ _detalhes_database = {
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 0.00828,
+					["friendlyfire"] = {
+						["Chromie"] = {
+							["spells"] = {
+								[247684] = 0,
+							},
+							["total"] = 0,
+						},
+					},
 					["start_time"] = 1532619317,
 					["delay"] = 0,
-					["last_dps"] = 0,
+					["on_hold"] = false,
 				}, -- [2]
 			},
 		}, -- [1]
@@ -22406,15 +22406,15 @@ _detalhes_database = {
 					["iniciar_hps"] = false,
 					["healing_from"] = {
 					},
-					["healing_taken"] = 0.002346,
+					["classe"] = "HUNTER",
 					["totalover"] = 0.002346,
 					["total_without_pet"] = 0.002346,
 					["totalover_without_pet"] = 0.002346,
 					["start_time"] = 1532533466,
 					["fight_component"] = true,
 					["end_time"] = 1532533469,
-					["classe"] = "HUNTER",
 					["heal_enemy_amt"] = 0,
+					["healing_taken"] = 0.002346,
 					["nome"] = "Laurannah",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -22568,15 +22568,15 @@ _detalhes_database = {
 					["totalover_without_pet"] = 0.003081,
 					["healing_from"] = {
 					},
-					["healing_taken"] = 0.003081,
+					["classe"] = "MAGE",
 					["totalover"] = 0.003081,
 					["total_without_pet"] = 0.003081,
 					["iniciar_hps"] = false,
 					["start_time"] = 1532619317,
 					["fight_component"] = true,
 					["total"] = 0.003081,
-					["classe"] = "MAGE",
 					["heal_enemy_amt"] = 0,
+					["healing_taken"] = 0.003081,
 					["nome"] = "Chromie",
 					["targets_absorbs"] = {
 					},
@@ -22665,7 +22665,7 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1297,
-					["resource"] = 54.65732,
+					["resource"] = 78.926596,
 					["targets"] = {
 						["Laurannah"] = 0,
 						["Spirit Beast <Laurannah>"] = 0,
@@ -23061,11 +23061,11 @@ _detalhes_database = {
 		},
 		["combat_counter"] = 6639,
 		["totals"] = {
-			-0.087674, -- [1]
+			-0.099903, -- [1]
 			0, -- [2]
 			{
 				0, -- [1]
-				[0] = -0.003312,
+				[0] = -0.008576,
 				["alternatepower"] = 0,
 				[6] = 0,
 				[3] = 0,

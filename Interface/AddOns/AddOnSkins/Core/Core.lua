@@ -172,11 +172,15 @@ function AS:CallSkin(skin, func, event, ...)
 	else
 		local pass = pcall(func, self, event, ...)
 		if not pass then
+			local String = AS:CheckAddOn(skin) and format('%s %s', skin, GetAddOnMetadata(skin, 'Version')) or skin
 			AddOnSkinsDS[AS.Version] = AddOnSkinsDS[AS.Version] or {}
 			AddOnSkinsDS[AS.Version][skin] = true
 			AS:SetOption(skin, false)
-			tinsert(SkinErrors, skin)
+			tinsert(SkinErrors, String)
 			AS.FoundError = true
+			if AS.RunOnce then
+				AS:Print(format('%s: There was an error in the following skin: %s', AS.Version, String))
+			end
 		end
 	end
 end
@@ -240,6 +244,8 @@ function AS:StartSkinning(event)
 		AS:Print(format('%s: There was an error in the following skin(s): %s', AS.Version, table.concat(SkinErrors, ", ")))
 		AS:Print(format('Please report this to Azilroka immediately @ %s', AS:PrintURL(AS.TicketTracker)))
 	end
+
+	AS.RunOnce = true
 end
 
 function AS:BuildProfile()

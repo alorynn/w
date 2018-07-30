@@ -45,7 +45,7 @@ ElvUI_Config: enabled
 ElvUI: enabled
 AutoLootPlus: enabled
 Clique: enabled
-ConsLegion: enabled
+ConsLegion: disabled
 Details: enabled
 Details_DmgRank: enabled
 Details_DpsTuning: enabled
