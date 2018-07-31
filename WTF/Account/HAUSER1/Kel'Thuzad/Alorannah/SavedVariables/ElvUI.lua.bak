@@ -3,29 +3,31 @@ ElvCharacterDB = {
 	["ChatEditHistory"] = {
 		"/mogit", -- [1]
 		"/1 is there a mailbox here?", -- [2]
+		"/2 hey I'm trying to meet a friend in durotar? is there an easy way to get there from orgrimmar?", -- [3]
+		"/tar rav", -- [4]
 	},
-	["ChatLog"] = {
-		["1486150141.769"] = {
-			"is there a mailbox here?", -- [1]
+	["ChatHistoryLog"] = {
+		{
+			"hey I'm trying to meet a friend in durotar? is there an easy way to get there from orgrimmar?", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
 			"", -- [3]
-			"1. General - Plaguelands: The Scarlet Enclave", -- [4]
+			"2. Trade - City", -- [4]
 			"Alorannah", -- [5]
 			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Plaguelands: The Scarlet Enclave", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1982, -- [11]
-			"Player-3693-09253F79", -- [12]
+			196, -- [11]
+			"Player-3693-092C3BBC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			nil, -- [18]
-			nil, -- [19]
-			"CHAT_MSG_CHANNEL", -- [20]
-		},
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1533064028,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [1]
 	},
 }

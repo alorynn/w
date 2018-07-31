@@ -1,6 +1,7 @@
 
 AddOnSkinsDB = {
 	["profileKeys"] = {
+		["Fooliolio - Kel'Thuzad"] = "Fooliolio - Kel'Thuzad",
 		["Hoobastankie - Kel'Thuzad"] = "Default",
 		["Hauzerina - Moon Guard"] = "Hauzerina - Moon Guard",
 		["Hauzerone - Dalaran"] = "Default",
@@ -28,6 +29,8 @@ AddOnSkinsDB = {
 		["Leeroyjenkem - Kel'Thuzad"] = "Default",
 	},
 	["profiles"] = {
+		["Fooliolio - Kel'Thuzad"] = {
+		},
 		["Hauzerdemon - Kel'Thuzad"] = {
 			["Blizzard_WorldStateCaptureBar"] = false,
 			["Blizzard_AbilityButton"] = false,

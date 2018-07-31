@@ -13,6 +13,7 @@ MacroToolkitDB = {
 		},
 	},
 	["profileKeys"] = {
+		["Fooliolio - Kel'Thuzad"] = "profile",
 		["Kmkarbashian - Kel'Thuzad"] = "profile",
 		["Hauzerina - Kel'Thuzad"] = "profile",
 		["Hauzerina - Moon Guard"] = "profile",

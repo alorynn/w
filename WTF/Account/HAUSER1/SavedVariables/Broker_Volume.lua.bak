@@ -1,6 +1,7 @@
 
 BrokerVolumeDB = {
 	["profileKeys"] = {
+		["Fooliolio - Kel'Thuzad"] = "Fooliolio - Kel'Thuzad",
 		["Hoobastankie - Kel'Thuzad"] = "Hoobastankie - Kel'Thuzad",
 		["Hauzerina - Moon Guard"] = "Hauzerina - Moon Guard",
 		["Leeroyjenkem - Kel'Thuzad"] = "Leeroyjenkem - Kel'Thuzad",
@@ -32,6 +33,8 @@ BrokerVolumeDB = {
 		["Hauser - Mal'Ganis"] = "Hauser - Mal'Ganis",
 	},
 	["profiles"] = {
+		["Fooliolio - Kel'Thuzad"] = {
+		},
 		["Hoobastankie - Kel'Thuzad"] = {
 		},
 		["Hauzerina - Moon Guard"] = {

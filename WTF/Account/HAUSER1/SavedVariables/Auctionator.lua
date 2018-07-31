@@ -11,59 +11,97 @@ AUCTIONATOR_SAVEDVARS = {
 	["_5000000"] = 10000,
 }
 AUCTIONATOR_PRICING_HISTORY = {
+	["Leylight Shard"] = {
+		["is"] = "124441:0:0:0:0",
+		["5257034"] = "179000:1",
+	},
+	["Greater Eternal Essence"] = {
+		["is"] = "16203:0:0:0:0",
+		["5257037"] = "18200:3",
+	},
+	["Dreamleaf"] = {
+		["5257034"] = "59900:200",
+		["5257035"] = "59900:180",
+		["is"] = "124102:0:0:0:0",
+	},
+	["Astral Glory"] = {
+		["is"] = "151565:0:0:0:0",
+		["5257044"] = "648000:130",
+	},
+	["Large Brilliant Shard"] = {
+		["is"] = "14344:0:0:0:0",
+		["5257037"] = "6600:2",
+	},
+	["Chaos Crystal"] = {
+		["is"] = "124442:0:0:0:0",
+		["5257037"] = "302000:68",
+	},
+	["Lightweave Cloth"] = {
+		["is"] = "151567:0:0:0:0",
+		["5257034"] = "9700:16",
+	},
+	["Defiled Augment Rune"] = {
+		["is"] = "140587:0:0:0:0",
+		["5257034"] = "181000:1",
+	},
+	["Arkhana"] = {
+		["is"] = "124440:0:0:0:0",
+		["5257038"] = "77000:8",
+	},
 }
 AUCTIONATOR_SHOPPING_LISTS = {
 	{
 		["items"] = {
-			"Glorious", -- [1]
-			"Glorious legplates", -- [2]
-			"silkweave bandage", -- [3]
-			"Ancient healing", -- [4]
-			"healing", -- [5]
-			"Goldfish", -- [6]
-			"stormscale", -- [7]
-			"cobalt bar", -- [8]
-			"king's amber", -- [9]
-			"titansteel bar", -- [10]
-			"windwool clo", -- [11]
-			"Ghost iron", -- [12]
-			"silver con", -- [13]
-			"silver bar", -- [14]
-			"Iron bar", -- [15]
-			"medium leather", -- [16]
-			"wool cloth", -- [17]
-			"bronze bar", -- [18]
-			"heavy stone", -- [19]
-			"silk cloth", -- [20]
-			"true iron ore", -- [21]
-			"blackrock ore", -- [22]
-			"bandage", -- [23]
-			"health pot", -- [24]
-			"bag", -- [25]
-			"Arkhana", -- [26]
-			"leylight", -- [27]
-			"firework", -- [28]
-			"Auto-hammer", -- [29]
-			"leystone ore", -- [30]
-			"highmountain salmon", -- [31]
-			"big gamy", -- [32]
-			"black barracuda", -- [33]
-			"wildfowl egg", -- [34]
-			"felslate", -- [35]
-			"Ancient mana", -- [36]
-			"enormous", -- [37]
-			"sorcerous earth", -- [38]
-			"temporal crystal", -- [39]
-			"bait", -- [40]
-			"breath of", -- [41]
-			"mark of ", -- [42]
-			"luminous shard", -- [43]
-			"Draenic dust", -- [44]
-			"Arcane powder", -- [45]
-			"mote of earth", -- [46]
-			"mote of fire", -- [47]
-			"primal earth", -- [48]
-			"Iron ore", -- [49]
+			"Astral glory", -- [1]
+			"fiendish leather", -- [2]
+			"lightweave cloth", -- [3]
+			"Glorious", -- [4]
+			"Glorious legplates", -- [5]
+			"silkweave bandage", -- [6]
+			"Ancient healing", -- [7]
+			"healing", -- [8]
+			"Goldfish", -- [9]
+			"stormscale", -- [10]
+			"cobalt bar", -- [11]
+			"king's amber", -- [12]
+			"titansteel bar", -- [13]
+			"windwool clo", -- [14]
+			"Ghost iron", -- [15]
+			"silver con", -- [16]
+			"silver bar", -- [17]
+			"Iron bar", -- [18]
+			"medium leather", -- [19]
+			"wool cloth", -- [20]
+			"bronze bar", -- [21]
+			"heavy stone", -- [22]
+			"silk cloth", -- [23]
+			"true iron ore", -- [24]
+			"blackrock ore", -- [25]
+			"bandage", -- [26]
+			"health pot", -- [27]
+			"bag", -- [28]
+			"Arkhana", -- [29]
+			"leylight", -- [30]
+			"firework", -- [31]
+			"Auto-hammer", -- [32]
+			"leystone ore", -- [33]
+			"highmountain salmon", -- [34]
+			"big gamy", -- [35]
+			"black barracuda", -- [36]
+			"wildfowl egg", -- [37]
+			"felslate", -- [38]
+			"Ancient mana", -- [39]
+			"enormous", -- [40]
+			"sorcerous earth", -- [41]
+			"temporal crystal", -- [42]
+			"bait", -- [43]
+			"breath of", -- [44]
+			"mark of ", -- [45]
+			"luminous shard", -- [46]
+			"Draenic dust", -- [47]
+			"Arcane powder", -- [48]
+			"mote of earth", -- [49]
+			"mote of fire", -- [50]
 		},
 		["isRecents"] = 1,
 		["name"] = "Recent Searches",
@@ -85,6 +123,86 @@ AUCTIONATOR_PRICE_DATABASE = {
 	["Kel'Thuzad_Horde"] = {
 	},
 	["Kel'Thuzad_Alliance"] = {
+		["Leylight Shard"] = {
+			["mr"] = 179487,
+			["cc"] = 7,
+			["id"] = "124441:0:0:0:0",
+			["H2814"] = 179487,
+			["sc"] = 12,
+		},
+		["Greater Eternal Essence"] = {
+			["mr"] = 18356,
+			["cc"] = 7,
+			["id"] = "16203:0:0:0:0",
+			["H2814"] = 18356,
+			["sc"] = 12,
+		},
+		["Fiendish Leather"] = {
+			["mr"] = 2100,
+			["cc"] = 7,
+			["id"] = "151566:0:0:0:0",
+			["H2814"] = 2100,
+			["sc"] = 6,
+		},
+		["Shal'dorei Silk"] = {
+			["mr"] = 19799,
+			["cc"] = 7,
+			["id"] = "124437:0:0:0:0",
+			["H2814"] = 19799,
+			["sc"] = 5,
+		},
+		["Astral Glory"] = {
+			["mr"] = 649440,
+			["cc"] = 7,
+			["id"] = "151565:0:0:0:0",
+			["H2814"] = 656000,
+			["sc"] = 9,
+			["L2814"] = 649440,
+		},
+		["Large Brilliant Shard"] = {
+			["mr"] = 6728,
+			["cc"] = 7,
+			["id"] = "14344:0:0:0:0",
+			["H2814"] = 6728,
+			["sc"] = 12,
+		},
+		["Chaos Crystal"] = {
+			["mr"] = 303000,
+			["cc"] = 7,
+			["id"] = "124442:0:0:0:0",
+			["H2814"] = 303000,
+			["sc"] = 12,
+		},
+		["Lightweave Cloth"] = {
+			["mr"] = 9700,
+			["cc"] = 7,
+			["id"] = "151567:0:0:0:0",
+			["H2814"] = 9800,
+			["sc"] = 5,
+			["L2814"] = 9700,
+		},
+		["Defiled Augment Rune"] = {
+			["mr"] = 181295,
+			["cc"] = 0,
+			["id"] = "140587:0:0:0:0",
+			["H2814"] = 181295,
+			["sc"] = 8,
+		},
+		["Dreamleaf"] = {
+			["mr"] = 59900,
+			["cc"] = 7,
+			["id"] = "124102:0:0:0:0",
+			["H2814"] = 64999,
+			["sc"] = 9,
+			["L2814"] = 59900,
+		},
+		["Arkhana"] = {
+			["mr"] = 77398,
+			["cc"] = 7,
+			["id"] = "124440:0:0:0:0",
+			["H2814"] = 77398,
+			["sc"] = 12,
+		},
 	},
 	["Moon Guard_Alliance"] = {
 	},
@@ -112,10 +230,15 @@ AUCTIONATOR_TOONS = {
 		["firstSeen"] = 1486560048,
 		["firstVersion"] = "4.0.16",
 	},
-	["Laurannah"] = {
-		["firstSeen"] = 1447788893,
-		["guid"] = "Player-3693-092AD332",
-		["firstVersion"] = "3.2.6",
+	["Pharrah"] = {
+		["firstSeen"] = 1486134858,
+		["firstVersion"] = "4.0.16",
+		["guid"] = "Player-3693-092AC55C",
+	},
+	["Fooliolio"] = {
+		["firstSeen"] = 1533064421,
+		["firstVersion"] = "5.0.4",
+		["guid"] = "Player-3693-09E8A972",
 	},
 	["Hauzerdemon"] = {
 		["firstSeen"] = 1478650187,
@@ -126,10 +249,9 @@ AUCTIONATOR_TOONS = {
 		["guid"] = "Player-3693-092AC29B",
 		["firstVersion"] = "4.0.16",
 	},
-	["Pharrah"] = {
-		["firstSeen"] = 1486134858,
+	["Darknstormie"] = {
+		["firstSeen"] = 1488646170,
 		["firstVersion"] = "4.0.16",
-		["guid"] = "Player-3693-092AC55C",
 	},
 	["Beatryss"] = {
 		["firstSeen"] = 1447789139,
@@ -163,9 +285,10 @@ AUCTIONATOR_TOONS = {
 		["guid"] = "Player-3693-092C3BBC",
 		["firstVersion"] = "4.0.16",
 	},
-	["Alurannah"] = {
-		["firstSeen"] = 1477057426,
-		["firstVersion"] = "4.0.13",
+	["Alisheeya"] = {
+		["firstSeen"] = 1484749076,
+		["firstVersion"] = "4.0.16",
+		["guid"] = "Player-3693-0924EEC0",
 	},
 	["Sdkfhsdkjfhs"] = {
 		["firstSeen"] = 1486405846,
@@ -181,11 +304,6 @@ AUCTIONATOR_TOONS = {
 		["firstSeen"] = 1485987189,
 		["firstVersion"] = "4.0.16",
 	},
-	["Alisheeya"] = {
-		["firstSeen"] = 1484749076,
-		["firstVersion"] = "4.0.16",
-		["guid"] = "Player-3693-0924EEC0",
-	},
 	["Hauzerina"] = {
 		["firstSeen"] = 1439570462,
 		["guid"] = "Player-3693-07E54548",
@@ -195,14 +313,18 @@ AUCTIONATOR_TOONS = {
 		["firstSeen"] = 1486133302,
 		["firstVersion"] = "4.0.16",
 	},
-	["Deeke"] = {
-		["firstSeen"] = 1486995657,
-		["firstVersion"] = "4.0.16",
-	},
 	["Beatryce"] = {
 		["firstSeen"] = 1448028708,
 		["guid"] = "Player-3693-0849596D",
 		["firstVersion"] = "3.2.6",
+	},
+	["Deeke"] = {
+		["firstSeen"] = 1486995657,
+		["firstVersion"] = "4.0.16",
+	},
+	["Alurannah"] = {
+		["firstSeen"] = 1477057426,
+		["firstVersion"] = "4.0.13",
 	},
 	["Bazoomercom"] = {
 		["firstSeen"] = 1476825560,
@@ -226,9 +348,10 @@ AUCTIONATOR_TOONS = {
 		["firstSeen"] = 1487270433,
 		["firstVersion"] = "4.0.16",
 	},
-	["Darknstormie"] = {
-		["firstSeen"] = 1488646170,
-		["firstVersion"] = "4.0.16",
+	["Laurannah"] = {
+		["firstSeen"] = 1447788893,
+		["guid"] = "Player-3693-092AD332",
+		["firstVersion"] = "3.2.6",
 	},
 }
 AUCTIONATOR_STACKING_PREFS = {
@@ -248,6 +371,10 @@ AUCTIONATOR_STACKING_PREFS = {
 		["numstacks"] = 0,
 		["stacksize"] = 1,
 	},
+	["dreamleaf"] = {
+		["numstacks"] = 0,
+		["stacksize"] = 200,
+	},
 	["void crystal"] = {
 		["numstacks"] = 0,
 		["stacksize"] = 1,
@@ -255,10 +382,6 @@ AUCTIONATOR_STACKING_PREFS = {
 	["awesomefish"] = {
 		["numstacks"] = 0,
 		["stacksize"] = 1,
-	},
-	["felwort"] = {
-		["stacksize"] = 1,
-		["numstacks"] = 0,
 	},
 	["titansteel bar"] = {
 		["numstacks"] = 0,
@@ -276,7 +399,7 @@ AUCTIONATOR_STACKING_PREFS = {
 		["numstacks"] = 0,
 		["stacksize"] = 1,
 	},
-	["huge snowball"] = {
+	["felwort"] = {
 		["stacksize"] = 1,
 		["numstacks"] = 0,
 	},
@@ -292,11 +415,11 @@ AUCTIONATOR_STACKING_PREFS = {
 		["numstacks"] = 0,
 		["stacksize"] = 1,
 	},
-	["windwool cloth"] = {
-		["numstacks"] = 0,
+	["huge snowball"] = {
 		["stacksize"] = 1,
+		["numstacks"] = 0,
 	},
-	["chaos crystal"] = {
+	["windwool cloth"] = {
 		["numstacks"] = 0,
 		["stacksize"] = 1,
 	},

@@ -49,17 +49,6 @@ VER 3 0000000000000061 "Glider" "ability_demonhunter_glide"
 /cancelaura Nitro Boosts
 /use 15
 END
-VER 3 000000000000005F "Go Baby" "INV_Misc_QuestionMark"
-#showtooltip stampede
-/cast Bestial Wrath
-/use 13
-/use 14
-/petattack
-/cast Dire Beast
-/cast Kill Command
-/cast Aspect of the Wild
-/cast Stampede
-END
 VER 3 000000000000000E "Grand Marshal" "Ability_Warrior_ImprovedDisciplines"
 /run UseEquipmentSet"Grand Marshal"; SetCurrentTitle(35);
 END
@@ -122,12 +111,12 @@ END
 VER 3 000000000000005D "Professions" "inv_enchanting_70_pet_cauldron"
 /click ORLOpen rofessions
 END
+VER 3 000000000000000B "PVE" "Spell_Fire_Fireball02"
+/run UseEquipmentSet"PVE"; SetCurrentTitle(-1);
+END
 VER 3 0000000000000057 "PVE" "SPELL_NATURE_PURGE"
 /settitle Predator
 /equipset PVE
-END
-VER 3 000000000000000B "PVE" "Spell_Fire_Fireball02"
-/run UseEquipmentSet"PVE"; SetCurrentTitle(-1);
 END
 VER 3 0000000000000058 "PVP" "SPELL_ARCANE_RUNE"
 /settitle of stormwind
@@ -141,6 +130,13 @@ VER 3 0000000000000016 "Spellsteal" "INV_MISC_QUESTIONMARK"
 #showtooltip spellsteal
 /stopcasting
 /cast Spellsteal
+END
+VER 3 000000000000005F "Stampede" "461112"
+#showtooltip stampede
+/use 13
+/use 14
+/petattack
+/cast Stampede
 END
 VER 3 000000000000000C "Stormwind" "Ability_Mount_TawnyWindRider"
 /run UseEquipmentSet"Stormwind"; SetCurrentTitle(116); 

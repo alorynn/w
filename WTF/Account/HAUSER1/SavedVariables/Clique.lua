@@ -2,19 +2,28 @@
 CliqueDB = nil
 CliqueDB3 = {
 	["char"] = {
-		["Darknstormie - Kel'Thuzad"] = {
-			["alerthidden"] = true,
+		["Laurannah - Kel'Thuzad"] = {
+			["spec1_profileKey"] = "Laurannah - Kel'Thuzad",
+			["fastooc"] = false,
+			["spec2_profileKey"] = "Laurannah - Kel'Thuzad",
+			["downclick"] = false,
+			["specswap"] = false,
+			["spec3_profileKey"] = "Laurannah - Kel'Thuzad",
 		},
 		["Kmkarbashian - Kel'Thuzad"] = {
 			["spec1_profileKey"] = "Kmkarbashian - Kel'Thuzad",
-			["spec2_profileKey"] = "Kmkarbashian - Kel'Thuzad",
+			["specswap"] = false,
 			["downclick"] = false,
 			["fastooc"] = false,
+			["spec2_profileKey"] = "Kmkarbashian - Kel'Thuzad",
 			["spec3_profileKey"] = "Kmkarbashian - Kel'Thuzad",
-			["specswap"] = false,
+		},
+		["Darknstormie - Kel'Thuzad"] = {
+			["alerthidden"] = true,
 		},
 	},
 	["profileKeys"] = {
+		["Fooliolio - Kel'Thuzad"] = "Fooliolio - Kel'Thuzad",
 		["Kmkarbashian - Kel'Thuzad"] = "Kmkarbashian - Kel'Thuzad",
 		["Hauzerina - Kel'Thuzad"] = "Hauzerina - Kel'Thuzad",
 		["Hauzerina - Moon Guard"] = "Hauzerina - Moon Guard",
@@ -26,6 +35,25 @@ CliqueDB3 = {
 		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
 	},
 	["profiles"] = {
+		["Fooliolio - Kel'Thuzad"] = {
+			["bindings"] = {
+				{
+					["sets"] = {
+						["default"] = true,
+					},
+					["type"] = "target",
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+			},
+		},
 		["Kmkarbashian - Kel'Thuzad"] = {
 			["bindings"] = {
 				{

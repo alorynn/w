@@ -17,6 +17,10 @@ ElvCharacterDB = {
 		"/2 so to unlock these BFA races do you actually have to level them to max level", -- [14]
 		"/2 or is that just to unlock their cosmetics and mounts", -- [15]
 		"/2 oic cool", -- [16]
+		"/cast perky pug", -- [17]
+		"/cast mona", -- [18]
+		"/2 anyone know how gear is gonna work for PVP in BFA? is it like Legion where it's scaled so that uber gear makes practically no difference?", -- [19]
+		"/forthealliance", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
@@ -305,5 +309,159 @@ ElvCharacterDB = {
 			[51] = 1532962035,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [13]
+		{
+			"|cffffff00Stormwind City is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			531, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1533055182,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [14]
+		{
+			"|cffffff00The Catacombs is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			560, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1533055295,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [15]
+		{
+			"|cffffff00Cathedral Square is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			562, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1533055306,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [16]
+		{
+			"|cffffff00Cathedral Square is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			580, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1533055375,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [17]
+		{
+			"|cffffff00Mage Quarter is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			650, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1533055880,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [18]
+		{
+			"might be this |cffa335ee|Hitem:69210::::::::110:265::::::|h[Renowned Guild Tabard]|h|r, BoA and vendors for 62.5", -- [1]
+			"Weirderbeard-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			947, -- [11]
+			"Player-3693-075CDD9A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8787edWeirderbeard|r",
+			[51] = 1533058363,
+			[50] = "CHAT_MSG_GUILD",
+		}, -- [19]
+		{
+			"anyone know how gear is gonna work for PVP in BFA? is it like Legion where it's scaled so that uber gear makes practically no difference?", -- [1]
+			"Hauzer-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hauzer", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			48, -- [11]
+			"Player-3693-07375FB3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3fc6eaHauzer|r",
+			[51] = 1533059440,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [20]
 	},
 }

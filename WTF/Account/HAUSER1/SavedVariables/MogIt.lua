@@ -1,6 +1,7 @@
 
 MogItDB = {
 	["profileKeys"] = {
+		["Fooliolio - Kel'Thuzad"] = "Default",
 		["Hoobastankie - Kel'Thuzad"] = "Default",
 		["Hauzerogue - Kel'Thuzad"] = "Default",
 		["Hauzerina - Moon Guard"] = "Default",
@@ -59,7 +60,7 @@ MogItDB = {
 				}, -- [3]
 			},
 			["gridHeight"] = 1200,
-			["x"] = 100.167579650879,
+			["x"] = 118.333297729492,
 			["slotLabels"] = {
 				["Waist"] = "Waist",
 				["Fist"] = "Fist Weapons",
@@ -96,7 +97,7 @@ MogItDB = {
 				["hide"] = true,
 			},
 			["gridDress"] = "none",
-			["point"] = "TOP",
+			["point"] = "TOPLEFT",
 			["gridWidth"] = 1645.33532714844,
 			["sync"] = false,
 			["y"] = 0,
@@ -105,6 +106,7 @@ MogItDB = {
 }
 MogItWishlist = {
 	["profileKeys"] = {
+		["Fooliolio - Kel'Thuzad"] = "Fooliolio - Kel'Thuzad",
 		["Hoobastankie - Kel'Thuzad"] = "Hoobastankie - Kel'Thuzad",
 		["Hauzerogue - Kel'Thuzad"] = "Hauzerogue - Kel'Thuzad",
 		["Hauzerina - Moon Guard"] = "Hauzerina - Moon Guard",
@@ -140,6 +142,8 @@ MogItWishlist = {
 		["version"] = 80000,
 	},
 	["profiles"] = {
+		["Fooliolio - Kel'Thuzad"] = {
+		},
 		["Hoobastankie - Kel'Thuzad"] = {
 		},
 		["Hauzerogue - Kel'Thuzad"] = {

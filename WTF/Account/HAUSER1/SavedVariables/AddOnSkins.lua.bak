@@ -1,6 +1,7 @@
 
 AddOnSkinsDB = {
 	["profileKeys"] = {
+		["Fooliolio - Kel'Thuzad"] = "Fooliolio - Kel'Thuzad",
 		["Hoobastankie - Kel'Thuzad"] = "Default",
 		["Hauzerina - Moon Guard"] = "Hauzerina - Moon Guard",
 		["Hauzerone - Dalaran"] = "Default",
@@ -28,6 +29,8 @@ AddOnSkinsDB = {
 		["Deeke - Kel'Thuzad"] = "Default",
 	},
 	["profiles"] = {
+		["Fooliolio - Kel'Thuzad"] = {
+		},
 		["Hauzerdemon - Kel'Thuzad"] = {
 			["Blizzard_WorldStateCaptureBar"] = false,
 			["Blizzard_AbilityButton"] = false,
@@ -94,10 +97,10 @@ AddOnSkinsDB = {
 		},
 		["Hauzer - Kel'Thuzad"] = {
 			["Blizzard_WorldStateCaptureBar"] = false,
-			["Blizzard_Transmogrify"] = false,
-			["BigWigs"] = true,
 			["Skada"] = true,
+			["BigWigs"] = true,
 			["Bagnon"] = true,
+			["Blizzard_Transmogrify"] = false,
 			["ArtifactPowerUser"] = true,
 		},
 		["Hauzerina - Moon Guard"] = {
@@ -166,14 +169,14 @@ AddOnSkinsDB = {
 		},
 		["Default"] = {
 			["Blizzard_WorldStateCaptureBar"] = false,
-			["Ace3"] = true,
-			["BigWigs"] = true,
 			["Blizzard_Transmogrify"] = false,
-			["ArkInventory"] = true,
 			["MoveAnything"] = true,
+			["BigWigs"] = true,
+			["ArkInventory"] = true,
+			["Ace3"] = true,
+			["Bagnon"] = true,
 			["Skada"] = true,
 			["ArtifactPowerUser"] = true,
-			["Bagnon"] = true,
 		},
 	},
 }

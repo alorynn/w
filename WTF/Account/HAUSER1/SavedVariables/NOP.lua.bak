@@ -1,18 +1,22 @@
 
 NewOpenablesProfile = {
 	["char"] = {
+		["Fooliolio - Kel'Thuzad"] = {
+			["itemID"] = 142023,
+		},
 		["Kmkarbashian - Kel'Thuzad"] = {
 			["itemID"] = 140760,
 		},
 	},
 	["profileKeys"] = {
-		["Hauzer - Kel'Thuzad"] = "Default",
+		["Fooliolio - Kel'Thuzad"] = "Default",
 		["Kmkarbashian - Kel'Thuzad"] = "Default",
-		["Alauranna - Kel'Thuzad"] = "Default",
 		["Hauzerina - Kel'Thuzad"] = "Default",
 		["Hauzerina - Moon Guard"] = "Default",
-		["Alisheeya - Kel'Thuzad"] = "Default",
+		["Alauranna - Kel'Thuzad"] = "Default",
 		["Laurannah - Kel'Thuzad"] = "Default",
+		["Alisheeya - Kel'Thuzad"] = "Default",
+		["Hauzer - Kel'Thuzad"] = "Default",
 		["Alorannah - Kel'Thuzad"] = "Default",
 	},
 	["profiles"] = {
