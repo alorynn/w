@@ -138,7 +138,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 12,
 		},
 		["Fiendish Leather"] = {
-			["mr"] = 2100,
+			["H2816"] = 7400,
+			["mr"] = 7400,
 			["cc"] = 7,
 			["id"] = "151566:0:0:0:0",
 			["H2814"] = 2100,
@@ -174,7 +175,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 12,
 		},
 		["Lightweave Cloth"] = {
-			["mr"] = 9700,
+			["H2816"] = 1989,
+			["mr"] = 1989,
 			["cc"] = 7,
 			["id"] = "151567:0:0:0:0",
 			["H2814"] = 9800,
@@ -383,9 +385,9 @@ AUCTIONATOR_STACKING_PREFS = {
 		["numstacks"] = 0,
 		["stacksize"] = 1,
 	},
-	["titansteel bar"] = {
-		["numstacks"] = 0,
+	["medallion of the legion"] = {
 		["stacksize"] = 1,
+		["numstacks"] = 0,
 	},
 	["cobalt bar"] = {
 		["numstacks"] = 0,
@@ -419,7 +421,7 @@ AUCTIONATOR_STACKING_PREFS = {
 		["stacksize"] = 1,
 		["numstacks"] = 0,
 	},
-	["windwool cloth"] = {
+	["hypnotic dust"] = {
 		["numstacks"] = 0,
 		["stacksize"] = 1,
 	},
@@ -427,7 +429,7 @@ AUCTIONATOR_STACKING_PREFS = {
 		["numstacks"] = 0,
 		["stacksize"] = 5,
 	},
-	["hypnotic dust"] = {
+	["windwool cloth"] = {
 		["numstacks"] = 0,
 		["stacksize"] = 1,
 	},
@@ -467,9 +469,9 @@ AUCTIONATOR_STACKING_PREFS = {
 		["numstacks"] = 0,
 		["stacksize"] = 1,
 	},
-	["medallion of the legion"] = {
-		["stacksize"] = 1,
+	["titansteel bar"] = {
 		["numstacks"] = 0,
+		["stacksize"] = 1,
 	},
 }
 AUCTIONATOR_SCAN_MINLEVEL = 1

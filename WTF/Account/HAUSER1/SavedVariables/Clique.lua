@@ -5,10 +5,10 @@ CliqueDB3 = {
 		["Laurannah - Kel'Thuzad"] = {
 			["spec1_profileKey"] = "Laurannah - Kel'Thuzad",
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Laurannah - Kel'Thuzad",
-			["downclick"] = false,
-			["specswap"] = false,
 			["spec3_profileKey"] = "Laurannah - Kel'Thuzad",
+			["downclick"] = false,
+			["spec2_profileKey"] = "Laurannah - Kel'Thuzad",
+			["specswap"] = false,
 		},
 		["Kmkarbashian - Kel'Thuzad"] = {
 			["spec1_profileKey"] = "Kmkarbashian - Kel'Thuzad",

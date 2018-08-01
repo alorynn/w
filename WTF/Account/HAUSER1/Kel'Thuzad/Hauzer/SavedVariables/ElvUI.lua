@@ -1,26 +1,26 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/i is proudmoore a brazilian server or something", -- [1]
-		"/i heya", -- [2]
-		"/tar cous", -- [3]
-		"/i sup sup", -- [4]
-		"/i ty", -- [5]
-		"/cheer", -- [6]
-		"/kiss", -- [7]
-		"/dance", -- [8]
-		"/wave", -- [9]
-		"/hi", -- [10]
-		"/pet", -- [11]
-		"/conslegion", -- [12]
-		"/p ty", -- [13]
-		"/2 so to unlock these BFA races do you actually have to level them to max level", -- [14]
-		"/2 or is that just to unlock their cosmetics and mounts", -- [15]
-		"/2 oic cool", -- [16]
-		"/cast perky pug", -- [17]
-		"/cast mona", -- [18]
-		"/2 anyone know how gear is gonna work for PVP in BFA? is it like Legion where it's scaled so that uber gear makes practically no difference?", -- [19]
-		"/forthealliance", -- [20]
+		"/tar cous", -- [1]
+		"/i sup sup", -- [2]
+		"/i ty", -- [3]
+		"/cheer", -- [4]
+		"/kiss", -- [5]
+		"/dance", -- [6]
+		"/wave", -- [7]
+		"/hi", -- [8]
+		"/pet", -- [9]
+		"/conslegion", -- [10]
+		"/p ty", -- [11]
+		"/2 so to unlock these BFA races do you actually have to level them to max level", -- [12]
+		"/2 or is that just to unlock their cosmetics and mounts", -- [13]
+		"/2 oic cool", -- [14]
+		"/cast perky pug", -- [15]
+		"/cast mona", -- [16]
+		"/2 anyone know how gear is gonna work for PVP in BFA? is it like Legion where it's scaled so that uber gear makes practically no difference?", -- [17]
+		"/forthealliance", -- [18]
+		"/p wheresd the shredder", -- [19]
+		"/p cool ty", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
@@ -463,5 +463,71 @@ ElvCharacterDB = {
 			[51] = 1533059440,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [20]
+		{
+			"wheresd the shredder", -- [1]
+			"Hauzer-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hauzer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			79, -- [11]
+			"Player-3693-07375FB3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc6eaHauzer|r",
+			[51] = 1533123842,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [21]
+		{
+			"about to spawn near me", -- [1]
+			"Keirn-Area52", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Keirn-Area52", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			80, -- [11]
+			"Player-3676-07C2A544", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaKeirn-Area52|r",
+			[51] = 1533123858,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [22]
+		{
+			"cool ty", -- [1]
+			"Hauzer-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hauzer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			86, -- [11]
+			"Player-3693-07375FB3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc6eaHauzer|r",
+			[51] = 1533123897,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [23]
 	},
 }

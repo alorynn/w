@@ -9,6 +9,11 @@ ElvCharacterDB = {
 		"/bartender", -- [6]
 		"/g ah cool I'll look into it", -- [7]
 		"/TAR LEL", -- [8]
+		"/s anyone got xmog mount I could use?", -- [9]
+		"/s ty", -- [10]
+		"/s all done ty", -- [11]
+		"/cheer", -- [12]
+		"/s why is this big red lump here in lorlathil", -- [13]
 	},
 	["ChatHistoryLog"] = {
 		{
@@ -517,5 +522,93 @@ ElvCharacterDB = {
 			[51] = 1533063784,
 			[50] = "CHAT_MSG_GUILD",
 		}, -- [23]
+		{
+			"anyone got xmog mount I could use?", -- [1]
+			"Alauranna-Kel'Thuzad", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Alauranna", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			260, -- [11]
+			"Player-3693-0844F6BF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aAlauranna|r",
+			[51] = 1533065042,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [24]
+		{
+			"ty", -- [1]
+			"Alauranna-Kel'Thuzad", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Alauranna", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			261, -- [11]
+			"Player-3693-0844F6BF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aAlauranna|r",
+			[51] = 1533065061,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [25]
+		{
+			"all done ty", -- [1]
+			"Alauranna-Kel'Thuzad", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Alauranna", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			263, -- [11]
+			"Player-3693-0844F6BF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aAlauranna|r",
+			[51] = 1533065091,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [26]
+		{
+			"why is this big red lump here in lorlathil", -- [1]
+			"Alauranna-Kel'Thuzad", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Alauranna", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			267, -- [11]
+			"Player-3693-0844F6BF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aAlauranna|r",
+			[51] = 1533065179,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [27]
 	},
 }
