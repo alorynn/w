@@ -2,13 +2,13 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
-	["_10000"] = 200,
-	["_500"] = 5,
-	["_1000000"] = 2500,
 	["_200000"] = 1000,
 	["STARTING_DISCOUNT"] = 5,
-	["LOG_DE_DATA_X"] = true,
+	["_1000000"] = 2500,
 	["_5000000"] = 10000,
+	["LOG_DE_DATA_X"] = true,
+	["_500"] = 5,
+	["_10000"] = 200,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 	["Leylight Shard"] = {
@@ -27,6 +27,7 @@ AUCTIONATOR_PRICING_HISTORY = {
 	["Astral Glory"] = {
 		["is"] = "151565:0:0:0:0",
 		["5257044"] = "648000:130",
+		["5259930"] = "155000:130",
 	},
 	["Large Brilliant Shard"] = {
 		["is"] = "14344:0:0:0:0",
@@ -34,6 +35,7 @@ AUCTIONATOR_PRICING_HISTORY = {
 	},
 	["Chaos Crystal"] = {
 		["is"] = "124442:0:0:0:0",
+		["5259932"] = "290000:7",
 		["5257037"] = "302000:68",
 	},
 	["Lightweave Cloth"] = {
@@ -41,8 +43,9 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["5257034"] = "9700:16",
 	},
 	["Defiled Augment Rune"] = {
-		["is"] = "140587:0:0:0:0",
 		["5257034"] = "181000:1",
+		["5259932"] = "99000:17",
+		["is"] = "140587:0:0:0:0",
 	},
 	["Arkhana"] = {
 		["is"] = "124440:0:0:0:0",
@@ -153,7 +156,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 5,
 		},
 		["Astral Glory"] = {
-			["mr"] = 649440,
+			["H2816"] = 155498,
+			["mr"] = 155498,
 			["cc"] = 7,
 			["id"] = "151565:0:0:0:0",
 			["H2814"] = 656000,
@@ -161,14 +165,16 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["L2814"] = 649440,
 		},
 		["Large Brilliant Shard"] = {
-			["mr"] = 6728,
+			["H2816"] = 4600,
+			["mr"] = 4600,
 			["cc"] = 7,
 			["id"] = "14344:0:0:0:0",
 			["H2814"] = 6728,
 			["sc"] = 12,
 		},
 		["Chaos Crystal"] = {
-			["mr"] = 303000,
+			["H2816"] = 291000,
+			["mr"] = 291000,
 			["cc"] = 7,
 			["id"] = "124442:0:0:0:0",
 			["H2814"] = 303000,
@@ -184,7 +190,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["L2814"] = 9700,
 		},
 		["Defiled Augment Rune"] = {
-			["mr"] = 181295,
+			["H2816"] = 99500,
+			["mr"] = 99500,
 			["cc"] = 0,
 			["id"] = "140587:0:0:0:0",
 			["H2814"] = 181295,
@@ -232,15 +239,15 @@ AUCTIONATOR_TOONS = {
 		["firstSeen"] = 1486560048,
 		["firstVersion"] = "4.0.16",
 	},
-	["Pharrah"] = {
-		["firstSeen"] = 1486134858,
-		["firstVersion"] = "4.0.16",
-		["guid"] = "Player-3693-092AC55C",
-	},
 	["Fooliolio"] = {
 		["firstSeen"] = 1533064421,
 		["firstVersion"] = "5.0.4",
 		["guid"] = "Player-3693-09E8A972",
+	},
+	["Laurannah"] = {
+		["firstSeen"] = 1447788893,
+		["guid"] = "Player-3693-092AD332",
+		["firstVersion"] = "3.2.6",
 	},
 	["Hauzerdemon"] = {
 		["firstSeen"] = 1478650187,
@@ -350,10 +357,10 @@ AUCTIONATOR_TOONS = {
 		["firstSeen"] = 1487270433,
 		["firstVersion"] = "4.0.16",
 	},
-	["Laurannah"] = {
-		["firstSeen"] = 1447788893,
-		["guid"] = "Player-3693-092AD332",
-		["firstVersion"] = "3.2.6",
+	["Pharrah"] = {
+		["firstSeen"] = 1486134858,
+		["firstVersion"] = "4.0.16",
+		["guid"] = "Player-3693-092AC55C",
 	},
 }
 AUCTIONATOR_STACKING_PREFS = {
@@ -381,13 +388,9 @@ AUCTIONATOR_STACKING_PREFS = {
 		["numstacks"] = 0,
 		["stacksize"] = 1,
 	},
-	["awesomefish"] = {
+	["titansteel bar"] = {
 		["numstacks"] = 0,
 		["stacksize"] = 1,
-	},
-	["medallion of the legion"] = {
-		["stacksize"] = 1,
-		["numstacks"] = 0,
 	},
 	["cobalt bar"] = {
 		["numstacks"] = 0,
@@ -401,11 +404,11 @@ AUCTIONATOR_STACKING_PREFS = {
 		["numstacks"] = 0,
 		["stacksize"] = 1,
 	},
-	["felwort"] = {
-		["stacksize"] = 1,
+	["awesomefish"] = {
 		["numstacks"] = 0,
+		["stacksize"] = 1,
 	},
-	["defiled augment rune"] = {
+	["felwort"] = {
 		["stacksize"] = 1,
 		["numstacks"] = 0,
 	},
@@ -469,9 +472,9 @@ AUCTIONATOR_STACKING_PREFS = {
 		["numstacks"] = 0,
 		["stacksize"] = 1,
 	},
-	["titansteel bar"] = {
-		["numstacks"] = 0,
+	["medallion of the legion"] = {
 		["stacksize"] = 1,
+		["numstacks"] = 0,
 	},
 }
 AUCTIONATOR_SCAN_MINLEVEL = 1

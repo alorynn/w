@@ -14,6 +14,7 @@ ElvCharacterDB = {
 		"/s all done ty", -- [11]
 		"/cheer", -- [12]
 		"/s why is this big red lump here in lorlathil", -- [13]
+		"/lie", -- [14]
 	},
 	["ChatHistoryLog"] = {
 		{
@@ -610,5 +611,137 @@ ElvCharacterDB = {
 			[51] = 1533065179,
 			[50] = "CHAT_MSG_SAY",
 		}, -- [27]
+		{
+			"|cffffff00Starstalker's Point is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Val'sharah", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Val'sharah", -- [9]
+			0, -- [10]
+			512, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1533159716,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [28]
+		{
+			"|cffffff00Starstalker's Point is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Val'sharah", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Val'sharah", -- [9]
+			0, -- [10]
+			525, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1533160003,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [29]
+		{
+			"|cffffff00Starstalker's Point is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Val'sharah", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Val'sharah", -- [9]
+			0, -- [10]
+			526, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1533160096,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [30]
+		{
+			"|cffffff00Starstalker's Point is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Val'sharah", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Val'sharah", -- [9]
+			0, -- [10]
+			527, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1533160158,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [31]
+		{
+			"|cffffff00Starstalker's Point is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Val'sharah", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Val'sharah", -- [9]
+			0, -- [10]
+			529, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1533160225,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [32]
+		{
+			"|cffffff00Starstalker's Point is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Val'sharah", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Val'sharah", -- [9]
+			0, -- [10]
+			530, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1533160285,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [33]
 	},
 }

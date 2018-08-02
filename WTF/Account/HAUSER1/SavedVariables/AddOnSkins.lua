@@ -99,9 +99,9 @@ AddOnSkinsDB = {
 			["Blizzard_WorldStateCaptureBar"] = false,
 			["Skada"] = true,
 			["BigWigs"] = true,
+			["Bagnon"] = true,
 			["Blizzard_Transmogrify"] = false,
 			["ArtifactPowerUser"] = true,
-			["Bagnon"] = true,
 		},
 		["Default"] = {
 			["Blizzard_WorldStateCaptureBar"] = false,

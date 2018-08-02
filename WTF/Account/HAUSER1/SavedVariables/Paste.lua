@@ -6,11 +6,11 @@ PasteDB = {
 		["Hauzerogue - Kel'Thuzad"] = "Hauzerogue - Kel'Thuzad",
 		["Hauzerina - Moon Guard"] = "Hauzerina - Moon Guard",
 		["Hauzerone - Dalaran"] = "Hauzerone - Dalaran",
-		["Beatryce - Kel'Thuzad"] = "Beatryce - Kel'Thuzad",
+		["Alurannah - Kel'Thuzad"] = "Alurannah - Kel'Thuzad",
 		["Deeke - Kel'Thuzad"] = "Deeke - Kel'Thuzad",
 		["Hauser - Mal'Ganis"] = "Hauser - Mal'Ganis",
 		["Kmkarbashian - Kel'Thuzad"] = "Kmkarbashian - Kel'Thuzad",
-		["Alurannah - Kel'Thuzad"] = "Alurannah - Kel'Thuzad",
+		["Hauzerdemon - Kel'Thuzad"] = "Hauzerdemon - Kel'Thuzad",
 		["Pharrah - Kel'Thuzad"] = "Pharrah - Kel'Thuzad",
 		["Laurannah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Alisheeya - Kel'Thuzad"] = "Alisheeya - Kel'Thuzad",
@@ -18,7 +18,7 @@ PasteDB = {
 		["Nigellah - Kel'Thuzad"] = "Nigellah - Kel'Thuzad",
 		["Bazoomercom - Dark Iron"] = "Bazoomercom - Dark Iron",
 		["Hoobastanko - Kel'Thuzad"] = "Hoobastanko - Kel'Thuzad",
-		["Hauzerdemon - Kel'Thuzad"] = "Hauzerdemon - Kel'Thuzad",
+		["Beatryce - Kel'Thuzad"] = "Beatryce - Kel'Thuzad",
 		["Beatryss - Kel'Thuzad"] = "Beatryss - Kel'Thuzad",
 		["Hauzerina - Kel'Thuzad"] = "Hauzerina - Kel'Thuzad",
 		["Fsdkjhskdjfh - Kel'Thuzad"] = "Fsdkjhskdjfh - Kel'Thuzad",
@@ -49,7 +49,7 @@ PasteDB = {
 		["Hauzerone - Dalaran"] = {
 			["loaded"] = true,
 		},
-		["Beatryce - Kel'Thuzad"] = {
+		["Alurannah - Kel'Thuzad"] = {
 			["loaded"] = true,
 		},
 		["Deeke - Kel'Thuzad"] = {
@@ -64,7 +64,7 @@ PasteDB = {
 				["hide"] = true,
 			},
 		},
-		["Alurannah - Kel'Thuzad"] = {
+		["Hauzerdemon - Kel'Thuzad"] = {
 			["loaded"] = true,
 		},
 		["Pharrah - Kel'Thuzad"] = {
@@ -103,7 +103,7 @@ PasteDB = {
 		["Hoobastanko - Kel'Thuzad"] = {
 			["loaded"] = true,
 		},
-		["Hauzerdemon - Kel'Thuzad"] = {
+		["Beatryce - Kel'Thuzad"] = {
 			["loaded"] = true,
 		},
 		["Beatryss - Kel'Thuzad"] = {
@@ -145,15 +145,15 @@ PasteDB = {
 			["whispertarget"] = "",
 			["where"] = "Default",
 			["loaded"] = true,
+			["minimap"] = {
+				["minimapPos"] = 338.719195127498,
+				["hide"] = true,
+			},
 			["pos"] = {
 				["height"] = 320.000030517578,
 				["top"] = 770.833129882813,
 				["left"] = 762.499877929688,
 				["width"] = 499.999938964844,
-			},
-			["minimap"] = {
-				["minimapPos"] = 338.719195127498,
-				["hide"] = true,
 			},
 		},
 		["Ugiyo - Kel'Thuzad"] = {

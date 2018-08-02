@@ -8,10 +8,7 @@ NewOpenablesProfile = {
 			["itemID"] = 140760,
 		},
 		["Laurannah - Kel'Thuzad"] = {
-			["itemID"] = 153147,
-		},
-		["Hauzer - Kel'Thuzad"] = {
-			["itemID"] = 132892,
+			["itemID"] = 121335,
 		},
 	},
 	["profileKeys"] = {
@@ -43,9 +40,10 @@ NewOpenablesProfile = {
 				[143605] = true,
 				[152097] = true,
 				[151844] = true,
+				[0] = true,
 				[147348] = true,
 				[147350] = true,
-				[0] = true,
+				[153147] = true,
 			},
 			["version"] = "|cFFFFFFFF09.06 23.07.2018 use |cFFFF00FF/nop|cFFFFFFFF",
 			["iconSize"] = 64,

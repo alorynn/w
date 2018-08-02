@@ -99,9 +99,9 @@ AddOnSkinsDB = {
 			["Blizzard_WorldStateCaptureBar"] = false,
 			["Skada"] = true,
 			["BigWigs"] = true,
-			["Bagnon"] = true,
-			["ArtifactPowerUser"] = true,
 			["Blizzard_Transmogrify"] = false,
+			["ArtifactPowerUser"] = true,
+			["Bagnon"] = true,
 		},
 		["Hauzerina - Moon Guard"] = {
 			["Blizzard_WorldStateCaptureBar"] = false,
