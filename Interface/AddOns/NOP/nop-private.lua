@@ -85,7 +85,7 @@ P.RGB_RED = "|cFFFF0000"
 P.RGB_MAGENTA = "|cFF00FFFF"
 P.RGB_NORMAL = "|r"
 P.TIMER_IDLE = 1.0 -- recheck delay for calling protected function in combat
-P.TIMER_RECHECK = 30.0 -- delay for slow non-event driven item lookup in bags
+P.TIMER_RECHECK = 10.0 -- delay for slow non-event driven item lookup in bags
 P.PRINT_HEAD = "|cff7f7f7f%s|r [|cff00ffff%s|r]"
 P.BLACKLIST = {[90043] = true,} -- special blacklist
 P.MOUSE_LB = "\124TInterface\\TutorialFrame\\UI-Tutorial-Frame:12:12:0:0:512:512:10:65:228:283\124t" -- left mouse button

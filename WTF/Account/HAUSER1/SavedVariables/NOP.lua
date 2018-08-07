@@ -7,8 +7,8 @@ NewOpenablesProfile = {
 		["Kmkarbashian - Kel'Thuzad"] = {
 			["itemID"] = 140760,
 		},
-		["Laurannah - Kel'Thuzad"] = {
-			["itemID"] = 121335,
+		["Rogueout - Kel'Thuzad"] = {
+			["itemID"] = 142023,
 		},
 	},
 	["profileKeys"] = {
@@ -17,10 +17,11 @@ NewOpenablesProfile = {
 		["Hauzerina - Kel'Thuzad"] = "Default",
 		["Hauzerina - Moon Guard"] = "Default",
 		["Alauranna - Kel'Thuzad"] = "Default",
+		["Rogueout - Kel'Thuzad"] = "Default",
 		["Laurannah - Kel'Thuzad"] = "Default",
 		["Alisheeya - Kel'Thuzad"] = "Default",
-		["Alorannah - Kel'Thuzad"] = "Default",
 		["Hauzer - Kel'Thuzad"] = "Default",
+		["Alorannah - Kel'Thuzad"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -35,15 +36,18 @@ NewOpenablesProfile = {
 			["T_BLACKLIST"] = {
 				[138967] = true,
 				[141028] = true,
+				[152097] = true,
+				[153152] = true,
 				[147349] = true,
 				[127834] = true,
+				[127835] = true,
 				[143605] = true,
-				[152097] = true,
+				[153147] = true,
 				[151844] = true,
 				[0] = true,
 				[147348] = true,
 				[147350] = true,
-				[153147] = true,
+				[152736] = true,
 			},
 			["version"] = "|cFFFFFFFF09.06 23.07.2018 use |cFFFF00FF/nop|cFFFFFFFF",
 			["iconSize"] = 64,

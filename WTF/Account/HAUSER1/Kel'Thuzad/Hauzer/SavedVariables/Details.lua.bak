@@ -28,11 +28,11 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 29073.003078,
-							["last_event"] = 1533123893,
+							["classe"] = "MAGE",
 							["dps_started"] = false,
 							["total"] = 36259.003078,
 							["delay"] = 1533123893,
-							["classe"] = "MAGE",
+							["end_time"] = 1533123951,
 							["nome"] = "Hauzer",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -54,10 +54,10 @@ _detalhes_database = {
 										["c_max"] = 425,
 										["id"] = 84721,
 										["r_dmg"] = 0,
-										["c_min"] = 425,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 425,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -83,10 +83,10 @@ _detalhes_database = {
 										["c_max"] = 1124,
 										["id"] = 228597,
 										["r_dmg"] = 0,
-										["c_min"] = 1123,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 1123,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -112,10 +112,10 @@ _detalhes_database = {
 										["c_max"] = 2309,
 										["id"] = 228598,
 										["r_dmg"] = 0,
-										["c_min"] = 2309,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 2309,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -141,10 +141,10 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 148022,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -170,10 +170,10 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 228600,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -199,10 +199,10 @@ _detalhes_database = {
 										["c_max"] = 1043,
 										["id"] = 228354,
 										["r_dmg"] = 0,
-										["c_min"] = 1042,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 1042,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -214,7 +214,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["end_time"] = 1533123951,
+							["last_event"] = 1533123893,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
@@ -240,11 +240,11 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 28704.005001,
-							["last_event"] = 1533123892,
+							["classe"] = "PALADIN",
 							["dps_started"] = false,
 							["total"] = 28704.005001,
 							["delay"] = 1533123892,
-							["classe"] = "PALADIN",
+							["end_time"] = 1533123951,
 							["nome"] = "Keirn-Area52",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -266,10 +266,10 @@ _detalhes_database = {
 										["c_max"] = 1232,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["c_min"] = 1012,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 1012,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -295,10 +295,10 @@ _detalhes_database = {
 										["c_max"] = 259,
 										["id"] = 269937,
 										["r_dmg"] = 0,
-										["c_min"] = 259,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 259,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -324,10 +324,10 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 255937,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -353,10 +353,10 @@ _detalhes_database = {
 										["c_max"] = 1168,
 										["id"] = 35395,
 										["r_dmg"] = 0,
-										["c_min"] = 1168,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 1168,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -382,10 +382,10 @@ _detalhes_database = {
 										["c_max"] = 2767,
 										["id"] = 184575,
 										["r_dmg"] = 0,
-										["c_min"] = 2767,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 2767,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -411,10 +411,10 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 224266,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -440,10 +440,10 @@ _detalhes_database = {
 										["c_max"] = 2776,
 										["id"] = 20271,
 										["r_dmg"] = 0,
-										["c_min"] = 2776,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 2776,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -455,7 +455,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["end_time"] = 1533123951,
+							["last_event"] = 1533123892,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
@@ -480,7 +480,8 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 7186.006352,
-							["last_event"] = 1533123892,
+							["friendlyfire"] = {
+							},
 							["dps_started"] = false,
 							["total"] = 7186.006352,
 							["delay"] = 1533123892,
@@ -506,10 +507,10 @@ _detalhes_database = {
 										["c_max"] = 262,
 										["id"] = 59638,
 										["r_dmg"] = 0,
-										["c_min"] = 261,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 261,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -520,9 +521,8 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
 							["end_time"] = 1533123951,
+							["last_event"] = 1533123892,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
@@ -550,19 +550,32 @@ _detalhes_database = {
 							["delay"] = 0,
 							["pets"] = {
 							},
-							["totalover_without_pet"] = 0.004617,
+							["iniciar_hps"] = false,
 							["targets_overheal"] = {
 							},
-							["heal_enemy_amt"] = 0,
+							["classe"] = "PALADIN",
 							["totalover"] = 0.004617,
 							["total_without_pet"] = 4284.004617,
-							["iniciar_hps"] = false,
+							["totalover_without_pet"] = 0.004617,
 							["totaldenied"] = 0.004617,
 							["fight_component"] = true,
-							["end_time"] = 1533123951,
-							["healing_taken"] = 4284.004617,
 							["total"] = 4284.004617,
+							["heal_enemy_amt"] = 0,
+							["healing_taken"] = 4284.004617,
 							["nome"] = "Keirn-Area52",
+							["targets_absorbs"] = {
+								["Keirn-Area52"] = 2581,
+							},
+							["grupo"] = true,
+							["end_time"] = 1533123951,
+							["heal_enemy"] = {
+							},
+							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 1533123949,
+							["on_hold"] = false,
+							["start_time"] = 1533123875,
+							["serial"] = "Player-3676-07C2A544",
 							["spells"] = {
 								["_ActorTable"] = {
 									[203539] = {
@@ -584,12 +597,12 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["m_healed"] = 0,
-										["c_min"] = 0,
 										["totaldenied"] = 0,
+										["m_amt"] = 0,
+										["m_healed"] = 0,
 										["n_amt"] = 38,
 										["n_curado"] = 1703,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["absorbed"] = 0,
 									},
 									[203538] = {
@@ -652,19 +665,6 @@ _detalhes_database = {
 									},
 								},
 								["tipo"] = 3,
-							},
-							["grupo"] = true,
-							["classe"] = "PALADIN",
-							["heal_enemy"] = {
-							},
-							["last_event"] = 1533123949,
-							["custom"] = 0,
-							["tipo"] = 2,
-							["on_hold"] = false,
-							["start_time"] = 1533123875,
-							["serial"] = "Player-3676-07C2A544",
-							["targets_absorbs"] = {
-								["Keirn-Area52"] = 2581,
 							},
 						}, -- [1]
 					},
@@ -849,16 +849,16 @@ _detalhes_database = {
 										["actived"] = true,
 										["appliedamt"] = 1,
 									},
-									[231843] = {
+									[114250] = {
 										["counter"] = 0,
 										["actived"] = false,
-										["activedamt"] = 2,
-										["refreshamt"] = 0,
-										["id"] = 231843,
-										["uptime"] = 5,
+										["activedamt"] = 1,
+										["refreshamt"] = 1,
+										["id"] = 114250,
+										["uptime"] = 24,
 										["targets"] = {
 										},
-										["appliedamt"] = 2,
+										["appliedamt"] = 1,
 									},
 									[269571] = {
 										["counter"] = 0,
@@ -871,16 +871,16 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 2,
 									},
-									[114250] = {
+									[231843] = {
 										["counter"] = 0,
 										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 1,
-										["id"] = 114250,
-										["uptime"] = 24,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 231843,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["appliedamt"] = 2,
 									},
 								},
 								["tipo"] = 9,
@@ -895,13 +895,13 @@ _detalhes_database = {
 								[255937] = 1,
 								[35395] = 4,
 								[184575] = 3,
-								[31884] = 1,
 								[20271] = 2,
+								[31884] = 1,
 								[184662] = 1,
 							},
-							["tipo"] = 4,
-							["serial"] = "Player-3676-07C2A544",
 							["last_event"] = 1533123902,
+							["serial"] = "Player-3676-07C2A544",
+							["tipo"] = 4,
 							["pets"] = {
 							},
 							["nome"] = "Keirn-Area52",
@@ -971,8 +971,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["pets"] = {
-							},
+							["buff_uptime"] = 251,
 							["classe"] = "MAGE",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -1020,16 +1019,16 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 2,
 									},
-									[12472] = {
+									[199844] = {
 										["counter"] = 0,
 										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 12472,
-										["uptime"] = 20,
+										["activedamt"] = 2,
+										["refreshamt"] = 1,
+										["id"] = 199844,
+										["uptime"] = 4,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["appliedamt"] = 2,
 									},
 									[32612] = {
 										["counter"] = 0,
@@ -1053,13 +1052,13 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 2,
 									},
-									[199844] = {
+									[225719] = {
 										["counter"] = 0,
 										["actived"] = false,
 										["activedamt"] = 2,
-										["refreshamt"] = 1,
-										["id"] = 199844,
-										["uptime"] = 4,
+										["refreshamt"] = 5,
+										["id"] = 225719,
+										["uptime"] = 24,
 										["targets"] = {
 										},
 										["appliedamt"] = 2,
@@ -1097,16 +1096,16 @@ _detalhes_database = {
 										},
 										["appliedamt"] = 1,
 									},
-									[225719] = {
+									[12472] = {
 										["counter"] = 0,
 										["actived"] = false,
-										["activedamt"] = 2,
-										["refreshamt"] = 5,
-										["id"] = 225719,
-										["uptime"] = 24,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 12472,
+										["uptime"] = 20,
 										["targets"] = {
 										},
-										["appliedamt"] = 2,
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
@@ -1132,7 +1131,8 @@ _detalhes_database = {
 							},
 							["tipo"] = 4,
 							["nome"] = "Hauzer",
-							["buff_uptime"] = 251,
+							["pets"] = {
+							},
 							["serial"] = "Player-3693-07375FB3",
 							["last_event"] = 1533123951,
 						}, -- [2]
@@ -1155,7 +1155,7 @@ _detalhes_database = {
 				["enemy"] = "Monstrous Shredder",
 				["combat_counter"] = 77,
 				["totals"] = {
-					64962.960824, -- [1]
+					64962.947882, -- [1]
 					4283.998396, -- [2]
 					{
 						0, -- [1]
@@ -1282,14 +1282,14 @@ _detalhes_database = {
 				},
 				["end_time"] = 630135.228,
 				["combat_id"] = 45,
-				["TimeData"] = {
-				},
+				["data_inicio"] = "07:44:31",
 				["hasSaved"] = true,
 				["frags"] = {
 					["Monstrous Shredder"] = 1,
 				},
 				["data_fim"] = "07:45:52",
-				["data_inicio"] = "07:44:31",
+				["TimeData"] = {
+				},
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -1340,11 +1340,11 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002735,
-							["last_event"] = 1533123778,
+							["classe"] = "MAGE",
 							["dps_started"] = false,
 							["total"] = 142661.002735,
 							["delay"] = 0,
-							["classe"] = "MAGE",
+							["end_time"] = 1533123778,
 							["nome"] = "Hauzer",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1352,7 +1352,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["end_time"] = 1533123778,
+							["last_event"] = 1533123778,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
@@ -1382,7 +1382,8 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 142661.006155,
-							["last_event"] = 1533123778,
+							["friendlyfire"] = {
+							},
 							["dps_started"] = false,
 							["total"] = 142661.006155,
 							["delay"] = 0,
@@ -1410,10 +1411,10 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 279848,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -1441,10 +1442,10 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 279824,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -1455,9 +1456,8 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
 							["end_time"] = 1533123778,
+							["last_event"] = 1533123778,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
@@ -1491,8 +1491,8 @@ _detalhes_database = {
 							["pets"] = {
 								"Tree of Life <Hauzer>", -- [1]
 							},
-							["classe"] = "MAGE",
 							["last_event"] = 1533123778,
+							["classe"] = "MAGE",
 							["tipo"] = 4,
 							["buff_uptime"] = 8,
 							["buff_uptime_spells"] = {
@@ -1521,15 +1521,15 @@ _detalhes_database = {
 							["nome"] = "Tree of Life <Hauzer>",
 							["pets"] = {
 							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["spell_cast"] = {
 								[279847] = 1,
 								[279824] = 3,
 								[279848] = 1,
 							},
-							["classe"] = "PET",
-							["last_event"] = 0,
 							["serial"] = "Vehicle-0-4228-1-22636-144416-0000619C2D",
-							["tipo"] = 4,
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -1598,14 +1598,14 @@ _detalhes_database = {
 				},
 				["end_time"] = 629962.43,
 				["combat_id"] = 44,
-				["TimeData"] = {
-				},
+				["data_inicio"] = "07:42:51",
 				["hasSaved"] = true,
 				["frags"] = {
 					["Orgrimmar Grunt"] = 2,
 				},
 				["data_fim"] = "07:42:59",
-				["data_inicio"] = "07:42:51",
+				["TimeData"] = {
+				},
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -1644,10 +1644,10 @@ _detalhes_database = {
 							["damage_from"] = {
 							},
 							["targets"] = {
-								["Dark Ranger"] = 242528,
 								["Goblin Sapper"] = 71330,
-								["Kodo Beast Rider"] = 206858,
 								["Orgrimmar Grunt"] = 335254,
+								["Kodo Beast Rider"] = 206858,
+								["Dark Ranger"] = 242528,
 							},
 							["pets"] = {
 								"Tree of Life <Hauzer>", -- [1]
@@ -1657,11 +1657,11 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004213,
-							["last_event"] = 1533123764,
+							["classe"] = "MAGE",
 							["dps_started"] = false,
 							["total"] = 855970.004213,
 							["delay"] = 0,
-							["classe"] = "MAGE",
+							["end_time"] = 1533123765,
 							["nome"] = "Hauzer",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1669,7 +1669,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["end_time"] = 1533123765,
+							["last_event"] = 1533123764,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
@@ -1683,16 +1683,16 @@ _detalhes_database = {
 							["flag_original"] = 4369,
 							["totalabsorbed"] = 0.007305,
 							["damage_from"] = {
-								["Orgrimmar Grunt"] = true,
 								["Goblin Sapper"] = true,
-								["Kodo Beast Rider"] = true,
 								["Dark Ranger"] = true,
+								["Kodo Beast Rider"] = true,
+								["Orgrimmar Grunt"] = true,
 							},
 							["targets"] = {
-								["Dark Ranger"] = 242528,
 								["Goblin Sapper"] = 71330,
-								["Kodo Beast Rider"] = 206858,
 								["Orgrimmar Grunt"] = 335254,
+								["Kodo Beast Rider"] = 206858,
+								["Dark Ranger"] = 242528,
 							},
 							["pets"] = {
 							},
@@ -1701,7 +1701,8 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 855970.007305,
-							["last_event"] = 1533123764,
+							["friendlyfire"] = {
+							},
 							["dps_started"] = false,
 							["total"] = 855970.007305,
 							["delay"] = 0,
@@ -1716,10 +1717,10 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 7134,
 										["targets"] = {
-											["Dark Ranger"] = 92730,
 											["Goblin Sapper"] = 28532,
-											["Kodo Beast Rider"] = 85596,
 											["Orgrimmar Grunt"] = 142661,
+											["Kodo Beast Rider"] = 85596,
+											["Dark Ranger"] = 92730,
 										},
 										["m_dmg"] = 0,
 										["n_dmg"] = 292455,
@@ -1730,10 +1731,10 @@ _detalhes_database = {
 										["c_max"] = 14266,
 										["id"] = 279848,
 										["r_dmg"] = 0,
-										["c_min"] = 14266,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 14266,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -1748,10 +1749,10 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 7134,
 										["targets"] = {
-											["Dark Ranger"] = 149798,
 											["Goblin Sapper"] = 42798,
-											["Kodo Beast Rider"] = 121262,
 											["Orgrimmar Grunt"] = 192593,
+											["Kodo Beast Rider"] = 121262,
+											["Dark Ranger"] = 149798,
 										},
 										["m_dmg"] = 0,
 										["n_dmg"] = 435121,
@@ -1762,10 +1763,10 @@ _detalhes_database = {
 										["c_max"] = 14266,
 										["id"] = 279824,
 										["r_dmg"] = 0,
-										["c_min"] = 14266,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 14266,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -1776,9 +1777,8 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire"] = {
-							},
 							["end_time"] = 1533123765,
+							["last_event"] = 1533123764,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
@@ -1808,15 +1808,16 @@ _detalhes_database = {
 							["iniciar_hps"] = false,
 							["targets_overheal"] = {
 							},
-							["heal_enemy_amt"] = 0,
+							["healing_taken"] = 0.002362,
 							["totalover"] = 167091.002362,
 							["total_without_pet"] = 0.002362,
-							["total"] = 106989.002362,
+							["totaldenied"] = 0.002362,
 							["totalover_without_pet"] = 0.002362,
 							["classe"] = "MAGE",
 							["end_time"] = 1533123765,
 							["delay"] = 1533123709,
-							["tipo"] = 2,
+							["targets_absorbs"] = {
+							},
 							["nome"] = "Hauzer",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1824,17 +1825,16 @@ _detalhes_database = {
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["healing_taken"] = 0.002362,
+							["total"] = 106989.002362,
 							["heal_enemy"] = {
 							},
-							["totaldenied"] = 0.002362,
+							["tipo"] = 2,
 							["custom"] = 0,
 							["last_event"] = 1533123756,
 							["on_hold"] = false,
 							["start_time"] = 1533123729,
 							["serial"] = "Player-3693-07375FB3",
-							["targets_absorbs"] = {
-							},
+							["heal_enemy_amt"] = 0,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -1844,7 +1844,7 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["classe"] = "PET",
 							["totalover"] = 167091.004085,
 							["total_without_pet"] = 106989.004085,
 							["total"] = 106989.004085,
@@ -1887,12 +1887,12 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["m_healed"] = 0,
-										["c_min"] = 0,
 										["totaldenied"] = 0,
+										["m_amt"] = 0,
+										["m_healed"] = 0,
 										["n_amt"] = 30,
 										["n_curado"] = 106989,
-										["m_amt"] = 0,
+										["c_min"] = 0,
 										["absorbed"] = 0,
 									},
 								},
@@ -1907,7 +1907,7 @@ _detalhes_database = {
 							["tipo"] = 2,
 							["start_time"] = 1533123729,
 							["delay"] = 1533123709,
-							["classe"] = "PET",
+							["heal_enemy_amt"] = 0,
 						}, -- [2]
 					},
 				}, -- [2]
@@ -1928,8 +1928,8 @@ _detalhes_database = {
 							["pets"] = {
 								"Tree of Life <Hauzer>", -- [1]
 							},
-							["classe"] = "MAGE",
 							["last_event"] = 1533123765,
+							["classe"] = "MAGE",
 							["tipo"] = 4,
 							["buff_uptime"] = 107,
 							["buff_uptime_spells"] = {
@@ -1956,6 +1956,7 @@ _detalhes_database = {
 							["flag_original"] = 4369,
 							["ownerName"] = "Hauzer",
 							["nome"] = "Tree of Life <Hauzer>",
+							["classe"] = "PET",
 							["spell_cast"] = {
 								[279847] = 14,
 								[279848] = 14,
@@ -1964,9 +1965,8 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["last_event"] = 0,
-							["classe"] = "PET",
 							["tipo"] = 4,
+							["last_event"] = 0,
 							["serial"] = "Vehicle-0-4228-1-22636-144416-0000619C2D",
 							["fight_component"] = true,
 						}, -- [2]
@@ -2038,17 +2038,17 @@ _detalhes_database = {
 				},
 				["end_time"] = 629949.064,
 				["combat_id"] = 43,
-				["TimeData"] = {
-				},
+				["data_inicio"] = "07:40:59",
 				["hasSaved"] = true,
 				["frags"] = {
-					["Dark Ranger"] = 7,
 					["Goblin Sapper"] = 5,
-					["Kodo Beast Rider"] = 6,
 					["Orgrimmar Grunt"] = 23,
+					["Kodo Beast Rider"] = 6,
+					["Dark Ranger"] = 7,
 				},
 				["data_fim"] = "07:42:46",
-				["data_inicio"] = "07:40:59",
+				["TimeData"] = {
+				},
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -2099,11 +2099,11 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002559,
-							["tipo"] = 1,
-							["dps_started"] = false,
-							["total"] = 192594.002559,
-							["delay"] = 0,
 							["on_hold"] = false,
+							["dps_started"] = false,
+							["end_time"] = 1533123658,
+							["delay"] = 0,
+							["friendlyfire_total"] = 0,
 							["nome"] = "Hauzer",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2111,7 +2111,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["friendlyfire_total"] = 0,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1533123657,
@@ -2119,7 +2119,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1533123640,
 							["serial"] = "Player-3693-07375FB3",
-							["end_time"] = 1533123658,
+							["total"] = 192594.002559,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -2141,9 +2141,9 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 192594.006588,
-							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1533123658,
+							["total"] = 192594.006588,
 							["delay"] = 0,
 							["ownerName"] = "Hauzer",
 							["nome"] = "Tree of Life <Hauzer>",
@@ -2169,10 +2169,10 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 279848,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -2199,10 +2199,10 @@ _detalhes_database = {
 										["c_max"] = 14266,
 										["id"] = 279824,
 										["r_dmg"] = 0,
-										["c_min"] = 14266,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 14266,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -2213,16 +2213,16 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
 							["friendlyfire"] = {
 							},
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1533123657,
 							["on_hold"] = false,
 							["start_time"] = 1533123640,
 							["serial"] = "Vehicle-0-4228-1-22636-144416-0000619C2D",
-							["total"] = 192594.006588,
+							["end_time"] = 1533123658,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -2249,8 +2249,8 @@ _detalhes_database = {
 							["pets"] = {
 								"Tree of Life <Hauzer>", -- [1]
 							},
-							["classe"] = "MAGE",
 							["last_event"] = 1533123658,
+							["classe"] = "MAGE",
 							["tipo"] = 4,
 							["buff_uptime"] = 19,
 							["buff_uptime_spells"] = {
@@ -2279,15 +2279,15 @@ _detalhes_database = {
 							["nome"] = "Tree of Life <Hauzer>",
 							["pets"] = {
 							},
+							["tipo"] = 4,
+							["last_event"] = 0,
 							["spell_cast"] = {
 								[279847] = 4,
 								[279848] = 4,
 								[279824] = 3,
 							},
-							["classe"] = "PET",
-							["last_event"] = 0,
 							["serial"] = "Vehicle-0-4228-1-22636-144416-0000619C2D",
-							["tipo"] = 4,
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -2356,8 +2356,7 @@ _detalhes_database = {
 				},
 				["end_time"] = 629842.401,
 				["combat_id"] = 42,
-				["TimeData"] = {
-				},
+				["data_inicio"] = "07:40:40",
 				["hasSaved"] = true,
 				["frags"] = {
 					["Orgrimmar Grunt"] = 5,
@@ -2365,7 +2364,8 @@ _detalhes_database = {
 					["Dark Ranger"] = 1,
 				},
 				["data_fim"] = "07:40:59",
-				["data_inicio"] = "07:40:40",
+				["TimeData"] = {
+				},
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -2414,11 +2414,11 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 10034.006825,
-							["last_event"] = 1533123554,
+							["classe"] = "MAGE",
 							["dps_started"] = false,
 							["total"] = 10034.006825,
 							["delay"] = 0,
-							["classe"] = "MAGE",
+							["end_time"] = 1533123556,
 							["nome"] = "Hauzer",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2440,10 +2440,10 @@ _detalhes_database = {
 										["c_max"] = 2499,
 										["id"] = 228598,
 										["r_dmg"] = 0,
-										["c_min"] = 2361,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 2361,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -2469,10 +2469,10 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 228597,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -2498,10 +2498,10 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 122,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -2513,7 +2513,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["end_time"] = 1533123556,
+							["last_event"] = 1533123554,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
@@ -2539,30 +2539,23 @@ _detalhes_database = {
 							["targets"] = {
 								["Hauzer"] = 1780,
 							},
-							["total"] = 1780.008528,
+							["serial"] = "Player-3693-07375FB3",
 							["pets"] = {
 							},
-							["iniciar_hps"] = false,
+							["totalover_without_pet"] = 0.008528,
 							["healing_from"] = {
 								["Hauzer"] = true,
 							},
 							["healing_taken"] = 1780.008528,
 							["totalover"] = 143.008528,
 							["total_without_pet"] = 1780.008528,
-							["totalover_without_pet"] = 0.008528,
+							["iniciar_hps"] = false,
 							["totaldenied"] = 0.008528,
 							["fight_component"] = true,
-							["end_time"] = 1533123556,
-							["classe"] = "MAGE",
+							["total"] = 1780.008528,
 							["heal_enemy_amt"] = 0,
+							["classe"] = "MAGE",
 							["nome"] = "Hauzer",
-							["targets_absorbs"] = {
-								["Hauzer"] = 1780,
-							},
-							["grupo"] = true,
-							["tipo"] = 2,
-							["heal_enemy"] = {
-							},
 							["spells"] = {
 								["_ActorTable"] = {
 									[11426] = {
@@ -2598,12 +2591,19 @@ _detalhes_database = {
 								},
 								["tipo"] = 3,
 							},
+							["grupo"] = true,
+							["end_time"] = 1533123556,
+							["heal_enemy"] = {
+							},
+							["tipo"] = 2,
 							["custom"] = 0,
 							["last_event"] = 1533123547,
 							["on_hold"] = false,
 							["start_time"] = 1533123537,
-							["serial"] = "Player-3693-07375FB3",
 							["delay"] = 0,
+							["targets_absorbs"] = {
+								["Hauzer"] = 1780,
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -2661,8 +2661,7 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["classe"] = "MAGE",
-							["debuff_uptime_targets"] = {
-							},
+							["nome"] = "Hauzer",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[11426] = {
@@ -2734,27 +2733,28 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["tipo"] = 4,
+							["pets"] = {
+							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 22,
-							["pets"] = {
+							["debuff_uptime_targets"] = {
 							},
 							["cc_done"] = 1.00288,
 							["buff_uptime_targets"] = {
 							},
 							["cc_break"] = 1.001802,
-							["cc_done_targets"] = {
-								["Possessing Spirit"] = 1,
-							},
-							["cc_break_oque"] = {
-								[122] = 1,
-							},
-							["nome"] = "Hauzer",
-							["last_event"] = 1533123556,
 							["spell_cast"] = {
 								[30455] = 4,
 								[116] = 3,
 								[122] = 1,
+							},
+							["cc_break_oque"] = {
+								[122] = 1,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1533123556,
+							["cc_done_targets"] = {
+								["Possessing Spirit"] = 1,
 							},
 							["cc_break_targets"] = {
 								["Possessing Spirit"] = 1,
@@ -2845,14 +2845,14 @@ _detalhes_database = {
 				},
 				["end_time"] = 629739.968,
 				["combat_id"] = 41,
-				["TimeData"] = {
-				},
+				["data_inicio"] = "07:38:54",
 				["hasSaved"] = true,
 				["frags"] = {
 					["Possessing Spirit"] = 2,
 				},
 				["data_fim"] = "07:39:17",
-				["data_inicio"] = "07:38:54",
+				["TimeData"] = {
+				},
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -2901,11 +2901,11 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 15564.006391,
-							["last_event"] = 1533123524,
+							["classe"] = "MAGE",
 							["dps_started"] = false,
 							["total"] = 15564.006391,
 							["delay"] = 0,
-							["classe"] = "MAGE",
+							["end_time"] = 1533123524,
 							["nome"] = "Hauzer",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -2927,10 +2927,10 @@ _detalhes_database = {
 										["c_max"] = 1035,
 										["id"] = 228354,
 										["r_dmg"] = 0,
-										["c_min"] = 689,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 689,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -2956,10 +2956,10 @@ _detalhes_database = {
 										["c_max"] = 1116,
 										["id"] = 228597,
 										["r_dmg"] = 0,
-										["c_min"] = 1115,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 1115,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -2985,10 +2985,10 @@ _detalhes_database = {
 										["c_max"] = 8810,
 										["id"] = 228600,
 										["r_dmg"] = 0,
-										["c_min"] = 8810,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 8810,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -3000,7 +3000,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["end_time"] = 1533123524,
+							["last_event"] = 1533123524,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
@@ -3025,30 +3025,23 @@ _detalhes_database = {
 							["targets"] = {
 								["Hauzer"] = 989,
 							},
-							["total"] = 989.006706,
+							["serial"] = "Player-3693-07375FB3",
 							["pets"] = {
 							},
-							["iniciar_hps"] = false,
+							["totalover_without_pet"] = 0.006706,
 							["healing_from"] = {
 								["Hauzer"] = true,
 							},
 							["healing_taken"] = 989.006706,
 							["totalover"] = 0.006706,
 							["total_without_pet"] = 989.006706,
-							["totalover_without_pet"] = 0.006706,
+							["iniciar_hps"] = false,
 							["totaldenied"] = 0.006706,
 							["fight_component"] = true,
-							["end_time"] = 1533123524,
-							["classe"] = "MAGE",
+							["total"] = 989.006706,
 							["heal_enemy_amt"] = 0,
+							["classe"] = "MAGE",
 							["nome"] = "Hauzer",
-							["targets_absorbs"] = {
-								["Hauzer"] = 989,
-							},
-							["grupo"] = true,
-							["tipo"] = 2,
-							["heal_enemy"] = {
-							},
 							["spells"] = {
 								["_ActorTable"] = {
 									[11426] = {
@@ -3083,12 +3076,19 @@ _detalhes_database = {
 								},
 								["tipo"] = 3,
 							},
+							["grupo"] = true,
+							["end_time"] = 1533123524,
+							["heal_enemy"] = {
+							},
+							["tipo"] = 2,
 							["custom"] = 0,
 							["last_event"] = 1533123523,
 							["on_hold"] = false,
 							["start_time"] = 1533123519,
-							["serial"] = "Player-3693-07375FB3",
 							["delay"] = 0,
+							["targets_absorbs"] = {
+								["Hauzer"] = 989,
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -3217,22 +3217,22 @@ _detalhes_database = {
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 15,
-							["nome"] = "Hauzer",
+							["debuff_uptime_targets"] = {
+							},
 							["grupo"] = true,
 							["spell_cast"] = {
 								[199786] = 1,
 								[44614] = 2,
 								[116] = 2,
 							},
-							["tipo"] = 4,
 							["last_event"] = 1533123524,
+							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
 							["pets"] = {
 							},
 							["serial"] = "Player-3693-07375FB3",
-							["debuff_uptime_targets"] = {
-							},
+							["nome"] = "Hauzer",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -3302,15 +3302,15 @@ _detalhes_database = {
 				},
 				["end_time"] = 629708.812,
 				["combat_id"] = 40,
-				["TimeData"] = {
-				},
+				["data_inicio"] = "07:38:35",
 				["resincked"] = true,
 				["hasSaved"] = true,
 				["frags"] = {
 					["Possessing Spirit"] = 1,
 				},
 				["data_fim"] = "07:38:45",
-				["data_inicio"] = "07:38:35",
+				["TimeData"] = {
+				},
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -3359,11 +3359,11 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 11607.007982,
-							["last_event"] = 1533123505,
+							["classe"] = "MAGE",
 							["dps_started"] = false,
 							["total"] = 11607.007982,
 							["delay"] = 0,
-							["classe"] = "MAGE",
+							["end_time"] = 1533123506,
 							["nome"] = "Hauzer",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3385,10 +3385,10 @@ _detalhes_database = {
 										["c_max"] = 2636,
 										["id"] = 228598,
 										["r_dmg"] = 0,
-										["c_min"] = 2568,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 2568,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -3414,10 +3414,10 @@ _detalhes_database = {
 										["c_max"] = 1116,
 										["id"] = 228597,
 										["r_dmg"] = 0,
-										["c_min"] = 1116,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 1116,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -3443,10 +3443,10 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 148022,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -3472,10 +3472,10 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 228600,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -3487,7 +3487,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["end_time"] = 1533123506,
+							["last_event"] = 1533123505,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
@@ -3512,30 +3512,23 @@ _detalhes_database = {
 							["targets"] = {
 								["Hauzer"] = 990,
 							},
-							["total"] = 990.006019,
+							["serial"] = "Player-3693-07375FB3",
 							["pets"] = {
 							},
-							["iniciar_hps"] = false,
+							["totalover_without_pet"] = 0.006019,
 							["healing_from"] = {
 								["Hauzer"] = true,
 							},
 							["healing_taken"] = 990.006019,
 							["totalover"] = 0.006019,
 							["total_without_pet"] = 990.006019,
-							["totalover_without_pet"] = 0.006019,
+							["iniciar_hps"] = false,
 							["totaldenied"] = 0.006019,
 							["fight_component"] = true,
-							["end_time"] = 1533123506,
-							["classe"] = "MAGE",
+							["total"] = 990.006019,
 							["heal_enemy_amt"] = 0,
+							["classe"] = "MAGE",
 							["nome"] = "Hauzer",
-							["targets_absorbs"] = {
-								["Hauzer"] = 990,
-							},
-							["grupo"] = true,
-							["tipo"] = 2,
-							["heal_enemy"] = {
-							},
 							["spells"] = {
 								["_ActorTable"] = {
 									[11426] = {
@@ -3570,12 +3563,19 @@ _detalhes_database = {
 								},
 								["tipo"] = 3,
 							},
+							["grupo"] = true,
+							["end_time"] = 1533123506,
+							["heal_enemy"] = {
+							},
+							["tipo"] = 2,
 							["custom"] = 0,
 							["last_event"] = 1533123505,
 							["on_hold"] = false,
 							["start_time"] = 1533123501,
-							["serial"] = "Player-3693-07375FB3",
 							["delay"] = 0,
+							["targets_absorbs"] = {
+								["Hauzer"] = 990,
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -3715,22 +3715,22 @@ _detalhes_database = {
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 9,
-							["nome"] = "Hauzer",
+							["debuff_uptime_targets"] = {
+							},
 							["grupo"] = true,
 							["spell_cast"] = {
 								[30455] = 2,
 								[116] = 1,
 								[199786] = 1,
 							},
-							["tipo"] = 4,
 							["last_event"] = 1533123506,
+							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
 							["pets"] = {
 							},
 							["serial"] = "Player-3693-07375FB3",
-							["debuff_uptime_targets"] = {
-							},
+							["nome"] = "Hauzer",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -3800,14 +3800,14 @@ _detalhes_database = {
 				},
 				["end_time"] = 629690.118,
 				["combat_id"] = 39,
-				["TimeData"] = {
-				},
+				["data_inicio"] = "07:38:18",
 				["hasSaved"] = true,
 				["frags"] = {
 					["Possessing Spirit"] = 1,
 				},
 				["data_fim"] = "07:38:27",
-				["data_inicio"] = "07:38:18",
+				["TimeData"] = {
+				},
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -3856,11 +3856,11 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 9496.006834,
-							["last_event"] = 1533123492,
+							["classe"] = "MAGE",
 							["dps_started"] = false,
 							["total"] = 9496.006834,
 							["delay"] = 0,
-							["classe"] = "MAGE",
+							["end_time"] = 1533123493,
 							["nome"] = "Hauzer",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3882,10 +3882,10 @@ _detalhes_database = {
 										["c_max"] = 2499,
 										["id"] = 228598,
 										["r_dmg"] = 0,
-										["c_min"] = 2430,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 2430,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -3911,10 +3911,10 @@ _detalhes_database = {
 										["c_max"] = 1116,
 										["id"] = 228597,
 										["r_dmg"] = 0,
-										["c_min"] = 1115,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 1115,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -3940,10 +3940,10 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 122,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -3955,7 +3955,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["end_time"] = 1533123493,
+							["last_event"] = 1533123492,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
@@ -3981,30 +3981,23 @@ _detalhes_database = {
 							["targets"] = {
 								["Hauzer"] = 1018,
 							},
-							["total"] = 1018.00766,
+							["serial"] = "Player-3693-07375FB3",
 							["pets"] = {
 							},
-							["iniciar_hps"] = false,
+							["totalover_without_pet"] = 0.00766,
 							["healing_from"] = {
 								["Hauzer"] = true,
 							},
 							["healing_taken"] = 1018.00766,
 							["totalover"] = 3534.00766,
 							["total_without_pet"] = 1018.00766,
-							["totalover_without_pet"] = 0.00766,
+							["iniciar_hps"] = false,
 							["totaldenied"] = 0.00766,
 							["fight_component"] = true,
-							["end_time"] = 1533123493,
-							["classe"] = "MAGE",
+							["total"] = 1018.00766,
 							["heal_enemy_amt"] = 0,
+							["classe"] = "MAGE",
 							["nome"] = "Hauzer",
-							["targets_absorbs"] = {
-								["Hauzer"] = 1018,
-							},
-							["grupo"] = true,
-							["tipo"] = 2,
-							["heal_enemy"] = {
-							},
 							["spells"] = {
 								["_ActorTable"] = {
 									[11426] = {
@@ -4040,12 +4033,19 @@ _detalhes_database = {
 								},
 								["tipo"] = 3,
 							},
+							["grupo"] = true,
+							["end_time"] = 1533123493,
+							["heal_enemy"] = {
+							},
+							["tipo"] = 2,
 							["custom"] = 0,
 							["last_event"] = 1533123488,
 							["on_hold"] = false,
 							["start_time"] = 1533123485,
-							["serial"] = "Player-3693-07375FB3",
 							["delay"] = 0,
+							["targets_absorbs"] = {
+								["Hauzer"] = 1018,
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -4090,16 +4090,7 @@ _detalhes_database = {
 							},
 							["buff_uptime_targets"] = {
 							},
-							["spell_cast"] = {
-								[11426] = 1,
-								[122] = 1,
-								[116] = 3,
-								[2139] = 1,
-								[30455] = 3,
-							},
 							["tipo"] = 4,
-							["pets"] = {
-							},
 							["cc_break_spells"] = {
 								["_ActorTable"] = {
 									[228598] = {
@@ -4115,6 +4106,9 @@ _detalhes_database = {
 									},
 								},
 								["tipo"] = 9,
+							},
+							["buff_uptime"] = 58,
+							["debuff_uptime_targets"] = {
 							},
 							["cc_done_spells"] = {
 								["_ActorTable"] = {
@@ -4220,28 +4214,34 @@ _detalhes_database = {
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 15,
-							["debuff_uptime_targets"] = {
+							["cc_done_targets"] = {
+								["Possessing Spirit"] = 1,
 							},
 							["cc_done"] = 1.001075,
 							["interrupt"] = 1.002302,
 							["interrupt_targets"] = {
 								["Possessing Spirit"] = 1,
 							},
-							["cc_break"] = 1.007858,
-							["cc_done_targets"] = {
-								["Possessing Spirit"] = 1,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[11426] = 1,
+								[122] = 1,
+								[116] = 3,
+								[2139] = 1,
+								[30455] = 3,
 							},
 							["cc_break_oque"] = {
 								[122] = 1,
 							},
 							["nome"] = "Hauzer",
 							["last_event"] = 1533123493,
-							["grupo"] = true,
+							["cc_break"] = 1.007858,
 							["cc_break_targets"] = {
 								["Possessing Spirit"] = 1,
 							},
 							["serial"] = "Player-3693-07375FB3",
-							["buff_uptime"] = 58,
+							["pets"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [4]
@@ -4311,14 +4311,14 @@ _detalhes_database = {
 				},
 				["end_time"] = 629677.545,
 				["combat_id"] = 38,
-				["TimeData"] = {
-				},
+				["data_inicio"] = "07:38:01",
 				["hasSaved"] = true,
 				["frags"] = {
 					["Possessing Spirit"] = 1,
 				},
 				["data_fim"] = "07:38:14",
-				["data_inicio"] = "07:38:01",
+				["TimeData"] = {
+				},
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -4367,11 +4367,11 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 11640.007544,
-							["last_event"] = 1533123451,
+							["classe"] = "MAGE",
 							["dps_started"] = false,
 							["total"] = 11640.007544,
 							["delay"] = 0,
-							["classe"] = "MAGE",
+							["end_time"] = 1533123451,
 							["nome"] = "Hauzer",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4393,10 +4393,10 @@ _detalhes_database = {
 										["c_max"] = 2430,
 										["id"] = 228598,
 										["r_dmg"] = 0,
-										["c_min"] = 2361,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 2361,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -4422,10 +4422,10 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 228597,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -4451,10 +4451,10 @@ _detalhes_database = {
 										["c_max"] = 1035,
 										["id"] = 228354,
 										["r_dmg"] = 0,
-										["c_min"] = 1035,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 1035,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -4466,7 +4466,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["end_time"] = 1533123451,
+							["last_event"] = 1533123451,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
@@ -4492,30 +4492,23 @@ _detalhes_database = {
 							["targets"] = {
 								["Hauzer"] = 594,
 							},
-							["total"] = 594.006353,
+							["serial"] = "Player-3693-07375FB3",
 							["pets"] = {
 							},
-							["iniciar_hps"] = false,
+							["totalover_without_pet"] = 0.006353,
 							["healing_from"] = {
 								["Hauzer"] = true,
 							},
 							["healing_taken"] = 594.006353,
 							["totalover"] = 3732.006353,
 							["total_without_pet"] = 594.006353,
-							["totalover_without_pet"] = 0.006353,
+							["iniciar_hps"] = false,
 							["totaldenied"] = 0.006353,
 							["fight_component"] = true,
-							["end_time"] = 1533123451,
-							["classe"] = "MAGE",
+							["total"] = 594.006353,
 							["heal_enemy_amt"] = 0,
+							["classe"] = "MAGE",
 							["nome"] = "Hauzer",
-							["targets_absorbs"] = {
-								["Hauzer"] = 594,
-							},
-							["grupo"] = true,
-							["tipo"] = 2,
-							["heal_enemy"] = {
-							},
 							["spells"] = {
 								["_ActorTable"] = {
 									[11426] = {
@@ -4551,12 +4544,19 @@ _detalhes_database = {
 								},
 								["tipo"] = 3,
 							},
+							["grupo"] = true,
+							["end_time"] = 1533123451,
+							["heal_enemy"] = {
+							},
+							["tipo"] = 2,
 							["custom"] = 0,
 							["last_event"] = 1533123450,
 							["on_hold"] = false,
 							["start_time"] = 1533123445,
-							["serial"] = "Player-3693-07375FB3",
 							["delay"] = 0,
+							["targets_absorbs"] = {
+								["Hauzer"] = 594,
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -4707,7 +4707,8 @@ _detalhes_database = {
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 12,
-							["nome"] = "Hauzer",
+							["debuff_uptime_targets"] = {
+							},
 							["grupo"] = true,
 							["spell_cast"] = {
 								[30455] = 2,
@@ -4715,15 +4716,14 @@ _detalhes_database = {
 								[44614] = 2,
 								[11426] = 1,
 							},
-							["tipo"] = 4,
 							["last_event"] = 1533123451,
+							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
 							["pets"] = {
 							},
 							["serial"] = "Player-3693-07375FB3",
-							["debuff_uptime_targets"] = {
-							},
+							["nome"] = "Hauzer",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -4793,15 +4793,15 @@ _detalhes_database = {
 				},
 				["end_time"] = 629635.646,
 				["combat_id"] = 37,
-				["TimeData"] = {
-				},
+				["data_inicio"] = "07:37:24",
 				["resincked"] = true,
 				["hasSaved"] = true,
 				["frags"] = {
 					["Possessing Spirit"] = 1,
 				},
 				["data_fim"] = "07:37:32",
-				["data_inicio"] = "07:37:24",
+				["TimeData"] = {
+				},
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -4850,11 +4850,11 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 16078.003726,
-							["last_event"] = 1533123429,
+							["classe"] = "MAGE",
 							["dps_started"] = false,
 							["total"] = 16078.003726,
 							["delay"] = 0,
-							["classe"] = "MAGE",
+							["end_time"] = 1533123430,
 							["nome"] = "Hauzer",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4876,10 +4876,10 @@ _detalhes_database = {
 										["c_max"] = 1115,
 										["id"] = 228597,
 										["r_dmg"] = 0,
-										["c_min"] = 1115,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 1115,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -4905,10 +4905,10 @@ _detalhes_database = {
 										["c_max"] = 2361,
 										["id"] = 228598,
 										["r_dmg"] = 0,
-										["c_min"] = 2361,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 2361,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -4934,10 +4934,10 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 148022,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -4963,10 +4963,10 @@ _detalhes_database = {
 										["c_max"] = 8810,
 										["id"] = 228600,
 										["r_dmg"] = 0,
-										["c_min"] = 8810,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 8810,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -4992,10 +4992,10 @@ _detalhes_database = {
 										["c_max"] = 1035,
 										["id"] = 228354,
 										["r_dmg"] = 0,
-										["c_min"] = 1034,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 1034,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -5007,7 +5007,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["end_time"] = 1533123430,
+							["last_event"] = 1533123429,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
@@ -5032,30 +5032,23 @@ _detalhes_database = {
 							["targets"] = {
 								["Hauzer"] = 792,
 							},
-							["total"] = 792.004083,
+							["serial"] = "Player-3693-07375FB3",
 							["pets"] = {
 							},
-							["iniciar_hps"] = false,
+							["totalover_without_pet"] = 0.004083,
 							["healing_from"] = {
 								["Hauzer"] = true,
 							},
 							["healing_taken"] = 792.004083,
 							["totalover"] = 0.004083,
 							["total_without_pet"] = 792.004083,
-							["totalover_without_pet"] = 0.004083,
+							["iniciar_hps"] = false,
 							["totaldenied"] = 0.004083,
 							["fight_component"] = true,
-							["end_time"] = 1533123430,
-							["classe"] = "MAGE",
+							["total"] = 792.004083,
 							["heal_enemy_amt"] = 0,
+							["classe"] = "MAGE",
 							["nome"] = "Hauzer",
-							["targets_absorbs"] = {
-								["Hauzer"] = 792,
-							},
-							["grupo"] = true,
-							["tipo"] = 2,
-							["heal_enemy"] = {
-							},
 							["spells"] = {
 								["_ActorTable"] = {
 									[11426] = {
@@ -5090,12 +5083,19 @@ _detalhes_database = {
 								},
 								["tipo"] = 3,
 							},
+							["grupo"] = true,
+							["end_time"] = 1533123430,
+							["heal_enemy"] = {
+							},
+							["tipo"] = 2,
 							["custom"] = 0,
 							["last_event"] = 1533123429,
 							["on_hold"] = false,
 							["start_time"] = 1533123426,
-							["serial"] = "Player-3693-07375FB3",
 							["delay"] = 0,
+							["targets_absorbs"] = {
+								["Hauzer"] = 792,
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -5235,7 +5235,8 @@ _detalhes_database = {
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 11,
-							["nome"] = "Hauzer",
+							["debuff_uptime_targets"] = {
+							},
 							["grupo"] = true,
 							["spell_cast"] = {
 								[30455] = 1,
@@ -5243,15 +5244,14 @@ _detalhes_database = {
 								[116] = 1,
 								[199786] = 1,
 							},
-							["tipo"] = 4,
 							["last_event"] = 1533123430,
+							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
 							["pets"] = {
 							},
 							["serial"] = "Player-3693-07375FB3",
-							["debuff_uptime_targets"] = {
-							},
+							["nome"] = "Hauzer",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -5321,14 +5321,14 @@ _detalhes_database = {
 				},
 				["end_time"] = 629614.042,
 				["combat_id"] = 36,
-				["TimeData"] = {
-				},
+				["data_inicio"] = "07:37:03",
 				["hasSaved"] = true,
 				["frags"] = {
 					["Possessing Spirit"] = 1,
 				},
 				["data_fim"] = "07:37:11",
-				["data_inicio"] = "07:37:03",
+				["TimeData"] = {
+				},
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -5377,11 +5377,11 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 6010.004831,
-							["tipo"] = 1,
-							["dps_started"] = false,
-							["total"] = 6010.004831,
-							["delay"] = 0,
 							["on_hold"] = false,
+							["dps_started"] = false,
+							["end_time"] = 1533123390,
+							["delay"] = 0,
+							["friendlyfire_total"] = 0,
 							["nome"] = "Hauzer",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5403,10 +5403,10 @@ _detalhes_database = {
 										["c_max"] = 787,
 										["id"] = 228598,
 										["r_dmg"] = 0,
-										["c_min"] = 787,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 787,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -5433,10 +5433,10 @@ _detalhes_database = {
 										["c_max"] = 1116,
 										["id"] = 228597,
 										["r_dmg"] = 0,
-										["c_min"] = 1116,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 1116,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -5462,10 +5462,10 @@ _detalhes_database = {
 										["c_max"] = 1035,
 										["id"] = 228354,
 										["r_dmg"] = 0,
-										["c_min"] = 1034,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 1034,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -5477,7 +5477,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["friendlyfire_total"] = 0,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1533123389,
@@ -5485,7 +5485,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1533123380,
 							["serial"] = "Player-3693-07375FB3",
-							["end_time"] = 1533123390,
+							["total"] = 6010.004831,
 						}, -- [1]
 					},
 				}, -- [1]
@@ -5545,8 +5545,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["pets"] = {
-							},
+							["buff_uptime"] = 50,
 							["classe"] = "MAGE",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -5644,7 +5643,8 @@ _detalhes_database = {
 							},
 							["tipo"] = 4,
 							["nome"] = "Hauzer",
-							["buff_uptime"] = 50,
+							["pets"] = {
+							},
 							["serial"] = "Player-3693-07375FB3",
 							["last_event"] = 1533123390,
 						}, -- [1]
@@ -5715,15 +5715,15 @@ _detalhes_database = {
 				},
 				["end_time"] = 629574.3,
 				["combat_id"] = 35,
-				["TimeData"] = {
-				},
+				["data_inicio"] = "07:36:21",
 				["hasSaved"] = true,
 				["frags"] = {
 					["Possessed Grunt"] = 1,
 					["Possessing Spirit"] = 1,
 				},
 				["data_fim"] = "07:36:31",
-				["data_inicio"] = "07:36:21",
+				["TimeData"] = {
+				},
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -5773,11 +5773,11 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 12139.003657,
-							["last_event"] = 1533123282,
+							["classe"] = "MAGE",
 							["dps_started"] = false,
 							["total"] = 12139.003657,
 							["delay"] = 0,
-							["classe"] = "MAGE",
+							["end_time"] = 1533123283,
 							["nome"] = "Hauzer",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5799,10 +5799,10 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 228598,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -5829,10 +5829,10 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 122,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -5858,10 +5858,10 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 228597,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -5887,10 +5887,10 @@ _detalhes_database = {
 										["c_max"] = 977,
 										["id"] = 228354,
 										["r_dmg"] = 0,
-										["c_min"] = 977,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 977,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -5902,7 +5902,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["end_time"] = 1533123283,
+							["last_event"] = 1533123282,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
@@ -5927,30 +5927,23 @@ _detalhes_database = {
 							["targets"] = {
 								["Hauzer"] = 1896,
 							},
-							["total"] = 1896.008953,
+							["serial"] = "Player-3693-07375FB3",
 							["pets"] = {
 							},
-							["iniciar_hps"] = false,
+							["totalover_without_pet"] = 0.008953,
 							["healing_from"] = {
 								["Hauzer"] = true,
 							},
 							["healing_taken"] = 1896.008953,
 							["totalover"] = 0.008953,
 							["total_without_pet"] = 1896.008953,
-							["totalover_without_pet"] = 0.008953,
+							["iniciar_hps"] = false,
 							["totaldenied"] = 0.008953,
 							["fight_component"] = true,
-							["end_time"] = 1533123283,
-							["classe"] = "MAGE",
+							["total"] = 1896.008953,
 							["heal_enemy_amt"] = 0,
+							["classe"] = "MAGE",
 							["nome"] = "Hauzer",
-							["targets_absorbs"] = {
-								["Hauzer"] = 1896,
-							},
-							["grupo"] = true,
-							["tipo"] = 2,
-							["heal_enemy"] = {
-							},
 							["spells"] = {
 								["_ActorTable"] = {
 									[11426] = {
@@ -5985,12 +5978,19 @@ _detalhes_database = {
 								},
 								["tipo"] = 3,
 							},
+							["grupo"] = true,
+							["end_time"] = 1533123283,
+							["heal_enemy"] = {
+							},
+							["tipo"] = 2,
 							["custom"] = 0,
 							["last_event"] = 1533123279,
 							["on_hold"] = false,
 							["start_time"] = 1533123279,
-							["serial"] = "Player-3693-07375FB3",
 							["delay"] = 0,
+							["targets_absorbs"] = {
+								["Hauzer"] = 1896,
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -6152,8 +6152,8 @@ _detalhes_database = {
 								[116] = 4,
 								[44614] = 1,
 							},
-							["tipo"] = 4,
 							["nome"] = "Hauzer",
+							["tipo"] = 4,
 							["last_event"] = 1533123283,
 							["pets"] = {
 							},
@@ -6232,8 +6232,7 @@ _detalhes_database = {
 				},
 				["end_time"] = 629467.134,
 				["combat_id"] = 34,
-				["TimeData"] = {
-				},
+				["data_inicio"] = "07:34:32",
 				["resincked"] = true,
 				["hasSaved"] = true,
 				["frags"] = {
@@ -6241,7 +6240,8 @@ _detalhes_database = {
 					["Shimmershell Snail"] = 1,
 				},
 				["data_fim"] = "07:34:44",
-				["data_inicio"] = "07:34:32",
+				["TimeData"] = {
+				},
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -6289,11 +6289,11 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 4646.005541,
-							["last_event"] = 1533123212,
+							["classe"] = "MAGE",
 							["dps_started"] = false,
 							["total"] = 4646.005541,
 							["delay"] = 0,
-							["classe"] = "MAGE",
+							["end_time"] = 1533123214,
 							["nome"] = "Hauzer",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -6315,10 +6315,10 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 228598,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -6344,10 +6344,10 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 228597,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -6373,10 +6373,10 @@ _detalhes_database = {
 										["c_max"] = 976,
 										["id"] = 228354,
 										["r_dmg"] = 0,
-										["c_min"] = 976,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 976,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -6388,7 +6388,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["end_time"] = 1533123214,
+							["last_event"] = 1533123212,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
@@ -6456,8 +6456,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["pets"] = {
-							},
+							["buff_uptime"] = 43,
 							["classe"] = "MAGE",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -6542,7 +6541,8 @@ _detalhes_database = {
 							},
 							["tipo"] = 4,
 							["nome"] = "Hauzer",
-							["buff_uptime"] = 43,
+							["pets"] = {
+							},
 							["serial"] = "Player-3693-07375FB3",
 							["last_event"] = 1533123214,
 						}, -- [1]
@@ -6613,14 +6613,14 @@ _detalhes_database = {
 				},
 				["end_time"] = 629398.565,
 				["combat_id"] = 33,
-				["TimeData"] = {
-				},
+				["data_inicio"] = "07:33:26",
 				["hasSaved"] = true,
 				["frags"] = {
 					["Sin'dorei Vanguard"] = 1,
 				},
 				["data_fim"] = "07:33:35",
-				["data_inicio"] = "07:33:26",
+				["TimeData"] = {
+				},
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -6668,11 +6668,11 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 5673.006477,
-							["tipo"] = 1,
-							["dps_started"] = false,
-							["total"] = 5673.006477,
-							["delay"] = 0,
 							["on_hold"] = false,
+							["dps_started"] = false,
+							["end_time"] = 1533123203,
+							["delay"] = 0,
+							["friendlyfire_total"] = 0,
 							["nome"] = "Hauzer",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -6694,10 +6694,10 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 228597,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -6723,10 +6723,10 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 148022,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -6752,10 +6752,10 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 228600,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -6767,7 +6767,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["friendlyfire_total"] = 0,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["last_event"] = 1533123202,
@@ -6775,7 +6775,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1533123198,
 							["serial"] = "Player-3693-07375FB3",
-							["end_time"] = 1533123203,
+							["total"] = 5673.006477,
 						}, -- [1]
 					},
 				}, -- [1]
@@ -6813,8 +6813,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["pets"] = {
-							},
+							["buff_uptime"] = 21,
 							["classe"] = "MAGE",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
@@ -6888,7 +6887,8 @@ _detalhes_database = {
 							},
 							["tipo"] = 4,
 							["nome"] = "Hauzer",
-							["buff_uptime"] = 21,
+							["pets"] = {
+							},
 							["serial"] = "Player-3693-07375FB3",
 							["last_event"] = 1533123203,
 						}, -- [1]
@@ -6959,14 +6959,14 @@ _detalhes_database = {
 				},
 				["end_time"] = 629387.163,
 				["combat_id"] = 32,
-				["TimeData"] = {
-				},
+				["data_inicio"] = "07:33:18",
 				["hasSaved"] = true,
 				["frags"] = {
 					["Sin'dorei Vanguard"] = 1,
 				},
 				["data_fim"] = "07:33:24",
-				["data_inicio"] = "07:33:18",
+				["TimeData"] = {
+				},
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -7015,11 +7015,11 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3483.006281,
-							["last_event"] = 1533123179,
+							["classe"] = "MAGE",
 							["dps_started"] = false,
 							["total"] = 3483.006281,
 							["delay"] = 0,
-							["classe"] = "MAGE",
+							["end_time"] = 1533123180,
 							["nome"] = "Hauzer",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7041,10 +7041,10 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 228598,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -7070,10 +7070,10 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 228597,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -7099,10 +7099,10 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 122,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -7114,7 +7114,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["end_time"] = 1533123180,
+							["last_event"] = 1533123179,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
@@ -7140,30 +7140,23 @@ _detalhes_database = {
 							["targets"] = {
 								["Hauzer"] = 6877,
 							},
-							["total"] = 6877.001399,
+							["serial"] = "Player-3693-07375FB3",
 							["pets"] = {
 							},
-							["iniciar_hps"] = false,
+							["totalover_without_pet"] = 0.001399,
 							["healing_from"] = {
 								["Hauzer"] = true,
 							},
 							["healing_taken"] = 6877.001399,
 							["totalover"] = 221.001399,
 							["total_without_pet"] = 6877.001399,
-							["totalover_without_pet"] = 0.001399,
+							["iniciar_hps"] = false,
 							["totaldenied"] = 0.001399,
 							["fight_component"] = true,
-							["end_time"] = 1533123180,
-							["classe"] = "MAGE",
+							["total"] = 6877.001399,
 							["heal_enemy_amt"] = 0,
+							["classe"] = "MAGE",
 							["nome"] = "Hauzer",
-							["targets_absorbs"] = {
-								["Hauzer"] = 6877,
-							},
-							["grupo"] = true,
-							["tipo"] = 2,
-							["heal_enemy"] = {
-							},
 							["spells"] = {
 								["_ActorTable"] = {
 									[11426] = {
@@ -7199,12 +7192,19 @@ _detalhes_database = {
 								},
 								["tipo"] = 3,
 							},
+							["grupo"] = true,
+							["end_time"] = 1533123180,
+							["heal_enemy"] = {
+							},
+							["tipo"] = 2,
 							["custom"] = 0,
 							["last_event"] = 1533123177,
 							["on_hold"] = false,
 							["start_time"] = 1533123164,
-							["serial"] = "Player-3693-07375FB3",
 							["delay"] = 0,
+							["targets_absorbs"] = {
+								["Hauzer"] = 6877,
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -7262,7 +7262,8 @@ _detalhes_database = {
 								["tipo"] = 9,
 							},
 							["classe"] = "MAGE",
-							["nome"] = "Hauzer",
+							["debuff_uptime_targets"] = {
+							},
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[205473] = {
@@ -7334,29 +7335,28 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["tipo"] = 4,
-							["fight_component"] = true,
-							["debuff_uptime"] = 10,
 							["pets"] = {
 							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 10,
+							["nome"] = "Hauzer",
 							["cc_done"] = 1.007068,
 							["buff_uptime_targets"] = {
 							},
 							["cc_break"] = 1.004743,
-							["cc_done_targets"] = {
-								["Azerite Recovery Specialist"] = 1,
-							},
-							["cc_break_oque"] = {
-								[122] = 1,
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["last_event"] = 1533123180,
 							["spell_cast"] = {
 								[30455] = 2,
 								[11426] = 1,
 								[116] = 3,
 								[122] = 1,
+							},
+							["cc_break_oque"] = {
+								[122] = 1,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1533123180,
+							["cc_done_targets"] = {
+								["Azerite Recovery Specialist"] = 1,
 							},
 							["cc_break_targets"] = {
 								["Azerite Recovery Specialist"] = 1,
@@ -7447,14 +7447,14 @@ _detalhes_database = {
 				},
 				["end_time"] = 629364.809,
 				["combat_id"] = 31,
-				["TimeData"] = {
-				},
+				["data_inicio"] = "07:32:44",
 				["hasSaved"] = true,
 				["frags"] = {
 					["Azerite Recovery Specialist"] = 1,
 				},
 				["data_fim"] = "07:33:01",
-				["data_inicio"] = "07:32:44",
+				["TimeData"] = {
+				},
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -7503,11 +7503,11 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 972.006258,
-							["last_event"] = 1533123149,
+							["classe"] = "MAGE",
 							["dps_started"] = false,
 							["total"] = 972.006258,
 							["delay"] = 1533123136,
-							["classe"] = "MAGE",
+							["end_time"] = 1533123149,
 							["nome"] = "Hauzer",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7529,10 +7529,10 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 228598,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -7558,10 +7558,10 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 228597,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -7587,10 +7587,10 @@ _detalhes_database = {
 										["c_max"] = 74,
 										["id"] = 122,
 										["r_dmg"] = 0,
-										["c_min"] = 74,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 74,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -7602,7 +7602,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["end_time"] = 1533123149,
+							["last_event"] = 1533123149,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
@@ -7628,30 +7628,23 @@ _detalhes_database = {
 							["targets"] = {
 								["Hauzer"] = 2314,
 							},
-							["total"] = 2314.002635,
+							["serial"] = "Player-3693-07375FB3",
 							["pets"] = {
 							},
-							["iniciar_hps"] = false,
+							["totalover_without_pet"] = 0.002635,
 							["healing_from"] = {
 								["Hauzer"] = true,
 							},
 							["healing_taken"] = 2314.002635,
 							["totalover"] = 1.002635,
 							["total_without_pet"] = 2314.002635,
-							["totalover_without_pet"] = 0.002635,
+							["iniciar_hps"] = false,
 							["totaldenied"] = 0.002635,
 							["fight_component"] = true,
-							["end_time"] = 1533123149,
-							["classe"] = "MAGE",
+							["total"] = 2314.002635,
 							["heal_enemy_amt"] = 0,
+							["classe"] = "MAGE",
 							["nome"] = "Hauzer",
-							["targets_absorbs"] = {
-								["Hauzer"] = 2314,
-							},
-							["grupo"] = true,
-							["tipo"] = 2,
-							["heal_enemy"] = {
-							},
 							["spells"] = {
 								["_ActorTable"] = {
 									[11426] = {
@@ -7687,12 +7680,19 @@ _detalhes_database = {
 								},
 								["tipo"] = 3,
 							},
+							["grupo"] = true,
+							["end_time"] = 1533123149,
+							["heal_enemy"] = {
+							},
+							["tipo"] = 2,
 							["custom"] = 0,
 							["last_event"] = 1533123142,
 							["on_hold"] = false,
 							["start_time"] = 1533123141,
-							["serial"] = "Player-3693-07375FB3",
 							["delay"] = 1533123131,
+							["targets_absorbs"] = {
+								["Hauzer"] = 2314,
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -7913,14 +7913,14 @@ _detalhes_database = {
 				},
 				["end_time"] = 629333.159,
 				["combat_id"] = 30,
-				["TimeData"] = {
-				},
+				["data_inicio"] = "07:32:12",
 				["hasSaved"] = true,
 				["frags"] = {
 					["Azerite Recovery Specialist"] = 2,
 				},
 				["data_fim"] = "07:32:30",
-				["data_inicio"] = "07:32:12",
+				["TimeData"] = {
+				},
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -7969,11 +7969,11 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1496.004018,
-							["last_event"] = 1533123116,
+							["classe"] = "MAGE",
 							["dps_started"] = false,
 							["total"] = 1496.004018,
 							["delay"] = 0,
-							["classe"] = "MAGE",
+							["end_time"] = 1533123118,
 							["nome"] = "Hauzer",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7995,10 +7995,10 @@ _detalhes_database = {
 										["c_max"] = 742,
 										["id"] = 228598,
 										["r_dmg"] = 0,
-										["c_min"] = 742,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 742,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -8010,7 +8010,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["end_time"] = 1533123118,
+							["last_event"] = 1533123116,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
@@ -8035,30 +8035,23 @@ _detalhes_database = {
 							["targets"] = {
 								["Hauzer"] = 3206,
 							},
-							["total"] = 3206.003444,
+							["serial"] = "Player-3693-07375FB3",
 							["pets"] = {
 							},
-							["iniciar_hps"] = false,
+							["totalover_without_pet"] = 0.003444,
 							["healing_from"] = {
 								["Hauzer"] = true,
 							},
 							["healing_taken"] = 3206.003444,
 							["totalover"] = 0.003444,
 							["total_without_pet"] = 3206.003444,
-							["totalover_without_pet"] = 0.003444,
+							["iniciar_hps"] = false,
 							["totaldenied"] = 0.003444,
 							["fight_component"] = true,
-							["end_time"] = 1533123118,
-							["classe"] = "MAGE",
+							["total"] = 3206.003444,
 							["heal_enemy_amt"] = 0,
+							["classe"] = "MAGE",
 							["nome"] = "Hauzer",
-							["targets_absorbs"] = {
-								["Hauzer"] = 3206,
-							},
-							["grupo"] = true,
-							["tipo"] = 2,
-							["heal_enemy"] = {
-							},
 							["spells"] = {
 								["_ActorTable"] = {
 									[11426] = {
@@ -8093,12 +8086,19 @@ _detalhes_database = {
 								},
 								["tipo"] = 3,
 							},
+							["grupo"] = true,
+							["end_time"] = 1533123118,
+							["heal_enemy"] = {
+							},
+							["tipo"] = 2,
 							["custom"] = 0,
 							["last_event"] = 1533123116,
 							["on_hold"] = false,
 							["start_time"] = 1533123112,
-							["serial"] = "Player-3693-07375FB3",
 							["delay"] = 0,
+							["targets_absorbs"] = {
+								["Hauzer"] = 3206,
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -8183,21 +8183,21 @@ _detalhes_database = {
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 4,
-							["debuff_uptime_targets"] = {
-							},
+							["nome"] = "Hauzer",
 							["grupo"] = true,
 							["spell_cast"] = {
 								[11426] = 1,
 								[30455] = 2,
 							},
-							["tipo"] = 4,
 							["last_event"] = 1533123118,
+							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
 							["pets"] = {
 							},
 							["serial"] = "Player-3693-07375FB3",
-							["nome"] = "Hauzer",
+							["debuff_uptime_targets"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [4]
@@ -8344,14 +8344,14 @@ _detalhes_database = {
 				},
 				["end_time"] = 629301.868,
 				["combat_id"] = 29,
-				["TimeData"] = {
-				},
+				["data_inicio"] = "07:31:47",
 				["hasSaved"] = true,
 				["frags"] = {
 					["Azerite Recovery Specialist"] = 1,
 				},
 				["data_fim"] = "07:31:58",
-				["data_inicio"] = "07:31:47",
+				["TimeData"] = {
+				},
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -8400,11 +8400,11 @@ _detalhes_database = {
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 9961.001694,
-							["last_event"] = 1533123087,
+							["classe"] = "MAGE",
 							["dps_started"] = false,
 							["total"] = 9961.001694,
 							["delay"] = 0,
-							["classe"] = "MAGE",
+							["end_time"] = 1533123088,
 							["nome"] = "Hauzer",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -8426,10 +8426,10 @@ _detalhes_database = {
 										["c_max"] = 1053,
 										["id"] = 228597,
 										["r_dmg"] = 0,
-										["c_min"] = 1053,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 1053,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -8455,10 +8455,10 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 148022,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -8484,10 +8484,10 @@ _detalhes_database = {
 										["c_max"] = 8577,
 										["id"] = 228600,
 										["r_dmg"] = 0,
-										["c_min"] = 8577,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 8577,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -8499,7 +8499,7 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["end_time"] = 1533123088,
+							["last_event"] = 1533123087,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
@@ -8525,30 +8525,23 @@ _detalhes_database = {
 							["targets"] = {
 								["Hauzer"] = 5032,
 							},
-							["total"] = 5032.00572,
+							["serial"] = "Player-3693-07375FB3",
 							["pets"] = {
 							},
-							["iniciar_hps"] = false,
+							["totalover_without_pet"] = 0.00572,
 							["healing_from"] = {
 								["Hauzer"] = true,
 							},
 							["healing_taken"] = 5032.00572,
 							["totalover"] = 2.00572,
 							["total_without_pet"] = 5032.00572,
-							["totalover_without_pet"] = 0.00572,
+							["iniciar_hps"] = false,
 							["totaldenied"] = 0.00572,
 							["fight_component"] = true,
-							["end_time"] = 1533123088,
-							["classe"] = "MAGE",
+							["total"] = 5032.00572,
 							["heal_enemy_amt"] = 0,
+							["classe"] = "MAGE",
 							["nome"] = "Hauzer",
-							["targets_absorbs"] = {
-								["Hauzer"] = 5032,
-							},
-							["grupo"] = true,
-							["tipo"] = 2,
-							["heal_enemy"] = {
-							},
 							["spells"] = {
 								["_ActorTable"] = {
 									[11426] = {
@@ -8584,12 +8577,19 @@ _detalhes_database = {
 								},
 								["tipo"] = 3,
 							},
+							["grupo"] = true,
+							["end_time"] = 1533123088,
+							["heal_enemy"] = {
+							},
+							["tipo"] = 2,
 							["custom"] = 0,
 							["last_event"] = 1533123081,
 							["on_hold"] = false,
 							["start_time"] = 1533123072,
-							["serial"] = "Player-3693-07375FB3",
 							["delay"] = 0,
+							["targets_absorbs"] = {
+								["Hauzer"] = 5032,
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -8697,22 +8697,22 @@ _detalhes_database = {
 							},
 							["fight_component"] = true,
 							["debuff_uptime"] = 13,
-							["debuff_uptime_targets"] = {
-							},
+							["nome"] = "Hauzer",
 							["grupo"] = true,
 							["spell_cast"] = {
 								[199786] = 1,
 								[116] = 1,
 								[11426] = 1,
 							},
-							["tipo"] = 4,
 							["last_event"] = 1533123088,
+							["tipo"] = 4,
 							["buff_uptime_targets"] = {
 							},
 							["pets"] = {
 							},
 							["serial"] = "Player-3693-07375FB3",
-							["nome"] = "Hauzer",
+							["debuff_uptime_targets"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [4]
@@ -8782,14 +8782,14 @@ _detalhes_database = {
 				},
 				["end_time"] = 629272.47,
 				["combat_id"] = 28,
-				["TimeData"] = {
-				},
+				["data_inicio"] = "07:31:13",
 				["hasSaved"] = true,
 				["frags"] = {
 					["Azerite Recovery Specialist"] = 2,
 				},
 				["data_fim"] = "07:31:29",
-				["data_inicio"] = "07:31:13",
+				["TimeData"] = {
+				},
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -8819,9 +8819,9 @@ _detalhes_database = {
 			}, -- [18]
 		},
 	},
-	["combat_counter"] = 78,
-	["character_data"] = {
-		["logons"] = 13,
+	["combat_counter"] = 80,
+	["SoloTablesSaved"] = {
+		["Mode"] = 1,
 	},
 	["tabela_instancias"] = {
 	},
@@ -8878,13 +8878,13 @@ _detalhes_database = {
 		["reverse"] = false,
 	},
 	["active_profile"] = "Hauzer-Kel'Thuzad",
-	["last_day"] = "01",
+	["last_day"] = "07",
 	["ignore_nicktag"] = false,
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
-			["animate"] = false,
 			["showamount"] = false,
+			["animate"] = false,
 			["useplayercolor"] = false,
 			["useclasscolors"] = false,
 			["author"] = "Details! Team",
@@ -8917,8 +8917,8 @@ _detalhes_database = {
 			["annouce"] = true,
 			["dpshistory"] = {
 			},
-			["dps"] = 0,
 			["author"] = "Details! Team",
+			["dps"] = 0,
 			["level"] = 1,
 			["enabled"] = true,
 		},
@@ -8995,12 +8995,7 @@ _detalhes_database = {
 			["point"] = "CENTER",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["main_frame_strata"] = "LOW",
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -9008,12 +9003,13 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["font_size"] = 10,
 			["use_spark"] = true,
+			["y"] = -4.577636718750e-005,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
+			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -9025,8 +9021,12 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
-			["y"] = -4.577636718750e-005,
-			["author"] = "Details! Team",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["main_frame_locked"] = false,
 			["arrow_anchor_y"] = 0,
 		},
@@ -9046,15 +9046,14 @@ _detalhes_database = {
 		["frame"] = {
 		},
 	},
-	["last_realversion"] = 132,
+	["cached_talents"] = {
+	},
 	["last_version"] = "v8.0.1.6035",
 	["combat_id"] = 45,
 	["savedStyles"] = {
 	},
 	["last_instance_time"] = 0,
-	["SoloTablesSaved"] = {
-		["Mode"] = 1,
-	},
+	["force_font_outline"] = "",
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -9071,10 +9070,10 @@ _detalhes_database = {
 					["damage_from"] = {
 					},
 					["targets"] = {
-						["Shardmaster Azurrogg"] = 0,
-						["Rogg Shard <Shardmaster Azurrogg>"] = 0,
 						["Greystone Shardmaster"] = 0,
 						["Wrathshard"] = 0,
+						["Shardmaster Azurrogg"] = 0,
+						["Rogg Shard <Shardmaster Azurrogg>"] = 0,
 					},
 					["pets"] = {
 					},
@@ -9098,10 +9097,10 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
-									["Shardmaster Azurrogg"] = 0,
-									["Rogg Shard <Shardmaster Azurrogg>"] = 0,
 									["Greystone Shardmaster"] = 0,
 									["Wrathshard"] = 0,
+									["Shardmaster Azurrogg"] = 0,
+									["Rogg Shard <Shardmaster Azurrogg>"] = 0,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 0,
@@ -9114,8 +9113,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -9144,8 +9143,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -9172,8 +9171,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -9202,8 +9201,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -9230,8 +9229,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -9259,8 +9258,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -9287,8 +9286,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -9315,8 +9314,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -9343,8 +9342,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -9371,8 +9370,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -9399,8 +9398,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -9427,8 +9426,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -9455,8 +9454,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -9483,8 +9482,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -9525,11 +9524,11 @@ _detalhes_database = {
 						["Greystone Shardmaster"] = 0,
 						["Shimmershell Snail"] = 0,
 						["Monstrous Shredder"] = 0,
-						["Ragash Bloodwish"] = 0,
-						["Shatterspear Champion"] = 0,
 						["Rogg Shard <Shardmaster Azurrogg>"] = 0,
-						["Goblin Sapper"] = 0,
+						["Shatterspear Champion"] = 0,
 						["Kodo Beast Rider"] = 0,
+						["Ragash Bloodwish"] = 0,
+						["Goblin Sapper"] = 0,
 					},
 					["pets"] = {
 					},
@@ -9546,77 +9545,6 @@ _detalhes_database = {
 					["nome"] = "Hauzer",
 					["spells"] = {
 						["_ActorTable"] = {
-							[148022] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Monstrous Shredder"] = 0,
-									["Sin'dorei Vanguard"] = 0,
-									["Azerite Recovery Specialist"] = 0,
-									["Possessing Spirit"] = 0,
-									["Gormok Axefall"] = 0,
-									["Darkfiend Raider"] = 0,
-									["Greystone Shardmaster"] = 0,
-									["Enraged Ambershard"] = 0,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 148022,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
-							},
-							[122] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Sin'dorei Vanguard"] = 0,
-									["Gormok Axefall"] = 0,
-									["Darkfiend Raider"] = 0,
-									["Shatterspear Mystic"] = 0,
-									["Orgrimmar Grunt"] = 0,
-									["Azerite Recovery Specialist"] = 0,
-									["Shimmershell Snail"] = 0,
-									["Possessing Spirit"] = 0,
-									["Shatterspear Champion"] = 0,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 122,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["m_crit"] = 0,
-								["c_min"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
-							},
 							[157997] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
@@ -9640,8 +9568,75 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[84721] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Monstrous Shredder"] = 0,
+									["Orgrimmar Grunt"] = 0,
+									["Ragash Bloodwish"] = 0,
+									["Rogg Shard <Shardmaster Azurrogg>"] = 0,
+									["Shatterspear Champion"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 84721,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
+							},
+							[148022] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Monstrous Shredder"] = 0,
+									["Sin'dorei Vanguard"] = 0,
+									["Azerite Recovery Specialist"] = 0,
+									["Gormok Axefall"] = 0,
+									["Enraged Ambershard"] = 0,
+									["Darkfiend Raider"] = 0,
+									["Greystone Shardmaster"] = 0,
+									["Possessing Spirit"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 148022,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -9679,8 +9674,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -9720,8 +9715,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -9756,8 +9751,8 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -9774,11 +9769,11 @@ _detalhes_database = {
 									["Monstrous Shredder"] = 0,
 									["Sin'dorei Vanguard"] = 0,
 									["Azerite Recovery Specialist"] = 0,
-									["Possessing Spirit"] = 0,
 									["Gormok Axefall"] = 0,
+									["Enraged Ambershard"] = 0,
 									["Rogg Shard <Shardmaster Azurrogg>"] = 0,
 									["Greystone Shardmaster"] = 0,
-									["Enraged Ambershard"] = 0,
+									["Possessing Spirit"] = 0,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 0,
@@ -9791,25 +9786,29 @@ _detalhes_database = {
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
 								["a_amt"] = 0,
 								["a_dmg"] = 0,
 							},
-							[84721] = {
+							[122] = {
 								["c_amt"] = 0,
 								["b_amt"] = 0,
 								["c_dmg"] = 0,
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
-									["Monstrous Shredder"] = 0,
+									["Sin'dorei Vanguard"] = 0,
+									["Gormok Axefall"] = 0,
+									["Darkfiend Raider"] = 0,
+									["Shatterspear Mystic"] = 0,
 									["Orgrimmar Grunt"] = 0,
-									["Ragash Bloodwish"] = 0,
-									["Rogg Shard <Shardmaster Azurrogg>"] = 0,
+									["Azerite Recovery Specialist"] = 0,
+									["Shimmershell Snail"] = 0,
+									["Possessing Spirit"] = 0,
 									["Shatterspear Champion"] = 0,
 								},
 								["m_dmg"] = 0,
@@ -9819,12 +9818,12 @@ _detalhes_database = {
 								["counter"] = 0,
 								["total"] = 0,
 								["c_max"] = 0,
-								["id"] = 84721,
+								["id"] = 122,
 								["r_dmg"] = 0,
 								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -9860,15 +9859,14 @@ _detalhes_database = {
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.006169,
-					["last_event"] = 0,
-					["dps_started"] = false,
-					["end_time"] = 1533134917,
 					["friendlyfire"] = {
 					},
-					["friendlyfire_total"] = 0,
+					["dps_started"] = false,
+					["end_time"] = 1533134917,
+					["serial"] = "Player-3676-07C2A544",
+					["total"] = 0.006169,
 					["nome"] = "Keirn-Area52",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -9891,12 +9889,12 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
-								["c_min"] = 0,
 							}, -- [1]
 							[269937] = {
 								["c_amt"] = 0,
@@ -9919,12 +9917,12 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
-								["c_min"] = 0,
 							},
 							[255937] = {
 								["c_amt"] = 0,
@@ -9947,12 +9945,12 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
-								["c_min"] = 0,
 							},
 							[35395] = {
 								["c_amt"] = 0,
@@ -9975,12 +9973,12 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
-								["c_min"] = 0,
 							},
 							[184575] = {
 								["c_amt"] = 0,
@@ -10003,12 +10001,12 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
-								["c_min"] = 0,
 							},
 							[224266] = {
 								["c_amt"] = 0,
@@ -10031,12 +10029,12 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
-								["c_min"] = 0,
 							},
 							[20271] = {
 								["c_amt"] = 0,
@@ -10059,18 +10057,19 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
-								["c_min"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
 					["grupo"] = true,
-					["total"] = 0.006169,
-					["serial"] = "Player-3676-07C2A544",
+					["last_event"] = 0,
+					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["tipo"] = 1,
 					["damage_taken"] = 0.006169,
@@ -10095,19 +10094,32 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["totalover_without_pet"] = 0.007824,
+					["iniciar_hps"] = false,
 					["targets_overheal"] = {
 					},
-					["heal_enemy_amt"] = 0,
+					["classe"] = "DEATHKNIGHT",
 					["totalover"] = 0.007824,
 					["total_without_pet"] = 0.007824,
-					["iniciar_hps"] = false,
+					["totalover_without_pet"] = 0.007824,
 					["totaldenied"] = 0.007824,
 					["fight_component"] = true,
-					["end_time"] = 1532960842,
+					["total"] = 0.007824,
+					["heal_enemy_amt"] = 0,
 					["healing_taken"] = 0.007824,
-					["classe"] = "DEATHKNIGHT",
 					["nome"] = "Ebonezer-WyrmrestAccord",
+					["targets_absorbs"] = {
+						["Ebonezer-WyrmrestAccord"] = 0,
+					},
+					["grupo"] = true,
+					["end_time"] = 1532960842,
+					["heal_enemy"] = {
+					},
+					["tipo"] = 2,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1532960839,
+					["serial"] = "Player-1171-083E046B",
 					["spells"] = {
 						["_ActorTable"] = {
 							[207472] = {
@@ -10130,12 +10142,12 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["m_healed"] = 0,
-								["c_min"] = 0,
 								["totaldenied"] = 0,
+								["m_amt"] = 0,
+								["m_healed"] = 0,
 								["n_amt"] = 0,
 								["n_curado"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 							[207203] = {
@@ -10158,12 +10170,12 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["m_healed"] = 0,
-								["c_min"] = 0,
 								["totaldenied"] = 0,
+								["m_amt"] = 0,
+								["m_healed"] = 0,
 								["n_amt"] = 0,
 								["n_curado"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 							[242597] = {
@@ -10185,29 +10197,16 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["m_healed"] = 0,
-								["c_min"] = 0,
 								["totaldenied"] = 0,
+								["m_amt"] = 0,
+								["m_healed"] = 0,
 								["n_amt"] = 0,
 								["n_curado"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 						},
 						["tipo"] = 3,
-					},
-					["grupo"] = true,
-					["total"] = 0.007824,
-					["heal_enemy"] = {
-					},
-					["last_event"] = 0,
-					["custom"] = 0,
-					["tipo"] = 2,
-					["on_hold"] = false,
-					["start_time"] = 1532960839,
-					["serial"] = "Player-1171-083E046B",
-					["targets_absorbs"] = {
-						["Ebonezer-WyrmrestAccord"] = 0,
 					},
 				}, -- [1]
 				{
@@ -10223,20 +10222,33 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["totalover_without_pet"] = 0.00331,
+					["iniciar_hps"] = false,
 					["targets_overheal"] = {
 						["Hauzer"] = 0,
 					},
-					["heal_enemy_amt"] = 0,
+					["classe"] = "MAGE",
 					["totalover"] = 0.00331,
 					["total_without_pet"] = 0.00331,
-					["iniciar_hps"] = false,
+					["totalover_without_pet"] = 0.00331,
 					["totaldenied"] = 0.00331,
 					["fight_component"] = true,
-					["end_time"] = 1532960842,
+					["total"] = 0.00331,
+					["heal_enemy_amt"] = 0,
 					["healing_taken"] = 0.00331,
-					["classe"] = "MAGE",
 					["nome"] = "Hauzer",
+					["targets_absorbs"] = {
+						["Hauzer"] = 0,
+					},
+					["grupo"] = true,
+					["end_time"] = 1532960842,
+					["heal_enemy"] = {
+					},
+					["tipo"] = 2,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
+					["start_time"] = 1532960839,
+					["serial"] = "Player-3693-07375FB3",
 					["spells"] = {
 						["_ActorTable"] = {
 							[11426] = {
@@ -10260,29 +10272,16 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["m_healed"] = 0,
-								["c_min"] = 0,
 								["totaldenied"] = 0,
+								["m_amt"] = 0,
+								["m_healed"] = 0,
 								["n_amt"] = 0,
 								["n_curado"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["absorbed"] = 0,
 							},
 						},
 						["tipo"] = 3,
-					},
-					["grupo"] = true,
-					["total"] = 0.00331,
-					["heal_enemy"] = {
-					},
-					["last_event"] = 0,
-					["custom"] = 0,
-					["tipo"] = 2,
-					["on_hold"] = false,
-					["start_time"] = 1532960839,
-					["serial"] = "Player-3693-07375FB3",
-					["targets_absorbs"] = {
-						["Hauzer"] = 0,
 					},
 				}, -- [2]
 				{
@@ -10294,13 +10293,23 @@ _detalhes_database = {
 					["targets"] = {
 						["Keirn-Area52"] = 0,
 					},
-					["healing_from"] = {
-					},
+					["total"] = 0.006011,
 					["pets"] = {
 					},
+					["iniciar_hps"] = false,
+					["healing_from"] = {
+					},
+					["healing_taken"] = 0.006011,
+					["totalover"] = 0.006011,
+					["total_without_pet"] = 0.006011,
 					["totalover_without_pet"] = 0.006011,
+					["start_time"] = 1533134914,
+					["fight_component"] = true,
+					["end_time"] = 1533134917,
+					["classe"] = "PALADIN",
+					["heal_enemy_amt"] = 0,
+					["nome"] = "Keirn-Area52",
 					["spells"] = {
-						["tipo"] = 3,
 						["_ActorTable"] = {
 							[203539] = {
 								["c_amt"] = 0,
@@ -10321,12 +10330,12 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["n_curado"] = 0,
 								["n_amt"] = 0,
-								["totaldenied"] = 0,
 								["m_healed"] = 0,
+								["totaldenied"] = 0,
 								["absorbed"] = 0,
 							},
 							[203538] = {
@@ -10349,12 +10358,12 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["n_curado"] = 0,
 								["n_amt"] = 0,
-								["totaldenied"] = 0,
 								["m_healed"] = 0,
+								["totaldenied"] = 0,
 								["absorbed"] = 0,
 							},
 							[184662] = {
@@ -10377,40 +10386,30 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["c_min"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["n_curado"] = 0,
 								["n_amt"] = 0,
-								["totaldenied"] = 0,
 								["m_healed"] = 0,
+								["totaldenied"] = 0,
 								["absorbed"] = 0,
 							},
 						},
+						["tipo"] = 3,
 					},
-					["classe"] = "PALADIN",
-					["totalover"] = 0.006011,
-					["total_without_pet"] = 0.006011,
-					["iniciar_hps"] = false,
-					["healing_taken"] = 0.006011,
-					["fight_component"] = true,
-					["total"] = 0.006011,
-					["heal_enemy_amt"] = 0,
-					["end_time"] = 1533134917,
-					["nome"] = "Keirn-Area52",
+					["grupo"] = true,
 					["targets_absorbs"] = {
 						["Keirn-Area52"] = 0,
 					},
-					["grupo"] = true,
-					["start_time"] = 1533134914,
 					["heal_enemy"] = {
 					},
 					["serial"] = "Player-3676-07C2A544",
 					["custom"] = 0,
-					["tipo"] = 2,
+					["last_event"] = 0,
 					["on_hold"] = false,
 					["totaldenied"] = 0.006011,
 					["delay"] = 0,
-					["last_event"] = 0,
+					["tipo"] = 2,
 				}, -- [3]
 			},
 		}, -- [2]
@@ -10456,8 +10455,8 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[193486] = {
-								["id"] = 193486,
+							[281327] = {
+								["id"] = 281327,
 								["total"] = 0,
 								["targets"] = {
 									["Ebonezer-WyrmrestAccord"] = 0,
@@ -10480,8 +10479,8 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[281327] = {
-								["id"] = 281327,
+							[193486] = {
+								["id"] = 193486,
 								["total"] = 0,
 								["targets"] = {
 									["Ebonezer-WyrmrestAccord"] = 0,
@@ -10500,7 +10499,7 @@ _detalhes_database = {
 				}, -- [1]
 				{
 					["received"] = 0.005554,
-					["resource"] = 0.012258,
+					["resource"] = 0.025666,
 					["targets"] = {
 						["Keirn-Area52"] = 0,
 					},
@@ -10512,7 +10511,6 @@ _detalhes_database = {
 					["total"] = 0.005554,
 					["nome"] = "Keirn-Area52",
 					["spells"] = {
-						["tipo"] = 7,
 						["_ActorTable"] = {
 							[184575] = {
 								["id"] = 184575,
@@ -10539,6 +10537,7 @@ _detalhes_database = {
 								["counter"] = 0,
 							},
 						},
+						["tipo"] = 7,
 					},
 					["grupo"] = true,
 					["tipo"] = 3,
@@ -10678,8 +10677,8 @@ _detalhes_database = {
 						[49020] = 0,
 						[51271] = 0,
 						[47528] = 0,
-						[49184] = 0,
 						[196770] = 0,
+						[49184] = 0,
 						[49143] = 0,
 						[203159] = 0,
 					},
@@ -10736,27 +10735,51 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["spell_cast"] = {
-						[84342] = 0,
-						[122] = 0,
-						[66] = 0,
-						[212653] = 0,
-						[55342] = 0,
-						[157997] = 0,
-						[30455] = 0,
-						[116] = 0,
-						[199786] = 0,
-						[11426] = 0,
-						[44614] = 0,
-						[203159] = 0,
-						[84714] = 0,
-						[59638] = 0,
-						[12472] = 0,
-						[2139] = 0,
+					["cc_break_spells"] = {
+						["_ActorTable"] = {
+							[228598] = {
+								["id"] = 228598,
+								["cc_break_oque"] = {
+								},
+								["targets"] = {
+									["Possessing Spirit"] = 0,
+									["Azerite Recovery Specialist"] = 0,
+								},
+								["counter"] = 0,
+							},
+							[84721] = {
+								["id"] = 84721,
+								["cc_break_oque"] = {
+								},
+								["targets"] = {
+									["Shatterspear Champion"] = 0,
+									["Orgrimmar Grunt"] = 0,
+								},
+								["counter"] = 0,
+							},
+							[59638] = {
+								["id"] = 59638,
+								["cc_break_oque"] = {
+								},
+								["targets"] = {
+									["Gormok Axefall"] = 0,
+								},
+								["counter"] = 0,
+							},
+							[228354] = {
+								["id"] = 228354,
+								["cc_break_oque"] = {
+								},
+								["targets"] = {
+									["Orgrimmar Grunt"] = 0,
+								},
+								["counter"] = 0,
+							},
+						},
+						["tipo"] = 9,
 					},
-					["interrupt"] = 0,
-					["pets"] = {
-					},
+					["tipo"] = 4,
+					["buff_uptime"] = 0,
 					["buff_uptime_targets"] = {
 					},
 					["cc_done_spells"] = {
@@ -10777,10 +10800,10 @@ _detalhes_database = {
 									["Possessing Spirit"] = 0,
 									["Orgrimmar Grunt"] = 0,
 									["Azerite Recovery Specialist"] = 0,
-									["Sin'dorei Vanguard"] = 0,
+									["Shatterspear Champion"] = 0,
 									["Gormok Axefall"] = 0,
 									["Darkfiend Raider"] = 0,
-									["Shatterspear Champion"] = 0,
+									["Sin'dorei Vanguard"] = 0,
 									["Shatterspear Mystic"] = 0,
 								},
 								["counter"] = 0,
@@ -10790,7 +10813,6 @@ _detalhes_database = {
 					},
 					["classe"] = "MAGE",
 					["interrupt_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[2139] = {
 								["id"] = 2139,
@@ -10802,6 +10824,7 @@ _detalhes_database = {
 								["counter"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
@@ -10924,16 +10947,36 @@ _detalhes_database = {
 					},
 					["interrompeu_oque"] = {
 					},
-					["buff_uptime"] = 0,
+					["interrupt"] = 0,
 					["debuff_uptime"] = 0,
-					["nome"] = "Hauzer",
-					["cc_done"] = 0,
 					["debuff_uptime_targets"] = {
 					},
+					["cc_done"] = 0,
+					["nome"] = "Hauzer",
 					["interrupt_targets"] = {
 						["Possessing Spirit"] = 0,
 					},
-					["grupo"] = true,
+					["cc_break"] = 0,
+					["spell_cast"] = {
+						[84342] = 0,
+						[122] = 0,
+						[66] = 0,
+						[212653] = 0,
+						[55342] = 0,
+						[157997] = 0,
+						[30455] = 0,
+						[116] = 0,
+						[84714] = 0,
+						[11426] = 0,
+						[44614] = 0,
+						[12472] = 0,
+						[199786] = 0,
+						[59638] = 0,
+						[203159] = 0,
+						[2139] = 0,
+					},
+					["cc_break_oque"] = {
+					},
 					["cc_done_targets"] = {
 						["Possessing Spirit"] = 0,
 						["Shardmaster Azurrogg"] = 0,
@@ -10947,11 +10990,8 @@ _detalhes_database = {
 						["Sin'dorei Vanguard"] = 0,
 						["Shatterspear Champion"] = 0,
 					},
-					["cc_break_oque"] = {
-					},
-					["tipo"] = 4,
 					["last_event"] = 0,
-					["cc_break"] = 0,
+					["grupo"] = true,
 					["cc_break_targets"] = {
 						["Possessing Spirit"] = 0,
 						["Orgrimmar Grunt"] = 0,
@@ -10960,54 +11000,12 @@ _detalhes_database = {
 						["Shatterspear Champion"] = 0,
 					},
 					["serial"] = "Player-3693-07375FB3",
-					["cc_break_spells"] = {
-						["_ActorTable"] = {
-							[228598] = {
-								["id"] = 228598,
-								["cc_break_oque"] = {
-								},
-								["targets"] = {
-									["Possessing Spirit"] = 0,
-									["Azerite Recovery Specialist"] = 0,
-								},
-								["counter"] = 0,
-							},
-							[84721] = {
-								["id"] = 84721,
-								["cc_break_oque"] = {
-								},
-								["targets"] = {
-									["Shatterspear Champion"] = 0,
-									["Orgrimmar Grunt"] = 0,
-								},
-								["counter"] = 0,
-							},
-							[59638] = {
-								["id"] = 59638,
-								["cc_break_oque"] = {
-								},
-								["targets"] = {
-									["Gormok Axefall"] = 0,
-								},
-								["counter"] = 0,
-							},
-							[228354] = {
-								["id"] = 228354,
-								["cc_break_oque"] = {
-								},
-								["targets"] = {
-									["Orgrimmar Grunt"] = 0,
-								},
-								["counter"] = 0,
-							},
-						},
-						["tipo"] = 9,
+					["pets"] = {
 					},
 				}, -- [2]
 				{
 					["flag_original"] = 1047,
 					["debuff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[255937] = {
 								["id"] = 255937,
@@ -11022,6 +11020,7 @@ _detalhes_database = {
 								["counter"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["cooldowns_defensive"] = 0,
 					["buff_uptime"] = 0,
@@ -11030,7 +11029,6 @@ _detalhes_database = {
 						["Keirn-Area52"] = 0,
 					},
 					["buff_uptime_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[281178] = {
 								["id"] = 281178,
@@ -11050,8 +11048,8 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[114250] = {
-								["id"] = 114250,
+							[231843] = {
+								["id"] = 231843,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -11062,8 +11060,8 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[231843] = {
-								["id"] = 231843,
+							[114250] = {
+								["id"] = 114250,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -11093,6 +11091,7 @@ _detalhes_database = {
 								["counter"] = 0,
 							},
 						},
+						["tipo"] = 9,
 					},
 					["fight_component"] = true,
 					["debuff_uptime"] = 0,
@@ -11105,11 +11104,12 @@ _detalhes_database = {
 						[35395] = 0,
 						[184575] = 0,
 						[184662] = 0,
-						[31884] = 0,
 						[20271] = 0,
+						[31884] = 0,
+					},
+					["debuff_uptime_targets"] = {
 					},
 					["cooldowns_defensive_spells"] = {
-						["tipo"] = 9,
 						["_ActorTable"] = {
 							[184662] = {
 								["id"] = 184662,
@@ -11119,8 +11119,7 @@ _detalhes_database = {
 								["counter"] = 0,
 							},
 						},
-					},
-					["debuff_uptime_targets"] = {
+						["tipo"] = 9,
 					},
 					["last_event"] = 0,
 					["tipo"] = 4,
@@ -11144,7 +11143,7 @@ _detalhes_database = {
 		},
 		["combat_counter"] = 21,
 		["totals"] = {
-			-0.00355, -- [1]
+			-0.013703, -- [1]
 			0, -- [2]
 			{
 				0, -- [1]
@@ -11220,13 +11219,14 @@ _detalhes_database = {
 		},
 		["overall_refreshed"] = true,
 	},
-	["force_font_outline"] = "",
+	["character_data"] = {
+		["logons"] = 15,
+	},
 	["announce_firsthit"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["cached_talents"] = {
-	},
+	["last_realversion"] = 132,
 	["announce_cooldowns"] = {
 		["enabled"] = false,
 		["ignored_cooldowns"] = {

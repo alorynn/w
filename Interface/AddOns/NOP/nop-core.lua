@@ -155,7 +155,7 @@ function NOP:ItemLoad() -- load template item tooltips
                   local retry = tItemRetry[itemID] or 0
                   retry = retry + 1
                   tItemRetry[itemID] = retry
-                  if retry > 1 then print("ItemLoad:SetItemByID() 1st line",itemID,"Looking for:",patter,"Have:",heading,retry) end
+                  if retry > 1 then print("ItemLoad:SetItemByID() 1st line",itemID,"Looking for:",pattern,"Have:",heading,retry) end
                 end
                 itemRetry = itemID
               end

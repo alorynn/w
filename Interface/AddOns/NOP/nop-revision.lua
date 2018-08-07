@@ -1,4 +1,10 @@
 -- Revisions:
+--[[<p>09.08 07.08.2018</p>
+<p><ul>
+<li>Item check cache cleared up every 10 seconds to catch new items.</li>
+<li>ZONE_CHANGED event don't catch realiably zone change. Sometime addon catch continent mapID instead real zone!</li>
+</ul><hr></p>
+]]
 --[[<p>09.06 23.07.2018</p>
 <p><ul>
 <li>Tooltip for couple of item can be broken when WoW client is freshly started and 1st toon does login. After switch to another toon tooltips are OK. Seems like bug in Blizzard's code because tooltips are striped off last line!.</li>
@@ -6,7 +12,6 @@
 <li>Removed extra diagnostic prints, reson for problem is known now.</li>
 </ul><hr></p>
 ]]
-
 --[[<p>09.04 22.07.2018</p>
 <p><ul>
 <li>Bug Fix pattern matching and erros in match table.</li>

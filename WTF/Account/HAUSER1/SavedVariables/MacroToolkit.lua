@@ -6,12 +6,6 @@ MacroToolkitDB = {
 			},
 		},
 	},
-	["global"] = {
-		["ebackups"] = {
-		},
-		["backups"] = {
-		},
-	},
 	["profileKeys"] = {
 		["Fooliolio - Kel'Thuzad"] = "profile",
 		["Kmkarbashian - Kel'Thuzad"] = "profile",
@@ -19,10 +13,17 @@ MacroToolkitDB = {
 		["Hauzerina - Moon Guard"] = "profile",
 		["Darknstormie - Kel'Thuzad"] = "profile",
 		["Alauranna - Kel'Thuzad"] = "profile",
+		["Rogueout - Kel'Thuzad"] = "profile",
 		["Hauzer - Kel'Thuzad"] = "profile",
 		["Alisheeya - Kel'Thuzad"] = "profile",
-		["Alorannah - Kel'Thuzad"] = "profile",
 		["Laurannah - Kel'Thuzad"] = "profile",
+		["Alorannah - Kel'Thuzad"] = "profile",
+	},
+	["global"] = {
+		["backups"] = {
+		},
+		["ebackups"] = {
+		},
 	},
 	["profiles"] = {
 		["profile"] = {

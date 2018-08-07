@@ -233,12 +233,12 @@ MogIt_MailDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[94139] = {
+			[92054] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[92054] = {
+			[94139] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -1574,22 +1574,9 @@ MogIt_MailDB = {
 				["sourceType"] = 6,
 				["faction"] = 1,
 			},
-			[22476] = {
+			[23379] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "The Northrend Beasts",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"25 Player", -- [1]
-						},
-						["instance"] = "Trial of the Crusader",
-					}, -- [1]
-				},
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[23383] = {
@@ -1615,19 +1602,32 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[46930] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[23379] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
 			[23392] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[22476] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "The Northrend Beasts",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"25 Player", -- [1]
+						},
+						["instance"] = "Trial of the Crusader",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[46930] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -1820,7 +1820,7 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[75882] = {
+			[75756] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -1830,7 +1830,7 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[75756] = {
+			[75882] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -1876,23 +1876,6 @@ MogIt_MailDB = {
 			},
 		},
 		[38146] = {
-			[98381] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Mogul Razdunk",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The MOTHERLODE!!",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
 			[98408] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -1924,6 +1907,23 @@ MogIt_MailDB = {
 							"Mythic", -- [1]
 						},
 						["instance"] = "Kings' Rest",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[98381] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Mogul Razdunk",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The MOTHERLODE!!",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -2360,7 +2360,7 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[77873] = {
+			[16986] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -2375,7 +2375,7 @@ MogIt_MailDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[16986] = {
+			[77873] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -4694,20 +4694,21 @@ MogIt_MailDB = {
 			},
 		},
 		[18965] = {
-			[44748] = {
+			[45315] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Tsulong",
+						["encounter"] = "Imperial Vizier Zor'lok",
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
 						["difficulties"] = {
-							"Looking For Raid", -- [1]
+							"10 Player (Heroic)", -- [1]
+							"25 Player (Heroic)", -- [2]
 						},
-						["instance"] = "Terrace of Endless Spring",
+						["instance"] = "Heart of Fear",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -4730,6 +4731,34 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
+			[100574] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[44536] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[44748] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Tsulong",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"Looking For Raid", -- [1]
+						},
+						["instance"] = "Terrace of Endless Spring",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
 			[44989] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -4747,35 +4776,6 @@ MogIt_MailDB = {
 						["instance"] = "Terrace of Endless Spring",
 					}, -- [1]
 				},
-				["faction"] = 1,
-			},
-			[44536] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[45315] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Imperial Vizier Zor'lok",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player (Heroic)", -- [1]
-							"25 Player (Heroic)", -- [2]
-						},
-						["instance"] = "Heart of Fear",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[100574] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -5112,23 +5112,6 @@ MogIt_MailDB = {
 			},
 		},
 		[29755] = {
-			[80522] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Elerethe Renferal",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The Emerald Nightmare",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
 			[79859] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -5163,9 +5146,7 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-		},
-		[31865] = {
-			[81236] = {
+			[80522] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -5182,6 +5163,8 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
+		},
+		[31865] = {
 			[81074] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -5212,6 +5195,23 @@ MogIt_MailDB = {
 						["difficulties"] = {
 						},
 						["instance"] = "Broken Isles",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[81236] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Elerethe Renferal",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Emerald Nightmare",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -5632,7 +5632,7 @@ MogIt_MailDB = {
 			},
 		},
 		[200] = {
-			[75917] = {
+			[75581] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -5647,12 +5647,12 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[76109] = {
+			[75563] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[75581] = {
+			[75917] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -5662,7 +5662,7 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[75563] = {
+			[76109] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -5945,12 +5945,12 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[29924] = {
+			[29875] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[29875] = {
+			[29924] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -7092,19 +7092,19 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[79077] = {
+			[78923] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Advisor Melandrus",
+						["encounter"] = "Shade of Xavius",
 						["tiers"] = {
 							"Legion", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Court of Stars",
+						["instance"] = "Darkheart Thicket",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -7143,38 +7143,38 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[78923] = {
+			[79077] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Shade of Xavius",
+						["encounter"] = "Advisor Melandrus",
 						["tiers"] = {
 							"Legion", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Darkheart Thicket",
+						["instance"] = "Court of Stars",
 					}, -- [1]
 				},
 				["faction"] = 1,
 			},
 		},
 		[27281] = {
-			[80158] = {
+			[80123] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Anub'esset",
+						["encounter"] = "Corstilax",
 						["tiers"] = {
 							"Legion", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Assault on Violet Hold",
+						["instance"] = "The Arcway",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -7213,19 +7213,19 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[80123] = {
+			[80158] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Corstilax",
+						["encounter"] = "Anub'esset",
 						["tiers"] = {
 							"Legion", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "The Arcway",
+						["instance"] = "Assault on Violet Hold",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -7264,23 +7264,6 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[80163] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Blood-Princess Thal'ena",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Assault on Violet Hold",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
 			[80114] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -7294,6 +7277,23 @@ MogIt_MailDB = {
 						["difficulties"] = {
 						},
 						["instance"] = "Halls of Valor",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[80163] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Blood-Princess Thal'ena",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Assault on Violet Hold",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -8784,19 +8784,9 @@ MogIt_MailDB = {
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[41512] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
 			[41218] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[41550] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 			[41603] = {
@@ -8804,9 +8794,26 @@ MogIt_MailDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
+			[41550] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[41512] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
 		},
 		[4608] = {
 			[6348] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[6509] = {
+			[9921] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -8829,13 +8836,6 @@ MogIt_MailDB = {
 						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
-				["faction"] = 1,
-			},
-		},
-		[6509] = {
-			[9921] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -9096,13 +9096,6 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[2985] = {
-			[3595] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
 		[2005] = {
 			[2289] = {
 				["classes"] = 4,
@@ -9115,6 +9108,13 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 			[9857] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[2985] = {
+			[3595] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -9349,10 +9349,39 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[9078] = {
-			[16189] = {
+		[38294] = {
+			[98945] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Zek'voz, Herald of N'zoth",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Uldir",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[98961] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Mythrax the Unraveler",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Uldir",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -9379,9 +9408,23 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[62519] = {
+			[84303] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Lilian Voss",
+						["tiers"] = {
+							"Classic", -- [1]
+							"Mists of Pandaria", -- [2]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Scholomance",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 			[84293] = {
@@ -9403,23 +9446,9 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[84303] = {
+			[62519] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Lilian Voss",
-						["tiers"] = {
-							"Classic", -- [1]
-							"Mists of Pandaria", -- [2]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Scholomance",
-					}, -- [1]
-				},
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -9717,10 +9746,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[7708] = {
-			[13404] = {
+		[4639] = {
+			[6397] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -10247,17 +10276,17 @@ MogIt_MailDB = {
 			},
 		},
 		[34587] = {
-			[86984] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
 			[87848] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[87416] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[86984] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -10456,26 +10485,6 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[10573] = {
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 19796,
-				["faction"] = 1,
-			}, -- [1]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 19797,
-				["faction"] = 1,
-			}, -- [2]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 19867,
-				["faction"] = 1,
-			}, -- [3]
-		},
 		[38136] = {
 			[94309] = {
 				["classes"] = 4,
@@ -10511,6 +10520,26 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
+		},
+		[10573] = {
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 19796,
+				["faction"] = 1,
+			}, -- [1]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 19797,
+				["faction"] = 1,
+			}, -- [2]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 19867,
+				["faction"] = 1,
+			}, -- [3]
 		},
 		[4787] = {
 			[39252] = {
@@ -10703,17 +10732,17 @@ MogIt_MailDB = {
 			},
 		},
 		[35483] = {
-			[88292] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
 			[88724] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[88508] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[88292] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -10785,10 +10814,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[4639] = {
-			[6397] = {
+		[7708] = {
+			[13404] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -10964,39 +10993,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[38294] = {
-			[98945] = {
+		[9078] = {
+			[16189] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Zek'voz, Herald of N'zoth",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Uldir",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[98961] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Mythrax the Unraveler",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Uldir",
-					}, -- [1]
-				},
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -11706,17 +11706,17 @@ MogIt_MailDB = {
 			},
 		},
 		[35481] = {
-			[88304] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
 			[88736] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[88520] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[88304] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -11733,33 +11733,19 @@ MogIt_MailDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[45087] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
 			[45220] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[84450] = {
+			[45087] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Wing Leader Ner'onok",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-							"Timewalking", -- [2]
-						},
-						["instance"] = "Siege of Niuzao Temple",
-					}, -- [1]
-				},
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[44039] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 			[84389] = {
@@ -11781,9 +11767,23 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[44039] = {
+			[84450] = {
 				["classes"] = 4,
-				["sourceType"] = 6,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Wing Leader Ner'onok",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+							"Timewalking", -- [2]
+						},
+						["instance"] = "Siege of Niuzao Temple",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -13033,7 +13033,7 @@ MogIt_MailDB = {
 			},
 		},
 		[17399] = {
-			[42852] = {
+			[42754] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -13048,7 +13048,7 @@ MogIt_MailDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[42754] = {
+			[45533] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -13068,7 +13068,7 @@ MogIt_MailDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[45533] = {
+			[42852] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -13247,7 +13247,7 @@ MogIt_MailDB = {
 			},
 		},
 		[3167] = {
-			[75781] = {
+			[75872] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -13257,7 +13257,7 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[76088] = {
+			[75759] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -13267,12 +13267,12 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[75872] = {
+			[75781] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[75759] = {
+			[76088] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -13365,7 +13365,7 @@ MogIt_MailDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[81640] = {
+			[68592] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -13375,19 +13375,19 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[82959] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[68592] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
 			[80313] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[81640] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[82959] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -13515,22 +13515,22 @@ MogIt_MailDB = {
 			},
 		},
 		[8644] = {
-			[15394] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
 			[15685] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[15697] = {
+			[15394] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[15688] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[15697] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -13754,12 +13754,12 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[75987] = {
+			[75476] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[75476] = {
+			[75987] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -14158,11 +14158,6 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[14023] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
 			[8467] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -14178,6 +14173,11 @@ MogIt_MailDB = {
 						["instance"] = "Ruins of Ahn'Qiraj",
 					}, -- [1]
 				},
+				["faction"] = 1,
+			},
+			[14023] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -14322,12 +14322,12 @@ MogIt_MailDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[76432] = {
+			[73947] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[73947] = {
+			[76432] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -14783,45 +14783,31 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[12521] = {
-			[24849] = {
+		[32675] = {
+			[83133] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Lord Marrowgar",
+						["encounter"] = "Helya",
 						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
+							"Legion", -- [1]
 						},
 						["difficulties"] = {
-							"10 Player", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[25196] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Blood Prince Council",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-						},
-						["instance"] = "Icecrown Citadel",
+						["instance"] = "Trial of Valor",
 					}, -- [1]
 				},
 				["faction"] = 1,
 			},
 		},
 		[20339] = {
+			[49875] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
 			[49651] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -14837,33 +14823,6 @@ MogIt_MailDB = {
 							"25 Player", -- [2]
 						},
 						["instance"] = "Throne of Thunder",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[49875] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[49954] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[49935] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Oondasta",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Pandaria",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -14885,6 +14844,28 @@ MogIt_MailDB = {
 						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
+				["faction"] = 1,
+			},
+			[49935] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Oondasta",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Pandaria",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[49954] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -15115,6 +15096,88 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
+			[63233] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[61331] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Ranjit",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Skyreach",
+					}, -- [1]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Vigilant Kaathar",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Auchindoun",
+					}, -- [2]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Rocketspark and Borka",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Grimrail Depot",
+					}, -- [3]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Oshir",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Iron Docks",
+					}, -- [4]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Bonemaw",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Shadowmoon Burial Grounds",
+					}, -- [5]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Ancient Protectors",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Everbloom",
+					}, -- [6]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Warlord Zaela",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Upper Blackrock Spire",
+					}, -- [7]
+				},
+				["faction"] = 1,
+			},
 			[64388] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -15142,95 +15205,6 @@ MogIt_MailDB = {
 						["instance"] = "Draenor",
 					}, -- [2]
 				},
-				["faction"] = 1,
-			},
-			[59501] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Ranjit",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Skyreach",
-					}, -- [1]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Vigilant Kaathar",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Auchindoun",
-					}, -- [2]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Rocketspark and Borka",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Grimrail Depot",
-					}, -- [3]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Oshir",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Iron Docks",
-					}, -- [4]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Bonemaw",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Shadowmoon Burial Grounds",
-					}, -- [5]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Ancient Protectors",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "The Everbloom",
-					}, -- [6]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Warlord Zaela",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Upper Blackrock Spire",
-					}, -- [7]
-				},
-				["faction"] = 1,
-			},
-			[63233] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 			[61336] = {
@@ -15317,9 +15291,9 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[65642] = {
+			[67892] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 			[61337] = {
@@ -15409,7 +15383,7 @@ MogIt_MailDB = {
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[61331] = {
+			[59501] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -15420,6 +15394,7 @@ MogIt_MailDB = {
 							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
+							"Normal", -- [1]
 						},
 						["instance"] = "Skyreach",
 					}, -- [1]
@@ -15430,6 +15405,7 @@ MogIt_MailDB = {
 							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
+							"Normal", -- [1]
 						},
 						["instance"] = "Auchindoun",
 					}, -- [2]
@@ -15440,6 +15416,7 @@ MogIt_MailDB = {
 							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
+							"Normal", -- [1]
 						},
 						["instance"] = "Grimrail Depot",
 					}, -- [3]
@@ -15450,6 +15427,7 @@ MogIt_MailDB = {
 							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
+							"Normal", -- [1]
 						},
 						["instance"] = "Iron Docks",
 					}, -- [4]
@@ -15460,6 +15438,7 @@ MogIt_MailDB = {
 							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
+							"Normal", -- [1]
 						},
 						["instance"] = "Shadowmoon Burial Grounds",
 					}, -- [5]
@@ -15470,6 +15449,7 @@ MogIt_MailDB = {
 							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
+							"Normal", -- [1]
 						},
 						["instance"] = "The Everbloom",
 					}, -- [6]
@@ -15480,6 +15460,7 @@ MogIt_MailDB = {
 							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
+							"Normal", -- [1]
 						},
 						["instance"] = "Upper Blackrock Spire",
 					}, -- [7]
@@ -15657,9 +15638,9 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[67892] = {
+			[65642] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[67047] = {
@@ -16089,90 +16070,6 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[61338] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Ranjit",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Skyreach",
-					}, -- [1]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Vigilant Kaathar",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Auchindoun",
-					}, -- [2]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Rocketspark and Borka",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Grimrail Depot",
-					}, -- [3]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Oshir",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Iron Docks",
-					}, -- [4]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Bonemaw",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Shadowmoon Burial Grounds",
-					}, -- [5]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Ancient Protectors",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "The Everbloom",
-					}, -- [6]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Warlord Zaela",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Upper Blackrock Spire",
-					}, -- [7]
-				},
-				["faction"] = 1,
-			},
 			[59511] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -16257,6 +16154,90 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
+			[61338] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Ranjit",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Skyreach",
+					}, -- [1]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Vigilant Kaathar",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Auchindoun",
+					}, -- [2]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Rocketspark and Borka",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Grimrail Depot",
+					}, -- [3]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Oshir",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Iron Docks",
+					}, -- [4]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Bonemaw",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Shadowmoon Burial Grounds",
+					}, -- [5]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Ancient Protectors",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "The Everbloom",
+					}, -- [6]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Warlord Zaela",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Upper Blackrock Spire",
+					}, -- [7]
+				},
+				["faction"] = 1,
+			},
 			[61339] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -16335,20 +16316,39 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[32675] = {
-			[83133] = {
+		[12521] = {
+			[24849] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Helya",
+						["encounter"] = "Lord Marrowgar",
 						["tiers"] = {
-							"Legion", -- [1]
+							"Wrath of the Lich King", -- [1]
 						},
 						["difficulties"] = {
+							"10 Player", -- [1]
 						},
-						["instance"] = "Trial of Valor",
+						["instance"] = "Icecrown Citadel",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[25196] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Blood Prince Council",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -16386,22 +16386,20 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[19924] = {
-			[49807] = {
+		[32699] = {
+			[83134] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Ra-den",
+						["encounter"] = "Helya",
 						["tiers"] = {
-							"Mists of Pandaria", -- [1]
+							"Legion", -- [1]
 						},
 						["difficulties"] = {
-							"10 Player (Heroic)", -- [1]
-							"25 Player (Heroic)", -- [2]
 						},
-						["instance"] = "Throne of Thunder",
+						["instance"] = "Trial of Valor",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -16570,7 +16568,7 @@ MogIt_MailDB = {
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[7934] = {
+			[7964] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -16580,12 +16578,12 @@ MogIt_MailDB = {
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[7933] = {
+			[7963] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[7964] = {
+			[7934] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -16595,7 +16593,7 @@ MogIt_MailDB = {
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[7963] = {
+			[7933] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -16670,10 +16668,46 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[37246] = {
-			[99138] = {
+		[23765] = {
+			[62603] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Twin Ogron",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Highmaul",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[62842] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Operator Thogar",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Blackrock Foundry",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[66996] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -16761,46 +16795,56 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[699] = {
-			[2895] = {
+		[21186] = {
+			[61530] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Galakras",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Siege of Orgrimmar",
+					}, -- [1]
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Galakras",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Siege of Orgrimmar",
+					}, -- [2]
+				},
+				["faction"] = 1,
+			},
+			[61788] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Spoils of Pandaria",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Siege of Orgrimmar",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
-		[38268] = {
-			[96587] = {
+		[37246] = {
+			[99138] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Zek'voz, Herald of N'zoth",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Uldir",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[96718] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Zul, Reborn",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Uldir",
-					}, -- [1]
-				},
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -16899,15 +16943,63 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[25753] = {
-			[71388] = {
+		[17577] = {
+			[84465] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Flameweaver Koegler",
+						["tiers"] = {
+							"Classic", -- [1]
+							"Mists of Pandaria", -- [2]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Scarlet Halls",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
-			[71390] = {
+			[45218] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[44023] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+			[84401] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Striker Ga'dok",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+							"Timewalking", -- [2]
+						},
+						["instance"] = "Gate of the Setting Sun",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[45091] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[45134] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -16935,69 +17027,17 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[5067] = {
-			{
-				["classes"] = 64,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Vaelastrasz the Corrupt",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Blackwing Lair",
-					}, -- [1]
-				},
-				["sourceID"] = 7008,
-				["faction"] = 1,
-			}, -- [1]
-		},
-		[21186] = {
-			[61530] = {
+		[4556] = {
+			[6277] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Galakras",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Siege of Orgrimmar",
-					}, -- [1]
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Galakras",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Siege of Orgrimmar",
-					}, -- [2]
-				},
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[61788] = {
+		},
+		[699] = {
+			[2895] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Spoils of Pandaria",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Siege of Orgrimmar",
-					}, -- [1]
-				},
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -17027,51 +17067,8 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[23765] = {
-			[62603] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Twin Ogron",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Highmaul",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[62842] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Operator Thogar",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Blackrock Foundry",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[66996] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[38284] = {
-			[98955] = {
+		[38268] = {
+			[96587] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -17088,7 +17085,7 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[98958] = {
+			[96718] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -17106,12 +17103,37 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[4556] = {
-			[6277] = {
+		[1398] = {
+			[9927] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
+			[9935] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[5067] = {
+			{
+				["classes"] = 64,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Vaelastrasz the Corrupt",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Blackwing Lair",
+					}, -- [1]
+				},
+				["sourceID"] = 7008,
+				["faction"] = 1,
+			}, -- [1]
 		},
 		[2283] = {
 			[13077] = {
@@ -17141,9 +17163,9 @@ MogIt_MailDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[78318] = {
+			[76134] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 			[74640] = {
@@ -17151,9 +17173,9 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[76134] = {
+			[78318] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -17252,13 +17274,13 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[37502] = {
-			[97514] = {
+		[33414] = {
+			[84724] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[97677] = {
+			[85373] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -17332,6 +17354,52 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
+		[33430] = {
+			[86572] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Goroth",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Tomb of Sargeras",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+		},
+		[23374] = {
+			[62792] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Kromog",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Blackrock Foundry",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+		},
+		[5095] = {
+			[7045] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+		},
 		[25945] = {
 			[73392] = {
 				["classes"] = 4,
@@ -17383,52 +17451,6 @@ MogIt_MailDB = {
 							"Looking For Raid", -- [1]
 						},
 						["instance"] = "Hellfire Citadel",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-		},
-		[23374] = {
-			[62792] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Kromog",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Blackrock Foundry",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-		},
-		[5095] = {
-			[7045] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-		},
-		[33430] = {
-			[86572] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Goroth",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Tomb of Sargeras",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -17492,6 +17514,78 @@ MogIt_MailDB = {
 			[35154] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[1666] = {
+			[1803] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[16338] = {
+			[37776] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[37777] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
+		[38157] = {
+			[95190] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Elder Leaxa",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Underrot",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[95134] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Azerokk",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The MOTHERLODE!!",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[94348] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Priestess Alun'za",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Atal'Dazar",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -17571,78 +17665,6 @@ MogIt_MailDB = {
 						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
-				["faction"] = 1,
-			},
-		},
-		[16338] = {
-			[37776] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[37777] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
-		[38157] = {
-			[95190] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Elder Leaxa",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The Underrot",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[95134] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Azerokk",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The MOTHERLODE!!",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[94348] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Priestess Alun'za",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Atal'Dazar",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-		},
-		[1666] = {
-			[1803] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -17748,15 +17770,63 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[37279] = {
-			[97713] = {
+		[10246] = {
+			[19085] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Maexxna",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"25 Player", -- [1]
+						},
+						["instance"] = "Naxxramas",
+					}, -- [1]
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Gluth",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"25 Player", -- [1]
+						},
+						["instance"] = "Naxxramas",
+					}, -- [2]
+				},
 				["faction"] = 1,
 			},
-			[97812] = {
+			[19300] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Grobbulus",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"25 Player", -- [1]
+						},
+						["instance"] = "Naxxramas",
+					}, -- [1]
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Gluth",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"25 Player", -- [1]
+						},
+						["instance"] = "Naxxramas",
+					}, -- [2]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -18154,19 +18224,9 @@ MogIt_MailDB = {
 			},
 		},
 		[27342] = {
-			[68860] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
 			[68413] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[81353] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 			[81355] = {
@@ -18174,11 +18234,152 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-		},
-		[4149] = {
-			[5578] = {
+			[81353] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[68860] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[27263] = {
+			[78690] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Illysanna Ravencrest",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Black Rook Hold",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[79004] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Advisor Vandros",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Arcway",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[79097] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Ash'golm",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Vault of the Wardens",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[79073] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Advisor Melandrus",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Court of Stars",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[76928] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Hymdall",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Halls of Valor",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[79053] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Fel Lord Betrug",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Assault on Violet Hold",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[79043] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Sael'orn",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Assault on Violet Hold",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[78941] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Rokmora",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Neltharion's Lair",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -18250,166 +18451,17 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[27263] = {
-			[78690] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Illysanna Ravencrest",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Black Rook Hold",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[78941] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Rokmora",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Neltharion's Lair",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[79097] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Ash'golm",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Vault of the Wardens",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[79073] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Advisor Melandrus",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Court of Stars",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[76928] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Hymdall",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Halls of Valor",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[79004] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Advisor Vandros",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The Arcway",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[79043] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Sael'orn",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Assault on Violet Hold",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[79053] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Fel Lord Betrug",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Assault on Violet Hold",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-		},
-		[22672] = {
-			[63437] = {
+		[4149] = {
+			[5578] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[66943] = {
+		},
+		[23183] = {
+			[65036] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Operator Thogar",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Looking For Raid", -- [1]
-						},
-						["instance"] = "Blackrock Foundry",
-					}, -- [1]
-				},
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 		},
@@ -18448,19 +18500,19 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[80141] = {
+			[80162] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Rokmora",
+						["encounter"] = "Fel Lord Betrug",
 						["tiers"] = {
 							"Legion", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Neltharion's Lair",
+						["instance"] = "Assault on Violet Hold",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -18482,19 +18534,19 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[80162] = {
+			[80141] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Fel Lord Betrug",
+						["encounter"] = "Rokmora",
 						["tiers"] = {
 							"Legion", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Assault on Violet Hold",
+						["instance"] = "Neltharion's Lair",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -18618,44 +18670,6 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[24277] = {
-			[64021] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[64125] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[7746] = {
-			[13455] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
-		[24207] = {
-			[64549] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[64551] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
-		[14450] = {
-			[75916] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
 		[9344] = {
 			[16976] = {
 				["classes"] = 4,
@@ -18708,6 +18722,44 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 			[19168] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[24277] = {
+			[64021] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[64125] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[24207] = {
+			[64549] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[64551] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
+		[14450] = {
+			[75916] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[7746] = {
+			[13455] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -18844,21 +18896,6 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[21283] = {
-			{
-				["classes"] = 64,
-				["sourceType"] = 4,
-				["sourceID"] = 57073,
-				["faction"] = 1,
-			}, -- [1]
-		},
-		[12953] = {
-			[26230] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
 		[8358] = {
 			[14885] = {
 				["classes"] = 4,
@@ -18878,6 +18915,21 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
+		},
+		[12953] = {
+			[26230] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[21283] = {
+			{
+				["classes"] = 64,
+				["sourceType"] = 4,
+				["sourceID"] = 57073,
+				["faction"] = 1,
+			}, -- [1]
 		},
 		[8368] = {
 			[14899] = {
@@ -18915,6 +18967,60 @@ MogIt_MailDB = {
 			[14956] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+		},
+		[4199] = {
+			[5645] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[19279] = {
+			[48479] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[48382] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[46350] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[46351] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[48504] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[51920] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[51945] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[48381] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[62556] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -18961,60 +19067,6 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[19279] = {
-			[48479] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[48382] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[46350] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[46351] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[48504] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[51920] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[51945] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[62556] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[48381] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[4199] = {
-			[5645] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
 		[19916] = {
 			[49874] = {
 				["classes"] = 4,
@@ -19041,18 +19093,6 @@ MogIt_MailDB = {
 			[49953] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[2873] = {
-			[6360] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[10584] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -19103,6 +19143,49 @@ MogIt_MailDB = {
 						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
+				["faction"] = 1,
+			},
+		},
+		[23910] = {
+			[67204] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Operator Thogar",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Mythic", -- [1]
+						},
+						["instance"] = "Blackrock Foundry",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[67196] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Twin Ogron",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Mythic", -- [1]
+						},
+						["instance"] = "Highmaul",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[67792] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -19207,16 +19290,6 @@ MogIt_MailDB = {
 			},
 		},
 		[1696] = {
-			[75809] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[75961] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
 			[75752] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
@@ -19227,44 +19300,14 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-		},
-		[14039] = {
-			[29702] = {
+			[75809] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Cho'gall",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-							"25 Player", -- [2]
-						},
-						["instance"] = "The Bastion of Twilight",
-					}, -- [1]
-				},
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[31846] = {
+			[75961] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "The Conclave of Wind",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-							"25 Player", -- [2]
-						},
-						["instance"] = "Throne of the Four Winds",
-					}, -- [1]
-				},
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -19290,6 +19333,30 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 			[57499] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[5239] = {
+			[7314] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Tendris Warpwood",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Dire Maul",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[9839] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -19505,6 +19572,13 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
+		[9492] = {
+			[17024] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
 		[16397] = {
 			{
 				["classes"] = 64,
@@ -19518,13 +19592,6 @@ MogIt_MailDB = {
 				["sourceID"] = 37718,
 				["faction"] = 1,
 			}, -- [2]
-		},
-		[9492] = {
-			[17024] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
 		},
 		[15472] = {
 			[35476] = {
@@ -19586,10 +19653,20 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[11556] = {
-			[22068] = {
+		[13600] = {
+			[28610] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[31368] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[38264] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 		},
@@ -19643,12 +19720,12 @@ MogIt_MailDB = {
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[50138] = {
+			[48654] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[48654] = {
+			[50138] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -19694,6 +19771,13 @@ MogIt_MailDB = {
 			[2174] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[8203] = {
+			[14401] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -19759,119 +19843,6 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			}, -- [6]
 		},
-		[4876] = {
-			[39698] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
-		[19599] = {
-			[47507] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Nalak, The Storm Lord",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Pandaria",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[47509] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Nalak, The Storm Lord",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Pandaria",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[53017] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[53018] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
-		[35094] = {
-			[89897] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Antoran High Command",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Antorus, the Burning Throne",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[90576] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Aggramar",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Antorus, the Burning Throne",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-		},
-		[2907] = {
-			[3456] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[9879] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[27767] = {
-			[79290] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[83506] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
 		[31863] = {
 			[81873] = {
 				["classes"] = 4,
@@ -19930,27 +19901,6 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[2399] = {
-			[2795] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[14167] = {
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 30191,
-				["faction"] = 1,
-			}, -- [1]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 30194,
-				["faction"] = 1,
-			}, -- [2]
-		},
 		[14171] = {
 			[30204] = {
 				["classes"] = 4,
@@ -19960,6 +19910,190 @@ MogIt_MailDB = {
 			[30213] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
+		[2907] = {
+			[3456] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[9879] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[12622] = {
+			[25232] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[25235] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
+		[19599] = {
+			[47507] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Nalak, The Storm Lord",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Pandaria",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[47509] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Nalak, The Storm Lord",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Pandaria",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[53017] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[53018] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
+		[2399] = {
+			[2795] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[38144] = {
+			[98403] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Azerokk",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The MOTHERLODE!!",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[98389] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Priestess Alun'za",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Atal'Dazar",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[98407] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "The Golden Serpent",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+							"Mythic", -- [1]
+						},
+						["instance"] = "Kings' Rest",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[98428] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Elder Leaxa",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Underrot",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+		},
+		[35094] = {
+			[89897] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Antoran High Command",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Antorus, the Burning Throne",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[90576] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Aggramar",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Antorus, the Burning Throne",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -20137,43 +20271,6 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			}, -- [4]
 		},
-		[8594] = {
-			[75834] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[75676] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[75776] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[75703] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[75931] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[75767] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[75693] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
 		[15237] = {
 			[35883] = {
 				["classes"] = 4,
@@ -20181,6 +20278,28 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 			[35886] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
+		[20733] = {
+			[53432] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[53434] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[55338] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[55337] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -20217,25 +20336,62 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[20733] = {
-			[53432] = {
+		[14726] = {
+			[32675] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Theralion and Valiona",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player (Heroic)", -- [1]
+							"25 Player (Heroic)", -- [2]
+						},
+						["instance"] = "The Bastion of Twilight",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
-			[53434] = {
+			[32914] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "The Conclave of Wind",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player (Heroic)", -- [1]
+							"25 Player (Heroic)", -- [2]
+						},
+						["instance"] = "Throne of the Four Winds",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
-			[55338] = {
+			[32639] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[55337] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Magmaw",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player (Heroic)", -- [1]
+							"25 Player (Heroic)", -- [2]
+						},
+						["instance"] = "Blackwing Descent",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -20256,32 +20412,35 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[10139] = {
-			[20744] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[18879] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[20803] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[20869] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-		},
 		[10650] = {
 			[19950] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
+		[6355] = {
+			[9529] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "The Maker",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "The Blood Furnace",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[14291] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -20346,10 +20505,27 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[11181] = {
-			[21376] = {
+		[33865] = {
+			[86730] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Sisters of the Moon",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Tomb of Sargeras",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[86738] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -20650,27 +20826,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[33865] = {
-			[86730] = {
+		[11181] = {
+			[21376] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Sisters of the Moon",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Tomb of Sargeras",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[86738] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -20717,28 +20876,25 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[6355] = {
-			[9529] = {
+		[10139] = {
+			[20744] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "The Maker",
-						["tiers"] = {
-							"Burning Crusade", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "The Blood Furnace",
-					}, -- [1]
-				},
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[14291] = {
+			[18879] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[20803] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[20869] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 		},
@@ -20749,62 +20905,40 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[14726] = {
-			[32675] = {
+		[8594] = {
+			[75834] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Theralion and Valiona",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player (Heroic)", -- [1]
-							"25 Player (Heroic)", -- [2]
-						},
-						["instance"] = "The Bastion of Twilight",
-					}, -- [1]
-				},
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[32914] = {
+			[75767] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "The Conclave of Wind",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player (Heroic)", -- [1]
-							"25 Player (Heroic)", -- [2]
-						},
-						["instance"] = "Throne of the Four Winds",
-					}, -- [1]
-				},
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[32639] = {
+			[75776] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Magmaw",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player (Heroic)", -- [1]
-							"25 Player (Heroic)", -- [2]
-						},
-						["instance"] = "Blackwing Descent",
-					}, -- [1]
-				},
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75703] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75693] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75676] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75931] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -20846,93 +20980,36 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[38144] = {
-			[98403] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Azerokk",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The MOTHERLODE!!",
-					}, -- [1]
-				},
+		[14167] = {
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 30191,
 				["faction"] = 1,
-			},
-			[98389] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Priestess Alun'za",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Atal'Dazar",
-					}, -- [1]
-				},
+			}, -- [1]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 30194,
 				["faction"] = 1,
-			},
-			[98407] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "The Golden Serpent",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-							"Mythic", -- [1]
-						},
-						["instance"] = "Kings' Rest",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[98428] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Elder Leaxa",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The Underrot",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
+			}, -- [2]
 		},
-		[12622] = {
-			[25232] = {
+		[27767] = {
+			[79290] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[25235] = {
+			[83506] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
-		[8203] = {
-			[14401] = {
+		[4876] = {
+			[39698] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -21033,25 +21110,6 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[49806] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Ra-den",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player (Heroic)", -- [1]
-							"25 Player (Heroic)", -- [2]
-						},
-						["instance"] = "Throne of Thunder",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
 			[50856] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -21071,26 +21129,35 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
+			[49806] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Ra-den",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player (Heroic)", -- [1]
+							"25 Player (Heroic)", -- [2]
+						},
+						["instance"] = "Throne of Thunder",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
 			[72498] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
-		[13600] = {
-			[28610] = {
+		[11556] = {
+			[22068] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[31368] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[38264] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 		},
@@ -21186,27 +21253,43 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[5239] = {
-			[7314] = {
+		[14039] = {
+			[29702] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 1,
-						["encounter"] = "Tendris Warpwood",
+						["instanceType"] = 2,
+						["encounter"] = "Cho'gall",
 						["tiers"] = {
-							"Classic", -- [1]
+							"Cataclysm", -- [1]
 						},
 						["difficulties"] = {
+							"10 Player", -- [1]
+							"25 Player", -- [2]
 						},
-						["instance"] = "Dire Maul",
+						["instance"] = "The Bastion of Twilight",
 					}, -- [1]
 				},
 				["faction"] = 1,
 			},
-			[9839] = {
+			[31846] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "The Conclave of Wind",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+							"25 Player", -- [2]
+						},
+						["instance"] = "Throne of the Four Winds",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -21224,46 +21307,15 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[23910] = {
-			[67204] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Operator Thogar",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Mythic", -- [1]
-						},
-						["instance"] = "Blackrock Foundry",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[67196] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Twin Ogron",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Mythic", -- [1]
-						},
-						["instance"] = "Highmaul",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[67792] = {
+		[2873] = {
+			[6360] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[10584] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -21399,17 +21451,17 @@ MogIt_MailDB = {
 			},
 		},
 		[34585] = {
-			[86996] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
 			[87860] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[87428] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[86996] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -21453,10 +21505,28 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[23183] = {
-			[65036] = {
+		[22672] = {
+			[63437] = {
 				["classes"] = 4,
-				["sourceType"] = 6,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[66943] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Operator Thogar",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Looking For Raid", -- [1]
+						},
+						["instance"] = "Blackrock Foundry",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -21662,63 +21732,15 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[10246] = {
-			[19085] = {
+		[37279] = {
+			[97713] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Maexxna",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"25 Player", -- [1]
-						},
-						["instance"] = "Naxxramas",
-					}, -- [1]
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Gluth",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"25 Player", -- [1]
-						},
-						["instance"] = "Naxxramas",
-					}, -- [2]
-				},
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[19300] = {
+			[97812] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Grobbulus",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"25 Player", -- [1]
-						},
-						["instance"] = "Naxxramas",
-					}, -- [1]
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Gluth",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"25 Player", -- [1]
-						},
-						["instance"] = "Naxxramas",
-					}, -- [2]
-				},
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -21753,13 +21775,13 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[33414] = {
-			[84724] = {
+		[37502] = {
+			[97514] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[85373] = {
+			[97677] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -21816,15 +21838,39 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[1398] = {
-			[9927] = {
+		[38284] = {
+			[98955] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Zek'voz, Herald of N'zoth",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Uldir",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
-			[9935] = {
+			[98958] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Zul, Reborn",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Uldir",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -21865,63 +21911,15 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[17577] = {
-			[84465] = {
+		[25753] = {
+			[71388] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Flameweaver Koegler",
-						["tiers"] = {
-							"Classic", -- [1]
-							"Mists of Pandaria", -- [2]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Scarlet Halls",
-					}, -- [1]
-				},
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[45218] = {
+			[71390] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[44023] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-			[84401] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Striker Ga'dok",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-							"Timewalking", -- [2]
-						},
-						["instance"] = "Gate of the Setting Sun",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[45091] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[45134] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -22110,20 +22108,22 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[32699] = {
-			[83134] = {
+		[19924] = {
+			[49807] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Helya",
+						["encounter"] = "Ra-den",
 						["tiers"] = {
-							"Legion", -- [1]
+							"Mists of Pandaria", -- [1]
 						},
 						["difficulties"] = {
+							"10 Player (Heroic)", -- [1]
+							"25 Player (Heroic)", -- [2]
 						},
-						["instance"] = "Trial of Valor",
+						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -23153,83 +23153,6 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[61399] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Teron'gor",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Auchindoun",
-					}, -- [1]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Slave Watcher Crushto",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Bloodmaul Slag Mines",
-					}, -- [2]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Skylord Tovra",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Grimrail Depot",
-					}, -- [3]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Skulloc",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Iron Docks",
-					}, -- [4]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "High Sage Viryx",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Skyreach",
-					}, -- [5]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Ancient Protectors",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The Everbloom",
-					}, -- [6]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Ragewing the Untamed",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Upper Blackrock Spire",
-					}, -- [7]
-				},
-				["faction"] = 1,
-			},
 			[61392] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -23308,6 +23231,83 @@ MogIt_MailDB = {
 						},
 						["difficulties"] = {
 							"Heroic", -- [1]
+						},
+						["instance"] = "Upper Blackrock Spire",
+					}, -- [7]
+				},
+				["faction"] = 1,
+			},
+			[61399] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Teron'gor",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Auchindoun",
+					}, -- [1]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Slave Watcher Crushto",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Bloodmaul Slag Mines",
+					}, -- [2]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Skylord Tovra",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Grimrail Depot",
+					}, -- [3]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Skulloc",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Iron Docks",
+					}, -- [4]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "High Sage Viryx",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Skyreach",
+					}, -- [5]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Ancient Protectors",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Everbloom",
+					}, -- [6]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Ragewing the Untamed",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
 						},
 						["instance"] = "Upper Blackrock Spire",
 					}, -- [7]
@@ -23779,41 +23779,6 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[6705] = {
-			[13405] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
-		[1807] = {
-			[76391] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Helix Gearbreaker",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-							"Classic", -- [2]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Deadmines",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-		},
-		[38118] = {
-			[97521] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
 		[36074] = {
 			[96421] = {
 				["classes"] = 4,
@@ -23843,6 +23808,41 @@ MogIt_MailDB = {
 			[91936] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[1807] = {
+			[76391] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Helix Gearbreaker",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+							"Classic", -- [2]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Deadmines",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+		},
+		[6705] = {
+			[13405] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[38118] = {
+			[97521] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -23986,6 +23986,35 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
+		[2600] = {
+			[3106] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+		},
+		[4164] = {
+			[5599] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[5705] = {
+			{
+				["classes"] = 64,
+				["sourceType"] = 2,
+				["sourceID"] = 8402,
+				["faction"] = 1,
+			}, -- [1]
+		},
+		[1046] = {
+			[1051] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
 		[23770] = {
 			[62683] = {
 				["classes"] = 4,
@@ -24024,37 +24053,23 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[4164] = {
-			[5599] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[5705] = {
-			{
-				["classes"] = 64,
-				["sourceType"] = 2,
-				["sourceID"] = 8402,
-				["faction"] = 1,
-			}, -- [1]
-		},
-		[12919] = {
-			[77830] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[2600] = {
-			[3106] = {
+		[37272] = {
+			[98073] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
 				["faction"] = 1,
 			},
-		},
-		[4172] = {
-			[5608] = {
+			[99806] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[98753] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[99807] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -24130,9 +24145,9 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[76148] = {
+			[68259] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 			[80456] = {
@@ -24140,9 +24155,9 @@ MogIt_MailDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[68259] = {
+			[76148] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 			[68784] = {
@@ -24176,6 +24191,21 @@ MogIt_MailDB = {
 			},
 		},
 		[13458] = {
+			[32112] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[62497] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[32108] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
 			[27429] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -24194,17 +24224,30 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[62497] = {
+			[93784] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Slabhide",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "The Stonecore",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[34125] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[32108] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[32112] = {
+			[33107] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -24223,34 +24266,6 @@ MogIt_MailDB = {
 							"Normal", -- [1]
 						},
 						["instance"] = "Lost City of the Tol'vir",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[34125] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[33107] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[93784] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Slabhide",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "The Stonecore",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -24627,31 +24642,24 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[15067] = {
-			[100500] = {
+		[34590] = {
+			[87424] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[86992] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[87856] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
 		[34606] = {
-			[89885] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "The Coven of Shivarra",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Antorus, the Burning Throne",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
 			[90572] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
@@ -24674,9 +24682,60 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
+			[89885] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "The Coven of Shivarra",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Antorus, the Burning Throne",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
 		},
-		[31651] = {
-			[100428] = {
+		[34622] = {
+			[90097] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Imonar the Soulhunter",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Antorus, the Burning Throne",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[89887] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "The Coven of Shivarra",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Antorus, the Burning Throne",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[90574] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -24771,33 +24830,6 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[13570] = {
-			[27783] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-		},
-		[16393] = {
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 37699,
-				["faction"] = 1,
-			}, -- [1]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 37705,
-				["faction"] = 1,
-			}, -- [2]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 37710,
-				["faction"] = 1,
-			}, -- [3]
-		},
 		[9482] = {
 			[16989] = {
 				["classes"] = 4,
@@ -24840,6 +24872,33 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
+		[16393] = {
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 37699,
+				["faction"] = 1,
+			}, -- [1]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 37705,
+				["faction"] = 1,
+			}, -- [2]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 37710,
+				["faction"] = 1,
+			}, -- [3]
+		},
+		[13570] = {
+			[27783] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+		},
 		[2635] = {
 			[3085] = {
 				["classes"] = 4,
@@ -24857,35 +24916,30 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[5264] = {
-			[69093] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[7391] = {
+		[3147] = {
+			[4237] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "King Gordok",
+						["encounter"] = "Pyromancer Loregrain",
 						["tiers"] = {
 							"Classic", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Dire Maul",
+						["instance"] = "Blackrock Depths",
 					}, -- [1]
 				},
 				["faction"] = 1,
 			},
-			[9868] = {
+			[3789] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[14030] = {
+			[14599] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -25323,25 +25377,12 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[10588] = {
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 19821,
+		[23188] = {
+			[65021] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
 				["faction"] = 1,
-			}, -- [1]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 19826,
-				["faction"] = 1,
-			}, -- [2]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 19904,
-				["faction"] = 1,
-			}, -- [3]
+			},
 		},
 		[18565] = {
 			[43653] = {
@@ -25407,10 +25448,46 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[23188] = {
-			[65021] = {
+		[22677] = {
+			[66939] = {
 				["classes"] = 4,
-				["sourceType"] = 6,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Flamebender Ka'graz",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Looking For Raid", -- [1]
+						},
+						["instance"] = "Blackrock Foundry",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[63413] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[66942] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Beastlord Darmac",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Looking For Raid", -- [1]
+						},
+						["instance"] = "Blackrock Foundry",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -25507,7 +25584,7 @@ MogIt_MailDB = {
 			},
 		},
 		[539] = {
-			[75612] = {
+			[75654] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -25517,17 +25594,7 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[75654] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[76043] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[76033] = {
+			[75612] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -25537,9 +25604,19 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
+			[76033] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[76043] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
 		},
-		[10632] = {
-			[19927] = {
+		[9099] = {
+			[16236] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -25609,8 +25686,8 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[9099] = {
-			[16236] = {
+		[10632] = {
+			[19927] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -25628,11 +25705,24 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[21288] = {
+		[11682] = {
 			{
 				["classes"] = 64,
-				["sourceType"] = 4,
-				["sourceID"] = 57078,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Emalon the Storm Watcher",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"25 Player", -- [1]
+						},
+						["instance"] = "Vault of Archavon",
+					}, -- [1]
+				},
+				["sourceID"] = 22322,
 				["faction"] = 1,
 			}, -- [1]
 		},
@@ -25689,26 +25779,139 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[11682] = {
-			{
-				["classes"] = 64,
+		[12193] = {
+			[24410] = {
+				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 2,
-						["encounter"] = "Emalon the Storm Watcher",
+						["instanceType"] = 1,
+						["encounter"] = "Marwyn",
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
 						["difficulties"] = {
-							"25 Player", -- [1]
+							"Normal", -- [1]
 						},
-						["instance"] = "Vault of Archavon",
+						["instance"] = "Halls of Reflection",
 					}, -- [1]
 				},
-				["sourceID"] = 22322,
 				["faction"] = 1,
-			}, -- [1]
+			},
+		},
+		[2680] = {
+			[10581] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[4226] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Ring of Law",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Blackrock Depths",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[3147] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[35486] = {
+			[88516] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[88300] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[88732] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
+		[6366] = {
+			[75539] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[3699] = {
+			[4650] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[19284] = {
+			[48376] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[48502] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[48387] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[46345] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[46356] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[48477] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[51918] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[51943] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[3190] = {
+			[5874] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+			[49141] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
 		},
 		[25943] = {
 			[70639] = {
@@ -25780,120 +25983,6 @@ MogIt_MailDB = {
 						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
-				["faction"] = 1,
-			},
-		},
-		[6366] = {
-			[75539] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
-		[3699] = {
-			[4650] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[19284] = {
-			[48376] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[48502] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[51943] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[46345] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[48477] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[46356] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[51918] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[48387] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[3190] = {
-			[5874] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-			[49141] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[2680] = {
-			[10581] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[4226] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Ring of Law",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Blackrock Depths",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[3147] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[35486] = {
-			[88516] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[88300] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[88732] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -25975,14 +26064,14 @@ MogIt_MailDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[64243] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
 			[57768] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[64243] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -26017,12 +26106,12 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[75910] = {
+			[75895] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[75895] = {
+			[75910] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -26038,10 +26127,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[930] = {
-			[6226] = {
+		[5883] = {
+			[39685] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -26052,22 +26141,20 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[15934] = {
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 36771,
+		[36014] = {
+			[94047] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
-			}, -- [1]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 36776,
+			},
+			[96182] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
-			}, -- [2]
+			},
 		},
-		[25113] = {
-			[67045] = {
+		[17448] = {
+			[78287] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -26206,34 +26293,44 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[36014] = {
-			[94047] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
+		[15934] = {
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 36771,
 				["faction"] = 1,
-			},
-			[96182] = {
+			}, -- [1]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 36776,
+				["faction"] = 1,
+			}, -- [2]
+		},
+		[36030] = {
+			[91794] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-		},
-		[4400] = {
-			[76418] = {
+			[96965] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Lord Cobrahn",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Wailing Caverns",
-					}, -- [1]
-				},
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[97029] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[97033] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[93983] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -26278,8 +26375,8 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[17448] = {
-			[78287] = {
+		[25113] = {
+			[67045] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -26409,25 +26506,25 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[8760] = {
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 15582,
+		[6943] = {
+			[12057] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "The Black Stalker",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "The Underbog",
+					}, -- [1]
+				},
 				["faction"] = 1,
-			}, -- [1]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 15587,
-				["faction"] = 1,
-			}, -- [2]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 15614,
-				["faction"] = 1,
-			}, -- [3]
+			},
 		},
 		[5923] = {
 			[39706] = {
@@ -26454,19 +26551,19 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[76911] = {
+			[79095] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Helya",
+						["encounter"] = "Inquisitor Tormentorum",
 						["tiers"] = {
 							"Legion", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Maw of Souls",
+						["instance"] = "Vault of the Wardens",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -26505,19 +26602,19 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[79095] = {
+			[76911] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Inquisitor Tormentorum",
+						["encounter"] = "Helya",
 						["tiers"] = {
 							"Legion", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Vault of the Wardens",
+						["instance"] = "Maw of Souls",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -26629,37 +26726,58 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[3225] = {
-			[3900] = {
+		[33459] = {
+			[86194] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Mistress Sassz'ine",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Tomb of Sargeras",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[86566] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Demonic Inquisition",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Tomb of Sargeras",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
-		[36030] = {
-			[91794] = {
+		[4400] = {
+			[76418] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[96965] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[97029] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[97033] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[93983] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Lord Cobrahn",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Wailing Caverns",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -26675,10 +26793,15 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[2717] = {
-			[3185] = {
+		[27772] = {
+			[79288] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[83504] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -26860,22 +26983,22 @@ MogIt_MailDB = {
 			},
 		},
 		[1487] = {
-			[75881] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[76105] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
 			[75584] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 			[75580] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75881] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[76105] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -27149,18 +27272,6 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[12972] = {
-			[26254] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[34262] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
 		[11439] = {
 			{
 				["classes"] = 64,
@@ -27238,6 +27349,18 @@ MogIt_MailDB = {
 				["sourceID"] = 22330,
 				["faction"] = 1,
 			}, -- [4]
+		},
+		[12972] = {
+			[26254] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[34262] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
 		},
 		[23365] = {
 			[62621] = {
@@ -27404,10 +27527,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[6512] = {
-			[9924] = {
+		[409] = {
+			[75538] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -27418,10 +27541,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[409] = {
-			[75538] = {
+		[6512] = {
+			[9924] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -27433,23 +27556,6 @@ MogIt_MailDB = {
 			},
 		},
 		[38139] = {
-			[98377] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Rezan",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Atal'Dazar",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
 			[98419] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -27463,23 +27569,6 @@ MogIt_MailDB = {
 						["difficulties"] = {
 						},
 						["instance"] = "The Underrot",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[98411] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Merektha",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Temple of Sethraliss",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -27501,6 +27590,40 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
+			[98411] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Merektha",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Temple of Sethraliss",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[98377] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Rezan",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Atal'Dazar",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
 		},
 		[24475] = {
 			[65972] = {
@@ -27509,39 +27632,20 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[14046] = {
-			[29972] = {
+		[205] = {
+			[1609] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[29711] = {
+			[2966] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Cho'gall",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-							"25 Player", -- [2]
-						},
-						["instance"] = "The Bastion of Twilight",
-					}, -- [1]
-				},
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
-			[47079] = {
+			[11992] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[34193] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -27559,10 +27663,52 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[8948] = {
-			[15927] = {
+		[3778] = {
+			[8577] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Battleguard Sartura",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Temple of Ahn'Qiraj",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[13467] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[4756] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[14564] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[14253] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[14397] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[8060] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 		},
@@ -27644,6 +27790,11 @@ MogIt_MailDB = {
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
+			[52854] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
 			[57081] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -27659,11 +27810,6 @@ MogIt_MailDB = {
 						["instance"] = "Pandaria",
 					}, -- [1]
 				},
-				["faction"] = 1,
-			},
-			[52854] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[61064] = {
@@ -27864,23 +28010,6 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[81230] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Xavius",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The Emerald Nightmare",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
 			[81077] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -27911,6 +28040,23 @@ MogIt_MailDB = {
 						["difficulties"] = {
 						},
 						["instance"] = "Broken Isles",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[81230] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Xavius",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Emerald Nightmare",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -27991,21 +28137,6 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[8509] = {
-			[15146] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
-		[4862] = {
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 39284,
-				["faction"] = 1,
-			}, -- [1]
-		},
 		[14130] = {
 			{
 				["classes"] = 64,
@@ -28026,23 +28157,38 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			}, -- [3]
 		},
-		[2176] = {
-			[75643] = {
+		[4862] = {
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 39284,
+				["faction"] = 1,
+			}, -- [1]
+		},
+		[8509] = {
+			[15146] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
+		},
+		[2176] = {
 			[75553] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[76058] = {
+			[75643] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 			[75599] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[76058] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -28068,10 +28214,22 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[4550] = {
-			[6270] = {
+		[5061] = {
+			[7002] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Ragnaros",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Molten Core",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -28139,40 +28297,23 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[36064] = {
-			[91521] = {
+		[26751] = {
+			[69898] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[94143] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[96345] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[98057] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-			[96346] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[92070] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[96344] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Hellfire High Council",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Mythic", -- [1]
+						},
+						["instance"] = "Hellfire Citadel",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -28203,10 +28344,49 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			}, -- [3]
 		},
-		[2273] = {
-			[89661] = {
+		[35090] = {
+			[89882] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Garothi Worldbreaker",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Antorus, the Burning Throne",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[90445] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Pit Lord Vilemus",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Invasion Points",
+					}, -- [1]
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Inquisitor Meto",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Invasion Points",
+					}, -- [2]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -28288,22 +28468,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[5061] = {
-			[7002] = {
+		[4550] = {
+			[6270] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Ragnaros",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Molten Core",
-					}, -- [1]
-				},
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -28374,8 +28542,8 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[10633] = {
-			[19928] = {
+		[24300] = {
+			[64969] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -28446,6 +28614,13 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
+		[4570] = {
+			[6300] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
 		[1402] = {
 			[9932] = {
 				["classes"] = 4,
@@ -28453,13 +28628,6 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 			[9940] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[4570] = {
-			[6300] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -28720,44 +28888,20 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[11747] = {
-			[46943] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[22551] = {
+		[35107] = {
+			[89883] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Champions of the Horde",
+						["encounter"] = "Garothi Worldbreaker",
 						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
+							"Legion", -- [1]
 						},
 						["difficulties"] = {
-							"25 Player", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[22555] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Champions of the Horde",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"25 Player (Heroic)", -- [1]
-						},
-						["instance"] = "Trial of the Crusader",
+						["instance"] = "Antorus, the Burning Throne",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -29071,6 +29215,20 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
+		[8590] = {
+			[75953] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[4642] = {
+			[6402] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
 		[33721] = {
 			[86721] = {
 				["classes"] = 4,
@@ -29087,20 +29245,6 @@ MogIt_MailDB = {
 						["instance"] = "Tomb of Sargeras",
 					}, -- [1]
 				},
-				["faction"] = 1,
-			},
-		},
-		[4642] = {
-			[6402] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[8590] = {
-			[75953] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -29121,10 +29265,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[8258] = {
-			[14568] = {
+		[4648] = {
+			[6412] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -29137,6 +29281,43 @@ MogIt_MailDB = {
 			[71400] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
+		[36082] = {
+			[94111] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[94579] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[91827] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[96423] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[92003] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[94583] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[92342] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -29182,43 +29363,6 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[36082] = {
-			[94111] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[92003] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[91827] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[92342] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[94579] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[94583] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[96423] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
 		[4656] = {
 			[6423] = {
 				["classes"] = 4,
@@ -29245,25 +29389,25 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[10590] = {
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 19823,
+		[6836] = {
+			[11894] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Captain Skarloc",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Old Hillsbrad Foothills",
+					}, -- [1]
+				},
 				["faction"] = 1,
-			}, -- [1]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 19828,
-				["faction"] = 1,
-			}, -- [2]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 19923,
-				["faction"] = 1,
-			}, -- [3]
+			},
 		},
 		[4662] = {
 			[6432] = {
@@ -29272,26 +29416,51 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[4179] = {
-			[5617] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[89455] = {
+		[9875] = {
+			[17956] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Chief Ukorz Sandscalp",
+						["encounter"] = "Mal'Ganis",
 						["tiers"] = {
-							"Classic", -- [1]
+							"Wrath of the Lich King", -- [1]
 						},
 						["difficulties"] = {
+							"Normal", -- [1]
 						},
-						["instance"] = "Zul'Farrak",
+						["instance"] = "The Culling of Stratholme",
 					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[18725] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Grand Widow Faerlina",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+						},
+						["instance"] = "Naxxramas",
+					}, -- [1]
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Gluth",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+						},
+						["instance"] = "Naxxramas",
+					}, -- [2]
 				},
 				["faction"] = 1,
 			},
@@ -29469,71 +29638,20 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[29906] = {
-			[81229] = {
+		[8837] = {
+			[15768] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Xavius",
+						["encounter"] = "Kalecgos",
 						["tiers"] = {
-							"Legion", -- [1]
+							"Burning Crusade", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "The Emerald Nightmare",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[79876] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Gul'dan",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The Nighthold",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[81884] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Trilliax",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The Nighthold",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[82444] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Na'zak the Fiend",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Broken Isles",
+						["instance"] = "Sunwell Plateau",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -29575,125 +29693,53 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[9867] = {
-			[17937] = {
+		[6730] = {
+			[10530] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Sjonnir the Ironshaper",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Halls of Stone",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[18703] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[18756] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Patchwerk",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-						},
-						["instance"] = "Naxxramas",
-					}, -- [1]
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Gluth",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-						},
-						["instance"] = "Naxxramas",
-					}, -- [2]
-				},
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 		},
-		[6836] = {
-			[11894] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Captain Skarloc",
-						["tiers"] = {
-							"Burning Crusade", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Old Hillsbrad Foothills",
-					}, -- [1]
-				},
+		[10590] = {
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 19823,
 				["faction"] = 1,
-			},
+			}, -- [1]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 19828,
+				["faction"] = 1,
+			}, -- [2]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 19923,
+				["faction"] = 1,
+			}, -- [3]
 		},
-		[9875] = {
-			[17956] = {
+		[4179] = {
+			[5617] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[89455] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Mal'Ganis",
+						["encounter"] = "Chief Ukorz Sandscalp",
 						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
+							"Classic", -- [1]
 						},
 						["difficulties"] = {
-							"Normal", -- [1]
 						},
-						["instance"] = "The Culling of Stratholme",
+						["instance"] = "Zul'Farrak",
 					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[18725] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Grand Widow Faerlina",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-						},
-						["instance"] = "Naxxramas",
-					}, -- [1]
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Gluth",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-						},
-						["instance"] = "Naxxramas",
-					}, -- [2]
 				},
 				["faction"] = 1,
 			},
@@ -29949,23 +29995,6 @@ MogIt_MailDB = {
 			},
 		},
 		[37520] = {
-			[95872] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "The Sand Queen",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Tol Dagor",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
 			[95845] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -29983,19 +30012,19 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[95882] = {
+			[95872] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Heartsbane Triad",
+						["encounter"] = "The Sand Queen",
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Waycrest Manor",
+						["instance"] = "Tol Dagor",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -30014,6 +30043,23 @@ MogIt_MailDB = {
 							"Mythic", -- [1]
 						},
 						["instance"] = "Siege of Boralus",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[95882] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Heartsbane Triad",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Waycrest Manor",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -30174,13 +30220,6 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[1697] = {
-			[14223] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
 		[5750] = {
 			[11988] = {
 				["classes"] = 4,
@@ -30215,6 +30254,13 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
+		[1697] = {
+			[14223] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
 		[2970] = {
 			[3826] = {
 				["classes"] = 4,
@@ -30239,30 +30285,25 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[14562] = {
-			[32171] = {
+		[34614] = {
+			[90096] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Imonar the Soulhunter",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Antorus, the Burning Throne",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
-			[32020] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[32023] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[32174] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
-		[34630] = {
-			[89888] = {
+			[89886] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -30279,6 +30320,13 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
+			[90573] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[34630] = {
 			[90575] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
@@ -30291,6 +30339,23 @@ MogIt_MailDB = {
 					{
 						["instanceType"] = 2,
 						["encounter"] = "Imonar the Soulhunter",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Antorus, the Burning Throne",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[89888] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "The Coven of Shivarra",
 						["tiers"] = {
 							"Legion", -- [1]
 						},
@@ -30399,17 +30464,25 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[17379] = {
-			[47139] = {
-				["classes"] = 4,
+		[18401] = {
+			{
+				["classes"] = 64,
 				["sourceType"] = 4,
+				["sourceID"] = 43350,
 				["faction"] = 1,
-			},
-			[54385] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
+			}, -- [1]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 47859,
 				["faction"] = 1,
-			},
+			}, -- [2]
+			{
+				["classes"] = 64,
+				["sourceType"] = 6,
+				["sourceID"] = 52232,
+				["faction"] = 1,
+			}, -- [3]
 		},
 		[15511] = {
 			[35548] = {
@@ -30556,25 +30629,12 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[6806] = {
-			{
-				["classes"] = 64,
+		[14618] = {
+			[32352] = {
+				["classes"] = 4,
 				["sourceType"] = 3,
-				["sourceID"] = 10701,
 				["faction"] = 1,
-			}, -- [1]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 11920,
-				["faction"] = 1,
-			}, -- [2]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 14350,
-				["faction"] = 1,
-			}, -- [3]
+			},
 		},
 		[23778] = {
 			[62681] = {
@@ -30614,12 +30674,25 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[14618] = {
-			[32352] = {
-				["classes"] = 4,
+		[6806] = {
+			{
+				["classes"] = 64,
 				["sourceType"] = 3,
+				["sourceID"] = 10701,
 				["faction"] = 1,
-			},
+			}, -- [1]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 11920,
+				["faction"] = 1,
+			}, -- [2]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 14350,
+				["faction"] = 1,
+			}, -- [3]
 		},
 		[13608] = {
 			[28771] = {
@@ -30696,64 +30769,37 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[18401] = {
-			{
-				["classes"] = 64,
+		[17379] = {
+			[47139] = {
+				["classes"] = 4,
 				["sourceType"] = 4,
-				["sourceID"] = 43350,
 				["faction"] = 1,
-			}, -- [1]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 47859,
+			},
+			[54385] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
-			}, -- [2]
-			{
-				["classes"] = 64,
-				["sourceType"] = 6,
-				["sourceID"] = 52232,
-				["faction"] = 1,
-			}, -- [3]
+			},
 		},
-		[34614] = {
-			[90096] = {
+		[14562] = {
+			[32171] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Imonar the Soulhunter",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Antorus, the Burning Throne",
-					}, -- [1]
-				},
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[89886] = {
+			[32023] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "The Coven of Shivarra",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Antorus, the Burning Throne",
-					}, -- [1]
-				},
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[90573] = {
+			[32020] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[32174] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -30924,27 +30970,125 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[6730] = {
-			[10530] = {
+		[9867] = {
+			[17937] = {
 				["classes"] = 4,
-				["sourceType"] = 6,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Sjonnir the Ironshaper",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Halls of Stone",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
-		},
-		[8837] = {
-			[15768] = {
+			[18703] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[18756] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Kalecgos",
+						["encounter"] = "Patchwerk",
 						["tiers"] = {
-							"Burning Crusade", -- [1]
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+						},
+						["instance"] = "Naxxramas",
+					}, -- [1]
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Gluth",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+						},
+						["instance"] = "Naxxramas",
+					}, -- [2]
+				},
+				["faction"] = 1,
+			},
+		},
+		[29906] = {
+			[79876] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Gul'dan",
+						["tiers"] = {
+							"Legion", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Sunwell Plateau",
+						["instance"] = "The Nighthold",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[82444] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Na'zak the Fiend",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Broken Isles",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[81884] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Trilliax",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Nighthold",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[81229] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Xavius",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Emerald Nightmare",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -31010,10 +31154,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[4648] = {
-			[6412] = {
+		[8258] = {
+			[14568] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -31135,20 +31279,44 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			}, -- [3]
 		},
-		[35107] = {
-			[89883] = {
+		[11747] = {
+			[46943] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[22551] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Garothi Worldbreaker",
+						["encounter"] = "Champions of the Horde",
 						["tiers"] = {
-							"Legion", -- [1]
+							"Wrath of the Lich King", -- [1]
 						},
 						["difficulties"] = {
+							"25 Player", -- [1]
 						},
-						["instance"] = "Antorus, the Burning Throne",
+						["instance"] = "Trial of the Crusader",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[22555] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Champions of the Horde",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"25 Player (Heroic)", -- [1]
+						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -31298,6 +31466,25 @@ MogIt_MailDB = {
 			},
 		},
 		[20342] = {
+			[49794] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Lei Shen",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+							"25 Player", -- [2]
+						},
+						["instance"] = "Throne of Thunder",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
 			[49785] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -31317,7 +31504,7 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[49794] = {
+			[49800] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -31339,25 +31526,6 @@ MogIt_MailDB = {
 			[49911] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[49800] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Lei Shen",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-							"25 Player", -- [2]
-						},
-						["instance"] = "Throne of Thunder",
-					}, -- [1]
-				},
 				["faction"] = 1,
 			},
 		},
@@ -31462,8 +31630,8 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[24300] = {
-			[64969] = {
+		[10633] = {
+			[19928] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -31497,9 +31665,22 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[34074] = {
+			[93801] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Erudax, the Duke of Below",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Grim Batol",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 			[28585] = {
@@ -31555,42 +31736,46 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[93801] = {
+			[34074] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Erudax, the Duke of Below",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Grim Batol",
-					}, -- [1]
-				},
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
-		[26751] = {
-			[69898] = {
+		[36064] = {
+			[91521] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Hellfire High Council",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Mythic", -- [1]
-						},
-						["instance"] = "Hellfire Citadel",
-					}, -- [1]
-				},
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[94143] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[96345] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[98057] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+			[96346] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[92070] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[96344] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -31626,49 +31811,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[35090] = {
-			[89882] = {
+		[2273] = {
+			[89661] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Garothi Worldbreaker",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Antorus, the Burning Throne",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[90445] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Pit Lord Vilemus",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Invasion Points",
-					}, -- [1]
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Inquisitor Meto",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Invasion Points",
-					}, -- [2]
-				},
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -31687,12 +31833,12 @@ MogIt_MailDB = {
 			},
 		},
 		[8702] = {
-			[16205] = {
+			[15491] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[15491] = {
+			[16208] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -31702,7 +31848,7 @@ MogIt_MailDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[16208] = {
+			[16205] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -31859,86 +32005,46 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[3778] = {
-			[8577] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Battleguard Sartura",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Temple of Ahn'Qiraj",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[13467] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[8060] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-			[4756] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[14253] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[14397] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[14564] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
-		[205] = {
-			[1609] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[2966] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-			[11992] = {
+		[8948] = {
+			[15927] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
-		[14866] = {
-			[33220] = {
+		[14046] = {
+			[29972] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[33190] = {
+			[29711] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Cho'gall",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+							"25 Player", -- [2]
+						},
+						["instance"] = "The Bastion of Twilight",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
-			[33256] = {
+			[47079] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[34193] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -31964,6 +32070,23 @@ MogIt_MailDB = {
 						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
+				["faction"] = 1,
+			},
+		},
+		[14866] = {
+			[33220] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[33190] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[33256] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -32146,9 +32269,9 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[58027] = {
+			[57537] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 			[66008] = {
@@ -32161,9 +32284,9 @@ MogIt_MailDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[57537] = {
+			[58027] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 			[65566] = {
@@ -32223,15 +32346,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[27772] = {
-			[79288] = {
+		[2717] = {
+			[3185] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[83504] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -32312,30 +32430,30 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[6943] = {
-			[12057] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "The Black Stalker",
-						["tiers"] = {
-							"Burning Crusade", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "The Underbog",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-		},
-		[7464] = {
-			[12959] = {
-				["classes"] = 4,
+		[8760] = {
+			{
+				["classes"] = 64,
 				["sourceType"] = 3,
+				["sourceID"] = 15582,
+				["faction"] = 1,
+			}, -- [1]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 15587,
+				["faction"] = 1,
+			}, -- [2]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 15614,
+				["faction"] = 1,
+			}, -- [3]
+		},
+		[3225] = {
+			[3900] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -32365,46 +32483,17 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[33459] = {
-			[86194] = {
+		[7464] = {
+			[12959] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Mistress Sassz'ine",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Tomb of Sargeras",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[86566] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Demonic Inquisition",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Tomb of Sargeras",
-					}, -- [1]
-				},
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
-		[5883] = {
-			[39685] = {
+		[930] = {
+			[6226] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -32490,25 +32579,13 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[12193] = {
-			[24410] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Marwyn",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Halls of Reflection",
-					}, -- [1]
-				},
+		[21288] = {
+			{
+				["classes"] = 64,
+				["sourceType"] = 4,
+				["sourceID"] = 57078,
 				["faction"] = 1,
-			},
+			}, -- [1]
 		},
 		[2988] = {
 			[3600] = {
@@ -32597,48 +32674,25 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			}, -- [3]
 		},
-		[22677] = {
-			[66939] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Flamebender Ka'graz",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Looking For Raid", -- [1]
-						},
-						["instance"] = "Blackrock Foundry",
-					}, -- [1]
-				},
+		[10588] = {
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 19821,
 				["faction"] = 1,
-			},
-			[63413] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
+			}, -- [1]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 19826,
 				["faction"] = 1,
-			},
-			[66942] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Beastlord Darmac",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Looking For Raid", -- [1]
-						},
-						["instance"] = "Blackrock Foundry",
-					}, -- [1]
-				},
+			}, -- [2]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 19904,
 				["faction"] = 1,
-			},
+			}, -- [3]
 		},
 		[13988] = {
 			[30037] = {
@@ -32708,7 +32762,7 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[41120] = {
+			[41372] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -32723,12 +32777,12 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[42938] = {
+			[42924] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[41372] = {
+			[41120] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -32738,7 +32792,7 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[42924] = {
+			[42938] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -32826,30 +32880,35 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[3147] = {
-			[4237] = {
+		[5264] = {
+			[69093] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[7391] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Pyromancer Loregrain",
+						["encounter"] = "King Gordok",
 						["tiers"] = {
 							"Classic", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Blackrock Depths",
+						["instance"] = "Dire Maul",
 					}, -- [1]
 				},
 				["faction"] = 1,
 			},
-			[3789] = {
+			[9868] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[14599] = {
+			[14030] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -32897,61 +32956,17 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[34622] = {
-			[90097] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Imonar the Soulhunter",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Antorus, the Burning Throne",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[89887] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "The Coven of Shivarra",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Antorus, the Burning Throne",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[90574] = {
+		[31651] = {
+			[100428] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
-		[34590] = {
-			[87424] = {
+		[15067] = {
+			[100500] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[86992] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[87856] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -33272,30 +33287,15 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[1046] = {
-			[1051] = {
+		[12919] = {
+			[77830] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
-		[37272] = {
-			[98073] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-			[98753] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[99806] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[99807] = {
+		[4172] = {
+			[5608] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -33344,9 +33344,9 @@ MogIt_MailDB = {
 				["sourceType"] = 6,
 				["faction"] = 1,
 			},
-			[21513] = {
+			[17013] = {
 				["classes"] = 4,
-				["sourceType"] = 6,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 			[21506] = {
@@ -33354,9 +33354,9 @@ MogIt_MailDB = {
 				["sourceType"] = 6,
 				["faction"] = 1,
 			},
-			[17013] = {
+			[21513] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 		},
@@ -33695,7 +33695,17 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[61393] = {
+			[69145] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[65606] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[61391] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -33772,16 +33782,6 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[65606] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[67896] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
 			[64264] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
@@ -33810,9 +33810,81 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[69145] = {
+			[61393] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Teron'gor",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Auchindoun",
+					}, -- [1]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Slave Watcher Crushto",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Bloodmaul Slag Mines",
+					}, -- [2]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Skylord Tovra",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Grimrail Depot",
+					}, -- [3]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Skulloc",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Iron Docks",
+					}, -- [4]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "High Sage Viryx",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Skyreach",
+					}, -- [5]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Ancient Protectors",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Everbloom",
+					}, -- [6]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Ragewing the Untamed",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Upper Blackrock Spire",
+					}, -- [7]
+				},
 				["faction"] = 1,
 			},
 			[59481] = {
@@ -33899,81 +33971,9 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[61391] = {
+			[67896] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Teron'gor",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Auchindoun",
-					}, -- [1]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Slave Watcher Crushto",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Bloodmaul Slag Mines",
-					}, -- [2]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Skylord Tovra",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Grimrail Depot",
-					}, -- [3]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Skulloc",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Iron Docks",
-					}, -- [4]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "High Sage Viryx",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Skyreach",
-					}, -- [5]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Ancient Protectors",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The Everbloom",
-					}, -- [6]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Ragewing the Untamed",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Upper Blackrock Spire",
-					}, -- [7]
-				},
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -34014,23 +34014,6 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[98378] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Rezan",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Atal'Dazar",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
 			[98420] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -34061,6 +34044,23 @@ MogIt_MailDB = {
 						["difficulties"] = {
 						},
 						["instance"] = "The MOTHERLODE!!",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[98378] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Rezan",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Atal'Dazar",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -35506,17 +35506,17 @@ MogIt_MailDB = {
 			},
 		},
 		[34589] = {
-			[86990] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
 			[87854] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[87422] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[86990] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -35996,6 +35996,35 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
+		[3520] = {
+			[4363] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[3145] = {
+			[3787] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[4412] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+			[6398] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[10602] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
 		[22443] = {
 			[61384] = {
 				["classes"] = 4,
@@ -36141,35 +36170,6 @@ MogIt_MailDB = {
 						["instance"] = "Upper Blackrock Spire",
 					}, -- [6]
 				},
-				["faction"] = 1,
-			},
-		},
-		[3145] = {
-			[3787] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[4412] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-			[6398] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[10602] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
-		[3009] = {
-			[3630] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -36458,9 +36458,71 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[64308] = {
+			[61383] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Ranjit",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Skyreach",
+					}, -- [1]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Gug'rokk",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Bloodmaul Slag Mines",
+					}, -- [2]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Grimrail Enforcers",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Iron Docks",
+					}, -- [3]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Ner'zhul",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Shadowmoon Burial Grounds",
+					}, -- [4]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Archmage Sol",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Everbloom",
+					}, -- [5]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Warlord Zaela",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Upper Blackrock Spire",
+					}, -- [6]
+				},
 				["faction"] = 1,
 			},
 			[63197] = {
@@ -36541,71 +36603,9 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[61383] = {
+			[64308] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Ranjit",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Skyreach",
-					}, -- [1]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Gug'rokk",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Bloodmaul Slag Mines",
-					}, -- [2]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Grimrail Enforcers",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Iron Docks",
-					}, -- [3]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Ner'zhul",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Shadowmoon Burial Grounds",
-					}, -- [4]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Archmage Sol",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The Everbloom",
-					}, -- [5]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Warlord Zaela",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Upper Blackrock Spire",
-					}, -- [6]
-				},
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[59623] = {
@@ -36786,12 +36786,12 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[68417] = {
+			[81362] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[81362] = {
+			[68417] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -36826,20 +36826,6 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[12596] = {
-			[25164] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
-		[4771] = {
-			[39187] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
 		[14129] = {
 			{
 				["classes"] = 64,
@@ -36859,6 +36845,20 @@ MogIt_MailDB = {
 				["sourceID"] = 30123,
 				["faction"] = 1,
 			}, -- [3]
+		},
+		[4771] = {
+			[39187] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
+		[12596] = {
+			[25164] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
 		},
 		[20359] = {
 			[50275] = {
@@ -36888,17 +36888,17 @@ MogIt_MailDB = {
 			},
 		},
 		[35485] = {
-			[88298] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
 			[88730] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[88514] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[88298] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -37077,8 +37077,25 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[37290] = {
-			[100739] = {
+		[7368] = {
+			[12737] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "High King Maulgar",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Gruul's Lair",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[14147] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -37136,40 +37153,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[38280] = {
-			[96579] = {
+		[10624] = {
+			[19902] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Zul, Reborn",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Uldir",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[97230] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Azurethos, The Winged Typhoon",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Azeroth",
-					}, -- [1]
-				},
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -37192,25 +37179,8 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[7368] = {
-			[12737] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "High King Maulgar",
-						["tiers"] = {
-							"Burning Crusade", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Gruul's Lair",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[14147] = {
+		[37290] = {
+			[100739] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -37349,12 +37319,25 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[13730] = {
-			[75954] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
+		[12708] = {
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 25350,
 				["faction"] = 1,
-			},
+			}, -- [1]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 25355,
+				["faction"] = 1,
+			}, -- [2]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 25360,
+				["faction"] = 1,
+			}, -- [3]
 		},
 		[14764] = {
 			[32708] = {
@@ -37377,25 +37360,12 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[12708] = {
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 25350,
+		[13730] = {
+			[75954] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
-			}, -- [1]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 25355,
-				["faction"] = 1,
-			}, -- [2]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 25360,
-				["faction"] = 1,
-			}, -- [3]
+			},
 		},
 		[4320] = {
 			[10469] = {
@@ -37450,25 +37420,17 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[16745] = {
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 40022,
+		[14265] = {
+			[31750] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
-			}, -- [1]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 40023,
+			},
+			[31964] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
-			}, -- [2]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 40028,
-				["faction"] = 1,
-			}, -- [3]
+			},
 		},
 		[1597] = {
 			[21654] = {
@@ -37490,17 +37452,25 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[14265] = {
-			[31750] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
+		[16745] = {
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 40022,
 				["faction"] = 1,
-			},
-			[31964] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
+			}, -- [1]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 40023,
 				["faction"] = 1,
-			},
+			}, -- [2]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 40028,
+				["faction"] = 1,
+			}, -- [3]
 		},
 		[33442] = {
 			[86187] = {
@@ -37538,15 +37508,39 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[36013] = {
-			[94046] = {
+		[33458] = {
+			[86190] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Demonic Inquisition",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Tomb of Sargeras",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
-			[96181] = {
+			[86562] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Maiden of Vigilance",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Tomb of Sargeras",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -37842,23 +37836,23 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[16394] = {
+		[7436] = {
 			{
 				["classes"] = 64,
 				["sourceType"] = 3,
-				["sourceID"] = 37700,
+				["sourceID"] = 12907,
 				["faction"] = 1,
 			}, -- [1]
 			{
 				["classes"] = 64,
 				["sourceType"] = 3,
-				["sourceID"] = 37706,
+				["sourceID"] = 12914,
 				["faction"] = 1,
 			}, -- [2]
 			{
 				["classes"] = 64,
 				["sourceType"] = 3,
-				["sourceID"] = 37711,
+				["sourceID"] = 12919,
 				["faction"] = 1,
 			}, -- [3]
 		},
@@ -38051,32 +38045,6 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[18566] = {
-			[43654] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[44360] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Grand Empress Shek'zeer",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-							"25 Player", -- [2]
-						},
-						["instance"] = "Heart of Fear",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-		},
 		[2716] = {
 			[3184] = {
 				["classes"] = 4,
@@ -38084,28 +38052,56 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[9287] = {
-			[16589] = {
+		[13898] = {
+			[34243] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[17520] = {
+			[45079] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[62513] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[45183] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[44044] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+			[84352] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Krystallus",
+						["encounter"] = "Wise Mari",
 						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
+							"Mists of Pandaria", -- [1]
 						},
 						["difficulties"] = {
 							"Normal", -- [1]
+							"Timewalking", -- [2]
 						},
-						["instance"] = "Halls of Stone",
+						["instance"] = "Temple of the Jade Serpent",
 					}, -- [1]
 				},
 				["faction"] = 1,
 			},
-			[17486] = {
+			[45274] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -38150,27 +38146,20 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[19069] = {
-			[44872] = {
+		[30822] = {
+			[80470] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "The Stone Guard",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player (Heroic)", -- [1]
-							"25 Player (Heroic)", -- [2]
-						},
-						["instance"] = "Mogu'shan Vaults",
-					}, -- [1]
-				},
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[46658] = {
+		},
+		[18566] = {
+			[43654] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[44360] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -38181,8 +38170,8 @@ MogIt_MailDB = {
 							"Mists of Pandaria", -- [1]
 						},
 						["difficulties"] = {
-							"10 Player (Heroic)", -- [1]
-							"25 Player (Heroic)", -- [2]
+							"10 Player", -- [1]
+							"25 Player", -- [2]
 						},
 						["instance"] = "Heart of Fear",
 					}, -- [1]
@@ -38190,10 +38179,57 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[13898] = {
-			[34243] = {
+		[24211] = {
+			[64521] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[64627] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
+		[13395] = {
+			[27202] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[27203] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[27204] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[27205] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[27199] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[27200] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[27201] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[27206] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -38250,72 +38286,18 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[13395] = {
-			[27202] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[27203] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[27204] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[27205] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[27199] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[27200] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[27201] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[27206] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[24211] = {
-			[64521] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[64627] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
 		[9826] = {
 			[17819] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[18601] = {
+			[18202] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[18202] = {
+			[18601] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -38333,56 +38315,8 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[8812] = {
-			[15712] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
-		[9842] = {
-			[18597] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[93763] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Zuramat the Obliterator",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "The Violet Hold",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[17884] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Elder Nadox",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Ahn'kahet: The Old Kingdom",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[18420] = {
+		[1363] = {
+			[1445] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
 				["faction"] = 1,
@@ -38395,167 +38329,25 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[12932] = {
-			[75687] = {
+		[1364] = {
+			[1446] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
-			[75831] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[75737] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[75808] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[75665] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[76099] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
-		[2730] = {
-			[5646] = {
+			[6328] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[89417] = {
+			[2375] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Highlord Omokk",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Lower Blackrock Spire",
-					}, -- [1]
-				},
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-		},
-		[32491] = {
-			[80982] = {
+			[13312] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
-		[29904] = {
-			[79870] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Grand Magistrix Elisande",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The Nighthold",
-					}, -- [1]
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Grand Magistrix Elisande",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-							"Looking For Raid", -- [1]
-						},
-						["instance"] = "The Nighthold",
-					}, -- [2]
-				},
-				["faction"] = 1,
-			},
-			[81226] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Nythendra",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The Emerald Nightmare",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[82565] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Withered J'im",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Broken Isles",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[81980] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Chronomatic Anomaly",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The Nighthold",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-		},
-		[15483] = {
-			[35492] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Daakara",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Zul'Aman",
-					}, -- [1]
-				},
 				["faction"] = 1,
 			},
 		},
@@ -38622,13 +38414,37 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[32499] = {
-			{
-				["classes"] = 64,
+		[12932] = {
+			[75687] = {
+				["classes"] = 4,
 				["sourceType"] = 2,
-				["sourceID"] = 80974,
 				["faction"] = 1,
-			}, -- [1]
+			},
+			[75831] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75737] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75808] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75665] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[76099] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
 		},
 		[2221] = {
 			[2571] = {
@@ -38649,10 +38465,150 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[34274] = {
-			[89319] = {
+		[29904] = {
+			[81226] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Nythendra",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Emerald Nightmare",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[79870] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Grand Magistrix Elisande",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Nighthold",
+					}, -- [1]
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Grand Magistrix Elisande",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+							"Looking For Raid", -- [1]
+						},
+						["instance"] = "The Nighthold",
+					}, -- [2]
+				},
+				["faction"] = 1,
+			},
+			[81980] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Chronomatic Anomaly",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Nighthold",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[82565] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Withered J'im",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Broken Isles",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+		},
+		[15483] = {
+			[35492] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Daakara",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Zul'Aman",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+		},
+		[2730] = {
+			[5646] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[89417] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Highlord Omokk",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Lower Blackrock Spire",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+		},
+		[32499] = {
+			{
+				["classes"] = 64,
+				["sourceType"] = 2,
+				["sourceID"] = 80974,
+				["faction"] = 1,
+			}, -- [1]
+		},
+		[32491] = {
+			[80982] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[11411] = {
+			[21829] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -38698,37 +38654,21 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[21010] = {
-			[61706] = {
+		[11543] = {
+			[22045] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "General Nazgrim",
+						["encounter"] = "XT-002 Deconstructor",
 						["tiers"] = {
-							"Mists of Pandaria", -- [1]
+							"Wrath of the Lich King", -- [1]
 						},
 						["difficulties"] = {
+							"Normal", -- [1]
 						},
-						["instance"] = "Siege of Orgrimmar",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[61965] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Garrosh Hellscream",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Siege of Orgrimmar",
+						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -38773,35 +38713,63 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[3266] = {
-			[6417] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[3274] = {
-			[3960] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[11543] = {
-			[22045] = {
+		[4991] = {
+			[6931] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "XT-002 Deconstructor",
+						["encounter"] = "Garr",
 						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
+							"Classic", -- [1]
 						},
 						["difficulties"] = {
-							"Normal", -- [1]
 						},
-						["instance"] = "Ulduar",
+						["instance"] = "Molten Core",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+		},
+		[11020] = {
+			[20808] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[21010] = {
+			[61706] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "General Nazgrim",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Siege of Orgrimmar",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[61965] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Garrosh Hellscream",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -38840,28 +38808,8 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[36063] = {
-			[91517] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[94142] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[92066] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[94947] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[98055] = {
+		[2749] = {
+			[9395] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
 				["faction"] = 1,
@@ -38945,15 +38893,32 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[4987] = {
-			[33078] = {
+		[3775] = {
+			[4753] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[33096] = {
+			[7263] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Zevrim Thornhoof",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Dire Maul",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[9939] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -38964,22 +38929,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[4991] = {
-			[6931] = {
+		[3266] = {
+			[6417] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Garr",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Molten Core",
-					}, -- [1]
-				},
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -39021,7 +38974,7 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[30757] = {
+			[29917] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -39031,7 +38984,7 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[29917] = {
+			[30757] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -39062,10 +39015,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[6716] = {
-			[10473] = {
+		[4161] = {
+			[5595] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -39076,29 +39029,24 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[6536] = {
-			[14378] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[14424] = {
+		[37277] = {
+			[100738] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
-		[7622] = {
-			[13177] = {
+		[11140] = {
+			[21269] = {
 				["classes"] = 4,
-				["sourceType"] = 6,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
-		[11020] = {
-			[20808] = {
+		[3274] = {
+			[3960] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -39150,51 +39098,35 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[31039] = {
-			[81880] = {
+		[5093] = {
+			[14028] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Krosus",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The Nighthold",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[82440] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Nithogg",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Broken Isles",
-					}, -- [1]
-				},
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
-		[3341] = {
-			[7361] = {
+		[12310] = {
+			[24561] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[9843] = {
+			[24981] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Rotface",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+						},
+						["instance"] = "Icecrown Citadel",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -39235,47 +39167,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[17362] = {
-			[46601] = {
+		[13807] = {
+			[75842] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Will of the Emperor",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-							"25 Player", -- [2]
-						},
-						["instance"] = "Mogu'shan Vaults",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[46699] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Will of the Emperor",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"Looking For Raid", -- [1]
-						},
-						["instance"] = "Mogu'shan Vaults",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[46223] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -39506,17 +39401,60 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[4161] = {
-			[5595] = {
+		[14949] = {
+			[34232] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[45698] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "High Inquisitor Whitemane",
+						["tiers"] = {
+							"Classic", -- [1]
+							"Mists of Pandaria", -- [2]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Scarlet Monastery",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
-		[10621] = {
-			[19899] = {
+		[10110] = {
+			[18778] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Gluth",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+						},
+						["instance"] = "Naxxramas",
+					}, -- [1]
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Thaddius",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+						},
+						["instance"] = "Naxxramas",
+					}, -- [2]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -39527,10 +39465,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[11140] = {
-			[21269] = {
+		[7622] = {
+			[13177] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 		},
@@ -39541,58 +39479,8 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[8593] = {
-			[75807] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[75944] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[75810] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[75736] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[75782] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[75619] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[75830] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[75892] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[75818] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[75938] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[76100] = {
+		[11659] = {
+			[22265] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -39626,11 +39514,6 @@ MogIt_MailDB = {
 			},
 		},
 		[7121] = {
-			[16453] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
 			[12367] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -39652,6 +39535,11 @@ MogIt_MailDB = {
 			[21316] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[16453] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -39786,10 +39674,98 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[5093] = {
-			[14028] = {
+		[27462] = {
+			[77607] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[78614] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[77505] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Harbaron",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Maw of Souls",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[77641] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "General Xakal",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Arcway",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[77539] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Wrath of Azshara",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Eye of Azshara",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[77573] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[68470] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Oakheart",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Darkheart Thicket",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[77471] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[80423] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -40000,30 +39976,36 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[15396] = {
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 35813,
-				["faction"] = 1,
-			}, -- [1]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 35818,
-				["faction"] = 1,
-			}, -- [2]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 35823,
-				["faction"] = 1,
-			}, -- [3]
-		},
-		[13891] = {
-			[32303] = {
+		[34373] = {
+			[89393] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
+		[19063] = {
+			[44857] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[46668] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Will of the Emperor",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player (Heroic)", -- [1]
+							"25 Player (Heroic)", -- [2]
+						},
+						["instance"] = "Mogu'shan Vaults",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -40044,10 +40026,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[28556] = {
-			[99957] = {
+		[4600] = {
+			[6340] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -40058,25 +40040,41 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[21626] = {
-			[57635] = {
+		[18560] = {
+			[46614] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Grand Empress Shek'zeer",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+							"25 Player", -- [2]
+						},
+						["instance"] = "Heart of Fear",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
-			[57602] = {
+			[46980] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[60750] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[62993] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Salyis's Warband",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Pandaria",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -40156,10 +40154,47 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[13807] = {
-			[75842] = {
+		[17362] = {
+			[46601] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Will of the Emperor",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+							"25 Player", -- [2]
+						},
+						["instance"] = "Mogu'shan Vaults",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[46699] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Will of the Emperor",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"Looking For Raid", -- [1]
+						},
+						["instance"] = "Mogu'shan Vaults",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[46223] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -40263,56 +40298,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[34629] = {
-			[89880] = {
+		[24756] = {
+			[64637] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Portal Keeper Hasabel",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Antorus, the Burning Throne",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[90094] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Aggramar",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Antorus, the Burning Throne",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[89876] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Felhounds of Sargeras",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Antorus, the Burning Throne",
-					}, -- [1]
-				},
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -40411,12 +40400,25 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			}, -- [6]
 		},
-		[34373] = {
-			[89393] = {
-				["classes"] = 4,
+		[15396] = {
+			{
+				["classes"] = 64,
 				["sourceType"] = 3,
+				["sourceID"] = 35813,
 				["faction"] = 1,
-			},
+			}, -- [1]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 35818,
+				["faction"] = 1,
+			}, -- [2]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 35823,
+				["faction"] = 1,
+			}, -- [3]
 		},
 		[17482] = {
 			[40593] = {
@@ -40461,10 +40463,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[26888] = {
-			[73447] = {
+		[6227] = {
+			[9342] = {
 				["classes"] = 4,
-				["sourceType"] = 5,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 		},
@@ -40541,67 +40543,32 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[19063] = {
-			[44857] = {
+		[13891] = {
+			[32303] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[46668] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Will of the Emperor",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player (Heroic)", -- [1]
-							"25 Player (Heroic)", -- [2]
-						},
-						["instance"] = "Mogu'shan Vaults",
-					}, -- [1]
-				},
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
-		[18560] = {
-			[46614] = {
+		[21626] = {
+			[57635] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Grand Empress Shek'zeer",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-							"25 Player", -- [2]
-						},
-						["instance"] = "Heart of Fear",
-					}, -- [1]
-				},
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[46980] = {
+			[57602] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Salyis's Warband",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Pandaria",
-					}, -- [1]
-				},
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[60750] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[62993] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -40700,61 +40667,20 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[17578] = {
-			[45188] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[44028] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-			[84355] = {
+		[20644] = {
+			[57133] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 1,
-						["encounter"] = "Trial of the King",
+						["instanceType"] = 2,
+						["encounter"] = "Ordos, Fire-God of the Yaungol",
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
 						["difficulties"] = {
-							"Normal", -- [1]
-							"Timewalking", -- [2]
 						},
-						["instance"] = "Mogu'shan Palace",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[45278] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[45083] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[84354] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Commander Ri'mok",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-							"Timewalking", -- [2]
-						},
-						["instance"] = "Gate of the Setting Sun",
+						["instance"] = "Pandaria",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -40833,10 +40759,56 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[24756] = {
-			[64637] = {
+		[34629] = {
+			[89880] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Portal Keeper Hasabel",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Antorus, the Burning Throne",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[90094] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Aggramar",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Antorus, the Burning Throne",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[89876] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Felhounds of Sargeras",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Antorus, the Burning Throne",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -40919,70 +40891,21 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[11911] = {
-			[22916] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[23028] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Anub'arak",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-						},
-						["instance"] = "Trial of the Crusader",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[23133] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Anub'arak",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player (Heroic)", -- [1]
-						},
-						["instance"] = "Trial of the Crusader",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[46925] = {
+		[9356] = {
+			[16673] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
-		[3438] = {
-			[4227] = {
+		[8610] = {
+			[49165] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Ring of Law",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Blackrock Depths",
-					}, -- [1]
-				},
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[78749] = {
+				["classes"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -40993,60 +40916,22 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[12458] = {
-			[24753] = {
+		[34374] = {
+			[89394] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Valithria Dreamwalker",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"25 Player (Heroic)", -- [1]
-						},
-						["instance"] = "Icecrown Citadel",
-					}, -- [1]
-				},
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
-		[6227] = {
-			[9342] = {
+		[26888] = {
+			[73447] = {
 				["classes"] = 4,
-				["sourceType"] = 6,
+				["sourceType"] = 5,
 				["faction"] = 1,
 			},
 		},
-		[14558] = {
-			[32025] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[32131] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[32160] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[32008] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[32157] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[32134] = {
+		[3392] = {
+			[10422] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -41072,15 +40957,22 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			}, -- [3]
 		},
-		[11165] = {
-			[21348] = {
+		[3438] = {
+			[4227] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[21616] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Ring of Law",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Blackrock Depths",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -41096,10 +40988,23 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[34374] = {
-			[89394] = {
+		[12458] = {
+			[24753] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Valithria Dreamwalker",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"25 Player (Heroic)", -- [1]
+						},
+						["instance"] = "Icecrown Citadel",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -41346,8 +41251,33 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[3392] = {
-			[10422] = {
+		[14558] = {
+			[32025] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[32131] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[32160] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[32008] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[32157] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[32134] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -41386,23 +41316,15 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[18960] = {
-			[46689] = {
+		[14606] = {
+			[32328] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Grand Empress Shek'zeer",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"Looking For Raid", -- [1]
-						},
-						["instance"] = "Heart of Fear",
-					}, -- [1]
-				},
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+			[65722] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -41459,62 +41381,73 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[5770] = {
-			[8509] = {
+		[20972] = {
+			[61641] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Kor'kron Dark Shaman",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Siege of Orgrimmar",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[52438] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[52941] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[57131] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Ordos, Fire-God of the Yaungol",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Pandaria",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[61926] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Garrosh Hellscream",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Siege of Orgrimmar",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
-		[17403] = {
-			[43124] = {
+		[13572] = {
+			[27787] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[42803] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[43142] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[44080] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[43128] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[42709] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[42807] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[42713] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[43146] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[47035] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 		},
@@ -41530,22 +41463,76 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[23615] = {
-			[72495] = {
+		[16167] = {
+			[37286] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Echo of Tyrande",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "End Time",
+					}, -- [1]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Echo of Jaina",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "End Time",
+					}, -- [2]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Echo of Sylvanas",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "End Time",
+					}, -- [3]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Echo of Baine",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "End Time",
+					}, -- [4]
+				},
 				["faction"] = 1,
 			},
 		},
-		[14606] = {
-			[32328] = {
+		[18960] = {
+			[46689] = {
 				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-			[65722] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Grand Empress Shek'zeer",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"Looking For Raid", -- [1]
+						},
+						["instance"] = "Heart of Fear",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -41672,17 +41659,37 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[11093] = {
-			[20995] = {
+		[22154] = {
+			[57800] = {
 				["classes"] = 4,
-				["sourceType"] = 6,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[57668] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[66519] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[67044] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
-		[4786] = {
-			[39254] = {
+		[22146] = {
+			[63607] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[78305] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -41712,56 +41719,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[16167] = {
-			[37286] = {
+		[23615] = {
+			[72495] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Echo of Tyrande",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "End Time",
-					}, -- [1]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Echo of Jaina",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "End Time",
-					}, -- [2]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Echo of Sylvanas",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "End Time",
-					}, -- [3]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Echo of Baine",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "End Time",
-					}, -- [4]
-				},
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -41779,25 +41740,12 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			}, -- [2]
 		},
-		[22154] = {
-			[57800] = {
+		[34024] = {
+			[86034] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[57668] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[66519] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[67044] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+				},
 				["faction"] = 1,
 			},
 		},
@@ -41828,15 +41776,56 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			}, -- [1]
 		},
-		[31831] = {
-			[76362] = {
+		[37537] = {
+			[95832] = {
 				["classes"] = 4,
-				["sourceType"] = 6,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Harlan Sweete",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Freehold",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
-			[84519] = {
+			[95869] = {
 				["classes"] = 4,
-				["sourceType"] = 6,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Overseer Korgus",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Tol Dagor",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[95877] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Gorak Tul",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Waycrest Manor",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -41860,48 +41849,49 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[22138] = {
-			[63095] = {
+		[33992] = {
+			[85150] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[57701] = {
+			[85799] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[66476] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[63575] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
-		[22146] = {
-			[63607] = {
+		[2397] = {
+			[2793] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[78305] = {
+			[6299] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
-		[34024] = {
-			[86034] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-				},
+		[10582] = {
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 19811,
 				["faction"] = 1,
-			},
+			}, -- [1]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 19816,
+				["faction"] = 1,
+			}, -- [2]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 19896,
+				["faction"] = 1,
+			}, -- [3]
 		},
 		[38128] = {
 			[95163] = {
@@ -41970,25 +41960,53 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[10582] = {
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 19811,
+		[11093] = {
+			[20995] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
 				["faction"] = 1,
-			}, -- [1]
-			{
-				["classes"] = 64,
+			},
+		},
+		[4786] = {
+			[39254] = {
+				["classes"] = 4,
 				["sourceType"] = 3,
-				["sourceID"] = 19816,
 				["faction"] = 1,
-			}, -- [2]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 19896,
+			},
+		},
+		[22138] = {
+			[63095] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
-			}, -- [3]
+			},
+			[57701] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[66476] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[63575] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[31831] = {
+			[76362] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+			[84519] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
 		},
 		[34008] = {
 			[84638] = {
@@ -42023,83 +42041,6 @@ MogIt_MailDB = {
 						["instance"] = "Cathedral of Eternal Night",
 					}, -- [1]
 				},
-				["faction"] = 1,
-			},
-		},
-		[33992] = {
-			[85150] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[85799] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
-		[37537] = {
-			[95832] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Harlan Sweete",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Freehold",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[95869] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Overseer Korgus",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Tol Dagor",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[95877] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Gorak Tul",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Waycrest Manor",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-		},
-		[2397] = {
-			[2793] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[6299] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -42225,84 +42166,74 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[8610] = {
-			[49165] = {
+		[11165] = {
+			[21348] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[21616] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
+		[17403] = {
+			[43124] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[42803] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[43142] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[44080] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[78749] = {
+			[43128] = {
 				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[42709] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[42807] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[42713] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[43146] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[47035] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
-		[13572] = {
-			[27787] = {
+		[5770] = {
+			[8509] = {
 				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-		},
-		[20972] = {
-			[61641] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Kor'kron Dark Shaman",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Siege of Orgrimmar",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[52438] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[52941] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[57131] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Ordos, Fire-God of the Yaungol",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Pandaria",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[61926] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Garrosh Hellscream",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Siege of Orgrimmar",
-					}, -- [1]
-				},
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -42379,13 +42310,49 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[37296] = {
-			[99561] = {
+		[11911] = {
+			[22916] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[99577] = {
+			[23028] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Anub'arak",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+						},
+						["instance"] = "Trial of the Crusader",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[23133] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Anub'arak",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player (Heroic)", -- [1]
+						},
+						["instance"] = "Trial of the Crusader",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[46925] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -42451,29 +42418,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[14949] = {
-			[34232] = {
+		[6716] = {
+			[10473] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[45698] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "High Inquisitor Whitemane",
-						["tiers"] = {
-							"Classic", -- [1]
-							"Mists of Pandaria", -- [2]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Scarlet Monastery",
-					}, -- [1]
-				},
 				["faction"] = 1,
 			},
 		},
@@ -42510,54 +42458,87 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[20644] = {
-			[57133] = {
+		[17578] = {
+			[45188] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[44028] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+			[84355] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 2,
-						["encounter"] = "Ordos, Fire-God of the Yaungol",
+						["instanceType"] = 1,
+						["encounter"] = "Trial of the King",
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
 						["difficulties"] = {
+							"Normal", -- [1]
+							"Timewalking", -- [2]
 						},
-						["instance"] = "Pandaria",
+						["instance"] = "Mogu'shan Palace",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[45278] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[45083] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[84354] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Commander Ri'mok",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+							"Timewalking", -- [2]
+						},
+						["instance"] = "Gate of the Setting Sun",
 					}, -- [1]
 				},
 				["faction"] = 1,
 			},
 		},
-		[9356] = {
-			[16673] = {
+		[37296] = {
+			[99561] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[99577] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
-		[12310] = {
-			[24561] = {
+		[3341] = {
+			[7361] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[24981] = {
+			[9843] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Rotface",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-						},
-						["instance"] = "Icecrown Citadel",
-					}, -- [1]
-				},
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -42674,10 +42655,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[4600] = {
-			[6340] = {
+		[28556] = {
+			[99957] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -42688,98 +42669,39 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[27462] = {
-			[77607] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[78614] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[77505] = {
+		[31039] = {
+			[81880] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 1,
-						["encounter"] = "Harbaron",
+						["instanceType"] = 2,
+						["encounter"] = "Krosus",
 						["tiers"] = {
 							"Legion", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Maw of Souls",
+						["instance"] = "The Nighthold",
 					}, -- [1]
 				},
 				["faction"] = 1,
 			},
-			[77641] = {
+			[82440] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 1,
-						["encounter"] = "General Xakal",
+						["instanceType"] = 2,
+						["encounter"] = "Nithogg",
 						["tiers"] = {
 							"Legion", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "The Arcway",
+						["instance"] = "Broken Isles",
 					}, -- [1]
 				},
-				["faction"] = 1,
-			},
-			[77539] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Wrath of Azshara",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Eye of Azshara",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[77573] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[68470] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Oakheart",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Darkheart Thicket",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[77471] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[80423] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -42797,41 +42719,67 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[11659] = {
-			[22265] = {
+		[8593] = {
+			[75807] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75944] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75810] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75736] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75782] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75619] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75830] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75892] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75818] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75938] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[76100] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
-		[10110] = {
-			[18778] = {
+		[10621] = {
+			[19899] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Gluth",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-						},
-						["instance"] = "Naxxramas",
-					}, -- [1]
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Thaddius",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-						},
-						["instance"] = "Naxxramas",
-					}, -- [2]
-				},
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -42902,39 +42850,27 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[37277] = {
-			[100738] = {
+		[6536] = {
+			[14378] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[14424] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
-		[3775] = {
-			[4753] = {
+		[4987] = {
+			[33078] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[7263] = {
+			[33096] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Zevrim Thornhoof",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Dire Maul",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[9939] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -42945,10 +42881,30 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[2749] = {
-			[9395] = {
+		[36063] = {
+			[94142] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[91517] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[92066] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[98055] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+			[94947] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -43042,10 +42998,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[11411] = {
-			[21829] = {
+		[34274] = {
+			[89319] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -43094,85 +43050,123 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[1364] = {
-			[1446] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-			[6328] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[13312] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[2375] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[1363] = {
-			[1445] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-		},
-		[30822] = {
-			[80470] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[17520] = {
-			[45079] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[62513] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[45183] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[44044] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-			[84352] = {
+		[9842] = {
+			[93763] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Wise Mari",
+						["encounter"] = "Zuramat the Obliterator",
 						["tiers"] = {
-							"Mists of Pandaria", -- [1]
+							"Wrath of the Lich King", -- [1]
 						},
 						["difficulties"] = {
 							"Normal", -- [1]
-							"Timewalking", -- [2]
 						},
-						["instance"] = "Temple of the Jade Serpent",
+						["instance"] = "The Violet Hold",
 					}, -- [1]
 				},
 				["faction"] = 1,
 			},
-			[45274] = {
+			[18420] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+			[17884] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Elder Nadox",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Ahn'kahet: The Old Kingdom",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[18597] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[8812] = {
+			[15712] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
+		[19069] = {
+			[44872] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "The Stone Guard",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player (Heroic)", -- [1]
+							"25 Player (Heroic)", -- [2]
+						},
+						["instance"] = "Mogu'shan Vaults",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[46658] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Grand Empress Shek'zeer",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player (Heroic)", -- [1]
+							"25 Player (Heroic)", -- [2]
+						},
+						["instance"] = "Heart of Fear",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+		},
+		[9287] = {
+			[16589] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Krystallus",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Halls of Stone",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[17486] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -43355,23 +43349,23 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			}, -- [3]
 		},
-		[7436] = {
+		[16394] = {
 			{
 				["classes"] = 64,
 				["sourceType"] = 3,
-				["sourceID"] = 12907,
+				["sourceID"] = 37700,
 				["faction"] = 1,
 			}, -- [1]
 			{
 				["classes"] = 64,
 				["sourceType"] = 3,
-				["sourceID"] = 12914,
+				["sourceID"] = 37706,
 				["faction"] = 1,
 			}, -- [2]
 			{
 				["classes"] = 64,
 				["sourceType"] = 3,
-				["sourceID"] = 12919,
+				["sourceID"] = 37711,
 				["faction"] = 1,
 			}, -- [3]
 		},
@@ -43390,9 +43384,9 @@ MogIt_MailDB = {
 			},
 		},
 		[26858] = {
-			[73851] = {
+			[73977] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 			[68646] = {
@@ -43400,7 +43394,7 @@ MogIt_MailDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[73977] = {
+			[74012] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -43420,9 +43414,9 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[74012] = {
+			[73851] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -43588,39 +43582,15 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[33458] = {
-			[86190] = {
+		[36013] = {
+			[94046] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Demonic Inquisition",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Tomb of Sargeras",
-					}, -- [1]
-				},
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[86562] = {
+			[96181] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Maiden of Vigilance",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Tomb of Sargeras",
-					}, -- [1]
-				},
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -43694,10 +43664,40 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[10624] = {
-			[19902] = {
+		[38280] = {
+			[96579] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Zul, Reborn",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Uldir",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[97230] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Azurethos, The Winged Typhoon",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Azeroth",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -43734,13 +43734,6 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[6511] = {
-			[9923] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
 		[1504] = {
 			[9915] = {
 				["classes"] = 4,
@@ -43753,6 +43746,13 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 			[1604] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[6511] = {
+			[9923] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -43800,10 +43800,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[3520] = {
-			[4363] = {
+		[3009] = {
+			[3630] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -43881,79 +43881,6 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[59624] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Ranjit",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Skyreach",
-					}, -- [1]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Gug'rokk",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Bloodmaul Slag Mines",
-					}, -- [2]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Grimrail Enforcers",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Iron Docks",
-					}, -- [3]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Ner'zhul",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Shadowmoon Burial Grounds",
-					}, -- [4]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Archmage Sol",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "The Everbloom",
-					}, -- [5]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Warlord Zaela",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Upper Blackrock Spire",
-					}, -- [6]
-				},
-				["faction"] = 1,
-			},
 			[61388] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -44025,6 +43952,11 @@ MogIt_MailDB = {
 						["instance"] = "Upper Blackrock Spire",
 					}, -- [6]
 				},
+				["faction"] = 1,
+			},
+			[63299] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 			[59626] = {
@@ -44234,9 +44166,77 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[63299] = {
+			[59624] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Ranjit",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Skyreach",
+					}, -- [1]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Gug'rokk",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Bloodmaul Slag Mines",
+					}, -- [2]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Grimrail Enforcers",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Iron Docks",
+					}, -- [3]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Ner'zhul",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Shadowmoon Burial Grounds",
+					}, -- [4]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Archmage Sol",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "The Everbloom",
+					}, -- [5]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Warlord Zaela",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Upper Blackrock Spire",
+					}, -- [6]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -45235,17 +45235,17 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[75620] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
 			[75837] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 			[75991] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75620] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -45688,9 +45688,9 @@ MogIt_MailDB = {
 			}, -- [3]
 		},
 		[26611] = {
-			[68710] = {
+			[76375] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 			[68362] = {
@@ -45698,7 +45698,7 @@ MogIt_MailDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[76381] = {
+			[76346] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
 				["faction"] = 1,
@@ -45708,9 +45708,9 @@ MogIt_MailDB = {
 				["sourceType"] = 6,
 				["faction"] = 1,
 			},
-			[76375] = {
+			[68710] = {
 				["classes"] = 4,
-				["sourceType"] = 6,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 			[76368] = {
@@ -45723,7 +45723,7 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[76346] = {
+			[76381] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
 				["faction"] = 1,
@@ -45798,28 +45798,6 @@ MogIt_MailDB = {
 			},
 		},
 		[20896] = {
-			[61578] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Iron Juggernaut",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Siege of Orgrimmar",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[62191] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
 			[61560] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -45862,6 +45840,28 @@ MogIt_MailDB = {
 						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
+				["faction"] = 1,
+			},
+			[61578] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Iron Juggernaut",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Siege of Orgrimmar",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[62191] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -45953,113 +45953,6 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[37289] = {
-			[100741] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
-		[38279] = {
-			[96708] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Mythrax the Unraveler",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Uldir",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[96571] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "MOTHER",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Uldir",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[97013] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[97319] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Dunegorger Kraulok",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Azeroth",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-		},
-		[38295] = {
-			[96573] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "MOTHER",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Uldir",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[97015] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[96710] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Mythrax the Unraveler",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Uldir",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-		},
 		[12548] = {
 			[25420] = {
 				["classes"] = 4,
@@ -46077,6 +45970,42 @@ MogIt_MailDB = {
 						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
+				["faction"] = 1,
+			},
+		},
+		[13562] = {
+			[27767] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+		},
+		[14077] = {
+			[30766] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[29914] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[30769] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[30805] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[37289] = {
+			[100741] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -46159,11 +46088,6 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[62190] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
 			[60957] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -46179,6 +46103,11 @@ MogIt_MailDB = {
 						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
+				["faction"] = 1,
+			},
+			[62190] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -46201,32 +46130,6 @@ MogIt_MailDB = {
 		},
 		[14616] = {
 			[32350] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
-		[4785] = {
-			[39255] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
-		[36012] = {
-			[94045] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[96179] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[11562] = {
-			[22078] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -46273,6 +46176,45 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
+		},
+		[36012] = {
+			[94045] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[96179] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[11562] = {
+			[22078] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
+		[10576] = {
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 19800,
+				["faction"] = 1,
+			}, -- [1]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 19805,
+				["faction"] = 1,
+			}, -- [2]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 19885,
+				["faction"] = 1,
+			}, -- [3]
 		},
 		[7837] = {
 			{
@@ -46444,25 +46386,12 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[10576] = {
-			{
-				["classes"] = 64,
+		[4785] = {
+			[39255] = {
+				["classes"] = 4,
 				["sourceType"] = 3,
-				["sourceID"] = 19800,
 				["faction"] = 1,
-			}, -- [1]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 19805,
-				["faction"] = 1,
-			}, -- [2]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 19885,
-				["faction"] = 1,
-			}, -- [3]
+			},
 		},
 		[4984] = {
 			{
@@ -46491,23 +46420,15 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[6835] = {
-			[11893] = {
+		[24210] = {
+			[64520] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Captain Skarloc",
-						["tiers"] = {
-							"Burning Crusade", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Old Hillsbrad Foothills",
-					}, -- [1]
-				},
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[64626] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -46525,11 +46446,6 @@ MogIt_MailDB = {
 		},
 		[20983] = {
 			[52859] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[52449] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -46554,6 +46470,11 @@ MogIt_MailDB = {
 			[62181] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[52449] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -46617,12 +46538,13 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[13706] = {
-			[28255] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
+		[4817] = {
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 39224,
 				["faction"] = 1,
-			},
+			}, -- [1]
 		},
 		[29903] = {
 			[81876] = {
@@ -46694,13 +46616,12 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[4817] = {
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 39224,
+		[13706] = {
+			[28255] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[25948] = {
 			[72954] = {
@@ -46721,6 +46642,11 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
+			[72494] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
 			[73070] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -46737,11 +46663,6 @@ MogIt_MailDB = {
 						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
-				["faction"] = 1,
-			},
-			[72494] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 			[73236] = {
@@ -46792,8 +46713,8 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[2671] = {
-			[75709] = {
+		[10141] = {
+			[18881] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -46834,23 +46755,6 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[80127] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Ivanyr",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The Arcway",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
 			[80148] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -46864,6 +46768,23 @@ MogIt_MailDB = {
 						["difficulties"] = {
 						},
 						["instance"] = "Darkheart Thicket",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[80127] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Ivanyr",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Arcway",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -46885,23 +46806,6 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[80170] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Ash'golm",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Vault of the Wardens",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
 			[80128] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -46915,6 +46819,23 @@ MogIt_MailDB = {
 						["difficulties"] = {
 						},
 						["instance"] = "Assault on Violet Hold",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[80170] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Ash'golm",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Vault of the Wardens",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -46940,9 +46861,9 @@ MogIt_MailDB = {
 			},
 		},
 		[1244] = {
-			[1295] = {
+			[10564] = {
 				["classes"] = 4,
-				["sourceType"] = 6,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 			[7394] = {
@@ -46962,14 +46883,14 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[10564] = {
+			[12247] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[12247] = {
+			[1295] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 		},
@@ -47099,65 +47020,7 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[25999] = {
-			[69867] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Gorefiend",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Mythic", -- [1]
-						},
-						["instance"] = "Hellfire Citadel",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-		},
-		[3195] = {
-			[3859] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[1242] = {
-			[1293] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-		},
-		[16337] = {
-			[37770] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
 		[38137] = {
-			[98384] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Vol'kaal",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Atal'Dazar",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
 			[98417] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -47192,6 +47055,71 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
+			[98384] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Vol'kaal",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Atal'Dazar",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+		},
+		[3195] = {
+			[3859] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[1242] = {
+			[1293] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+		},
+		[25999] = {
+			[69867] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Gorefiend",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Mythic", -- [1]
+						},
+						["instance"] = "Hellfire Citadel",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+		},
+		[16337] = {
+			[37770] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
+		[5881] = {
+			[39683] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
 		},
 		[4859] = {
 			{
@@ -47200,13 +47128,6 @@ MogIt_MailDB = {
 				["sourceID"] = 39281,
 				["faction"] = 1,
 			}, -- [1]
-		},
-		[5881] = {
-			[39683] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
 		},
 		[2598] = {
 			[3104] = {
@@ -47308,24 +47229,6 @@ MogIt_MailDB = {
 			}, -- [9]
 		},
 		[9714] = {
-			[17895] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Prince Taldaram",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Ahn'kahet: The Old Kingdom",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
 			[17562] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -47344,6 +47247,28 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
+			[17895] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Prince Taldaram",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Ahn'kahet: The Old Kingdom",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[72584] = {
+				["classes"] = 4,
+				["faction"] = 1,
+			},
 			[17917] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -47360,10 +47285,6 @@ MogIt_MailDB = {
 						["instance"] = "Gundrak",
 					}, -- [1]
 				},
-				["faction"] = 1,
-			},
-			[72584] = {
-				["classes"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -47398,53 +47319,30 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[6927] = {
-			[12034] = {
+		[9239] = {
+			[16534] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Hungarfen",
-						["tiers"] = {
-							"Burning Crusade", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "The Underbog",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-		},
-		[9734] = {
-			[17606] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Mal'Ganis",
+						["encounter"] = "Anomalus",
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "The Culling of Stratholme",
+						["instance"] = "The Nexus",
 					}, -- [1]
 				},
 				["faction"] = 1,
 			},
-			[20986] = {
+		},
+		[4875] = {
+			[39696] = {
 				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-			[62480] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -47486,32 +47384,32 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[81359] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
 			[81356] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
+			[81359] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
 		},
-		[9239] = {
-			[16534] = {
+		[6927] = {
+			[12034] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Anomalus",
+						["encounter"] = "Hungarfen",
 						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
+							"Burning Crusade", -- [1]
 						},
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "The Nexus",
+						["instance"] = "The Underbog",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -47594,19 +47492,19 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[78910] = {
+			[78945] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Archdruid Glaidalis",
+						["encounter"] = "Naraxas",
 						["tiers"] = {
 							"Legion", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Darkheart Thicket",
+						["instance"] = "Neltharion's Lair",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -47628,19 +47526,19 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[78945] = {
+			[78910] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Naraxas",
+						["encounter"] = "Archdruid Glaidalis",
 						["tiers"] = {
 							"Legion", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Neltharion's Lair",
+						["instance"] = "Darkheart Thicket",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -47746,25 +47644,23 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[17488] = {
-			[42896] = {
+		[20554] = {
+			[50264] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[40651] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[40647] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[42900] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Primordius",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"Looking For Raid", -- [1]
+						},
+						["instance"] = "Throne of Thunder",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -47915,12 +47811,12 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[92063] = {
+			[96333] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[96333] = {
+			[92063] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -48187,18 +48083,26 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[9898] = {
-			[18014] = {
+		[12453] = {
+			[24747] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Valithria Dreamwalker",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"25 Player (Heroic)", -- [1]
+						},
+						["instance"] = "Icecrown Citadel",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
-			[18178] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[37380] = {
+			[25163] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -48301,96 +48205,8 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[27461] = {
-			[78612] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[77503] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Hyrja",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Halls of Valor",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[77639] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Talixae Flamewreath",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Court of Stars",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[77537] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Lady Hatecoil",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Eye of Azshara",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[77571] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Advisor Vandros",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The Arcway",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[68468] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[77469] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[77605] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[80421] = {
+		[6498] = {
+			[9898] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -48535,45 +48351,35 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			}, -- [3]
 		},
-		[35121] = {
-			[89868] = {
+		[8940] = {
+			[15920] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Garothi Worldbreaker",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Antorus, the Burning Throne",
-					}, -- [1]
-				},
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+			[15901] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[15952] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
-		[12453] = {
-			[24747] = {
+		[9898] = {
+			[18014] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Valithria Dreamwalker",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"25 Player (Heroic)", -- [1]
-						},
-						["instance"] = "Icecrown Citadel",
-					}, -- [1]
-				},
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[25163] = {
+			[18178] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[37380] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -48606,29 +48412,91 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			}, -- [3]
 		},
-		[27453] = {
-			[83043] = {
+		[15531] = {
+			[35604] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+			[36603] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 1,
-						["encounter"] = "The Curator",
+						["instanceType"] = 2,
+						["encounter"] = "Majordomo Staghelm",
 						["tiers"] = {
-							"Legion", -- [1]
+							"Cataclysm", -- [1]
 						},
 						["difficulties"] = {
+							"10 Player", -- [1]
+							"25 Player", -- [2]
 						},
-						["instance"] = "Return to Karazhan",
+						["instance"] = "Firelands",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[36420] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Occu'thar",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+							"25 Player", -- [2]
+							"10 Player (Heroic)", -- [3]
+							"25 Player (Heroic)", -- [4]
+						},
+						["instance"] = "Baradin Hold",
 					}, -- [1]
 				},
 				["faction"] = 1,
 			},
 		},
-		[6498] = {
-			[9898] = {
+		[31038] = {
+			[82609] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Flotsam",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Broken Isles",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[82937] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[81238] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Dragons of Nightmare",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Emerald Nightmare",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -48672,22 +48540,22 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[75630] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
 			[75854] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[75928] = {
+			[75630] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 			[75634] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75928] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -48771,27 +48639,41 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[13024] = {
-			[34218] = {
+		[35105] = {
+			[89867] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Garothi Worldbreaker",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Antorus, the Burning Throne",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
-		[8940] = {
-			[15920] = {
+		[35121] = {
+			[89868] = {
 				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-			[15901] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[15952] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Garothi Worldbreaker",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Antorus, the Burning Throne",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -49016,42 +48898,6 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			}, -- [3]
 		},
-		[13643] = {
-			[27980] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[27976] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[31906] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
-		[824] = {
-			[89410] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "The Unforgiven",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Stratholme",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-		},
 		[23677] = {
 			[67273] = {
 				["classes"] = 4,
@@ -49077,10 +48923,100 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[4586] = {
-			[6318] = {
+		[4524] = {
+			[6240] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[10577] = {
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 19801,
+				["faction"] = 1,
+			}, -- [1]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 19806,
+				["faction"] = 1,
+			}, -- [2]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 19886,
+				["faction"] = 1,
+			}, -- [3]
+		},
+		[37518] = {
+			[95835] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Ring of Booty",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Freehold",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[95851] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Aqu'sirr",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Shrine of the Storm",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[95868] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Knight Captain Valyri",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Tol Dagor",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[95880] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Soulbound Goliath",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Waycrest Manor",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -49150,71 +49086,24 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[20651] = {
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 54868,
-				["faction"] = 1,
-			}, -- [1]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 54913,
-				["faction"] = 1,
-			}, -- [2]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 54939,
-				["faction"] = 1,
-			}, -- [3]
-		},
-		[10617] = {
-			[19890] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
-		[30927] = {
-			[82608] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Flotsam",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Broken Isles",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[82936] = {
+		[4540] = {
+			[6258] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[81237] = {
+		},
+		[8127] = {
+			[14194] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Dragons of Nightmare",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The Emerald Nightmare",
-					}, -- [1]
-				},
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[11136] = {
+			[21267] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -49237,17 +49126,35 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[3316] = {
-			[4023] = {
+		[11188] = {
+			[21391] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[22845] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "The Black Knight",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Trial of the Champion",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
-		[4524] = {
-			[6240] = {
+		[5546] = {
+			[8061] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 		},
@@ -49348,30 +49255,27 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[10577] = {
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 19801,
-				["faction"] = 1,
-			}, -- [1]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 19806,
-				["faction"] = 1,
-			}, -- [2]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 19886,
-				["faction"] = 1,
-			}, -- [3]
-		},
-		[14266] = {
-			[31636] = {
+		[13643] = {
+			[27980] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[27976] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[31906] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[4586] = {
+			[6318] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -49407,17 +49311,64 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[13759] = {
-			[75742] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
+		[10182] = {
+			{
+				["classes"] = 64,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Archavon the Stone Watcher",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+						},
+						["instance"] = "Vault of Archavon",
+					}, -- [1]
+				},
+				["sourceID"] = 18971,
 				["faction"] = 1,
-			},
-			[75763] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
+			}, -- [1]
+			{
+				["classes"] = 64,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Archavon the Stone Watcher",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+						},
+						["instance"] = "Vault of Archavon",
+					}, -- [1]
+				},
+				["sourceID"] = 18973,
 				["faction"] = 1,
-			},
+			}, -- [2]
+			{
+				["classes"] = 64,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Archavon the Stone Watcher",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+						},
+						["instance"] = "Vault of Archavon",
+					}, -- [1]
+				},
+				["sourceID"] = 18979,
+				["faction"] = 1,
+			}, -- [3]
 		},
 		[20643] = {
 			{
@@ -49457,12 +49408,25 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			}, -- [6]
 		},
-		[4540] = {
-			[6258] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
+		[20651] = {
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 54868,
 				["faction"] = 1,
-			},
+			}, -- [1]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 54913,
+				["faction"] = 1,
+			}, -- [2]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 54939,
+				["faction"] = 1,
+			}, -- [3]
 		},
 		[32702] = {
 			[83186] = {
@@ -49496,10 +49460,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[8127] = {
-			[14194] = {
+		[27845] = {
+			[80879] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 		},
@@ -49542,10 +49506,22 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[11136] = {
-			[21267] = {
+		[3814] = {
+			[4806] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Mother Smolderweb",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Lower Blackrock Spire",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -49580,35 +49556,45 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[4560] = {
-			[14751] = {
-				["classes"] = 4,
+		[5071] = {
+			{
+				["classes"] = 64,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 1,
-						["encounter"] = "Pathaleon the Calculator",
+						["instanceType"] = 2,
+						["encounter"] = "Firemaw",
 						["tiers"] = {
-							"Burning Crusade", -- [1]
+							"Classic", -- [1]
 						},
 						["difficulties"] = {
-							"Normal", -- [1]
 						},
-						["instance"] = "The Mechanar",
+						["instance"] = "Blackwing Lair",
 					}, -- [1]
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Ebonroc",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Blackwing Lair",
+					}, -- [2]
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Flamegor",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Blackwing Lair",
+					}, -- [3]
 				},
+				["sourceID"] = 7012,
 				["faction"] = 1,
-			},
-			[8729] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-			[6287] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
+			}, -- [1]
 		},
 		[15240] = {
 			[35807] = {
@@ -49617,22 +49603,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[3819] = {
-			[4814] = {
+		[2797] = {
+			[9866] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Shadow Hunter Vosh'gajin",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Lower Blackrock Spire",
-					}, -- [1]
-				},
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -50262,28 +50236,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[11188] = {
-			[21391] = {
+		[3316] = {
+			[4023] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[22845] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "The Black Knight",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Trial of the Champion",
-					}, -- [1]
-				},
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -50491,137 +50447,117 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[37518] = {
-			[95835] = {
+		[14266] = {
+			[31636] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Ring of Booty",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Freehold",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[95851] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Aqu'sirr",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Shrine of the Storm",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[95868] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Knight Captain Valyri",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Tol Dagor",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[95880] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Soulbound Goliath",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Waycrest Manor",
-					}, -- [1]
-				},
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
-		[10182] = {
-			{
-				["classes"] = 64,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Archavon the Stone Watcher",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-						},
-						["instance"] = "Vault of Archavon",
-					}, -- [1]
-				},
-				["sourceID"] = 18971,
+		[13759] = {
+			[75742] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
-			}, -- [1]
-			{
-				["classes"] = 64,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Archavon the Stone Watcher",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-						},
-						["instance"] = "Vault of Archavon",
-					}, -- [1]
-				},
-				["sourceID"] = 18973,
+			},
+			[75763] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
-			}, -- [2]
-			{
-				["classes"] = 64,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Archavon the Stone Watcher",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-						},
-						["instance"] = "Vault of Archavon",
-					}, -- [1]
-				},
-				["sourceID"] = 18979,
-				["faction"] = 1,
-			}, -- [3]
+			},
 		},
-		[28516] = {
-			[76419] = {
+		[13252] = {
+			[35587] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[28177] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[27624] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Lady Naz'jar",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Throne of the Tides",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[29857] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[31802] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Baron Ashbury",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+							"Classic", -- [2]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Shadowfang Keep",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[32001] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[29860] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[31997] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[26868] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Lady Naz'jar",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Throne of the Tides",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[34086] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[62509] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -50720,35 +50656,6 @@ MogIt_MailDB = {
 			},
 		},
 		[10214] = {
-			[19327] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Gluth",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"25 Player", -- [1]
-						},
-						["instance"] = "Naxxramas",
-					}, -- [1]
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Thaddius",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"25 Player", -- [1]
-						},
-						["instance"] = "Naxxramas",
-					}, -- [2]
-				},
-				["faction"] = 1,
-			},
 			[19051] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -50793,6 +50700,35 @@ MogIt_MailDB = {
 						},
 						["instance"] = "The Obsidian Sanctum",
 					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[19327] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Gluth",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"25 Player", -- [1]
+						},
+						["instance"] = "Naxxramas",
+					}, -- [1]
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Thaddius",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"25 Player", -- [1]
+						},
+						["instance"] = "Naxxramas",
+					}, -- [2]
 				},
 				["faction"] = 1,
 			},
@@ -50903,11 +50839,6 @@ MogIt_MailDB = {
 			},
 		},
 		[12282] = {
-			[24961] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
 			[24529] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -50944,6 +50875,11 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
+			[24961] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
 		},
 		[17386] = {
 			[41924] = {
@@ -50957,72 +50893,41 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[17394] = {
-			[41651] = {
+		[14334] = {
+			[31660] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[41704] = {
+			[45720] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[41757] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[42025] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[42029] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Darkmaster Gandling",
+						["tiers"] = {
+							"Classic", -- [1]
+							"Mists of Pandaria", -- [2]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Scholomance",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
-		[17402] = {
-			[45555] = {
+		[37295] = {
+			[99559] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[47034] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[42857] = {
+			[99575] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[42861] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[42763] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[45551] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[42767] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[44079] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -51093,39 +50998,6 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[421] = {
-			[291] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[2856] = {
-			[8089] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-		},
-		[4634] = {
-			[6391] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[6700] = {
-			[10436] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[14624] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
 		[22153] = {
 			[57666] = {
 				["classes"] = 4,
@@ -51133,6 +51005,64 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 			[57798] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[4171] = {
+			[5606] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[2832] = {
+			[75829] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75806] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75932] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[22137] = {
+			[63083] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[66469] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[63572] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[57699] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[67043] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[421] = {
+			[291] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -51157,28 +51087,22 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[19151] = {
-			[45319] = {
+		[3875] = {
+			[4901] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 2,
-						["encounter"] = "Will of the Emperor",
+						["instanceType"] = 1,
+						["encounter"] = "Nerub'enkan",
 						["tiers"] = {
-							"Mists of Pandaria", -- [1]
+							"Classic", -- [1]
 						},
 						["difficulties"] = {
-							"Looking For Raid", -- [1]
 						},
-						["instance"] = "Mogu'shan Vaults",
+						["instance"] = "Stratholme",
 					}, -- [1]
 				},
-				["faction"] = 1,
-			},
-			[100569] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -51189,25 +51113,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[2345] = {
-			[9882] = {
+		[2856] = {
+			[8089] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[3455] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[13642] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[13909] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 		},
@@ -51290,37 +51199,34 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[15488] = {
-			[35502] = {
+		[33719] = {
+			[86713] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Kil'jaeden",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Tomb of Sargeras",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
-		[22137] = {
-			[63083] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[66469] = {
+		[6700] = {
+			[10436] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[63572] = {
+			[14624] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[57699] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[67043] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -51355,15 +51261,57 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[4203] = {
-			[5657] = {
+		[9923] = {
+			[18707] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[8151] = {
+			[18714] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Grand Widow Faerlina",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+						},
+						["instance"] = "Naxxramas",
+					}, -- [1]
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Gluth",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+						},
+						["instance"] = "Naxxramas",
+					}, -- [2]
+				},
+				["faction"] = 1,
+			},
+			[18080] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Cyanigosa",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "The Violet Hold",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -51455,133 +51403,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			}, -- [3]
 		},
-		[13456] = {
-			[32081] = {
+		[22792] = {
+			[65025] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[34162] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[31834] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Helix Gearbreaker",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-							"Classic", -- [2]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Deadmines",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[29843] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[89251] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Foe Reaper 5000",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-							"Classic", -- [2]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Deadmines",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[32086] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[62507] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[93935] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Foe Reaper 5000",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-							"Classic", -- [2]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Deadmines",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[27426] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "General Husam",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Lost City of the Tol'vir",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[28188] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[27701] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "General Husam",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Lost City of the Tol'vir",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[29841] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 		},
@@ -51604,22 +51429,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[3875] = {
-			[4901] = {
+		[9336] = {
+			[16645] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Nerub'enkan",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Stratholme",
-					}, -- [1]
-				},
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -51650,36 +51463,73 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[4171] = {
-			[5606] = {
+		[2345] = {
+			[9882] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[13642] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[13909] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[3455] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
-		[4684] = {
-			[6476] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
-		[33719] = {
-			[86713] = {
+		[30936] = {
+			[79551] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Kil'jaeden",
+						["encounter"] = "Dragons of Nightmare",
 						["tiers"] = {
 							"Legion", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Tomb of Sargeras",
+						["instance"] = "The Emerald Nightmare",
 					}, -- [1]
 				},
+				["faction"] = 1,
+			},
+			[82607] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Flotsam",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Broken Isles",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[82935] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[15488] = {
+			[35502] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -51690,64 +51540,29 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[9923] = {
-			[18707] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[18714] = {
+		[5736] = {
+			[8541] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Grand Widow Faerlina",
+						["encounter"] = "The Twin Emperors",
 						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
+							"Classic", -- [1]
 						},
 						["difficulties"] = {
-							"10 Player", -- [1]
 						},
-						["instance"] = "Naxxramas",
-					}, -- [1]
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Gluth",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-						},
-						["instance"] = "Naxxramas",
-					}, -- [2]
-				},
-				["faction"] = 1,
-			},
-			[18080] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Cyanigosa",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "The Violet Hold",
+						["instance"] = "Temple of Ahn'Qiraj",
 					}, -- [1]
 				},
 				["faction"] = 1,
 			},
 		},
-		[22792] = {
-			[65025] = {
+		[4181] = {
+			[5624] = {
 				["classes"] = 4,
-				["sourceType"] = 6,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -51758,55 +51573,21 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[15508] = {
-			[35539] = {
+		[7251] = {
+			[12523] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 1,
-						["encounter"] = "Cache of Madness - Gri'lek",
+						["instanceType"] = 2,
+						["encounter"] = "Maiden of Virtue",
 						["tiers"] = {
-							"Cataclysm", -- [1]
+							"Burning Crusade", -- [1]
 						},
 						["difficulties"] = {
-							"Normal", -- [1]
 						},
-						["instance"] = "Zul'Gurub",
+						["instance"] = "Karazhan",
 					}, -- [1]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Cache of Madness - Hazza'rah",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Zul'Gurub",
-					}, -- [2]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Cache of Madness - Renataki",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Zul'Gurub",
-					}, -- [3]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Cache of Madness - Wushoolay",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Zul'Gurub",
-					}, -- [4]
 				},
 				["faction"] = 1,
 			},
@@ -51947,10 +51728,12 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[5235] = {
-			[7291] = {
+		[34023] = {
+			[86032] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
+				["drops"] = {
+				},
 				["faction"] = 1,
 			},
 		},
@@ -51992,22 +51775,15 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			}, -- [6]
 		},
-		[5736] = {
-			[8541] = {
+		[4203] = {
+			[5657] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "The Twin Emperors",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Temple of Ahn'Qiraj",
-					}, -- [1]
-				},
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[8151] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -52025,23 +51801,6 @@ MogIt_MailDB = {
 						["difficulties"] = {
 						},
 						["instance"] = "Shrine of the Storm",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[95867] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Knight Captain Valyri",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Tol Dagor",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -52080,83 +51839,60 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
+			[95867] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Knight Captain Valyri",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Tol Dagor",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
 		},
-		[20341] = {
-			[49897] = {
+		[32094] = {
+			[82938] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[49656] = {
+			[82610] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Ji-Kun",
+						["encounter"] = "Flotsam",
 						["tiers"] = {
-							"Mists of Pandaria", -- [1]
+							"Legion", -- [1]
 						},
 						["difficulties"] = {
-							"10 Player", -- [1]
-							"25 Player", -- [2]
 						},
-						["instance"] = "Throne of Thunder",
+						["instance"] = "Broken Isles",
 					}, -- [1]
 				},
 				["faction"] = 1,
 			},
-			[49611] = {
+			[81239] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Twin Consorts",
+						["encounter"] = "Dragons of Nightmare",
 						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-							"25 Player", -- [2]
-						},
-						["instance"] = "Throne of Thunder",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[49642] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Megaera",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-							"25 Player", -- [2]
-						},
-						["instance"] = "Throne of Thunder",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[49947] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Oondasta",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
+							"Legion", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Pandaria",
+						["instance"] = "The Emerald Nightmare",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -52210,12 +51946,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[34023] = {
-			[86032] = {
+		[5235] = {
+			[7291] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-				},
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -52279,10 +52013,22 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[15065] = {
-			[100497] = {
+		[8933] = {
+			[15894] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Kil'jaeden",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Sunwell Plateau",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -52332,25 +52078,44 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[9476] = {
-			[16979] = {
+		[38287] = {
+			[98966] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[16947] = {
+			[98957] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Mythrax the Unraveler",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Uldir",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
-			[16963] = {
+			[98942] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[16995] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "MOTHER",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Uldir",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -52428,44 +52193,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[38287] = {
-			[98942] = {
+		[2888] = {
+			[75554] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "MOTHER",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Uldir",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[98966] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[98957] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Mythrax the Unraveler",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Uldir",
-					}, -- [1]
-				},
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -52688,39 +52419,6 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[18561] = {
-			[44055] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-			[47150] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Blade Lord Ta'yak",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-							"25 Player", -- [2]
-						},
-						["instance"] = "Heart of Fear",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-		},
-		[14123] = {
-			[30107] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
 		[21627] = {
 			[57567] = {
 				["classes"] = 4,
@@ -52748,6 +52446,13 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
+		[14123] = {
+			[30107] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
 		[10574] = {
 			{
 				["classes"] = 64,
@@ -52768,15 +52473,36 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			}, -- [3]
 		},
-		[33417] = {
-			[84716] = {
+		[18561] = {
+			[44055] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
-			[85365] = {
+			[47150] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Blade Lord Ta'yak",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+							"25 Player", -- [2]
+						},
+						["instance"] = "Heart of Fear",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+		},
+		[11069] = {
+			[20915] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -52845,10 +52571,15 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[4271] = {
-			[7786] = {
+		[36020] = {
+			[94013] = {
 				["classes"] = 4,
-				["sourceType"] = 6,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[96146] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -52952,22 +52683,22 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[36020] = {
-			[94013] = {
+		[4271] = {
+			[7786] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[96146] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 		},
-		[11069] = {
-			[20915] = {
+		[33417] = {
+			[84716] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[85365] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -53115,29 +52846,32 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[2888] = {
-			[75554] = {
+		[9476] = {
+			[16979] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[16947] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[16963] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[16995] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
-		[8933] = {
-			[15894] = {
+		[15065] = {
+			[100497] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Kil'jaeden",
-						["tiers"] = {
-							"Burning Crusade", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Sunwell Plateau",
-					}, -- [1]
-				},
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -53203,42 +52937,82 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[32094] = {
-			[82938] = {
+		[20341] = {
+			[49897] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[82610] = {
+			[49656] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Flotsam",
+						["encounter"] = "Ji-Kun",
 						["tiers"] = {
-							"Legion", -- [1]
+							"Mists of Pandaria", -- [1]
 						},
 						["difficulties"] = {
+							"10 Player", -- [1]
+							"25 Player", -- [2]
 						},
-						["instance"] = "Broken Isles",
+						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 				["faction"] = 1,
 			},
-			[81239] = {
+			[49611] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Dragons of Nightmare",
+						["encounter"] = "Twin Consorts",
 						["tiers"] = {
-							"Legion", -- [1]
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+							"25 Player", -- [2]
+						},
+						["instance"] = "Throne of Thunder",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[49642] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Megaera",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+							"25 Player", -- [2]
+						},
+						["instance"] = "Throne of Thunder",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[49947] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Oondasta",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "The Emerald Nightmare",
+						["instance"] = "Pandaria",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -53296,21 +53070,55 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[7251] = {
-			[12523] = {
+		[15508] = {
+			[35539] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 2,
-						["encounter"] = "Maiden of Virtue",
+						["instanceType"] = 1,
+						["encounter"] = "Cache of Madness - Gri'lek",
 						["tiers"] = {
-							"Burning Crusade", -- [1]
+							"Cataclysm", -- [1]
 						},
 						["difficulties"] = {
+							"Normal", -- [1]
 						},
-						["instance"] = "Karazhan",
+						["instance"] = "Zul'Gurub",
 					}, -- [1]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Cache of Madness - Hazza'rah",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Zul'Gurub",
+					}, -- [2]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Cache of Madness - Renataki",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Zul'Gurub",
+					}, -- [3]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Cache of Madness - Wushoolay",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Zul'Gurub",
+					}, -- [4]
 				},
 				["faction"] = 1,
 			},
@@ -53339,8 +53147,213 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[4181] = {
-			[5624] = {
+		[13456] = {
+			[32081] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[34162] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[31834] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Helix Gearbreaker",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+							"Classic", -- [2]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Deadmines",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[29843] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[89251] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Foe Reaper 5000",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+							"Classic", -- [2]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Deadmines",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[32086] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[62507] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[93935] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Foe Reaper 5000",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+							"Classic", -- [2]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Deadmines",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[27426] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "General Husam",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Lost City of the Tol'vir",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[28188] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[27701] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "General Husam",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Lost City of the Tol'vir",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[29841] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[4684] = {
+			[6476] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[6876] = {
+			[11944] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Warlord Kalithresh",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "The Steamvault",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[59026] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[19151] = {
+			[45319] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Will of the Emperor",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"Looking For Raid", -- [1]
+						},
+						["instance"] = "Mogu'shan Vaults",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[100569] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[23368] = {
+			[62758] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Flamebender Ka'graz",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Blackrock Foundry",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[63491] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -53373,104 +53386,6 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[6876] = {
-			[11944] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Warlord Kalithresh",
-						["tiers"] = {
-							"Burning Crusade", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "The Steamvault",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[59026] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[9336] = {
-			[16645] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
-		[23368] = {
-			[62758] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Flamebender Ka'graz",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Blackrock Foundry",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[63491] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[30936] = {
-			[79551] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Dragons of Nightmare",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The Emerald Nightmare",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[82607] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Flotsam",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Broken Isles",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[82935] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
 		[2424] = {
 			[2820] = {
 				["classes"] = 4,
@@ -53478,20 +53393,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[2832] = {
-			[75829] = {
+		[4634] = {
+			[6391] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[75806] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[75932] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -53502,41 +53407,72 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[37295] = {
-			[99559] = {
+		[17402] = {
+			[45555] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[99575] = {
+			[47034] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[42857] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[42763] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[44079] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[45551] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[42767] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[42861] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
-		[14334] = {
-			[31660] = {
+		[17394] = {
+			[41651] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[45720] = {
+			[41704] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Darkmaster Gandling",
-						["tiers"] = {
-							"Classic", -- [1]
-							"Mists of Pandaria", -- [2]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Scholomance",
-					}, -- [1]
-				},
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[41757] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[42025] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[42029] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -54007,9 +53943,9 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[69169] = {
+			[67894] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 			[59523] = {
@@ -54333,9 +54269,9 @@ MogIt_MailDB = {
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[67894] = {
+			[69169] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -54454,100 +54390,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[13252] = {
-			[35587] = {
+		[28516] = {
+			[76419] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[29857] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[27624] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Lady Naz'jar",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Throne of the Tides",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[28177] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[31802] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Baron Ashbury",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-							"Classic", -- [2]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Shadowfang Keep",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[62509] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[29860] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[31997] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[26868] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Lady Naz'jar",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Throne of the Tides",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[34086] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[32001] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -54558,61 +54404,14 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[2797] = {
-			[9866] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[5071] = {
-			{
-				["classes"] = 64,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Firemaw",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Blackwing Lair",
-					}, -- [1]
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Ebonroc",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Blackwing Lair",
-					}, -- [2]
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Flamegor",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Blackwing Lair",
-					}, -- [3]
-				},
-				["sourceID"] = 7012,
-				["faction"] = 1,
-			}, -- [1]
-		},
-		[3814] = {
-			[4806] = {
+		[3819] = {
+			[4814] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Mother Smolderweb",
+						["encounter"] = "Shadow Hunter Vosh'gajin",
 						["tiers"] = {
 							"Classic", -- [1]
 						},
@@ -54624,10 +54423,81 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[27845] = {
-			[80879] = {
+		[4560] = {
+			[14751] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Pathaleon the Calculator",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "The Mechanar",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[8729] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+			[6287] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[30927] = {
+			[82608] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Flotsam",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Broken Isles",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[82936] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[81237] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Dragons of Nightmare",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Emerald Nightmare",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+		},
+		[10617] = {
+			[19890] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -54706,10 +54576,22 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[5546] = {
-			[8061] = {
+		[824] = {
+			[89410] = {
 				["classes"] = 4,
-				["sourceType"] = 6,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "The Unforgiven",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Stratholme",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -54770,7 +54652,7 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[75560] = {
+			[75609] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -54780,17 +54662,17 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[75609] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[75501] = {
+			[75560] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 			[75592] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75501] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -54803,22 +54685,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[35105] = {
-			[89867] = {
+		[13024] = {
+			[34218] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Garothi Worldbreaker",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Antorus, the Burning Throne",
-					}, -- [1]
-				},
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -54868,89 +54738,115 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[31038] = {
-			[82609] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Flotsam",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Broken Isles",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[82937] = {
+		[27461] = {
+			[78612] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[81238] = {
+			[77503] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 2,
-						["encounter"] = "Dragons of Nightmare",
+						["instanceType"] = 1,
+						["encounter"] = "Hyrja",
 						["tiers"] = {
 							"Legion", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "The Emerald Nightmare",
+						["instance"] = "Halls of Valor",
 					}, -- [1]
 				},
+				["faction"] = 1,
+			},
+			[77639] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Talixae Flamewreath",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Court of Stars",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[77537] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Lady Hatecoil",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Eye of Azshara",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[77571] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Advisor Vandros",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Arcway",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[68468] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[77469] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[77605] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[80421] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
-		[15531] = {
-			[36420] = {
+		[27453] = {
+			[83043] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 2,
-						["encounter"] = "Occu'thar",
+						["instanceType"] = 1,
+						["encounter"] = "The Curator",
 						["tiers"] = {
-							"Cataclysm", -- [1]
+							"Legion", -- [1]
 						},
 						["difficulties"] = {
-							"10 Player", -- [1]
-							"25 Player", -- [2]
-							"10 Player (Heroic)", -- [3]
-							"25 Player (Heroic)", -- [4]
 						},
-						["instance"] = "Baradin Hold",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[35604] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-			[36603] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Majordomo Staghelm",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-							"25 Player", -- [2]
-						},
-						["instance"] = "Firelands",
+						["instance"] = "Return to Karazhan",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -55072,23 +54968,25 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[20554] = {
-			[50264] = {
+		[17488] = {
+			[42896] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Primordius",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"Looking For Raid", -- [1]
-						},
-						["instance"] = "Throne of Thunder",
-					}, -- [1]
-				},
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[40651] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[40647] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[42900] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -55283,10 +55181,33 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[4875] = {
-			[39696] = {
+		[9734] = {
+			[17606] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Mal'Ganis",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "The Culling of Stratholme",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[20986] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+			[62480] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -55316,14 +55237,14 @@ MogIt_MailDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[74636] = {
+			[68777] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[68777] = {
+			[80453] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 			[68256] = {
@@ -55331,9 +55252,9 @@ MogIt_MailDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[80453] = {
+			[74636] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -55387,16 +55308,6 @@ MogIt_MailDB = {
 			},
 		},
 		[18714] = {
-			[44535] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[44056] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
 			[44709] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -55413,6 +55324,11 @@ MogIt_MailDB = {
 						["instance"] = "Heart of Fear",
 					}, -- [1]
 				},
+				["faction"] = 1,
+			},
+			[44056] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 			[44823] = {
@@ -55432,6 +55348,11 @@ MogIt_MailDB = {
 						["instance"] = "Heart of Fear",
 					}, -- [1]
 				},
+				["faction"] = 1,
+			},
+			[44535] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -55574,8 +55495,8 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[10141] = {
-			[18881] = {
+		[2671] = {
+			[75709] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -55791,15 +55712,23 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[24210] = {
-			[64520] = {
+		[6835] = {
+			[11893] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[64626] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Captain Skarloc",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Old Hillsbrad Foothills",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -55836,32 +55765,103 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[14077] = {
-			[29914] = {
+		[38295] = {
+			[96573] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "MOTHER",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Uldir",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
-			[30766] = {
+			[97015] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[30805] = {
+			[96710] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[30769] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Mythrax the Unraveler",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Uldir",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
-		[13562] = {
-			[27767] = {
+		[38279] = {
+			[96708] = {
 				["classes"] = 4,
-				["sourceType"] = 6,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Mythrax the Unraveler",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Uldir",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[96571] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "MOTHER",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Uldir",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[97013] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[97319] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Dunegorger Kraulok",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Azeroth",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -56488,14 +56488,14 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[42866] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
 			[44077] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[42866] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 			[42772] = {
@@ -57521,25 +57521,6 @@ MogIt_MailDB = {
 			},
 		},
 		[20338] = {
-			[49743] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Durumu the Forgotten",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-							"25 Player", -- [2]
-						},
-						["instance"] = "Throne of Thunder",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
 			[49620] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -57562,6 +57543,25 @@ MogIt_MailDB = {
 			[49917] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[49743] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Durumu the Forgotten",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+							"25 Player", -- [2]
+						},
+						["instance"] = "Throne of Thunder",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -57848,12 +57848,12 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[15493] = {
+			[15496] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[15496] = {
+			[15493] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -58256,9 +58256,9 @@ MogIt_MailDB = {
 			}, -- [1]
 		},
 		[26870] = {
-			[68255] = {
+			[74632] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 			[74652] = {
@@ -58266,14 +58266,14 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[80452] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[74632] = {
+			[68797] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[68255] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 			[81713] = {
@@ -58286,9 +58286,9 @@ MogIt_MailDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[68797] = {
+			[80452] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -58478,56 +58478,6 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[35488] = {
-			[88522] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[88306] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[88738] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
-		[18271] = {
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 43048,
-				["faction"] = 1,
-			}, -- [1]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 43049,
-				["faction"] = 1,
-			}, -- [2]
-			{
-				["classes"] = 64,
-				["sourceType"] = 6,
-				["sourceID"] = 48809,
-				["faction"] = 1,
-			}, -- [3]
-			{
-				["classes"] = 64,
-				["sourceType"] = 6,
-				["sourceID"] = 48810,
-				["faction"] = 1,
-			}, -- [4]
-		},
-		[25944] = {
-			[70635] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
 		[37532] = {
 			[95139] = {
 				["classes"] = 4,
@@ -58595,6 +58545,46 @@ MogIt_MailDB = {
 						["instance"] = "Waycrest Manor",
 					}, -- [1]
 				},
+				["faction"] = 1,
+			},
+		},
+		[18271] = {
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 43048,
+				["faction"] = 1,
+			}, -- [1]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 43049,
+				["faction"] = 1,
+			}, -- [2]
+			{
+				["classes"] = 64,
+				["sourceType"] = 6,
+				["sourceID"] = 48809,
+				["faction"] = 1,
+			}, -- [3]
+			{
+				["classes"] = 64,
+				["sourceType"] = 6,
+				["sourceID"] = 48810,
+				["faction"] = 1,
+			}, -- [4]
+		},
+		[25944] = {
+			[70635] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
+		[1119] = {
+			[1135] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -58973,14 +58963,14 @@ MogIt_MailDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[20992] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
 			[17047] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[20992] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 			[25686] = {
@@ -59062,15 +59052,22 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[36016] = {
-			[94050] = {
+		[33461] = {
+			[86578] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[96178] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Goroth",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Tomb of Sargeras",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -59195,44 +59192,45 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[33461] = {
-			[86578] = {
+		[36016] = {
+			[94050] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Goroth",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Tomb of Sargeras",
-					}, -- [1]
-				},
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[96178] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
-		[3801] = {
-			[4784] = {
+		[36032] = {
+			[97114] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "War Master Voone",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Lower Blackrock Spire",
-					}, -- [1]
-				},
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[7446] = {
+			[93986] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[97031] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[97036] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[96963] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[91790] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -59240,6 +59238,32 @@ MogIt_MailDB = {
 		},
 		[4530] = {
 			[6248] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[4538] = {
+			[6256] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[23182] = {
+			[65030] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+			[72499] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[3805] = {
+			[4791] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -59272,32 +59296,6 @@ MogIt_MailDB = {
 						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
-				["faction"] = 1,
-			},
-		},
-		[23182] = {
-			[65030] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-			[72499] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[3805] = {
-			[4791] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[4538] = {
-			[6256] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -59708,15 +59706,44 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			}, -- [2]
 		},
-		[14274] = {
-			[31596] = {
+		[35506] = {
+			[89226] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[31938] = {
+			[89357] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Saprish",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Seat of the Triumvirate",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[89358] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Saprish",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Seat of the Triumvirate",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -59761,23 +59788,6 @@ MogIt_MailDB = {
 			},
 		},
 		[38141] = {
-			[94313] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Priestess Alun'za",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Atal'Dazar",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
 			[95162] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -59808,6 +59818,23 @@ MogIt_MailDB = {
 						["difficulties"] = {
 						},
 						["instance"] = "The MOTHERLODE!!",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[94313] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Priestess Alun'za",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Atal'Dazar",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -60044,23 +60071,6 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[79099] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Cordana Felsong",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Vault of the Wardens",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
 			[78959] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -60074,6 +60084,23 @@ MogIt_MailDB = {
 						["difficulties"] = {
 						},
 						["instance"] = "Eye of Azshara",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[79099] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Cordana Felsong",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Vault of the Wardens",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -60129,12 +60156,12 @@ MogIt_MailDB = {
 				["sourceType"] = 6,
 				["faction"] = 1,
 			},
-			[68730] = {
+			[74400] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[74400] = {
+			[68730] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -60154,12 +60181,12 @@ MogIt_MailDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[76376] = {
+			[76369] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
 				["faction"] = 1,
 			},
-			[76369] = {
+			[76376] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
 				["faction"] = 1,
@@ -60519,23 +60546,6 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[80151] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Harbaron",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Maw of Souls",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
 			[80144] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -60549,6 +60559,23 @@ MogIt_MailDB = {
 						["difficulties"] = {
 						},
 						["instance"] = "Eye of Azshara",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[80151] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Harbaron",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Maw of Souls",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -60570,19 +60597,19 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[80173] = {
+			[80145] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Cordana Felsong",
+						["encounter"] = "Anub'esset",
 						["tiers"] = {
 							"Legion", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Vault of the Wardens",
+						["instance"] = "Assault on Violet Hold",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -60604,19 +60631,19 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[80145] = {
+			[80173] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Anub'esset",
+						["encounter"] = "Cordana Felsong",
 						["tiers"] = {
 							"Legion", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Assault on Violet Hold",
+						["instance"] = "Vault of the Wardens",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -60656,16 +60683,6 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[20984] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-			[20742] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
 			[19465] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -60682,6 +60699,16 @@ MogIt_MailDB = {
 						["instance"] = "Drak'Tharon Keep",
 					}, -- [1]
 				},
+				["faction"] = 1,
+			},
+			[20742] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[20984] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 		},
@@ -60911,25 +60938,6 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[27774] = {
-			[79291] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[83507] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
-		[4147] = {
-			[5576] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
 		[36066] = {
 			[94146] = {
 				["classes"] = 4,
@@ -60941,9 +60949,9 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[96368] = {
+			[96424] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 			[92083] = {
@@ -60956,14 +60964,67 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[96424] = {
+			[96368] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 			[98063] = {
 				["classes"] = 4,
 				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+		},
+		[4147] = {
+			[5576] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[19598] = {
+			[47516] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Nalak, The Storm Lord",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Pandaria",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[47515] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Nalak, The Storm Lord",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Pandaria",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[53022] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[53021] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -61178,11 +61239,6 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[75816] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
 			[75718] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
@@ -61193,73 +61249,11 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-		},
-		[37248] = {
-			[100732] = {
+			[75816] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[99032] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[100733] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
-		[19670] = {
-			{
-				["classes"] = 64,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Nalak, The Storm Lord",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Pandaria",
-					}, -- [1]
-				},
-				["sourceID"] = 47645,
-				["faction"] = 1,
-			}, -- [1]
-			{
-				["classes"] = 64,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Nalak, The Storm Lord",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Pandaria",
-					}, -- [1]
-				},
-				["sourceID"] = 47646,
-				["faction"] = 1,
-			}, -- [2]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 53090,
-				["faction"] = 1,
-			}, -- [3]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 53091,
-				["faction"] = 1,
-			}, -- [4]
 		},
 		[15476] = {
 			[35481] = {
@@ -61278,6 +61272,25 @@ MogIt_MailDB = {
 						["instance"] = "Zul'Aman",
 					}, -- [1]
 				},
+				["faction"] = 1,
+			},
+		},
+		[1940] = {
+			[5652] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[6724] = {
+			[10489] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[10492] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -61426,17 +61439,12 @@ MogIt_MailDB = {
 			},
 		},
 		[18983] = {
-			[44850] = {
+			[100568] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 			[44722] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[100568] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -61457,6 +61465,11 @@ MogIt_MailDB = {
 						["instance"] = "Mogu'shan Vaults",
 					}, -- [1]
 				},
+				["faction"] = 1,
+			},
+			[44850] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -61622,93 +61635,6 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[61355] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Azzakel",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Auchindoun",
-					}, -- [1]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Slave Watcher Crushto",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Bloodmaul Slag Mines",
-					}, -- [2]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Skylord Tovra",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Grimrail Depot",
-					}, -- [3]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Oshir",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Iron Docks",
-					}, -- [4]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Nhallish",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Shadowmoon Burial Grounds",
-					}, -- [5]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Rukhran",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Skyreach",
-					}, -- [6]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Archmage Sol",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The Everbloom",
-					}, -- [7]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Warlord Zaela",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Upper Blackrock Spire",
-					}, -- [8]
-				},
-				["faction"] = 1,
-			},
 			[59542] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -61798,6 +61724,93 @@ MogIt_MailDB = {
 						},
 						["difficulties"] = {
 							"Normal", -- [1]
+						},
+						["instance"] = "Upper Blackrock Spire",
+					}, -- [8]
+				},
+				["faction"] = 1,
+			},
+			[61355] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Azzakel",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Auchindoun",
+					}, -- [1]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Slave Watcher Crushto",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Bloodmaul Slag Mines",
+					}, -- [2]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Skylord Tovra",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Grimrail Depot",
+					}, -- [3]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Oshir",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Iron Docks",
+					}, -- [4]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Nhallish",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Shadowmoon Burial Grounds",
+					}, -- [5]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Rukhran",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Skyreach",
+					}, -- [6]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Archmage Sol",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Everbloom",
+					}, -- [7]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Warlord Zaela",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
 						},
 						["instance"] = "Upper Blackrock Spire",
 					}, -- [8]
@@ -61899,93 +61912,6 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[61359] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Azzakel",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Auchindoun",
-					}, -- [1]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Slave Watcher Crushto",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Bloodmaul Slag Mines",
-					}, -- [2]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Skylord Tovra",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Grimrail Depot",
-					}, -- [3]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Oshir",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Iron Docks",
-					}, -- [4]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Nhallish",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Shadowmoon Burial Grounds",
-					}, -- [5]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Rukhran",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Skyreach",
-					}, -- [6]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Archmage Sol",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The Everbloom",
-					}, -- [7]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Warlord Zaela",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Upper Blackrock Spire",
-					}, -- [8]
-				},
-				["faction"] = 1,
-			},
 			[61352] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -62075,6 +62001,93 @@ MogIt_MailDB = {
 						},
 						["difficulties"] = {
 							"Heroic", -- [1]
+						},
+						["instance"] = "Upper Blackrock Spire",
+					}, -- [8]
+				},
+				["faction"] = 1,
+			},
+			[61359] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Azzakel",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Auchindoun",
+					}, -- [1]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Slave Watcher Crushto",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Bloodmaul Slag Mines",
+					}, -- [2]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Skylord Tovra",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Grimrail Depot",
+					}, -- [3]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Oshir",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Iron Docks",
+					}, -- [4]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Nhallish",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Shadowmoon Burial Grounds",
+					}, -- [5]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Rukhran",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Skyreach",
+					}, -- [6]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Archmage Sol",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Everbloom",
+					}, -- [7]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Warlord Zaela",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
 						},
 						["instance"] = "Upper Blackrock Spire",
 					}, -- [8]
@@ -62234,10 +62247,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[35524] = {
-			[90610] = {
+		[8402] = {
+			[14958] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 		},
@@ -62388,35 +62401,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			}, -- [2]
 		},
-		[7287] = {
-			[15227] = {
+		[15069] = {
+			[100496] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[12606] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[12876] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[12873] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[12580] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[15224] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -62541,13 +62529,6 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[980] = {
-			[979] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-		},
 		[9484] = {
 			[17621] = {
 				["classes"] = 4,
@@ -62604,6 +62585,13 @@ MogIt_MailDB = {
 			},
 			[72691] = {
 				["classes"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[980] = {
+			[979] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 		},
@@ -62774,6 +62762,26 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
+		[26003] = {
+			[69950] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Socrethar the Eternal",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Mythic", -- [1]
+						},
+						["instance"] = "Hellfire Citadel",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+		},
 		[2943] = {
 			[3533] = {
 				["classes"] = 4,
@@ -62783,66 +62791,6 @@ MogIt_MailDB = {
 			[7250] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[12251] = {
-			[24482] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Icecrown Gunship Battle",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"25 Player", -- [1]
-						},
-						["instance"] = "Icecrown Citadel",
-					}, -- [1]
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Icecrown Gunship Battle",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"25 Player", -- [1]
-						},
-						["instance"] = "Icecrown Citadel",
-					}, -- [2]
-				},
-				["faction"] = 1,
-			},
-			[25629] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Icecrown Gunship Battle",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player (Heroic)", -- [1]
-						},
-						["instance"] = "Icecrown Citadel",
-					}, -- [1]
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Icecrown Gunship Battle",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player (Heroic)", -- [1]
-						},
-						["instance"] = "Icecrown Citadel",
-					}, -- [2]
-				},
 				["faction"] = 1,
 			},
 		},
@@ -63065,22 +63013,35 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[3435] = {
-			[4218] = {
+		[8598] = {
+			[75698] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Lord Roccor",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Blackrock Depths",
-					}, -- [1]
-				},
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75534] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75677] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75805] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75828] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75840] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -63149,10 +63110,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[32494] = {
-			[80986] = {
+		[10642] = {
+			[19942] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -63254,10 +63215,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[10642] = {
-			[19942] = {
+		[32494] = {
+			[80986] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -63363,7 +63324,7 @@ MogIt_MailDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[48480] = {
+			[46352] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -63373,12 +63334,7 @@ MogIt_MailDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[46352] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[46349] = {
+			[48480] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -63389,6 +63345,11 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 			[51921] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[46349] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -63538,35 +63499,22 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[8598] = {
-			[75698] = {
+		[3435] = {
+			[4218] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[75534] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[75677] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[75840] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[75828] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[75805] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Lord Roccor",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Blackrock Depths",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -63702,22 +63650,62 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[26003] = {
-			[69950] = {
+		[12251] = {
+			[24482] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Socrethar the Eternal",
+						["encounter"] = "Icecrown Gunship Battle",
 						["tiers"] = {
-							"Warlords of Draenor", -- [1]
+							"Wrath of the Lich King", -- [1]
 						},
 						["difficulties"] = {
-							"Mythic", -- [1]
+							"25 Player", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Icecrown Gunship Battle",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"25 Player", -- [1]
+						},
+						["instance"] = "Icecrown Citadel",
+					}, -- [2]
+				},
+				["faction"] = 1,
+			},
+			[25629] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Icecrown Gunship Battle",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player (Heroic)", -- [1]
+						},
+						["instance"] = "Icecrown Citadel",
+					}, -- [1]
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Icecrown Gunship Battle",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player (Heroic)", -- [1]
+						},
+						["instance"] = "Icecrown Citadel",
+					}, -- [2]
 				},
 				["faction"] = 1,
 			},
@@ -63959,6 +63947,38 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
+		[7287] = {
+			[15227] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[12606] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[12876] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[12873] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[12580] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[15224] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
 		[7798] = {
 			[13530] = {
 				["classes"] = 4,
@@ -63978,17 +63998,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[15069] = {
-			[100496] = {
+		[35524] = {
+			[90610] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[8402] = {
-			[14958] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 		},
@@ -64705,13 +64718,18 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[6724] = {
-			[10489] = {
+		[37248] = {
+			[100732] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[10492] = {
+			[99032] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[100733] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -64805,54 +64823,63 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[1940] = {
-			[5652] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
+		[19670] = {
+			{
+				["classes"] = 64,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Nalak, The Storm Lord",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Pandaria",
+					}, -- [1]
+				},
+				["sourceID"] = 47645,
 				["faction"] = 1,
-			},
+			}, -- [1]
+			{
+				["classes"] = 64,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Nalak, The Storm Lord",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Pandaria",
+					}, -- [1]
+				},
+				["sourceID"] = 47646,
+				["faction"] = 1,
+			}, -- [2]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 53090,
+				["faction"] = 1,
+			}, -- [3]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 53091,
+				["faction"] = 1,
+			}, -- [4]
 		},
-		[19598] = {
-			[47516] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Nalak, The Storm Lord",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Pandaria",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[47515] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Nalak, The Storm Lord",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Pandaria",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[53022] = {
+		[27774] = {
+			[79291] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[53021] = {
+			[83507] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -65217,44 +65244,15 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[35506] = {
-			[89226] = {
+		[14274] = {
+			[31596] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[89357] = {
+			[31938] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Saprish",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Seat of the Triumvirate",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[89358] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Saprish",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Seat of the Triumvirate",
-					}, -- [1]
-				},
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -65524,33 +65522,25 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[36032] = {
-			[97114] = {
+		[3801] = {
+			[4784] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "War Master Voone",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Lower Blackrock Spire",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
-			[93986] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[97031] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[97036] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[91790] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[96963] = {
+			[7446] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -65736,10 +65726,20 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[1119] = {
-			[1135] = {
+		[35488] = {
+			[88522] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[88306] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[88738] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -65924,40 +65924,6 @@ MogIt_MailDB = {
 			},
 		},
 		[37541] = {
-			[95129] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Council o' Captains",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Freehold",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[95140] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Lord Stormsong",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Shrine of the Storm",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
 			[95174] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -65992,11 +65958,50 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
+			[95129] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Council o' Captains",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Freehold",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[95140] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Lord Stormsong",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Shrine of the Storm",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
 		},
 		[26852] = {
 			[68596] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[73826] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 			[80581] = {
@@ -66014,11 +66019,6 @@ MogIt_MailDB = {
 						["instance"] = "Halls of Valor",
 					}, -- [1]
 				},
-				["faction"] = 1,
-			},
-			[73826] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 			[68202] = {
@@ -66043,7 +66043,7 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[81629] = {
+			[76463] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -66053,7 +66053,7 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[76463] = {
+			[81629] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -66156,7 +66156,7 @@ MogIt_MailDB = {
 			},
 		},
 		[13122] = {
-			[29968] = {
+			[29965] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -66166,12 +66166,12 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[29965] = {
+			[30802] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[30802] = {
+			[29968] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -67427,6 +67427,73 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
+			[61401] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Slave Watcher Crushto",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Bloodmaul Slag Mines",
+					}, -- [1]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Gug'rokk",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Bloodmaul Slag Mines",
+					}, -- [2]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Skulloc",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Iron Docks",
+					}, -- [3]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "High Sage Viryx",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Skyreach",
+					}, -- [4]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Yalnu",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Everbloom",
+					}, -- [5]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Kyrak",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Upper Blackrock Spire",
+					}, -- [6]
+				},
+				["faction"] = 1,
+			},
 			[59601] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -67500,20 +67567,10 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[61401] = {
+			[61406] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Slave Watcher Crushto",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Bloodmaul Slag Mines",
-					}, -- [1]
 					{
 						["instanceType"] = 1,
 						["encounter"] = "Gug'rokk",
@@ -67521,9 +67578,10 @@ MogIt_MailDB = {
 							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
+							"Heroic", -- [1]
 						},
 						["instance"] = "Bloodmaul Slag Mines",
-					}, -- [2]
+					}, -- [1]
 					{
 						["instanceType"] = 1,
 						["encounter"] = "Skulloc",
@@ -67531,9 +67589,10 @@ MogIt_MailDB = {
 							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
+							"Heroic", -- [1]
 						},
 						["instance"] = "Iron Docks",
-					}, -- [3]
+					}, -- [2]
 					{
 						["instanceType"] = 1,
 						["encounter"] = "High Sage Viryx",
@@ -67541,9 +67600,10 @@ MogIt_MailDB = {
 							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
+							"Heroic", -- [1]
 						},
 						["instance"] = "Skyreach",
-					}, -- [4]
+					}, -- [3]
 					{
 						["instanceType"] = 1,
 						["encounter"] = "Yalnu",
@@ -67551,9 +67611,10 @@ MogIt_MailDB = {
 							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
+							"Heroic", -- [1]
 						},
 						["instance"] = "The Everbloom",
-					}, -- [5]
+					}, -- [4]
 					{
 						["instanceType"] = 1,
 						["encounter"] = "Kyrak",
@@ -67561,15 +67622,11 @@ MogIt_MailDB = {
 							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
+							"Heroic", -- [1]
 						},
 						["instance"] = "Upper Blackrock Spire",
-					}, -- [6]
+					}, -- [5]
 				},
-				["faction"] = 1,
-			},
-			[63221] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 			[67897] = {
@@ -67649,66 +67706,9 @@ MogIt_MailDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[61406] = {
+			[63221] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Gug'rokk",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Bloodmaul Slag Mines",
-					}, -- [1]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Skulloc",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Iron Docks",
-					}, -- [2]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "High Sage Viryx",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Skyreach",
-					}, -- [3]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Yalnu",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "The Everbloom",
-					}, -- [4]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Kyrak",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Upper Blackrock Spire",
-					}, -- [5]
-				},
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -68389,14 +68389,14 @@ MogIt_MailDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[20997] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
 			[17022] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[20997] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 			[25681] = {
@@ -68414,9 +68414,9 @@ MogIt_MailDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[18883] = {
+			[17038] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 			[21468] = {
@@ -68449,9 +68449,9 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[17038] = {
+			[18883] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -68837,12 +68837,12 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[75823] = {
+			[75683] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[75683] = {
+			[75823] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -69512,12 +69512,25 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[3226] = {
-			[3901] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
+		[18558] = {
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 43642,
 				["faction"] = 1,
-			},
+			}, -- [1]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 43651,
+				["faction"] = 1,
+			}, -- [2]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 43707,
+				["faction"] = 1,
+			}, -- [3]
 		},
 		[10321] = {
 			[19313] = {
@@ -69732,6 +69745,96 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
+		[8321] = {
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 14694,
+				["faction"] = 1,
+			}, -- [1]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 14699,
+				["faction"] = 1,
+			}, -- [2]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 14719,
+				["faction"] = 1,
+			}, -- [3]
+		},
+		[1366] = {
+			[1448] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+		},
+		[38298] = {
+			[96585] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "MOTHER",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Uldir",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[96729] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "G'huun",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Uldir",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+		},
+		[12916] = {
+			[75926] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75902] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75692] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75702] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[76098] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
 		[11898] = {
 			[22935] = {
 				["classes"] = 4,
@@ -69829,96 +69932,6 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[38298] = {
-			[96585] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "MOTHER",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Uldir",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[96729] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "G'huun",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Uldir",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-		},
-		[12916] = {
-			[75926] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[75902] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[75692] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[75702] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[76098] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
-		[8321] = {
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 14694,
-				["faction"] = 1,
-			}, -- [1]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 14699,
-				["faction"] = 1,
-			}, -- [2]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 14719,
-				["faction"] = 1,
-			}, -- [3]
-		},
-		[1366] = {
-			[1448] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-		},
 		[8005] = {
 			[13965] = {
 				["classes"] = 4,
@@ -69998,15 +70011,6 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[34106] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[76691] = {
-				["classes"] = 4,
-				["faction"] = 1,
-			},
 			[31813] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -70024,6 +70028,15 @@ MogIt_MailDB = {
 						["instance"] = "Shadowfang Keep",
 					}, -- [1]
 				},
+				["faction"] = 1,
+			},
+			[76691] = {
+				["classes"] = 4,
+				["faction"] = 1,
+			},
+			[34106] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -70078,11 +70091,6 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[17611] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
 			[16680] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
@@ -70091,6 +70099,11 @@ MogIt_MailDB = {
 			[17534] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[17611] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -70478,39 +70491,15 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[33460] = {
-			[86198] = {
+		[36015] = {
+			[94048] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Fallen Avatar",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Tomb of Sargeras",
-					}, -- [1]
-				},
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[86570] = {
+			[96183] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Demonic Inquisition",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Tomb of Sargeras",
-					}, -- [1]
-				},
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -70571,6 +70560,11 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
+			[76152] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
 			[80457] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -70586,11 +70580,6 @@ MogIt_MailDB = {
 						["instance"] = "Neltharion's Lair",
 					}, -- [1]
 				},
-				["faction"] = 1,
-			},
-			[76152] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -70638,10 +70627,23 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[15068] = {
-			[100501] = {
+		[8425] = {
+			[15007] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Reliquary of Souls",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Black Temple",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -71281,16 +71283,6 @@ MogIt_MailDB = {
 			}, -- [3]
 		},
 		[20343] = {
-			[49848] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[49852] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
 			[49635] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -71310,9 +71302,19 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
+			[49852] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
 			[49884] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[49848] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -72238,17 +72240,17 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[75576] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
 			[75870] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[75972] = {
+			[75576] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75874] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -72268,7 +72270,7 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[75874] = {
+			[75972] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -72476,22 +72478,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[35108] = {
-			[89895] = {
+		[8298] = {
+			[14652] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Argus the Unmaker",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Antorus, the Burning Throne",
-					}, -- [1]
-				},
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -72612,15 +72602,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			}, -- [3]
 		},
-		[24213] = {
-			[64523] = {
+		[8290] = {
+			[14634] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[64629] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -72662,10 +72647,22 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[8298] = {
-			[14652] = {
+		[35108] = {
+			[89895] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Argus the Unmaker",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Antorus, the Burning Throne",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -72766,20 +72763,31 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[32493] = {
-			[80984] = {
+		[8853] = {
+			[15784] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "The Eredar Twins",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Sunwell Plateau",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
-		[5706] = {
-			{
-				["classes"] = 64,
-				["sourceType"] = 2,
-				["sourceID"] = 8403,
+		[4173] = {
+			[5609] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
-			}, -- [1]
+			},
 		},
 		[3880] = {
 			[4906] = {
@@ -72819,22 +72827,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[8853] = {
-			[15784] = {
+		[32493] = {
+			[80984] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "The Eredar Twins",
-						["tiers"] = {
-							"Burning Crusade", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Sunwell Plateau",
-					}, -- [1]
-				},
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -72873,22 +72869,22 @@ MogIt_MailDB = {
 			},
 		},
 		[1690] = {
-			[75814] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
 			[75769] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[75869] = {
+			[75814] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 			[75578] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75869] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -72999,25 +72995,8 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[5738] = {
-			[8458] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Ossirian the Unscarred",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Ruins of Ahn'Qiraj",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[14257] = {
+		[4205] = {
+			[5659] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -73128,9 +73107,9 @@ MogIt_MailDB = {
 			},
 		},
 		[36083] = {
-			[94112] = {
+			[94346] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 			[91828] = {
@@ -73138,12 +73117,12 @@ MogIt_MailDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[94346] = {
+			[92009] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[92009] = {
+			[94112] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -73337,45 +73316,6 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[33704] = {
-			[86724] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Sisters of the Moon",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Tomb of Sargeras",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-		},
-		[12710] = {
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 25352,
-				["faction"] = 1,
-			}, -- [1]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 25357,
-				["faction"] = 1,
-			}, -- [2]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 25362,
-				["faction"] = 1,
-			}, -- [3]
-		},
 		[18417] = {
 			{
 				["classes"] = 64,
@@ -73432,20 +73372,53 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			}, -- [9]
 		},
-		[7305] = {
-			[12604] = {
+		[12710] = {
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 25352,
+				["faction"] = 1,
+			}, -- [1]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 25357,
+				["faction"] = 1,
+			}, -- [2]
+			{
+				["classes"] = 64,
+				["sourceType"] = 3,
+				["sourceID"] = 25362,
+				["faction"] = 1,
+			}, -- [3]
+		},
+		[37281] = {
+			[97710] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[97809] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[12550] = {
+			[25530] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "The Curator",
+						["encounter"] = "Sindragosa",
 						["tiers"] = {
-							"Burning Crusade", -- [1]
+							"Wrath of the Lich King", -- [1]
 						},
 						["difficulties"] = {
+							"10 Player", -- [1]
 						},
-						["instance"] = "Karazhan",
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -73511,23 +73484,23 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[20509] = {
+		[6804] = {
 			{
 				["classes"] = 64,
 				["sourceType"] = 3,
-				["sourceID"] = 50056,
+				["sourceID"] = 10699,
 				["faction"] = 1,
 			}, -- [1]
 			{
 				["classes"] = 64,
 				["sourceType"] = 3,
-				["sourceID"] = 50061,
+				["sourceID"] = 11921,
 				["faction"] = 1,
 			}, -- [2]
 			{
 				["classes"] = 64,
 				["sourceType"] = 3,
-				["sourceID"] = 50066,
+				["sourceID"] = 14351,
 				["faction"] = 1,
 			}, -- [3]
 		},
@@ -73551,51 +73524,25 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			}, -- [3]
 		},
-		[6804] = {
+		[20509] = {
 			{
 				["classes"] = 64,
 				["sourceType"] = 3,
-				["sourceID"] = 10699,
+				["sourceID"] = 50056,
 				["faction"] = 1,
 			}, -- [1]
 			{
 				["classes"] = 64,
 				["sourceType"] = 3,
-				["sourceID"] = 11921,
+				["sourceID"] = 50061,
 				["faction"] = 1,
 			}, -- [2]
 			{
 				["classes"] = 64,
 				["sourceType"] = 3,
-				["sourceID"] = 14351,
+				["sourceID"] = 50066,
 				["faction"] = 1,
 			}, -- [3]
-		},
-		[11660] = {
-			[22267] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
-		[17483] = {
-			[40602] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[40606] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
-		[24757] = {
-			[64639] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
 		},
 		[12682] = {
 			[25315] = {
@@ -73613,6 +73560,61 @@ MogIt_MailDB = {
 			[39340] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
+		[34631] = {
+			[89892] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Felhounds of Sargeras",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Antorus, the Burning Throne",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[90102] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "The Coven of Shivarra",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Antorus, the Burning Throne",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+		},
+		[11660] = {
+			[22267] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
+		[17483] = {
+			[40602] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[40606] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -73646,23 +73648,23 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[7840] = {
+		[14131] = {
 			{
 				["classes"] = 64,
 				["sourceType"] = 3,
-				["sourceID"] = 13599,
+				["sourceID"] = 30115,
 				["faction"] = 1,
 			}, -- [1]
 			{
 				["classes"] = 64,
 				["sourceType"] = 3,
-				["sourceID"] = 13604,
+				["sourceID"] = 30120,
 				["faction"] = 1,
 			}, -- [2]
 			{
 				["classes"] = 64,
 				["sourceType"] = 3,
-				["sourceID"] = 13618,
+				["sourceID"] = 30125,
 				["faction"] = 1,
 			}, -- [3]
 		},
@@ -73801,37 +73803,21 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[34631] = {
-			[89892] = {
+		[6844] = {
+			[11904] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 2,
-						["encounter"] = "Felhounds of Sargeras",
+						["instanceType"] = 1,
+						["encounter"] = "Vazruden the Herald",
 						["tiers"] = {
-							"Legion", -- [1]
+							"Burning Crusade", -- [1]
 						},
 						["difficulties"] = {
+							"Normal", -- [1]
 						},
-						["instance"] = "Antorus, the Burning Throne",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[90102] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "The Coven of Shivarra",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Antorus, the Burning Throne",
+						["instance"] = "Hellfire Ramparts",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -74018,21 +74004,21 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[6844] = {
-			[11904] = {
+		[11628] = {
+			[22197] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 1,
-						["encounter"] = "Vazruden the Herald",
+						["instanceType"] = 2,
+						["encounter"] = "Algalon the Observer",
 						["tiers"] = {
-							"Burning Crusade", -- [1]
+							"Wrath of the Lich King", -- [1]
 						},
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Hellfire Ramparts",
+						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -74138,23 +74124,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[11628] = {
-			[22197] = {
+		[24757] = {
+			[64639] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Algalon the Observer",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Ulduar",
-					}, -- [1]
-				},
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -74177,23 +74150,23 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[14131] = {
+		[7840] = {
 			{
 				["classes"] = 64,
 				["sourceType"] = 3,
-				["sourceID"] = 30115,
+				["sourceID"] = 13599,
 				["faction"] = 1,
 			}, -- [1]
 			{
 				["classes"] = 64,
 				["sourceType"] = 3,
-				["sourceID"] = 30120,
+				["sourceID"] = 13604,
 				["faction"] = 1,
 			}, -- [2]
 			{
 				["classes"] = 64,
 				["sourceType"] = 3,
-				["sourceID"] = 30125,
+				["sourceID"] = 13618,
 				["faction"] = 1,
 			}, -- [3]
 		},
@@ -74326,35 +74299,41 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[12550] = {
-			[25530] = {
+		[7305] = {
+			[12604] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Sindragosa",
+						["encounter"] = "The Curator",
 						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
+							"Burning Crusade", -- [1]
 						},
 						["difficulties"] = {
-							"10 Player", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
+						["instance"] = "Karazhan",
 					}, -- [1]
 				},
 				["faction"] = 1,
 			},
 		},
-		[37281] = {
-			[97710] = {
+		[33704] = {
+			[86724] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[97809] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Sisters of the Moon",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Tomb of Sargeras",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -74503,8 +74482,25 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[4205] = {
-			[5659] = {
+		[5738] = {
+			[8458] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Ossirian the Unscarred",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Ruins of Ahn'Qiraj",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[14257] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -74524,10 +74520,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[1729] = {
-			[1885] = {
+		[28558] = {
+			[100330] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -74550,19 +74546,20 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[28558] = {
-			[100330] = {
+		[1729] = {
+			[1885] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
-		[4173] = {
-			[5609] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
+		[5706] = {
+			{
+				["classes"] = 64,
+				["sourceType"] = 2,
+				["sourceID"] = 8403,
 				["faction"] = 1,
-			},
+			}, -- [1]
 		},
 		[17356] = {
 			[44684] = {
@@ -74634,10 +74631,15 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[8290] = {
-			[14634] = {
+		[24213] = {
+			[64523] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[64629] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -75452,23 +75454,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[8425] = {
-			[15007] = {
+		[15068] = {
+			[100501] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Reliquary of Souls",
-						["tiers"] = {
-							"Burning Crusade", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Black Temple",
-					}, -- [1]
-				},
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -75529,15 +75518,39 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[36015] = {
-			[94048] = {
+		[33460] = {
+			[86198] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Fallen Avatar",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Tomb of Sargeras",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
-			[96183] = {
+			[86570] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Demonic Inquisition",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Tomb of Sargeras",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -75742,23 +75755,6 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[80138] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Wrath of Azshara",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Eye of Azshara",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
 			[80117] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -75772,6 +75768,23 @@ MogIt_MailDB = {
 						["difficulties"] = {
 						},
 						["instance"] = "Maw of Souls",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[80138] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Wrath of Azshara",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Eye of Azshara",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -75829,19 +75842,19 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[78976] = {
+			[78927] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Wrath of Azshara",
+						["encounter"] = "Shade of Xavius",
 						["tiers"] = {
 							"Legion", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Eye of Azshara",
+						["instance"] = "Darkheart Thicket",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -75897,19 +75910,19 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[78927] = {
+			[79018] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Shade of Xavius",
+						["encounter"] = "Mindflayer Kaahrj",
 						["tiers"] = {
 							"Legion", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Darkheart Thicket",
+						["instance"] = "Assault on Violet Hold",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -75931,19 +75944,19 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[79018] = {
+			[78976] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Mindflayer Kaahrj",
+						["encounter"] = "Wrath of Azshara",
 						["tiers"] = {
 							"Legion", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Assault on Violet Hold",
+						["instance"] = "Eye of Azshara",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -75961,25 +75974,12 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[18558] = {
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 43642,
+		[3226] = {
+			[3901] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
-			}, -- [1]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 43651,
-				["faction"] = 1,
-			}, -- [2]
-			{
-				["classes"] = 64,
-				["sourceType"] = 3,
-				["sourceID"] = 43707,
-				["faction"] = 1,
-			}, -- [3]
+			},
 		},
 		[3011] = {
 			[3632] = {
@@ -76110,12 +76110,12 @@ MogIt_MailDB = {
 			},
 		},
 		[17405] = {
-			[42718] = {
+			[42816] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[42722] = {
+			[45515] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -76135,7 +76135,7 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[42816] = {
+			[42718] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -76145,7 +76145,7 @@ MogIt_MailDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[45515] = {
+			[42722] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -76829,6 +76829,28 @@ MogIt_MailDB = {
 			},
 		},
 		[38277] = {
+			[96575] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Fetid Devourer",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Uldir",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[98065] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
 			[97229] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -76863,28 +76885,6 @@ MogIt_MailDB = {
 						["instance"] = "Azeroth",
 					}, -- [1]
 				},
-				["faction"] = 1,
-			},
-			[96575] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Fetid Devourer",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Uldir",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[98065] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 		},
@@ -77010,14 +77010,14 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[77861] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
 			[13726] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[77861] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -77257,22 +77257,22 @@ MogIt_MailDB = {
 			},
 		},
 		[9374] = {
-			[18174] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
 			[16695] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[18592] = {
+			[18174] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 			[17818] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[18592] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -78343,6 +78343,18 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
+		[37258] = {
+			[97694] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[97793] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
 		[30925] = {
 			[81249] = {
 				["classes"] = 4,
@@ -78376,18 +78388,6 @@ MogIt_MailDB = {
 						["instance"] = "The Emerald Nightmare",
 					}, -- [1]
 				},
-				["faction"] = 1,
-			},
-		},
-		[37258] = {
-			[97694] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[97793] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -78740,6 +78740,46 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
+		[16817] = {
+			[39797] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Hagara the Stormbinder",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player (Heroic)", -- [1]
+							"25 Player (Heroic)", -- [2]
+						},
+						["instance"] = "Dragon Soul",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+		},
+		[5362] = {
+			[7558] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+			[10527] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+		},
+		[38632] = {
+			[100546] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
 		[35103] = {
 			[89863] = {
 				["classes"] = 4,
@@ -78771,46 +78811,6 @@ MogIt_MailDB = {
 						["difficulties"] = {
 						},
 						["instance"] = "Antorus, the Burning Throne",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-		},
-		[5362] = {
-			[7558] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-			[10527] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-		},
-		[3197] = {
-			[3861] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[16817] = {
-			[39797] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Hagara the Stormbinder",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player (Heroic)", -- [1]
-							"25 Player (Heroic)", -- [2]
-						},
-						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -79043,12 +79043,12 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[42745] = {
+			[42843] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[42843] = {
+			[42745] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -79058,7 +79058,7 @@ MogIt_MailDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[42749] = {
+			[45542] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -79073,7 +79073,7 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[45542] = {
+			[42749] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -79270,12 +79270,12 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[31597] = {
+			[31945] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[31945] = {
+			[31597] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -79362,10 +79362,74 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[3223] = {
-			[3897] = {
+		[37515] = {
+			[95862] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Dread Captain Lockwood",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+							"Mythic", -- [1]
+						},
+						["instance"] = "Siege of Boralus",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[95836] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Ring of Booty",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Freehold",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[95887] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Heartsbane Triad",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Waycrest Manor",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[96219] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Jes Howlis",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Tol Dagor",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -79846,8 +79910,8 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[6496] = {
-			[9896] = {
+		[20299] = {
+			[49237] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -79911,6 +79975,100 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
+		[6508] = {
+			[9920] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[9321] = {
+			[16969] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[16985] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[17001] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[16953] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[16628] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[15064] = {
+			[100498] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[32092] = {
+			[81251] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Elerethe Renferal",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Emerald Nightmare",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[81869] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Spellblade Aluriel",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Nighthold",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[81254] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Ursoc",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Emerald Nightmare",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+		},
 		[20347] = {
 			[49815] = {
 				["classes"] = 4,
@@ -79951,104 +80109,45 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[9321] = {
-			[16969] = {
+		[13393] = {
+			[27181] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[16985] = {
+			[27182] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[17001] = {
+			[27183] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[16953] = {
+			[27184] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[16628] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
-		[15064] = {
-			[100498] = {
+			[27185] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-		},
-		[32092] = {
-			[81254] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Ursoc",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The Emerald Nightmare",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[81251] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Elerethe Renferal",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The Emerald Nightmare",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[81869] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Spellblade Aluriel",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The Nighthold",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-		},
-		[6508] = {
-			[9920] = {
+			[27186] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-		},
-		[8794] = {
-			[15668] = {
+			[27187] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[27188] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -80230,35 +80329,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[36070] = {
-			[94076] = {
+		[8794] = {
+			[15668] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[94234] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[94238] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[96420] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[91924] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[96107] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -80401,18 +80475,6 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[206] = {
-			[1736] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[2405] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
 		[822] = {
 			[89420] = {
 				["classes"] = 4,
@@ -80432,15 +80494,68 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[12609] = {
-			[25216] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[78737] = {
+		[206] = {
+			[1736] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[2405] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[37533] = {
+			[94365] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Ring of Booty",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Freehold",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[95138] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Jes Howlis",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Tol Dagor",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[95193] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Heartsbane Triad",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Waycrest Manor",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -80557,105 +80672,95 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[37533] = {
-			[94365] = {
+		[12609] = {
+			[25216] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Ring of Booty",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Freehold",
-					}, -- [1]
-				},
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[95138] = {
+			[78737] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Jes Howlis",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Tol Dagor",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[95193] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Heartsbane Triad",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Waycrest Manor",
-					}, -- [1]
-				},
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
-		[30911] = {
-			[81867] = {
+		[5572] = {
+			[14227] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Spellblade Aluriel",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The Nighthold",
-					}, -- [1]
-				},
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
-		[13639] = {
-			[27953] = {
+		[21625] = {
+			[57273] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[32878] = {
+			[60761] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[65990] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
+			[57568] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[57535] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[62210] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[62350] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
 		},
-		[11144] = {
-			[21281] = {
+		[12166] = {
+			[24378] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 2,
-						["encounter"] = "Sartharion",
+						["instanceType"] = 1,
+						["encounter"] = "Devourer of Souls",
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
 						["difficulties"] = {
-							"10 Player", -- [1]
+							"Normal", -- [1]
 						},
-						["instance"] = "The Obsidian Sanctum",
+						["instance"] = "The Forge of Souls",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[24663] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Scourgelord Tyrannus",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Pit of Saron",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -80682,43 +80787,20 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			}, -- [2]
 		},
-		[19925] = {
-			[49816] = {
+		[3333] = {
+			[75711] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Ra-den",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player (Heroic)", -- [1]
-							"25 Player (Heroic)", -- [2]
-						},
-						["instance"] = "Throne of Thunder",
-					}, -- [1]
-				},
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[50831] = {
+			[75712] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Tortos",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player (Heroic)", -- [1]
-							"25 Player (Heroic)", -- [2]
-						},
-						["instance"] = "Throne of Thunder",
-					}, -- [1]
-				},
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75949] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -80734,26 +80816,93 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[4590] = {
-			[6324] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[20356] = {
-			[50442] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[50176] = {
+		[26472] = {
+			[69849] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Jin'rokh the Breaker",
+						["encounter"] = "Shadow-Lord Iskar",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Hellfire Citadel",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[69853] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Tyrant Velhari",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Hellfire Citadel",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+		},
+		[34005] = {
+			[84612] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Agronox",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Cathedral of Eternal Night",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[84613] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Agronox",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Cathedral of Eternal Night",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+		},
+		[19909] = {
+			[51884] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[50207] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Tortos",
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
@@ -80765,33 +80914,9 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[50448] = {
+			[100530] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[51885] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
-		[32684] = {
-			[83143] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Odyn",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Trial of Valor",
-					}, -- [1]
-				},
 				["faction"] = 1,
 			},
 		},
@@ -80809,10 +80934,22 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[5572] = {
-			[14227] = {
+		[30911] = {
+			[81867] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Spellblade Aluriel",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Nighthold",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -80900,39 +81037,20 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[12166] = {
-			[24378] = {
+		[33717] = {
+			[86709] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 1,
-						["encounter"] = "Devourer of Souls",
+						["instanceType"] = 2,
+						["encounter"] = "Harjatan",
 						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
+							"Legion", -- [1]
 						},
 						["difficulties"] = {
-							"Normal", -- [1]
 						},
-						["instance"] = "The Forge of Souls",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[24663] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Scourgelord Tyrannus",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Pit of Saron",
+						["instance"] = "Tomb of Sargeras",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -80992,10 +81110,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[10645] = {
-			[19945] = {
+		[4564] = {
+			[6293] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -81021,58 +81139,90 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[3333] = {
-			[75711] = {
+		[19925] = {
+			[49816] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Ra-den",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player (Heroic)", -- [1]
+							"25 Player (Heroic)", -- [2]
+						},
+						["instance"] = "Throne of Thunder",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
-			[75712] = {
+			[50831] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[75949] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Tortos",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player (Heroic)", -- [1]
+							"25 Player (Heroic)", -- [2]
+						},
+						["instance"] = "Throne of Thunder",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
-		[12190] = {
-			[24405] = {
+		[3822] = {
+			[7936] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Falric",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Halls of Reflection",
-					}, -- [1]
-				},
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[24673] = {
+			[7937] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Falric",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Halls of Reflection",
-					}, -- [1]
-				},
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[7938] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[7915] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[7916] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[7967] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[7966] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[4818] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[7968] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -81098,22 +81248,9 @@ MogIt_MailDB = {
 			},
 		},
 		[9732] = {
-			[18073] = {
+			[21508] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Lavanthor",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "The Violet Hold",
-					}, -- [1]
-				},
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 			[17601] = {
@@ -81134,14 +81271,27 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[21508] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
 			[21700] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[18073] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Lavanthor",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "The Violet Hold",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -81224,73 +81374,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[21482] = {
-			[61868] = {
+		[4620] = {
+			[6373] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Siegecrafter Blackfuse",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Siege of Orgrimmar",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[61021] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "The Fallen Protectors",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Siege of Orgrimmar",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[61617] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Iron Juggernaut",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Siege of Orgrimmar",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[60895] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Immerseus",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Siege of Orgrimmar",
-					}, -- [1]
-				},
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -81320,41 +81407,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[26472] = {
-			[69849] = {
+		[4590] = {
+			[6324] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Shadow-Lord Iskar",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Hellfire Citadel",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[69853] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Tyrant Velhari",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Hellfire Citadel",
-					}, -- [1]
-				},
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -81370,39 +81426,38 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[34005] = {
-			[84612] = {
+		[20356] = {
+			[50448] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[50176] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 1,
-						["encounter"] = "Agronox",
+						["instanceType"] = 2,
+						["encounter"] = "Jin'rokh the Breaker",
 						["tiers"] = {
-							"Legion", -- [1]
+							"Mists of Pandaria", -- [1]
 						},
 						["difficulties"] = {
+							"Looking For Raid", -- [1]
 						},
-						["instance"] = "Cathedral of Eternal Night",
+						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 				["faction"] = 1,
 			},
-			[84613] = {
+			[51885] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Agronox",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Cathedral of Eternal Night",
-					}, -- [1]
-				},
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[50442] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -82159,13 +82214,32 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[19909] = {
-			[51884] = {
+		[32684] = {
+			[83143] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Odyn",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Trial of Valor",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
-			[50207] = {
+		},
+		[19917] = {
+			[49263] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+			[49625] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -82176,28 +82250,12 @@ MogIt_MailDB = {
 							"Mists of Pandaria", -- [1]
 						},
 						["difficulties"] = {
-							"Looking For Raid", -- [1]
+							"10 Player", -- [1]
+							"25 Player", -- [2]
 						},
 						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
-				["faction"] = 1,
-			},
-			[100530] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[1157] = {
-			[1183] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[4751] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -82220,41 +82278,115 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[37247] = {
-			[99137] = {
+		[4616] = {
+			[6361] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[100744] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
-		[38285] = {
-			[98946] = {
+		[7173] = {
+			[12434] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Dalliah the Doomsayer",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "The Arcatraz",
+					}, -- [1]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Zereketh the Unbound",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "The Arcatraz",
+					}, -- [2]
+				},
+				["faction"] = 1,
+			},
+			[72381] = {
+				["classes"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[21482] = {
+			[61868] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Fetid Devourer",
+						["encounter"] = "Siegecrafter Blackfuse",
 						["tiers"] = {
-							"Battle for Azeroth", -- [1]
+							"Mists of Pandaria", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Uldir",
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 				["faction"] = 1,
 			},
-		},
-		[4620] = {
-			[6373] = {
+			[61021] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "The Fallen Protectors",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Siege of Orgrimmar",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[61617] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Iron Juggernaut",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Siege of Orgrimmar",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[60895] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Immerseus",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Siege of Orgrimmar",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -82462,11 +82594,6 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[75613] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
 			[75865] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
@@ -82477,11 +82604,62 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-		},
-		[420] = {
-			[290] = {
+			[75613] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[29754] = {
+			[79548] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Dragons of Nightmare",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Emerald Nightmare",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[82486] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Calamir",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Broken Isles",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[81890] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "High Botanist Tel'arn",
+						["tiers"] = {
+							"Legion", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Nighthold",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -82516,13 +82694,13 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[33415] = {
-			[84714] = {
+		[37503] = {
+			[97621] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[85363] = {
+			[97639] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
@@ -82589,24 +82767,20 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[19071] = {
-			[44875] = {
+		[13895] = {
+			[29610] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Feng the Accursed",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player (Heroic)", -- [1]
-							"25 Player (Heroic)", -- [2]
-						},
-						["instance"] = "Mogu'shan Vaults",
-					}, -- [1]
-				},
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[29644] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[34255] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -82727,20 +82901,6 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[4163] = {
-			[5598] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[2851] = {
-			[75706] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
 		[21187] = {
 			[61569] = {
 				["classes"] = 4,
@@ -82777,37 +82937,17 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[27343] = {
-			[81371] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[81372] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[68839] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[68416] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[81373] = {
+		[2851] = {
+			[75706] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
-		[24301] = {
-			[64970] = {
+		[4163] = {
+			[5598] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -82818,40 +82958,122 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[12925] = {
-			[75628] = {
+		[24301] = {
+			[64970] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[75629] = {
+		},
+		[23766] = {
+			[62639] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Imperator Mar'gok",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Highmaul",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
-			[75678] = {
+			[62767] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Flamebender Ka'graz",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Blackrock Foundry",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
-			[75836] = {
+			[62712] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "The Blast Furnace",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Blackrock Foundry",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
-			[75657] = {
+		},
+		[23774] = {
+			[62765] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Flamebender Ka'graz",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Blackrock Foundry",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
-			[75888] = {
+			[62710] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "The Blast Furnace",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Blackrock Foundry",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
-			[75929] = {
+			[62637] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Imperator Mar'gok",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Highmaul",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -82967,16 +83189,6 @@ MogIt_MailDB = {
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[47784] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[52157] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
 			[43290] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -82992,6 +83204,16 @@ MogIt_MailDB = {
 						["instance"] = "Pandaria",
 					}, -- [1]
 				},
+				["faction"] = 1,
+			},
+			[52157] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+			[47784] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[43289] = {
@@ -83180,6 +83402,39 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
+		[16748] = {
+			[39788] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Yor'sahj the Unsleeping",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player (Heroic)", -- [1]
+							"25 Player (Heroic)", -- [2]
+						},
+						["instance"] = "Dragon Soul",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+		},
+		[25938] = {
+			[70632] = {
+				["classes"] = 4,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[70728] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
 		[25946] = {
 			[72922] = {
 				["classes"] = 4,
@@ -83231,53 +83486,6 @@ MogIt_MailDB = {
 							"Looking For Raid", -- [1]
 						},
 						["instance"] = "Hellfire Citadel",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-		},
-		[15540] = {
-			[35613] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-			[36591] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Baleroc, the Gatekeeper",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-							"25 Player", -- [2]
-						},
-						["instance"] = "Firelands",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-		},
-		[16748] = {
-			[39788] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Yor'sahj the Unsleeping",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player (Heroic)", -- [1]
-							"25 Player (Heroic)", -- [2]
-						},
-						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -83364,16 +83572,6 @@ MogIt_MailDB = {
 			},
 		},
 		[13524] = {
-			[33180] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[62551] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
 			[27565] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -83408,6 +83606,16 @@ MogIt_MailDB = {
 						["instance"] = "Grim Batol",
 					}, -- [1]
 				},
+				["faction"] = 1,
+			},
+			[33180] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[62551] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -83454,17 +83662,17 @@ MogIt_MailDB = {
 			},
 		},
 		[595] = {
-			[3452] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
 			[508] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 			[9880] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[3452] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -83551,15 +83759,55 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[4752] = {
-			[39184] = {
+		[26609] = {
+			[76379] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
-			[39301] = {
+			[76350] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+			[76383] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+			[68705] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[76344] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+			[68363] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[74394] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[76365] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+			[80799] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[82790] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -83628,35 +83876,39 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[22673] = {
-			[63377] = {
+		[23184] = {
+			[65033] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
-			[66940] = {
+		},
+		[7345] = {
+			[12697] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Blackhand",
+						["encounter"] = "Chess Event",
 						["tiers"] = {
-							"Warlords of Draenor", -- [1]
+							"Burning Crusade", -- [1]
 						},
 						["difficulties"] = {
-							"Looking For Raid", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
+						["instance"] = "Karazhan",
 					}, -- [1]
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Chess Event",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Karazhan",
+					}, -- [2]
 				},
-				["faction"] = 1,
-			},
-		},
-		[23184] = {
-			[65033] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 		},
@@ -83875,20 +84127,26 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[16207] = {
-			[37327] = {
+		[22673] = {
+			[63377] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[66940] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 1,
-						["encounter"] = "Arcurion",
+						["instanceType"] = 2,
+						["encounter"] = "Blackhand",
 						["tiers"] = {
-							"Cataclysm", -- [1]
+							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
+							"Looking For Raid", -- [1]
 						},
-						["instance"] = "Hour of Twilight",
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -83933,19 +84191,19 @@ MogIt_MailDB = {
 			},
 		},
 		[27264] = {
-			[78919] = {
+			[76861] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Dresaron",
+						["encounter"] = "God-King Skovald",
 						["tiers"] = {
 							"Legion", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Darkheart Thicket",
+						["instance"] = "Halls of Valor",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -83967,19 +84225,19 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[76861] = {
+			[79094] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "God-King Skovald",
+						["encounter"] = "Tirathon Saltheril",
 						["tiers"] = {
 							"Legion", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Halls of Valor",
+						["instance"] = "Vault of the Wardens",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -84035,80 +84293,47 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[79094] = {
+			[78919] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Tirathon Saltheril",
+						["encounter"] = "Dresaron",
 						["tiers"] = {
 							"Legion", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Vault of the Wardens",
+						["instance"] = "Darkheart Thicket",
 					}, -- [1]
 				},
 				["faction"] = 1,
 			},
 		},
-		[7345] = {
-			[12697] = {
+		[16207] = {
+			[37327] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 2,
-						["encounter"] = "Chess Event",
+						["instanceType"] = 1,
+						["encounter"] = "Arcurion",
 						["tiers"] = {
-							"Burning Crusade", -- [1]
+							"Cataclysm", -- [1]
 						},
 						["difficulties"] = {
 						},
-						["instance"] = "Karazhan",
+						["instance"] = "Hour of Twilight",
 					}, -- [1]
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Chess Event",
-						["tiers"] = {
-							"Burning Crusade", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Karazhan",
-					}, -- [2]
 				},
 				["faction"] = 1,
 			},
 		},
-		[22681] = {
-			[70284] = {
+		[1713] = {
+			[75522] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[86072] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[68043] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Kromog",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Looking For Raid", -- [1]
-						},
-						["instance"] = "Blackrock Foundry",
-					}, -- [1]
-				},
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -84123,9 +84348,9 @@ MogIt_MailDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[14246] = {
+			[12300] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 			[7301] = {
@@ -84145,9 +84370,9 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[12300] = {
+			[14246] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -84194,10 +84419,33 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[1713] = {
-			[75522] = {
+		[22681] = {
+			[70284] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[86072] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[68043] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Kromog",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Looking For Raid", -- [1]
+						},
+						["instance"] = "Blackrock Foundry",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -84217,7 +84465,7 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[30784] = {
+			[29839] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -84227,7 +84475,7 @@ MogIt_MailDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[29839] = {
+			[30784] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -84267,55 +84515,15 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[26609] = {
-			[76379] = {
+		[4752] = {
+			[39184] = {
 				["classes"] = 4,
-				["sourceType"] = 6,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[76350] = {
+			[39301] = {
 				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-			[76383] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-			[68705] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[74394] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[68363] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[76344] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-			[76365] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-			[80799] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[82790] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -84368,80 +84576,25 @@ MogIt_MailDB = {
 			},
 		},
 		[22448] = {
-			[61348] = {
+			[67821] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 1,
-						["encounter"] = "Teron'gor",
+						["instanceType"] = 2,
+						["encounter"] = "Rukhmar",
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
-							"Heroic", -- [1]
+							"Normal", -- [1]
 						},
-						["instance"] = "Auchindoun",
+						["instance"] = "Draenor",
 					}, -- [1]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Roltall",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Bloodmaul Slag Mines",
-					}, -- [2]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Ner'zhul",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Shadowmoon Burial Grounds",
-					}, -- [3]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Araknath",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Skyreach",
-					}, -- [4]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Xeri'tac",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "The Everbloom",
-					}, -- [5]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Orebender Gor'ashan",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Upper Blackrock Spire",
-					}, -- [6]
 				},
 				["faction"] = 1,
 			},
-			[61342] = {
+			[61349] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -84452,7 +84605,6 @@ MogIt_MailDB = {
 							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
-							"Heroic", -- [1]
 						},
 						["instance"] = "Auchindoun",
 					}, -- [1]
@@ -84463,7 +84615,6 @@ MogIt_MailDB = {
 							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
-							"Heroic", -- [1]
 						},
 						["instance"] = "Bloodmaul Slag Mines",
 					}, -- [2]
@@ -84474,7 +84625,6 @@ MogIt_MailDB = {
 							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
-							"Heroic", -- [1]
 						},
 						["instance"] = "Shadowmoon Burial Grounds",
 					}, -- [3]
@@ -84485,7 +84635,6 @@ MogIt_MailDB = {
 							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
-							"Heroic", -- [1]
 						},
 						["instance"] = "Skyreach",
 					}, -- [4]
@@ -84496,7 +84645,6 @@ MogIt_MailDB = {
 							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
-							"Heroic", -- [1]
 						},
 						["instance"] = "The Everbloom",
 					}, -- [5]
@@ -84507,7 +84655,6 @@ MogIt_MailDB = {
 							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
-							"Heroic", -- [1]
 						},
 						["instance"] = "Upper Blackrock Spire",
 					}, -- [6]
@@ -84654,21 +84801,76 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[67821] = {
+			[61348] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
-						["instanceType"] = 2,
-						["encounter"] = "Rukhmar",
+						["instanceType"] = 1,
+						["encounter"] = "Teron'gor",
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
-							"Normal", -- [1]
+							"Heroic", -- [1]
 						},
-						["instance"] = "Draenor",
+						["instance"] = "Auchindoun",
 					}, -- [1]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Roltall",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Bloodmaul Slag Mines",
+					}, -- [2]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Ner'zhul",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Shadowmoon Burial Grounds",
+					}, -- [3]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Araknath",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Skyreach",
+					}, -- [4]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Xeri'tac",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "The Everbloom",
+					}, -- [5]
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Orebender Gor'ashan",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Upper Blackrock Spire",
+					}, -- [6]
 				},
 				["faction"] = 1,
 			},
@@ -84750,7 +84952,7 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
-			[61349] = {
+			[61342] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
@@ -84761,6 +84963,7 @@ MogIt_MailDB = {
 							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
+							"Heroic", -- [1]
 						},
 						["instance"] = "Auchindoun",
 					}, -- [1]
@@ -84771,6 +84974,7 @@ MogIt_MailDB = {
 							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
+							"Heroic", -- [1]
 						},
 						["instance"] = "Bloodmaul Slag Mines",
 					}, -- [2]
@@ -84781,6 +84985,7 @@ MogIt_MailDB = {
 							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
+							"Heroic", -- [1]
 						},
 						["instance"] = "Shadowmoon Burial Grounds",
 					}, -- [3]
@@ -84791,6 +84996,7 @@ MogIt_MailDB = {
 							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
+							"Heroic", -- [1]
 						},
 						["instance"] = "Skyreach",
 					}, -- [4]
@@ -84801,6 +85007,7 @@ MogIt_MailDB = {
 							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
+							"Heroic", -- [1]
 						},
 						["instance"] = "The Everbloom",
 					}, -- [5]
@@ -84811,6 +85018,7 @@ MogIt_MailDB = {
 							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
+							"Heroic", -- [1]
 						},
 						["instance"] = "Upper Blackrock Spire",
 					}, -- [6]
@@ -84819,29 +85027,6 @@ MogIt_MailDB = {
 			},
 		},
 		[18986] = {
-			[44733] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Amber-Shaper Un'sok",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"Looking For Raid", -- [1]
-						},
-						["instance"] = "Heart of Fear",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[100570] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
 			[44646] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -84860,6 +85045,11 @@ MogIt_MailDB = {
 				},
 				["faction"] = 1,
 			},
+			[100570] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
 			[44838] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -84873,6 +85063,24 @@ MogIt_MailDB = {
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
+						},
+						["instance"] = "Heart of Fear",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[44733] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Amber-Shaper Un'sok",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"Looking For Raid", -- [1]
 						},
 						["instance"] = "Heart of Fear",
 					}, -- [1]
@@ -84907,15 +85115,29 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[25938] = {
-			[70632] = {
+		[15540] = {
+			[35613] = {
 				["classes"] = 4,
-				["sourceType"] = 3,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
-			[70728] = {
+			[36591] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Baleroc, the Gatekeeper",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+							"25 Player", -- [2]
+						},
+						["instance"] = "Firelands",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -85177,115 +85399,67 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[23774] = {
-			[62765] = {
+		[12925] = {
+			[75628] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Flamebender Ka'graz",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Blackrock Foundry",
-					}, -- [1]
-				},
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[62710] = {
+			[75678] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "The Blast Furnace",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Blackrock Foundry",
-					}, -- [1]
-				},
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[62637] = {
+			[75629] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Imperator Mar'gok",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Highmaul",
-					}, -- [1]
-				},
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75836] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75657] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75888] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[75929] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
-		[23766] = {
-			[62639] = {
+		[27343] = {
+			[81371] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Imperator Mar'gok",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Highmaul",
-					}, -- [1]
-				},
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[62767] = {
+			[81372] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Flamebender Ka'graz",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Blackrock Foundry",
-					}, -- [1]
-				},
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[62712] = {
+			[68839] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "The Blast Furnace",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Heroic", -- [1]
-						},
-						["instance"] = "Blackrock Foundry",
-					}, -- [1]
-				},
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[68416] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[81373] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -85566,85 +85740,43 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[13895] = {
-			[29610] = {
+		[19071] = {
+			[44875] = {
 				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[29644] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[34255] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Feng the Accursed",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player (Heroic)", -- [1]
+							"25 Player (Heroic)", -- [2]
+						},
+						["instance"] = "Mogu'shan Vaults",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
-		[37503] = {
-			[97621] = {
+		[33415] = {
+			[84714] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[97639] = {
+			[85363] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
-		[29754] = {
-			[79548] = {
+		[420] = {
+			[290] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Dragons of Nightmare",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The Emerald Nightmare",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[82486] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Calamir",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Broken Isles",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[81890] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "High Botanist Tel'arn",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The Nighthold",
-					}, -- [1]
-				},
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -85655,10 +85787,22 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[2824] = {
-			[3325] = {
+		[38285] = {
+			[98946] = {
 				["classes"] = 4,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Fetid Devourer",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Uldir",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -85773,152 +85917,99 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[7173] = {
-			[12434] = {
+		[2824] = {
+			[3325] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[37247] = {
+			[99137] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[100744] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[12190] = {
+			[24405] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 1,
-						["encounter"] = "Dalliah the Doomsayer",
+						["encounter"] = "Falric",
 						["tiers"] = {
-							"Burning Crusade", -- [1]
+							"Wrath of the Lich King", -- [1]
 						},
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "The Arcatraz",
+						["instance"] = "Halls of Reflection",
 					}, -- [1]
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Zereketh the Unbound",
-						["tiers"] = {
-							"Burning Crusade", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "The Arcatraz",
-					}, -- [2]
 				},
 				["faction"] = 1,
 			},
-			[72381] = {
+			[24673] = {
 				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Falric",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Halls of Reflection",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
-		[4616] = {
-			[6361] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[3822] = {
-			[7936] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[7937] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[7938] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[7915] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[7916] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[7967] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[7966] = {
-				["classes"] = 4,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[4818] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[7968] = {
+		[10645] = {
+			[19945] = {
 				["classes"] = 4,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
-		[4564] = {
-			[6293] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[26855] = {
-			[68638] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[68310] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[73935] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[73855] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[73940] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
-		[19917] = {
-			[49263] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-			[49625] = {
+		[11144] = {
+			[21281] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Tortos",
+						["encounter"] = "Sartharion",
 						["tiers"] = {
-							"Mists of Pandaria", -- [1]
+							"Wrath of the Lich King", -- [1]
 						},
 						["difficulties"] = {
 							"10 Player", -- [1]
-							"25 Player", -- [2]
 						},
-						["instance"] = "Throne of Thunder",
+						["instance"] = "The Obsidian Sanctum",
 					}, -- [1]
 				},
+				["faction"] = 1,
+			},
+		},
+		[1157] = {
+			[1183] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[4751] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -85973,24 +86064,6 @@ MogIt_MailDB = {
 				["sourceType"] = 6,
 				["faction"] = 1,
 			},
-			[17929] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Tribunal of Ages",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Halls of Stone",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
 			[16573] = {
 				["classes"] = 4,
 				["sourceType"] = 1,
@@ -86014,6 +86087,24 @@ MogIt_MailDB = {
 				["sourceType"] = 6,
 				["faction"] = 1,
 			},
+			[17929] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Tribunal of Ages",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Halls of Stone",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
 		},
 		[11832] = {
 			[46900] = {
@@ -86022,59 +86113,42 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[33717] = {
-			[86709] = {
+		[26855] = {
+			[68638] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Harjatan",
-						["tiers"] = {
-							"Legion", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Tomb of Sargeras",
-					}, -- [1]
-				},
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[68310] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[73935] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[73855] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[73940] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
-		[21625] = {
-			[57273] = {
+		[13639] = {
+			[27953] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[60761] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[65990] = {
+			[32878] = {
 				["classes"] = 4,
 				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[57568] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[57535] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[62210] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[62350] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -86165,131 +86239,6 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[13393] = {
-			[27181] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[27182] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[27183] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[27184] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[27185] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[27186] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[27187] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[27188] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[9820] = {
-			[17805] = {
-				["classes"] = 4,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
-		[17572] = {
-			[84321] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Taran Zhu",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-							"Timewalking", -- [2]
-						},
-						["instance"] = "Shado-Pan Monastery",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[62553] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[44040] = {
-				["classes"] = 4,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-			[84335] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Wing Leader Ner'onok",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-							"Timewalking", -- [2]
-						},
-						["instance"] = "Siege of Niuzao Temple",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-		},
-		[2001] = {
-			[9840] = {
-				["classes"] = 4,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[7990] = {
-			[13950] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Rage Winterchill",
-						["tiers"] = {
-							"Burning Crusade", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The Battle for Mount Hyjal",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-		},
 		[31864] = {
 			[82489] = {
 				["classes"] = 4,
@@ -86343,6 +86292,121 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
+		[9820] = {
+			[17805] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[17572] = {
+			[84321] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Taran Zhu",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+							"Timewalking", -- [2]
+						},
+						["instance"] = "Shado-Pan Monastery",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[44040] = {
+				["classes"] = 4,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+			[84335] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Wing Leader Ner'onok",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+							"Timewalking", -- [2]
+						},
+						["instance"] = "Siege of Niuzao Temple",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[62553] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[2001] = {
+			[9840] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[7990] = {
+			[13950] = {
+				["classes"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Rage Winterchill",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Battle for Mount Hyjal",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+		},
+		[36070] = {
+			[94076] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[94234] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[94238] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[96420] = {
+				["classes"] = 4,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[91924] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[96107] = {
+				["classes"] = 4,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+		},
 		[7994] = {
 			[13954] = {
 				["classes"] = 4,
@@ -86380,8 +86444,8 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[20299] = {
-			[49237] = {
+		[6496] = {
+			[9896] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -86547,74 +86611,10 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[37515] = {
-			[95862] = {
+		[3223] = {
+			[3897] = {
 				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Dread Captain Lockwood",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-							"Mythic", -- [1]
-						},
-						["instance"] = "Siege of Boralus",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[95836] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Ring of Booty",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Freehold",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[95887] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Heartsbane Triad",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Waycrest Manor",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[96219] = {
-				["classes"] = 4,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Jes Howlis",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Tol Dagor",
-					}, -- [1]
-				},
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -86808,8 +86808,8 @@ MogIt_MailDB = {
 				["faction"] = 1,
 			},
 		},
-		[38632] = {
-			[100546] = {
+		[3197] = {
+			[3861] = {
 				["classes"] = 4,
 				["sourceType"] = 4,
 				["faction"] = 1,

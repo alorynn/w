@@ -119,7 +119,7 @@ function NOP:LOOT_SPEC() -- after spec or loot spec switch I need update all pat
   self.itemLoad = nil
   self:SpellLoad()
   self:ItemLoad()
-  self:BAG_UPDATE()
+  self:TimerFire('ItemShowNew', TIMER_IDLE)
 end
 function NOP:BAG_UPDATE() -- bags have changed
   self:TimerFire('ItemShowNew', TIMER_IDLE)
@@ -148,7 +148,7 @@ function NOP:PLAYER_LOGIN() -- player entering game
   self:PickLockUpdate() -- picklock skills
   local key = GetBindingKey("CLICK " .. P.BUTTON_FRAME .. ":LeftButton")
   if self.BF.hotkey then self.BF.hotkey:SetText(self:ButtonHotKey(key)) end
-  self:TimerFire("ZONE_CHANGED",P.TIMER_IDLE)
+  self:TimerFire("ZONE_CHANGED",P.TIMER_RECHECK / 5)
   self:ScheduleRepeatingTimer("ItemTimer", P.TIMER_RECHECK) -- slow backing timer for complete rescan, sometime GetItemSpell get hang or new item is added post events are triggered
   if not self.tooltipHooked then
     self.tooltipHooked = true
@@ -169,19 +169,16 @@ function NOP:PLAYER_LOGIN() -- player entering game
 end
 function NOP:ZONE_CHANGED() -- map change, all items tied to zone need update
   self:Profile(true)
-  local recheck = false
   local minimapZone, mapID = GetMinimapZoneText(), LIB_HEREBEDRAGONS:GetPlayerZone()
   if mapID and mapID ~= self.mapID then
     self.mapID = mapID
     wipe(T_CHECK) -- empty list, recheck all on new map
-    recheck = true
   end
   if minimapZone and minimapZone ~= self.Zone then -- new zone need update Button
     self.Zone = minimapZone
-    recheck = true
   end
-  self:BAG_UPDATE()
   self:Profile(false)
+  self:TimerFire('ItemShowNew', TIMER_IDLE)
 end
 function NOP:PLAYER_LEVEL_UP() -- may be there are items now usable
   self:PickLockUpdate() -- new level rising picklock level

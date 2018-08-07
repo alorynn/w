@@ -38,6 +38,7 @@ local T_RECIPES_FIND = P.T_RECIPES_FIND; assert(T_RECIPES_FIND ~= nil,'T_RECIPES
 local T_SPELL_FIND = P.T_SPELL_FIND; assert(T_SPELL_FIND ~= nil,'T_SPELL_FIND')
 local T_USE = P.T_USE; assert(T_USE ~= nil,'T_USE')
 local print = P.print; assert(print ~= nil,'print')
+local TIMER_IDLE = P.TIMER_IDLE; assert(TIMER_IDLE ~= nil,'TIMER_IDLE')
 --
 function NOP:ItemIsBlacklisted(itemID) -- is item blacklisted?
   if not itemID then return true end
@@ -338,7 +339,6 @@ function NOP:ItemShowNew() -- check bags for usable item and place it on button
   self.preClick = nil -- from now error won't blacklist item on button
   if self:inCombat() or not (self.spellLoad and self.itemLoad) then self:TimerFire("ItemShowNew", P.TIMER_IDLE); return end
   self:Profile(true)
-  self:ZONE_CHANGED() -- update zone and or wipe table
   self:ItemScan() -- rescan bags
   local toShow, prio, stamp = nil, 0, 0 -- item for use on button
   for itemID, data in pairs(T_USE) do
@@ -391,5 +391,6 @@ function NOP:ItemShowNew() -- check bags for usable item and place it on button
 end
 function NOP:ItemTimer() -- slow backpack recheck
   if self:inCombat() or not (self.spellLoad and self.itemLoad) then return end -- still loading or in combat
-  self:BAG_UPDATE() -- find item to place on button
+  wipe(T_CHECK) -- wipe cache
+  self:ZONE_CHANGED() -- set map and reset cache
 end

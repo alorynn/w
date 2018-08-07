@@ -4,10 +4,10 @@ CliqueDB3 = {
 	["char"] = {
 		["Laurannah - Kel'Thuzad"] = {
 			["spec1_profileKey"] = "Laurannah - Kel'Thuzad",
+			["spec3_profileKey"] = "Laurannah - Kel'Thuzad",
+			["downclick"] = false,
 			["fastooc"] = false,
 			["specswap"] = false,
-			["downclick"] = false,
-			["spec3_profileKey"] = "Laurannah - Kel'Thuzad",
 			["spec2_profileKey"] = "Laurannah - Kel'Thuzad",
 		},
 		["Kmkarbashian - Kel'Thuzad"] = {
@@ -15,8 +15,8 @@ CliqueDB3 = {
 			["spec2_profileKey"] = "Kmkarbashian - Kel'Thuzad",
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec3_profileKey"] = "Kmkarbashian - Kel'Thuzad",
 			["specswap"] = false,
+			["spec3_profileKey"] = "Kmkarbashian - Kel'Thuzad",
 		},
 		["Darknstormie - Kel'Thuzad"] = {
 			["alerthidden"] = true,
@@ -29,19 +29,20 @@ CliqueDB3 = {
 		["Hauzerina - Moon Guard"] = "Hauzerina - Moon Guard",
 		["Darknstormie - Kel'Thuzad"] = "Darknstormie - Kel'Thuzad",
 		["Alauranna - Kel'Thuzad"] = "Alauranna - Kel'Thuzad",
+		["Rogueout - Kel'Thuzad"] = "Rogueout - Kel'Thuzad",
 		["Laurannah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Alisheeya - Kel'Thuzad"] = "Alisheeya - Kel'Thuzad",
-		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
 		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
+		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
 	},
 	["profiles"] = {
 		["Fooliolio - Kel'Thuzad"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -57,10 +58,10 @@ CliqueDB3 = {
 		["Kmkarbashian - Kel'Thuzad"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -76,10 +77,10 @@ CliqueDB3 = {
 		["Hauzerina - Kel'Thuzad"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -95,10 +96,10 @@ CliqueDB3 = {
 		["Hauzerina - Moon Guard"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -114,10 +115,10 @@ CliqueDB3 = {
 		["Darknstormie - Kel'Thuzad"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -178,6 +179,25 @@ CliqueDB3 = {
 		["Alauranna - Kel'Thuzad"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
+					["sets"] = {
+						["default"] = true,
+					},
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+			},
+		},
+		["Rogueout - Kel'Thuzad"] = {
+			["bindings"] = {
+				{
 					["sets"] = {
 						["default"] = true,
 					},
@@ -197,10 +217,10 @@ CliqueDB3 = {
 		["Laurannah - Kel'Thuzad"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -214,6 +234,25 @@ CliqueDB3 = {
 			},
 		},
 		["Alisheeya - Kel'Thuzad"] = {
+			["bindings"] = {
+				{
+					["type"] = "target",
+					["sets"] = {
+						["default"] = true,
+					},
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+			},
+		},
+		["Hauzer - Kel'Thuzad"] = {
 			["bindings"] = {
 				{
 					["sets"] = {
@@ -233,25 +272,6 @@ CliqueDB3 = {
 			},
 		},
 		["Alorannah - Kel'Thuzad"] = {
-			["bindings"] = {
-				{
-					["sets"] = {
-						["default"] = true,
-					},
-					["type"] = "target",
-					["key"] = "BUTTON1",
-					["unit"] = "mouseover",
-				}, -- [1]
-				{
-					["type"] = "menu",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-				}, -- [2]
-			},
-		},
-		["Hauzer - Kel'Thuzad"] = {
 			["bindings"] = {
 				{
 					["type"] = "target",
