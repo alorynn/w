@@ -14,13 +14,14 @@ _detalhes_database = {
 							["flag_original"] = 1297,
 							["totalabsorbed"] = 0.002274,
 							["damage_from"] = {
+								["Environment (Falling)"] = true,
 							},
 							["targets"] = {
 								["Raider's Training Dummy"] = 12522,
 							},
 							["pets"] = {
 							},
-							["damage_taken"] = 0.002274,
+							["damage_taken"] = 2559.002274,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
@@ -208,18 +209,20 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["totalover_without_pet"] = 0.006602,
+							["iniciar_hps"] = false,
 							["targets_overheal"] = {
 								["Alauranna"] = 5174,
 							},
-							["classe"] = "DRUID",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 5174.006602,
 							["total_without_pet"] = 0.006602,
-							["totaldenied"] = 0.006602,
-							["iniciar_hps"] = false,
-							["heal_enemy_amt"] = 0,
+							["healing_taken"] = 0.006602,
+							["totalover_without_pet"] = 0.006602,
+							["classe"] = "DRUID",
 							["total"] = 0.006602,
 							["delay"] = 0,
+							["last_event"] = 1533057631,
+							["nome"] = "Alauranna",
 							["spells"] = {
 								["_ActorTable"] = {
 									[8936] = {
@@ -253,20 +256,18 @@ _detalhes_database = {
 								},
 								["tipo"] = 3,
 							},
-							["nome"] = "Alauranna",
-							["targets_absorbs"] = {
-							},
 							["grupo"] = true,
 							["end_time"] = 1533057633,
 							["heal_enemy"] = {
 							},
-							["tipo"] = 2,
-							["custom"] = 0,
-							["last_event"] = 1533057631,
-							["on_hold"] = false,
 							["start_time"] = 1533057619,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["totaldenied"] = 0.006602,
 							["serial"] = "Player-3693-0844F6BF",
-							["healing_taken"] = 0.006602,
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -275,16 +276,16 @@ _detalhes_database = {
 					["combatId"] = 12,
 					["_ActorTable"] = {
 						{
-							["received"] = 8.007858,
+							["received"] = 48.007858,
 							["resource"] = 0.007858,
 							["targets"] = {
-								["Alauranna"] = 8,
+								["Alauranna"] = 48,
 							},
 							["pets"] = {
 							},
 							["powertype"] = 0,
 							["classe"] = "DRUID",
-							["total"] = 8.007858,
+							["total"] = 48.007858,
 							["nome"] = "Alauranna",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -304,6 +305,14 @@ _detalhes_database = {
 										},
 										["counter"] = 2,
 									},
+									[17057] = {
+										["id"] = 17057,
+										["total"] = 40,
+										["targets"] = {
+											["Alauranna"] = 40,
+										},
+										["counter"] = 2,
+									},
 									[1822] = {
 										["id"] = 1822,
 										["total"] = 2,
@@ -320,7 +329,7 @@ _detalhes_database = {
 							["flag_original"] = 1297,
 							["alternatepower"] = 0.007858,
 							["serial"] = "Player-3693-0844F6BF",
-							["last_event"] = 1533135308,
+							["last_event"] = 1533690117,
 						}, -- [1]
 					},
 				}, -- [3]
@@ -420,13 +429,13 @@ _detalhes_database = {
 									},
 									[783] = {
 										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 783,
-										["uptime"] = 0,
 										["targets"] = {
 										},
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = 783,
+										["refreshamt"] = 0,
+										["actived"] = false,
 										["appliedamt"] = 0,
 									},
 								},
@@ -450,7 +459,7 @@ _detalhes_database = {
 							["nome"] = "Alauranna",
 							["buff_uptime"] = 68,
 							["serial"] = "Player-3693-0844F6BF",
-							["last_event"] = 1533057633,
+							["last_event"] = 1533690155,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -471,11 +480,11 @@ _detalhes_database = {
 				["combat_counter"] = 144,
 				["playing_solo"] = true,
 				["totals"] = {
-					12521.120408, -- [1]
+					12521.073781, -- [1]
 					0, -- [2]
 					{
 						4.9976, -- [1]
-						[0] = 279.762097,
+						[0] = 319.749636,
 						["alternatepower"] = 0,
 						[6] = -277.008977,
 						[3] = 0,
@@ -494,393 +503,6 @@ _detalhes_database = {
 					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
-					["Moonriver-Gilneas"] = {
-						{
-							true, -- [1]
-							124255, -- [2]
-							21, -- [3]
-							1533058035.314, -- [4]
-							0, -- [5]
-							"Moonriver-Gilneas", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [1]
-						{
-							true, -- [1]
-							124255, -- [2]
-							21, -- [3]
-							1533058035.828, -- [4]
-							0, -- [5]
-							"Moonriver-Gilneas", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [2]
-						{
-							true, -- [1]
-							124255, -- [2]
-							21, -- [3]
-							1533058036.236, -- [4]
-							0, -- [5]
-							"Moonriver-Gilneas", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [3]
-						{
-							true, -- [1]
-							124255, -- [2]
-							21, -- [3]
-							1533058036.784, -- [4]
-							0, -- [5]
-							"Moonriver-Gilneas", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [4]
-						{
-							true, -- [1]
-							124255, -- [2]
-							21, -- [3]
-							1533058037.291, -- [4]
-							0, -- [5]
-							"Moonriver-Gilneas", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [5]
-						{
-							true, -- [1]
-							124255, -- [2]
-							21, -- [3]
-							1533058037.87, -- [4]
-							0, -- [5]
-							"Moonriver-Gilneas", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [6]
-						{
-							true, -- [1]
-							124255, -- [2]
-							21, -- [3]
-							1533058038.28, -- [4]
-							0, -- [5]
-							"Moonriver-Gilneas", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [7]
-						{
-							true, -- [1]
-							124255, -- [2]
-							21, -- [3]
-							1533058038.781, -- [4]
-							0, -- [5]
-							"Moonriver-Gilneas", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [8]
-						{
-							true, -- [1]
-							124255, -- [2]
-							21, -- [3]
-							1533058039.229, -- [4]
-							0, -- [5]
-							"Moonriver-Gilneas", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [9]
-						{
-							true, -- [1]
-							124255, -- [2]
-							22, -- [3]
-							1533058137.51, -- [4]
-							0, -- [5]
-							"Moonriver-Gilneas", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [10]
-						{
-							true, -- [1]
-							124255, -- [2]
-							22, -- [3]
-							1533058137.992, -- [4]
-							0, -- [5]
-							"Moonriver-Gilneas", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [11]
-						{
-							true, -- [1]
-							124255, -- [2]
-							22, -- [3]
-							1533058138.536, -- [4]
-							0, -- [5]
-							"Moonriver-Gilneas", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [12]
-						{
-							true, -- [1]
-							124255, -- [2]
-							22, -- [3]
-							1533058138.845, -- [4]
-							0, -- [5]
-							"Moonriver-Gilneas", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [13]
-						{
-							true, -- [1]
-							124255, -- [2]
-							22, -- [3]
-							1533058139.404, -- [4]
-							0, -- [5]
-							"Moonriver-Gilneas", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [14]
-						{
-							true, -- [1]
-							124255, -- [2]
-							22, -- [3]
-							1533058139.857, -- [4]
-							0, -- [5]
-							"Moonriver-Gilneas", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [15]
-						{
-							true, -- [1]
-							124255, -- [2]
-							22, -- [3]
-							1533058140.472, -- [4]
-							0, -- [5]
-							"Moonriver-Gilneas", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [16]
-						{
-							true, -- [1]
-							124255, -- [2]
-							22, -- [3]
-							1533058140.887, -- [4]
-							0, -- [5]
-							"Moonriver-Gilneas", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [17]
-						{
-							true, -- [1]
-							124255, -- [2]
-							22, -- [3]
-							1533058141.496, -- [4]
-							0, -- [5]
-							"Moonriver-Gilneas", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [18]
-						{
-							true, -- [1]
-							124255, -- [2]
-							22, -- [3]
-							1533058141.975, -- [4]
-							0, -- [5]
-							"Moonriver-Gilneas", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [19]
-						{
-							true, -- [1]
-							124255, -- [2]
-							22, -- [3]
-							1533058142.423, -- [4]
-							0, -- [5]
-							"Moonriver-Gilneas", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [20]
-						{
-							true, -- [1]
-							124255, -- [2]
-							22, -- [3]
-							1533058142.99, -- [4]
-							0, -- [5]
-							"Moonriver-Gilneas", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [21]
-						{
-							true, -- [1]
-							124255, -- [2]
-							22, -- [3]
-							1533058239.22, -- [4]
-							0, -- [5]
-							"Moonriver-Gilneas", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [22]
-						{
-							true, -- [1]
-							124255, -- [2]
-							22, -- [3]
-							1533058239.758, -- [4]
-							0, -- [5]
-							"Moonriver-Gilneas", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [23]
-						{
-							true, -- [1]
-							124255, -- [2]
-							22, -- [3]
-							1533058240.187, -- [4]
-							0, -- [5]
-							"Moonriver-Gilneas", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [24]
-						{
-							true, -- [1]
-							124255, -- [2]
-							22, -- [3]
-							1533058240.728, -- [4]
-							0, -- [5]
-							"Moonriver-Gilneas", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [25]
-						{
-							true, -- [1]
-							124255, -- [2]
-							22, -- [3]
-							1533058241.251, -- [4]
-							0, -- [5]
-							"Moonriver-Gilneas", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [26]
-						{
-							true, -- [1]
-							124255, -- [2]
-							22, -- [3]
-							1533058241.787, -- [4]
-							0, -- [5]
-							"Moonriver-Gilneas", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [27]
-						{
-							true, -- [1]
-							124255, -- [2]
-							22, -- [3]
-							1533058242.313, -- [4]
-							0, -- [5]
-							"Moonriver-Gilneas", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [28]
-						{
-							true, -- [1]
-							124255, -- [2]
-							22, -- [3]
-							1533058242.763, -- [4]
-							0, -- [5]
-							"Moonriver-Gilneas", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [29]
-						{
-							true, -- [1]
-							124255, -- [2]
-							22, -- [3]
-							1533058243.19, -- [4]
-							0, -- [5]
-							"Moonriver-Gilneas", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [30]
-						{
-							true, -- [1]
-							124255, -- [2]
-							22, -- [3]
-							1533058243.741, -- [4]
-							0, -- [5]
-							"Moonriver-Gilneas", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [31]
-						{
-							true, -- [1]
-							124255, -- [2]
-							21, -- [3]
-							1533058034.794, -- [4]
-							0, -- [5]
-							"Moonriver-Gilneas", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							true, -- [9]
-							-1, -- [10]
-						}, -- [32]
-						["n"] = 32,
-					},
 				},
 				["frags_need_refresh"] = false,
 				["__call"] = {
@@ -905,14 +527,14 @@ _detalhes_database = {
 					["damage_section"] = {
 					},
 				},
-				["end_time"] = 563818.148,
+				["end_time"] = 1196325.274,
 				["instance_type"] = "none",
 				["combat_id"] = 12,
 				["resincked"] = true,
 				["hasSaved"] = true,
 				["frags"] = {
 				},
-				["data_fim"] = "13:20:33",
+				["data_fim"] = "21:02:35",
 				["data_inicio"] = "13:20:12",
 				["CombatSkillCache"] = {
 				},
@@ -921,7 +543,7 @@ _detalhes_database = {
 					0, -- [2]
 					{
 						0, -- [1]
-						[0] = 8,
+						[0] = 48,
 						["alternatepower"] = 0,
 						[6] = 0,
 						[3] = 0,
@@ -942,11 +564,570 @@ _detalhes_database = {
 				},
 				["pvp"] = true,
 			}, -- [1]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 12,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.002274,
+							["damage_from"] = {
+								["Environment (Falling)"] = true,
+							},
+							["targets"] = {
+								["Raider's Training Dummy"] = 12522,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 2559.002274,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 12522.002274,
+							["classe"] = "DRUID",
+							["dps_started"] = false,
+							["end_time"] = 1533057926,
+							["delay"] = 1533057640,
+							["total"] = 12522.002274,
+							["nome"] = "Alauranna",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 7,
+										["b_amt"] = 1,
+										["c_dmg"] = 2102,
+										["g_amt"] = 0,
+										["n_max"] = 156,
+										["targets"] = {
+											["Raider's Training Dummy"] = 3557,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1455,
+										["n_min"] = 102,
+										["g_dmg"] = 0,
+										["counter"] = 17,
+										["total"] = 3557,
+										["c_max"] = 309,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 294,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 102,
+										["n_amt"] = 10,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+									[5221] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 1209,
+										["g_amt"] = 0,
+										["n_max"] = 303,
+										["targets"] = {
+											["Raider's Training Dummy"] = 1815,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 606,
+										["n_min"] = 303,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 1815,
+										["c_max"] = 605,
+										["id"] = 5221,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 604,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[1822] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 1079,
+										["g_amt"] = 0,
+										["n_max"] = 270,
+										["targets"] = {
+											["Raider's Training Dummy"] = 1349,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 270,
+										["n_min"] = 270,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1349,
+										["c_max"] = 1079,
+										["id"] = 1822,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 1079,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[155722] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 1382,
+										["g_amt"] = 0,
+										["n_max"] = 461,
+										["targets"] = {
+											["Raider's Training Dummy"] = 3884,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2502,
+										["n_min"] = 220,
+										["g_dmg"] = 0,
+										["counter"] = 11,
+										["total"] = 3884,
+										["c_max"] = 921,
+										["id"] = 155722,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 461,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 9,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[22568] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 979,
+										["targets"] = {
+											["Raider's Training Dummy"] = 1917,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1917,
+										["n_min"] = 938,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1917,
+										["c_max"] = 0,
+										["id"] = 22568,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["last_event"] = 1533057640,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1533057897,
+							["serial"] = "Player-3693-0844F6BF",
+							["on_hold"] = false,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 12,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorb"] = 0.006602,
+							["last_hps"] = 0,
+							["healing_from"] = {
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["targets_overheal"] = {
+								["Alauranna"] = 5174,
+							},
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 5174.006602,
+							["total_without_pet"] = 0.006602,
+							["healing_taken"] = 0.006602,
+							["totalover_without_pet"] = 0.006602,
+							["classe"] = "DRUID",
+							["total"] = 0.006602,
+							["delay"] = 0,
+							["last_event"] = 1533057631,
+							["nome"] = "Alauranna",
+							["spells"] = {
+								["_ActorTable"] = {
+									[8936] = {
+										["c_amt"] = 2,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Alauranna"] = 5174,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Alauranna"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 9,
+										["overheal"] = 5174,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 8936,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 7,
+										["n_curado"] = 0,
+										["m_amt"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["end_time"] = 1533057633,
+							["heal_enemy"] = {
+							},
+							["start_time"] = 1533057619,
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["totaldenied"] = 0.006602,
+							["serial"] = "Player-3693-0844F6BF",
+							["targets_absorbs"] = {
+							},
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 12,
+					["_ActorTable"] = {
+						{
+							["received"] = 48.007858,
+							["resource"] = 0.007858,
+							["targets"] = {
+								["Alauranna"] = 48,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "DRUID",
+							["total"] = 48.007858,
+							["nome"] = "Alauranna",
+							["spells"] = {
+								["_ActorTable"] = {
+									[5221] = {
+										["id"] = 5221,
+										["total"] = 4,
+										["targets"] = {
+											["Alauranna"] = 4,
+										},
+										["counter"] = 4,
+									},
+									[16953] = {
+										["id"] = 16953,
+										["total"] = 2,
+										["targets"] = {
+											["Alauranna"] = 2,
+										},
+										["counter"] = 2,
+									},
+									[17057] = {
+										["id"] = 17057,
+										["total"] = 40,
+										["targets"] = {
+											["Alauranna"] = 40,
+										},
+										["counter"] = 2,
+									},
+									[1822] = {
+										["id"] = 1822,
+										["total"] = 2,
+										["targets"] = {
+											["Alauranna"] = 2,
+										},
+										["counter"] = 2,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["tipo"] = 3,
+							["flag_original"] = 1297,
+							["alternatepower"] = 0.007858,
+							["serial"] = "Player-3693-0844F6BF",
+							["last_event"] = 1533690117,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 12,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[155722] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 1,
+										["id"] = 155722,
+										["uptime"] = 21,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["classe"] = "DRUID",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[768] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 768,
+										["uptime"] = 20,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[186406] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186406,
+										["uptime"] = 21,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[135700] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 135700,
+										["uptime"] = 2,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[8936] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 8936,
+										["uptime"] = 12,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[165961] = {
+										["activedamt"] = 1,
+										["id"] = 165961,
+										["targets"] = {
+										},
+										["actived_at"] = 1533057632,
+										["uptime"] = 0,
+										["counter"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["appliedamt"] = 1,
+									},
+									[69369] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 69369,
+										["uptime"] = 13,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[783] = {
+										["counter"] = 0,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = 783,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["appliedamt"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 21,
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["spell_cast"] = {
+								[22568] = 2,
+								[1822] = 2,
+								[8936] = 1,
+								[5221] = 4,
+								[16953] = 2,
+								[783] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["nome"] = "Alauranna",
+							["buff_uptime"] = 68,
+							["serial"] = "Player-3693-0844F6BF",
+							["last_event"] = 1533690155,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 12,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Alauranna"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Raider's Training Dummy",
+				["combat_counter"] = 144,
+				["playing_solo"] = true,
+				["totals"] = {
+					12521.073781, -- [1]
+					0, -- [2]
+					{
+						4.9976, -- [1]
+						[0] = 319.752503,
+						["alternatepower"] = 0,
+						[6] = -277.008977,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = false,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Alauranna"] = 13428.013816,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Alauranna"] = 544.011371,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 1196325.274,
+				["instance_type"] = "none",
+				["combat_id"] = 12,
+				["resincked"] = true,
+				["hasSaved"] = true,
+				["frags"] = {
+				},
+				["data_fim"] = "21:02:35",
+				["data_inicio"] = "13:20:12",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					12522, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 48,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 563797.038,
+				["TimeData"] = {
+				},
+				["pvp"] = true,
+			}, -- [2]
 		},
 	},
 	["last_version"] = "v8.0.1.6035",
 	["character_data"] = {
-		["logons"] = 92,
+		["logons"] = 96,
 	},
 	["tabela_instancias"] = {
 	},
@@ -1116,25 +1297,9 @@ _detalhes_database = {
 			["row_texture"] = "Details Serenity",
 			["arrow_anchor_y"] = 0,
 			["main_frame_locked"] = false,
-			["author"] = "Details! Team",
+			["main_frame_strata"] = "LOW",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["use_spark"] = true,
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["y"] = -4.577636718750e-005,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -1146,15 +1311,32 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["author"] = "Details! Team",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["font_size"] = 10,
+			["use_spark"] = true,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
-			["font_size"] = 10,
-			["main_frame_strata"] = "LOW",
+			["y"] = -4.577636718750e-005,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["point"] = "CENTER",
 			["row_height"] = 20,
 			["scale"] = 1,
 		},
 	},
+	["last_realversion"] = 132,
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "",
 		["started"] = false,
@@ -1171,15 +1353,14 @@ _detalhes_database = {
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
-	["last_realversion"] = 132,
-	["last_day"] = "01",
+	["last_day"] = "08",
 	["ignore_nicktag"] = false,
 	["combat_id"] = 12,
 	["savedStyles"] = {
 	},
 	["cached_talents"] = {
 	},
-	["combat_counter"] = 151,
+	["combat_counter"] = 155,
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -1449,7 +1630,7 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1297,
-					["resource"] = 0.042742,
+					["resource"] = 0.08989,
 					["targets"] = {
 						["Alauranna"] = 0,
 					},
@@ -1479,6 +1660,14 @@ _detalhes_database = {
 							},
 							[1822] = {
 								["id"] = 1822,
+								["total"] = 0,
+								["targets"] = {
+									["Alauranna"] = 0,
+								},
+								["counter"] = 0,
+							},
+							[17057] = {
+								["id"] = 17057,
 								["total"] = 0,
 								["targets"] = {
 									["Alauranna"] = 0,

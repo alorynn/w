@@ -11,13 +11,14 @@ MacroToolkitDB = {
 		["Kmkarbashian - Kel'Thuzad"] = "profile",
 		["Hauzerina - Kel'Thuzad"] = "profile",
 		["Hauzerina - Moon Guard"] = "profile",
+		["Alorannah - Kel'Thuzad"] = "profile",
 		["Darknstormie - Kel'Thuzad"] = "profile",
 		["Alauranna - Kel'Thuzad"] = "profile",
-		["Rogueout - Kel'Thuzad"] = "profile",
 		["Hauzer - Kel'Thuzad"] = "profile",
-		["Alisheeya - Kel'Thuzad"] = "profile",
 		["Laurannah - Kel'Thuzad"] = "profile",
-		["Alorannah - Kel'Thuzad"] = "profile",
+		["Alisheeya - Kel'Thuzad"] = "profile",
+		["Rogueout - Kel'Thuzad"] = "profile",
+		["Foolioioio - Kel'Thuzad"] = "profile",
 	},
 	["global"] = {
 		["backups"] = {
