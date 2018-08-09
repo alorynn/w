@@ -1,9 +1,10 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0222,
+	["LastVersion"] = 2.0223,
 	["LastPlayerFullName"] = "Hauzer-Kel'Thuzad",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128862] = {
 			["Relics"] = {
@@ -23,7 +24,6 @@ PawnOptions = {
 			["Name"] = "Ebonchill, Greatstaff of Alodi",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "MAGE",

@@ -2,8 +2,8 @@ local AS = unpack(AddOnSkins)
 
 function AS:SkinAchievement(Achievement, BiggerIcon)
 	AS:StripTextures(Achievement, true)
-	AS:CreateBackdrop(Achievement, nil, true)
-	Achievement.Backdrop:SetInside()
+	AS:SetTemplate(Achievement, nil, true)
+--	Achievement.Backdrop:SetInside()
 	AS:SetTemplate(Achievement.icon)
 	Achievement.icon:SetSize(BiggerIcon and 54 or 36, BiggerIcon and 54 or 36)
 	Achievement.icon:ClearAllPoints()
@@ -15,12 +15,12 @@ function AS:SkinAchievement(Achievement, BiggerIcon)
 
 	if Achievement.highlight then
 		AS:StripTextures(Achievement.highlight)
-		Achievement:HookScript('OnEnter', function(self) self.Backdrop:SetBackdropBorderColor(1, 1, 0) end)
+		Achievement:HookScript('OnEnter', function(self) self:SetBackdropBorderColor(1, 1, 0) end)
 		Achievement:HookScript('OnLeave', function(self)
 			if (self.player and self.player.accountWide or self.accountWide) then
-				self.Backdrop:SetBackdropBorderColor(ACHIEVEMENTUI_BLUEBORDER_R, ACHIEVEMENTUI_BLUEBORDER_G, ACHIEVEMENTUI_BLUEBORDER_B)
+				self:SetBackdropBorderColor(ACHIEVEMENTUI_BLUEBORDER_R, ACHIEVEMENTUI_BLUEBORDER_G, ACHIEVEMENTUI_BLUEBORDER_B)
 			else
-				self.Backdrop:SetBackdropBorderColor(unpack(AS.BorderColor))
+				self:SetBackdropBorderColor(unpack(AS.BorderColor))
 			end
 		end)
 	end
@@ -87,11 +87,11 @@ function AS:Blizzard_AchievementUI(event, addon)
 
 					hooksecurefunc(Achievement.player, 'Saturate', function()
 						if Achievement.player.accountWide then
-							Achievement.player.Backdrop:SetBackdropBorderColor(ACHIEVEMENTUI_BLUEBORDER_R, ACHIEVEMENTUI_BLUEBORDER_G, ACHIEVEMENTUI_BLUEBORDER_B)
-							Achievement.friend.Backdrop:SetBackdropBorderColor(ACHIEVEMENTUI_BLUEBORDER_R, ACHIEVEMENTUI_BLUEBORDER_G, ACHIEVEMENTUI_BLUEBORDER_B)
+							Achievement.player:SetBackdropBorderColor(ACHIEVEMENTUI_BLUEBORDER_R, ACHIEVEMENTUI_BLUEBORDER_G, ACHIEVEMENTUI_BLUEBORDER_B)
+							Achievement.friend:SetBackdropBorderColor(ACHIEVEMENTUI_BLUEBORDER_R, ACHIEVEMENTUI_BLUEBORDER_G, ACHIEVEMENTUI_BLUEBORDER_B)
 						else
-							Achievement.player.Backdrop:SetBackdropBorderColor(unpack(AS.BorderColor))
-							Achievement.friend.Backdrop:SetBackdropBorderColor(unpack(AS.BorderColor))
+							Achievement.player:SetBackdropBorderColor(unpack(AS.BorderColor))
+							Achievement.friend:SetBackdropBorderColor(unpack(AS.BorderColor))
 						end
 					end)
 				end
@@ -174,9 +174,9 @@ function AS:Blizzard_AchievementUI(event, addon)
 		hooksecurefunc('AchievementButton_DisplayAchievement', function(Achievement)
 			if Achievement.Backdrop then
 				if Achievement.accountWide then
-					Achievement.Backdrop:SetBackdropBorderColor(ACHIEVEMENTUI_BLUEBORDER_R, ACHIEVEMENTUI_BLUEBORDER_G, ACHIEVEMENTUI_BLUEBORDER_B)
+					Achievement:SetBackdropBorderColor(ACHIEVEMENTUI_BLUEBORDER_R, ACHIEVEMENTUI_BLUEBORDER_G, ACHIEVEMENTUI_BLUEBORDER_B)
 				else
-					Achievement.Backdrop:SetBackdropBorderColor(unpack(AS.BorderColor))
+					Achievement:SetBackdropBorderColor(unpack(AS.BorderColor))
 				end
 			end
 		end)
@@ -191,9 +191,9 @@ function AS:Blizzard_AchievementUI(event, addon)
 
 				if Achievement.isSkinned then
 					if Achievement.accountWide then
-						Achievement.Backdrop:SetBackdropBorderColor(ACHIEVEMENTUI_BLUEBORDER_R, ACHIEVEMENTUI_BLUEBORDER_G, ACHIEVEMENTUI_BLUEBORDER_B)
+						Achievement:SetBackdropBorderColor(ACHIEVEMENTUI_BLUEBORDER_R, ACHIEVEMENTUI_BLUEBORDER_G, ACHIEVEMENTUI_BLUEBORDER_B)
 					else
-						Achievement.Backdrop:SetBackdropBorderColor(unpack(AS.BorderColor))
+						Achievement:SetBackdropBorderColor(unpack(AS.BorderColor))
 					end
 				end
 			end
