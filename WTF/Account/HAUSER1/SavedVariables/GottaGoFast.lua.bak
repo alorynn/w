@@ -7,10 +7,10 @@ GottaGoFastDB = {
 		["Hauzerina - Moon Guard"] = "Default",
 		["Alorannah - Kel'Thuzad"] = "Default",
 		["Alauranna - Kel'Thuzad"] = "Default",
-		["Laurannah - Kel'Thuzad"] = "Default",
 		["Hauzer - Kel'Thuzad"] = "Default",
-		["Rogueout - Kel'Thuzad"] = "Default",
+		["Laurannah - Kel'Thuzad"] = "Default",
 		["Alisheeya - Kel'Thuzad"] = "Default",
+		["Rogueout - Kel'Thuzad"] = "Default",
 		["Foolioioio - Kel'Thuzad"] = "Default",
 	},
 	["profiles"] = {

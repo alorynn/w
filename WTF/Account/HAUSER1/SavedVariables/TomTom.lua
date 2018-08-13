@@ -27,13 +27,13 @@ TomTomDB = {
 		["Hauzerhunter - Kel'Thuzad"] = "Default",
 		["Leeroyjenkem - Kel'Thuzad"] = "Default",
 		["Skãdi - Kel'Thuzad"] = "Default",
-		["Fsdkjhskdjfh - Kel'Thuzad"] = "Default",
+		["Olrapey - Kel'Thuzad"] = "Default",
 		["Hauser - Mal'Ganis"] = "Default",
 		["Hoobastanko - Kel'Thuzad"] = "Default",
 		["Hauzer - Kel'Thuzad"] = "Default",
 		["Beatryce - Kel'Thuzad"] = "Default",
 		["Ugiyo - Kel'Thuzad"] = "Default",
-		["Olrapey - Kel'Thuzad"] = "Default",
+		["Fsdkjhskdjfh - Kel'Thuzad"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -78,10 +78,10 @@ TomTomWaypointsM = {
 		["Hauzerina - Kel'Thuzad"] = "Hauzerina - Kel'Thuzad",
 		["Kmkarbashian - Kel'Thuzad"] = "Kmkarbashian - Kel'Thuzad",
 		["Alauranna - Kel'Thuzad"] = "Alauranna - Kel'Thuzad",
-		["Alisheeya - Kel'Thuzad"] = "Alisheeya - Kel'Thuzad",
-		["Laurannah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Rogueout - Kel'Thuzad"] = "Rogueout - Kel'Thuzad",
 		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
+		["Alisheeya - Kel'Thuzad"] = "Alisheeya - Kel'Thuzad",
+		["Laurannah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Foolioioio - Kel'Thuzad"] = "Foolioioio - Kel'Thuzad",
 	},
 	["profiles"] = {
@@ -95,13 +95,13 @@ TomTomWaypointsM = {
 		},
 		["Alauranna - Kel'Thuzad"] = {
 		},
-		["Alisheeya - Kel'Thuzad"] = {
-		},
-		["Laurannah - Kel'Thuzad"] = {
-		},
 		["Rogueout - Kel'Thuzad"] = {
 		},
 		["Hauzer - Kel'Thuzad"] = {
+		},
+		["Alisheeya - Kel'Thuzad"] = {
+		},
+		["Laurannah - Kel'Thuzad"] = {
 		},
 		["Foolioioio - Kel'Thuzad"] = {
 		},

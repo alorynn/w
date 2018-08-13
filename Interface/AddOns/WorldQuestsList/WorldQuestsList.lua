@@ -1,4 +1,4 @@
-local VERSION = 71
+local VERSION = 75
 
 --[[
 Special icons for rares, pvp or pet battle quests in list
@@ -206,6 +206,16 @@ Fixed free mode anchor
 Some tweaks for fullscreen map mode
 Added option "Disable eye for quest tracker on right"
 Minor fixes
+
+LFG Hotfixes, must work as before [Report any bugs/errors]
+
+More fixes for fullscreen map mode
+Added "max lines" option
+Minor LFG updates
+
+LFG Hotfixes
+
+LFG fixes
 ]]
 
 local GlobalAddonName, WQLdb = ...
@@ -298,6 +308,11 @@ local LOCALE =
 		lfgDisableAll2 = "Все настройки аддона будут сброшены. Отключить все функции, кроме LFG?",
 		lfgDisableEyeRight = "Отключить кнопку глаза в меню заданий справа",
 		lfgDisableEyeList = "Скрыть кнопку глаза в списке",
+		listSize = "Размер списка",
+		topLine = "Верхняя строка",
+		bottomLine = "Нижняя строка",
+		unlimited = "Неограниченно",
+		maxLines = "Лимит строк",
 	} or
 	locale == "deDE" and {    --by Sunflow72
 		gear = "Ausrüstung",
@@ -347,8 +362,13 @@ local LOCALE =
 		tryWithQuestID = "Suche nach Quest-ID",
 		lfgDisableAll = "Deaktiviert alle, außer LFG",
 		lfgDisableAll2 = "Alle Add-In Einstellungen werden zurückgesetzt. Deaktiviert alle Optionen, außer LFG?",
-		lfgDisableEyeRight = "Disable eye for quest tracker on right",
-		lfgDisableEyeList = "Hide eye in list",
+		lfgDisableEyeRight = "Deaktiviert Augenknopf bei Quest-Ziele auf der rechten Seite",
+		lfgDisableEyeList = "Augenknopf in Liste ausblenden",
+		listSize = "Listengröße",
+		topLine = "Obere Zeile",
+		bottomLine = "Untere Zeile",
+		unlimited = "Unbegrenzt",
+		maxLines = "maximale Anzahl an Zeilen",
 	} or
 	locale == "frFR" and {
 		gear = "Équipement",
@@ -400,6 +420,11 @@ local LOCALE =
 		lfgDisableAll2 = "All addon settings will be lost. Disable all options, except LFG?",
 		lfgDisableEyeRight = "Disable eye for quest tracker on right",
 		lfgDisableEyeList = "Hide eye in list",
+		listSize = "List size",
+		topLine = "Top line",
+		bottomLine = "Bottom line",
+		unlimited = "Unlimited",
+		maxLines = "Max lines",
 	} or
 	(locale == "esES" or locale == "esMX") and {
 		gear = "Equipo",
@@ -451,6 +476,11 @@ local LOCALE =
 		lfgDisableAll2 = "All addon settings will be lost. Disable all options, except LFG?",
 		lfgDisableEyeRight = "Disable eye for quest tracker on right",
 		lfgDisableEyeList = "Hide eye in list",
+		listSize = "List size",
+		topLine = "Top line",
+		bottomLine = "Bottom line",
+		unlimited = "Unlimited",
+		maxLines = "Max lines",
 	} or	
 	locale == "itIT" and {
 		gear = "Equipaggiamento",
@@ -502,6 +532,11 @@ local LOCALE =
 		lfgDisableAll2 = "All addon settings will be lost. Disable all options, except LFG?",
 		lfgDisableEyeRight = "Disable eye for quest tracker on right",
 		lfgDisableEyeList = "Hide eye in list",
+		listSize = "List size",
+		topLine = "Top line",
+		bottomLine = "Bottom line",
+		unlimited = "Unlimited",
+		maxLines = "Max lines",
 	} or
 	locale == "ptBR" and {
 		gear = "Equipamento",
@@ -553,6 +588,11 @@ local LOCALE =
 		lfgDisableAll2 = "All addon settings will be lost. Disable all options, except LFG?",
 		lfgDisableEyeRight = "Disable eye for quest tracker on right",
 		lfgDisableEyeList = "Hide eye in list",
+		listSize = "List size",
+		topLine = "Top line",
+		bottomLine = "Bottom line",
+		unlimited = "Unlimited",
+		maxLines = "Max lines",
 	} or
 	locale == "koKR" and {
 		gear = "장비",
@@ -604,6 +644,11 @@ local LOCALE =
 		lfgDisableAll2 = "All addon settings will be lost. Disable all options, except LFG?",
 		lfgDisableEyeRight = "Disable eye for quest tracker on right",
 		lfgDisableEyeList = "Hide eye in list",
+		listSize = "List size",
+		topLine = "Top line",
+		bottomLine = "Bottom line",
+		unlimited = "Unlimited",
+		maxLines = "Max lines",
 	} or
 	(locale == "zhCN" or locale == "zhTW") and {	--by dxlmike, cuihuanyu1986
 		gear = "装备",
@@ -655,6 +700,11 @@ local LOCALE =
 		lfgDisableAll2 = "All addon settings will be lost. Disable all options, except LFG?",
 		lfgDisableEyeRight = "Disable eye for quest tracker on right",
 		lfgDisableEyeList = "Hide eye in list",
+		listSize = "List size",
+		topLine = "Top line",
+		bottomLine = "Bottom line",
+		unlimited = "Unlimited",
+		maxLines = "Max lines",
 	} or	
 	{
 		gear = "Gear",
@@ -706,6 +756,11 @@ local LOCALE =
 		lfgDisableAll2 = "All addon settings will be lost. Disable all options, except LFG?",
 		lfgDisableEyeRight = "Disable eye for quest tracker on right",
 		lfgDisableEyeList = "Hide eye in list",
+		listSize = "List size",
+		topLine = "Top line",
+		bottomLine = "Bottom line",
+		unlimited = "Unlimited",
+		maxLines = "Max lines",
 	}
 
 local filters = {
@@ -2793,7 +2848,11 @@ function UpdateAnchor(forceFreeMode)
 		if VWQL.Anchor3PosLeft and VWQL.Anchor3PosTop and not forceFreeMode then
 			WorldQuestList:SetPoint("TOPLEFT",UIParent,"BOTTOMLEFT",VWQL.Anchor3PosLeft,VWQL.Anchor3PosTop)
 		else
-			WorldQuestList:SetPoint("TOPLEFT",WorldMapFrame,"TOPRIGHT",10,-4)
+			if WorldMapFrame:IsMaximized() then
+				WorldQuestList:SetPoint("TOPLEFT",WorldMapFrame,"TOPRIGHT",-500,-30)
+			else
+				WorldQuestList:SetPoint("TOPLEFT",WorldMapFrame,"TOPRIGHT",10,-4)
+			end
 		end
 		
 		WorldQuestList.moveHeader:Show()
@@ -2859,8 +2918,8 @@ do
 			text = LOCALE.lfgDisableEyeRight,
 			func = function()
 				VWQL.DisableLFG_EyeRight = not VWQL.DisableLFG_EyeRight
-				if ObjectiveTracker_Update then
-					ObjectiveTracker_Update(2)
+				if WorldQuestList.ObjectiveTracker_Update_hook then
+					WorldQuestList.ObjectiveTracker_Update_hook(2)
 				end
 			end,
 			checkable = true,
@@ -3143,25 +3202,51 @@ do
 		padding = 16,
 		subMenu = mapIconsScaleSubmenu,
 	}
+		
+	local listSizeSubmenu = {
+		{
+			text = LOCALE.topLine,
+			func = function()
+				VWQL.DisableHeader = not VWQL.DisableHeader
+				ELib.ScrollDropDown.Close()
+				WorldQuestList_Update()
+			end,
+			checkable = true,
+		},
+		{
+			text = LOCALE.bottomLine,
+			func = function()
+				VWQL.DisableTotalAP = not VWQL.DisableTotalAP
+				ELib.ScrollDropDown.Close()
+				WorldQuestList_Update()
+			end,
+			checkable = true,
+		},
+		{
+			text = LOCALE.maxLines,
+			isTitle = true,
+		},
+		{text = "",	isTitle = true,	slider = {min = 9, max = 101, val = 9, func = nil}	},	
+	}
+	listSizeSubmenu[4].slider.func = function(self,val)
+		listSizeSubmenu[4].slider.val = val
+		if val < 10 or val > 100 then
+			val = nil
+		end
+		VWQL.MaxLinesShow = val
+		self.text:SetText(val or LOCALE.unlimited)
+		WorldQuestList_Update()
+	end
+	listSizeSubmenu[4].slider.show = function(self)
+		if not VWQL.MaxLinesShow then
+			self.text:SetText(LOCALE.unlimited)
+		end
+	end	
 	
 	list[#list+1] = {
-		text = LOCALE.headerEnable,
-		func = function()
-			VWQL.DisableHeader = not VWQL.DisableHeader
-			ELib.ScrollDropDown.Close()
-			WorldQuestList_Update()
-		end,
-		checkable = true,
-	}
-		
-	list[#list+1] = {
-		text = LOCALE.totalapdisable,
-		func = function()
-			VWQL.DisableTotalAP = not VWQL.DisableTotalAP
-			ELib.ScrollDropDown.Close()
-			WorldQuestList_Update()
-		end,
-		checkable = true,
+		text = LOCALE.listSize,
+		padding = 16,
+		subMenu = listSizeSubmenu,
 	}
 	
 	list[#list+1] = {
@@ -3256,14 +3341,10 @@ do
 	
 	function WorldQuestList.optionsDropDown.Button:additionalToggle()
 		for i=1,#self.List do
-			if self.List[i].text == LOCALE.totalapdisable then	
-				self.List[i].checkState = VWQL.DisableTotalAP
-			elseif self.List[i].text == LOCALE.barrelsHelper then
+			if self.List[i].text == LOCALE.barrelsHelper then
 				self.List[i].checkState = not VWQL.DisableBarrels
 			elseif self.List[i].text == LOCALE.enigmaHelper then
 				self.List[i].checkState = VWQL.EnableEnigma
-			elseif self.List[i].text == LOCALE.headerEnable then
-				self.List[i].checkState = not VWQL.DisableHeader
 			elseif self.List[i].text == LOCALE.disabeHighlightNewQuests then
 				self.List[i].checkState = VWQL.DisableHighlightNewQuest
 			elseif self.List[i].text == LOCALE.disableBountyIcon then
@@ -3314,6 +3395,9 @@ do
 		mapIconsScaleSubmenu[1].slider.val = (VWQL.MapIconsScale or 1) * 100
 		rewardsIconsSubMenu[1].checkState = VWQL.DisableRibbon
 		rewardsIconsSubMenu[2].checkState = VWQL.EnableRibbonGeneralMaps
+		listSizeSubmenu[1].checkState = not VWQL.DisableHeader
+		listSizeSubmenu[2].checkState = not VWQL.DisableTotalAP
+		listSizeSubmenu[4].slider.val = (VWQL.MaxLinesShow or 9)
 	end	
 end
 
@@ -3956,6 +4040,10 @@ local function WorldQuestList_Leveling_Update()
 		end
 	end
 	
+	if VWQL.MaxLinesShow then
+		lowestLine = min(VWQL.MaxLinesShow,lowestLine)
+	end
+	
 	if lowestLine >= taskIconIndex then
 		WorldQuestList.Cheader:SetVerticalScroll(0)
 	else
@@ -4163,6 +4251,10 @@ local function WorldQuestList_Treasure_Update()
 			lowestLine = i - 1
 			break
 		end
+	end
+	
+	if VWQL.MaxLinesShow then
+		lowestLine = min(VWQL.MaxLinesShow,lowestLine)
 	end
 	
 	if lowestLine >= taskIconIndex then
@@ -5422,6 +5514,10 @@ function WorldQuestList_Update(preMapID)
 		end
 	end
 	
+	if VWQL.MaxLinesShow then
+		lowestLine = min(VWQL.MaxLinesShow,lowestLine)
+	end
+	
 	if lowestLine >= taskIconIndex then
 		WorldQuestList.Cheader:SetVerticalScroll(0)
 	else
@@ -5546,7 +5642,7 @@ WorldMapButton_HookShowHide:SetScript('OnShow',function()
 		WorldQuestList:Hide()
 		return
 	end
-	if WorldMapFrame:IsMaximized() and (VWQL.Anchor == 1 or not VWQL.Anchor) then
+	if WorldMapFrame:IsMaximized() and (VWQL.Anchor == 1 or not VWQL.Anchor) and (WorldMapFrame:GetWidth() / GetScreenWidth()) > 0.75 then
 		if not WorldQuestList.IsSoloRun then
 			WorldQuestList:Hide()
 		end
@@ -5554,14 +5650,22 @@ WorldMapButton_HookShowHide:SetScript('OnShow',function()
 	elseif not WorldQuestList:IsVisible() then
 		WorldQuestList:Show()
 	end
+	if (VWQL.Anchor == 3) then
+		UpdateAnchor()
+	end
 	if WorldQuestList:IsVisible() then
 		WorldQuestList:Hide()
 		WorldQuestList:Show()
 	end
 end)
 
-local prevZone
-WorldMapButton_HookShowHide:SetScript('OnUpdate',function()
+local prevZone, prevMapMode
+WorldMapButton_HookShowHide:SetScript('OnUpdate',function(self)
+	local mapMode = WorldMapFrame:IsMaximized()
+	if prevMapMode ~= mapMode then
+		prevMapMode = mapMode
+		self:GetScript("OnShow")(self)
+	end
 	local currZone = GetCurrentMapAreaID()
 	if currZone ~= prevZone then
 		WorldQuestList_Update()
@@ -5580,7 +5684,7 @@ end)
 
 SlashCmdList["WQLSlash"] = function(arg)
 	local argL = strlower(arg)
-	if (arg == "" and WorldMapFrame:IsVisible()) or argL == "help" then
+	if (arg == "" and WorldMapFrame:IsVisible() and not WorldMapFrame:IsMaximized()) or argL == "help" then
 		print("World Quests List v."..VERSION)
 		print("|cffffff00/wql options|r - force options dropdown")		
 		print("|cffffff00/wql reset|r - reset position")
@@ -6142,6 +6246,12 @@ QuestCreationBox.ListGroup:SetPoint("BOTTOM",0,5)
 QuestCreationBox.ListGroup:Hide()
 QuestCreationBox.ListGroup:SetText(LIST_GROUP)
 
+QuestCreationBox.FindGroup = ELib:Button(QuestCreationBox,SEARCH)
+QuestCreationBox.FindGroup:SetSize(220,25)
+QuestCreationBox.FindGroup:SetPoint("BOTTOM",0,5)
+QuestCreationBox.FindGroup:Hide()
+QuestCreationBox.FindGroup:SetText(SEARCH)
+
 QuestCreationBox:SetScript("OnDragStart", function(self)
 	self:SetMovable(true)
 	self:StartMoving()
@@ -6156,7 +6266,9 @@ QuestCreationBox:SetScript("OnDragStop", function(self)
 	end
 end)
 QuestCreationBox:SetScript("OnUpdate",function(self)
-	if LFGListFrame.EntryCreation.Name:GetText() == QuestCreationBox.Text2:GetText() then
+	if QuestCreationBox.type == 4 and LFGListFrame.SearchPanel.SearchBox:GetText():lower() == QuestCreationBox.Text2:GetText():lower() then
+		QuestCreationBox.Text2:SetTextColor(0,1,0)
+	elseif QuestCreationBox.type ~= 4 and LFGListFrame.EntryCreation.Name:GetText() == QuestCreationBox.Text2:GetText() then
 		QuestCreationBox.Text2:SetTextColor(0,1,0)
 	else
 		QuestCreationBox.Text2:SetTextColor(1,1,0)
@@ -6167,6 +6279,7 @@ ELib.Templates:Border(QuestCreationBox,.22,.22,.3,1,1)
 QuestCreationBox.shadow = ELib:Shadow2(QuestCreationBox,16)
 
 local defPoints
+local defPointsSearch
 
 local minIlvlReq = UnitLevel'player' >= 120 and 240 or 160
 
@@ -6179,6 +6292,7 @@ function WQL_LFG_StartQuest(questID)
 	QuestCreationBox:SetSize(350,120)
 	QuestCreationBox.PartyLeave:Hide()
 	QuestCreationBox.PartyFind:Hide()
+	QuestCreationBox.FindGroup:Hide()
 	QuestCreationBox.ListGroup:Show()
 
 	LFGListUtil_OpenBestWindow()
@@ -6229,7 +6343,7 @@ function WQL_LFG_StartQuest(questID)
 			button:Click()		
 		end)
 	end
-		
+	
 	QuestCreationBox.Text1:SetText("WQL: "..LOCALE.lfgTypeText)
 	QuestCreationBox.Text2:SetText(questID)
 	QuestCreationBox.questID = questID
@@ -6253,19 +6367,35 @@ LFGListFrame.EntryCreation:HookScript("OnShow",function()
 end)
 
 QuestCreationBox:SetScript("OnHide",function()
-	if not defPoints then
-		return
-	end
-	local edit = LFGListFrame.EntryCreation.Name
-
-	edit:ClearAllPoints()
-	edit:SetPoint(unpack(defPoints[edit]))
-	edit.Instructions:SetText(LFG_LIST_ENTER_NAME)
-
-	edit:ClearFocus()
+	if defPoints then
+		local edit = LFGListFrame.EntryCreation.Name
 	
-	if GroupFinderFrame:IsVisible() then
-		PVEFrame_ToggleFrame()
+		edit:ClearAllPoints()
+		edit:SetPoint(unpack(defPoints[edit]))
+		edit.Instructions:SetText(LFG_LIST_ENTER_NAME)
+	
+		edit:ClearFocus()
+	end
+
+	if defPointsSearch then
+		local edit = LFGListFrame.SearchPanel.SearchBox
+	
+		edit:ClearAllPoints()
+		edit:SetPoint(unpack(defPointsSearch[edit]))
+		edit.Instructions:SetText(FILTER)
+	
+		edit:ClearFocus()
+		
+		local fb = LFGListFrame.SearchPanel.FilterButton
+	
+		fb:ClearAllPoints()
+		fb:SetPoint(unpack(defPointsSearch[fb]))
+	end
+	
+	if QuestCreationBox.type == 1 or QuestCreationBox.type == 4 then
+		if GroupFinderFrame:IsVisible() then
+			PVEFrame_ToggleFrame()
+		end
 	end
 end)
 
@@ -6274,6 +6404,8 @@ local isAfterSearch = nil
 local autoCreateQuestID = nil
 
 function WQL_LFG_Search(questID)
+	searchQuestID = nil
+
 	if C_LFGList.GetActiveEntryInfo() then
 		return
 	end
@@ -6281,17 +6413,39 @@ function WQL_LFG_Search(questID)
 	if not GroupFinderFrame:IsVisible() then
 		LFGListUtil_OpenBestWindow()
 	end
+		
+	PVEFrame:ClearAllPoints() 
+	PVEFrame:SetPoint("TOP",UIParent,"BOTTOM",0,-100)
 	
-	local questName
-	if type(questID)=='number' and IsShiftKeyDown() then
-		questName = C_TaskQuest.GetQuestInfoByQuestID(questID)
-		if not questName then
-			questName = GetQuestLogTitle(GetQuestLogIndexByID(questID))
-		end
-		questName = questName or tostring(questID)
-	else
-		questName = tostring(questID)
+	local edit = LFGListFrame.SearchPanel.SearchBox
+	local fb = LFGListFrame.SearchPanel.FilterButton
+	local button = QuestCreationBox.FindGroup
+
+	if not defPointsSearch then
+		defPointsSearch = {
+			[edit] = {edit:GetPoint()},
+			[fb] = {fb:GetPoint()},
+		}
+		button:SetScript("OnClick",function()
+			QuestCreationBox:Hide()
+			PVEFrame_ToggleFrame()
+			
+			edit:GetScript("OnEnterPressed")(edit)
+			
+			searchQuestID = edit.WQL_questID
+		end)
+		edit:HookScript("OnEnterPressed",function(self)
+			if not QuestCreationBox:IsShown() then
+				return
+			end
+			
+			QuestCreationBox:Hide()
+			PVEFrame_ToggleFrame()
+			
+			searchQuestID = self.WQL_questID
+		end)
 	end
+
 	
 	local languagesOn = C_LFGList.GetLanguageSearchFilter()
 	local languagesAll = C_LFGList.GetAvailableLanguageSearchFilter()
@@ -6306,41 +6460,80 @@ function WQL_LFG_Search(questID)
 	end
 	
 	local panel = LFGListFrame.CategorySelection
+	LFGListFrame_SetActivePanel(LFGListFrame, panel)
 	LFGListCategorySelection_SelectCategory(panel, 1, 0)
-	LFGListCategorySelection_StartFindGroup(panel, questName)
+	LFGListCategorySelection_StartFindGroup(panel)
+
+	QuestCreationBox:Show()
+	QuestCreationBox:SetSize(350,120)
+	QuestCreationBox.PartyLeave:Hide()
+	QuestCreationBox.PartyFind:Hide()
+	QuestCreationBox.ListGroup:Hide()
+	QuestCreationBox.FindGroup:Show()
+	
+	QuestCreationBox.Text1:SetText(SEARCH..": "..LOCALE.lfgTypeText)
+	QuestCreationBox.Text2:SetText(questID)
+	QuestCreationBox.questID = questID
+	QuestCreationBox.type = 4
+	
+	edit:ClearAllPoints()
+	edit:SetPoint("TOP",QuestCreationBox,"TOP",0,-50)
+	edit.Instructions:SetText(questID)
+	edit:SetFocus()
+	
+	edit.WQL_questID = questID
+	
+	fb:ClearAllPoints()
+	fb:SetPoint("TOP",UIParent,"BOTTOM",0,-100)
 	
 	searchQuestID = questID
+	
+	if type(questID)=='number' then
+		local questName = C_TaskQuest.GetQuestInfoByQuestID(questID)
+		if not questName then
+			questName = GetQuestLogTitle(GetQuestLogIndexByID(questID))
+		end
+		
+		if questName and IsShiftKeyDown() then
+			QuestCreationBox.Text2:SetText(questName)
+		end
+		if questName then
+			edit.Instructions:SetText(questID..", "..questName)
+		end
+	end	
+	
 end
 WorldQuestList.LFG_Search = WQL_LFG_Search
+
+LFGListFrame.SearchPanel:HookScript("OnShow",function()
+	if not defPointsSearch then
+		return
+	end
+	local edit = LFGListFrame.SearchPanel.SearchBox
+	local fb = LFGListFrame.SearchPanel.FilterButton
+
+	edit:ClearAllPoints()
+	edit:SetPoint(unpack(defPointsSearch[edit]))
+	edit.Instructions:SetText(FILTER)
+	
+	fb:ClearAllPoints()
+	fb:SetPoint(unpack(defPointsSearch[fb]))
+end)
+
+local function IsTeoreticalWQ(name)
+	if name:find("k00000|") then
+		return true
+	end
+end
 
 hooksecurefunc("LFGListSearchPanel_SelectResult", function(self, resultID)
 	if not VWQL or VWQL.DisableLFG then
 		return
 	end
 	local id, activityID, name = C_LFGList.GetSearchResultInfo(resultID)
-	if name and LFGListFrame.SearchPanel.categoryID == 1 then
-		local qID = tonumber(name)
-		if qID and qID > 10000 and qID < 1000000 then
-			LFGListFrame.SearchPanel.SignUpButton:Click()
-			LFGListApplicationDialog.SignUpButton:Click()
-		end
-	end
-end)
-
-hooksecurefunc("LFGListSearchEntry_Update", function(self)
-	if not VWQL or VWQL.DisableLFG then
-		return
-	end
-	local resultID = self.resultID
-	local id, activityID, name = C_LFGList.GetSearchResultInfo(resultID)
-	if name and LFGListFrame.SearchPanel.categoryID == 1 then
-		local qID = tonumber(name)
-		if qID and qID > 10000 and qID < 1000000 then
-			local questName = C_TaskQuest.GetQuestInfoByQuestID(qID)
-			if questName then
-				self.Name:SetText(name.." |cff88ff00("..questName..")")
-			end
-		end
+	if name and LFGListFrame.SearchPanel.categoryID == 1 and IsTeoreticalWQ(name) then
+		LFGListFrame.SearchPanel.SignUpButton:Click()
+		LFGListApplicationDialog.SignUpButton:Click()
 	end
 end)
 
@@ -6352,13 +6545,7 @@ hooksecurefunc("LFGListGroupDataDisplayPlayerCount_Update", function(self, displ
 	end	
 	local id, activityID, name = C_LFGList.GetSearchResultInfo(line.resultID)
 	if name and LFGListFrame.SearchPanel.categoryID == 1 then
-		local qID = tonumber(name)
-		if qID and qID > 10000 and qID < 1000000 then
-			local tagID, tagName, worldQuestType, rarity, isElite, tradeskillLineIndex, displayTimeLeft = GetQuestTagInfo(qID)
-			if not isElite then
-				self.Count:SetText("|cffff0000"..numPlayers)
-			end
-		end
+		self.Count:SetText("|cffff0000"..numPlayers)
 	end
 end)
 
@@ -6489,6 +6676,7 @@ end)
 
 QuestCreationBox:RegisterEvent("LFG_LIST_SEARCH_RESULTS_RECEIVED")
 QuestCreationBox:RegisterEvent("LFG_LIST_APPLICANT_LIST_UPDATED")
+QuestCreationBox:RegisterEvent("PARTY_INVITE_REQUEST")
 QuestCreationBox:RegisterEvent("QUEST_TURNED_IN")
 QuestCreationBox:RegisterEvent("QUEST_ACCEPTED")
 QuestCreationBox:RegisterEvent("QUEST_REMOVED")
@@ -6503,13 +6691,14 @@ QuestCreationBox:SetScript("OnEvent",function (self,event,arg1,arg2)
 		else
 			isAfterSearch = nil
 			searchQuestID = nil
-			if total > 0 and LFGListFrame.SearchPanel.SearchBox:IsVisible() and LFGListFrame.SearchPanel.categoryID == 1 then
-				local searchQ = LFGListFrame.SearchPanel.SearchBox:GetText()
-				searchQ = tonumber(searchQ)
-				if searchQ and searchQ > 10000 and searchQ < 1000000 then
-					LFGListFrameSearchPanelStartGroup.questID = searchQ
-					LFGListFrameSearchPanelStartGroup:Show()
-				end
+		end
+		
+		if LFGListFrame.SearchPanel.SearchBox:IsVisible() and LFGListFrame.SearchPanel.categoryID == 1 then
+			local searchQ = LFGListFrame.SearchPanel.SearchBox:GetText()
+			searchQ = tonumber(searchQ)
+			if searchQ and searchQ > 10000 and searchQ < 1000000 then
+				LFGListFrameSearchPanelStartGroup.questID = searchQ
+				LFGListFrameSearchPanelStartGroup:Show()
 			end
 		end
 		
@@ -6524,18 +6713,52 @@ QuestCreationBox:SetScript("OnEvent",function (self,event,arg1,arg2)
 			end
 		end
 	elseif event == "LFG_LIST_APPLICANT_LIST_UPDATED" then
-		if not VWQL or VWQL.DisableLFG or not UnitIsGroupLeader("player", LE_PARTY_CATEGORY_HOME) or not select(9, C_LFGList.GetActiveEntryInfo()) then
+		if not VWQL or VWQL.DisableLFG or not UnitIsGroupLeader("player", LE_PARTY_CATEGORY_HOME) then
 			return
 		end
 		local active, activityID, ilvl, honorLevel, name, comment, voiceChat, duration, autoAccept, privateGroup, lfg_questID = C_LFGList.GetActiveEntryInfo()
-		local questID = tonumber(name or "?")
-		if not questID then
-			questID = lfg_questID
-		end
-		if questID and questID > 10000 and questID < 1000000 then
-			local tagID, tagName, worldQuestType, rarity, isElite, tradeskillLineIndex, displayTimeLeft = GetQuestTagInfo(questID)
-			if rarity and not isElite then
-				StaticPopup_Hide("LFG_LIST_AUTO_ACCEPT_CONVERT_TO_RAID")
+		if IsTeoreticalWQ(name) then
+			StaticPopup_Hide("LFG_LIST_AUTO_ACCEPT_CONVERT_TO_RAID")
+			
+			if not autoAccept and
+				(IsInRaid() or (  GetNumGroupMembers(LE_PARTY_CATEGORY_HOME) + C_LFGList.GetNumInvitedApplicantMembers() + C_LFGList.GetNumPendingApplicantMembers() <= (MAX_PARTY_MEMBERS+1)  ))
+			then
+				local applicants = C_LFGList.GetApplicants()
+				for _,applicantID in pairs(applicants) do
+					local id, status, pendingStatus, numMembers, isNew = C_LFGList.GetApplicantInfo(applicantID)
+					if status == "applied" and numMembers == 1 then
+						for memberIdx=1,numMembers do
+							local name, class, localizedClass, level, itemLevel, honorLevel, tank, healer, damage, assignedRole = C_LFGList.GetApplicantMemberInfo(applicantID, memberIdx)
+							if name then
+								InviteUnit(name)
+							end
+						end
+					end
+				end
+			end
+		end	
+	elseif event == "PARTY_INVITE_REQUEST" then
+		local name = arg1
+		if name then
+			local app = C_LFGList.GetApplications()
+			for _,id in pairs(app) do
+				local _, _, _, _, _, _, _, _, _, _, _, _, groupLeader = C_LFGList.GetSearchResultInfo(id)
+				if name == groupLeader then
+					AcceptGroup()
+					StaticPopupSpecial_Hide(LFGInvitePopup)
+					for i = 1, 4 do
+						local frame = _G["StaticPopup"..i]
+						if frame:IsVisible() and frame.which=="PARTY_INVITE" then
+							frame.inviteAccepted = true
+							StaticPopup_Hide("PARTY_INVITE")
+							return
+						elseif frame:IsVisible() and frame.which=="PARTY_INVITE_XREALM" then
+							frame.inviteAccepted = true
+							StaticPopup_Hide("PARTY_INVITE_XREALM")
+							return
+						end
+					end
+				end
 			end
 		end		
 	elseif event == "QUEST_TURNED_IN" then
@@ -6544,13 +6767,14 @@ QuestCreationBox:SetScript("OnEvent",function (self,event,arg1,arg2)
 		end
 		--local name = select(5,C_LFGList.GetActiveEntryInfo())
 		--if name and name == tostring(arg1) and (not QuestCreationBox:IsVisible() or (QuestCreationBox.type ~= 1)) then
-		if C_LFGList.GetActiveEntryInfo() and QuestUtils_IsQuestWorldQuest(arg1) and CheckQuestPassPopup(arg1) and (not QuestCreationBox:IsVisible() or (QuestCreationBox.type ~= 1) or (QuestCreationBox.type == 1 and QuestCreationBox.questID == arg1)) then
+		if C_LFGList.GetActiveEntryInfo() and QuestUtils_IsQuestWorldQuest(arg1) and CheckQuestPassPopup(arg1) and (not QuestCreationBox:IsVisible() or (QuestCreationBox.type ~= 1 and QuestCreationBox.type ~= 4) or (QuestCreationBox.type == 1 and QuestCreationBox.questID == arg1) or (QuestCreationBox.type == 4 and QuestCreationBox.questID == arg1)) then
 			QuestCreationBox.Text1:SetText("WQL")
 			QuestCreationBox.Text2:SetText("")
 			QuestCreationBox.PartyLeave:Show()
 
 			QuestCreationBox.PartyFind:Hide()
 			QuestCreationBox.ListGroup:Hide()
+			QuestCreationBox.FindGroup:Hide()
 			
 			QuestCreationBox.type = 2
 			
@@ -6558,11 +6782,14 @@ QuestCreationBox:SetScript("OnEvent",function (self,event,arg1,arg2)
 			QuestCreationBox:SetSize(350,60)
 		end
 	elseif event == "QUEST_ACCEPTED" then
+		if WorldQuestList.ObjectiveTracker_Update_hook then
+			WorldQuestList.ObjectiveTracker_Update_hook(2)
+		end
 		if not VWQL or VWQL.DisableLFG or not arg2 or C_LFGList.GetActiveEntryInfo() or VWQL.DisableLFG_Popup or (GetNumGroupMembers() or 0) > 1 then
 			return
 		end
 		if QuestUtils_IsQuestWorldQuest(arg2) and 					--is WQ
-			(not QuestCreationBox:IsVisible() or (QuestCreationBox.type ~= 1)) and	--popup if not busy
+			(not QuestCreationBox:IsVisible() or (QuestCreationBox.type ~= 1 and QuestCreationBox.type ~= 4)) and	--popup if not busy
 			 CheckQuestPassPopup(arg2) 						--wq pass filters
 		 then
 			QuestCreationBox.Text1:SetText("WQL|n"..(C_TaskQuest.GetQuestInfoByQuestID(arg2) or ""))
@@ -6572,6 +6799,7 @@ QuestCreationBox:SetScript("OnEvent",function (self,event,arg1,arg2)
 
 			QuestCreationBox.PartyLeave:Hide()
 			QuestCreationBox.ListGroup:Hide()
+			QuestCreationBox.FindGroup:Hide()
 
 			QuestCreationBox.questID = arg2
 			QuestCreationBox.type = 3
@@ -6580,6 +6808,9 @@ QuestCreationBox:SetScript("OnEvent",function (self,event,arg1,arg2)
 			QuestCreationBox:SetSize(350,60)
 		end		
 	elseif event == "QUEST_REMOVED" then
+		if WorldQuestList.ObjectiveTracker_Update_hook then
+			WorldQuestList.ObjectiveTracker_Update_hook(2)
+		end
 		if QuestCreationBox:IsVisible() and QuestCreationBox.type == 3 and QuestCreationBox.questID == arg1 then
 			QuestCreationBox:Hide()
 		end
@@ -6709,8 +6940,12 @@ local function ObjectiveTracker_Update_hook(reason, questID)
 	end
 end
 
-hooksecurefunc("ObjectiveTracker_Update", ObjectiveTracker_Update_hook)
-C_Timer.After(5,function() ObjectiveTracker_Update_hook(2) end)
+WorldQuestList.ObjectiveTracker_Update_hook = ObjectiveTracker_Update_hook
+C_Timer.NewTicker(1,function()
+	WorldQuestList.ObjectiveTracker_Update_hook(2)
+end)
+--hooksecurefunc("ObjectiveTracker_Update", ObjectiveTracker_Update_hook)
+--C_Timer.After(5,function() ObjectiveTracker_Update_hook(2) end)
 
 
 --Add Map Icons
@@ -7227,12 +7462,16 @@ function WorldQuestList:WQIcons_RemoveScale()
 	local pins = WorldMapFrame.pinPools["WorldMap_WorldQuestPinTemplate"]
 	if pins then
 		for obj,_ in pairs(pins.activeObjects) do
-			obj:SetScalingLimits(defScaleFactor, defStartScale, defEndScale)
-			obj:ApplyCurrentScale()
+			pcall(function() 
+				obj:SetScalingLimits(defScaleFactor, defStartScale, defEndScale)
+				obj:ApplyCurrentScale()
+			end)
 		end
 		for _,obj in pairs(pins.inactiveObjects) do
-			obj:SetScalingLimits(defScaleFactor, defStartScale, defEndScale)
-			obj:ApplyCurrentScale()
+			pcall(function() 
+				obj:SetScalingLimits(defScaleFactor, defStartScale, defEndScale)
+				obj:ApplyCurrentScale()
+			end)
 		end
 	end
 end

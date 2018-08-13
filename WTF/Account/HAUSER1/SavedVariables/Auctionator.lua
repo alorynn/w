@@ -2,13 +2,13 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
-	["_10000"] = 200,
-	["_500"] = 5,
-	["_1000000"] = 2500,
 	["_200000"] = 1000,
 	["STARTING_DISCOUNT"] = 5,
-	["LOG_DE_DATA_X"] = true,
+	["_1000000"] = 2500,
 	["_5000000"] = 10000,
+	["LOG_DE_DATA_X"] = true,
+	["_500"] = 5,
+	["_10000"] = 200,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 	["Leylight Shard"] = {
@@ -225,10 +225,10 @@ AUCTIONATOR_TOONS = {
 		["firstVersion"] = "3.2.3",
 		["guid"] = "Player-3693-07375FB3",
 	},
-	["Pharrah"] = {
-		["firstSeen"] = 1486134858,
-		["firstVersion"] = "4.0.16",
-		["guid"] = "Player-3693-092AC55C",
+	["Fooliolio"] = {
+		["firstSeen"] = 1533064421,
+		["firstVersion"] = "5.0.4",
+		["guid"] = "Player-3693-09E8A972",
 	},
 	["Hauzerogue"] = {
 		["firstSeen"] = 1448641766,
@@ -246,10 +246,10 @@ AUCTIONATOR_TOONS = {
 		["firstSeen"] = 1488646170,
 		["firstVersion"] = "4.0.16",
 	},
-	["Fooliolio"] = {
-		["firstSeen"] = 1533064421,
-		["firstVersion"] = "5.0.4",
-		["guid"] = "Player-3693-09E8A972",
+	["Laurannah"] = {
+		["firstSeen"] = 1447788893,
+		["guid"] = "Player-3693-092AD332",
+		["firstVersion"] = "3.2.6",
 	},
 	["Beatryss"] = {
 		["firstSeen"] = 1447789139,
@@ -288,9 +288,10 @@ AUCTIONATOR_TOONS = {
 		["guid"] = "Player-3693-092AC4C9",
 		["firstVersion"] = "4.0.16",
 	},
-	["Alurannah"] = {
-		["firstSeen"] = 1477057426,
-		["firstVersion"] = "4.0.13",
+	["Olrapey"] = {
+		["firstSeen"] = 1488579932,
+		["guid"] = "Player-3693-09343B2E",
+		["firstVersion"] = "4.0.16",
 	},
 	["Alorannah"] = {
 		["firstSeen"] = 1484663806,
@@ -306,10 +307,10 @@ AUCTIONATOR_TOONS = {
 		["firstVersion"] = "4.0.16",
 		["guid"] = "Player-3693-092BED7A",
 	},
-	["Olrapey"] = {
-		["firstSeen"] = 1488579932,
-		["guid"] = "Player-3693-09343B2E",
-		["firstVersion"] = "4.0.16",
+	["Beatryce"] = {
+		["firstSeen"] = 1448028708,
+		["guid"] = "Player-3693-0849596D",
+		["firstVersion"] = "3.2.6",
 	},
 	["Skãdi"] = {
 		["firstSeen"] = 1485987189,
@@ -334,10 +335,9 @@ AUCTIONATOR_TOONS = {
 		["firstSeen"] = 1486995657,
 		["firstVersion"] = "4.0.16",
 	},
-	["Beatryce"] = {
-		["firstSeen"] = 1448028708,
-		["guid"] = "Player-3693-0849596D",
-		["firstVersion"] = "3.2.6",
+	["Alurannah"] = {
+		["firstSeen"] = 1477057426,
+		["firstVersion"] = "4.0.13",
 	},
 	["Bazoomercom"] = {
 		["firstSeen"] = 1476825560,
@@ -361,10 +361,10 @@ AUCTIONATOR_TOONS = {
 		["firstSeen"] = 1487270433,
 		["firstVersion"] = "4.0.16",
 	},
-	["Laurannah"] = {
-		["firstSeen"] = 1447788893,
-		["guid"] = "Player-3693-092AD332",
-		["firstVersion"] = "3.2.6",
+	["Pharrah"] = {
+		["firstSeen"] = 1486134858,
+		["firstVersion"] = "4.0.16",
+		["guid"] = "Player-3693-092AC55C",
 	},
 }
 AUCTIONATOR_STACKING_PREFS = {
@@ -428,7 +428,7 @@ AUCTIONATOR_STACKING_PREFS = {
 		["stacksize"] = 1,
 		["numstacks"] = 0,
 	},
-	["windwool cloth"] = {
+	["hypnotic dust"] = {
 		["numstacks"] = 0,
 		["stacksize"] = 1,
 	},
@@ -436,7 +436,7 @@ AUCTIONATOR_STACKING_PREFS = {
 		["numstacks"] = 0,
 		["stacksize"] = 5,
 	},
-	["hypnotic dust"] = {
+	["windwool cloth"] = {
 		["numstacks"] = 0,
 		["stacksize"] = 1,
 	},

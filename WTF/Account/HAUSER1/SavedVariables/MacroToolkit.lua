@@ -20,10 +20,10 @@ MacroToolkitDB = {
 		["Alorannah - Kel'Thuzad"] = "profile",
 		["Darknstormie - Kel'Thuzad"] = "profile",
 		["Alauranna - Kel'Thuzad"] = "profile",
-		["Alisheeya - Kel'Thuzad"] = "profile",
-		["Laurannah - Kel'Thuzad"] = "profile",
 		["Rogueout - Kel'Thuzad"] = "profile",
 		["Hauzer - Kel'Thuzad"] = "profile",
+		["Alisheeya - Kel'Thuzad"] = "profile",
+		["Laurannah - Kel'Thuzad"] = "profile",
 		["Foolioioio - Kel'Thuzad"] = "profile",
 	},
 	["profiles"] = {
