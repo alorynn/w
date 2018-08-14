@@ -1,10 +1,9 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0223,
+	["LastVersion"] = 2.0225,
 	["LastPlayerFullName"] = "Alauranna-Kel'Thuzad",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
-	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128860] = {
 			["Relics"] = {
@@ -23,6 +22,7 @@ PawnOptions = {
 			["Name"] = "Fangs of Ashamane",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "DRUID",

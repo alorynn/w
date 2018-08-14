@@ -1,26 +1,26 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		" like for doing dailies in argus I send in my pet, he aggroes half the zone and barely loses any hp while I run around collecting quest items off the ground", -- [1]
-		" ya but I can pull way more shit way faster - ranged is the best", -- [2]
-		" anything in a 40 yard radius gets sent straight to my pet", -- [3]
-		" ya if you like pally lightforged is OP as fuck", -- [4]
-		" I leveled a ret to 110 and it was so bad lol", -- [5]
-		" ya I just found the gameplay clunky and slow", -- [6]
-		" my BM is all over the fucking place ", -- [7]
-		" even out of combat she has a 30% speed boost, so good for soloing ", -- [8]
-		" maghar is the hunter race tho", -- [9]
-		" pet health increased", -- [10]
-		" do shams have pets now?", -- [11]
-		" nightfallen for magic shit", -- [12]
-		" tbh these classes are all OP as fuck", -- [13]
-		" like every serious raiding guild is gonna require allied races", -- [14]
-		" eh idk if pet health is that amazing tbh", -- [15]
-		" but 1% extra magic damage and resistance is huge for progression ", -- [16]
-		" welp I decided to go with the tauren", -- [17]
-		" is there a port to mulgore in org?", -- [18]
-		" Ive only visited these places to raid them back in the day lol", -- [19]
-		"/bartender", -- [20]
+		" anything in a 40 yard radius gets sent straight to my pet", -- [1]
+		" ya if you like pally lightforged is OP as fuck", -- [2]
+		" I leveled a ret to 110 and it was so bad lol", -- [3]
+		" ya I just found the gameplay clunky and slow", -- [4]
+		" my BM is all over the fucking place ", -- [5]
+		" even out of combat she has a 30% speed boost, so good for soloing ", -- [6]
+		" maghar is the hunter race tho", -- [7]
+		" pet health increased", -- [8]
+		" do shams have pets now?", -- [9]
+		" nightfallen for magic shit", -- [10]
+		" tbh these classes are all OP as fuck", -- [11]
+		" like every serious raiding guild is gonna require allied races", -- [12]
+		" eh idk if pet health is that amazing tbh", -- [13]
+		" but 1% extra magic damage and resistance is huge for progression ", -- [14]
+		" welp I decided to go with the tauren", -- [15]
+		" is there a port to mulgore in org?", -- [16]
+		" Ive only visited these places to raid them back in the day lol", -- [17]
+		"/bartender", -- [18]
+		"/elvui", -- [19]
+		"/2 where tf are the target dummies in org", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
@@ -2810,5 +2810,27 @@ ElvCharacterDB = {
 			[51] = 1533747033,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [122]
+		{
+			"where tf are the target dummies in org", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			253, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1533750385,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [123]
 	},
 }
