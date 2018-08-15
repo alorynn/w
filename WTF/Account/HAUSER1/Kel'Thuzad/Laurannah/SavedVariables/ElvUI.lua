@@ -1,688 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/1 this zone rules", -- [1]
-		"/1 reminds me of duskwood but better", -- [2]
-		"/1 can anyone get |cffffff00|Hquest:48521:-1:110:120:3|h[Charming the Lifeless]|h|r to work", -- [3]
-		"/1 how do you get to these treasures protected by runic wards?", -- [4]
-		"/1 cool ty wasnt sure if I needed a buff like on argus", -- [5]
-		"/cw Xavia is it still there for you?", -- [6]
-		"/cw Xavia ok hang on", -- [7]
-		"/cw Xavia see the discs behind it?", -- [8]
-		"/cw Xavia you have to click the symbols in that order", -- [9]
-		"/cw Xavia lol", -- [10]
-		"/2 is it better to scrap gear, or DE it?", -- [11]
-		"/2 Im an enchanter so will need mats sometime", -- [12]
-		"/2 cool ty", -- [13]
-		"/cw Phyllo-GrizzlyHills np", -- [14]
-		"/1 brigadier thom is hardcxore", -- [15]
-		"/1 ya it is", -- [16]
-		"/s wtf is this", -- [17]
-		"/s I got gold", -- [18]
-		"/tar lad", -- [19]
-		"/1 where are these guys |cffffff00|Hquest:51390:-1:110:120:3|h[WANTED: The Crimson Cutthroats]|h|r", -- [20]
+		"/cw Xavia lol", -- [1]
+		"/2 is it better to scrap gear, or DE it?", -- [2]
+		"/2 Im an enchanter so will need mats sometime", -- [3]
+		"/2 cool ty", -- [4]
+		"/cw Phyllo-GrizzlyHills np", -- [5]
+		"/1 brigadier thom is hardcxore", -- [6]
+		"/1 ya it is", -- [7]
+		"/s wtf is this", -- [8]
+		"/s I got gold", -- [9]
+		"/tar lad", -- [10]
+		"/1 where are these guys |cffffff00|Hquest:51390:-1:110:120:3|h[WANTED: The Crimson Cutthroats]|h|r", -- [11]
+		"/1 ugh the new |cffffff00|Hachievement:12989:Player-3693-092AD332:0:0:0:-1:0:0:0:0|h[Battle for Azeroth Pathfinder, Part One]|h|r requires exalted with all reps instead of just revered", -- [12]
+		"/cw Blandbacon-Mannoroth got the AH mount yet?", -- [13]
+		"/clap", -- [14]
+		"/1 120 gankers at estate", -- [15]
+		"/1 war and dk", -- [16]
+		"/golfclap", -- [17]
+		"/2 is argussian reach an emissary today?", -- [18]
+		"/2 is it not showing up in anyone else;s map?", -- [19]
+		"/2 mine's been stuck on court and highmountain with nothing new for days now", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"thanks", -- [1]
-			"Presmer-EmeraldDream", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Presmer-EmeraldDream", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			343, -- [11]
-			"Player-162-0951FD0C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaPresmer-EmeraldDream|r",
-			[51] = 1533742104,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [1]
-		{
-			"havent play this char in awhile", -- [1]
-			"Luckycorn-EmeraldDream", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Luckycorn-EmeraldDream", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			344, -- [11]
-			"Player-162-08EFC8A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00ff96Luckycorn-EmeraldDream|r",
-			[51] = 1533742116,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [2]
-		{
-			"res wasnt on my bar D:", -- [1]
-			"Luckycorn-EmeraldDream", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Luckycorn-EmeraldDream", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			345, -- [11]
-			"Player-162-08EFC8A8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00ff96Luckycorn-EmeraldDream|r",
-			[51] = 1533742121,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [3]
-		{
-			"first time playing wow in a year this week lol", -- [1]
-			"Presmer-EmeraldDream", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Presmer-EmeraldDream", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			346, -- [11]
-			"Player-162-0951FD0C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaPresmer-EmeraldDream|r",
-			[51] = 1533742133,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [4]
-		{
-			"gd ull", -- [1]
-			"Forgon-Aggramar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Forgon-Aggramar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			379, -- [11]
-			"Player-106-08F2D92C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa330c9Forgon-Aggramar|r",
-			[51] = 1533742439,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [5]
-		{
-			"thanks all!", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			409, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1533742688,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [6]
-		{
-			"how the fuck do you get to |cffffff00|Hquest:48723:110:110:255:0|h[Vigilant Thanos]|h|r", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"1. General - Mac'Aree", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Mac'Aree", -- [9]
-			0, -- [10]
-			598, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1533743840,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
-		{
-			"quality slutmog", -- [1]
-			"Trezero-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Trezero", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			274, -- [11]
-			"Player-3693-0763C14A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Trezero|r",
-			[51] = 1533751240,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [8]
-		{
-			"ty ty", -- [1]
-			"Trezero-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Trezero", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			275, -- [11]
-			"Player-3693-0763C14A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Trezero|r",
-			[51] = 1533751250,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [9]
-		{
-			"how often do new WQs come around? every 6 hours?", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1533751713,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
-		{
-			"Selling |cff0070dd|Hitem:9375:::::::1040273536:110:256::::::|h[Expert Goldminer's Helmet]|h|r  Rare, best offer /w me", -- [1]
-			"Kazkul-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Kazkul", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			18, -- [11]
-			"Player-3693-09EAC934", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffKazkul|r",
-			[51] = 1533752245,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
-		{
-			"Selling  |cff0070dd|Hbattlepet:1448:25:3:1481:276:276:0000000000000000|h[Sea Calf]|h|r |cff0070dd|Hbattlepet:1806:2:3:216:21:23:0000000000000000|h[Knockoff Blingtron]|h|r  /w me", -- [1]
-			"Kazkul-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Kazkul", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			19, -- [11]
-			"Player-3693-09EAC934", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffKazkul|r",
-			[51] = 1533752246,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
-		{
-			"theres no portal", -- [1]
-			"Naruto-BlackwaterRaiders", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Naruto-BlackwaterRaiders", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			16, -- [11]
-			"Player-125-082D59C0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaNaruto-BlackwaterRaiders|r",
-			[51] = 1533759812,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [13]
-		{
-			"can u summon me inside", -- [1]
-			"Naruto-BlackwaterRaiders", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Naruto-BlackwaterRaiders", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			17, -- [11]
-			"Player-125-082D59C0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaNaruto-BlackwaterRaiders|r",
-			[51] = 1533759815,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [14]
-		{
-			"yeah cant get in", -- [1]
-			"Madeksworg-Dalaran", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Madeksworg-Dalaran", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			60, -- [11]
-			"Player-3683-0827F2C8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dMadeksworg-Dalaran|r",
-			[51] = 1533759828,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [15]
-		{
-			"people please leave", -- [1]
-			"Jetmarte-Ragnaros", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Jetmarte-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			98, -- [11]
-			"Player-1427-09EC78EA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaJetmarte-Ragnaros|r",
-			[51] = 1533759919,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [16]
-		{
-			"if you done it", -- [1]
-			"Jetmarte-Ragnaros", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Jetmarte-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			101, -- [11]
-			"Player-1427-09EC78EA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaJetmarte-Ragnaros|r",
-			[51] = 1533759927,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [17]
-		{
-			"been a tough day at work", -- [1]
-			"Throgdor-Frostwolf", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Throgdor-Frostwolf", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			199, -- [11]
-			"Player-7-039F619E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aThrogdor-Frostwolf|r",
-			[51] = 1533760207,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [18]
-		{
-			"heya", -- [1]
-			"Nerg-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Nerg", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			201, -- [11]
-			"Player-3693-092E15B7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Nerg|r",
-			[51] = 1533760225,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [19]
-		{
-			"does the golem still let you harvest mounted?", -- [1]
-			"Nerg-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Nerg", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			202, -- [11]
-			"Player-3693-092E15B7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Nerg|r",
-			[51] = 1533760238,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [20]
-		{
-			"heyas :D ummm i have not tried since the patch, i sure hope so! it did a few months ago though, i know that", -- [1]
-			"Nerg-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Nerg", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			207, -- [11]
-			"Player-3693-092E15B7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Nerg|r",
-			[51] = 1533760324,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [21]
-		{
-			"lol ya I use my druid for harvesting but back in the day the golem was the shit", -- [1]
-			"Nerg-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Nerg", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			208, -- [11]
-			"Player-3693-092E15B7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Nerg|r",
-			[51] = 1533760357,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [22]
-		{
-			"yuuuup lol, now if only they had a mining one! haha", -- [1]
-			"Nerg-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Nerg", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			209, -- [11]
-			"Player-3693-092E15B7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Nerg|r",
-			[51] = 1533760411,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [23]
-		{
-			"ha no kidding", -- [1]
-			"Nerg-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Nerg", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			210, -- [11]
-			"Player-3693-092E15B7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Nerg|r",
-			[51] = 1533760420,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [24]
-		{
-			"<Viral PVP> Is now recruiting ALL PVPers! This guild is specifically for heavy focus on pvp! Arena's, Rated BG's, Skrims, World PVP, and ALL pvp events that will be coming in BFA! PVP is back and bette than ever! (MUST HAVE 2K+  ACHIEVEMENT IN 3's)", -- [1]
-			"Zathian-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Zathian", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			213, -- [11]
-			"Player-3693-07420430", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3fc6eaZathian|r",
-			[51] = 1533760474,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
-		{
-			"Hey KT, check out my stream twitch.tv/northrnlights87, giving away 250k gold to a random follower out of the next 30!", -- [1]
-			"Northwinds-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Northwinds", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			220, -- [11]
-			"Player-3693-073AF741", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Northwinds|r",
-			[51] = 1533760584,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
-		{
-			"sick mog dude", -- [1]
-			"Chancho-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Chancho", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			225, -- [11]
-			"Player-3693-088527FE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8787edChancho|r",
-			[51] = 1533760676,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [27]
-		{
-			"how long to level?", -- [1]
-			"Chancho-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Chancho", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			226, -- [11]
-			"Player-3693-088527FE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8787edChancho|r",
-			[51] = 1533760679,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [28]
-		{
-			"tx", -- [1]
-			"Chancho-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Chancho", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			227, -- [11]
-			"Player-3693-088527FE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8787edChancho|r",
-			[51] = 1533760683,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [29]
-		{
-			"quicker before the patch", -- [1]
-			"Chancho-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Chancho", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			228, -- [11]
-			"Player-3693-088527FE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8787edChancho|r",
-			[51] = 1533760689,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [30]
 		{
 			"now its gruueling for people to lvl", -- [1]
 			"Chancho-Kel'Thuzad", -- [2]
@@ -704,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edChancho|r",
 			[51] = 1533760694,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [31]
+		}, -- [1]
 		{
 			"ya bastards lol", -- [1]
 			"Chancho-Kel'Thuzad", -- [2]
@@ -726,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edChancho|r",
 			[51] = 1533760694,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [32]
+		}, -- [2]
 		{
 			"fuck", -- [1]
 			"Chancho-Kel'Thuzad", -- [2]
@@ -748,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edChancho|r",
 			[51] = 1533760698,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [33]
+		}, -- [3]
 		{
 			"I just unlocked today", -- [1]
 			"Chancho-Kel'Thuzad", -- [2]
@@ -770,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edChancho|r",
 			[51] = 1533760704,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [34]
+		}, -- [4]
 		{
 			"i got on it quick.", -- [1]
 			"Chancho-Kel'Thuzad", -- [2]
@@ -792,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edChancho|r",
 			[51] = 1533760707,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [35]
+		}, -- [5]
 		{
 			"i have pieced on that are not set", -- [1]
 			"Chancho-Kel'Thuzad", -- [2]
@@ -814,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edChancho|r",
 			[51] = 1533760719,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [36]
+		}, -- [6]
 		{
 			"looks better this way :)", -- [1]
 			"Chancho-Kel'Thuzad", -- [2]
@@ -836,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edChancho|r",
 			[51] = 1533760726,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [37]
+		}, -- [7]
 		{
 			"ya I figured if anything blizz would make leveling EASIER as time goes on", -- [1]
 			"Chancho-Kel'Thuzad", -- [2]
@@ -858,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edChancho|r",
 			[51] = 1533760732,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [38]
+		}, -- [8]
 		{
 			"ya I know it's a sick outfit", -- [1]
 			"Chancho-Kel'Thuzad", -- [2]
@@ -880,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edChancho|r",
 			[51] = 1533760743,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [39]
+		}, -- [9]
 		{
 			"post in on wowhead and reddit imo", -- [1]
 			"Chancho-Kel'Thuzad", -- [2]
@@ -902,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edChancho|r",
 			[51] = 1533760750,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [40]
+		}, -- [10]
 		{
 			"ty", -- [1]
 			"Chancho-Kel'Thuzad", -- [2]
@@ -924,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edChancho|r",
 			[51] = 1533760750,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [41]
+		}, -- [11]
 		{
 			"No, then everyone will want to copy it. ", -- [1]
 			"Chancho-Kel'Thuzad", -- [2]
@@ -946,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edChancho|r",
 			[51] = 1533760767,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [42]
+		}, -- [12]
 		{
 			"lol", -- [1]
 			"Chancho-Kel'Thuzad", -- [2]
@@ -968,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edChancho|r",
 			[51] = 1533760768,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [43]
+		}, -- [13]
 		{
 			"i dont think i have an account with reddit, or even read anything on it", -- [1]
 			"Chancho-Kel'Thuzad", -- [2]
@@ -990,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edChancho|r",
 			[51] = 1533760807,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [44]
+		}, -- [14]
 		{
 			"is it a thing ?", -- [1]
 			"Chancho-Kel'Thuzad", -- [2]
@@ -1012,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edChancho|r",
 			[51] = 1533760811,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [45]
+		}, -- [15]
 		{
 			"ya they have a transmog forum with some good shit on it", -- [1]
 			"Chancho-Kel'Thuzad", -- [2]
@@ -1034,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edChancho|r",
 			[51] = 1533760822,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [46]
+		}, -- [16]
 		{
 			"maybe, ill look into it. ty", -- [1]
 			"Chancho-Kel'Thuzad", -- [2]
@@ -1056,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edChancho|r",
 			[51] = 1533760849,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [47]
+		}, -- [17]
 		{
 			"wait, what does it do for me if i post ?", -- [1]
 			"Chancho-Kel'Thuzad", -- [2]
@@ -1078,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edChancho|r",
 			[51] = 1533760863,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [48]
+		}, -- [18]
 		{
 			"not sure what you mean, it doesnt pay money or anything lol", -- [1]
 			"Chancho-Kel'Thuzad", -- [2]
@@ -1100,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edChancho|r",
 			[51] = 1533760890,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [49]
+		}, -- [19]
 		{
 			"just a forum", -- [1]
 			"Chancho-Kel'Thuzad", -- [2]
@@ -1122,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edChancho|r",
 			[51] = 1533760892,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [50]
+		}, -- [20]
 		{
 			"ah, so not really worth it", -- [1]
 			"Chancho-Kel'Thuzad", -- [2]
@@ -1144,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edChancho|r",
 			[51] = 1533760902,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [51]
+		}, -- [21]
 		{
 			"lol", -- [1]
 			"Chancho-Kel'Thuzad", -- [2]
@@ -1166,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edChancho|r",
 			[51] = 1533760903,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [52]
+		}, -- [22]
 		{
 			"accept pls", -- [1]
 			"Lickmicrit-Dath'Remar", -- [2]
@@ -1188,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Lickmicrit-Dath'Remar|r",
 			[51] = 1533821220,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [53]
+		}, -- [23]
 		{
 			"did you level that char from 20?", -- [1]
 			"Izzie-Kel'Thuzad", -- [2]
@@ -1210,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Izzie|r",
 			[51] = 1533821771,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [54]
+		}, -- [24]
 		{
 			"hell no lol", -- [1]
 			"Izzie-Kel'Thuzad", -- [2]
@@ -1232,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Izzie|r",
 			[51] = 1533821799,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [55]
+		}, -- [25]
 		{
 			"lol Im trying to decide if I;m going to or not", -- [1]
 			"Izzie-Kel'Thuzad", -- [2]
@@ -1254,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Izzie|r",
 			[51] = 1533821822,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [56]
+		}, -- [26]
 		{
 			"WHERE IS JAINA", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1276,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1534190225,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
+		}, -- [27]
 		{
 			"WHERE IS BAE", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1298,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1534190228,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [28]
 		{
 			"we live in a society", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1320,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1534190376,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [29]
 		{
 			"<Burzum> is recruiting skilled players willing to commit to a semi-hardcore raiding environment. We are looking for Tanks, Healers and Ranged DPS to complete our Heroic Core Raiding group.", -- [1]
 			"Rawley-Kel'Thuzad", -- [2]
@@ -1342,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dRawley|r",
 			[51] = 1534190424,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [30]
 		{
 			"welcome back old friend |cff71d5ff|Hspell:127271:0|h[Crimson Water Strider]|h|r", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1364,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1534190450,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [31]
 		{
 			"<Burzum> is recruiting skilled players willing to commit to a semi-hardcore raiding environment. We are looking for Tanks, Healers and Ranged DPS to complete our Heroic Core Raiding group.", -- [1]
 			"Rawley-Kel'Thuzad", -- [2]
@@ -1386,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dRawley|r",
 			[51] = 1534191003,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [32]
 		{
 			"WTB BLOOD OF SARGERAS PST!!!", -- [1]
 			"Finalone-Kel'Thuzad", -- [2]
@@ -1408,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaFinalone|r",
 			[51] = 1534191053,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [33]
 		{
 			"WTS |cff0070dd|Hbattlepet:130:25:3:1481:276:276:0000000000000000|h[Hippogryph Hatchling]|h|r (tcg pet) pst", -- [1]
 			"Emilson-Kel'Thuzad", -- [2]
@@ -1430,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddEmilson|r",
 			[51] = 1534191077,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [34]
 		{
 			"The OFFICIAL [Ape Gang] Guild is recruiting. Join in for 200 IQ, R1 RBGs and Progression Raiding. OOK OOK! pm now for invite", -- [1]
 			"Jellypeanut-Kel'Thuzad", -- [2]
@@ -1452,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Jellypeanut|r",
 			[51] = 1534191649,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [35]
 		{
 			"R1 RBGs, 500+ member Discord, 10k average viewer streams, Progression raiding. THATS [Ape Gang] BABY! Pm for invite", -- [1]
 			"Jellypeanut-Kel'Thuzad", -- [2]
@@ -1474,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Jellypeanut|r",
 			[51] = 1534191768,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [36]
 		{
 			"LF a HERBALIST!!!!!!!!", -- [1]
 			"Slag-Kel'Thuzad", -- [2]
@@ -1496,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddSlag|r",
 			[51] = 1534191779,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [37]
 		{
 			"<Burzum> is recruiting skilled players willing to commit to a semi-hardcore raiding environment. We are looking for Tanks, Healers and Ranged DPS to complete our Heroic Core Raiding group.", -- [1]
 			"Rawley-Kel'Thuzad", -- [2]
@@ -1518,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dRawley|r",
 			[51] = 1534191802,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [38]
 		{
 			"<Burzum> is recruiting skilled players willing to commit to a semi-hardcore raiding environment. We are looking for Tanks, Healers and Ranged DPS to complete our Heroic Core Raiding group.", -- [1]
 			"Rawley-Kel'Thuzad", -- [2]
@@ -1540,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dRawley|r",
 			[51] = 1534191866,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [39]
 		{
 			"R1 RBGs, 500+ member Discord, 10k average viewer streams, Progression raiding. THATS [Ape Gang] BABY! Pm for invite", -- [1]
 			"Jellypeanut-Kel'Thuzad", -- [2]
@@ -1562,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Jellypeanut|r",
 			[51] = 1534191884,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [40]
 		{
 			"<Broers Empire> Is a casual guild recruiting for BFA that does alittle bit of everything including Raids, Dungeons, PvP, Leveling etc, We are steadily increasing our playerbase and hope to have a large active guild roster. Pst for info or inv,", -- [1]
 			"Neinlives-Kel'Thuzad", -- [2]
@@ -1584,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aNeinlives|r",
 			[51] = 1534191898,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [41]
 		{
 			"<Burzum> is recruiting skilled players willing to commit to a semi-hardcore raiding environment. We are looking for Tanks, Healers and Ranged DPS to complete our Heroic Core Raiding group.", -- [1]
 			"Rawley-Kel'Thuzad", -- [2]
@@ -1606,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dRawley|r",
 			[51] = 1534191903,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [42]
 		{
 			"<Broers Empire> Is a casual guild recruiting for BFA that does alittle bit of everything including Raids, Dungeons, PvP, Leveling etc, We are steadily increasing our playerbase and hope to have a large active guild roster. Pst for info or inv,", -- [1]
 			"Neinlives-Kel'Thuzad", -- [2]
@@ -1628,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aNeinlives|r",
 			[51] = 1534192078,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [43]
 		{
 			"The OFFICIAL [Ape Gang] Guild is recruiting. Join in for 200 IQ, R1 RBGs and Progression Raiding. OOK OOK! pm for invite", -- [1]
 			"Jellypeanut-Kel'Thuzad", -- [2]
@@ -1650,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Jellypeanut|r",
 			[51] = 1534192094,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [44]
 		{
 			"alright negroes wheres magni", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1672,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1534196438,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [45]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12918:Player-3693-092AD332:1:8:14:18:4294967295:4294967295:4294967295:4294967295|h[Have a Heart]|h|r!", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1694,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1534239623,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [76]
+		}, -- [46]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12918:Player-3693-08ECE6EA:1:8:14:18:4294967295:4294967295:4294967295:4294967295|h[Have a Heart]|h|r!", -- [1]
 			"Exelant", -- [2]
@@ -1716,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaExelant|r",
 			[51] = 1534241170,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [77]
+		}, -- [47]
 		{
 			"nice mog - how do you get that title?", -- [1]
 			"Warknight-Fizzcrank", -- [2]
@@ -1738,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dWarknight-Fizzcrank|r",
 			[51] = 1534241508,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [78]
+		}, -- [48]
 		{
 			"thanks. you get it from doing argent tournament", -- [1]
 			"Warknight-Fizzcrank", -- [2]
@@ -1760,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dWarknight-Fizzcrank|r",
 			[51] = 1534241523,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [79]
+		}, -- [49]
 		{
 			"in icecrown", -- [1]
 			"Warknight-Fizzcrank", -- [2]
@@ -1782,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dWarknight-Fizzcrank|r",
 			[51] = 1534241528,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [80]
+		}, -- [50]
 		{
 			"ya I dont remember that one - v cool", -- [1]
 			"Warknight-Fizzcrank", -- [2]
@@ -1804,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dWarknight-Fizzcrank|r",
 			[51] = 1534241539,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [81]
+		}, -- [51]
 		{
 			"lol I just realized your name is warknight - I thought warknight of stormind was your title :P", -- [1]
 			"Warknight-Fizzcrank", -- [2]
@@ -1826,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dWarknight-Fizzcrank|r",
 			[51] = 1534241650,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [82]
+		}, -- [52]
 		{
 			"very early here", -- [1]
 			"Warknight-Fizzcrank", -- [2]
@@ -1848,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dWarknight-Fizzcrank|r",
 			[51] = 1534241652,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [83]
+		}, -- [53]
 		{
 			"lol ", -- [1]
 			"Warknight-Fizzcrank", -- [2]
@@ -1870,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dWarknight-Fizzcrank|r",
 			[51] = 1534241665,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [84]
+		}, -- [54]
 		{
 			"how do you change azerite traits", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1892,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1534241810,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [55]
 		{
 			"ty @Zadri", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1914,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1534242053,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [56]
 		{
 			"whats the best zone to start questing in", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1936,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1534242063,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [57]
 		{
 			"Drustvar", -- [1]
 			"Azradian", -- [2]
@@ -1958,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaAzradian|r",
 			[51] = 1534242069,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [88]
+		}, -- [58]
 		{
 			"drustvar", -- [1]
 			"Fearthébeard", -- [2]
@@ -1980,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edFearthébeard|r",
 			[51] = 1534242083,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [89]
+		}, -- [59]
 		{
 			"heeard stormsong valley is the worst, i wouldnt end with it since those levels tend to be longer.", -- [1]
 			"Fearthébeard-Kel'Thuzad", -- [2]
@@ -2002,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edFearthébeard|r",
 			[51] = 1534242097,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [90]
+		}, -- [60]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12582:Player-3693-092AD332:1:8:14:18:4294967295:4294967295:4294967295:4294967295|h[Come Sail Away]|h|r!", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2024,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1534242097,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [91]
+		}, -- [61]
 		{
 			"cool ty", -- [1]
 			"Fearthébeard-Kel'Thuzad", -- [2]
@@ -2046,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edFearthébeard|r",
 			[51] = 1534242108,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [92]
+		}, -- [62]
 		{
 			"just pick whatever u will be good but drustvar is cool, witches and like ravens and stuff like that.", -- [1]
 			"Fearthébeard-Kel'Thuzad", -- [2]
@@ -2068,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edFearthébeard|r",
 			[51] = 1534242120,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [93]
+		}, -- [63]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12741:Player-3693-092AD332:1:8:14:18:4294967295:4294967295:4294967295:4294967295|h[Giving a Scrap]|h|r!", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2090,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1534242206,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [94]
+		}, -- [64]
 		{
 			"lol @ not having a strider for a naval themed xpac smdh", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2112,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1534242293,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [65]
 		{
 			"holy shit dude 120 already", -- [1]
 			"Keirah-Medivh", -- [2]
@@ -2134,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaKeirah-Medivh|r",
 			[51] = 1534242503,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [96]
+		}, -- [66]
 		{
 			"I was a little slow, world first was 4 and 1/2 hours", -- [1]
 			"Keirah-Medivh", -- [2]
@@ -2156,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaKeirah-Medivh|r",
 			[51] = 1534242523,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [97]
+		}, -- [67]
 		{
 			"lol jfc", -- [1]
 			"Keirah-Medivh", -- [2]
@@ -2178,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaKeirah-Medivh|r",
 			[51] = 1534242530,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [98]
+		}, -- [68]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12582:Player-3693-08ECE6EA:1:8:14:18:4294967295:4294967295:4294967295:4294967295|h[Come Sail Away]|h|r!", -- [1]
 			"Exelant-Kel'Thuzad", -- [2]
@@ -2200,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaExelant|r",
 			[51] = 1534243910,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [99]
+		}, -- [69]
 		{
 			"all me", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2222,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1534244028,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [100]
+		}, -- [70]
 		{
 			"this zone rules", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2244,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1534247014,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [101]
+		}, -- [71]
 		{
 			"reminds me of duskwood but better", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2266,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1534247020,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [102]
+		}, -- [72]
 		{
 			"Syncopation is looking for active, friendly, like-minded individuals to raid and participate in guild events with us.  If this sounds like your thing, give me a pst or apply at http://www.guilded.gg/r/Adkj7D2zxR", -- [1]
 			"Jelleyroll-Dalaran", -- [2]
@@ -2288,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Jelleyroll-Dalaran|r",
 			[51] = 1534247149,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [103]
+		}, -- [73]
 		{
 			"can anyone get |cffffff00|Hquest:48521:-1:110:120:3|h[Charming the Lifeless]|h|r to work", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2310,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1534251853,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [104]
+		}, -- [74]
 		{
 			"how do you get to these treasures protected by runic wards?", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2332,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1534253890,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [105]
+		}, -- [75]
 		{
 			"cool ty wasnt sure if I needed a buff like on argus", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2354,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1534253954,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [106]
+		}, -- [76]
 		{
 			"is it still there for you?", -- [1]
 			"Xavia-Kel'Thuzad", -- [2]
@@ -2376,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaXavia|r",
 			[51] = 1534254040,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [107]
+		}, -- [77]
 		{
 			"ok hang on", -- [1]
 			"Xavia-Kel'Thuzad", -- [2]
@@ -2398,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaXavia|r",
 			[51] = 1534254049,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [108]
+		}, -- [78]
 		{
 			"see the discs behind it?", -- [1]
 			"Xavia-Kel'Thuzad", -- [2]
@@ -2420,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaXavia|r",
 			[51] = 1534254052,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [109]
+		}, -- [79]
 		{
 			"you have to click the symbols in that order", -- [1]
 			"Xavia-Kel'Thuzad", -- [2]
@@ -2442,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaXavia|r",
 			[51] = 1534254063,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [110]
+		}, -- [80]
 		{
 			";D", -- [1]
 			"Xavia-Kel'Thuzad", -- [2]
@@ -2464,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaXavia|r",
 			[51] = 1534254064,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [111]
+		}, -- [81]
 		{
 			"ya i know lol", -- [1]
 			"Xavia-Kel'Thuzad", -- [2]
@@ -2486,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaXavia|r",
 			[51] = 1534254070,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [112]
+		}, -- [82]
 		{
 			"lol", -- [1]
 			"Xavia-Kel'Thuzad", -- [2]
@@ -2508,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaXavia|r",
 			[51] = 1534254076,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [113]
+		}, -- [83]
 		{
 			"thx mate", -- [1]
 			"Xavia-Kel'Thuzad", -- [2]
@@ -2530,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaXavia|r",
 			[51] = 1534254088,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [114]
+		}, -- [84]
 		{
 			"is it better to scrap gear, or DE it?", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2552,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1534257098,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [115]
+		}, -- [85]
 		{
 			"Im an enchanter so will need mats sometime", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2574,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1534257140,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [116]
+		}, -- [86]
 		{
 			"cool ty", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2596,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1534257158,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [117]
+		}, -- [87]
 		{
 			"sorry miss click", -- [1]
 			"Phyllo-GrizzlyHills", -- [2]
@@ -2618,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Phyllo-GrizzlyHills|r",
 			[51] = 1534257163,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [118]
+		}, -- [88]
 		{
 			"np", -- [1]
 			"Phyllo-GrizzlyHills", -- [2]
@@ -2640,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Phyllo-GrizzlyHills|r",
 			[51] = 1534257169,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [119]
+		}, -- [89]
 		{
 			"brigadier thom is hardcxore", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2662,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1534257675,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [120]
+		}, -- [90]
 		{
 			"|cffffff00The Sliver is under attack!|r", -- [1]
 			"", -- [2]
@@ -2684,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1534257855,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [121]
+		}, -- [91]
 		{
 			"|cffffff00The Sliver is under attack!|r", -- [1]
 			"", -- [2]
@@ -2706,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1534258004,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [122]
+		}, -- [92]
 		{
 			"ya it is", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2728,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1534259096,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [123]
+		}, -- [93]
 		{
 			"wtf is this", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2750,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1534259604,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [124]
+		}, -- [94]
 		{
 			"I got gold", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2772,7 +2112,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1534259621,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [125]
+		}, -- [95]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:1181:Player-3693-092AD332:1:8:14:18:4294967295:4294967295:4294967295:4294967295|h[Got My Mind On My Money]|h|r!", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2794,7 +2134,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1534265825,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [126]
+		}, -- [96]
 		{
 			"where are these guys |cffffff00|Hquest:51390:-1:110:120:3|h[WANTED: The Crimson Cutthroats]|h|r", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2815,6 +2155,666 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1534266829,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:13095:Player-3693-08FCE7B4:1:8:14:18:4294967295:4294967295:4294967295:4294967295|h[Dread Chain]|h|r!", -- [1]
+			"Vergavesta-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vergavesta", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2574, -- [11]
+			"Player-3693-08FCE7B4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8787edVergavesta|r",
+			[51] = 1534270733,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [98]
+		{
+			"ugh the new |cffffff00|Hachievement:12989:Player-3693-092AD332:0:0:0:-1:0:0:0:0|h[Battle for Azeroth Pathfinder, Part One]|h|r requires exalted with all reps instead of just revered", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"1. General - Drustvar", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Drustvar", -- [9]
+			0, -- [10]
+			2820, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1534272420,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [99]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12831:Player-3693-092528F8:1:8:14:18:4294967295:4294967295:4294967295:4294967295|h[Freehold]|h|r!", -- [1]
+			"Howare-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Howare", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2835, -- [11]
+			"Player-3693-092528F8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaHoware|r",
+			[51] = 1534272559,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [100]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12497:Player-3693-092AD332:1:8:14:18:4294967295:4294967295:4294967295:4294967295|h[Drust Do It.]|h|r!", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3028, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1534274016,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [101]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12840:Player-3693-08FCE7B4:1:8:14:18:4294967295:4294967295:4294967295:4294967295|h[Tol Dagor]|h|r!", -- [1]
+			"Vergavesta-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vergavesta", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3401, -- [11]
+			"Player-3693-08FCE7B4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8787edVergavesta|r",
+			[51] = 1534276300,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [102]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:10582:Player-3693-0813C1A3:1:8:14:18:4294967295:4294967295:4294967295:4294967295|h[Professional Legion Master]|h|r!", -- [1]
+			"Pinkkittie", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Pinkkittie", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3440, -- [11]
+			"Player-3693-0813C1A3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Pinkkittie|r",
+			[51] = 1534276840,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [103]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12473:Player-3693-08FCE7B4:1:8:14:18:4294967295:4294967295:4294967295:4294967295|h[A Sound Plan]|h|r!", -- [1]
+			"Vergavesta-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vergavesta", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3514, -- [11]
+			"Player-3693-08FCE7B4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8787edVergavesta|r",
+			[51] = 1534277542,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [104]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:5794:Player-3693-0813C1A3:1:8:14:18:4294967295:4294967295:4294967295:4294967295|h[Time Flies When You're Having Fun]|h|r!", -- [1]
+			"Pinkkittie-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Pinkkittie", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3544, -- [11]
+			"Player-3693-0813C1A3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Pinkkittie|r",
+			[51] = 1534277886,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [105]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:522:Player-3693-0813C1A3:1:8:14:18:4294967295:4294967295:4294967295:4294967295|h[Somebody Likes Me]|h|r!", -- [1]
+			"Pinkkittie-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Pinkkittie", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3545, -- [11]
+			"Player-3693-0813C1A3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Pinkkittie|r",
+			[51] = 1534277886,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [106]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:10059:Player-3693-0813C1A3:1:8:14:18:4294967295:4294967295:4294967295:4294967295|h[Ain't No Mountain High Enough]|h|r!", -- [1]
+			"Pinkkittie-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Pinkkittie", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3547, -- [11]
+			"Player-3693-0813C1A3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Pinkkittie|r",
+			[51] = 1534277949,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [107]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12483:Player-3693-092528F8:1:8:14:18:4294967295:4294967295:4294967295:4294967295|h[Waycrest Manor]|h|r!", -- [1]
+			"Howare-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Howare", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3633, -- [11]
+			"Player-3693-092528F8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaHoware|r",
+			[51] = 1534278486,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [108]
+		{
+			"wts |cffa335ee|Hitem:163935::::::::116:64::54:2:1472:4786:::|h[Landoi's Scrutiny]|h|r 875k obo", -- [1]
+			"Matti-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Matti", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4207, -- [11]
+			"Player-3693-07A2E46B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3fc6eaMatti|r",
+			[51] = 1534282174,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [109]
+		{
+			"got the AH mount yet?", -- [1]
+			"Blandbacon-Mannoroth", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Blandbacon-Mannoroth", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4208, -- [11]
+			"Player-70-0B54E3A9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaBlandbacon-Mannoroth|r",
+			[51] = 1534282176,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [110]
+		{
+			"no", -- [1]
+			"Blandbacon-Mannoroth", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Blandbacon-Mannoroth", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4209, -- [11]
+			"Player-70-0B54E3A9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaBlandbacon-Mannoroth|r",
+			[51] = 1534282199,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [111]
+		{
+			"|cffffff00Old Drust Road is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Tiragarde Sound", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Tiragarde Sound", -- [9]
+			0, -- [10]
+			80, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1534324821,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [112]
+		{
+			"|cffffff00Bridgeport is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Tiragarde Sound", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Tiragarde Sound", -- [9]
+			0, -- [10]
+			382, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1534327109,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [113]
+		{
+			"|cffffff00Vigil Hill is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Tiragarde Sound", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Tiragarde Sound", -- [9]
+			0, -- [10]
+			595, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1534328698,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [114]
+		{
+			"|cffffff00Vigil Hill is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Tiragarde Sound", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Tiragarde Sound", -- [9]
+			0, -- [10]
+			621, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1534328826,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [115]
+		{
+			"|cffffff00Vigil Hill is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Tiragarde Sound", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Tiragarde Sound", -- [9]
+			0, -- [10]
+			633, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1534328887,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [116]
+		{
+			"120 gankers at estate", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"1. General - Tiragarde Sound", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Tiragarde Sound", -- [9]
+			0, -- [10]
+			681, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1534329218,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [117]
+		{
+			"war and dk", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"1. General - Tiragarde Sound", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Tiragarde Sound", -- [9]
+			0, -- [10]
+			682, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1534329223,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [118]
+		{
+			"|cffffff00Thovas Base-Camp is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Tiragarde Sound", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Tiragarde Sound", -- [9]
+			0, -- [10]
+			684, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1534329270,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [119]
+		{
+			"|cffffff00Vigil Hill is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Tiragarde Sound", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Tiragarde Sound", -- [9]
+			0, -- [10]
+			729, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1534329688,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [120]
+		{
+			"|cffffff00Vigil Hill is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Tiragarde Sound", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Tiragarde Sound", -- [9]
+			0, -- [10]
+			758, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1534329923,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [121]
+		{
+			"|cffffff00Vigil Hill is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Tiragarde Sound", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Tiragarde Sound", -- [9]
+			0, -- [10]
+			764, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1534329986,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [122]
+		{
+			"|cffffff00Daelin's Gate is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Tiragarde Sound", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Tiragarde Sound", -- [9]
+			0, -- [10]
+			782, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1534330064,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [123]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12473:Player-3693-092AD332:1:8:15:18:4294967295:4294967295:4294967295:4294967295|h[A Sound Plan]|h|r!", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1204, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1534332642,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [124]
+		{
+			"is argussian reach an emissary today?", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			146, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1534338708,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [125]
+		{
+			"is it not showing up in anyone else;s map?", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			150, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1534338728,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [126]
+		{
+			"mine's been stuck on court and highmountain with nothing new for days now", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			153, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1534338745,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},

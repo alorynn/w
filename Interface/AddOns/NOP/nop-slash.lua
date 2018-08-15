@@ -42,8 +42,8 @@ NOP.slash_handler = function(msg, editbox) -- /nop handler
     return
   end
   if cmd == "verbose" then
-    NOP.DB.verbose = not NOP.DB.verbose
-    print("Verbose mode", NOP.DB.verbose and "on" or "off")
+    NOP.AceDB.profile.verbose = not NOP.AceDB.profile.verbose
+    print("Verbose mode", NOP.AceDB.profile.verbose and "on" or "off")
     return
   end
   if cmd == "titem" then
@@ -116,7 +116,7 @@ NOP.slash_handler = function(msg, editbox) -- /nop handler
       NOP.profileTotal = nil
       print("Profiling ON")
     end
-    NOP.DB["profiling"] = NOP.profileOn
+    NOP.AceDB.profile["profiling"] = NOP.profileOn
     return
   end
   if cmd == "reset" then
@@ -126,32 +126,32 @@ NOP.slash_handler = function(msg, editbox) -- /nop handler
     return
   end
   if cmd == "skin" then
-    NOP.DB["skinButton"] = (not NOP.DB.skinButton)
+    NOP.AceDB.profile["skinButton"] = (not NOP.AceDB.profile.skinButton)
     NOP:ButtonLoad()
     NOP:QBSkin()
     return
   end
   if cmd == "quest" then
-    NOP.DB["quest"] = not NOP.DB.quest
+    NOP.AceDB.profile["quest"] = not NOP.AceDB.profile.quest
     NOP:QBUpdate()
     return
   end
   if cmd == "show" then
-    NOP.DB["visible"] = not NOP.DB.visible
+    NOP.AceDB.profile["visible"] = not NOP.AceDB.profile.visible
     NOP:BAG_UPDATE()
     NOP:QBUpdate()
     return
   end
   if cmd == "lock" then
-    NOP.DB["lockButton"] = (not NOP.DB.lockButton)
+    NOP.AceDB.profile["lockButton"] = (not NOP.AceDB.profile.lockButton)
     return
   end
   if cmd == "glow" then
-    NOP.DB["glowButton"] = (not NOP.DB.glowButton)
+    NOP.AceDB.profile["glowButton"] = (not NOP.AceDB.profile.glowButton)
     return
   end
   if cmd == "skip" then
-    NOP.DB["Skip"] = (not NOP.DB.Skip)
+    NOP.AceDB.profile["Skip"] = (not NOP.AceDB.profile.Skip)
     if NOP:BlacklistClear() then NOP:BAG_UPDATE() end
     return
   end
@@ -160,10 +160,10 @@ NOP.slash_handler = function(msg, editbox) -- /nop handler
     return
   end
   if cmd == "list" then
-    if (NOP.DB["T_BLACKLIST"] ~= nil and NOP.DB.T_BLACKLIST[0]) or (NOP.DB["T_BLACKLIST_Q"] ~= nil and NOP.DB.T_BLACKLIST_Q[0])then
+    if (NOP.AceDB.profile["T_BLACKLIST"] ~= nil and NOP.AceDB.profile.T_BLACKLIST[0]) or (NOP.AceDB.profile["T_BLACKLIST_Q"] ~= nil and NOP.AceDB.profile.T_BLACKLIST_Q[0])then
       print(P.L["BLACKLISTED_ITEMS"])
       print("--Button--")
-      for itemID,count in pairs(NOP.DB.T_BLACKLIST) do
+      for itemID,count in pairs(NOP.AceDB.profile.T_BLACKLIST) do
         if itemID and itemID > 0 then
           local name = GetItemInfo(itemID)
           if not name then
@@ -174,7 +174,7 @@ NOP.slash_handler = function(msg, editbox) -- /nop handler
         end
       end
       print("--Quest--")
-      for itemID,count in pairs(NOP.DB.T_BLACKLIST_Q) do
+      for itemID,count in pairs(NOP.AceDB.profile.T_BLACKLIST_Q) do
         if itemID and itemID > 0 then
           local name = GetItemInfo(itemID)
           if not name then
@@ -192,13 +192,13 @@ NOP.slash_handler = function(msg, editbox) -- /nop handler
   if cmd == "unlist" then
     local id = tonumber(arg)
     if id then
-      if NOP.DB["T_BLACKLIST"] ~= nil and NOP.DB.T_BLACKLIST[id] then NOP.DB.T_BLACKLIST[id] = nil; T_CHECK[id] = nil; NOP:BAG_UPDATE() end
-      if NOP.DB["T_BLACKLIST_Q"] ~= nil and NOP.DB.T_BLACKLIST_Q[id] then NOP.DB.T_BLACKLIST_Q[id] = nil; NOP:QBUpdate() end
+      if NOP.AceDB.profile["T_BLACKLIST"] ~= nil and NOP.AceDB.profile.T_BLACKLIST[id] then NOP.AceDB.profile.T_BLACKLIST[id] = nil; T_CHECK[id] = nil; NOP:BAG_UPDATE() end
+      if NOP.AceDB.profile["T_BLACKLIST_Q"] ~= nil and NOP.AceDB.profile.T_BLACKLIST_Q[id] then NOP.AceDB.profile.T_BLACKLIST_Q[id] = nil; NOP:QBUpdate() end
     end
     return
   end
   if cmd == "zone" then
-    NOP.DB["zoneUnlock"] = not NOP.DB.zoneUnlock
+    NOP.AceDB.profile["zoneUnlock"] = not NOP.AceDB.profile.zoneUnlock
     NOP:BAG_UPDATE()
     return
   end

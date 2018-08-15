@@ -1,4 +1,12 @@
 -- Revisions:
+--[[<p>09.10 14.08.2018</p>
+<p><ul>
+<li>Items with spells were erased after spec switch.</li>
+<li>Still hunting down problem with consumables and junk recoginized as usable. Already fixed most reasons, but still sometime happens.</li>
+<li>And finally catch it! Sometime shortly after login, usually at 1st login of the day on slow connection or slow computer seems that detection of blind mode fails and all lines in tooltip are shifted by 1. Seems that client for short time sees color blind mode enabled! This never did happens pre 8.0.x</li>
+<li>New version is printed once per account not once per profile.</li>
+</ul><hr></p>
+]]
 --[[<p>09.08 07.08.2018</p>
 <p><ul>
 <li>Item check cache cleared up every 10 seconds to catch new items.</li>

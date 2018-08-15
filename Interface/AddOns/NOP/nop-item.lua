@@ -45,7 +45,7 @@ function NOP:ItemIsBlacklisted(itemID) -- is item blacklisted?
   if T_BLACKLIST and T_BLACKLIST[itemID] then -- temporary blacklist
     self:Verbose("ItemIsBlacklisted:","itemID",itemID,"is temporary blacklisted")
     return true
-  elseif NOP.DB["T_BLACKLIST"] and NOP.DB.T_BLACKLIST[itemID] then -- Permanent blacklist
+  elseif NOP.AceDB.profile["T_BLACKLIST"] and NOP.AceDB.profile.T_BLACKLIST[itemID] then -- Permanent blacklist
     self:Verbose("ItemIsBlacklisted:","itemID",itemID,"is permanently blacklisted")
     return true
   elseif P.BLACKLIST[itemID] then
@@ -62,20 +62,25 @@ function NOP:ItemGetSpell(itemID) -- looking for usable item by spell attached t
   end
 end
 function NOP:ItemGetItem(itemID) -- looking for usable item by itemID returns (count, 2, zone, map, aura) or nil
-  local c,z,m,a = unpack(NOP.T_ITEMS[itemID],1,4)
-  if m and not m[self.mapID] then return end -- map lock
+  local ref = NOP.T_ITEMS[itemID]
+  if not ref then return end
+  local c,z,m,a = unpack(ref,1,4)
+  if m and not m[self.mapID] then
+    self:Verbose("ItemGetItem:","itemID",itemID,"rejected by map use")
+    return 0
+  end -- map lock reject
   if a then
     for n = 1, 40 do 
       local name, icon, countAura, debuffType, duration, expirationTime, unitCaster, isStealable, shouldConsolidate, spellID = UnitAura(P.UNITID_PLAYER, n,P.AURA_HELPFUL)
       if spellID and (spellID == a) then -- already have aura from that item
         if (spellID == P.AURA_MINERS_COFFEE) then -- extra handling for this aura
-          if (countAura >= NOP.DB.cofeeStacks) then -- it has enough of stacks?
+          if (countAura >= NOP.AceDB.profile.cofeeStacks) then -- it has enough of stacks?
             self:Verbose("ItemGetItem:","itemID",itemID,"rejected already have aura",name,"with",countAura,"stacks")
-            return
+            return 0
           end
         else
           self:Verbose("ItemGetItem:","itemID",itemID,"rejected already have aura",name)
-          return
+          return 0
         end
         break
       end
@@ -84,7 +89,7 @@ function NOP:ItemGetItem(itemID) -- looking for usable item by itemID returns (c
   return c[1], c[2], z, m, a
 end
 function NOP:ItemGetLockPattern(itemID) -- test tooltip for locked item
-  if NOP.DB.profession and self.pickLockLevel and (self.scanFrame:NumLines() > 2) then -- rogue picklock in use
+  if NOP.AceDB.profile.profession and self.pickLockLevel and (self.scanFrame:NumLines() > 2) then -- rogue picklock in use
     local locked = -1 
     if string.match(_G[P.TOOLTIP_SCAN .. "TextLeft" .. 2]:GetText(),"^" .. LOCKED .. "$") then locked = 3 end -- LOCKED is Blizzard's UI global variable and is localized text of Locked, it must be at start of 2dn line in tooltip
     if string.match(_G[P.TOOLTIP_SCAN .. "TextLeft" .. 3]:GetText(),"^" .. LOCKED .. "$") then locked = 4 end -- color-blind mode adds extra line
@@ -98,19 +103,27 @@ function NOP:ItemGetLockPattern(itemID) -- test tooltip for locked item
     end
   end
 end
-function NOP:ItemGetPattern(itemID) -- looking for usable item via pattern in tooltip returns (count, 2, zone, map) or nil
+function NOP:ItemGetPattern(itemID,bag,slot) -- looking for usable item via pattern in tooltip returns (count, 2, zone, map) or nil
+  self.scanFrame:ClearLines() -- clean tooltip frame
+  self.scanFrame:SetBagItem(bag, slot) -- fill up tooltip
+  if (self.scanFrame:NumLines() < 1) then -- bug, all items should have tooltip!
+    self.scanFrame = self:TooltipCreate(P.TOOLTIP_SCAN) -- workaround for this obscure bug is reset parent for tooltip
+    self.scanFrame:ClearLines() -- clean tooltip frame
+    print(format("|cFFFF0000Error|r broken tooltip for |cFFFF0000%s|r itemID(%d)",GetItemInfo(itemID) or "unknown",itemID))
+    return -- invalid tooltip
+  end
   local n, p = self:ItemGetLockPattern(itemID)
-  if n then return n,p end
+  if n and n > 0 then return n, p end
   for i=1,self.scanFrame:NumLines() do -- scan all lines in tooltip
     local headingLine = P.TOOLTIP_SCAN .. "TextLeft" .. i
     local heading = _G[headingLine]:GetText() -- get line from tooltip
     if heading and heading ~= "" then
-      for key, data in pairs(T_RECIPES_FIND) do
+      for key, data in pairs(T_RECIPES_FIND) do -- /run for k,v in pairs(NOP.private.T_RECIPES_FIND) do print(k,'"',unpack(v,2,2),'"') end
         local c, pattern, z, m, faction = unpack(data,1,5)
         if strfind(heading,pattern,1,true) then
           if faction then -- faction tokens can be skipped when exalted or when paragon reward pending
             local level, top, value, reward = self:GetReputation(heading)
-            if (level and (level > 7) and NOP.DB.SkipExalted) or reward then return end -- already exalted with faction for this token or have reward pending
+            if (level and (level > 7) and NOP.AceDB.profile.SkipExalted) or reward then return end -- already exalted with faction for this token or have reward pending
           end
           return c[1], c[2], z, m
         end
@@ -123,6 +136,7 @@ function NOP:ItemGetPattern(itemID) -- looking for usable item via pattern in to
       end
     end
   end
+  return 0 -- test OK but nothing found
 end
 local offset = 0
 function NOP:ItemToUse(itemID,count,prio,zone,map,aura) -- store item into table
@@ -168,38 +182,25 @@ function NOP:ItemScan() -- /run NOP:ItemScan(); foreach(T_USE,print)
             if (numCollected < limit) then
               self:ItemToUse(itemID, 1, P.PRI_OPEN, nil, nil)
             else
-              self:Verbose("ItemScan:","Pet",itemID,"have more than",limit)
+              self:Verbose("ItemScan:","Pet",itemID,"have more than limit",limit)
               T_USE[itemID] = nil
             end
           elseif linkType == P.ITEM_TYPE_ITEM then
-            local count, prio, zone, map, aura = self:ItemGetSpell(itemID)
-            if count and (count > 0) then
-              self:ItemToUse(itemID, count, prio, zone, map, aura)
+            local count, prio, zone, map, aura = self:ItemGetSpell(itemID) -- 1st lookup by spell
+            if count then 
+              if (count > 0) then self:ItemToUse(itemID, count, prio, zone, map, aura) else T_USE[itemID] = nil end
             else
-              self.scanFrame:ClearLines() -- clean tooltip frame
-              self.scanFrame:SetBagItem(bag, slot) -- fill up tooltip
-              if (self.scanFrame:NumLines() < 1) then -- bug, all items should have tooltip!
-                self:Verbose("ItemScan:","Broken tooltip on",itemID)
-                self.scanFrame = self:TooltipCreate(P.TOOLTIP_SCAN) -- workaround for this obscure bug is reset parent for tooltip
-                self.scanFrame:SetBagItem(bag, slot) -- fill up tooltip
-              end
-              if self.scanFrame:NumLines() > 0 then
-                if NOP.T_ITEMS and NOP.T_ITEMS[itemID] then
-                  count, prio, zone, map, aura = self:ItemGetItem(itemID)
-                  if count and (count > 0) then 
-                    self:ItemToUse(itemID, count, prio, zone, map, aura)
-                  end
-                else
-                  count, prio, zone, map, aura = self:ItemGetPattern(itemID)
-                  if count and (count > 0) then
-                    self:ItemToUse(itemID, count, prio, zone, map, aura)
-                  else
-                    T_USE[itemID] = nil
-                  end
-                end
+              count, prio, zone, map, aura = self:ItemGetItem(itemID) -- 2nd direct by itemID
+              if count then 
+                if (count > 0) then self:ItemToUse(itemID, count, prio, zone, map, aura) else T_USE[itemID] = nil end
               else
-                print(format("|cFFFF0000Error|r broken tooltip for |cFFFF0000%s|r itemID(%d)",GetItemInfo(itemID) or "unknown",itemID))
-                T_USE[itemID] = nil
+                count, prio, zone, map, aura = self:ItemGetPattern(itemID,bag,slot) -- 3rd lookup by tooltip text
+                if count then
+                  if (count > 0) then self:ItemToUse(itemID, count, prio, zone, map, aura) else T_USE[itemID] = nil end
+                else
+                  T_CHECK[itemID] = nil
+                  T_USE[itemID] = nil
+                end
               end
             end
           end
@@ -244,7 +245,7 @@ function NOP:ItemIsUsable(itemID) -- look in tooltip if there is no red text
           if i == 1 then -- all faction tokens should be checked
             local level, top, value, reward = self:GetReputation(text)
             if level then
-              if ((level > 7) and NOP.DB.SkipExalted) or reward then return false end -- already exalted or paragon reward
+              if ((level > 7) and NOP.AceDB.profile.SkipExalted) or reward then return false end -- already exalted or paragon reward
               if self:ItemCD(itemID) then return false end -- CD other tokens can be used then
             end
           end
@@ -357,7 +358,7 @@ function NOP:ItemShowNew() -- check bags for usable item and place it on button
       if inZone then
         p = P.PRI_POPUP
       else
-        if NOP.DB.zoneUnlock and not a then
+        if NOP.AceDB.profile.zoneUnlock and not a then
           p = p + P.PRI_SKIP -- shift priority behind items not zone locked
           inZone = true
         else

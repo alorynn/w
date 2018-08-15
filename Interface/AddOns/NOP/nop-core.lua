@@ -79,9 +79,10 @@ local T_REPS = P.T_REPS; assert(T_REPS ~= nil,'T_REPS')
 local T_SPELL_FIND = P.T_SPELL_FIND; assert(T_SPELL_FIND ~= nil,'T_SPELL_FIND')
 local T_USE = P.T_USE; assert(T_USE ~= nil,'T_USE')
 local VALIDATE = P.VALIDATE -- this can be null or false
+local TIMER_IDLE = P.TIMER_IDLE; assert(TIMER_IDLE ~= nil,'TIMER_IDLE')
 --
 function NOP:Verbose(...) -- if verbose then output
-  if NOP.DB.verbose then print(...) end
+  if NOP.AceDB.profile.verbose then print(...) end
 end
 function NOP:OnInitialize() -- app initialize
   self:InitEvents() -- register events
@@ -180,10 +181,11 @@ function NOP:ItemLoad() -- load template item tooltips
 end
 local spellLoaded = {}
 local tSpellRetry = {}
+local T_SPELL_BY_NAME = NOP.T_SPELL_BY_NAME; assert(T_SPELL_BY_NAME ~= nil,'T_SPELL_BY_NAME')
 function NOP:SpellLoad() -- load spell patterns
   local spellRetry = nil
   self:Profile(true)
-  for itemID,data in pairs(NOP.T_SPELL_BY_NAME) do
+  for itemID,data in pairs(T_SPELL_BY_NAME) do
     if not spellLoaded[itemID] then -- not in local cache yet
       local name = GetItemInfo(itemID) -- 1st fetch item into cache
       if type(name) ~= 'string' or name == '' then
@@ -198,16 +200,19 @@ function NOP:SpellLoad() -- load spell patterns
         local spell = GetItemSpell(itemID) -- now query if it has spell
         if type(spell) == 'string' and spell ~= "" then
           T_SPELL_FIND[spell] = data
-          spellLoaded[itemID] = true
+          spellLoaded[itemID] = spell
         else -- in normal case this code can't be rached because tables are validated
           if VALIDATE then print("GetItemSpell() no spell for",itemID, name, GetItemInfo(itemID)) end
           spellRetry = itemID
         end
       end
+    else
+      local spell = spellLoaded[itemID]
+      T_SPELL_FIND[spell] = T_SPELL_BY_NAME[itemID]
     end
   end
   self:Profile(false)
-  if spellRetry then self:TimerFire("SpellLoad", P.TIMER_IDLE) end -- it is even driven, but who trust Blizzard's API?
+  if spellRetry then self:TimerFire("SpellLoad", TIMER_IDLE) end -- it is even driven, but who trust Blizzard's API?
   self.spellLoad = true
 end
 function NOP:PickLockUpdate() -- rogue picklocking
@@ -248,22 +253,22 @@ function NOP:PrintTooltip(tooltip) -- dump tooltip in chat frame
   end
 end
 function NOP:BlacklistClear() -- reset temporary blacklist
-  if not NOP.DB.Skip and T_BLACKLIST and T_BLACKLIST[0] then -- have blacklisted items and is not session sticky, lets erase blacklist and check again
+  if not NOP.AceDB.profile.Skip and T_BLACKLIST and T_BLACKLIST[0] then -- have blacklisted items and is not session sticky, lets erase blacklist and check again
     wipe(T_BLACKLIST) -- empty list
     wipe(T_CHECK)
     return true
   end
 end
 function NOP:BlacklistReset() -- reset permanent blacklist
-  if (type(NOP.DB.T_BLACKLIST) == "table") then
-    wipe(NOP.DB.T_BLACKLIST)
+  if (type(NOP.AceDB.profile.T_BLACKLIST) == "table") then
+    wipe(NOP.AceDB.profile.T_BLACKLIST)
   else
-    NOP.DB.T_BLACKLIST = {} 
+    NOP.AceDB.profile.T_BLACKLIST = {} 
   end
-  if (type(NOP.DB.T_BLACKLIST_Q) == "table") then
-    wipe(NOP.DB.T_BLACKLIST_Q)
+  if (type(NOP.AceDB.profile.T_BLACKLIST_Q) == "table") then
+    wipe(NOP.AceDB.profile.T_BLACKLIST_Q)
   else
-    NOP.DB.T_BLACKLIST_Q = {} 
+    NOP.AceDB.profile.T_BLACKLIST_Q = {} 
   end
   wipe(T_CHECK)
   self:BAG_UPDATE()
@@ -272,15 +277,15 @@ function NOP:BlacklistItem(isPermanent,itemID) -- right click will add item into
   if itemID then
     local name = GetItemInfo(itemID)
     if isPermanent then
-      if not (type(NOP.DB.T_BLACKLIST) == "table") then NOP.DB.T_BLACKLIST = {} end
-      NOP.DB.T_BLACKLIST[0] = true
-      NOP.DB.T_BLACKLIST[itemID] = true
+      if not (type(NOP.AceDB.profile.T_BLACKLIST) == "table") then NOP.AceDB.profile.T_BLACKLIST = {} end
+      NOP.AceDB.profile.T_BLACKLIST[0] = true
+      NOP.AceDB.profile.T_BLACKLIST[itemID] = true
       print(L["PERMA_BLACKLIST"],name or itemID)
     else
       if not (type(T_BLACKLIST) == "table") then T_BLACKLIST = {} end
       T_BLACKLIST[0] = true -- blacklist is defined
       T_BLACKLIST[itemID] = true
-      if NOP.DB.Skip then
+      if NOP.AceDB.profile.Skip then
         print(L["SESSION_BLACKLIST"],name or itemID)
       else
         print(L["TEMP_BLACKLIST"],name or itemID)
@@ -323,7 +328,7 @@ function NOP:removekey(t, key) -- remove item in hash table by key
 end
 local HERALD_ANNOUNCED = {}
 function NOP:CheckBuilding(toCheck) -- recheck (force request landing page) and annonce
-  if not NOP.DB.herald then return end
+  if not NOP.AceDB.profile.herald then return end
   if toCheck then C_Garrison.RequestLandingPageShipmentInfo(); return; end
   if C_Garrison.HasGarrison(LE_GARRISON_TYPE_6_0) then -- garrison shipments
     local buildings = C_Garrison.GetBuildings(LE_GARRISON_TYPE_6_0)

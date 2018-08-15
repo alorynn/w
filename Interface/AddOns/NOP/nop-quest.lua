@@ -37,27 +37,27 @@ function NOP:QBAnchorMove() -- move anchor for quest bar
   if not self.QB then return end
   self.QB:SetClampedToScreen(true)
   self.QB:ClearAllPoints()
-  if NOP.DB.qb_sticky then
+  if NOP.AceDB.profile.qb_sticky then
     self.QB:SetAllPoints(P.BUTTON_FRAME)
   else
-    local frame = NOP.DB.qb[2] or "none"
+    local frame = NOP.AceDB.profile.qb[2] or "none"
     if _G[frame] then frame = _G[frame] else frame = nil end -- test if can find frame by name in saved LUA variables
     if not frame then
-      if NOP.DB.HideInCombat then frame = self.frameHiderQ else frame = UIParent end -- restore frame anchor via requested state
+      if NOP.AceDB.profile.HideInCombat then frame = self.frameHiderQ else frame = UIParent end -- restore frame anchor via requested state
     end
-    if not NOP.DB.HideInCombat and frame == self.frameHiderQ then frame = UIParent end -- if hide in combat is disabled then can't be anchored to hider
-    self.QB:SetPoint(NOP.DB.qb[1] or "CENTER", frame, NOP.DB.qb[3] or "CENTER", NOP.DB.qb[4] or 0, NOP.DB.qb[5] or 0)
+    if not NOP.AceDB.profile.HideInCombat and frame == self.frameHiderQ then frame = UIParent end -- if hide in combat is disabled then can't be anchored to hider
+    self.QB:SetPoint(NOP.AceDB.profile.qb[1] or "CENTER", frame, NOP.AceDB.profile.qb[3] or "CENTER", NOP.AceDB.profile.qb[4] or 0, NOP.AceDB.profile.qb[5] or 0)
   end
 end
 function NOP:QBAnchorSave() -- save Anchor pos after button position change
   if not self.QB then return end
   local point, relativeTo, relativePoint, xOfs, yOfs = self.QB:GetPoint()
-  NOP.DB.qb = {point or "CENTER", relativeTo and relativeTo.GetName and relativeTo:GetName() or "UIParent", relativePoint or "CENTER", xOfs or 0, yOfs or 0}
+  NOP.AceDB.profile.qb = {point or "CENTER", relativeTo and relativeTo.GetName and relativeTo:GetName() or "UIParent", relativePoint or "CENTER", xOfs or 0, yOfs or 0}
 end
 function NOP:QBAnchorSize() -- resize quest bar anchor to current icon size
   if not self.QB then return end
   self.QB:SetClampedToScreen(true)
-  local iconSize = NOP.DB.iconSize or P.DEFAULT_ICON_SIZE
+  local iconSize = NOP.AceDB.profile.iconSize or P.DEFAULT_ICON_SIZE
   if not (GetScreenWidth() > 1500) then iconSize = math.floor(iconSize * 0.75) end
   self.QB:SetWidth(iconSize)
   self.QB:SetHeight(iconSize)
@@ -73,14 +73,14 @@ function NOP:QBAnchor() -- create quest bar anchor frame
   self:QBAnchorSize() -- same size as item button
   self:QBAnchorMove() -- same position as item button
   self.QB.buttons = {} -- create empty button list
-  if NOP.DB.quest then 
+  if NOP.AceDB.profile.quest then 
     if not (self.QB:IsShown() or self.QB:IsVisible()) then self.QB:Show() end
   else
     if self.QB:IsShown() or self.QB:IsVisible() then self.QB:Hide() end
   end -- state of anchor
 end
 function NOP:QBButtonSize(bt) -- resize button to current icon size
-  local iconSize = NOP.DB.iconSize or P.DEFAULT_ICON_SIZE
+  local iconSize = NOP.AceDB.profile.iconSize or P.DEFAULT_ICON_SIZE
   if not (GetScreenWidth() > 1500) then iconSize = math.floor(iconSize * 0.75) end
   bt:SetWidth(iconSize)
   bt:SetHeight(iconSize)
@@ -108,8 +108,8 @@ function NOP:QBButton(i, p) -- create new quest bar button
   local timer = bt.timer
   local font, size = bt.count:GetFont()
   timer:SetFont(font, size-2,"OUTLINE")
-  self:ButtonSwap(bt,NOP.DB.swap)
-  self:ButtonSkin(bt,NOP.DB.skinButton)
+  self:ButtonSwap(bt,NOP.AceDB.profile.swap)
+  self:ButtonSkin(bt,NOP.AceDB.profile.skinButton)
   p.buttons[i] = bt -- store button ref to anchor frame
   return bt -- return button
 end
@@ -146,9 +146,9 @@ function NOP:QBBlacklist(isPermanent,itemID) -- add quest item to blacklist
   if itemID then
     local name = GetItemInfo(itemID)
     if isPermanent then
-      if not NOP.DB["T_BLACKLIST_Q"] then NOP.DB.T_BLACKLIST_Q = {} end
-      NOP.DB.T_BLACKLIST_Q[0] = true
-      NOP.DB.T_BLACKLIST_Q[itemID] = true
+      if not NOP.AceDB.profile["T_BLACKLIST_Q"] then NOP.AceDB.profile.T_BLACKLIST_Q = {} end
+      NOP.AceDB.profile.T_BLACKLIST_Q[0] = true
+      NOP.AceDB.profile.T_BLACKLIST_Q[itemID] = true
       print(P.L["PERMA_BLACKLIST"],name or itemID)
     else
       T_BLACKLIST_Q[0] = true -- blacklist is defined
@@ -160,18 +160,18 @@ function NOP:QBBlacklist(isPermanent,itemID) -- add quest item to blacklist
 end
 function NOP:QBPostClick(bt,mouse) -- click on button, place hotkey if none
   if mouse and (mouse == 'RightButton') then self:QBBlacklist(IsControlKeyDown(),bt.itemID) end
-  if NOP.DB.keyBind and (bt.itemID ~= self.AceDB.char.questBarID) then
+  if NOP.AceDB.profile.keyBind and (bt.itemID ~= self.AceDB.char.questBarID) then
     self.AceDB.char.questBarID = bt.itemID
     self:QBKeyBind(bt)
   end
 end
 function NOP:QBKeyBind(bt,i) -- define hotkey
-  if not (bt and NOP.DB.keyBind and string.len(NOP.DB.keyBind) > 0) then return end
+  if not (bt and NOP.AceDB.profile.keyBind and string.len(NOP.AceDB.profile.keyBind) > 0) then return end
   if self:inCombat() then self:TimerFire("QBKeyBind", P.TIMER_IDLE, bt, i); return end
   if bt and bt.GetName and string.len(bt:GetName()) > 0 then 
     self:QBClearBind()
-    SetBindingClick(NOP.DB.keyBind, bt:GetName(), 'LeftButton')
-    if bt.hotkey then bt.hotkey:SetText(self:ButtonHotKey(NOP.DB.keyBind)) end
+    SetBindingClick(NOP.AceDB.profile.keyBind, bt:GetName(), 'LeftButton')
+    if bt.hotkey then bt.hotkey:SetText(self:ButtonHotKey(NOP.AceDB.profile.keyBind)) end
     self.qbKBIndex = i
   end
 end
@@ -180,23 +180,23 @@ function NOP:QBClearBind() -- remove hotkey from bar and key-binds
   for _,bt in ipairs(self.QB.buttons) do -- at least one button can have hot-key, clear all
     if bt and bt.hotkey and bt.hotkey.SetText then bt.hotkey:SetText("") end
   end
-  SetBinding(NOP.DB.keyBind) -- unbind key
+  SetBinding(NOP.AceDB.profile.keyBind) -- unbind key
   self.qbKBIndex = nil -- no index
 end
 function NOP:QBButtonAnchor(i) -- anchor buttons
   local button = self.QB.buttons[i]
-  local parent = (i == 1 or (i-1) % NOP.DB.slots == 0) and (P.QB_NAME.."Anchor") or (P.QB_NAME..(i-1)) -- anchor to anchor frame or last button
+  local parent = (i == 1 or (i-1) % NOP.AceDB.profile.slots == 0) and (P.QB_NAME.."Anchor") or (P.QB_NAME..(i-1)) -- anchor to anchor frame or last button
   local rowspace = 0
-  if (i > 1) and ((i-1) % NOP.DB.slots == 0) then rowspace = -NOP.DB.expand * (NOP.DB.iconSize + NOP.DB.spacing) * floor(i/NOP.DB.slots) end
+  if (i > 1) and ((i-1) % NOP.AceDB.profile.slots == 0) then rowspace = -NOP.AceDB.profile.expand * (NOP.AceDB.profile.iconSize + NOP.AceDB.profile.spacing) * floor(i/NOP.AceDB.profile.slots) end
   button:ClearAllPoints()
-  if NOP.DB.direction == "RIGHT" then
-    button:SetPoint("LEFT", parent, "RIGHT", NOP.DB.spacing, -rowspace)
-  elseif NOP.DB.direction == "LEFT" then
-    button:SetPoint("RIGHT", parent, "LEFT", -NOP.DB.spacing, rowspace)
-  elseif NOP.DB.direction == "UP" then
-    button:SetPoint("BOTTOM", parent, "TOP", rowspace, NOP.DB.spacing)
-  elseif NOP.DB.direction == "DOWN" then
-    button:SetPoint("TOP", parent, "BOTTOM", -rowspace, -NOP.DB.spacing)
+  if NOP.AceDB.profile.direction == "RIGHT" then
+    button:SetPoint("LEFT", parent, "RIGHT", NOP.AceDB.profile.spacing, -rowspace)
+  elseif NOP.AceDB.profile.direction == "LEFT" then
+    button:SetPoint("RIGHT", parent, "LEFT", -NOP.AceDB.profile.spacing, rowspace)
+  elseif NOP.AceDB.profile.direction == "UP" then
+    button:SetPoint("BOTTOM", parent, "TOP", rowspace, NOP.AceDB.profile.spacing)
+  elseif NOP.AceDB.profile.direction == "DOWN" then
+    button:SetPoint("TOP", parent, "BOTTOM", -rowspace, -NOP.AceDB.profile.spacing)
   end
 end
 function NOP:QBButtonAdd(i, itemID) -- set new item
@@ -207,7 +207,7 @@ function NOP:QBButtonAdd(i, itemID) -- set new item
   bt.count:SetText((type(count) == "number") and (count > 1) and count or "")
   bt:SetAttribute("type1","item") -- "type1" Unmodified left click, old type*.
   bt:SetAttribute("item1", LIB_QUESTITEM:GetItemString(itemID))
-  if (LIB_QUESTITEM.startsQuestItems[itemID] and not LIB_QUESTITEM.activeQuestItems[itemID]) or (itemID == P.DEFAULT_ITEMID and NOP.DB.visible) then -- quest item or fake button
+  if (LIB_QUESTITEM.startsQuestItems[itemID] and not LIB_QUESTITEM.activeQuestItems[itemID]) or (itemID == P.DEFAULT_ITEMID and NOP.AceDB.profile.visible) then -- quest item or fake button
     self.QB.refreshBar = true -- even QUEST_ACCEPTED need call LIB_QUESTITEM:Scan()
     bt.questMark:Show()
   else
@@ -234,7 +234,7 @@ end
 function NOP:QBUpdate() -- update all buttons on quest bar
   if not self.QB or not self.QB.buttons then return end -- not yet initialized
   if self:inCombat() then self:TimerFire("QBUpdate", P.TIMER_IDLE); return end
-  if not NOP.DB.quest then 
+  if not NOP.AceDB.profile.quest then 
     if self.QB:IsShown() or self.QB:IsVisible() then self.QB:Hide() end
     return
   end -- quest bar is disabled and hidden nothing to do
@@ -243,10 +243,10 @@ function NOP:QBUpdate() -- update all buttons on quest bar
   if not (self.QB:IsShown() or self.QB:IsVisible()) then self.QB:Show() end
   local i = 1
   for itemID, _ in pairs(LIB_QUESTITEM.startsQuestItems) do -- place all items starting quests
-    if not (LIB_QUESTITEM.activeQuestItems[itemID] or NOP.DB.T_BLACKLIST_Q[itemID] or T_BLACKLIST_Q[itemID]) then self:QBButtonAdd(i, itemID); i = i + 1 end
+    if not (LIB_QUESTITEM.activeQuestItems[itemID] or NOP.AceDB.profile.T_BLACKLIST_Q[itemID] or T_BLACKLIST_Q[itemID]) then self:QBButtonAdd(i, itemID); i = i + 1 end
   end
   for itemID, _ in pairs(LIB_QUESTITEM.usableQuestItems) do -- place all usable items
-    if not (LIB_QUESTITEM.startsQuestItems[itemID] or NOP.DB.T_BLACKLIST_Q[itemID] or T_BLACKLIST_Q[itemID]) then self:QBButtonAdd(i, itemID); i = i + 1 end -- this item is already on bar
+    if not (LIB_QUESTITEM.startsQuestItems[itemID] or NOP.AceDB.profile.T_BLACKLIST_Q[itemID] or T_BLACKLIST_Q[itemID]) then self:QBButtonAdd(i, itemID); i = i + 1 end -- this item is already on bar
   end
   if (i > 1) then -- have at least one item on quest bar
     if not self.qbKBIndex then -- no button has hot-key assigned
@@ -255,15 +255,15 @@ function NOP:QBUpdate() -- update all buttons on quest bar
     end
     return
   end
-  if NOP.DB.visible then -- create quest bar with fake item and exclamation over it
-    for i = 1, NOP.DB.slots * 2 do
+  if NOP.AceDB.profile.visible then -- create quest bar with fake item and exclamation over it
+    for i = 1, NOP.AceDB.profile.slots * 2 do
       self:QBButtonAdd(i, P.DEFAULT_ITEMID)
     end
   end
 end
 function NOP:QBSkin() -- skin buttons on quest bar
   if not self.QB then return end
-  for i = 1, #self.QB.buttons do self:ButtonSkin(self.QB.buttons[i],NOP.DB.skinButton) end
+  for i = 1, #self.QB.buttons do self:ButtonSkin(self.QB.buttons[i],NOP.AceDB.profile.skinButton) end
 end
 function NOP:QBQuestAccept() -- refresh items on Quest Items Bar when quest is accepted, some items can change state, but bags get not update event!
   if not (self.LQI and self.QB and self.QB.refreshBar) then return end -- nothing to do
@@ -283,7 +283,7 @@ end
 function NOP:QBAutoQuest()
   hooksecurefunc("AutoQuestPopupTracker_AddPopUp", 
     function(questID, popUpType)
-      if NOP.DB.autoquest and (type(questID) == "number") and (type(popUpType) == "string") and questID then
+      if NOP.AceDB.profile.autoquest and (type(questID) == "number") and (type(popUpType) == "string") and questID then
         local index = GetQuestLogIndexByID(questID)
         if index then NOP:QBAutoQuestTimer(popUpType,questID) end -- taint prevent
       end

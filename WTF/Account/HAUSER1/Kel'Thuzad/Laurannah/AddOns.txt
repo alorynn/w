@@ -144,3 +144,5 @@ DBM-TombofSargeras: enabled
 DBM-TrialofValor: enabled
 DBM-Uldir: enabled
 DBM-WorldEvents: enabled
+Rarity: enabled
+Rarity_Options: enabled

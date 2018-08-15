@@ -12,13 +12,14 @@ local ADDON, P = ...
 local NOP = LibStub("AceAddon-3.0"):GetAddon(ADDON)
 --
 local T_CHECK = P.T_CHECK; assert(T_CHECK ~= nil,'T_CHECK')
+local T_USE = P.T_USE; assert(T_USE ~= nil,'T_USE')
 --
 function NOP:ProfileChanged() -- LUA stored variables changed
-  self.DB = self.AceDB.profile
   self:ButtonLoad()
   self:QBUpdate()
   self:QBSkin()
   wipe(T_CHECK)
+  wipe(T_USE)
   self:BAG_UPDATE()
 end
 function NOP:ProfileLoad() -- LUA stored variables load and init
@@ -62,8 +63,7 @@ function NOP:ProfileLoad() -- LUA stored variables load and init
   self.AceDB.RegisterCallback(self, "OnProfileChanged", "ProfileChanged")
   self.AceDB.RegisterCallback(self, "OnProfileCopied",  "ProfileChanged")
   self.AceDB.RegisterCallback(self, "OnProfileReset",   "ProfileChanged")
-  self.DB = self.AceDB.profile -- profile
-  self.profileOn = self.DB.profiling
+  self.profileOn = self.AceDB.profile.profiling
 end
 function NOP:OptionsLoad() -- load options for UI config
   local NewOpenablesOptions = {
@@ -98,8 +98,8 @@ function NOP:OptionsLoad() -- load options for UI config
             order = 3,
             type = "toggle",
             -- width = "full",    
-            set = function(info,val) NOP.DB["skinButton"] = val; NOP:ButtonLoad(); NOP:QBSkin(); end,
-            get = function(info) return NOP.DB.skinButton end,
+            set = function(info,val) NOP.AceDB.profile["skinButton"] = val; NOP:ButtonLoad(); NOP:QBSkin(); end,
+            get = function(info) return NOP.AceDB.profile.skinButton end,
           },
           masque = {
             name = P.L["Masque Enable"],
@@ -107,8 +107,8 @@ function NOP:OptionsLoad() -- load options for UI config
             desc = P.L["Need UI reload or relogin to activate."],
             type = "toggle",
             -- width = "full",    
-            set = function(info,val) NOP.DB["masque"] = val; end,
-            get = function(info) return NOP.DB.masque end,
+            set = function(info,val) NOP.AceDB.profile["masque"] = val; end,
+            get = function(info) return NOP.AceDB.profile.masque end,
           },
           backdrop = {
             name = P.L["Backdrop Button"],
@@ -116,8 +116,8 @@ function NOP:OptionsLoad() -- load options for UI config
             desc = P.L["Create or remove backdrop around button, need reload UI."],
             type = "toggle",
             -- width = "full",    
-            set = function(info,val) NOP.DB["backdrop"] = val; end,
-            get = function(info) return NOP.DB.backdrop end,
+            set = function(info,val) NOP.AceDB.profile["backdrop"] = val; end,
+            get = function(info) return NOP.AceDB.profile.backdrop end,
           },
           lock = {
             name = P.L["Lock Button"],
@@ -125,8 +125,8 @@ function NOP:OptionsLoad() -- load options for UI config
             desc = P.L["Lock button in place to disbale drag."],
             type = "toggle",
             -- width = "full",    
-            set = function(info,val) NOP.DB["lockButton"] = val; end,
-            get = function(info) return NOP.DB.lockButton end,
+            set = function(info,val) NOP.AceDB.profile["lockButton"] = val; end,
+            get = function(info) return NOP.AceDB.profile.lockButton end,
           },
           glow = {
             name = P.L["Glow Button"],
@@ -134,8 +134,8 @@ function NOP:OptionsLoad() -- load options for UI config
             desc = P.L["When item is placed by zone change, button will have glow effect."],
             type = "toggle",
             -- width = "full",    
-            set = function(info,val) NOP.DB["glowButton"] = val; end,
-            get = function(info) return NOP.DB.glowButton end,
+            set = function(info,val) NOP.AceDB.profile["glowButton"] = val; end,
+            get = function(info) return NOP.AceDB.profile.glowButton end,
           },
           skip = {
             name = P.L["Session skip"],
@@ -143,8 +143,8 @@ function NOP:OptionsLoad() -- load options for UI config
             desc = P.L["Skipping item last until relog."],
             type = "toggle",
             -- width = "full",
-            set = function(info,val) NOP.DB["Skip"] = val; if NOP:BlacklistClear() then NOP:BAG_UPDATE() end; end,
-            get = function(info) return NOP.DB.Skip end,
+            set = function(info,val) NOP.AceDB.profile["Skip"] = val; if NOP:BlacklistClear() then NOP:BAG_UPDATE() end; end,
+            get = function(info) return NOP.AceDB.profile.Skip end,
           },
           zoneUnlock = {
             name = P.L["Zone unlock"],
@@ -152,8 +152,8 @@ function NOP:OptionsLoad() -- load options for UI config
             desc = P.L["Don't zone restrict openable items"],
             type = "toggle",
             -- width = "full",
-            set = function(info,val) NOP.DB["zoneUnlock"] = val; NOP:BAG_UPDATE(); end,
-            get = function(info) return NOP.DB.zoneUnlock end,
+            set = function(info,val) NOP.AceDB.profile["zoneUnlock"] = val; NOP:BAG_UPDATE(); end,
+            get = function(info) return NOP.AceDB.profile.zoneUnlock end,
           },
           profession = {
             name = P.L["Profession"],
@@ -161,8 +161,8 @@ function NOP:OptionsLoad() -- load options for UI config
             desc = P.L["Place items usable by lockpicking"],
             type = "toggle",
             -- width = "full",
-            set = function(info,val) NOP.DB["profession"] = val; NOP:BAG_UPDATE(); end,
-            get = function(info) return NOP.DB.profession end,
+            set = function(info,val) NOP.AceDB.profile["profession"] = val; NOP:BAG_UPDATE(); end,
+            get = function(info) return NOP.AceDB.profile.profession end,
           },
           quest = {
             name = P.L["Quest bar"],
@@ -170,8 +170,8 @@ function NOP:OptionsLoad() -- load options for UI config
             desc = P.L["Quest items placed on bar"],
             type = "toggle",
             -- width = "full",
-            set = function(info,val) NOP.DB["quest"] = val; NOP:QBUpdate(); end,
-            get = function(info) return NOP.DB.quest end,
+            set = function(info,val) NOP.AceDB.profile["quest"] = val; NOP:QBUpdate(); end,
+            get = function(info) return NOP.AceDB.profile.quest end,
           },
           visible = {
             name = P.L["Visible"],
@@ -179,8 +179,8 @@ function NOP:OptionsLoad() -- load options for UI config
             desc = P.L["Make button visible by placing fake item on it"],
             type = "toggle",
             -- width = "full",
-            set = function(info,val) NOP.DB["visible"] = val; NOP:BAG_UPDATE(); NOP:QBUpdate(); end,
-            get = function(info) return NOP.DB.visible end,
+            set = function(info,val) NOP.AceDB.profile["visible"] = val; NOP:BAG_UPDATE(); NOP:QBUpdate(); end,
+            get = function(info) return NOP.AceDB.profile.visible end,
           },
           swap = {
             name = P.L["Swap"],
@@ -188,8 +188,8 @@ function NOP:OptionsLoad() -- load options for UI config
             desc = P.L["Swap location of numbers for count and cooldown timer"],
             type = "toggle",
             -- width = "full",
-            set = function(info,val) NOP.DB["swap"] = val; NOP:ButtonSwap(NOP.BF,NOP.DB.swap) end,
-            get = function(info) return NOP.DB.swap end,
+            set = function(info,val) NOP.AceDB.profile["swap"] = val; NOP:ButtonSwap(NOP.BF,NOP.AceDB.profile.swap) end,
+            get = function(info) return NOP.AceDB.profile.swap end,
           },
           autoquest = {
             name = P.L["AutoQuest"],
@@ -197,8 +197,8 @@ function NOP:OptionsLoad() -- load options for UI config
             desc = P.L["Auto accept or hand out quests from AutoQuestPopupTracker!"],
             type = "toggle",
             -- width = "full",
-            set = function(info,val) NOP.DB["autoquest"] = val; end,
-            get = function(info) return NOP.DB.autoquest end,
+            set = function(info,val) NOP.AceDB.profile["autoquest"] = val; end,
+            get = function(info) return NOP.AceDB.profile.autoquest end,
           },
           strata = {
             name = P.L["Strata"],
@@ -206,8 +206,8 @@ function NOP:OptionsLoad() -- load options for UI config
             desc = P.L["Set strata for items button to HIGH, place it over normal windows."],
             type = "toggle",
             -- width = "full",
-            set = function(info,val) NOP.DB["strata"] = val; NOP.BF:SetFrameStrata(NOP.DB.strata and "HIGH" or "MEDIUM")  end,
-            get = function(info) return NOP.DB.strata end,
+            set = function(info,val) NOP.AceDB.profile["strata"] = val; NOP.BF:SetFrameStrata(NOP.AceDB.profile.strata and "HIGH" or "MEDIUM")  end,
+            get = function(info) return NOP.AceDB.profile.strata end,
           },
           herald = {
             name = P.L["Herald"],
@@ -215,8 +215,8 @@ function NOP:OptionsLoad() -- load options for UI config
             desc = P.L["Announce completed work orders, artifact points etc.."],
             type = "toggle",
             -- width = "full",
-            set = function(info,val) NOP.DB["herald"] = val; end,
-            get = function(info) return NOP.DB.herald end,
+            set = function(info,val) NOP.AceDB.profile["herald"] = val; end,
+            get = function(info) return NOP.AceDB.profile.herald end,
           },
           SkipOnError = {
             name = P.L["Skip on Error"],
@@ -224,8 +224,8 @@ function NOP:OptionsLoad() -- load options for UI config
             desc = P.L["Temporary blacklist item when click produce error message"],
             type = "toggle",
             -- width = "full",
-            set = function(info,val) NOP.DB["SkipOnError"] = val; end,
-            get = function(info) return NOP.DB.SkipOnError end,
+            set = function(info,val) NOP.AceDB.profile["SkipOnError"] = val; end,
+            get = function(info) return NOP.AceDB.profile.SkipOnError end,
           },
           HideInCombat = {
             name = P.L["HIDE_IN_COMBAT"],
@@ -234,10 +234,10 @@ function NOP:OptionsLoad() -- load options for UI config
             type = "toggle",
             -- width = "full",
             set = function(info,val)
-              NOP.DB["HideInCombat"] = val; 
-              RegisterStateDriver(self.frameHiderB, "visibility", string.format( "[petbattle] [vehicleui] %shide; show", NOP.DB.HideInCombat and "[combat] " or ""))
+              NOP.AceDB.profile["HideInCombat"] = val; 
+              RegisterStateDriver(self.frameHiderB, "visibility", string.format( "[petbattle] [vehicleui] %shide; show", NOP.AceDB.profile.HideInCombat and "[combat] " or ""))
             end,
-            get = function(info) return NOP.DB.HideInCombat end,
+            get = function(info) return NOP.AceDB.profile.HideInCombat end,
           },
           ShowReputation = {
             name = P.L["SHOW_REPUTATION"],
@@ -245,8 +245,8 @@ function NOP:OptionsLoad() -- load options for UI config
             desc = P.L["SHOW_REPUTATION_HELP"],
             type = "toggle",
             -- width = "full",
-            set = function(info,val) NOP.DB["ShowReputation"] = val; end,
-            get = function(info) return NOP.DB.ShowReputation end,
+            set = function(info,val) NOP.AceDB.profile["ShowReputation"] = val; end,
+            get = function(info) return NOP.AceDB.profile.ShowReputation end,
           },
           SkipExalted = {
             name = P.L["SKIP_EXALTED"],
@@ -254,8 +254,8 @@ function NOP:OptionsLoad() -- load options for UI config
             desc = P.L["SKIP_EXALTED_HELP"],
             type = "toggle",
             -- width = "full",
-            set = function(info,val) NOP.DB["SkipExalted"] = val; wipe(T_CHECK); end,
-            get = function(info) return NOP.DB.SkipExalted end,
+            set = function(info,val) NOP.AceDB.profile["SkipExalted"] = val; wipe(T_CHECK); wipe(T_USE) end,
+            get = function(info) return NOP.AceDB.profile.SkipExalted end,
           },
         },
       },
@@ -278,8 +278,8 @@ function NOP:OptionsLoad() -- load options for UI config
             max = 1000,
             step = 1,
             bigStep = 10,
-            set = function(info,val) NOP.DB.button[4] = val; NOP:ButtonMove(); end,
-            get = function(info) return NOP.DB.button[4] end,
+            set = function(info,val) NOP.AceDB.profile.button[4] = val; NOP:ButtonMove(); end,
+            get = function(info) return NOP.AceDB.profile.button[4] end,
           },
           GMFy = {
             name = "Y",
@@ -290,8 +290,8 @@ function NOP:OptionsLoad() -- load options for UI config
             max = 500,
             step = 1,
             bigStep = 10,
-            set = function(info,val) NOP.DB.button[5] = val; NOP:ButtonMove(); end,
-            get = function(info) return NOP.DB.button[5] end,
+            set = function(info,val) NOP.AceDB.profile.button[5] = val; NOP:ButtonMove(); end,
+            get = function(info) return NOP.AceDB.profile.button[5] end,
           },
           header2 = {
             name = P.L["Button size"],
@@ -307,8 +307,8 @@ function NOP:OptionsLoad() -- load options for UI config
             min = 16,
             max = 64,
             step = 1,
-            set = function(info,val) NOP.DB["iconSize"] = val; NOP:ButtonSize(); NOP:QBUpdate(); end,
-            get = function(info) return NOP.DB.iconSize end,
+            set = function(info,val) NOP.AceDB.profile["iconSize"] = val; NOP:ButtonSize(); NOP:QBUpdate(); end,
+            get = function(info) return NOP.AceDB.profile.iconSize end,
           },
           header3 = {
             name = "",
@@ -324,8 +324,8 @@ function NOP:OptionsLoad() -- load options for UI config
             min = 1,
             max = 5,
             step = 1,
-            set = function(info,val) NOP.DB["cofeeStacks"] = val; end,
-            get = function(info) return NOP.DB.cofeeStacks end,
+            set = function(info,val) NOP.AceDB.profile["cofeeStacks"] = val; end,
+            get = function(info) return NOP.AceDB.profile.cofeeStacks end,
           },
         },
       },
@@ -340,8 +340,8 @@ function NOP:OptionsLoad() -- load options for UI config
             desc = P.L["Anchor to Item button"],
             type = "toggle",
             width = "full",
-            set = function(info,val) NOP.DB["qb_sticky"] = val; NOP:QBUpdate(); end,
-            get = function(info) return NOP.DB.qb_sticky end,
+            set = function(info,val) NOP.AceDB.profile["qb_sticky"] = val; NOP:QBUpdate(); end,
+            get = function(info) return NOP.AceDB.profile.qb_sticky end,
           },
           slots = {
             name = P.L["Buttons per row"],
@@ -351,8 +351,8 @@ function NOP:OptionsLoad() -- load options for UI config
             min = 5,
             max = 20,
             step = 1,
-            set = function(info,val) NOP.DB["slots"] = val; NOP:QBUpdate(); end,
-            get = function(info) return NOP.DB.slots end,
+            set = function(info,val) NOP.AceDB.profile["slots"] = val; NOP:QBUpdate(); end,
+            get = function(info) return NOP.AceDB.profile.slots end,
           },
           spacing = {
             name = P.L["Spacing"],
@@ -362,8 +362,8 @@ function NOP:OptionsLoad() -- load options for UI config
             min = -10,
             max = 10,
             step = 1,
-            set = function(info,val) NOP.DB["spacing"] = val; NOP:QBUpdate(); end,
-            get = function(info) return NOP.DB.spacing end,
+            set = function(info,val) NOP.AceDB.profile["spacing"] = val; NOP:QBUpdate(); end,
+            get = function(info) return NOP.AceDB.profile.spacing end,
           },
           header1 = {
             name = "",
@@ -376,8 +376,8 @@ function NOP:OptionsLoad() -- load options for UI config
             order = 5,
             type = "select",
             values = { UP = P.L["Up"], DOWN = P.L["Down"], LEFT = P.L["Left"], RIGHT = P.L["Right"] },
-            set = function(info,val) NOP.DB["direction"] = val; NOP:QBUpdate(); end,
-            get = function(info) return NOP.DB.direction end,
+            set = function(info,val) NOP.AceDB.profile["direction"] = val; NOP:QBUpdate(); end,
+            get = function(info) return NOP.AceDB.profile.direction end,
           },
           expand = {
             order = 6,
@@ -385,8 +385,8 @@ function NOP:OptionsLoad() -- load options for UI config
             name = P.L["Add new row"],
             desc = P.L["Above or below last one"],
             values = { [1] = P.L["Up"], [-1] = P.L["Down"] },
-            set = function(info,val) NOP.DB["expand"] = val; NOP:QBUpdate(); end,
-            get = function(info) return NOP.DB.expand end,
+            set = function(info,val) NOP.AceDB.profile["expand"] = val; NOP:QBUpdate(); end,
+            get = function(info) return NOP.AceDB.profile.expand end,
           },
           header2 = {
             name = "",
@@ -399,8 +399,8 @@ function NOP:OptionsLoad() -- load options for UI config
             desc = P.L["Key to use for automatic key binding."],
             type = "keybinding",
             width = "full",
-            set = function(info,val) NOP.DB["keyBind"] = val; NOP:QBUpdate(); end,
-            get = function(info) return NOP.DB.keyBind end,
+            set = function(info,val) NOP.AceDB.profile["keyBind"] = val; NOP:QBUpdate(); end,
+            get = function(info) return NOP.AceDB.profile.keyBind end,
           }
         },
       },

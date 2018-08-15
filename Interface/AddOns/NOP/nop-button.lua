@@ -64,7 +64,7 @@ end
 --
 function NOP:ButtonSkin(button,skin) -- skin or restore button look
   if not button then return end
-  if self.masque and NOP.DB.masque then -- let Masque do its job
+  if self.masque and NOP.AceDB.profile.masque then -- let Masque do its job
     if button.isSkinned == nil then self.masque:AddButton(button); self.masque:ReSkin() end
     button.isSkinned = true
     return
@@ -161,7 +161,7 @@ function NOP:ButtonOnEnter(button) -- show tooltip
   GameTooltip:AddLine(MOUSE_LB .. CLICK_OPEN_MSG,0,1,0)
   GameTooltip:AddLine(MOUSE_RB .. CLICK_SKIP_MSG,0,1,0)
   GameTooltip:AddLine(MOUSE_RB .. CLICK_BLACKLIST_MSG)
-  if not NOP.DB.lockButton then 
+  if not NOP.AceDB.profile.lockButton then 
     GameTooltip:AddLine(MOUSE_LB .. CLICK_DRAG_MSG)
   end
   GameTooltip:SetClampedToScreen(true) -- tooltip must stay at screen
@@ -182,19 +182,19 @@ function NOP:ButtonPostClick(button) -- post click on button
   end
 end
 function NOP:ButtonOnDragStart(button) -- start moving
-  if NOP.DB.lockButton or self:inCombat() then return end
+  if NOP.AceDB.profile.lockButton or self:inCombat() then return end
   if IsAltKeyDown() then button:StartMoving() end
 end
 function NOP:ButtonOnDragStop(button) -- stop moving and save new position
   button:StopMovingOrSizing()
   self:ButtonSave()
-  self:QBAnchorSave() -- now always save if NOP.DB.qb_sticky then self:QBAnchorSave() end
+  self:QBAnchorSave() -- now always save if NOP.AceDB.profile.qb_sticky then self:QBAnchorSave() end
 end
 function NOP:ButtonReset() -- reset button to default position
   if self:inCombat() then self:TimerFire("ButtonReset", TIMER_IDLE); return end
-  self.DB["iconSize"] = DEFAULT_ICON_SIZE -- default size
-  self.DB["lockButton"] = false -- unlock
-  self.DB["button"] = {"CENTER", nil, "CENTER", 0, 0}
+  self.AceDB.profile.iconSize = DEFAULT_ICON_SIZE -- default size
+  self.AceDB.profile.lockButton = false -- unlock
+  self.AceDB.profile.button = {"CENTER", nil, "CENTER", 0, 0}
   self:ButtonSize()
   self:ButtonMove()
   self:QBUpdate()
@@ -204,28 +204,28 @@ function NOP:ButtonSize() -- resize button
   if self:inCombat() then self:TimerFire("ButtonSize", TIMER_IDLE); return end
   self.timerButtonSize = nil
   if not self.BF then return end
-  local iconSize = NOP.DB.iconSize or DEFAULT_ICON_SIZE
+  local iconSize = NOP.AceDB.profile.iconSize or DEFAULT_ICON_SIZE
   if not (GetScreenWidth() > 1500) then iconSize = math.floor(iconSize * 0.75) end
   self.BF:SetWidth(iconSize)
   self.BF:SetHeight(iconSize)
-  if NOP.DB.qb_sticky then self:QBAnchorSize(); self:QBUpdate(); end -- Quest Bar is locked to Item Button
+  if NOP.AceDB.profile.qb_sticky then self:QBAnchorSize(); self:QBUpdate(); end -- Quest Bar is locked to Item Button
 end
 function NOP:ButtonSave() -- save button position after move
   if not self.BF then return end
   local point, relativeTo, relativePoint, xOfs, yOfs = self.BF:GetPoint()
-  NOP.DB.button = {point or "CENTER", relativeTo and relativeTo.GetName and relativeTo:GetName() or "UIParent", relativePoint or "CENTER", xOfs, yOfs}
+  NOP.AceDB.profile.button = {point or "CENTER", relativeTo and relativeTo.GetName and relativeTo:GetName() or "UIParent", relativePoint or "CENTER", xOfs, yOfs}
 end
 function NOP:ButtonMove() -- move button from UI config
   if self:inCombat() then self:TimerFire("ButtonMove", TIMER_IDLE); return end
   self.BF:SetClampedToScreen(true)
   self.BF:ClearAllPoints()
-  local frame = NOP.DB.button[2] or "none"
+  local frame = NOP.AceDB.profile.button[2] or "none"
   if _G[frame] then frame = _G[frame] else frame = nil end -- test if can find frame by name in saved LUA variables
   if not frame then
-    if NOP.DB.HideInCombat then frame = self.frameHiderB else frame = UIParent end -- restore frame anchor via requested state
+    if NOP.AceDB.profile.HideInCombat then frame = self.frameHiderB else frame = UIParent end -- restore frame anchor via requested state
   end
-  if not NOP.DB.HideInCombat and frame == self.frameHiderB then frame = UIParent end -- if hide in combat is disabled then can't be anchored to hider
-  self.BF:SetPoint(NOP.DB.button[1] or "CENTER", frame, NOP.DB.button[3] or "CENTER", NOP.DB.button[4] or 0, NOP.DB.button[5] or 0)
+  if not NOP.AceDB.profile.HideInCombat and frame == self.frameHiderB then frame = UIParent end -- if hide in combat is disabled then can't be anchored to hider
+  self.BF:SetPoint(NOP.AceDB.profile.button[1] or "CENTER", frame, NOP.AceDB.profile.button[3] or "CENTER", NOP.AceDB.profile.button[4] or 0, NOP.AceDB.profile.button[5] or 0)
   self:ButtonSave()
 end
 function NOP:ButtonStore(button) -- save default properties
@@ -247,8 +247,8 @@ function NOP:ButtonStore(button) -- save default properties
   end
 end
 function NOP:ButtonBackdrop(bt) -- create backdrop for button
-  if not NOP.DB.backdrop then return end
-  if self.masque and NOP.DB.masque then return end
+  if not NOP.AceDB.profile.backdrop then return end
+  if self.masque and NOP.AceDB.profile.masque then return end
   local btex = bt:CreateTexture(nil, "BACKGROUND")
   btex:SetColorTexture(0, 0, 0, 1)
   btex:SetDrawLayer("BACKGROUND", -1)
@@ -261,7 +261,7 @@ function NOP:ButtonLoad() -- create button, restore his position
     self.BF = CreateFrame("Button", BUTTON_FRAME, self.frameHiderB, "SecureActionButtonTemplate, ActionButtonTemplate")
     local bt = self.BF
     if bt:IsVisible() or bt:IsShown() then bt:Hide() end
-    bt:SetFrameStrata(NOP.DB.strata and "HIGH" or "MEDIUM")
+    bt:SetFrameStrata(NOP.AceDB.profile.strata and "HIGH" or "MEDIUM")
     self:ButtonBackdrop(bt) -- create backdrop around button if enabled
     bt:RegisterForDrag("LeftButton") -- ALT-LEFT-MOUSE for drag
     bt:RegisterForClicks("AnyUp") -- act on key release 
@@ -282,8 +282,8 @@ function NOP:ButtonLoad() -- create button, restore his position
   end
   self:ButtonSize() -- set or restore size
   self:ButtonMove() -- set or restore position
-  self:ButtonSkin(self.BF, NOP.DB.skinButton)
-  self:ButtonSwap(self.BF, NOP.DB.swap)
+  self:ButtonSkin(self.BF, NOP.AceDB.profile.skinButton)
+  self:ButtonSwap(self.BF, NOP.AceDB.profile.swap)
 end
 function NOP:ButtonSwap(bt,swap) -- swap count and timer text sides on button
   if not bt then return end
@@ -325,7 +325,7 @@ function NOP:ButtonShow() -- display button
   self:Verbose("ButtonShow:","macro text",self:CompressText(bt.mtext))
   -- self:printt("ButtonShow:","macro text",self:CompressText(bt.mtext))
   if not (bt:IsVisible() or bt:IsShown()) then bt:Show() end
-  if NOP.DB.glowButton and bt.isGlow then
+  if NOP.AceDB.profile.glowButton and bt.isGlow then
     self.ActionButton_ShowOverlayGlow(bt)
   else
     self.ActionButton_HideOverlayGlow(bt)
@@ -345,7 +345,7 @@ function NOP:ButtonHide() -- hide button
   bt:SetAttribute("macrotext1", MACRO_INACTIVE)
   self:ButtonCount(bt.itemCount)
   self.ActionButton_HideOverlayGlow(bt)
-  if NOP.DB.visible then  -- show fake button, instead hide.
+  if NOP.AceDB.profile.visible then  -- show fake button, instead hide.
     if not (bt:IsShown() or bt:IsVisible()) then bt:Show() end
   else
     if bt:IsShown() or bt:IsVisible() then bt:Hide() end

@@ -1,12 +1,12 @@
 Skada: enabled
 ElvUI: enabled
 ElvUI_Config: enabled
-ConsLegion: enabled
+ConsLegion: disabled
 Bagnon: disabled
 Bagnon_Config: disabled
 Bagnon_GuildBank: disabled
 Bagnon_VoidStorage: disabled
-CrossRealmAssist: enabled
+CrossRealmAssist: disabled
 Auctionator: enabled
 AutoLootPlus: enabled
 BadBoy: enabled
