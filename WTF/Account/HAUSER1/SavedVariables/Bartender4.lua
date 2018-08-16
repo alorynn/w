@@ -69,8 +69,8 @@ Bartender4DB = {
 						{
 							["showgrid"] = true,
 							["rows"] = 2,
-							["buttons"] = 10,
 							["version"] = 3,
+							["hidehotkey"] = true,
 							["position"] = {
 								["y"] = 146,
 								["x"] = -90,
@@ -82,13 +82,13 @@ Bartender4DB = {
 								["custom"] = true,
 								["customdata"] = "[nocombat, nomod] fade; [nocombat, mod] hide; [combat, nomod] show; hide;",
 							},
-							["hidehotkey"] = true,
+							["buttons"] = 10,
 						}, -- [1]
 						{
 							["showgrid"] = true,
 							["rows"] = 2,
-							["buttons"] = 10,
 							["fadeoutalpha"] = 0.35,
+							["version"] = 3,
 							["position"] = {
 								["y"] = 76,
 								["x"] = -90,
@@ -100,75 +100,75 @@ Bartender4DB = {
 								["custom"] = true,
 								["customdata"] = "[nocombat, nomod] fade; [nocombat, mod] hide; [combat, nomod] show; hide;",
 							},
-							["version"] = 3,
+							["buttons"] = 10,
 						}, -- [2]
 						{
-							["buttons"] = 10,
+							["hidehotkey"] = true,
+							["showgrid"] = true,
+							["version"] = 3,
 							["position"] = {
 								["y"] = 146,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["hidehotkey"] = true,
-							["showgrid"] = true,
-							["rows"] = 2,
 							["padding"] = -2,
+							["rows"] = 2,
 							["visibility"] = {
 								["custom"] = true,
 								["customdata"] = "[mod:shift]show;hide;",
 							},
-							["version"] = 3,
+							["buttons"] = 10,
 						}, -- [3]
 						{
-							["buttons"] = 10,
+							["hidehotkey"] = true,
+							["showgrid"] = true,
+							["version"] = 3,
 							["position"] = {
 								["y"] = 76,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["hidehotkey"] = true,
-							["showgrid"] = true,
-							["rows"] = 2,
 							["padding"] = -2,
+							["rows"] = 2,
 							["visibility"] = {
 								["custom"] = true,
 								["customdata"] = "[mod:shift]show;hide;",
 							},
-							["version"] = 3,
+							["buttons"] = 10,
 						}, -- [4]
 						{
-							["buttons"] = 10,
+							["hidehotkey"] = true,
+							["showgrid"] = true,
+							["version"] = 3,
 							["position"] = {
 								["y"] = 146,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["hidehotkey"] = true,
-							["showgrid"] = true,
-							["rows"] = 2,
 							["padding"] = -2,
+							["rows"] = 2,
 							["visibility"] = {
 								["custom"] = true,
 								["customdata"] = "[mod:ctrl]show;hide;",
 							},
-							["version"] = 3,
+							["buttons"] = 10,
 						}, -- [5]
 						{
-							["buttons"] = 10,
+							["hidehotkey"] = true,
+							["showgrid"] = true,
+							["version"] = 3,
 							["position"] = {
 								["y"] = 76,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["hidehotkey"] = true,
-							["showgrid"] = true,
-							["rows"] = 2,
 							["padding"] = -2,
+							["rows"] = 2,
 							["visibility"] = {
 								["custom"] = true,
 								["customdata"] = "[mod:ctrl]show;hide;",
 							},
-							["version"] = 3,
+							["buttons"] = 10,
 						}, -- [6]
 						{
 							["enabled"] = true,
@@ -180,13 +180,13 @@ Bartender4DB = {
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["buttons"] = 10,
+							["hidehotkey"] = true,
 							["padding"] = -2,
 							["visibility"] = {
 								["custom"] = true,
 								["customdata"] = "[mod:alt]show;hide;",
 							},
-							["hidehotkey"] = true,
+							["buttons"] = 10,
 						}, -- [7]
 						{
 							["enabled"] = true,
@@ -198,13 +198,13 @@ Bartender4DB = {
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["buttons"] = 10,
+							["hidehotkey"] = true,
 							["padding"] = -2,
 							["visibility"] = {
 								["custom"] = true,
 								["customdata"] = "[mod:alt]show;hide;",
 							},
-							["hidehotkey"] = true,
+							["buttons"] = 10,
 						}, -- [8]
 						{
 							["enabled"] = true,
@@ -225,7 +225,7 @@ Bartender4DB = {
 						}, -- [10]
 					},
 				},
-				["Leeroyjenkem - Kel'Thuzad"] = {
+				["Hoobastanko - Kel'Thuzad"] = {
 					["actionbars"] = {
 						{
 							["showgrid"] = true,
@@ -249,27 +249,27 @@ Bartender4DB = {
 							["showgrid"] = true,
 							["rows"] = 2,
 							["buttons"] = 10,
-							["hidehotkey"] = true,
+							["fadeoutalpha"] = 0.35,
 							["position"] = {
 								["y"] = 76,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["version"] = 3,
+							["hidehotkey"] = true,
 							["padding"] = -2,
 							["visibility"] = {
 								["custom"] = true,
 								["customdata"] = "[nocombat, nomod] fade; [nocombat, mod] hide; [combat, nomod] show; hide;",
 							},
-							["fadeoutalpha"] = 0.35,
+							["version"] = 3,
 						}, -- [2]
 						{
+							["buttons"] = 10,
 							["position"] = {
 								["y"] = 146,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["buttons"] = 10,
 							["hidehotkey"] = true,
 							["showgrid"] = true,
 							["rows"] = 2,
@@ -281,12 +281,12 @@ Bartender4DB = {
 							["version"] = 3,
 						}, -- [3]
 						{
+							["buttons"] = 10,
 							["position"] = {
 								["y"] = 76,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["buttons"] = 10,
 							["hidehotkey"] = true,
 							["showgrid"] = true,
 							["rows"] = 2,
@@ -298,12 +298,12 @@ Bartender4DB = {
 							["version"] = 3,
 						}, -- [4]
 						{
+							["buttons"] = 10,
 							["position"] = {
 								["y"] = 146,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["buttons"] = 10,
 							["hidehotkey"] = true,
 							["showgrid"] = true,
 							["rows"] = 2,
@@ -315,12 +315,12 @@ Bartender4DB = {
 							["version"] = 3,
 						}, -- [5]
 						{
+							["buttons"] = 10,
 							["position"] = {
 								["y"] = 76,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["buttons"] = 10,
 							["hidehotkey"] = true,
 							["showgrid"] = true,
 							["rows"] = 2,
@@ -371,10 +371,10 @@ Bartender4DB = {
 							["enabled"] = true,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 58.9666573728123,
-								["x"] = 182.432831113034,
-								["point"] = "BOTTOM",
-								["scale"] = 0.800000011920929,
+								["scale"] = 0.8,
+								["x"] = -168.000024414063,
+								["point"] = "CENTER",
+								["y"] = -127,
 							},
 							["padding"] = -2,
 							["visibility"] = {
@@ -407,8 +407,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -417,8 +417,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -453,13 +453,13 @@ Bartender4DB = {
 						}, -- [10]
 					},
 				},
-				["Nigellah - Kel'Thuzad"] = {
+				["Alisheeya - Kel'Thuzad"] = {
 					["actionbars"] = {
 						{
 							["showgrid"] = true,
 							["rows"] = 2,
-							["buttons"] = 10,
 							["version"] = 3,
+							["fadeoutalpha"] = 1,
 							["position"] = {
 								["y"] = 146,
 								["x"] = -90,
@@ -471,12 +471,12 @@ Bartender4DB = {
 								["custom"] = true,
 								["customdata"] = "[nocombat, nomod] fade; [nocombat, mod] hide; [combat, nomod] show; hide;",
 							},
-							["fadeoutalpha"] = 1,
+							["buttons"] = 10,
 						}, -- [1]
 						{
 							["showgrid"] = true,
 							["rows"] = 2,
-							["buttons"] = 10,
+							["version"] = 3,
 							["hidehotkey"] = true,
 							["position"] = {
 								["y"] = 76,
@@ -489,111 +489,111 @@ Bartender4DB = {
 								["custom"] = true,
 								["customdata"] = "[nocombat, nomod] fade; [nocombat, mod] hide; [combat, nomod] show; hide;",
 							},
-							["version"] = 3,
+							["buttons"] = 10,
 						}, -- [2]
 						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["hidehotkey"] = true,
 							["buttons"] = 10,
+							["padding"] = -2,
+							["rows"] = 2,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[mod:shift]show;hide;",
+							},
 							["position"] = {
 								["y"] = 146,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["version"] = 3,
-							["showgrid"] = true,
-							["rows"] = 2,
-							["padding"] = -2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[mod:shift]show;hide;",
-							},
-							["hidehotkey"] = true,
 						}, -- [3]
 						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["hidehotkey"] = true,
 							["buttons"] = 10,
+							["padding"] = -2,
+							["rows"] = 2,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[mod:shift]show;hide;",
+							},
 							["position"] = {
 								["y"] = 76,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["version"] = 3,
-							["showgrid"] = true,
-							["rows"] = 2,
-							["padding"] = -2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[mod:shift]show;hide;",
-							},
-							["hidehotkey"] = true,
 						}, -- [4]
 						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["hidehotkey"] = true,
 							["buttons"] = 10,
+							["padding"] = -2,
+							["rows"] = 2,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[mod:ctrl]show;hide;",
+							},
 							["position"] = {
 								["y"] = 146,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
+						}, -- [5]
+						{
 							["version"] = 3,
 							["showgrid"] = true,
-							["rows"] = 2,
+							["hidehotkey"] = true,
+							["buttons"] = 10,
 							["padding"] = -2,
+							["rows"] = 2,
 							["visibility"] = {
 								["custom"] = true,
 								["customdata"] = "[mod:ctrl]show;hide;",
 							},
-							["hidehotkey"] = true,
-						}, -- [5]
-						{
-							["buttons"] = 10,
 							["position"] = {
 								["y"] = 76,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["version"] = 3,
-							["showgrid"] = true,
-							["rows"] = 2,
-							["padding"] = -2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[mod:ctrl]show;hide;",
-							},
-							["hidehotkey"] = true,
 						}, -- [6]
 						{
 							["enabled"] = true,
 							["showgrid"] = true,
 							["rows"] = 2,
-							["hidehotkey"] = true,
+							["version"] = 3,
 							["position"] = {
 								["y"] = 146,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["buttons"] = 10,
+							["hidehotkey"] = true,
 							["padding"] = -2,
 							["visibility"] = {
 								["custom"] = true,
 								["customdata"] = "[mod:alt]show;hide;",
 							},
-							["version"] = 3,
+							["buttons"] = 10,
 						}, -- [7]
 						{
 							["enabled"] = true,
 							["showgrid"] = true,
 							["rows"] = 2,
-							["hidehotkey"] = true,
+							["version"] = 3,
 							["position"] = {
 								["y"] = 76,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["buttons"] = 10,
+							["hidehotkey"] = true,
 							["padding"] = -2,
 							["visibility"] = {
 								["custom"] = true,
 								["customdata"] = "[mod:alt]show;hide;",
 							},
-							["version"] = 3,
+							["buttons"] = 10,
 						}, -- [8]
 						{
 							["enabled"] = true,
@@ -614,41 +614,41 @@ Bartender4DB = {
 						}, -- [10]
 					},
 				},
-				["Ugiyo - Kel'Thuzad"] = {
+				["Alorannah - Kel'Thuzad"] = {
 					["actionbars"] = {
 						{
 							["showgrid"] = true,
 							["rows"] = 2,
+							["hidehotkey"] = true,
 							["version"] = 3,
-							["fadeoutalpha"] = 0.35,
 							["position"] = {
 								["y"] = 146,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["hidehotkey"] = true,
+							["fadeoutalpha"] = 1,
 							["padding"] = -2,
 							["visibility"] = {
 								["custom"] = true,
-								["customdata"] = "[nocombat, nomod] fade; [nocombat, mod] hide; [combat, nomod] show; hide;",
+								["customdata"] = "[nomod]show; hide;",
 							},
 							["buttons"] = 10,
 						}, -- [1]
 						{
 							["showgrid"] = true,
 							["rows"] = 2,
-							["version"] = 3,
-							["fadeoutalpha"] = 0.35,
+							["hidehotkey"] = true,
+							["fadeoutalpha"] = 1,
 							["position"] = {
 								["y"] = 76,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["hidehotkey"] = true,
+							["version"] = 3,
 							["padding"] = -2,
 							["visibility"] = {
 								["custom"] = true,
-								["customdata"] = "[nocombat, nomod] fade; [nocombat, mod] hide; [combat, nomod] show; hide;",
+								["customdata"] = "[nomod]show; hide;",
 							},
 							["buttons"] = 10,
 						}, -- [2]
@@ -656,85 +656,85 @@ Bartender4DB = {
 							["version"] = 3,
 							["showgrid"] = true,
 							["hidehotkey"] = true,
-							["buttons"] = 10,
-							["padding"] = -2,
-							["rows"] = 2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[mod:shift]show;hide;",
-							},
 							["position"] = {
 								["y"] = 146,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
+							["padding"] = -2,
+							["rows"] = 2,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[mod: shift]show; hide;",
+							},
+							["buttons"] = 10,
 						}, -- [3]
 						{
 							["version"] = 3,
 							["showgrid"] = true,
 							["hidehotkey"] = true,
-							["buttons"] = 10,
-							["padding"] = -2,
-							["rows"] = 2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[mod:shift]show;hide;",
-							},
 							["position"] = {
 								["y"] = 76,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
+							["padding"] = -2,
+							["rows"] = 2,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[mod: shift]show; hide;",
+							},
+							["buttons"] = 10,
 						}, -- [4]
 						{
 							["version"] = 3,
 							["showgrid"] = true,
 							["hidehotkey"] = true,
-							["buttons"] = 10,
-							["padding"] = -2,
-							["rows"] = 2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[mod:ctrl]show;hide;",
-							},
 							["position"] = {
 								["y"] = 146,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
+							["padding"] = -2,
+							["rows"] = 2,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[mod: ctrl]show; hide;",
+							},
+							["buttons"] = 10,
 						}, -- [5]
 						{
 							["version"] = 3,
 							["showgrid"] = true,
 							["hidehotkey"] = true,
-							["buttons"] = 10,
-							["padding"] = -2,
-							["rows"] = 2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[mod:ctrl]show;hide;",
-							},
 							["position"] = {
 								["y"] = 76,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
+							["padding"] = -2,
+							["rows"] = 2,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[mod: ctrl]show; hide;",
+							},
+							["buttons"] = 10,
 						}, -- [6]
 						{
 							["enabled"] = true,
 							["showgrid"] = true,
 							["rows"] = 2,
-							["version"] = 3,
+							["hidehotkey"] = true,
 							["position"] = {
 								["y"] = 146,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["hidehotkey"] = true,
+							["version"] = 3,
 							["padding"] = -2,
 							["visibility"] = {
 								["custom"] = true,
-								["customdata"] = "[mod:alt]show;hide;",
+								["customdata"] = "[mod: alt]show; hide;",
 							},
 							["buttons"] = 10,
 						}, -- [7]
@@ -742,17 +742,17 @@ Bartender4DB = {
 							["enabled"] = true,
 							["showgrid"] = true,
 							["rows"] = 2,
-							["version"] = 3,
+							["hidehotkey"] = true,
 							["position"] = {
 								["y"] = 76,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["hidehotkey"] = true,
+							["version"] = 3,
 							["padding"] = -2,
 							["visibility"] = {
 								["custom"] = true,
-								["customdata"] = "[mod:alt]show;hide;",
+								["customdata"] = "[mod: alt]show; hide;",
 							},
 							["buttons"] = 10,
 						}, -- [8]
@@ -760,12 +760,13 @@ Bartender4DB = {
 							["enabled"] = true,
 							["version"] = 3,
 							["position"] = {
-								["scale"] = 0.8,
-								["x"] = -168.000024414063,
+								["y"] = -181.573724233713,
+								["x"] = -167.600133087239,
 								["point"] = "CENTER",
-								["y"] = -127,
+								["scale"] = 0.800000011920929,
 							},
 							["padding"] = -2,
+							["alpha"] = 0.7,
 							["visibility"] = {
 								["combat"] = false,
 								["nocombat"] = true,
@@ -780,8 +781,8 @@ Bartender4DB = {
 						{
 							["showgrid"] = true,
 							["rows"] = 2,
-							["buttons"] = 10,
 							["fadeoutalpha"] = 0.35,
+							["version"] = 3,
 							["position"] = {
 								["y"] = 146,
 								["x"] = -90,
@@ -793,13 +794,13 @@ Bartender4DB = {
 								["custom"] = true,
 								["customdata"] = "[nocombat, nomod] fade; [nocombat, mod] hide; [combat, nomod] show; hide;",
 							},
-							["version"] = 3,
+							["buttons"] = 10,
 						}, -- [1]
 						{
 							["showgrid"] = true,
 							["rows"] = 2,
-							["buttons"] = 10,
 							["fadeoutalpha"] = 0.35,
+							["version"] = 3,
 							["position"] = {
 								["y"] = 76,
 								["x"] = -90,
@@ -811,75 +812,75 @@ Bartender4DB = {
 								["custom"] = true,
 								["customdata"] = "[nocombat, nomod] fade; [nocombat, mod] hide; [combat, nomod] show; hide;",
 							},
-							["version"] = 3,
+							["buttons"] = 10,
 						}, -- [2]
 						{
-							["buttons"] = 10,
+							["hidehotkey"] = true,
+							["showgrid"] = true,
+							["version"] = 3,
 							["position"] = {
 								["y"] = 146,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["hidehotkey"] = true,
-							["showgrid"] = true,
-							["rows"] = 2,
 							["padding"] = -2,
+							["rows"] = 2,
 							["visibility"] = {
 								["custom"] = true,
 								["customdata"] = "[mod:shift]show;hide;",
 							},
-							["version"] = 3,
+							["buttons"] = 10,
 						}, -- [3]
 						{
-							["buttons"] = 10,
+							["hidehotkey"] = true,
+							["showgrid"] = true,
+							["version"] = 3,
 							["position"] = {
 								["y"] = 76,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["hidehotkey"] = true,
-							["showgrid"] = true,
-							["rows"] = 2,
 							["padding"] = -2,
+							["rows"] = 2,
 							["visibility"] = {
 								["custom"] = true,
 								["customdata"] = "[mod:shift]show;hide;",
 							},
-							["version"] = 3,
+							["buttons"] = 10,
 						}, -- [4]
 						{
-							["buttons"] = 10,
+							["hidehotkey"] = true,
+							["showgrid"] = true,
+							["version"] = 3,
 							["position"] = {
 								["y"] = 146,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["hidehotkey"] = true,
-							["showgrid"] = true,
-							["rows"] = 2,
 							["padding"] = -2,
+							["rows"] = 2,
 							["visibility"] = {
 								["custom"] = true,
 								["customdata"] = "[mod:ctrl]show;hide;",
 							},
-							["version"] = 3,
+							["buttons"] = 10,
 						}, -- [5]
 						{
-							["buttons"] = 10,
+							["hidehotkey"] = true,
+							["showgrid"] = true,
+							["version"] = 3,
 							["position"] = {
 								["y"] = 76,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["hidehotkey"] = true,
-							["showgrid"] = true,
-							["rows"] = 2,
 							["padding"] = -2,
+							["rows"] = 2,
 							["visibility"] = {
 								["custom"] = true,
 								["customdata"] = "[mod:ctrl]show;hide;",
 							},
-							["version"] = 3,
+							["buttons"] = 10,
 						}, -- [6]
 						{
 							["enabled"] = true,
@@ -891,13 +892,13 @@ Bartender4DB = {
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["buttons"] = 10,
+							["hidehotkey"] = true,
 							["padding"] = -2,
 							["visibility"] = {
 								["custom"] = true,
 								["customdata"] = "[mod:alt]show;hide;",
 							},
-							["hidehotkey"] = true,
+							["buttons"] = 10,
 						}, -- [7]
 						{
 							["enabled"] = true,
@@ -909,13 +910,13 @@ Bartender4DB = {
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["buttons"] = 10,
+							["hidehotkey"] = true,
 							["padding"] = -2,
 							["visibility"] = {
 								["custom"] = true,
 								["customdata"] = "[mod:alt]show;hide;",
 							},
-							["hidehotkey"] = true,
+							["buttons"] = 10,
 						}, -- [8]
 						{
 							["enabled"] = true,
@@ -961,13 +962,13 @@ Bartender4DB = {
 							["rows"] = 2,
 							["buttons"] = 10,
 							["version"] = 3,
-							["hidehotkey"] = true,
+							["fadeoutalpha"] = 1,
 							["position"] = {
 								["y"] = 76,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["fadeoutalpha"] = 1,
+							["hidehotkey"] = true,
 							["padding"] = -2,
 							["visibility"] = {
 								["custom"] = true,
@@ -1098,13 +1099,13 @@ Bartender4DB = {
 						}, -- [10]
 					},
 				},
-				["Alisheeya - Kel'Thuzad"] = {
+				["Deeke - Kel'Thuzad"] = {
 					["actionbars"] = {
 						{
 							["showgrid"] = true,
 							["rows"] = 2,
 							["buttons"] = 10,
-							["version"] = 3,
+							["fadeoutalpha"] = 1,
 							["position"] = {
 								["y"] = 146,
 								["x"] = -90,
@@ -1116,7 +1117,7 @@ Bartender4DB = {
 								["custom"] = true,
 								["customdata"] = "[nocombat, nomod] fade; [nocombat, mod] hide; [combat, nomod] show; hide;",
 							},
-							["fadeoutalpha"] = 1,
+							["version"] = 3,
 						}, -- [1]
 						{
 							["showgrid"] = true,
@@ -1143,7 +1144,7 @@ Bartender4DB = {
 								["point"] = "BOTTOM",
 							},
 							["buttons"] = 10,
-							["version"] = 3,
+							["hidehotkey"] = true,
 							["showgrid"] = true,
 							["rows"] = 2,
 							["padding"] = -2,
@@ -1151,7 +1152,7 @@ Bartender4DB = {
 								["custom"] = true,
 								["customdata"] = "[mod:shift]show;hide;",
 							},
-							["hidehotkey"] = true,
+							["version"] = 3,
 						}, -- [3]
 						{
 							["position"] = {
@@ -1160,7 +1161,7 @@ Bartender4DB = {
 								["point"] = "BOTTOM",
 							},
 							["buttons"] = 10,
-							["version"] = 3,
+							["hidehotkey"] = true,
 							["showgrid"] = true,
 							["rows"] = 2,
 							["padding"] = -2,
@@ -1168,7 +1169,7 @@ Bartender4DB = {
 								["custom"] = true,
 								["customdata"] = "[mod:shift]show;hide;",
 							},
-							["hidehotkey"] = true,
+							["version"] = 3,
 						}, -- [4]
 						{
 							["position"] = {
@@ -1177,7 +1178,7 @@ Bartender4DB = {
 								["point"] = "BOTTOM",
 							},
 							["buttons"] = 10,
-							["version"] = 3,
+							["hidehotkey"] = true,
 							["showgrid"] = true,
 							["rows"] = 2,
 							["padding"] = -2,
@@ -1185,7 +1186,7 @@ Bartender4DB = {
 								["custom"] = true,
 								["customdata"] = "[mod:ctrl]show;hide;",
 							},
-							["hidehotkey"] = true,
+							["version"] = 3,
 						}, -- [5]
 						{
 							["position"] = {
@@ -1194,7 +1195,7 @@ Bartender4DB = {
 								["point"] = "BOTTOM",
 							},
 							["buttons"] = 10,
-							["version"] = 3,
+							["hidehotkey"] = true,
 							["showgrid"] = true,
 							["rows"] = 2,
 							["padding"] = -2,
@@ -1202,7 +1203,7 @@ Bartender4DB = {
 								["custom"] = true,
 								["customdata"] = "[mod:ctrl]show;hide;",
 							},
-							["hidehotkey"] = true,
+							["version"] = 3,
 						}, -- [6]
 						{
 							["enabled"] = true,
@@ -1241,21 +1242,26 @@ Bartender4DB = {
 							["hidehotkey"] = true,
 						}, -- [8]
 						{
-							["enabled"] = true,
 							["version"] = 3,
+							["padding"] = -2,
+							["visibility"] = {
+								["combat"] = false,
+								["nocombat"] = true,
+							},
 							["position"] = {
 								["y"] = -127,
 								["x"] = -168.000024414063,
 								["point"] = "CENTER",
 								["scale"] = 0.8,
 							},
-							["padding"] = -2,
-							["visibility"] = {
-								["combat"] = false,
-								["nocombat"] = true,
-							},
 						}, -- [9]
 						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -227.500030517578,
+								["x"] = -231.500183105469,
+								["point"] = "CENTER",
+							},
 						}, -- [10]
 					},
 				},
@@ -1280,8 +1286,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1290,8 +1296,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1347,8 +1353,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1357,8 +1363,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1392,174 +1398,79 @@ Bartender4DB = {
 						},
 					},
 				},
-				["Beatryss - Kel'Thuzad"] = {
+				["Hauzerina - Kel'Thuzad"] = {
 					["actionbars"] = {
 						{
-							["showgrid"] = true,
-							["rows"] = 2,
+							["padding"] = 6,
 							["version"] = 3,
-							["hidehotkey"] = true,
 							["position"] = {
-								["y"] = 146,
-								["x"] = -90,
+								["y"] = 41.75,
+								["x"] = -510,
 								["point"] = "BOTTOM",
 							},
-							["fadeoutalpha"] = 1,
-							["padding"] = -2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[nocombat, nomod] fade; [nocombat, mod] hide; [combat, nomod] show; hide;",
-							},
-							["buttons"] = 10,
 						}, -- [1]
 						{
-							["showgrid"] = true,
-							["rows"] = 2,
-							["hidehotkey"] = true,
+							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 76,
-								["x"] = -90,
-								["point"] = "BOTTOM",
+								["y"] = -227.500030517578,
+								["x"] = -231.500183105469,
+								["point"] = "CENTER",
 							},
-							["fadeoutalpha"] = 1,
-							["padding"] = -2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[nocombat, nomod] fade; [nocombat, mod] hide; [combat, nomod] show; hide;",
-							},
-							["buttons"] = 10,
 						}, -- [2]
 						{
-							["showgrid"] = true,
-							["rows"] = 2,
-							["hidehotkey"] = true,
+							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 146,
-								["x"] = -90,
-								["point"] = "BOTTOM",
+								["y"] = 610,
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
 							},
-							["fadeoutalpha"] = 0,
-							["padding"] = -2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[mod:shift]show;hide;",
-							},
-							["buttons"] = 10,
 						}, -- [3]
 						{
-							["hidehotkey"] = true,
-							["showgrid"] = true,
+							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
-							["buttons"] = 10,
-							["padding"] = -2,
-							["rows"] = 2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[mod:shift]show;hide;",
-							},
 							["position"] = {
-								["y"] = 76,
-								["x"] = -90,
-								["point"] = "BOTTOM",
+								["y"] = 610,
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
 							},
 						}, -- [4]
 						{
-							["hidehotkey"] = true,
-							["showgrid"] = true,
+							["padding"] = 6,
 							["version"] = 3,
-							["buttons"] = 10,
-							["padding"] = -2,
-							["rows"] = 2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[mod:ctrl]show;hide;",
-							},
 							["position"] = {
-								["y"] = 146,
-								["x"] = -90,
+								["y"] = 83,
+								["x"] = 3,
 								["point"] = "BOTTOM",
 							},
 						}, -- [5]
 						{
-							["hidehotkey"] = true,
-							["showgrid"] = true,
+							["padding"] = 6,
 							["version"] = 3,
-							["buttons"] = 10,
-							["padding"] = -2,
-							["rows"] = 2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[mod:ctrl]show;hide;",
-							},
 							["position"] = {
-								["y"] = 76,
-								["x"] = -90,
+								["y"] = 83,
+								["x"] = -510,
 								["point"] = "BOTTOM",
 							},
 						}, -- [6]
 						{
-							["enabled"] = true,
-							["showgrid"] = true,
-							["rows"] = 2,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 146,
-								["x"] = -90,
-								["point"] = "BOTTOM",
-							},
-							["hidehotkey"] = true,
-							["padding"] = -2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[mod:alt]show;hide;",
-							},
-							["buttons"] = 10,
 						}, -- [7]
 						{
-							["enabled"] = true,
-							["showgrid"] = true,
-							["rows"] = 2,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 76,
-								["x"] = -90,
-								["point"] = "BOTTOM",
-							},
-							["hidehotkey"] = true,
-							["padding"] = -2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[mod:alt]show;hide;",
-							},
-							["buttons"] = 10,
 						}, -- [8]
-						{
-							["enabled"] = true,
-							["version"] = 3,
-							["position"] = {
-								["y"] = -127,
-								["x"] = -168.000024414063,
-								["point"] = "CENTER",
-								["scale"] = 0.8,
-							},
-							["padding"] = -2,
-							["visibility"] = {
-								["combat"] = false,
-								["nocombat"] = true,
-							},
-						}, -- [9]
+						nil, -- [9]
 						{
 						}, -- [10]
 					},
 				},
-				["Hoobastanko - Kel'Thuzad"] = {
+				["Ugiyo - Kel'Thuzad"] = {
 					["actionbars"] = {
 						{
 							["showgrid"] = true,
 							["rows"] = 2,
-							["version"] = 3,
+							["buttons"] = 10,
 							["fadeoutalpha"] = 0.35,
 							["position"] = {
 								["y"] = 146,
@@ -1572,12 +1483,12 @@ Bartender4DB = {
 								["custom"] = true,
 								["customdata"] = "[nocombat, nomod] fade; [nocombat, mod] hide; [combat, nomod] show; hide;",
 							},
-							["buttons"] = 10,
+							["version"] = 3,
 						}, -- [1]
 						{
 							["showgrid"] = true,
 							["rows"] = 2,
-							["version"] = 3,
+							["buttons"] = 10,
 							["fadeoutalpha"] = 0.35,
 							["position"] = {
 								["y"] = 76,
@@ -1590,75 +1501,75 @@ Bartender4DB = {
 								["custom"] = true,
 								["customdata"] = "[nocombat, nomod] fade; [nocombat, mod] hide; [combat, nomod] show; hide;",
 							},
-							["buttons"] = 10,
+							["version"] = 3,
 						}, -- [2]
 						{
-							["version"] = 3,
-							["showgrid"] = true,
-							["hidehotkey"] = true,
 							["buttons"] = 10,
-							["padding"] = -2,
-							["rows"] = 2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[mod:shift]show;hide;",
-							},
 							["position"] = {
 								["y"] = 146,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
+							["hidehotkey"] = true,
+							["showgrid"] = true,
+							["rows"] = 2,
+							["padding"] = -2,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[mod:shift]show;hide;",
+							},
+							["version"] = 3,
 						}, -- [3]
 						{
-							["version"] = 3,
-							["showgrid"] = true,
-							["hidehotkey"] = true,
 							["buttons"] = 10,
-							["padding"] = -2,
-							["rows"] = 2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[mod:shift]show;hide;",
-							},
 							["position"] = {
 								["y"] = 76,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-						}, -- [4]
-						{
-							["version"] = 3,
-							["showgrid"] = true,
 							["hidehotkey"] = true,
-							["buttons"] = 10,
-							["padding"] = -2,
+							["showgrid"] = true,
 							["rows"] = 2,
+							["padding"] = -2,
 							["visibility"] = {
 								["custom"] = true,
-								["customdata"] = "[mod:ctrl]show;hide;",
+								["customdata"] = "[mod:shift]show;hide;",
 							},
+							["version"] = 3,
+						}, -- [4]
+						{
+							["buttons"] = 10,
 							["position"] = {
 								["y"] = 146,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-						}, -- [5]
-						{
-							["version"] = 3,
-							["showgrid"] = true,
 							["hidehotkey"] = true,
-							["buttons"] = 10,
-							["padding"] = -2,
+							["showgrid"] = true,
 							["rows"] = 2,
+							["padding"] = -2,
 							["visibility"] = {
 								["custom"] = true,
 								["customdata"] = "[mod:ctrl]show;hide;",
 							},
+							["version"] = 3,
+						}, -- [5]
+						{
+							["buttons"] = 10,
 							["position"] = {
 								["y"] = 76,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
+							["hidehotkey"] = true,
+							["showgrid"] = true,
+							["rows"] = 2,
+							["padding"] = -2,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[mod:ctrl]show;hide;",
+							},
+							["version"] = 3,
 						}, -- [6]
 						{
 							["enabled"] = true,
@@ -1670,13 +1581,13 @@ Bartender4DB = {
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["hidehotkey"] = true,
+							["buttons"] = 10,
 							["padding"] = -2,
 							["visibility"] = {
 								["custom"] = true,
 								["customdata"] = "[mod:alt]show;hide;",
 							},
-							["buttons"] = 10,
+							["hidehotkey"] = true,
 						}, -- [7]
 						{
 							["enabled"] = true,
@@ -1688,13 +1599,13 @@ Bartender4DB = {
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["hidehotkey"] = true,
+							["buttons"] = 10,
 							["padding"] = -2,
 							["visibility"] = {
 								["custom"] = true,
 								["customdata"] = "[mod:alt]show;hide;",
 							},
-							["buttons"] = 10,
+							["hidehotkey"] = true,
 						}, -- [8]
 						{
 							["enabled"] = true,
@@ -1736,8 +1647,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1746,8 +1657,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1782,137 +1693,326 @@ Bartender4DB = {
 						}, -- [10]
 					},
 				},
-				["Hauzerina - Kel'Thuzad"] = {
+				["Beatryss - Kel'Thuzad"] = {
 					["actionbars"] = {
 						{
-							["padding"] = 6,
-							["version"] = 3,
+							["showgrid"] = true,
+							["rows"] = 2,
+							["buttons"] = 10,
+							["hidehotkey"] = true,
 							["position"] = {
-								["y"] = 41.75,
-								["x"] = -510,
+								["y"] = 146,
+								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
+							["fadeoutalpha"] = 1,
+							["padding"] = -2,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[nocombat, nomod] fade; [nocombat, mod] hide; [combat, nomod] show; hide;",
+							},
+							["version"] = 3,
 						}, -- [1]
 						{
-							["enabled"] = false,
+							["showgrid"] = true,
+							["rows"] = 2,
+							["buttons"] = 10,
 							["version"] = 3,
 							["position"] = {
-								["y"] = -227.500030517578,
-								["x"] = -231.500183105469,
-								["point"] = "CENTER",
+								["y"] = 76,
+								["x"] = -90,
+								["point"] = "BOTTOM",
 							},
+							["fadeoutalpha"] = 1,
+							["padding"] = -2,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[nocombat, nomod] fade; [nocombat, mod] hide; [combat, nomod] show; hide;",
+							},
+							["hidehotkey"] = true,
 						}, -- [2]
 						{
-							["rows"] = 12,
-							["padding"] = 5,
+							["showgrid"] = true,
+							["rows"] = 2,
+							["buttons"] = 10,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 610,
-								["x"] = -82,
-								["point"] = "BOTTOMRIGHT",
+								["y"] = 146,
+								["x"] = -90,
+								["point"] = "BOTTOM",
 							},
+							["fadeoutalpha"] = 0,
+							["padding"] = -2,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[mod:shift]show;hide;",
+							},
+							["hidehotkey"] = true,
 						}, -- [3]
 						{
-							["rows"] = 12,
-							["padding"] = 5,
-							["version"] = 3,
+							["buttons"] = 10,
 							["position"] = {
-								["y"] = 610,
-								["x"] = -42,
-								["point"] = "BOTTOMRIGHT",
+								["y"] = 76,
+								["x"] = -90,
+								["point"] = "BOTTOM",
 							},
+							["version"] = 3,
+							["showgrid"] = true,
+							["rows"] = 2,
+							["padding"] = -2,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[mod:shift]show;hide;",
+							},
+							["hidehotkey"] = true,
 						}, -- [4]
 						{
-							["padding"] = 6,
-							["version"] = 3,
+							["buttons"] = 10,
 							["position"] = {
-								["y"] = 83,
-								["x"] = 3,
+								["y"] = 146,
+								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
+							["version"] = 3,
+							["showgrid"] = true,
+							["rows"] = 2,
+							["padding"] = -2,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[mod:ctrl]show;hide;",
+							},
+							["hidehotkey"] = true,
 						}, -- [5]
 						{
-							["padding"] = 6,
-							["version"] = 3,
+							["buttons"] = 10,
 							["position"] = {
-								["y"] = 83,
-								["x"] = -510,
+								["y"] = 76,
+								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
+							["version"] = 3,
+							["showgrid"] = true,
+							["rows"] = 2,
+							["padding"] = -2,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[mod:ctrl]show;hide;",
+							},
+							["hidehotkey"] = true,
 						}, -- [6]
 						{
+							["enabled"] = true,
+							["showgrid"] = true,
+							["rows"] = 2,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 146,
+								["x"] = -90,
+								["point"] = "BOTTOM",
+							},
+							["buttons"] = 10,
+							["padding"] = -2,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[mod:alt]show;hide;",
+							},
+							["hidehotkey"] = true,
 						}, -- [7]
 						{
+							["enabled"] = true,
+							["showgrid"] = true,
+							["rows"] = 2,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 76,
+								["x"] = -90,
+								["point"] = "BOTTOM",
+							},
+							["buttons"] = 10,
+							["padding"] = -2,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[mod:alt]show;hide;",
+							},
+							["hidehotkey"] = true,
 						}, -- [8]
-						nil, -- [9]
+						{
+							["enabled"] = true,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -127,
+								["x"] = -168.000024414063,
+								["point"] = "CENTER",
+								["scale"] = 0.8,
+							},
+							["padding"] = -2,
+							["visibility"] = {
+								["combat"] = false,
+								["nocombat"] = true,
+							},
+						}, -- [9]
 						{
 						}, -- [10]
 					},
 				},
-				["Alurannah - Kel'Thuzad"] = {
+				["Kmkarbashian - Kel'Thuzad"] = {
 					["actionbars"] = {
 						{
-							["padding"] = 6,
-							["version"] = 3,
+							["showgrid"] = true,
+							["rows"] = 2,
+							["buttons"] = 10,
+							["fadeoutalpha"] = 1,
 							["position"] = {
-								["y"] = 41.75,
-								["x"] = -510,
+								["y"] = 151,
+								["x"] = -94,
 								["point"] = "BOTTOM",
 							},
+							["hidehotkey"] = true,
+							["padding"] = 0,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[combat, nomod] show; [combat, mod] hide; [nocombat, nomod] fade; hide;",
+							},
+							["version"] = 3,
 						}, -- [1]
 						{
-							["enabled"] = false,
+							["showgrid"] = true,
+							["rows"] = 2,
+							["buttons"] = 10,
+							["hidehotkey"] = true,
+							["position"] = {
+								["y"] = 77,
+								["x"] = -94,
+								["point"] = "BOTTOM",
+							},
+							["version"] = 3,
+							["padding"] = 0,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[combat, nomod] show; [combat, mod] hide; [nocombat, nomod] fade; hide;",
+							},
+							["fadeoutalpha"] = 1,
+						}, -- [2]
+						{
+							["buttons"] = 10,
+							["position"] = {
+								["y"] = 151,
+								["x"] = -94,
+								["point"] = "BOTTOM",
+							},
+							["version"] = 3,
+							["showgrid"] = true,
+							["rows"] = 2,
+							["padding"] = 0,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[mod: shift] show; hide",
+							},
+							["hidehotkey"] = true,
+						}, -- [3]
+						{
+							["buttons"] = 10,
+							["position"] = {
+								["y"] = 77,
+								["x"] = -94,
+								["point"] = "BOTTOM",
+							},
+							["version"] = 3,
+							["showgrid"] = true,
+							["rows"] = 2,
+							["padding"] = 0,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[mod: shift] show; hide",
+							},
+							["hidehotkey"] = true,
+						}, -- [4]
+						{
+							["buttons"] = 10,
+							["position"] = {
+								["y"] = 151,
+								["x"] = -94,
+								["point"] = "BOTTOM",
+							},
+							["version"] = 3,
+							["showgrid"] = true,
+							["rows"] = 2,
+							["padding"] = 0,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[mod: ctrl] show; hide",
+							},
+							["hidehotkey"] = true,
+						}, -- [5]
+						{
+							["buttons"] = 10,
+							["position"] = {
+								["y"] = 77,
+								["x"] = -94,
+								["point"] = "BOTTOM",
+							},
+							["version"] = 3,
+							["showgrid"] = true,
+							["rows"] = 2,
+							["padding"] = 0,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[mod: ctrl] show; hide",
+							},
+							["hidehotkey"] = true,
+						}, -- [6]
+						{
+							["enabled"] = true,
+							["showgrid"] = true,
+							["rows"] = 2,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 151,
+								["x"] = -94,
+								["point"] = "BOTTOM",
+							},
+							["buttons"] = 10,
+							["padding"] = 0,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[mod: alt] show; hide",
+							},
+							["hidehotkey"] = true,
+						}, -- [7]
+						{
+							["enabled"] = true,
+							["showgrid"] = true,
+							["rows"] = 2,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 77,
+								["x"] = -94,
+								["point"] = "BOTTOM",
+							},
+							["buttons"] = 10,
+							["padding"] = 0,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[mod: alt] show; hide",
+							},
+							["hidehotkey"] = true,
+						}, -- [8]
+						{
+							["enabled"] = true,
 							["version"] = 3,
 							["position"] = {
 								["y"] = -227.500030517578,
-								["x"] = -231.500183105469,
+								["x"] = -176.800012207031,
 								["point"] = "CENTER",
+								["scale"] = 0.8,
 							},
-						}, -- [2]
-						{
-							["rows"] = 12,
-							["padding"] = 5,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 610,
-								["x"] = -82,
-								["point"] = "BOTTOMRIGHT",
+							["padding"] = 0,
+							["visibility"] = {
+								["nocombat"] = true,
 							},
-						}, -- [3]
+						}, -- [9]
 						{
-							["rows"] = 12,
-							["padding"] = 5,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 610,
-								["x"] = -42,
-								["point"] = "BOTTOMRIGHT",
-							},
-						}, -- [4]
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 83,
-								["x"] = 3,
-								["point"] = "BOTTOM",
-							},
-						}, -- [5]
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 83,
-								["x"] = -510,
-								["point"] = "BOTTOM",
-							},
-						}, -- [6]
-						{
-						}, -- [7]
-						{
-						}, -- [8]
-						[10] = {
-						},
+						}, -- [10]
 					},
 				},
 				["Laurenn - Kel'Thuzad"] = {
@@ -1936,8 +2036,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1946,8 +2046,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1982,19 +2082,17 @@ Bartender4DB = {
 						}, -- [10]
 					},
 				},
-				["Olrapey - Kel'Thuzad"] = {
+				["Fsdkjhskdjfh - Kel'Thuzad"] = {
 					["actionbars"] = {
 						{
-							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 41.75,
-								["x"] = -510,
-								["point"] = "BOTTOM",
+								["y"] = -227.500030517578,
+								["x"] = -231.500183105469,
+								["point"] = "CENTER",
 							},
 						}, -- [1]
 						{
-							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
 								["y"] = -227.500030517578,
@@ -2003,41 +2101,35 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["padding"] = 5,
-							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 610,
-								["x"] = -82,
-								["point"] = "BOTTOMRIGHT",
+								["y"] = -227.500030517578,
+								["x"] = -231.500183105469,
+								["point"] = "CENTER",
 							},
 						}, -- [3]
 						{
-							["padding"] = 5,
-							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 610,
-								["x"] = -42,
-								["point"] = "BOTTOMRIGHT",
+								["y"] = -227.500030517578,
+								["x"] = -231.500183105469,
+								["point"] = "CENTER",
 							},
 						}, -- [4]
 						{
-							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 83,
-								["x"] = 3,
-								["point"] = "BOTTOM",
+								["y"] = -227.500030517578,
+								["x"] = -231.500183105469,
+								["point"] = "CENTER",
 							},
 						}, -- [5]
 						{
-							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 83,
-								["x"] = -510,
-								["point"] = "BOTTOM",
+								["y"] = -227.500030517578,
+								["x"] = -231.500183105469,
+								["point"] = "CENTER",
 							},
 						}, -- [6]
 						{
@@ -2054,7 +2146,7 @@ Bartender4DB = {
 						{
 							["showgrid"] = true,
 							["rows"] = 2,
-							["version"] = 3,
+							["buttons"] = 10,
 							["fadeoutalpha"] = 1,
 							["position"] = {
 								["y"] = 146,
@@ -2067,12 +2159,12 @@ Bartender4DB = {
 								["custom"] = true,
 								["customdata"] = "[nomod]show; hide;",
 							},
-							["buttons"] = 10,
+							["version"] = 3,
 						}, -- [1]
 						{
 							["showgrid"] = true,
 							["rows"] = 2,
-							["fadeoutalpha"] = 1,
+							["buttons"] = 10,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 76,
@@ -2085,75 +2177,75 @@ Bartender4DB = {
 								["custom"] = true,
 								["customdata"] = "[nomod]show; hide;",
 							},
-							["buttons"] = 10,
+							["fadeoutalpha"] = 1,
 						}, -- [2]
 						{
-							["version"] = 3,
-							["showgrid"] = true,
-							["hidehotkey"] = true,
 							["buttons"] = 10,
-							["padding"] = -2,
-							["rows"] = 2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[mod: shift]show; hide;",
-							},
 							["position"] = {
 								["y"] = 146,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
+							["hidehotkey"] = true,
+							["showgrid"] = true,
+							["rows"] = 2,
+							["padding"] = -2,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[mod: shift]show; hide;",
+							},
+							["version"] = 3,
 						}, -- [3]
 						{
-							["version"] = 3,
-							["showgrid"] = true,
-							["hidehotkey"] = true,
 							["buttons"] = 10,
-							["padding"] = -2,
-							["rows"] = 2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[mod: shift]show; hide;",
-							},
 							["position"] = {
 								["y"] = 76,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-						}, -- [4]
-						{
-							["version"] = 3,
-							["showgrid"] = true,
 							["hidehotkey"] = true,
-							["buttons"] = 10,
-							["padding"] = -2,
+							["showgrid"] = true,
 							["rows"] = 2,
+							["padding"] = -2,
 							["visibility"] = {
 								["custom"] = true,
-								["customdata"] = "[mod: ctrl]show; hide;",
+								["customdata"] = "[mod: shift]show; hide;",
 							},
+							["version"] = 3,
+						}, -- [4]
+						{
+							["buttons"] = 10,
 							["position"] = {
 								["y"] = 146,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-						}, -- [5]
-						{
-							["version"] = 3,
-							["showgrid"] = true,
 							["hidehotkey"] = true,
-							["buttons"] = 10,
-							["padding"] = -2,
+							["showgrid"] = true,
 							["rows"] = 2,
+							["padding"] = -2,
 							["visibility"] = {
 								["custom"] = true,
 								["customdata"] = "[mod: ctrl]show; hide;",
 							},
+							["version"] = 3,
+						}, -- [5]
+						{
+							["buttons"] = 10,
 							["position"] = {
 								["y"] = 76,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
+							["hidehotkey"] = true,
+							["showgrid"] = true,
+							["rows"] = 2,
+							["padding"] = -2,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[mod: ctrl]show; hide;",
+							},
+							["version"] = 3,
 						}, -- [6]
 						{
 							["enabled"] = true,
@@ -2165,13 +2257,13 @@ Bartender4DB = {
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["hidehotkey"] = true,
+							["buttons"] = 10,
 							["padding"] = -2,
 							["visibility"] = {
 								["custom"] = true,
 								["customdata"] = "[mod: alt]show; hide;",
 							},
-							["buttons"] = 10,
+							["hidehotkey"] = true,
 						}, -- [7]
 						{
 							["enabled"] = true,
@@ -2183,13 +2275,13 @@ Bartender4DB = {
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["hidehotkey"] = true,
+							["buttons"] = 10,
 							["padding"] = -2,
 							["visibility"] = {
 								["custom"] = true,
 								["customdata"] = "[mod: alt]show; hide;",
 							},
-							["buttons"] = 10,
+							["hidehotkey"] = true,
 						}, -- [8]
 						{
 							["enabled"] = true,
@@ -2232,6 +2324,304 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
+							["rows"] = 12,
+							["padding"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [3]
+						{
+							["rows"] = 12,
+							["padding"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [4]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 83,
+								["x"] = 3,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 83,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						nil, -- [9]
+						{
+						}, -- [10]
+					},
+				},
+				["Olrapey - Kel'Thuzad"] = {
+					["actionbars"] = {
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 41.75,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -227.500030517578,
+								["x"] = -231.500183105469,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["rows"] = 12,
+							["padding"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [3]
+						{
+							["rows"] = 12,
+							["padding"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [4]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 83,
+								["x"] = 3,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 83,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						nil, -- [9]
+						{
+						}, -- [10]
+					},
+				},
+				["Alauranna - Kel'Thuzad"] = {
+					["actionbars"] = {
+						{
+							["showgrid"] = true,
+							["rows"] = 2,
+							["buttons"] = 10,
+							["version"] = 3,
+							["fadeoutalpha"] = 1,
+							["position"] = {
+								["y"] = 146,
+								["x"] = -90,
+								["point"] = "BOTTOM",
+							},
+							["hidehotkey"] = true,
+							["padding"] = -2,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[nocombat, nomod] fade; [nocombat, mod] hide; [combat, nomod] show; hide;",
+							},
+							["states"] = {
+								["enabled"] = false,
+							},
+						}, -- [1]
+						{
+							["showgrid"] = true,
+							["rows"] = 2,
+							["buttons"] = 10,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 76,
+								["x"] = -90,
+								["point"] = "BOTTOM",
+							},
+							["hidehotkey"] = true,
+							["padding"] = -2,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[nocombat, nomod] fade; [nocombat, mod] hide; [combat, nomod] show; hide;",
+							},
+							["fadeoutalpha"] = 1,
+						}, -- [2]
+						{
+							["position"] = {
+								["y"] = 146,
+								["x"] = -90,
+								["point"] = "BOTTOM",
+							},
+							["buttons"] = 10,
+							["version"] = 3,
+							["showgrid"] = true,
+							["rows"] = 2,
+							["padding"] = -2,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[mod:shift]show;hide;",
+							},
+							["hidehotkey"] = true,
+						}, -- [3]
+						{
+							["position"] = {
+								["y"] = 76,
+								["x"] = -90,
+								["point"] = "BOTTOM",
+							},
+							["buttons"] = 10,
+							["version"] = 3,
+							["showgrid"] = true,
+							["rows"] = 2,
+							["padding"] = -2,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[mod:shift]show;hide;",
+							},
+							["hidehotkey"] = true,
+						}, -- [4]
+						{
+							["position"] = {
+								["y"] = 146,
+								["x"] = -90,
+								["point"] = "BOTTOM",
+							},
+							["buttons"] = 10,
+							["version"] = 3,
+							["showgrid"] = true,
+							["rows"] = 2,
+							["padding"] = -2,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[mod:ctrl]show;hide;",
+							},
+							["hidehotkey"] = true,
+						}, -- [5]
+						{
+							["position"] = {
+								["y"] = 76,
+								["x"] = -90,
+								["point"] = "BOTTOM",
+							},
+							["buttons"] = 10,
+							["version"] = 3,
+							["showgrid"] = true,
+							["rows"] = 2,
+							["padding"] = -2,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[mod:ctrl]show;hide;",
+							},
+							["hidehotkey"] = true,
+						}, -- [6]
+						{
+							["enabled"] = true,
+							["showgrid"] = true,
+							["rows"] = 2,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 146,
+								["x"] = -90,
+								["point"] = "BOTTOM",
+							},
+							["buttons"] = 10,
+							["padding"] = -2,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[mod:alt]show;hide;",
+							},
+							["hidehotkey"] = true,
+						}, -- [7]
+						{
+							["enabled"] = true,
+							["showgrid"] = true,
+							["rows"] = 2,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 76,
+								["x"] = -90,
+								["point"] = "BOTTOM",
+							},
+							["buttons"] = 10,
+							["padding"] = -2,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[mod:alt]show;hide;",
+							},
+							["hidehotkey"] = true,
+						}, -- [8]
+						{
+							["enabled"] = true,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -127,
+								["x"] = -168.000024414063,
+								["point"] = "CENTER",
+								["scale"] = 0.8,
+							},
+							["padding"] = -2,
+							["visibility"] = {
+								["combat"] = false,
+								["nocombat"] = true,
+							},
+						}, -- [9]
+						{
+						}, -- [10]
+					},
+				},
+				["Alurannah - Kel'Thuzad"] = {
+					["actionbars"] = {
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 41.75,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -227.500030517578,
+								["x"] = -231.500183105469,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
 							["padding"] = 5,
 							["rows"] = 12,
 							["version"] = 3,
@@ -2273,392 +2663,8 @@ Bartender4DB = {
 						}, -- [7]
 						{
 						}, -- [8]
-						nil, -- [9]
-						{
-						}, -- [10]
-					},
-				},
-				["Fsdkjhskdjfh - Kel'Thuzad"] = {
-					["actionbars"] = {
-						{
-							["version"] = 3,
-							["position"] = {
-								["y"] = -227.500030517578,
-								["x"] = -231.500183105469,
-								["point"] = "CENTER",
-							},
-						}, -- [1]
-						{
-							["version"] = 3,
-							["position"] = {
-								["y"] = -227.500030517578,
-								["x"] = -231.500183105469,
-								["point"] = "CENTER",
-							},
-						}, -- [2]
-						{
-							["version"] = 3,
-							["position"] = {
-								["y"] = -227.500030517578,
-								["x"] = -231.500183105469,
-								["point"] = "CENTER",
-							},
-						}, -- [3]
-						{
-							["version"] = 3,
-							["position"] = {
-								["y"] = -227.500030517578,
-								["x"] = -231.500183105469,
-								["point"] = "CENTER",
-							},
-						}, -- [4]
-						{
-							["version"] = 3,
-							["position"] = {
-								["y"] = -227.500030517578,
-								["x"] = -231.500183105469,
-								["point"] = "CENTER",
-							},
-						}, -- [5]
-						{
-							["version"] = 3,
-							["position"] = {
-								["y"] = -227.500030517578,
-								["x"] = -231.500183105469,
-								["point"] = "CENTER",
-							},
-						}, -- [6]
-						{
-						}, -- [7]
-						{
-						}, -- [8]
-						nil, -- [9]
-						{
-						}, -- [10]
-					},
-				},
-				["Alauranna - Kel'Thuzad"] = {
-					["actionbars"] = {
-						{
-							["showgrid"] = true,
-							["rows"] = 2,
-							["buttons"] = 10,
-							["fadeoutalpha"] = 1,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 146,
-								["x"] = -90,
-								["point"] = "BOTTOM",
-							},
-							["hidehotkey"] = true,
-							["padding"] = -2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[nocombat, nomod] fade; [nocombat, mod] hide; [combat, nomod] show; hide;",
-							},
-							["states"] = {
-								["enabled"] = false,
-							},
-						}, -- [1]
-						{
-							["showgrid"] = true,
-							["rows"] = 2,
-							["fadeoutalpha"] = 1,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 76,
-								["x"] = -90,
-								["point"] = "BOTTOM",
-							},
-							["hidehotkey"] = true,
-							["padding"] = -2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[nocombat, nomod] fade; [nocombat, mod] hide; [combat, nomod] show; hide;",
-							},
-							["buttons"] = 10,
-						}, -- [2]
-						{
-							["hidehotkey"] = true,
-							["showgrid"] = true,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 146,
-								["x"] = -90,
-								["point"] = "BOTTOM",
-							},
-							["padding"] = -2,
-							["rows"] = 2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[mod:shift]show;hide;",
-							},
-							["buttons"] = 10,
-						}, -- [3]
-						{
-							["hidehotkey"] = true,
-							["showgrid"] = true,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 76,
-								["x"] = -90,
-								["point"] = "BOTTOM",
-							},
-							["padding"] = -2,
-							["rows"] = 2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[mod:shift]show;hide;",
-							},
-							["buttons"] = 10,
-						}, -- [4]
-						{
-							["hidehotkey"] = true,
-							["showgrid"] = true,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 146,
-								["x"] = -90,
-								["point"] = "BOTTOM",
-							},
-							["padding"] = -2,
-							["rows"] = 2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[mod:ctrl]show;hide;",
-							},
-							["buttons"] = 10,
-						}, -- [5]
-						{
-							["hidehotkey"] = true,
-							["showgrid"] = true,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 76,
-								["x"] = -90,
-								["point"] = "BOTTOM",
-							},
-							["padding"] = -2,
-							["rows"] = 2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[mod:ctrl]show;hide;",
-							},
-							["buttons"] = 10,
-						}, -- [6]
-						{
-							["enabled"] = true,
-							["showgrid"] = true,
-							["rows"] = 2,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 146,
-								["x"] = -90,
-								["point"] = "BOTTOM",
-							},
-							["hidehotkey"] = true,
-							["padding"] = -2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[mod:alt]show;hide;",
-							},
-							["buttons"] = 10,
-						}, -- [7]
-						{
-							["enabled"] = true,
-							["showgrid"] = true,
-							["rows"] = 2,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 76,
-								["x"] = -90,
-								["point"] = "BOTTOM",
-							},
-							["hidehotkey"] = true,
-							["padding"] = -2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[mod:alt]show;hide;",
-							},
-							["buttons"] = 10,
-						}, -- [8]
-						{
-							["enabled"] = true,
-							["version"] = 3,
-							["position"] = {
-								["y"] = -127,
-								["x"] = -168.000024414063,
-								["point"] = "CENTER",
-								["scale"] = 0.8,
-							},
-							["padding"] = -2,
-							["visibility"] = {
-								["combat"] = false,
-								["nocombat"] = true,
-							},
-						}, -- [9]
-						{
-						}, -- [10]
-					},
-				},
-				["Kmkarbashian - Kel'Thuzad"] = {
-					["actionbars"] = {
-						{
-							["showgrid"] = true,
-							["rows"] = 2,
-							["version"] = 3,
-							["fadeoutalpha"] = 1,
-							["position"] = {
-								["y"] = 151,
-								["x"] = -94,
-								["point"] = "BOTTOM",
-							},
-							["hidehotkey"] = true,
-							["padding"] = 0,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[combat, nomod] show; [combat, mod] hide; [nocombat, nomod] fade; hide;",
-							},
-							["buttons"] = 10,
-						}, -- [1]
-						{
-							["showgrid"] = true,
-							["rows"] = 2,
-							["fadeoutalpha"] = 1,
-							["hidehotkey"] = true,
-							["position"] = {
-								["y"] = 77,
-								["x"] = -94,
-								["point"] = "BOTTOM",
-							},
-							["version"] = 3,
-							["padding"] = 0,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[combat, nomod] show; [combat, mod] hide; [nocombat, nomod] fade; hide;",
-							},
-							["buttons"] = 10,
-						}, -- [2]
-						{
-							["hidehotkey"] = true,
-							["showgrid"] = true,
-							["version"] = 3,
-							["buttons"] = 10,
-							["padding"] = 0,
-							["rows"] = 2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[mod: shift] show; hide",
-							},
-							["position"] = {
-								["y"] = 151,
-								["x"] = -94,
-								["point"] = "BOTTOM",
-							},
-						}, -- [3]
-						{
-							["hidehotkey"] = true,
-							["showgrid"] = true,
-							["version"] = 3,
-							["buttons"] = 10,
-							["padding"] = 0,
-							["rows"] = 2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[mod: shift] show; hide",
-							},
-							["position"] = {
-								["y"] = 77,
-								["x"] = -94,
-								["point"] = "BOTTOM",
-							},
-						}, -- [4]
-						{
-							["hidehotkey"] = true,
-							["showgrid"] = true,
-							["version"] = 3,
-							["buttons"] = 10,
-							["padding"] = 0,
-							["rows"] = 2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[mod: ctrl] show; hide",
-							},
-							["position"] = {
-								["y"] = 151,
-								["x"] = -94,
-								["point"] = "BOTTOM",
-							},
-						}, -- [5]
-						{
-							["hidehotkey"] = true,
-							["showgrid"] = true,
-							["version"] = 3,
-							["buttons"] = 10,
-							["padding"] = 0,
-							["rows"] = 2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[mod: ctrl] show; hide",
-							},
-							["position"] = {
-								["y"] = 77,
-								["x"] = -94,
-								["point"] = "BOTTOM",
-							},
-						}, -- [6]
-						{
-							["enabled"] = true,
-							["showgrid"] = true,
-							["rows"] = 2,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 151,
-								["x"] = -94,
-								["point"] = "BOTTOM",
-							},
-							["hidehotkey"] = true,
-							["padding"] = 0,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[mod: alt] show; hide",
-							},
-							["buttons"] = 10,
-						}, -- [7]
-						{
-							["enabled"] = true,
-							["showgrid"] = true,
-							["rows"] = 2,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 77,
-								["x"] = -94,
-								["point"] = "BOTTOM",
-							},
-							["hidehotkey"] = true,
-							["padding"] = 0,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[mod: alt] show; hide",
-							},
-							["buttons"] = 10,
-						}, -- [8]
-						{
-							["enabled"] = true,
-							["version"] = 3,
-							["position"] = {
-								["y"] = -227.500030517578,
-								["x"] = -176.800012207031,
-								["point"] = "CENTER",
-								["scale"] = 0.8,
-							},
-							["padding"] = 0,
-							["visibility"] = {
-								["nocombat"] = true,
-							},
-						}, -- [9]
-						{
-						}, -- [10]
+						[10] = {
+						},
 					},
 				},
 				["Hauzer - Kel'Thuzad"] = {
@@ -2666,8 +2672,8 @@ Bartender4DB = {
 						{
 							["showgrid"] = true,
 							["rows"] = 2,
-							["buttons"] = 10,
 							["fadeoutalpha"] = 0.35,
+							["hidehotkey"] = true,
 							["position"] = {
 								["y"] = 146,
 								["x"] = -90,
@@ -2679,13 +2685,13 @@ Bartender4DB = {
 								["custom"] = true,
 								["customdata"] = "[nocombat, nomod] fade; [nocombat, mod] hide; [combat, nomod] show; hide;",
 							},
-							["hidehotkey"] = true,
+							["buttons"] = 10,
 						}, -- [1]
 						{
 							["showgrid"] = true,
 							["rows"] = 2,
-							["buttons"] = 10,
 							["hidehotkey"] = true,
+							["fadeoutalpha"] = 0.35,
 							["position"] = {
 								["y"] = 76,
 								["x"] = -90,
@@ -2697,75 +2703,75 @@ Bartender4DB = {
 								["custom"] = true,
 								["customdata"] = "[nocombat, nomod] fade; [nocombat, mod] hide; [combat, nomod] show; hide;",
 							},
-							["fadeoutalpha"] = 0.35,
+							["buttons"] = 10,
 						}, -- [2]
 						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["hidehotkey"] = true,
+							["buttons"] = 10,
+							["padding"] = -2,
+							["rows"] = 2,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[mod:shift]show;hide;",
+							},
 							["position"] = {
 								["y"] = 146,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["buttons"] = 10,
-							["version"] = 3,
-							["showgrid"] = true,
-							["rows"] = 2,
-							["padding"] = -2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[mod:shift]show;hide;",
-							},
-							["hidehotkey"] = true,
 						}, -- [3]
 						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["hidehotkey"] = true,
+							["buttons"] = 10,
+							["padding"] = -2,
+							["rows"] = 2,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[mod:shift]show;hide;",
+							},
 							["position"] = {
 								["y"] = 76,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["buttons"] = 10,
-							["version"] = 3,
-							["showgrid"] = true,
-							["rows"] = 2,
-							["padding"] = -2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[mod:shift]show;hide;",
-							},
-							["hidehotkey"] = true,
 						}, -- [4]
 						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["hidehotkey"] = true,
+							["buttons"] = 10,
+							["padding"] = -2,
+							["rows"] = 2,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[mod:ctrl]show;hide;",
+							},
 							["position"] = {
 								["y"] = 146,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["buttons"] = 10,
+						}, -- [5]
+						{
 							["version"] = 3,
 							["showgrid"] = true,
-							["rows"] = 2,
+							["hidehotkey"] = true,
+							["buttons"] = 10,
 							["padding"] = -2,
+							["rows"] = 2,
 							["visibility"] = {
 								["custom"] = true,
 								["customdata"] = "[mod:ctrl]show;hide;",
 							},
-							["hidehotkey"] = true,
-						}, -- [5]
-						{
 							["position"] = {
 								["y"] = 76,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["buttons"] = 10,
-							["version"] = 3,
-							["showgrid"] = true,
-							["rows"] = 2,
-							["padding"] = -2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[mod:ctrl]show;hide;",
-							},
-							["hidehotkey"] = true,
 						}, -- [6]
 						{
 							["enabled"] = true,
@@ -2777,13 +2783,13 @@ Bartender4DB = {
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["buttons"] = 10,
+							["hidehotkey"] = true,
 							["padding"] = -2,
 							["visibility"] = {
 								["custom"] = true,
 								["customdata"] = "[mod:alt]show;hide;",
 							},
-							["hidehotkey"] = true,
+							["buttons"] = 10,
 						}, -- [7]
 						{
 							["enabled"] = true,
@@ -2795,13 +2801,13 @@ Bartender4DB = {
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["buttons"] = 10,
+							["hidehotkey"] = true,
 							["padding"] = -2,
 							["visibility"] = {
 								["custom"] = true,
 								["customdata"] = "[mod:alt]show;hide;",
 							},
-							["hidehotkey"] = true,
+							["buttons"] = 10,
 						}, -- [8]
 						{
 							["enabled"] = true,
@@ -2843,8 +2849,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -2853,8 +2859,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -2889,7 +2895,7 @@ Bartender4DB = {
 						}, -- [10]
 					},
 				},
-				["Deeke - Kel'Thuzad"] = {
+				["Nigellah - Kel'Thuzad"] = {
 					["actionbars"] = {
 						{
 							["showgrid"] = true,
@@ -2999,13 +3005,13 @@ Bartender4DB = {
 							["enabled"] = true,
 							["showgrid"] = true,
 							["rows"] = 2,
-							["version"] = 3,
+							["hidehotkey"] = true,
 							["position"] = {
 								["y"] = 146,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["hidehotkey"] = true,
+							["version"] = 3,
 							["padding"] = -2,
 							["visibility"] = {
 								["custom"] = true,
@@ -3017,13 +3023,13 @@ Bartender4DB = {
 							["enabled"] = true,
 							["showgrid"] = true,
 							["rows"] = 2,
-							["version"] = 3,
+							["hidehotkey"] = true,
 							["position"] = {
 								["y"] = 76,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["hidehotkey"] = true,
+							["version"] = 3,
 							["padding"] = -2,
 							["visibility"] = {
 								["custom"] = true,
@@ -3032,11 +3038,7 @@ Bartender4DB = {
 							["buttons"] = 10,
 						}, -- [8]
 						{
-							["visibility"] = {
-								["combat"] = false,
-								["nocombat"] = true,
-							},
-							["padding"] = -2,
+							["enabled"] = true,
 							["version"] = 3,
 							["position"] = {
 								["y"] = -127,
@@ -3044,42 +3046,41 @@ Bartender4DB = {
 								["point"] = "CENTER",
 								["scale"] = 0.8,
 							},
+							["padding"] = -2,
+							["visibility"] = {
+								["combat"] = false,
+								["nocombat"] = true,
+							},
 						}, -- [9]
 						{
-							["version"] = 3,
-							["position"] = {
-								["y"] = -227.500030517578,
-								["x"] = -231.500183105469,
-								["point"] = "CENTER",
-							},
 						}, -- [10]
 					},
 				},
-				["Alorannah - Kel'Thuzad"] = {
+				["Leeroyjenkem - Kel'Thuzad"] = {
 					["actionbars"] = {
 						{
 							["showgrid"] = true,
 							["rows"] = 2,
-							["buttons"] = 10,
-							["hidehotkey"] = true,
+							["fadeoutalpha"] = 0.35,
+							["version"] = 3,
 							["position"] = {
 								["y"] = 146,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["fadeoutalpha"] = 1,
+							["hidehotkey"] = true,
 							["padding"] = -2,
 							["visibility"] = {
 								["custom"] = true,
-								["customdata"] = "[nomod]show; hide;",
+								["customdata"] = "[nocombat, nomod] fade; [nocombat, mod] hide; [combat, nomod] show; hide;",
 							},
-							["version"] = 3,
+							["buttons"] = 10,
 						}, -- [1]
 						{
 							["showgrid"] = true,
 							["rows"] = 2,
-							["buttons"] = 10,
 							["hidehotkey"] = true,
+							["fadeoutalpha"] = 0.35,
 							["position"] = {
 								["y"] = 76,
 								["x"] = -90,
@@ -3089,125 +3090,124 @@ Bartender4DB = {
 							["padding"] = -2,
 							["visibility"] = {
 								["custom"] = true,
-								["customdata"] = "[nomod]show; hide;",
+								["customdata"] = "[nocombat, nomod] fade; [nocombat, mod] hide; [combat, nomod] show; hide;",
 							},
-							["fadeoutalpha"] = 1,
+							["buttons"] = 10,
 						}, -- [2]
 						{
+							["hidehotkey"] = true,
+							["showgrid"] = true,
+							["version"] = 3,
 							["buttons"] = 10,
+							["padding"] = -2,
+							["rows"] = 2,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[mod:shift]show;hide;",
+							},
 							["position"] = {
 								["y"] = 146,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["version"] = 3,
-							["showgrid"] = true,
-							["rows"] = 2,
-							["padding"] = -2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[mod: shift]show; hide;",
-							},
-							["hidehotkey"] = true,
 						}, -- [3]
 						{
+							["hidehotkey"] = true,
+							["showgrid"] = true,
+							["version"] = 3,
 							["buttons"] = 10,
+							["padding"] = -2,
+							["rows"] = 2,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[mod:shift]show;hide;",
+							},
 							["position"] = {
 								["y"] = 76,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["version"] = 3,
-							["showgrid"] = true,
-							["rows"] = 2,
-							["padding"] = -2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[mod: shift]show; hide;",
-							},
-							["hidehotkey"] = true,
 						}, -- [4]
 						{
+							["hidehotkey"] = true,
+							["showgrid"] = true,
+							["version"] = 3,
 							["buttons"] = 10,
+							["padding"] = -2,
+							["rows"] = 2,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[mod:ctrl]show;hide;",
+							},
 							["position"] = {
 								["y"] = 146,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["version"] = 3,
-							["showgrid"] = true,
-							["rows"] = 2,
-							["padding"] = -2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[mod: ctrl]show; hide;",
-							},
-							["hidehotkey"] = true,
 						}, -- [5]
 						{
+							["hidehotkey"] = true,
+							["showgrid"] = true,
+							["version"] = 3,
 							["buttons"] = 10,
+							["padding"] = -2,
+							["rows"] = 2,
+							["visibility"] = {
+								["custom"] = true,
+								["customdata"] = "[mod:ctrl]show;hide;",
+							},
 							["position"] = {
 								["y"] = 76,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["version"] = 3,
-							["showgrid"] = true,
-							["rows"] = 2,
-							["padding"] = -2,
-							["visibility"] = {
-								["custom"] = true,
-								["customdata"] = "[mod: ctrl]show; hide;",
-							},
-							["hidehotkey"] = true,
 						}, -- [6]
 						{
 							["enabled"] = true,
 							["showgrid"] = true,
 							["rows"] = 2,
-							["hidehotkey"] = true,
+							["version"] = 3,
 							["position"] = {
 								["y"] = 146,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["buttons"] = 10,
+							["hidehotkey"] = true,
 							["padding"] = -2,
 							["visibility"] = {
 								["custom"] = true,
-								["customdata"] = "[mod: alt]show; hide;",
+								["customdata"] = "[mod:alt]show;hide;",
 							},
-							["version"] = 3,
+							["buttons"] = 10,
 						}, -- [7]
 						{
 							["enabled"] = true,
 							["showgrid"] = true,
 							["rows"] = 2,
-							["hidehotkey"] = true,
+							["version"] = 3,
 							["position"] = {
 								["y"] = 76,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["buttons"] = 10,
+							["hidehotkey"] = true,
 							["padding"] = -2,
 							["visibility"] = {
 								["custom"] = true,
-								["customdata"] = "[mod: alt]show; hide;",
+								["customdata"] = "[mod:alt]show;hide;",
 							},
-							["version"] = 3,
+							["buttons"] = 10,
 						}, -- [8]
 						{
 							["enabled"] = true,
 							["version"] = 3,
 							["position"] = {
-								["y"] = -181.573724233713,
-								["x"] = -167.600133087239,
-								["point"] = "CENTER",
+								["y"] = 58.9666573728123,
+								["x"] = 182.432831113034,
+								["point"] = "BOTTOM",
 								["scale"] = 0.800000011920929,
 							},
 							["padding"] = -2,
-							["alpha"] = 0.7,
 							["visibility"] = {
 								["combat"] = false,
 								["nocombat"] = true,
@@ -3239,7 +3239,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Leeroyjenkem - Kel'Thuzad"] = {
+				["Alisheeya - Kel'Thuzad"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 223.000015258789,
@@ -3255,7 +3255,71 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Nigellah - Kel'Thuzad"] = {
+				["Kmkarbashian - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000015258789,
+						["x"] = -31.5001220703125,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Beatryce - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000015258789,
+						["x"] = -31.5001220703125,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Pharrah - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000015258789,
+						["x"] = -31.5001220703125,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Laurannah - Kel'Thuzad"] = {
+					["position"] = {
+						["y"] = 286.340972900391,
+						["x"] = -31.5,
+						["point"] = "BOTTOM",
+					},
+					["version"] = 3,
+				},
+				["Deeke - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000015258789,
+						["x"] = -31.5001220703125,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Sdkfhsdkjfhs - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000015258789,
+						["x"] = -31.5001220703125,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Foolioioio - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000030517578,
+						["x"] = -31.5001220703125,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Hauzerina - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000015258789,
+						["x"] = -31.5001220703125,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Hoobastanko - Kel'Thuzad"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 223.000015258789,
@@ -3271,46 +3335,6 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Pharrah - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000015258789,
-						["x"] = -31.5001220703125,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Laurannah - Kel'Thuzad"] = {
-					["position"] = {
-						["y"] = 286.340972900391,
-						["x"] = -31.5,
-						["point"] = "BOTTOM",
-					},
-					["version"] = 3,
-				},
-				["Alisheeya - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000015258789,
-						["x"] = -31.5001220703125,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Sdkfhsdkjfhs - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000015258789,
-						["x"] = -31.5001220703125,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Foolioioio - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000030517578,
-						["x"] = -31.5001220703125,
-						["point"] = "BOTTOM",
-					},
-				},
 				["Beatryss - Kel'Thuzad"] = {
 					["version"] = 3,
 					["position"] = {
@@ -3319,35 +3343,11 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Kmkarbashian - Kel'Thuzad"] = {
+				["Alorannah - Kel'Thuzad"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 223.000015258789,
-						["x"] = -31.5001220703125,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Beatryce - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000015258789,
-						["x"] = -31.5001220703125,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Hauzerina - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000015258789,
-						["x"] = -31.5001220703125,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Ugiyo - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000015258789,
-						["x"] = -31.5001220703125,
+						["y"] = 286.340972900391,
+						["x"] = -31.5,
 						["point"] = "BOTTOM",
 					},
 				},
@@ -3359,7 +3359,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Olrapey - Kel'Thuzad"] = {
+				["Fsdkjhskdjfh - Kel'Thuzad"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 223.000015258789,
@@ -3383,7 +3383,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Fsdkjhskdjfh - Kel'Thuzad"] = {
+				["Olrapey - Kel'Thuzad"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 223.000015258789,
@@ -3399,11 +3399,11 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Alorannah - Kel'Thuzad"] = {
+				["Ugiyo - Kel'Thuzad"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 286.340972900391,
-						["x"] = -31.5,
+						["y"] = 223.000015258789,
+						["x"] = -31.5001220703125,
 						["point"] = "BOTTOM",
 					},
 				},
@@ -3419,58 +3419,6 @@ Bartender4DB = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 223.000030517578,
-						["x"] = -31.5001220703125,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Hoobastanko - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000015258789,
-						["x"] = -31.5001220703125,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Deeke - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000015258789,
-						["x"] = -31.5001220703125,
-						["point"] = "BOTTOM",
-					},
-				},
-			},
-		},
-		["ZoneAbilityBar"] = {
-			["profiles"] = {
-				["Fooliolio - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000045776367,
-						["x"] = -31.500244140625,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Laurenn - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000015258789,
-						["x"] = -31.5001220703125,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Hauzerone - Dalaran"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000015258789,
-						["x"] = -31.5001220703125,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Leeroyjenkem - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000015258789,
 						["x"] = -31.5001220703125,
 						["point"] = "BOTTOM",
 					},
@@ -3483,167 +3431,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Pharrah - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000015258789,
-						["x"] = -31.5001220703125,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Laurannah - Kel'Thuzad"] = {
-					["position"] = {
-						["y"] = 286.732971191406,
-						["x"] = -31.5,
-						["point"] = "BOTTOM",
-					},
-					["version"] = 3,
-				},
-				["Alisheeya - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000015258789,
-						["x"] = -31.5001220703125,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Sdkfhsdkjfhs - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000015258789,
-						["x"] = -31.5001220703125,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Foolioioio - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000045776367,
-						["x"] = -31.500244140625,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Ugiyo - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000015258789,
-						["x"] = -31.5001220703125,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Alorannah - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 286.732971191406,
-						["x"] = -31.5,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Beatryce - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000015258789,
-						["x"] = -31.5001220703125,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Hauzerina - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000015258789,
-						["x"] = -31.5001220703125,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Beatryss - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000015258789,
-						["x"] = -31.5001220703125,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Hoobastanko - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000015258789,
-						["x"] = -31.5001220703125,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Fsdkjhskdjfh - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000015258789,
-						["x"] = -31.5001220703125,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Olrapey - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000015258789,
-						["x"] = -31.5001220703125,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Skãdi - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000015258789,
-						["x"] = -31.5001220703125,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Darknstormie - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000015258789,
-						["x"] = -31.5001220703125,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Alauranna - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000015258789,
-						["x"] = -31.5001220703125,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Hoobastankie - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000015258789,
-						["x"] = -31.5001220703125,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Hauzer - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000015258789,
-						["x"] = -31.5001220703125,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Rogueout - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000045776367,
-						["x"] = -31.500244140625,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Kmkarbashian - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 223.000015258789,
-						["x"] = -31.5001220703125,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Deeke - Kel'Thuzad"] = {
+				["Leeroyjenkem - Kel'Thuzad"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 223.000015258789,
@@ -3674,10 +3462,10 @@ Bartender4DB = {
 						["scale"] = 1,
 					},
 				},
-				["Leeroyjenkem - Kel'Thuzad"] = {
-					["fadeout"] = true,
-					["fadeoutalpha"] = 0,
+				["Alisheeya - Kel'Thuzad"] = {
 					["version"] = 3,
+					["fadeoutalpha"] = 0,
+					["fadeout"] = true,
 					["position"] = {
 						["y"] = 64,
 						["x"] = -284,
@@ -3695,25 +3483,24 @@ Bartender4DB = {
 						["scale"] = 1,
 					},
 				},
-				["Nigellah - Kel'Thuzad"] = {
-					["fadeoutalpha"] = 0,
+				["Kmkarbashian - Kel'Thuzad"] = {
+					["padding"] = -2,
 					["version"] = 3,
-					["fadeout"] = true,
 					["position"] = {
-						["y"] = 64,
-						["x"] = -284,
+						["y"] = 75.3466644287109,
+						["x"] = -459.000122070313,
 						["point"] = "BOTTOMRIGHT",
 						["scale"] = 1,
 					},
 				},
-				["Alurannah - Kel'Thuzad"] = {
+				["Beatryce - Kel'Thuzad"] = {
 					["padding"] = -2,
 					["version"] = 3,
 					["position"] = {
-						["scale"] = 1,
+						["y"] = 41.75,
 						["x"] = 37.5,
 						["point"] = "BOTTOM",
-						["y"] = 41.75,
+						["scale"] = 1,
 					},
 				},
 				["Pharrah - Kel'Thuzad"] = {
@@ -3734,14 +3521,14 @@ Bartender4DB = {
 						["point"] = "BOTTOMRIGHT",
 						["scale"] = 1,
 					},
-					["fadeout"] = true,
 					["version"] = 3,
+					["fadeout"] = true,
 					["fadeoutalpha"] = 0,
 				},
-				["Alisheeya - Kel'Thuzad"] = {
+				["Deeke - Kel'Thuzad"] = {
 					["version"] = 3,
-					["fadeoutalpha"] = 0,
 					["fadeout"] = true,
+					["fadeoutalpha"] = 0,
 					["position"] = {
 						["y"] = 64,
 						["x"] = -284,
@@ -3769,6 +3556,37 @@ Bartender4DB = {
 						["y"] = 41.75,
 					},
 				},
+				["Hauzerina - Kel'Thuzad"] = {
+					["padding"] = -2,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 41.75,
+						["x"] = 37.5,
+						["point"] = "BOTTOM",
+						["scale"] = 1,
+					},
+				},
+				["Hoobastanko - Kel'Thuzad"] = {
+					["version"] = 3,
+					["fadeout"] = true,
+					["fadeoutalpha"] = 0,
+					["position"] = {
+						["scale"] = 1,
+						["x"] = -284,
+						["point"] = "BOTTOMRIGHT",
+						["y"] = 64,
+					},
+				},
+				["Alurannah - Kel'Thuzad"] = {
+					["padding"] = -2,
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 1,
+						["x"] = 37.5,
+						["point"] = "BOTTOM",
+						["y"] = 41.75,
+					},
+				},
 				["Beatryss - Kel'Thuzad"] = {
 					["version"] = 3,
 					["fadeoutalpha"] = 0,
@@ -3780,45 +3598,15 @@ Bartender4DB = {
 						["scale"] = 1,
 					},
 				},
-				["Kmkarbashian - Kel'Thuzad"] = {
-					["padding"] = -2,
+				["Alorannah - Kel'Thuzad"] = {
 					["version"] = 3,
-					["position"] = {
-						["y"] = 75.3466644287109,
-						["x"] = -459.000122070313,
-						["point"] = "BOTTOMRIGHT",
-						["scale"] = 1,
-					},
-				},
-				["Beatryce - Kel'Thuzad"] = {
-					["padding"] = -2,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 41.75,
-						["x"] = 37.5,
-						["point"] = "BOTTOM",
-						["scale"] = 1,
-					},
-				},
-				["Hauzerina - Kel'Thuzad"] = {
-					["padding"] = -2,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 41.75,
-						["x"] = 37.5,
-						["point"] = "BOTTOM",
-						["scale"] = 1,
-					},
-				},
-				["Ugiyo - Kel'Thuzad"] = {
 					["fadeoutalpha"] = 0,
-					["version"] = 3,
 					["fadeout"] = true,
 					["position"] = {
-						["scale"] = 1,
+						["y"] = 64,
 						["x"] = -284,
 						["point"] = "BOTTOMRIGHT",
-						["y"] = 64,
+						["scale"] = 1,
 					},
 				},
 				["Hoobastankie - Kel'Thuzad"] = {
@@ -3832,14 +3620,13 @@ Bartender4DB = {
 						["scale"] = 1,
 					},
 				},
-				["Olrapey - Kel'Thuzad"] = {
-					["padding"] = -2,
+				["Fsdkjhskdjfh - Kel'Thuzad"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 41.75,
-						["x"] = 37.5,
-						["point"] = "BOTTOM",
-						["scale"] = 1,
+						["y"] = 42.3999607443802,
+						["x"] = -198.800133552155,
+						["point"] = "CENTER",
+						["scale"] = 0.800000011920929,
 					},
 				},
 				["Darknstormie - Kel'Thuzad"] = {
@@ -3863,13 +3650,14 @@ Bartender4DB = {
 						["scale"] = 1,
 					},
 				},
-				["Fsdkjhskdjfh - Kel'Thuzad"] = {
+				["Olrapey - Kel'Thuzad"] = {
+					["padding"] = -2,
 					["version"] = 3,
 					["position"] = {
-						["y"] = 42.3999607443802,
-						["x"] = -198.800133552155,
-						["point"] = "CENTER",
-						["scale"] = 0.800000011920929,
+						["y"] = 41.75,
+						["x"] = 37.5,
+						["point"] = "BOTTOM",
+						["scale"] = 1,
 					},
 				},
 				["Alauranna - Kel'Thuzad"] = {
@@ -3883,15 +3671,15 @@ Bartender4DB = {
 						["scale"] = 1,
 					},
 				},
-				["Alorannah - Kel'Thuzad"] = {
-					["version"] = 3,
+				["Ugiyo - Kel'Thuzad"] = {
 					["fadeoutalpha"] = 0,
+					["version"] = 3,
 					["fadeout"] = true,
 					["position"] = {
-						["y"] = 64,
+						["scale"] = 1,
 						["x"] = -284,
 						["point"] = "BOTTOMRIGHT",
-						["scale"] = 1,
+						["y"] = 64,
 					},
 				},
 				["Hauzer - Kel'Thuzad"] = {
@@ -3915,26 +3703,238 @@ Bartender4DB = {
 						["scale"] = 1,
 					},
 				},
-				["Hoobastanko - Kel'Thuzad"] = {
+				["Nigellah - Kel'Thuzad"] = {
+					["fadeoutalpha"] = 0,
 					["version"] = 3,
 					["fadeout"] = true,
-					["fadeoutalpha"] = 0,
 					["position"] = {
-						["scale"] = 1,
+						["y"] = 64,
 						["x"] = -284,
 						["point"] = "BOTTOMRIGHT",
-						["y"] = 64,
+						["scale"] = 1,
 					},
+				},
+				["Leeroyjenkem - Kel'Thuzad"] = {
+					["fadeout"] = true,
+					["fadeoutalpha"] = 0,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 64,
+						["x"] = -284,
+						["point"] = "BOTTOMRIGHT",
+						["scale"] = 1,
+					},
+				},
+			},
+		},
+		["ZoneAbilityBar"] = {
+			["profiles"] = {
+				["Fooliolio - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000045776367,
+						["x"] = -31.500244140625,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Laurenn - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000015258789,
+						["x"] = -31.5001220703125,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Hauzerone - Dalaran"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000015258789,
+						["x"] = -31.5001220703125,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Alisheeya - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000015258789,
+						["x"] = -31.5001220703125,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Alorannah - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 286.732971191406,
+						["x"] = -31.5,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Pharrah - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000015258789,
+						["x"] = -31.5001220703125,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Laurannah - Kel'Thuzad"] = {
+					["position"] = {
+						["y"] = 286.732971191406,
+						["x"] = -31.5,
+						["point"] = "BOTTOM",
+					},
+					["version"] = 3,
 				},
 				["Deeke - Kel'Thuzad"] = {
 					["version"] = 3,
-					["fadeout"] = true,
-					["fadeoutalpha"] = 0,
 					["position"] = {
-						["y"] = 64,
-						["x"] = -284,
-						["point"] = "BOTTOMRIGHT",
-						["scale"] = 1,
+						["y"] = 223.000015258789,
+						["x"] = -31.5001220703125,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Sdkfhsdkjfhs - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000015258789,
+						["x"] = -31.5001220703125,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Foolioioio - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000045776367,
+						["x"] = -31.500244140625,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Kmkarbashian - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000015258789,
+						["x"] = -31.5001220703125,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Ugiyo - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000015258789,
+						["x"] = -31.5001220703125,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Beatryce - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000015258789,
+						["x"] = -31.5001220703125,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Hauzerina - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000015258789,
+						["x"] = -31.5001220703125,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Beatryss - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000015258789,
+						["x"] = -31.5001220703125,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Hoobastankie - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000015258789,
+						["x"] = -31.5001220703125,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Fsdkjhskdjfh - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000015258789,
+						["x"] = -31.5001220703125,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Olrapey - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000015258789,
+						["x"] = -31.5001220703125,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Skãdi - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000015258789,
+						["x"] = -31.5001220703125,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Darknstormie - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000015258789,
+						["x"] = -31.5001220703125,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Alauranna - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000015258789,
+						["x"] = -31.5001220703125,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Hoobastanko - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000015258789,
+						["x"] = -31.5001220703125,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Hauzer - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000015258789,
+						["x"] = -31.5001220703125,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Rogueout - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000045776367,
+						["x"] = -31.500244140625,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Nigellah - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000015258789,
+						["x"] = -31.5001220703125,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Leeroyjenkem - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.000015258789,
+						["x"] = -31.5001220703125,
+						["point"] = "BOTTOM",
 					},
 				},
 			},
@@ -3980,7 +3980,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Hauzerone - Dalaran"] = {
+				["Skãdi - Kel'Thuzad"] = {
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
@@ -4007,7 +4007,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Skãdi - Kel'Thuzad"] = {
+				["Hauzerone - Dalaran"] = {
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
@@ -4041,460 +4041,6 @@ Bartender4DB = {
 						["y"] = 47,
 						["x"] = -512,
 						["point"] = "BOTTOM",
-					},
-				},
-			},
-		},
-		["Vehicle"] = {
-			["profiles"] = {
-				["Fooliolio - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000610351563,
-						["x"] = 99.5001220703125,
-						["point"] = "CENTER",
-					},
-				},
-				["Laurenn - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5001220703125,
-						["point"] = "CENTER",
-					},
-				},
-				["Leeroyjenkem - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 147,
-						["x"] = 83,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Hauzerone - Dalaran"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5001220703125,
-						["point"] = "CENTER",
-					},
-				},
-				["Nigellah - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 147,
-						["x"] = 83,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Alurannah - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5001220703125,
-						["point"] = "CENTER",
-					},
-				},
-				["Pharrah - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 147,
-						["x"] = 83,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Laurannah - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 147,
-						["x"] = 83,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Alisheeya - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 147,
-						["x"] = 83,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Sdkfhsdkjfhs - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5001220703125,
-						["point"] = "CENTER",
-					},
-				},
-				["Foolioioio - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000610351563,
-						["x"] = 99.5001220703125,
-						["point"] = "CENTER",
-					},
-				},
-				["Beatryss - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 147,
-						["x"] = 83,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Kmkarbashian - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5001220703125,
-						["point"] = "CENTER",
-					},
-				},
-				["Beatryce - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5001220703125,
-						["point"] = "CENTER",
-					},
-				},
-				["Hauzerina - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5001220703125,
-						["point"] = "CENTER",
-					},
-				},
-				["Ugiyo - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 147,
-						["x"] = 83,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Hoobastankie - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 147,
-						["x"] = 83,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Olrapey - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5001220703125,
-						["point"] = "CENTER",
-					},
-				},
-				["Darknstormie - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 147,
-						["x"] = 83,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Skãdi - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5001220703125,
-						["point"] = "CENTER",
-					},
-				},
-				["Fsdkjhskdjfh - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000305175781,
-						["x"] = 99.5001220703125,
-						["point"] = "CENTER",
-					},
-				},
-				["Alauranna - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 147,
-						["x"] = 83,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Alorannah - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 147,
-						["x"] = 83,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Hauzer - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 147,
-						["x"] = 83,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Rogueout - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.5000610351563,
-						["x"] = 99.5001220703125,
-						["point"] = "CENTER",
-					},
-				},
-				["Hoobastanko - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 147,
-						["x"] = 83,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Deeke - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 147,
-						["x"] = 83,
-						["point"] = "BOTTOM",
-					},
-				},
-			},
-		},
-		["BagBar"] = {
-			["profiles"] = {
-				["Fooliolio - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 1.5001220703125,
-						["x"] = 58.4998779296875,
-						["point"] = "CENTER",
-					},
-				},
-				["Laurenn - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 38.5,
-						["x"] = 345,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Leeroyjenkem - Kel'Thuzad"] = {
-					["enabled"] = false,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 1.50006103515625,
-						["x"] = 58.4998779296875,
-						["point"] = "CENTER",
-					},
-				},
-				["Hauzerone - Dalaran"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 38.5,
-						["x"] = 345,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Nigellah - Kel'Thuzad"] = {
-					["enabled"] = false,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 1.50006103515625,
-						["x"] = 58.4998779296875,
-						["point"] = "CENTER",
-					},
-				},
-				["Alurannah - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 38.5,
-						["x"] = 345,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Pharrah - Kel'Thuzad"] = {
-					["enabled"] = false,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 1.50006103515625,
-						["x"] = 58.4998779296875,
-						["point"] = "CENTER",
-					},
-				},
-				["Laurannah - Kel'Thuzad"] = {
-					["enabled"] = false,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 1.50006103515625,
-						["x"] = 58.4998779296875,
-						["point"] = "CENTER",
-					},
-				},
-				["Alisheeya - Kel'Thuzad"] = {
-					["enabled"] = false,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 1.50006103515625,
-						["x"] = 58.4998779296875,
-						["point"] = "CENTER",
-					},
-				},
-				["Sdkfhsdkjfhs - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 38.5,
-						["x"] = 345,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Foolioioio - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 38.5,
-						["x"] = 345,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Beatryss - Kel'Thuzad"] = {
-					["enabled"] = false,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 1.50006103515625,
-						["x"] = 58.4998779296875,
-						["point"] = "CENTER",
-					},
-				},
-				["Kmkarbashian - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 68.3466644287109,
-						["x"] = -171.000122070313,
-						["point"] = "BOTTOMRIGHT",
-					},
-				},
-				["Beatryce - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 38.5,
-						["x"] = 345,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Hauzerina - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 38.5,
-						["x"] = 345,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Ugiyo - Kel'Thuzad"] = {
-					["enabled"] = false,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 1.50006103515625,
-						["x"] = 58.4998779296875,
-						["point"] = "CENTER",
-					},
-				},
-				["Hoobastankie - Kel'Thuzad"] = {
-					["enabled"] = false,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 1.50006103515625,
-						["x"] = 58.4998779296875,
-						["point"] = "CENTER",
-					},
-				},
-				["Olrapey - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 38.5,
-						["x"] = 345,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Darknstormie - Kel'Thuzad"] = {
-					["enabled"] = false,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 1.50006103515625,
-						["x"] = 58.4998779296875,
-						["point"] = "CENTER",
-					},
-				},
-				["Skãdi - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 38.5,
-						["x"] = 345,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Fsdkjhskdjfh - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 1.50006103515625,
-						["x"] = 58.4998779296875,
-						["point"] = "CENTER",
-					},
-				},
-				["Alauranna - Kel'Thuzad"] = {
-					["enabled"] = false,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 1.50006103515625,
-						["x"] = 58.4998779296875,
-						["point"] = "CENTER",
-					},
-				},
-				["Alorannah - Kel'Thuzad"] = {
-					["enabled"] = false,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 1.50006103515625,
-						["x"] = 58.4998779296875,
-						["point"] = "CENTER",
-					},
-				},
-				["Hauzer - Kel'Thuzad"] = {
-					["enabled"] = false,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 1.50006103515625,
-						["x"] = 58.4998779296875,
-						["point"] = "CENTER",
-					},
-				},
-				["Rogueout - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 38.5,
-						["x"] = 345,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Hoobastanko - Kel'Thuzad"] = {
-					["enabled"] = false,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 1.50006103515625,
-						["x"] = 58.4998779296875,
-						["point"] = "CENTER",
-					},
-				},
-				["Deeke - Kel'Thuzad"] = {
-					["enabled"] = false,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 1.50006103515625,
-						["x"] = 58.4998779296875,
-						["point"] = "CENTER",
 					},
 				},
 			},
@@ -4517,7 +4063,7 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Leeroyjenkem - Kel'Thuzad"] = {
+				["Alisheeya - Kel'Thuzad"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = -14.9999542236328,
@@ -4533,20 +4079,22 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Nigellah - Kel'Thuzad"] = {
+				["Kmkarbashian - Kel'Thuzad"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -14.9999542236328,
-						["x"] = -82.5000305175781,
-						["point"] = "CENTER",
+						["y"] = 116,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+						["scale"] = 1,
 					},
 				},
-				["Alurannah - Kel'Thuzad"] = {
+				["Beatryce - Kel'Thuzad"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 14.2500457763672,
-						["x"] = -111.750076293945,
-						["point"] = "CENTER",
+						["y"] = 116,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+						["scale"] = 1,
 					},
 				},
 				["Pharrah - Kel'Thuzad"] = {
@@ -4565,7 +4113,7 @@ Bartender4DB = {
 					},
 					["version"] = 3,
 				},
-				["Alisheeya - Kel'Thuzad"] = {
+				["Deeke - Kel'Thuzad"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = -14.9999542236328,
@@ -4589,32 +4137,6 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Beatryss - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -14.9999542236328,
-						["x"] = -82.5000305175781,
-						["point"] = "CENTER",
-					},
-				},
-				["Kmkarbashian - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 116,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-						["scale"] = 1,
-					},
-				},
-				["Beatryce - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 116,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-						["scale"] = 1,
-					},
-				},
 				["Hauzerina - Kel'Thuzad"] = {
 					["version"] = 3,
 					["position"] = {
@@ -4623,7 +4145,32 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Ugiyo - Kel'Thuzad"] = {
+				["Hoobastanko - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -14.9999542236328,
+						["x"] = -82.5000305175781,
+						["point"] = "CENTER",
+					},
+				},
+				["Alurannah - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 14.2500457763672,
+						["x"] = -111.750076293945,
+						["point"] = "CENTER",
+					},
+				},
+				["Beatryss - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -14.9999542236328,
+						["x"] = -82.5000305175781,
+						["point"] = "CENTER",
+					},
+				},
+				["Alorannah - Kel'Thuzad"] = {
+					["enabled"] = false,
 					["version"] = 3,
 					["position"] = {
 						["y"] = -14.9999542236328,
@@ -4639,7 +4186,7 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Olrapey - Kel'Thuzad"] = {
+				["Fsdkjhskdjfh - Kel'Thuzad"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = -14.9999771118164,
@@ -4663,7 +4210,7 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Fsdkjhskdjfh - Kel'Thuzad"] = {
+				["Olrapey - Kel'Thuzad"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = -14.9999771118164,
@@ -4680,8 +4227,7 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Alorannah - Kel'Thuzad"] = {
-					["enabled"] = false,
+				["Ugiyo - Kel'Thuzad"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = -14.9999542236328,
@@ -4705,7 +4251,7 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Hoobastanko - Kel'Thuzad"] = {
+				["Nigellah - Kel'Thuzad"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = -14.9999542236328,
@@ -4713,12 +4259,466 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Deeke - Kel'Thuzad"] = {
+				["Leeroyjenkem - Kel'Thuzad"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = -14.9999542236328,
 						["x"] = -82.5000305175781,
 						["point"] = "CENTER",
+					},
+				},
+			},
+		},
+		["BagBar"] = {
+			["profiles"] = {
+				["Fooliolio - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 1.5001220703125,
+						["x"] = 58.4998779296875,
+						["point"] = "CENTER",
+					},
+				},
+				["Laurenn - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 38.5,
+						["x"] = 345,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Alisheeya - Kel'Thuzad"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 1.50006103515625,
+						["x"] = 58.4998779296875,
+						["point"] = "CENTER",
+					},
+				},
+				["Hauzerone - Dalaran"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 38.5,
+						["x"] = 345,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Kmkarbashian - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 68.3466644287109,
+						["x"] = -171.000122070313,
+						["point"] = "BOTTOMRIGHT",
+					},
+				},
+				["Beatryce - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 38.5,
+						["x"] = 345,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Pharrah - Kel'Thuzad"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 1.50006103515625,
+						["x"] = 58.4998779296875,
+						["point"] = "CENTER",
+					},
+				},
+				["Laurannah - Kel'Thuzad"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 1.50006103515625,
+						["x"] = 58.4998779296875,
+						["point"] = "CENTER",
+					},
+				},
+				["Deeke - Kel'Thuzad"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 1.50006103515625,
+						["x"] = 58.4998779296875,
+						["point"] = "CENTER",
+					},
+				},
+				["Sdkfhsdkjfhs - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 38.5,
+						["x"] = 345,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Foolioioio - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 38.5,
+						["x"] = 345,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Hauzerina - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 38.5,
+						["x"] = 345,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Hoobastanko - Kel'Thuzad"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 1.50006103515625,
+						["x"] = 58.4998779296875,
+						["point"] = "CENTER",
+					},
+				},
+				["Alurannah - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 38.5,
+						["x"] = 345,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Beatryss - Kel'Thuzad"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 1.50006103515625,
+						["x"] = 58.4998779296875,
+						["point"] = "CENTER",
+					},
+				},
+				["Alorannah - Kel'Thuzad"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 1.50006103515625,
+						["x"] = 58.4998779296875,
+						["point"] = "CENTER",
+					},
+				},
+				["Hoobastankie - Kel'Thuzad"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 1.50006103515625,
+						["x"] = 58.4998779296875,
+						["point"] = "CENTER",
+					},
+				},
+				["Fsdkjhskdjfh - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 1.50006103515625,
+						["x"] = 58.4998779296875,
+						["point"] = "CENTER",
+					},
+				},
+				["Darknstormie - Kel'Thuzad"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 1.50006103515625,
+						["x"] = 58.4998779296875,
+						["point"] = "CENTER",
+					},
+				},
+				["Skãdi - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 38.5,
+						["x"] = 345,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Olrapey - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 38.5,
+						["x"] = 345,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Alauranna - Kel'Thuzad"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 1.50006103515625,
+						["x"] = 58.4998779296875,
+						["point"] = "CENTER",
+					},
+				},
+				["Ugiyo - Kel'Thuzad"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 1.50006103515625,
+						["x"] = 58.4998779296875,
+						["point"] = "CENTER",
+					},
+				},
+				["Hauzer - Kel'Thuzad"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 1.50006103515625,
+						["x"] = 58.4998779296875,
+						["point"] = "CENTER",
+					},
+				},
+				["Rogueout - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 38.5,
+						["x"] = 345,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Nigellah - Kel'Thuzad"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 1.50006103515625,
+						["x"] = 58.4998779296875,
+						["point"] = "CENTER",
+					},
+				},
+				["Leeroyjenkem - Kel'Thuzad"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 1.50006103515625,
+						["x"] = 58.4998779296875,
+						["point"] = "CENTER",
+					},
+				},
+			},
+		},
+		["Vehicle"] = {
+			["profiles"] = {
+				["Fooliolio - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000610351563,
+						["x"] = 99.5001220703125,
+						["point"] = "CENTER",
+					},
+				},
+				["Laurenn - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5001220703125,
+						["point"] = "CENTER",
+					},
+				},
+				["Alisheeya - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 147,
+						["x"] = 83,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Hauzerone - Dalaran"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5001220703125,
+						["point"] = "CENTER",
+					},
+				},
+				["Kmkarbashian - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5001220703125,
+						["point"] = "CENTER",
+					},
+				},
+				["Beatryce - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5001220703125,
+						["point"] = "CENTER",
+					},
+				},
+				["Pharrah - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 147,
+						["x"] = 83,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Laurannah - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 147,
+						["x"] = 83,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Deeke - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 147,
+						["x"] = 83,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Sdkfhsdkjfhs - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5001220703125,
+						["point"] = "CENTER",
+					},
+				},
+				["Foolioioio - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000610351563,
+						["x"] = 99.5001220703125,
+						["point"] = "CENTER",
+					},
+				},
+				["Hauzerina - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5001220703125,
+						["point"] = "CENTER",
+					},
+				},
+				["Hoobastanko - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 147,
+						["x"] = 83,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Alurannah - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5001220703125,
+						["point"] = "CENTER",
+					},
+				},
+				["Beatryss - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 147,
+						["x"] = 83,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Alorannah - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 147,
+						["x"] = 83,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Hoobastankie - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 147,
+						["x"] = 83,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Fsdkjhskdjfh - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5001220703125,
+						["point"] = "CENTER",
+					},
+				},
+				["Darknstormie - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 147,
+						["x"] = 83,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Skãdi - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5001220703125,
+						["point"] = "CENTER",
+					},
+				},
+				["Olrapey - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000305175781,
+						["x"] = 99.5001220703125,
+						["point"] = "CENTER",
+					},
+				},
+				["Alauranna - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 147,
+						["x"] = 83,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Ugiyo - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 147,
+						["x"] = 83,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Hauzer - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 147,
+						["x"] = 83,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Rogueout - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.5000610351563,
+						["x"] = 99.5001220703125,
+						["point"] = "CENTER",
+					},
+				},
+				["Nigellah - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 147,
+						["x"] = 83,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Leeroyjenkem - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 147,
+						["x"] = 83,
+						["point"] = "BOTTOM",
 					},
 				},
 			},
@@ -4741,12 +4741,12 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Leeroyjenkem - Kel'Thuzad"] = {
+				["Alisheeya - Kel'Thuzad"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 90.7666397094727,
-						["x"] = 182.533081054688,
-						["point"] = "BOTTOM",
+						["y"] = 89.4999389648438,
+						["x"] = -163.499938964844,
+						["point"] = "CENTER",
 					},
 				},
 				["Hauzerone - Dalaran"] = {
@@ -4757,19 +4757,19 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Nigellah - Kel'Thuzad"] = {
+				["Kmkarbashian - Kel'Thuzad"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 210.399887084961,
-						["x"] = 226.499633789063,
-						["point"] = "BOTTOM",
+						["y"] = 20,
+						["x"] = -163.999984741211,
+						["point"] = "CENTER",
 					},
 				},
-				["Alurannah - Kel'Thuzad"] = {
+				["Beatryce - Kel'Thuzad"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 116,
-						["x"] = -460,
+						["x"] = -120,
 						["point"] = "BOTTOM",
 					},
 				},
@@ -4792,7 +4792,8 @@ Bartender4DB = {
 					},
 					["padding"] = 0,
 				},
-				["Alisheeya - Kel'Thuzad"] = {
+				["Deeke - Kel'Thuzad"] = {
+					["enabled"] = false,
 					["version"] = 3,
 					["position"] = {
 						["y"] = 89.4999389648438,
@@ -4816,30 +4817,6 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Beatryss - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 89.4999389648438,
-						["x"] = -163.499938964844,
-						["point"] = "CENTER",
-					},
-				},
-				["Kmkarbashian - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 20,
-						["x"] = -163.999984741211,
-						["point"] = "CENTER",
-					},
-				},
-				["Beatryce - Kel'Thuzad"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 116,
-						["x"] = -120,
-						["point"] = "BOTTOM",
-					},
-				},
 				["Hauzerina - Kel'Thuzad"] = {
 					["version"] = 3,
 					["position"] = {
@@ -4848,12 +4825,39 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Ugiyo - Kel'Thuzad"] = {
+				["Hoobastanko - Kel'Thuzad"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 89.4999389648438,
 						["x"] = -163.499938964844,
 						["point"] = "CENTER",
+					},
+				},
+				["Alurannah - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 116,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Beatryss - Kel'Thuzad"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 89.4999389648438,
+						["x"] = -163.499938964844,
+						["point"] = "CENTER",
+					},
+				},
+				["Alorannah - Kel'Thuzad"] = {
+					["enabled"] = false,
+					["padding"] = 0,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 81.2332916259766,
+						["x"] = 179.633056640625,
+						["point"] = "BOTTOM",
+						["scale"] = 0.9,
 					},
 				},
 				["Hoobastankie - Kel'Thuzad"] = {
@@ -4864,12 +4868,12 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Olrapey - Kel'Thuzad"] = {
+				["Fsdkjhskdjfh - Kel'Thuzad"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 116,
-						["x"] = -460,
-						["point"] = "BOTTOM",
+						["y"] = 89.4999389648438,
+						["x"] = -163.499938964844,
+						["point"] = "CENTER",
 					},
 				},
 				["Darknstormie - Kel'Thuzad"] = {
@@ -4891,36 +4895,33 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Fsdkjhskdjfh - Kel'Thuzad"] = {
+				["Olrapey - Kel'Thuzad"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 89.4999389648438,
-						["x"] = -163.499938964844,
-						["point"] = "CENTER",
+						["y"] = 116,
+						["x"] = -460,
+						["point"] = "BOTTOM",
 					},
 				},
 				["Alauranna - Kel'Thuzad"] = {
+					["version"] = 3,
 					["visibility"] = {
 						["overridebar"] = false,
 						["vehicle"] = false,
 						["vehicleui"] = false,
 					},
-					["version"] = 3,
 					["position"] = {
 						["y"] = 273.933288574219,
 						["x"] = -153.599975585938,
 						["point"] = "BOTTOM",
 					},
 				},
-				["Alorannah - Kel'Thuzad"] = {
-					["enabled"] = false,
-					["padding"] = 0,
+				["Ugiyo - Kel'Thuzad"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 81.2332916259766,
-						["x"] = 179.633056640625,
-						["point"] = "BOTTOM",
-						["scale"] = 0.9,
+						["y"] = 89.4999389648438,
+						["x"] = -163.499938964844,
+						["point"] = "CENTER",
 					},
 				},
 				["Hauzer - Kel'Thuzad"] = {
@@ -4939,21 +4940,20 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Hoobastanko - Kel'Thuzad"] = {
+				["Nigellah - Kel'Thuzad"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 89.4999389648438,
-						["x"] = -163.499938964844,
-						["point"] = "CENTER",
+						["y"] = 210.399887084961,
+						["x"] = 226.499633789063,
+						["point"] = "BOTTOM",
 					},
 				},
-				["Deeke - Kel'Thuzad"] = {
-					["enabled"] = false,
+				["Leeroyjenkem - Kel'Thuzad"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 89.4999389648438,
-						["x"] = -163.499938964844,
-						["point"] = "CENTER",
+						["y"] = 90.7666397094727,
+						["x"] = 182.533081054688,
+						["point"] = "BOTTOM",
 					},
 				},
 			},
@@ -4964,165 +4964,54 @@ Bartender4DB = {
 	["profileKeys"] = {
 		["Fooliolio - Kel'Thuzad"] = "Fooliolio - Kel'Thuzad",
 		["Hoobastankie - Kel'Thuzad"] = "Hoobastankie - Kel'Thuzad",
-		["Leeroyjenkem - Kel'Thuzad"] = "Leeroyjenkem - Kel'Thuzad",
+		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
 		["Hauzerone - Dalaran"] = "Hauzerone - Dalaran",
-		["Nigellah - Kel'Thuzad"] = "Nigellah - Kel'Thuzad",
-		["Ugiyo - Kel'Thuzad"] = "Ugiyo - Kel'Thuzad",
+		["Alisheeya - Kel'Thuzad"] = "Alisheeya - Kel'Thuzad",
+		["Kmkarbashian - Kel'Thuzad"] = "Kmkarbashian - Kel'Thuzad",
 		["Pharrah - Kel'Thuzad"] = "Pharrah - Kel'Thuzad",
 		["Laurannah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
-		["Alisheeya - Kel'Thuzad"] = "Alisheeya - Kel'Thuzad",
+		["Deeke - Kel'Thuzad"] = "Deeke - Kel'Thuzad",
 		["Sdkfhsdkjfhs - Kel'Thuzad"] = "Sdkfhsdkjfhs - Kel'Thuzad",
 		["Foolioioio - Kel'Thuzad"] = "Foolioioio - Kel'Thuzad",
-		["Beatryss - Kel'Thuzad"] = "Beatryss - Kel'Thuzad",
-		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
-		["Alurannah - Kel'Thuzad"] = "Alurannah - Kel'Thuzad",
 		["Hauzerina - Kel'Thuzad"] = "Hauzerina - Kel'Thuzad",
-		["Beatryce - Kel'Thuzad"] = "Beatryce - Kel'Thuzad",
+		["Ugiyo - Kel'Thuzad"] = "Ugiyo - Kel'Thuzad",
+		["Alurannah - Kel'Thuzad"] = "Alurannah - Kel'Thuzad",
+		["Beatryss - Kel'Thuzad"] = "Beatryss - Kel'Thuzad",
+		["Hoobastanko - Kel'Thuzad"] = "Hoobastanko - Kel'Thuzad",
 		["Laurenn - Kel'Thuzad"] = "Laurenn - Kel'Thuzad",
-		["Olrapey - Kel'Thuzad"] = "Olrapey - Kel'Thuzad",
+		["Fsdkjhskdjfh - Kel'Thuzad"] = "Fsdkjhskdjfh - Kel'Thuzad",
 		["Darknstormie - Kel'Thuzad"] = "Darknstormie - Kel'Thuzad",
 		["Skãdi - Kel'Thuzad"] = "Skãdi - Kel'Thuzad",
-		["Fsdkjhskdjfh - Kel'Thuzad"] = "Fsdkjhskdjfh - Kel'Thuzad",
+		["Olrapey - Kel'Thuzad"] = "Olrapey - Kel'Thuzad",
 		["Alauranna - Kel'Thuzad"] = "Alauranna - Kel'Thuzad",
-		["Hoobastanko - Kel'Thuzad"] = "Hoobastanko - Kel'Thuzad",
+		["Beatryce - Kel'Thuzad"] = "Beatryce - Kel'Thuzad",
 		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
 		["Rogueout - Kel'Thuzad"] = "Rogueout - Kel'Thuzad",
-		["Deeke - Kel'Thuzad"] = "Deeke - Kel'Thuzad",
-		["Kmkarbashian - Kel'Thuzad"] = "Kmkarbashian - Kel'Thuzad",
+		["Nigellah - Kel'Thuzad"] = "Nigellah - Kel'Thuzad",
+		["Leeroyjenkem - Kel'Thuzad"] = "Leeroyjenkem - Kel'Thuzad",
 	},
 	["profiles"] = {
 		["Fooliolio - Kel'Thuzad"] = {
 		},
 		["Hoobastankie - Kel'Thuzad"] = {
-			["minimapIcon"] = {
-				["hide"] = true,
-			},
-			["buttonlock"] = true,
-		},
-		["Leeroyjenkem - Kel'Thuzad"] = {
-			["minimapIcon"] = {
-				["hide"] = true,
-			},
-			["buttonlock"] = true,
-		},
-		["Hauzerone - Dalaran"] = {
-			["focuscastmodifier"] = false,
-			["blizzardVehicle"] = true,
-			["outofrange"] = "hotkey",
-		},
-		["Nigellah - Kel'Thuzad"] = {
-			["minimapIcon"] = {
-				["hide"] = true,
-			},
-		},
-		["Ugiyo - Kel'Thuzad"] = {
-			["minimapIcon"] = {
-				["hide"] = true,
-			},
-		},
-		["Pharrah - Kel'Thuzad"] = {
-			["buttonlock"] = true,
-			["minimapIcon"] = {
-				["hide"] = true,
-			},
-		},
-		["Laurannah - Kel'Thuzad"] = {
-			["minimapIcon"] = {
-				["minimapPos"] = 236.43885157378,
-				["hide"] = true,
-			},
-			["buttonlock"] = true,
-		},
-		["Alisheeya - Kel'Thuzad"] = {
-			["minimapIcon"] = {
-				["hide"] = true,
-			},
-		},
-		["Sdkfhsdkjfhs - Kel'Thuzad"] = {
-			["focuscastmodifier"] = false,
-			["blizzardVehicle"] = true,
-			["outofrange"] = "hotkey",
-		},
-		["Foolioioio - Kel'Thuzad"] = {
-			["focuscastmodifier"] = false,
-			["blizzardVehicle"] = true,
-			["outofrange"] = "hotkey",
-		},
-		["Beatryss - Kel'Thuzad"] = {
 			["buttonlock"] = true,
 			["minimapIcon"] = {
 				["hide"] = true,
 			},
 		},
 		["Alorannah - Kel'Thuzad"] = {
+			["buttonlock"] = true,
 			["minimapIcon"] = {
 				["minimapPos"] = 236.43885157378,
 				["hide"] = true,
 			},
-			["buttonlock"] = true,
 		},
-		["Alurannah - Kel'Thuzad"] = {
+		["Hauzerone - Dalaran"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
-		["Hauzerina - Kel'Thuzad"] = {
-			["focuscastmodifier"] = false,
-			["blizzardVehicle"] = true,
-			["outofrange"] = "hotkey",
-		},
-		["Beatryce - Kel'Thuzad"] = {
-			["focuscastmodifier"] = false,
-			["blizzardVehicle"] = true,
-			["outofrange"] = "hotkey",
-		},
-		["Laurenn - Kel'Thuzad"] = {
-			["focuscastmodifier"] = false,
-			["blizzardVehicle"] = true,
-			["outofrange"] = "hotkey",
-		},
-		["Olrapey - Kel'Thuzad"] = {
-			["focuscastmodifier"] = false,
-			["blizzardVehicle"] = true,
-			["outofrange"] = "hotkey",
-		},
-		["Darknstormie - Kel'Thuzad"] = {
-			["minimapIcon"] = {
-				["hide"] = false,
-			},
-		},
-		["Skãdi - Kel'Thuzad"] = {
-			["focuscastmodifier"] = false,
-			["blizzardVehicle"] = true,
-			["outofrange"] = "hotkey",
-		},
-		["Fsdkjhskdjfh - Kel'Thuzad"] = {
-		},
-		["Alauranna - Kel'Thuzad"] = {
-			["blizzardVehicle"] = true,
-			["minimapIcon"] = {
-				["hide"] = true,
-			},
-			["buttonlock"] = true,
-		},
-		["Hoobastanko - Kel'Thuzad"] = {
-			["minimapIcon"] = {
-				["hide"] = true,
-			},
-		},
-		["Hauzer - Kel'Thuzad"] = {
-			["minimapIcon"] = {
-				["hide"] = true,
-			},
-			["buttonlock"] = true,
-		},
-		["Rogueout - Kel'Thuzad"] = {
-			["focuscastmodifier"] = false,
-			["blizzardVehicle"] = true,
-			["outofrange"] = "hotkey",
-		},
-		["Deeke - Kel'Thuzad"] = {
-			["buttonlock"] = true,
+		["Alisheeya - Kel'Thuzad"] = {
 			["minimapIcon"] = {
 				["hide"] = true,
 			},
@@ -5135,6 +5024,117 @@ Bartender4DB = {
 			["buttonlock"] = true,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
+		},
+		["Pharrah - Kel'Thuzad"] = {
+			["minimapIcon"] = {
+				["hide"] = true,
+			},
+			["buttonlock"] = true,
+		},
+		["Laurannah - Kel'Thuzad"] = {
+			["minimapIcon"] = {
+				["minimapPos"] = 236.43885157378,
+				["hide"] = true,
+			},
+			["buttonlock"] = true,
+		},
+		["Deeke - Kel'Thuzad"] = {
+			["minimapIcon"] = {
+				["hide"] = true,
+			},
+			["buttonlock"] = true,
+		},
+		["Sdkfhsdkjfhs - Kel'Thuzad"] = {
+			["focuscastmodifier"] = false,
+			["blizzardVehicle"] = true,
+			["outofrange"] = "hotkey",
+		},
+		["Foolioioio - Kel'Thuzad"] = {
+			["focuscastmodifier"] = false,
+			["blizzardVehicle"] = true,
+			["outofrange"] = "hotkey",
+		},
+		["Hauzerina - Kel'Thuzad"] = {
+			["focuscastmodifier"] = false,
+			["blizzardVehicle"] = true,
+			["outofrange"] = "hotkey",
+		},
+		["Ugiyo - Kel'Thuzad"] = {
+			["minimapIcon"] = {
+				["hide"] = true,
+			},
+		},
+		["Alurannah - Kel'Thuzad"] = {
+			["focuscastmodifier"] = false,
+			["blizzardVehicle"] = true,
+			["outofrange"] = "hotkey",
+		},
+		["Beatryss - Kel'Thuzad"] = {
+			["minimapIcon"] = {
+				["hide"] = true,
+			},
+			["buttonlock"] = true,
+		},
+		["Hoobastanko - Kel'Thuzad"] = {
+			["minimapIcon"] = {
+				["hide"] = true,
+			},
+		},
+		["Laurenn - Kel'Thuzad"] = {
+			["focuscastmodifier"] = false,
+			["blizzardVehicle"] = true,
+			["outofrange"] = "hotkey",
+		},
+		["Fsdkjhskdjfh - Kel'Thuzad"] = {
+		},
+		["Darknstormie - Kel'Thuzad"] = {
+			["minimapIcon"] = {
+				["hide"] = false,
+			},
+		},
+		["Skãdi - Kel'Thuzad"] = {
+			["focuscastmodifier"] = false,
+			["blizzardVehicle"] = true,
+			["outofrange"] = "hotkey",
+		},
+		["Olrapey - Kel'Thuzad"] = {
+			["focuscastmodifier"] = false,
+			["blizzardVehicle"] = true,
+			["outofrange"] = "hotkey",
+		},
+		["Alauranna - Kel'Thuzad"] = {
+			["blizzardVehicle"] = true,
+			["minimapIcon"] = {
+				["hide"] = true,
+			},
+			["buttonlock"] = true,
+		},
+		["Beatryce - Kel'Thuzad"] = {
+			["focuscastmodifier"] = false,
+			["blizzardVehicle"] = true,
+			["outofrange"] = "hotkey",
+		},
+		["Hauzer - Kel'Thuzad"] = {
+			["buttonlock"] = true,
+			["minimapIcon"] = {
+				["hide"] = true,
+			},
+		},
+		["Rogueout - Kel'Thuzad"] = {
+			["focuscastmodifier"] = false,
+			["blizzardVehicle"] = true,
+			["outofrange"] = "hotkey",
+		},
+		["Nigellah - Kel'Thuzad"] = {
+			["minimapIcon"] = {
+				["hide"] = true,
+			},
+		},
+		["Leeroyjenkem - Kel'Thuzad"] = {
+			["buttonlock"] = true,
+			["minimapIcon"] = {
+				["hide"] = true,
+			},
 		},
 	},
 }
