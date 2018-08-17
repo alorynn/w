@@ -26,7 +26,7 @@ Postal3DB = {
 				"Hoobastankie|Kel'Thuzad|Alliance|1|HUNTER", -- [21]
 				"Hoobastanko|Kel'Thuzad|Alliance|100|HUNTER", -- [22]
 				"Kmkarbashian|Kel'Thuzad|Alliance|110|PALADIN", -- [23]
-				"Laurannah|Kel'Thuzad|Alliance|118|HUNTER", -- [24]
+				"Laurannah|Kel'Thuzad|Alliance|120|HUNTER", -- [24]
 				"Laurannah|Kel'Thuzad|Horde|1|ROGUE", -- [25]
 				"Laurenn|Kel'Thuzad|Alliance|1|HUNTER", -- [26]
 				"Leeroyjenkem|Kel'Thuzad|Neutral|1|HUNTER", -- [27]
@@ -65,9 +65,9 @@ Postal3DB = {
 		["Alurannah - Kel'Thuzad"] = "Alurannah - Kel'Thuzad",
 		["Beatryss - Kel'Thuzad"] = "Beatryss - Kel'Thuzad",
 		["Hauzerhunter - Kel'Thuzad"] = "Hauzerhunter - Kel'Thuzad",
-		["Fsdkjhskdjfh - Kel'Thuzad"] = "Fsdkjhskdjfh - Kel'Thuzad",
-		["Skãdi - Kel'Thuzad"] = "Skãdi - Kel'Thuzad",
 		["Olrapey - Kel'Thuzad"] = "Olrapey - Kel'Thuzad",
+		["Skãdi - Kel'Thuzad"] = "Skãdi - Kel'Thuzad",
+		["Fsdkjhskdjfh - Kel'Thuzad"] = "Fsdkjhskdjfh - Kel'Thuzad",
 		["Kmkarbashian - Kel'Thuzad"] = "Kmkarbashian - Kel'Thuzad",
 		["Beatryce - Kel'Thuzad"] = "Beatryce - Kel'Thuzad",
 		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
@@ -153,11 +153,11 @@ Postal3DB = {
 		},
 		["Hauzerhunter - Kel'Thuzad"] = {
 		},
-		["Fsdkjhskdjfh - Kel'Thuzad"] = {
+		["Olrapey - Kel'Thuzad"] = {
 		},
 		["Skãdi - Kel'Thuzad"] = {
 		},
-		["Olrapey - Kel'Thuzad"] = {
+		["Fsdkjhskdjfh - Kel'Thuzad"] = {
 		},
 		["Kmkarbashian - Kel'Thuzad"] = {
 			["BlackBook"] = {

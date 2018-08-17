@@ -6,8 +6,8 @@ Details_StreamerDB = {
 		["Hauzerina - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Hauzerina - Moon Guard"] = "Laurannah - Kel'Thuzad",
 		["Foolioioio - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
-		["Deeke - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Alisheeya - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
+		["Deeke - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Darknstormie - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Alauranna - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Laurannah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
@@ -52,7 +52,7 @@ Details_StreamerDB = {
 			},
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["y"] = -4.577636718750e-005,
+			["use_spark"] = true,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -62,6 +62,7 @@ Details_StreamerDB = {
 			},
 			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["y"] = -4.577636718750e-005,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -73,10 +74,9 @@ Details_StreamerDB = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
-			["font_size"] = 10,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
-			["use_spark"] = true,
+			["font_size"] = 10,
 			["author"] = "Details! Team",
 			["point"] = "CENTER",
 			["row_height"] = 20,
