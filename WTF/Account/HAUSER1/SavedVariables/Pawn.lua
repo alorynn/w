@@ -4,7 +4,7 @@ PawnCommon = {
 	["AlignNumbersRight"] = false,
 	["ShowBagUpgradeAdvisor"] = true,
 	["ShowItemID"] = false,
-	["ShowRelicUpgrades"] = true,
+	["ShowRelicUpgrades"] = false,
 	["ShowValuesForUpgradesOnly"] = true,
 	["Digits"] = 1,
 	["Debug"] = false,
@@ -600,6 +600,6 @@ PawnCommon = {
 	["ButtonPosition"] = 2,
 	["ShowSpecIcons"] = true,
 	["ShowQuestUpgradeAdvisor"] = true,
-	["LastVersion"] = 2.0226,
+	["LastVersion"] = 2.0227,
 	["ShownGettingStarted"] = true,
 }

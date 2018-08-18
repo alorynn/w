@@ -7,9 +7,6 @@ NewOpenablesProfile = {
 		["Kmkarbashian - Kel'Thuzad"] = {
 			["itemID"] = 140760,
 		},
-		["Laurannah - Kel'Thuzad"] = {
-			["itemID"] = 160514,
-		},
 	},
 	["profileKeys"] = {
 		["Fooliolio - Kel'Thuzad"] = "Default",
@@ -43,6 +40,7 @@ NewOpenablesProfile = {
 			["T_BLACKLIST"] = {
 				[153138] = true,
 				[151844] = true,
+				[154801] = true,
 				[152736] = true,
 				[147350] = true,
 				[152097] = true,
