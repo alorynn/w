@@ -413,10 +413,55 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[25409] = {
-			[71592] = {
+		[21839] = {
+			[64199] = {
 				["classes"] = 102,
-				["sourceType"] = 3,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[64207] = {
+				["classes"] = 102,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[64215] = {
+				["classes"] = 102,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[65320] = {
+				["classes"] = 102,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[65388] = {
+				["classes"] = 102,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[66382] = {
+				["classes"] = 102,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[61857] = {
+				["classes"] = 102,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[64175] = {
+				["classes"] = 102,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[64183] = {
+				["classes"] = 102,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[64191] = {
+				["classes"] = 102,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -518,9 +563,9 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[32609] = {
-			[82405] = {
-				["classes"] = 32,
+		[9069] = {
+			[16172] = {
+				["classes"] = 102,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
@@ -532,10 +577,10 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[37040] = {
-			[93183] = {
-				["classes"] = 102,
-				["sourceType"] = 2,
+		[32609] = {
+			[82405] = {
+				["classes"] = 32,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -560,10 +605,10 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[9069] = {
-			[16172] = {
+		[37040] = {
+			[93183] = {
 				["classes"] = 102,
-				["sourceType"] = 3,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -594,30 +639,17 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[6976] = {
-			[12092] = {
-				["classes"] = 102,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Nexus-Prince Shaffar",
-						["tiers"] = {
-							"Burning Crusade", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Mana-Tombs",
-					}, -- [1]
-				},
+		[32621] = {
+			[82390] = {
+				["classes"] = 32,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
-		[4438] = {
-			[6051] = {
+		[22979] = {
+			[67779] = {
 				["classes"] = 102,
-				["sourceType"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -640,10 +672,10 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[4439] = {
-			[6052] = {
+		[9101] = {
+			[16240] = {
 				["classes"] = 102,
-				["sourceType"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -771,22 +803,22 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[22979] = {
-			[67779] = {
+		[4438] = {
+			[6051] = {
 				["classes"] = 102,
-				["sourceType"] = 3,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
-		[9101] = {
-			[16240] = {
+		[4439] = {
+			[6052] = {
 				["classes"] = 102,
-				["sourceType"] = 3,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
-		[4440] = {
-			[6053] = {
+		[1118] = {
+			[1134] = {
 				["classes"] = 102,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -818,15 +850,10 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[9631] = {
-			[17322] = {
+		[6234] = {
+			[9351] = {
 				["classes"] = 102,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[17329] = {
-				["classes"] = 102,
-				["sourceType"] = 4,
+				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 		},
@@ -847,6 +874,64 @@ MogIt_TwoHandedDB = {
 						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
+				["faction"] = 1,
+			},
+		},
+		[9633] = {
+			[17333] = {
+				["classes"] = 102,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[17571] = {
+				["classes"] = 102,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[78380] = {
+				["classes"] = 102,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[17324] = {
+				["classes"] = 102,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[36201] = {
+			[94191] = {
+				["classes"] = 102,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[95288] = {
+				["classes"] = 102,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[9635] = {
+			[17327] = {
+				["classes"] = 102,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[17334] = {
+				["classes"] = 102,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[9631] = {
+			[17322] = {
+				["classes"] = 102,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[17329] = {
+				["classes"] = 102,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -884,18 +969,6 @@ MogIt_TwoHandedDB = {
 						["instance"] = "Grimrail Depot",
 					}, -- [1]
 				},
-				["faction"] = 1,
-			},
-		},
-		[36201] = {
-			[94191] = {
-				["classes"] = 102,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[95288] = {
-				["classes"] = 102,
-				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -950,51 +1023,10 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[12946] = {
-			[26157] = {
+		[13972] = {
+			[29557] = {
 				["classes"] = 102,
 				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
-		[9633] = {
-			[17333] = {
-				["classes"] = 102,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[17571] = {
-				["classes"] = 102,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[78380] = {
-				["classes"] = 102,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[17324] = {
-				["classes"] = 102,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[9635] = {
-			[17327] = {
-				["classes"] = 102,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[17334] = {
-				["classes"] = 102,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
-		[10912] = {
-			[20468] = {
-				["classes"] = 102,
-				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -1025,8 +1057,8 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[21840] = {
-			[65354] = {
+		[5492] = {
+			[49188] = {
 				["classes"] = 102,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -1157,8 +1189,38 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[5492] = {
-			[49188] = {
+		[17505] = {
+			[42888] = {
+				["classes"] = 102,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[40678] = {
+				["classes"] = 102,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[41781] = {
+				["classes"] = 102,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[41728] = {
+				["classes"] = 102,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[52005] = {
+				["classes"] = 102,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[48537] = {
+				["classes"] = 102,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[51987] = {
 				["classes"] = 102,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -1229,38 +1291,8 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[17505] = {
-			[42888] = {
-				["classes"] = 102,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[40678] = {
-				["classes"] = 102,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[41781] = {
-				["classes"] = 102,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[41728] = {
-				["classes"] = 102,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[52005] = {
-				["classes"] = 102,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[48537] = {
-				["classes"] = 102,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[51987] = {
+		[21840] = {
+			[65354] = {
 				["classes"] = 102,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -1287,46 +1319,11 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[13267] = {
-			[27635] = {
-				["classes"] = 102,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Ozumat",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Throne of the Tides",
-					}, -- [1]
-				},
+		[32590] = {
+			[82404] = {
+				["classes"] = 32,
+				["sourceType"] = 3,
 				["faction"] = 1,
-			},
-			[26883] = {
-				["classes"] = 102,
-				["faction"] = 1,
-			},
-			[93789] = {
-				["classes"] = 102,
-				["sourceType"] = 1,
-				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Grand Vizier Ertan",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "The Vortex Pinnacle",
-					}, -- [1]
-				},
 			},
 		},
 		[20585] = {
@@ -1415,11 +1412,46 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[32590] = {
-			[82404] = {
-				["classes"] = 32,
-				["sourceType"] = 3,
+		[13267] = {
+			[27635] = {
+				["classes"] = 102,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Ozumat",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Throne of the Tides",
+					}, -- [1]
+				},
 				["faction"] = 1,
+			},
+			[26883] = {
+				["classes"] = 102,
+				["faction"] = 1,
+			},
+			[93789] = {
+				["classes"] = 102,
+				["sourceType"] = 1,
+				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Grand Vizier Ertan",
+						["tiers"] = {
+							"Cataclysm", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "The Vortex Pinnacle",
+					}, -- [1]
+				},
 			},
 		},
 		[11739] = {
@@ -1449,22 +1481,21 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[15823] = {
-			[36394] = {
+		[11743] = {
+			[22547] = {
 				["classes"] = 102,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Shannox",
+						["encounter"] = "Champions of the Horde",
 						["tiers"] = {
-							"Cataclysm", -- [1]
+							"Wrath of the Lich King", -- [1]
 						},
 						["difficulties"] = {
-							"10 Player", -- [1]
-							"25 Player", -- [2]
+							"25 Player (Heroic)", -- [1]
 						},
-						["instance"] = "Firelands",
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -1484,17 +1515,48 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[11263] = {
-			[21624] = {
+		[349] = {
+			[213] = {
 				["classes"] = 102,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
-		[428] = {
-			[298] = {
+		[7039] = {
+			[12195] = {
 				["classes"] = 102,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Talon King Ikiss",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Sethekk Halls",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[16138] = {
+				["classes"] = 102,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Kael'thas Sunstrider",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Magisters' Terrace",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -1545,10 +1607,22 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[18358] = {
-			[47721] = {
+		[21163] = {
+			[61912] = {
 				["classes"] = 102,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Garrosh Hellscream",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Siege of Orgrimmar",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -1585,10 +1659,10 @@ MogIt_TwoHandedDB = {
 				},
 			},
 		},
-		[349] = {
-			[213] = {
+		[25267] = {
+			[70544] = {
 				["classes"] = 102,
-				["sourceType"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -1599,10 +1673,10 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[25267] = {
-			[70544] = {
+		[11263] = {
+			[21624] = {
 				["classes"] = 102,
-				["sourceType"] = 3,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -1862,13 +1936,6 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[38597] = {
-			[100395] = {
-				["classes"] = 102,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-		},
 		[22295] = {
 			[65314] = {
 				["classes"] = 102,
@@ -1893,6 +1960,13 @@ MogIt_TwoHandedDB = {
 						["instance"] = "Ulduar",
 					}, -- [1]
 				},
+				["faction"] = 1,
+			},
+		},
+		[38597] = {
+			[100395] = {
+				["classes"] = 102,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -1958,20 +2032,6 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[14387] = {
-			[30692] = {
-				["classes"] = 102,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
-		[8103] = {
-			[14130] = {
-				["classes"] = 102,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-		},
 		[351] = {
 			[215] = {
 				["classes"] = 102,
@@ -2004,10 +2064,17 @@ MogIt_TwoHandedDB = {
 				},
 			},
 		},
-		[25407] = {
-			[70681] = {
+		[14387] = {
+			[30692] = {
 				["classes"] = 102,
 				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
+		[8103] = {
+			[14130] = {
+				["classes"] = 102,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -2031,6 +2098,13 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 		},
+		[25407] = {
+			[70681] = {
+				["classes"] = 102,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
 		[21841] = {
 			[60904] = {
 				["classes"] = 102,
@@ -2050,10 +2124,10 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[2787] = {
-			[3274] = {
+		[224] = {
+			[8204] = {
 				["classes"] = 102,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -2134,6 +2208,13 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 		},
+		[18056] = {
+			[42243] = {
+				["classes"] = 102,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+		},
 		[2281] = {
 			[2645] = {
 				["classes"] = 102,
@@ -2167,13 +2248,6 @@ MogIt_TwoHandedDB = {
 						["instance"] = "Dire Maul",
 					}, -- [1]
 				},
-				["faction"] = 1,
-			},
-		},
-		[18056] = {
-			[42243] = {
-				["classes"] = 102,
-				["sourceType"] = 6,
 				["faction"] = 1,
 			},
 		},
@@ -2266,12 +2340,12 @@ MogIt_TwoHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[45159] = {
+			[41622] = {
 				["classes"] = 102,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[41622] = {
+			[45159] = {
 				["classes"] = 102,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -2411,26 +2485,19 @@ MogIt_TwoHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[62346] = {
-				["classes"] = 102,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
 			[62031] = {
 				["classes"] = 102,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[78396] = {
+			[62346] = {
 				["classes"] = 102,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-		},
-		[25268] = {
-			[71455] = {
+			[78396] = {
 				["classes"] = 102,
-				["sourceType"] = 3,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -2454,10 +2521,17 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[224] = {
-			[8204] = {
+		[25268] = {
+			[71455] = {
 				["classes"] = 102,
-				["sourceType"] = 2,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+		},
+		[2787] = {
+			[3274] = {
+				["classes"] = 102,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -2787,80 +2861,38 @@ MogIt_TwoHandedDB = {
 				},
 			},
 		},
-		[7039] = {
-			[12195] = {
+		[428] = {
+			[298] = {
 				["classes"] = 102,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Talon King Ikiss",
-						["tiers"] = {
-							"Burning Crusade", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Sethekk Halls",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[16138] = {
-				["classes"] = 102,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Kael'thas Sunstrider",
-						["tiers"] = {
-							"Burning Crusade", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Magisters' Terrace",
-					}, -- [1]
-				},
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
-		[11743] = {
-			[22547] = {
+		[15823] = {
+			[36394] = {
 				["classes"] = 102,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Champions of the Horde",
+						["encounter"] = "Shannox",
 						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
+							"Cataclysm", -- [1]
 						},
 						["difficulties"] = {
-							"25 Player (Heroic)", -- [1]
+							"10 Player", -- [1]
+							"25 Player", -- [2]
 						},
-						["instance"] = "Trial of the Crusader",
+						["instance"] = "Firelands",
 					}, -- [1]
 				},
 				["faction"] = 1,
 			},
 		},
-		[21163] = {
-			[61912] = {
+		[18358] = {
+			[47721] = {
 				["classes"] = 102,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Garrosh Hellscream",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Siege of Orgrimmar",
-					}, -- [1]
-				},
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -2966,8 +2998,13 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[13972] = {
-			[29557] = {
+		[9637] = {
+			[17331] = {
+				["classes"] = 102,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+			[18296] = {
 				["classes"] = 102,
 				["sourceType"] = 2,
 				["faction"] = 1,
@@ -2980,22 +3017,17 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[6234] = {
-			[9351] = {
+		[12946] = {
+			[26157] = {
 				["classes"] = 102,
-				["sourceType"] = 6,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
-		[9637] = {
-			[17331] = {
+		[10912] = {
+			[20468] = {
 				["classes"] = 102,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[18296] = {
-				["classes"] = 102,
-				["sourceType"] = 2,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -3032,17 +3064,30 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[1118] = {
-			[1134] = {
+		[4440] = {
+			[6053] = {
 				["classes"] = 102,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
-		[32621] = {
-			[82390] = {
-				["classes"] = 32,
-				["sourceType"] = 3,
+		[6976] = {
+			[12092] = {
+				["classes"] = 102,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Nexus-Prince Shaffar",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Mana-Tombs",
+					}, -- [1]
+				},
 				["faction"] = 1,
 			},
 		},
@@ -3185,55 +3230,10 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[21839] = {
-			[64199] = {
+		[25409] = {
+			[71592] = {
 				["classes"] = 102,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[64207] = {
-				["classes"] = 102,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[64215] = {
-				["classes"] = 102,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[65320] = {
-				["classes"] = 102,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[65388] = {
-				["classes"] = 102,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[66382] = {
-				["classes"] = 102,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[61857] = {
-				["classes"] = 102,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[64175] = {
-				["classes"] = 102,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[64183] = {
-				["classes"] = 102,
-				["sourceType"] = 4,
-				["faction"] = 1,
-			},
-			[64191] = {
-				["classes"] = 102,
-				["sourceType"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
@@ -3250,10 +3250,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -3277,10 +3277,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
+						["instance"] = "Dragon Soul",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
-						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -3309,10 +3309,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -3327,10 +3327,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -3394,10 +3394,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Pit of Saron",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Pit of Saron",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -3443,9 +3443,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
+						["instance"] = "Serpentshrine Cavern",
 						["difficulties"] = {
 						},
-						["instance"] = "Serpentshrine Cavern",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -3501,9 +3501,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
+						["instance"] = "Uldir",
 						["difficulties"] = {
 						},
-						["instance"] = "Uldir",
 					}, -- [1]
 				},
 			},
@@ -3589,10 +3589,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -3652,10 +3652,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -3670,10 +3670,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -3709,10 +3709,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Auchindoun",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Auchindoun",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -3727,9 +3727,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Auchindoun",
 						["difficulties"] = {
 						},
-						["instance"] = "Auchindoun",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -3814,16 +3814,21 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 				["faction"] = 3,
 			},
 		},
 		[21942] = {
+			[63753] = {
+				["classes"] = 1122,
+				["sourceType"] = 2,
+				["faction"] = 3,
+			},
 			[65499] = {
 				["classes"] = 1122,
 				["sourceType"] = 4,
@@ -3832,11 +3837,6 @@ MogIt_TwoHandedDB = {
 			[65346] = {
 				["classes"] = 1122,
 				["sourceType"] = 4,
-				["faction"] = 3,
-			},
-			[63753] = {
-				["classes"] = 1122,
-				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
@@ -3904,10 +3904,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 			},
@@ -3924,9 +3924,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
+						["instance"] = "Uldir",
 						["difficulties"] = {
 						},
-						["instance"] = "Uldir",
 					}, -- [1]
 				},
 			},
@@ -3947,9 +3947,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Molten Core",
 						["difficulties"] = {
 						},
-						["instance"] = "Molten Core",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -4002,9 +4002,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Temple of Ahn'Qiraj",
 						["difficulties"] = {
 						},
-						["instance"] = "Temple of Ahn'Qiraj",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -4049,10 +4049,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
+						["instance"] = "The Shattered Halls",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "The Shattered Halls",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -4175,10 +4175,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Highmaul",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Highmaul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -4209,10 +4209,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -4227,10 +4227,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -4363,10 +4363,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
+						["instance"] = "Zul'Gurub",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Zul'Gurub",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -4414,10 +4414,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
+						["instance"] = "Black Temple",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Black Temple",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -4479,11 +4479,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
+						["instance"] = "Blackwing Descent",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
-						["instance"] = "Blackwing Descent",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -4498,11 +4498,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
+						["instance"] = "Blackwing Descent",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
-						["instance"] = "Blackwing Descent",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -4585,9 +4585,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Uldaman",
 						["difficulties"] = {
 						},
-						["instance"] = "Uldaman",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -4604,9 +4604,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
+						["instance"] = "Well of Eternity",
 						["difficulties"] = {
 						},
-						["instance"] = "Well of Eternity",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -4689,9 +4689,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Gnomeregan",
 						["difficulties"] = {
 						},
-						["instance"] = "Gnomeregan",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -4722,9 +4722,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
-						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -4755,10 +4755,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -4773,10 +4773,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -4855,10 +4855,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
-						["instance"] = "Naxxramas",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -4866,10 +4866,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
-						["instance"] = "Naxxramas",
 					}, -- [2]
 				},
 				["faction"] = 3,
@@ -4905,10 +4905,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
+						["instance"] = "The Arcatraz",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "The Arcatraz",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -4975,10 +4975,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Highmaul",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
-						["instance"] = "Highmaul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -5043,10 +5043,10 @@ MogIt_TwoHandedDB = {
 							"Cataclysm", -- [1]
 							"Classic", -- [2]
 						},
+						["instance"] = "Deadmines",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Deadmines",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -5062,10 +5062,10 @@ MogIt_TwoHandedDB = {
 							"Cataclysm", -- [1]
 							"Classic", -- [2]
 						},
+						["instance"] = "Deadmines",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
-						["instance"] = "Deadmines",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -5082,9 +5082,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Maraudon",
 						["difficulties"] = {
 						},
-						["instance"] = "Maraudon",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -5101,10 +5101,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -5119,10 +5119,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -5146,11 +5146,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
+						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
-						["instance"] = "Firelands",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -5165,11 +5165,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
+						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
-						["instance"] = "Firelands",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -5186,10 +5186,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -5204,10 +5204,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -5290,10 +5290,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
+						["instance"] = "Grim Batol",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Grim Batol",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -5352,10 +5352,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
+						["instance"] = "Hellfire Ramparts",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Hellfire Ramparts",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -5450,10 +5450,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -5497,9 +5497,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
+						["instance"] = "Gruul's Lair",
 						["difficulties"] = {
 						},
-						["instance"] = "Gruul's Lair",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -5530,9 +5530,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
-						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -5550,9 +5550,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
+						["instance"] = "The MOTHERLODE!!",
 						["difficulties"] = {
 						},
-						["instance"] = "The MOTHERLODE!!",
 					}, -- [1]
 				},
 			},
@@ -5621,9 +5621,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Blackrock Depths",
 						["difficulties"] = {
 						},
-						["instance"] = "Blackrock Depths",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -5640,10 +5640,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
+						["instance"] = "The Underbog",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "The Underbog",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -5728,9 +5728,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
+						["instance"] = "Uldir",
 						["difficulties"] = {
 						},
-						["instance"] = "Uldir",
 					}, -- [1]
 				},
 			},
@@ -5761,10 +5761,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 			},
@@ -5780,10 +5780,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Drak'Tharon Keep",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Drak'Tharon Keep",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -5800,11 +5800,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
+						["instance"] = "Dragon Soul",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
-						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -5833,10 +5833,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Halls of Stone",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Halls of Stone",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -5921,9 +5921,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
+						["instance"] = "The MOTHERLODE!!",
 						["difficulties"] = {
 						},
-						["instance"] = "The MOTHERLODE!!",
 					}, -- [1]
 				},
 			},
@@ -5939,11 +5939,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
+						["instance"] = "Dragon Soul",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
-						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -5994,9 +5994,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Blackwing Lair",
 						["difficulties"] = {
 						},
-						["instance"] = "Blackwing Lair",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -6013,10 +6013,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Auchindoun",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
-						["instance"] = "Auchindoun",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -6047,9 +6047,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Blackrock Depths",
 						["difficulties"] = {
 						},
-						["instance"] = "Blackrock Depths",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -6059,6 +6059,33 @@ MogIt_TwoHandedDB = {
 			[93237] = {
 				["classes"] = 1122,
 				["sourceType"] = 2,
+				["faction"] = 3,
+			},
+		},
+		[11361] = {
+			[21761] = {
+				["classes"] = 1122,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Flame Leviathan",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["instance"] = "Ulduar",
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+					}, -- [1]
+				},
+				["faction"] = 3,
+			},
+		},
+		[2014] = {
+			[2300] = {
+				["classes"] = 1122,
+				["sourceType"] = 6,
 				["faction"] = 3,
 			},
 		},
@@ -6074,42 +6101,29 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["difficulties"] = {
-						},
 						["instance"] = "Uldir",
-					}, -- [1]
-				},
-			},
-		},
-		[2014] = {
-			[2300] = {
-				["classes"] = 1122,
-				["sourceType"] = 6,
-				["faction"] = 3,
-			},
-		},
-		[11361] = {
-			[21761] = {
-				["classes"] = 1122,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Flame Leviathan",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
 						["difficulties"] = {
-							"Normal", -- [1]
 						},
-						["instance"] = "Ulduar",
 					}, -- [1]
 				},
-				["faction"] = 3,
 			},
 		},
 		[21676] = {
 			[67829] = {
+				["classes"] = 1122,
+				["sourceType"] = 4,
+				["faction"] = 3,
+			},
+		},
+		[14954] = {
+			[34274] = {
+				["classes"] = 1122,
+				["sourceType"] = 4,
+				["faction"] = 3,
+			},
+		},
+		[4431] = {
+			[6042] = {
 				["classes"] = 1122,
 				["sourceType"] = 4,
 				["faction"] = 3,
@@ -6120,20 +6134,6 @@ MogIt_TwoHandedDB = {
 				["classes"] = 1122,
 				["sourceType"] = 3,
 				["faction"] = 1,
-			},
-		},
-		[7497] = {
-			[13015] = {
-				["classes"] = 1122,
-				["sourceType"] = 3,
-				["faction"] = 3,
-			},
-		},
-		[14954] = {
-			[34274] = {
-				["classes"] = 1122,
-				["sourceType"] = 4,
-				["faction"] = 3,
 			},
 		},
 		[36198] = {
@@ -6164,18 +6164,18 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Blackrock Depths",
 						["difficulties"] = {
 						},
-						["instance"] = "Blackrock Depths",
 					}, -- [1]
 				},
 				["faction"] = 3,
 			},
 		},
-		[5453] = {
-			[13532] = {
+		[7497] = {
+			[13015] = {
 				["classes"] = 1122,
-				["sourceType"] = 6,
+				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
@@ -6191,22 +6191,22 @@ MogIt_TwoHandedDB = {
 				["faction"] = 2,
 			},
 		},
-		[23800] = {
-			[100382] = {
-				["classes"] = 1122,
-				["sourceType"] = 4,
-				["faction"] = 3,
-			},
-		},
-		[4431] = {
-			[6042] = {
-				["classes"] = 1122,
-				["sourceType"] = 4,
-				["faction"] = 3,
-			},
-		},
 		[4433] = {
 			[6045] = {
+				["classes"] = 1122,
+				["sourceType"] = 4,
+				["faction"] = 3,
+			},
+		},
+		[5453] = {
+			[13532] = {
+				["classes"] = 1122,
+				["sourceType"] = 6,
+				["faction"] = 3,
+			},
+		},
+		[23800] = {
+			[100382] = {
 				["classes"] = 1122,
 				["sourceType"] = 4,
 				["faction"] = 3,
@@ -6249,10 +6249,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Upper Blackrock Spire",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Upper Blackrock Spire",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -6277,9 +6277,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
+						["instance"] = "The MOTHERLODE!!",
 						["difficulties"] = {
 						},
-						["instance"] = "The MOTHERLODE!!",
 					}, -- [1]
 				},
 			},
@@ -6294,10 +6294,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
+						["instance"] = "Siege of Boralus",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
-						["instance"] = "Siege of Boralus",
 					}, -- [1]
 				},
 			},
@@ -6320,10 +6320,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
+						["instance"] = "Highmaul",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
-						["instance"] = "Highmaul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -6347,10 +6347,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
+						["instance"] = "Mana-Tombs",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Mana-Tombs",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -6367,11 +6367,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Shado-Pan Monastery",
 						["difficulties"] = {
 							"Normal", -- [1]
 							"Timewalking", -- [2]
 						},
-						["instance"] = "Shado-Pan Monastery",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -6395,9 +6395,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Molten Core",
 						["difficulties"] = {
 						},
-						["instance"] = "Molten Core",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -6481,9 +6481,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Stratholme",
 						["difficulties"] = {
 						},
-						["instance"] = "Stratholme",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -6512,9 +6512,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
+						["instance"] = "Lower Blackrock Spire",
 						["difficulties"] = {
 						},
-						["instance"] = "Lower Blackrock Spire",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -6555,9 +6555,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
+						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
-						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -6574,10 +6574,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
-						["instance"] = "Naxxramas",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -6585,10 +6585,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
-						["instance"] = "Naxxramas",
 					}, -- [2]
 				},
 				["faction"] = 3,
@@ -6606,10 +6606,10 @@ MogIt_TwoHandedDB = {
 							"Classic", -- [1]
 							"Mists of Pandaria", -- [2]
 						},
+						["instance"] = "Scarlet Halls",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
-						["instance"] = "Scarlet Halls",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -6626,10 +6626,10 @@ MogIt_TwoHandedDB = {
 							"Classic", -- [1]
 							"Mists of Pandaria", -- [2]
 						},
+						["instance"] = "Scarlet Halls",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
-						["instance"] = "Scarlet Halls",
 					}, -- [1]
 				},
 			},
@@ -6699,14 +6699,14 @@ MogIt_TwoHandedDB = {
 	["Staff"] = {
 		[36380] = {
 			[95378] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[21291] = {
 			[61982] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -6725,7 +6725,7 @@ MogIt_TwoHandedDB = {
 		},
 		[2039] = {
 			[2342] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -6744,7 +6744,7 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[31821] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -6765,21 +6765,21 @@ MogIt_TwoHandedDB = {
 		},
 		[22394] = {
 			[81587] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[16328] = {
 			[100381] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[21403] = {
 			[61873] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -6798,7 +6798,7 @@ MogIt_TwoHandedDB = {
 		},
 		[7157] = {
 			[12410] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -6818,40 +6818,40 @@ MogIt_TwoHandedDB = {
 		},
 		[8188] = {
 			[14357] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[78348] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[9215] = {
 			[65955] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[22522] = {
 			[81579] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[22538] = {
 			[67077] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[20540] = {
 			[50862] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -6872,19 +6872,19 @@ MogIt_TwoHandedDB = {
 		},
 		[13355] = {
 			[27046] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[33242] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[12348] = {
 			[24601] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -6902,7 +6902,7 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[24829] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -6922,7 +6922,7 @@ MogIt_TwoHandedDB = {
 		},
 		[10318] = {
 			[19305] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -6953,21 +6953,21 @@ MogIt_TwoHandedDB = {
 		},
 		[22714] = {
 			[65541] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[38587] = {
 			[100355] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[37660] = {
 			[96659] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
@@ -6986,7 +6986,7 @@ MogIt_TwoHandedDB = {
 		},
 		[37756] = {
 			[95449] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
@@ -7005,19 +7005,19 @@ MogIt_TwoHandedDB = {
 		},
 		[14578] = {
 			[32073] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[34155] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[23018] = {
 			[65238] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -7037,7 +7037,7 @@ MogIt_TwoHandedDB = {
 		},
 		[6310] = {
 			[9463] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -7057,7 +7057,7 @@ MogIt_TwoHandedDB = {
 		},
 		[38172] = {
 			[99117] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
@@ -7076,7 +7076,7 @@ MogIt_TwoHandedDB = {
 		},
 		[22219] = {
 			[61104] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -7096,63 +7096,63 @@ MogIt_TwoHandedDB = {
 		},
 		[269] = {
 			[130] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[9607] = {
 			[17283] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[17875] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[18267] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[17443] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[18666] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[9615] = {
 			[17291] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[18252] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[18667] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[18257] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[21292] = {
 			[61981] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -7178,7 +7178,7 @@ MogIt_TwoHandedDB = {
 		},
 		[21340] = {
 			[61553] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -7207,26 +7207,26 @@ MogIt_TwoHandedDB = {
 		},
 		[22395] = {
 			[81598] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[9679] = {
 			[17436] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[19164] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[21404] = {
 			[61872] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -7245,14 +7245,14 @@ MogIt_TwoHandedDB = {
 		},
 		[544] = {
 			[4375] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[37757] = {
 			[96495] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
@@ -7277,26 +7277,26 @@ MogIt_TwoHandedDB = {
 		},
 		[22523] = {
 			[80287] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 			[99222] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[1094] = {
 			[1109] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[20541] = {
 			[50238] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -7316,14 +7316,14 @@ MogIt_TwoHandedDB = {
 		},
 		[14906] = {
 			[33311] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[5415] = {
 			[7666] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -7362,7 +7362,7 @@ MogIt_TwoHandedDB = {
 		},
 		[13899] = {
 			[29696] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -7381,7 +7381,7 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[32711] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -7403,32 +7403,32 @@ MogIt_TwoHandedDB = {
 		[276] = {
 			[98836] = {
 				["classes"] = 128,
-				["faction"] = 1,
+				["faction"] = 3,
 			},
 			[13376] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[13801] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[69197] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 			[137] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[2204] = {
 			[2546] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -7447,14 +7447,14 @@ MogIt_TwoHandedDB = {
 		},
 		[7481] = {
 			[12990] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[17664] = {
 			[84449] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -7475,33 +7475,33 @@ MogIt_TwoHandedDB = {
 		},
 		[278] = {
 			[139] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[93200] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[4444] = {
 			[6058] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[38589] = {
 			[100356] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[37662] = {
 			[96660] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
@@ -7520,7 +7520,7 @@ MogIt_TwoHandedDB = {
 		},
 		[8928] = {
 			[15889] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -7539,7 +7539,7 @@ MogIt_TwoHandedDB = {
 		},
 		[37758] = {
 			[96494] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
@@ -7558,87 +7558,87 @@ MogIt_TwoHandedDB = {
 		},
 		[17888] = {
 			[41579] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[41686] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[41526] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[41633] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[42902] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[23019] = {
 			[67774] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
 		[17920] = {
 			[48536] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[42880] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[41791] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[51986] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[282] = {
 			[10326] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[143] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[10332] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[1127] = {
 			[1145] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[16169] = {
 			[37288] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
@@ -7658,55 +7658,55 @@ MogIt_TwoHandedDB = {
 		},
 		[25289] = {
 			[70443] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[71732] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
 		},
 		[6602] = {
 			[10169] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[10179] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[6606] = {
 			[10177] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[1143] = {
 			[25940] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[31539] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[10176] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[21341] = {
 			[61555] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -7742,51 +7742,51 @@ MogIt_TwoHandedDB = {
 		},
 		[22396] = {
 			[62134] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 6,
 				["faction"] = 3,
 			},
 			[62163] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 6,
 				["faction"] = 3,
 			},
 		},
 		[575] = {
 			[25816] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[93166] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[29978] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[25870] = {
-				["classes"] = 1476,
-				["sourceType"] = 2,
-				["faction"] = 3,
-			},
-			[28111] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[43887] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
+				["sourceType"] = 2,
+				["faction"] = 3,
+			},
+			[28111] = {
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[21405] = {
 			[61871] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -7805,97 +7805,97 @@ MogIt_TwoHandedDB = {
 		},
 		[7677] = {
 			[93220] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[13316] = {
 			[26957] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[26958] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[26959] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[26961] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[26956] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[26963] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[22540] = {
 			[60186] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
 		},
 		[11286] = {
 			[21659] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
 		[13356] = {
 			[27049] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[27050] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[30803] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[27052] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[27053] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[27047] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[28254] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[9272] = {
 			[16572] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -7913,28 +7913,28 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[20176] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[5667] = {
 			[8351] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[583] = {
 			[495] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[24746] = {
 			[62417] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -7954,12 +7954,12 @@ MogIt_TwoHandedDB = {
 		},
 		[17601] = {
 			[57185] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 			[84399] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -7998,7 +7998,7 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 			[27673] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -8018,14 +8018,14 @@ MogIt_TwoHandedDB = {
 		},
 		[7749] = {
 			[13461] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[8385] = {
 			[14923] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -8045,14 +8045,14 @@ MogIt_TwoHandedDB = {
 		},
 		[4712] = {
 			[10168] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[3383] = {
 			[4120] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -8071,41 +8071,41 @@ MogIt_TwoHandedDB = {
 		},
 		[15610] = {
 			[35773] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[17921] = {
 			[51983] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[52010] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[41792] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[48533] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[42785] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[6794] = {
 			[10662] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -8125,95 +8125,95 @@ MogIt_TwoHandedDB = {
 		},
 		[1201] = {
 			[1244] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[25306] = {
 			[70444] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[71733] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
 		},
 		[9608] = {
 			[18656] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[17445] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[17284] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[17547] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[78379] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[18265] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[17441] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[21162] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[18655] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[9616] = {
 			[20723] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[17292] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[17437] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[18256] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[26409] = {
 			[70182] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -8233,7 +8233,7 @@ MogIt_TwoHandedDB = {
 		},
 		[23356] = {
 			[62419] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -8253,21 +8253,21 @@ MogIt_TwoHandedDB = {
 		},
 		[303] = {
 			[165] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[22397] = {
 			[62164] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 6,
 				["faction"] = 3,
 			},
 		},
 		[26505] = {
 			[70179] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -8287,24 +8287,24 @@ MogIt_TwoHandedDB = {
 		},
 		[6906] = {
 			[11983] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[14104] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[305] = {
 			[40200] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 			[69192] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
@@ -8314,7 +8314,7 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 			[4774] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -8331,19 +8331,19 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[167] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[1220] = {
 			[1269] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[7289] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -8360,21 +8360,21 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[25942] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[306] = {
 			[168] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[25658] = {
 			[73326] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
@@ -8394,31 +8394,31 @@ MogIt_TwoHandedDB = {
 		},
 		[1225] = {
 			[10174] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[31291] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[36003] = {
 			[96918] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[94843] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 2,
 				["faction"] = 2,
 			},
 		},
 		[15930] = {
 			[36694] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -8439,7 +8439,7 @@ MogIt_TwoHandedDB = {
 		},
 		[9800] = {
 			[17749] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -8457,7 +8457,7 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[24370] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -8477,14 +8477,14 @@ MogIt_TwoHandedDB = {
 		},
 		[615] = {
 			[531] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[24747] = {
 			[62416] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -8504,7 +8504,7 @@ MogIt_TwoHandedDB = {
 		},
 		[11878] = {
 			[23128] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -8522,7 +8522,7 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 			[23136] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -8540,7 +8540,7 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 			[23030] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -8558,7 +8558,7 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 			[22959] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -8576,19 +8576,19 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 			[46960] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 			[46962] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
 		[7997] = {
 			[13957] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -8607,41 +8607,41 @@ MogIt_TwoHandedDB = {
 		},
 		[618] = {
 			[27962] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[10322] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[534] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[27958] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[155] = {
 			[28164] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[34259] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[8857] = {
 			[15788] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -8660,7 +8660,7 @@ MogIt_TwoHandedDB = {
 		},
 		[8021] = {
 			[13981] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -8679,55 +8679,55 @@ MogIt_TwoHandedDB = {
 		},
 		[9904] = {
 			[18035] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[21367] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[311] = {
 			[29506] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[29542] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[17778] = {
 			[41273] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 			[41272] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 			[41271] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[23964] = {
 			[72519] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[18881] = {
 			[44384] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -8748,14 +8748,14 @@ MogIt_TwoHandedDB = {
 		},
 		[9984] = {
 			[21593] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[2506] = {
 			[4854] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -8772,7 +8772,7 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[45687] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -8793,31 +8793,31 @@ MogIt_TwoHandedDB = {
 		},
 		[3533] = {
 			[32322] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[32305] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[78341] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[36004] = {
 			[94211] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[7074] = {
 			[16072] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -8837,7 +8837,7 @@ MogIt_TwoHandedDB = {
 		},
 		[19105] = {
 			[44998] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -8858,50 +8858,50 @@ MogIt_TwoHandedDB = {
 		},
 		[9065] = {
 			[16340] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[13173] = {
 			[26691] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[26695] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[22270] = {
 			[65365] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[36388] = {
 			[92106] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 			[95369] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[91557] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[26410] = {
 			[70181] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -8921,7 +8921,7 @@ MogIt_TwoHandedDB = {
 		},
 		[23357] = {
 			[62418] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -8941,38 +8941,38 @@ MogIt_TwoHandedDB = {
 		},
 		[319] = {
 			[93186] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[33123] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[93219] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[8161] = {
 			[45250] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 6,
 				["faction"] = 3,
 			},
 		},
 		[22398] = {
 			[62165] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 6,
 				["faction"] = 3,
 			},
 		},
 		[7146] = {
 			[12399] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -8992,7 +8992,7 @@ MogIt_TwoHandedDB = {
 		},
 		[12246] = {
 			[24475] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -9010,7 +9010,7 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[24767] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -9030,31 +9030,31 @@ MogIt_TwoHandedDB = {
 		},
 		[18354] = {
 			[47745] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[13317] = {
 			[26960] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[28206] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[33196] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[37923] = {
 			[96662] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
@@ -9073,31 +9073,31 @@ MogIt_TwoHandedDB = {
 		},
 		[13357] = {
 			[29807] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[27048] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[29810] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[19553] = {
 			[52981] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
 		[9281] = {
 			[16581] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -9117,7 +9117,7 @@ MogIt_TwoHandedDB = {
 		},
 		[11335] = {
 			[21728] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -9137,14 +9137,14 @@ MogIt_TwoHandedDB = {
 		},
 		[21647] = {
 			[66510] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[24748] = {
 			[62415] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -9164,7 +9164,7 @@ MogIt_TwoHandedDB = {
 		},
 		[10376] = {
 			[19438] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -9184,86 +9184,86 @@ MogIt_TwoHandedDB = {
 		},
 		[36389] = {
 			[92108] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 			[95370] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[15515] = {
 			[36615] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[15523] = {
 			[36445] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[21871] = {
 			[62342] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[60903] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[65348] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[1312] = {
-			[29316] = {
-				["classes"] = 1476,
-				["sourceType"] = 2,
-				["faction"] = 3,
-			},
 			[28380] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
-			[29755] = {
-				["classes"] = 1476,
+			[29316] = {
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[66500] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
+				["sourceType"] = 2,
+				["faction"] = 3,
+			},
+			[29755] = {
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[657] = {
 			[581] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[15611] = {
 			[35774] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[7306] = {
 			[12605] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -9282,7 +9282,7 @@ MogIt_TwoHandedDB = {
 		},
 		[37924] = {
 			[96663] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
@@ -9301,7 +9301,7 @@ MogIt_TwoHandedDB = {
 		},
 		[19026] = {
 			[44757] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -9321,7 +9321,7 @@ MogIt_TwoHandedDB = {
 		},
 		[11575] = {
 			[22106] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -9341,7 +9341,7 @@ MogIt_TwoHandedDB = {
 		},
 		[3675] = {
 			[14304] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
@@ -9351,7 +9351,7 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 			[84479] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
@@ -9372,31 +9372,31 @@ MogIt_TwoHandedDB = {
 		},
 		[25292] = {
 			[71354] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[70821] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
 		},
 		[25308] = {
 			[71355] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[70822] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
 		},
 		[7362] = {
 			[12728] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -9415,70 +9415,70 @@ MogIt_TwoHandedDB = {
 		},
 		[22271] = {
 			[65366] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[67833] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[9617] = {
 			[21232] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[17446] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[17293] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[17551] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[19105] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[21177] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[36390] = {
 			[94292] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 			[95372] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[3693] = {
 			[4642] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[5344] = {
 			[39162] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
@@ -9492,19 +9492,19 @@ MogIt_TwoHandedDB = {
 		},
 		[22399] = {
 			[60433] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 6,
 				["faction"] = 3,
 			},
 			[62160] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 6,
 				["faction"] = 3,
 			},
 		},
 		[12750] = {
 			[25533] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -9522,7 +9522,7 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[25659] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -9542,21 +9542,21 @@ MogIt_TwoHandedDB = {
 		},
 		[18355] = {
 			[47780] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[8682] = {
 			[49183] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[11759] = {
 			[22581] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -9576,19 +9576,19 @@ MogIt_TwoHandedDB = {
 		},
 		[6407] = {
 			[9594] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 			[14741] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[37925] = {
 			[96661] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
@@ -9607,7 +9607,7 @@ MogIt_TwoHandedDB = {
 		},
 		[15915] = {
 			[36641] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -9626,7 +9626,7 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[36858] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -9719,14 +9719,14 @@ MogIt_TwoHandedDB = {
 		},
 		[8762] = {
 			[15589] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[24701] = {
 			[67132] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -9746,14 +9746,14 @@ MogIt_TwoHandedDB = {
 		},
 		[11855] = {
 			[46907] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 2,
 				["faction"] = 2,
 			},
 		},
 		[11879] = {
 			[23201] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 1,
 				["faction"] = 2,
 				["drops"] = {
@@ -9771,12 +9771,12 @@ MogIt_TwoHandedDB = {
 				},
 			},
 			[46908] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 2,
 				["faction"] = 2,
 			},
 			[23081] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 1,
 				["faction"] = 2,
 				["drops"] = {
@@ -9796,53 +9796,53 @@ MogIt_TwoHandedDB = {
 		},
 		[4445] = {
 			[6060] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[10936] = {
-			[20517] = {
-				["classes"] = 1476,
-				["sourceType"] = 3,
-				["faction"] = 3,
-			},
 			[21498] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
-			[20497] = {
-				["classes"] = 1476,
+			[20517] = {
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 			[21499] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
+				["sourceType"] = 3,
+				["faction"] = 3,
+			},
+			[20497] = {
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[21872] = {
 			[65416] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[65331] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[65552] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[16805] = {
 			[39806] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -9862,36 +9862,36 @@ MogIt_TwoHandedDB = {
 		},
 		[17892] = {
 			[41536] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[41580] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[42904] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[5532] = {
 			[7928] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[8048] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
 		},
 		[16203] = {
 			[37323] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -9910,14 +9910,14 @@ MogIt_TwoHandedDB = {
 		},
 		[1390] = {
 			[1472] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[16219] = {
 			[37340] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -9936,7 +9936,7 @@ MogIt_TwoHandedDB = {
 		},
 		[24318] = {
 			[62668] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -9956,21 +9956,21 @@ MogIt_TwoHandedDB = {
 		},
 		[6603] = {
 			[10171] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[17189] = {
 			[100367] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[20274] = {
 			[50924] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -9991,7 +9991,7 @@ MogIt_TwoHandedDB = {
 		},
 		[23359] = {
 			[62420] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -10011,14 +10011,14 @@ MogIt_TwoHandedDB = {
 		},
 		[11192] = {
 			[21399] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[22400] = {
 			[62161] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 6,
 				["faction"] = 3,
 			},
@@ -10043,7 +10043,7 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 			[27626] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -10063,7 +10063,7 @@ MogIt_TwoHandedDB = {
 		},
 		[2810] = {
 			[3307] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -10080,38 +10080,38 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[10180] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[27877] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[18356] = {
 			[47767] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[2814] = {
 			[3312] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[10614] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[3839] = {
 			[45251] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 6,
 				["faction"] = 3,
 			},
@@ -10125,43 +10125,43 @@ MogIt_TwoHandedDB = {
 		},
 		[7682] = {
 			[13463] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[13318] = {
-			[28243] = {
-				["classes"] = 1476,
-				["sourceType"] = 2,
-				["faction"] = 3,
-			},
-			[29853] = {
-				["classes"] = 1476,
-				["sourceType"] = 2,
-				["faction"] = 3,
-			},
 			[26962] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[29856] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
+				["sourceType"] = 2,
+				["faction"] = 3,
+			},
+			[28243] = {
+				["classes"] = 1492,
+				["sourceType"] = 2,
+				["faction"] = 3,
+			},
+			[29853] = {
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[5648] = {
 			[8350] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[5652] = {
 			[8332] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -10180,7 +10180,7 @@ MogIt_TwoHandedDB = {
 		},
 		[21569] = {
 			[61554] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -10209,27 +10209,27 @@ MogIt_TwoHandedDB = {
 		},
 		[13358] = {
 			[27051] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[19555] = {
 			[53142] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
 		},
 		[2836] = {
 			[3338] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["faction"] = 3,
 			},
 		},
 		[24702] = {
 			[67131] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -10249,12 +10249,12 @@ MogIt_TwoHandedDB = {
 		},
 		[17589] = {
 			[57187] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 			[84415] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -10275,21 +10275,21 @@ MogIt_TwoHandedDB = {
 		},
 		[22784] = {
 			[64530] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
 		[7754] = {
 			[13469] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[16678] = {
 			[39784] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -10310,19 +10310,19 @@ MogIt_TwoHandedDB = {
 		},
 		[15524] = {
 			[36446] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[717] = {
 			[14571] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[4328] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -10339,7 +10339,7 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[10333] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
@@ -10351,7 +10351,7 @@ MogIt_TwoHandedDB = {
 		},
 		[718] = {
 			[7261] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -10368,36 +10368,36 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[32211] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[14455] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[32209] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[3899] = {
 			[29291] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[31940] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[23999] = {
 			[62651] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -10417,28 +10417,28 @@ MogIt_TwoHandedDB = {
 		},
 		[15612] = {
 			[35775] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[3921] = {
 			[69184] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[364] = {
 			[229] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[22257] = {
 			[59643] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -10456,7 +10456,7 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[61175] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -10475,29 +10475,29 @@ MogIt_TwoHandedDB = {
 		},
 		[9610] = {
 			[17438] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[17286] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[17877] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[20754] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[26413] = {
 			[70171] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -10517,7 +10517,7 @@ MogIt_TwoHandedDB = {
 		},
 		[26429] = {
 			[70176] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -10537,21 +10537,21 @@ MogIt_TwoHandedDB = {
 		},
 		[20323] = {
 			[53149] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
 		},
 		[22401] = {
 			[62162] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 6,
 				["faction"] = 3,
 			},
 		},
 		[15828] = {
 			[36409] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -10570,7 +10570,7 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[36859] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -10663,7 +10663,7 @@ MogIt_TwoHandedDB = {
 		},
 		[20435] = {
 			[49653] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -10684,21 +10684,21 @@ MogIt_TwoHandedDB = {
 		},
 		[22529] = {
 			[81590] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[12831] = {
 			[31286] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[24671] = {
 			[62906] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -10718,19 +10718,19 @@ MogIt_TwoHandedDB = {
 		},
 		[8779] = {
 			[15639] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 			[16025] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[37130] = {
 			[95510] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
@@ -10749,11 +10749,11 @@ MogIt_TwoHandedDB = {
 		},
 		[9850] = {
 			[72731] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["faction"] = 3,
 			},
 			[17898] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
@@ -10773,7 +10773,7 @@ MogIt_TwoHandedDB = {
 		},
 		[16679] = {
 			[38938] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -10794,26 +10794,26 @@ MogIt_TwoHandedDB = {
 		},
 		[9906] = {
 			[18037] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[10953] = {
 			[20519] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 			[21502] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[16807] = {
 			[38941] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -10834,21 +10834,21 @@ MogIt_TwoHandedDB = {
 		},
 		[14054] = {
 			[29724] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[753] = {
 			[687] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[7047] = {
 			[12230] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -10868,14 +10868,14 @@ MogIt_TwoHandedDB = {
 		},
 		[5017] = {
 			[6957] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[7067] = {
 			[12311] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -10902,14 +10902,14 @@ MogIt_TwoHandedDB = {
 		},
 		[9075] = {
 			[16178] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[6080] = {
 			[18750] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -10940,14 +10940,14 @@ MogIt_TwoHandedDB = {
 		},
 		[18214] = {
 			[42903] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[26414] = {
 			[70172] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -10967,7 +10967,7 @@ MogIt_TwoHandedDB = {
 		},
 		[26430] = {
 			[70175] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -10987,7 +10987,7 @@ MogIt_TwoHandedDB = {
 		},
 		[21363] = {
 			[61934] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -11006,21 +11006,21 @@ MogIt_TwoHandedDB = {
 		},
 		[771] = {
 			[10175] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[17495] = {
 			[40668] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[24672] = {
 			[62905] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -11040,14 +11040,14 @@ MogIt_TwoHandedDB = {
 		},
 		[14398] = {
 			[30708] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[37132] = {
 			[95509] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
@@ -11066,19 +11066,19 @@ MogIt_TwoHandedDB = {
 		},
 		[14470] = {
 			[31386] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[31379] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
 		},
 		[12432] = {
 			[24719] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -11096,7 +11096,7 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[24833] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -11116,19 +11116,19 @@ MogIt_TwoHandedDB = {
 		},
 		[18774] = {
 			[44489] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[46290] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[17767] = {
 			[84454] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
@@ -11149,7 +11149,7 @@ MogIt_TwoHandedDB = {
 		},
 		[13511] = {
 			[27725] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -11184,14 +11184,14 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 			[34157] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[16808] = {
 			[39800] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -11211,8 +11211,12 @@ MogIt_TwoHandedDB = {
 			},
 		},
 		[13535] = {
+			[76652] = {
+				["classes"] = 1492,
+				["faction"] = 3,
+			},
 			[27751] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -11247,14 +11251,10 @@ MogIt_TwoHandedDB = {
 				},
 				["faction"] = 1,
 			},
-			[76652] = {
-				["classes"] = 1476,
-				["faction"] = 3,
-			},
 		},
 		[21955] = {
 			[65565] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
@@ -11268,7 +11268,7 @@ MogIt_TwoHandedDB = {
 		},
 		[16888] = {
 			[38944] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -11289,7 +11289,7 @@ MogIt_TwoHandedDB = {
 		},
 		[12552] = {
 			[24947] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -11307,7 +11307,7 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[25606] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -11327,19 +11327,19 @@ MogIt_TwoHandedDB = {
 		},
 		[394] = {
 			[261] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[26059] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[37133] = {
 			[95418] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
@@ -11358,19 +11358,19 @@ MogIt_TwoHandedDB = {
 		},
 		[12640] = {
 			[25257] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 			[25261] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[397] = {
 			[265] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
@@ -11382,14 +11382,14 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[20772] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[37464] = {
 				["classes"] = 128,
 				["sourceType"] = 3,
-				["faction"] = 1,
+				["faction"] = 3,
 			},
 			[37465] = {
 				["classes"] = 256,
@@ -11397,14 +11397,24 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 			[18253] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[17447] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
+			},
+			[37467] = {
+				["classes"] = 16,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[37466] = {
+				["classes"] = 16,
+				["sourceType"] = 3,
+				["faction"] = 1,
 			},
 			[37468] = {
 				["classes"] = 1024,
@@ -11412,19 +11422,19 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[17287] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[21237] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[26431] = {
 			[70174] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -11444,7 +11454,7 @@ MogIt_TwoHandedDB = {
 		},
 		[21364] = {
 			[61933] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -11463,14 +11473,14 @@ MogIt_TwoHandedDB = {
 		},
 		[22403] = {
 			[81588] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[12752] = {
 			[25535] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -11488,7 +11498,7 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[25657] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -11508,7 +11518,7 @@ MogIt_TwoHandedDB = {
 		},
 		[9699] = {
 			[17507] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -11526,7 +11536,7 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[17770] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -11546,7 +11556,7 @@ MogIt_TwoHandedDB = {
 		},
 		[9731] = {
 			[17600] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -11566,7 +11576,7 @@ MogIt_TwoHandedDB = {
 		},
 		[4362] = {
 			[12979] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
@@ -11580,21 +11590,21 @@ MogIt_TwoHandedDB = {
 		},
 		[1606] = {
 			[1721] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[17496] = {
 			[40669] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[24673] = {
 			[62907] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -11614,19 +11624,19 @@ MogIt_TwoHandedDB = {
 		},
 		[8828] = {
 			[17281] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[17442] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[8844] = {
 			[15775] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -11645,14 +11655,14 @@ MogIt_TwoHandedDB = {
 		},
 		[19734] = {
 			[53016] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
 		[16681] = {
 			[39790] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -11672,7 +11682,7 @@ MogIt_TwoHandedDB = {
 		},
 		[9915] = {
 			[18059] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -11690,13 +11700,13 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[72632] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["faction"] = 3,
 			},
 		},
 		[11969] = {
 			[23192] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 1,
 				["faction"] = 2,
 				["drops"] = {
@@ -11714,7 +11724,7 @@ MogIt_TwoHandedDB = {
 				},
 			},
 			[23073] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 1,
 				["faction"] = 2,
 				["drops"] = {
@@ -11732,62 +11742,62 @@ MogIt_TwoHandedDB = {
 				},
 			},
 			[46910] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 2,
 				["faction"] = 2,
 			},
 		},
 		[10954] = {
 			[20520] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 			[20523] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[21956] = {
 			[65382] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[21988] = {
 			[60905] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[62347] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[66017] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[17912] = {
 			[41739] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[42784] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[7563] = {
 			[13102] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -11807,26 +11817,26 @@ MogIt_TwoHandedDB = {
 		},
 		[37998] = {
 			[91014] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 6,
 				["faction"] = 3,
 			},
 		},
 		[1641] = {
 			[1766] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[9254] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[22212] = {
 			[59649] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -11844,7 +11854,7 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[61111] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -11863,26 +11873,26 @@ MogIt_TwoHandedDB = {
 		},
 		[5565] = {
 			[17435] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[25313] = {
 			[70401] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[71690] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
 		},
 		[22260] = {
 			[61176] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -11902,21 +11912,21 @@ MogIt_TwoHandedDB = {
 		},
 		[6604] = {
 			[10172] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[3312] = {
 			[4019] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[21365] = {
 			[61932] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -11935,12 +11945,12 @@ MogIt_TwoHandedDB = {
 		},
 		[5609] = {
 			[9046] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[16141] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -11960,39 +11970,21 @@ MogIt_TwoHandedDB = {
 		},
 		[3330] = {
 			[13115] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[7683] = {
 			[29359] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[9228] = {
-			[17511] = {
-				["classes"] = 1476,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "General Bjarngrim",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Halls of Lightning",
-					}, -- [1]
-				},
-				["faction"] = 3,
-			},
 			[16521] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -12009,8 +12001,31 @@ MogIt_TwoHandedDB = {
 				},
 				["faction"] = 3,
 			},
+			[17511] = {
+				["classes"] = 1492,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "General Bjarngrim",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Halls of Lightning",
+					}, -- [1]
+				},
+				["faction"] = 3,
+			},
+			[18034] = {
+				["classes"] = 1492,
+				["sourceType"] = 4,
+				["faction"] = 3,
+			},
 			[17650] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -12027,53 +12042,48 @@ MogIt_TwoHandedDB = {
 				},
 				["faction"] = 3,
 			},
-			[18034] = {
-				["classes"] = 1476,
-				["sourceType"] = 4,
-				["faction"] = 3,
-			},
 		},
 		[6668] = {
 			[10323] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[6672] = {
 			[10329] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[37999] = {
 			[91015] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 6,
 				["faction"] = 3,
 			},
 		},
 		[17497] = {
 			[40670] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[41632] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[41685] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[10299] = {
 			[19265] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -12104,7 +12114,7 @@ MogIt_TwoHandedDB = {
 		},
 		[10323] = {
 			[19325] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -12135,7 +12145,7 @@ MogIt_TwoHandedDB = {
 		},
 		[10339] = {
 			[19368] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -12166,12 +12176,12 @@ MogIt_TwoHandedDB = {
 		},
 		[17609] = {
 			[45305] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[84422] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -12192,14 +12202,14 @@ MogIt_TwoHandedDB = {
 		},
 		[13424] = {
 			[27388] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[10387] = {
 			[19464] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -12219,7 +12229,7 @@ MogIt_TwoHandedDB = {
 		},
 		[15526] = {
 			[35599] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -12240,18 +12250,18 @@ MogIt_TwoHandedDB = {
 		},
 		[3376] = {
 			[4110] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["faction"] = 3,
 			},
 			[12038] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[11466] = {
 			[21916] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -12269,7 +12279,7 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[22188] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -12289,26 +12299,26 @@ MogIt_TwoHandedDB = {
 		},
 		[21957] = {
 			[63766] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[65399] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[21989] = {
 			[65383] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[11522] = {
 			[22016] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -12339,24 +12349,24 @@ MogIt_TwoHandedDB = {
 		},
 		[18952] = {
 			[47015] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[45155] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[66423] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[11546] = {
 			[22048] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -12376,43 +12386,43 @@ MogIt_TwoHandedDB = {
 		},
 		[17977] = {
 			[42047] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 			[42046] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 			[42048] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[38000] = {
 			[91017] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 6,
 				["faction"] = 3,
 			},
 			[95983] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 6,
 				["faction"] = 3,
 			},
 		},
 		[37009] = {
 			[99979] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
 		[3412] = {
 			[4238] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -12431,7 +12441,7 @@ MogIt_TwoHandedDB = {
 		},
 		[3420] = {
 			[10415] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
@@ -12441,14 +12451,14 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 			[6059] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[22213] = {
 			[61112] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -12468,81 +12478,81 @@ MogIt_TwoHandedDB = {
 		},
 		[36306] = {
 			[95374] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[96070] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 2,
 				["faction"] = 2,
 			},
 		},
 		[9612] = {
 			[17288] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[17475] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[18250] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[17178] = {
 			[40215] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 6,
 				["faction"] = 3,
 			},
 		},
 		[861] = {
 			[25874] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[431] = {
 			[301] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[10167] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[8669] = {
 			[49185] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[25522] = {
 			[70570] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[71859] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
 		},
 		[25634] = {
 			[73327] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -12562,7 +12572,7 @@ MogIt_TwoHandedDB = {
 		},
 		[6932] = {
 			[12046] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -12582,33 +12592,33 @@ MogIt_TwoHandedDB = {
 		},
 		[21574] = {
 			[90829] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[37010] = {
 			[97776] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
 		[20599] = {
 			[55302] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[55473] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
 		},
 		[6952] = {
 			[12067] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -12628,52 +12638,52 @@ MogIt_TwoHandedDB = {
 		},
 		[12881] = {
 			[25928] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[10843] = {
 			[20314] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[36211] = {
 			[92041] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 			[94182] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[13944] = {
 			[29361] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[36307] = {
 			[95379] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[94837] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 2,
 				["faction"] = 2,
 			},
 		},
 		[6984] = {
 			[12100] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -12693,17 +12703,17 @@ MogIt_TwoHandedDB = {
 		},
 		[13968] = {
 			[29504] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[29544] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[42169] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -12722,85 +12732,85 @@ MogIt_TwoHandedDB = {
 		},
 		[21830] = {
 			[65417] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[66616] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[24931] = {
 			[66602] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[10955] = {
 			[20521] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[2493] = {
 			[7401] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[15133] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[21958] = {
 			[65484] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[21990] = {
 			[65400] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[3524] = {
 			[4376] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[18953] = {
 			[45160] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[8075] = {
 			[14080] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[14202] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[36915] = {
 			[94385] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
@@ -12819,101 +12829,101 @@ MogIt_TwoHandedDB = {
 		},
 		[885] = {
 			[93191] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[11075] = {
 			[29942] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[78369] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[888] = {
 			[7758] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
 			[25817] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[7755] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
 			[7757] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
 			[860] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[7756] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
 			[8074] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
 		},
 		[19145] = {
 			[45249] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 6,
 				["faction"] = 3,
 			},
 		},
 		[25315] = {
 			[71312] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[70779] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
 		},
 		[9093] = {
 			[16230] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 			[16343] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[17179] = {
 			[40216] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 6,
 				["faction"] = 3,
 			},
 		},
 		[20280] = {
 			[50812] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -12934,12 +12944,12 @@ MogIt_TwoHandedDB = {
 		},
 		[8151] = {
 			[14360] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[35535] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -12964,31 +12974,31 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 			[12992] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 			[10324] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[10321] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[38578] = {
 			[100360] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[21399] = {
 			[60024] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -13007,26 +13017,26 @@ MogIt_TwoHandedDB = {
 		},
 		[8175] = {
 			[14323] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[25523] = {
 			[71515] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[70982] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
 		},
 		[12274] = {
 			[24511] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -13044,7 +13054,7 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[24804] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -13064,21 +13074,21 @@ MogIt_TwoHandedDB = {
 		},
 		[20456] = {
 			[50121] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[25635] = {
 			[72520] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[21575] = {
 			[66846] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -13096,7 +13106,7 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[66847] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -13115,33 +13125,33 @@ MogIt_TwoHandedDB = {
 		},
 		[19561] = {
 			[53003] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
 		[20600] = {
 			[54792] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[54963] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
 		},
 		[14416] = {
 			[30735] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[12386] = {
 			[24657] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -13161,7 +13171,7 @@ MogIt_TwoHandedDB = {
 		},
 		[10348] = {
 			[19389] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -13181,85 +13191,85 @@ MogIt_TwoHandedDB = {
 		},
 		[36734] = {
 			[99965] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 2,
 				["faction"] = 2,
 			},
 		},
 		[36733] = {
 			[98713] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 4,
 				["faction"] = 2,
 			},
 		},
 		[36735] = {
 			[97763] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 2,
 				["faction"] = 2,
 			},
 		},
 		[36001] = {
 			[97104] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 2,
 				["faction"] = 2,
 			},
 		},
 		[21815] = {
 			[62147] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 			[65332] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[67076] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[21831] = {
 			[62023] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[65468] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[18823] = {
 			[100348] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[24932] = {
 			[66603] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[22787] = {
 			[60187] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
 		},
 		[5416] = {
 			[7667] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -13278,7 +13288,7 @@ MogIt_TwoHandedDB = {
 		},
 		[11475] = {
 			[21930] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -13298,21 +13308,21 @@ MogIt_TwoHandedDB = {
 		},
 		[18858] = {
 			[44333] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[22272] = {
 			[66456] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[11837] = {
 			[22708] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 1,
 				["faction"] = 2,
 				["drops"] = {
@@ -13330,7 +13340,7 @@ MogIt_TwoHandedDB = {
 				},
 			},
 			[22775] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 1,
 				["faction"] = 2,
 				["drops"] = {
@@ -13350,54 +13360,54 @@ MogIt_TwoHandedDB = {
 		},
 		[11326] = {
 			[21712] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
 		},
 		[14584] = {
 			[32083] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[32088] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[14592] = {
 			[32207] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 6,
 				["faction"] = 3,
 			},
 		},
 		[5371] = {
 			[7583] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
 		},
 		[229] = {
 			[90] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[38560] = {
 			[100778] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[6293] = {
 			[9430] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -13417,21 +13427,21 @@ MogIt_TwoHandedDB = {
 		},
 		[24745] = {
 			[100369] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[23358] = {
 			[100364] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[38173] = {
 			[99120] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
@@ -13450,14 +13460,14 @@ MogIt_TwoHandedDB = {
 		},
 		[37011] = {
 			[98725] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
 		[37661] = {
 			[96658] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
@@ -13476,7 +13486,7 @@ MogIt_TwoHandedDB = {
 		},
 		[37435] = {
 			[95508] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
@@ -13495,40 +13505,40 @@ MogIt_TwoHandedDB = {
 		},
 		[25633] = {
 			[70605] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[71894] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
 		},
 		[12642] = {
 			[25259] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[22215] = {
 			[67834] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[12658] = {
 			[25285] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[1842] = {
 			[7226] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -13545,45 +13555,45 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[26094] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[1843] = {
 			[26778] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[28553] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[9613] = {
 			[17289] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[18261] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[17180] = {
 			[40217] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 6,
 				["faction"] = 3,
 			},
 		},
 		[5330] = {
 			[7515] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -13602,7 +13612,7 @@ MogIt_TwoHandedDB = {
 		},
 		[20281] = {
 			[49604] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -13623,7 +13633,7 @@ MogIt_TwoHandedDB = {
 		},
 		[20272] = {
 			[50300] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -13643,7 +13653,7 @@ MogIt_TwoHandedDB = {
 		},
 		[36916] = {
 			[94386] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
@@ -13662,7 +13672,7 @@ MogIt_TwoHandedDB = {
 		},
 		[16889] = {
 			[39836] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -13682,7 +13692,7 @@ MogIt_TwoHandedDB = {
 		},
 		[12738] = {
 			[25419] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -13700,7 +13710,7 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[25556] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -13720,33 +13730,33 @@ MogIt_TwoHandedDB = {
 		},
 		[5633] = {
 			[93248] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[17911] = {
 			[41738] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[42786] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[16387] = {
 			[37674] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[25524] = {
 			[73145] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -13766,38 +13776,38 @@ MogIt_TwoHandedDB = {
 		},
 		[8686] = {
 			[49192] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[630] = {
 			[27488] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[10330] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[27491] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[465] = {
 			[335] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[16891] = {
 			[39828] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -13818,19 +13828,19 @@ MogIt_TwoHandedDB = {
 		},
 		[36210] = {
 			[92021] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 			[94180] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[12167] = {
 			[24379] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -13850,78 +13860,78 @@ MogIt_TwoHandedDB = {
 		},
 		[25636] = {
 			[71516] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[70983] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
 		},
 		[38001] = {
 			[91016] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 6,
 				["faction"] = 3,
 			},
 		},
-		[1864] = {
-			[25815] = {
-				["classes"] = 1476,
-				["sourceType"] = 2,
+		[21576] = {
+			[90832] = {
+				["classes"] = 1492,
+				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[36180] = {
 			[91974] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 			[95365] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[22528] = {
 			[99217] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[78557] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 2,
 				["faction"] = 2,
 			},
 		},
 		[14396] = {
 			[30706] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[14588] = {
 			[100400] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[2527] = {
 			[10637] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[20271] = {
 			[49784] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -13942,14 +13952,14 @@ MogIt_TwoHandedDB = {
 		},
 		[22711] = {
 			[67767] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
 		[15975] = {
 			[36872] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -13968,7 +13978,7 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[36873] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -13989,19 +13999,19 @@ MogIt_TwoHandedDB = {
 		},
 		[20697] = {
 			[55336] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[55507] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
 		},
 		[25540] = {
 			[73143] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -14021,14 +14031,14 @@ MogIt_TwoHandedDB = {
 		},
 		[12825] = {
 			[93212] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[7316] = {
 			[12624] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -14047,82 +14057,82 @@ MogIt_TwoHandedDB = {
 		},
 		[1635] = {
 			[1760] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[1339] = {
 			[93201] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[21816] = {
 			[65434] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[21832] = {
 			[61862] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[66387] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[10932] = {
-			[20493] = {
-				["classes"] = 1476,
+			[21501] = {
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 			[20518] = {
-				["classes"] = 1476,
-				["sourceType"] = 3,
-				["faction"] = 3,
-			},
-			[20515] = {
-				["classes"] = 1476,
-				["sourceType"] = 3,
-				["faction"] = 3,
-			},
-			[20499] = {
-				["classes"] = 1476,
-				["sourceType"] = 3,
-				["faction"] = 3,
-			},
-			[21494] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 			[21495] = {
-				["classes"] = 1476,
-				["sourceType"] = 3,
-				["faction"] = 3,
-			},
-			[21501] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 			[21500] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
+				["sourceType"] = 3,
+				["faction"] = 3,
+			},
+			[20493] = {
+				["classes"] = 1492,
+				["sourceType"] = 3,
+				["faction"] = 3,
+			},
+			[20515] = {
+				["classes"] = 1492,
+				["sourceType"] = 3,
+				["faction"] = 3,
+			},
+			[21494] = {
+				["classes"] = 1492,
+				["sourceType"] = 3,
+				["faction"] = 3,
+			},
+			[20499] = {
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[8397] = {
 			[14942] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -14142,47 +14152,47 @@ MogIt_TwoHandedDB = {
 		},
 		[2224] = {
 			[2574] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[10956] = {
 			[20522] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[17177] = {
 			[40214] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 6,
 				["faction"] = 3,
 			},
 		},
 		[1886] = {
 			[10178] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[25818] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[16095] = {
 			[37670] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[317] = {
 			[181] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -14201,21 +14211,21 @@ MogIt_TwoHandedDB = {
 		},
 		[586] = {
 			[498] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[473] = {
 			[343] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[21293] = {
 			[61983] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -14234,7 +14244,7 @@ MogIt_TwoHandedDB = {
 		},
 		[7560] = {
 			[13099] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -14254,21 +14264,21 @@ MogIt_TwoHandedDB = {
 		},
 		[24850] = {
 			[70384] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[16941] = {
 			[100359] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[20026] = {
 			[49596] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -14289,7 +14299,7 @@ MogIt_TwoHandedDB = {
 		},
 		[22088] = {
 			[61150] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -14307,7 +14317,7 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[61155] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -14327,21 +14337,21 @@ MogIt_TwoHandedDB = {
 		},
 		[14687] = {
 			[32490] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 6,
 				["faction"] = 3,
 			},
 		},
 		[475] = {
 			[345] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[2773] = {
 			[3259] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -14360,19 +14370,19 @@ MogIt_TwoHandedDB = {
 		},
 		[2876] = {
 			[26676] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[26739] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[1901] = {
 			[84457] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
@@ -14391,7 +14401,7 @@ MogIt_TwoHandedDB = {
 				},
 			},
 			[45696] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -14410,7 +14420,7 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[8815] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -14429,41 +14439,41 @@ MogIt_TwoHandedDB = {
 		},
 		[9609] = {
 			[17285] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[17439] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[17434] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[18255] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[7936] = {
 			[13877] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[14106] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[22216] = {
 			[59635] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -14481,7 +14491,7 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[61103] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -14500,14 +14510,14 @@ MogIt_TwoHandedDB = {
 		},
 		[6342] = {
 			[9512] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[26504] = {
 			[70177] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -14525,82 +14535,69 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 		},
-		[10133] = {
-			[18860] = {
-				["classes"] = 1476,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Kel'Thuzad",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-						},
-						["instance"] = "Naxxramas",
-					}, -- [1]
-				},
-				["faction"] = 3,
-			},
-		},
 		[6605] = {
 			[10173] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[36376] = {
 			[95373] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[94868] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 2,
 				["faction"] = 2,
 			},
 			[96069] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 2,
 				["faction"] = 2,
 			},
 		},
+		[17181] = {
+			[40218] = {
+				["classes"] = 1492,
+				["sourceType"] = 6,
+				["faction"] = 3,
+			},
+		},
 		[17170] = {
 			[44351] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[639] = {
-			[10694] = {
-				["classes"] = 1476,
-				["sourceType"] = 2,
-				["faction"] = 3,
-			},
 			[10331] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
-			[26167] = {
-				["classes"] = 1476,
+			[10694] = {
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[78329] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
+				["faction"] = 3,
+			},
+			[26167] = {
+				["classes"] = 1492,
+				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[2799] = {
 			[3291] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -14619,31 +14616,31 @@ MogIt_TwoHandedDB = {
 		},
 		[5598] = {
 			[8205] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[28315] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[21829] = {
 			[58955] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 			[65485] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[26412] = {
 			[70173] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -14661,93 +14658,135 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 		},
-		[7680] = {
-			[13462] = {
-				["classes"] = 1476,
+		[481] = {
+			[7760] = {
+				["classes"] = 1492,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[7762] = {
+				["classes"] = 1492,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[351] = {
+				["classes"] = 1492,
+				["sourceType"] = 4,
+				["faction"] = 3,
+			},
+			[7759] = {
+				["classes"] = 1492,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[7761] = {
+				["classes"] = 1492,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[8078] = {
+				["classes"] = 1492,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[30836] = {
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
-		[11220] = {
-			[21503] = {
-				["classes"] = 1476,
-				["sourceType"] = 3,
+		[21401] = {
+			[60980] = {
+				["classes"] = 1492,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Immerseus",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Siege of Orgrimmar",
+					}, -- [1]
+				},
 				["faction"] = 3,
 			},
 		},
-		[6669] = {
-			[10325] = {
-				["classes"] = 1476,
+		[241] = {
+			[102] = {
+				["classes"] = 1492,
 				["sourceType"] = 4,
+				["faction"] = 3,
+			},
+			[10651] = {
+				["classes"] = 1492,
+				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[25525] = {
 			[70604] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[71893] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
 		},
-		[3838] = {
-			[13377] = {
-				["classes"] = 1476,
-				["sourceType"] = 2,
-				["faction"] = 3,
-			},
-			[32963] = {
-				["classes"] = 1156,
-				["sourceType"] = 2,
+		[25541] = {
+			[71481] = {
+				["classes"] = 1492,
+				["sourceType"] = 3,
 				["faction"] = 1,
+			},
+			[70948] = {
+				["classes"] = 1152,
+				["sourceType"] = 3,
+				["faction"] = 2,
 			},
 		},
 		[3840] = {
 			[28558] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[45248] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 6,
 				["faction"] = 3,
 			},
 		},
-		[20458] = {
-			[50354] = {
-				["classes"] = 1476,
-				["sourceType"] = 4,
+		[7680] = {
+			[13462] = {
+				["classes"] = 1492,
+				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[16383] = {
 			[37665] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[6673] = {
 			[10334] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
-		[241] = {
-			[102] = {
-				["classes"] = 1476,
+		[6669] = {
+			[10325] = {
+				["classes"] = 1492,
 				["sourceType"] = 4,
-				["faction"] = 3,
-			},
-			[10651] = {
-				["classes"] = 1476,
-				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
@@ -14755,29 +14794,29 @@ MogIt_TwoHandedDB = {
 			[3328] = {
 				["classes"] = 128,
 				["sourceType"] = 2,
-				["faction"] = 1,
+				["faction"] = 3,
 			},
 			[30288] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[33124] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[7693] = {
 			[33358] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[21577] = {
 			[66848] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -14797,7 +14836,7 @@ MogIt_TwoHandedDB = {
 		},
 		[9258] = {
 			[16557] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -14817,14 +14856,14 @@ MogIt_TwoHandedDB = {
 		},
 		[19563] = {
 			[53136] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
 		},
 		[6081] = {
 			[18836] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -14855,14 +14894,14 @@ MogIt_TwoHandedDB = {
 		},
 		[10939] = {
 			[20501] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[24319] = {
 			[62670] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -14880,41 +14919,28 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 		},
-		[9310] = {
-			[17444] = {
-				["classes"] = 1476,
-				["sourceType"] = 4,
-				["faction"] = 3,
-			},
-			[18341] = {
-				["classes"] = 1476,
-				["sourceType"] = 2,
-				["faction"] = 3,
-			},
-			[17586] = {
-				["classes"] = 1476,
-				["sourceType"] = 2,
-				["faction"] = 3,
-			},
-			[17280] = {
-				["classes"] = 1476,
-				["sourceType"] = 4,
-				["faction"] = 3,
-			},
-			[16616] = {
-				["classes"] = 1476,
-				["sourceType"] = 2,
-				["faction"] = 3,
-			},
-			[18340] = {
-				["classes"] = 1476,
-				["sourceType"] = 2,
+		[7728] = {
+			[13436] = {
+				["classes"] = 1492,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "High Astromancer Solarian",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "The Eye",
+					}, -- [1]
+				},
 				["faction"] = 3,
 			},
 		},
 		[22712] = {
 			[65273] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -14934,7 +14960,7 @@ MogIt_TwoHandedDB = {
 		},
 		[1808] = {
 			[1993] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -14953,7 +14979,7 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[32731] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -14974,32 +15000,32 @@ MogIt_TwoHandedDB = {
 		},
 		[20698] = {
 			[54798] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 			[54969] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
 		},
 		[32447] = {
 			[82066] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["faction"] = 2,
 			},
 		},
 		[18684] = {
 			[49672] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[24317] = {
 			[62669] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -15019,24 +15045,24 @@ MogIt_TwoHandedDB = {
 		},
 		[36377] = {
 			[92307] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 2,
 				["faction"] = 2,
 			},
 			[92240] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 2,
 				["faction"] = 2,
 			},
 			[95375] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[7735] = {
 			[13443] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -15055,19 +15081,19 @@ MogIt_TwoHandedDB = {
 		},
 		[21817] = {
 			[66455] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[779] = {
 			[716] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[93203] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
@@ -15092,12 +15118,12 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 			[64004] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
 			[65255] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -15117,28 +15143,47 @@ MogIt_TwoHandedDB = {
 		},
 		[24934] = {
 			[66605] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[654] = {
 			[577] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[14537] = {
 			[34107] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
+				["sourceType"] = 4,
+				["faction"] = 3,
+			},
+		},
+		[3900] = {
+			[29757] = {
+				["classes"] = 1492,
+				["sourceType"] = 2,
+				["faction"] = 3,
+			},
+			[31648] = {
+				["classes"] = 1492,
+				["sourceType"] = 2,
+				["faction"] = 3,
+			},
+		},
+		[488] = {
+			[360] = {
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[18876] = {
 			[44374] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -15157,35 +15202,16 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 		},
-		[488] = {
-			[360] = {
-				["classes"] = 1476,
-				["sourceType"] = 4,
-				["faction"] = 3,
-			},
-		},
-		[3900] = {
-			[29757] = {
-				["classes"] = 1476,
-				["sourceType"] = 2,
-				["faction"] = 3,
-			},
-			[31648] = {
-				["classes"] = 1476,
-				["sourceType"] = 2,
-				["faction"] = 3,
-			},
-		},
 		[22524] = {
 			[81586] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[22089] = {
 			[59663] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -15202,8 +15228,25 @@ MogIt_TwoHandedDB = {
 				},
 				["faction"] = 3,
 			},
+			[61149] = {
+				["classes"] = 1492,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Skulloc",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Iron Docks",
+					}, -- [1]
+				},
+				["faction"] = 3,
+			},
 			[59658] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -15220,25 +15263,8 @@ MogIt_TwoHandedDB = {
 				},
 				["faction"] = 3,
 			},
-			[61149] = {
-				["classes"] = 1476,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Skulloc",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Iron Docks",
-					}, -- [1]
-				},
-				["faction"] = 3,
-			},
 			[61154] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -15257,19 +15283,19 @@ MogIt_TwoHandedDB = {
 		},
 		[392] = {
 			[29474] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[93206] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[9921] = {
 			[18078] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -15287,7 +15313,7 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[93757] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
@@ -15307,7 +15333,7 @@ MogIt_TwoHandedDB = {
 		},
 		[12555] = {
 			[24978] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -15325,7 +15351,7 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[25601] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -15345,21 +15371,21 @@ MogIt_TwoHandedDB = {
 		},
 		[22885] = {
 			[67773] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
 		[784] = {
 			[722] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[20027] = {
 			[50179] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -15379,7 +15405,7 @@ MogIt_TwoHandedDB = {
 		},
 		[19020] = {
 			[44747] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -15399,7 +15425,7 @@ MogIt_TwoHandedDB = {
 		},
 		[16042] = {
 			[39863] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -15419,14 +15445,14 @@ MogIt_TwoHandedDB = {
 		},
 		[6671] = {
 			[10328] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[11588] = {
 			[22121] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -15444,14 +15470,14 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[22452] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[6825] = {
 			[11883] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -15471,7 +15497,7 @@ MogIt_TwoHandedDB = {
 		},
 		[7286] = {
 			[12579] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 				},
@@ -15480,24 +15506,24 @@ MogIt_TwoHandedDB = {
 		},
 		[22273] = {
 			[63758] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[65467] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[65433] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[24001] = {
 			[62650] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -15517,91 +15543,104 @@ MogIt_TwoHandedDB = {
 		},
 		[19148] = {
 			[45310] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[10613] = {
 			[100317] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
-		[7728] = {
-			[13436] = {
-				["classes"] = 1476,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "High Astromancer Solarian",
-						["tiers"] = {
-							"Burning Crusade", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "The Eye",
-					}, -- [1]
-				},
+		[9310] = {
+			[17444] = {
+				["classes"] = 1492,
+				["sourceType"] = 4,
+				["faction"] = 3,
+			},
+			[18341] = {
+				["classes"] = 1492,
+				["sourceType"] = 2,
+				["faction"] = 3,
+			},
+			[17586] = {
+				["classes"] = 1492,
+				["sourceType"] = 2,
+				["faction"] = 3,
+			},
+			[17280] = {
+				["classes"] = 1492,
+				["sourceType"] = 4,
+				["faction"] = 3,
+			},
+			[16616] = {
+				["classes"] = 1492,
+				["sourceType"] = 2,
+				["faction"] = 3,
+			},
+			[18340] = {
+				["classes"] = 1492,
+				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[9606] = {
 			[17282] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[19125] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[17440] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[9614] = {
 			[17290] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[21231] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[36378] = {
 			[94209] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[94210] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[97105] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 2,
 				["faction"] = 2,
 			},
 			[95376] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[37433] = {
 			[94875] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
@@ -15620,7 +15659,7 @@ MogIt_TwoHandedDB = {
 		},
 		[20283] = {
 			[50188] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -15638,77 +15677,35 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 		},
-		[481] = {
-			[7760] = {
-				["classes"] = 1476,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[7762] = {
-				["classes"] = 1476,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[7761] = {
-				["classes"] = 1476,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[7759] = {
-				["classes"] = 1476,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[351] = {
-				["classes"] = 1476,
+		[20458] = {
+			[50354] = {
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
-			[8078] = {
-				["classes"] = 1476,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[30836] = {
-				["classes"] = 1476,
+		},
+		[3838] = {
+			[13377] = {
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
-		},
-		[25541] = {
-			[71481] = {
-				["classes"] = 1476,
-				["sourceType"] = 3,
+			[32963] = {
+				["classes"] = 1156,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[70948] = {
-				["classes"] = 1024,
-				["sourceType"] = 3,
-				["faction"] = 2,
-			},
 		},
-		[21401] = {
-			[60980] = {
-				["classes"] = 1476,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Immerseus",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Siege of Orgrimmar",
-					}, -- [1]
-				},
+		[11220] = {
+			[21503] = {
+				["classes"] = 1492,
+				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[26503] = {
 			[70178] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -15728,7 +15725,7 @@ MogIt_TwoHandedDB = {
 		},
 		[24002] = {
 			[62652] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -15748,7 +15745,7 @@ MogIt_TwoHandedDB = {
 		},
 		[21402] = {
 			[60979] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -15765,16 +15762,29 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 		},
-		[17181] = {
-			[40218] = {
-				["classes"] = 1476,
-				["sourceType"] = 6,
+		[10133] = {
+			[18860] = {
+				["classes"] = 1492,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Kel'Thuzad",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+						},
+						["instance"] = "Naxxramas",
+					}, -- [1]
+				},
 				["faction"] = 3,
 			},
 		},
 		[11618] = {
 			[22183] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -15794,7 +15804,7 @@ MogIt_TwoHandedDB = {
 		},
 		[11756] = {
 			[22577] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -15814,7 +15824,7 @@ MogIt_TwoHandedDB = {
 		},
 		[19099] = {
 			[44988] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -15835,56 +15845,56 @@ MogIt_TwoHandedDB = {
 		},
 		[20459] = {
 			[50978] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[3568] = {
 			[4451] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[22537] = {
 			[64529] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
 		[14780] = {
 			[32862] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[14915] = {
 			[33345] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[5372] = {
 			[7584] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
 		[12676] = {
 			[25309] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[24700] = {
 			[67130] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -15904,21 +15914,21 @@ MogIt_TwoHandedDB = {
 		},
 		[6754] = {
 			[10570] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[15936] = {
 			[36785] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[12161] = {
 			[24373] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -15938,24 +15948,24 @@ MogIt_TwoHandedDB = {
 		},
 		[18127] = {
 			[42416] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 			[42415] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 			[42417] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[11311] = {
 			[21689] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -15975,21 +15985,21 @@ MogIt_TwoHandedDB = {
 		},
 		[22713] = {
 			[63972] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
 		},
 		[14397] = {
 			[30707] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[11347] = {
 			[21743] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -16009,105 +16019,105 @@ MogIt_TwoHandedDB = {
 		},
 		[21870] = {
 			[60442] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 2,
 				["faction"] = 2,
 			},
-			[65450] = {
-				["classes"] = 1476,
+			[78399] = {
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[64180] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[64188] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[64196] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[64204] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[64212] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
-			[64220] = {
-				["classes"] = 1476,
+			[65450] = {
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[64368] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[65502] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
-			[78399] = {
-				["classes"] = 1476,
+			[64220] = {
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[21873] = {
 			[65451] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[65501] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[5965] = {
 			[8795] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[10569] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[36379] = {
 			[95377] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[92309] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 2,
 				["faction"] = 2,
 			},
 			[94871] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 2,
 				["faction"] = 2,
 			},
 		},
 		[37434] = {
 			[95507] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
@@ -16126,74 +16136,74 @@ MogIt_TwoHandedDB = {
 		},
 		[21818] = {
 			[62022] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[65349] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
-		[21576] = {
-			[90832] = {
-				["classes"] = 1476,
-				["sourceType"] = 4,
+		[1864] = {
+			[25815] = {
+				["classes"] = 1492,
+				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[10933] = {
 			[20516] = {
-				["classes"] = 1476,
-				["sourceType"] = 3,
-				["faction"] = 3,
-			},
-			[20494] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 			[21496] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
+				["sourceType"] = 3,
+				["faction"] = 3,
+			},
+			[20494] = {
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 			[21497] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[36181] = {
 			[91972] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 			[94181] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[24849] = {
 			[67329] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[10957] = {
 			[20524] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[16043] = {
 			[39854] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -16214,28 +16224,28 @@ MogIt_TwoHandedDB = {
 		},
 		[14428] = {
 			[30834] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[16096] = {
 			[100342] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[12012] = {
 			[46959] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
 		[36913] = {
 			[94384] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
@@ -16254,21 +16264,21 @@ MogIt_TwoHandedDB = {
 		},
 		[23017] = {
 			[64005] = {
-				["classes"] = 1024,
+				["classes"] = 1152,
 				["sourceType"] = 3,
 				["faction"] = 2,
 			},
 		},
 		[22527] = {
 			[81589] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
 		[10092] = {
 			[18749] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -16299,7 +16309,7 @@ MogIt_TwoHandedDB = {
 		},
 		[3837] = {
 			[10508] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
@@ -16307,17 +16317,17 @@ MogIt_TwoHandedDB = {
 		[2828] = {
 			[3329] = {
 				["classes"] = 128,
-				["faction"] = 1,
+				["faction"] = 3,
 			},
 			[26225] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[20028] = {
 			[50803] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -16338,50 +16348,50 @@ MogIt_TwoHandedDB = {
 		},
 		[22090] = {
 			[66867] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[36209] = {
 			[95367] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[94612] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 			[92408] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[37051] = {
 			[93174] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 			[93189] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[7077] = {
 			[14288] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[26408] = {
 			[70180] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -16401,7 +16411,7 @@ MogIt_TwoHandedDB = {
 		},
 		[12542] = {
 			[24888] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -16419,7 +16429,7 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 			[25615] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -16439,7 +16449,7 @@ MogIt_TwoHandedDB = {
 		},
 		[16041] = {
 			[38925] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -16460,26 +16470,26 @@ MogIt_TwoHandedDB = {
 		},
 		[19128] = {
 			[45157] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[47018] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
 		[5343] = {
 			[39137] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
 		[5647] = {
 			[8456] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -16498,26 +16508,26 @@ MogIt_TwoHandedDB = {
 		},
 		[6670] = {
 			[10327] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[437] = {
 			[307] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[6057] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
 		[7002] = {
 			[12122] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
@@ -16534,7 +16544,7 @@ MogIt_TwoHandedDB = {
 		},
 		[5497] = {
 			[35533] = {
-				["classes"] = 1476,
+				["classes"] = 1492,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
@@ -16792,6 +16802,11 @@ MogIt_TwoHandedDB = {
 			},
 		},
 		[14603] = {
+			[32326] = {
+				["classes"] = 1062,
+				["sourceType"] = 2,
+				["faction"] = 3,
+			},
 			[32314] = {
 				["classes"] = 1062,
 				["sourceType"] = 2,
@@ -16800,11 +16815,6 @@ MogIt_TwoHandedDB = {
 			[78338] = {
 				["classes"] = 1062,
 				["sourceType"] = 4,
-				["faction"] = 3,
-			},
-			[32326] = {
-				["classes"] = 1062,
-				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
@@ -18036,15 +18046,15 @@ MogIt_TwoHandedDB = {
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
-			[99234] = {
-				["classes"] = 1024,
-				["sourceType"] = 6,
-				["faction"] = 2,
-			},
 			[94208] = {
 				["classes"] = 1062,
 				["sourceType"] = 2,
 				["faction"] = 3,
+			},
+			[99234] = {
+				["classes"] = 1024,
+				["sourceType"] = 6,
+				["faction"] = 2,
 			},
 			[94858] = {
 				["classes"] = 1024,
@@ -18130,43 +18140,47 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 		},
-		[2780] = {
-			[3267] = {
-				["classes"] = 1062,
-				["sourceType"] = 1,
-				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Grimlok",
-						["tiers"] = {
-							"Classic", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Uldaman",
-					}, -- [1]
-				},
-			},
-		},
-		[26271] = {
-			[70166] = {
+		[10291] = {
+			[19248] = {
 				["classes"] = 1062,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Kormrok",
+						["encounter"] = "Heigan the Unclean",
 						["tiers"] = {
-							"Warlords of Draenor", -- [1]
+							"Wrath of the Lich King", -- [1]
 						},
 						["difficulties"] = {
-							"Heroic", -- [1]
+							"25 Player", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
+						["instance"] = "Naxxramas",
 					}, -- [1]
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Gluth",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"25 Player", -- [1]
+						},
+						["instance"] = "Naxxramas",
+					}, -- [2]
 				},
+			},
+		},
+		[25761] = {
+			[70569] = {
+				["classes"] = 1062,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[71858] = {
+				["classes"] = 1024,
+				["sourceType"] = 3,
+				["faction"] = 2,
 			},
 		},
 		[22705] = {
@@ -18183,16 +18197,24 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 		},
-		[36692] = {
-			[98532] = {
+		[24275] = {
+			[62834] = {
 				["classes"] = 1062,
-				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-			[98726] = {
-				["classes"] = 1062,
-				["sourceType"] = 4,
-				["faction"] = 1,
+				["sourceType"] = 1,
+				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Operator Thogar",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Blackrock Foundry",
+					}, -- [1]
+				},
 			},
 		},
 		[20021] = {
@@ -18228,34 +18250,22 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 		},
-		[10291] = {
-			[19248] = {
+		[2780] = {
+			[3267] = {
 				["classes"] = 1062,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
 					{
-						["instanceType"] = 2,
-						["encounter"] = "Heigan the Unclean",
+						["instanceType"] = 1,
+						["encounter"] = "Grimlok",
 						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
+							"Classic", -- [1]
 						},
 						["difficulties"] = {
-							"25 Player", -- [1]
 						},
-						["instance"] = "Naxxramas",
+						["instance"] = "Uldaman",
 					}, -- [1]
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Gluth",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"25 Player", -- [1]
-						},
-						["instance"] = "Naxxramas",
-					}, -- [2]
 				},
 			},
 		},
@@ -18338,31 +18348,42 @@ MogIt_TwoHandedDB = {
 				},
 			},
 		},
-		[24275] = {
-			[62834] = {
+		[36692] = {
+			[98532] = {
+				["classes"] = 1062,
+				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+			[98726] = {
+				["classes"] = 1062,
+				["sourceType"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[17649] = {
+			[57189] = {
+				["classes"] = 1062,
+				["sourceType"] = 2,
+				["faction"] = 3,
+			},
+			[84436] = {
 				["classes"] = 1062,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
 					{
-						["instanceType"] = 2,
-						["encounter"] = "Operator Thogar",
+						["instanceType"] = 1,
+						["encounter"] = "Xin the Weaponmaster",
 						["tiers"] = {
-							"Warlords of Draenor", -- [1]
+							"Mists of Pandaria", -- [1]
 						},
 						["difficulties"] = {
 							"Normal", -- [1]
+							"Timewalking", -- [2]
 						},
-						["instance"] = "Blackrock Foundry",
+						["instance"] = "Mogu'shan Palace",
 					}, -- [1]
 				},
-			},
-		},
-		[7568] = {
-			[13109] = {
-				["classes"] = 1062,
-				["sourceType"] = 3,
-				["faction"] = 3,
 			},
 		},
 		[31423] = {
@@ -18858,26 +18879,11 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 		},
-		[36239] = {
-			[92103] = {
-				["classes"] = 1062,
-				["sourceType"] = 2,
+		[32591] = {
+			[82396] = {
+				["classes"] = 32,
+				["sourceType"] = 3,
 				["faction"] = 1,
-			},
-			[94177] = {
-				["classes"] = 1062,
-				["sourceType"] = 2,
-				["faction"] = 3,
-			},
-			[91970] = {
-				["classes"] = 1062,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[99280] = {
-				["classes"] = 1062,
-				["sourceType"] = 4,
-				["faction"] = 3,
 			},
 		},
 		[35968] = {
@@ -18920,11 +18926,26 @@ MogIt_TwoHandedDB = {
 				},
 			},
 		},
-		[32591] = {
-			[82396] = {
-				["classes"] = 32,
-				["sourceType"] = 3,
+		[36239] = {
+			[92103] = {
+				["classes"] = 1062,
+				["sourceType"] = 2,
 				["faction"] = 1,
+			},
+			[94177] = {
+				["classes"] = 1062,
+				["sourceType"] = 2,
+				["faction"] = 3,
+			},
+			[91970] = {
+				["classes"] = 1062,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[99280] = {
+				["classes"] = 1062,
+				["sourceType"] = 4,
+				["faction"] = 3,
 			},
 		},
 		[11606] = {
@@ -18980,32 +19001,6 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[37060] = {
-			[93197] = {
-				["classes"] = 1062,
-				["sourceType"] = 2,
-				["faction"] = 3,
-			},
-		},
-		[7357] = {
-			[12720] = {
-				["classes"] = 1062,
-				["sourceType"] = 1,
-				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Magtheridon",
-						["tiers"] = {
-							"Burning Crusade", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Magtheridon's Lair",
-					}, -- [1]
-				},
-			},
-		},
 		[22164] = {
 			[61132] = {
 				["classes"] = 1062,
@@ -19028,6 +19023,32 @@ MogIt_TwoHandedDB = {
 			[67832] = {
 				["classes"] = 1062,
 				["sourceType"] = 4,
+				["faction"] = 3,
+			},
+		},
+		[7357] = {
+			[12720] = {
+				["classes"] = 1062,
+				["sourceType"] = 1,
+				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Magtheridon",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Magtheridon's Lair",
+					}, -- [1]
+				},
+			},
+		},
+		[37060] = {
+			[93197] = {
+				["classes"] = 1062,
+				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
@@ -19079,29 +19100,24 @@ MogIt_TwoHandedDB = {
 				["faction"] = 2,
 			},
 		},
-		[7109] = {
-			[12354] = {
+		[26268] = {
+			[70167] = {
 				["classes"] = 1062,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
 					{
-						["instanceType"] = 1,
-						["encounter"] = "Mechano-Lord Capacitus",
+						["instanceType"] = 2,
+						["encounter"] = "Kormrok",
 						["tiers"] = {
-							"Burning Crusade", -- [1]
+							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
-							"Normal", -- [1]
+							"Mythic", -- [1]
 						},
-						["instance"] = "The Mechanar",
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
-			},
-			[15132] = {
-				["classes"] = 1062,
-				["sourceType"] = 2,
-				["faction"] = 3,
 			},
 		},
 		[11383] = {
@@ -19243,24 +19259,29 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 		},
-		[26268] = {
-			[70167] = {
+		[7109] = {
+			[12354] = {
 				["classes"] = 1062,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
 					{
-						["instanceType"] = 2,
-						["encounter"] = "Kormrok",
+						["instanceType"] = 1,
+						["encounter"] = "Mechano-Lord Capacitus",
 						["tiers"] = {
-							"Warlords of Draenor", -- [1]
+							"Burning Crusade", -- [1]
 						},
 						["difficulties"] = {
-							"Mythic", -- [1]
+							"Normal", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
+						["instance"] = "The Mechanar",
 					}, -- [1]
 				},
+			},
+			[15132] = {
+				["classes"] = 1062,
+				["sourceType"] = 2,
+				["faction"] = 3,
 			},
 		},
 		[18949] = {
@@ -19560,30 +19581,11 @@ MogIt_TwoHandedDB = {
 				},
 			},
 		},
-		[17649] = {
-			[57189] = {
+		[7568] = {
+			[13109] = {
 				["classes"] = 1062,
-				["sourceType"] = 2,
+				["sourceType"] = 3,
 				["faction"] = 3,
-			},
-			[84436] = {
-				["classes"] = 1062,
-				["sourceType"] = 1,
-				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Xin the Weaponmaster",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-							"Timewalking", -- [2]
-						},
-						["instance"] = "Mogu'shan Palace",
-					}, -- [1]
-				},
 			},
 		},
 		[20794] = {
@@ -19598,16 +19600,24 @@ MogIt_TwoHandedDB = {
 				["faction"] = 2,
 			},
 		},
-		[25761] = {
-			[70569] = {
+		[26271] = {
+			[70166] = {
 				["classes"] = 1062,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-			[71858] = {
-				["classes"] = 1024,
-				["sourceType"] = 3,
-				["faction"] = 2,
+				["sourceType"] = 1,
+				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Kormrok",
+						["tiers"] = {
+							"Warlords of Draenor", -- [1]
+						},
+						["difficulties"] = {
+							"Heroic", -- [1]
+						},
+						["instance"] = "Hellfire Citadel",
+					}, -- [1]
+				},
 			},
 		},
 		[19408] = {
@@ -21319,12 +21329,22 @@ MogIt_TwoHandedDB = {
 			},
 		},
 		[17784] = {
-			[41731] = {
+			[41955] = {
+				["classes"] = 38,
+				["sourceType"] = 2,
+				["faction"] = 1,
+			},
+			[41524] = {
 				["classes"] = 38,
 				["sourceType"] = 4,
 				["faction"] = 1,
 			},
-			[41524] = {
+			[41281] = {
+				["classes"] = 38,
+				["sourceType"] = 3,
+				["faction"] = 1,
+			},
+			[41731] = {
 				["classes"] = 38,
 				["sourceType"] = 4,
 				["faction"] = 1,
@@ -21334,21 +21354,16 @@ MogIt_TwoHandedDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[41955] = {
-				["classes"] = 38,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[41281] = {
-				["classes"] = 38,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
 		},
 		[1378] = {
 			[3004] = {
 				["classes"] = 38,
 				["sourceType"] = 6,
+				["faction"] = 1,
+			},
+			[10153] = {
+				["classes"] = 38,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 			[69194] = {
@@ -21359,11 +21374,6 @@ MogIt_TwoHandedDB = {
 			[1460] = {
 				["classes"] = 38,
 				["sourceType"] = 6,
-				["faction"] = 1,
-			},
-			[10153] = {
-				["classes"] = 38,
-				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -22458,17 +22468,17 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[22841] = {
-			[64598] = {
+		[607] = {
+			[28168] = {
 				["classes"] = 38,
-				["sourceType"] = 3,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
-		[5345] = {
-			[39141] = {
+		[735] = {
+			[667] = {
 				["classes"] = 38,
-				["sourceType"] = 3,
+				["sourceType"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -22555,23 +22565,11 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[38097] = {
-			[99124] = {
+		[3451] = {
+			[4250] = {
 				["classes"] = 38,
-				["sourceType"] = 1,
+				["sourceType"] = 4,
 				["faction"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Mythrax the Unraveler",
-						["tiers"] = {
-							"Battle for Azeroth", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Uldir",
-					}, -- [1]
-				},
 			},
 		},
 		[20030] = {
@@ -23010,33 +23008,6 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[21125] = {
-			[54790] = {
-				["classes"] = 38,
-				["sourceType"] = 3,
-				["faction"] = 1,
-			},
-		},
-		[24694] = {
-			[62636] = {
-				["classes"] = 38,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Imperator Mar'gok",
-						["tiers"] = {
-							"Warlords of Draenor", -- [1]
-						},
-						["difficulties"] = {
-							"Mythic", -- [1]
-						},
-						["instance"] = "Highmaul",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-		},
 		[38098] = {
 			[96650] = {
 				["classes"] = 38,
@@ -23054,6 +23025,32 @@ MogIt_TwoHandedDB = {
 						["instance"] = "Uldir",
 					}, -- [1]
 				},
+			},
+		},
+		[5423] = {
+			[7674] = {
+				["classes"] = 38,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Nefarian",
+						["tiers"] = {
+							"Classic", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Blackwing Lair",
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+		},
+		[21125] = {
+			[54790] = {
+				["classes"] = 38,
+				["sourceType"] = 3,
+				["faction"] = 1,
 			},
 		},
 		[8015] = {
@@ -23120,20 +23117,21 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[5423] = {
-			[7674] = {
+		[24694] = {
+			[62636] = {
 				["classes"] = 38,
 				["sourceType"] = 1,
 				["drops"] = {
 					{
 						["instanceType"] = 2,
-						["encounter"] = "Nefarian",
+						["encounter"] = "Imperator Mar'gok",
 						["tiers"] = {
-							"Classic", -- [1]
+							"Warlords of Draenor", -- [1]
 						},
 						["difficulties"] = {
+							"Mythic", -- [1]
 						},
-						["instance"] = "Blackwing Lair",
+						["instance"] = "Highmaul",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -23438,11 +23436,23 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[3451] = {
-			[4250] = {
+		[38097] = {
+			[99124] = {
 				["classes"] = 38,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
 				["faction"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Mythrax the Unraveler",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Uldir",
+					}, -- [1]
+				},
 			},
 		},
 		[2629] = {
@@ -23505,17 +23515,17 @@ MogIt_TwoHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[735] = {
-			[667] = {
+		[5345] = {
+			[39141] = {
 				["classes"] = 38,
-				["sourceType"] = 4,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},
-		[607] = {
-			[28168] = {
+		[22841] = {
+			[64598] = {
 				["classes"] = 38,
-				["sourceType"] = 2,
+				["sourceType"] = 3,
 				["faction"] = 1,
 			},
 		},

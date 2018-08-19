@@ -10,7 +10,7 @@ MogIt_ArtifactDB = {
 		[26524] = {
 			[73867] = {
 				["classes"] = 128,
-				["faction"] = 1,
+				["faction"] = 3,
 			},
 		},
 		[28823] = {
@@ -118,7 +118,7 @@ MogIt_ArtifactDB = {
 		[26931] = {
 			[73871] = {
 				["classes"] = 128,
-				["faction"] = 1,
+				["faction"] = 3,
 			},
 		},
 		[28748] = {
@@ -136,6 +136,12 @@ MogIt_ArtifactDB = {
 		[26979] = {
 			[73880] = {
 				["classes"] = 128,
+				["faction"] = 3,
+			},
+		},
+		[27493] = {
+			[77408] = {
+				["classes"] = 16,
 				["faction"] = 1,
 			},
 		},
@@ -148,19 +154,19 @@ MogIt_ArtifactDB = {
 		[27760] = {
 			[74461] = {
 				["classes"] = 128,
-				["faction"] = 1,
+				["faction"] = 3,
 			},
 		},
 		[27764] = {
 			[74465] = {
 				["classes"] = 128,
-				["faction"] = 1,
+				["faction"] = 3,
 			},
 		},
 		[27007] = {
 			[77065] = {
 				["classes"] = 128,
-				["faction"] = 1,
+				["faction"] = 3,
 			},
 		},
 		[27525] = {
@@ -184,7 +190,7 @@ MogIt_ArtifactDB = {
 		[26525] = {
 			[73868] = {
 				["classes"] = 128,
-				["faction"] = 1,
+				["faction"] = 3,
 			},
 		},
 		[28824] = {
@@ -324,12 +330,18 @@ MogIt_ArtifactDB = {
 		[26932] = {
 			[73872] = {
 				["classes"] = 128,
-				["faction"] = 1,
+				["faction"] = 3,
 			},
 		},
 		[27968] = {
 			[77062] = {
 				["classes"] = 4,
+				["faction"] = 1,
+			},
+		},
+		[27474] = {
+			[76533] = {
+				["classes"] = 16,
 				["faction"] = 1,
 			},
 		},
@@ -354,7 +366,7 @@ MogIt_ArtifactDB = {
 		[27761] = {
 			[74462] = {
 				["classes"] = 128,
-				["faction"] = 1,
+				["faction"] = 3,
 			},
 		},
 		[28785] = {
@@ -372,13 +384,13 @@ MogIt_ArtifactDB = {
 		[27008] = {
 			[77064] = {
 				["classes"] = 128,
-				["faction"] = 1,
+				["faction"] = 3,
 			},
 		},
 		[27777] = {
 			[74469] = {
 				["classes"] = 128,
-				["faction"] = 1,
+				["faction"] = 3,
 			},
 		},
 		[28801] = {
@@ -408,7 +420,7 @@ MogIt_ArtifactDB = {
 		[26522] = {
 			[73865] = {
 				["classes"] = 128,
-				["faction"] = 1,
+				["faction"] = 3,
 			},
 		},
 		[28825] = {
@@ -426,7 +438,7 @@ MogIt_ArtifactDB = {
 		[31893] = {
 			[80547] = {
 				["classes"] = 128,
-				["faction"] = 1,
+				["faction"] = 3,
 			},
 		},
 		[26032] = {
@@ -492,7 +504,7 @@ MogIt_ArtifactDB = {
 		[26929] = {
 			[73869] = {
 				["classes"] = 128,
-				["faction"] = 1,
+				["faction"] = 3,
 			},
 		},
 		[27702] = {
@@ -534,7 +546,7 @@ MogIt_ArtifactDB = {
 		[27762] = {
 			[74463] = {
 				["classes"] = 128,
-				["faction"] = 1,
+				["faction"] = 3,
 			},
 		},
 		[27005] = {
@@ -546,13 +558,13 @@ MogIt_ArtifactDB = {
 		[27009] = {
 			[76527] = {
 				["classes"] = 128,
-				["faction"] = 1,
+				["faction"] = 3,
 			},
 		},
 		[27017] = {
 			[77070] = {
 				["classes"] = 128,
-				["faction"] = 1,
+				["faction"] = 3,
 			},
 		},
 		[28041] = {
@@ -570,12 +582,30 @@ MogIt_ArtifactDB = {
 		[26523] = {
 			[73866] = {
 				["classes"] = 128,
-				["faction"] = 1,
+				["faction"] = 3,
 			},
 		},
 		[28822] = {
 			[77283] = {
 				["classes"] = 2,
+				["faction"] = 1,
+			},
+		},
+		[28570] = {
+			[77380] = {
+				["classes"] = 16,
+				["faction"] = 1,
+			},
+		},
+		[28361] = {
+			[76532] = {
+				["classes"] = 16,
+				["faction"] = 1,
+			},
+		},
+		[27367] = {
+			[76186] = {
+				["classes"] = 16,
 				["faction"] = 1,
 			},
 		},
@@ -585,15 +615,21 @@ MogIt_ArtifactDB = {
 				["faction"] = 3,
 			},
 		},
+		[27354] = {
+			[76173] = {
+				["classes"] = 16,
+				["faction"] = 1,
+			},
+		},
 		[27434] = {
 			[76993] = {
 				["classes"] = 32,
 				["faction"] = 1,
 			},
 		},
-		[27781] = {
-			[74474] = {
-				["classes"] = 128,
+		[28791] = {
+			[77028] = {
+				["classes"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -621,10 +657,10 @@ MogIt_ArtifactDB = {
 				["faction"] = 1,
 			},
 		},
-		[28791] = {
-			[77028] = {
-				["classes"] = 4,
-				["faction"] = 1,
+		[27781] = {
+			[74474] = {
+				["classes"] = 128,
+				["faction"] = 3,
 			},
 		},
 		[27878] = {
@@ -651,9 +687,9 @@ MogIt_ArtifactDB = {
 				["faction"] = 1,
 			},
 		},
-		[27384] = {
-			[76535] = {
-				["classes"] = 64,
+		[28914] = {
+			[77155] = {
+				["classes"] = 2048,
 				["faction"] = 1,
 			},
 		},
@@ -681,10 +717,10 @@ MogIt_ArtifactDB = {
 				["faction"] = 1,
 			},
 		},
-		[26639] = {
-			[73399] = {
-				["classes"] = 1024,
-				["faction"] = 3,
+		[27404] = {
+			[75203] = {
+				["classes"] = 4,
+				["faction"] = 1,
 			},
 		},
 		[27408] = {
@@ -708,7 +744,7 @@ MogIt_ArtifactDB = {
 		[27780] = {
 			[74472] = {
 				["classes"] = 128,
-				["faction"] = 1,
+				["faction"] = 3,
 			},
 		},
 		[27169] = {
@@ -723,9 +759,9 @@ MogIt_ArtifactDB = {
 				["faction"] = 1,
 			},
 		},
-		[27016] = {
-			[77069] = {
-				["classes"] = 128,
+		[31314] = {
+			[80649] = {
+				["classes"] = 4,
 				["faction"] = 1,
 			},
 		},
@@ -735,15 +771,15 @@ MogIt_ArtifactDB = {
 				["faction"] = 3,
 			},
 		},
-		[27149] = {
-			[76530] = {
-				["classes"] = 2,
+		[27970] = {
+			[77060] = {
+				["classes"] = 4,
 				["faction"] = 1,
 			},
 		},
-		[31193] = {
-			[80662] = {
-				["classes"] = 128,
+		[31783] = {
+			[80363] = {
+				["classes"] = 256,
 				["faction"] = 1,
 			},
 		},
@@ -753,9 +789,9 @@ MogIt_ArtifactDB = {
 				["faction"] = 1,
 			},
 		},
-		[27970] = {
-			[77060] = {
-				["classes"] = 4,
+		[27149] = {
+			[76530] = {
+				["classes"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -771,10 +807,10 @@ MogIt_ArtifactDB = {
 				["faction"] = 1,
 			},
 		},
-		[31314] = {
-			[80649] = {
-				["classes"] = 4,
-				["faction"] = 1,
+		[31193] = {
+			[80662] = {
+				["classes"] = 128,
+				["faction"] = 3,
 			},
 		},
 		[27978] = {
@@ -783,16 +819,22 @@ MogIt_ArtifactDB = {
 				["faction"] = 1,
 			},
 		},
-		[31783] = {
-			[80363] = {
-				["classes"] = 256,
-				["faction"] = 1,
+		[27016] = {
+			[77069] = {
+				["classes"] = 128,
+				["faction"] = 3,
 			},
 		},
 		[26711] = {
 			[72808] = {
 				["classes"] = 2048,
 				["faction"] = 1,
+			},
+		},
+		[26639] = {
+			[73399] = {
+				["classes"] = 1024,
+				["faction"] = 3,
 			},
 		},
 		[28784] = {
@@ -807,40 +849,34 @@ MogIt_ArtifactDB = {
 				["faction"] = 1,
 			},
 		},
-		[28914] = {
-			[77155] = {
-				["classes"] = 2048,
+		[27384] = {
+			[76535] = {
+				["classes"] = 64,
 				["faction"] = 1,
 			},
 		},
 		[27015] = {
 			[77068] = {
 				["classes"] = 128,
-				["faction"] = 1,
-			},
-		},
-		[27404] = {
-			[75203] = {
-				["classes"] = 4,
-				["faction"] = 1,
+				["faction"] = 3,
 			},
 		},
 		[27765] = {
 			[74466] = {
 				["classes"] = 128,
-				["faction"] = 1,
+				["faction"] = 3,
 			},
 		},
 		[27759] = {
 			[74460] = {
 				["classes"] = 128,
-				["faction"] = 1,
+				["faction"] = 3,
 			},
 		},
 		[27763] = {
 			[74464] = {
 				["classes"] = 128,
-				["faction"] = 1,
+				["faction"] = 3,
 			},
 		},
 		[28714] = {
@@ -852,13 +888,13 @@ MogIt_ArtifactDB = {
 		[27006] = {
 			[77066] = {
 				["classes"] = 128,
-				["faction"] = 1,
+				["faction"] = 3,
 			},
 		},
 		[27025] = {
 			[77074] = {
 				["classes"] = 128,
-				["faction"] = 1,
+				["faction"] = 3,
 			},
 		},
 		[28799] = {
