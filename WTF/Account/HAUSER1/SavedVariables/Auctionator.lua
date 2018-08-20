@@ -2,25 +2,27 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
+	["_200000"] = 1000,
+	["STARTING_DISCOUNT"] = 5,
+	["_1000000"] = 2500,
 	["_5000000"] = 10000,
 	["LOG_DE_DATA_X"] = true,
-	["_1000000"] = 2500,
-	["_10000"] = 200,
 	["_500"] = 5,
-	["STARTING_DISCOUNT"] = 5,
-	["_200000"] = 1000,
+	["_10000"] = 200,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 	["Umbra Shard"] = {
+		["5285345"] = "589000:8",
 		["5284699"] = "498000:27",
 		["5282797"] = "972000:27",
 		["5279504"] = "1242500:19",
 		["is"] = "152876:0:0:0:0",
-		["5285345"] = "589000:8",
+		["5287136"] = "876000:24",
 	},
 	["Insulated Wiring"] = {
-		["is"] = "163569:0:0:0:0",
 		["5282801"] = "10600:44",
+		["5287138"] = "30200:9",
+		["is"] = "163569:0:0:0:0",
 	},
 	["Dreamleaf"] = {
 		["5257034"] = "59900:200",
@@ -37,6 +39,7 @@ AUCTIONATOR_PRICING_HISTORY = {
 	},
 	["Flesh Eating Worm"] = {
 		["5279505"] = "5000:5",
+		["5287138"] = "83:5",
 		["is"] = "7307:0:0:0:0",
 		["5282798"] = "94:5",
 	},
@@ -75,6 +78,7 @@ AUCTIONATOR_PRICING_HISTORY = {
 	["Coralshell Dagger of the Fireflash"] = {
 		["is"] = "159520:0:0:0:4796",
 		["5283103"] = "6990000:1",
+		["5287137"] = "1997500:1",
 	},
 	["Chaos Crystal"] = {
 		["5282798"] = "11200:13",
@@ -88,6 +92,7 @@ AUCTIONATOR_PRICING_HISTORY = {
 	["Foxhollow Drape of the Harmonious"] = {
 		["is"] = "159166:0:0:0:4796",
 		["5283103"] = "3987500:1",
+		["5287137"] = "2247500:1",
 	},
 	["Leylight Shard"] = {
 		["is"] = "124441:0:0:0:0",
@@ -170,8 +175,9 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["5279503"] = "1185:128",
 	},
 	["Chemical Blasting Cap"] = {
-		["is"] = "160502:0:0:0:0",
 		["5282800"] = "49800:7",
+		["5287138"] = "19600:7",
+		["is"] = "160502:0:0:0:0",
 	},
 	["Sailor's Pie"] = {
 		["is"] = "154888:0:0:0:0",
@@ -193,13 +199,15 @@ AUCTIONATOR_PRICING_HISTORY = {
 	["Crimsonwood Cowl of the Aurora"] = {
 		["is"] = "154853:0:0:0:4796",
 		["5283103"] = "4002500:1",
+		["5287137"] = "1997500:1",
 	},
 	["Gloom Dust"] = {
 		["5282799"] = "408000:49",
-		["5284698"] = "179000:27",
-		["5279502"] = "176000:200",
 		["5282802"] = "406000:10",
 		["is"] = "152875:0:0:0:0",
+		["5284698"] = "179000:27",
+		["5287137"] = "179900:22",
+		["5279502"] = "176000:200",
 		["5284697"] = "179000:27",
 		["5279506"] = "176000:9",
 		["5285345"] = "149000:11",
@@ -212,56 +220,56 @@ AUCTIONATOR_PRICING_HISTORY = {
 AUCTIONATOR_SHOPPING_LISTS = {
 	{
 		["items"] = {
-			"Astral glory", -- [1]
-			"fiendish leather", -- [2]
-			"lightweave cloth", -- [3]
-			"Glorious", -- [4]
-			"Glorious legplates", -- [5]
-			"silkweave bandage", -- [6]
-			"Ancient healing", -- [7]
-			"healing", -- [8]
-			"Goldfish", -- [9]
-			"stormscale", -- [10]
-			"cobalt bar", -- [11]
-			"king's amber", -- [12]
-			"titansteel bar", -- [13]
-			"windwool clo", -- [14]
-			"Ghost iron", -- [15]
-			"silver con", -- [16]
-			"silver bar", -- [17]
-			"Iron bar", -- [18]
-			"medium leather", -- [19]
-			"wool cloth", -- [20]
-			"bronze bar", -- [21]
-			"heavy stone", -- [22]
-			"silk cloth", -- [23]
-			"true iron ore", -- [24]
-			"blackrock ore", -- [25]
-			"bandage", -- [26]
-			"health pot", -- [27]
-			"bag", -- [28]
-			"Arkhana", -- [29]
-			"leylight", -- [30]
-			"firework", -- [31]
-			"Auto-hammer", -- [32]
-			"leystone ore", -- [33]
-			"highmountain salmon", -- [34]
-			"big gamy", -- [35]
-			"black barracuda", -- [36]
-			"wildfowl egg", -- [37]
-			"felslate", -- [38]
-			"Ancient mana", -- [39]
-			"enormous", -- [40]
-			"sorcerous earth", -- [41]
-			"temporal crystal", -- [42]
-			"bait", -- [43]
-			"breath of", -- [44]
-			"mark of ", -- [45]
-			"luminous shard", -- [46]
-			"Draenic dust", -- [47]
-			"Arcane powder", -- [48]
-			"mote of earth", -- [49]
-			"mote of fire", -- [50]
+			"redtail", -- [1]
+			"monelite ore", -- [2]
+			"Astral glory", -- [3]
+			"fiendish leather", -- [4]
+			"lightweave cloth", -- [5]
+			"Glorious", -- [6]
+			"Glorious legplates", -- [7]
+			"silkweave bandage", -- [8]
+			"Ancient healing", -- [9]
+			"healing", -- [10]
+			"Goldfish", -- [11]
+			"stormscale", -- [12]
+			"cobalt bar", -- [13]
+			"king's amber", -- [14]
+			"titansteel bar", -- [15]
+			"windwool clo", -- [16]
+			"Ghost iron", -- [17]
+			"silver con", -- [18]
+			"silver bar", -- [19]
+			"Iron bar", -- [20]
+			"medium leather", -- [21]
+			"wool cloth", -- [22]
+			"bronze bar", -- [23]
+			"heavy stone", -- [24]
+			"silk cloth", -- [25]
+			"true iron ore", -- [26]
+			"blackrock ore", -- [27]
+			"bandage", -- [28]
+			"health pot", -- [29]
+			"bag", -- [30]
+			"Arkhana", -- [31]
+			"leylight", -- [32]
+			"firework", -- [33]
+			"Auto-hammer", -- [34]
+			"leystone ore", -- [35]
+			"highmountain salmon", -- [36]
+			"big gamy", -- [37]
+			"black barracuda", -- [38]
+			"wildfowl egg", -- [39]
+			"felslate", -- [40]
+			"Ancient mana", -- [41]
+			"enormous", -- [42]
+			"sorcerous earth", -- [43]
+			"temporal crystal", -- [44]
+			"bait", -- [45]
+			"breath of", -- [46]
+			"mark of ", -- [47]
+			"luminous shard", -- [48]
+			"Draenic dust", -- [49]
+			"Arcane powder", -- [50]
 		},
 		["isRecents"] = 1,
 		["name"] = "Recent Searches",
@@ -294,13 +302,14 @@ AUCTIONATOR_PRICE_DATABASE = {
 	},
 	["Kel'Thuzad_Alliance"] = {
 		["Umbra Shard"] = {
-			["H2832"] = 973000,
-			["mr"] = 589999,
-			["cc"] = 7,
-			["H2834"] = 589999,
-			["id"] = "152876:0:0:0:0",
+			["H2835"] = 876525,
 			["H2830"] = 1245000,
+			["H2832"] = 973000,
+			["id"] = "152876:0:0:0:0",
+			["mr"] = 876525,
 			["sc"] = 12,
+			["H2834"] = 589999,
+			["cc"] = 7,
 			["H2833"] = 499000,
 		},
 		["Fiendish Leather"] = {
@@ -311,11 +320,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["cc"] = 7,
 		},
 		["Insulated Wiring"] = {
-			["mr"] = 10799,
-			["sc"] = 1,
-			["id"] = "163569:0:0:0:0",
+			["H2835"] = 30400,
+			["mr"] = 30400,
 			["cc"] = 7,
+			["id"] = "163569:0:0:0:0",
 			["H2832"] = 10799,
+			["sc"] = 1,
 		},
 		["Dreamleaf"] = {
 			["mr"] = 59900,
@@ -333,19 +343,21 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["cc"] = 0,
 		},
 		["Redtail Loach"] = {
-			["mr"] = 40000,
-			["sc"] = 8,
-			["id"] = "152549:0:0:0:0",
+			["H2835"] = 1750000,
 			["H2830"] = 40000,
 			["cc"] = 7,
+			["id"] = "152549:0:0:0:0",
+			["mr"] = 1750000,
+			["sc"] = 8,
 		},
 		["Flesh Eating Worm"] = {
-			["mr"] = 95,
-			["H2832"] = 95,
-			["id"] = "7307:0:0:0:0",
+			["H2835"] = 84,
 			["H2830"] = 5100,
-			["sc"] = 8,
 			["cc"] = 0,
+			["id"] = "7307:0:0:0:0",
+			["mr"] = 84,
+			["sc"] = 8,
+			["H2832"] = 95,
 		},
 		["Tidespray Linen"] = {
 			["mr"] = 30000,
@@ -399,11 +411,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2824"] = 39999,
 		},
 		["Coralshell Dagger of the Fireflash"] = {
-			["mr"] = 7000000,
-			["sc"] = 15,
-			["id"] = "159520:0:0:0:4796",
+			["H2835"] = 2000000,
+			["mr"] = 2000000,
 			["cc"] = 2,
+			["id"] = "159520:0:0:0:4796",
 			["H2832"] = 7000000,
+			["sc"] = 15,
 		},
 		["Chaos Crystal"] = {
 			["mr"] = 49400,
@@ -415,11 +428,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2833"] = 49400,
 		},
 		["Foxhollow Drape of the Harmonious"] = {
-			["mr"] = 3989900,
-			["sc"] = 1,
-			["id"] = "159166:0:0:0:4796",
+			["H2835"] = 2250000,
+			["mr"] = 2250000,
 			["cc"] = 4,
+			["id"] = "159166:0:0:0:4796",
 			["H2832"] = 3989900,
+			["sc"] = 1,
 		},
 		["Leylight Shard"] = {
 			["mr"] = 179487,
@@ -449,6 +463,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "160176:0:0:0:4796",
 			["sc"] = 3,
 			["H2833"] = 3009999,
+		},
+		["Monelite Ore"] = {
+			["H2835"] = 559999,
+			["mr"] = 559999,
+			["sc"] = 7,
+			["id"] = "152512:0:0:0:0",
+			["cc"] = 7,
 		},
 		["Rubellite"] = {
 			["mr"] = 549000,
@@ -564,11 +585,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["cc"] = 7,
 		},
 		["Chemical Blasting Cap"] = {
-			["mr"] = 49999,
-			["sc"] = 1,
-			["id"] = "160502:0:0:0:0",
+			["H2835"] = 19800,
+			["mr"] = 19800,
 			["cc"] = 7,
+			["id"] = "160502:0:0:0:0",
 			["H2832"] = 49999,
+			["sc"] = 1,
 		},
 		["Sailor's Pie"] = {
 			["mr"] = 49800,
@@ -599,19 +621,21 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 8,
 		},
 		["Crimsonwood Cowl of the Aurora"] = {
-			["mr"] = 4005000,
-			["sc"] = 2,
-			["id"] = "154853:0:0:0:4796",
+			["H2835"] = 2000000,
+			["mr"] = 2000000,
 			["cc"] = 4,
+			["id"] = "154853:0:0:0:4796",
 			["H2832"] = 4005000,
+			["sc"] = 2,
 		},
 		["Gloom Dust"] = {
+			["H2835"] = 106969,
 			["H2830"] = 176500,
 			["H2832"] = 409000,
 			["L2833"] = 179000,
 			["id"] = "152875:0:0:0:0",
 			["L2830"] = 176000,
-			["mr"] = 149500,
+			["mr"] = 106969,
 			["cc"] = 7,
 			["H2834"] = 149500,
 			["sc"] = 12,
@@ -847,7 +871,7 @@ AUCTIONATOR_STACKING_PREFS = {
 		["numstacks"] = 0,
 		["stacksize"] = 1,
 	},
-	["truesilver bar"] = {
+	["lesser cosmic essence"] = {
 		["stacksize"] = 1,
 		["numstacks"] = 0,
 	},
@@ -855,9 +879,9 @@ AUCTIONATOR_STACKING_PREFS = {
 		["numstacks"] = 0,
 		["stacksize"] = 1,
 	},
-	["gloom dust"] = {
+	["truesilver bar"] = {
+		["stacksize"] = 1,
 		["numstacks"] = 0,
-		["stacksize"] = 27,
 	},
 	["leylight shard"] = {
 		["stacksize"] = 1,
@@ -899,9 +923,9 @@ AUCTIONATOR_STACKING_PREFS = {
 		["numstacks"] = 0,
 		["stacksize"] = 1,
 	},
-	["lesser cosmic essence"] = {
-		["stacksize"] = 1,
+	["gloom dust"] = {
 		["numstacks"] = 0,
+		["stacksize"] = 27,
 	},
 	["raw riverbeast meat"] = {
 		["stacksize"] = 1,

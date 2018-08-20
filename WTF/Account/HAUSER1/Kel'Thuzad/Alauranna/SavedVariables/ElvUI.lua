@@ -1123,5 +1123,71 @@ ElvCharacterDB = {
 			[51] = 1533751401,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [50]
+		{
+			"wts |cff0070dd|Hitem:161936::::::::1:256::13:2:1708:4927:::|h[Honorable Combatant's Etched Vessel of the Aurora]|h|r|cff0070dd|Hitem:161936::::::::1:256::13:2:1704:4927:::|h[Honorable Combatant's Etched Vessel of the Aurora]|h|r pst", -- [1]
+			"Jacksbank-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Jacksbank", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			773, -- [11]
+			"Player-3693-0765CF4A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffJacksbank|r",
+			[51] = 1534775491,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [51]
+		{
+			"wts |cff0070dd|Hitem:161936::::::::1:256::13:2:1708:4927:::|h[Honorable Combatant's Etched Vessel of the Aurora]|h|r|cff0070dd|Hitem:161936::::::::1:256::13:2:1704:4927:::|h[Honorable Combatant's Etched Vessel of the Aurora]|h|r pst", -- [1]
+			"Jacksbank-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Jacksbank", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			785, -- [11]
+			"Player-3693-0765CF4A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffJacksbank|r",
+			[51] = 1534775582,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [52]
+		{
+			"WTB all BfA Herbs & Ores (including Platinum Ore) 35g each, Kraken's Eye 1.2k, Gloom Dust 5g, Umbra 35g, Deep Sea Satin 35g, and Anchor Weed 250g per mail. Please mail (COD) to me please! Taking all you have, no limit!", -- [1]
+			"Acenaa-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Acenaa", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			793, -- [11]
+			"Player-3693-09DB356D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00ff96Acenaa|r",
+			[51] = 1534775611,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [53]
 	},
 }

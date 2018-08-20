@@ -1,11 +1,11 @@
-VER 3 0100000000000001 " " "INV_Misc_QuestionMark"
-#showtooltip ice block
-/cast ice block
-END
 VER 3 010000000000000A " " "INV_MISC_QUESTIONMARK"
 #showtooltip Icy Veins
 /cast Icy Veins
 /use Primal Gladiator's Badge of Dominance
+END
+VER 3 0100000000000001 " " "INV_Misc_QuestionMark"
+#showtooltip ice block
+/cast ice block
 END
 VER 3 0100000000000002 "armor" "INV_Misc_QuestionMark"
 #showtooltip
@@ -43,14 +43,14 @@ VER 3 010000000000000B "m" "INV_MISC_QUESTIONMARK"
 .item 17 28187
 END
 VER 3 010000000000000C "Mount" "INV_MISC_QUESTIONMARK"
-#showtooltip ashes of al'ar
-/cast [worn:shirt] crimson water strider ; [flyable] ashes of al'ar ; crimson water strider
-END
-VER 3 0100000000000005 "pet" "INV_MISC_QUESTIONMARK"
-/petattack
+#showtooltip mystic runesaber
+/cast [worn:shirt] crimson water strider ; [flyable] mystic runesaber ; mystic runesaber
 END
 VER 3 010000000000000E "Pet" "133246"
 /summonpet [worn:shirt] winterspring cub; brightpaw
+END
+VER 3 0100000000000005 "pet" "INV_MISC_QUESTIONMARK"
+/petattack
 END
 VER 3 0100000000000006 "poly" "SPELL_NATURE_POLYMORPH"
 /cast [target=focus] polymorph

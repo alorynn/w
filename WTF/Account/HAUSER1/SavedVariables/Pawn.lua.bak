@@ -100,10 +100,10 @@ PawnCommon = {
 				["Hauzerina-Moon Guard"] = {
 					["Visible"] = true,
 				},
-				["Laurranah-Kel'Thuzad"] = {
+				["Hauzer-Kel'Thuzad"] = {
 					["Visible"] = true,
 				},
-				["Hauzer-Kel'Thuzad"] = {
+				["Laurranah-Kel'Thuzad"] = {
 					["Visible"] = true,
 				},
 				["Hauzerina-Kel'Thuzad"] = {
