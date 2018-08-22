@@ -12,12 +12,13 @@ AUCTIONATOR_SAVEDVARS = {
 }
 AUCTIONATOR_PRICING_HISTORY = {
 	["Umbra Shard"] = {
-		["5287136"] = "876000:24",
+		["5289665"] = "657000:19",
+		["5285345"] = "589000:8",
 		["5284699"] = "498000:27",
 		["5282797"] = "972000:27",
 		["5279504"] = "1242500:19",
 		["is"] = "152876:0:0:0:0",
-		["5285345"] = "589000:8",
+		["5287136"] = "876000:24",
 	},
 	["Insulated Wiring"] = {
 		["5282801"] = "10600:44",
@@ -40,8 +41,8 @@ AUCTIONATOR_PRICING_HISTORY = {
 	["Flesh Eating Worm"] = {
 		["5279505"] = "5000:5",
 		["5287138"] = "83:5",
-		["5282798"] = "94:5",
 		["is"] = "7307:0:0:0:0",
+		["5282798"] = "94:5",
 	},
 	["Tidespray Linen"] = {
 		["is"] = "152576:0:0:0:0",
@@ -54,8 +55,8 @@ AUCTIONATOR_PRICING_HISTORY = {
 	},
 	["Thick Paleo Steak"] = {
 		["5279505"] = "24200:35",
-		["5282798"] = "2300:38",
 		["is"] = "154899:0:0:0:0",
+		["5282798"] = "2300:38",
 	},
 	["Greater Eternal Essence"] = {
 		["is"] = "16203:0:0:0:0",
@@ -115,19 +116,17 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["is"] = "159549:0:0:0:4796",
 		["5285344"] = "3997500:1",
 	},
-	["Golden Fleet Fists of the Feverflare"] = {
-		["is"] = "159516:0:0:0:4796",
-		["5285344"] = "4422500:1",
-	},
-	["Lightweave Cloth"] = {
-		["is"] = "151567:0:0:0:0",
-		["5257034"] = "9700:16",
+	["Large Brilliant Shard"] = {
+		["is"] = "14344:0:0:0:0",
+		["5279506"] = "1985:2",
+		["5257037"] = "6600:2",
 	},
 	["Gloom Dust"] = {
 		["5282799"] = "408000:49",
 		["5282802"] = "406000:10",
 		["is"] = "152875:0:0:0:0",
 		["5284698"] = "179000:27",
+		["5289665"] = "313000:21",
 		["5287137"] = "179900:22",
 		["5279502"] = "176000:200",
 		["5284697"] = "179000:27",
@@ -138,9 +137,21 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["is"] = "159524:0:0:0:4796",
 		["5283103"] = "4895000:1",
 	},
+	["Lightweave Cloth"] = {
+		["is"] = "151567:0:0:0:0",
+		["5257034"] = "9700:16",
+	},
 	["Golden Fleet Greataxe of the Peerless"] = {
 		["is"] = "159485:0:0:0:4796",
 		["5284696"] = "2990000:1",
+	},
+	["Golden Fleet Greataxe of the Aurora"] = {
+		["is"] = "159485:0:0:0:4796",
+		["5284695"] = "3997500:1",
+	},
+	["Viridium"] = {
+		["is"] = "153704:0:0:0:0",
+		["5279504"] = "199000:1",
 	},
 	["Torgashell Helmet of the Feverflare"] = {
 		["is"] = "154809:0:0:0:4796",
@@ -155,13 +166,14 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["5279506"] = "8800:8",
 		["5257038"] = "77000:8",
 	},
-	["Golden Fleet Greataxe of the Aurora"] = {
-		["is"] = "159485:0:0:0:4796",
-		["5284695"] = "3997500:1",
+	["Chemical Blasting Cap"] = {
+		["5282800"] = "49800:7",
+		["5287138"] = "19600:7",
+		["is"] = "160502:0:0:0:0",
 	},
-	["Solstone"] = {
-		["is"] = "153703:0:0:0:0",
-		["5279504"] = "288000:1",
+	["Great Sea Catfish"] = {
+		["is"] = "152547:0:0:0:0",
+		["5279509"] = "89500:10",
 	},
 	["Tiragarde Perch"] = {
 		["is"] = "152548:0:0:0:0",
@@ -171,31 +183,30 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["is"] = "152631:0:0:0:0",
 		["5279505"] = "4700:42",
 	},
-	["Veiled Crystal"] = {
-		["5282797"] = "69440000:1",
-		["is"] = "152877:0:0:0:0",
-		["5284699"] = "73980000:1",
+	["Sailor's Pie"] = {
+		["is"] = "154888:0:0:0:0",
+		["5279506"] = "49600:5",
 	},
 	["Stringy Loins"] = {
 		["is"] = "154897:0:0:0:0",
 		["5279503"] = "1185:128",
 	},
-	["Sailor's Pie"] = {
-		["is"] = "154888:0:0:0:0",
-		["5279506"] = "49600:5",
+	["Veiled Crystal"] = {
+		["5282797"] = "69440000:1",
+		["is"] = "152877:0:0:0:0",
+		["5284699"] = "73980000:1",
 	},
-	["Chemical Blasting Cap"] = {
-		["5282800"] = "49800:7",
-		["5287138"] = "19600:7",
-		["is"] = "160502:0:0:0:0",
+	["Solstone"] = {
+		["is"] = "153703:0:0:0:0",
+		["5279504"] = "288000:1",
 	},
 	["Rivermarsh Juju of the Fireflash"] = {
 		["is"] = "159821:0:0:0:4796",
 		["5284696"] = "4002500:1",
 	},
-	["Great Sea Catfish"] = {
-		["is"] = "152547:0:0:0:0",
-		["5279509"] = "89500:10",
+	["Big Fountain Goldfish"] = {
+		["is"] = "138967:0:0:0:0",
+		["5289693"] = "8700:15",
 	},
 	["Defiled Augment Rune"] = {
 		["5257034"] = "181000:1",
@@ -207,69 +218,68 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["5283103"] = "4002500:1",
 		["5287137"] = "1997500:1",
 	},
-	["Viridium"] = {
-		["is"] = "153704:0:0:0:0",
-		["5279504"] = "199000:1",
+	["Golden Fleet Fists of the Feverflare"] = {
+		["is"] = "159516:0:0:0:4796",
+		["5285344"] = "4422500:1",
 	},
-	["Large Brilliant Shard"] = {
-		["is"] = "14344:0:0:0:0",
-		["5279506"] = "1985:2",
-		["5257037"] = "6600:2",
+	["Deep Sea Bandage"] = {
+		["is"] = "158382:0:0:0:0",
+		["5289690"] = "5970000:1",
 	},
 }
 AUCTIONATOR_SHOPPING_LISTS = {
 	{
 		["items"] = {
-			"winter's kiss", -- [1]
-			"contract", -- [2]
-			"tranquil mind", -- [3]
-			"redtail", -- [4]
-			"monelite ore", -- [5]
-			"Astral glory", -- [6]
-			"fiendish leather", -- [7]
-			"lightweave cloth", -- [8]
-			"Glorious", -- [9]
-			"Glorious legplates", -- [10]
-			"silkweave bandage", -- [11]
-			"Ancient healing", -- [12]
-			"healing", -- [13]
-			"Goldfish", -- [14]
-			"stormscale", -- [15]
-			"cobalt bar", -- [16]
-			"king's amber", -- [17]
-			"titansteel bar", -- [18]
-			"windwool clo", -- [19]
-			"Ghost iron", -- [20]
-			"silver con", -- [21]
-			"silver bar", -- [22]
-			"Iron bar", -- [23]
-			"medium leather", -- [24]
-			"wool cloth", -- [25]
-			"bronze bar", -- [26]
-			"heavy stone", -- [27]
-			"silk cloth", -- [28]
-			"true iron ore", -- [29]
-			"blackrock ore", -- [30]
-			"bandage", -- [31]
-			"health pot", -- [32]
-			"bag", -- [33]
-			"Arkhana", -- [34]
-			"leylight", -- [35]
-			"firework", -- [36]
-			"Auto-hammer", -- [37]
-			"leystone ore", -- [38]
-			"highmountain salmon", -- [39]
-			"big gamy", -- [40]
-			"black barracuda", -- [41]
-			"wildfowl egg", -- [42]
-			"felslate", -- [43]
-			"Ancient mana", -- [44]
-			"enormous", -- [45]
-			"sorcerous earth", -- [46]
-			"temporal crystal", -- [47]
-			"bait", -- [48]
-			"breath of", -- [49]
-			"mark of ", -- [50]
+			"big fountain goldfish", -- [1]
+			"Deep sea bandage", -- [2]
+			"coastal", -- [3]
+			"winter's kiss", -- [4]
+			"contract", -- [5]
+			"tranquil mind", -- [6]
+			"redtail", -- [7]
+			"monelite ore", -- [8]
+			"Astral glory", -- [9]
+			"fiendish leather", -- [10]
+			"lightweave cloth", -- [11]
+			"Glorious", -- [12]
+			"Glorious legplates", -- [13]
+			"silkweave bandage", -- [14]
+			"Ancient healing", -- [15]
+			"healing", -- [16]
+			"Goldfish", -- [17]
+			"stormscale", -- [18]
+			"cobalt bar", -- [19]
+			"king's amber", -- [20]
+			"titansteel bar", -- [21]
+			"windwool clo", -- [22]
+			"Ghost iron", -- [23]
+			"silver con", -- [24]
+			"silver bar", -- [25]
+			"Iron bar", -- [26]
+			"medium leather", -- [27]
+			"wool cloth", -- [28]
+			"bronze bar", -- [29]
+			"heavy stone", -- [30]
+			"silk cloth", -- [31]
+			"true iron ore", -- [32]
+			"blackrock ore", -- [33]
+			"bandage", -- [34]
+			"health pot", -- [35]
+			"bag", -- [36]
+			"Arkhana", -- [37]
+			"leylight", -- [38]
+			"firework", -- [39]
+			"Auto-hammer", -- [40]
+			"leystone ore", -- [41]
+			"highmountain salmon", -- [42]
+			"big gamy", -- [43]
+			"black barracuda", -- [44]
+			"wildfowl egg", -- [45]
+			"felslate", -- [46]
+			"Ancient mana", -- [47]
+			"enormous", -- [48]
+			"sorcerous earth", -- [49]
+			"temporal crystal", -- [50]
 		},
 		["isRecents"] = 1,
 		["name"] = "Recent Searches",
@@ -290,6 +300,16 @@ AUCTIONATOR_PRICE_DATABASE = {
 	["__dbversion"] = 4,
 	["Kel'Thuzad_Horde"] = {
 	},
+	["Kel'Thuzad_Neutral"] = {
+	},
+	["Moon Guard_Alliance"] = {
+	},
+	["Dalaran_Alliance"] = {
+	},
+	["Mal'Ganis_Horde"] = {
+	},
+	["Dark Iron_Alliance"] = {
+	},
 	["Kel'Thuzad_Alliance"] = {
 		["Contract: Order of Embers"] = {
 			["H2835"] = 1200000,
@@ -300,12 +320,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Umbra Shard"] = {
 			["H2835"] = 876525,
-			["mr"] = 876525,
 			["H2832"] = 973000,
-			["H2834"] = 589999,
 			["id"] = "152876:0:0:0:0",
-			["sc"] = 12,
+			["mr"] = 658000,
 			["cc"] = 7,
+			["H2834"] = 589999,
+			["H2837"] = 658000,
+			["sc"] = 12,
 			["H2833"] = 499000,
 		},
 		["Codex of the Tranquil Mind"] = {
@@ -327,23 +348,23 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["mr"] = 30400,
 			["cc"] = 7,
 			["id"] = "163569:0:0:0:0",
-			["sc"] = 1,
 			["H2832"] = 10799,
+			["sc"] = 1,
 		},
 		["Dreamleaf"] = {
 			["mr"] = 59900,
 			["cc"] = 7,
 			["id"] = "124102:0:0:0:0",
 			["H2814"] = 64999,
-			["sc"] = 9,
 			["L2814"] = 59900,
+			["sc"] = 9,
 		},
 		["Battle-Scarred Augment Rune"] = {
+			["H2830"] = 1097500,
+			["cc"] = 0,
+			["id"] = "160053:0:0:0:0",
 			["mr"] = 1097500,
 			["sc"] = 8,
-			["id"] = "160053:0:0:0:0",
-			["cc"] = 0,
-			["H2830"] = 1097500,
 		},
 		["Redtail Loach"] = {
 			["H2835"] = 1750000,
@@ -357,8 +378,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["mr"] = 84,
 			["cc"] = 0,
 			["id"] = "7307:0:0:0:0",
-			["H2832"] = 95,
 			["sc"] = 8,
+			["H2832"] = 95,
 		},
 		["Tome of the Tranquil Mind"] = {
 			["H2835"] = 749903,
@@ -368,24 +389,38 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["cc"] = 15,
 		},
 		["Tidespray Linen"] = {
+			["H2830"] = 30000,
+			["cc"] = 7,
+			["id"] = "152576:0:0:0:0",
 			["mr"] = 30000,
 			["sc"] = 6,
-			["id"] = "152576:0:0:0:0",
-			["cc"] = 7,
-			["H2830"] = 30000,
 		},
 		["Abyssal Fragment"] = {
 			["mr"] = 150000000,
-			["cc"] = 12,
-			["id"] = "161344:0:0:0:0",
 			["sc"] = 0,
+			["id"] = "161344:0:0:0:0",
+			["cc"] = 12,
 			["H2832"] = 150000000,
+		},
+		["Large Brilliant Shard"] = {
+			["mr"] = 1990,
+			["cc"] = 7,
+			["id"] = "14344:0:0:0:0",
+			["sc"] = 12,
+			["H2830"] = 1990,
+		},
+		["Contract: Storm's Wake"] = {
+			["H2835"] = 3999998,
+			["mr"] = 3999998,
+			["sc"] = 8,
+			["id"] = "153663:0:0:0:0",
+			["cc"] = 0,
 		},
 		["Thick Paleo Steak"] = {
 			["mr"] = 2400,
-			["cc"] = 7,
-			["id"] = "154899:0:0:0:0",
 			["sc"] = 8,
+			["id"] = "154899:0:0:0:0",
+			["cc"] = 7,
 			["H2832"] = 2400,
 		},
 		["Greater Eternal Essence"] = {
@@ -395,34 +430,25 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2814"] = 18356,
 			["sc"] = 12,
 		},
-		["Shal'dorei Silk"] = {
-			["H2830"] = 12000,
-			["sc"] = 5,
-			["id"] = "124437:0:0:0:0",
-			["mr"] = 12000,
+		["Gloom Dust"] = {
+			["H2835"] = 106969,
+			["H2832"] = 409000,
+			["L2833"] = 179000,
+			["id"] = "152875:0:0:0:0",
+			["mr"] = 314000,
 			["cc"] = 7,
+			["H2834"] = 149500,
+			["H2837"] = 314000,
+			["sc"] = 12,
+			["L2832"] = 407000,
+			["H2833"] = 179500,
 		},
-		["Meaty Haunch"] = {
-			["mr"] = 3099,
-			["sc"] = 8,
-			["id"] = "154898:0:0:0:0",
+		["Solstone"] = {
+			["H2830"] = 289000,
 			["cc"] = 7,
-			["H2830"] = 3099,
-		},
-		["Astral Glory"] = {
-			["mr"] = 39999,
-			["cc"] = 7,
-			["id"] = "151565:0:0:0:0",
-			["H2824"] = 39999,
-			["sc"] = 9,
-		},
-		["Coralshell Dagger of the Fireflash"] = {
-			["H2835"] = 2000000,
-			["mr"] = 2000000,
-			["cc"] = 2,
-			["id"] = "159520:0:0:0:4796",
-			["sc"] = 15,
-			["H2832"] = 7000000,
+			["id"] = "153703:0:0:0:0",
+			["mr"] = 289000,
+			["sc"] = 4,
 		},
 		["Chaos Crystal"] = {
 			["mr"] = 49400,
@@ -432,45 +458,84 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 12,
 			["H2833"] = 49400,
 		},
-		["Winter's Kiss"] = {
-			["mr"] = 448500,
+		["Shal'dorei Silk"] = {
+			["mr"] = 12000,
 			["cc"] = 7,
-			["id"] = "152508:0:0:0:0",
-			["H2836"] = 448500,
-			["sc"] = 9,
+			["id"] = "124437:0:0:0:0",
+			["sc"] = 5,
+			["H2830"] = 12000,
 		},
-		["Contract: Storm's Wake"] = {
-			["H2835"] = 3999998,
-			["mr"] = 3999998,
+		["Meaty Haunch"] = {
+			["H2830"] = 3099,
+			["cc"] = 7,
+			["id"] = "154898:0:0:0:0",
+			["mr"] = 3099,
 			["sc"] = 8,
-			["id"] = "153663:0:0:0:0",
+		},
+		["Astral Glory"] = {
+			["mr"] = 39999,
+			["sc"] = 9,
+			["H2824"] = 39999,
+			["cc"] = 7,
+			["id"] = "151565:0:0:0:0",
+		},
+		["Coralshell Dagger of the Fireflash"] = {
+			["H2835"] = 2000000,
+			["mr"] = 2000000,
+			["cc"] = 2,
+			["id"] = "159520:0:0:0:4796",
+			["H2832"] = 7000000,
+			["sc"] = 15,
+		},
+		["Contract: Champions of Azeroth"] = {
+			["H2835"] = 1339998,
+			["mr"] = 1339998,
+			["sc"] = 8,
+			["id"] = "153668:0:0:0:0",
 			["cc"] = 0,
+		},
+		["Enchant Weapon - Coastal Surge"] = {
+			["mr"] = 53960000,
+			["sc"] = 10,
+			["id"] = "153476:0:0:0:0",
+			["cc"] = 8,
+			["H2837"] = 53960000,
+		},
+		["Contract: Proudmoore Admiralty"] = {
+			["H2835"] = 998999,
+			["mr"] = 998999,
+			["sc"] = 16,
+			["id"] = "153661:0:0:0:0",
+			["cc"] = 7,
+		},
+		["Deep Sea Bandage"] = {
+			["mr"] = 5975000,
+			["sc"] = 7,
+			["id"] = "158382:0:0:0:0",
+			["cc"] = 0,
+			["H2837"] = 5975000,
 		},
 		["Foxhollow Drape of the Harmonious"] = {
 			["H2835"] = 2250000,
 			["mr"] = 2250000,
 			["cc"] = 4,
 			["id"] = "159166:0:0:0:4796",
-			["sc"] = 1,
 			["H2832"] = 3989900,
+			["sc"] = 1,
 		},
-		["Gloom Dust"] = {
-			["H2835"] = 106969,
-			["H2832"] = 409000,
-			["L2833"] = 179000,
-			["id"] = "152875:0:0:0:0",
-			["mr"] = 106969,
+		["Monelite Ore"] = {
+			["H2835"] = 559999,
+			["mr"] = 559999,
+			["sc"] = 7,
+			["id"] = "152512:0:0:0:0",
 			["cc"] = 7,
-			["H2834"] = 149500,
-			["sc"] = 12,
-			["L2832"] = 407000,
-			["H2833"] = 179500,
 		},
-		["Sagehold Bracers of the Harmonious"] = {
-			["mr"] = 3987500,
-			["H2832"] = 3987500,
-			["id"] = "159223:0:0:0:4796",
-			["cc"] = 4,
+		["Chemical Blasting Cap"] = {
+			["H2835"] = 19800,
+			["mr"] = 19800,
+			["cc"] = 7,
+			["id"] = "160502:0:0:0:0",
+			["H2832"] = 49999,
 			["sc"] = 1,
 		},
 		["Leylight Shard"] = {
@@ -480,18 +545,18 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2814"] = 179487,
 			["sc"] = 12,
 		},
-		["Contract: Proudmoore Admiralty"] = {
-			["H2835"] = 998999,
-			["mr"] = 998999,
-			["sc"] = 16,
-			["id"] = "153661:0:0:0:0",
-			["cc"] = 7,
+		["Sagehold Bracers of the Harmonious"] = {
+			["mr"] = 3987500,
+			["cc"] = 4,
+			["id"] = "159223:0:0:0:4796",
+			["H2832"] = 3987500,
+			["sc"] = 1,
 		},
 		["Deep Sea Satin"] = {
 			["mr"] = 1235000,
-			["cc"] = 7,
-			["id"] = "152577:0:0:0:0",
 			["sc"] = 5,
+			["id"] = "152577:0:0:0:0",
+			["cc"] = 7,
 			["H2832"] = 1235000,
 		},
 		["Bonepicker Legguards of the Aurora"] = {
@@ -501,26 +566,26 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 3,
 			["H2833"] = 3009999,
 		},
-		["Golden Fleet Fists of the Feverflare"] = {
-			["mr"] = 4425365,
-			["cc"] = 2,
-			["H2834"] = 4425365,
-			["id"] = "159516:0:0:0:4796",
-			["sc"] = 13,
-		},
-		["Monelite Ore"] = {
-			["H2835"] = 559999,
-			["mr"] = 559999,
-			["sc"] = 7,
-			["id"] = "152512:0:0:0:0",
+		["Briny Flesh"] = {
+			["H2830"] = 4800,
 			["cc"] = 7,
+			["id"] = "152631:0:0:0:0",
+			["mr"] = 4800,
+			["sc"] = 8,
+		},
+		["Coastal Healing Potion"] = {
+			["mr"] = 959998,
+			["sc"] = 1,
+			["id"] = "152494:0:0:0:0",
+			["cc"] = 0,
+			["H2837"] = 959998,
 		},
 		["Rubellite"] = {
+			["H2830"] = 549000,
+			["cc"] = 7,
+			["id"] = "153701:0:0:0:0",
 			["mr"] = 549000,
 			["sc"] = 4,
-			["id"] = "153701:0:0:0:0",
-			["cc"] = 7,
-			["H2830"] = 549000,
 		},
 		["Zocali Warhammer of the Fireflash"] = {
 			["mr"] = 4000000,
@@ -529,27 +594,26 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "159549:0:0:0:4796",
 			["sc"] = 4,
 		},
+		["Tiragarde Perch"] = {
+			["H2830"] = 7500,
+			["cc"] = 7,
+			["id"] = "152548:0:0:0:0",
+			["mr"] = 7500,
+			["sc"] = 8,
+		},
 		["Sailor's Pie"] = {
+			["H2830"] = 49800,
+			["cc"] = 0,
+			["id"] = "154888:0:0:0:0",
 			["mr"] = 49800,
 			["sc"] = 5,
-			["id"] = "154888:0:0:0:0",
-			["cc"] = 0,
-			["H2830"] = 49800,
 		},
 		["Shipwrecker Knife of the Fireflash"] = {
 			["mr"] = 4897500,
-			["H2832"] = 4897500,
-			["id"] = "159524:0:0:0:4796",
 			["cc"] = 2,
+			["id"] = "159524:0:0:0:4796",
+			["H2832"] = 4897500,
 			["sc"] = 15,
-		},
-		["Veiled Crystal"] = {
-			["mr"] = 73990000,
-			["sc"] = 12,
-			["id"] = "152877:0:0:0:0",
-			["H2832"] = 69450000,
-			["cc"] = 7,
-			["H2833"] = 73990000,
 		},
 		["Lightweave Cloth"] = {
 			["H2816"] = 1989,
@@ -565,21 +629,6 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 1,
 			["H2833"] = 4000000,
 		},
-		["Torgashell Breastplate of the Peerless"] = {
-			["mr"] = 5500000,
-			["cc"] = 4,
-			["id"] = "154806:0:0:0:4796",
-			["sc"] = 4,
-			["H2833"] = 5500000,
-		},
-		["Chemical Blasting Cap"] = {
-			["H2835"] = 19800,
-			["mr"] = 19800,
-			["cc"] = 7,
-			["id"] = "160502:0:0:0:0",
-			["sc"] = 1,
-			["H2832"] = 49999,
-		},
 		["Torgashell Helmet of the Feverflare"] = {
 			["mr"] = 30653781,
 			["cc"] = 4,
@@ -587,26 +636,55 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 4,
 			["H2833"] = 30653781,
 		},
+		["Viridium"] = {
+			["H2830"] = 199500,
+			["cc"] = 7,
+			["id"] = "153704:0:0:0:0",
+			["mr"] = 199500,
+			["sc"] = 4,
+		},
+		["Torgashell Breastplate of the Peerless"] = {
+			["mr"] = 5500000,
+			["cc"] = 4,
+			["id"] = "154806:0:0:0:4796",
+			["sc"] = 4,
+			["H2833"] = 5500000,
+		},
 		["Aromatic Fish Oil"] = {
+			["H2830"] = 39999,
+			["cc"] = 7,
+			["id"] = "160711:0:0:0:0",
 			["mr"] = 39999,
 			["sc"] = 8,
-			["id"] = "160711:0:0:0:0",
-			["cc"] = 7,
-			["H2830"] = 39999,
 		},
 		["Arkhana"] = {
-			["H2830"] = 8900,
-			["sc"] = 12,
-			["id"] = "124440:0:0:0:0",
 			["mr"] = 8900,
 			["cc"] = 7,
+			["id"] = "124440:0:0:0:0",
+			["sc"] = 12,
+			["H2830"] = 8900,
+		},
+		["Big Fountain Goldfish"] = {
+			["mr"] = 8800,
+			["sc"] = 8,
+			["id"] = "138967:0:0:0:0",
+			["cc"] = 7,
+			["H2837"] = 8800,
+		},
+		["Veiled Crystal"] = {
+			["mr"] = 73990000,
+			["sc"] = 12,
+			["id"] = "152877:0:0:0:0",
+			["H2832"] = 69450000,
+			["cc"] = 7,
+			["H2833"] = 73990000,
 		},
 		["Great Sea Catfish"] = {
+			["H2830"] = 90000,
+			["cc"] = 7,
+			["id"] = "152547:0:0:0:0",
 			["mr"] = 90000,
 			["sc"] = 8,
-			["id"] = "152547:0:0:0:0",
-			["cc"] = 7,
-			["H2830"] = 90000,
 		},
 		["Widowsister Contract"] = {
 			["H2835"] = 56265463,
@@ -614,20 +692,6 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 8,
 			["id"] = "139426:0:0:0:0",
 			["cc"] = 0,
-		},
-		["Tiragarde Perch"] = {
-			["mr"] = 7500,
-			["sc"] = 8,
-			["id"] = "152548:0:0:0:0",
-			["cc"] = 7,
-			["H2830"] = 7500,
-		},
-		["Briny Flesh"] = {
-			["mr"] = 4800,
-			["sc"] = 8,
-			["id"] = "152631:0:0:0:0",
-			["cc"] = 7,
-			["H2830"] = 4800,
 		},
 		["Imp-Binding Contract"] = {
 			["H2835"] = 157521854,
@@ -637,18 +701,18 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["cc"] = 0,
 		},
 		["Stringy Loins"] = {
+			["H2830"] = 1190,
+			["cc"] = 7,
+			["id"] = "154897:0:0:0:0",
 			["mr"] = 1190,
 			["sc"] = 8,
-			["id"] = "154897:0:0:0:0",
-			["cc"] = 7,
-			["H2830"] = 1190,
 		},
-		["Viridium"] = {
-			["mr"] = 199500,
-			["sc"] = 4,
-			["id"] = "153704:0:0:0:0",
-			["cc"] = 7,
-			["H2830"] = 199500,
+		["Coastal Rejuvenation Potion"] = {
+			["mr"] = 528998,
+			["sc"] = 1,
+			["id"] = "163082:0:0:0:0",
+			["cc"] = 0,
+			["H2837"] = 528998,
 		},
 		["Contract: Tortollan Seekers"] = {
 			["H2835"] = 2999997,
@@ -664,12 +728,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 0,
 			["H2833"] = 4004040,
 		},
-		["Solstone"] = {
-			["mr"] = 289000,
-			["sc"] = 4,
-			["id"] = "153703:0:0:0:0",
-			["cc"] = 7,
-			["H2830"] = 289000,
+		["Golden Fleet Fists of the Feverflare"] = {
+			["mr"] = 4425365,
+			["cc"] = 2,
+			["H2834"] = 4425365,
+			["id"] = "159516:0:0:0:4796",
+			["sc"] = 13,
 		},
 		["Defiled Augment Rune"] = {
 			["H2816"] = 99500,
@@ -683,33 +747,23 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["mr"] = 2000000,
 			["cc"] = 4,
 			["id"] = "154853:0:0:0:4796",
-			["sc"] = 2,
 			["H2832"] = 4005000,
+			["sc"] = 2,
 		},
-		["Contract: Champions of Azeroth"] = {
-			["H2835"] = 1339998,
-			["mr"] = 1339998,
-			["sc"] = 8,
-			["id"] = "153668:0:0:0:0",
-			["cc"] = 0,
-		},
-		["Large Brilliant Shard"] = {
-			["H2830"] = 1990,
-			["sc"] = 12,
-			["id"] = "14344:0:0:0:0",
-			["mr"] = 1990,
+		["Winter's Kiss"] = {
+			["mr"] = 448500,
 			["cc"] = 7,
+			["id"] = "152508:0:0:0:0",
+			["H2836"] = 448500,
+			["sc"] = 9,
 		},
-	},
-	["Moon Guard_Alliance"] = {
-	},
-	["Dark Iron_Alliance"] = {
-	},
-	["Mal'Ganis_Horde"] = {
-	},
-	["Dalaran_Alliance"] = {
-	},
-	["Kel'Thuzad_Neutral"] = {
+		["Coastal Mana Potion"] = {
+			["mr"] = 620998,
+			["sc"] = 1,
+			["id"] = "152495:0:0:0:0",
+			["cc"] = 0,
+			["H2837"] = 620998,
+		},
 	},
 }
 AUCTIONATOR_LAST_SCAN_TIME = 1492784468
@@ -720,8 +774,8 @@ AUCTIONATOR_TOONS = {
 	},
 	["Fooliolio"] = {
 		["firstSeen"] = 1533064421,
-		["firstVersion"] = "5.0.4",
 		["guid"] = "Player-3693-09E8A972",
+		["firstVersion"] = "5.0.4",
 	},
 	["Beatryss"] = {
 		["firstSeen"] = 1447789139,
@@ -729,13 +783,13 @@ AUCTIONATOR_TOONS = {
 	},
 	["Kmkarbashian"] = {
 		["firstSeen"] = 1483457428,
-		["firstVersion"] = "4.0.16",
 		["guid"] = "Player-3693-0920553F",
+		["firstVersion"] = "4.0.16",
 	},
 	["Olrapey"] = {
 		["firstSeen"] = 1488579932,
-		["guid"] = "Player-3693-09343B2E",
 		["firstVersion"] = "4.0.16",
+		["guid"] = "Player-3693-09343B2E",
 	},
 	["Hoobastankie"] = {
 		["firstSeen"] = 1486133302,
@@ -743,8 +797,8 @@ AUCTIONATOR_TOONS = {
 	},
 	["Lorranah"] = {
 		["firstSeen"] = 1534684810,
-		["firstVersion"] = "5.0.4",
 		["guid"] = "Player-3693-09F5DFB1",
+		["firstVersion"] = "5.0.4",
 	},
 	["Bazoomercom"] = {
 		["firstSeen"] = 1476825560,
@@ -752,8 +806,8 @@ AUCTIONATOR_TOONS = {
 	},
 	["Hauzer"] = {
 		["firstSeen"] = 1433589598,
-		["firstVersion"] = "3.2.3",
 		["guid"] = "Player-3693-07375FB3",
+		["firstVersion"] = "3.2.3",
 	},
 	["Hauzerogue"] = {
 		["firstSeen"] = 1448641766,
@@ -761,8 +815,8 @@ AUCTIONATOR_TOONS = {
 	},
 	["Laurenn"] = {
 		["firstSeen"] = 1486150519,
-		["guid"] = "Player-3693-092AD2BA",
 		["firstVersion"] = "4.0.16",
+		["guid"] = "Player-3693-092AD2BA",
 	},
 	["Hauzerdemon"] = {
 		["firstSeen"] = 1478650187,
@@ -770,13 +824,13 @@ AUCTIONATOR_TOONS = {
 	},
 	["Darknstormie"] = {
 		["firstSeen"] = 1488646170,
-		["firstVersion"] = "4.0.16",
 		["guid"] = "Player-3693-093444EC",
-	},
-	["Ugiyo"] = {
-		["firstSeen"] = 1486129629,
-		["guid"] = "Player-3693-092AC29B",
 		["firstVersion"] = "4.0.16",
+	},
+	["Laurannah"] = {
+		["firstSeen"] = 1447788893,
+		["firstVersion"] = "3.2.6",
+		["guid"] = "Player-3693-092AD332",
 	},
 	["Leeroyjenkem"] = {
 		["firstSeen"] = 1486989600,
@@ -784,45 +838,46 @@ AUCTIONATOR_TOONS = {
 	},
 	["Pharrah"] = {
 		["firstSeen"] = 1486134858,
-		["firstVersion"] = "4.0.16",
 		["guid"] = "Player-3693-092AC55C",
-	},
-	["Skãdi"] = {
-		["firstSeen"] = 1485987189,
 		["firstVersion"] = "4.0.16",
+	},
+	["Hauzerina"] = {
+		["firstSeen"] = 1439570462,
+		["firstVersion"] = "3.2.4",
+		["guid"] = "Player-3693-07E54548",
 	},
 	["Hoobastanko"] = {
 		["firstSeen"] = 1486133975,
-		["guid"] = "Player-3693-092AC4C9",
 		["firstVersion"] = "4.0.16",
+		["guid"] = "Player-3693-092AC4C9",
 	},
-	["Hauzerhunter"] = {
-		["firstSeen"] = 1471638447,
-		["firstVersion"] = "4.0.9",
+	["Loranah"] = {
+		["firstSeen"] = 1534684578,
+		["guid"] = "Player-3693-09F5DF8D",
+		["firstVersion"] = "5.0.4",
 	},
 	["Alorannah"] = {
 		["firstSeen"] = 1484663806,
-		["guid"] = "Player-3693-09ED9289",
 		["firstVersion"] = "4.0.16",
+		["guid"] = "Player-3693-09ED9289",
 	},
 	["Laurranah"] = {
 		["firstSeen"] = 1534685122,
-		["firstVersion"] = "5.0.4",
 		["guid"] = "Player-3693-09F5DFE1",
+		["firstVersion"] = "5.0.4",
 	},
 	["Sdkfhsdkjfhs"] = {
 		["firstSeen"] = 1486405846,
-		["firstVersion"] = "4.0.16",
 		["guid"] = "Player-3693-092BED7A",
+		["firstVersion"] = "4.0.16",
 	},
 	["Alurannah"] = {
 		["firstSeen"] = 1477057426,
 		["firstVersion"] = "4.0.13",
 	},
-	["Hauzerina"] = {
-		["firstSeen"] = 1439570462,
-		["guid"] = "Player-3693-07E54548",
-		["firstVersion"] = "3.2.4",
+	["Skãdi"] = {
+		["firstSeen"] = 1485987189,
+		["firstVersion"] = "4.0.16",
 	},
 	["Hauser"] = {
 		["firstSeen"] = 1476825478,
@@ -830,173 +885,172 @@ AUCTIONATOR_TOONS = {
 	},
 	["Rogueout"] = {
 		["firstSeen"] = 1533675249,
-		["firstVersion"] = "5.0.4",
 		["guid"] = "Player-3693-09ED8CF7",
+		["firstVersion"] = "5.0.4",
 	},
 	["Foolioioio"] = {
 		["firstSeen"] = 1533677280,
-		["guid"] = "Player-3693-09ED935E",
 		["firstVersion"] = "5.0.4",
+		["guid"] = "Player-3693-09ED935E",
 	},
 	["Beatryce"] = {
 		["firstSeen"] = 1448028708,
-		["guid"] = "Player-3693-0849596D",
 		["firstVersion"] = "3.2.6",
+		["guid"] = "Player-3693-0849596D",
 	},
 	["Deeke"] = {
 		["firstSeen"] = 1486995657,
-		["firstVersion"] = "4.0.16",
 		["guid"] = "Player-3693-092E59C5",
+		["firstVersion"] = "4.0.16",
 	},
 	["Alisheeya"] = {
 		["firstSeen"] = 1484749076,
-		["firstVersion"] = "4.0.16",
 		["guid"] = "Player-3693-0924EEC0",
+		["firstVersion"] = "4.0.16",
 	},
 	["Alauranna"] = {
 		["firstSeen"] = 1447074824,
-		["guid"] = "Player-3693-0844F6BF",
 		["firstVersion"] = "3.2.6",
+		["guid"] = "Player-3693-0844F6BF",
 	},
-	["Loranah"] = {
-		["firstSeen"] = 1534684578,
-		["firstVersion"] = "5.0.4",
-		["guid"] = "Player-3693-09F5DF8D",
+	["Hauzerhunter"] = {
+		["firstSeen"] = 1471638447,
+		["firstVersion"] = "4.0.9",
 	},
 	["Fsdkjhskdjfh"] = {
 		["firstSeen"] = 1486406068,
-		["guid"] = "Player-3693-092BEDB2",
 		["firstVersion"] = "4.0.16",
+		["guid"] = "Player-3693-092BEDB2",
 	},
 	["Nigellah"] = {
 		["firstSeen"] = 1487270433,
-		["guid"] = "Player-3693-092F3C29",
 		["firstVersion"] = "4.0.16",
+		["guid"] = "Player-3693-092F3C29",
 	},
-	["Laurannah"] = {
-		["firstSeen"] = 1447788893,
-		["guid"] = "Player-3693-092AD332",
-		["firstVersion"] = "3.2.6",
+	["Ugiyo"] = {
+		["firstSeen"] = 1486129629,
+		["firstVersion"] = "4.0.16",
+		["guid"] = "Player-3693-092AC29B",
 	},
 }
 AUCTIONATOR_STACKING_PREFS = {
 	["lesser celestial essence"] = {
-		["numstacks"] = 0,
 		["stacksize"] = 1,
+		["numstacks"] = 0,
 	},
 	["greater cosmic essence"] = {
-		["numstacks"] = 0,
 		["stacksize"] = 1,
+		["numstacks"] = 0,
 	},
 	["enchanted elementium bar"] = {
-		["numstacks"] = 0,
 		["stacksize"] = 1,
+		["numstacks"] = 0,
 	},
 	["large prismatic shard"] = {
-		["numstacks"] = 0,
 		["stacksize"] = 1,
+		["numstacks"] = 0,
 	},
 	["dreamleaf"] = {
-		["numstacks"] = 0,
 		["stacksize"] = 200,
+		["numstacks"] = 0,
 	},
 	["void crystal"] = {
-		["numstacks"] = 0,
-		["stacksize"] = 1,
-	},
-	["broken weapon attachment"] = {
 		["stacksize"] = 1,
 		["numstacks"] = 0,
 	},
-	["titansteel bar"] = {
-		["numstacks"] = 0,
+	["awesomefish"] = {
 		["stacksize"] = 1,
+		["numstacks"] = 0,
 	},
 	["medallion of the legion"] = {
+		["numstacks"] = 0,
+		["stacksize"] = 1,
+	},
+	["titansteel bar"] = {
 		["stacksize"] = 1,
 		["numstacks"] = 0,
 	},
 	["cobalt bar"] = {
-		["numstacks"] = 0,
 		["stacksize"] = 1,
+		["numstacks"] = 0,
 	},
 	["frozen orb"] = {
-		["stacksize"] = 1,
 		["numstacks"] = 0,
+		["stacksize"] = 1,
 	},
 	["greater celestial essence"] = {
-		["numstacks"] = 0,
 		["stacksize"] = 1,
+		["numstacks"] = 0,
 	},
 	["felwort"] = {
-		["stacksize"] = 1,
 		["numstacks"] = 0,
+		["stacksize"] = 1,
 	},
 	["lesser cosmic essence"] = {
-		["numstacks"] = 0,
 		["stacksize"] = 1,
+		["numstacks"] = 0,
 	},
 	["elixir of the rapid mind"] = {
-		["stacksize"] = 1,
 		["numstacks"] = 0,
+		["stacksize"] = 1,
 	},
 	["truesilver bar"] = {
-		["numstacks"] = 0,
-		["stacksize"] = 1,
-	},
-	["huge snowball"] = {
-		["stacksize"] = 1,
-		["numstacks"] = 0,
-	},
-	["hypnotic dust"] = {
-		["numstacks"] = 0,
-		["stacksize"] = 1,
-	},
-	["invisibility potion"] = {
-		["numstacks"] = 0,
-		["stacksize"] = 5,
-	},
-	["windwool cloth"] = {
-		["numstacks"] = 0,
-		["stacksize"] = 1,
-	},
-	["khorium bar"] = {
-		["numstacks"] = 0,
-		["stacksize"] = 1,
-	},
-	["chaos orb"] = {
-		["stacksize"] = 1,
-		["numstacks"] = 0,
-	},
-	["stormscale"] = {
-		["stacksize"] = 40,
-		["numstacks"] = 0,
-	},
-	["aquadynamic fish attractor"] = {
-		["numstacks"] = 0,
-		["stacksize"] = 1,
-	},
-	["veiled crystal"] = {
 		["stacksize"] = 1,
 		["numstacks"] = 0,
 	},
 	["leylight shard"] = {
+		["stacksize"] = 1,
+		["numstacks"] = 0,
+	},
+	["windwool cloth"] = {
+		["stacksize"] = 1,
+		["numstacks"] = 0,
+	},
+	["invisibility potion"] = {
+		["stacksize"] = 5,
+		["numstacks"] = 0,
+	},
+	["hypnotic dust"] = {
+		["stacksize"] = 1,
+		["numstacks"] = 0,
+	},
+	["aquadynamic fish attractor"] = {
+		["stacksize"] = 1,
+		["numstacks"] = 0,
+	},
+	["chaos orb"] = {
+		["numstacks"] = 0,
+		["stacksize"] = 1,
+	},
+	["stormscale"] = {
+		["numstacks"] = 0,
+		["stacksize"] = 40,
+	},
+	["khorium bar"] = {
+		["stacksize"] = 1,
+		["numstacks"] = 0,
+	},
+	["veiled crystal"] = {
+		["numstacks"] = 0,
+		["stacksize"] = 1,
+	},
+	["huge snowball"] = {
 		["numstacks"] = 0,
 		["stacksize"] = 1,
 	},
 	["gloom dust"] = {
-		["stacksize"] = 27,
 		["numstacks"] = 0,
+		["stacksize"] = 27,
 	},
 	["raw riverbeast meat"] = {
-		["numstacks"] = 0,
 		["stacksize"] = 1,
+		["numstacks"] = 0,
 	},
 	["goblin glider kit"] = {
-		["numstacks"] = 0,
 		["stacksize"] = 1,
+		["numstacks"] = 0,
 	},
-	["awesomefish"] = {
+	["broken weapon attachment"] = {
 		["numstacks"] = 0,
 		["stacksize"] = 1,
 	},
