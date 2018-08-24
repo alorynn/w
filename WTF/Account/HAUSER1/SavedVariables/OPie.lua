@@ -141,54 +141,54 @@ OneRing_Config = {
 			},
 			["Emotes"] = {
 				{
-					["caption"] = "Cheer",
 					["sliceToken"] = "ABueo8E8ojk",
 					["id"] = "#show\n/cheer",
+					["caption"] = "Cheer",
 				}, -- [1]
 				{
-					["caption"] = "Dance",
 					["sliceToken"] = "ABueo8E8ojj",
 					["id"] = "/dance",
+					["caption"] = "Dance",
 				}, -- [2]
 				{
-					["caption"] = "Kiss",
 					["sliceToken"] = "ABueo8E8oj4",
 					["id"] = "/kiss",
+					["caption"] = "Kiss",
 				}, -- [3]
 				{
-					["caption"] = "Pet",
 					["sliceToken"] = "ABueo8E8ojh",
 					["id"] = "/pet",
+					["caption"] = "Pet",
 				}, -- [4]
 				{
-					["caption"] = "Point",
 					["sliceToken"] = "ABueo8E8ojf",
 					["id"] = "/point",
+					["caption"] = "Point",
 				}, -- [5]
 				{
-					["caption"] = "Shrug",
 					["sliceToken"] = "ABueo8E8ojd",
 					["id"] = "/shrug",
+					["caption"] = "Shrug",
 				}, -- [6]
 				{
-					["caption"] = "Sleep",
 					["sliceToken"] = "ABueo8E8oj3",
 					["id"] = "/sleep",
+					["caption"] = "Sleep",
 				}, -- [7]
 				{
-					["caption"] = "Laugh",
 					["sliceToken"] = "ABueo8E8ojs",
 					["id"] = "/laugh",
+					["caption"] = "Laugh",
 				}, -- [8]
 				{
-					["caption"] = "Spit",
 					["sliceToken"] = "ABueo8E8oja",
 					["id"] = "/spit",
+					["caption"] = "Spit",
 				}, -- [9]
 				{
-					["caption"] = "For the Alliance!",
 					["sliceToken"] = "ABue3Z618s1",
 					["id"] = "#show\n/forthealliance",
+					["caption"] = "For the Alliance!",
 				}, -- [10]
 				["noPersistentCA"] = true,
 				["name"] = "Emotes",

@@ -9,7 +9,7 @@ NewOpenablesProfile = {
 		},
 	},
 	["global"] = {
-		["version"] = "|cFFFFFFFF09.10 14.08.2018 use |cFFFF00FF/nop|cFFFFFFFF",
+		["version"] = "|cFFFFFFFF09.14 24.08.2018 use |cFFFF00FF/nop|cFFFFFFFF",
 	},
 	["profileKeys"] = {
 		["Fooliolio - Kel'Thuzad"] = "Default",

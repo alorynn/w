@@ -2,24 +2,25 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
+	["_5000000"] = 10000,
+	["LOG_DE_DATA_X"] = true,
+	["_1000000"] = 2500,
 	["_10000"] = 200,
 	["_500"] = 5,
-	["_1000000"] = 2500,
-	["_200000"] = 1000,
 	["STARTING_DISCOUNT"] = 5,
-	["LOG_DE_DATA_X"] = true,
-	["_5000000"] = 10000,
+	["_200000"] = 1000,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 	["Umbra Shard"] = {
+		["5291866"] = "428000:8",
 		["is"] = "152876:0:0:0:0",
+		["5287136"] = "876000:24",
 		["5289665"] = "657000:19",
-		["5285345"] = "589000:8",
 		["5284699"] = "498000:27",
 		["5282797"] = "972000:27",
 		["5279504"] = "1242500:19",
 		["5291104"] = "1035000:17",
-		["5287136"] = "876000:24",
+		["5285345"] = "589000:8",
 	},
 	["Insulated Wiring"] = {
 		["5282801"] = "10600:44",
@@ -34,6 +35,7 @@ AUCTIONATOR_PRICING_HISTORY = {
 	["Battle-Scarred Augment Rune"] = {
 		["is"] = "160053:0:0:0:0",
 		["5279507"] = "1095000:2",
+		["5291865"] = "2425000:2",
 	},
 	["Redtail Loach"] = {
 		["is"] = "152549:0:0:0:0",
@@ -127,6 +129,7 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["5282802"] = "406000:10",
 		["is"] = "152875:0:0:0:0",
 		["5284698"] = "179000:27",
+		["5291868"] = "144500:7",
 		["5289665"] = "313000:21",
 		["5291104"] = "148000:22",
 		["5287137"] = "179900:22",
@@ -135,25 +138,25 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["5279506"] = "176000:9",
 		["5285345"] = "149000:11",
 	},
-	["Viridium"] = {
-		["is"] = "153704:0:0:0:0",
-		["5279504"] = "199000:1",
+	["Shipwrecker Knife of the Fireflash"] = {
+		["is"] = "159524:0:0:0:4796",
+		["5283103"] = "4895000:1",
 	},
 	["Lightweave Cloth"] = {
 		["is"] = "151567:0:0:0:0",
 		["5257034"] = "9700:16",
 	},
-	["Golden Fleet Greataxe of the Aurora"] = {
-		["is"] = "159485:0:0:0:4796",
-		["5284695"] = "3997500:1",
-	},
 	["Golden Fleet Greataxe of the Peerless"] = {
 		["is"] = "159485:0:0:0:4796",
 		["5284696"] = "2990000:1",
 	},
-	["Shipwrecker Knife of the Fireflash"] = {
-		["is"] = "159524:0:0:0:4796",
-		["5283103"] = "4895000:1",
+	["Golden Fleet Greataxe of the Aurora"] = {
+		["is"] = "159485:0:0:0:4796",
+		["5284695"] = "3997500:1",
+	},
+	["Viridium"] = {
+		["is"] = "153704:0:0:0:0",
+		["5279504"] = "199000:1",
 	},
 	["Torgashell Helmet of the Feverflare"] = {
 		["is"] = "154809:0:0:0:4796",
@@ -323,13 +326,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["Umbra Shard"] = {
 			["H2835"] = 876525,
 			["id"] = "152876:0:0:0:0",
-			["mr"] = 1037500,
-			["sc"] = 12,
-			["H2834"] = 589999,
-			["H2838"] = 1037500,
+			["L2838"] = 428726,
+			["mr"] = 428726,
 			["cc"] = 7,
+			["H2834"] = 589999,
 			["H2837"] = 658000,
-			["H2833"] = 499000,
+			["sc"] = 12,
+			["H2838"] = 1037500,
 		},
 		["Codex of the Tranquil Mind"] = {
 			["H2835"] = 6309894,
@@ -361,10 +364,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 9,
 		},
 		["Battle-Scarred Augment Rune"] = {
-			["H2830"] = 1097500,
+			["mr"] = 2427500,
 			["cc"] = 0,
 			["id"] = "160053:0:0:0:0",
-			["mr"] = 1097500,
+			["H2838"] = 2427500,
 			["sc"] = 8,
 		},
 		["Redtail Loach"] = {
@@ -432,15 +435,14 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Gloom Dust"] = {
 			["H2835"] = 106969,
-			["L2833"] = 179000,
 			["id"] = "152875:0:0:0:0",
-			["mr"] = 148500,
-			["H2837"] = 314000,
-			["H2834"] = 149500,
-			["H2838"] = 148500,
+			["L2838"] = 145000,
+			["mr"] = 145000,
 			["sc"] = 12,
+			["H2834"] = 149500,
 			["cc"] = 7,
-			["H2833"] = 179500,
+			["H2837"] = 314000,
+			["H2838"] = 148500,
 		},
 		["Golden Fleet Fists of the Feverflare"] = {
 			["mr"] = 4425365,
@@ -491,13 +493,6 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "153668:0:0:0:0",
 			["cc"] = 0,
 		},
-		["Contract: Proudmoore Admiralty"] = {
-			["H2835"] = 998999,
-			["mr"] = 998999,
-			["sc"] = 16,
-			["id"] = "153661:0:0:0:0",
-			["cc"] = 7,
-		},
 		["Sagehold Bracers of the Harmonious"] = {
 			["mr"] = 3987500,
 			["cc"] = 4,
@@ -505,12 +500,19 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2832"] = 3987500,
 			["sc"] = 1,
 		},
-		["Sailor's Pie"] = {
-			["H2830"] = 49800,
-			["cc"] = 0,
-			["id"] = "154888:0:0:0:0",
-			["mr"] = 49800,
+		["Enchant Weapon - Coastal Surge"] = {
+			["mr"] = 53960000,
+			["sc"] = 10,
+			["id"] = "153476:0:0:0:0",
+			["cc"] = 8,
+			["H2837"] = 53960000,
+		},
+		["Deep Sea Satin"] = {
+			["mr"] = 1235000,
 			["sc"] = 5,
+			["id"] = "152577:0:0:0:0",
+			["cc"] = 7,
+			["H2832"] = 1235000,
 		},
 		["Foxhollow Drape of the Harmonious"] = {
 			["H2835"] = 2250000,
@@ -540,19 +542,19 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2814"] = 179487,
 			["sc"] = 12,
 		},
-		["Enchant Weapon - Coastal Surge"] = {
-			["mr"] = 53960000,
-			["sc"] = 10,
-			["id"] = "153476:0:0:0:0",
-			["cc"] = 8,
-			["H2837"] = 53960000,
+		["Contract: Proudmoore Admiralty"] = {
+			["H2835"] = 998999,
+			["mr"] = 998999,
+			["sc"] = 16,
+			["id"] = "153661:0:0:0:0",
+			["cc"] = 7,
 		},
-		["Deep Sea Bandage"] = {
-			["mr"] = 5975000,
-			["sc"] = 7,
-			["id"] = "158382:0:0:0:0",
+		["Sailor's Pie"] = {
+			["H2830"] = 49800,
 			["cc"] = 0,
-			["H2837"] = 5975000,
+			["id"] = "154888:0:0:0:0",
+			["mr"] = 49800,
+			["sc"] = 5,
 		},
 		["Coastal Rejuvenation Potion"] = {
 			["mr"] = 528998,
@@ -596,19 +598,19 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["mr"] = 7500,
 			["sc"] = 8,
 		},
+		["Shipwrecker Knife of the Fireflash"] = {
+			["mr"] = 4897500,
+			["cc"] = 2,
+			["id"] = "159524:0:0:0:4796",
+			["H2832"] = 4897500,
+			["sc"] = 15,
+		},
 		["Golden Fleet Greataxe of the Aurora"] = {
 			["mr"] = 4000000,
 			["cc"] = 2,
 			["id"] = "159485:0:0:0:4796",
 			["sc"] = 1,
 			["H2833"] = 4000000,
-		},
-		["Chemical Blasting Cap"] = {
-			["H2835"] = 19800,
-			["mr"] = 19800,
-			["cc"] = 7,
-			["id"] = "160502:0:0:0:0",
-			["sc"] = 1,
 		},
 		["Lightweave Cloth"] = {
 			["H2816"] = 1989,
@@ -617,12 +619,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "151567:0:0:0:0",
 			["sc"] = 5,
 		},
-		["Shipwrecker Knife of the Fireflash"] = {
-			["mr"] = 4897500,
-			["cc"] = 2,
-			["id"] = "159524:0:0:0:4796",
-			["H2832"] = 4897500,
-			["sc"] = 15,
+		["Chemical Blasting Cap"] = {
+			["H2835"] = 19800,
+			["mr"] = 19800,
+			["cc"] = 7,
+			["id"] = "160502:0:0:0:0",
+			["sc"] = 1,
 		},
 		["Torgashell Helmet of the Feverflare"] = {
 			["mr"] = 30653781,
@@ -701,12 +703,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["mr"] = 1190,
 			["sc"] = 8,
 		},
-		["Deep Sea Satin"] = {
-			["mr"] = 1235000,
-			["sc"] = 5,
-			["id"] = "152577:0:0:0:0",
-			["cc"] = 7,
-			["H2832"] = 1235000,
+		["Deep Sea Bandage"] = {
+			["mr"] = 5975000,
+			["sc"] = 7,
+			["id"] = "158382:0:0:0:0",
+			["cc"] = 0,
+			["H2837"] = 5975000,
 		},
 		["Contract: Tortollan Seekers"] = {
 			["H2835"] = 2999997,
@@ -979,17 +981,17 @@ AUCTIONATOR_STACKING_PREFS = {
 		["numstacks"] = 0,
 		["stacksize"] = 1,
 	},
-	["gloom dust"] = {
+	["truesilver bar"] = {
+		["stacksize"] = 1,
 		["numstacks"] = 0,
-		["stacksize"] = 27,
 	},
 	["elixir of the rapid mind"] = {
 		["numstacks"] = 0,
 		["stacksize"] = 1,
 	},
-	["lesser cosmic essence"] = {
-		["stacksize"] = 1,
+	["gloom dust"] = {
 		["numstacks"] = 0,
+		["stacksize"] = 27,
 	},
 	["leylight shard"] = {
 		["stacksize"] = 1,
@@ -1031,7 +1033,7 @@ AUCTIONATOR_STACKING_PREFS = {
 		["numstacks"] = 0,
 		["stacksize"] = 1,
 	},
-	["truesilver bar"] = {
+	["lesser cosmic essence"] = {
 		["stacksize"] = 1,
 		["numstacks"] = 0,
 	},
