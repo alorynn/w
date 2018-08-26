@@ -21,15 +21,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["damage_taken"] = 11989.007309,
+							["friendlyfire"] = {
+							},
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 10487.007309,
-							["classe"] = "ROGUE",
+							["on_hold"] = false,
 							["dps_started"] = false,
 							["end_time"] = 1533747225,
-							["delay"] = 1533747213,
+							["serial"] = "Player-3693-09ED9289",
 							["total"] = 10487.007309,
 							["nome"] = "Alorannah",
 							["spells"] = {
@@ -50,19 +51,19 @@ _detalhes_database = {
 										["counter"] = 21,
 										["total"] = 4413,
 										["c_max"] = 450,
-										["r_amt"] = 0,
+										["MISS"] = 1,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["a_dmg"] = 0,
+										["spellschool"] = 1,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 213,
-										["successful_casted"] = 0,
 										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["c_min"] = 213,
 										["n_amt"] = 14,
-										["spellschool"] = 1,
-										["MISS"] = 1,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[185438] = {
 										["c_amt"] = 1,
@@ -82,16 +83,16 @@ _detalhes_database = {
 										["c_max"] = 1645,
 										["id"] = 185438,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 1645,
 										["m_amt"] = 0,
+										["c_min"] = 1645,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 									[195452] = {
 										["c_amt"] = 5,
@@ -111,30 +112,29 @@ _detalhes_database = {
 										["c_max"] = 543,
 										["id"] = 195452,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 542,
 										["m_amt"] = 0,
+										["c_min"] = 542,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 7,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["last_event"] = 1533747213,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["last_event"] = 1533747213,
+							["damage_taken"] = 11989.007309,
 							["start_time"] = 1533747205,
-							["serial"] = "Player-3693-09ED9289",
-							["on_hold"] = false,
+							["delay"] = 1533747213,
+							["classe"] = "ROGUE",
 						}, -- [1]
 					},
 				}, -- [1]
@@ -149,7 +149,7 @@ _detalhes_database = {
 					["combatId"] = 23,
 					["_ActorTable"] = {
 						{
-							["flag_original"] = 1297,
+							["received"] = 51.004541,
 							["resource"] = 0.004541,
 							["targets"] = {
 								["Alorannah"] = 51,
@@ -158,7 +158,7 @@ _detalhes_database = {
 							},
 							["powertype"] = 1,
 							["classe"] = "ROGUE",
-							["alternatepower"] = 0.004541,
+							["total"] = 51.004541,
 							["nome"] = "Alorannah",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -170,14 +170,6 @@ _detalhes_database = {
 										},
 										["counter"] = 5,
 									},
-									[196980] = {
-										["id"] = 196980,
-										["total"] = 0,
-										["targets"] = {
-											["Alorannah"] = 0,
-										},
-										["counter"] = 1,
-									},
 									[98440] = {
 										["id"] = 98440,
 										["total"] = 42,
@@ -186,16 +178,24 @@ _detalhes_database = {
 										},
 										["counter"] = 3,
 									},
+									[196980] = {
+										["id"] = 196980,
+										["total"] = 0,
+										["targets"] = {
+											["Alorannah"] = 0,
+										},
+										["counter"] = 2,
+									},
 								},
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["received"] = 51.004541,
-							["last_event"] = 1534770934,
-							["total"] = 51.004541,
-							["tipo"] = 3,
-							["serial"] = "Player-3693-09ED9289",
+							["flag_original"] = 1297,
+							["last_event"] = 1534861549,
+							["alternatepower"] = 0.004541,
 							["resource_type"] = 8,
+							["serial"] = "Player-3693-09ED9289",
+							["tipo"] = 3,
 						}, -- [1]
 					},
 				}, -- [3]
@@ -215,21 +215,21 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1533747202,
 										["uptime"] = 0,
-										["counter"] = 0,
+										["appliedamt"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = false,
-										["appliedamt"] = 0,
+										["counter"] = 0,
 									},
 									[195452] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 2,
-										["id"] = 195452,
-										["uptime"] = 18,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 0,
+										["uptime"] = 18,
+										["id"] = 195452,
+										["refreshamt"] = 2,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[137619] = {
 										["activedamt"] = -1,
@@ -238,26 +238,26 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1533747225,
 										["uptime"] = 0,
-										["counter"] = 0,
+										["appliedamt"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = false,
-										["appliedamt"] = 0,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
+							["nome"] = "Alorannah",
+							["grupo"] = true,
+							["pets"] = {
+							},
 							["debuff_uptime_targets"] = {
 							},
-							["grupo"] = true,
+							["classe"] = "ROGUE",
+							["tipo"] = 4,
 							["spell_cast"] = {
 								[185438] = 1,
 								[195452] = 3,
 							},
-							["nome"] = "Alorannah",
-							["classe"] = "ROGUE",
-							["pets"] = {
-							},
-							["tipo"] = 4,
 							["serial"] = "Player-3693-09ED9289",
 							["last_event"] = 1533747225,
 						}, -- [1]
@@ -286,21 +286,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 46,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 5,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -312,10 +312,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["Alorannah"] = 10487.007309,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -323,18 +320,20 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Alorannah"] = 10487.007309,
+						}, -- [1]
 					},
 				},
 				["end_time"] = 1253394.648,
 				["combat_id"] = 23,
-				["data_inicio"] = "12:53:15",
+				["instance_type"] = "none",
 				["hasSaved"] = true,
 				["frags"] = {
 				},
 				["data_fim"] = "12:53:46",
-				["TimeData"] = {
-				},
+				["contra"] = "Necrodark Greysworn",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -344,23 +343,24 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 46,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 5,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 1253363.319,
-				["contra"] = "Necrodark Greysworn",
-				["instance_type"] = "none",
+				["TimeData"] = {
+				},
+				["data_inicio"] = "12:53:15",
 			}, -- [1]
 			{
 				{
@@ -378,16 +378,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 10036.006331,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 5557.006331,
-							["on_hold"] = false,
+							["end_time"] = 1533747194,
 							["dps_started"] = false,
 							["total"] = 5557.006331,
-							["serial"] = "Player-3693-09ED9289",
+							["delay"] = 1533695023,
 							["classe"] = "ROGUE",
 							["nome"] = "Alorannah",
 							["spells"] = {
@@ -408,19 +407,19 @@ _detalhes_database = {
 										["counter"] = 13,
 										["total"] = 1560,
 										["c_max"] = 449,
-										["MISS"] = 6,
+										["r_amt"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
+										["c_min"] = 227,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
-										["c_min"] = 227,
+										["a_amt"] = 0,
 										["n_amt"] = 4,
-										["a_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["MISS"] = 6,
 									}, -- [1]
 									[185438] = {
 										["c_amt"] = 1,
@@ -440,16 +439,16 @@ _detalhes_database = {
 										["c_max"] = 1645,
 										["id"] = 185438,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 1645,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 									[195452] = {
 										["c_amt"] = 2,
@@ -469,29 +468,30 @@ _detalhes_database = {
 										["c_max"] = 542,
 										["id"] = 195452,
 										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 184,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 6,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["tipo"] = 1,
+							["last_event"] = 1533695023,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1533695023,
-							["damage_taken"] = 10036.006331,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1533747174,
-							["delay"] = 1533695023,
-							["end_time"] = 1533747194,
+							["serial"] = "Player-3693-09ED9289",
+							["on_hold"] = false,
 						}, -- [1]
 					},
 				}, -- [1]
@@ -506,7 +506,7 @@ _detalhes_database = {
 					["combatId"] = 22,
 					["_ActorTable"] = {
 						{
-							["received"] = 33.005494,
+							["flag_original"] = 1297,
 							["resource"] = 0.005494,
 							["targets"] = {
 								["Alorannah"] = 33,
@@ -515,23 +515,23 @@ _detalhes_database = {
 							},
 							["powertype"] = 0,
 							["classe"] = "ROGUE",
-							["total"] = 33.005494,
+							["alternatepower"] = 0.005494,
 							["nome"] = "Alorannah",
 							["spells"] = {
 								["_ActorTable"] = {
+									[196980] = {
+										["id"] = 196980,
+										["total"] = 0,
+										["targets"] = {
+											["Alorannah"] = 0,
+										},
+										["counter"] = 1,
+									},
 									[137619] = {
 										["id"] = 137619,
 										["total"] = 5,
 										["targets"] = {
 											["Alorannah"] = 5,
-										},
-										["counter"] = 1,
-									},
-									[98440] = {
-										["id"] = 98440,
-										["total"] = 18,
-										["targets"] = {
-											["Alorannah"] = 18,
 										},
 										["counter"] = 1,
 									},
@@ -543,11 +543,11 @@ _detalhes_database = {
 										},
 										["counter"] = 3,
 									},
-									[196980] = {
-										["id"] = 196980,
-										["total"] = 0,
+									[98440] = {
+										["id"] = 98440,
+										["total"] = 18,
 										["targets"] = {
-											["Alorannah"] = 0,
+											["Alorannah"] = 18,
 										},
 										["counter"] = 1,
 									},
@@ -555,12 +555,12 @@ _detalhes_database = {
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["flag_original"] = 1297,
+							["received"] = 33.005494,
 							["last_event"] = 1533747189,
-							["alternatepower"] = 0.005494,
-							["resource_type"] = 8,
-							["serial"] = "Player-3693-09ED9289",
+							["total"] = 33.005494,
 							["tipo"] = 3,
+							["serial"] = "Player-3693-09ED9289",
+							["resource_type"] = 8,
 						}, -- [1]
 					},
 				}, -- [3]
@@ -573,15 +573,15 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[195452] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 195452,
+										["uptime"] = 11,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 11,
-										["id"] = 195452,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[206760] = {
 										["activedamt"] = -1,
@@ -590,10 +590,10 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1533695012,
 										["uptime"] = 0,
-										["appliedamt"] = 0,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 0,
 									},
 								},
 								["tipo"] = 9,
@@ -611,26 +611,26 @@ _detalhes_database = {
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[11327] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 11327,
+										["uptime"] = 0,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 0,
-										["id"] = 11327,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[196980] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 196980,
+										["uptime"] = 0,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 0,
-										["id"] = 196980,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
@@ -640,12 +640,16 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["spell_cast"] = {
+								[195452] = 1,
 								[185438] = 1,
 								[1856] = 1,
-								[195452] = 1,
 							},
-							["buff_uptime_targets"] = {
+							["pets"] = {
 							},
+							["serial"] = "Player-3693-09ED9289",
+							["last_event"] = 1533695022,
+							["tipo"] = 4,
+							["nome"] = "Alorannah",
 							["cooldowns_defensive_spells"] = {
 								["_ActorTable"] = {
 									[1856] = {
@@ -658,11 +662,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 9,
 							},
-							["last_event"] = 1533695022,
-							["nome"] = "Alorannah",
-							["tipo"] = 4,
-							["serial"] = "Player-3693-09ED9289",
-							["pets"] = {
+							["buff_uptime_targets"] = {
 							},
 						}, -- [1]
 					},
@@ -690,21 +690,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 33,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 1,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 1,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -716,7 +716,10 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Alorannah"] = 5373.006331,
+						}, -- [1]
 					},
 					["heal_section"] = {
 					},
@@ -724,20 +727,18 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage"] = {
-						{
-							["Alorannah"] = 5373.006331,
-						}, -- [1]
+					["damage_section"] = {
 					},
 				},
 				["end_time"] = 1201192.823,
 				["combat_id"] = 22,
-				["instance_type"] = "none",
+				["data_inicio"] = "22:23:24",
 				["hasSaved"] = true,
 				["frags"] = {
 				},
 				["data_fim"] = "22:23:43",
-				["contra"] = "Necrodark Greysworn",
+				["TimeData"] = {
+				},
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -747,24 +748,23 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 33,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 1,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 1,
 					}, -- [4]
 				},
 				["start_time"] = 1201174.376,
-				["TimeData"] = {
-				},
-				["data_inicio"] = "22:23:24",
+				["contra"] = "Necrodark Greysworn",
+				["instance_type"] = "none",
 			}, -- [2]
 			{
 				{
@@ -784,16 +784,15 @@ _detalhes_database = {
 							["pets"] = {
 								"Huln Highmountain <Alorannah>", -- [1]
 							},
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 2205.00369,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.00369,
-							["on_hold"] = false,
+							["classe"] = "ROGUE",
 							["dps_started"] = false,
 							["total"] = 215892.00369,
-							["serial"] = "Player-3693-09ED9289",
+							["delay"] = 0,
 							["end_time"] = 1533694645,
 							["nome"] = "Alorannah",
 							["spells"] = {
@@ -802,14 +801,15 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["tipo"] = 1,
+							["last_event"] = 1533694641,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1533694641,
-							["damage_taken"] = 2205.00369,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1533694629,
-							["delay"] = 0,
-							["classe"] = "ROGUE",
+							["serial"] = "Player-3693-09ED9289",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -825,15 +825,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 14734.002969,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 215892.002969,
-							["classe"] = "PET",
+							["friendlyfire"] = {
+							},
 							["dps_started"] = false,
 							["total"] = 215892.002969,
-							["serial"] = "Vehicle-0-3134-1220-21227-104825-00006A524C",
+							["delay"] = 0,
 							["ownerName"] = "Alorannah",
 							["nome"] = "Huln Highmountain <Alorannah>",
 							["spells"] = {
@@ -856,16 +857,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 4,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									}, -- [1]
 									[192997] = {
 										["c_amt"] = 0,
@@ -886,16 +887,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 192997,
 										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 8,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
 									},
 									[193008] = {
 										["c_amt"] = 0,
@@ -915,16 +916,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 193008,
 										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
 									},
 									[193091] = {
 										["c_amt"] = 0,
@@ -945,16 +946,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 193091,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 8,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 									[193722] = {
 										["c_amt"] = 0,
@@ -974,30 +975,29 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 193722,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["end_time"] = 1533694645,
-							["tipo"] = 1,
+							["last_event"] = 1533694641,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1533694641,
-							["damage_taken"] = 14734.002969,
+							["tipo"] = 1,
+							["on_hold"] = false,
 							["start_time"] = 1533694629,
-							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["serial"] = "Vehicle-0-3134-1220-21227-104825-00006A524C",
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -1012,7 +1012,7 @@ _detalhes_database = {
 					["combatId"] = 21,
 					["_ActorTable"] = {
 						{
-							["flag_original"] = 1297,
+							["received"] = 2.00545,
 							["resource"] = 0.00545,
 							["targets"] = {
 								["Alorannah"] = 2,
@@ -1021,7 +1021,7 @@ _detalhes_database = {
 							},
 							["powertype"] = 1,
 							["classe"] = "ROGUE",
-							["alternatepower"] = 0.00545,
+							["total"] = 2.00545,
 							["nome"] = "Alorannah",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -1046,8 +1046,8 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["tipo"] = 3,
-							["received"] = 2.00545,
-							["total"] = 2.00545,
+							["flag_original"] = 1297,
+							["alternatepower"] = 0.00545,
 							["serial"] = "Player-3693-09ED9289",
 							["last_event"] = 1533695004,
 						}, -- [1]
@@ -1064,29 +1064,29 @@ _detalhes_database = {
 							["pets"] = {
 								"Huln Highmountain <Alorannah>", -- [1]
 							},
-							["buff_uptime_targets"] = {
-							},
-							["tipo"] = 4,
+							["classe"] = "ROGUE",
 							["last_event"] = 1533694645,
+							["tipo"] = 4,
 							["buff_uptime"] = 22,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[207507] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 207507,
+										["uptime"] = 22,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 22,
-										["id"] = 207507,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-3693-09ED9289",
-							["classe"] = "ROGUE",
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -1094,16 +1094,16 @@ _detalhes_database = {
 							["nome"] = "Huln Highmountain <Alorannah>",
 							["pets"] = {
 							},
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["last_event"] = 0,
+							["serial"] = "Vehicle-0-3134-1220-21227-104825-00006A524C",
 							["spell_cast"] = {
 								[193237] = 2,
 								[193008] = 1,
 								[193718] = 1,
 								[193016] = 2,
 							},
-							["tipo"] = 4,
-							["classe"] = "PET",
-							["serial"] = "Vehicle-0-3134-1220-21227-104825-00006A524C",
-							["last_event"] = 0,
 						}, -- [2]
 					},
 				}, -- [4]
@@ -1130,21 +1130,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 1.980824,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 					["Alorannah"] = {
@@ -1233,7 +1233,10 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Alorannah"] = 234748.006962,
+						}, -- [1]
 					},
 					["heal_section"] = {
 					},
@@ -1241,23 +1244,21 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage"] = {
-						{
-							["Alorannah"] = 234748.006962,
-						}, -- [1]
+					["damage_section"] = {
 					},
 				},
 				["end_time"] = 1200815.117,
 				["combat_id"] = 21,
-				["instance_type"] = "none",
+				["data_inicio"] = "22:17:03",
 				["resincked"] = true,
 				["hasSaved"] = true,
 				["frags"] = {
-					["Necrogg the Darkspeaker"] = 1,
 					["Shadow Lurker"] = 1,
+					["Necrogg the Darkspeaker"] = 1,
 				},
 				["data_fim"] = "22:17:25",
-				["contra"] = "Necrodark Defiler",
+				["TimeData"] = {
+				},
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -1267,24 +1268,23 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 2,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 1200793.193,
-				["TimeData"] = {
-				},
-				["data_inicio"] = "22:17:03",
+				["contra"] = "Necrodark Defiler",
+				["instance_type"] = "none",
 			}, -- [3]
 			{
 				{
@@ -1297,22 +1297,21 @@ _detalhes_database = {
 							["damage_from"] = {
 							},
 							["targets"] = {
-								["Shadow Lurker <Necrodark Defiler>"] = 36582,
 								["Necrodark Defiler"] = 35790,
+								["Shadow Lurker <Necrodark Defiler>"] = 36582,
 							},
 							["pets"] = {
 								"Huln Highmountain <Alorannah>", -- [1]
 							},
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 0.006253,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.006253,
-							["on_hold"] = false,
+							["classe"] = "ROGUE",
 							["dps_started"] = false,
 							["total"] = 72372.006253,
-							["serial"] = "Player-3693-09ED9289",
+							["delay"] = 0,
 							["end_time"] = 1533694613,
 							["nome"] = "Alorannah",
 							["spells"] = {
@@ -1321,14 +1320,15 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["tipo"] = 1,
+							["last_event"] = 1533694607,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1533694607,
-							["damage_taken"] = 0.006253,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1533694606,
-							["delay"] = 0,
-							["classe"] = "ROGUE",
+							["serial"] = "Player-3693-09ED9289",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -1336,20 +1336,21 @@ _detalhes_database = {
 							["damage_from"] = {
 							},
 							["targets"] = {
-								["Shadow Lurker <Necrodark Defiler>"] = 36582,
 								["Necrodark Defiler"] = 35790,
+								["Shadow Lurker <Necrodark Defiler>"] = 36582,
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 0.003565,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 72372.003565,
-							["classe"] = "PET",
+							["friendlyfire"] = {
+							},
 							["dps_started"] = false,
 							["total"] = 72372.003565,
-							["serial"] = "Vehicle-0-3134-1220-21227-104825-00006A524C",
+							["delay"] = 0,
 							["ownerName"] = "Alorannah",
 							["nome"] = "Huln Highmountain <Alorannah>",
 							["spells"] = {
@@ -1361,8 +1362,8 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 18609,
 										["targets"] = {
-											["Shadow Lurker <Necrodark Defiler>"] = 36582,
 											["Necrodark Defiler"] = 35790,
+											["Shadow Lurker <Necrodark Defiler>"] = 36582,
 										},
 										["m_dmg"] = 0,
 										["n_dmg"] = 72372,
@@ -1373,30 +1374,29 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 193091,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 4,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["end_time"] = 1533694613,
-							["tipo"] = 1,
+							["last_event"] = 1533694607,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1533694607,
-							["damage_taken"] = 0.003565,
+							["tipo"] = 1,
+							["on_hold"] = false,
 							["start_time"] = 1533694606,
-							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["serial"] = "Vehicle-0-3134-1220-21227-104825-00006A524C",
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -1422,29 +1422,29 @@ _detalhes_database = {
 							["grupo"] = true,
 							["pets"] = {
 							},
-							["buff_uptime_targets"] = {
-							},
-							["tipo"] = 4,
+							["classe"] = "ROGUE",
 							["last_event"] = 1533694613,
+							["tipo"] = 4,
 							["buff_uptime"] = 7,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[207507] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 207507,
+										["uptime"] = 7,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 7,
-										["id"] = 207507,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-3693-09ED9289",
-							["classe"] = "ROGUE",
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [4]
@@ -1471,21 +1471,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -1497,7 +1497,10 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Alorannah"] = 72372.006253,
+						}, -- [1]
 					},
 					["heal_section"] = {
 					},
@@ -1505,22 +1508,20 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage"] = {
-						{
-							["Alorannah"] = 72372.006253,
-						}, -- [1]
+					["damage_section"] = {
 					},
 				},
 				["end_time"] = 1200783.477,
 				["combat_id"] = 20,
-				["instance_type"] = "none",
+				["data_inicio"] = "22:16:46",
 				["hasSaved"] = true,
 				["frags"] = {
-					["Shadow Lurker"] = 4,
 					["Necrodark Defiler"] = 2,
+					["Shadow Lurker"] = 4,
 				},
 				["data_fim"] = "22:16:53",
-				["contra"] = "Necrodark Defiler",
+				["TimeData"] = {
+				},
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -1530,24 +1531,23 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 1200775.986,
-				["TimeData"] = {
-				},
-				["data_inicio"] = "22:16:46",
+				["contra"] = "Necrodark Defiler",
+				["instance_type"] = "none",
 			}, -- [4]
 			{
 				{
@@ -1560,22 +1560,21 @@ _detalhes_database = {
 							["damage_from"] = {
 							},
 							["targets"] = {
-								["Necrodark Defiler"] = 44345,
 								["Shadow Lurker"] = 35439,
+								["Necrodark Defiler"] = 44345,
 							},
 							["pets"] = {
 								"Huln Highmountain <Alorannah>", -- [1]
 							},
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 0.007274,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.007274,
-							["on_hold"] = false,
+							["classe"] = "ROGUE",
 							["dps_started"] = false,
 							["total"] = 79784.007274,
-							["serial"] = "Player-3693-09ED9289",
+							["delay"] = 0,
 							["end_time"] = 1533694605,
 							["nome"] = "Alorannah",
 							["spells"] = {
@@ -1584,14 +1583,15 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["tipo"] = 1,
+							["last_event"] = 1533694602,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1533694602,
-							["damage_taken"] = 0.007274,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1533694600,
-							["delay"] = 0,
-							["classe"] = "ROGUE",
+							["serial"] = "Player-3693-09ED9289",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -1599,20 +1599,21 @@ _detalhes_database = {
 							["damage_from"] = {
 							},
 							["targets"] = {
-								["Necrodark Defiler"] = 44345,
 								["Shadow Lurker"] = 35439,
+								["Necrodark Defiler"] = 44345,
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 0.003231,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 79784.003231,
-							["classe"] = "PET",
+							["friendlyfire"] = {
+							},
 							["dps_started"] = false,
 							["total"] = 79784.003231,
-							["serial"] = "Vehicle-0-3134-1220-21227-104825-00006A524C",
+							["delay"] = 0,
 							["ownerName"] = "Alorannah",
 							["nome"] = "Huln Highmountain <Alorannah>",
 							["spells"] = {
@@ -1624,8 +1625,8 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 18915,
 										["targets"] = {
-											["Necrodark Defiler"] = 36577,
 											["Shadow Lurker"] = 35439,
+											["Necrodark Defiler"] = 36577,
 										},
 										["m_dmg"] = 0,
 										["n_dmg"] = 72016,
@@ -1636,16 +1637,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 193091,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 4,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 									[192997] = {
 										["c_amt"] = 0,
@@ -1665,30 +1666,29 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 192997,
 										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["end_time"] = 1533694605,
-							["tipo"] = 1,
+							["last_event"] = 1533694602,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1533694602,
-							["damage_taken"] = 0.003231,
+							["tipo"] = 1,
+							["on_hold"] = false,
 							["start_time"] = 1533694600,
-							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["serial"] = "Vehicle-0-3134-1220-21227-104825-00006A524C",
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -1715,29 +1715,29 @@ _detalhes_database = {
 							["pets"] = {
 								"Huln Highmountain <Alorannah>", -- [1]
 							},
-							["buff_uptime_targets"] = {
-							},
-							["tipo"] = 4,
+							["classe"] = "ROGUE",
 							["last_event"] = 1533694605,
+							["tipo"] = 4,
 							["buff_uptime"] = 5,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[207507] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 207507,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 5,
-										["id"] = 207507,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-3693-09ED9289",
-							["classe"] = "ROGUE",
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -1745,14 +1745,14 @@ _detalhes_database = {
 							["nome"] = "Huln Highmountain <Alorannah>",
 							["pets"] = {
 							},
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["last_event"] = 0,
+							["serial"] = "Vehicle-0-3134-1220-21227-104825-00006A524C",
 							["spell_cast"] = {
 								[193237] = 1,
 								[193016] = 1,
 							},
-							["tipo"] = 4,
-							["classe"] = "PET",
-							["serial"] = "Vehicle-0-3134-1220-21227-104825-00006A524C",
-							["last_event"] = 0,
 						}, -- [2]
 					},
 				}, -- [4]
@@ -1779,21 +1779,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -1805,7 +1805,10 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Alorannah"] = 79784.007274,
+						}, -- [1]
 					},
 					["heal_section"] = {
 					},
@@ -1813,22 +1816,20 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage"] = {
-						{
-							["Alorannah"] = 79784.007274,
-						}, -- [1]
+					["damage_section"] = {
 					},
 				},
 				["end_time"] = 1200775.328,
 				["combat_id"] = 19,
-				["instance_type"] = "none",
+				["data_inicio"] = "22:16:40",
 				["hasSaved"] = true,
 				["frags"] = {
-					["Necrodark Defiler"] = 2,
 					["Shadow Lurker"] = 2,
+					["Necrodark Defiler"] = 2,
 				},
 				["data_fim"] = "22:16:45",
-				["contra"] = "Shadow Lurker",
+				["TimeData"] = {
+				},
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -1838,24 +1839,23 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 1200769.845,
-				["TimeData"] = {
-				},
-				["data_inicio"] = "22:16:40",
+				["contra"] = "Shadow Lurker",
+				["instance_type"] = "none",
 			}, -- [5]
 			{
 				{
@@ -1875,16 +1875,15 @@ _detalhes_database = {
 							["pets"] = {
 								"Huln Highmountain <Alorannah>", -- [1]
 							},
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 0.007412,
 							["classe"] = "ROGUE",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.007412,
-							["total"] = 225369.007412,
+							["on_hold"] = false,
 							["dps_started"] = false,
-							["end_time"] = 1533694598,
-							["serial"] = "Player-3693-09ED9289",
+							["total"] = 225369.007412,
+							["delay"] = 0,
 							["friendlyfire_total"] = 0,
 							["nome"] = "Alorannah",
 							["spells"] = {
@@ -1893,14 +1892,15 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["last_event"] = 1533694598,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.007412,
+							["last_event"] = 1533694598,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1533694567,
-							["delay"] = 0,
-							["on_hold"] = false,
+							["serial"] = "Player-3693-09ED9289",
+							["end_time"] = 1533694598,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -1915,15 +1915,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 3887.004431,
 							["classe"] = "PET",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 225369.004431,
-							["end_time"] = 1533694598,
+							["friendlyfire_total"] = 0,
 							["dps_started"] = false,
-							["total"] = 225369.004431,
-							["serial"] = "Vehicle-0-3134-1220-21227-104825-00006A524C",
+							["end_time"] = 1533694598,
+							["delay"] = 0,
 							["ownerName"] = "Alorannah",
 							["nome"] = "Huln Highmountain <Alorannah>",
 							["spells"] = {
@@ -1946,16 +1946,16 @@ _detalhes_database = {
 										["c_max"] = 16453,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 16453,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									}, -- [1]
 									[192997] = {
 										["c_amt"] = 0,
@@ -1964,8 +1964,8 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 4168,
 										["targets"] = {
-											["Shadow Lurker <Necrodark Defiler>"] = 31563,
 											["Necrodark Defiler"] = 67698,
+											["Shadow Lurker <Necrodark Defiler>"] = 31563,
 										},
 										["m_dmg"] = 0,
 										["n_dmg"] = 99261,
@@ -1976,16 +1976,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 192997,
 										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 25,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
 									},
 									[193722] = {
 										["c_amt"] = 0,
@@ -2005,16 +2005,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 193722,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 									[193091] = {
 										["c_amt"] = 0,
@@ -2023,8 +2023,8 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 18772,
 										["targets"] = {
-											["Necrodark Defiler"] = 89248,
 											["Shadow Lurker <Necrodark Defiler>"] = 17644,
+											["Necrodark Defiler"] = 89248,
 										},
 										["m_dmg"] = 0,
 										["n_dmg"] = 106892,
@@ -2035,30 +2035,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 193091,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 6,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["friendlyfire"] = {
 							},
-							["last_event"] = 1533694598,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 3887.004431,
+							["last_event"] = 1533694598,
+							["on_hold"] = false,
 							["start_time"] = 1533694567,
-							["delay"] = 0,
-							["friendlyfire_total"] = 0,
+							["serial"] = "Vehicle-0-3134-1220-21227-104825-00006A524C",
+							["total"] = 225369.004431,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -2085,29 +2085,29 @@ _detalhes_database = {
 							["pets"] = {
 								"Huln Highmountain <Alorannah>", -- [1]
 							},
-							["buff_uptime_targets"] = {
-							},
-							["tipo"] = 4,
+							["classe"] = "ROGUE",
 							["last_event"] = 1533694598,
+							["tipo"] = 4,
 							["buff_uptime"] = 31,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[207507] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 207507,
+										["uptime"] = 31,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 31,
-										["id"] = 207507,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-3693-09ED9289",
-							["classe"] = "ROGUE",
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -2115,15 +2115,15 @@ _detalhes_database = {
 							["nome"] = "Huln Highmountain <Alorannah>",
 							["pets"] = {
 							},
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["last_event"] = 0,
+							["serial"] = "Vehicle-0-3134-1220-21227-104825-00006A524C",
 							["spell_cast"] = {
 								[193237] = 7,
 								[193008] = 1,
 								[193016] = 2,
 							},
-							["tipo"] = 4,
-							["classe"] = "PET",
-							["serial"] = "Vehicle-0-3134-1220-21227-104825-00006A524C",
-							["last_event"] = 0,
 						}, -- [2]
 					},
 				}, -- [4]
@@ -2150,21 +2150,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -2176,7 +2176,10 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Alorannah"] = 225369.007412,
+						}, -- [1]
 					},
 					["heal_section"] = {
 					},
@@ -2184,15 +2187,12 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage"] = {
-						{
-							["Alorannah"] = 225369.007412,
-						}, -- [1]
+					["damage_section"] = {
 					},
 				},
 				["end_time"] = 1200768.401,
 				["combat_id"] = 18,
-				["instance_type"] = "none",
+				["data_inicio"] = "22:16:07",
 				["hasSaved"] = true,
 				["frags"] = {
 					["Necrodark Defiler"] = 5,
@@ -2200,7 +2200,8 @@ _detalhes_database = {
 					["Shadow Lurker"] = 4,
 				},
 				["data_fim"] = "22:16:38",
-				["contra"] = "Dark Tendril",
+				["TimeData"] = {
+				},
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -2210,24 +2211,23 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 1200737.048,
-				["TimeData"] = {
-				},
-				["data_inicio"] = "22:16:07",
+				["contra"] = "Dark Tendril",
+				["instance_type"] = "none",
 			}, -- [6]
 			{
 				{
@@ -2246,16 +2246,15 @@ _detalhes_database = {
 							["pets"] = {
 								"Oenia Skyhorn <Alorannah>", -- [1]
 							},
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 0.006009,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.006009,
-							["on_hold"] = false,
+							["classe"] = "ROGUE",
 							["dps_started"] = false,
 							["total"] = 147427.006009,
-							["serial"] = "Player-3693-09ED9289",
+							["delay"] = 0,
 							["end_time"] = 1533694454,
 							["nome"] = "Alorannah",
 							["spells"] = {
@@ -2264,14 +2263,15 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["tipo"] = 1,
+							["last_event"] = 1533694453,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1533694453,
-							["damage_taken"] = 0.006009,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1533694435,
-							["delay"] = 0,
-							["classe"] = "ROGUE",
+							["serial"] = "Player-3693-09ED9289",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -2286,15 +2286,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 10697.008924,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 147427.008924,
-							["classe"] = "PET",
+							["friendlyfire"] = {
+							},
 							["dps_started"] = false,
 							["total"] = 147427.008924,
-							["serial"] = "Vehicle-0-3134-1220-21227-104849-00006A514C",
+							["delay"] = 0,
 							["ownerName"] = "Alorannah",
 							["nome"] = "Oenia Skyhorn <Alorannah>",
 							["spells"] = {
@@ -2318,16 +2319,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 260427,
 										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 17,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
 									},
 									[204854] = {
 										["c_amt"] = 0,
@@ -2347,30 +2348,29 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 204854,
 										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 3,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["end_time"] = 1533694454,
-							["tipo"] = 1,
+							["last_event"] = 1533694453,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1533694453,
-							["damage_taken"] = 10697.008924,
+							["tipo"] = 1,
+							["on_hold"] = false,
 							["start_time"] = 1533694435,
-							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["serial"] = "Vehicle-0-3134-1220-21227-104849-00006A514C",
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -2397,10 +2397,10 @@ _detalhes_database = {
 							["pets"] = {
 								"Oenia Skyhorn <Alorannah>", -- [1]
 							},
-							["last_event"] = 0,
+							["classe"] = "ROGUE",
 							["tipo"] = 4,
 							["serial"] = "Player-3693-09ED9289",
-							["classe"] = "ROGUE",
+							["last_event"] = 0,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -2408,14 +2408,14 @@ _detalhes_database = {
 							["nome"] = "Oenia Skyhorn <Alorannah>",
 							["pets"] = {
 							},
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["last_event"] = 0,
+							["serial"] = "Vehicle-0-3134-1220-21227-104849-00006A514C",
 							["spell_cast"] = {
 								[247049] = 3,
 								[260427] = 11,
 							},
-							["tipo"] = 4,
-							["classe"] = "PET",
-							["serial"] = "Vehicle-0-3134-1220-21227-104849-00006A514C",
-							["last_event"] = 0,
 						}, -- [2]
 					},
 				}, -- [4]
@@ -2442,21 +2442,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -2468,7 +2468,10 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Alorannah"] = 147427.006009,
+						}, -- [1]
 					},
 					["heal_section"] = {
 					},
@@ -2476,22 +2479,20 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage"] = {
-						{
-							["Alorannah"] = 147427.006009,
-						}, -- [1]
+					["damage_section"] = {
 					},
 				},
 				["end_time"] = 1200624.47,
 				["combat_id"] = 17,
-				["instance_type"] = "none",
+				["data_inicio"] = "22:13:55",
 				["hasSaved"] = true,
 				["frags"] = {
 					["Shadow of the Darkness"] = 1,
 					["Fragment of Uul"] = 2,
 				},
 				["data_fim"] = "22:14:14",
-				["contra"] = "Shadow of the Darkness",
+				["TimeData"] = {
+				},
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -2501,24 +2502,23 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 1200605.176,
-				["TimeData"] = {
-				},
-				["data_inicio"] = "22:13:55",
+				["contra"] = "Shadow of the Darkness",
+				["instance_type"] = "none",
 			}, -- [7]
 			{
 				{
@@ -2531,22 +2531,21 @@ _detalhes_database = {
 							["damage_from"] = {
 							},
 							["targets"] = {
-								["Shadowy Tendril"] = 32129,
 								["Dark Spirit"] = 15764,
+								["Shadowy Tendril"] = 32129,
 							},
 							["pets"] = {
 								"Oenia Skyhorn <Alorannah>", -- [1]
 							},
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 0.007954,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.007954,
-							["on_hold"] = false,
+							["classe"] = "ROGUE",
 							["dps_started"] = false,
 							["total"] = 47893.007954,
-							["serial"] = "Player-3693-09ED9289",
+							["delay"] = 0,
 							["end_time"] = 1533694360,
 							["nome"] = "Alorannah",
 							["spells"] = {
@@ -2555,37 +2554,39 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["tipo"] = 1,
+							["last_event"] = 1533694359,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1533694359,
-							["damage_taken"] = 0.007954,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1533694347,
-							["delay"] = 0,
-							["classe"] = "ROGUE",
+							["serial"] = "Player-3693-09ED9289",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["totalabsorbed"] = 0.001461,
 							["damage_from"] = {
-								["Shadowy Tendril"] = true,
 								["Dark Spirit"] = true,
+								["Shadowy Tendril"] = true,
 							},
 							["targets"] = {
-								["Shadowy Tendril"] = 32129,
 								["Dark Spirit"] = 15764,
+								["Shadowy Tendril"] = 32129,
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 4113.001461,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 47893.001461,
-							["classe"] = "PET",
+							["friendlyfire"] = {
+							},
 							["dps_started"] = false,
 							["total"] = 47893.001461,
-							["serial"] = "Vehicle-0-3134-1220-21227-104849-00006A514C",
+							["delay"] = 0,
 							["ownerName"] = "Alorannah",
 							["nome"] = "Oenia Skyhorn <Alorannah>",
 							["spells"] = {
@@ -2608,16 +2609,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 204854,
 										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
 									},
 									[260427] = {
 										["c_amt"] = 0,
@@ -2637,30 +2638,29 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 260427,
 										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 4,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["end_time"] = 1533694360,
-							["tipo"] = 1,
+							["last_event"] = 1533694359,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1533694359,
-							["damage_taken"] = 4113.001461,
+							["tipo"] = 1,
+							["on_hold"] = false,
 							["start_time"] = 1533694347,
-							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["serial"] = "Vehicle-0-3134-1220-21227-104849-00006A514C",
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -2687,10 +2687,10 @@ _detalhes_database = {
 							["pets"] = {
 								"Oenia Skyhorn <Alorannah>", -- [1]
 							},
-							["last_event"] = 0,
+							["classe"] = "ROGUE",
 							["tipo"] = 4,
 							["serial"] = "Player-3693-09ED9289",
-							["classe"] = "ROGUE",
+							["last_event"] = 0,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -2698,14 +2698,14 @@ _detalhes_database = {
 							["nome"] = "Oenia Skyhorn <Alorannah>",
 							["pets"] = {
 							},
+							["classe"] = "PET",
+							["tipo"] = 4,
+							["last_event"] = 0,
+							["serial"] = "Vehicle-0-3134-1220-21227-104849-00006A514C",
 							["spell_cast"] = {
 								[247049] = 1,
 								[260427] = 4,
 							},
-							["tipo"] = 4,
-							["classe"] = "PET",
-							["serial"] = "Vehicle-0-3134-1220-21227-104849-00006A514C",
-							["last_event"] = 0,
 						}, -- [2]
 					},
 				}, -- [4]
@@ -2732,21 +2732,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -2758,7 +2758,10 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Alorannah"] = 328453.077562,
+						}, -- [1]
 					},
 					["heal_section"] = {
 					},
@@ -2766,15 +2769,12 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage"] = {
-						{
-							["Alorannah"] = 328453.077562,
-						}, -- [1]
+					["damage_section"] = {
 					},
 				},
 				["end_time"] = 1200529.869,
 				["combat_id"] = 16,
-				["instance_type"] = "none",
+				["data_inicio"] = "22:12:23",
 				["resincked"] = true,
 				["hasSaved"] = true,
 				["frags"] = {
@@ -2783,7 +2783,8 @@ _detalhes_database = {
 					["Shadowy Tendril"] = 2,
 				},
 				["data_fim"] = "22:12:40",
-				["contra"] = "Dark Spirit",
+				["TimeData"] = {
+				},
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -2793,24 +2794,23 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 1200512.697,
-				["TimeData"] = {
-				},
-				["data_inicio"] = "22:12:23",
+				["contra"] = "Dark Spirit",
+				["instance_type"] = "none",
 			}, -- [8]
 			{
 				{
@@ -2823,22 +2823,23 @@ _detalhes_database = {
 							["damage_from"] = {
 							},
 							["targets"] = {
-								["Shadow Lurker"] = 154044,
 								["Shadow of Uul"] = 208893,
+								["Shadow Lurker"] = 154044,
 							},
 							["pets"] = {
 								"Igrul the Scalebane <Alorannah>", -- [1]
 								"Oenia Skyhorn <Alorannah>", -- [2]
 							},
-							["damage_taken"] = 0.007277,
+							["friendlyfire"] = {
+							},
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.007277,
-							["classe"] = "ROGUE",
+							["on_hold"] = false,
 							["dps_started"] = false,
 							["total"] = 362937.007277,
-							["delay"] = 0,
+							["serial"] = "Player-3693-09ED9289",
 							["end_time"] = 1533694104,
 							["nome"] = "Alorannah",
 							["spells"] = {
@@ -2847,39 +2848,37 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["last_event"] = 1533694097,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["last_event"] = 1533694097,
+							["damage_taken"] = 0.007277,
 							["start_time"] = 1533694097,
-							["serial"] = "Player-3693-09ED9289",
-							["on_hold"] = false,
+							["delay"] = 0,
+							["classe"] = "ROGUE",
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["totalabsorbed"] = 0.005173,
 							["damage_from"] = {
-								["Shadow of Uul"] = true,
 								["Shadow Lurker"] = true,
+								["Shadow of Uul"] = true,
 							},
 							["targets"] = {
-								["Shadow Lurker"] = 154044,
 								["Shadow of Uul"] = 208893,
+								["Shadow Lurker"] = 154044,
 							},
 							["pets"] = {
 							},
-							["damage_taken"] = 17704.005173,
+							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 362937.005173,
-							["friendlyfire"] = {
-							},
+							["classe"] = "PET",
 							["dps_started"] = false,
 							["total"] = 362937.005173,
-							["delay"] = 0,
+							["serial"] = "Vehicle-0-3134-1220-21227-105159-00006A4E9E",
 							["ownerName"] = "Alorannah",
 							["nome"] = "Igrul the Scalebane <Alorannah>",
 							["spells"] = {
@@ -2891,8 +2890,8 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 55482,
 										["targets"] = {
-											["Shadow Lurker"] = 154044,
 											["Shadow of Uul"] = 208893,
+											["Shadow Lurker"] = 154044,
 										},
 										["m_dmg"] = 0,
 										["n_dmg"] = 362937,
@@ -2903,29 +2902,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 208295,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 7,
-										["a_dmg"] = 0,
-										["spellschool"] = 8,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["end_time"] = 1533694104,
-							["last_event"] = 1533694097,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
+							["last_event"] = 1533694097,
+							["damage_taken"] = 17704.005173,
 							["start_time"] = 1533694097,
-							["serial"] = "Vehicle-0-3134-1220-21227-105159-00006A4E9E",
-							["classe"] = "PET",
+							["delay"] = 0,
+							["friendlyfire"] = {
+							},
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
@@ -2937,15 +2937,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 665.002478,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002478,
-							["classe"] = "PET",
+							["friendlyfire"] = {
+							},
 							["dps_started"] = false,
 							["total"] = 0.002478,
-							["serial"] = "Vehicle-0-3134-1220-21227-104849-00006A514C",
+							["delay"] = 0,
 							["ownerName"] = "Alorannah",
 							["nome"] = "Oenia Skyhorn <Alorannah>",
 							["spells"] = {
@@ -2954,15 +2955,14 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["end_time"] = 1533694342,
-							["tipo"] = 1,
+							["last_event"] = 0,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
-							["damage_taken"] = 665.002478,
+							["tipo"] = 1,
+							["on_hold"] = false,
 							["start_time"] = 1533694342,
-							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["serial"] = "Vehicle-0-3134-1220-21227-104849-00006A514C",
+							["classe"] = "PET",
 						}, -- [3]
 					},
 				}, -- [1]
@@ -2989,10 +2989,10 @@ _detalhes_database = {
 							["pets"] = {
 								"Igrul the Scalebane <Alorannah>", -- [1]
 							},
-							["classe"] = "ROGUE",
+							["last_event"] = 0,
 							["tipo"] = 4,
 							["serial"] = "Player-3693-09ED9289",
-							["last_event"] = 0,
+							["classe"] = "ROGUE",
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -3000,14 +3000,14 @@ _detalhes_database = {
 							["nome"] = "Igrul the Scalebane <Alorannah>",
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["tipo"] = 4,
 							["last_event"] = 0,
-							["serial"] = "Vehicle-0-3134-1220-21227-105159-00006A4E9E",
+							["classe"] = "PET",
 							["spell_cast"] = {
 								[208294] = 1,
 								[208295] = 1,
 							},
+							["serial"] = "Vehicle-0-3134-1220-21227-105159-00006A4E9E",
+							["tipo"] = 4,
 						}, -- [2]
 					},
 				}, -- [4]
@@ -3034,21 +3034,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = -0.00966299999999976,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -3060,10 +3060,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["Alorannah"] = 474545.077504,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -3071,23 +3068,25 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Alorannah"] = 474545.077504,
+						}, -- [1]
 					},
 				},
 				["end_time"] = 1200471.729,
 				["combat_id"] = 15,
-				["data_inicio"] = "22:08:00",
+				["instance_type"] = "none",
 				["resincked"] = true,
 				["hasSaved"] = true,
 				["frags"] = {
-					["Shadow of Uul"] = 7,
-					["Bitestone Chompkeeper"] = 2,
-					["Bitestone Rockbeater"] = 2,
 					["Shadow Lurker"] = 3,
+					["Shadow of Uul"] = 7,
+					["Bitestone Rockbeater"] = 2,
+					["Bitestone Chompkeeper"] = 2,
 				},
 				["data_fim"] = "22:11:42",
-				["TimeData"] = {
-				},
+				["contra"] = "Shadow of Uul",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -3097,23 +3096,24 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 1200250.262,
-				["contra"] = "Shadow of Uul",
-				["instance_type"] = "none",
+				["TimeData"] = {
+				},
+				["data_inicio"] = "22:08:00",
 			}, -- [9]
 			{
 				{
@@ -3126,22 +3126,23 @@ _detalhes_database = {
 							["damage_from"] = {
 							},
 							["targets"] = {
-								["Shadow Lurker"] = 154044,
 								["Shadow of Uul"] = 208893,
+								["Shadow Lurker"] = 154044,
 							},
 							["pets"] = {
 								"Igrul the Scalebane <Alorannah>", -- [1]
 								"Oenia Skyhorn <Alorannah>", -- [2]
 							},
-							["damage_taken"] = 0.007277,
+							["friendlyfire"] = {
+							},
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.007277,
-							["classe"] = "ROGUE",
+							["on_hold"] = false,
 							["dps_started"] = false,
 							["total"] = 362937.007277,
-							["delay"] = 0,
+							["serial"] = "Player-3693-09ED9289",
 							["end_time"] = 1533694104,
 							["nome"] = "Alorannah",
 							["spells"] = {
@@ -3150,39 +3151,37 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["last_event"] = 1533694097,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["last_event"] = 1533694097,
+							["damage_taken"] = 0.007277,
 							["start_time"] = 1533694097,
-							["serial"] = "Player-3693-09ED9289",
-							["on_hold"] = false,
+							["delay"] = 0,
+							["classe"] = "ROGUE",
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["totalabsorbed"] = 0.005173,
 							["damage_from"] = {
-								["Shadow of Uul"] = true,
 								["Shadow Lurker"] = true,
+								["Shadow of Uul"] = true,
 							},
 							["targets"] = {
-								["Shadow Lurker"] = 154044,
 								["Shadow of Uul"] = 208893,
+								["Shadow Lurker"] = 154044,
 							},
 							["pets"] = {
 							},
-							["damage_taken"] = 17704.005173,
+							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 362937.005173,
-							["friendlyfire"] = {
-							},
+							["classe"] = "PET",
 							["dps_started"] = false,
 							["total"] = 362937.005173,
-							["delay"] = 0,
+							["serial"] = "Vehicle-0-3134-1220-21227-105159-00006A4E9E",
 							["ownerName"] = "Alorannah",
 							["nome"] = "Igrul the Scalebane <Alorannah>",
 							["spells"] = {
@@ -3194,8 +3193,8 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 55482,
 										["targets"] = {
-											["Shadow Lurker"] = 154044,
 											["Shadow of Uul"] = 208893,
+											["Shadow Lurker"] = 154044,
 										},
 										["m_dmg"] = 0,
 										["n_dmg"] = 362937,
@@ -3206,29 +3205,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 208295,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 7,
-										["a_dmg"] = 0,
-										["spellschool"] = 8,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["end_time"] = 1533694104,
-							["last_event"] = 1533694097,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
+							["last_event"] = 1533694097,
+							["damage_taken"] = 17704.005173,
 							["start_time"] = 1533694097,
-							["serial"] = "Vehicle-0-3134-1220-21227-105159-00006A4E9E",
-							["classe"] = "PET",
+							["delay"] = 0,
+							["friendlyfire"] = {
+							},
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
@@ -3240,15 +3240,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 665.002478,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002478,
-							["classe"] = "PET",
+							["friendlyfire"] = {
+							},
 							["dps_started"] = false,
 							["total"] = 0.002478,
-							["serial"] = "Vehicle-0-3134-1220-21227-104849-00006A514C",
+							["delay"] = 0,
 							["ownerName"] = "Alorannah",
 							["nome"] = "Oenia Skyhorn <Alorannah>",
 							["spells"] = {
@@ -3257,15 +3258,14 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["end_time"] = 1533694342,
-							["tipo"] = 1,
+							["last_event"] = 0,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
-							["damage_taken"] = 665.002478,
+							["tipo"] = 1,
+							["on_hold"] = false,
 							["start_time"] = 1533694342,
-							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["serial"] = "Vehicle-0-3134-1220-21227-104849-00006A514C",
+							["classe"] = "PET",
 						}, -- [3]
 					},
 				}, -- [1]
@@ -3292,10 +3292,10 @@ _detalhes_database = {
 							["pets"] = {
 								"Igrul the Scalebane <Alorannah>", -- [1]
 							},
-							["classe"] = "ROGUE",
+							["last_event"] = 0,
 							["tipo"] = 4,
 							["serial"] = "Player-3693-09ED9289",
-							["last_event"] = 0,
+							["classe"] = "ROGUE",
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -3303,14 +3303,14 @@ _detalhes_database = {
 							["nome"] = "Igrul the Scalebane <Alorannah>",
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["tipo"] = 4,
 							["last_event"] = 0,
-							["serial"] = "Vehicle-0-3134-1220-21227-105159-00006A4E9E",
+							["classe"] = "PET",
 							["spell_cast"] = {
 								[208294] = 1,
 								[208295] = 1,
 							},
+							["serial"] = "Vehicle-0-3134-1220-21227-105159-00006A4E9E",
+							["tipo"] = 4,
 						}, -- [2]
 					},
 				}, -- [4]
@@ -3337,21 +3337,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = -0.00966299999999976,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -3363,10 +3363,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["Alorannah"] = 474545.077504,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -3374,23 +3371,25 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Alorannah"] = 474545.077504,
+						}, -- [1]
 					},
 				},
 				["end_time"] = 1200471.729,
 				["combat_id"] = 15,
-				["data_inicio"] = "22:08:00",
+				["instance_type"] = "none",
 				["resincked"] = true,
 				["hasSaved"] = true,
 				["frags"] = {
-					["Shadow of Uul"] = 7,
-					["Bitestone Chompkeeper"] = 2,
-					["Bitestone Rockbeater"] = 2,
 					["Shadow Lurker"] = 3,
+					["Shadow of Uul"] = 7,
+					["Bitestone Rockbeater"] = 2,
+					["Bitestone Chompkeeper"] = 2,
 				},
 				["data_fim"] = "22:11:42",
-				["TimeData"] = {
-				},
+				["contra"] = "Shadow of Uul",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -3400,23 +3399,24 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 1200250.262,
-				["contra"] = "Shadow of Uul",
-				["instance_type"] = "none",
+				["TimeData"] = {
+				},
+				["data_inicio"] = "22:08:00",
 			}, -- [10]
 			{
 				{
@@ -3429,21 +3429,22 @@ _detalhes_database = {
 							["damage_from"] = {
 							},
 							["targets"] = {
-								["Shadow of Uul"] = 127780,
 								["Shadow Lurker"] = 52088,
+								["Shadow of Uul"] = 127780,
 							},
 							["pets"] = {
 								"Igrul the Scalebane <Alorannah>", -- [1]
 							},
-							["damage_taken"] = 0.006953,
+							["friendlyfire"] = {
+							},
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.006953,
-							["classe"] = "ROGUE",
+							["on_hold"] = false,
 							["dps_started"] = false,
 							["total"] = 179868.006953,
-							["delay"] = 0,
+							["serial"] = "Player-3693-09ED9289",
 							["end_time"] = 1533694076,
 							["nome"] = "Alorannah",
 							["spells"] = {
@@ -3452,39 +3453,37 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["last_event"] = 1533694069,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["last_event"] = 1533694069,
+							["damage_taken"] = 0.006953,
 							["start_time"] = 1533694067,
-							["serial"] = "Player-3693-09ED9289",
-							["on_hold"] = false,
+							["delay"] = 0,
+							["classe"] = "ROGUE",
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["totalabsorbed"] = 0.004438,
 							["damage_from"] = {
-								["Shadow of Uul"] = true,
 								["Shadow Lurker"] = true,
+								["Shadow of Uul"] = true,
 							},
 							["targets"] = {
-								["Shadow of Uul"] = 127780,
 								["Shadow Lurker"] = 52088,
+								["Shadow of Uul"] = 127780,
 							},
 							["pets"] = {
 							},
-							["damage_taken"] = 3567.004438,
+							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 179868.004438,
-							["friendlyfire"] = {
-							},
+							["classe"] = "PET",
 							["dps_started"] = false,
 							["total"] = 179868.004438,
-							["delay"] = 0,
+							["serial"] = "Vehicle-0-3134-1220-21227-105159-00006A4E9E",
 							["ownerName"] = "Alorannah",
 							["nome"] = "Igrul the Scalebane <Alorannah>",
 							["spells"] = {
@@ -3507,16 +3506,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 208280,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 8,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 									[208295] = {
 										["c_amt"] = 0,
@@ -3525,8 +3524,8 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 52088,
 										["targets"] = {
-											["Shadow of Uul"] = 102217,
 											["Shadow Lurker"] = 52088,
+											["Shadow of Uul"] = 102217,
 										},
 										["m_dmg"] = 0,
 										["n_dmg"] = 154305,
@@ -3537,29 +3536,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 208295,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["spellschool"] = 8,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["end_time"] = 1533694076,
-							["last_event"] = 1533694069,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
+							["last_event"] = 1533694069,
+							["damage_taken"] = 3567.004438,
 							["start_time"] = 1533694067,
-							["serial"] = "Vehicle-0-3134-1220-21227-105159-00006A4E9E",
-							["classe"] = "PET",
+							["delay"] = 0,
+							["friendlyfire"] = {
+							},
 						}, -- [2]
 					},
 				}, -- [1]
@@ -3586,10 +3586,10 @@ _detalhes_database = {
 							["pets"] = {
 								"Igrul the Scalebane <Alorannah>", -- [1]
 							},
-							["classe"] = "ROGUE",
+							["last_event"] = 0,
 							["tipo"] = 4,
 							["serial"] = "Player-3693-09ED9289",
-							["last_event"] = 0,
+							["classe"] = "ROGUE",
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -3597,15 +3597,15 @@ _detalhes_database = {
 							["nome"] = "Igrul the Scalebane <Alorannah>",
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["tipo"] = 4,
 							["last_event"] = 0,
-							["serial"] = "Vehicle-0-3134-1220-21227-105159-00006A4E9E",
+							["classe"] = "PET",
 							["spell_cast"] = {
 								[208294] = 1,
 								[208295] = 1,
 								[208279] = 1,
 							},
+							["serial"] = "Vehicle-0-3134-1220-21227-105159-00006A4E9E",
+							["tipo"] = 4,
 						}, -- [2]
 					},
 				}, -- [4]
@@ -3632,21 +3632,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -3658,10 +3658,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["Alorannah"] = 179868.006953,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -3669,20 +3666,22 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Alorannah"] = 179868.006953,
+						}, -- [1]
 					},
 				},
 				["end_time"] = 1200246.572,
 				["combat_id"] = 14,
-				["data_inicio"] = "22:07:47",
+				["instance_type"] = "none",
 				["hasSaved"] = true,
 				["frags"] = {
-					["Shadow of Uul"] = 3,
 					["Shadow Lurker"] = 1,
+					["Shadow of Uul"] = 3,
 				},
 				["data_fim"] = "22:07:57",
-				["TimeData"] = {
-				},
+				["contra"] = "Shadow of Uul",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -3692,23 +3691,24 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 1200236.83,
-				["contra"] = "Shadow of Uul",
-				["instance_type"] = "none",
+				["TimeData"] = {
+				},
+				["data_inicio"] = "22:07:47",
 			}, -- [11]
 			{
 				{
@@ -3721,21 +3721,22 @@ _detalhes_database = {
 							["damage_from"] = {
 							},
 							["targets"] = {
-								["Shadow of Uul"] = 48614,
 								["Shadow Lurker"] = 51994,
+								["Shadow of Uul"] = 48614,
 							},
 							["pets"] = {
 								"Igrul the Scalebane <Alorannah>", -- [1]
 							},
-							["damage_taken"] = 0.001972,
+							["friendlyfire"] = {
+							},
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.001972,
-							["classe"] = "ROGUE",
+							["on_hold"] = false,
 							["dps_started"] = false,
 							["total"] = 100608.001972,
-							["delay"] = 0,
+							["serial"] = "Player-3693-09ED9289",
 							["end_time"] = 1533693927,
 							["nome"] = "Alorannah",
 							["spells"] = {
@@ -3744,39 +3745,37 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["last_event"] = 1533693926,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["last_event"] = 1533693926,
+							["damage_taken"] = 0.001972,
 							["start_time"] = 1533693917,
-							["serial"] = "Player-3693-09ED9289",
-							["on_hold"] = false,
+							["delay"] = 0,
+							["classe"] = "ROGUE",
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["totalabsorbed"] = 0.006343,
 							["damage_from"] = {
-								["Shadow Lurker"] = true,
 								["Shadow of Uul"] = true,
+								["Shadow Lurker"] = true,
 							},
 							["targets"] = {
-								["Shadow of Uul"] = 48614,
 								["Shadow Lurker"] = 51994,
+								["Shadow of Uul"] = 48614,
 							},
 							["pets"] = {
 							},
-							["damage_taken"] = 7038.006343,
+							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 100608.006343,
-							["friendlyfire"] = {
-							},
+							["classe"] = "PET",
 							["dps_started"] = false,
 							["total"] = 100608.006343,
-							["delay"] = 0,
+							["serial"] = "Vehicle-0-3134-1220-21227-105159-00006A4E9E",
 							["ownerName"] = "Alorannah",
 							["nome"] = "Igrul the Scalebane <Alorannah>",
 							["spells"] = {
@@ -3799,16 +3798,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 208295,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 8,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 									[208280] = {
 										["c_amt"] = 0,
@@ -3828,29 +3827,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 208280,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["spellschool"] = 8,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["end_time"] = 1533693927,
-							["last_event"] = 1533693926,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
+							["last_event"] = 1533693926,
+							["damage_taken"] = 7038.006343,
 							["start_time"] = 1533693917,
-							["serial"] = "Vehicle-0-3134-1220-21227-105159-00006A4E9E",
-							["classe"] = "PET",
+							["delay"] = 0,
+							["friendlyfire"] = {
+							},
 						}, -- [2]
 					},
 				}, -- [1]
@@ -3877,10 +3877,10 @@ _detalhes_database = {
 							["pets"] = {
 								"Igrul the Scalebane <Alorannah>", -- [1]
 							},
-							["classe"] = "ROGUE",
+							["last_event"] = 0,
 							["tipo"] = 4,
 							["serial"] = "Player-3693-09ED9289",
-							["last_event"] = 0,
+							["classe"] = "ROGUE",
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -3888,15 +3888,15 @@ _detalhes_database = {
 							["nome"] = "Igrul the Scalebane <Alorannah>",
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["tipo"] = 4,
 							["last_event"] = 0,
-							["serial"] = "Vehicle-0-3134-1220-21227-105159-00006A4E9E",
+							["classe"] = "PET",
 							["spell_cast"] = {
 								[208294] = 1,
 								[208295] = 1,
 								[208279] = 1,
 							},
+							["serial"] = "Vehicle-0-3134-1220-21227-105159-00006A4E9E",
+							["tipo"] = 4,
 						}, -- [2]
 					},
 				}, -- [4]
@@ -3923,21 +3923,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -3949,10 +3949,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["Alorannah"] = 815225.042947,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -3960,21 +3957,23 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Alorannah"] = 815225.042947,
+						}, -- [1]
 					},
 				},
 				["end_time"] = 1200097.698,
 				["combat_id"] = 13,
-				["data_inicio"] = "22:05:14",
+				["instance_type"] = "none",
 				["resincked"] = true,
 				["hasSaved"] = true,
 				["frags"] = {
-					["Shadow of Uul"] = 1,
 					["Shadow Lurker"] = 1,
+					["Shadow of Uul"] = 1,
 				},
 				["data_fim"] = "22:05:28",
-				["TimeData"] = {
-				},
+				["contra"] = "Shadow Lurker",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -3984,23 +3983,24 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 1200083.645,
-				["contra"] = "Shadow Lurker",
-				["instance_type"] = "none",
+				["TimeData"] = {
+				},
+				["data_inicio"] = "22:05:14",
 			}, -- [12]
 			{
 				{
@@ -4013,21 +4013,22 @@ _detalhes_database = {
 							["damage_from"] = {
 							},
 							["targets"] = {
-								["Shadow of Uul"] = 330007,
 								["Shadow Lurker"] = 102874,
+								["Shadow of Uul"] = 330007,
 							},
 							["pets"] = {
 								"Igrul the Scalebane <Alorannah>", -- [1]
 							},
-							["damage_taken"] = 0.007189,
+							["friendlyfire"] = {
+							},
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.007189,
-							["classe"] = "ROGUE",
+							["on_hold"] = false,
 							["dps_started"] = false,
 							["total"] = 432881.007189,
-							["delay"] = 0,
+							["serial"] = "Player-3693-09ED9289",
 							["end_time"] = 1533693907,
 							["nome"] = "Alorannah",
 							["spells"] = {
@@ -4036,39 +4037,37 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["last_event"] = 1533693905,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["last_event"] = 1533693905,
+							["damage_taken"] = 0.007189,
 							["start_time"] = 1533693900,
-							["serial"] = "Player-3693-09ED9289",
-							["on_hold"] = false,
+							["delay"] = 0,
+							["classe"] = "ROGUE",
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["totalabsorbed"] = 0.007043,
 							["damage_from"] = {
-								["Shadow of Uul"] = true,
 								["Shadow Lurker"] = true,
+								["Shadow of Uul"] = true,
 							},
 							["targets"] = {
-								["Shadow of Uul"] = 330007,
 								["Shadow Lurker"] = 102874,
+								["Shadow of Uul"] = 330007,
 							},
 							["pets"] = {
 							},
-							["damage_taken"] = 124940.007043,
+							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 432881.007043,
-							["friendlyfire"] = {
-							},
+							["classe"] = "PET",
 							["dps_started"] = false,
 							["total"] = 432881.007043,
-							["delay"] = 0,
+							["serial"] = "Vehicle-0-3134-1220-21227-105159-00006A4E9E",
 							["ownerName"] = "Alorannah",
 							["nome"] = "Igrul the Scalebane <Alorannah>",
 							["spells"] = {
@@ -4080,8 +4079,8 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 25152,
 										["targets"] = {
-											["Shadow of Uul"] = 24243,
 											["Shadow Lurker"] = 49071,
+											["Shadow of Uul"] = 24243,
 										},
 										["m_dmg"] = 0,
 										["n_dmg"] = 73314,
@@ -4092,16 +4091,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 208280,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["spellschool"] = 8,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 									[208295] = {
 										["c_amt"] = 0,
@@ -4110,8 +4109,8 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 53803,
 										["targets"] = {
-											["Shadow of Uul"] = 305764,
 											["Shadow Lurker"] = 53803,
+											["Shadow of Uul"] = 305764,
 										},
 										["m_dmg"] = 0,
 										["n_dmg"] = 359567,
@@ -4122,29 +4121,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 208295,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 7,
-										["a_dmg"] = 0,
-										["spellschool"] = 8,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["end_time"] = 1533693907,
-							["last_event"] = 1533693905,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
+							["last_event"] = 1533693905,
+							["damage_taken"] = 124940.007043,
 							["start_time"] = 1533693900,
-							["serial"] = "Vehicle-0-3134-1220-21227-105159-00006A4E9E",
-							["classe"] = "PET",
+							["delay"] = 0,
+							["friendlyfire"] = {
+							},
 						}, -- [2]
 					},
 				}, -- [1]
@@ -4171,10 +4171,10 @@ _detalhes_database = {
 							["pets"] = {
 								"Igrul the Scalebane <Alorannah>", -- [1]
 							},
-							["classe"] = "ROGUE",
+							["last_event"] = 0,
 							["tipo"] = 4,
 							["serial"] = "Player-3693-09ED9289",
-							["last_event"] = 0,
+							["classe"] = "ROGUE",
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -4182,15 +4182,15 @@ _detalhes_database = {
 							["nome"] = "Igrul the Scalebane <Alorannah>",
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["tipo"] = 4,
 							["last_event"] = 0,
-							["serial"] = "Vehicle-0-3134-1220-21227-105159-00006A4E9E",
+							["classe"] = "PET",
 							["spell_cast"] = {
 								[208294] = 1,
 								[208295] = 1,
 								[208279] = 1,
 							},
+							["serial"] = "Vehicle-0-3134-1220-21227-105159-00006A4E9E",
+							["tipo"] = 4,
 						}, -- [2]
 					},
 				}, -- [4]
@@ -4217,21 +4217,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -4243,10 +4243,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["Alorannah"] = 432881.007189,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -4254,20 +4251,22 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Alorannah"] = 432881.007189,
+						}, -- [1]
 					},
 				},
 				["end_time"] = 1200077.409,
 				["combat_id"] = 12,
-				["data_inicio"] = "22:02:37",
+				["instance_type"] = "none",
 				["hasSaved"] = true,
 				["frags"] = {
-					["Shadow Lurker"] = 2,
 					["Shadow of Uul"] = 6,
+					["Shadow Lurker"] = 2,
 				},
 				["data_fim"] = "22:05:07",
-				["TimeData"] = {
-				},
+				["contra"] = "Shadow of Uul",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -4277,23 +4276,24 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 1199926.933,
-				["contra"] = "Shadow of Uul",
-				["instance_type"] = "none",
+				["TimeData"] = {
+				},
+				["data_inicio"] = "22:02:37",
 			}, -- [13]
 			{
 				{
@@ -4306,21 +4306,22 @@ _detalhes_database = {
 							["damage_from"] = {
 							},
 							["targets"] = {
-								["Shadow of Uul"] = 203061,
 								["Shadow Lurker"] = 51385,
+								["Shadow of Uul"] = 203061,
 							},
 							["pets"] = {
 								"Igrul the Scalebane <Alorannah>", -- [1]
 							},
-							["damage_taken"] = 0.004297,
+							["friendlyfire"] = {
+							},
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004297,
-							["classe"] = "ROGUE",
+							["on_hold"] = false,
 							["dps_started"] = false,
 							["total"] = 254446.004297,
-							["delay"] = 1533693722,
+							["serial"] = "Player-3693-09ED9289",
 							["end_time"] = 1533693744,
 							["nome"] = "Alorannah",
 							["spells"] = {
@@ -4329,15 +4330,14 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["last_event"] = 1533693722,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["last_event"] = 1533693722,
+							["damage_taken"] = 0.004297,
 							["start_time"] = 1533693736,
-							["serial"] = "Player-3693-09ED9289",
-							["on_hold"] = false,
+							["delay"] = 1533693722,
+							["classe"] = "ROGUE",
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -4346,21 +4346,20 @@ _detalhes_database = {
 								["Shadow of Uul"] = true,
 							},
 							["targets"] = {
-								["Shadow of Uul"] = 203061,
 								["Shadow Lurker"] = 51385,
+								["Shadow of Uul"] = 203061,
 							},
 							["pets"] = {
 							},
-							["damage_taken"] = 4334.006262,
+							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 254446.006262,
-							["friendlyfire"] = {
-							},
+							["classe"] = "PET",
 							["dps_started"] = false,
 							["total"] = 254446.006262,
-							["delay"] = 1533693722,
+							["serial"] = "Vehicle-0-3134-1220-21227-105159-00006A4E9E",
 							["ownerName"] = "Alorannah",
 							["nome"] = "Igrul the Scalebane <Alorannah>",
 							["spells"] = {
@@ -4372,8 +4371,8 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 26846,
 										["targets"] = {
-											["Shadow of Uul"] = 151351,
 											["Shadow Lurker"] = 51385,
+											["Shadow of Uul"] = 151351,
 										},
 										["m_dmg"] = 0,
 										["n_dmg"] = 202736,
@@ -4384,16 +4383,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 208280,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 8,
-										["a_dmg"] = 0,
-										["spellschool"] = 8,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 									[208295] = {
 										["c_amt"] = 0,
@@ -4413,29 +4412,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 208295,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 8,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["end_time"] = 1533693744,
-							["last_event"] = 1533693722,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
+							["last_event"] = 1533693722,
+							["damage_taken"] = 4334.006262,
 							["start_time"] = 1533693736,
-							["serial"] = "Vehicle-0-3134-1220-21227-105159-00006A4E9E",
-							["classe"] = "PET",
+							["delay"] = 1533693722,
+							["friendlyfire"] = {
+							},
 						}, -- [2]
 					},
 				}, -- [1]
@@ -4462,10 +4462,10 @@ _detalhes_database = {
 							["pets"] = {
 								"Igrul the Scalebane <Alorannah>", -- [1]
 							},
-							["classe"] = "ROGUE",
+							["last_event"] = 0,
 							["tipo"] = 4,
 							["serial"] = "Player-3693-09ED9289",
-							["last_event"] = 0,
+							["classe"] = "ROGUE",
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -4473,15 +4473,15 @@ _detalhes_database = {
 							["nome"] = "Igrul the Scalebane <Alorannah>",
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["tipo"] = 4,
 							["last_event"] = 0,
-							["serial"] = "Vehicle-0-3134-1220-21227-105159-00006A4E9E",
+							["classe"] = "PET",
 							["spell_cast"] = {
 								[208294] = 1,
 								[208295] = 1,
 								[208279] = 2,
 							},
+							["serial"] = "Vehicle-0-3134-1220-21227-105159-00006A4E9E",
+							["tipo"] = 4,
 						}, -- [2]
 					},
 				}, -- [4]
@@ -4508,21 +4508,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -4534,10 +4534,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["Alorannah"] = 254446.004297,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -4545,12 +4542,15 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Alorannah"] = 254446.004297,
+						}, -- [1]
 					},
 				},
 				["end_time"] = 1199914.3,
 				["combat_id"] = 11,
-				["data_inicio"] = "22:01:56",
+				["instance_type"] = "none",
 				["hasSaved"] = true,
 				["frags"] = {
 					["Shadow Lurker"] = 2,
@@ -4560,8 +4560,7 @@ _detalhes_database = {
 					["Manaspine Basilisk"] = 3,
 				},
 				["data_fim"] = "22:02:24",
-				["TimeData"] = {
-				},
+				["contra"] = "Shadow of Uul",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -4571,23 +4570,24 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 1199885.606,
-				["contra"] = "Shadow of Uul",
-				["instance_type"] = "none",
+				["TimeData"] = {
+				},
+				["data_inicio"] = "22:01:56",
 			}, -- [14]
 			{
 				{
@@ -4607,15 +4607,16 @@ _detalhes_database = {
 								"Baine Bloodhoof <Alorannah>", -- [1]
 								"Igrul the Scalebane <Alorannah>", -- [2]
 							},
-							["damage_taken"] = 7740.001184,
+							["friendlyfire"] = {
+							},
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 9632.001184,
-							["classe"] = "ROGUE",
+							["on_hold"] = false,
 							["dps_started"] = false,
 							["total"] = 20646.001184,
-							["delay"] = 0,
+							["serial"] = "Player-3693-09ED9289",
 							["end_time"] = 1533693273,
 							["nome"] = "Alorannah",
 							["spells"] = {
@@ -4636,19 +4637,19 @@ _detalhes_database = {
 										["counter"] = 22,
 										["total"] = 4571,
 										["c_max"] = 459,
-										["r_amt"] = 0,
+										["MISS"] = 3,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["a_dmg"] = 0,
+										["spellschool"] = 1,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 217,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
 										["a_amt"] = 0,
+										["c_min"] = 217,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
 										["n_amt"] = 11,
-										["spellschool"] = 1,
-										["MISS"] = 3,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[185438] = {
 										["c_amt"] = 1,
@@ -4668,16 +4669,16 @@ _detalhes_database = {
 										["c_max"] = 1645,
 										["id"] = 185438,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 1645,
 										["m_amt"] = 0,
+										["c_min"] = 1645,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 									[195452] = {
 										["c_amt"] = 2,
@@ -4697,30 +4698,29 @@ _detalhes_database = {
 										["c_max"] = 569,
 										["id"] = 195452,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 569,
 										["m_amt"] = 0,
+										["c_min"] = 569,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 8,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["last_event"] = 1533693272,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["last_event"] = 1533693272,
+							["damage_taken"] = 7740.001184,
 							["start_time"] = 1533693253,
-							["serial"] = "Player-3693-09ED9289",
-							["on_hold"] = false,
+							["delay"] = 0,
+							["classe"] = "ROGUE",
 						}, -- [1]
 						{
 							["flag_original"] = 8465,
@@ -4733,16 +4733,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["damage_taken"] = 7645.00539,
+							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 11014.00539,
-							["friendlyfire"] = {
-							},
+							["classe"] = "PET",
 							["dps_started"] = false,
 							["total"] = 11014.00539,
-							["delay"] = 0,
+							["serial"] = "Creature-0-3137-1-13752-130773-00006A4B84",
 							["ownerName"] = "Alorannah",
 							["nome"] = "Baine Bloodhoof <Alorannah>",
 							["spells"] = {
@@ -4765,16 +4764,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 8,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[22916] = {
 										["c_amt"] = 0,
@@ -4794,16 +4793,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 22916,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 									[15284] = {
 										["c_amt"] = 0,
@@ -4823,29 +4822,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 15284,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["end_time"] = 1533693273,
-							["last_event"] = 1533693270,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
+							["last_event"] = 1533693270,
+							["damage_taken"] = 7645.00539,
 							["start_time"] = 1533693254,
-							["serial"] = "Creature-0-3137-1-13752-130773-00006A4B84",
-							["classe"] = "PET",
+							["delay"] = 0,
+							["friendlyfire"] = {
+							},
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
@@ -4857,16 +4857,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["damage_taken"] = 1367.004727,
+							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004727,
-							["friendlyfire"] = {
-							},
+							["classe"] = "PET",
 							["dps_started"] = false,
 							["total"] = 0.004727,
-							["delay"] = 0,
+							["serial"] = "Vehicle-0-3134-1220-21227-105159-00006A4E9E",
 							["ownerName"] = "Alorannah",
 							["nome"] = "Igrul the Scalebane <Alorannah>",
 							["spells"] = {
@@ -4875,14 +4874,15 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["end_time"] = 1533693685,
-							["last_event"] = 0,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
+							["last_event"] = 0,
+							["damage_taken"] = 1367.004727,
 							["start_time"] = 1533693685,
-							["serial"] = "Vehicle-0-3134-1220-21227-105159-00006A4E9E",
-							["classe"] = "PET",
+							["delay"] = 0,
+							["friendlyfire"] = {
+							},
 						}, -- [3]
 					},
 				}, -- [1]
@@ -4897,7 +4897,7 @@ _detalhes_database = {
 					["combatId"] = 10,
 					["_ActorTable"] = {
 						{
-							["flag_original"] = 1297,
+							["received"] = 48.003235,
 							["resource"] = 0.003235,
 							["targets"] = {
 								["Alorannah"] = 48,
@@ -4906,7 +4906,7 @@ _detalhes_database = {
 							},
 							["powertype"] = 1,
 							["classe"] = "ROGUE",
-							["alternatepower"] = 0.003235,
+							["total"] = 48.003235,
 							["nome"] = "Alorannah",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -4918,14 +4918,6 @@ _detalhes_database = {
 										},
 										["counter"] = 4,
 									},
-									[196911] = {
-										["id"] = 196911,
-										["total"] = 12,
-										["targets"] = {
-											["Alorannah"] = 12,
-										},
-										["counter"] = 5,
-									},
 									[196980] = {
 										["id"] = 196980,
 										["total"] = 0,
@@ -4934,16 +4926,24 @@ _detalhes_database = {
 										},
 										["counter"] = 2,
 									},
+									[196911] = {
+										["id"] = 196911,
+										["total"] = 12,
+										["targets"] = {
+											["Alorannah"] = 12,
+										},
+										["counter"] = 5,
+									},
 								},
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["received"] = 48.003235,
+							["flag_original"] = 1297,
 							["last_event"] = 1533693313,
-							["total"] = 48.003235,
-							["tipo"] = 3,
-							["serial"] = "Player-3693-09ED9289",
+							["alternatepower"] = 0.003235,
 							["resource_type"] = 8,
+							["serial"] = "Player-3693-09ED9289",
+							["tipo"] = 3,
 						}, -- [1]
 					},
 				}, -- [3]
@@ -4957,32 +4957,32 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[195452] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 3,
-										["id"] = 195452,
-										["uptime"] = 17,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 0,
+										["uptime"] = 17,
+										["id"] = 195452,
+										["refreshamt"] = 3,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
-							["debuff_uptime_targets"] = {
-							},
-							["grupo"] = true,
-							["pets"] = {
-								"Baine Bloodhoof <Alorannah>", -- [1]
-							},
 							["nome"] = "Alorannah",
-							["tipo"] = 4,
+							["grupo"] = true,
 							["spell_cast"] = {
 								[185438] = 1,
 								[195452] = 4,
 							},
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
 							["last_event"] = 1533693272,
+							["pets"] = {
+								"Baine Bloodhoof <Alorannah>", -- [1]
+							},
 							["serial"] = "Player-3693-09ED9289",
 							["classe"] = "ROGUE",
 						}, -- [1]
@@ -4992,14 +4992,14 @@ _detalhes_database = {
 							["nome"] = "Baine Bloodhoof <Alorannah>",
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["tipo"] = 4,
 							["last_event"] = 0,
-							["serial"] = "Creature-0-3137-1-13752-130773-00006A4B84",
+							["classe"] = "PET",
 							["spell_cast"] = {
 								[22916] = 1,
 								[15284] = 1,
 							},
+							["serial"] = "Creature-0-3137-1-13752-130773-00006A4B84",
+							["tipo"] = 4,
 						}, -- [2]
 					},
 				}, -- [4]
@@ -5026,21 +5026,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 47.987501,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -5052,10 +5052,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["Alorannah"] = 725444.034907,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -5063,12 +5060,15 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Alorannah"] = 725444.034907,
+						}, -- [1]
 					},
 				},
 				["end_time"] = 1199444.132,
 				["combat_id"] = 10,
-				["data_inicio"] = "21:54:14",
+				["instance_type"] = "none",
 				["resincked"] = true,
 				["hasSaved"] = true,
 				["frags"] = {
@@ -5076,8 +5076,7 @@ _detalhes_database = {
 					["Qy'telek"] = 1,
 				},
 				["data_fim"] = "21:54:34",
-				["TimeData"] = {
-				},
+				["contra"] = "Qy'telek",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -5087,23 +5086,24 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 48,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 1199424.058,
-				["contra"] = "Qy'telek",
-				["instance_type"] = "none",
+				["TimeData"] = {
+				},
+				["data_inicio"] = "21:54:14",
 			}, -- [15]
 			{
 				{
@@ -5122,15 +5122,16 @@ _detalhes_database = {
 							["pets"] = {
 								"Baine Bloodhoof <Alorannah>", -- [1]
 							},
-							["damage_taken"] = 2064.003687,
+							["friendlyfire"] = {
+							},
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2700.003687,
-							["classe"] = "ROGUE",
+							["on_hold"] = false,
 							["dps_started"] = false,
 							["total"] = 10865.003687,
-							["delay"] = 0,
+							["serial"] = "Player-3693-09ED9289",
 							["end_time"] = 1533693205,
 							["nome"] = "Alorannah",
 							["spells"] = {
@@ -5151,19 +5152,19 @@ _detalhes_database = {
 										["counter"] = 16,
 										["total"] = 1887,
 										["c_max"] = 0,
-										["r_amt"] = 0,
+										["MISS"] = 4,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["a_dmg"] = 0,
+										["spellschool"] = 1,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
 										["a_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
 										["n_amt"] = 12,
-										["spellschool"] = 1,
-										["MISS"] = 4,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[195452] = {
 										["c_amt"] = 0,
@@ -5183,30 +5184,29 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 195452,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["last_event"] = 1533693204,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["last_event"] = 1533693204,
+							["damage_taken"] = 2064.003687,
 							["start_time"] = 1533693193,
-							["serial"] = "Player-3693-09ED9289",
-							["on_hold"] = false,
+							["delay"] = 0,
+							["classe"] = "ROGUE",
 						}, -- [1]
 						{
 							["flag_original"] = 8465,
@@ -5219,16 +5219,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["damage_taken"] = 2384.008847,
+							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 8165.008847,
-							["friendlyfire"] = {
-							},
+							["classe"] = "PET",
 							["dps_started"] = false,
 							["total"] = 8165.008847,
-							["delay"] = 0,
+							["serial"] = "Creature-0-3137-1-13752-130773-00006A4B84",
 							["ownerName"] = "Alorannah",
 							["nome"] = "Baine Bloodhoof <Alorannah>",
 							["spells"] = {
@@ -5251,16 +5250,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 6,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[22916] = {
 										["c_amt"] = 0,
@@ -5280,29 +5279,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 22916,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["end_time"] = 1533693205,
-							["last_event"] = 1533693203,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
+							["last_event"] = 1533693203,
+							["damage_taken"] = 2384.008847,
 							["start_time"] = 1533693193,
-							["serial"] = "Creature-0-3137-1-13752-130773-00006A4B84",
-							["classe"] = "PET",
+							["delay"] = 0,
+							["friendlyfire"] = {
+							},
 						}, -- [2]
 					},
 				}, -- [1]
@@ -5317,7 +5317,7 @@ _detalhes_database = {
 					["combatId"] = 9,
 					["_ActorTable"] = {
 						{
-							["flag_original"] = 1297,
+							["received"] = 17.003449,
 							["resource"] = 0.003449,
 							["targets"] = {
 								["Alorannah"] = 17,
@@ -5326,15 +5326,31 @@ _detalhes_database = {
 							},
 							["powertype"] = 1,
 							["classe"] = "ROGUE",
-							["alternatepower"] = 0.003449,
+							["total"] = 17.003449,
 							["nome"] = "Alorannah",
 							["spells"] = {
 								["_ActorTable"] = {
+									[196980] = {
+										["id"] = 196980,
+										["total"] = 0,
+										["targets"] = {
+											["Alorannah"] = 0,
+										},
+										["counter"] = 1,
+									},
 									[98440] = {
 										["id"] = 98440,
 										["total"] = 12,
 										["targets"] = {
 											["Alorannah"] = 12,
+										},
+										["counter"] = 1,
+									},
+									[185438] = {
+										["id"] = 185438,
+										["total"] = 2,
+										["targets"] = {
+											["Alorannah"] = 2,
 										},
 										["counter"] = 1,
 									},
@@ -5346,32 +5362,16 @@ _detalhes_database = {
 										},
 										["counter"] = 3,
 									},
-									[185438] = {
-										["id"] = 185438,
-										["total"] = 2,
-										["targets"] = {
-											["Alorannah"] = 2,
-										},
-										["counter"] = 1,
-									},
-									[196980] = {
-										["id"] = 196980,
-										["total"] = 0,
-										["targets"] = {
-											["Alorannah"] = 0,
-										},
-										["counter"] = 1,
-									},
 								},
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["received"] = 17.003449,
+							["flag_original"] = 1297,
 							["last_event"] = 1533693253,
-							["total"] = 17.003449,
-							["tipo"] = 3,
-							["serial"] = "Player-3693-09ED9289",
+							["alternatepower"] = 0.003449,
 							["resource_type"] = 8,
+							["serial"] = "Player-3693-09ED9289",
+							["tipo"] = 3,
 						}, -- [1]
 					},
 				}, -- [3]
@@ -5384,50 +5384,52 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[195452] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 195452,
-										["uptime"] = 6,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 0,
+										["uptime"] = 6,
+										["id"] = 195452,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
-							["buff_uptime"] = 2,
+							["pets"] = {
+								"Baine Bloodhoof <Alorannah>", -- [1]
+							},
 							["classe"] = "ROGUE",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[1784] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 1784,
-										["uptime"] = 0,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 0,
+										["id"] = 1784,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[196980] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 196980,
-										["uptime"] = 2,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 2,
+										["id"] = 196980,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 6,
-							["buff_uptime_targets"] = {
+							["debuff_uptime_targets"] = {
 							},
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -5435,13 +5437,11 @@ _detalhes_database = {
 							},
 							["nome"] = "Alorannah",
 							["tipo"] = 4,
-							["debuff_uptime_targets"] = {
+							["buff_uptime_targets"] = {
 							},
-							["pets"] = {
-								"Baine Bloodhoof <Alorannah>", -- [1]
-							},
-							["serial"] = "Player-3693-09ED9289",
 							["last_event"] = 1533693204,
+							["serial"] = "Player-3693-09ED9289",
+							["buff_uptime"] = 2,
 						}, -- [1]
 						{
 							["flag_original"] = 8465,
@@ -5449,13 +5449,13 @@ _detalhes_database = {
 							["nome"] = "Baine Bloodhoof <Alorannah>",
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["tipo"] = 4,
 							["last_event"] = 0,
-							["serial"] = "Creature-0-3137-1-13752-130773-00006A4B84",
+							["classe"] = "PET",
 							["spell_cast"] = {
 								[22916] = 1,
 							},
+							["serial"] = "Creature-0-3137-1-13752-130773-00006A4B84",
+							["tipo"] = 4,
 						}, -- [2]
 					},
 				}, -- [4]
@@ -5482,21 +5482,21 @@ _detalhes_database = {
 						6, -- [1]
 						[0] = 10.9842,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -5508,10 +5508,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["Alorannah"] = 10865.003687,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -5519,12 +5516,15 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Alorannah"] = 10865.003687,
+						}, -- [1]
 					},
 				},
 				["end_time"] = 1199376.193,
 				["combat_id"] = 9,
-				["data_inicio"] = "21:53:14",
+				["instance_type"] = "none",
 				["hasSaved"] = true,
 				["frags"] = {
 					["Honor Guard"] = 1,
@@ -5532,8 +5532,7 @@ _detalhes_database = {
 					["Bluffwatcher"] = 1,
 				},
 				["data_fim"] = "21:53:26",
-				["TimeData"] = {
-				},
+				["contra"] = "Shadow of Uul",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -5543,23 +5542,24 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 17,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 1199363.632,
-				["contra"] = "Shadow of Uul",
-				["instance_type"] = "none",
+				["TimeData"] = {
+				},
+				["data_inicio"] = "21:53:14",
 			}, -- [16]
 			{
 				{
@@ -5577,15 +5577,16 @@ _detalhes_database = {
 							["pets"] = {
 								"Baine Bloodhoof <Alorannah>", -- [1]
 							},
-							["damage_taken"] = 0.003101,
+							["friendlyfire"] = {
+							},
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3223.003101,
-							["classe"] = "ROGUE",
+							["on_hold"] = false,
 							["dps_started"] = false,
 							["total"] = 6202.003101,
-							["delay"] = 0,
+							["serial"] = "Player-3693-09ED9289",
 							["end_time"] = 1533693187,
 							["nome"] = "Alorannah",
 							["spells"] = {
@@ -5606,19 +5607,19 @@ _detalhes_database = {
 										["counter"] = 11,
 										["total"] = 1866,
 										["c_max"] = 451,
-										["r_amt"] = 0,
+										["MISS"] = 2,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["a_dmg"] = 0,
+										["spellschool"] = 1,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 218,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
 										["a_amt"] = 0,
+										["c_min"] = 218,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
 										["n_amt"] = 6,
-										["spellschool"] = 1,
-										["MISS"] = 2,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[195452] = {
 										["c_amt"] = 1,
@@ -5638,30 +5639,29 @@ _detalhes_database = {
 										["c_max"] = 543,
 										["id"] = 195452,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 543,
 										["m_amt"] = 0,
+										["c_min"] = 543,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["last_event"] = 1533693186,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["last_event"] = 1533693186,
+							["damage_taken"] = 0.003101,
 							["start_time"] = 1533693178,
-							["serial"] = "Player-3693-09ED9289",
-							["on_hold"] = false,
+							["delay"] = 0,
+							["classe"] = "ROGUE",
 						}, -- [1]
 						{
 							["flag_original"] = 8465,
@@ -5673,16 +5673,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["damage_taken"] = 0.006696,
+							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 2979.006696,
-							["friendlyfire"] = {
-							},
+							["classe"] = "PET",
 							["dps_started"] = false,
 							["total"] = 2979.006696,
-							["delay"] = 0,
+							["serial"] = "Creature-0-3137-1-13752-130773-00006A4B84",
 							["ownerName"] = "Alorannah",
 							["nome"] = "Baine Bloodhoof <Alorannah>",
 							["spells"] = {
@@ -5705,29 +5704,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 								},
 								["tipo"] = 2,
 							},
 							["end_time"] = 1533693187,
-							["last_event"] = 1533693183,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
+							["last_event"] = 1533693183,
+							["damage_taken"] = 0.006696,
 							["start_time"] = 1533693178,
-							["serial"] = "Creature-0-3137-1-13752-130773-00006A4B84",
-							["classe"] = "PET",
+							["delay"] = 0,
+							["friendlyfire"] = {
+							},
 						}, -- [2]
 					},
 				}, -- [1]
@@ -5742,7 +5742,7 @@ _detalhes_database = {
 					["combatId"] = 8,
 					["_ActorTable"] = {
 						{
-							["flag_original"] = 1297,
+							["received"] = 21.008187,
 							["resource"] = 0.008187,
 							["targets"] = {
 								["Alorannah"] = 21,
@@ -5751,7 +5751,7 @@ _detalhes_database = {
 							},
 							["powertype"] = 1,
 							["classe"] = "ROGUE",
-							["alternatepower"] = 0.008187,
+							["total"] = 21.008187,
 							["nome"] = "Alorannah",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -5763,14 +5763,6 @@ _detalhes_database = {
 										},
 										["counter"] = 3,
 									},
-									[98440] = {
-										["id"] = 98440,
-										["total"] = 12,
-										["targets"] = {
-											["Alorannah"] = 12,
-										},
-										["counter"] = 2,
-									},
 									[196911] = {
 										["id"] = 196911,
 										["total"] = 1,
@@ -5779,16 +5771,24 @@ _detalhes_database = {
 										},
 										["counter"] = 1,
 									},
+									[98440] = {
+										["id"] = 98440,
+										["total"] = 12,
+										["targets"] = {
+											["Alorannah"] = 12,
+										},
+										["counter"] = 2,
+									},
 								},
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["received"] = 21.008187,
+							["flag_original"] = 1297,
 							["last_event"] = 1533693192,
-							["total"] = 21.008187,
-							["tipo"] = 3,
-							["serial"] = "Player-3693-09ED9289",
+							["alternatepower"] = 0.008187,
 							["resource_type"] = 8,
+							["serial"] = "Player-3693-09ED9289",
+							["tipo"] = 3,
 						}, -- [1]
 					},
 				}, -- [3]
@@ -5801,41 +5801,39 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[195452] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 1,
-										["id"] = 195452,
-										["uptime"] = 8,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 0,
+										["uptime"] = 8,
+										["id"] = 195452,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
-							["pets"] = {
-							},
+							["buff_uptime"] = 2,
 							["classe"] = "ROGUE",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[196980] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 196980,
-										["uptime"] = 2,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 2,
+										["id"] = 196980,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 8,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Alorannah",
 							["grupo"] = true,
 							["spell_cast"] = {
 								[195452] = 2,
@@ -5843,10 +5841,12 @@ _detalhes_database = {
 							["debuff_uptime_targets"] = {
 							},
 							["tipo"] = 4,
-							["nome"] = "Alorannah",
-							["buff_uptime"] = 2,
-							["serial"] = "Player-3693-09ED9289",
+							["buff_uptime_targets"] = {
+							},
 							["last_event"] = 1533693186,
+							["serial"] = "Player-3693-09ED9289",
+							["pets"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [4]
@@ -5873,21 +5873,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 20.992353,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -5899,10 +5899,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["Alorannah"] = 6202.003101,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -5910,20 +5907,22 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Alorannah"] = 6202.003101,
+						}, -- [1]
 					},
 				},
 				["end_time"] = 1199357.487,
 				["combat_id"] = 8,
-				["data_inicio"] = "21:52:59",
+				["instance_type"] = "none",
 				["hasSaved"] = true,
 				["frags"] = {
 					["Bluffwatcher"] = 1,
 					["Shadow of Uul"] = 1,
 				},
 				["data_fim"] = "21:53:07",
-				["TimeData"] = {
-				},
+				["contra"] = "Shadow of Uul",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -5933,23 +5932,24 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 21,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 1199348.702,
-				["contra"] = "Shadow of Uul",
-				["instance_type"] = "none",
+				["TimeData"] = {
+				},
+				["data_inicio"] = "21:52:59",
 			}, -- [17]
 			{
 				{
@@ -5969,15 +5969,16 @@ _detalhes_database = {
 							["pets"] = {
 								"Baine Bloodhoof <Alorannah>", -- [1]
 							},
-							["damage_taken"] = 4973.00279,
+							["friendlyfire"] = {
+							},
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 13071.00279,
-							["classe"] = "ROGUE",
+							["on_hold"] = false,
 							["dps_started"] = false,
 							["total"] = 38943.00279,
-							["delay"] = 0,
+							["serial"] = "Player-3693-09ED9289",
 							["end_time"] = 1533693160,
 							["nome"] = "Alorannah",
 							["spells"] = {
@@ -5999,19 +6000,19 @@ _detalhes_database = {
 										["counter"] = 35,
 										["total"] = 6890,
 										["c_max"] = 446,
-										["r_amt"] = 0,
+										["MISS"] = 4,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["a_dmg"] = 0,
+										["spellschool"] = 1,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 424,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
 										["a_amt"] = 0,
+										["c_min"] = 424,
+										["successful_casted"] = 0,
+										["m_amt"] = 0,
 										["n_amt"] = 23,
-										["spellschool"] = 1,
-										["MISS"] = 4,
+										["a_dmg"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[195452] = {
 										["c_amt"] = 6,
@@ -6032,30 +6033,29 @@ _detalhes_database = {
 										["c_max"] = 542,
 										["id"] = 195452,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 32,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 63,
 										["m_amt"] = 0,
+										["c_min"] = 63,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 13,
-										["a_dmg"] = 0,
-										["spellschool"] = 32,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["last_event"] = 1533693168,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["last_event"] = 1533693168,
+							["damage_taken"] = 4973.00279,
 							["start_time"] = 1533693124,
-							["serial"] = "Player-3693-09ED9289",
-							["on_hold"] = false,
+							["delay"] = 0,
+							["classe"] = "ROGUE",
 						}, -- [1]
 						{
 							["flag_original"] = 8465,
@@ -6069,16 +6069,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["damage_taken"] = 10691.008624,
+							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 25872.008624,
-							["friendlyfire"] = {
-							},
+							["classe"] = "PET",
 							["dps_started"] = false,
 							["total"] = 25872.008624,
-							["delay"] = 0,
+							["serial"] = "Creature-0-3137-1-13752-130773-00006A4B84",
 							["ownerName"] = "Alorannah",
 							["nome"] = "Baine Bloodhoof <Alorannah>",
 							["spells"] = {
@@ -6102,16 +6101,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 878,
 										["n_amt"] = 15,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 									[22916] = {
 										["c_amt"] = 0,
@@ -6132,16 +6131,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 22916,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 4,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 									[15284] = {
 										["c_amt"] = 0,
@@ -6161,16 +6160,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 15284,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 3,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 									[32736] = {
 										["c_amt"] = 0,
@@ -6190,29 +6189,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 32736,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["end_time"] = 1533693160,
-							["last_event"] = 1533693159,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
+							["last_event"] = 1533693159,
+							["damage_taken"] = 10691.008624,
 							["start_time"] = 1533693125,
-							["serial"] = "Creature-0-3137-1-13752-130773-00006A4B84",
-							["classe"] = "PET",
+							["delay"] = 0,
+							["friendlyfire"] = {
+							},
 						}, -- [2]
 					},
 				}, -- [1]
@@ -6227,7 +6227,7 @@ _detalhes_database = {
 					["combatId"] = 7,
 					["_ActorTable"] = {
 						{
-							["flag_original"] = 1297,
+							["received"] = 59.005204,
 							["resource"] = 0.005204,
 							["targets"] = {
 								["Alorannah"] = 59,
@@ -6236,7 +6236,7 @@ _detalhes_database = {
 							},
 							["powertype"] = 1,
 							["classe"] = "ROGUE",
-							["alternatepower"] = 0.005204,
+							["total"] = 59.005204,
 							["nome"] = "Alorannah",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -6248,14 +6248,6 @@ _detalhes_database = {
 										},
 										["counter"] = 3,
 									},
-									[196980] = {
-										["id"] = 196980,
-										["total"] = 4,
-										["targets"] = {
-											["Alorannah"] = 4,
-										},
-										["counter"] = 4,
-									},
 									[196911] = {
 										["id"] = 196911,
 										["total"] = 7,
@@ -6264,16 +6256,24 @@ _detalhes_database = {
 										},
 										["counter"] = 7,
 									},
+									[196980] = {
+										["id"] = 196980,
+										["total"] = 4,
+										["targets"] = {
+											["Alorannah"] = 4,
+										},
+										["counter"] = 4,
+									},
 								},
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["received"] = 59.005204,
+							["flag_original"] = 1297,
 							["last_event"] = 1533693177,
-							["total"] = 59.005204,
-							["tipo"] = 3,
-							["serial"] = "Player-3693-09ED9289",
+							["alternatepower"] = 0.005204,
 							["resource_type"] = 8,
+							["serial"] = "Player-3693-09ED9289",
+							["tipo"] = 3,
 						}, -- [1]
 					},
 				}, -- [3]
@@ -6286,42 +6286,39 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[195452] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 195452,
-										["uptime"] = 27,
+										["appliedamt"] = 3,
 										["targets"] = {
 										},
-										["appliedamt"] = 3,
+										["activedamt"] = 0,
+										["uptime"] = 27,
+										["id"] = 195452,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
-							["pets"] = {
-								"Baine Bloodhoof <Alorannah>", -- [1]
-							},
+							["buff_uptime"] = 1,
 							["classe"] = "ROGUE",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[196980] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 196980,
-										["uptime"] = 1,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 196980,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 27,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Alorannah",
 							["grupo"] = true,
 							["spell_cast"] = {
 								[195452] = 3,
@@ -6329,10 +6326,13 @@ _detalhes_database = {
 							["debuff_uptime_targets"] = {
 							},
 							["tipo"] = 4,
-							["nome"] = "Alorannah",
-							["buff_uptime"] = 1,
-							["serial"] = "Player-3693-09ED9289",
+							["buff_uptime_targets"] = {
+							},
 							["last_event"] = 1533693154,
+							["serial"] = "Player-3693-09ED9289",
+							["pets"] = {
+								"Baine Bloodhoof <Alorannah>", -- [1]
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 8465,
@@ -6340,16 +6340,16 @@ _detalhes_database = {
 							["nome"] = "Baine Bloodhoof <Alorannah>",
 							["pets"] = {
 							},
-							["classe"] = "PET",
-							["tipo"] = 4,
 							["last_event"] = 0,
-							["serial"] = "Creature-0-3137-1-13752-130773-00006A4B84",
+							["classe"] = "PET",
 							["spell_cast"] = {
 								[22916] = 4,
 								[15284] = 2,
-								[59705] = 1,
 								[32736] = 1,
+								[59705] = 1,
 							},
+							["serial"] = "Creature-0-3137-1-13752-130773-00006A4B84",
+							["tipo"] = 4,
 						}, -- [2]
 					},
 				}, -- [4]
@@ -6376,21 +6376,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 58.986988,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -6402,10 +6402,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["Alorannah"] = 42835.013108,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -6413,11 +6410,14 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Alorannah"] = 42835.013108,
+						}, -- [1]
 					},
 				},
 				["end_time"] = 1199331.036,
-				["data_inicio"] = "21:52:05",
+				["combat_id"] = 7,
 				["instance_type"] = "none",
 				["resincked"] = true,
 				["hasSaved"] = true,
@@ -6427,8 +6427,7 @@ _detalhes_database = {
 					["Dark Tendril"] = 3,
 				},
 				["data_fim"] = "21:52:41",
-				["TimeData"] = {
-				},
+				["contra"] = "Shadow of Uul",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -6438,30 +6437,29 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 59,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 1199295.149,
-				["contra"] = "Shadow of Uul",
-				["combat_id"] = 7,
+				["TimeData"] = {
+				},
+				["data_inicio"] = "21:52:05",
 			}, -- [18]
 		},
 	},
-	["last_version"] = "v8.0.1.6131",
-	["character_data"] = {
-		["logons"] = 11,
-	},
+	["combat_counter"] = 80,
+	["force_font_outline"] = "",
 	["tabela_instancias"] = {
 	},
 	["local_instances_config"] = {
@@ -6509,24 +6507,31 @@ _detalhes_database = {
 		["custom"] = "",
 		["next"] = "",
 	},
-	["last_instance_time"] = 1533676752,
+	["announce_prepots"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
 	["active_profile"] = "Alorannah-Kel'Thuzad",
 	["last_realversion"] = 132,
-	["ignore_nicktag"] = false,
+	["benchmark_db"] = {
+		["frame"] = {
+		},
+	},
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
+			["enabled"] = true,
 			["showamount"] = false,
-			["animate"] = false,
 			["useplayercolor"] = false,
-			["useclasscolors"] = false,
 			["author"] = "Details! Team",
+			["useclasscolors"] = false,
 			["playercolor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 			},
-			["enabled"] = true,
+			["animate"] = false,
 		},
 		["DETAILS_PLUGIN_RAIDCHECK"] = {
 			["enabled"] = true,
@@ -6541,13 +6546,13 @@ _detalhes_database = {
 		},
 		["DETAILS_PLUGIN_VANGUARD"] = {
 			["enabled"] = true,
-			["tank_block_texture"] = "Details Serenity",
 			["tank_block_color"] = {
 				0.24705882, -- [1]
 				0.0039215, -- [2]
 				0, -- [3]
 				0.8, -- [4]
 			},
+			["tank_block_texture"] = "Details Serenity",
 			["show_inc_bars"] = false,
 			["author"] = "Details! Team",
 			["first_run"] = false,
@@ -6560,11 +6565,11 @@ _detalhes_database = {
 			["max_emote_segments"] = 3,
 			["author"] = "Details! Team",
 			["window_scale"] = 1,
-			["hide_on_combat"] = false,
-			["show_icon"] = 5,
-			["opened"] = 0,
 			["encounter_timers_dbm"] = {
 			},
+			["show_icon"] = 5,
+			["opened"] = 0,
+			["hide_on_combat"] = false,
 		},
 		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
 			["font_color"] = {
@@ -6591,12 +6596,12 @@ _detalhes_database = {
 			},
 			["arrow_anchor_x"] = 0,
 			["row_texture"] = "Details Serenity",
-			["scale"] = 1,
-			["row_height"] = 20,
-			["point"] = "CENTER",
+			["arrow_anchor_y"] = 0,
+			["main_frame_locked"] = false,
+			["main_frame_strata"] = "LOW",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["author"] = "Details! Team",
+			["use_spark"] = true,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -6604,13 +6609,9 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["author"] = "Details! Team",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["y"] = -4.577636718750e-005,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -6618,38 +6619,29 @@ _detalhes_database = {
 				["font_shadow"] = true,
 				["y"] = 6.1035156250e-005,
 				["x"] = -6.1035156250e-005,
-				["size"] = 32,
-				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
+				["update_speed"] = 0.05,
+				["size"] = 32,
 			},
-			["font_size"] = 10,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
-			["y"] = -4.577636718750e-005,
-			["use_spark"] = true,
-			["main_frame_strata"] = "LOW",
-			["main_frame_locked"] = false,
-			["arrow_anchor_y"] = 0,
+			["font_size"] = 10,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["point"] = "CENTER",
+			["row_height"] = 20,
+			["scale"] = 1,
 		},
 	},
 	["nick_tag_cache"] = {
 		["nextreset"] = 1536066826,
 		["last_version"] = 10,
 	},
-	["benchmark_db"] = {
-		["frame"] = {
-		},
-	},
-	["last_day"] = "20",
-	["combat_counter"] = 79,
-	["combat_id"] = 23,
-	["savedStyles"] = {
-	},
-	["announce_prepots"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
-		["reverse"] = false,
-	},
+	["ignore_nicktag"] = false,
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "",
 		["started"] = false,
@@ -6660,6 +6652,15 @@ _detalhes_database = {
 		["level"] = 0,
 		["dungeon_zone_id"] = 0,
 		["previous_boss_killed_at"] = 0,
+	},
+	["last_version"] = "v8.0.1.6131",
+	["combat_id"] = 23,
+	["savedStyles"] = {
+	},
+	["last_instance_time"] = 1533676752,
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
 	},
 	["announce_deaths"] = {
 		["enabled"] = false,
@@ -6685,24 +6686,23 @@ _detalhes_database = {
 						["Fragment of Uul"] = 0,
 						["Necrogg the Darkspeaker"] = 0,
 						["Dark Tendril"] = 0,
-						["Shadow Lurker <Necrogg the Darkspeaker>"] = 0,
+						["Dark Spirit"] = 0,
 						["Shadow of the Darkness"] = 0,
 						["Necrodark Greysworn"] = 0,
 						["Necrodark Defiler"] = 0,
-						["Dark Spirit"] = 0,
+						["Shadow Lurker <Necrogg the Darkspeaker>"] = 0,
 					},
 					["pets"] = {
 					},
-					["on_hold"] = false,
+					["damage_taken"] = 0.007474,
 					["classe"] = "ROGUE",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.007474,
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["dps_started"] = false,
 					["end_time"] = 1533694266,
-					["serial"] = "Player-3693-09ED9289",
+					["delay"] = 0,
 					["total"] = 0.007474,
 					["nome"] = "Alorannah",
 					["spells"] = {
@@ -6714,10 +6714,10 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
-									["Qy'telek"] = 0,
-									["Shadow of Uul"] = 0,
-									["Dark Tendril"] = 0,
 									["Necrodark Greysworn"] = 0,
+									["Shadow of Uul"] = 0,
+									["Qy'telek"] = 0,
+									["Dark Tendril"] = 0,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 0,
@@ -6728,15 +6728,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["c_min"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["c_min"] = 0,
-								["r_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							}, -- [1]
 							[185438] = {
 								["c_amt"] = 0,
@@ -6745,10 +6745,10 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
-									["Qy'telek"] = 0,
-									["Shadow of Uul"] = 0,
-									["Dark Tendril"] = 0,
 									["Necrodark Greysworn"] = 0,
+									["Shadow of Uul"] = 0,
+									["Qy'telek"] = 0,
+									["Dark Tendril"] = 0,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 0,
@@ -6759,15 +6759,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 185438,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["c_min"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["c_min"] = 0,
-								["r_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[195452] = {
 								["c_amt"] = 0,
@@ -6776,10 +6776,10 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
-									["Qy'telek"] = 0,
-									["Shadow of Uul"] = 0,
-									["Dark Tendril"] = 0,
 									["Necrodark Greysworn"] = 0,
+									["Shadow of Uul"] = 0,
+									["Qy'telek"] = 0,
+									["Dark Tendril"] = 0,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 0,
@@ -6790,28 +6790,29 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 195452,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["c_min"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["c_min"] = 0,
-								["r_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
 					["grupo"] = true,
-					["last_event"] = 0,
+					["tipo"] = 1,
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
-					["tipo"] = 1,
-					["damage_taken"] = 0.007474,
+					["last_event"] = 0,
+					["on_hold"] = false,
 					["start_time"] = 1533694263,
-					["delay"] = 0,
-					["last_dps"] = 0,
+					["serial"] = "Player-3693-09ED9289",
+					["friendlyfire"] = {
+					},
 				}, -- [1]
 			},
 		}, -- [1]
@@ -6824,8 +6825,8 @@ _detalhes_database = {
 			["tipo"] = 7,
 			["_ActorTable"] = {
 				{
-					["flag_original"] = 1297,
-					["resource"] = 38.209756,
+					["received"] = 0.005408,
+					["resource"] = 38.245316,
 					["targets"] = {
 						["Alorannah"] = 0,
 					},
@@ -6833,12 +6834,12 @@ _detalhes_database = {
 					},
 					["powertype"] = 1,
 					["classe"] = "ROGUE",
-					["alternatepower"] = 0.005408,
+					["total"] = 0.005408,
 					["nome"] = "Alorannah",
 					["spells"] = {
 						["_ActorTable"] = {
-							[185438] = {
-								["id"] = 185438,
+							[196911] = {
+								["id"] = 196911,
 								["total"] = 0,
 								["targets"] = {
 									["Alorannah"] = 0,
@@ -6861,16 +6862,16 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[98440] = {
-								["id"] = 98440,
+							[185438] = {
+								["id"] = 185438,
 								["total"] = 0,
 								["targets"] = {
 									["Alorannah"] = 0,
 								},
 								["counter"] = 0,
 							},
-							[196911] = {
-								["id"] = 196911,
+							[98440] = {
+								["id"] = 98440,
 								["total"] = 0,
 								["targets"] = {
 									["Alorannah"] = 0,
@@ -6881,12 +6882,12 @@ _detalhes_database = {
 						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["received"] = 0.005408,
+					["flag_original"] = 1297,
 					["last_event"] = 0,
-					["total"] = 0.005408,
-					["tipo"] = 3,
-					["serial"] = "Player-3693-09ED9289",
+					["alternatepower"] = 0.005408,
 					["resource_type"] = 8,
+					["serial"] = "Player-3693-09ED9289",
+					["tipo"] = 3,
 				}, -- [1]
 			},
 		}, -- [3]
@@ -6965,17 +6966,11 @@ _detalhes_database = {
 					["spec"] = 259,
 					["grupo"] = true,
 					["spell_cast"] = {
+						[185438] = 0,
 						[1856] = 0,
 						[195452] = 0,
-						[185438] = 0,
 					},
-					["pets"] = {
-					},
-					["serial"] = "Player-3693-092C3BBC",
-					["tipo"] = 4,
-					["debuff_uptime_targets"] = {
-					},
-					["nome"] = "Alorannah",
+					["last_event"] = 0,
 					["cooldowns_defensive_spells"] = {
 						["_ActorTable"] = {
 							[1856] = {
@@ -6988,7 +6983,13 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["last_event"] = 0,
+					["tipo"] = 4,
+					["nome"] = "Alorannah",
+					["debuff_uptime_targets"] = {
+					},
+					["serial"] = "Player-3693-092C3BBC",
+					["pets"] = {
+					},
 				}, -- [1]
 			},
 		}, -- [4]
@@ -7011,21 +7012,21 @@ _detalhes_database = {
 				0, -- [1]
 				[0] = 0,
 				["alternatepower"] = 0,
-				[3] = 0,
 				[6] = 0,
+				[3] = 0,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["cooldowns_defensive"] = 0,
-				["dispell"] = 0,
+				["dead"] = 0,
+				["cc_break"] = 0,
 				["interrupt"] = 0,
 				["debuff_uptime"] = 0,
-				["cc_break"] = 0,
-				["dead"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 0,
 			}, -- [4]
-			["frags_total"] = 0,
 			["voidzone_damage"] = 0,
+			["frags_total"] = 0,
 		},
 		["totals_grupo"] = {
 			0, -- [1]
@@ -7034,18 +7035,18 @@ _detalhes_database = {
 				0, -- [1]
 				[0] = 0,
 				["alternatepower"] = 0,
-				[3] = 0,
 				[6] = 0,
+				[3] = 0,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["cooldowns_defensive"] = 0,
-				["dispell"] = 0,
+				["dead"] = 0,
+				["cc_break"] = 0,
 				["interrupt"] = 0,
 				["debuff_uptime"] = 0,
-				["cc_break"] = 0,
-				["dead"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 0,
 			}, -- [4]
 		},
 		["frags_need_refresh"] = false,
@@ -7056,20 +7057,20 @@ _detalhes_database = {
 				1, -- [1]
 				1, -- [2]
 			}, -- [1]
-			["damage_section"] = {
+			["damage"] = {
 			},
 			["heal_section"] = {
 			},
 			["heal"] = {
 			},
-			["damage"] = {
+			["damage_section"] = {
 			},
 		},
 		["hasSaved"] = true,
 		["frags"] = {
 		},
 		["data_fim"] = 0,
-		["data_inicio"] = 0,
+		["overall_refreshed"] = true,
 		["CombatSkillCache"] = {
 		},
 		["player_last_events"] = {
@@ -7079,20 +7080,19 @@ _detalhes_database = {
 			["Raid Damage Done"] = {
 			},
 		},
-		["overall_refreshed"] = true,
+		["data_inicio"] = 0,
 	},
-	["force_font_outline"] = "",
 	["SoloTablesSaved"] = {
 		["Mode"] = 1,
 	},
-	["announce_firsthit"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
+	["character_data"] = {
+		["logons"] = 12,
 	},
+	["last_day"] = "21",
 	["announce_cooldowns"] = {
-		["enabled"] = false,
 		["ignored_cooldowns"] = {
 		},
+		["enabled"] = false,
 		["custom"] = "",
 		["channel"] = "RAID",
 	},

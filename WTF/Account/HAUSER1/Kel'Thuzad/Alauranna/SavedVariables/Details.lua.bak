@@ -21,16 +21,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 7105.002274,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 12522.002274,
-							["on_hold"] = false,
+							["classe"] = "DRUID",
 							["dps_started"] = false,
 							["end_time"] = 1533057926,
-							["serial"] = "Player-3693-0844F6BF",
+							["delay"] = 1533057640,
 							["total"] = 12522.002274,
 							["nome"] = "Alauranna",
 							["spells"] = {
@@ -53,16 +52,16 @@ _detalhes_database = {
 										["c_max"] = 309,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 294,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 102,
 										["n_amt"] = 10,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									}, -- [1]
 									[5221] = {
 										["c_amt"] = 2,
@@ -82,16 +81,16 @@ _detalhes_database = {
 										["c_max"] = 605,
 										["id"] = 5221,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 604,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 									[1822] = {
 										["c_amt"] = 1,
@@ -111,45 +110,16 @@ _detalhes_database = {
 										["c_max"] = 1079,
 										["id"] = 1822,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 1079,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[22568] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 979,
-										["targets"] = {
-											["Raider's Training Dummy"] = 1917,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1917,
-										["n_min"] = 938,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 1917,
-										["c_max"] = 0,
-										["id"] = 22568,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
 										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
 									},
 									[155722] = {
 										["c_amt"] = 2,
@@ -169,29 +139,59 @@ _detalhes_database = {
 										["c_max"] = 921,
 										["id"] = 155722,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 461,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 9,
-										["a_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[22568] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 979,
+										["targets"] = {
+											["Raider's Training Dummy"] = 1917,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1917,
+										["n_min"] = 938,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1917,
+										["c_max"] = 0,
+										["id"] = 22568,
+										["r_dmg"] = 0,
 										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["tipo"] = 1,
+							["last_event"] = 1533057640,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1533057640,
-							["damage_taken"] = 2944.002274,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1533057897,
-							["delay"] = 1533057640,
-							["classe"] = "DRUID",
+							["serial"] = "Player-3693-0844F6BF",
+							["on_hold"] = false,
 						}, -- [1]
 					},
 				}, -- [1]
@@ -209,20 +209,19 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["totalover_without_pet"] = 0.006602,
+							["iniciar_hps"] = false,
 							["targets_overheal"] = {
 								["Alauranna"] = 5174,
 							},
 							["heal_enemy_amt"] = 0,
 							["totalover"] = 5174.006602,
 							["total_without_pet"] = 0.006602,
-							["classe"] = "DRUID",
-							["iniciar_hps"] = false,
 							["healing_taken"] = 0.006602,
+							["totalover_without_pet"] = 0.006602,
+							["classe"] = "DRUID",
 							["total"] = 0.006602,
-							["serial"] = "Player-3693-0844F6BF",
-							["targets_absorbs"] = {
-							},
+							["delay"] = 0,
+							["last_event"] = 1533057631,
 							["nome"] = "Alauranna",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -246,12 +245,12 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 0,
-										["n_amt"] = 7,
-										["totaldenied"] = 0,
 										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 7,
+										["n_curado"] = 0,
+										["m_amt"] = 0,
 										["absorbed"] = 0,
 									},
 								},
@@ -261,13 +260,14 @@ _detalhes_database = {
 							["end_time"] = 1533057633,
 							["heal_enemy"] = {
 							},
-							["totaldenied"] = 0.006602,
+							["start_time"] = 1533057619,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["on_hold"] = false,
-							["start_time"] = 1533057619,
-							["delay"] = 0,
-							["last_event"] = 1533057631,
+							["totaldenied"] = 0.006602,
+							["serial"] = "Player-3693-0844F6BF",
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -276,16 +276,16 @@ _detalhes_database = {
 					["combatId"] = 12,
 					["_ActorTable"] = {
 						{
-							["flag_original"] = 1297,
+							["received"] = 68.007858,
 							["resource"] = 0.007858,
 							["targets"] = {
-								["Alauranna"] = 48,
+								["Alauranna"] = 68,
 							},
 							["pets"] = {
 							},
 							["powertype"] = 0,
 							["classe"] = "DRUID",
-							["alternatepower"] = 0.007858,
+							["total"] = 68.007858,
 							["nome"] = "Alauranna",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -305,6 +305,14 @@ _detalhes_database = {
 										},
 										["counter"] = 2,
 									},
+									[17057] = {
+										["id"] = 17057,
+										["total"] = 60,
+										["targets"] = {
+											["Alauranna"] = 60,
+										},
+										["counter"] = 3,
+									},
 									[1822] = {
 										["id"] = 1822,
 										["total"] = 2,
@@ -313,23 +321,15 @@ _detalhes_database = {
 										},
 										["counter"] = 2,
 									},
-									[17057] = {
-										["id"] = 17057,
-										["total"] = 40,
-										["targets"] = {
-											["Alauranna"] = 40,
-										},
-										["counter"] = 2,
-									},
 								},
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["tipo"] = 3,
-							["received"] = 48.007858,
-							["total"] = 48.007858,
+							["flag_original"] = 1297,
+							["alternatepower"] = 0.007858,
 							["serial"] = "Player-3693-0844F6BF",
-							["last_event"] = 1533690117,
+							["last_event"] = 1534775549,
 						}, -- [1]
 					},
 				}, -- [3]
@@ -342,15 +342,15 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[155722] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 1,
+										["id"] = 155722,
+										["uptime"] = 21,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 21,
-										["id"] = 155722,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
@@ -361,70 +361,48 @@ _detalhes_database = {
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[768] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 768,
+										["uptime"] = 20,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 20,
-										["id"] = 768,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[186406] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186406,
+										["uptime"] = 21,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 21,
-										["id"] = 186406,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[135700] = {
-										["appliedamt"] = 2,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 135700,
+										["uptime"] = 2,
 										["targets"] = {
 										},
-										["activedamt"] = 2,
-										["uptime"] = 2,
-										["id"] = 135700,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 2,
 									},
 									[8936] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
-										["uptime"] = 12,
+										["refreshamt"] = 0,
 										["id"] = 8936,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[783] = {
-										["appliedamt"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 783,
-										["uptime"] = 0,
+										["uptime"] = 12,
 										["targets"] = {
 										},
-										["counter"] = 0,
-									},
-									[69369] = {
-										["appliedamt"] = 2,
-										["targets"] = {
-										},
-										["activedamt"] = 2,
-										["uptime"] = 13,
-										["id"] = 69369,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[165961] = {
 										["activedamt"] = 1,
@@ -433,33 +411,55 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1533057632,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = true,
+										["appliedamt"] = 1,
+									},
+									[69369] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 69369,
+										["uptime"] = 13,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[783] = {
+										["counter"] = 0,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = 783,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["appliedamt"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 21,
-							["nome"] = "Alauranna",
+							["buff_uptime_targets"] = {
+							},
 							["grupo"] = true,
 							["spell_cast"] = {
 								[22568] = 2,
 								[1822] = 2,
 								[8936] = 1,
-								[783] = 1,
-								[16953] = 2,
 								[5221] = 4,
+								[16953] = 2,
+								[783] = 1,
 							},
 							["debuff_uptime_targets"] = {
 							},
 							["tipo"] = 4,
-							["buff_uptime_targets"] = {
-							},
-							["last_event"] = 1533690155,
-							["serial"] = "Player-3693-0844F6BF",
+							["nome"] = "Alauranna",
 							["buff_uptime"] = 68,
+							["serial"] = "Player-3693-0844F6BF",
+							["last_event"] = 1533690155,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -480,27 +480,27 @@ _detalhes_database = {
 				["combat_counter"] = 144,
 				["playing_solo"] = true,
 				["totals"] = {
-					12521.067206, -- [1]
+					12521.042578, -- [1]
 					0, -- [2]
 					{
-						4.9976, -- [1]
-						[0] = 319.749636,
+						4.996299, -- [1]
+						[0] = 339.749636,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = -277.008977,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 					["Alauranna"] = {
@@ -517,6 +517,16 @@ _detalhes_database = {
 							-1, -- [10]
 						}, -- [1]
 						{
+							true, -- [1]
+							3, -- [2]
+							4161, -- [3]
+							1534775369.897, -- [4]
+							15219, -- [5]
+							"Environment (Falling)", -- [6]
+							nil, -- [7]
+							3, -- [8]
+							false, -- [9]
+							-1, -- [10]
 						}, -- [2]
 						{
 						}, -- [3]
@@ -578,7 +588,7 @@ _detalhes_database = {
 						}, -- [31]
 						{
 						}, -- [32]
-						["n"] = 2,
+						["n"] = 3,
 					},
 				},
 				["frags_need_refresh"] = false,
@@ -589,7 +599,10 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Alauranna"] = 13428.013816,
+						}, -- [1]
 					},
 					["heal_section"] = {
 					},
@@ -598,10 +611,7 @@ _detalhes_database = {
 							["Alauranna"] = 544.011371,
 						}, -- [1]
 					},
-					["damage"] = {
-						{
-							["Alauranna"] = 13428.013816,
-						}, -- [1]
+					["damage_section"] = {
 					},
 				},
 				["end_time"] = 1196325.274,
@@ -620,20 +630,20 @@ _detalhes_database = {
 					0, -- [2]
 					{
 						0, -- [1]
-						[0] = 48,
+						[0] = 68,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 563797.038,
@@ -657,16 +667,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 2559.002274,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 12522.002274,
-							["on_hold"] = false,
+							["classe"] = "DRUID",
 							["dps_started"] = false,
 							["end_time"] = 1533057926,
-							["serial"] = "Player-3693-0844F6BF",
+							["delay"] = 1533057640,
 							["total"] = 12522.002274,
 							["nome"] = "Alauranna",
 							["spells"] = {
@@ -689,16 +698,16 @@ _detalhes_database = {
 										["c_max"] = 309,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 294,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 102,
 										["n_amt"] = 10,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									}, -- [1]
 									[5221] = {
 										["c_amt"] = 2,
@@ -718,16 +727,16 @@ _detalhes_database = {
 										["c_max"] = 605,
 										["id"] = 5221,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 604,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 									[1822] = {
 										["c_amt"] = 1,
@@ -747,45 +756,16 @@ _detalhes_database = {
 										["c_max"] = 1079,
 										["id"] = 1822,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 1079,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[22568] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 979,
-										["targets"] = {
-											["Raider's Training Dummy"] = 1917,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 1917,
-										["n_min"] = 938,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 1917,
-										["c_max"] = 0,
-										["id"] = 22568,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
 										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
 									},
 									[155722] = {
 										["c_amt"] = 2,
@@ -805,29 +785,59 @@ _detalhes_database = {
 										["c_max"] = 921,
 										["id"] = 155722,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 461,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 9,
-										["a_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[22568] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 979,
+										["targets"] = {
+											["Raider's Training Dummy"] = 1917,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 1917,
+										["n_min"] = 938,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 1917,
+										["c_max"] = 0,
+										["id"] = 22568,
+										["r_dmg"] = 0,
 										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["tipo"] = 1,
+							["last_event"] = 1533057640,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1533057640,
-							["damage_taken"] = 2559.002274,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1533057897,
-							["delay"] = 1533057640,
-							["classe"] = "DRUID",
+							["serial"] = "Player-3693-0844F6BF",
+							["on_hold"] = false,
 						}, -- [1]
 					},
 				}, -- [1]
@@ -845,20 +855,19 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["totalover_without_pet"] = 0.006602,
+							["iniciar_hps"] = false,
 							["targets_overheal"] = {
 								["Alauranna"] = 5174,
 							},
 							["heal_enemy_amt"] = 0,
 							["totalover"] = 5174.006602,
 							["total_without_pet"] = 0.006602,
-							["classe"] = "DRUID",
-							["iniciar_hps"] = false,
 							["healing_taken"] = 0.006602,
+							["totalover_without_pet"] = 0.006602,
+							["classe"] = "DRUID",
 							["total"] = 0.006602,
-							["serial"] = "Player-3693-0844F6BF",
-							["targets_absorbs"] = {
-							},
+							["delay"] = 0,
+							["last_event"] = 1533057631,
 							["nome"] = "Alauranna",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -882,12 +891,12 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 0,
-										["n_amt"] = 7,
-										["totaldenied"] = 0,
 										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 7,
+										["n_curado"] = 0,
+										["m_amt"] = 0,
 										["absorbed"] = 0,
 									},
 								},
@@ -897,13 +906,14 @@ _detalhes_database = {
 							["end_time"] = 1533057633,
 							["heal_enemy"] = {
 							},
-							["totaldenied"] = 0.006602,
+							["start_time"] = 1533057619,
 							["custom"] = 0,
 							["tipo"] = 2,
 							["on_hold"] = false,
-							["start_time"] = 1533057619,
-							["delay"] = 0,
-							["last_event"] = 1533057631,
+							["totaldenied"] = 0.006602,
+							["serial"] = "Player-3693-0844F6BF",
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -912,7 +922,7 @@ _detalhes_database = {
 					["combatId"] = 12,
 					["_ActorTable"] = {
 						{
-							["flag_original"] = 1297,
+							["received"] = 48.007858,
 							["resource"] = 0.007858,
 							["targets"] = {
 								["Alauranna"] = 48,
@@ -921,7 +931,7 @@ _detalhes_database = {
 							},
 							["powertype"] = 0,
 							["classe"] = "DRUID",
-							["alternatepower"] = 0.007858,
+							["total"] = 48.007858,
 							["nome"] = "Alauranna",
 							["spells"] = {
 								["_ActorTable"] = {
@@ -941,14 +951,6 @@ _detalhes_database = {
 										},
 										["counter"] = 2,
 									},
-									[1822] = {
-										["id"] = 1822,
-										["total"] = 2,
-										["targets"] = {
-											["Alauranna"] = 2,
-										},
-										["counter"] = 2,
-									},
 									[17057] = {
 										["id"] = 17057,
 										["total"] = 40,
@@ -957,13 +959,21 @@ _detalhes_database = {
 										},
 										["counter"] = 2,
 									},
+									[1822] = {
+										["id"] = 1822,
+										["total"] = 2,
+										["targets"] = {
+											["Alauranna"] = 2,
+										},
+										["counter"] = 2,
+									},
 								},
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
 							["tipo"] = 3,
-							["received"] = 48.007858,
-							["total"] = 48.007858,
+							["flag_original"] = 1297,
+							["alternatepower"] = 0.007858,
 							["serial"] = "Player-3693-0844F6BF",
 							["last_event"] = 1533690117,
 						}, -- [1]
@@ -978,15 +988,15 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[155722] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 1,
+										["id"] = 155722,
+										["uptime"] = 21,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 21,
-										["id"] = 155722,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
@@ -997,70 +1007,48 @@ _detalhes_database = {
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[768] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 768,
+										["uptime"] = 20,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 20,
-										["id"] = 768,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[186406] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186406,
+										["uptime"] = 21,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 21,
-										["id"] = 186406,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[135700] = {
-										["appliedamt"] = 2,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 135700,
+										["uptime"] = 2,
 										["targets"] = {
 										},
-										["activedamt"] = 2,
-										["uptime"] = 2,
-										["id"] = 135700,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 2,
 									},
 									[8936] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
-										["uptime"] = 12,
+										["refreshamt"] = 0,
 										["id"] = 8936,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[783] = {
-										["appliedamt"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 783,
-										["uptime"] = 0,
+										["uptime"] = 12,
 										["targets"] = {
 										},
-										["counter"] = 0,
-									},
-									[69369] = {
-										["appliedamt"] = 2,
-										["targets"] = {
-										},
-										["activedamt"] = 2,
-										["uptime"] = 13,
-										["id"] = 69369,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[165961] = {
 										["activedamt"] = 1,
@@ -1069,33 +1057,55 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1533057632,
 										["uptime"] = 0,
-										["appliedamt"] = 1,
+										["counter"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = true,
+										["appliedamt"] = 1,
+									},
+									[69369] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 69369,
+										["uptime"] = 13,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[783] = {
+										["counter"] = 0,
+										["targets"] = {
+										},
+										["activedamt"] = 0,
+										["uptime"] = 0,
+										["id"] = 783,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["appliedamt"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 21,
-							["nome"] = "Alauranna",
+							["buff_uptime_targets"] = {
+							},
 							["grupo"] = true,
 							["spell_cast"] = {
 								[22568] = 2,
 								[1822] = 2,
 								[8936] = 1,
-								[783] = 1,
-								[16953] = 2,
 								[5221] = 4,
+								[16953] = 2,
+								[783] = 1,
 							},
 							["debuff_uptime_targets"] = {
 							},
 							["tipo"] = 4,
-							["buff_uptime_targets"] = {
-							},
-							["last_event"] = 1533690155,
-							["serial"] = "Player-3693-0844F6BF",
+							["nome"] = "Alauranna",
 							["buff_uptime"] = 68,
+							["serial"] = "Player-3693-0844F6BF",
+							["last_event"] = 1533690155,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -1122,21 +1132,21 @@ _detalhes_database = {
 						4.9976, -- [1]
 						[0] = 319.752503,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = -277.008977,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -1148,7 +1158,10 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Alauranna"] = 13428.013816,
+						}, -- [1]
 					},
 					["heal_section"] = {
 					},
@@ -1157,15 +1170,12 @@ _detalhes_database = {
 							["Alauranna"] = 544.011371,
 						}, -- [1]
 					},
-					["damage"] = {
-						{
-							["Alauranna"] = 13428.013816,
-						}, -- [1]
+					["damage_section"] = {
 					},
 				},
 				["end_time"] = 1196325.274,
-				["combat_id"] = 12,
 				["instance_type"] = "none",
+				["combat_id"] = 12,
 				["resincked"] = true,
 				["hasSaved"] = true,
 				["frags"] = {
@@ -1181,18 +1191,18 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 48,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 563797.038,
@@ -1204,7 +1214,7 @@ _detalhes_database = {
 	},
 	["last_version"] = "v8.0.1.6131",
 	["character_data"] = {
-		["logons"] = 99,
+		["logons"] = 100,
 	},
 	["tabela_instancias"] = {
 	},
@@ -1265,17 +1275,28 @@ _detalhes_database = {
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
+			["enabled"] = true,
 			["showamount"] = false,
-			["animate"] = false,
 			["useplayercolor"] = false,
-			["useclasscolors"] = false,
 			["author"] = "Details! Team",
+			["useclasscolors"] = false,
 			["playercolor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 			},
+			["animate"] = false,
+		},
+		["DETAILS_PLUGIN_DAMAGE_RANK"] = {
+			["lasttry"] = {
+			},
+			["annouce"] = true,
+			["dpshistory"] = {
+			},
 			["enabled"] = true,
+			["author"] = "Details! Team",
+			["level"] = 1,
+			["dps"] = 0,
 		},
 		["DETAILS_PLUGIN_TIME_ATTACK"] = {
 			["enabled"] = true,
@@ -1288,31 +1309,20 @@ _detalhes_database = {
 			},
 			["time"] = 40,
 			["history_lastindex"] = 0,
-			["realm_lastamt"] = 0,
+			["author"] = "Details! Team",
 			["realm_history"] = {
 			},
-			["author"] = "Details! Team",
-		},
-		["DETAILS_PLUGIN_DAMAGE_RANK"] = {
-			["lasttry"] = {
-			},
-			["annouce"] = true,
-			["dpshistory"] = {
-			},
-			["author"] = "Details! Team",
-			["dps"] = 0,
-			["level"] = 1,
-			["enabled"] = true,
+			["realm_lastamt"] = 0,
 		},
 		["DETAILS_PLUGIN_VANGUARD"] = {
 			["enabled"] = true,
-			["tank_block_texture"] = "Details Serenity",
 			["tank_block_color"] = {
 				0.24705882, -- [1]
 				0.0039215, -- [2]
 				0, -- [3]
 				0.8, -- [4]
 			},
+			["tank_block_texture"] = "Details Serenity",
 			["show_inc_bars"] = false,
 			["author"] = "Details! Team",
 			["first_run"] = false,
@@ -1325,16 +1335,11 @@ _detalhes_database = {
 			["max_emote_segments"] = 3,
 			["author"] = "Details! Team",
 			["window_scale"] = 1,
-			["hide_on_combat"] = false,
-			["show_icon"] = 5,
-			["opened"] = 0,
 			["encounter_timers_dbm"] = {
 			},
-		},
-		["DETAILS_PLUGIN_DPS_TUNING"] = {
-			["enabled"] = true,
-			["author"] = "Details! Team",
-			["SpellBarsShowType"] = 1,
+			["show_icon"] = 5,
+			["opened"] = 0,
+			["hide_on_combat"] = false,
 		},
 		["DETAILS_PLUGIN_RAIDCHECK"] = {
 			["enabled"] = true,
@@ -1346,6 +1351,11 @@ _detalhes_database = {
 			["pre_pot_healers"] = false,
 			["pre_pot_tanks"] = false,
 			["food_tier3"] = true,
+		},
+		["DETAILS_PLUGIN_DPS_TUNING"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+			["SpellBarsShowType"] = 1,
 		},
 		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
 			["font_color"] = {
@@ -1372,12 +1382,17 @@ _detalhes_database = {
 			},
 			["arrow_anchor_x"] = 0,
 			["row_texture"] = "Details Serenity",
-			["scale"] = 1,
-			["row_height"] = 20,
-			["point"] = "CENTER",
+			["arrow_anchor_y"] = 0,
+			["main_frame_locked"] = false,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["main_frame_strata"] = "LOW",
+			["use_spark"] = true,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -1385,8 +1400,9 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["author"] = "Details! Team",
+			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["y"] = -4.577636718750e-005,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -1394,24 +1410,23 @@ _detalhes_database = {
 				["font_shadow"] = true,
 				["y"] = 6.1035156250e-005,
 				["x"] = -6.1035156250e-005,
-				["size"] = 32,
-				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
+				["update_speed"] = 0.05,
+				["size"] = 32,
 			},
-			["font_size"] = 10,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
-			["y"] = -4.577636718750e-005,
-			["use_spark"] = true,
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
-			["main_frame_locked"] = false,
-			["arrow_anchor_y"] = 0,
+			["font_size"] = 10,
+			["author"] = "Details! Team",
+			["point"] = "CENTER",
+			["row_height"] = 20,
+			["scale"] = 1,
 		},
+	},
+	["announce_prepots"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+		["reverse"] = false,
 	},
 	["last_realversion"] = 132,
 	["mythic_dungeon_currentsaved"] = {
@@ -1425,23 +1440,14 @@ _detalhes_database = {
 		["dungeon_zone_id"] = 0,
 		["previous_boss_killed_at"] = 0,
 	},
-	["announce_prepots"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
-		["reverse"] = false,
-	},
-	["last_day"] = "14",
-	["announce_firsthit"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
-	},
+	["last_day"] = "20",
+	["ignore_nicktag"] = false,
 	["combat_id"] = 12,
 	["savedStyles"] = {
 	},
-	["force_font_outline"] = "",
-	["SoloTablesSaved"] = {
-		["Mode"] = 1,
+	["cached_talents"] = {
 	},
+	["combat_counter"] = 159,
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -1462,15 +1468,16 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["damage_taken"] = 0.004727,
+					["on_hold"] = false,
 					["classe"] = "DRUID",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.004727,
-					["last_dps"] = 0,
+					["friendlyfire"] = {
+					},
 					["dps_started"] = false,
 					["end_time"] = 1533058522,
-					["delay"] = 0,
+					["serial"] = "Player-3693-0844F6BF",
 					["total"] = 0.004727,
 					["nome"] = "Alauranna",
 					["spells"] = {
@@ -1493,15 +1500,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							}, -- [1]
 							[5221] = {
 								["c_amt"] = 0,
@@ -1521,15 +1528,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 5221,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							},
 							[1822] = {
 								["c_amt"] = 0,
@@ -1549,43 +1556,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1822,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
-							},
-							[155722] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Raider's Training Dummy"] = 0,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 155722,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 							},
 							[22568] = {
 								["c_amt"] = 0,
@@ -1605,29 +1584,56 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 22568,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
+							},
+							[155722] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Raider's Training Dummy"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 155722,
+								["r_dmg"] = 0,
 								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
 					["grupo"] = true,
-					["tipo"] = 1,
+					["last_event"] = 0,
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
+					["tipo"] = 1,
+					["damage_taken"] = 0.004727,
 					["start_time"] = 1533058519,
-					["serial"] = "Player-3693-0844F6BF",
-					["friendlyfire"] = {
-					},
+					["delay"] = 0,
+					["last_dps"] = 0,
 				}, -- [1]
 			},
 		}, -- [1]
@@ -1645,17 +1651,25 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["totalover_without_pet"] = 0.008535,
+					["iniciar_hps"] = false,
 					["healing_from"] = {
 					},
 					["heal_enemy_amt"] = 0,
 					["totalover"] = 0.008535,
 					["total_without_pet"] = 0.008535,
-					["totaldenied"] = 0.008535,
-					["iniciar_hps"] = false,
-					["healing_taken"] = 0.008535,
 					["end_time"] = 1533058522,
-					["delay"] = 0,
+					["totalover_without_pet"] = 0.008535,
+					["healing_taken"] = 0.008535,
+					["total"] = 0.008535,
+					["serial"] = "Player-3693-0844F6BF",
+					["classe"] = "DRUID",
+					["nome"] = "Alauranna",
+					["targets_absorbs"] = {
+					},
+					["grupo"] = true,
+					["start_time"] = 1533058519,
+					["heal_enemy"] = {
+					},
 					["spells"] = {
 						["_ActorTable"] = {
 							[8936] = {
@@ -1678,31 +1692,23 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["totaldenied"] = 0,
-								["m_amt"] = 0,
-								["m_healed"] = 0,
-								["n_amt"] = 0,
-								["n_curado"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
+								["n_curado"] = 0,
+								["n_amt"] = 0,
+								["totaldenied"] = 0,
+								["m_healed"] = 0,
 								["absorbed"] = 0,
 							},
 						},
 						["tipo"] = 3,
 					},
-					["nome"] = "Alauranna",
-					["targets_absorbs"] = {
-					},
-					["grupo"] = true,
-					["total"] = 0.008535,
-					["heal_enemy"] = {
-					},
-					["last_event"] = 0,
 					["custom"] = 0,
-					["tipo"] = 2,
+					["last_event"] = 0,
 					["on_hold"] = false,
-					["start_time"] = 1533058519,
-					["serial"] = "Player-3693-0844F6BF",
-					["classe"] = "DRUID",
+					["totaldenied"] = 0.008535,
+					["delay"] = 0,
+					["tipo"] = 2,
 				}, -- [1]
 			},
 		}, -- [2]
@@ -1710,8 +1716,8 @@ _detalhes_database = {
 			["tipo"] = 7,
 			["_ActorTable"] = {
 				{
-					["received"] = 0.003452,
-					["resource"] = 0.137038,
+					["flag_original"] = 1297,
+					["resource"] = 0.152754,
 					["targets"] = {
 						["Alauranna"] = 0,
 					},
@@ -1719,7 +1725,7 @@ _detalhes_database = {
 					},
 					["powertype"] = 0,
 					["classe"] = "DRUID",
-					["total"] = 0.003452,
+					["alternatepower"] = 0.003452,
 					["nome"] = "Alauranna",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -1739,16 +1745,16 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[17057] = {
-								["id"] = 17057,
+							[1822] = {
+								["id"] = 1822,
 								["total"] = 0,
 								["targets"] = {
 									["Alauranna"] = 0,
 								},
 								["counter"] = 0,
 							},
-							[1822] = {
-								["id"] = 1822,
+							[17057] = {
+								["id"] = 17057,
 								["total"] = 0,
 								["targets"] = {
 									["Alauranna"] = 0,
@@ -1760,8 +1766,8 @@ _detalhes_database = {
 					},
 					["grupo"] = true,
 					["last_event"] = 0,
-					["flag_original"] = 1297,
-					["alternatepower"] = 0.003452,
+					["received"] = 0.003452,
+					["total"] = 0.003452,
 					["serial"] = "Player-3693-0844F6BF",
 					["tipo"] = 3,
 				}, -- [1]
@@ -1783,8 +1789,7 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["pets"] = {
-					},
+					["buff_uptime"] = 0,
 					["classe"] = "DRUID",
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
@@ -1812,8 +1817,8 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[165961] = {
-								["id"] = 165961,
+							[783] = {
+								["id"] = 783,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -1824,8 +1829,8 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[783] = {
-								["id"] = 783,
+							[165961] = {
+								["id"] = 165961,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -1834,24 +1839,25 @@ _detalhes_database = {
 						["tipo"] = 9,
 					},
 					["debuff_uptime"] = 0,
-					["buff_uptime_targets"] = {
+					["debuff_uptime_targets"] = {
 					},
 					["grupo"] = true,
 					["spell_cast"] = {
 						[22568] = 0,
 						[5221] = 0,
 						[8936] = 0,
-						[1822] = 0,
-						[16953] = 0,
 						[783] = 0,
+						[16953] = 0,
+						[1822] = 0,
 					},
 					["nome"] = "Alauranna",
 					["last_event"] = 0,
-					["debuff_uptime_targets"] = {
+					["buff_uptime_targets"] = {
 					},
-					["buff_uptime"] = 0,
-					["serial"] = "Player-3693-0844F6BF",
 					["tipo"] = 4,
+					["serial"] = "Player-3693-0844F6BF",
+					["pets"] = {
+					},
 				}, -- [1]
 			},
 		}, -- [4]
@@ -1874,21 +1880,21 @@ _detalhes_database = {
 				0, -- [1]
 				[0] = 0,
 				["alternatepower"] = 0,
-				[3] = 0,
 				[6] = 0,
+				[3] = 0,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["cooldowns_defensive"] = 0,
-				["dispell"] = 0,
+				["dead"] = 0,
+				["cc_break"] = 0,
 				["interrupt"] = 0,
 				["debuff_uptime"] = 0,
-				["cc_break"] = 0,
-				["dead"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 0,
 			}, -- [4]
-			["frags_total"] = 0,
 			["voidzone_damage"] = 0,
+			["frags_total"] = 0,
 		},
 		["totals_grupo"] = {
 			0, -- [1]
@@ -1897,18 +1903,18 @@ _detalhes_database = {
 				0, -- [1]
 				[0] = 0,
 				["alternatepower"] = 0,
-				[3] = 0,
 				[6] = 0,
+				[3] = 0,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["cooldowns_defensive"] = 0,
-				["dispell"] = 0,
+				["dead"] = 0,
+				["cc_break"] = 0,
 				["interrupt"] = 0,
 				["debuff_uptime"] = 0,
-				["cc_break"] = 0,
-				["dead"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 0,
 			}, -- [4]
 		},
 		["frags_need_refresh"] = false,
@@ -1919,20 +1925,20 @@ _detalhes_database = {
 				1, -- [1]
 				1, -- [2]
 			}, -- [1]
-			["damage_section"] = {
+			["damage"] = {
 			},
 			["heal_section"] = {
 			},
 			["heal"] = {
 			},
-			["damage"] = {
+			["damage_section"] = {
 			},
 		},
 		["hasSaved"] = true,
 		["frags"] = {
 		},
 		["data_fim"] = 0,
-		["data_inicio"] = 0,
+		["overall_refreshed"] = true,
 		["CombatSkillCache"] = {
 		},
 		["player_last_events"] = {
@@ -1942,16 +1948,20 @@ _detalhes_database = {
 			["Raid Damage Done"] = {
 			},
 		},
-		["overall_refreshed"] = true,
+		["data_inicio"] = 0,
 	},
-	["combat_counter"] = 158,
-	["cached_talents"] = {
+	["SoloTablesSaved"] = {
+		["Mode"] = 1,
 	},
-	["ignore_nicktag"] = false,
+	["force_font_outline"] = "",
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
 	["announce_cooldowns"] = {
-		["enabled"] = false,
 		["ignored_cooldowns"] = {
 		},
+		["enabled"] = false,
 		["custom"] = "",
 		["channel"] = "RAID",
 	},
