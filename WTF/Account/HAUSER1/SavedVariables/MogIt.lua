@@ -30,11 +30,11 @@ MogItDB = {
 		["Hauzerhunter - Kel'Thuzad"] = "Default",
 		["Hauzerone - Dalaran"] = "Default",
 		["Skãdi - Kel'Thuzad"] = "Default",
-		["Fsdkjhskdjfh - Kel'Thuzad"] = "Default",
+		["Olrapey - Kel'Thuzad"] = "Default",
 		["Kmkarbashian - Kel'Thuzad"] = "Default",
 		["Beatryce - Kel'Thuzad"] = "Default",
 		["Hauzer - Kel'Thuzad"] = "Default",
-		["Olrapey - Kel'Thuzad"] = "Default",
+		["Fsdkjhskdjfh - Kel'Thuzad"] = "Default",
 		["Loranah - Kel'Thuzad"] = "Default",
 		["Lorranah - Kel'Thuzad"] = "Default",
 	},
@@ -87,12 +87,12 @@ MogItDB = {
 				["Holdable"] = "Held In Off-hand",
 				["Wrist"] = "Wrist",
 				["Crossbow"] = "Crossbows",
-				["Feet"] = "Feet",
+				["Staff"] = "Staves",
 				["Chest"] = "Chest",
 				["1H-axe"] = "One-Handed Axes",
 				["1H-sword"] = "One-Handed Swords",
 				["Bow"] = "Bows",
-				["Staff"] = "Staves",
+				["Feet"] = "Feet",
 				["Shield"] = "Shields",
 				["Shoulder"] = "Shoulder",
 				["Wand"] = "Wands",
@@ -139,11 +139,11 @@ MogItWishlist = {
 		["Hauzerhunter - Kel'Thuzad"] = "Hauzerhunter - Kel'Thuzad",
 		["Hauzerone - Dalaran"] = "Hauzerone - Dalaran",
 		["Skãdi - Kel'Thuzad"] = "Skãdi - Kel'Thuzad",
-		["Fsdkjhskdjfh - Kel'Thuzad"] = "Fsdkjhskdjfh - Kel'Thuzad",
+		["Olrapey - Kel'Thuzad"] = "Olrapey - Kel'Thuzad",
 		["Kmkarbashian - Kel'Thuzad"] = "Kmkarbashian - Kel'Thuzad",
 		["Beatryce - Kel'Thuzad"] = "Beatryce - Kel'Thuzad",
 		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
-		["Olrapey - Kel'Thuzad"] = "Olrapey - Kel'Thuzad",
+		["Fsdkjhskdjfh - Kel'Thuzad"] = "Fsdkjhskdjfh - Kel'Thuzad",
 		["Loranah - Kel'Thuzad"] = "Loranah - Kel'Thuzad",
 		["Lorranah - Kel'Thuzad"] = "Lorranah - Kel'Thuzad",
 	},
@@ -279,11 +279,11 @@ MogItWishlist = {
 					["items"] = {
 						["ChestSlot"] = "item:18312:0",
 						["FeetSlot"] = "item:14784:0",
-						["ShoulderSlot"] = "item:70985:0",
 						["HeadSlot"] = "item:32476:0",
-						["HandsSlot"] = "item:10268:0",
-						["MainHandSlot"] = "item:78359:0",
+						["ShoulderSlot"] = "item:70985:0",
 						["LegsSlot"] = "item:12420:0",
+						["MainHandSlot"] = "item:78359:0",
+						["HandsSlot"] = "item:10268:0",
 					},
 					["name"] = "fire hunter",
 					["alternateItems"] = {
@@ -349,9 +349,9 @@ MogItWishlist = {
 						["MainHandSlot"] = "item:52631:0",
 						["FeetSlot"] = "item:117057:0",
 						["HeadSlot"] = "item:5753:0",
-						["WaistSlot"] = "item:4249:0",
-						["HandsSlot"] = "item:26022:0",
 						["LegsSlot"] = "item:3315:0",
+						["HandsSlot"] = "item:26022:0",
+						["WaistSlot"] = "item:4249:0",
 					},
 					["name"] = "sexy",
 					["alternateItems"] = {
@@ -374,8 +374,8 @@ MogItWishlist = {
 						["HeadSlot"] = "item:45439:0",
 						["MainHandSlot"] = "item:52631:0",
 						["FeetSlot"] = "item:117057:0",
-						["LegsSlot"] = "item:3315:0",
 						["WaistSlot"] = "item:4249:0",
+						["LegsSlot"] = "item:3315:0",
 						["HandsSlot"] = "item:26022:0",
 						["ShoulderSlot"] = "item:57463:0",
 					},
@@ -479,7 +479,7 @@ MogItWishlist = {
 		},
 		["Skãdi - Kel'Thuzad"] = {
 		},
-		["Fsdkjhskdjfh - Kel'Thuzad"] = {
+		["Olrapey - Kel'Thuzad"] = {
 		},
 		["Kmkarbashian - Kel'Thuzad"] = {
 			["sets"] = {
@@ -564,13 +564,13 @@ MogItWishlist = {
 				{
 					["items"] = {
 						["ChestSlot"] = "item:115878:0",
-						["HeadSlot"] = "item:115876:0",
-						["WristSlot"] = "item:115628:0",
-						["WaistSlot"] = "item:115824:0",
 						["ShoulderSlot"] = "item:115879:0",
+						["FeetSlot"] = "item:115827:0",
+						["WaistSlot"] = "item:115824:0",
+						["HeadSlot"] = "item:115876:0",
 						["LegsSlot"] = "item:115877:0",
 						["HandsSlot"] = "item:115875:0",
-						["FeetSlot"] = "item:115827:0",
+						["WristSlot"] = "item:115628:0",
 					},
 					["name"] = "season 1 elite",
 					["alternateItems"] = {
@@ -606,9 +606,9 @@ MogItWishlist = {
 					["items"] = {
 						["ChestSlot"] = "item:21499:0",
 						["FeetSlot"] = "item:16800:0",
-						["HandsSlot"] = "item:29315:0",
-						["HeadSlot"] = "item:127169:0::::::::::0:1:615",
 						["WaistSlot"] = "item:10144:0",
+						["HeadSlot"] = "item:127169:0::::::::::0:1:615",
+						["HandsSlot"] = "item:29315:0",
 						["MainHandSlot"] = "item:119174:0::::::::::0:1:518",
 						["WristSlot"] = "item:59093:0",
 					},
@@ -618,7 +618,7 @@ MogItWishlist = {
 				}, -- [5]
 			},
 		},
-		["Olrapey - Kel'Thuzad"] = {
+		["Fsdkjhskdjfh - Kel'Thuzad"] = {
 		},
 		["Loranah - Kel'Thuzad"] = {
 		},

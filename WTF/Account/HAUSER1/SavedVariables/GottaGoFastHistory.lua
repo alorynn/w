@@ -10,8 +10,8 @@ GottaGoFastHistoryDB = {
 		["Alorannah - Kel'Thuzad"] = "Default",
 		["Loranah - Kel'Thuzad"] = "Default",
 		["Alisheeya - Kel'Thuzad"] = "Default",
-		["Lorranah - Kel'Thuzad"] = "Default",
 		["Darknstormie - Kel'Thuzad"] = "Default",
+		["Lorranah - Kel'Thuzad"] = "Default",
 		["Alauranna - Kel'Thuzad"] = "Default",
 		["Hauzerina - Kel'Thuzad"] = "Default",
 		["Hauzer - Kel'Thuzad"] = "Default",
@@ -73,14 +73,14 @@ GottaGoFastHistoryDB = {
 									["role"] = "DAMAGER",
 								}, -- [5]
 							},
-							["startTime"] = 106928.41,
+							["level"] = 7,
 							["objectiveTimes"] = {
 								"02:35.389", -- [1]
 								"07:47.578", -- [2]
 								"13:18.341", -- [3]
 								"10:24.051", -- [4]
 							},
-							["level"] = 7,
+							["startTime"] = 106928.41,
 						}, -- [1]
 					},
 					["name"] = "Maw of Souls",
@@ -143,7 +143,7 @@ GottaGoFastHistoryDB = {
 									["role"] = "DAMAGER",
 								}, -- [5]
 							},
-							["startTime"] = 463292.719,
+							["level"] = 9,
 							["objectiveTimes"] = {
 								"04:41.259", -- [1]
 								"12:47.570", -- [2]
@@ -151,7 +151,7 @@ GottaGoFastHistoryDB = {
 								"21:31.300", -- [4]
 								"19:54.814", -- [5]
 							},
-							["level"] = 9,
+							["startTime"] = 463292.719,
 						}, -- [1]
 					},
 					["name"] = "Neltharion's Lair",
@@ -206,8 +206,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2017,
 								["mins"] = 50,
 							},
-							["level"] = 5,
 							["startTime"] = 30788.4,
+							["level"] = 5,
 							["objectiveTimes"] = {
 								"03:33.757", -- [1]
 								"07:52.574", -- [2]
@@ -261,8 +261,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2017,
 								["mins"] = 21,
 							},
-							["level"] = 4,
 							["startTime"] = 97322.613,
+							["level"] = 4,
 							["objectiveTimes"] = {
 								"04:10.360", -- [1]
 								"08:14.119", -- [2]
@@ -316,8 +316,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2017,
 								["mins"] = 38,
 							},
-							["startTime"] = 538984.971,
 							["level"] = 5,
+							["startTime"] = 538984.971,
 							["objectiveTimes"] = {
 								"04:38.879", -- [1]
 								"09:35.414", -- [2]
@@ -389,8 +389,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2017,
 								["mins"] = 29,
 							},
-							["level"] = 8,
 							["startTime"] = 100915.642,
+							["level"] = 8,
 							["objectiveTimes"] = {
 								"03:43.703", -- [1]
 								"11:27.614", -- [2]
@@ -467,8 +467,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2017,
 								["mins"] = 59,
 							},
-							["level"] = 10,
 							["startTime"] = 460375.796,
+							["level"] = 10,
 							["objectiveTimes"] = {
 								"04:39.139", -- [1]
 								"09:11.986", -- [2]

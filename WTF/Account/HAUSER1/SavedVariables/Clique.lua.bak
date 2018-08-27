@@ -12,11 +12,11 @@ CliqueDB3 = {
 		},
 		["Kmkarbashian - Kel'Thuzad"] = {
 			["spec1_profileKey"] = "Kmkarbashian - Kel'Thuzad",
-			["spec2_profileKey"] = "Kmkarbashian - Kel'Thuzad",
+			["spec3_profileKey"] = "Kmkarbashian - Kel'Thuzad",
 			["downclick"] = false,
 			["fastooc"] = false,
+			["spec2_profileKey"] = "Kmkarbashian - Kel'Thuzad",
 			["specswap"] = false,
-			["spec3_profileKey"] = "Kmkarbashian - Kel'Thuzad",
 		},
 		["Darknstormie - Kel'Thuzad"] = {
 			["alerthidden"] = true,
@@ -33,12 +33,12 @@ CliqueDB3 = {
 		["Loranah - Kel'Thuzad"] = "Loranah - Kel'Thuzad",
 		["Kmkarbashian - Kel'Thuzad"] = "Kmkarbashian - Kel'Thuzad",
 		["Foolioioio - Kel'Thuzad"] = "Foolioioio - Kel'Thuzad",
-		["Darknstormie - Kel'Thuzad"] = "Darknstormie - Kel'Thuzad",
+		["Lorranah - Kel'Thuzad"] = "Lorranah - Kel'Thuzad",
 		["Alauranna - Kel'Thuzad"] = "Alauranna - Kel'Thuzad",
 		["Hauzerina - Kel'Thuzad"] = "Hauzerina - Kel'Thuzad",
 		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
 		["Rogueout - Kel'Thuzad"] = "Rogueout - Kel'Thuzad",
-		["Lorranah - Kel'Thuzad"] = "Lorranah - Kel'Thuzad",
+		["Darknstormie - Kel'Thuzad"] = "Darknstormie - Kel'Thuzad",
 		["Alisheeya - Kel'Thuzad"] = "Alisheeya - Kel'Thuzad",
 	},
 	["profiles"] = {
@@ -232,68 +232,23 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Darknstormie - Kel'Thuzad"] = {
+		["Lorranah - Kel'Thuzad"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
-				{
-					["spell"] = "Riptide",
-					["key"] = "S",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 252995,
-					["type"] = "spell",
-				}, -- [2]
 				{
 					["type"] = "menu",
 					["key"] = "BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
-				}, -- [3]
-				{
-					["spell"] = "Healing Stream Totem",
-					["key"] = "F",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135127,
-					["type"] = "spell",
-				}, -- [4]
-				{
-					["spell"] = "Healing Surge",
-					["key"] = "D",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136044,
-					["type"] = "spell",
-				}, -- [5]
-				{
-					["spell"] = "Healing Wave",
-					["key"] = "A",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136043,
-					["type"] = "spell",
-				}, -- [6]
-				{
-					["spell"] = "Chain Heal",
-					["key"] = "G",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136042,
-					["type"] = "spell",
-				}, -- [7]
+				}, -- [2]
 			},
 		},
 		["Alauranna - Kel'Thuzad"] = {
@@ -372,23 +327,68 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Lorranah - Kel'Thuzad"] = {
+		["Darknstormie - Kel'Thuzad"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
+				{
+					["spell"] = "Riptide",
+					["key"] = "S",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 252995,
+					["type"] = "spell",
+				}, -- [2]
 				{
 					["type"] = "menu",
 					["key"] = "BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
-				}, -- [2]
+				}, -- [3]
+				{
+					["spell"] = "Healing Stream Totem",
+					["key"] = "F",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135127,
+					["type"] = "spell",
+				}, -- [4]
+				{
+					["spell"] = "Healing Surge",
+					["key"] = "D",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136044,
+					["type"] = "spell",
+				}, -- [5]
+				{
+					["spell"] = "Healing Wave",
+					["key"] = "A",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136043,
+					["type"] = "spell",
+				}, -- [6]
+				{
+					["spell"] = "Chain Heal",
+					["key"] = "G",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136042,
+					["type"] = "spell",
+				}, -- [7]
 			},
 		},
 		["Alisheeya - Kel'Thuzad"] = {
