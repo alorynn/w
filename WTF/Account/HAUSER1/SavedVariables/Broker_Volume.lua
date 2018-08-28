@@ -24,18 +24,18 @@ BrokerVolumeDB = {
 		["Ugiyo - Kel'Thuzad"] = "Ugiyo - Kel'Thuzad",
 		["Alurannah - Kel'Thuzad"] = "Alurannah - Kel'Thuzad",
 		["Beatryss - Kel'Thuzad"] = "Beatryss - Kel'Thuzad",
-		["Hoobastanko - Kel'Thuzad"] = "Hoobastanko - Kel'Thuzad",
-		["Beatryce - Kel'Thuzad"] = "Beatryce - Kel'Thuzad",
+		["Lorranah - Kel'Thuzad"] = "Lorranah - Kel'Thuzad",
+		["Loranah - Kel'Thuzad"] = "Loranah - Kel'Thuzad",
 		["Hauzerhunter - Kel'Thuzad"] = "Hauzerhunter - Kel'Thuzad",
-		["Olrapey - Kel'Thuzad"] = "Olrapey - Kel'Thuzad",
+		["Leeroyjenkem - Kel'Thuzad"] = "Leeroyjenkem - Kel'Thuzad",
 		["Skãdi - Kel'Thuzad"] = "Skãdi - Kel'Thuzad",
 		["Fsdkjhskdjfh - Kel'Thuzad"] = "Fsdkjhskdjfh - Kel'Thuzad",
 		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
 		["Hauser - Mal'Ganis"] = "Hauser - Mal'Ganis",
 		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
-		["Leeroyjenkem - Kel'Thuzad"] = "Leeroyjenkem - Kel'Thuzad",
-		["Loranah - Kel'Thuzad"] = "Loranah - Kel'Thuzad",
-		["Lorranah - Kel'Thuzad"] = "Lorranah - Kel'Thuzad",
+		["Olrapey - Kel'Thuzad"] = "Olrapey - Kel'Thuzad",
+		["Beatryce - Kel'Thuzad"] = "Beatryce - Kel'Thuzad",
+		["Hoobastanko - Kel'Thuzad"] = "Hoobastanko - Kel'Thuzad",
 	},
 	["profiles"] = {
 		["Fooliolio - Kel'Thuzad"] = {
@@ -86,15 +86,14 @@ BrokerVolumeDB = {
 		},
 		["Beatryss - Kel'Thuzad"] = {
 		},
-		["Hoobastanko - Kel'Thuzad"] = {
+		["Lorranah - Kel'Thuzad"] = {
 		},
-		["Beatryce - Kel'Thuzad"] = {
-			["bgSound"] = true,
+		["Loranah - Kel'Thuzad"] = {
 		},
 		["Hauzerhunter - Kel'Thuzad"] = {
 			["bgSound"] = true,
 		},
-		["Olrapey - Kel'Thuzad"] = {
+		["Leeroyjenkem - Kel'Thuzad"] = {
 		},
 		["Skãdi - Kel'Thuzad"] = {
 		},
@@ -107,11 +106,12 @@ BrokerVolumeDB = {
 		["Hauzer - Kel'Thuzad"] = {
 			["bgSound"] = true,
 		},
-		["Leeroyjenkem - Kel'Thuzad"] = {
+		["Olrapey - Kel'Thuzad"] = {
 		},
-		["Loranah - Kel'Thuzad"] = {
+		["Beatryce - Kel'Thuzad"] = {
+			["bgSound"] = true,
 		},
-		["Lorranah - Kel'Thuzad"] = {
+		["Hoobastanko - Kel'Thuzad"] = {
 		},
 	},
 }
