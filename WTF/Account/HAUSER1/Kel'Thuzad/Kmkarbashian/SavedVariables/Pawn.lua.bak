@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0225,
+	["LastVersion"] = 2.0227,
 	["LastPlayerFullName"] = "Kmkarbashian-Kel'Thuzad",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
