@@ -7,9 +7,6 @@ NewOpenablesProfile = {
 		["Kmkarbashian - Kel'Thuzad"] = {
 			["itemID"] = 140760,
 		},
-		["Laurannah - Kel'Thuzad"] = {
-			["itemID"] = 163613,
-		},
 	},
 	["global"] = {
 		["version"] = "|cFFFFFFFF09.14 24.08.2018 use |cFFFF00FF/nop|cFFFFFFFF",

@@ -328,15 +328,11 @@ RarityDB = {
 					["Reins of the Drake of the South Wind"] = {
 						["attempts"] = 3,
 					},
-					["Reins of the Grand Black War Mammoth Alliance"] = {
-						["known"] = true,
-						["enabled"] = false,
-						["found"] = true,
+					["Experiment 12-B"] = {
+						["attempts"] = 9,
 					},
-					["Armored Razorback"] = {
-						["known"] = true,
-						["enabled"] = false,
-						["found"] = true,
+					["Reins of the Onyxian Drake"] = {
+						["attempts"] = 1,
 					},
 					["Red Qiraji Resonating Crystal"] = {
 						["enabled"] = false,
@@ -359,16 +355,16 @@ RarityDB = {
 					["Living Infernal Core"] = {
 						["attempts"] = 2,
 					},
-					["Deathcharger's Reins"] = {
-						["attempts"] = 5,
-					},
-					["Flametalon of Alysrazor"] = {
-						["attempts"] = 35,
-					},
 					["Torn Invitation"] = {
 						["enabled"] = false,
 						["known"] = true,
 						["found"] = true,
+					},
+					["Flametalon of Alysrazor"] = {
+						["attempts"] = 35,
+					},
+					["Deathcharger's Reins"] = {
+						["attempts"] = 5,
 					},
 					["Vibrant Mana Ray"] = {
 						["dates"] = {
@@ -378,14 +374,7 @@ RarityDB = {
 						},
 						["attempts"] = 1,
 					},
-					["Darkspore Mana Ray"] = {
-						["time"] = 1,
-						["dates"] = {
-							[20180821] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-						},
+					["Life-Binder's Handmaiden"] = {
 						["attempts"] = 1,
 					},
 					["Mimiron's Head"] = {
@@ -406,8 +395,10 @@ RarityDB = {
 						},
 						["attempts"] = 1,
 					},
-					["Reins of the Onyxian Drake"] = {
-						["attempts"] = 1,
+					["Armored Razorback"] = {
+						["known"] = true,
+						["enabled"] = false,
+						["found"] = true,
 					},
 					["Reins of the Blue Drake"] = {
 						["attempts"] = 3,
@@ -417,7 +408,14 @@ RarityDB = {
 						["enabled"] = false,
 						["found"] = true,
 					},
-					["Life-Binder's Handmaiden"] = {
+					["Darkspore Mana Ray"] = {
+						["time"] = 1,
+						["dates"] = {
+							[20180821] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+						},
 						["attempts"] = 1,
 					},
 					["Felglow Mana Ray"] = {
@@ -438,8 +436,10 @@ RarityDB = {
 					["Reins of the Blazing Drake"] = {
 						["attempts"] = 9,
 					},
-					["Experiment 12-B"] = {
-						["attempts"] = 9,
+					["Reins of the Grand Black War Mammoth Alliance"] = {
+						["known"] = true,
+						["enabled"] = false,
+						["found"] = true,
 					},
 				},
 				["items"] = {
@@ -1659,19 +1659,19 @@ RarityDB = {
 				[978] = "Tol Dagor",
 				[986] = "Kalimdor",
 				[994] = "Argus",
-				[1172] = "Gol Thovas",
+				[971] = "Telogrus Rift",
 				[1010] = "The MOTHERLODE!!",
 				[1018] = "Waycrest Manor",
 				[1155] = "Uldir",
 				[1044] = "Arathi Highlands",
 				[1187] = "Azsuna",
 				[1188] = "Val'sharah",
-				[971] = "Telogrus Rift",
+				[1045] = "Thros, The Blighted Lands",
 				[1029] = "WaycrestDimension",
 				[1166] = "Zanchul",
 				[1165] = "Dazar'alor",
 				[1156] = "The Great Sea",
-				[1045] = "Thros, The Blighted Lands",
+				[1172] = "Gol Thovas",
 				[979] = "Tol Dagor",
 				[987] = "Outland",
 				[1171] = "Gol Thovas",

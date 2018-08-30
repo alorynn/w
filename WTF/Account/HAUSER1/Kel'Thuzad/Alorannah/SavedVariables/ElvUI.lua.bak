@@ -1,94 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		" nightfallen for magic shit", -- [1]
-		" tbh these classes are all OP as fuck", -- [2]
-		" like every serious raiding guild is gonna require allied races", -- [3]
-		" eh idk if pet health is that amazing tbh", -- [4]
-		" but 1% extra magic damage and resistance is huge for progression ", -- [5]
-		" welp I decided to go with the tauren", -- [6]
-		" is there a port to mulgore in org?", -- [7]
-		" Ive only visited these places to raid them back in the day lol", -- [8]
-		"/bartender", -- [9]
-		"/elvui", -- [10]
-		"/2 where tf are the target dummies in org", -- [11]
-		"/mogit", -- [12]
-		"/2 how much faster do gain XP when it's rested XP? 20%?", -- [13]
-		"/2 wow and how long does it take to rest a full level worth of rested xp?", -- [14]
-		"/2 welp time to level some alts bery slowly", -- [15]
-		"/2 oh what does it double", -- [16]
-		"/2 mob xp?", -- [17]
-		"/2 ah boo", -- [18]
-		"/2 not a great catchup mechanism then", -- [19]
-		"/2 better than nothing I guess", -- [20]
+		" eh idk if pet health is that amazing tbh", -- [1]
+		" but 1% extra magic damage and resistance is huge for progression ", -- [2]
+		" welp I decided to go with the tauren", -- [3]
+		" is there a port to mulgore in org?", -- [4]
+		" Ive only visited these places to raid them back in the day lol", -- [5]
+		"/bartender", -- [6]
+		"/elvui", -- [7]
+		"/2 where tf are the target dummies in org", -- [8]
+		"/mogit", -- [9]
+		"/2 how much faster do gain XP when it's rested XP? 20%?", -- [10]
+		"/2 wow and how long does it take to rest a full level worth of rested xp?", -- [11]
+		"/2 welp time to level some alts bery slowly", -- [12]
+		"/2 oh what does it double", -- [13]
+		"/2 mob xp?", -- [14]
+		"/2 ah boo", -- [15]
+		"/2 not a great catchup mechanism then", -- [16]
+		"/2 better than nothing I guess", -- [17]
+		"/1 they have jaina, and we have goth guy and big chief two logs", -- [18]
+		"/e sings bauhaus", -- [19]
+		"/cast crimson water strider", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"tyty!", -- [1]
-			"Dripp-Stormreaver", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Dripp-Stormreaver", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			607, -- [11]
-			"Player-58-0AAFCC66", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffDripp-Stormreaver|r",
-			[51] = 1533176303,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [1]
-		{
-			"old school!", -- [1]
-			"Dripp-Stormreaver", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Dripp-Stormreaver", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			608, -- [11]
-			"Player-58-0AAFCC66", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffDripp-Stormreaver|r",
-			[51] = 1533176306,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [2]
-		{
-			"whats it from", -- [1]
-			"Dripp-Stormreaver", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Dripp-Stormreaver", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			609, -- [11]
-			"Player-58-0AAFCC66", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffDripp-Stormreaver|r",
-			[51] = 1533176313,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [3]
 		{
 			"oh i had on the cloudwing hippo - thats from a low drop emissary quest", -- [1]
 			"Dripp-Stormreaver", -- [2]
@@ -110,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffDripp-Stormreaver|r",
 			[51] = 1533176374,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [4]
+		}, -- [1]
 		{
 			"ah nice", -- [1]
 			"Dripp-Stormreaver", -- [2]
@@ -132,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffDripp-Stormreaver|r",
 			[51] = 1533176382,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [5]
+		}, -- [2]
 		{
 			"Sylvanas = Savage AF", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -155,7 +89,7 @@ ElvCharacterDB = {
 			[51] = 1533691227,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [6]
+		}, -- [3]
 		{
 			"ha ya man", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -178,7 +112,7 @@ ElvCharacterDB = {
 			[51] = 1533691236,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [7]
+		}, -- [4]
 		{
 			"She roasted Saurfang", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -201,7 +135,7 @@ ElvCharacterDB = {
 			[51] = 1533691247,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [8]
+		}, -- [5]
 		{
 			"fuckin yelled when jaina showed up in her sky battleship", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -224,7 +158,7 @@ ElvCharacterDB = {
 			[51] = 1533691249,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [9]
+		}, -- [6]
 		{
 			"Alleria Roasting sylvanas was nice too", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -247,7 +181,7 @@ ElvCharacterDB = {
 			[51] = 1533691295,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [10]
+		}, -- [7]
 		{
 			"I can't wait til the expansion comes out", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -270,7 +204,7 @@ ElvCharacterDB = {
 			[51] = 1533691422,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [11]
+		}, -- [8]
 		{
 			"ya I thought legion was great, I just got burned out", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -293,7 +227,7 @@ ElvCharacterDB = {
 			[51] = 1533691438,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [12]
+		}, -- [9]
 		{
 			"dude i just finished unlocking all the allied races", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -316,7 +250,7 @@ ElvCharacterDB = {
 			[51] = 1533691458,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [13]
+		}, -- [10]
 		{
 			"carried a bunch of buddies so ended up spending a shitload of time fucking around on alts instead of chilling", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -339,7 +273,7 @@ ElvCharacterDB = {
 			[51] = 1533691459,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [14]
+		}, -- [11]
 		{
 			"including the alliance", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -362,7 +296,7 @@ ElvCharacterDB = {
 			[51] = 1533691477,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [15]
+		}, -- [12]
 		{
 			"and I hated it", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -385,7 +319,7 @@ ElvCharacterDB = {
 			[51] = 1533691494,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [16]
+		}, -- [13]
 		{
 			"so much effort had to be put in to get exalted with them", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -408,7 +342,7 @@ ElvCharacterDB = {
 			[51] = 1533691507,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [17]
+		}, -- [14]
 		{
 			"nightborne was easy tho", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -431,7 +365,7 @@ ElvCharacterDB = {
 			[51] = 1533691527,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [18]
+		}, -- [15]
 		{
 			"question for you: my alliance main has all the requirements for the horde allied races, so I boosted a horde rogue to 110 thinking  I could go recruit the horde races, but I dont see how - do I have to grind exalted with nightfallen and highmountain?", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -454,7 +388,7 @@ ElvCharacterDB = {
 			[51] = 1533691532,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [19]
+		}, -- [16]
 		{
 			"no", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -477,7 +411,7 @@ ElvCharacterDB = {
 			[51] = 1533691549,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [20]
+		}, -- [17]
 		{
 			"if you got exalted with the horde factions on alliance you  are good", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -500,7 +434,7 @@ ElvCharacterDB = {
 			[51] = 1533691564,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [21]
+		}, -- [18]
 		{
 			"ok lemme try", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -523,7 +457,7 @@ ElvCharacterDB = {
 			[51] = 1533691574,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [22]
+		}, -- [19]
 		{
 			"because i got exalted with all of them on one toon on horder", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -546,7 +480,7 @@ ElvCharacterDB = {
 			[51] = 1533691588,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [23]
+		}, -- [20]
 		{
 			"and was able to play", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -569,7 +503,7 @@ ElvCharacterDB = {
 			[51] = 1533691592,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [24]
+		}, -- [21]
 		{
 			"ah there we go - was expecting a quest marker", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -592,7 +526,7 @@ ElvCharacterDB = {
 			[51] = 1533691596,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [25]
+		}, -- [22]
 		{
 			"but you gotta do the quest to finish the unlock", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -615,7 +549,7 @@ ElvCharacterDB = {
 			[51] = 1533691606,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [26]
+		}, -- [23]
 		{
 			"ya I been gone a while so still grinding argussian/light rep", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -638,7 +572,7 @@ ElvCharacterDB = {
 			[51] = 1533691612,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [27]
+		}, -- [24]
 		{
 			"yea i finished that today", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -661,7 +595,7 @@ ElvCharacterDB = {
 			[51] = 1533691622,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [28]
+		}, -- [25]
 		{
 			"i felt empty after that'", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -684,7 +618,7 @@ ElvCharacterDB = {
 			[51] = 1533691628,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [29]
+		}, -- [26]
 		{
 			"lol ya I'm not in a hurry - tbh I should just do missions for rep, nice and easy", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -707,7 +641,7 @@ ElvCharacterDB = {
 			[51] = 1533691654,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [30]
+		}, -- [27]
 		{
 			"yea that took too long so i did every world quest possible plus rep missions", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -730,7 +664,7 @@ ElvCharacterDB = {
 			[51] = 1533691680,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [31]
+		}, -- [28]
 		{
 			"I dont think Im gonna reroll for BFA, my main these days is a human BM hunter, dont think any of the allied races is any better than the 10% rep buff", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -753,7 +687,7 @@ ElvCharacterDB = {
 			[51] = 1533691690,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [32]
+		}, -- [29]
 		{
 			"im not changing factions", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -776,7 +710,7 @@ ElvCharacterDB = {
 			[51] = 1533691713,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [33]
+		}, -- [30]
 		{
 			"youre a hordie eh? heh", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -799,7 +733,7 @@ ElvCharacterDB = {
 			[51] = 1533691724,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [34]
+		}, -- [31]
 		{
 			"sticking with the horde all the way", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -822,7 +756,7 @@ ElvCharacterDB = {
 			[51] = 1533691725,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [35]
+		}, -- [32]
 		{
 			"mainly because I am fond of sylvanas as a character", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -845,7 +779,7 @@ ElvCharacterDB = {
 			[51] = 1533691744,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [36]
+		}, -- [33]
 		{
 			"after teldrassil I feel like playing my nelf druid", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -868,7 +802,7 @@ ElvCharacterDB = {
 			[51] = 1533691748,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [37]
+		}, -- [34]
 		{
 			"ya I was a mage since beta up until Legion so Jaina's my gal", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -891,7 +825,7 @@ ElvCharacterDB = {
 			[51] = 1533691762,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [38]
+		}, -- [35]
 		{
 			"also the horde got the better mounts ", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -914,7 +848,7 @@ ElvCharacterDB = {
 			[51] = 1533691775,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [39]
+		}, -- [36]
 		{
 			"alliance just got horses", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -937,7 +871,7 @@ ElvCharacterDB = {
 			[51] = 1533691785,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [40]
+		}, -- [37]
 		{
 			"lmao", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -960,7 +894,7 @@ ElvCharacterDB = {
 			[51] = 1533691787,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [41]
+		}, -- [38]
 		{
 			"dude check the RBG tiger mount, its fucking sick", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -983,7 +917,7 @@ ElvCharacterDB = {
 			[51] = 1533691800,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [42]
+		}, -- [39]
 		{
 			"whats it called", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1006,7 +940,7 @@ ElvCharacterDB = {
 			[51] = 1533691833,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [43]
+		}, -- [40]
 		{
 			"I did the scenario today in my old mage in all his OG vanilla PVP gear riding a golden lion lol", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1029,7 +963,7 @@ ElvCharacterDB = {
 			[51] = 1533691845,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [44]
+		}, -- [41]
 		{
 			"reins of the vicious something, some sort of saber", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1052,7 +986,7 @@ ElvCharacterDB = {
 			[51] = 1533691865,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [45]
+		}, -- [42]
 		{
 			"oh the war saber", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1075,7 +1009,7 @@ ElvCharacterDB = {
 			[51] = 1533691890,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [46]
+		}, -- [43]
 		{
 			"hey is there combat in any of these scenarios? Ive never played sub before", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1098,7 +1032,7 @@ ElvCharacterDB = {
 			[51] = 1533691891,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [47]
+		}, -- [44]
 		{
 			"yea", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1121,7 +1055,7 @@ ElvCharacterDB = {
 			[51] = 1533691908,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [48]
+		}, -- [45]
 		{
 			"or any other rogue spec (but I played feral so very similar I think)", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1144,7 +1078,7 @@ ElvCharacterDB = {
 			[51] = 1533691912,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [49]
+		}, -- [46]
 		{
 			"but the npcs dided so fast", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1167,7 +1101,7 @@ ElvCharacterDB = {
 			[51] = 1533691915,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [50]
+		}, -- [47]
 		{
 			"its a raid", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1190,7 +1124,7 @@ ElvCharacterDB = {
 			[51] = 1533691919,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [51]
+		}, -- [48]
 		{
 			"oh ok", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1213,7 +1147,7 @@ ElvCharacterDB = {
 			[51] = 1533691923,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [52]
+		}, -- [49]
 		{
 			"so I can just stealth around", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1236,7 +1170,7 @@ ElvCharacterDB = {
 			[51] = 1533691927,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [53]
+		}, -- [50]
 		{
 			"and let other people complete it lol", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1259,7 +1193,7 @@ ElvCharacterDB = {
 			[51] = 1533691936,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [54]
+		}, -- [51]
 		{
 			"i like outlaw rogue", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1282,7 +1216,7 @@ ElvCharacterDB = {
 			[51] = 1533691938,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [55]
+		}, -- [52]
 		{
 			"i just hate the downtime when you level one", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1305,7 +1239,7 @@ ElvCharacterDB = {
 			[51] = 1533691969,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [56]
+		}, -- [53]
 		{
 			"its annoying", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1328,7 +1262,7 @@ ElvCharacterDB = {
 			[51] = 1533691972,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [57]
+		}, -- [54]
 		{
 			"rogue downtime?", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1351,7 +1285,7 @@ ElvCharacterDB = {
 			[51] = 1533691984,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [58]
+		}, -- [55]
 		{
 			"yea you run out of resources", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1374,7 +1308,7 @@ ElvCharacterDB = {
 			[51] = 1533691994,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [59]
+		}, -- [56]
 		{
 			"energy?", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1397,7 +1331,7 @@ ElvCharacterDB = {
 			[51] = 1533692000,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [60]
+		}, -- [57]
 		{
 			"yea", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1420,7 +1354,7 @@ ElvCharacterDB = {
 			[51] = 1533692004,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [61]
+		}, -- [58]
 		{
 			"thats why i play fury warrior and monk as my melee dps", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1443,7 +1377,7 @@ ElvCharacterDB = {
 			[51] = 1533692019,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [62]
+		}, -- [59]
 		{
 			"oic ya bm is honestly the best dude, give one a try from the class trial", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1466,7 +1400,7 @@ ElvCharacterDB = {
 			[51] = 1533692027,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [63]
+		}, -- [60]
 		{
 			"i dont like hunters", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1489,7 +1423,7 @@ ElvCharacterDB = {
 			[51] = 1533692046,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [64]
+		}, -- [61]
 		{
 			"unlimited mobility, incredible versatility, probably best soloing class in the game and I used to play a fucking druid lol", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1512,7 +1446,7 @@ ElvCharacterDB = {
 			[51] = 1533692050,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [65]
+		}, -- [62]
 		{
 			"survival is fun tho", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1535,7 +1469,7 @@ ElvCharacterDB = {
 			[51] = 1533692051,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [66]
+		}, -- [63]
 		{
 			"i just find BM to be boring", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1558,7 +1492,7 @@ ElvCharacterDB = {
 			[51] = 1533692068,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [67]
+		}, -- [64]
 		{
 			"but man they are OP when lvling", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1581,7 +1515,7 @@ ElvCharacterDB = {
 			[51] = 1533692081,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [68]
+		}, -- [65]
 		{
 			"like for doing dailies in argus I send in my pet, he aggroes half the zone and barely loses any hp while I run around collecting quest items off the ground", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1604,7 +1538,7 @@ ElvCharacterDB = {
 			[51] = 1533692083,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [69]
+		}, -- [66]
 		{
 			"yea Fury warrior is crazy", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1627,7 +1561,7 @@ ElvCharacterDB = {
 			[51] = 1533692104,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [70]
+		}, -- [67]
 		{
 			"fury never dies", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1650,7 +1584,7 @@ ElvCharacterDB = {
 			[51] = 1533692114,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [71]
+		}, -- [68]
 		{
 			"like when you kill an NPC you can immediately heal", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1673,7 +1607,7 @@ ElvCharacterDB = {
 			[51] = 1533692127,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [72]
+		}, -- [69]
 		{
 			"ya but I can pull way more shit way faster - ranged is the best", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1696,7 +1630,7 @@ ElvCharacterDB = {
 			[51] = 1533692137,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [73]
+		}, -- [70]
 		{
 			"actually i might level a lightforged pally", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1719,7 +1653,7 @@ ElvCharacterDB = {
 			[51] = 1533692155,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [74]
+		}, -- [71]
 		{
 			"anything in a 40 yard radius gets sent straight to my pet", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1742,7 +1676,7 @@ ElvCharacterDB = {
 			[51] = 1533692158,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [75]
+		}, -- [72]
 		{
 			"ya if you like pally lightforged is OP as fuck", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1765,7 +1699,7 @@ ElvCharacterDB = {
 			[51] = 1533692166,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [76]
+		}, -- [73]
 		{
 			"I leveled a ret to 110 and it was so bad lol", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1788,7 +1722,7 @@ ElvCharacterDB = {
 			[51] = 1533692179,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [77]
+		}, -- [74]
 		{
 			"pally has so much sustain", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1811,7 +1745,7 @@ ElvCharacterDB = {
 			[51] = 1533692195,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [78]
+		}, -- [75]
 		{
 			"they are nutty", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1834,7 +1768,7 @@ ElvCharacterDB = {
 			[51] = 1533692200,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [79]
+		}, -- [76]
 		{
 			"ya I just found the gameplay clunky and slow", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1857,7 +1791,7 @@ ElvCharacterDB = {
 			[51] = 1533692217,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [80]
+		}, -- [77]
 		{
 			"my BM is all over the fucking place ", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1880,7 +1814,7 @@ ElvCharacterDB = {
 			[51] = 1533692226,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [81]
+		}, -- [78]
 		{
 			"even out of combat she has a 30% speed boost, so good for soloing ", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1903,7 +1837,7 @@ ElvCharacterDB = {
 			[51] = 1533692236,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [82]
+		}, -- [79]
 		{
 			"im lvling a highmountain tauren hunter", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1926,7 +1860,7 @@ ElvCharacterDB = {
 			[51] = 1533692245,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [83]
+		}, -- [80]
 		{
 			"when maghar comes out hes gonna be a shaman", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1949,7 +1883,7 @@ ElvCharacterDB = {
 			[51] = 1533692268,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [84]
+		}, -- [81]
 		{
 			"maghar is the hunter race tho", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1972,7 +1906,7 @@ ElvCharacterDB = {
 			[51] = 1533692283,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [85]
+		}, -- [82]
 		{
 			"pet health increased", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -1995,7 +1929,7 @@ ElvCharacterDB = {
 			[51] = 1533692288,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [86]
+		}, -- [83]
 		{
 			"do shams have pets now?", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -2018,7 +1952,7 @@ ElvCharacterDB = {
 			[51] = 1533692292,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [87]
+		}, -- [84]
 		{
 			"uhhh", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -2041,7 +1975,7 @@ ElvCharacterDB = {
 			[51] = 1533692296,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [88]
+		}, -- [85]
 		{
 			"i dont the sham pets count", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -2064,7 +1998,7 @@ ElvCharacterDB = {
 			[51] = 1533692307,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [89]
+		}, -- [86]
 		{
 			"my tauren is gonna be a hunter tho", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -2087,7 +2021,7 @@ ElvCharacterDB = {
 			[51] = 1533692333,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [90]
+		}, -- [87]
 		{
 			"nightfallen for magic shit", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -2110,7 +2044,7 @@ ElvCharacterDB = {
 			[51] = 1533692334,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [91]
+		}, -- [88]
 		{
 			"yea my nightborne is a mage", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -2133,7 +2067,7 @@ ElvCharacterDB = {
 			[51] = 1533692342,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [92]
+		}, -- [89]
 		{
 			"tbh these classes are all OP as fuck", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -2156,7 +2090,7 @@ ElvCharacterDB = {
 			[51] = 1533692346,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [93]
+		}, -- [90]
 		{
 			"fury is OP", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -2179,7 +2113,7 @@ ElvCharacterDB = {
 			[51] = 1533692357,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [94]
+		}, -- [91]
 		{
 			"monk is OP", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -2202,7 +2136,7 @@ ElvCharacterDB = {
 			[51] = 1533692360,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [95]
+		}, -- [92]
 		{
 			"pally OP", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -2225,7 +2159,7 @@ ElvCharacterDB = {
 			[51] = 1533692362,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [96]
+		}, -- [93]
 		{
 			"like every serious raiding guild is gonna require allied races", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -2248,7 +2182,7 @@ ElvCharacterDB = {
 			[51] = 1533692365,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [97]
+		}, -- [94]
 		{
 			"huntard OP", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -2271,7 +2205,7 @@ ElvCharacterDB = {
 			[51] = 1533692366,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [98]
+		}, -- [95]
 		{
 			"eh idk if pet health is that amazing tbh", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -2294,7 +2228,7 @@ ElvCharacterDB = {
 			[51] = 1533692378,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [99]
+		}, -- [96]
 		{
 			"im not making an allied monk forget that", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -2317,7 +2251,7 @@ ElvCharacterDB = {
 			[51] = 1533692382,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [100]
+		}, -- [97]
 		{
 			"but 1% extra magic damage and resistance is huge for progression ", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -2340,7 +2274,7 @@ ElvCharacterDB = {
 			[51] = 1533692387,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [101]
+		}, -- [98]
 		{
 			"my monk will stay panda", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -2363,7 +2297,7 @@ ElvCharacterDB = {
 			[51] = 1533692400,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [102]
+		}, -- [99]
 		{
 			":3", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -2386,7 +2320,7 @@ ElvCharacterDB = {
 			[51] = 1533692403,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [103]
+		}, -- [100]
 		{
 			"also they gain buffs from food better", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -2409,7 +2343,7 @@ ElvCharacterDB = {
 			[51] = 1533692411,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [104]
+		}, -- [101]
 		{
 			"so...", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -2432,7 +2366,7 @@ ElvCharacterDB = {
 			[51] = 1533692417,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "OtakuSama",
-		}, -- [105]
+		}, -- [102]
 		{
 			"welp I decided to go with the tauren", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -2455,7 +2389,7 @@ ElvCharacterDB = {
 			[51] = 1533692521,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [106]
+		}, -- [103]
 		{
 			"is there a port to mulgore in org?", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -2478,7 +2412,7 @@ ElvCharacterDB = {
 			[51] = 1533692527,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [107]
+		}, -- [104]
 		{
 			"Ive only visited these places to raid them back in the day lol", -- [1]
 			"|Kf14|k000000000|k", -- [2]
@@ -2501,7 +2435,7 @@ ElvCharacterDB = {
 			[51] = 1533692594,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "OtakuSama",
-		}, -- [108]
+		}, -- [105]
 		{
 			"|cffffff00Nightwatcher's Perch is under attack!|r", -- [1]
 			"", -- [2]
@@ -2523,7 +2457,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1533693684,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [109]
+		}, -- [106]
 		{
 			"|cffffff00Nightwatcher's Perch is under attack!|r", -- [1]
 			"", -- [2]
@@ -2545,7 +2479,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1533693744,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [110]
+		}, -- [107]
 		{
 			"|cffffff00Nightwatcher's Perch is under attack!|r", -- [1]
 			"", -- [2]
@@ -2567,7 +2501,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1533693804,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [111]
+		}, -- [108]
 		{
 			"|cffffff00Nightwatcher's Perch is under attack!|r", -- [1]
 			"", -- [2]
@@ -2589,7 +2523,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1533693883,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [112]
+		}, -- [109]
 		{
 			"|cffffff00Nightwatcher's Perch is under attack!|r", -- [1]
 			"", -- [2]
@@ -2611,7 +2545,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1533693991,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [113]
+		}, -- [110]
 		{
 			"|cffffff00Nightwatcher's Perch is under attack!|r", -- [1]
 			"", -- [2]
@@ -2633,7 +2567,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1533694059,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [114]
+		}, -- [111]
 		{
 			"|cffffff00Nightwatcher's Perch is under attack!|r", -- [1]
 			"", -- [2]
@@ -2655,7 +2589,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1533694119,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [115]
+		}, -- [112]
 		{
 			"|cffffff00Nightwatcher's Perch is under attack!|r", -- [1]
 			"", -- [2]
@@ -2677,7 +2611,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1533694182,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [116]
+		}, -- [113]
 		{
 			"|cffffff00Nightwatcher's Perch is under attack!|r", -- [1]
 			"", -- [2]
@@ -2699,7 +2633,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1533694330,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [117]
+		}, -- [114]
 		{
 			"|cffffff00Nightwatcher's Perch is under attack!|r", -- [1]
 			"", -- [2]
@@ -2721,7 +2655,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1533694399,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [118]
+		}, -- [115]
 		{
 			"|cffffff00Nightwatcher's Perch is under attack!|r", -- [1]
 			"", -- [2]
@@ -2743,7 +2677,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1533746961,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [119]
+		}, -- [116]
 		{
 			"|cffffff00Nightwatcher's Perch is under attack!|r", -- [1]
 			"", -- [2]
@@ -2765,7 +2699,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1533747033,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [120]
+		}, -- [117]
 		{
 			"where tf are the target dummies in org", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2787,7 +2721,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1533750385,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [121]
+		}, -- [118]
 		{
 			"how much faster do gain XP when it's rested XP? 20%?", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2809,7 +2743,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1535465282,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [122]
+		}, -- [119]
 		{
 			"wow and how long does it take to rest a full level worth of rested xp?", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2831,7 +2765,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1535465321,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [123]
+		}, -- [120]
 		{
 			"welp time to level some alts bery slowly", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2853,7 +2787,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1535465344,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [124]
+		}, -- [121]
 		{
 			"oh what does it double", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2875,7 +2809,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1535465358,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [125]
+		}, -- [122]
 		{
 			"not a great catchup mechanism then", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2897,7 +2831,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1535465475,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [126]
+		}, -- [123]
 		{
 			"better than nothing I guess", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2918,6 +2852,72 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1535465532,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [124]
+		{
+			"they have jaina, and we have goth guy and big chief two logs", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"1. General - Ruins of Lordaeron", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Ruins of Lordaeron", -- [9]
+			0, -- [10]
+			596, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1535568907,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [125]
+		{
+			"sings bauhaus", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			599, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1535568925,
+			[50] = "CHAT_MSG_EMOTE",
+		}, -- [126]
+		{
+			"|cffffff00Zuldazar is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Zuldazar", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Zuldazar", -- [9]
+			0, -- [10]
+			902, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1535572788,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},
