@@ -9,15 +9,15 @@ Details_StreamerDB = {
 		["Nigellah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Alorannah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Loranah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
-		["Alisheeya - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
+		["Kmkarbashian - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
+		["Foolioioio - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Darknstormie - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
-		["Lorranah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Alauranna - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Hauzerina - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Hauzer - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Rogueout - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
-		["Foolioioio - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
-		["Kmkarbashian - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
+		["Lorranah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
+		["Alisheeya - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 	},
 	["profiles"] = {
 		["Laurannah - Kel'Thuzad"] = {
@@ -45,27 +45,12 @@ Details_StreamerDB = {
 			},
 			["arrow_anchor_x"] = 0,
 			["row_texture"] = "Details Serenity",
-			["arrow_anchor_y"] = 0,
-			["main_frame_locked"] = false,
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["scale"] = 1,
+			["row_height"] = 20,
+			["point"] = "CENTER",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["per_second"] = {
-				["enabled"] = false,
-				["point"] = "CENTER",
-				["scale"] = 1,
-				["font_shadow"] = true,
-				["y"] = 6.1035156250e-005,
-				["x"] = -6.1035156250e-005,
-				["attribute_type"] = 1,
-				["update_speed"] = 0.05,
-				["size"] = 32,
-			},
+			["author"] = "Details! Team",
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -73,17 +58,32 @@ Details_StreamerDB = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = 6.1035156250e-005,
+				["x"] = -6.1035156250e-005,
+				["size"] = 32,
+				["update_speed"] = 0.05,
+				["attribute_type"] = 1,
+			},
 			["font_size"] = 10,
-			["use_spark"] = true,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
 			["y"] = -4.577636718750e-005,
-			["author"] = "Details! Team",
-			["point"] = "CENTER",
-			["row_height"] = 20,
-			["scale"] = 1,
+			["use_spark"] = true,
+			["main_frame_strata"] = "LOW",
+			["main_frame_locked"] = false,
+			["arrow_anchor_y"] = 0,
 		},
 	},
 }
