@@ -2,32 +2,34 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
+	["_10000"] = 200,
+	["_500"] = 5,
+	["_1000000"] = 2500,
 	["_200000"] = 1000,
 	["STARTING_DISCOUNT"] = 5,
-	["_1000000"] = 2500,
-	["_5000000"] = 10000,
 	["LOG_DE_DATA_X"] = true,
-	["_500"] = 5,
-	["_10000"] = 200,
+	["_5000000"] = 10000,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 	["Umbra Shard"] = {
-		["5295606"] = "649000:27",
 		["5291866"] = "428000:8",
-		["5297118"] = "389000:24",
-		["5305707"] = "2497500:5",
 		["is"] = "152876:0:0:0:0",
-		["5302778"] = "998000:7",
-		["5301492"] = "2497500:17",
 		["5287136"] = "876000:24",
-		["5279504"] = "1242500:19",
 		["5289665"] = "657000:19",
-		["5301498"] = "2217500:1",
 		["5284699"] = "498000:27",
 		["5282797"] = "972000:27",
+		["5279504"] = "1242500:19",
+		["5285345"] = "589000:8",
+		["5301498"] = "2217500:1",
+		["5297118"] = "389000:24",
+		["5308370"] = "1495000:7",
+		["5307345"] = "917000:5",
+		["5302778"] = "998000:7",
+		["5305707"] = "2497500:5",
+		["5301492"] = "2497500:17",
 		["5304273"] = "1437500:2",
 		["5291104"] = "1035000:17",
-		["5285345"] = "589000:8",
+		["5295606"] = "649000:27",
 	},
 	["Insulated Wiring"] = {
 		["5282801"] = "10600:44",
@@ -135,25 +137,25 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["is"] = "159516:0:0:0:4796",
 		["5285344"] = "4422500:1",
 	},
-	["Golden Fleet Greataxe of the Peerless"] = {
+	["Golden Fleet Greataxe of the Aurora"] = {
 		["is"] = "159485:0:0:0:4796",
-		["5284696"] = "2990000:1",
+		["5284695"] = "3997500:1",
 	},
 	["Lightweave Cloth"] = {
 		["is"] = "151567:0:0:0:0",
 		["5257034"] = "9700:16",
 	},
-	["Golden Fleet Greataxe of the Aurora"] = {
+	["Golden Fleet Greataxe of the Peerless"] = {
 		["is"] = "159485:0:0:0:4796",
-		["5284695"] = "3997500:1",
+		["5284696"] = "2990000:1",
 	},
 	["Big Fountain Goldfish"] = {
 		["is"] = "138967:0:0:0:0",
 		["5289693"] = "8700:15",
 	},
-	["Shipwrecker Knife of the Fireflash"] = {
-		["is"] = "159524:0:0:0:4796",
-		["5283103"] = "4895000:1",
+	["Viridium"] = {
+		["is"] = "153704:0:0:0:0",
+		["5279504"] = "199000:1",
 	},
 	["Torgashell Helmet of the Feverflare"] = {
 		["is"] = "154809:0:0:0:4796",
@@ -209,9 +211,9 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["is"] = "159821:0:0:0:4796",
 		["5284696"] = "4002500:1",
 	},
-	["Viridium"] = {
-		["is"] = "153704:0:0:0:0",
-		["5279504"] = "199000:1",
+	["Shipwrecker Knife of the Fireflash"] = {
+		["is"] = "159524:0:0:0:4796",
+		["5283103"] = "4895000:1",
 	},
 	["Defiled Augment Rune"] = {
 		["5257034"] = "181000:1",
@@ -227,22 +229,24 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["is"] = "152875:0:0:0:0",
 		["5305706"] = "189900:4",
 		["5289665"] = "313000:21",
+		["5308369"] = "198500:7",
 		["5284697"] = "179000:27",
 		["5279506"] = "176000:9",
 		["5285345"] = "149000:11",
 		["5287137"] = "179900:22",
 		["5295604"] = "119500:27",
+		["5297118"] = "133500:21",
 		["5282802"] = "406000:10",
 		["5291868"] = "144500:7",
-		["5297118"] = "133500:21",
+		["5307345"] = "160000:7",
 		["5304274"] = "249000:1",
 		["5284698"] = "179000:27",
-		["5304272"] = "249000:11",
 		["5282799"] = "408000:49",
-		["5301498"] = "194000:11",
-		["5301491"] = "214500:14",
-		["5279502"] = "176000:200",
 		["5302778"] = "189000:9",
+		["5301491"] = "214500:14",
+		["5301498"] = "194000:11",
+		["5279502"] = "176000:200",
+		["5304272"] = "249000:11",
 		["5291104"] = "148000:22",
 		["5295606"] = "119500:4",
 	},
@@ -255,56 +259,56 @@ AUCTIONATOR_PRICING_HISTORY = {
 AUCTIONATOR_SHOPPING_LISTS = {
 	{
 		["items"] = {
-			"monel-har", -- [1]
-			"monel hard", -- [2]
-			"monel stirr", -- [3]
-			"Deep sea ", -- [4]
-			"big fountain goldfish", -- [5]
-			"Deep sea bandage", -- [6]
-			"coastal", -- [7]
-			"winter's kiss", -- [8]
-			"contract", -- [9]
-			"tranquil mind", -- [10]
-			"redtail", -- [11]
-			"monelite ore", -- [12]
-			"Astral glory", -- [13]
-			"fiendish leather", -- [14]
-			"lightweave cloth", -- [15]
-			"Glorious", -- [16]
-			"Glorious legplates", -- [17]
-			"silkweave bandage", -- [18]
-			"Ancient healing", -- [19]
-			"healing", -- [20]
-			"Goldfish", -- [21]
-			"stormscale", -- [22]
-			"cobalt bar", -- [23]
-			"king's amber", -- [24]
-			"titansteel bar", -- [25]
-			"windwool clo", -- [26]
-			"Ghost iron", -- [27]
-			"silver con", -- [28]
-			"silver bar", -- [29]
-			"Iron bar", -- [30]
-			"medium leather", -- [31]
-			"wool cloth", -- [32]
-			"bronze bar", -- [33]
-			"heavy stone", -- [34]
-			"silk cloth", -- [35]
-			"true iron ore", -- [36]
-			"blackrock ore", -- [37]
-			"bandage", -- [38]
-			"health pot", -- [39]
-			"bag", -- [40]
-			"Arkhana", -- [41]
-			"leylight", -- [42]
-			"firework", -- [43]
-			"Auto-hammer", -- [44]
-			"leystone ore", -- [45]
-			"highmountain salmon", -- [46]
-			"big gamy", -- [47]
-			"black barracuda", -- [48]
-			"wildfowl egg", -- [49]
-			"felslate", -- [50]
+			"tome of the tranquil mind", -- [1]
+			"monel-har", -- [2]
+			"monel hard", -- [3]
+			"monel stirr", -- [4]
+			"Deep sea ", -- [5]
+			"big fountain goldfish", -- [6]
+			"Deep sea bandage", -- [7]
+			"coastal", -- [8]
+			"winter's kiss", -- [9]
+			"contract", -- [10]
+			"tranquil mind", -- [11]
+			"redtail", -- [12]
+			"monelite ore", -- [13]
+			"Astral glory", -- [14]
+			"fiendish leather", -- [15]
+			"lightweave cloth", -- [16]
+			"Glorious", -- [17]
+			"Glorious legplates", -- [18]
+			"silkweave bandage", -- [19]
+			"Ancient healing", -- [20]
+			"healing", -- [21]
+			"Goldfish", -- [22]
+			"stormscale", -- [23]
+			"cobalt bar", -- [24]
+			"king's amber", -- [25]
+			"titansteel bar", -- [26]
+			"windwool clo", -- [27]
+			"Ghost iron", -- [28]
+			"silver con", -- [29]
+			"silver bar", -- [30]
+			"Iron bar", -- [31]
+			"medium leather", -- [32]
+			"wool cloth", -- [33]
+			"bronze bar", -- [34]
+			"heavy stone", -- [35]
+			"silk cloth", -- [36]
+			"true iron ore", -- [37]
+			"blackrock ore", -- [38]
+			"bandage", -- [39]
+			"health pot", -- [40]
+			"bag", -- [41]
+			"Arkhana", -- [42]
+			"leylight", -- [43]
+			"firework", -- [44]
+			"Auto-hammer", -- [45]
+			"leystone ore", -- [46]
+			"highmountain salmon", -- [47]
+			"big gamy", -- [48]
+			"black barracuda", -- [49]
+			"wildfowl egg", -- [50]
 		},
 		["isRecents"] = 1,
 		["name"] = "Recent Searches",
@@ -357,23 +361,25 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 1,
 		},
 		["Tome of the Tranquil Mind"] = {
-			["H2835"] = 749903,
-			["mr"] = 749903,
+			["mr"] = 789683,
 			["sc"] = 4,
 			["id"] = "141446:0:0:0:0",
+			["H2849"] = 789683,
 			["cc"] = 15,
 		},
 		["Gloom Dust"] = {
 			["H2846"] = 189500,
 			["id"] = "152875:0:0:0:0",
+			["sc"] = 12,
 			["L2845"] = 194500,
-			["mr"] = 168499,
+			["H2848"] = 168499,
+			["mr"] = 198999,
 			["cc"] = 7,
 			["H2845"] = 194873,
-			["H2848"] = 168499,
-			["L2847"] = 249000,
-			["sc"] = 12,
 			["H2847"] = 250000,
+			["L2847"] = 249000,
+			["H2849"] = 160500,
+			["H2850"] = 198999,
 		},
 		["Monel-Hardened Shanker of the Peerless"] = {
 			["mr"] = 2100000,
@@ -907,14 +913,16 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["cc"] = 0,
 		},
 		["Umbra Shard"] = {
-			["H2848"] = 2009999,
-			["mr"] = 2009999,
+			["H2846"] = 899000,
+			["id"] = "152876:0:0:0:0",
+			["cc"] = 7,
+			["mr"] = 1497500,
 			["sc"] = 12,
 			["H2845"] = 2220000,
-			["id"] = "152876:0:0:0:0",
+			["H2848"] = 2009999,
 			["H2847"] = 1437500,
-			["cc"] = 7,
-			["H2846"] = 899000,
+			["H2849"] = 918000,
+			["H2850"] = 1497500,
 		},
 		["Winter's Kiss"] = {
 			["mr"] = 448500,
@@ -1505,15 +1513,15 @@ AUCTIONATOR_STACKING_PREFS = {
 		["stacksize"] = 1,
 		["numstacks"] = 0,
 	},
-	["lesser cosmic essence"] = {
+	["gloom dust"] = {
+		["stacksize"] = 27,
 		["numstacks"] = 0,
-		["stacksize"] = 1,
 	},
 	["elixir of the rapid mind"] = {
 		["stacksize"] = 1,
 		["numstacks"] = 0,
 	},
-	["truesilver bar"] = {
+	["lesser cosmic essence"] = {
 		["numstacks"] = 0,
 		["stacksize"] = 1,
 	},
@@ -1557,9 +1565,9 @@ AUCTIONATOR_STACKING_PREFS = {
 		["numstacks"] = 0,
 		["stacksize"] = 1,
 	},
-	["gloom dust"] = {
-		["stacksize"] = 27,
+	["truesilver bar"] = {
 		["numstacks"] = 0,
+		["stacksize"] = 1,
 	},
 	["raw riverbeast meat"] = {
 		["numstacks"] = 0,

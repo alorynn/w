@@ -1,28 +1,110 @@
-lightweight tag 6eb961363882bccae96c4463a7fcb33271ab5e58 3.90
-Author:	Michael James <darktemplar9900@yahoo.com>
-Date:	Fri Aug 17 22:39:03 2018 -0500
+lightweight tag 3318a4a5f6d33e20a839c85f271e442654b011f6 3.92
+Author:	Azilroka <darktemplar9900@yahoo.com>
+Date:	Mon Sep 3 12:33:08 2018 -0500
 
-commit 6eb961363882bccae96c4463a7fcb33271ab5e58
-Author: Michael James <darktemplar9900@yahoo.com>
-Date:   Fri Aug 17 22:39:03 2018 -0500
+commit 3318a4a5f6d33e20a839c85f271e442654b011f6
+Author: Azilroka <darktemplar9900@yahoo.com>
+Date:   Mon Sep 3 12:33:08 2018 -0500
 
-    3.90
+    3.92
 
-commit cef5e3b22cc875ea18454e85e7f8c6da239f88a9
-Author: Michael James <darktemplar9900@yahoo.com>
-Date:   Fri Aug 17 22:38:36 2018 -0500
+commit 5069c9c44cee2cbabff8921de94abb000134e45e
+Author: Azilroka <darktemplar9900@yahoo.com>
+Date:   Mon Sep 3 12:32:42 2018 -0500
 
-    Re-enable AAP
+    AzCastBar
 
-commit 375ce85c94281d746071401866b33db65fb4f1a1
-Author: Michael James <darktemplar9900@yahoo.com>
-Date:   Thu Aug 16 21:29:38 2018 -0500
+commit d5e3f0ecfb566d3ca83ac19886745fe57a7fea79
+Author: Azilroka <darktemplar9900@yahoo.com>
+Date:   Mon Sep 3 11:47:26 2018 -0500
 
-    Fix AddOn Detection / Versioning
+    PetTracker
+    
+    Issue #223, #225, #226, #227, #230, #231
 
-commit 9f744b925238708004c62ed5703a872e300338c6
-Author: Michael James <darktemplar9900@yahoo.com>
-Date:   Wed Aug 15 19:40:51 2018 -0500
+commit 73c04be0f7d504e67a76ced92f6ea2a2df2d9f4e
+Author: Azilroka <darktemplar9900@yahoo.com>
+Date:   Sun Sep 2 21:49:42 2018 -0500
 
-    AAP
+    Better Inverted Shadow / PetTracker
+
+commit 0dac8f12f4b7a5609d96433037108ad9ca3e1ee9
+Author: Azilroka <darktemplar9900@yahoo.com>
+Date:   Sun Sep 2 18:39:48 2018 -0500
+
+    Options & TMW
+
+commit 571fa0317e0f94819464fde0a392226d392ca961
+Author: Azilroka <darktemplar9900@yahoo.com>
+Date:   Sun Sep 2 17:16:19 2018 -0500
+
+    PetTracker
+
+commit 98f7f7c9e4663e063229146881fc3af2d9a64508
+Author: Azilroka <darktemplar9900@yahoo.com>
+Date:   Sun Sep 2 16:49:27 2018 -0500
+
+    Preload: Allow for Unregister
+
+commit d23dc4e3186ee9f30cf7da241de31eaf87642a0c
+Author: Azilroka <darktemplar9900@yahoo.com>
+Date:   Sun Sep 2 16:39:57 2018 -0500
+
+    Preload: API, Core, Options
+
+commit d5d3493ecf06e91b17efe6488c82993ef6c0885e
+Author: Azilroka <darktemplar9900@yahoo.com>
+Date:   Sun Sep 2 12:25:29 2018 -0500
+
+    Libraries
+    
+    Issue #224
+
+commit 1025ef1f6ee6e5a341da3e98de4d928232eef44a
+Author: Azilroka <darktemplar9900@yahoo.com>
+Date:   Sun Sep 2 08:49:39 2018 -0500
+
+    Altoholic / TMW
+
+commit fe21f6c9c8e1c35547d94aba50d25c48476fc7f3
+Author: Azilroka <darktemplar9900@yahoo.com>
+Date:   Sun Sep 2 07:57:33 2018 -0500
+
+    BarberShop / Bags / Libraries
+
+commit b920181a959bd0daf395d569fe533461951c6760
+Author: Azilroka <darktemplar9900@yahoo.com>
+Date:   Sun Sep 2 07:51:03 2018 -0500
+
+    Baggins: Fix Backdrop Color
+
+commit 1e588a40b59b93913f621b1ac310a7eed8a87cbd
+Author: Azilroka <darktemplar9900@yahoo.com>
+Date:   Sun Sep 2 07:38:15 2018 -0500
+
+    This will allow Baggins hooks to be disabled.
+
+commit 752aa49f8e1cce53ce618de017d624080711703f
+Author: Azilroka <darktemplar9900@yahoo.com>
+Date:   Sat Sep 1 16:23:31 2018 -0500
+
+    TinyInspect / WhisperPop
+
+commit be18ea59997cc1c68ed0469d15ff06a2c0cfa802
+Author: Azilroka <darktemplar9900@yahoo.com>
+Date:   Sat Sep 1 14:57:36 2018 -0500
+
+    Embed: ElvUI Macro Button Hide Chats
+
+commit f3936a4ec533010c93ebf41462e54fd853196372
+Author: Azilroka <darktemplar9900@yahoo.com>
+Date:   Sat Sep 1 13:18:28 2018 -0500
+
+    TellMeWhen
+
+commit 31637fd8d3df7bfa196ad3837c6f03b36ccdcdc2
+Author: Azilroka <darktemplar9900@yahoo.com>
+Date:   Sat Sep 1 12:32:36 2018 -0500
+
+    Not needed anymore. It's in the WA skin.
 

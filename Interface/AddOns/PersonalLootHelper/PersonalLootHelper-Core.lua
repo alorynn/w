@@ -33,6 +33,12 @@ Known Bugs:
 		
 CHANGELOG:
 
+20180903 - 2.17
+	Fixed issue that caused PLH to not work for players whose realms have spaces in their names
+	
+20180902 - 2.16
+	Fixed several more bugs that affected loot trading
+	
 20180830 - 2.15
 	Fixed issue some player were having where they were shown pass/whisper buttons instead of keep/offer buttons for their own loot
 	
@@ -466,6 +472,7 @@ local tooltipLong 							-- tooltip with the first 30 lines of the tooltip (for 
 local plhUsers = {}							-- array of PLH users; keyed by name-realm of user, valued with version
 
 local itemCache = {}						-- keeps track of items that we're waiting to be loaded into the cache so they can be processed
+local playerItemCache = {}					-- contains FullItemInfos of the players' items
 
 local groupInfoCache = {}  					-- array of items equipped by group members; keyed by name-realm of group member
 	--[[									   structure is as follows, for each group member:
@@ -809,10 +816,11 @@ end
 local function GetEquippedItem(characterName, slotID)
 	local item = nil
 	if IsPlayer(characterName) then
-		item = GetInventoryItemLink('player', slotID)
-		if item ~= nil then
-			item = GetFullItemInfo(item)
-		end
+		item = playerItemCache[slotID]
+-- 		item = GetInventoryItemLink('player', slotID)
+--		if item ~= nil then
+--			item = GetFullItemInfo(item)
+--		end
 	else
 		local characterDetails = groupInfoCache[characterName]
 		if characterDetails ~= nil then
@@ -820,6 +828,20 @@ local function GetEquippedItem(characterName, slotID)
 		end
 	end
 	return item
+end
+
+local function LoadPlayerItems()
+	PLH_SendDebugMessage("Loading Player Items")
+
+	local item
+	for slotID = 1, 17 do
+		item = GetInventoryItemLink('player', slotID)
+		if item ~= nil then
+			playerItemCache[slotID] = GetFullItemInfo(item)
+		else
+			playerItemCache[slotID] = nil
+		end
+	end
 end
 
 -- returns two variables:  true if the item is an upgrade over equippedItem (based on ilvl), equipped ilvl
@@ -836,7 +858,7 @@ local function IsAnUpgradeForCharacter(fullItemInfo, characterName, threshold, b
 	local isAnUpgrade2 = false
 	local equippedILVL2 = 0
 	local slotID
-	
+
 	if itemEquipLoc ~= nil and itemEquipLoc ~= '' then
 		if itemEquipLoc == 'INVTYPE_FINGER' then
 			equippedItem1 = GetEquippedItem(characterName, INVSLOT_FINGER1)
@@ -1756,7 +1778,6 @@ end
 
 function PLH_ProcessTradeItemMessage(looterName, item)
 --	PLH_SendDebugMessage('Entering PLH_ProcessTradeItemMessage (' .. looterName .. ', ' .. item .. ')')
-
 	if not IsPlayer(looterName) then
 		if GetItemInfo(item) == nil then
 			-- we need to wait for the item to be loaded into the cache
@@ -1868,15 +1889,19 @@ end
 -- Event handler for CHAT_MSG_ADDON event
 local function AddonMessageReceivedEvent(self, event, ...)
 	local prefix, message, _, sender = ...
-	
+
 	if prefix == 'PLH' then
+	
+		sender = PLH_GetFullName(sender)
+		
 		PLH_SendDebugMessage('Received AddonMessage: ' .. message .. ' from ' .. sender)
 		
 		local process, lootedItemID, looterName, optional = message:match('(.+)~(.+)~(.+)~(.+)')
 		if optional == nil then
 			process, lootedItemID, looterName = message:match('(.+)~(.+)~(.+)')
 		end
-		
+		looterName = PLH_GetFullName(looterName)
+
 		if process == "KEEP" then
 			PLH_ProcessKeepItemMessage(sender, lootedItemID)
 		elseif process == "TRADE" then
@@ -2194,12 +2219,14 @@ local function UpdateGroupInfoCache(unit)
 		local item
 		for invslot = _G.INVSLOT_FIRST_EQUIPPED, _G.INVSLOT_LAST_EQUIPPED do
 			if invslot ~= _G.INVSLOT_BODY and invslot ~= INVSLOT_TABARD then -- ignore shirt and tabard slots
-				item = GetInventoryItemLink(UnitName(unit), invslot)
-				if item ~= nil and GetItemInfo(item) ~= nil then
-					if characterDetails[invslot] == nil or characterDetails[invslot] ~= item then
-						updatedItemCount = updatedItemCount + 1
---						characterDetails[invslot] = GetFullItemInfo(item)
-						characterDetails[invslot] = item
+				if unit ~= nil then
+					item = GetInventoryItemLink(UnitName(unit), invslot)
+					if item ~= nil and GetItemInfo(item) ~= nil then
+						if characterDetails[invslot] == nil or characterDetails[invslot] ~= item then
+							updatedItemCount = updatedItemCount + 1
+	--						characterDetails[invslot] = GetFullItemInfo(item)
+							characterDetails[invslot] = item
+						end
 					end
 				end
 			end
@@ -2356,6 +2383,8 @@ local function GroupMemberInfoChangedEvent(self, event, ...)
 		if groupInfoCache[name] ~= nil then
 			groupInfoCache[name][FORCE_REFRESH] = true
 			PopulateGroupInfoCache()
+		elseif IsPlayer(name) then
+			LoadPlayerItems()
 		end
 	end
 end
@@ -2380,6 +2409,8 @@ local function Enable()
 	eventHandlerFrame:RegisterEvent('UNIT_INVENTORY_CHANGED')
 	eventHandlerFrame:RegisterEvent('GET_ITEM_INFO_RECEIVED')
 
+	LoadPlayerItems()
+	
 	PLH_SendAddonMessage('IDENTIFY_USERS~ ~' .. PLH_GetFullName('player'))
 end
 
@@ -2400,6 +2431,8 @@ local function EnableOrDisable()
 
 	if not isEnabled and shouldBeEnabled then	
 		Enable()
+	elseif isEnabled and shouldBeEnabled then	
+		PLH_ProcessIdentifyUsersMessage()
 	elseif isEnabled and not shouldBeEnabled then
 		Disable()
 	end

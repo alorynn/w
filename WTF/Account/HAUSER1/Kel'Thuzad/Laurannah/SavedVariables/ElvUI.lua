@@ -1,1062 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/cw Arthenore-Kel'Thuzad I think it was kennings lodge ya - north of there but still inside the quest zone", -- [1]
-		"/s it's good to be a huntard", -- [2]
-		"/s fuck yes", -- [3]
-		"/2 ahhhhhhhhh |cffffff00|Hachievement:12989:Player-3693-092AD332:1:8:30:18:4294967295:4294967295:4294967295:4294967295|h[Battle for Azeroth Pathfinder, Part One]|h|r", -- [4]
-		"/cw Lemonadeacid Im flying high on achievement ", -- [5]
-		"/2 oh man with the speed boost from |cffffff00|Hachievement:12989:Player-3693-092AD332:1:8:30:18:4294967295:4294967295:4294967295:4294967295|h[Battle for Azeroth Pathfinder, Part One]|h|r I can finally reach the ship from the top of the stairs", -- [6]
-		"/cw Lshade the real endgame", -- [7]
-		"/s where my long bois at", -- [8]
-		"/cw Hufs-Kel'Thuzad why whats happening", -- [9]
-		"/2 ohhhhhh 340 azerite emissary", -- [10]
-		"/1 so what are the actual benefits to keeping warmode on for WQs", -- [11]
-		"/1 how do you kill quillboars when youre riding the boar?", -- [12]
-		"/1 not working for me", -- [13]
-		"/1 you have to jump apparently ", -- [14]
-		"/1 remember when horde fanboys were badasses then belves came along and now horde is 50%  blood elf lel", -- [15]
-		"/cast revive pet", -- [16]
-		"/p ty", -- [17]
-		"/2 dat feel when your ilvl is 339.62", -- [18]
-		"/2 are warfronts happening tomorrow?", -- [19]
-		"/cast primal flamesaber", -- [20]
+		"/s as a hunter I dont need armor", -- [1]
+		"/s how do you summon this guy", -- [2]
+		"/s oh I can actually tame this guy", -- [3]
+		"/s ya I dont ", -- [4]
+		"/2 are world bosses starting this week as well?", -- [5]
+		"/s nice strider", -- [6]
+		"/cw Snowyvixen is WB up?", -- [7]
+		"/cw Snowyvixen-Kel'Thuzad where on map? I dont see a purple elite", -- [8]
+		"/cw Snowyvixen-Kel'Thuzad ty ", -- [9]
+		"/cw Markthehobo-Baelgun accept pls", -- [10]
+		"/y kill the adds my dudes", -- [11]
+		"/1 |cffa335ee|Hitem:161473::::::::120:253::3:3:5119:1492:4786:::|h[Lion's Guile]|h|r", -- [12]
+		"/tar yver", -- [13]
+		"/1 why do groups of horde keep getting phased in on top of me ", -- [14]
+		"/1 is this the new Ashran", -- [15]
+		"/1 this is the new Ashran", -- [16]
+		"/2 whem can you join queue for Warfront? my \"Join Queue\" button is greyed out ", -- [17]
+		"/2 are there even horde on KT lol", -- [18]
+		"/2 whoopee |cff1eff00|Hitem:163195::::::::120:253::::::|h[Schematic: Makeshift Azerite Detector]|h|r", -- [19]
+		"/2 cool horde been at 2% for past 10 mins so if I'm lucky I'll get to try warfront by thursday", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"WTB all Platinum & Storm Silver ores 25g each, and Akunda's Bite 35g each per mail. Please mail (COD) to me! Taking all you have, no limit!", -- [1]
-			"Acenaa-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Acenaa", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			551, -- [11]
-			"Player-3693-09DB356D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00ff96Acenaa|r",
-			[51] = 1535653029,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"WTB All BFA HERBS. 30  EA (Akunda's Bite 35 EA). Anchor Weed 400 EA. WTB BFA FISH: Frenzied Fangtooth 10 EA. Redtail Loach 50 EA. Midnight Salmon 450 EA. Cod ALL!", -- [1]
-			"Bunginator-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Bunginator", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			556, -- [11]
-			"Player-3693-08DBD159", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3fc6eaBunginator|r",
-			[51] = 1535653056,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"wts |cffa335ee|Hitem:163953::::::::120:103::54:2:1477:4783:::|h[Jula's Jovial Drape]|h|r 355 warforged", -- [1]
-			"Gentuku-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gentuku", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			562, -- [11]
-			"Player-3693-09F26E57", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aGentuku|r",
-			[51] = 1535653109,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"WTS |cffa335ee|Hitem:159125::::::::120:103::13::::|h[Darkmoon Deck: Fathoms]|h|r[BiS dps trink]|cffa335ee|Hitem:159127::::::::120:103::13::::|h[Darkmoon Deck: Tides]|h|r[bis healer trink]|cffa335ee|Hitem:159126::::::::120:103::13::::|h[Darkmoon Deck: Squalls]|h|r[caster]|cffa335ee|Hitem:159128::::::::120:103::13::::|h[Darkmoon Deck: Blockades]|h|r[tank] 355 ilvl trinket get your raiding gear now to prepare for tuesday.. cheaper than AH PST :D", -- [1]
-			"Aaronar-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Aaronar", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			566, -- [11]
-			"Player-3693-09FBED4E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aAaronar|r",
-			[51] = 1535653121,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"wts |cffa335ee|Hitem:163953::::::::120:103::54:2:1477:4783:::|h[Jula's Jovial Drape]|h|r 355 warforged", -- [1]
-			"Gentuku", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gentuku", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			571, -- [11]
-			"Player-3693-09F26E57", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aGentuku|r",
-			[51] = 1535653159,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
-			"WTS |cffa335ee|Hitem:159125::::::::120:103::13::::|h[Darkmoon Deck: Fathoms]|h|r[BiS dps trink]|cffa335ee|Hitem:159127::::::::120:103::13::::|h[Darkmoon Deck: Tides]|h|r[bis healer trink]|cffa335ee|Hitem:159126::::::::120:103::13::::|h[Darkmoon Deck: Squalls]|h|r[caster]|cffa335ee|Hitem:159128::::::::120:103::13::::|h[Darkmoon Deck: Blockades]|h|r[tank] 355 ilvl trinket get your raiding gear now to prepare for tuesday.. cheaper than AH PST :D", -- [1]
-			"Aaronar-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Aaronar", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			605, -- [11]
-			"Player-3693-09FBED4E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aAaronar|r",
-			[51] = 1535653186,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
-		{
-			"blizz made changes to auction transaction fees and the API itself", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			20, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1535666464,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
-		{
-			"WTS/WTT |cffa335ee|Hitem:163940::::::::120:257::54:3:43:1477:4783:::|h[Extra-Light Light Emitting Cord]|h|r 210k (355 WARFORGED) CHEAPER THAN AH", -- [1]
-			"Niel-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Niel", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			21, -- [11]
-			"Player-3693-09F74AF6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffNiel|r",
-			[51] = 1535666471,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
-		{
-			"hey , so how do i get around it", -- [1]
-			"Slikbankster-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Slikbankster", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			23, -- [11]
-			"Player-3693-085C8525", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaSlikbankster|r",
-			[51] = 1535666484,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [9]
-		{
-			"update addons", -- [1]
-			"Slikbankster-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Slikbankster", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			30, -- [11]
-			"Player-3693-085C8525", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaSlikbankster|r",
-			[51] = 1535666511,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [10]
-		{
-			"WTS |cffa335ee|Hitem:163965::::::::120:70::54:2:1472:4786:::|h[Glave's Angular Glaive]|h|r|cffa335ee|Hitem:163949::::::::120:70::54:3:4802:1472:4786:::|h[Celedhring's Unrelenting Stride]|h|r|cffffffff|Hitem:161344::::::::120:70::::::|h[Abyssal Fragment]|h|r", -- [1]
-			"Mùrký-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mùrký", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			31, -- [11]
-			"Player-3693-09F75AA3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff48cbaMùrký|r",
-			[51] = 1535666514,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
-		{
-			"WTS/WTT |cffa335ee|Hitem:163940::::::::120:257::54:3:43:1477:4783:::|h[Extra-Light Light Emitting Cord]|h|r 210k (355 WARFORGED) CHEAPER THAN AH", -- [1]
-			"Niel-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Niel", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			32, -- [11]
-			"Player-3693-09F74AF6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffNiel|r",
-			[51] = 1535666531,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
-		{
-			"everything is up to date", -- [1]
-			"Slikbankster-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Slikbankster", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			34, -- [11]
-			"Player-3693-085C8525", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaSlikbankster|r",
-			[51] = 1535666537,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [13]
-		{
-			"not sure what the problem is then", -- [1]
-			"Slikbankster-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Slikbankster", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			35, -- [11]
-			"Player-3693-085C8525", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaSlikbankster|r",
-			[51] = 1535666551,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [14]
-		{
-			"are you in the qyest area?", -- [1]
-			"Arthenore-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Arthenore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			61, -- [11]
-			"Player-3693-091B4551", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaArthenore|r",
-			[51] = 1535683810,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [15]
-		{
-			"if so look for a small circle inside it", -- [1]
-			"Arthenore-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Arthenore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			62, -- [11]
-			"Player-3693-091B4551", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaArthenore|r",
-			[51] = 1535683818,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [16]
-		{
-			"might only be there when shes alive and she dies pretty fasy", -- [1]
-			"Arthenore-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Arthenore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			63, -- [11]
-			"Player-3693-091B4551", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaArthenore|r",
-			[51] = 1535683827,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [17]
-		{
-			"Is she near Kenning's Lodge?", -- [1]
-			"Arthenore-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Arthenore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			69, -- [11]
-			"Player-3693-091B4551", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaArthenore|r",
-			[51] = 1535683859,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [18]
-		{
-			"wherever the world quest is that has her in it", -- [1]
-			"Arthenore-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Arthenore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			72, -- [11]
-			"Player-3693-091B4551", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaArthenore|r",
-			[51] = 1535683870,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [19]
-		{
-			"I think it was kennings lodge ya - north of there but still inside the quest zone", -- [1]
-			"Arthenore-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Arthenore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			73, -- [11]
-			"Player-3693-091B4551", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaArthenore|r",
-			[51] = 1535683892,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [20]
-		{
-			"it's good to be a huntard", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			81, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1535684062,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [21]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:12947:Player-3693-092AD332:1:8:30:18:4294967295:4294967295:4294967295:4294967295|h[Azerothian Diplomat]|h|r!", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			122, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1535684733,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [22]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:12989:Player-3693-092AD332:1:8:30:18:4294967295:4294967295:4294967295:4294967295|h[Battle for Azeroth Pathfinder, Part One]|h|r!", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			123, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1535684733,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [23]
-		{
-			"fuck yes", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			126, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1535684741,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [24]
-		{
-			"ahhhhhhhhh |cffffff00|Hachievement:12989:Player-3693-092AD332:1:8:30:18:4294967295:4294967295:4294967295:4294967295|h[Battle for Azeroth Pathfinder, Part One]|h|r", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			138, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1535684790,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
-		{
-			"but can you fly though?", -- [1]
-			"Lemonadeacid", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lemonadeacid", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			173, -- [11]
-			"Player-3693-08E87C12", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00ff96Lemonadeacid|r",
-			[51] = 1535684835,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [26]
-		{
-			"Im flying high on achievement ", -- [1]
-			"Lemonadeacid-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lemonadeacid", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			175, -- [11]
-			"Player-3693-08E87C12", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00ff96Lemonadeacid|r",
-			[51] = 1535684859,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [27]
-		{
-			"lol", -- [1]
-			"Lemonadeacid-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lemonadeacid", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			176, -- [11]
-			"Player-3693-08E87C12", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00ff96Lemonadeacid|r",
-			[51] = 1535684867,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [28]
-		{
-			"WTS |cffffffff|Hitem:152579::::::::120:250::::::|h[Storm Silver Ore]|h|r stacks 8k", -- [1]
-			"Fledious-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Fledious", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			197, -- [11]
-			"Player-3693-09ECC05D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc41e3aFledious|r",
-			[51] = 1535684963,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
-		{
-			"BUYING |cff0070dd|Hitem:160053::::::::20:260::::::|h[Battle-Scarred Augment Rune]|h|r 225g, |cff1eff00|Hitem:152510::::::::20:260::::::|h[Anchor Weed]|h|r/|cff1eff00|Hitem:162515::::::::20:260::::::|h[Midnight Salmon]|h|r 425g, |cffa335ee|Hitem:152877::::::::20:260::::::|h[Veiled Crystal]|h|r 2750g, & ALL BFA herbs for 30g each. PST or CoD ANY amount!", -- [1]
-			"Nomnombank-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nomnombank", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			235, -- [11]
-			"Player-3693-0950EE7B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Nomnombank|r",
-			[51] = 1535685034,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
-		{
-			"BUYING |cff0070dd|Hitem:160053::::::::20:260::::::|h[Battle-Scarred Augment Rune]|h|r 225g, |cff1eff00|Hitem:152510::::::::20:260::::::|h[Anchor Weed]|h|r/|cff1eff00|Hitem:162515::::::::20:260::::::|h[Midnight Salmon]|h|r 425g, |cffa335ee|Hitem:152877::::::::20:260::::::|h[Veiled Crystal]|h|r 2750g, & ALL BFA herbs for 30g each. PST or CoD ANY amount!", -- [1]
-			"Nomnombank-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nomnombank", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			255, -- [11]
-			"Player-3693-0950EE7B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Nomnombank|r",
-			[51] = 1535685214,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
-		{
-			"oh man with the speed boost from |cffffff00|Hachievement:12989:Player-3693-092AD332:1:8:30:18:4294967295:4294967295:4294967295:4294967295|h[Battle for Azeroth Pathfinder, Part One]|h|r I can finally reach the ship from the top of the stairs", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			278, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1535685323,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
-		{
-			"now you can finally play the game", -- [1]
-			"Lshade", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lshade", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			279, -- [11]
-			"Player-3693-09ED02E1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaLshade|r",
-			[51] = 1535685337,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [33]
-		{
-			"WTB ALL |cffffffff|Hitem:152541::::::::120:260::::::|h[Coarse Leather]|h|r 3g each COD or INVITE/MEET AT SW AH. BUYING ALL NO LIMIT!", -- [1]
-			"Sazu-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Sazu", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			281, -- [11]
-			"Player-3693-09F3EF9F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Sazu|r",
-			[51] = 1535685340,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
-		{
-			"the real endgame", -- [1]
-			"Lshade-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lshade", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			283, -- [11]
-			"Player-3693-09ED02E1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaLshade|r",
-			[51] = 1535685350,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [35]
-		{
-			"WTS |cffffffff|Hitem:152579::::::::120:250::::::|h[Storm Silver Ore]|h|r stacks 8k", -- [1]
-			"Fledious-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Fledious", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			287, -- [11]
-			"Player-3693-09ECC05D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc41e3aFledious|r",
-			[51] = 1535685366,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
-		{
-			"BUYING |cff0070dd|Hitem:160053::::::::20:260::::::|h[Battle-Scarred Augment Rune]|h|r 225g, |cff1eff00|Hitem:152510::::::::20:260::::::|h[Anchor Weed]|h|r/|cff1eff00|Hitem:162515::::::::20:260::::::|h[Midnight Salmon]|h|r 425g, |cffa335ee|Hitem:152877::::::::20:260::::::|h[Veiled Crystal]|h|r 2750g, & ALL BFA herbs for 30g each. PST or CoD ANY amount!", -- [1]
-			"Nomnombank-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nomnombank", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			291, -- [11]
-			"Player-3693-0950EE7B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Nomnombank|r",
-			[51] = 1535685394,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
-		{
-			"|cffa335ee|Hitem:163942::::::::120:253::54:3:42:1472:4786:::|h[Slippers of the Unruly Fairies]|h|rWTS 100k cheaper then ah ", -- [1]
-			"Mialayor-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Mialayor", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			295, -- [11]
-			"Player-3693-07445BB4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Mialayor|r",
-			[51] = 1535685405,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
-		{
-			"WTS |cffa335ee|Hitem:163576::::::::120:103::::::|h[Captured Dune Scavenger]|h|r", -- [1]
-			"Buisness-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Buisness", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			300, -- [11]
-			"Player-3693-07DC6171", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aBuisness|r",
-			[51] = 1535685427,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
-		{
-			"WTB ALL |cffffffff|Hitem:152541::::::::120:260::::::|h[Coarse Leather]|h|r 5G each COD or INVITE/MEET AT SW AH. BUYING ALL NO LIMIT!", -- [1]
-			"Sazu-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Sazu", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			306, -- [11]
-			"Player-3693-09F3EF9F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Sazu|r",
-			[51] = 1535685469,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
-		{
-			"WTB ALL |cffffffff|Hitem:152541::::::::120:260::::::|h[Coarse Leather]|h|r 5G each COD or INVITE/MEET AT SW AH. BUYING ALL NO LIMIT!", -- [1]
-			"Sazu-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Sazu", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			322, -- [11]
-			"Player-3693-09F3EF9F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Sazu|r",
-			[51] = 1535685515,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
-		{
-			"WTS |cffffffff|Hitem:152579::::::::120:250::::::|h[Storm Silver Ore]|h|r stacks 8k", -- [1]
-			"Fledious-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Fledious", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			330, -- [11]
-			"Player-3693-09ECC05D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc41e3aFledious|r",
-			[51] = 1535685538,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
-		{
-			"WTS |cffa335ee|Hitem:163576::::::::120:103::::::|h[Captured Dune Scavenger]|h|r", -- [1]
-			"Buisness-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Buisness", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			333, -- [11]
-			"Player-3693-07DC6171", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aBuisness|r",
-			[51] = 1535685543,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
-		{
-			"where my long bois at", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			339, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1535685563,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [44]
-		{
-			"WTS |cff0070dd|Hbattlepet:242:1:3:149:12:12:0000000000000000|h[Spectral Tiger Cub]|h|r 380k PST, 220k less then AH", -- [1]
-			"Calipsoe-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Calipsoe", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			342, -- [11]
-			"Player-3693-0934C0EF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Calipsoe|r",
-			[51] = 1535685572,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
-		{
-			"BUYING |cff0070dd|Hitem:160053::::::::20:260::::::|h[Battle-Scarred Augment Rune]|h|r 225g, |cff1eff00|Hitem:152510::::::::20:260::::::|h[Anchor Weed]|h|r/|cff1eff00|Hitem:162515::::::::20:260::::::|h[Midnight Salmon]|h|r 425g, |cffa335ee|Hitem:152877::::::::20:260::::::|h[Veiled Crystal]|h|r 2750g, & ALL BFA herbs for 30g each. PST or CoD ANY amount!", -- [1]
-			"Nomnombank-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nomnombank", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			343, -- [11]
-			"Player-3693-0950EE7B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Nomnombank|r",
-			[51] = 1535685574,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
-		{
-			"why whats happening", -- [1]
-			"Hufs-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Hufs", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			365, -- [11]
-			"Player-3693-09F9EEE8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Hufs|r",
-			[51] = 1535685608,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [47]
 		{
 			"trading squalls tides and fathom cards for other cards PST what extra cards you have", -- [1]
 			"Stevetime-Kel'Thuzad", -- [2]
@@ -1078,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dStevetime|r",
 			[51] = 1535685612,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [1]
 		{
 			"nothing ally just doesnt turn war mode on", -- [1]
 			"Hufs-Kel'Thuzad", -- [2]
@@ -1100,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Hufs|r",
 			[51] = 1535685620,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [49]
+		}, -- [2]
 		{
 			"not even pvping", -- [1]
 			"Hufs", -- [2]
@@ -1122,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Hufs|r",
 			[51] = 1535685624,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [50]
+		}, -- [3]
 		{
 			"pussy if its off", -- [1]
 			"Hufs-Kel'Thuzad", -- [2]
@@ -1144,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Hufs|r",
 			[51] = 1535685633,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [51]
+		}, -- [4]
 		{
 			"WTS|cffa335ee|Hitem:163938::::::::120:103::54:2:1472:4786:::|h[Kalieve's Kickers]|h|r", -- [1]
 			"Lilsqwippy-Kel'Thuzad", -- [2]
@@ -1166,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aLilsqwippy|r",
 			[51] = 1535685677,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [5]
 		{
 			"trading squalls tides and fathom cards for other cards PST what extra cards you have", -- [1]
 			"Stevetime-Kel'Thuzad", -- [2]
@@ -1188,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dStevetime|r",
 			[51] = 1535685717,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [6]
 		{
 			"BUYING |cff0070dd|Hitem:160053::::::::20:260::::::|h[Battle-Scarred Augment Rune]|h|r 225g, |cff1eff00|Hitem:152510::::::::20:260::::::|h[Anchor Weed]|h|r/|cff1eff00|Hitem:162515::::::::20:260::::::|h[Midnight Salmon]|h|r 425g, |cffa335ee|Hitem:152877::::::::20:260::::::|h[Veiled Crystal]|h|r 2750g, & ALL BFA herbs for 30g each. PST or CoD ANY amount!", -- [1]
 			"Nomnombank-Kel'Thuzad", -- [2]
@@ -1210,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Nomnombank|r",
 			[51] = 1535685754,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [7]
 		{
 			"WTS|cffa335ee|Hitem:163938::::::::120:103::54:2:1472:4786:::|h[Kalieve's Kickers]|h|r", -- [1]
 			"Lilsqwippy-Kel'Thuzad", -- [2]
@@ -1232,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aLilsqwippy|r",
 			[51] = 1535685757,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [8]
 		{
 			"WTS|cffa335ee|Hitem:163938::::::::120:103::54:2:1472:4786:::|h[Kalieve's Kickers]|h|r", -- [1]
 			"Lilsqwippy-Kel'Thuzad", -- [2]
@@ -1254,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aLilsqwippy|r",
 			[51] = 1535685784,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
+		}, -- [9]
 		{
 			"Alchemist looking for work", -- [1]
 			"Himikochan-Kel'Thuzad", -- [2]
@@ -1276,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Himikochan|r",
 			[51] = 1535685802,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
+		}, -- [10]
 		{
 			"trading squalls tides and fathom cards for other cards PST what extra cards you have", -- [1]
 			"Stevetime-Kel'Thuzad", -- [2]
@@ -1298,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dStevetime|r",
 			[51] = 1535685808,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
+		}, -- [11]
 		{
 			"WTS|cffa335ee|Hitem:163938::::::::120:103::54:2:1472:4786:::|h[Kalieve's Kickers]|h|r", -- [1]
 			"Lilsqwippy-Kel'Thuzad", -- [2]
@@ -1320,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aLilsqwippy|r",
 			[51] = 1535685809,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [12]
 		{
 			"<Warbringer> Is a Raiding/PvP Guild in need of ALL positions for core progression in BFA. Raid Times: Friday & Sunday 6:30-10 PM ST. Also recruiting for Mythic Runs RBG: Tuesday & Saturday (Days may very on RBGs) PST FOR MORE INFO!", -- [1]
 			"Ultamightdps-Kel'Thuzad", -- [2]
@@ -1342,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaUltamightdps|r",
 			[51] = 1535685888,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [13]
 		{
 			"trading squalls tides and fathom cards for other cards PST what extra cards you have", -- [1]
 			"Stevetime-Kel'Thuzad", -- [2]
@@ -1364,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dStevetime|r",
 			[51] = 1535685895,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [14]
 		{
 			"trading squalls tides and fathom cards for other cards PST what extra cards you have", -- [1]
 			"Stevetime-Kel'Thuzad", -- [2]
@@ -1386,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dStevetime|r",
 			[51] = 1535685895,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [15]
 		{
 			"ohhhhhh 340 azerite emissary", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1408,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1535728188,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [16]
 		{
 			"so what are the actual benefits to keeping warmode on for WQs", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1430,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1535728508,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [17]
 		{
 			"Any raiding guild run early like 5-9pm EST? 345 hunter LF guild", -- [1]
 			"Ruzaki-Kel'Thuzad", -- [2]
@@ -1452,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ruzaki|r",
 			[51] = 1535728635,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [18]
 		{
 			"how do you kill quillboars when youre riding the boar?", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1474,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1535728712,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [19]
 		{
 			"not working for me", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1496,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1535728741,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [20]
 		{
 			"you have to jump apparently ", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1518,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1535728755,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [21]
 		{
 			"remember when horde fanboys were badasses then belves came along and now horde is 50%  blood elf lel", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1540,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1535728906,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [22]
 		{
 			"Wts |cff0070dd|Hbattlepet:2458:1:3:167:10:10:0000000000000000|h[Muskflank Calfling]|h|r |cff0070dd|Hbattlepet:1337:1:3:162:12:10:0000000000000000|h[Spineclaw Crab]|h|r |cff1eff00|Hbattlepet:2476:1:2:148:11:11:0000000000000000|h[Bloodfeaster Larva]|h|r PST", -- [1]
 			"Elasheren-Kel'Thuzad", -- [2]
@@ -1562,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffElasheren|r",
 			[51] = 1535730107,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [23]
 		{
 			"WTB ALL |cffffffff|Hitem:152579::::::::120:71::::::|h[Storm Silver Ore]|h|r|cffffffff|Hitem:152579::::::::120:71::::::|h[Storm Silver Ore]|h|r", -- [1]
 			"Cellrius-Kel'Thuzad", -- [2]
@@ -1584,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dCellrius|r",
 			[51] = 1535730122,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [24]
 		{
 			"Wts |cff0070dd|Hbattlepet:2458:1:3:167:10:10:0000000000000000|h[Muskflank Calfling]|h|r |cff0070dd|Hbattlepet:1337:1:3:162:12:10:0000000000000000|h[Spineclaw Crab]|h|r |cff1eff00|Hbattlepet:2476:1:2:148:11:11:0000000000000000|h[Bloodfeaster Larva]|h|r PST", -- [1]
 			"Elasheren-Kel'Thuzad", -- [2]
@@ -1606,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffElasheren|r",
 			[51] = 1535730195,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [25]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:13144:Player-3693-0741FA93:1:8:31:18:4294967295:4294967295:4294967295:4294967295|h[Wide World of Quests]|h|r!", -- [1]
 			"Fearzbot-Kel'Thuzad", -- [2]
@@ -1628,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edFearzbot|r",
 			[51] = 1535730379,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [73]
+		}, -- [26]
 		{
 			"WTT 8/3 of tides for 5 of tides... 7 of blockades for 5 of blockades PST ", -- [1]
 			"Chunkybeef-Kel'Thuzad", -- [2]
@@ -1650,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddChunkybeef|r",
 			[51] = 1535730397,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
+		}, -- [27]
 		{
 			"WTT 8/3 of tides for 5 of tides... 7 of blockades for 5 of blockades... A of fathoms for 6 of fathoms PST", -- [1]
 			"Chunkybeef-Kel'Thuzad", -- [2]
@@ -1672,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddChunkybeef|r",
 			[51] = 1535730619,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [28]
 		{
 			"LF guild sigs 200g ea.", -- [1]
 			"Calipsoe-Kel'Thuzad", -- [2]
@@ -1694,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Calipsoe|r",
 			[51] = 1535731272,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
+		}, -- [29]
 		{
 			"WTS |cff0070dd|Hbattlepet:242:1:3:149:12:12:0000000000000000|h[Spectral Tiger Cub]|h|r PST", -- [1]
 			"Calipsoe-Kel'Thuzad", -- [2]
@@ -1716,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Calipsoe|r",
 			[51] = 1535731325,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [77]
+		}, -- [30]
 		{
 			"LF guild sigs 200g ea.", -- [1]
 			"Calipsoe-Kel'Thuzad", -- [2]
@@ -1738,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Calipsoe|r",
 			[51] = 1535731380,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [31]
 		{
 			"WTS |cff0070dd|Hbattlepet:242:1:3:149:12:12:0000000000000000|h[Spectral Tiger Cub]|h|r PST", -- [1]
 			"Calipsoe-Kel'Thuzad", -- [2]
@@ -1760,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Calipsoe|r",
 			[51] = 1535731439,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [32]
 		{
 			"LF guild sigs 200g PST", -- [1]
 			"Calipsoe-Kel'Thuzad", -- [2]
@@ -1782,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Calipsoe|r",
 			[51] = 1535731535,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [33]
 		{
 			"WTS |cff0070dd|Hbattlepet:242:1:3:149:12:12:0000000000000000|h[Spectral Tiger Cub]|h|r PST", -- [1]
 			"Calipsoe-Kel'Thuzad", -- [2]
@@ -1804,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Calipsoe|r",
 			[51] = 1535731536,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [34]
 		{
 			"WTS |cffa335ee|Hitem:163937::::::::120:577::54:3:4802:1472:4786:::|h[Leyshock's Grand Compilation]|h|r Pst", -- [1]
 			"Malygrim-Kel'Thuzad", -- [2]
@@ -1826,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Malygrim|r",
 			[51] = 1535731553,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [35]
 		{
 			"WTS |cff0070dd|Hbattlepet:242:1:3:149:12:12:0000000000000000|h[Spectral Tiger Cub]|h|r PST", -- [1]
 			"Calipsoe-Kel'Thuzad", -- [2]
@@ -1848,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Calipsoe|r",
 			[51] = 1535731577,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [36]
 		{
 			"WTS |cffa335ee|Hitem:163937::::::::120:577::54:3:4802:1472:4786:::|h[Leyshock's Grand Compilation]|h|r Pst", -- [1]
 			"Malygrim-Kel'Thuzad", -- [2]
@@ -1870,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Malygrim|r",
 			[51] = 1535731738,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [37]
 		{
 			"WTS |cffa335ee|Hitem:163937::::::::120:577::54:3:4802:1472:4786:::|h[Leyshock's Grand Compilation]|h|r Pst", -- [1]
 			"Malygrim-Kel'Thuzad", -- [2]
@@ -1892,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Malygrim|r",
 			[51] = 1535731861,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [38]
 		{
 			"Wts |cff0070dd|Hbattlepet:2458:1:3:167:10:10:0000000000000000|h[Muskflank Calfling]|h|r |cff0070dd|Hbattlepet:1337:1:3:162:12:10:0000000000000000|h[Spineclaw Crab]|h|r |cff1eff00|Hbattlepet:2476:1:2:148:11:11:0000000000000000|h[Bloodfeaster Larva]|h|r PST", -- [1]
 			"Elasheren-Kel'Thuzad", -- [2]
@@ -1914,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffElasheren|r",
 			[51] = 1535732044,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [39]
 		{
 			"WTS |cffa335ee|Hitem:159127::::::::120:577::13::::|h[Darkmoon Deck: Tides]|h|r|cffa335ee|Hitem:159126::::::::120:577::13::::|h[Darkmoon Deck: Squalls]|h|r|cffa335ee|Hitem:159128::::::::120:577::13::::|h[Darkmoon Deck: Blockades]|h|r! PST", -- [1]
 			"Vindertech-Kel'Thuzad", -- [2]
@@ -1936,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Vindertech|r",
 			[51] = 1535732133,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [40]
 		{
 			"WTS |cffa335ee|Hitem:163937::::::::120:577::54:3:4802:1472:4786:::|h[Leyshock's Grand Compilation]|h|r Pst", -- [1]
 			"Malygrim-Kel'Thuzad", -- [2]
@@ -1958,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Malygrim|r",
 			[51] = 1535732158,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [41]
 		{
 			"WTS |cffa335ee|Hitem:159127::::::::120:577::13::::|h[Darkmoon Deck: Tides]|h|r|cffa335ee|Hitem:159126::::::::120:577::13::::|h[Darkmoon Deck: Squalls]|h|r|cffa335ee|Hitem:159128::::::::120:577::13::::|h[Darkmoon Deck: Blockades]|h|r! PST", -- [1]
 			"Vindertech-Kel'Thuzad", -- [2]
@@ -1980,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Vindertech|r",
 			[51] = 1535732179,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [42]
 		{
 			"WTS |cffa335ee|Hitem:159127::::::::120:577::13::::|h[Darkmoon Deck: Tides]|h|r|cffa335ee|Hitem:159126::::::::120:577::13::::|h[Darkmoon Deck: Squalls]|h|r|cffa335ee|Hitem:159128::::::::120:577::13::::|h[Darkmoon Deck: Blockades]|h|r! PST", -- [1]
 			"Vindertech-Kel'Thuzad", -- [2]
@@ -2002,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Vindertech|r",
 			[51] = 1535732272,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [43]
 		{
 			"WTS |cffa335ee|Hitem:159125::::::::120:577::13::::|h[Darkmoon Deck: Fathoms]|h|r|cffa335ee|Hitem:159126::::::::120:577::13::::|h[Darkmoon Deck: Squalls]|h|r|cffa335ee|Hitem:159128::::::::120:577::13::::|h[Darkmoon Deck: Blockades]|h|r|cffa335ee|Hitem:159127::::::::120:577::13::::|h[Darkmoon Deck: Tides]|h|r! PST", -- [1]
 			"Vindertech-Kel'Thuzad", -- [2]
@@ -2024,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Vindertech|r",
 			[51] = 1535732408,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [44]
 		{
 			"WTS |cffa335ee|Hitem:159125::::::::120:577::13::::|h[Darkmoon Deck: Fathoms]|h|r|cffa335ee|Hitem:159126::::::::120:577::13::::|h[Darkmoon Deck: Squalls]|h|r|cffa335ee|Hitem:159128::::::::120:577::13::::|h[Darkmoon Deck: Blockades]|h|r|cffa335ee|Hitem:159127::::::::120:577::13::::|h[Darkmoon Deck: Tides]|h|r! PST", -- [1]
 			"Vindertech-Kel'Thuzad", -- [2]
@@ -2046,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Vindertech|r",
 			[51] = 1535732437,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [45]
 		{
 			"WTS |cffa335ee|Hitem:159125::::::::120:577::13::::|h[Darkmoon Deck: Fathoms]|h|r|cffa335ee|Hitem:159126::::::::120:577::13::::|h[Darkmoon Deck: Squalls]|h|r|cffa335ee|Hitem:159128::::::::120:577::13::::|h[Darkmoon Deck: Blockades]|h|r|cffa335ee|Hitem:159127::::::::120:577::13::::|h[Darkmoon Deck: Tides]|h|r! PST", -- [1]
 			"Vindertech-Kel'Thuzad", -- [2]
@@ -2068,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Vindertech|r",
 			[51] = 1535732480,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [46]
 		{
 			"WTS |cffa335ee|Hitem:159125::::::::120:577::13::::|h[Darkmoon Deck: Fathoms]|h|r|cffa335ee|Hitem:159126::::::::120:577::13::::|h[Darkmoon Deck: Squalls]|h|r|cffa335ee|Hitem:159128::::::::120:577::13::::|h[Darkmoon Deck: Blockades]|h|r|cffa335ee|Hitem:159127::::::::120:577::13::::|h[Darkmoon Deck: Tides]|h|r! PST", -- [1]
 			"Vindertech-Kel'Thuzad", -- [2]
@@ -2090,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Vindertech|r",
 			[51] = 1535732560,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [47]
 		{
 			"wTS |cff0070dd|Hbattlepet:242:1:3:149:12:12:0000000000000000|h[Spectral Tiger Cub]|h|r PST", -- [1]
 			"Calipsoe-Kel'Thuzad", -- [2]
@@ -2112,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Calipsoe|r",
 			[51] = 1535732643,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [48]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:5456:Player-3693-0741FA93:1:8:31:18:4294967295:4294967295:4294967295:4294967295|h[Got My Mind On My Money]|h|r!", -- [1]
 			"Fearzbot-Kel'Thuzad", -- [2]
@@ -2134,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edFearzbot|r",
 			[51] = 1535732682,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [96]
+		}, -- [49]
 		{
 			"WTS |cffa335ee|Hitem:163937::::::::120:577::54:3:4802:1472:4786:::|h[Leyshock's Grand Compilation]|h|r Pst", -- [1]
 			"Malygrim-Kel'Thuzad", -- [2]
@@ -2156,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Malygrim|r",
 			[51] = 1535732709,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [50]
 		{
 			"wTS |cff0070dd|Hbattlepet:242:1:3:149:12:12:0000000000000000|h[Spectral Tiger Cub]|h|r PST", -- [1]
 			"Calipsoe-Kel'Thuzad", -- [2]
@@ -2178,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Calipsoe|r",
 			[51] = 1535732721,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [51]
 		{
 			"<Parks N Rekt>  is a small laid back guild looking to grow. We're recruiting new active members for BFA PvE and PvP. We are currently running Mythic+ and working on getting RBG's going soon. Pushing for BFA end content. All levels welcome!", -- [1]
 			"Ðaedrix-Kel'Thuzad", -- [2]
@@ -2200,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Ðaedrix|r",
 			[51] = 1535732753,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [99]
+		}, -- [52]
 		{
 			"R1 RBGs, 500+ member Discord, 10k average viewer streams, Progression raiding. THATS [Ape Gang] BABY! Pm for invite", -- [1]
 			"Jellypeanut-Kel'Thuzad", -- [2]
@@ -2222,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Jellypeanut|r",
 			[51] = 1535732760,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [100]
+		}, -- [53]
 		{
 			"<Parks N Rekt>  is a small laid back guild looking to grow. We're recruiting new active members for BFA PvE and PvP. We are currently running Mythic+ and working on getting RBG's going soon. Pushing for BFA end content. All levels welcome!", -- [1]
 			"Ðaedrix-Kel'Thuzad", -- [2]
@@ -2244,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Ðaedrix|r",
 			[51] = 1535732797,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [101]
+		}, -- [54]
 		{
 			"WTS |cffa335ee|Hitem:163937::::::::120:577::54:3:4802:1472:4786:::|h[Leyshock's Grand Compilation]|h|r Pst", -- [1]
 			"Malygrim-Kel'Thuzad", -- [2]
@@ -2266,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Malygrim|r",
 			[51] = 1535732919,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [102]
+		}, -- [55]
 		{
 			"<Parks N Rekt>  is a small laid back guild looking to grow. We're recruiting new active members for BFA PvE and PvP. We are currently running Mythic+ and working on getting RBG's going soon. Pushing for BFA end content. All levels welcome!", -- [1]
 			"Ðaedrix-Kel'Thuzad", -- [2]
@@ -2288,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Ðaedrix|r",
 			[51] = 1535732923,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [103]
+		}, -- [56]
 		{
 			"<Parks N Rekt>  is a small laid back guild looking to grow. We're recruiting new active members for BFA PvE and PvP. We are currently running Mythic+ and working on getting RBG's going soon. Pushing for BFA end content. All levels welcome!", -- [1]
 			"Ðaedrix-Kel'Thuzad", -- [2]
@@ -2310,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Ðaedrix|r",
 			[51] = 1535732968,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [104]
+		}, -- [57]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:504:Player-3693-087A62DF:1:9:1:18:4294967295:4294967295:4294967295:4294967295|h[100 Quests Completed]|h|r!", -- [1]
 			"Uris", -- [2]
@@ -2332,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffUris|r",
 			[51] = 1535818933,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [105]
+		}, -- [58]
 		{
 			"[World Quest Tracker]: Invite for World Quest 'Azerite Madness'", -- [1]
 			"Wdh-Kel'Thuzad", -- [2]
@@ -2354,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dWdh|r",
 			[51] = 1535903211,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [106]
+		}, -- [59]
 		{
 			"ty", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2376,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1535903281,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [107]
+		}, -- [60]
 		{
 			"|cffffff00Zeb'ahari is under attack!|r", -- [1]
 			"", -- [2]
@@ -2398,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1535903948,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [108]
+		}, -- [61]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12502:Player-3693-0741FA93:1:9:2:18:4294967295:4294967295:4294967295:4294967295|h[Mythic: Underrot]|h|r!", -- [1]
 			"Fearzbot-Kel'Thuzad", -- [2]
@@ -2420,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edFearzbot|r",
 			[51] = 1535904858,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [109]
+		}, -- [62]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12895:Player-3693-08D467BF:1:9:3:18:4294967295:4294967295:4294967295:4294967295|h[Honor Level 15]|h|r!", -- [1]
 			"Killidån", -- [2]
@@ -2442,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Killidån|r",
 			[51] = 1535990212,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [110]
+		}, -- [63]
 		{
 			"WTS |cffa335ee|Hitem:159128::::::::120:103::13::::|h[Darkmoon Deck: Blockades]|h|r[20k tank trinket]|cffa335ee|Hitem:159127::::::::120:103::13::::|h[Darkmoon Deck: Tides]|h|r[15k healer trinket] |cffa335ee|Hitem:159126::::::::120:103::13::::|h[Darkmoon Deck: Squalls]|h|r[15k caster trinket] get your 355 ilvl trinkets for raiding way cheaper than AH PST :D", -- [1]
 			"Aaronar-Kel'Thuzad", -- [2]
@@ -2464,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAaronar|r",
 			[51] = 1535990249,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [111]
+		}, -- [64]
 		{
 			"WTS |cffa335ee|Hitem:159128::::::::120:103::13::::|h[Darkmoon Deck: Blockades]|h|r[20k tank trinket]|cffa335ee|Hitem:159127::::::::120:103::13::::|h[Darkmoon Deck: Tides]|h|r[15k healer trinket] |cffa335ee|Hitem:159126::::::::120:103::13::::|h[Darkmoon Deck: Squalls]|h|r[15k caster trinket] get your 355 ilvl trinkets for raiding way cheaper than AH PST :D", -- [1]
 			"Aaronar-Kel'Thuzad", -- [2]
@@ -2486,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAaronar|r",
 			[51] = 1535990284,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [112]
+		}, -- [65]
 		{
 			"WTS|cffa335ee|Hitem:163576::::::::120:72::::::|h[Captured Dune Scavenger]|h|r", -- [1]
 			"Smitedu-Kel'Thuzad", -- [2]
@@ -2508,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dSmitedu|r",
 			[51] = 1535991134,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [113]
+		}, -- [66]
 		{
 			"WTS |cffa335ee|Hitem:159128::::::::120:103::13::::|h[Darkmoon Deck: Blockades]|h|r[20k tank trinket]|cffa335ee|Hitem:159127::::::::120:103::13::::|h[Darkmoon Deck: Tides]|h|r[15k healer trinket] |cffa335ee|Hitem:159126::::::::120:103::13::::|h[Darkmoon Deck: Squalls]|h|r[15k caster trinket] get your 355 ilvl trinkets for raiding way cheaper than AH PST :D", -- [1]
 			"Aaronar-Kel'Thuzad", -- [2]
@@ -2530,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAaronar|r",
 			[51] = 1535991170,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [114]
+		}, -- [67]
 		{
 			"dat feel when your ilvl is 339.62", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2552,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1536003610,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [115]
+		}, -- [68]
 		{
 			"are warfronts happening tomorrow?", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2574,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1536003631,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [116]
+		}, -- [69]
 		{
 			"WTB |cffa335ee|Hitem:137686::::::::120:72::13::::|h[Steelbound Harness]|h|r", -- [1]
 			"Kaskaden-Kel'Thuzad", -- [2]
@@ -2596,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dKaskaden|r",
 			[51] = 1536003694,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [117]
+		}, -- [70]
 		{
 			"WTB |cffa335ee|Hitem:137686::::::::120:72::13::::|h[Steelbound Harness]|h|r", -- [1]
 			"Kaskaden-Kel'Thuzad", -- [2]
@@ -2618,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dKaskaden|r",
 			[51] = 1536003730,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [118]
+		}, -- [71]
 		{
 			"WTS|cffa335ee|Hitem:163940::::::::120:256::54:3:40:1477:4783:::|h[Extra-Light Light Emitting Cord]|h|r 175k", -- [1]
 			"Hazpn", -- [2]
@@ -2640,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffHazpn|r",
 			[51] = 1536003796,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [119]
+		}, -- [72]
 		{
 			"WTS |cffa335ee|Hitem:159127::::::::120:577::13::::|h[Darkmoon Deck: Tides]|h|r15k! |cffa335ee|Hitem:159126::::::::120:577::13::::|h[Darkmoon Deck: Squalls]|h|r15k! |cffa335ee|Hitem:159128::::::::120:577::13::::|h[Darkmoon Deck: Blockades]|h|r 18k! PST!", -- [1]
 			"Vindertech-Kel'Thuzad", -- [2]
@@ -2662,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Vindertech|r",
 			[51] = 1536003816,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [120]
+		}, -- [73]
 		{
 			"Wts |cffffffff|Hitem:163222::::::::120:102::::::|h[Battle Potion of Intellect]|h|rx100", -- [1]
 			"Emptymoonnes-Kel'Thuzad", -- [2]
@@ -2684,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aEmptymoonnes|r",
 			[51] = 1536003874,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [121]
+		}, -- [74]
 		{
 			"WTB |cffa335ee|Hitem:137686::::::::120:72::13::::|h[Steelbound Harness]|h|r", -- [1]
 			"Kaskaden-Kel'Thuzad", -- [2]
@@ -2706,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dKaskaden|r",
 			[51] = 1536003926,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [122]
+		}, -- [75]
 		{
 			"WTB |cffa335ee|Hitem:137686::::::::120:72::13::::|h[Steelbound Harness]|h|r", -- [1]
 			"Kaskaden-Kel'Thuzad", -- [2]
@@ -2728,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dKaskaden|r",
 			[51] = 1536003958,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [123]
+		}, -- [76]
 		{
 			"WTB SIREN'S POLLEN, RIVERBUD 35 G PER,  AKUNDA'S BITE 40 GOLD PER, ANCHOR WEED 450 GOLD PER, AND MIDNIGHT SALMON 400 GOLD PER NO LIMIT. COD PLZ", -- [1]
 			"Dkhomie-Kel'Thuzad", -- [2]
@@ -2750,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aDkhomie|r",
 			[51] = 1536003976,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [124]
+		}, -- [77]
 		{
 			"WTB SIREN'S POLLEN, RIVERBUD 35 G PER,  AKUNDA'S BITE 40 GOLD PER, ANCHOR WEED 450 GOLD PER, AND MIDNIGHT SALMON 400 GOLD PER NO LIMIT. COD PLZ", -- [1]
 			"Dkhomie-Kel'Thuzad", -- [2]
@@ -2772,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aDkhomie|r",
 			[51] = 1536003976,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [125]
+		}, -- [78]
 		{
 			"WTB |cffa335ee|Hitem:137686::::::::120:72::13::::|h[Steelbound Harness]|h|r", -- [1]
 			"Kaskaden-Kel'Thuzad", -- [2]
@@ -2794,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dKaskaden|r",
 			[51] = 1536004025,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [126]
+		}, -- [79]
 		{
 			"WTS |cffa335ee|Hitem:159127::::::::120:577::13::::|h[Darkmoon Deck: Tides]|h|r15k! |cffa335ee|Hitem:159126::::::::120:577::13::::|h[Darkmoon Deck: Squalls]|h|r15k! |cffa335ee|Hitem:159128::::::::120:577::13::::|h[Darkmoon Deck: Blockades]|h|r 18k! PST!", -- [1]
 			"Vindertech-Kel'Thuzad", -- [2]
@@ -2815,6 +1781,1040 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "|cffa330c9Vindertech|r",
 			[51] = 1536004066,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [80]
+		{
+			"ty", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			42, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1536061661,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [81]
+		{
+			"as a hunter I dont need armor", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			46, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1536061668,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [82]
+		{
+			"how do you summon this guy", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			50, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1536061753,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [83]
+		{
+			"oh I can actually tame this guy", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			56, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1536061779,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [84]
+		{
+			"ya I dont ", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			60, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1536061795,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [85]
+		{
+			"wat dis", -- [1]
+			"Jizu-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Jizu", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			85, -- [11]
+			"Player-3693-0851B1FE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Jizu|r",
+			[51] = 1536062022,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [86]
+		{
+			"wq", -- [1]
+			"Quacks-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Quacks", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			90, -- [11]
+			"Player-3693-072C77CE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Quacks|r",
+			[51] = 1536062043,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [87]
+		{
+			"ty", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			128, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1536062127,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [88]
+		{
+			"WTB [Tidespray Linen]10g per [Any amount 1-50000] ALSO WTB all bfa herbs 31g ALL AMOUNTS accepted, CoD preferred but if you want to trade large amounts pst SKIP the AH and save deposit money and ah cut  :D", -- [1]
+			"Aaronar-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Aaronar", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			107, -- [11]
+			"Player-3693-09FBED4E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffff7c0aAaronar|r",
+			[51] = 1536065088,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [89]
+		{
+			"are world bosses starting this week as well?", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			198, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1536065622,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [90]
+		{
+			"WTB friends and guild , /pm price", -- [1]
+			"Juicèbox-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Juicèbox", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			212, -- [11]
+			"Player-3693-09FCBF84", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Juicèbox|r",
+			[51] = 1536065764,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [91]
+		{
+			"nice strider", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			213, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1536065765,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [92]
+		{
+			"is WB up?", -- [1]
+			"Snowyvixen-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Snowyvixen", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			49, -- [11]
+			"Player-3693-0767059F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffffffffSnowyvixen|r",
+			[51] = 1536074542,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [93]
+		{
+			"yes it should be, I havent gotten to it but its showing on map", -- [1]
+			"Snowyvixen-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Snowyvixen", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			50, -- [11]
+			"Player-3693-0767059F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffffffffSnowyvixen|r",
+			[51] = 1536074564,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [94]
+		{
+			"where on map? I dont see a purple elite", -- [1]
+			"Snowyvixen-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Snowyvixen", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			51, -- [11]
+			"Player-3693-0767059F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffffffffSnowyvixen|r",
+			[51] = 1536074577,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [95]
+		{
+			"its on the map north of Refuge Pointe ", -- [1]
+			"Snowyvixen-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Snowyvixen", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			56, -- [11]
+			"Player-3693-0767059F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffffffffSnowyvixen|r",
+			[51] = 1536074600,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [96]
+		{
+			"coords are 39.8 40.0", -- [1]
+			"Snowyvixen-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Snowyvixen", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			57, -- [11]
+			"Player-3693-0767059F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffffffffSnowyvixen|r",
+			[51] = 1536074607,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [97]
+		{
+			"ty ", -- [1]
+			"Snowyvixen-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Snowyvixen", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			58, -- [11]
+			"Player-3693-0767059F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffffffffSnowyvixen|r",
+			[51] = 1536074619,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [98]
+		{
+			"yw good luck!", -- [1]
+			"Snowyvixen-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Snowyvixen", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			60, -- [11]
+			"Player-3693-0767059F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffffffffSnowyvixen|r",
+			[51] = 1536074632,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [99]
+		{
+			"accept pls", -- [1]
+			"Markthehobo-Baelgun", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Markthehobo-Baelgun", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			76, -- [11]
+			"Player-1190-09652FB4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Markthehobo-Baelgun|r",
+			[51] = 1536074782,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [100]
+		{
+			"adds", -- [1]
+			"Admiris-Garona", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Admiris-Garona", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			89, -- [11]
+			"Player-51-0A2AE109", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc6eaAdmiris-Garona|r",
+			[51] = 1536074901,
+			[50] = "CHAT_MSG_RAID_LEADER",
+		}, -- [101]
+		{
+			"kill the adds my dudes", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			91, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1536074912,
+			[50] = "CHAT_MSG_YELL",
+		}, -- [102]
+		{
+			"|cffa335ee|Hitem:161473::::::::120:253::3:3:5119:1492:4786:::|h[Lion's Guile]|h|r", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"1. General - Arathi Highlands", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Arathi Highlands", -- [9]
+			0, -- [10]
+			140, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1536075073,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [103]
+		{
+			"why do groups of horde keep getting phased in on top of me ", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"1. General - Arathi Highlands", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Arathi Highlands", -- [9]
+			0, -- [10]
+			207, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1536075749,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [104]
+		{
+			"is this the new Ashran", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"1. General - Arathi Highlands", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Arathi Highlands", -- [9]
+			0, -- [10]
+			213, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1536075756,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [105]
+		{
+			"might as well speed it up", -- [1]
+			"Shurtthomas-Hellscream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Shurtthomas-Hellscream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			231, -- [11]
+			"Player-53-09FBBB45", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaShurtthomas-Hellscream|r",
+			[51] = 1536075903,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [106]
+		{
+			"little help please :D ", -- [1]
+			"Shurtthomas-Hellscream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Shurtthomas-Hellscream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			239, -- [11]
+			"Player-53-09FBBB45", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaShurtthomas-Hellscream|r",
+			[51] = 1536075943,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [107]
+		{
+			"invite plz", -- [1]
+			"Pizzoff-Hellscream", -- [2]
+			"", -- [3]
+			"1. General - Arathi Highlands", -- [4]
+			"Pizzoff-Hellscream", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Arathi Highlands", -- [9]
+			0, -- [10]
+			246, -- [11]
+			"Player-53-05686094", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff48cbaPizzoff-Hellscream|r",
+			[51] = 1536075992,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [108]
+		{
+			"ty", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			249, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1536076004,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [109]
+		{
+			"this is the new Ashran", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"1. General - Arathi Highlands", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Arathi Highlands", -- [9]
+			0, -- [10]
+			317, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1536076390,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [110]
+		{
+			"whem can you join queue for Warfront? my \"Join Queue\" button is greyed out ", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			471, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1536076868,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [111]
+		{
+			"are there even horde on KT lol", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			474, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1536076904,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [112]
+		{
+			"whoopee |cff1eff00|Hitem:163195::::::::120:253::::::|h[Schematic: Makeshift Azerite Detector]|h|r", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			504, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1536077021,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [113]
+		{
+			"cool horde been at 2% for past 10 mins so if I'm lucky I'll get to try warfront by thursday", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			528, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1536077102,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [114]
+		{
+			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
+			"Gplayone-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gplayone", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			671, -- [11]
+			"Player-3693-09F02F04", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffGplayone|r",
+			[51] = 1536077913,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [115]
+		{
+			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
+			"Gplayone-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gplayone", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			680, -- [11]
+			"Player-3693-09F02F04", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffGplayone|r",
+			[51] = 1536077973,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [116]
+		{
+			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
+			"Gplayone-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gplayone", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			696, -- [11]
+			"Player-3693-09F02F04", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffGplayone|r",
+			[51] = 1536078093,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [117]
+		{
+			"do mythics give keys still", -- [1]
+			"Pax-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Pax", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			698, -- [11]
+			"Player-3693-09203078", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Pax|r",
+			[51] = 1536078121,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [118]
+		{
+			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
+			"Gplayone-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gplayone", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			699, -- [11]
+			"Player-3693-09F02F04", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffGplayone|r",
+			[51] = 1536078153,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [119]
+		{
+			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
+			"Gplayone-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gplayone", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			708, -- [11]
+			"Player-3693-09F02F04", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffGplayone|r",
+			[51] = 1536078213,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [120]
+		{
+			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
+			"Gplayone-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gplayone", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			740, -- [11]
+			"Player-3693-09F02F04", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffGplayone|r",
+			[51] = 1536078334,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [121]
+		{
+			"where do i contribute ", -- [1]
+			"Arcatraz-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Arcatraz", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			745, -- [11]
+			"Player-3693-07484AB0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc69b6dArcatraz|r",
+			[51] = 1536078342,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [122]
+		{
+			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
+			"Gplayone-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gplayone", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			770, -- [11]
+			"Player-3693-09F02F04", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffGplayone|r",
+			[51] = 1536078454,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [123]
+		{
+			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
+			"Gplayone-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gplayone", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			796, -- [11]
+			"Player-3693-09F02F04", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffGplayone|r",
+			[51] = 1536078574,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [124]
+		{
+			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
+			"Gplayone-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gplayone", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			805, -- [11]
+			"Player-3693-09F02F04", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffGplayone|r",
+			[51] = 1536078634,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [125]
+		{
+			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
+			"Gplayone-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gplayone", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			829, -- [11]
+			"Player-3693-09F02F04", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffGplayone|r",
+			[51] = 1536078754,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [126]
+		{
+			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
+			"Gplayone-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gplayone", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			838, -- [11]
+			"Player-3693-09F02F04", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffGplayone|r",
+			[51] = 1536078815,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},
