@@ -1,6 +1,63 @@
 local L
 L = LibStub("AceLocale-3.0"):NewLocale("Rarity", "enUS", true)
 
+L["Scuttle"] = true
+L["Captain Nibs"] = true
+L["Barnaby"] = true
+L["Poro"] = true
+L["Octopode Fry"] = true
+L["Inky"] = true
+L["Sparkleshell Sandcrawler"] = true
+L["Kindleweb Spiderling"] = true
+L["Mischievous Zephyr"] = true
+L["Littlehoof"] = true
+L["Snapper"] = true
+L["Sunscale Hatchling"] = true
+L["Bloodstone Tunneler"] = true
+L["Snort"] = true
+L["Muskflank Calfling"] = true
+L["Juvenile Brineshell"] = true
+L["Kunchong Hatchling"] = true
+L["Coldlight Surfrunner"] = true
+L["Voru'kar Leecher"] = true
+L["Tinder Pup"] = true
+L["Sandshell Chitterer"] = true
+L["Deathsting Scorpid"] = true
+L["Thistlebrush Bud"] = true
+L["Giggling Flame"] = true
+L["Laughing Stonekin"] = true
+L["Playful Frostkin"] = true
+L["False Knucklebump"] = true
+L["Craghoof Kid"] = true
+L["Oomgut Ritual Drum"] = true
+L["Whiskerwax Candle"] = true
+L["Yaungol Oil Stove"] = true
+L["Jinyu Light Globe"] = true
+L["Enchanted Soup Stone"] = true
+L["Magic Monkey Banana"] = true
+L["Bad Mojo Banana"] = true
+L["Regenerating Banana Bunch"] = true
+L["Viable Cobra Egg"] = true
+L["Dropped by Merektha in Temple of Sethraliss. Will hatch into Spawn of Merektha pet after three days."] = true
+L["Twilight Avenger"] = true
+L["Craghorn Chasm-Leaper"] = true
+L["Qinsho's Eternal Hound"] = true
+L["Squawks"] = true
+L["Surf Jelly"] = true
+L["Witherbark Direwing"] = true
+L["Nimar the Slayer"] = true
+L["Lil' Donkey"] = true
+L["Overseer Krix"] = true
+L["Skullripper"] = true
+L["Swift Albino Raptor"] = true
+L["Beastrider Kama"] = true
+L["Highland Mustang"] = true
+L["Doomrider Helgrim"] = true
+L["Broken Highland Mustang"] = true
+L["Knight-Captain Aldrin"] = true
+L["Sharkbait's Favorite Crackers"] = true
+L["Underrot Crawg Harness"] = true
+L["Mummified Raptor Skull"] = true
 L["Loading"] = true
 L["Loaded (running in debug mode)"] = true
 L["Profile modified, rebooting"] = true
@@ -1118,7 +1175,21 @@ L["Drust"] = true
 L["Zandalari"] = true
 L["Eye of Observation"] = true
 L["Five players are needed to activate the runes on the floor. The boss can be attacked only after all runes have been activated."] = true
-
+L["Fossorial Bile Larva"] = true
+L["Obtained by skinning creatures on Argus"] = true
+L["Fel Lasher"] = true
+L["Obtained by gathering herbs on Argus"] = true
+L["Fiendish Hellfire Core"] = true
+L["Shackled Ur'zul"] = true
+L["Frenzied Fangtooth School"] = true
+L["Great Sea Catfish School"] = true
+L["Lane Snapper School"] = true
+L["Rasboralus School"] = true
+L["Redtail Loach School"] = true
+L["Sand Shifter School"] = true
+L["Slimy Mackerel School"] = true
+L["Tiragarde Perch School"] = true
+L["U'taka School"] = true
 
 --[[
 					The rest of this file is auto-generated using the WoWAce localization application.
@@ -1217,10 +1288,8 @@ L["Alliance only"] = "Nur Allianz"
 L["Already defeated"] = "bereits besiegt"
 L["Already defeated for %s"] = "bereits besiegt für %s"
 L["Already known"] = "Bereits bekannt"
---[[Translation missing --]]
-L["an item already exists by this name, so it will not be imported"] = "an item already exists by this name, so it will not be imported"
---[[Translation missing --]]
-L["an item with the same Item ID already exists, so it will not be imported"] = "an item with the same Item ID already exists, so it will not be imported"
+L["an item already exists by this name, so it will not be imported"] = "ein Gegenstand, der mit demselben Namen schon existiert, also wird er nicht importiert"
+L["an item with the same Item ID already exists, so it will not be imported"] = "einen Gegenstand mit derselben Gegenstands-ID bereits existiert, wird er nicht mit importiert"
 L["Ancient Mana"] = "Uraltes Mana"
 L["and %d |4other zone:other zones;"] = "und %d |4andere Zone:andere Zonen;"
 L["Announce"] = "Ankündigung"
@@ -1238,8 +1307,7 @@ L["Arakkoa"] = true
 L["Arcano-Shower"] = "Arkandusche"
 L["Archaeology race"] = "Archäologie Rasse"
 L["Are you sure you want to delete this item?"] = "Bist du sicher, dass du diesen Gegenstand löschen möchtest?"
---[[Translation missing --]]
-L["Are you sure you want to import the Rarity Item Pack you entered?"] = "Are you sure you want to import the Rarity Item Pack you entered?"
+L["Are you sure you want to import the Rarity Item Pack you entered?"] = "Sind sie sich sicher, das sie dieses Rarity Item Pack, das sie eingegeben haben, importieren wollen?"
 --[[Translation missing --]]
 L["Are you sure you want to turn off the Export toggle for all your Custom items?"] = "Are you sure you want to turn off the Export toggle for all your Custom items?"
 L["Armored Razorback"] = "Gepanzerter Klingenrücken"
@@ -1249,8 +1317,7 @@ L["Ashes of Al'ar"] = "Al'ars Asche"
 L["Ashleaf Spriteling"] = "Eschenblattgeistling"
 L["Ataxon"] = true
 L["Attempts"] = "Versuche"
---[[Translation missing --]]
-L["Auto"] = "Auto"
+L["Auto"] = true
 L["Available starting December 25th"] = "Erhältlich ab dem 25. Dezember"
 L["Avenging Felcrusher"] = "Rachsüchtiger Teufelszermalmer"
 L["Azure Crane Chick"] = "Azurblaues Kranichküken"
@@ -1293,8 +1360,7 @@ L["Bone Serpent"] = "Knochenschlange"
 L["Bonkers"] = "Flipps"
 L["Borean Man O' War School"] = "Ein Schwarm boreanischer Galeeren"
 L["Boss Name"] = "Bossname"
---[[Translation missing --]]
-L["Botani Camouflage"] = "Botani Camouflage"
+L["Botani Camouflage"] = true
 L["Bottled Tornado"] = "Abgefüllter Tornado"
 L["Brackish Mixed School"] = "Brackwasserschwarm"
 L["Breezy Essence"] = "Sanft wehende Essenz"
@@ -1306,8 +1372,7 @@ L["Bronze Proto-Whelp"] = "Bronzener Protowelpe"
 L["Bunny Hunter is running. Would you like Rarity to import data from Bunny Hunter now? Disable Bunny Hunter or click Yes if you don't want to be asked again."] = "Bunny Hunter läuft. Willst du, dass Rarity Daten von Bunny Hunter importiert? Schalte Bunny Hunter aus, oder klicke auf Ja, wenn du nicht noch einmal gefragt werden mächtest."
 L["Burgy Blackheart's Handsome Hat"] = "Bürgi Schwarzherzens Hübscher Hut"
 L["Call of the Frozen Blade"] = "Ruf der gefrorenen Klinge"
---[[Translation missing --]]
-L["Can be contained in Heart-Shaped Box, rewarded for defeating the World Event Dungeon during Love is in the Air."] = "Can be contained in Heart-Shaped Box, rewarded for defeating the World Event Dungeon during Love is in the Air."
+L["Can be contained in Heart-Shaped Box, rewarded for defeating the World Event Dungeon during Love is in the Air."] = "Bekommt man in einer Herzförmigen Box, die von einem Event Weltboss während \"Liebe liegt in der Luft\" ist."
 --[[Translation missing --]]
 L["Can be contained in Keg-Shaped Treasure Chest, rewarded for defeating the World Event Dungeon during Brewfest."] = "Can be contained in Keg-Shaped Treasure Chest, rewarded for defeating the World Event Dungeon during Brewfest."
 --[[Translation missing --]]
@@ -1315,8 +1380,7 @@ L["Can be contained in Loot-Filled Pumpkin, rewarded for defeating the World Eve
 --[[Translation missing --]]
 L["Can be obtained from Rattling Iron Cage, which has a chance to drop from any of the four champions of Hellfire Citadel in Tanaan Jungle (Terrorfist, Deathtalon, Vengeance, or Doomroller). Each of them can be looted once per day. Rarity will consider this mount \"defeated\" for the day when you kill any of the four."] = "Can be obtained from Rattling Iron Cage, which has a chance to drop from any of the four champions of Hellfire Citadel in Tanaan Jungle (Terrorfist, Deathtalon, Vengeance, or Doomroller). Each of them can be looted once per day. Rarity will consider this mount \"defeated\" for the day when you kill any of the four."
 L["Can be obtained with a bonus roll"] = "Kann auch mit einen Bonuswurf erbeutet werden"
---[[Translation missing --]]
-L["Can drop from Fel-Touched Pet Supplies, which is obtained by defeating the Fel-corrupted legendary pets in Tanaan Jungle."] = "Can drop from Fel-Touched Pet Supplies, which is obtained by defeating the Fel-corrupted legendary pets in Tanaan Jungle."
+L["Can drop from Fel-Touched Pet Supplies, which is obtained by defeating the Fel-corrupted legendary pets in Tanaan Jungle."] = "Kann von Teufelsberührten Haustier Lieferungen gedroppt werden, die man bekommen kann, wenn man Teufelsberührte Legendäre Haustiere im Tanaandschungel besiegt."
 L["Captured Firefly"] = "Gefangenes Glühwürmchen"
 L["Cat Carrier (Black Tabby)"] = "Katzentransportkorb (Schwarze Tigerkatze)"
 L["Cataclysm"] = true
@@ -1325,8 +1389,7 @@ L["Cavern Moccasin"] = "Höhlenmokassinschlange"
 L["Certain items, such as Illusions in your wardrobe, flag a completed Quest ID when you learn them. Rarity can automatically stop tracking this item if you enter that Quest ID here. (Only one ID, not a list.)"] = "Certain items, such as Illusions in your wardrobe, flag a completed Quest ID when you learn them. Rarity can automatically stop tracking this item if you enter that Quest ID here. (Only one ID, not a list.)"
 L["Chain Pet Leash"] = "Haustierkette"
 L["Chalice of Secrets"] = "Kelch der Geheimnisse"
---[[Translation missing --]]
-L["Challenge Mode instance"] = "Challenge Mode instance"
+L["Challenge Mode instance"] = "Herausforderungsmodus Instanz"
 L["Chance"] = true
 L["Chance so far"] = "Chance bis jetzt"
 L["Chaos Pup"] = "Chaoswelpe"

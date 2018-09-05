@@ -10,6 +10,7 @@ ElvCharacterDB = {
 		"/mogit", -- [7]
 		"/dance", -- [8]
 		"/1 damn this place is pretty quiet all of a sudden :(", -- [9]
+		"/flirt", -- [10]
 	},
 	["ChatHistoryLog"] = {
 		{
@@ -56,5 +57,27 @@ ElvCharacterDB = {
 			[51] = 1534239185,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [2]
+		{
+			"wtb bfa greens", -- [1]
+			"Drstíffy-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Drstíffy", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1049, -- [11]
+			"Player-3693-09EC2A91", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Drstíffy|r",
+			[51] = 1536169352,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [3]
 	},
 }

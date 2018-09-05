@@ -147,3 +147,4 @@ DBM-WorldEvents: enabled
 Rarity: enabled
 Rarity_Options: enabled
 ElvUI_EverySecondCounts: disabled
+DejaCharacterStats: enabled

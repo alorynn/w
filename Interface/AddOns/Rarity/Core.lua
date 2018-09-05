@@ -89,6 +89,7 @@ local spells = {
 	[158743] = "Fishing",
 	[144528] = "Opening", -- Timeless Chest (Timeless Isle: Kukuru's Grotto)
 	[195125] = "Skinning",
+	[195258] = "Mother's Skinning Knife", -- Legion Toy with the same effect as regular skinning, but with a 40y range
 	[231932] = "Opening", -- Wyrmtongue Cache (Broken Shore: Secret Treasure Lair)
 	[265843] = "Mining",
 	[265825] = "Herb Gathering",
@@ -102,54 +103,54 @@ local spells = {
 	[51294] = "Fishing",
 	[88868] = "Fishing",
 	[110410] = "Fishing",
+	[2575] = "Mining",
+	[265853] = "Mining",
+	[2575] = "Mining",
+	[158754] = "Mining",
+	[2576] = "Mining",
+	[195122] = "Mining",
+	[3564] = "Mining",
+	[10248] = "Mining",
+	[29354] = "Mining",
+	[50310] = "Mining",
+	[74517] = "Mining",
+	[265837] = "Mining",
+	[102161] = "Mining",
+	[265845] = "Mining",
+	[265841] = "Mining",
+	[265839] = "Mining",
+	[265847] = "Mining",
+	[265849] = "Mining",
+	[265851] = "Mining",
+	[2366] = "Herb Gathering",
+	[265835] = "Herb Gathering",
+	[158745] = "Herb Gathering",
+	[195114] = "Herb Gathering",
+	[2368] = "Herb Gathering",
+	[3570] = "Herb Gathering",
+	[28695] = "Herb Gathering",
+	[11993] = "Herb Gathering",
+	[50300] = "Herb Gathering",
+	[110413] = "Herb Gathering",
+	[74519] = "Herb Gathering",
+	[265819] = "Herb Gathering",
+	[265821] = "Herb Gathering",
+	[265823] = "Herb Gathering",
+	[265827] = "Herb Gathering",
+	[265829] = "Herb Gathering",
+	[265831] = "Herb Gathering",
+	[265834] = "Herb Gathering",
+	[8613] = "Skinning",
+	[8617] = "Skinning",
+	[8618] = "Skinning",
+	[32678] = "Skinning",
+	[50305] = "Skinning",
+	[74522] = "Skinning",
+	[102216] = "Skinning",
+	[158756] = "Skinning",
 	
 	-- Not tested (and disabled until they are needed)
 	-- [1804] = "Pick Lock",
-	-- [2366] = "Herb Gathering",
-	-- [265835] = "Herb Gathering",
-	-- [158745] = "Herb Gathering",
-	-- [195114] = "Herb Gathering",
-	-- [2368] = "Herb Gathering",
-	-- [3570] = "Herb Gathering",
-	-- [28695] = "Herb Gathering",
-	-- [11993] = "Herb Gathering",
-	-- [50300] = "Herb Gathering",
-	-- [110413] = "Herb Gathering",
-	-- [74519] = "Herb Gathering",
-	-- [265819] = "Herb Gathering",
-	-- [265821] = "Herb Gathering",
-	-- [265823] = "Herb Gathering",
-	-- [265827] = "Herb Gathering",
-	-- [265829] = "Herb Gathering",
-	-- [265831] = "Herb Gathering",
-	-- [265834] = "Herb Gathering",
-	-- [2575] = "Mining",
-	-- [265853] = "Mining",
-	-- [2575] = "Mining",
-	-- [158754] = "Mining",
-	-- [2576] = "Mining",
-	-- [195122] = "Mining",
-	-- [3564] = "Mining",
-	-- [10248] = "Mining",
-	-- [29354] = "Mining",
-	-- [50310] = "Mining",
-	-- [74517] = "Mining",
-	-- [265837] = "Mining",
-	-- [102161] = "Mining",
-	-- [265845] = "Mining",
-	-- [265841] = "Mining",
-	-- [265839] = "Mining",
-	-- [265847] = "Mining",
-	-- [265849] = "Mining",
-	-- [265851] = "Mining",
-	-- [8613] = "Skinning",
-	-- [8617] = "Skinning",
-	-- [8618] = "Skinning",
-	-- [32678] = "Skinning",
-	-- [50305] = "Skinning",
-	-- [74522] = "Skinning",
-	-- [102216] = "Skinning",
-	-- [158756] = "Skinning",
 }
 
 local tooltipLeftText1 = _G["GameTooltipTextLeft1"]
@@ -209,6 +210,8 @@ R.coins = {
 	[1129] = true, -- Seal of Inevitable Fate
 	-- Legion
 	[1273] = true, -- Seal of Broken Fate
+	-- Battle for Azeroth
+	[1580] = true, -- Seal of Wartorn Fate
 }
 
 R.fishnodes = {
@@ -322,6 +325,17 @@ R.fishnodes = {
 	[L["Fever of Stormrays"]]		= true,
 	[L["Highmountain Salmon School"]]	= true,
 	[L["Mossgill Perch School"]]	= true,
+	-- Battle for Azeroth	
+	[L["Frenzied Fangtooth School"]] = true,
+	[L["Great Sea Catfish School"]] = true,
+	[L["Lane Snapper School"]] = true,
+	[L["Rasboralus School"]] = true,
+	[L["Redtail Loach School"]] = true,
+	[L["Sand Shifter School"]] = true,
+	[L["Slimy Mackerel School"]] = true,
+	[L["Tiragarde Perch School"]] = true,
+	[L["U'taka School"]] = true,
+	
 }
 
 R.miningnodes = {
@@ -398,7 +412,12 @@ R.opennodes = {
 }
 
 -- Embedded mapIDs: It's best to avoid hardcoding these in case of yet another re-mapping on Blizzard's end...
-local UIMAPID_FROSTFIRE_RIDGE = 525
+local UIMAPIDS = {
+	FROSTFIRE_RIDGE = 525,
+	KROKUUN = 830,
+	MACAREE = 882,
+	ANTORAN_WASTES = 885,
+}
 
 --[[
       CONSTANTS ----------------------------------------------------------------------------------------------------------------
@@ -499,6 +518,7 @@ local GetBestMapForUnit = _G.C_Map.GetBestMapForUnit
 local GetMapInfo = _G.C_Map.GetMapInfo
 local mount_journal = _G.C_MountJournal
 local C_Timer = C_Timer
+local IsSpellKnown = IsSpellKnown
 
 local NUM_BAG_SLOTS = _G.NUM_BAG_SLOTS
 local COMBATLOG_OBJECT_AFFILIATION_MINE = _G.COMBATLOG_OBJECT_AFFILIATION_MINE
@@ -619,6 +639,7 @@ do
   self:RegisterEvent("PLAYER_REGEN_ENABLED", "OnCombatEnded")
   self:RegisterEvent("PET_BATTLE_OPENING_START", "OnPetBattleStart")
   self:RegisterEvent("PET_BATTLE_CLOSE", "OnPetBattleEnd")
+  self:RegisterEvent("ISLAND_COMPLETED", "OnIslandCompleted")
   self:RegisterBucketEvent("LFG_LIST_SEARCH_RESULT_UPDATED", 1, "GroupFinderResultsUpdated")
   self:RegisterBucketEvent("LFG_LIST_SEARCH_RESULTS_RECEIVED", 1, "GroupFinderResultsUpdated")
   self:RegisterBucketEvent("UPDATE_INSTANCE_INFO", 1, "OnEvent")
@@ -1479,18 +1500,47 @@ function R:UpdateInterestingThings()
 						end
 						table.insert(Rarity.collection_items, vv)
 					end
-					if vv.tooltipNpcs and type(vv.tooltipNpcs) == "table" then
-      for kkk, vvv in pairs(vv.tooltipNpcs) do
-       if npcs_to_items[vvv] == nil then npcs_to_items[vvv] = {} end
-       table.insert(npcs_to_items[vvv], vv)
-      end
-					end
-    end
-   end
-  end
- end
-end
+				
+				if vv.tooltipNpcs and type(vv.tooltipNpcs) == "table" then -- Item has tooltipNpcs -> Check if they should be displayed
+				
+						local showTooltipNpcs = true -- If no filters exist, always show the tooltip for relevant NPCs
+						
+						if vv.showTooltipCondition and type(vv.showTooltipCondition) == "table" -- This item has filter conditions to help decide when the tooltipNpcs should be added
+						and vv.showTooltipCondition.filter and type(vv.showTooltipCondition.filter) == "function" and vv.showTooltipCondition.value -- Filter has the correct format and can be applied
+						then -- Check filter conditions to see if tooltipNpcs should be added
+							
+							showTooltipNpcs = false -- Hide the additional tooltip info by default (filters will overwrite this if they can find a match, below)
+							
+							-- Each filter requires separate handling here
+							if vv.showTooltipCondition.filter == IsSpellKnown then -- Filter if a (relevant) spell with the given name is not known	
 
+								for spellID, spellName in pairs(spells) do -- Try to find any match for the given spell (a single one will do)
+
+									if spellName == vv.showTooltipCondition.value then -- The value is a relevant spell -> Check if filter condition is true
+									
+										--	Player hasn't learned the required spell -> Stop trying to find other matches and turn off the filter
+										showTooltipNpcs = IsSpellKnown(spellID)
+										if showTooltipNpcs then break end -- No point in checking the other spells; A single match is enough to decide to not filter them										
+									end
+								end
+							end
+						
+						-- There aren't any other Filter types at the moment... but there could be!
+						end 
+						
+						-- Add entries to the list of relevant NPCs for this item
+						if showTooltipNpcs then
+							for kkk, vvv in pairs(vv.tooltipNpcs) do
+								if npcs_to_items[vvv] == nil then npcs_to_items[vvv] = {} end
+								table.insert(npcs_to_items[vvv], vv)
+							end
+						end
+					end
+				end
+			end
+		end
+	end
+end
 
 function R:GetNPCIDFromGUID(guid)
 	if guid then
@@ -1629,7 +1679,7 @@ function R:OnEvent(event, ...)
   end
 
   -- Handle opening Snow Mound
-  if fishing and opening and lastNode and (lastNode == L["Snow Mound"]) and GetBestMapForUnit("player") == UIMAPID_FROSTFIRE_RIDGE then -- Make sure we're in Frostfire Ridge (there are Snow Mounds in other zones, particularly Ulduar in the Hodir room)
+  if fishing and opening and lastNode and (lastNode == L["Snow Mound"]) and GetBestMapForUnit("player") == UIMAPIDS.FROSTFIRE_RIDGE then -- Make sure we're in Frostfire Ridge (there are Snow Mounds in other zones, particularly Ulduar in the Hodir room)
   	Rarity:Debug("Detected Opening on " .. L["Snow Mound"] .. " (method = SPECIAL)")
    local v = self.db.profile.groups.pets["Grumpling"]
    if v and type(v) == "table" and v.enabled ~= false then
@@ -1696,6 +1746,7 @@ function R:OnEvent(event, ...)
           for kkk, vvv in pairs(vv.zones) do
            if vvv == tostring(GetBestMapForUnit("player")) or vvv == zone or vvv == lbz[zone] or vvv == subzone or vvv == lbsz[subzone] or vvv == zone_t or vvv == subzone_t or vvv == lbz[zone_t] or vvv == subzone or vvv == lbsz[subzone_t] then
             if (vv.requiresPool and isPool) or not vv.requiresPool then
+			Rarity:Debug("Found interesting item for this zone: " .. tostring(vv.name))
              found = true
             end
            end
@@ -1728,6 +1779,28 @@ function R:OnEvent(event, ...)
     self:OutputAttempts(v)
    end
   end
+
+  -- Handle skinning on Argus (Fossorial Bile Larva)
+	if (spells[prevSpell] == "Skinning" or spells[prevSpell] == "Mother's Skinning Knife") -- Skinned something
+	and (GetBestMapForUnit("player") == UIMAPIDS.KROKUUN or GetBestMapForUnit("player") == UIMAPIDS.MACAREE or GetBestMapForUnit("player") == UIMAPIDS.ANTORAN_WASTES) then -- Player is on Argus -> Can obtain the pet from skinning creatures
+		Rarity:Debug("Detected skinning on Argus - Can obtain " .. L["Fossorial Bile Larva"] .. " (method = SPECIAL)")
+		local v = self.db.profile.groups.pets["Fossorial Bile Larva"]
+		if v and type(v) == "table" and v.enabled ~= false then -- Add an attempt
+			v.attempts = v.attempts ~= nil and v.attempts + 1 or 1 -- Defaults to 1 if this is the first attempt
+			self:OutputAttempts(v)
+		end
+	end
+  
+    -- Handle herb gathering on Argus (Fel Lasher)
+	if spells[prevSpell] == "Herb Gathering" -- Gathered a herbalism node
+	and (GetBestMapForUnit("player") == UIMAPIDS.KROKUUN or GetBestMapForUnit("player") == UIMAPIDS.MACAREE or GetBestMapForUnit("player") == UIMAPIDS.ANTORAN_WASTES) then -- Player is on Argus -> Can obtain the pet from gathering herbalism nodes
+		Rarity:Debug("Detected herb gathering on Argus - Can obtain " .. L["Fel Lasher"] .. " (method = SPECIAL)")
+		local v = self.db.profile.groups.pets["Fel Lasher"]
+		if v and type(v) == "table" and v.enabled ~= false then -- Add an attempt
+			v.attempts = v.attempts ~= nil and v.attempts + 1 or 1 -- Defaults to 1 if this is the first attempt
+			self:OutputAttempts(v)
+		end
+	end
 
   -- HANDLE NORMAL NPC LOOTING
 		local numItems = GetNumLootItems()
@@ -2389,6 +2462,7 @@ end
 -- While it might work to change their method from NPC to BOSS, at this time I'm not sure if that wouldn't cause problems elsewhere... so I won't touch it
 -------------------------------------------------------------------------------------
 local encounterLUT = {
+	[1140] = "Stormforged Rune", -- The Assembly of Iron
 	[1133] = "Blessed Seed", -- Freya
 	[1135] = "Ominous Pile of Snow", -- Hodir
 	[1138] = "Overcomplicated Controller", -- Mimiron
@@ -2396,11 +2470,13 @@ local encounterLUT = {
 }
 
 function R:OnEncounterEnd(event, encounterID, encounterName, difficultyID, raidSize, endStatus)
-
+	
+	R:Debug("ENCOUNTER_END with encounterID = " .. tonumber(encounterID or "0") .. ", name = " .. tostring(encounterName) .. ", endStatus = " .. tostring(endStatus))
+	
 	local item = encounterLUT[encounterID]
 	if item and type(item) == "string" then -- This encounter has an entry in the LUT and needs special handling
 	
-		R:Debug("Detected raid encounter with id = " .. tonumber(encounterID or "0") .. ", name = " .. encounterName .. ", endStatus = " .. endStatus)
+		R:Debug("Found item of interest for this encounter: " .. tostring(item))
 		local v = self.db.profile.groups.pets[item] -- v = value = number of attempts for this item
 		
 		if endStatus == 1 then -- Encounter succeeded -> Check if number of attempts should be increased
@@ -2410,6 +2486,96 @@ function R:OnEncounterEnd(event, encounterID, encounterName, difficultyID, raidS
 			end
 		end
 		
+	end
+
+end
+
+-------------------------------------------------------------------------------------
+-- ISLAND_COMPLETED handling: Used for detecting Island Expeditions in Battle for Azeroth
+-- The collectibles are awarded randomly once the scenario has ended and appear in the "Pose" screen, right after this event is fired (indicated by a subsequent LFG_COMPLETION_REWARD event)
+-------------------------------------------------------------------------------------
+
+do
+
+	local islandMapIDs = { -- These IDs can be found in DBFilesClient\Map.db2
+		[1813] = "Un'gol Ruins",
+		[1897] = "Molten Cay",
+		[1883] = "Whispering Reef",
+		[1882] = "Verdant Wilds",
+		[1892] = "Rotting Mire",
+		[1893] = "Dread Chain",
+		[1898] = "Skittering Hollow",
+	}
+
+	local islandExpeditionCollectibles = { -- List of collectibles (so we don't have to search the item DB for them)
+		-- Pets
+		"Scuttle",
+		"Captain Nibs",
+		"Barnaby",
+		"Poro",
+		"Octopode Fry",
+		"Inky",
+		"Sparkleshell Sandcrawler",
+		"Kindleweb Spiderling",
+		"Mischievous Zephyr",
+		"Littlehoof",
+		"Snapper",
+		"Sunscale Hatchling",
+		"Bloodstone Tunneler",
+		"Snort",
+		"Muskflank Calfling",
+		"Juvenile Brineshell",
+		"Kunchong Hatchling",
+		"Coldlight Surfrunner",
+		"Voru'kar Leecher",
+		"Tinder Pup",
+		"Sandshell Chitterer",
+		"Deathsting Scorpid",
+		"Thistlebrush Bud",
+		"Giggling Flame",
+		"Laughing Stonekin",
+		"Playful Frostkin",
+		"False Knucklebump",
+		"Craghoof Kid",
+		
+		-- Toys
+		"Oomgut Ritual Drum",
+		"Whiskerwax Candle",
+		-- "Yaungol Oil Stove", -- NYI?
+		"Jinyu Light Globe",
+		"Enchanted Soup Stone",
+		"Magic Monkey Banana",
+		"Bad Mojo Banana",
+		"Regenerating Banana Bunch",
+		
+		-- Mounts
+		"Surf Jelly",
+		"Squawks",
+		"Qinsho's Eternal Hound",
+		"Craghorn Chasm-Leaper",
+		"Twilight Avenger",
+	}
+
+	function R:OnIslandCompleted(event, mapID, winner)
+		
+		R:Debug("Detected completion for Island Expedition: " .. (islandMapIDs[mapID] or "Unknown Map") .. " (mapID = " .. tostring(mapID) .. ")")
+		
+		if islandMapIDs[mapID] then -- Is a relevant map -> Add attempts for all collectibles (for now, I'm assuming they just drop from everything at the same rate. This may have to be revised once more data is available...)
+		
+			R:Debug("Found this Island Expedition to be relevant -> Adding attempts for all known collectibles...")
+
+			for index, name in pairs(islandExpeditionCollectibles) do -- Add an attempt for each item
+				
+				local v = self.db.profile.groups.items[name] or self.db.profile.groups.pets[name] or self.db.profile.groups.mounts[name]
+				if v and type(v) == "table" and v.enabled ~= false then
+					if v.attempts == nil then v.attempts = 1 else v.attempts = v.attempts + 1 end
+					self:OutputAttempts(v)
+				end		
+
+			end
+			
+		end
+
 	end
 
 end
@@ -2763,7 +2929,7 @@ do
   if trackedItem.lastAttempts then attempts = attempts - trackedItem.lastAttempts end
   if trackedItem.realAttempts and trackedItem.found and not trackedItem.repeatable then attempts = trackedItem.realAttempts end
   
-  attempts = min(attempts, 2^16-1) -- Workaround to stop invalid attempt counts from breaking the addon; the correct count can be obtained by updating manually. It should also be restored automatically (at some point...) if the addon loads without errors. See issue: https://github.com/SacredDuckwhale/Rarity/issues/43) - This is mostly relevant for the two Archaeology mounts that may have invalid entries after the API was changed and not updated in the addon for quite some time
+  attempts = min(attempts, 2^31-1) -- Workaround to stop invalid attempt counts from breaking the addon; the correct count can be obtained by updating manually. It should also be restored automatically (at some point...) if the addon loads without errors. See issue: https://github.com/SacredDuckwhale/Rarity/issues/43) - This is mostly relevant for the two Archaeology mounts that may have invalid entries after the API was changed and not updated in the addon for quite some time
   
   if trackedItem.found and not trackedItem.repeatable then
 			if trackedItem.method == COLLECTION then
@@ -3819,7 +3985,7 @@ function R:ShowFoundAlert(itemId, attempts, item)
 				s = format(L["%s: Found after %d attempts!"], itemName, attempts)
 			end
 		end
-  self:Pour(" " .. s, nil, nil, nil, nil, nil, nil, nil, nil, itemTexture)
+  self:Pour(s, nil, nil, nil, nil, nil, nil, nil, nil, itemTexture)
  end
 	
  -- The following code is adapted from Blizzard's AlertFrameMixin:OnEvent function found in FrameXML\AlertFrames.lua [heavily updated in 7.0]
@@ -3949,7 +4115,7 @@ function R:OutputAttempts(item, skipTimeUpdate)
 				if item.method == COLLECTION then
 					s = format(L["%s: %d collected"], itemName or item.name, attempts)
 				end
-    self:Pour(" " .. s, nil, nil, nil, nil, nil, nil, nil, nil, itemTexture)
+    self:Pour(s, nil, nil, nil, nil, nil, nil, nil, nil, itemTexture)
    end
 
   end

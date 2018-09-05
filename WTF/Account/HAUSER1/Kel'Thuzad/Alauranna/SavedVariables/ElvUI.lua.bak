@@ -1,26 +1,26 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/2 nice whered you get that", -- [1]
-		"/2 sheeeeit", -- [2]
-		"/tar frap", -- [3]
-		"/g oh baby", -- [4]
-		"/g ty", -- [5]
-		"/bartender", -- [6]
-		"/g ah cool I'll look into it", -- [7]
-		"/TAR LEL", -- [8]
-		"/s anyone got xmog mount I could use?", -- [9]
-		"/s ty", -- [10]
-		"/s all done ty", -- [11]
-		"/cheer", -- [12]
-		"/s why is this big red lump here in lorlathil", -- [13]
-		"/lie", -- [14]
-		"/g how come no one told me DH have the best slutmog pieces", -- [15]
-		"/g just boosted a sweet belf rogue to 110 to unlock allied races with and hoo boy are the DH pieces ever hot stuff", -- [16]
-		"/mogit", -- [17]
-		"/g I'm wearing a bathrobe BUT I also have underwear on so I'd say 50% is right on", -- [18]
-		"/g check out what mlady is wearing [MogIt:3UY;1Tr.UQ.0;yT5;fpK.UQ.0;fpK.UQ.0;3UZ.UQ.0;xHZ.UQ.0;16x.UQ.0;6LI.UQ.0;1uN.UQ.0;yT6:41:0]", -- [19]
-		"/g nice but got nothing on the DH pieces boioioioing", -- [20]
+		"/tar frap", -- [1]
+		"/g oh baby", -- [2]
+		"/g ty", -- [3]
+		"/bartender", -- [4]
+		"/g ah cool I'll look into it", -- [5]
+		"/TAR LEL", -- [6]
+		"/s anyone got xmog mount I could use?", -- [7]
+		"/s ty", -- [8]
+		"/s all done ty", -- [9]
+		"/cheer", -- [10]
+		"/s why is this big red lump here in lorlathil", -- [11]
+		"/lie", -- [12]
+		"/g how come no one told me DH have the best slutmog pieces", -- [13]
+		"/g just boosted a sweet belf rogue to 110 to unlock allied races with and hoo boy are the DH pieces ever hot stuff", -- [14]
+		"/mogit", -- [15]
+		"/g I'm wearing a bathrobe BUT I also have underwear on so I'd say 50% is right on", -- [16]
+		"/g check out what mlady is wearing [MogIt:3UY;1Tr.UQ.0;yT5;fpK.UQ.0;fpK.UQ.0;3UZ.UQ.0;xHZ.UQ.0;16x.UQ.0;6LI.UQ.0;1uN.UQ.0;yT6:41:0]", -- [17]
+		"/g nice but got nothing on the DH pieces boioioioing", -- [18]
+		"/bow", -- [19]
+		"/flirt", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
@@ -1189,5 +1189,27 @@ ElvCharacterDB = {
 			[51] = 1534775611,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [53]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:9037:Player-3693-072F2856:1:8:25:18:4294967295:4294967295:4294967295:4294967295|h[Bloodmaul Slag Mines]|h|r!", -- [1]
+			"Prostiboots-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Prostiboots", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			496, -- [11]
+			"Player-3693-072F2856", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddProstiboots|r",
+			[51] = 1535255896,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [54]
 	},
 }

@@ -9,6 +9,7 @@ ElvCharacterDB = {
 		"/forthealliance", -- [6]
 		"/mogit", -- [7]
 		"/dance", -- [8]
+		"/1 damn this place is pretty quiet all of a sudden :(", -- [9]
 	},
 	["ChatHistoryLog"] = {
 		{
@@ -33,5 +34,27 @@ ElvCharacterDB = {
 			[51] = 1533690658,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [1]
+		{
+			"damn this place is pretty quiet all of a sudden :(", -- [1]
+			"Alisheeya-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"1. General - Dalaran", -- [4]
+			"Alisheeya", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			1, -- [11]
+			"Player-3693-0924EEC0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa330c9Alisheeya|r",
+			[51] = 1534239185,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [2]
 	},
 }
