@@ -21,6 +21,7 @@ BrokerVolumeDB = {
 		["Hauzerone - Dalaran"] = "Hauzerone - Dalaran",
 		["Pharrah - Kel'Thuzad"] = "Pharrah - Kel'Thuzad",
 		["Deeke - Kel'Thuzad"] = "Deeke - Kel'Thuzad",
+		["Shamwowow - Kel'Thuzad"] = "Shamwowow - Kel'Thuzad",
 		["Nigellah - Kel'Thuzad"] = "Nigellah - Kel'Thuzad",
 		["Testfoolio - Kel'Thuzad"] = "Testfoolio - Kel'Thuzad",
 		["Ugiyo - Kel'Thuzad"] = "Ugiyo - Kel'Thuzad",
@@ -81,6 +82,8 @@ BrokerVolumeDB = {
 		["Pharrah - Kel'Thuzad"] = {
 		},
 		["Deeke - Kel'Thuzad"] = {
+		},
+		["Shamwowow - Kel'Thuzad"] = {
 		},
 		["Nigellah - Kel'Thuzad"] = {
 		},

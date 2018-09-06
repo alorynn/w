@@ -1,26 +1,26 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/p ty", -- [1]
-		"/2 so to unlock these BFA races do you actually have to level them to max level", -- [2]
-		"/2 or is that just to unlock their cosmetics and mounts", -- [3]
-		"/2 oic cool", -- [4]
-		"/cast perky pug", -- [5]
-		"/cast mona", -- [6]
-		"/2 anyone know how gear is gonna work for PVP in BFA? is it like Legion where it's scaled so that uber gear makes practically no difference?", -- [7]
-		"/forthealliance", -- [8]
-		"/p wheresd the shredder", -- [9]
-		"/p cool ty", -- [10]
-		"/roar", -- [11]
-		"/tar asmon", -- [12]
-		"/who asmon", -- [13]
-		"/2 Skythe ask Asmonkneels", -- [14]
-		"/s why is delaryn giving me missions when I saw her die staring at burning teldrassil", -- [15]
-		"/tar var", -- [16]
-		"/tar ver", -- [17]
-		"/bartender", -- [18]
-		"/wave", -- [19]
-		"/cast arcanist's manasaber", -- [20]
+		"/2 or is that just to unlock their cosmetics and mounts", -- [1]
+		"/2 oic cool", -- [2]
+		"/cast perky pug", -- [3]
+		"/cast mona", -- [4]
+		"/2 anyone know how gear is gonna work for PVP in BFA? is it like Legion where it's scaled so that uber gear makes practically no difference?", -- [5]
+		"/forthealliance", -- [6]
+		"/p wheresd the shredder", -- [7]
+		"/p cool ty", -- [8]
+		"/roar", -- [9]
+		"/tar asmon", -- [10]
+		"/who asmon", -- [11]
+		"/2 Skythe ask Asmonkneels", -- [12]
+		"/s why is delaryn giving me missions when I saw her die staring at burning teldrassil", -- [13]
+		"/tar var", -- [14]
+		"/tar ver", -- [15]
+		"/bartender", -- [16]
+		"/wave", -- [17]
+		"/cast arcanist's manasaber", -- [18]
+		"/cw Lythium dude how did you get a mohawk", -- [19]
+		"/cw Lythium-Kel'Thuzad ahh", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
@@ -1871,5 +1871,93 @@ ElvCharacterDB = {
 			[51] = 1535368589,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [84]
+		{
+			"dude how did you get a mohawk", -- [1]
+			"Lythium-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lythium", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			979, -- [11]
+			"Player-3693-0974BECB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aLythium|r",
+			[51] = 1536167486,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [85]
+		{
+			"at the barbershop", -- [1]
+			"Lythium-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lythium", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			980, -- [11]
+			"Player-3693-0974BECB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aLythium|r",
+			[51] = 1536167501,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [86]
+		{
+			"ahh", -- [1]
+			"Lythium-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lythium", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			982, -- [11]
+			"Player-3693-0974BECB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aLythium|r",
+			[51] = 1536167506,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [87]
+		{
+			"its an option for NE's", -- [1]
+			"Lythium-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lythium", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			983, -- [11]
+			"Player-3693-0974BECB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aLythium|r",
+			[51] = 1536167506,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [88]
 	},
 }

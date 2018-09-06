@@ -22,6 +22,7 @@ Postal3DB = {
 		["Hauser - Mal'Ganis"] = "Hauser - Mal'Ganis",
 		["Pharrah - Kel'Thuzad"] = "Pharrah - Kel'Thuzad",
 		["Deeke - Kel'Thuzad"] = "Deeke - Kel'Thuzad",
+		["Shamwowow - Kel'Thuzad"] = "Shamwowow - Kel'Thuzad",
 		["Nigellah - Kel'Thuzad"] = "Nigellah - Kel'Thuzad",
 		["Testfoolio - Kel'Thuzad"] = "Testfoolio - Kel'Thuzad",
 		["Ugiyo - Kel'Thuzad"] = "Ugiyo - Kel'Thuzad",
@@ -79,9 +80,10 @@ Postal3DB = {
 				"Pharrah|Kel'Thuzad|Alliance|100|HUNTER", -- [34]
 				"Rogueout|Kel'Thuzad|Horde|100|ROGUE", -- [35]
 				"Sdkfhsdkjfhs|Kel'Thuzad|Alliance|100|HUNTER", -- [36]
-				"Skãdi|Kel'Thuzad|Alliance|1|HUNTER", -- [37]
-				"Testfoolio|Kel'Thuzad|Horde|1|PALADIN", -- [38]
-				"Ugiyo|Kel'Thuzad|Alliance|100|HUNTER", -- [39]
+				"Shamwowow|Kel'Thuzad|Horde|110|ROGUE", -- [37]
+				"Skãdi|Kel'Thuzad|Alliance|1|HUNTER", -- [38]
+				"Testfoolio|Kel'Thuzad|Horde|1|PALADIN", -- [39]
+				"Ugiyo|Kel'Thuzad|Alliance|100|HUNTER", -- [40]
 			},
 		},
 	},
@@ -157,6 +159,8 @@ Postal3DB = {
 		["Pharrah - Kel'Thuzad"] = {
 		},
 		["Deeke - Kel'Thuzad"] = {
+		},
+		["Shamwowow - Kel'Thuzad"] = {
 		},
 		["Nigellah - Kel'Thuzad"] = {
 		},

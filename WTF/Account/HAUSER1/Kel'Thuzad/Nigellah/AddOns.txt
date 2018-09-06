@@ -93,3 +93,4 @@ DBM-TombofSargeras: enabled
 DBM-TrialofValor: enabled
 DBM-Uldir: enabled
 DBM-WorldEvents: enabled
+ElvUI_EverySecondCounts: disabled

@@ -22,6 +22,7 @@ TomTomDB = {
 		["Hauzerone - Dalaran"] = "Default",
 		["Pharrah - Kel'Thuzad"] = "Default",
 		["Deeke - Kel'Thuzad"] = "Default",
+		["Shamwowow - Kel'Thuzad"] = "Default",
 		["Nigellah - Kel'Thuzad"] = "Default",
 		["Testfoolio - Kel'Thuzad"] = "Default",
 		["Alorannah - Kel'Thuzad"] = "Default",
@@ -86,6 +87,7 @@ TomTomWaypointsM = {
 		["Foolioioio - Kel'Thuzad"] = "Foolioioio - Kel'Thuzad",
 		["Kmkarbashian - Kel'Thuzad"] = "Kmkarbashian - Kel'Thuzad",
 		["Loranah - Kel'Thuzad"] = "Loranah - Kel'Thuzad",
+		["Shamwowow - Kel'Thuzad"] = "Shamwowow - Kel'Thuzad",
 		["Blahndee - Kel'Thuzad"] = "Blahndee - Kel'Thuzad",
 		["Testfoolio - Kel'Thuzad"] = "Testfoolio - Kel'Thuzad",
 		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
@@ -112,6 +114,8 @@ TomTomWaypointsM = {
 		["Kmkarbashian - Kel'Thuzad"] = {
 		},
 		["Loranah - Kel'Thuzad"] = {
+		},
+		["Shamwowow - Kel'Thuzad"] = {
 		},
 		["Blahndee - Kel'Thuzad"] = {
 		},

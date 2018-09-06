@@ -25,23 +25,24 @@ MogItDB = {
 		["Hauser - Mal'Ganis"] = "Default",
 		["Pharrah - Kel'Thuzad"] = "Default",
 		["Deeke - Kel'Thuzad"] = "Default",
-		["Nigellah - Kel'Thuzad"] = "Default",
 		["Lorranah - Kel'Thuzad"] = "Default",
+		["Nigellah - Kel'Thuzad"] = "Default",
+		["Loranah - Kel'Thuzad"] = "Default",
 		["Ugiyo - Kel'Thuzad"] = "Default",
 		["Alurannah - Kel'Thuzad"] = "Default",
 		["Beatryss - Kel'Thuzad"] = "Default",
-		["Loranah - Kel'Thuzad"] = "Default",
 		["Hauzerone - Dalaran"] = "Default",
+		["Leeroyjenkem - Kel'Thuzad"] = "Default",
 		["Hauzerhunter - Kel'Thuzad"] = "Default",
-		["Olrapey - Kel'Thuzad"] = "Default",
+		["Beatryce - Kel'Thuzad"] = "Default",
 		["Skãdi - Kel'Thuzad"] = "Default",
 		["Fsdkjhskdjfh - Kel'Thuzad"] = "Default",
-		["Beatryce - Kel'Thuzad"] = "Default",
 		["Kmkarbashian - Kel'Thuzad"] = "Default",
+		["Olrapey - Kel'Thuzad"] = "Default",
 		["Hauzer - Kel'Thuzad"] = "Default",
-		["Leeroyjenkem - Kel'Thuzad"] = "Default",
 		["Alorannah - Kel'Thuzad"] = "Default",
 		["Testfoolio - Kel'Thuzad"] = "Default",
+		["Shamwowow - Kel'Thuzad"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -88,8 +89,8 @@ MogItDB = {
 				["Head"] = "Head",
 				["Holdable"] = "Held In Off-hand",
 				["Shield"] = "Shields",
-				["Feet"] = "Feet",
 				["Staff"] = "Staves",
+				["Feet"] = "Feet",
 				["Chest"] = "Chest",
 				["Bow"] = "Bows",
 				["1H-sword"] = "One-Handed Swords",
@@ -136,23 +137,24 @@ MogItWishlist = {
 		["Hauser - Mal'Ganis"] = "Hauser - Mal'Ganis",
 		["Pharrah - Kel'Thuzad"] = "Pharrah - Kel'Thuzad",
 		["Deeke - Kel'Thuzad"] = "Deeke - Kel'Thuzad",
-		["Nigellah - Kel'Thuzad"] = "Nigellah - Kel'Thuzad",
 		["Lorranah - Kel'Thuzad"] = "Lorranah - Kel'Thuzad",
+		["Nigellah - Kel'Thuzad"] = "Nigellah - Kel'Thuzad",
+		["Loranah - Kel'Thuzad"] = "Loranah - Kel'Thuzad",
 		["Ugiyo - Kel'Thuzad"] = "Ugiyo - Kel'Thuzad",
 		["Alurannah - Kel'Thuzad"] = "Alurannah - Kel'Thuzad",
 		["Beatryss - Kel'Thuzad"] = "Beatryss - Kel'Thuzad",
-		["Loranah - Kel'Thuzad"] = "Loranah - Kel'Thuzad",
 		["Hauzerone - Dalaran"] = "Hauzerone - Dalaran",
+		["Leeroyjenkem - Kel'Thuzad"] = "Leeroyjenkem - Kel'Thuzad",
 		["Hauzerhunter - Kel'Thuzad"] = "Hauzerhunter - Kel'Thuzad",
-		["Olrapey - Kel'Thuzad"] = "Olrapey - Kel'Thuzad",
+		["Beatryce - Kel'Thuzad"] = "Beatryce - Kel'Thuzad",
 		["Skãdi - Kel'Thuzad"] = "Skãdi - Kel'Thuzad",
 		["Fsdkjhskdjfh - Kel'Thuzad"] = "Fsdkjhskdjfh - Kel'Thuzad",
-		["Beatryce - Kel'Thuzad"] = "Beatryce - Kel'Thuzad",
 		["Kmkarbashian - Kel'Thuzad"] = "Kmkarbashian - Kel'Thuzad",
+		["Olrapey - Kel'Thuzad"] = "Olrapey - Kel'Thuzad",
 		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
-		["Leeroyjenkem - Kel'Thuzad"] = "Leeroyjenkem - Kel'Thuzad",
 		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
 		["Testfoolio - Kel'Thuzad"] = "Testfoolio - Kel'Thuzad",
+		["Shamwowow - Kel'Thuzad"] = "Shamwowow - Kel'Thuzad",
 	},
 	["profiles"] = {
 		["Fooliolio - Kel'Thuzad"] = {
@@ -285,11 +287,11 @@ MogItWishlist = {
 					["items"] = {
 						["ChestSlot"] = "item:18312:0",
 						["FeetSlot"] = "item:14784:0",
-						["HandsSlot"] = "item:10268:0",
-						["HeadSlot"] = "item:32476:0",
 						["LegsSlot"] = "item:12420:0",
-						["MainHandSlot"] = "item:78359:0",
 						["ShoulderSlot"] = "item:70985:0",
+						["HandsSlot"] = "item:10268:0",
+						["MainHandSlot"] = "item:78359:0",
+						["HeadSlot"] = "item:32476:0",
 					},
 					["name"] = "fire hunter",
 					["alternateItems"] = {
@@ -354,8 +356,8 @@ MogItWishlist = {
 						["ShoulderSlot"] = "item:57463:0",
 						["MainHandSlot"] = "item:52631:0",
 						["FeetSlot"] = "item:117057:0",
-						["WaistSlot"] = "item:4249:0",
 						["LegsSlot"] = "item:3315:0",
+						["WaistSlot"] = "item:4249:0",
 						["HandsSlot"] = "item:26022:0",
 						["HeadSlot"] = "item:5753:0",
 					},
@@ -381,9 +383,9 @@ MogItWishlist = {
 						["MainHandSlot"] = "item:52631:0",
 						["FeetSlot"] = "item:117057:0",
 						["ShoulderSlot"] = "item:57463:0",
-						["WaistSlot"] = "item:4249:0",
-						["HandsSlot"] = "item:26022:0",
 						["LegsSlot"] = "item:3315:0",
+						["HandsSlot"] = "item:26022:0",
+						["WaistSlot"] = "item:4249:0",
 					},
 					["name"] = "sexy mods",
 					["alternateItems"] = {
@@ -425,6 +427,8 @@ MogItWishlist = {
 		},
 		["Deeke - Kel'Thuzad"] = {
 		},
+		["Lorranah - Kel'Thuzad"] = {
+		},
 		["Nigellah - Kel'Thuzad"] = {
 			["sets"] = {
 				{
@@ -438,7 +442,7 @@ MogItWishlist = {
 				}, -- [1]
 			},
 		},
-		["Lorranah - Kel'Thuzad"] = {
+		["Loranah - Kel'Thuzad"] = {
 		},
 		["Ugiyo - Kel'Thuzad"] = {
 		},
@@ -446,17 +450,11 @@ MogItWishlist = {
 		},
 		["Beatryss - Kel'Thuzad"] = {
 		},
-		["Loranah - Kel'Thuzad"] = {
-		},
 		["Hauzerone - Dalaran"] = {
 		},
+		["Leeroyjenkem - Kel'Thuzad"] = {
+		},
 		["Hauzerhunter - Kel'Thuzad"] = {
-		},
-		["Olrapey - Kel'Thuzad"] = {
-		},
-		["Skãdi - Kel'Thuzad"] = {
-		},
-		["Fsdkjhskdjfh - Kel'Thuzad"] = {
 		},
 		["Beatryce - Kel'Thuzad"] = {
 			["sets"] = {
@@ -503,6 +501,10 @@ MogItWishlist = {
 				}, -- [3]
 			},
 		},
+		["Skãdi - Kel'Thuzad"] = {
+		},
+		["Fsdkjhskdjfh - Kel'Thuzad"] = {
+		},
 		["Kmkarbashian - Kel'Thuzad"] = {
 			["sets"] = {
 				{
@@ -518,6 +520,8 @@ MogItWishlist = {
 					},
 				}, -- [1]
 			},
+		},
+		["Olrapey - Kel'Thuzad"] = {
 		},
 		["Hauzer - Kel'Thuzad"] = {
 			["items"] = {
@@ -541,13 +545,13 @@ MogItWishlist = {
 				{
 					["items"] = {
 						["ChestSlot"] = "item:115878:0",
-						["WristSlot"] = "item:115628:0",
 						["FeetSlot"] = "item:115827:0",
+						["WristSlot"] = "item:115628:0",
 						["LegsSlot"] = "item:115877:0",
-						["ShoulderSlot"] = "item:115879:0",
+						["HeadSlot"] = "item:115876:0",
 						["HandsSlot"] = "item:115875:0",
 						["WaistSlot"] = "item:115824:0",
-						["HeadSlot"] = "item:115876:0",
+						["ShoulderSlot"] = "item:115879:0",
 					},
 					["name"] = "season 1 elite",
 					["alternateItems"] = {
@@ -585,17 +589,15 @@ MogItWishlist = {
 						["FeetSlot"] = "item:16800:0",
 						["WristSlot"] = "item:59093:0",
 						["HeadSlot"] = "item:127169:0::::::::::0:1:615",
-						["WaistSlot"] = "item:10144:0",
-						["MainHandSlot"] = "item:119174:0::::::::::0:1:518",
 						["HandsSlot"] = "item:29315:0",
+						["MainHandSlot"] = "item:119174:0::::::::::0:1:518",
+						["WaistSlot"] = "item:10144:0",
 					},
 					["name"] = "pretty princess",
 					["alternateItems"] = {
 					},
 				}, -- [5]
 			},
-		},
-		["Leeroyjenkem - Kel'Thuzad"] = {
 		},
 		["Alorannah - Kel'Thuzad"] = {
 			["sets"] = {
@@ -631,6 +633,8 @@ MogItWishlist = {
 			},
 		},
 		["Testfoolio - Kel'Thuzad"] = {
+		},
+		["Shamwowow - Kel'Thuzad"] = {
 		},
 	},
 }
