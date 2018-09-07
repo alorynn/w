@@ -6,10 +6,3 @@ X: 0
 Y: 0
 W: 365
 H: 240
-Frame: InterfaceOptionsFrame
-FrameLevel: 1
-Anchor: CENTER
-X: 13
-Y: 38
-W: 858
-H: 660
