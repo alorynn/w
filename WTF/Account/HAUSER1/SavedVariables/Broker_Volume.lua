@@ -32,9 +32,9 @@ BrokerVolumeDB = {
 		["Hauzerhunter - Kel'Thuzad"] = "Hauzerhunter - Kel'Thuzad",
 		["Hauser - Mal'Ganis"] = "Hauser - Mal'Ganis",
 		["Skãdi - Kel'Thuzad"] = "Skãdi - Kel'Thuzad",
-		["Fsdkjhskdjfh - Kel'Thuzad"] = "Fsdkjhskdjfh - Kel'Thuzad",
-		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
 		["Olrapey - Kel'Thuzad"] = "Olrapey - Kel'Thuzad",
+		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
+		["Fsdkjhskdjfh - Kel'Thuzad"] = "Fsdkjhskdjfh - Kel'Thuzad",
 		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
 		["Hoobastanko - Kel'Thuzad"] = "Hoobastanko - Kel'Thuzad",
 		["Testfoolio - Kel'Thuzad"] = "Testfoolio - Kel'Thuzad",
@@ -107,11 +107,11 @@ BrokerVolumeDB = {
 		},
 		["Skãdi - Kel'Thuzad"] = {
 		},
-		["Fsdkjhskdjfh - Kel'Thuzad"] = {
+		["Olrapey - Kel'Thuzad"] = {
 		},
 		["Alorannah - Kel'Thuzad"] = {
 		},
-		["Olrapey - Kel'Thuzad"] = {
+		["Fsdkjhskdjfh - Kel'Thuzad"] = {
 		},
 		["Hauzer - Kel'Thuzad"] = {
 			["bgSound"] = true,

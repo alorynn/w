@@ -14,9 +14,9 @@ Details_StreamerDB = {
 		["Testfoolio - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Alisheeya - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Hauzerina - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
-		["Lorranah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
-		["Alauranna - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Darknstormie - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
+		["Alauranna - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
+		["Lorranah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Hauzer - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Rogueout - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Blahndee - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
@@ -50,9 +50,28 @@ Details_StreamerDB = {
 			["row_texture"] = "Details Serenity",
 			["arrow_anchor_y"] = 0,
 			["main_frame_locked"] = false,
-			["author"] = "Details! Team",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["enabled"] = false,
 			["arrow_size"] = 10,
+			["font_size"] = 10,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["use_spark"] = true,
+			["y"] = -4.577636718750e-005,
+			["x"] = 0,
+			["font_face"] = "Friz Quadrata TT",
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -64,26 +83,7 @@ Details_StreamerDB = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["font_size"] = 10,
-			["use_spark"] = true,
-			["x"] = 0,
-			["font_face"] = "Friz Quadrata TT",
-			["y"] = -4.577636718750e-005,
-			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["point"] = "CENTER",
 			["row_height"] = 20,
 			["scale"] = 1,

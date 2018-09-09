@@ -31,9 +31,9 @@ Postal3DB = {
 		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
 		["Leeroyjenkem - Kel'Thuzad"] = "Leeroyjenkem - Kel'Thuzad",
 		["Hauzerhunter - Kel'Thuzad"] = "Hauzerhunter - Kel'Thuzad",
-		["Fsdkjhskdjfh - Kel'Thuzad"] = "Fsdkjhskdjfh - Kel'Thuzad",
-		["Skãdi - Kel'Thuzad"] = "Skãdi - Kel'Thuzad",
 		["Olrapey - Kel'Thuzad"] = "Olrapey - Kel'Thuzad",
+		["Skãdi - Kel'Thuzad"] = "Skãdi - Kel'Thuzad",
+		["Fsdkjhskdjfh - Kel'Thuzad"] = "Fsdkjhskdjfh - Kel'Thuzad",
 		["Kmkarbashian - Kel'Thuzad"] = "Kmkarbashian - Kel'Thuzad",
 		["Beatryce - Kel'Thuzad"] = "Beatryce - Kel'Thuzad",
 		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
@@ -183,11 +183,11 @@ Postal3DB = {
 		},
 		["Hauzerhunter - Kel'Thuzad"] = {
 		},
-		["Fsdkjhskdjfh - Kel'Thuzad"] = {
+		["Olrapey - Kel'Thuzad"] = {
 		},
 		["Skãdi - Kel'Thuzad"] = {
 		},
-		["Olrapey - Kel'Thuzad"] = {
+		["Fsdkjhskdjfh - Kel'Thuzad"] = {
 		},
 		["Kmkarbashian - Kel'Thuzad"] = {
 			["BlackBook"] = {

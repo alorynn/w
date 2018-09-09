@@ -238,8 +238,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [49]
 		["uniqueKey"] = "Blahndee:Kel'Thuzad:1",
 	},
@@ -432,8 +432,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [49]
 		["uniqueKey"] = "Kmkarbashian:Kel'Thuzad:3",
 	},
@@ -626,8 +626,8 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -823,8 +823,8 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -1021,8 +1021,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 		}, -- [49]
 		["uniqueKey"] = "Alauranna:Kel'Thuzad:2",
 	},
@@ -1213,8 +1213,8 @@ DCS_ClassSpecDB = {
 		}, -- [48]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -1411,8 +1411,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [49]
 		["uniqueKey"] = "Laurannah:Kel'Thuzad:1",
 	},
@@ -1606,8 +1606,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [49]
 		["uniqueKey"] = "Shamwowow:Kel'Thuzad:1",
 	},
@@ -1800,8 +1800,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 		}, -- [49]
 		["uniqueKey"] = "Testfoolio:Kel'Thuzad:3",
 	},
@@ -1997,8 +1997,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 		}, -- [49]
 		["uniqueKey"] = "Nigellah:Kel'Thuzad:1",
 	},
