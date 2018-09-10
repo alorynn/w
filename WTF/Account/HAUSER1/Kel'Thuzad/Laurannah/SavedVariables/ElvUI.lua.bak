@@ -1,94 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/cw Loncheney-Windrunner how about black philip did you get him yet?", -- [1]
-		"/cw Loncheney-Windrunner baa'l", -- [2]
-		"/cw Loncheney-Windrunner ah yeah I did that, dunno why, not like pathfinder 2 will be out for months", -- [3]
-		"/cw Loncheney-Windrunner ya that was about my #1 priority as well lol - the run speed boost is nice", -- [4]
-		"/y what", -- [5]
-		"/2 what did they un-fuck this time", -- [6]
-		"/cw Ungoliant-Kel'Thuzad dude pvp is so broken right now with trait stacking - beware", -- [7]
-		"/2 @Stilanious it's clearly an automatic 1% per hour even if you do nothing", -- [8]
-		"/2 so all the alliance on this server will get to queue for warfronts once every 4 days or so which is super", -- [9]
-		"/2 meaning practically the entire server since there are no horde here", -- [10]
-		"/cw Dmitri-Kel'Thuzad is that a good price for a golem these days? I havrnt made one in year", -- [11]
-		"/cw Dmitri-Kel'Thuzad oh yeah any price you can get is the right price imo - was just curious", -- [12]
-		"/cw Dmitri-Kel'Thuzad I guess all the gatherers use it - I use a druid for gathering lol", -- [13]
-		"/2 7th legion rep has tons of wqs, missions and island expeditions as well, easiest exalted in BFA", -- [14]
-		"/cw Omeleet lol hes arguing with me now in PM", -- [15]
-		"/cw Ülric lol where do you get a speared hippo like that", -- [16]
-		"/cw Ülric-Kel'Thuzad nice", -- [17]
-		"/2 so neither horde nor alliance can queue for warfronts while the contributions are less than 100%", -- [18]
-		"/2 wtf kind of system is this", -- [19]
-		"/2 evergreen content", -- [20]
+		"/cw Loncheney-Windrunner ya that was about my #1 priority as well lol - the run speed boost is nice", -- [1]
+		"/y what", -- [2]
+		"/2 what did they un-fuck this time", -- [3]
+		"/cw Ungoliant-Kel'Thuzad dude pvp is so broken right now with trait stacking - beware", -- [4]
+		"/2 @Stilanious it's clearly an automatic 1% per hour even if you do nothing", -- [5]
+		"/2 so all the alliance on this server will get to queue for warfronts once every 4 days or so which is super", -- [6]
+		"/2 meaning practically the entire server since there are no horde here", -- [7]
+		"/cw Dmitri-Kel'Thuzad is that a good price for a golem these days? I havrnt made one in year", -- [8]
+		"/cw Dmitri-Kel'Thuzad oh yeah any price you can get is the right price imo - was just curious", -- [9]
+		"/cw Dmitri-Kel'Thuzad I guess all the gatherers use it - I use a druid for gathering lol", -- [10]
+		"/2 7th legion rep has tons of wqs, missions and island expeditions as well, easiest exalted in BFA", -- [11]
+		"/cw Omeleet lol hes arguing with me now in PM", -- [12]
+		"/cw Ülric lol where do you get a speared hippo like that", -- [13]
+		"/cw Ülric-Kel'Thuzad nice", -- [14]
+		"/2 so neither horde nor alliance can queue for warfronts while the contributions are less than 100%", -- [15]
+		"/2 wtf kind of system is this", -- [16]
+		"/2 evergreen content", -- [17]
+		"/1 did alliance get to queue for stromgarde?", -- [18]
+		"/1 I just did it on horde ", -- [19]
+		"/1 so it literally comes up for one hour every week? lol", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"ya I just meant all the assets", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"1. General - Arathi Highlands", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Arathi Highlands", -- [9]
-			0, -- [10]
-			639, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1536165896,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"every one of these buildings was in WOD garrison or Stormshield/Ashran", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"1. General - Arathi Highlands", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Arathi Highlands", -- [9]
-			0, -- [10]
-			643, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1536165942,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"just need Grand Marshal Tremblade here and we'd be all set", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"1. General - Arathi Highlands", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Arathi Highlands", -- [9]
-			0, -- [10]
-			645, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1536165966,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
 		{
 			"which is the one that gives the ogre head toy?", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -110,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1536166139,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
+		}, -- [1]
 		{
 			"https://i.redd.it/q3g80fdtrck11.jpg", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -132,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1536166164,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
+		}, -- [2]
 		{
 			"good mog", -- [1]
 			"Randomzlul-Kel'Thuzad", -- [2]
@@ -154,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aRandomzlul|r",
 			[51] = 1536166442,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [6]
+		}, -- [3]
 		{
 			"thanks bb", -- [1]
 			"Randomzlul-Kel'Thuzad", -- [2]
@@ -176,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aRandomzlul|r",
 			[51] = 1536166448,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [7]
+		}, -- [4]
 		{
 			"I went with the woolies on my feral", -- [1]
 			"Randomzlul-Kel'Thuzad", -- [2]
@@ -198,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aRandomzlul|r",
 			[51] = 1536166462,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [8]
+		}, -- [5]
 		{
 			"yeah |cffa335ee|Hitem:161102::::::::120:253::26:3:4803:1532:4784:::|h[Corpseblood Belt]|h|r", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -220,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1536169963,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
+		}, -- [6]
 		{
 			"wtf |cffa335ee|Hitem:139003::::::::120:253::14::::|h[Pocket Pet Portal]|h|r", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -242,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1536170640,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
+		}, -- [7]
 		{
 			"that was available at last expac as well. I got mine then. Very handy!", -- [1]
 			"Loncheney-Windrunner", -- [2]
@@ -264,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dLoncheney-Windrunner|r",
 			[51] = 1536170670,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [11]
+		}, -- [8]
 		{
 			"wow I was about to say I cant imagine needing that many pets lol", -- [1]
 			"Loncheney-Windrunner", -- [2]
@@ -286,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dLoncheney-Windrunner|r",
 			[51] = 1536170747,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [12]
+		}, -- [9]
 		{
 			"did you get the drustvar wicker pet? that thing owns", -- [1]
 			"Loncheney-Windrunner", -- [2]
@@ -308,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dLoncheney-Windrunner|r",
 			[51] = 1536170779,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [13]
+		}, -- [10]
 		{
 			"I haven't yet, but thanks for the tip. I'll make it my next.", -- [1]
 			"Loncheney-Windrunner", -- [2]
@@ -330,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dLoncheney-Windrunner|r",
 			[51] = 1536170801,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [14]
+		}, -- [11]
 		{
 			"There's a new achieve/pet for getting 1K uniques as well.", -- [1]
 			"Loncheney-Windrunner", -- [2]
@@ -352,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dLoncheney-Windrunner|r",
 			[51] = 1536170820,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [15]
+		}, -- [12]
 		{
 			"I think I saw that anyway.", -- [1]
 			"Loncheney-Windrunner", -- [2]
@@ -374,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dLoncheney-Windrunner|r",
 			[51] = 1536170829,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [16]
+		}, -- [13]
 		{
 			"ya I'll never have that, Im not a pet guy really, I just happened to get that one while treasure hunting", -- [1]
 			"Loncheney-Windrunner", -- [2]
@@ -396,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dLoncheney-Windrunner|r",
 			[51] = 1536170844,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [17]
+		}, -- [14]
 		{
 			"Pathetically, I enjoy pet battling, so I'm at about 920 uniques.", -- [1]
 			"Loncheney-Windrunner", -- [2]
@@ -418,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dLoncheney-Windrunner|r",
 			[51] = 1536170850,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [18]
+		}, -- [15]
 		{
 			"|cff1eff00|Hbattlepet:2411:1:2:155:9:11:BattlePet-0-000007849D77|h[Wicker Pup]|h|r", -- [1]
 			"Loncheney-Windrunner", -- [2]
@@ -440,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dLoncheney-Windrunner|r",
 			[51] = 1536170850,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [19]
+		}, -- [16]
 		{
 			"eh its not for me but wow is a game, hopefully people play it to have fun like you do", -- [1]
 			"Loncheney-Windrunner", -- [2]
@@ -462,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dLoncheney-Windrunner|r",
 			[51] = 1536170872,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [20]
+		}, -- [17]
 		{
 			"Dude, very cool. Is it just a drop or can you buy it from a vvendor?", -- [1]
 			"Loncheney-Windrunner", -- [2]
@@ -484,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dLoncheney-Windrunner|r",
 			[51] = 1536170885,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [21]
+		}, -- [18]
 		{
 			"no it comes from treasures in Drustvar", -- [1]
 			"Loncheney-Windrunner", -- [2]
@@ -506,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dLoncheney-Windrunner|r",
 			[51] = 1536170899,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [22]
+		}, -- [19]
 		{
 			"indeed.", -- [1]
 			"Loncheney-Windrunner", -- [2]
@@ -528,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dLoncheney-Windrunner|r",
 			[51] = 1536170899,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [23]
+		}, -- [20]
 		{
 			"|cffffff00|Hachievement:12995:Player-3693-092AD332:1:8:23:18:4294967295:4294967295:4294967295:4294967295|h[Treasures of Drustvar]|h|r", -- [1]
 			"Loncheney-Windrunner", -- [2]
@@ -550,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dLoncheney-Windrunner|r",
 			[51] = 1536170928,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [24]
+		}, -- [21]
 		{
 			"Cool. I'll redouble my efforts. The chests you mean right?", -- [1]
 			"Loncheney-Windrunner", -- [2]
@@ -572,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dLoncheney-Windrunner|r",
 			[51] = 1536170930,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [25]
+		}, -- [22]
 		{
 			"yeah the uniques", -- [1]
 			"Loncheney-Windrunner", -- [2]
@@ -594,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dLoncheney-Windrunner|r",
 			[51] = 1536170936,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [26]
+		}, -- [23]
 		{
 			"CooL!", -- [1]
 			"Loncheney-Windrunner", -- [2]
@@ -616,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dLoncheney-Windrunner|r",
 			[51] = 1536170937,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [27]
+		}, -- [24]
 		{
 			"I like treasures too!", -- [1]
 			"Loncheney-Windrunner", -- [2]
@@ -638,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dLoncheney-Windrunner|r",
 			[51] = 1536170948,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [28]
+		}, -- [25]
 		{
 			"how about black philip did you get him yet?", -- [1]
 			"Loncheney-Windrunner", -- [2]
@@ -660,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dLoncheney-Windrunner|r",
 			[51] = 1536171051,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [29]
+		}, -- [26]
 		{
 			"baa'l", -- [1]
 			"Loncheney-Windrunner", -- [2]
@@ -682,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dLoncheney-Windrunner|r",
 			[51] = 1536171079,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [30]
+		}, -- [27]
 		{
 			"not yet either. I've been trying to get the pathfinder achieve out of the way so focusing on my two mains.", -- [1]
 			"Loncheney-Windrunner", -- [2]
@@ -704,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dLoncheney-Windrunner|r",
 			[51] = 1536171125,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [31]
+		}, -- [28]
 		{
 			"ah yeah I did that, dunno why, not like pathfinder 2 will be out for months", -- [1]
 			"Loncheney-Windrunner", -- [2]
@@ -726,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dLoncheney-Windrunner|r",
 			[51] = 1536171145,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [32]
+		}, -- [29]
 		{
 			"I'm anal retentive that way", -- [1]
 			"Loncheney-Windrunner", -- [2]
@@ -748,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dLoncheney-Windrunner|r",
 			[51] = 1536171158,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [33]
+		}, -- [30]
 		{
 			"ya that was about my #1 priority as well lol - the run speed boost is nice", -- [1]
 			"Loncheney-Windrunner", -- [2]
@@ -770,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dLoncheney-Windrunner|r",
 			[51] = 1536171188,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [34]
+		}, -- [31]
 		{
 			"cool. Didn't know about that", -- [1]
 			"Loncheney-Windrunner", -- [2]
@@ -792,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dLoncheney-Windrunner|r",
 			[51] = 1536171207,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [35]
+		}, -- [32]
 		{
 			"what", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -814,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1536236300,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [36]
+		}, -- [33]
 		{
 			"what did they un-fuck this time", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -836,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1536236588,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
+		}, -- [34]
 		{
 			"I wanted RBG's, dunno if they fixed it", -- [1]
 			"Ungoliant-Kel'Thuzad", -- [2]
@@ -858,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dUngoliant|r",
 			[51] = 1536236600,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [38]
+		}, -- [35]
 		{
 			"dude pvp is so broken right now with trait stacking - beware", -- [1]
 			"Ungoliant-Kel'Thuzad", -- [2]
@@ -880,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dUngoliant|r",
 			[51] = 1536236618,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [39]
+		}, -- [36]
 		{
 			"Lol, im 1700 in 3''s rn , yeah", -- [1]
 			"Ungoliant-Kel'Thuzad", -- [2]
@@ -902,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dUngoliant|r",
 			[51] = 1536236631,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [40]
+		}, -- [37]
 		{
 			"Can be crazy", -- [1]
 			"Ungoliant-Kel'Thuzad", -- [2]
@@ -924,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dUngoliant|r",
 			[51] = 1536236637,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [41]
+		}, -- [38]
 		{
 			"pst for inv to rare killing group", -- [1]
 			"Nommi-Aggramar", -- [2]
@@ -946,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aNommi-Aggramar|r",
 			[51] = 1536236850,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
+		}, -- [39]
 		{
 			"wts |cffa335ee|Hitem:161074::::::::120:72::3:3:4798:1477:4786:::|h[Crushproof Vambraces]|h|r", -- [1]
 			"Acetor-Kel'Thuzad", -- [2]
@@ -968,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dAcetor|r",
 			[51] = 1536237643,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
+		}, -- [40]
 		{
 			"WTB |cffffffff|Hitem:152576::::::::120:64::::::|h[Tidespray Linen]|h|r 7g each pst", -- [1]
 			"Sowin-Kel'Thuzad", -- [2]
@@ -990,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaSowin|r",
 			[51] = 1536237966,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
+		}, -- [41]
 		{
 			"WTB [Tidespray Linen]12g per [Any amount 1-10000] Just CoD any amount to me or we can meet up if you want to and have 5+stacks :D", -- [1]
 			"Aaronar-Kel'Thuzad", -- [2]
@@ -1012,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAaronar|r",
 			[51] = 1536247397,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [42]
 		{
 			"WTB [Tidespray Linen]12g per [Any amount 1-10000] Just CoD any amount to me or we can meet up if you want to and have 5+stacks :D", -- [1]
 			"Aaronar-Kel'Thuzad", -- [2]
@@ -1034,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAaronar|r",
 			[51] = 1536248610,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [43]
 		{
 			"WTB [Tidespray Linen]12g per [Any amount 1-10000] Just CoD any amount to me or we can meet up if you want to and have 5+stacks :D", -- [1]
 			"Aaronar-Kel'Thuzad", -- [2]
@@ -1056,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAaronar|r",
 			[51] = 1536248717,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [44]
 		{
 			"WTB [Tidespray Linen]12g per [Any amount 1-10000] Just CoD any amount to me or we can meet up if you want to and have 5+stacks :D", -- [1]
 			"Aaronar-Kel'Thuzad", -- [2]
@@ -1078,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAaronar|r",
 			[51] = 1536248788,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [45]
 		{
 			"WTB [Tidespray Linen]12g per [Any amount 1-10000] Just CoD any amount to me or we can meet up if you want to and have 5+stacks :D", -- [1]
 			"Aaronar-Kel'Thuzad", -- [2]
@@ -1100,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAaronar|r",
 			[51] = 1536248966,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [46]
 		{
 			"@Stilanious it's clearly an automatic 1% per hour even if you do nothing", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1122,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1536249024,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
+		}, -- [47]
 		{
 			"WTB [Tidespray Linen]12g per [Any amount 1-10000] Just CoD any amount to me or we can meet up if you want to and have 5+stacks :D", -- [1]
 			"Aaronar-Kel'Thuzad", -- [2]
@@ -1144,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAaronar|r",
 			[51] = 1536249104,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
+		}, -- [48]
 		{
 			"so all the alliance on this server will get to queue for warfronts once every 4 days or so which is super", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1166,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1536249144,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [49]
 		{
 			"<Inclusi> is a 7/8 N raid group with mythic goals, Mon/Tue/Wed 7-10 server time looking for competitive raiders of all roles except tank. We aim to keep a competitive raid environment and keep as much drama out of the guild as possible.", -- [1]
 			"Unclewarr-Kel'Thuzad", -- [2]
@@ -1188,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dUnclewarr|r",
 			[51] = 1536249153,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [50]
 		{
 			"meaning practically the entire server since there are no horde here", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1210,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1536249174,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [51]
 		{
 			"WTS old unobtainable items! |cff0070dd|Hitem:16697:::::::1189592320:60:254::::::|h[Devout Bracers]|h|r|cff0070dd|Hitem:16692:::::::1133568608:60:254::::::|h[Devout Gloves]|h|r both for 120k and an extremely rare Alchemy recipe |cff1eff00|Hitem:13519:::::::1580890688:60:254::::::|h[Recipe: Flask of the Titans]|h|r for 50k!", -- [1]
 			"Somis-Kel'Thuzad", -- [2]
@@ -1232,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Somis|r",
 			[51] = 1536249398,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [52]
 		{
 			"is that a good price for a golem these days? I havrnt made one in year", -- [1]
 			"Dmitri-Kel'Thuzad", -- [2]
@@ -1254,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Dmitri|r",
 			[51] = 1536249545,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [56]
+		}, -- [53]
 		{
 			"240k on ah", -- [1]
 			"Dmitri-Kel'Thuzad", -- [2]
@@ -1276,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Dmitri|r",
 			[51] = 1536249555,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [57]
+		}, -- [54]
 		{
 			"free wow if you sell it, why not", -- [1]
 			"Dmitri-Kel'Thuzad", -- [2]
@@ -1298,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Dmitri|r",
 			[51] = 1536249562,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [58]
+		}, -- [55]
 		{
 			"oh yeah any price you can get is the right price imo - was just curious", -- [1]
 			"Dmitri-Kel'Thuzad", -- [2]
@@ -1320,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Dmitri|r",
 			[51] = 1536249585,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [59]
+		}, -- [56]
 		{
 			"WTB [Tidespray Linen]12g per [Any amount 1-10000] Just CoD any amount to me or we can meet up if you want to and have 5+stacks :D", -- [1]
 			"Aaronar-Kel'Thuzad", -- [2]
@@ -1342,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAaronar|r",
 			[51] = 1536249591,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [57]
 		{
 			"WTS |cffa335ee|Hitem:95416::::::::120:269:::1:3524:::|h[Sky Golem]|h|r 200,000g obo", -- [1]
 			"Dmitri-Kel'Thuzad", -- [2]
@@ -1364,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Dmitri|r",
 			[51] = 1536249596,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [58]
 		{
 			"WTB [Tidespray Linen]12g per [Any amount 1-10000] Just CoD any amount to me or we can meet up if you want to and have 5+stacks :D", -- [1]
 			"Aaronar-Kel'Thuzad", -- [2]
@@ -1386,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAaronar|r",
 			[51] = 1536249638,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [59]
 		{
 			"WTB [Tidespray Linen]12g per [Any amount 1-10000] Just CoD any amount to me or we can meet up if you want to and have 5+stacks :D", -- [1]
 			"Aaronar-Kel'Thuzad", -- [2]
@@ -1408,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAaronar|r",
 			[51] = 1536249674,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [60]
 		{
 			"I guess all the gatherers use it - I use a druid for gathering lol", -- [1]
 			"Dmitri-Kel'Thuzad", -- [2]
@@ -1430,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Dmitri|r",
 			[51] = 1536249684,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [64]
+		}, -- [61]
 		{
 			"WTS |cffa335ee|Hitem:95416::::::::120:269:::1:3524:::|h[Sky Golem]|h|r 200,000g obo", -- [1]
 			"Dmitri-Kel'Thuzad", -- [2]
@@ -1452,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Dmitri|r",
 			[51] = 1536249691,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [62]
 		{
 			"<Inclusi> is a 7/8 N raid group with mythic goals, Mon/Tue/Wed 7-10 server time looking for competitive raiders of all roles except tank. We aim to keep a competitive raid environment and keep as much drama out of the guild as possible.", -- [1]
 			"Unclewarr-Kel'Thuzad", -- [2]
@@ -1474,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dUnclewarr|r",
 			[51] = 1536249693,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [63]
 		{
 			"WTS old unobtainable items! |cff0070dd|Hitem:16697:::::::1189592320:60:254::::::|h[Devout Bracers]|h|r|cff0070dd|Hitem:16692:::::::1133568608:60:254::::::|h[Devout Gloves]|h|r both for 120k and an extremely rare Alchemy recipe |cff1eff00|Hitem:13519:::::::1580890688:60:254::::::|h[Recipe: Flask of the Titans]|h|r for 50k!", -- [1]
 			"Somis-Kel'Thuzad", -- [2]
@@ -1496,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Somis|r",
 			[51] = 1536249762,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [64]
 		{
 			"WTB [Tidespray Linen]12g per [Any amount 1-10000] Just CoD any amount to me or we can meet up if you want to and have 5+stacks :D", -- [1]
 			"Aaronar-Kel'Thuzad", -- [2]
@@ -1518,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAaronar|r",
 			[51] = 1536249792,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [65]
 		{
 			"WTB [Tidespray Linen]12g per [Any amount 1-10000] Just CoD any amount to me or we can meet up if you want to and have 5+stacks :D", -- [1]
 			"Aaronar-Kel'Thuzad", -- [2]
@@ -1540,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAaronar|r",
 			[51] = 1536249820,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [66]
 		{
 			"WTS |cffa335ee|Hitem:95416::::::::120:269:::1:3524:::|h[Sky Golem]|h|r 200,000g obo", -- [1]
 			"Dmitri-Kel'Thuzad", -- [2]
@@ -1562,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Dmitri|r",
 			[51] = 1536249910,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [67]
 		{
 			"WTB All BFA Greens 100 EA. Cod ALL!", -- [1]
 			"Bunginator-Kel'Thuzad", -- [2]
@@ -1584,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaBunginator|r",
 			[51] = 1536249916,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [68]
 		{
 			"7th legion rep has tons of wqs, missions and island expeditions as well, easiest exalted in BFA", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1606,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1536250033,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [69]
 		{
 			"island expeditions once a week", -- [1]
 			"Nerion-Kel'Thuzad", -- [2]
@@ -1628,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edNerion|r",
 			[51] = 1536250050,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [73]
+		}, -- [70]
 		{
 			"you tell em", -- [1]
 			"Omeleet", -- [2]
@@ -1650,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Omeleet|r",
 			[51] = 1536250052,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [74]
+		}, -- [71]
 		{
 			"missions seem to be random", -- [1]
 			"Nerion-Kel'Thuzad", -- [2]
@@ -1672,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edNerion|r",
 			[51] = 1536250056,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [75]
+		}, -- [72]
 		{
 			"lol hes arguing with me now in PM", -- [1]
 			"Omeleet-Kel'Thuzad", -- [2]
@@ -1694,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Omeleet|r",
 			[51] = 1536250073,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [76]
+		}, -- [73]
 		{
 			"he must be special", -- [1]
 			"Omeleet-Kel'Thuzad", -- [2]
@@ -1716,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Omeleet|r",
 			[51] = 1536250146,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [77]
+		}, -- [74]
 		{
 			"WTB [Tidespray Linen]12g per [Any amount 1-10000] Just CoD any amount to me or we can meet up if you want to and have 5+stacks :D", -- [1]
 			"Aaronar-Kel'Thuzad", -- [2]
@@ -1738,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAaronar|r",
 			[51] = 1536250217,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [75]
 		{
 			"WTB [Tidespray Linen]12g per [Any amount 1-10000] Just CoD any amount to me or we can meet up if you want to and have 5+stacks :D", -- [1]
 			"Aaronar-Kel'Thuzad", -- [2]
@@ -1760,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAaronar|r",
 			[51] = 1536250230,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [76]
 		{
 			"WTB [Tidespray Linen]12g per [Any amount 1-10000] Just CoD any amount to me or we can meet up if you want to and have 5+stacks :D", -- [1]
 			"Aaronar-Kel'Thuzad", -- [2]
@@ -1782,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAaronar|r",
 			[51] = 1536250274,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [77]
 		{
 			"WTB |cffa335ee|Hitem:161919::::::::120:261::13:2:1700:4928:::|h[Stormsteel Dagger of the Feverflare]|h|r", -- [1]
 			"Váughn-Kel'Thuzad", -- [2]
@@ -1804,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Váughn|r",
 			[51] = 1536250294,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [78]
 		{
 			"WTB All BFA Greens 100 EA. Cod ALL!", -- [1]
 			"Bunginator-Kel'Thuzad", -- [2]
@@ -1826,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaBunginator|r",
 			[51] = 1536250301,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [79]
 		{
 			"WTB [Tidespray Linen]12g per [Any amount 1-10000] Just CoD any amount to me or we can meet up if you want to and have 5+stacks :D", -- [1]
 			"Aaronar-Kel'Thuzad", -- [2]
@@ -1848,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAaronar|r",
 			[51] = 1536250330,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [80]
 		{
 			"WTB [Tidespray Linen]12g per [Any amount 1-10000] Just CoD any amount to me or we can meet up if you want to and have 5+stacks :D", -- [1]
 			"Aaronar-Kel'Thuzad", -- [2]
@@ -1870,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAaronar|r",
 			[51] = 1536250375,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [81]
 		{
 			"WTB [Tidespray Linen]12g per [Any amount 1-10000] Just CoD any amount to me or we can meet up if you want to and have 5+stacks :D", -- [1]
 			"Aaronar-Kel'Thuzad", -- [2]
@@ -1892,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAaronar|r",
 			[51] = 1536250391,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [82]
 		{
 			"WTB All BFA Greens 100 EA. Cod ALL!", -- [1]
 			"Bunginator-Kel'Thuzad", -- [2]
@@ -1914,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaBunginator|r",
 			[51] = 1536250435,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [83]
 		{
 			"WTB [Tidespray Linen]12g per [Any amount 1-10000] Just CoD any amount to me or we can meet up if you want to and have 5+stacks :D", -- [1]
 			"Aaronar-Kel'Thuzad", -- [2]
@@ -1936,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAaronar|r",
 			[51] = 1536250456,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [84]
 		{
 			"WTB |cffa335ee|Hitem:161919::::::::120:261::13:2:1700:4928:::|h[Stormsteel Dagger of the Feverflare]|h|r", -- [1]
 			"Váughn-Kel'Thuzad", -- [2]
@@ -1958,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Váughn|r",
 			[51] = 1536250492,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [85]
 		{
 			"WTB All BFA Greens 100 EA. Cod ALL!", -- [1]
 			"Bunginator-Kel'Thuzad", -- [2]
@@ -1980,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaBunginator|r",
 			[51] = 1536250722,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [86]
 		{
 			"WTB [Tidespray Linen]12g per [Any amount 1-10000] Just CoD any amount to me or we can meet up if you want to and have 5+stacks :D", -- [1]
 			"Aaronar-Kel'Thuzad", -- [2]
@@ -2002,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAaronar|r",
 			[51] = 1536250759,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [87]
 		{
 			"WTB [Tidespray Linen]12g per [Any amount 1-10000] Just CoD any amount to me or we can meet up if you want to and have 5+stacks :D", -- [1]
 			"Aaronar-Kel'Thuzad", -- [2]
@@ -2024,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAaronar|r",
 			[51] = 1536250781,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [88]
 		{
 			"WTB [Tidespray Linen]12g per [Any amount 1-10000] Just CoD any amount to me or we can meet up if you want to and have 5+stacks :D", -- [1]
 			"Aaronar-Kel'Thuzad", -- [2]
@@ -2046,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAaronar|r",
 			[51] = 1536250892,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [89]
 		{
 			"WTB All BFA Greens 100 EA. Cod ALL!", -- [1]
 			"Bunginator-Kel'Thuzad", -- [2]
@@ -2068,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaBunginator|r",
 			[51] = 1536250894,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [90]
 		{
 			"WTS |cffa335ee|Hitem:159125::::::::110:577::13::::|h[Darkmoon Deck: Fathoms]|h|r", -- [1]
 			"Craftdare-Kel'Thuzad", -- [2]
@@ -2090,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Craftdare|r",
 			[51] = 1536250907,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [91]
 		{
 			"WTB [Tidespray Linen]12g per [Any amount 1-10000] Just CoD any amount to me or we can meet up if you want to and have 5+stacks :D", -- [1]
 			"Aaronar-Kel'Thuzad", -- [2]
@@ -2112,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAaronar|r",
 			[51] = 1536250933,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [92]
 		{
 			"twitch.tv/paypays - r1 rdru queing 2v2 2k mmr", -- [1]
 			"Felakutí-Kel'Thuzad", -- [2]
@@ -2134,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aFelakutí|r",
 			[51] = 1536251051,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [93]
 		{
 			"WTB All BFA Greens 100 EA. Cod ALL!", -- [1]
 			"Bunginator-Kel'Thuzad", -- [2]
@@ -2156,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaBunginator|r",
 			[51] = 1536251111,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [94]
 		{
 			"WTS |cffa335ee|Hitem:159125::::::::110:577::13::::|h[Darkmoon Deck: Fathoms]|h|r", -- [1]
 			"Craftdare-Kel'Thuzad", -- [2]
@@ -2178,7 +2112,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Craftdare|r",
 			[51] = 1536251146,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [95]
 		{
 			"WTS |cffa335ee|Hitem:159125::::::::110:577::13::::|h[Darkmoon Deck: Fathoms]|h|r", -- [1]
 			"Craftdare-Kel'Thuzad", -- [2]
@@ -2200,7 +2134,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Craftdare|r",
 			[51] = 1536251202,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [99]
+		}, -- [96]
 		{
 			"WTS |cffa335ee|Hitem:159125::::::::110:577::13::::|h[Darkmoon Deck: Fathoms]|h|r", -- [1]
 			"Craftdare-Kel'Thuzad", -- [2]
@@ -2222,7 +2156,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Craftdare|r",
 			[51] = 1536251271,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [100]
+		}, -- [97]
 		{
 			"WTS |cffa335ee|Hitem:159125::::::::110:577::13::::|h[Darkmoon Deck: Fathoms]|h|r", -- [1]
 			"Craftdare-Kel'Thuzad", -- [2]
@@ -2244,7 +2178,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Craftdare|r",
 			[51] = 1536251336,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [101]
+		}, -- [98]
 		{
 			"<Seems Good> is looking for serious PvPers and Raiders pst me fore more info!", -- [1]
 			"Jaydazzle-Kel'Thuzad", -- [2]
@@ -2266,7 +2200,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Jaydazzle|r",
 			[51] = 1536251390,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [102]
+		}, -- [99]
 		{
 			"WTB All BFA Greens 100 EA. Cod ALL!", -- [1]
 			"Bunginator-Kel'Thuzad", -- [2]
@@ -2288,7 +2222,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaBunginator|r",
 			[51] = 1536251537,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [103]
+		}, -- [100]
 		{
 			"WTB [Tidespray Linen]12g per [Any amount 1-10000] Just CoD any amount to me or we can meet up if you want to and have 5+stacks :D", -- [1]
 			"Aaronar-Kel'Thuzad", -- [2]
@@ -2310,7 +2244,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAaronar|r",
 			[51] = 1536251904,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [104]
+		}, -- [101]
 		{
 			"sub rogue lf 2's. pst", -- [1]
 			"Flou-Kel'Thuzad", -- [2]
@@ -2332,7 +2266,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Flou|r",
 			[51] = 1536251923,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [105]
+		}, -- [102]
 		{
 			"WTB [Tidespray Linen]12g per [Any amount 1-10000] Just CoD any amount to me or we can meet up if you want to and have 5+stacks :D", -- [1]
 			"Aaronar-Kel'Thuzad", -- [2]
@@ -2354,7 +2288,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAaronar|r",
 			[51] = 1536251950,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [106]
+		}, -- [103]
 		{
 			"WTB |cffa335ee|Hitem:163959::::::::120:261::54:3:43:1472:4786:::|h[Self-Rotating Dagger of Xing]|h|r", -- [1]
 			"Zerith-Kel'Thuzad", -- [2]
@@ -2376,7 +2310,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Zerith|r",
 			[51] = 1536251998,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [107]
+		}, -- [104]
 		{
 			"WTB [Tidespray Linen]12g per [Any amount 1-10000] Just CoD any amount to me or we can meet up if you want to and have 5+stacks :D", -- [1]
 			"Aaronar-Kel'Thuzad", -- [2]
@@ -2398,7 +2332,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAaronar|r",
 			[51] = 1536252006,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [108]
+		}, -- [105]
 		{
 			"WTS |cffa335ee|Hitem:161075::::::::120:102::3:4:4798:40:1477:4786:::|h[Antiseptic Specimen Handlers]|h|r", -- [1]
 			"Deanaris-Kel'Thuzad", -- [2]
@@ -2420,7 +2354,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aDeanaris|r",
 			[51] = 1536252020,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [109]
+		}, -- [106]
 		{
 			"WTB [Tidespray Linen]12g per [Any amount 1-10000] Just CoD any amount to me or we can meet up if you want to and have 5+stacks :D", -- [1]
 			"Aaronar-Kel'Thuzad", -- [2]
@@ -2442,7 +2376,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAaronar|r",
 			[51] = 1536252045,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [110]
+		}, -- [107]
 		{
 			"WTB [Tidespray Linen]12g per [Any amount 1-10000] Just CoD any amount to me or we can meet up if you want to and have 5+stacks :D", -- [1]
 			"Aaronar-Kel'Thuzad", -- [2]
@@ -2464,7 +2398,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAaronar|r",
 			[51] = 1536252087,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [111]
+		}, -- [108]
 		{
 			"WTB |cffa335ee|Hitem:163959::::::::120:261::54:3:43:1472:4786:::|h[Self-Rotating Dagger of Xing]|h|r", -- [1]
 			"Zerith-Kel'Thuzad", -- [2]
@@ -2486,7 +2420,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Zerith|r",
 			[51] = 1536252124,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [112]
+		}, -- [109]
 		{
 			"WTB [Tidespray Linen]12g per [Any amount 1-10000] Just CoD any amount to me or we can meet up if you want to and have 5+stacks :D", -- [1]
 			"Aaronar-Kel'Thuzad", -- [2]
@@ -2508,7 +2442,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAaronar|r",
 			[51] = 1536252131,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [113]
+		}, -- [110]
 		{
 			"2k rogue lf 2s", -- [1]
 			"Stig-Kel'Thuzad", -- [2]
@@ -2530,7 +2464,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Stig|r",
 			[51] = 1536252213,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [114]
+		}, -- [111]
 		{
 			"WTB All BFA Greens 100 EA. Cod ALL!", -- [1]
 			"Bunginator-Kel'Thuzad", -- [2]
@@ -2552,7 +2486,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaBunginator|r",
 			[51] = 1536252259,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [115]
+		}, -- [112]
 		{
 			"<Proud Manlets> 5/8 H Uldir recruiting exceptional DPS of any class for Mythic. Must have logs or achievements. MTW 9:30-12:30 EST.", -- [1]
 			"Binarystar-Kel'Thuzad", -- [2]
@@ -2574,7 +2508,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffBinarystar|r",
 			[51] = 1536252319,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [116]
+		}, -- [113]
 		{
 			"WTB All BFA Greens 100 EA. Cod ALL!", -- [1]
 			"Bunginator-Kel'Thuzad", -- [2]
@@ -2596,7 +2530,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaBunginator|r",
 			[51] = 1536252406,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [117]
+		}, -- [114]
 		{
 			"WTS|cffa335ee|Hitem:159128::::::::103:62::13::::|h[Darkmoon Deck: Blockades]|h|r25k", -- [1]
 			"Suemadre-Kel'Thuzad", -- [2]
@@ -2618,7 +2552,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaSuemadre|r",
 			[51] = 1536252447,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [118]
+		}, -- [115]
 		{
 			"WTS|cffa335ee|Hitem:159128::::::::103:62::13::::|h[Darkmoon Deck: Blockades]|h|r25k", -- [1]
 			"Suemadre-Kel'Thuzad", -- [2]
@@ -2640,7 +2574,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaSuemadre|r",
 			[51] = 1536252536,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [119]
+		}, -- [116]
 		{
 			"<Proud Manlets> 5/8 H Uldir recruiting exceptional DPS of any class for Mythic. Must have logs or achievements. MTW 9:30-12:30 EST.", -- [1]
 			"Binarystar-Kel'Thuzad", -- [2]
@@ -2662,7 +2596,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffBinarystar|r",
 			[51] = 1536252562,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [120]
+		}, -- [117]
 		{
 			"lol where do you get a speared hippo like that", -- [1]
 			"Ülric-Kel'Thuzad", -- [2]
@@ -2684,7 +2618,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ülric|r",
 			[51] = 1536401118,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [121]
+		}, -- [118]
 		{
 			"it's in Zandalar, it's a named beast. In Nazmir", -- [1]
 			"Ülric-Kel'Thuzad", -- [2]
@@ -2706,7 +2640,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ülric|r",
 			[51] = 1536401150,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [122]
+		}, -- [119]
 		{
 			"nice", -- [1]
 			"Ülric-Kel'Thuzad", -- [2]
@@ -2728,7 +2662,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ülric|r",
 			[51] = 1536401178,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [123]
+		}, -- [120]
 		{
 			"so neither horde nor alliance can queue for warfronts while the contributions are less than 100%", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2750,7 +2684,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1536417342,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [124]
+		}, -- [121]
 		{
 			"wtf kind of system is this", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2772,7 +2706,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1536417346,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [125]
+		}, -- [122]
 		{
 			"evergreen content", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2794,7 +2728,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1536417384,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [126]
+		}, -- [123]
 		{
 			"spits on you.", -- [1]
 			"Xivia-Kel'Thuzad", -- [2]
@@ -2816,6 +2750,72 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Xivia|r",
 			[51] = 1536437950,
 			[50] = "CHAT_MSG_EMOTE",
+		}, -- [124]
+		{
+			"did alliance get to queue for stromgarde?", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"1. General - Boralus Harbor", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Boralus Harbor", -- [9]
+			0, -- [10]
+			1440, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1536516101,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [125]
+		{
+			"I just did it on horde ", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"1. General - Boralus Harbor", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Boralus Harbor", -- [9]
+			0, -- [10]
+			1445, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1536516124,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [126]
+		{
+			"so it literally comes up for one hour every week? lol", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"1. General - Boralus Harbor", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Boralus Harbor", -- [9]
+			0, -- [10]
+			1448, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1536516140,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},
 }
