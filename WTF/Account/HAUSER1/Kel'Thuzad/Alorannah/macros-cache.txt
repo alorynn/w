@@ -1,9 +1,9 @@
-VER 3 0100000000000001 "Mount" "INV_Misc_QuestionMark"
-/cast [flyable] Ashes of Al'ar; Crimson Water Strider
-END
-VER 3 0100000000000002 "Shadowstrike" "INV_Misc_QuestionMark"
-#showtooltip Shadowstrike
+VER 3 0100000000000002 "Backstab" "INV_Misc_QuestionMark"
+#showtooltip Backstab
 /use 13
 /use 14
-/cast Shadowstrike
+/cast Backstab
+END
+VER 3 0100000000000001 "Mount" "INV_Misc_QuestionMark"
+/cast [flyable] Ashes of Al'ar; Crimson Water Strider
 END

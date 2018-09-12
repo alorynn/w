@@ -45,11 +45,11 @@ ElvDB = {
 			["Darknstormie"] = 553986,
 			["Leeroyjenkem"] = 5023,
 			["Kmkarbashian"] = 9574,
-			["Alorannah"] = 196592567,
+			["Alorannah"] = 221230728,
 			["Laurranah"] = 10000,
 			["Olrapey"] = 0,
 			["Hauzerina"] = 9840,
-			["Laurannah"] = 901525429,
+			["Laurannah"] = 919218936,
 			["Rogueout"] = 100000,
 			["Foolioioio"] = 0,
 			["Deeke"] = 1936494,
@@ -146,12 +146,12 @@ ElvDB = {
 			["currentTutorial"] = 11,
 			["general"] = {
 				["bottomPanel"] = false,
-				["vendorGrays"] = true,
 				["valuecolor"] = {
 					["b"] = 0.45,
 					["g"] = 0.83,
 					["r"] = 0.67,
 				},
+				["vendorGrays"] = true,
 				["bordercolor"] = {
 					["r"] = 0,
 					["g"] = 0,
@@ -183,12 +183,12 @@ ElvDB = {
 				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,1196",
 				["ElvAB_2"] = "BOTTOM,ElvUIParent,BOTTOM,0,38",
 				["HonorBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,16,4",
-				["ElvUIBagMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,67",
-				["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,172",
-				["ElvUF_PlayerMover"] = "BOTTOM,ElvUIParent,BOTTOM,-167,231",
-				["MicrobarMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,0,28",
-				["ElvUF_PetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,149",
 				["TotemBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,649,0",
+				["ElvUF_PlayerMover"] = "BOTTOM,ElvUIParent,BOTTOM,-167,231",
+				["ElvUIBagMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,67",
+				["MicrobarMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,0,28",
+				["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,172",
+				["ElvUF_PetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,149",
 				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,195",
 				["ElvUF_FocusMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-400,250",
 				["ElvUF_FocusTargetMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-207,260",
@@ -204,33 +204,36 @@ ElvDB = {
 			},
 			["hideTutorial"] = true,
 			["auras"] = {
-				["debuffs"] = {
+				["buffs"] = {
 					["countFontSize"] = 12,
 					["durationFontSize"] = 12,
 				},
-				["buffs"] = {
+				["debuffs"] = {
 					["countFontSize"] = 12,
 					["durationFontSize"] = 12,
 				},
 				["font"] = "PT Sans Narrow",
 				["fontOutline"] = "NONE",
 			},
-			["tooltip"] = {
-				["healthBar"] = {
-					["font"] = "PT Sans Narrow",
-				},
+			["chat"] = {
 				["fontSize"] = 12,
+				["panelBackdrop"] = "HIDEBOTH",
+				["panelColorConverted"] = true,
+				["panelWidthRight"] = 335,
+				["separateSizes"] = true,
+				["tapFontSize"] = 12,
+				["panelWidth"] = 602,
 			},
 			["unitframe"] = {
 				["fontSize"] = 12,
 				["colors"] = {
-					["castClassColor"] = true,
+					["transparentAurabars"] = true,
 					["auraBarBuff"] = {
 						["b"] = 0.92,
 						["g"] = 0.78,
 						["r"] = 0.25,
 					},
-					["transparentAurabars"] = true,
+					["castClassColor"] = true,
 					["health"] = {
 						["b"] = 0.1,
 						["g"] = 0.1,
@@ -260,18 +263,28 @@ ElvDB = {
 							["font"] = "PT Sans Narrow",
 						},
 					},
-					["raid"] = {
-						["rdebuffs"] = {
-							["font"] = "PT Sans Narrow",
+					["player"] = {
+						["aurabar"] = {
+							["anchorPoint"] = "BELOW",
+							["attachTo"] = "FRAME",
+							["enable"] = false,
+						},
+						["combatfade"] = true,
+						["portrait"] = {
+							["camDistanceScale"] = 1,
+						},
+						["castbar"] = {
+							["height"] = 28,
+							["insideInfoPanel"] = false,
 						},
 					},
 					["target"] = {
-						["debuffs"] = {
-							["attachTo"] = "FRAME",
-						},
 						["aurabar"] = {
 							["anchorPoint"] = "BELOW",
+							["attachTo"] = "FRAME",
 							["enable"] = false,
+						},
+						["debuffs"] = {
 							["attachTo"] = "FRAME",
 						},
 					},
@@ -283,19 +296,9 @@ ElvDB = {
 							["enable"] = true,
 						},
 					},
-					["player"] = {
-						["castbar"] = {
-							["height"] = 28,
-							["insideInfoPanel"] = false,
-						},
-						["portrait"] = {
-							["camDistanceScale"] = 1,
-						},
-						["combatfade"] = true,
-						["aurabar"] = {
-							["anchorPoint"] = "BELOW",
-							["enable"] = false,
-							["attachTo"] = "FRAME",
+					["raid"] = {
+						["rdebuffs"] = {
+							["font"] = "PT Sans Narrow",
 						},
 					},
 				},
@@ -329,37 +332,34 @@ ElvDB = {
 				["bar4"] = {
 					["enabled"] = false,
 				},
+				["barPet"] = {
+					["enabled"] = false,
+				},
+				["stanceBar"] = {
+					["enabled"] = false,
+				},
 				["microbar"] = {
 					["enabled"] = true,
 					["alpha"] = 0.5,
 					["mouseover"] = true,
 				},
-				["stanceBar"] = {
-					["enabled"] = false,
-				},
-				["barPet"] = {
-					["enabled"] = false,
-				},
 				["backdropSpacingConverted"] = true,
 			},
 			["layoutSet"] = "dpsCaster",
 			["nameplates"] = {
+				["fontOutline"] = "NONE",
 				["units"] = {
 					["ENEMY_NPC"] = {
 						["minors"] = false,
 					},
 				},
-				["fontOutline"] = "NONE",
 			},
 			["thinBorderColorSet"] = true,
-			["chat"] = {
+			["tooltip"] = {
+				["healthBar"] = {
+					["font"] = "PT Sans Narrow",
+				},
 				["fontSize"] = 12,
-				["panelWidth"] = 602,
-				["panelColorConverted"] = true,
-				["separateSizes"] = true,
-				["panelWidthRight"] = 335,
-				["tapFontSize"] = 12,
-				["panelBackdrop"] = "HIDEBOTH",
 			},
 		},
 		["Alisheeya - Kel'Thuzad"] = {
@@ -1951,12 +1951,12 @@ ElvDB = {
 				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,1196",
 				["ElvUF_FocusMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-400,250",
 				["HonorBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,16,4",
-				["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,172",
-				["TotemBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,649,0",
-				["ElvUF_PetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,149",
-				["MicrobarMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,0,28",
-				["ElvUIBagMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,67",
 				["ElvUF_PlayerMover"] = "BOTTOM,ElvUIParent,BOTTOM,-167,231",
+				["ElvUF_PetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,149",
+				["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,172",
+				["MicrobarMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,0,28",
+				["TotemBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,649,0",
+				["ElvUIBagMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,67",
 				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,195",
 				["ElvAB_2"] = "BOTTOM,ElvUIParent,BOTTOM,0,38",
 				["LootFrameMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,36,-195",
@@ -2997,14 +2997,14 @@ ElvPrivateDB = {
 			["install_complete"] = "10.43",
 		},
 		["Laurannah - Kel'Thuzad"] = {
-			["actionbar"] = {
-				["enable"] = false,
-			},
+			["install_complete"] = "10.43",
 			["tooltip"] = {
 				["enable"] = false,
 			},
 			["theme"] = "class",
-			["install_complete"] = "10.43",
+			["actionbar"] = {
+				["enable"] = false,
+			},
 		},
 		["Alisheeya - Kel'Thuzad"] = {
 			["actionbar"] = {

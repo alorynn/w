@@ -1147,10 +1147,10 @@ MogIt_OtherDB = {
 				["faction"] = 3,
 			},
 		},
-		[24677] = {
-			[66832] = {
+		[24550] = {
+			[66538] = {
 				["classes"] = 3582,
-				["sourceType"] = 3,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 		},
@@ -1161,11 +1161,11 @@ MogIt_OtherDB = {
 				["faction"] = 3,
 			},
 		},
-		[8275] = {
-			[14610] = {
-				["classes"] = 3582,
+		[11704] = {
+			[22466] = {
+				["classes"] = 1162,
 				["sourceType"] = 3,
-				["faction"] = 3,
+				["faction"] = 2,
 			},
 		},
 		[27177] = {
@@ -1245,11 +1245,11 @@ MogIt_OtherDB = {
 				["faction"] = 2,
 			},
 		},
-		[24550] = {
-			[66538] = {
+		[32424] = {
+			[81608] = {
 				["classes"] = 3582,
-				["sourceType"] = 2,
-				["faction"] = 1,
+				["sourceType"] = 3,
+				["faction"] = 3,
 			},
 		},
 		[8276] = {
@@ -1308,8 +1308,8 @@ MogIt_OtherDB = {
 				["faction"] = 1,
 			},
 		},
-		[32424] = {
-			[81608] = {
+		[8275] = {
+			[14610] = {
 				["classes"] = 3582,
 				["sourceType"] = 3,
 				["faction"] = 3,
@@ -1371,11 +1371,11 @@ MogIt_OtherDB = {
 				["faction"] = 3,
 			},
 		},
-		[11704] = {
-			[22466] = {
-				["classes"] = 1162,
+		[24677] = {
+			[66832] = {
+				["classes"] = 3582,
 				["sourceType"] = 3,
-				["faction"] = 2,
+				["faction"] = 1,
 			},
 		},
 		[24697] = {
@@ -12525,10 +12525,10 @@ MogIt_OtherDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -12543,10 +12543,10 @@ MogIt_OtherDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -15566,10 +15566,10 @@ MogIt_OtherDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -15584,10 +15584,10 @@ MogIt_OtherDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -15604,10 +15604,10 @@ MogIt_OtherDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -15622,10 +15622,10 @@ MogIt_OtherDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -16992,10 +16992,10 @@ MogIt_OtherDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -17010,10 +17010,10 @@ MogIt_OtherDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -17224,10 +17224,10 @@ MogIt_OtherDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -17242,10 +17242,10 @@ MogIt_OtherDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -17828,9 +17828,9 @@ MogIt_OtherDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "Tomb of Sargeras",
 						["difficulties"] = {
 						},
+						["instance"] = "Tomb of Sargeras",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -21384,9 +21384,9 @@ MogIt_OtherDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Pandaria",
 						["difficulties"] = {
 						},
+						["instance"] = "Pandaria",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -21465,9 +21465,9 @@ MogIt_OtherDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Pandaria",
 						["difficulties"] = {
 						},
+						["instance"] = "Pandaria",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -23052,9 +23052,9 @@ MogIt_OtherDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "Antorus, the Burning Throne",
 						["difficulties"] = {
 						},
+						["instance"] = "Antorus, the Burning Throne",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -24019,10 +24019,10 @@ MogIt_OtherDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -24037,10 +24037,10 @@ MogIt_OtherDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -24140,9 +24140,9 @@ MogIt_OtherDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "The Nighthold",
 						["difficulties"] = {
 						},
+						["instance"] = "The Nighthold",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -24925,9 +24925,9 @@ MogIt_OtherDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "Antorus, the Burning Throne",
 						["difficulties"] = {
 						},
+						["instance"] = "Antorus, the Burning Throne",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -25222,9 +25222,9 @@ MogIt_OtherDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "Antorus, the Burning Throne",
 						["difficulties"] = {
 						},
+						["instance"] = "Antorus, the Burning Throne",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -26354,9 +26354,9 @@ MogIt_OtherDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "The Nighthold",
 						["difficulties"] = {
 						},
+						["instance"] = "The Nighthold",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -26591,9 +26591,9 @@ MogIt_OtherDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "Antorus, the Burning Throne",
 						["difficulties"] = {
 						},
+						["instance"] = "Antorus, the Burning Throne",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -31396,10 +31396,10 @@ MogIt_OtherDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -31414,10 +31414,10 @@ MogIt_OtherDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -31434,10 +31434,10 @@ MogIt_OtherDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -31452,10 +31452,10 @@ MogIt_OtherDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -31730,9 +31730,9 @@ MogIt_OtherDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "The Nighthold",
 						["difficulties"] = {
 						},
+						["instance"] = "The Nighthold",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -35868,9 +35868,9 @@ MogIt_OtherDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "Tomb of Sargeras",
 						["difficulties"] = {
 						},
+						["instance"] = "Tomb of Sargeras",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -36050,9 +36050,9 @@ MogIt_OtherDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "Tomb of Sargeras",
 						["difficulties"] = {
 						},
+						["instance"] = "Tomb of Sargeras",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -38557,9 +38557,9 @@ MogIt_OtherDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "The Nighthold",
 						["difficulties"] = {
 						},
+						["instance"] = "The Nighthold",
 					}, -- [1]
 				},
 			},
@@ -42445,10 +42445,10 @@ MogIt_OtherDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -42481,10 +42481,10 @@ MogIt_OtherDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 2,
@@ -42688,9 +42688,9 @@ MogIt_OtherDB = {
 						["tiers"] = {
 							"Legion", -- [1]
 						},
-						["instance"] = "Tomb of Sargeras",
 						["difficulties"] = {
 						},
+						["instance"] = "Tomb of Sargeras",
 					}, -- [1]
 				},
 				["faction"] = 3,

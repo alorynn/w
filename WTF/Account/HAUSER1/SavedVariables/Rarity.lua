@@ -142,8 +142,10 @@ RarityDB = {
 					["Shadowy Pile of Bones"] = {
 						["attempts"] = 4,
 					},
-					["Cinderweb Egg"] = {
-						["attempts"] = 9,
+					["Direhorn Runt"] = {
+						["enabled"] = false,
+						["known"] = true,
+						["found"] = true,
 					},
 					["Scuttle"] = {
 						["dates"] = {
@@ -156,8 +158,8 @@ RarityDB = {
 						},
 						["attempts"] = 14,
 					},
-					["Gooey Sha-ling"] = {
-						["attempts"] = 1,
+					["Wriggling Darkness"] = {
+						["attempts"] = 3,
 					},
 					["Breezy Essence"] = {
 						["attempts"] = 3,
@@ -178,15 +180,13 @@ RarityDB = {
 						},
 						["attempts"] = 14,
 					},
-					["Toxic Wasteling"] = {
-						["known"] = true,
+					["Blighted Spore"] = {
 						["enabled"] = false,
+						["known"] = true,
 						["found"] = true,
 					},
-					["Direhorn Runt"] = {
-						["enabled"] = false,
-						["known"] = true,
-						["found"] = true,
+					["Cinderweb Egg"] = {
+						["attempts"] = 9,
 					},
 					["Vibrating Stone"] = {
 						["attempts"] = 9,
@@ -212,16 +212,10 @@ RarityDB = {
 						},
 						["attempts"] = 14,
 					},
-					["Barnaby"] = {
-						["dates"] = {
-							[20180908] = {
-								["attempts"] = 7,
-							},
-							[20180911] = {
-								["attempts"] = 7,
-							},
-						},
-						["attempts"] = 14,
+					["Unscathed Egg"] = {
+						["enabled"] = false,
+						["known"] = true,
+						["found"] = true,
 					},
 					["Blackfuse Bombling"] = {
 						["attempts"] = 1,
@@ -245,8 +239,10 @@ RarityDB = {
 					["Drudge Remains"] = {
 						["attempts"] = 5,
 					},
-					["Overcomplicated Controller"] = {
-						["attempts"] = 4,
+					["Gluth's Bone"] = {
+						["enabled"] = false,
+						["known"] = true,
+						["found"] = true,
 					},
 					["Octopode Fry"] = {
 						["dates"] = {
@@ -264,8 +260,16 @@ RarityDB = {
 						["known"] = true,
 						["found"] = true,
 					},
-					["Wriggling Darkness"] = {
-						["attempts"] = 3,
+					["Juvenile Brineshell"] = {
+						["dates"] = {
+							[20180908] = {
+								["attempts"] = 7,
+							},
+							[20180911] = {
+								["attempts"] = 7,
+							},
+						},
+						["attempts"] = 14,
 					},
 					["Severed Tentacle"] = {
 						["attempts"] = 4,
@@ -386,16 +390,10 @@ RarityDB = {
 						},
 						["attempts"] = 14,
 					},
-					["Deathsting Scorpid"] = {
-						["dates"] = {
-							[20180908] = {
-								["attempts"] = 7,
-							},
-							[20180911] = {
-								["attempts"] = 7,
-							},
-						},
-						["attempts"] = 14,
+					["Toxic Wasteling"] = {
+						["known"] = true,
+						["enabled"] = false,
+						["found"] = true,
 					},
 					["Ominous Pile of Snow"] = {
 						["attempts"] = 6,
@@ -482,16 +480,8 @@ RarityDB = {
 						},
 						["attempts"] = 14,
 					},
-					["Bloodstone Tunneler"] = {
-						["dates"] = {
-							[20180908] = {
-								["attempts"] = 7,
-							},
-							[20180911] = {
-								["attempts"] = 7,
-							},
-						},
-						["attempts"] = 14,
+					["Overcomplicated Controller"] = {
+						["attempts"] = 4,
 					},
 					["Orphaned Felbat"] = {
 						["enabled"] = false,
@@ -514,15 +504,10 @@ RarityDB = {
 						},
 						["attempts"] = 14,
 					},
-					["Knockoff Blingtron"] = {
-						["time"] = 1,
-						["dates"] = {
-							[20180824] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-						},
-						["attempts"] = 1,
+					["Aldrusian Sproutling"] = {
+						["known"] = true,
+						["enabled"] = false,
+						["found"] = true,
 					},
 					["Sandshell Chitterer"] = {
 						["dates"] = {
@@ -543,20 +528,10 @@ RarityDB = {
 					["Call of the Frozen Blade"] = {
 						["attempts"] = 2,
 					},
-					["Gluth's Bone"] = {
-						["enabled"] = false,
-						["known"] = true,
-						["found"] = true,
+					["Gooey Sha-ling"] = {
+						["attempts"] = 1,
 					},
-					["Blazing Rune"] = {
-						["enabled"] = false,
-						["known"] = true,
-						["found"] = true,
-					},
-					["Remains of a Blood Beast"] = {
-						["attempts"] = 9,
-					},
-					["Sparkleshell Sandcrawler"] = {
+					["Barnaby"] = {
 						["dates"] = {
 							[20180908] = {
 								["attempts"] = 7,
@@ -567,12 +542,25 @@ RarityDB = {
 						},
 						["attempts"] = 14,
 					},
-					["Aldrusian Sproutling"] = {
-						["known"] = true,
+					["Remains of a Blood Beast"] = {
+						["attempts"] = 9,
+					},
+					["Blazing Rune"] = {
 						["enabled"] = false,
+						["known"] = true,
 						["found"] = true,
 					},
-					["Juvenile Brineshell"] = {
+					["Knockoff Blingtron"] = {
+						["time"] = 1,
+						["dates"] = {
+							[20180824] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+						},
+						["attempts"] = 1,
+					},
+					["Sparkleshell Sandcrawler"] = {
 						["dates"] = {
 							[20180908] = {
 								["attempts"] = 7,
@@ -588,6 +576,17 @@ RarityDB = {
 						["enabled"] = false,
 						["found"] = true,
 					},
+					["Bloodstone Tunneler"] = {
+						["dates"] = {
+							[20180908] = {
+								["attempts"] = 7,
+							},
+							[20180911] = {
+								["attempts"] = 7,
+							},
+						},
+						["attempts"] = 14,
+					},
 					["Coldlight Surfrunner"] = {
 						["dates"] = {
 							[20180908] = {
@@ -599,15 +598,16 @@ RarityDB = {
 						},
 						["attempts"] = 14,
 					},
-					["Unscathed Egg"] = {
-						["enabled"] = false,
-						["known"] = true,
-						["found"] = true,
-					},
-					["Blighted Spore"] = {
-						["enabled"] = false,
-						["known"] = true,
-						["found"] = true,
+					["Deathsting Scorpid"] = {
+						["dates"] = {
+							[20180908] = {
+								["attempts"] = 7,
+							},
+							[20180911] = {
+								["attempts"] = 7,
+							},
+						},
+						["attempts"] = 14,
 					},
 				},
 				["mounts"] = {

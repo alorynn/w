@@ -1499,10 +1499,15 @@ MogIt_TwoHandedDB = {
 				},
 			},
 		},
-		[14056] = {
-			[29738] = {
+		[13291] = {
+			[26911] = {
 				["classes"] = 102,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
+				["faction"] = 3,
+			},
+			[26917] = {
+				["classes"] = 102,
+				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
@@ -1633,23 +1638,11 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 		},
-		[21163] = {
-			[61912] = {
+		[18358] = {
+			[47721] = {
 				["classes"] = 102,
-				["sourceType"] = 1,
+				["sourceType"] = 3,
 				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Garrosh Hellscream",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["difficulties"] = {
-						},
-						["instance"] = "Siege of Orgrimmar",
-					}, -- [1]
-				},
 			},
 		},
 		[7039] = {
@@ -1744,11 +1737,23 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 		},
-		[18358] = {
-			[47721] = {
+		[21163] = {
+			[61912] = {
 				["classes"] = 102,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
 				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Garrosh Hellscream",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Siege of Orgrimmar",
+					}, -- [1]
+				},
 			},
 		},
 		[13293] = {
@@ -3036,15 +3041,10 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 		},
-		[13291] = {
-			[26911] = {
+		[14056] = {
+			[29738] = {
 				["classes"] = 102,
-				["sourceType"] = 4,
-				["faction"] = 3,
-			},
-			[26917] = {
-				["classes"] = 102,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
@@ -22146,27 +22146,30 @@ MogIt_TwoHandedDB = {
 				},
 			},
 		},
-		[36376] = {
-			[95373] = {
+		[10133] = {
+			[18860] = {
 				["classes"] = 1492,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
 				["faction"] = 3,
-			},
-			[94868] = {
-				["classes"] = 1152,
-				["sourceType"] = 2,
-				["faction"] = 2,
-			},
-			[96069] = {
-				["classes"] = 1152,
-				["sourceType"] = 2,
-				["faction"] = 2,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Kel'Thuzad",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+						},
+						["instance"] = "Naxxramas",
+					}, -- [1]
+				},
 			},
 		},
-		[17181] = {
-			[40218] = {
+		[6605] = {
+			[10173] = {
 				["classes"] = 1492,
-				["sourceType"] = 6,
+				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
@@ -23366,31 +23369,28 @@ MogIt_TwoHandedDB = {
 				},
 			},
 		},
-		[6605] = {
-			[10173] = {
+		[17181] = {
+			[40218] = {
+				["classes"] = 1492,
+				["sourceType"] = 6,
+				["faction"] = 3,
+			},
+		},
+		[36376] = {
+			[95373] = {
 				["classes"] = 1492,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
-		},
-		[10133] = {
-			[18860] = {
-				["classes"] = 1492,
-				["sourceType"] = 1,
-				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Kel'Thuzad",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-						},
-						["instance"] = "Naxxramas",
-					}, -- [1]
-				},
+			[94868] = {
+				["classes"] = 1152,
+				["sourceType"] = 2,
+				["faction"] = 2,
+			},
+			[96069] = {
+				["classes"] = 1152,
+				["sourceType"] = 2,
+				["faction"] = 2,
 			},
 		},
 		[11756] = {
