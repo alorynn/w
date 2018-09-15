@@ -50,9 +50,9 @@ MogItDB = {
 				{
 					["y"] = 0,
 					["x"] = 0,
-					["point"] = "TOPRIGHT",
-					["w"] = 1290.83264160156,
-					["h"] = 1200,
+					["point"] = "BOTTOMRIGHT",
+					["w"] = 723.333374023438,
+					["h"] = 1199.16662597656,
 				}, -- [1]
 				{
 					["y"] = -0.833448886871338,
@@ -67,8 +67,8 @@ MogItDB = {
 					["h"] = 384.999938964844,
 				}, -- [3]
 			},
-			["gridHeight"] = 1200,
-			["x"] = -99.8325958251953,
+			["gridHeight"] = 1190.83337402344,
+			["x"] = 0,
 			["slotLabels"] = {
 				["Waist"] = "Waist",
 				["Fist"] = "Fist Weapons",
@@ -105,8 +105,8 @@ MogItDB = {
 				["hide"] = true,
 			},
 			["gridDress"] = "equipped",
-			["point"] = "TOP",
-			["gridWidth"] = 1645.33532714844,
+			["point"] = "TOPLEFT",
+			["gridWidth"] = 2131.66674804688,
 			["sync"] = false,
 			["y"] = 0,
 		},
@@ -402,9 +402,9 @@ MogItWishlist = {
 						["FeetSlot"] = "item:129579:0::::::::::0:1:3524",
 						["BackSlot"] = "item:134111:0",
 						["HeadSlot"] = "item:5753:0::::::::::0:1:3524",
+						["WaistSlot"] = "item:4249:0::::::::::0:1:3524",
 						["HandsSlot"] = "item:26022:0::::::::::0:1:3524",
 						["LegsSlot"] = "item:15065:0::::::::::0:1:3524",
-						["WaistSlot"] = "item:4249:0::::::::::0:1:3524",
 					},
 					["name"] = "Barbarian Feral",
 					["alternateItems"] = {
@@ -457,10 +457,10 @@ MogItWishlist = {
 					["items"] = {
 						["ChestSlot"] = "item:14966:0",
 						["FeetSlot"] = "item:14972:0",
-						["HandsSlot"] = "item:14967:0",
 						["WaistSlot"] = "item:34651:0",
-						["MainHandSlot"] = "item:58993:0",
 						["LegsSlot"] = "item:14970:0",
+						["MainHandSlot"] = "item:58993:0",
+						["HandsSlot"] = "item:14967:0",
 					},
 					["name"] = "sexy",
 					["alternateItems"] = {
@@ -493,7 +493,7 @@ MogItWishlist = {
 						["HandsSlot"] = "item:163437:0::::::::::3:1:0",
 						["WaistSlot"] = "item:161512:0::::::::::0:1:3524",
 						["LegsSlot"] = "item:163298:0::::::::::6:1:0",
-						["BackSlot"] = "item:163360:0::::::::::3:1:0",
+						["BackSlot"] = "item:155884:0::::::::::16:1:3524",
 					},
 					["name"] = "warfront tier 1",
 					["alternateItems"] = {
@@ -533,11 +533,11 @@ MogItWishlist = {
 					["items"] = {
 						["ChestSlot"] = "item:14966:0",
 						["FeetSlot"] = "item:14972:0",
-						["WaistSlot"] = "item:34651:0",
-						["ShoulderSlot"] = "item:25020:0",
 						["HandsSlot"] = "item:14967:0",
-						["MainHandSlot"] = "item:58993:0",
+						["ShoulderSlot"] = "item:25020:0",
 						["LegsSlot"] = "item:14970:0",
+						["MainHandSlot"] = "item:58993:0",
+						["WaistSlot"] = "item:34651:0",
 					},
 					["name"] = "sexy",
 					["alternateItems"] = {
@@ -547,11 +547,11 @@ MogItWishlist = {
 					["items"] = {
 						["ChestSlot"] = "item:14966:0",
 						["FeetSlot"] = "item:14972:0",
-						["WaistSlot"] = "item:34651:0",
-						["ShoulderSlot"] = "item:25020:0",
 						["HandsSlot"] = "item:14967:0",
-						["MainHandSlot"] = "item:58993:0",
+						["ShoulderSlot"] = "item:25020:0",
 						["LegsSlot"] = "item:14970:0",
+						["MainHandSlot"] = "item:58993:0",
+						["WaistSlot"] = "item:34651:0",
 					},
 					["name"] = "sexy 2",
 					["alternateItems"] = {
@@ -561,10 +561,10 @@ MogItWishlist = {
 					["items"] = {
 						["ChestSlot"] = "item:14966:0",
 						["FeetSlot"] = "item:14972:0",
-						["HandsSlot"] = "item:14967:0",
 						["LegsSlot"] = "item:14970:0",
-						["MainHandSlot"] = "item:58993:0",
 						["WaistSlot"] = "item:34651:0",
+						["MainHandSlot"] = "item:58993:0",
+						["HandsSlot"] = "item:14967:0",
 					},
 					["name"] = "sexy 3",
 					["alternateItems"] = {
@@ -596,10 +596,10 @@ MogItWishlist = {
 						["ChestSlot"] = "item:115878:0",
 						["ShoulderSlot"] = "item:115879:0",
 						["FeetSlot"] = "item:115827:0",
-						["WaistSlot"] = "item:115824:0",
-						["HeadSlot"] = "item:115876:0",
 						["LegsSlot"] = "item:115877:0",
+						["HeadSlot"] = "item:115876:0",
 						["HandsSlot"] = "item:115875:0",
+						["WaistSlot"] = "item:115824:0",
 						["WristSlot"] = "item:115628:0",
 					},
 					["name"] = "season 1 elite",
