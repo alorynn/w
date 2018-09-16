@@ -6,6 +6,12 @@ MacroToolkitDB = {
 			},
 		},
 	},
+	["global"] = {
+		["ebackups"] = {
+		},
+		["backups"] = {
+		},
+	},
 	["profileKeys"] = {
 		["Fooliolio - Kel'Thuzad"] = "profile",
 		["Laurranah - Kel'Thuzad"] = "profile",
@@ -15,24 +21,18 @@ MacroToolkitDB = {
 		["Nigellah - Kel'Thuzad"] = "profile",
 		["Alorannah - Kel'Thuzad"] = "profile",
 		["Loranah - Kel'Thuzad"] = "profile",
-		["Kmkarbashian - Kel'Thuzad"] = "profile",
-		["Foolioioio - Kel'Thuzad"] = "profile",
+		["Shamwowow - Kel'Thuzad"] = "profile",
+		["Blahndee - Kel'Thuzad"] = "profile",
 		["Testfoolio - Kel'Thuzad"] = "profile",
 		["Alisheeya - Kel'Thuzad"] = "profile",
-		["Hauzerina - Kel'Thuzad"] = "profile",
 		["Lorranah - Kel'Thuzad"] = "profile",
-		["Alauranna - Kel'Thuzad"] = "profile",
 		["Darknstormie - Kel'Thuzad"] = "profile",
+		["Alauranna - Kel'Thuzad"] = "profile",
+		["Hauzerina - Kel'Thuzad"] = "profile",
 		["Hauzer - Kel'Thuzad"] = "profile",
 		["Rogueout - Kel'Thuzad"] = "profile",
-		["Blahndee - Kel'Thuzad"] = "profile",
-		["Shamwowow - Kel'Thuzad"] = "profile",
-	},
-	["global"] = {
-		["backups"] = {
-		},
-		["ebackups"] = {
-		},
+		["Foolioioio - Kel'Thuzad"] = "profile",
+		["Kmkarbashian - Kel'Thuzad"] = "profile",
 	},
 	["profiles"] = {
 		["profile"] = {
