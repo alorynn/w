@@ -25,8 +25,11 @@ DejaCharacterStatsDB = {
 		["dejacharacterstatsShowDuraTextureChecked"] = {
 			["ShowDuraTextureSetChecked"] = true,
 		},
-		["dejacharacterstatsDCSZeroChecked"] = {
-			["SetChecked"] = false,
+		["dejacharacterstatsHideMasteryChecked"] = {
+			["SetChecked"] = true,
+		},
+		["dejacharacterstatsShowItemLevelChecked"] = {
+			["ShowItemLevelSetChecked"] = true,
 		},
 		["dejacharacterstatsClassBackgroundChecked"] = {
 			["ClassBackgroundChecked"] = true,
@@ -37,8 +40,8 @@ DejaCharacterStatsDB = {
 		["dejacharacterstatsExpandChecked"] = {
 			["ExpandSetChecked"] = true,
 		},
-		["dejacharacterstatsShowItemLevelChecked"] = {
-			["ShowItemLevelSetChecked"] = true,
+		["dejacharacterstatsDCSZeroChecked"] = {
+			["SetChecked"] = false,
 		},
 		["dejacharacterstatsScrollbarChecked"] = {
 			["ScrollbarSetChecked"] = false,
