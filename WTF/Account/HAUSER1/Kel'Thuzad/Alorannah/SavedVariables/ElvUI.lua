@@ -1,1436 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/1 oh shit |cffa335ee|Hitem:163706::::::::120:261::::::|h[Witherbark Direwing]|h|r", -- [1]
-		"/1 3 mounts in 30 minutes, there goes my  RNG for the entire xpac", -- [2]
-		"/s spawn dammit", -- [3]
-		"/1 238 ms here", -- [4]
-		"/1 usually more like 20", -- [5]
-		"/1 anyone seen ragebeak? I dont see him where my map says hes supposed to be", -- [6]
-		"/1 tonight's haul |cff0070dd|Hitem:163750::::::::120:261::::::|h[Kovork Kostume]|h|r|cff0070dd|Hitem:163736::::::::120:261::::::|h[Spectral Visage]|h|r|cffa335ee|Hitem:163645::::::::120:261::::::|h[Skullripper]|h|r|cffa335ee|Hitem:163644::::::::120:261::::::|h[Swift Albino Raptor]|h|r|cffa335ee|Hitem:163706::::::::120:261::::::|h[Witherbark Direwing]|h|r", -- [7]
-		"/1 and a bunch of 340 I already had", -- [8]
-		"/1 ya my RNG for this xpac is used up now", -- [9]
-		"/1 has anyone seen ragebeak tonight?", -- [10]
-		"/1 if anyone sees ragebeak pls holler", -- [11]
-		"/1 where at?", -- [12]
-		"/1 oh way off my map coords", -- [13]
-		"/1 ty", -- [14]
-		"/dance", -- [15]
-		"/mogit", -- [16]
-		"/i how did a hunter die from this", -- [17]
-		"/i ranged you gotta catch those orbs", -- [18]
-		"/cw Nhinjax-Ragnaros no worries, grats!", -- [19]
-		"/flirt", -- [20]
+		"/i thanks blizz", -- [1]
+		"/lol", -- [2]
+		"/i nice mog", -- [3]
+		"/i pls can we go somewhere else", -- [4]
+		"/i I'll follow you pally", -- [5]
+		"/i bunch of shit north of us", -- [6]
+		"/i guys we aernt getting shit for azerite doing this", -- [7]
+		"/i lets go get some and finish this", -- [8]
+		"/i dont fight in shit like that", -- [9]
+		"/i need to be able to see the AOEs on the ground", -- [10]
+		"/i come to me", -- [11]
+		"/i lets group and get this over with", -- [12]
+		"/i pls come here", -- [13]
+		"/i can we group up", -- [14]
+		"/i dude ", -- [15]
+		"/i just come with me", -- [16]
+		"/i hes fgonna do his own thing", -- [17]
+		"/i let me cc", -- [18]
+		"/i Ill follow you guys", -- [19]
+		"/cast armored bloodwing", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"ty", -- [1]
-			"Hotastronaut-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Hotastronaut", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			16, -- [11]
-			"Player-3693-09F49625", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa330c9Hotastronaut|r",
-			[51] = 1537060185,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [1]
-		{
-			"for sure haha", -- [1]
-			"Hotastronaut-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Hotastronaut", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			17, -- [11]
-			"Player-3693-09F49625", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa330c9Hotastronaut|r",
-			[51] = 1537060195,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [2]
-		{
-			"ignore nazara, bugged", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"1. General - Vol'dun", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Vol'dun", -- [9]
-			0, -- [10]
-			27, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537060345,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"WTB |cffffffff|Hitem:152875::::::::120:102::::::|h[Gloom Dust]|h|r / |cff0070dd|Hitem:152876::::::::120:102::::::|h[Umbra Shard]|h|r PST", -- [1]
-			"Pawsitive-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Pawsitive", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			314, -- [11]
-			"Player-3693-0984B312", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aPawsitive|r",
-			[51] = 1537071496,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"WTB |cffffffff|Hitem:152875::::::::120:102::::::|h[Gloom Dust]|h|r / |cff0070dd|Hitem:152876::::::::120:102::::::|h[Umbra Shard]|h|r PST", -- [1]
-			"Pawsitive-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Pawsitive", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			315, -- [11]
-			"Player-3693-0984B312", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aPawsitive|r",
-			[51] = 1537071496,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
-			"500G FOR GUILD CHARTER SIGS", -- [1]
-			"Slaynerds-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Slaynerds", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			474, -- [11]
-			"Player-3693-09FDD8D1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Slaynerds|r",
-			[51] = 1537071946,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
-		{
-			"WTB |cffffffff|Hitem:152875::::::::120:102::::::|h[Gloom Dust]|h|r / |cff0070dd|Hitem:152876::::::::120:102::::::|h[Umbra Shard]|h|r PST", -- [1]
-			"Pawsitive-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Pawsitive", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			476, -- [11]
-			"Player-3693-0984B312", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aPawsitive|r",
-			[51] = 1537071979,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
-		{
-			"WTB |cffffffff|Hitem:152875::::::::120:102::::::|h[Gloom Dust]|h|r / |cff0070dd|Hitem:152876::::::::120:102::::::|h[Umbra Shard]|h|r PST", -- [1]
-			"Pawsitive-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Pawsitive", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			477, -- [11]
-			"Player-3693-0984B312", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aPawsitive|r",
-			[51] = 1537071979,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
-		{
-			"heya", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			16, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537114828,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [9]
-		{
-			"lemme knwo when done", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			46, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537115046,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [10]
-		{
-			"run", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			53, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537115087,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [11]
-		{
-			"ok Im out lol", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			54, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537115163,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [12]
-		{
-			"gl", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			55, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537115164,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [13]
-		{
-			"holy shit these WQs are fucking aids today", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"1. General - Tiragarde Sound", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Tiragarde Sound", -- [9]
-			0, -- [10]
-			84, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537115665,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
-		{
-			"and this zone's constant 500ms lag makes it even more enjoyable", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"1. General - Tiragarde Sound", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Tiragarde Sound", -- [9]
-			0, -- [10]
-			85, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537115689,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
-		{
-			"heya", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			231, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537117612,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [16]
-		{
-			"heyo", -- [1]
-			"Jentralwolf-Garona", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Jentralwolf-Garona", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			232, -- [11]
-			"Player-51-033300A5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaJentralwolf-Garona|r",
-			[51] = 1537117618,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [17]
-		{
-			"ty", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			241, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537117683,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [18]
-		{
-			"I’ve completed the |cffffff00|Hquest:52199:-1:120:120:0|h[Rum- Paaaage!]|h|r WQ. Thanks for your help! (World Quest Party)", -- [1]
-			"Jentralwolf-Garona", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Jentralwolf-Garona", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			243, -- [11]
-			"Player-51-033300A5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaJentralwolf-Garona|r",
-			[51] = 1537117688,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [19]
-		{
-			"LFM burning goliath", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"1. General - Arathi Highlands", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Arathi Highlands", -- [9]
-			0, -- [10]
-			153, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537176062,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
-		{
-			"sick pets ", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			195, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537176795,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [21]
-		{
-			"lol @ not having an auto-flyable detect mount macro", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"1. General - Arathi Highlands", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Arathi Highlands", -- [9]
-			0, -- [10]
-			335, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537177673,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
-		{
-			"LFM branchlord @ 23 20", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"1. General - Arathi Highlands", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Arathi Highlands", -- [9]
-			0, -- [10]
-			339, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537177789,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
-		{
-			"gonna go around killing every rare in the zone if people wanna group", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"1. General - Arathi Highlands", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Arathi Highlands", -- [9]
-			0, -- [10]
-			340, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537177813,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
-		{
-			"hi mate, can i come?", -- [1]
-			"Tenad-Dath'Remar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Tenad-Dath'Remar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			343, -- [11]
-			"Player-3726-0AADC899", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aTenad-Dath'Remar|r",
-			[51] = 1537177865,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [25]
-		{
-			"ya come on over 23 20", -- [1]
-			"Tenad-Dath'Remar", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Tenad-Dath'Remar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			346, -- [11]
-			"Player-3726-0AADC899", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aTenad-Dath'Remar|r",
-			[51] = 1537177876,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [26]
-		{
-			"cheers", -- [1]
-			"Tenad-Dath'Remar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Tenad-Dath'Remar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			347, -- [11]
-			"Player-3726-0AADC899", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aTenad-Dath'Remar|r",
-			[51] = 1537177930,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [27]
-		{
-			"oh shit |cffa335ee|Hitem:163645::::::::120:261::::::|h[Skullripper]|h|r", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"1. General - Arathi Highlands", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Arathi Highlands", -- [9]
-			0, -- [10]
-			462, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537179088,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
-		{
-			"oh shit |cffa335ee|Hitem:163644::::::::120:261::::::|h[Swift Albino Raptor]|h|r", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"1. General - Arathi Highlands", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Arathi Highlands", -- [9]
-			0, -- [10]
-			503, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537179700,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
-		{
-			"oh shit |cffa335ee|Hitem:163706::::::::120:261::::::|h[Witherbark Direwing]|h|r", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"1. General - Arathi Highlands", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Arathi Highlands", -- [9]
-			0, -- [10]
-			513, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537179751,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
-		{
-			"3 mounts in 30 minutes, there goes my  RNG for the entire xpac", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"1. General - Arathi Highlands", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Arathi Highlands", -- [9]
-			0, -- [10]
-			515, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537179769,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
-		{
-			"spawn dammit", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			526, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537180027,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [32]
-		{
-			"238 ms here", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"1. General - Arathi Highlands", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Arathi Highlands", -- [9]
-			0, -- [10]
-			624, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537180959,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
-		{
-			"usually more like 20", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"1. General - Arathi Highlands", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Arathi Highlands", -- [9]
-			0, -- [10]
-			626, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537180968,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
-		{
-			"anyone seen ragebeak? I dont see him where my map says hes supposed to be", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"1. General - Arathi Highlands", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Arathi Highlands", -- [9]
-			0, -- [10]
-			629, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537180991,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
-		{
-			"tonight's haul |cff0070dd|Hitem:163750::::::::120:261::::::|h[Kovork Kostume]|h|r|cff0070dd|Hitem:163736::::::::120:261::::::|h[Spectral Visage]|h|r|cffa335ee|Hitem:163645::::::::120:261::::::|h[Skullripper]|h|r|cffa335ee|Hitem:163644::::::::120:261::::::|h[Swift Albino Raptor]|h|r|cffa335ee|Hitem:163706::::::::120:261::::::|h[Witherbark Direwing]|h|r", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"1. General - Arathi Highlands", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Arathi Highlands", -- [9]
-			0, -- [10]
-			647, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537181104,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
-		{
-			"and a bunch of 340 I already had", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"1. General - Arathi Highlands", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Arathi Highlands", -- [9]
-			0, -- [10]
-			650, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537181129,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
-		{
-			"ya my RNG for this xpac is used up now", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"1. General - Arathi Highlands", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Arathi Highlands", -- [9]
-			0, -- [10]
-			652, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537181140,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
-		{
-			"has anyone seen ragebeak tonight?", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"1. General - Arathi Highlands", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Arathi Highlands", -- [9]
-			0, -- [10]
-			657, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537181245,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
-		{
-			"if anyone sees ragebeak pls holler", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"1. General - Arathi Highlands", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Arathi Highlands", -- [9]
-			0, -- [10]
-			663, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537181342,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
-		{
-			"where at?", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"1. General - Arathi Highlands", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Arathi Highlands", -- [9]
-			0, -- [10]
-			665, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537181363,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
-		{
-			"oh way off my map coords", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"1. General - Arathi Highlands", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Arathi Highlands", -- [9]
-			0, -- [10]
-			669, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537181388,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
-		{
-			"ty", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"1. General - Arathi Highlands", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Arathi Highlands", -- [9]
-			0, -- [10]
-			670, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537181407,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
-		{
-			"|cffffff00The Sliver is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Zuldazar", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Zuldazar", -- [9]
-			0, -- [10]
-			40, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1537185317,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
-		{
-			"|cffffff00The Sliver is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Zuldazar", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Zuldazar", -- [9]
-			0, -- [10]
-			1, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1537210894,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
-		{
-			"|cffffff00The Sliver is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Zuldazar", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Zuldazar", -- [9]
-			0, -- [10]
-			324, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1537214648,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
-		{
-			"anyone need |cffa335ee|Hitem:160631::::::::120:263::4:3:4801:1462:4786:::|h[Legguards of Coalescing Plasma]|h|r", -- [1]
-			"Vulpestique-WyrmrestAccord", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vulpestique-WyrmrestAccord", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			342, -- [11]
-			"Player-1171-08854505", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff0070ddVulpestique-WyrmrestAccord|r",
-			[51] = 1537214795,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [47]
-		{
-			"more go through.", -- [1]
-			"Noctisque-WyrmrestAccord", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Noctisque-WyrmrestAccord", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			376, -- [11]
-			"Player-1171-0885456F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aNoctisque-WyrmrestAccord|r",
-			[51] = 1537214961,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [48]
-		{
-			"if you guys dont leave that room in 30 energy u die", -- [1]
-			"Kazarkazar-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kazarkazar-Tichondrius", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			379, -- [11]
-			"Player-11-0AA6FA43", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Kazarkazar-Tichondrius|r",
-			[51] = 1537214979,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [49]
-		{
-			"transition into the next room", -- [1]
-			"Kazarkazar-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kazarkazar-Tichondrius", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			392, -- [11]
-			"Player-11-0AA6FA43", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Kazarkazar-Tichondrius|r",
-			[51] = 1537215062,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [50]
-		{
-			"slowly", -- [1]
-			"Kazarkazar-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kazarkazar-Tichondrius", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			393, -- [11]
-			"Player-11-0AA6FA43", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Kazarkazar-Tichondrius|r",
-			[51] = 1537215066,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [51]
-		{
-			"she takes 100% more dmg in the third chamber", -- [1]
-			"Kazarkazar-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kazarkazar-Tichondrius", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			396, -- [11]
-			"Player-11-0AA6FA43", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Kazarkazar-Tichondrius|r",
-			[51] = 1537215075,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [52]
-		{
-			"Dirken we can see you can reincarn", -- [1]
-			"Noctisque-WyrmrestAccord", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Noctisque-WyrmrestAccord", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			405, -- [11]
-			"Player-1171-0885456F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aNoctisque-WyrmrestAccord|r",
-			[51] = 1537215116,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [53]
-		{
-			"dont just sit there", -- [1]
-			"Noctisque-WyrmrestAccord", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Noctisque-WyrmrestAccord", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			406, -- [11]
-			"Player-1171-0885456F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aNoctisque-WyrmrestAccord|r",
-			[51] = 1537215119,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [54]
-		{
-			"go full dps", -- [1]
-			"Elizabèt-Ragnaros", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Elizabèt-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			408, -- [11]
-			"Player-1427-09DE3492", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aElizabèt-Ragnaros|r",
-			[51] = 1537215124,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [55]
-		{
-			"hold on", -- [1]
-			"Dirkenstein-Mok'Nathal", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Dirkenstein-Mok'Nathal", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			412, -- [11]
-			"Player-86-082913D3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff0070ddDirkenstein-Mok'Nathal|r",
-			[51] = 1537215141,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [56]
-		{
-			"85 ENERGY", -- [1]
-			"Kazarkazar-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kazarkazar-Tichondrius", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			415, -- [11]
-			"Player-11-0AA6FA43", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Kazarkazar-Tichondrius|r",
-			[51] = 1537215155,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [57]
-		{
-			"LOL", -- [1]
-			"Dexiji-KirinTor", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Dexiji-KirinTor", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			423, -- [11]
-			"Player-1071-01E69A81", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Dexiji-KirinTor|r",
-			[51] = 1537215186,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [58]
-		{
-			"omg", -- [1]
-			"Elizabèt-Ragnaros", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Elizabèt-Ragnaros", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			424, -- [11]
-			"Player-1427-09DE3492", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aElizabèt-Ragnaros|r",
-			[51] = 1537215188,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [59]
-		{
-			"lol wow", -- [1]
-			"Deadspin-Darkspear", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Deadspin-Darkspear", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			425, -- [11]
-			"Player-120-063E3699", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dDeadspin-Darkspear|r",
-			[51] = 1537215189,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [60]
-		{
-			"fun to watch", -- [1]
-			"Kazarkazar-Tichondrius", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Kazarkazar-Tichondrius", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			427, -- [11]
-			"Player-11-0AA6FA43", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Kazarkazar-Tichondrius|r",
-			[51] = 1537215192,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [61]
-		{
-			"nice", -- [1]
-			"Dirkenstein-Mok'Nathal", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Dirkenstein-Mok'Nathal", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			432, -- [11]
-			"Player-86-082913D3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff0070ddDirkenstein-Mok'Nathal|r",
-			[51] = 1537215196,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [62]
-		{
-			"we just needed to kill the boss...", -- [1]
-			"Tpöl-Azralon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Tpöl-Azralon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			433, -- [11]
-			"Player-3209-094EC374", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00ff96Tpöl-Azralon|r",
-			[51] = 1537215197,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [63]
-		{
-			"are u new to wow?", -- [1]
-			"Dexiji-KirinTor", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Dexiji-KirinTor", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			434, -- [11]
-			"Player-1071-01E69A81", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Dexiji-KirinTor|r",
-			[51] = 1537215197,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [64]
 		{
 			"NOICE", -- [1]
 			"Deadspin-Darkspear", -- [2]
@@ -1452,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dDeadspin-Darkspear|r",
 			[51] = 1537215200,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [65]
+		}, -- [1]
 		{
 			"get the fuk to chamber 3 faster", -- [1]
 			"Dexiji-KirinTor", -- [2]
@@ -1474,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Dexiji-KirinTor|r",
 			[51] = 1537215205,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [66]
+		}, -- [2]
 		{
 			"Literally have to force everyone through. jesus learn to move.", -- [1]
 			"Noctisque-WyrmrestAccord", -- [2]
@@ -1496,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aNoctisque-WyrmrestAccord|r",
 			[51] = 1537215208,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [67]
+		}, -- [3]
 		{
 			"May I please have |cffa335ee|Hitem:160645::::::::120:261::4:3:4801:1462:4786:::|h[Rot-Scour Ring]|h|r if you don't need it?", -- [1]
 			"Kortazz-Quel'dorei", -- [2]
@@ -1518,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Kortazz-Quel'dorei|r",
 			[51] = 1537215235,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [68]
+		}, -- [4]
 		{
 			"mage buff plz", -- [1]
 			"Dirkenstein-Mok'Nathal", -- [2]
@@ -1540,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddDirkenstein-Mok'Nathal|r",
 			[51] = 1537215340,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [69]
+		}, -- [5]
 		{
 			"oh he left", -- [1]
 			"Dirkenstein-Mok'Nathal", -- [2]
@@ -1562,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddDirkenstein-Mok'Nathal|r",
 			[51] = 1537215348,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [70]
+		}, -- [6]
 		{
 			"Corrupting Gaze on Alorannah", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -1584,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537215368,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [71]
+		}, -- [7]
 		{
 			"how did a hunter die from this", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -1606,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537215637,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [72]
+		}, -- [8]
 		{
 			"Its LFR and he's a hunter.", -- [1]
 			"Noctisque-WyrmrestAccord", -- [2]
@@ -1628,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aNoctisque-WyrmrestAccord|r",
 			[51] = 1537215647,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [73]
+		}, -- [9]
 		{
 			"need i say more?", -- [1]
 			"Noctisque-WyrmrestAccord", -- [2]
@@ -1650,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aNoctisque-WyrmrestAccord|r",
 			[51] = 1537215650,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [74]
+		}, -- [10]
 		{
 			"talkin to much in guild lol", -- [1]
 			"Dexiji-KirinTor", -- [2]
@@ -1672,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Dexiji-KirinTor|r",
 			[51] = 1537215659,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [75]
+		}, -- [11]
 		{
 			"Hearth attack?", -- [1]
 			"Refugiadaa-Quel'Thalas", -- [2]
@@ -1694,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edRefugiadaa-Quel'Thalas|r",
 			[51] = 1537215660,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [76]
+		}, -- [12]
 		{
 			"xD", -- [1]
 			"Ahrui-Ragnaros", -- [2]
@@ -1716,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edAhrui-Ragnaros|r",
 			[51] = 1537215670,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [77]
+		}, -- [13]
 		{
 			"They dont call em Huntards for nothin!", -- [1]
 			"Noctisque-WyrmrestAccord", -- [2]
@@ -1738,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aNoctisque-WyrmrestAccord|r",
 			[51] = 1537215675,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [78]
+		}, -- [14]
 		{
 			"good try i guess", -- [1]
 			"Dirkenstein-Mok'Nathal", -- [2]
@@ -1760,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddDirkenstein-Mok'Nathal|r",
 			[51] = 1537215969,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [79]
+		}, -- [15]
 		{
 			"did no one to the volleyball?", -- [1]
 			"Turak-Thrall", -- [2]
@@ -1782,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTurak-Thrall|r",
 			[51] = 1537215970,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [80]
+		}, -- [16]
 		{
 			"Kill the ones who have turned", -- [1]
 			"Vulpestique-WyrmrestAccord", -- [2]
@@ -1804,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddVulpestique-WyrmrestAccord|r",
 			[51] = 1537215972,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [81]
+		}, -- [17]
 		{
 			"i did :T", -- [1]
 			"Rahza-Eredar", -- [2]
@@ -1826,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffRahza-Eredar|r",
 			[51] = 1537215981,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [82]
+		}, -- [18]
 		{
 			"ranged you gotta catch those orbs", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -1848,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537215988,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [83]
+		}, -- [19]
 		{
 			"who else?", -- [1]
 			"Turak-Thrall", -- [2]
@@ -1870,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTurak-Thrall|r",
 			[51] = 1537215989,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [84]
+		}, -- [20]
 		{
 			"I went on the first one so ", -- [1]
 			"Vulpestique-WyrmrestAccord", -- [2]
@@ -1892,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddVulpestique-WyrmrestAccord|r",
 			[51] = 1537215991,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [85]
+		}, -- [21]
 		{
 			"and punch the volleyball so your friends can kill you", -- [1]
 			"Noctisque-WyrmrestAccord", -- [2]
@@ -1914,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aNoctisque-WyrmrestAccord|r",
 			[51] = 1537215996,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [86]
+		}, -- [22]
 		{
 			"it's also a directional hit", -- [1]
 			"Turak-Thrall", -- [2]
@@ -1936,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTurak-Thrall|r",
 			[51] = 1537216007,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [87]
+		}, -- [23]
 		{
 			"so make sure you stand in the circle in a manner that it bounces towards other people not further away", -- [1]
 			"Turak-Thrall", -- [2]
@@ -1958,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTurak-Thrall|r",
 			[51] = 1537216020,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [88]
+		}, -- [24]
 		{
 			"And don't step into the big blue circles", -- [1]
 			"Vulpestique-WyrmrestAccord", -- [2]
@@ -1980,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddVulpestique-WyrmrestAccord|r",
 			[51] = 1537216034,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [89]
+		}, -- [25]
 		{
 			"Drop em off in the corners", -- [1]
 			"Vulpestique-WyrmrestAccord", -- [2]
@@ -2002,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddVulpestique-WyrmrestAccord|r",
 			[51] = 1537216041,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [90]
+		}, -- [26]
 		{
 			"does range understand the volleyball part?", -- [1]
 			"Turak-Thrall", -- [2]
@@ -2024,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTurak-Thrall|r",
 			[51] = 1537216053,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [91]
+		}, -- [27]
 		{
 			"a purple ball bounces around", -- [1]
 			"Turak-Thrall", -- [2]
@@ -2046,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTurak-Thrall|r",
 			[51] = 1537216058,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [92]
+		}, -- [28]
 		{
 			"where it's going to hit it puts a circle on ground", -- [1]
 			"Turak-Thrall", -- [2]
@@ -2068,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTurak-Thrall|r",
 			[51] = 1537216064,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [93]
+		}, -- [29]
 		{
 			"stand in circle", -- [1]
 			"Turak-Thrall", -- [2]
@@ -2090,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTurak-Thrall|r",
 			[51] = 1537216067,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [94]
+		}, -- [30]
 		{
 			"it gives you dps buff", -- [1]
 			"Turak-Thrall", -- [2]
@@ -2112,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTurak-Thrall|r",
 			[51] = 1537216069,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [95]
+		}, -- [31]
 		{
 			"after buff expires you get mc", -- [1]
 			"Turak-Thrall", -- [2]
@@ -2134,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTurak-Thrall|r",
 			[51] = 1537216072,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [96]
+		}, -- [32]
 		{
 			"we dps you down until you turn back", -- [1]
 			"Turak-Thrall", -- [2]
@@ -2156,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTurak-Thrall|r",
 			[51] = 1537216077,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [97]
+		}, -- [33]
 		{
 			"One person per. So we dont have to kill 8 of you per ball.", -- [1]
 			"Noctisque-WyrmrestAccord", -- [2]
@@ -2178,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aNoctisque-WyrmrestAccord|r",
 			[51] = 1537216083,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [98]
+		}, -- [34]
 		{
 			"Or just stun", -- [1]
 			"Vulpestique-WyrmrestAccord", -- [2]
@@ -2200,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddVulpestique-WyrmrestAccord|r",
 			[51] = 1537216086,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [99]
+		}, -- [35]
 		{
 			"Cause it's a count down debuff", -- [1]
 			"Vulpestique-WyrmrestAccord", -- [2]
@@ -2222,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddVulpestique-WyrmrestAccord|r",
 			[51] = 1537216094,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [100]
+		}, -- [36]
 		{
 			"So ", -- [1]
 			"Vulpestique-WyrmrestAccord", -- [2]
@@ -2244,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddVulpestique-WyrmrestAccord|r",
 			[51] = 1537216094,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [101]
+		}, -- [37]
 		{
 			"then CC them", -- [1]
 			"Turak-Thrall", -- [2]
@@ -2266,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTurak-Thrall|r",
 			[51] = 1537216105,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [102]
+		}, -- [38]
 		{
 			"Yeah either way attempt numeros 2 kek", -- [1]
 			"Vulpestique-WyrmrestAccord", -- [2]
@@ -2288,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddVulpestique-WyrmrestAccord|r",
 			[51] = 1537216120,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [103]
+		}, -- [39]
 		{
 			"|cff66bbff|Hjournal:2:18404:17|h[Will of the Corruptor]|h|r", -- [1]
 			"Turak-Thrall", -- [2]
@@ -2310,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTurak-Thrall|r",
 			[51] = 1537216127,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [104]
+		}, -- [40]
 		{
 			"says damage", -- [1]
 			"Turak-Thrall", -- [2]
@@ -2332,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTurak-Thrall|r",
 			[51] = 1537216132,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [105]
+		}, -- [41]
 		{
 			"there put markers on you", -- [1]
 			"Noctisque-WyrmrestAccord", -- [2]
@@ -2354,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aNoctisque-WyrmrestAccord|r",
 			[51] = 1537216152,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [106]
+		}, -- [42]
 		{
 			"for you**", -- [1]
 			"Noctisque-WyrmrestAccord", -- [2]
@@ -2376,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aNoctisque-WyrmrestAccord|r",
 			[51] = 1537216155,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [107]
+		}, -- [43]
 		{
 			"Huh", -- [1]
 			"Vulpestique-WyrmrestAccord", -- [2]
@@ -2398,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddVulpestique-WyrmrestAccord|r",
 			[51] = 1537216158,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [108]
+		}, -- [44]
 		{
 			"But CC still does good ahaha less fears ", -- [1]
 			"Vulpestique-WyrmrestAccord", -- [2]
@@ -2420,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddVulpestique-WyrmrestAccord|r",
 			[51] = 1537216173,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [109]
+		}, -- [45]
 		{
 			"of course", -- [1]
 			"Turak-Thrall", -- [2]
@@ -2442,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTurak-Thrall|r",
 			[51] = 1537216180,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [110]
+		}, -- [46]
 		{
 			"You get roiling deceit go as close to the marker as you can without triggering other clouds", -- [1]
 			"Noctisque-WyrmrestAccord", -- [2]
@@ -2464,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aNoctisque-WyrmrestAccord|r",
 			[51] = 1537216185,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [111]
+		}, -- [47]
 		{
 			"but they do need to be damaged", -- [1]
 			"Turak-Thrall", -- [2]
@@ -2486,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTurak-Thrall|r",
 			[51] = 1537216187,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [112]
+		}, -- [48]
 		{
 			"Alright? Alright", -- [1]
 			"Noctisque-WyrmrestAccord", -- [2]
@@ -2508,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aNoctisque-WyrmrestAccord|r",
 			[51] = 1537216192,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [113]
+		}, -- [49]
 		{
 			"May I please have |cffa335ee|Hitem:160647::::::::120:261::4:3:4801:1462:4786:::|h[Ring of the Infinite Void]|h|r if you don't need it?", -- [1]
 			"Nhinjax-Ragnaros", -- [2]
@@ -2530,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aNhinjax-Ragnaros|r",
 			[51] = 1537216541,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [114]
+		}, -- [50]
 		{
 			"actually i need it man, I have this |cff0070dd|Hitem:158160::::::::120:102::27:3:4803:1522:4785:::|h[Anillo de Caleta del Contrabandista]|h|r", -- [1]
 			"Nhinjax-Ragnaros", -- [2]
@@ -2552,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aNhinjax-Ragnaros|r",
 			[51] = 1537216578,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [115]
+		}, -- [51]
 		{
 			"no worries, grats!", -- [1]
 			"Nhinjax-Ragnaros", -- [2]
@@ -2574,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aNhinjax-Ragnaros|r",
 			[51] = 1537216593,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [116]
+		}, -- [52]
 		{
 			"|cffffff00Zuldazar is under attack!|r", -- [1]
 			"", -- [2]
@@ -2596,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1537216619,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [117]
+		}, -- [53]
 		{
 			"|cffffff00The Sliver is under attack!|r", -- [1]
 			"", -- [2]
@@ -2618,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1537216814,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [118]
+		}, -- [54]
 		{
 			"Hello there.", -- [1]
 			"Praetor-Quel'Thalas", -- [2]
@@ -2640,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dPraetor-Quel'Thalas|r",
 			[51] = 1537216964,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [119]
+		}, -- [55]
 		{
 			"general Kenobi", -- [1]
 			"Kàlias-Ragnaros", -- [2]
@@ -2662,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaKàlias-Ragnaros|r",
 			[51] = 1537216985,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [120]
+		}, -- [56]
 		{
 			"anyone have tomes?", -- [1]
 			"Truvmoney-Mal'Ganis", -- [2]
@@ -2684,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aTruvmoney-Mal'Ganis|r",
 			[51] = 1537217004,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [121]
+		}, -- [57]
 		{
 			"You are a bold one!", -- [1]
 			"Praetor-Quel'Thalas", -- [2]
@@ -2706,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dPraetor-Quel'Thalas|r",
 			[51] = 1537217006,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [122]
+		}, -- [58]
 		{
 			"anyone have an xmog closet lol", -- [1]
 			"Asensio-Mal'Ganis", -- [2]
@@ -2728,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Asensio-Mal'Ganis|r",
 			[51] = 1537217007,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [123]
+		}, -- [59]
 		{
 			"3", -- [1]
 			"Calanthvia-Thrall", -- [2]
@@ -2750,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Calanthvia-Thrall|r",
 			[51] = 1537217269,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [124]
+		}, -- [60]
 		{
 			"2", -- [1]
 			"Calanthvia-Thrall", -- [2]
@@ -2772,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Calanthvia-Thrall|r",
 			[51] = 1537217269,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [125]
+		}, -- [61]
 		{
 			"1", -- [1]
 			"Calanthvia-Thrall", -- [2]
@@ -2794,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Calanthvia-Thrall|r",
 			[51] = 1537217271,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [126]
+		}, -- [62]
 		{
 			"if you don't need items pls give me", -- [1]
 			"Phantomace-Barthilas", -- [2]
@@ -2816,6 +1408,1414 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Phantomace-Barthilas|r",
 			[51] = 1537217323,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [63]
+		{
+			"quest bugged?", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			120, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537276986,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [64]
+		{
+			"anyone buying BOE greens?", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			175, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537278111,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [65]
+		{
+			"fuck this quest in particular |cffffff00|Hquest:51542:-1:120:120:0|h[Avalanche]|h|r", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"1. General - Drustvar", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Drustvar", -- [9]
+			0, -- [10]
+			64, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537283974,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [66]
+		{
+			"because it's a cast iron bitch to get to", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"1. General - Drustvar", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Drustvar", -- [9]
+			0, -- [10]
+			83, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537284083,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [67]
+		{
+			"no credit?", -- [1]
+			"Poesdeath-DarkIron", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Poesdeath-DarkIron", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			16, -- [11]
+			"Player-157-0582FFD6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Poesdeath-DarkIron|r",
+			[51] = 1537288367,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [68]
+		{
+			"already boys whos ready to ligma", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			126, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537289582,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [69]
+		{
+			"i got ligma now i cant go to sucon", -- [1]
+			"Thip-BleedingHollow", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Thip-BleedingHollow", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			128, -- [11]
+			"Player-73-0B2069D0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dThip-BleedingHollow|r",
+			[51] = 1537289601,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [70]
+		{
+			"X nw of us", -- [1]
+			"Viadara-Thrall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Viadara-Thrall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			223, -- [11]
+			"Player-3678-0ADDD5AC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Viadara-Thrall|r",
+			[51] = 1537290550,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [71]
+		{
+			"up", -- [1]
+			"Viadara-Thrall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Viadara-Thrall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			226, -- [11]
+			"Player-3678-0ADDD5AC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Viadara-Thrall|r",
+			[51] = 1537290595,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [72]
+		{
+			"dont stay as a team you are going to die. and each time you die the opposite faction gets more azerite.", -- [1]
+			"Viadara-Thrall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Viadara-Thrall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			232, -- [11]
+			"Player-3678-0ADDD5AC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Viadara-Thrall|r",
+			[51] = 1537290679,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [73]
+		{
+			"you dont win this by fighting ally", -- [1]
+			"Viadara-Thrall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Viadara-Thrall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			238, -- [11]
+			"Player-3678-0ADDD5AC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Viadara-Thrall|r",
+			[51] = 1537290713,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [74]
+		{
+			"come over by the sea giant", -- [1]
+			"Viadara-Thrall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Viadara-Thrall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			248, -- [11]
+			"Player-3678-0ADDD5AC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Viadara-Thrall|r",
+			[51] = 1537290817,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [75]
+		{
+			"usually has large pay load", -- [1]
+			"Viadara-Thrall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Viadara-Thrall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			250, -- [11]
+			"Player-3678-0ADDD5AC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Viadara-Thrall|r",
+			[51] = 1537290824,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [76]
+		{
+			"you guys going to  act like a fucking team or no", -- [1]
+			"Viadara-Thrall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Viadara-Thrall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			285, -- [11]
+			"Player-3678-0ADDD5AC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Viadara-Thrall|r",
+			[51] = 1537291047,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [77]
+		{
+			"I been stuck in combat since I spawned", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			289, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537291092,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [78]
+		{
+			"apparently stay together is too difficult of a concept", -- [1]
+			"Viadara-Thrall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Viadara-Thrall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			291, -- [11]
+			"Player-3678-0ADDD5AC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Viadara-Thrall|r",
+			[51] = 1537291099,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [79]
+		{
+			"lead on", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			300, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537291226,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [80]
+		{
+			"here", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			307, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537291296,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [81]
+		{
+			"careful", -- [1]
+			"Viadara-Thrall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Viadara-Thrall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			315, -- [11]
+			"Player-3678-0ADDD5AC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Viadara-Thrall|r",
+			[51] = 1537291339,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [82]
+		{
+			"inc ally", -- [1]
+			"Viadara-Thrall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Viadara-Thrall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			316, -- [11]
+			"Player-3678-0ADDD5AC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Viadara-Thrall|r",
+			[51] = 1537291342,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [83]
+		{
+			"im curious about that spirit gateway", -- [1]
+			"Viadara-Thrall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Viadara-Thrall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			323, -- [11]
+			"Player-3678-0ADDD5AC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Viadara-Thrall|r",
+			[51] = 1537291399,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [84]
+		{
+			"ive never seen that", -- [1]
+			"Viadara-Thrall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Viadara-Thrall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			324, -- [11]
+			"Player-3678-0ADDD5AC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Viadara-Thrall|r",
+			[51] = 1537291403,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [85]
+		{
+			"same", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			326, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537291403,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [86]
+		{
+			"oh it took me into a crypt lol", -- [1]
+			"Viadara-Thrall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Viadara-Thrall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			329, -- [11]
+			"Player-3678-0ADDD5AC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Viadara-Thrall|r",
+			[51] = 1537291434,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [87]
+		{
+			"shit me too", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			330, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537291449,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [88]
+		{
+			"lol", -- [1]
+			"Viadara-Thrall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Viadara-Thrall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			331, -- [11]
+			"Player-3678-0ADDD5AC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Viadara-Thrall|r",
+			[51] = 1537291452,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [89]
+		{
+			"where aer you guys", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			332, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537291471,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [90]
+		{
+			"I got killed by alliance", -- [1]
+			"Frisky-Drak'Tharon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Frisky-Drak'Tharon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			333, -- [11]
+			"Player-127-07B9A15D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Frisky-Drak'Tharon|r",
+			[51] = 1537291482,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [91]
+		{
+			"oh come up this way", -- [1]
+			"Viadara-Thrall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Viadara-Thrall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			334, -- [11]
+			"Player-3678-0ADDD5AC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Viadara-Thrall|r",
+			[51] = 1537291501,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [92]
+		{
+			"its leading me out to an X", -- [1]
+			"Viadara-Thrall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Viadara-Thrall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			335, -- [11]
+			"Player-3678-0ADDD5AC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Viadara-Thrall|r",
+			[51] = 1537291507,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [93]
+		{
+			"omw", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			336, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537291508,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [94]
+		{
+			"I see it now", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			337, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537291517,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [95]
+		{
+			"oh its up above", -- [1]
+			"Viadara-Thrall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Viadara-Thrall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			338, -- [11]
+			"Player-3678-0ADDD5AC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Viadara-Thrall|r",
+			[51] = 1537291537,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [96]
+		{
+			"strange", -- [1]
+			"Viadara-Thrall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Viadara-Thrall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2, -- [11]
+			"Player-3678-0ADDD5AC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Viadara-Thrall|r",
+			[51] = 1537291596,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [97]
+		{
+			"disconnect ed me", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537291600,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [98]
+		{
+			"gg", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			6, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537291618,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [99]
+		{
+			"thanks blizz", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			8, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537291630,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [100]
+		{
+			"nice mog", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			26, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537291753,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [101]
+		{
+			"ty", -- [1]
+			"Zzyx-Smolderthorn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Zzyx-Smolderthorn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			27, -- [11]
+			"Player-1138-0776E8DE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Zzyx-Smolderthorn|r",
+			[51] = 1537291761,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [102]
+		{
+			"allies", -- [1]
+			"Derland-Gorefiend", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Derland-Gorefiend", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			77, -- [11]
+			"Player-159-06DBF691", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaDerland-Gorefiend|r",
+			[51] = 1537292011,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [103]
+		{
+			"blind", -- [1]
+			"Derland-Gorefiend", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Derland-Gorefiend", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			114, -- [11]
+			"Player-159-06DBF691", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaDerland-Gorefiend|r",
+			[51] = 1537292269,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [104]
+		{
+			"regroup", -- [1]
+			"Derland-Gorefiend", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Derland-Gorefiend", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			131, -- [11]
+			"Player-159-06DBF691", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaDerland-Gorefiend|r",
+			[51] = 1537292380,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [105]
+		{
+			"pls can we go somewhere else", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			137, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537292436,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [106]
+		{
+			"what chest friend-o", -- [1]
+			"Ðefiant-Stormreaver", -- [2]
+			"", -- [3]
+			"1. General - Zuldazar", -- [4]
+			"Ðefiant-Stormreaver", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Zuldazar", -- [9]
+			0, -- [10]
+			204, -- [11]
+			"Player-58-07879E4A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffÐefiant-Stormreaver|r",
+			[51] = 1537293018,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [107]
+		{
+			"I'll follow you pally", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			210, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537293101,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [108]
+		{
+			"bunch of shit north of us", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			211, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537293116,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [109]
+		{
+			"lol damn", -- [1]
+			"Hesaodragoon-Stormscale", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hesaodragoon-Stormscale", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			229, -- [11]
+			"Player-127-083E4301", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaHesaodragoon-Stormscale|r",
+			[51] = 1537293281,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [110]
+		{
+			"guys we aernt getting shit for azerite doing this", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			368, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537294268,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [111]
+		{
+			"lets go get some and finish this", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			369, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537294278,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [112]
+		{
+			"dont fight in shit like that", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			470, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537294852,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [113]
+		{
+			"need to be able to see the AOEs on the ground", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			472, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537294861,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [114]
+		{
+			"so i dont know what you guys were doing while i fought them the last 4 minutes...", -- [1]
+			"Macantsaoir-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Macantsaoir-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			478, -- [11]
+			"Player-3685-09F1C90A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc6eaMacantsaoir-Turalyon|r",
+			[51] = 1537294978,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [115]
+		{
+			"come to me", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			480, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537294987,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [116]
+		{
+			"lets group and get this over with", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			481, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537294992,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [117]
+		{
+			"mantis wrong mobs", -- [1]
+			"Macantsaoir-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Macantsaoir-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			495, -- [11]
+			"Player-3685-09F1C90A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc6eaMacantsaoir-Turalyon|r",
+			[51] = 1537295070,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [118]
+		{
+			"pls come here", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			496, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537295071,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [119]
+		{
+			"can we group up", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			506, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537295135,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [120]
+		{
+			"dude ", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			539, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537295269,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [121]
+		{
+			"he just doesnt get it", -- [1]
+			"Macantsaoir-Turalyon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Macantsaoir-Turalyon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			542, -- [11]
+			"Player-3685-09F1C90A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3fc6eaMacantsaoir-Turalyon|r",
+			[51] = 1537295286,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [122]
+		{
+			"just come with me", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			544, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537295296,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [123]
+		{
+			"hes fgonna do his own thing", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			545, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537295340,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [124]
+		{
+			"let me cc", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			567, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537295416,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [125]
+		{
+			"Ill follow you guys", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			599, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537295651,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [126]
+		{
+			"|cffffff00Zuldazar is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Zuldazar", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Zuldazar", -- [9]
+			0, -- [10]
+			816, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1537298824,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},
 }
