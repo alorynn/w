@@ -1,446 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/tar hika", -- [1]
-		"/cw Cindret uldir drop?", -- [2]
-		"/2 @clutchnixon the pvp quests?", -- [3]
-		"/2 ashvan docks in boralus", -- [4]
-		"/2 is it possible for a crafter to use someone else's |cff0070dd|Hitem:162460::::::::120:253::::::|h[Hydrocore]|h|r or |cffa335ee|Hitem:162461::::::::120:253::::::|h[Sanguicell]|h|r? if so I have some to sell ", -- [5]
-		"/1 how often can you kill these elites for loot? just once per cycle?", -- [6]
-		"/1 ffffffffffffffffffffffffffffffffffffffffff", -- [7]
-		"/1 would love to collect the set but it'll take 5 years at this rate", -- [8]
-		"/1 ya and the tier 3 armor pieces only have a chance to drop from a single rare, so you get basically one drop chance per month per piece ", -- [9]
-		"/cw Motoob-Nordrassil nice", -- [10]
-		"/cw Motoob-Nordrassil ya the 340 stuff drops like rain but I'm talking about the tier 3 recolors", -- [11]
-		"/mogit", -- [12]
-		"/s iver here", -- [13]
-		"/p ty", -- [14]
-		"/s cant attack?", -- [15]
-		"/1 nazara bugged dont bother", -- [16]
-		"/wave", -- [17]
-		"/2 lol alliance contribution progressed a whole 1% in 12 hours", -- [18]
-		"/2 imagine if you could use these contributions to the faction of your choice instead of 7th which most of us have exalted already", -- [19]
-		"/s what a great game", -- [20]
+		"/1 ya and the tier 3 armor pieces only have a chance to drop from a single rare, so you get basically one drop chance per month per piece ", -- [1]
+		"/cw Motoob-Nordrassil nice", -- [2]
+		"/cw Motoob-Nordrassil ya the 340 stuff drops like rain but I'm talking about the tier 3 recolors", -- [3]
+		"/mogit", -- [4]
+		"/s iver here", -- [5]
+		"/p ty", -- [6]
+		"/s cant attack?", -- [7]
+		"/1 nazara bugged dont bother", -- [8]
+		"/wave", -- [9]
+		"/2 lol alliance contribution progressed a whole 1% in 12 hours", -- [10]
+		"/2 imagine if you could use these contributions to the faction of your choice instead of 7th which most of us have exalted already", -- [11]
+		"/s what a great game", -- [12]
+		"/2 method didnt down mythic ghuun", -- [13]
+		"/2 ya they just cleared heroic for gear", -- [14]
+		"/2 ghuun going down today though, multiple guilds with <5% wipes before reset", -- [15]
+		"/2 are all guild perks unlocked immediately as soon as you join a guild?", -- [16]
+		"/cw Petridon whoa", -- [17]
+		"/cw Petridon whats that from", -- [18]
+		"/yawn", -- [19]
+		"/cw Petridon-Kel'Thuzad awesome grats", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"oUT", -- [1]
-			"Lucenia-Stormrage", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lucenia", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1517, -- [11]
-			"Player-60-0B097596", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaLucenia-Stormrage|r",
-			[51] = 1536760602,
-			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [1]
-		{
-			"10- seconds", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1518, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1536760603,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [2]
-		{
-			"fffffffffffffffffffffffffffffffffffffffffffffff", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1524, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1536760619,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [3]
-		{
-			"lol scrubs", -- [1]
-			"Epheris-EarthenRing", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Epheris-EarthenRing", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1529, -- [11]
-			"Player-100-0695C590", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaEpheris-EarthenRing|r",
-			[51] = 1536760650,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [4]
-		{
-			"i died because ya know tanks can't get aggro fast right now", -- [1]
-			"Lotharianx-Stormrage", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lotharianx-Stormrage", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1532, -- [11]
-			"Player-60-0BA1F6EB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffLotharianx-Stormrage|r",
-			[51] = 1536760665,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [5]
-		{
-			"PURGE IN 30 SECONDS", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1546, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1536760752,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [6]
-		{
-			"start moving", -- [1]
-			"Ailoway-Sargeras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Ailoway-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1549, -- [11]
-			"Player-76-09DF2152", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8787edAiloway-Sargeras|r",
-			[51] = 1536760762,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [7]
-		{
-			"PURGE IN 20 SECONDS", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1550, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1536760764,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [8]
-		{
-			"MOVE MOVE MOVE", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1553, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1536760769,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [9]
-		{
-			"DONT DO WHAT I DID", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1554, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1536760775,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [10]
-		{
-			"gj", -- [1]
-			"Aëlin-Quel'Thalas", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Aëlin-Quel'Thalas", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1558, -- [11]
-			"Player-1428-09519938", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff0070ddAëlin-Quel'Thalas|r",
-			[51] = 1536760798,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [11]
-		{
-			"whoooo", -- [1]
-			"Rainingstorm-Stormrage", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rainingstorm-Stormrage", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1559, -- [11]
-			"Player-60-072CE6FA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Rainingstorm-Stormrage|r",
-			[51] = 1536760800,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [12]
-		{
-			"thats a weird fight", -- [1]
-			"Lucenia-Stormrage", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lucenia-Stormrage", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1561, -- [11]
-			"Player-60-0B097596", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaLucenia-Stormrage|r",
-			[51] = 1536760805,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [13]
-		{
-			"who got a ring they dont want?", -- [1]
-			"Lotharianx-Stormrage", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lotharianx-Stormrage", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1570, -- [11]
-			"Player-60-0BA1F6EB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffLotharianx-Stormrage|r",
-			[51] = 1536760825,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [14]
-		{
-			"anyone not need a ring?", -- [1]
-			"Lucenia-Stormrage", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lucenia-Stormrage", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1571, -- [11]
-			"Player-60-0B097596", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaLucenia-Stormrage|r",
-			[51] = 1536760830,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [15]
-		{
-			"|cffa335ee|Hitem:160645::::::::120:257::4:3:4801:1462:4786:::|h[Rot-Scour Ring]|h|r roll", -- [1]
-			"Vibrabunneh-Lightbringer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vibrabunneh-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1574, -- [11]
-			"Player-3694-086E0A4A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffVibrabunneh-Lightbringer|r",
-			[51] = 1536760845,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [16]
-		{
-			"niiice Seakag", -- [1]
-			"Epheris-EarthenRing", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Epheris-EarthenRing", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1587, -- [11]
-			"Player-100-0695C590", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaEpheris-EarthenRing|r",
-			[51] = 1536760860,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [17]
-		{
-			"thx", -- [1]
-			"Seakah-Thunderhorn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Seakah-Thunderhorn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1591, -- [11]
-			"Player-105-02883D45", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aSeakah-Thunderhorn|r",
-			[51] = 1536760869,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [18]
-		{
-			"Pillbug challenges", -- [1]
-			"Epheris-EarthenRing", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Epheris-EarthenRing", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1592, -- [11]
-			"Player-100-0695C590", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaEpheris-EarthenRing|r",
-			[51] = 1536760870,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [19]
 		{
 			"gg pillbug", -- [1]
 			"Epheris-EarthenRing", -- [2]
@@ -462,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaEpheris-EarthenRing|r",
 			[51] = 1536760884,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [20]
+		}, -- [1]
 		{
 			"tyvm", -- [1]
 			"Pillbug-Uther", -- [2]
@@ -484,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edPillbug-Uther|r",
 			[51] = 1536760908,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [21]
+		}, -- [2]
 		{
 			"yw", -- [1]
 			"Vibrabunneh-Lightbringer", -- [2]
@@ -506,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffVibrabunneh-Lightbringer|r",
 			[51] = 1536760916,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [22]
+		}, -- [3]
 		{
 			"brb 1 min", -- [1]
 			"Aëlin-Quel'Thalas", -- [2]
@@ -528,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddAëlin-Quel'Thalas|r",
 			[51] = 1536760993,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [23]
+		}, -- [4]
 		{
 			"back", -- [1]
 			"Aëlin-Quel'Thalas", -- [2]
@@ -550,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddAëlin-Quel'Thalas|r",
 			[51] = 1536761064,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [24]
+		}, -- [5]
 		{
 			"Man... I am so fucking sick of trolls and their fucking empire. -_-", -- [1]
 			"Victaron-Stormrage", -- [2]
@@ -572,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaVictaron-Stormrage|r",
 			[51] = 1536761085,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [25]
+		}, -- [6]
 		{
 			"if they keep giving us raids like this, I will gladly deal with them :P ", -- [1]
 			"Vibrabunneh-Lightbringer", -- [2]
@@ -594,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffVibrabunneh-Lightbringer|r",
 			[51] = 1536761128,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [26]
+		}, -- [7]
 		{
 			"Well... I just hate how Blizz seems to have a major love for Troll lore is all. =/", -- [1]
 			"Victaron-Stormrage", -- [2]
@@ -616,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaVictaron-Stormrage|r",
 			[51] = 1536761219,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [27]
+		}, -- [8]
 		{
 			"trolls are one of the oldest races in the wow universe", -- [1]
 			"Lucenia-Stormrage", -- [2]
@@ -638,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaLucenia-Stormrage|r",
 			[51] = 1536761238,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [28]
+		}, -- [9]
 		{
 			"They are easy bad guys", -- [1]
 			"Tuckee-Proudmoore", -- [2]
@@ -660,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Tuckee-Proudmoore|r",
 			[51] = 1536761243,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [29]
+		}, -- [10]
 		{
 			"They were in Wrath, they were in pandaland... and now... they're here. As a major thing. ---", -- [1]
 			"Victaron-Stormrage", -- [2]
@@ -682,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaVictaron-Stormrage|r",
 			[51] = 1536761244,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [30]
+		}, -- [11]
 		{
 			"there's a lot of lore :)", -- [1]
 			"Lucenia-Stormrage", -- [2]
@@ -704,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaLucenia-Stormrage|r",
 			[51] = 1536761244,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [31]
+		}, -- [12]
 		{
 			"ya theyre super important", -- [1]
 			"Epheris-EarthenRing", -- [2]
@@ -726,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaEpheris-EarthenRing|r",
 			[51] = 1536761244,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [32]
+		}, -- [13]
 		{
 			"in fact elves evolved from trolls", -- [1]
 			"Lucenia-Stormrage", -- [2]
@@ -748,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaLucenia-Stormrage|r",
 			[51] = 1536761263,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [33]
+		}, -- [14]
 		{
 			"But... ;_; I hate trolls!", -- [1]
 			"Victaron-Stormrage", -- [2]
@@ -770,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaVictaron-Stormrage|r",
 			[51] = 1536761264,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [34]
+		}, -- [15]
 		{
 			"you racist", -- [1]
 			"Vibrabunneh-Lightbringer", -- [2]
@@ -792,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffVibrabunneh-Lightbringer|r",
 			[51] = 1536761272,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [35]
+		}, -- [16]
 		{
 			"Make way for the bad guy", -- [1]
 			"Tuckee-Proudmoore", -- [2]
@@ -814,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Tuckee-Proudmoore|r",
 			[51] = 1536761276,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [36]
+		}, -- [17]
 		{
 			"so you can thank trolls for NEs and BEs XD", -- [1]
 			"Lucenia-Stormrage", -- [2]
@@ -836,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaLucenia-Stormrage|r",
 			[51] = 1536761279,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [37]
+		}, -- [18]
 		{
 			"you can also thank trolls for elune", -- [1]
 			"Epheris-EarthenRing", -- [2]
@@ -858,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaEpheris-EarthenRing|r",
 			[51] = 1536761291,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [38]
+		}, -- [19]
 		{
 			"so", -- [1]
 			"Epheris-EarthenRing", -- [2]
@@ -880,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaEpheris-EarthenRing|r",
 			[51] = 1536761293,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [39]
+		}, -- [20]
 		{
 			"For me to be racist, Trolls would have to be an actual race. And people. Which they are not. :p", -- [1]
 			"Victaron-Stormrage", -- [2]
@@ -902,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaVictaron-Stormrage|r",
 			[51] = 1536761296,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [40]
+		}, -- [21]
 		{
 			"wow", -- [1]
 			"Epheris-EarthenRing", -- [2]
@@ -924,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaEpheris-EarthenRing|r",
 			[51] = 1536761306,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [41]
+		}, -- [22]
 		{
 			"just", -- [1]
 			"Epheris-EarthenRing", -- [2]
@@ -946,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaEpheris-EarthenRing|r",
 			[51] = 1536761308,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [42]
+		}, -- [23]
 		{
 			"i would fuck a troll", -- [1]
 			"Puflly-Stormrage", -- [2]
@@ -968,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaPuflly-Stormrage|r",
 			[51] = 1536761308,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [43]
+		}, -- [24]
 		{
 			"wow", -- [1]
 			"Epheris-EarthenRing", -- [2]
@@ -990,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaEpheris-EarthenRing|r",
 			[51] = 1536761308,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [44]
+		}, -- [25]
 		{
 			" Have you thought about running for president?", -- [1]
 			"Vibrabunneh-Lightbringer", -- [2]
@@ -1012,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffVibrabunneh-Lightbringer|r",
 			[51] = 1536761310,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [45]
+		}, -- [26]
 		{
 			"...Trolls stopped being people, when Vol'jin died. T_T", -- [1]
 			"Victaron-Stormrage", -- [2]
@@ -1034,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaVictaron-Stormrage|r",
 			[51] = 1536761311,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [46]
+		}, -- [27]
 		{
 			"we catch the orbs right?", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1056,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1536761320,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [47]
+		}, -- [28]
 		{
 			"true", -- [1]
 			"Garrios-EmeraldDream", -- [2]
@@ -1078,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaGarrios-EmeraldDream|r",
 			[51] = 1536761322,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [48]
+		}, -- [29]
 		{
 			"(B)rolls", -- [1]
 			"Epheris-EarthenRing", -- [2]
@@ -1100,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaEpheris-EarthenRing|r",
 			[51] = 1536761324,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [49]
+		}, -- [30]
 		{
 			"yes", -- [1]
 			"Frostfirer-Runetotem", -- [2]
@@ -1122,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaFrostfirer-Runetotem|r",
 			[51] = 1536761326,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [50]
+		}, -- [31]
 		{
 			"dont let orbs hit ground, catch them", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1144,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1536761335,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [51]
+		}, -- [32]
 		{
 			"Eye Beam on Laurannah", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1166,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1536761399,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [52]
+		}, -- [33]
 		{
 			"Roiling Deceit on Laurannah", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1188,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1536761489,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [53]
+		}, -- [34]
 		{
 			"3", -- [1]
 			"Rainingstorm-Stormrage", -- [2]
@@ -1210,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Rainingstorm-Stormrage|r",
 			[51] = 1536761490,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [54]
+		}, -- [35]
 		{
 			"2", -- [1]
 			"Rainingstorm-Stormrage", -- [2]
@@ -1232,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Rainingstorm-Stormrage|r",
 			[51] = 1536761491,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [55]
+		}, -- [36]
 		{
 			"Roiling Deceit fading in 3", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1254,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1536761498,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [56]
+		}, -- [37]
 		{
 			"Roiling Deceit fading in 2", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1276,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1536761499,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [57]
+		}, -- [38]
 		{
 			"Roiling Deceit fading in 1", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1298,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1536761500,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [58]
+		}, -- [39]
 		{
 			"That was him earlier", -- [1]
 			"Victaron-Stormrage", -- [2]
@@ -1320,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaVictaron-Stormrage|r",
 			[51] = 1536761514,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [59]
+		}, -- [40]
 		{
 			"Final boss of Ulduar from Wrath", -- [1]
 			"Victaron-Stormrage", -- [2]
@@ -1342,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaVictaron-Stormrage|r",
 			[51] = 1536761529,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [60]
+		}, -- [41]
 		{
 			"yeah but this is a pvp expansion /s", -- [1]
 			"Lucenia-Stormrage", -- [2]
@@ -1364,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaLucenia-Stormrage|r",
 			[51] = 1536761537,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [61]
+		}, -- [42]
 		{
 			"lol", -- [1]
 			"Epheris-EarthenRing", -- [2]
@@ -1386,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaEpheris-EarthenRing|r",
 			[51] = 1536761543,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [62]
+		}, -- [43]
 		{
 			"no its the old god expansion", -- [1]
 			"Epheris-EarthenRing", -- [2]
@@ -1408,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaEpheris-EarthenRing|r",
 			[51] = 1536761549,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [63]
+		}, -- [44]
 		{
 			"the battle for azeroth is between the living and the old", -- [1]
 			"Epheris-EarthenRing", -- [2]
@@ -1430,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaEpheris-EarthenRing|r",
 			[51] = 1536761557,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [64]
+		}, -- [45]
 		{
 			":O", -- [1]
 			"Epheris-EarthenRing", -- [2]
@@ -1452,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaEpheris-EarthenRing|r",
 			[51] = 1536761559,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [65]
+		}, -- [46]
 		{
 			" /s <=", -- [1]
 			"Lucenia-Stormrage", -- [2]
@@ -1474,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaLucenia-Stormrage|r",
 			[51] = 1536761567,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [66]
+		}, -- [47]
 		{
 			"great heals ty", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1496,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1536761570,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [67]
+		}, -- [48]
 		{
 			" /say", -- [1]
 			"Epheris-EarthenRing", -- [2]
@@ -1518,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaEpheris-EarthenRing|r",
 			[51] = 1536761583,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [68]
+		}, -- [49]
 		{
 			" /sarcasm", -- [1]
 			"Lucenia-Stormrage", -- [2]
@@ -1540,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaLucenia-Stormrage|r",
 			[51] = 1536761587,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [69]
+		}, -- [50]
 		{
 			"No, it's an old gods/trolls PVP expancion.", -- [1]
 			"Victaron-Stormrage", -- [2]
@@ -1562,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaVictaron-Stormrage|r",
 			[51] = 1536761589,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [70]
+		}, -- [51]
 		{
 			" /society", -- [1]
 			"Epheris-EarthenRing", -- [2]
@@ -1584,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaEpheris-EarthenRing|r",
 			[51] = 1536761592,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [71]
+		}, -- [52]
 		{
 			" /seks", -- [1]
 			"Lucenia-Stormrage", -- [2]
@@ -1606,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaLucenia-Stormrage|r",
 			[51] = 1536761596,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [72]
+		}, -- [53]
 		{
 			"Or Old Trolls Pee Expansion. :p", -- [1]
 			"Victaron-Stormrage", -- [2]
@@ -1628,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaVictaron-Stormrage|r",
 			[51] = 1536761596,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [73]
+		}, -- [54]
 		{
 			"whens return to pandaria expansion", -- [1]
 			"Epheris-EarthenRing", -- [2]
@@ -1650,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaEpheris-EarthenRing|r",
 			[51] = 1536761625,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [74]
+		}, -- [55]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12521:Player-3693-092AD332:1:9:12:18:4294967295:4294967295:4294967295:4294967295|h[Halls of Containment]|h|r!", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1672,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1536761665,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [75]
+		}, -- [56]
 		{
 			"gj guys", -- [1]
 			"Aëlin-Quel'Thalas", -- [2]
@@ -1694,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddAëlin-Quel'Thalas|r",
 			[51] = 1536761670,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [76]
+		}, -- [57]
 		{
 			"LF ring ", -- [1]
 			"Rainingstorm-Stormrage", -- [2]
@@ -1716,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Rainingstorm-Stormrage|r",
 			[51] = 1536761683,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [77]
+		}, -- [58]
 		{
 			"Who dont need cloth or rings", -- [1]
 			"Äfflictëd-Sargeras", -- [2]
@@ -1738,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edÄfflictëd-Sargeras|r",
 			[51] = 1536761687,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [78]
+		}, -- [59]
 		{
 			"me", -- [1]
 			"Frostfirer-Runetotem", -- [2]
@@ -1760,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaFrostfirer-Runetotem|r",
 			[51] = 1536761691,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [79]
+		}, -- [60]
 		{
 			"That was the last boss of this wing, right?", -- [1]
 			"Victaron-Stormrage", -- [2]
@@ -1782,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaVictaron-Stormrage|r",
 			[51] = 1536761697,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [80]
+		}, -- [61]
 		{
 			"Rings would be nice", -- [1]
 			"Tuckee-Proudmoore", -- [2]
@@ -1804,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Tuckee-Proudmoore|r",
 			[51] = 1536761700,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [81]
+		}, -- [62]
 		{
 			"ya ", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1826,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1536761701,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [82]
+		}, -- [63]
 		{
 			"ty", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1848,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1536761702,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [83]
+		}, -- [64]
 		{
 			"thats it folks", -- [1]
 			"Lucenia-Stormrage", -- [2]
@@ -1870,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaLucenia-Stormrage|r",
 			[51] = 1536761703,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [84]
+		}, -- [65]
 		{
 			"lf ring", -- [1]
 			"Garrios-EmeraldDream", -- [2]
@@ -1892,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaGarrios-EmeraldDream|r",
 			[51] = 1536761704,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [85]
+		}, -- [66]
 		{
 			"LF Tank and Healer mythic runs pst", -- [1]
 			"Dreynolds-Kel'Thuzad", -- [2]
@@ -1914,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aDreynolds|r",
 			[51] = 1536847934,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [67]
 		{
 			"how come |cffa335ee|Hitem:67151::::::::120:253::::::|h[Reins of Poseidus]|h|r is so cheap now", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1936,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1536848279,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [68]
 		{
 			"@Arasana did they nerf it somehow?", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1958,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1536848328,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [69]
 		{
 			"Not really, we just have like 3+ other water mounts now", -- [1]
 			"Elhaz-Kel'Thuzad", -- [2]
@@ -1980,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddElhaz|r",
 			[51] = 1536848348,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [89]
+		}, -- [70]
 		{
 			"|cff71d5ff|Hspell:214791:0|h[Brinedeep Bottom-Feeder]|h|r|cff71d5ff|Hspell:278803:0|h[Great Sea Ray]|h|r for example", -- [1]
 			"Elhaz-Kel'Thuzad", -- [2]
@@ -2002,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddElhaz|r",
 			[51] = 1536848367,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [90]
+		}, -- [71]
 		{
 			"ya I got the kosumoth one last xpac but I thought poseidus had special benefits", -- [1]
 			"Elhaz-Kel'Thuzad", -- [2]
@@ -2024,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddElhaz|r",
 			[51] = 1536848373,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [91]
+		}, -- [72]
 		{
 			"I don't think so, he was just really rare before IIRC", -- [1]
 			"Elhaz-Kel'Thuzad", -- [2]
@@ -2046,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddElhaz|r",
 			[51] = 1536848426,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [92]
+		}, -- [73]
 		{
 			"greets you warmly.", -- [1]
 			"Hikamiro-Kel'Thuzad", -- [2]
@@ -2068,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffHikamiro|r",
 			[51] = 1536848712,
 			[50] = "CHAT_MSG_EMOTE",
-		}, -- [93]
+		}, -- [74]
 		{
 			"<Inclusi> is a 8/8 N 4/8 H raid group with mythic goals, Mon/Tue/Wed 7-10 server time looking for competitive rdps (especially a warlock) and healer (hpally, mistweaver or priest).", -- [1]
 			"Unclewarr-Kel'Thuzad", -- [2]
@@ -2090,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dUnclewarr|r",
 			[51] = 1536848736,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [75]
 		{
 			"LF Healer reg mythic runs pst!", -- [1]
 			"Dreynolds-Kel'Thuzad", -- [2]
@@ -2112,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aDreynolds|r",
 			[51] = 1536848760,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [76]
 		{
 			"LF Healer reg mythic runs pst!", -- [1]
 			"Dreynolds-Kel'Thuzad", -- [2]
@@ -2134,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aDreynolds|r",
 			[51] = 1536848761,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [77]
 		{
 			"WTS |cffffffff|Hitem:156526::::::::120:71::::::|h[Bountiful Captain's Feast]|h|r 1900g each", -- [1]
 			"Kîrito-Kel'Thuzad", -- [2]
@@ -2156,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dKîrito|r",
 			[51] = 1536848838,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [78]
 		{
 			"uldir drop?", -- [1]
 			"Cindret-Kel'Thuzad", -- [2]
@@ -2178,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dCindret|r",
 			[51] = 1536849469,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [98]
+		}, -- [79]
 		{
 			"yeah", -- [1]
 			"Cindret-Kel'Thuzad", -- [2]
@@ -2200,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dCindret|r",
 			[51] = 1536849480,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [99]
+		}, -- [80]
 		{
 			"@clutchnixon the pvp quests?", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2222,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1536850096,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [100]
+		}, -- [81]
 		{
 			"ashvan docks in boralus", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2244,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1536850127,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [101]
+		}, -- [82]
 		{
 			"is it possible for a crafter to use someone else's |cff0070dd|Hitem:162460::::::::120:253::::::|h[Hydrocore]|h|r or |cffa335ee|Hitem:162461::::::::120:253::::::|h[Sanguicell]|h|r? if so I have some to sell ", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2266,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1536870120,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [102]
+		}, -- [83]
 		{
 			"no its soul bound", -- [1]
 			"Gabeasher", -- [2]
@@ -2288,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Gabeasher|r",
 			[51] = 1536870135,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [103]
+		}, -- [84]
 		{
 			"it's not", -- [1]
 			"Paragov", -- [2]
@@ -2310,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaParagov|r",
 			[51] = 1536870141,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [104]
+		}, -- [85]
 		{
 			"how often can you kill these elites for loot? just once per cycle?", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2332,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1536875844,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [105]
+		}, -- [86]
 		{
 			"ffffffffffffffffffffffffffffffffffffffffff", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2354,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1536875854,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [106]
+		}, -- [87]
 		{
 			"ya and the tier 3 armor pieces only have a chance to drop from a single rare, so you get basically one drop chance per month per piece ", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2376,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1536875958,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [107]
+		}, -- [88]
 		{
 			"I got |cffa335ee|Hitem:163248::::::::120:257::5:3:5125:1532:4786:::|h[7th Legionnaire's Robes]|h|r|cffa335ee|Hitem:161466::::::::120:257::3:3:5120:1492:4786:::|h[Battlemage's Collar]|h|r and that dinasaur mount today", -- [1]
 			"Motoob-Nordrassil", -- [2]
@@ -2398,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffMotoob-Nordrassil|r",
 			[51] = 1536876019,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [108]
+		}, -- [89]
 		{
 			"|cffa335ee|Hitem:163275::::::::120:257::3:4:5124:4802:1532:4786:::|h[7th Legionnaire's Cuffs]|h|r|cffa335ee|Hitem:163248::::::::120:257::5:3:5125:1532:4786:::|h[7th Legionnaire's Robes]|h|r", -- [1]
 			"Motoob-Nordrassil", -- [2]
@@ -2420,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffMotoob-Nordrassil|r",
 			[51] = 1536876040,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [109]
+		}, -- [90]
 		{
 			"My bad", -- [1]
 			"Motoob-Nordrassil", -- [2]
@@ -2442,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffMotoob-Nordrassil|r",
 			[51] = 1536876045,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [110]
+		}, -- [91]
 		{
 			"nice", -- [1]
 			"Motoob-Nordrassil", -- [2]
@@ -2464,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffMotoob-Nordrassil|r",
 			[51] = 1536876067,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [111]
+		}, -- [92]
 		{
 			"ya the 340 stuff drops like rain but I'm talking about the tier 3 recolors", -- [1]
 			"Motoob-Nordrassil", -- [2]
@@ -2486,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffMotoob-Nordrassil|r",
 			[51] = 1536876087,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [112]
+		}, -- [93]
 		{
 			"|cffa335ee|Hitem:161466::::::::120:257::3:3:5120:1492:4786:::|h[Battlemage's Collar]|h|r", -- [1]
 			"Motoob-Nordrassil", -- [2]
@@ -2508,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffMotoob-Nordrassil|r",
 			[51] = 1536876103,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [113]
+		}, -- [94]
 		{
 			"iver here", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2530,7 +2112,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1537029500,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [114]
+		}, -- [95]
 		{
 			"ty", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2552,7 +2134,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1537030296,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [115]
+		}, -- [96]
 		{
 			"cant attack?", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2574,7 +2156,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1537030482,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [116]
+		}, -- [97]
 		{
 			"nazara bugged dont bother", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2596,7 +2178,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1537030535,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [117]
+		}, -- [98]
 		{
 			"lol alliance contribution progressed a whole 1% in 12 hours", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2618,7 +2200,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1537278442,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [118]
+		}, -- [99]
 		{
 			"imagine if you could use these contributions to the faction of your choice instead of 7th which most of us have exalted already", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2640,7 +2222,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1537278487,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [119]
+		}, -- [100]
 		{
 			"Running Mythic Taloc (KT Only) PM me with ilvl for invite! I have feasts, bring your flasks and pots!", -- [1]
 			"Medevacpi-Kel'Thuzad", -- [2]
@@ -2662,7 +2244,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaMedevacpi|r",
 			[51] = 1537278878,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [120]
+		}, -- [101]
 		{
 			"Running Mythic Taloc (KT Only) PM me with ilvl for invite! I have feasts, bring your flasks and pots!", -- [1]
 			"Medevacpi-Kel'Thuzad", -- [2]
@@ -2684,7 +2266,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaMedevacpi|r",
 			[51] = 1537279153,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [121]
+		}, -- [102]
 		{
 			"WTB |cffa335ee|Hitem:163959::::::::120:259::54:2:1472:4786:::|h[Self-Rotating Dagger of Xing]|h|r PST", -- [1]
 			"Niteblade-Kel'Thuzad", -- [2]
@@ -2706,7 +2288,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Niteblade|r",
 			[51] = 1537279266,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [122]
+		}, -- [103]
 		{
 			"WTB |cffa335ee|Hitem:163959::::::::120:259::54:2:1472:4786:::|h[Self-Rotating Dagger of Xing]|h|r PST", -- [1]
 			"Niteblade-Kel'Thuzad", -- [2]
@@ -2728,7 +2310,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Niteblade|r",
 			[51] = 1537279301,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [123]
+		}, -- [104]
 		{
 			"WTB |cffa335ee|Hitem:163959::::::::120:259::54:2:1472:4786:::|h[Self-Rotating Dagger of Xing]|h|r PST", -- [1]
 			"Niteblade-Kel'Thuzad", -- [2]
@@ -2750,7 +2332,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Niteblade|r",
 			[51] = 1537279475,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [124]
+		}, -- [105]
 		{
 			"WTB |cffa335ee|Hitem:163959::::::::120:259::54:2:1472:4786:::|h[Self-Rotating Dagger of Xing]|h|r PST", -- [1]
 			"Niteblade-Kel'Thuzad", -- [2]
@@ -2772,7 +2354,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Niteblade|r",
 			[51] = 1537279626,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [125]
+		}, -- [106]
 		{
 			"WTB bfa herbs 25g ea. cod it all to me", -- [1]
 			"Yungwag-Kel'Thuzad", -- [2]
@@ -2794,7 +2376,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Yungwag|r",
 			[51] = 1537279989,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [126]
+		}, -- [107]
 		{
 			"what a great game", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2816,6 +2398,424 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1537296695,
 			[50] = "CHAT_MSG_SAY",
+		}, -- [108]
+		{
+			"casually flips her |Hitem:44430|h|cff0070dd[Titanium Seal of Dalaran]|r|h.", -- [1]
+			"Shadowbanned-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Shadowbanned", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			95, -- [11]
+			"Player-3693-0A01EE18", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Shadowbanned|r",
+			[51] = 1537312895,
+			[50] = "CHAT_MSG_EMOTE",
+		}, -- [109]
+		{
+			"WTS |cffa335ee|Hitem:159127::::::::120:103::13::::|h[Darkmoon Deck: Tides]|h|r[Healer trinket]|cffa335ee|Hitem:159126::::::::120:103::13::::|h[Darkmoon Deck: Squalls]|h|r[Caster trinket] Cheaper than ah PST :D", -- [1]
+			"Aaronar-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Aaronar", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			124, -- [11]
+			"Player-3693-09FBED4E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffff7c0aAaronar|r",
+			[51] = 1537312916,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [110]
+		{
+			"method didnt down mythic ghuun", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			94, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1537360053,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [111]
+		{
+			"ya they just cleared heroic for gear", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			95, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1537360063,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [112]
+		{
+			"ghuun going down today though, multiple guilds with <5% wipes before reset", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			98, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1537360117,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [113]
+		{
+			"are all guild perks unlocked immediately as soon as you join a guild?", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			281, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1537366385,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [114]
+		{
+			"highly doubtful", -- [1]
+			"Kajadà", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kajadà", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			284, -- [11]
+			"Player-3693-0A04B3B8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Kajadà|r",
+			[51] = 1537366408,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [115]
+		{
+			"most should be, you might have to be friendly with the guild for some tho", -- [1]
+			"Merbeaer-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Merbeaer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			288, -- [11]
+			"Player-3693-08F475E8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Merbeaer|r",
+			[51] = 1537366438,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [116]
+		{
+			"usually have to be exalted", -- [1]
+			"Grewdy", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Grewdy", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			289, -- [11]
+			"Player-3693-09E2FF89", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aGrewdy|r",
+			[51] = 1537366445,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [117]
+		{
+			"whoa", -- [1]
+			"Petridon-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Petridon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			410, -- [11]
+			"Player-3693-090E1704", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaPetridon|r",
+			[51] = 1537385218,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [118]
+		{
+			"whats that from", -- [1]
+			"Petridon-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Petridon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			411, -- [11]
+			"Player-3693-090E1704", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaPetridon|r",
+			[51] = 1537385221,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [119]
+		{
+			"SELLING |cff1eff00|Hitem:152510::::::::120:256::::::|h[Anchor Weed]|h|rx1800 420g EACH - 10g CHEAPER THAN AH", -- [1]
+			"Cõndemnd-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Cõndemnd", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			570, -- [11]
+			"Player-3693-07581CB3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffCõndemnd|r",
+			[51] = 1537385336,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [120]
+		{
+			"having a 6month sub", -- [1]
+			"Petridon-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Petridon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1032, -- [11]
+			"Player-3693-090E1704", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaPetridon|r",
+			[51] = 1537386812,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [121]
+		{
+			"Since I already get my sub in 6 month intervals it auto gave me it", -- [1]
+			"Petridon-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Petridon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1036, -- [11]
+			"Player-3693-090E1704", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaPetridon|r",
+			[51] = 1537386841,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [122]
+		{
+			"WTB |cffffffff|Hitem:152505::::::::115:70::::::|h[Riverbud]|h|r|cffffffff|Hitem:152509::::::::115:70::::::|h[Siren's Pollen]|h|r 30g each all other bfa herbs 15g |cff1eff00|Hitem:152510::::::::115:70::::::|h[Anchor Weed]|h|r 400g each pst or Cod).", -- [1]
+			"Hinar-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hinar", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1038, -- [11]
+			"Player-3693-09F7DA01", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff48cbaHinar|r",
+			[51] = 1537386847,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [123]
+		{
+			"awesome grats", -- [1]
+			"Petridon-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Petridon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1041, -- [11]
+			"Player-3693-090E1704", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaPetridon|r",
+			[51] = 1537386879,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [124]
+		{
+			"|cff0070dd|Hitem:18697::::::::120:577:512:1:1:4046:38:::|h[Coldstone Slippers]|h|r|cffa335ee|Hitem:163942::::::::120:577::54:2:1472:4786:::|h[Slippers of the Unruly Fairies]|h|r! PST!", -- [1]
+			"Vindertech-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vindertech", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1045, -- [11]
+			"Player-3693-09FC0545", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa330c9Vindertech|r",
+			[51] = 1537386896,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [125]
+		{
+			"WTB |cffffffff|Hitem:152505::::::::115:70::::::|h[Riverbud]|h|r|cffffffff|Hitem:152509::::::::115:70::::::|h[Siren's Pollen]|h|r 30g each all other bfa herbs 15g |cff1eff00|Hitem:152510::::::::115:70::::::|h[Anchor Weed]|h|r 400g each pst or Cod).", -- [1]
+			"Hinar-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hinar", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1048, -- [11]
+			"Player-3693-09F7DA01", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff48cbaHinar|r",
+			[51] = 1537386900,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [126]
+		{
+			"SELLING |cff1eff00|Hitem:152510::::::::120:256::::::|h[Anchor Weed]|h|rx1500 420g EACH - 10g CHEAPER THAN AH", -- [1]
+			"Cõndemnd-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Cõndemnd", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1056, -- [11]
+			"Player-3693-07581CB3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffCõndemnd|r",
+			[51] = 1537386926,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},
 }
