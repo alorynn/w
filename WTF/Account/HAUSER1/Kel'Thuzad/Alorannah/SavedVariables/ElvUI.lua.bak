@@ -24,28 +24,6 @@ ElvCharacterDB = {
 	},
 	["ChatHistoryLog"] = {
 		{
-			"lead on", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			300, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537291226,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [1]
-		{
 			"here", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
 			"", -- [3]
@@ -66,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537291296,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [2]
+		}, -- [1]
 		{
 			"careful", -- [1]
 			"Viadara-Thrall", -- [2]
@@ -88,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Viadara-Thrall|r",
 			[51] = 1537291339,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [3]
+		}, -- [2]
 		{
 			"inc ally", -- [1]
 			"Viadara-Thrall", -- [2]
@@ -110,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Viadara-Thrall|r",
 			[51] = 1537291342,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [4]
+		}, -- [3]
 		{
 			"im curious about that spirit gateway", -- [1]
 			"Viadara-Thrall", -- [2]
@@ -132,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Viadara-Thrall|r",
 			[51] = 1537291399,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [5]
+		}, -- [4]
 		{
 			"ive never seen that", -- [1]
 			"Viadara-Thrall", -- [2]
@@ -154,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Viadara-Thrall|r",
 			[51] = 1537291403,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [6]
+		}, -- [5]
 		{
 			"same", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -176,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537291403,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [7]
+		}, -- [6]
 		{
 			"oh it took me into a crypt lol", -- [1]
 			"Viadara-Thrall", -- [2]
@@ -198,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Viadara-Thrall|r",
 			[51] = 1537291434,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [8]
+		}, -- [7]
 		{
 			"shit me too", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -220,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537291449,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [9]
+		}, -- [8]
 		{
 			"lol", -- [1]
 			"Viadara-Thrall", -- [2]
@@ -242,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Viadara-Thrall|r",
 			[51] = 1537291452,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [10]
+		}, -- [9]
 		{
 			"where aer you guys", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -264,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537291471,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [11]
+		}, -- [10]
 		{
 			"I got killed by alliance", -- [1]
 			"Frisky-Drak'Tharon", -- [2]
@@ -286,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Frisky-Drak'Tharon|r",
 			[51] = 1537291482,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [12]
+		}, -- [11]
 		{
 			"oh come up this way", -- [1]
 			"Viadara-Thrall", -- [2]
@@ -308,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Viadara-Thrall|r",
 			[51] = 1537291501,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [13]
+		}, -- [12]
 		{
 			"its leading me out to an X", -- [1]
 			"Viadara-Thrall", -- [2]
@@ -330,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Viadara-Thrall|r",
 			[51] = 1537291507,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [14]
+		}, -- [13]
 		{
 			"omw", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -352,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537291508,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [15]
+		}, -- [14]
 		{
 			"I see it now", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -374,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537291517,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [16]
+		}, -- [15]
 		{
 			"oh its up above", -- [1]
 			"Viadara-Thrall", -- [2]
@@ -396,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Viadara-Thrall|r",
 			[51] = 1537291537,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [17]
+		}, -- [16]
 		{
 			"strange", -- [1]
 			"Viadara-Thrall", -- [2]
@@ -418,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Viadara-Thrall|r",
 			[51] = 1537291596,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [18]
+		}, -- [17]
 		{
 			"disconnect ed me", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -440,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537291600,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [19]
+		}, -- [18]
 		{
 			"gg", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -462,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537291618,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [20]
+		}, -- [19]
 		{
 			"thanks blizz", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -484,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537291630,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [21]
+		}, -- [20]
 		{
 			"nice mog", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -506,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537291753,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [22]
+		}, -- [21]
 		{
 			"ty", -- [1]
 			"Zzyx-Smolderthorn", -- [2]
@@ -528,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Zzyx-Smolderthorn|r",
 			[51] = 1537291761,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [23]
+		}, -- [22]
 		{
 			"allies", -- [1]
 			"Derland-Gorefiend", -- [2]
@@ -550,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaDerland-Gorefiend|r",
 			[51] = 1537292011,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [24]
+		}, -- [23]
 		{
 			"blind", -- [1]
 			"Derland-Gorefiend", -- [2]
@@ -572,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaDerland-Gorefiend|r",
 			[51] = 1537292269,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [25]
+		}, -- [24]
 		{
 			"regroup", -- [1]
 			"Derland-Gorefiend", -- [2]
@@ -594,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaDerland-Gorefiend|r",
 			[51] = 1537292380,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [26]
+		}, -- [25]
 		{
 			"pls can we go somewhere else", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -616,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537292436,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [27]
+		}, -- [26]
 		{
 			"what chest friend-o", -- [1]
 			"Ðefiant-Stormreaver", -- [2]
@@ -638,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffÐefiant-Stormreaver|r",
 			[51] = 1537293018,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
+		}, -- [27]
 		{
 			"I'll follow you pally", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -660,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537293101,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [29]
+		}, -- [28]
 		{
 			"bunch of shit north of us", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -682,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537293116,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [30]
+		}, -- [29]
 		{
 			"lol damn", -- [1]
 			"Hesaodragoon-Stormscale", -- [2]
@@ -704,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaHesaodragoon-Stormscale|r",
 			[51] = 1537293281,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [31]
+		}, -- [30]
 		{
 			"guys we aernt getting shit for azerite doing this", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -726,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537294268,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [32]
+		}, -- [31]
 		{
 			"lets go get some and finish this", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -748,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537294278,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [33]
+		}, -- [32]
 		{
 			"dont fight in shit like that", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -770,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537294852,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [34]
+		}, -- [33]
 		{
 			"need to be able to see the AOEs on the ground", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -792,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537294861,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [35]
+		}, -- [34]
 		{
 			"so i dont know what you guys were doing while i fought them the last 4 minutes...", -- [1]
 			"Macantsaoir-Turalyon", -- [2]
@@ -814,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaMacantsaoir-Turalyon|r",
 			[51] = 1537294978,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [36]
+		}, -- [35]
 		{
 			"come to me", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -836,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537294987,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [37]
+		}, -- [36]
 		{
 			"lets group and get this over with", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -858,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537294992,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [38]
+		}, -- [37]
 		{
 			"mantis wrong mobs", -- [1]
 			"Macantsaoir-Turalyon", -- [2]
@@ -880,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaMacantsaoir-Turalyon|r",
 			[51] = 1537295070,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [39]
+		}, -- [38]
 		{
 			"pls come here", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -902,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537295071,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [40]
+		}, -- [39]
 		{
 			"can we group up", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -924,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537295135,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [41]
+		}, -- [40]
 		{
 			"dude ", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -946,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537295269,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [42]
+		}, -- [41]
 		{
 			"he just doesnt get it", -- [1]
 			"Macantsaoir-Turalyon", -- [2]
@@ -968,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaMacantsaoir-Turalyon|r",
 			[51] = 1537295286,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [43]
+		}, -- [42]
 		{
 			"just come with me", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -990,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537295296,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [44]
+		}, -- [43]
 		{
 			"hes fgonna do his own thing", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -1012,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537295340,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [45]
+		}, -- [44]
 		{
 			"let me cc", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -1034,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537295416,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [46]
+		}, -- [45]
 		{
 			"Ill follow you guys", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -1056,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537295651,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [47]
+		}, -- [46]
 		{
 			"|cffffff00Zuldazar is under attack!|r", -- [1]
 			"", -- [2]
@@ -1078,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1537298824,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [47]
 		{
 			"hey mind if I hit you up for a guild charter signature?   :D", -- [1]
 			"Thecronos", -- [2]
@@ -1100,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aThecronos|r",
 			[51] = 1537364304,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [49]
+		}, -- [48]
 		{
 			"hey mind if I hit you up for a guild charter signature?   :D", -- [1]
 			"Groshi", -- [2]
@@ -1122,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aGroshi|r",
 			[51] = 1537364311,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [50]
+		}, -- [49]
 		{
 			"hey mind if I hit you up for a guild charter signature?   :D", -- [1]
 			"Tyrancid", -- [2]
@@ -1144,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaTyrancid|r",
 			[51] = 1537364320,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [51]
+		}, -- [50]
 		{
 			"hey mind if I hit you up for a guild charter signature?   :D", -- [1]
 			"Asterix", -- [2]
@@ -1166,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffAsterix|r",
 			[51] = 1537364325,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [52]
+		}, -- [51]
 		{
 			"like temporary? I'm not looking to join a guild", -- [1]
 			"Asterix-Kel'Thuzad", -- [2]
@@ -1188,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffAsterix|r",
 			[51] = 1537364364,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [53]
+		}, -- [52]
 		{
 			"oh ya you dont need to join", -- [1]
 			"Asterix-Kel'Thuzad", -- [2]
@@ -1210,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffAsterix|r",
 			[51] = 1537364380,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [54]
+		}, -- [53]
 		{
 			"k what do I do", -- [1]
 			"Asterix-Kel'Thuzad", -- [2]
@@ -1232,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffAsterix|r",
 			[51] = 1537364389,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [55]
+		}, -- [54]
 		{
 			"just to create a guild requires some sigs", -- [1]
 			"Asterix-Kel'Thuzad", -- [2]
@@ -1254,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffAsterix|r",
 			[51] = 1537364389,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [56]
+		}, -- [55]
 		{
 			"oh sure", -- [1]
 			"Groshi-Kel'Thuzad", -- [2]
@@ -1276,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aGroshi|r",
 			[51] = 1537364427,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [57]
+		}, -- [56]
 		{
 			"ha Im not sure! lol been years since Ive done this, one sec", -- [1]
 			"Asterix-Kel'Thuzad", -- [2]
@@ -1298,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffAsterix|r",
 			[51] = 1537364428,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [58]
+		}, -- [57]
 		{
 			"|cffffff00Orgrimmar is under attack!|r", -- [1]
 			"", -- [2]
@@ -1320,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1537364432,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [58]
 		{
 			"you still at the ah?", -- [1]
 			"Groshi-Kel'Thuzad", -- [2]
@@ -1342,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aGroshi|r",
 			[51] = 1537364434,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [60]
+		}, -- [59]
 		{
 			"cool ty! be there in 1 min", -- [1]
 			"Groshi-Kel'Thuzad", -- [2]
@@ -1364,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aGroshi|r",
 			[51] = 1537364436,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [61]
+		}, -- [60]
 		{
 			"hey thanks man! ", -- [1]
 			"Groshi-Kel'Thuzad", -- [2]
@@ -1386,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aGroshi|r",
 			[51] = 1537364481,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [62]
+		}, -- [61]
 		{
 			"omw!", -- [1]
 			"Groshi-Kel'Thuzad", -- [2]
@@ -1408,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aGroshi|r",
 			[51] = 1537364485,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [63]
+		}, -- [62]
 		{
 			"hey thanks man!", -- [1]
 			"Asterix-Kel'Thuzad", -- [2]
@@ -1430,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffAsterix|r",
 			[51] = 1537364493,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [64]
+		}, -- [63]
 		{
 			"I think thats it! have a good one!   :D", -- [1]
 			"Asterix-Kel'Thuzad", -- [2]
@@ -1452,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffAsterix|r",
 			[51] = 1537364501,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [65]
+		}, -- [64]
 		{
 			"np", -- [1]
 			"Asterix-Kel'Thuzad", -- [2]
@@ -1474,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffAsterix|r",
 			[51] = 1537364510,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [66]
+		}, -- [65]
 		{
 			"hey thanks a lot! have a good one!   XD", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -1496,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537364538,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [67]
+		}, -- [66]
 		{
 			"np", -- [1]
 			"Groshi-Kel'Thuzad", -- [2]
@@ -1518,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aGroshi|r",
 			[51] = 1537364542,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [68]
+		}, -- [67]
 		{
 			"hey mind if I hit you up for a guild charter signature?   :D", -- [1]
 			"Thecronos-Kel'Thuzad", -- [2]
@@ -1540,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aThecronos|r",
 			[51] = 1537364565,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [69]
+		}, -- [68]
 		{
 			"hey mind if I hit you up for a guild charter signature?   :D", -- [1]
 			"Miikah-Kel'Thuzad", -- [2]
@@ -1562,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Miikah|r",
 			[51] = 1537364570,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [70]
+		}, -- [69]
 		{
 			"hey mind if I hit you up for a guild charter signature?   :D", -- [1]
 			"Tyrancid-Kel'Thuzad", -- [2]
@@ -1584,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaTyrancid|r",
 			[51] = 1537364577,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [71]
+		}, -- [70]
 		{
 			"hey mind if I hit you up for a guild charter signature?   :D", -- [1]
 			"Gàladriel-Kel'Thuzad", -- [2]
@@ -1606,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGàladriel|r",
 			[51] = 1537364584,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [72]
+		}, -- [71]
 		{
 			"hey mind if I hit you up for a guild charter signature?   :D", -- [1]
 			"Kazaroth", -- [2]
@@ -1628,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffKazaroth|r",
 			[51] = 1537364591,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [73]
+		}, -- [72]
 		{
 			"lol im getting mine signed right now lol", -- [1]
 			"Gàladriel-Kel'Thuzad", -- [2]
@@ -1650,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGàladriel|r",
 			[51] = 1537364598,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [74]
+		}, -- [73]
 		{
 			"hahaha good luck!   XD", -- [1]
 			"Gàladriel-Kel'Thuzad", -- [2]
@@ -1672,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGàladriel|r",
 			[51] = 1537364606,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [75]
+		}, -- [74]
 		{
 			"and you just asked the guy i asked lol", -- [1]
 			"Gàladriel-Kel'Thuzad", -- [2]
@@ -1694,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGàladriel|r",
 			[51] = 1537364609,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [76]
+		}, -- [75]
 		{
 			"haha damn ", -- [1]
 			"Gàladriel-Kel'Thuzad", -- [2]
@@ -1716,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGàladriel|r",
 			[51] = 1537364619,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [77]
+		}, -- [76]
 		{
 			"wonder if we'd be better off in the started zones?", -- [1]
 			"Gàladriel-Kel'Thuzad", -- [2]
@@ -1738,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGàladriel|r",
 			[51] = 1537364624,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [78]
+		}, -- [77]
 		{
 			"LF Port to Vale - 400g", -- [1]
 			"Etrio-Stormreaver", -- [2]
@@ -1760,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddEtrio-Stormreaver|r",
 			[51] = 1537364633,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [78]
 		{
 			"yeah i would say so offer them some gold theyll do it", -- [1]
 			"Gàladriel-Kel'Thuzad", -- [2]
@@ -1782,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGàladriel|r",
 			[51] = 1537364645,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [80]
+		}, -- [79]
 		{
 			"ya maybe I'll hit up the BE starting zone", -- [1]
 			"Gàladriel-Kel'Thuzad", -- [2]
@@ -1804,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGàladriel|r",
 			[51] = 1537364672,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [81]
+		}, -- [80]
 		{
 			"sry my hubby got me first lol", -- [1]
 			"Miikah-Kel'Thuzad", -- [2]
@@ -1826,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Miikah|r",
 			[51] = 1537364678,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [82]
+		}, -- [81]
 		{
 			"hey mind if I hit you up for a guild charter signature?   :D", -- [1]
 			"Illmortal", -- [2]
@@ -1848,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Illmortal|r",
 			[51] = 1537364696,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [83]
+		}, -- [82]
 		{
 			"ha np!", -- [1]
 			"Miikah-Kel'Thuzad", -- [2]
@@ -1870,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Miikah|r",
 			[51] = 1537364703,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [84]
+		}, -- [83]
 		{
 			"sure", -- [1]
 			"Illmortal-Kel'Thuzad", -- [2]
@@ -1892,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Illmortal|r",
 			[51] = 1537364704,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [85]
+		}, -- [84]
 		{
 			"ty! omw!", -- [1]
 			"Illmortal-Kel'Thuzad", -- [2]
@@ -1914,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Illmortal|r",
 			[51] = 1537364711,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [86]
+		}, -- [85]
 		{
 			"in the air right from seal", -- [1]
 			"Illmortal-Kel'Thuzad", -- [2]
@@ -1936,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Illmortal|r",
 			[51] = 1537364767,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [87]
+		}, -- [86]
 		{
 			"oh shit warmode?", -- [1]
 			"Illmortal-Kel'Thuzad", -- [2]
@@ -1958,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Illmortal|r",
 			[51] = 1537364825,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [88]
+		}, -- [87]
 		{
 			"meet in org", -- [1]
 			"Illmortal-Kel'Thuzad", -- [2]
@@ -1980,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Illmortal|r",
 			[51] = 1537364839,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [89]
+		}, -- [88]
 		{
 			"haha sorry XD", -- [1]
 			"Illmortal-Kel'Thuzad", -- [2]
@@ -2002,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Illmortal|r",
 			[51] = 1537364854,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [90]
+		}, -- [89]
 		{
 			"never done this before", -- [1]
 			"Illmortal-Kel'Thuzad", -- [2]
@@ -2024,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Illmortal|r",
 			[51] = 1537364858,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [91]
+		}, -- [90]
 		{
 			"comin to org?", -- [1]
 			"Illmortal-Kel'Thuzad", -- [2]
@@ -2046,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Illmortal|r",
 			[51] = 1537364946,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [92]
+		}, -- [91]
 		{
 			"hey there you are lol", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2068,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537364960,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [93]
+		}, -- [92]
 		{
 			"thanks again man", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2090,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537364963,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [94]
+		}, -- [93]
 		{
 			"no worries", -- [1]
 			"Illmortal-Kel'Thuzad", -- [2]
@@ -2112,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Illmortal|r",
 			[51] = 1537364966,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [95]
+		}, -- [94]
 		{
 			"tyvm! have a great one!   :D", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2134,7 +2112,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537364977,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [96]
+		}, -- [95]
 		{
 			"LF Port to Vale - 400g", -- [1]
 			"Etrio-Stormreaver", -- [2]
@@ -2156,7 +2134,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddEtrio-Stormreaver|r",
 			[51] = 1537364979,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [96]
 		{
 			"u2", -- [1]
 			"Illmortal-Kel'Thuzad", -- [2]
@@ -2178,7 +2156,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Illmortal|r",
 			[51] = 1537364981,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [98]
+		}, -- [97]
 		{
 			"hey I just need one more sig and I have a couple unguilded alts if you wanna join forces?", -- [1]
 			"Gàladriel-Kel'Thuzad", -- [2]
@@ -2200,7 +2178,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGàladriel|r",
 			[51] = 1537365019,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [99]
+		}, -- [98]
 		{
 			"if you have an unguilded horde alt I can use for a sig, I have 2-3 unguilded alts atm you can use for sigs", -- [1]
 			"Gàladriel-Kel'Thuzad", -- [2]
@@ -2222,7 +2200,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGàladriel|r",
 			[51] = 1537365046,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [100]
+		}, -- [99]
 		{
 			"ill sign it then leave so i can make mine ", -- [1]
 			"Gàladriel-Kel'Thuzad", -- [2]
@@ -2244,7 +2222,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGàladriel|r",
 			[51] = 1537365058,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [101]
+		}, -- [100]
 		{
 			"i want a guild for the storage ", -- [1]
 			"Gàladriel-Kel'Thuzad", -- [2]
@@ -2266,7 +2244,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGàladriel|r",
 			[51] = 1537365094,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [102]
+		}, -- [101]
 		{
 			"ha ya same", -- [1]
 			"Gàladriel-Kel'Thuzad", -- [2]
@@ -2288,7 +2266,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGàladriel|r",
 			[51] = 1537365099,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [103]
+		}, -- [102]
 		{
 			"ok cool lets do this", -- [1]
 			"Gàladriel-Kel'Thuzad", -- [2]
@@ -2310,7 +2288,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGàladriel|r",
 			[51] = 1537365110,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [104]
+		}, -- [103]
 		{
 			"i farm a lot", -- [1]
 			"Gàladriel-Kel'Thuzad", -- [2]
@@ -2332,7 +2310,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGàladriel|r",
 			[51] = 1537365113,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [105]
+		}, -- [104]
 		{
 			":)", -- [1]
 			"Gàladriel-Kel'Thuzad", -- [2]
@@ -2354,7 +2332,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGàladriel|r",
 			[51] = 1537365115,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [106]
+		}, -- [105]
 		{
 			"same for mogs", -- [1]
 			"Gàladriel-Kel'Thuzad", -- [2]
@@ -2376,7 +2354,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGàladriel|r",
 			[51] = 1537365118,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [107]
+		}, -- [106]
 		{
 			"legendaries etc", -- [1]
 			"Gàladriel-Kel'Thuzad", -- [2]
@@ -2398,7 +2376,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGàladriel|r",
 			[51] = 1537365123,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [108]
+		}, -- [107]
 		{
 			"but also mats for $$$", -- [1]
 			"Gàladriel-Kel'Thuzad", -- [2]
@@ -2420,7 +2398,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGàladriel|r",
 			[51] = 1537365134,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [109]
+		}, -- [108]
 		{
 			"hey nice mount! lol", -- [1]
 			"Gàladriel-Kel'Thuzad", -- [2]
@@ -2442,7 +2420,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGàladriel|r",
 			[51] = 1537365165,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [110]
+		}, -- [109]
 		{
 			"ha ty", -- [1]
 			"Gàladriel-Kel'Thuzad", -- [2]
@@ -2464,7 +2442,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGàladriel|r",
 			[51] = 1537365171,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [111]
+		}, -- [110]
 		{
 			"what it says already signed ", -- [1]
 			"Gàladriel-Kel'Thuzad", -- [2]
@@ -2486,7 +2464,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGàladriel|r",
 			[51] = 1537365192,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [112]
+		}, -- [111]
 		{
 			"ok wait let me get rid of my charter maybe thats why", -- [1]
 			"Gàladriel-Kel'Thuzad", -- [2]
@@ -2508,7 +2486,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGàladriel|r",
 			[51] = 1537365206,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [113]
+		}, -- [112]
 		{
 			"hmm weird", -- [1]
 			"Gàladriel-Kel'Thuzad", -- [2]
@@ -2530,7 +2508,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGàladriel|r",
 			[51] = 1537365211,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [114]
+		}, -- [113]
 		{
 			"try again", -- [1]
 			"Gàladriel-Kel'Thuzad", -- [2]
@@ -2552,7 +2530,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGàladriel|r",
 			[51] = 1537365219,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [115]
+		}, -- [114]
 		{
 			"ok", -- [1]
 			"Gàladriel-Kel'Thuzad", -- [2]
@@ -2574,7 +2552,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGàladriel|r",
 			[51] = 1537365222,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [116]
+		}, -- [115]
 		{
 			"there ", -- [1]
 			"Gàladriel-Kel'Thuzad", -- [2]
@@ -2596,7 +2574,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGàladriel|r",
 			[51] = 1537365239,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [117]
+		}, -- [116]
 		{
 			"ok cool ty! lemme turn this in then I can get my alts to sign for you", -- [1]
 			"Gàladriel-Kel'Thuzad", -- [2]
@@ -2618,7 +2596,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGàladriel|r",
 			[51] = 1537365250,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [118]
+		}, -- [117]
 		{
 			"ok awesome", -- [1]
 			"Gàladriel-Kel'Thuzad", -- [2]
@@ -2640,7 +2618,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGàladriel|r",
 			[51] = 1537365261,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [119]
+		}, -- [118]
 		{
 			"ok that worked - now lemme copy your name so I can msg when I relog", -- [1]
 			"Gàladriel-Kel'Thuzad", -- [2]
@@ -2662,7 +2640,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGàladriel|r",
 			[51] = 1537365298,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [120]
+		}, -- [119]
 		{
 			"hey guys thanks for the sigs! :D", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2684,7 +2662,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537365311,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [121]
+		}, -- [120]
 		{
 			"<3", -- [1]
 			"Groshi-Kel'Thuzad", -- [2]
@@ -2706,7 +2684,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aGroshi|r",
 			[51] = 1537365336,
 			[50] = "CHAT_MSG_GUILD",
-		}, -- [122]
+		}, -- [121]
 		{
 			"lol can you paste your name to me? I cant figfure out how to get that fancy a", -- [1]
 			"Gàladriel-Kel'Thuzad", -- [2]
@@ -2728,7 +2706,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGàladriel|r",
 			[51] = 1537365367,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [123]
+		}, -- [122]
 		{
 			"|cffffff00Orgrimmar is under attack!|r", -- [1]
 			"", -- [2]
@@ -2750,7 +2728,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1537365385,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [124]
+		}, -- [123]
 		{
 			"add toon friend", -- [1]
 			"Gàladriel-Kel'Thuzad", -- [2]
@@ -2772,7 +2750,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGàladriel|r",
 			[51] = 1537365412,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [125]
+		}, -- [124]
 		{
 			"i used special character dont remember the code ", -- [1]
 			"Gàladriel-Kel'Thuzad", -- [2]
@@ -2794,7 +2772,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGàladriel|r",
 			[51] = 1537365423,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [126]
+		}, -- [125]
 		{
 			"ha ok I got it - ok gonna relog on alts, brb!", -- [1]
 			"Gàladriel-Kel'Thuzad", -- [2]
@@ -2816,6 +2794,28 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGàladriel|r",
 			[51] = 1537365447,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [126]
+		{
+			"|cffffff00Valley of Spirits is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Orgrimmar", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Orgrimmar", -- [9]
+			0, -- [10]
+			449, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1537417187,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},
 }

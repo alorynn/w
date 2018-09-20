@@ -35,9 +35,9 @@ PasteDB = {
 		["Hauzerhunter - Kel'Thuzad"] = "Hauzerhunter - Kel'Thuzad",
 		["Beatryce - Kel'Thuzad"] = "Beatryce - Kel'Thuzad",
 		["Skãdi - Kel'Thuzad"] = "Skãdi - Kel'Thuzad",
-		["Fsdkjhskdjfh - Kel'Thuzad"] = "Fsdkjhskdjfh - Kel'Thuzad",
-		["Kmkarbashian - Kel'Thuzad"] = "Kmkarbashian - Kel'Thuzad",
 		["Olrapey - Kel'Thuzad"] = "Olrapey - Kel'Thuzad",
+		["Kmkarbashian - Kel'Thuzad"] = "Kmkarbashian - Kel'Thuzad",
+		["Fsdkjhskdjfh - Kel'Thuzad"] = "Fsdkjhskdjfh - Kel'Thuzad",
 		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
 		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
 		["Testfoolio - Kel'Thuzad"] = "Testfoolio - Kel'Thuzad",
@@ -169,7 +169,7 @@ PasteDB = {
 		["Skãdi - Kel'Thuzad"] = {
 			["loaded"] = true,
 		},
-		["Fsdkjhskdjfh - Kel'Thuzad"] = {
+		["Olrapey - Kel'Thuzad"] = {
 			["loaded"] = true,
 		},
 		["Kmkarbashian - Kel'Thuzad"] = {
@@ -178,7 +178,7 @@ PasteDB = {
 				["hide"] = true,
 			},
 		},
-		["Olrapey - Kel'Thuzad"] = {
+		["Fsdkjhskdjfh - Kel'Thuzad"] = {
 			["loaded"] = true,
 		},
 		["Hauzer - Kel'Thuzad"] = {
@@ -200,15 +200,15 @@ PasteDB = {
 			["whispertarget"] = "",
 			["where"] = "Default",
 			["loaded"] = true,
+			["minimap"] = {
+				["minimapPos"] = 216.288929982077,
+				["hide"] = true,
+			},
 			["pos"] = {
 				["height"] = 320.833404541016,
 				["top"] = 760,
 				["left"] = 816.666809082031,
 				["width"] = 499.999938964844,
-			},
-			["minimap"] = {
-				["minimapPos"] = 216.288929982077,
-				["hide"] = true,
 			},
 		},
 		["Testfoolio - Kel'Thuzad"] = {

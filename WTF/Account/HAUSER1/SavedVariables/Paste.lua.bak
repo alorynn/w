@@ -33,9 +33,9 @@ PasteDB = {
 		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
 		["Leeroyjenkem - Kel'Thuzad"] = "Leeroyjenkem - Kel'Thuzad",
 		["Hauzerhunter - Kel'Thuzad"] = "Hauzerhunter - Kel'Thuzad",
-		["Fsdkjhskdjfh - Kel'Thuzad"] = "Fsdkjhskdjfh - Kel'Thuzad",
-		["Skãdi - Kel'Thuzad"] = "Skãdi - Kel'Thuzad",
 		["Olrapey - Kel'Thuzad"] = "Olrapey - Kel'Thuzad",
+		["Skãdi - Kel'Thuzad"] = "Skãdi - Kel'Thuzad",
+		["Fsdkjhskdjfh - Kel'Thuzad"] = "Fsdkjhskdjfh - Kel'Thuzad",
 		["Kmkarbashian - Kel'Thuzad"] = "Kmkarbashian - Kel'Thuzad",
 		["Beatryce - Kel'Thuzad"] = "Beatryce - Kel'Thuzad",
 		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
@@ -57,17 +57,17 @@ PasteDB = {
 			["loaded"] = true,
 		},
 		["Laurannah - Kel'Thuzad"] = {
-			["whispertarget"] = "",
-			["where"] = "Default",
 			["loaded"] = true,
+			["minimap"] = {
+				["hide"] = true,
+			},
+			["where"] = "Default",
+			["whispertarget"] = "",
 			["pos"] = {
 				["height"] = 320.000030517578,
 				["top"] = 760,
 				["left"] = 816.666809082031,
 				["width"] = 499.999938964844,
-			},
-			["minimap"] = {
-				["hide"] = true,
 			},
 		},
 		["Alisheeya - Kel'Thuzad"] = {
@@ -155,18 +155,18 @@ PasteDB = {
 			["loaded"] = true,
 		},
 		["Alorannah - Kel'Thuzad"] = {
-			["loaded"] = true,
-			["minimap"] = {
-				["minimapPos"] = 216.288929982077,
-				["hide"] = true,
-			},
-			["where"] = "Default",
 			["whispertarget"] = "",
+			["where"] = "Default",
+			["loaded"] = true,
 			["pos"] = {
 				["height"] = 320.833404541016,
 				["top"] = 760,
 				["left"] = 816.666809082031,
 				["width"] = 499.999938964844,
+			},
+			["minimap"] = {
+				["minimapPos"] = 216.288929982077,
+				["hide"] = true,
 			},
 		},
 		["Leeroyjenkem - Kel'Thuzad"] = {
@@ -175,13 +175,13 @@ PasteDB = {
 		["Hauzerhunter - Kel'Thuzad"] = {
 			["loaded"] = true,
 		},
-		["Fsdkjhskdjfh - Kel'Thuzad"] = {
+		["Olrapey - Kel'Thuzad"] = {
 			["loaded"] = true,
 		},
 		["Skãdi - Kel'Thuzad"] = {
 			["loaded"] = true,
 		},
-		["Olrapey - Kel'Thuzad"] = {
+		["Fsdkjhskdjfh - Kel'Thuzad"] = {
 			["loaded"] = true,
 		},
 		["Kmkarbashian - Kel'Thuzad"] = {

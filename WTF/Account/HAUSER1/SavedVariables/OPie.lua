@@ -106,6 +106,11 @@ OneRing_Config = {
 					"BattlePet-0-000005F0B637", -- [2]
 					["sliceToken"] = "ABueo98aIgy",
 				}, -- [2]
+				{
+					"battlepet", -- [1]
+					"BattlePet-0-000005C494B4", -- [2]
+					["sliceToken"] = "ABuedaqMAAr",
+				}, -- [3]
 				["name"] = "Pets",
 				["save"] = true,
 				["limit"] = "Laurannah-Kel'Thuzad",
@@ -136,9 +141,9 @@ OneRing_Config = {
 					["sliceToken"] = "OPCHP5",
 					["id"] = "#showtooltip [@pet,exists,nodead,nopet:5] {{spell:83245}};\n/cast [@pet,exists,nopet:5,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:83245}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
 				}, -- [5]
-				["limit"] = "HUNTER",
-				["save"] = true,
 				["name"] = "Pets",
+				["save"] = true,
+				["limit"] = "HUNTER",
 			},
 			["Emotes"] = {
 				{

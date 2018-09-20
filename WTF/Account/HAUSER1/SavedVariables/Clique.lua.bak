@@ -4,9 +4,9 @@ CliqueDB3 = {
 	["char"] = {
 		["Laurannah - Kel'Thuzad"] = {
 			["spec1_profileKey"] = "Laurannah - Kel'Thuzad",
+			["fastooc"] = false,
 			["spec3_profileKey"] = "Laurannah - Kel'Thuzad",
 			["downclick"] = false,
-			["fastooc"] = false,
 			["spec2_profileKey"] = "Laurannah - Kel'Thuzad",
 			["specswap"] = false,
 		},
@@ -20,9 +20,9 @@ CliqueDB3 = {
 		},
 		["Alorannah - Kel'Thuzad"] = {
 			["spec1_profileKey"] = "Alorannah - Kel'Thuzad",
-			["fastooc"] = false,
 			["spec2_profileKey"] = "Alorannah - Kel'Thuzad",
 			["downclick"] = false,
+			["fastooc"] = false,
 			["specswap"] = false,
 			["spec3_profileKey"] = "Alorannah - Kel'Thuzad",
 		},
