@@ -85,3 +85,4 @@ DBM-TombofSargeras: disabled
 DBM-TrialofValor: disabled
 DBM-Uldir: disabled
 DBM-WorldEvents: disabled
+_NPCScan.Overlay: disabled

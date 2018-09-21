@@ -24,6 +24,7 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["5285345"] = "589000:8",
 		["5319245"] = "1887500:11",
 		["5325140"] = "1685000:5",
+		["5332020"] = "1655000:10",
 		["5323148"] = "1575000:8",
 		["5309734"] = "2920000:4",
 		["5291104"] = "1035000:17",
@@ -143,6 +144,7 @@ AUCTIONATOR_PRICING_HISTORY = {
 	},
 	["Deep Sea Satin"] = {
 		["is"] = "152577:0:0:0:0",
+		["5332021"] = "297000:1",
 		["5279508"] = "2245000:3",
 		["5282801"] = "1232500:2",
 	},
@@ -189,6 +191,7 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["5319250"] = "248000:1",
 		["5327020"] = "241000:3",
 		["5301491"] = "214500:14",
+		["5332020"] = "219800:6",
 		["5328581"] = "220000:7",
 		["5304272"] = "249000:11",
 		["5287137"] = "179900:22",
@@ -202,32 +205,32 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["5308369"] = "198500:7",
 		["5279506"] = "176000:9",
 		["5307345"] = "160000:7",
-		["5295604"] = "119500:27",
 		["5314311"] = "219000:191",
+		["5295604"] = "119500:27",
 		["5279502"] = "176000:200",
 		["5329946"] = "236000:3",
 		["5321718"] = "202000:10",
 		["5295606"] = "119500:4",
 	},
-	["Viridium"] = {
-		["is"] = "153704:0:0:0:0",
-		["5279504"] = "199000:1",
+	["Shipwrecker Knife of the Fireflash"] = {
+		["is"] = "159524:0:0:0:4796",
+		["5283103"] = "4895000:1",
 	},
 	["Lightweave Cloth"] = {
 		["is"] = "151567:0:0:0:0",
 		["5257034"] = "9700:16",
 	},
-	["Golden Fleet Greataxe of the Aurora"] = {
+	["Golden Fleet Greataxe of the Peerless"] = {
 		["is"] = "159485:0:0:0:4796",
-		["5284695"] = "3997500:1",
+		["5284696"] = "2990000:1",
 	},
 	["Torgashell Helmet of the Feverflare"] = {
 		["is"] = "154809:0:0:0:4796",
 		["5284696"] = "30640000:1",
 	},
-	["Golden Fleet Greataxe of the Peerless"] = {
+	["Golden Fleet Greataxe of the Aurora"] = {
 		["is"] = "159485:0:0:0:4796",
-		["5284696"] = "2990000:1",
+		["5284695"] = "3997500:1",
 	},
 	["Big Fountain Goldfish"] = {
 		["is"] = "138967:0:0:0:0",
@@ -248,6 +251,7 @@ AUCTIONATOR_PRICING_HISTORY = {
 	},
 	["Veiled Crystal"] = {
 		["5311461"] = "24980000:1",
+		["5332019"] = "6690000:1",
 		["5319246"] = "12940000:1",
 		["5314578"] = "16970000:1",
 		["is"] = "152877:0:0:0:0",
@@ -272,10 +276,9 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["5321718"] = "11240000:1",
 		["5295606"] = "54540000:1",
 	},
-	["Great Sea Catfish"] = {
-		["is"] = "152547:0:0:0:0",
-		["5329946"] = "151000:10",
-		["5279509"] = "89500:10",
+	["Tiragarde Perch"] = {
+		["is"] = "152548:0:0:0:0",
+		["5279508"] = "49900:9",
 	},
 	["Briny Flesh"] = {
 		["is"] = "152631:0:0:0:0",
@@ -289,9 +292,10 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["is"] = "154897:0:0:0:0",
 		["5279503"] = "1185:128",
 	},
-	["Tiragarde Perch"] = {
-		["is"] = "152548:0:0:0:0",
-		["5279508"] = "49900:9",
+	["Great Sea Catfish"] = {
+		["is"] = "152547:0:0:0:0",
+		["5329946"] = "151000:10",
+		["5279509"] = "89500:10",
 	},
 	["Chemical Blasting Cap"] = {
 		["5282800"] = "49800:7",
@@ -302,9 +306,9 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["is"] = "159821:0:0:0:4796",
 		["5284696"] = "4002500:1",
 	},
-	["Shipwrecker Knife of the Fireflash"] = {
-		["is"] = "159524:0:0:0:4796",
-		["5283103"] = "4895000:1",
+	["Viridium"] = {
+		["is"] = "153704:0:0:0:0",
+		["5279504"] = "199000:1",
 	},
 	["Defiled Augment Rune"] = {
 		["5257034"] = "181000:1",
@@ -329,56 +333,56 @@ AUCTIONATOR_PRICING_HISTORY = {
 AUCTIONATOR_SHOPPING_LISTS = {
 	{
 		["items"] = {
-			"blood-stained bone", -- [1]
-			"Akunda's bite", -- [2]
-			"Akuna's bite", -- [3]
-			"contract", -- [4]
-			"tidespray linen", -- [5]
-			";Glyph/Rogue;0;0;0;0", -- [6]
-			"poseidus", -- [7]
-			"coarse leather", -- [8]
-			"coarse leather ", -- [9]
-			"winter's kiss", -- [10]
-			"shimmerscale", -- [11]
-			"monelite ore", -- [12]
-			"Great sea catfish", -- [13]
-			"sea stalk", -- [14]
-			"crow's nest scope", -- [15]
-			"monel-hardened stirrups", -- [16]
-			"steelskin potion", -- [17]
-			"straddling viridium", -- [18]
-			"enchant ring - seal of vers", -- [19]
-			"coarse leather barding", -- [20]
-			"war-scroll of fortitude", -- [21]
-			"tome of the tranquil mind", -- [22]
-			"monel-har", -- [23]
-			"monel hard", -- [24]
-			"monel stirr", -- [25]
-			"Deep sea ", -- [26]
-			"big fountain goldfish", -- [27]
-			"Deep sea bandage", -- [28]
-			"coastal", -- [29]
-			"tranquil mind", -- [30]
-			"redtail", -- [31]
-			"Astral glory", -- [32]
-			"fiendish leather", -- [33]
-			"lightweave cloth", -- [34]
-			"Glorious", -- [35]
-			"Glorious legplates", -- [36]
-			"silkweave bandage", -- [37]
-			"Ancient healing", -- [38]
-			"healing", -- [39]
-			"Goldfish", -- [40]
-			"stormscale", -- [41]
-			"cobalt bar", -- [42]
-			"king's amber", -- [43]
-			"titansteel bar", -- [44]
-			"windwool clo", -- [45]
-			"Ghost iron", -- [46]
-			"silver con", -- [47]
-			"silver bar", -- [48]
-			"Iron bar", -- [49]
-			"medium leather", -- [50]
+			"siren's pollen", -- [1]
+			"blood-stained bone", -- [2]
+			"Akunda's bite", -- [3]
+			"Akuna's bite", -- [4]
+			"contract", -- [5]
+			"tidespray linen", -- [6]
+			";Glyph/Rogue;0;0;0;0", -- [7]
+			"poseidus", -- [8]
+			"coarse leather", -- [9]
+			"coarse leather ", -- [10]
+			"winter's kiss", -- [11]
+			"shimmerscale", -- [12]
+			"monelite ore", -- [13]
+			"Great sea catfish", -- [14]
+			"sea stalk", -- [15]
+			"crow's nest scope", -- [16]
+			"monel-hardened stirrups", -- [17]
+			"steelskin potion", -- [18]
+			"straddling viridium", -- [19]
+			"enchant ring - seal of vers", -- [20]
+			"coarse leather barding", -- [21]
+			"war-scroll of fortitude", -- [22]
+			"tome of the tranquil mind", -- [23]
+			"monel-har", -- [24]
+			"monel hard", -- [25]
+			"monel stirr", -- [26]
+			"Deep sea ", -- [27]
+			"big fountain goldfish", -- [28]
+			"Deep sea bandage", -- [29]
+			"coastal", -- [30]
+			"tranquil mind", -- [31]
+			"redtail", -- [32]
+			"Astral glory", -- [33]
+			"fiendish leather", -- [34]
+			"lightweave cloth", -- [35]
+			"Glorious", -- [36]
+			"Glorious legplates", -- [37]
+			"silkweave bandage", -- [38]
+			"Ancient healing", -- [39]
+			"healing", -- [40]
+			"Goldfish", -- [41]
+			"stormscale", -- [42]
+			"cobalt bar", -- [43]
+			"king's amber", -- [44]
+			"titansteel bar", -- [45]
+			"windwool clo", -- [46]
+			"Ghost iron", -- [47]
+			"silver con", -- [48]
+			"silver bar", -- [49]
+			"Iron bar", -- [50]
 		},
 		["isRecents"] = 1,
 		["name"] = "Recent Searches",
@@ -414,18 +418,18 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 2,
 		},
 		["Coarse Leather Gauntlets of the Harmonious"] = {
-			["mr"] = 16500000,
-			["sc"] = 2,
-			["id"] = "154140:0:0:0:1716",
 			["H2858"] = 16500000,
 			["cc"] = 4,
+			["id"] = "154140:0:0:0:1716",
+			["mr"] = 16500000,
+			["sc"] = 2,
 		},
 		["Coarse Leather Waistguard of the Harmonious"] = {
-			["mr"] = 66040293,
-			["sc"] = 2,
-			["id"] = "154144:0:0:0:1713",
 			["H2858"] = 66040293,
 			["cc"] = 4,
+			["id"] = "154144:0:0:0:1713",
+			["mr"] = 66040293,
+			["sc"] = 2,
 		},
 		["Glyph of Disguise"] = {
 			["mr"] = 2087500,
@@ -436,24 +440,24 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Straddling Viridium"] = {
 			["mr"] = 222785,
-			["cc"] = 3,
-			["id"] = "153715:0:0:0:0",
-			["H2855"] = 222785,
 			["sc"] = 9,
+			["H2855"] = 222785,
+			["id"] = "153715:0:0:0:0",
+			["cc"] = 3,
 		},
 		["Shimmerscale Waistguard of the Feverflare"] = {
 			["mr"] = 10767241,
-			["H2856"] = 10767241,
-			["id"] = "154152:0:0:0:1697",
-			["sc"] = 3,
 			["cc"] = 4,
+			["id"] = "154152:0:0:0:1697",
+			["H2856"] = 10767241,
+			["sc"] = 3,
 		},
 		["Coarse Leather Cestus of the Peerless"] = {
-			["mr"] = 50000000,
-			["sc"] = 13,
-			["id"] = "154161:0:0:0:1686",
 			["H2858"] = 50000000,
 			["cc"] = 2,
+			["id"] = "154161:0:0:0:1686",
+			["mr"] = 50000000,
+			["sc"] = 13,
 		},
 		["Blood-Stained Bone"] = {
 			["mr"] = 253404,
@@ -463,11 +467,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 6,
 		},
 		["Coarse Leather"] = {
-			["mr"] = 51500,
-			["sc"] = 6,
-			["id"] = "152541:0:0:0:0",
 			["H2858"] = 51500,
 			["cc"] = 7,
+			["id"] = "152541:0:0:0:0",
+			["mr"] = 51500,
+			["sc"] = 6,
 		},
 		["Tidespray Linen Net"] = {
 			["mr"] = 5418388,
@@ -477,11 +481,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["cc"] = 0,
 		},
 		["Coarse Leather Waistguard of the Fireflash"] = {
-			["mr"] = 19990000,
-			["sc"] = 2,
-			["id"] = "154144:0:0:0:1692",
 			["H2858"] = 19990000,
 			["cc"] = 4,
+			["id"] = "154144:0:0:0:1692",
+			["mr"] = 19990000,
+			["sc"] = 2,
 		},
 		["Tidespray Linen Cloak of the Aurora"] = {
 			["mr"] = 15000000,
@@ -506,10 +510,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Monelite Ore"] = {
 			["mr"] = 497149,
-			["cc"] = 7,
-			["id"] = "152512:0:0:0:0",
-			["H2863"] = 497149,
 			["sc"] = 7,
+			["H2863"] = 497149,
+			["id"] = "152512:0:0:0:0",
+			["cc"] = 7,
 		},
 		["Shimmerscale Armguards of the Fireflash"] = {
 			["mr"] = 3000000,
@@ -534,10 +538,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Shimmerscale Treads of the Feverflare"] = {
 			["mr"] = 8842751,
-			["H2856"] = 8842751,
-			["id"] = "154147:0:0:0:1698",
-			["sc"] = 3,
 			["cc"] = 4,
+			["id"] = "154147:0:0:0:1698",
+			["H2856"] = 8842751,
+			["sc"] = 3,
 		},
 		["Glyph of Blackout"] = {
 			["mr"] = 16509997,
@@ -548,10 +552,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["War-Scroll of Fortitude"] = {
 			["mr"] = 1294999,
-			["cc"] = 0,
-			["id"] = "158204:0:0:0:0",
-			["H2855"] = 1294999,
 			["sc"] = 8,
+			["H2855"] = 1294999,
+			["id"] = "158204:0:0:0:0",
+			["cc"] = 0,
 		},
 		["Great Sea Catfish"] = {
 			["mr"] = 134000,
@@ -582,21 +586,20 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["cc"] = 4,
 		},
 		["Coarse Leather Leggings of the Fireflash"] = {
-			["mr"] = 22571612,
-			["sc"] = 2,
-			["id"] = "154142:0:0:0:1694",
 			["H2858"] = 22571612,
 			["cc"] = 4,
+			["id"] = "154142:0:0:0:1694",
+			["mr"] = 22571612,
+			["sc"] = 2,
 		},
 		["Umbra Shard"] = {
-			["cc"] = 7,
 			["mr"] = 1562500,
+			["cc"] = 7,
 			["sc"] = 12,
-			["H2861"] = 1697500,
-			["H2863"] = 1638000,
+			["H2864"] = 1613600,
 			["H2865"] = 1562500,
 			["id"] = "152876:0:0:0:0",
-			["H2864"] = 1613600,
+			["H2863"] = 1638000,
 		},
 		["Tidespray Linen Bracers of the Fireflash"] = {
 			["mr"] = 12677175,
@@ -607,31 +610,31 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Contract: Zandalari Empire"] = {
 			["mr"] = 4696543,
-			["cc"] = 0,
-			["id"] = "153664:0:0:0:0",
 			["sc"] = 8,
 			["H2864"] = 4696543,
+			["cc"] = 0,
+			["id"] = "153664:0:0:0:0",
 		},
 		["Monel-Hardened Stirrups"] = {
 			["mr"] = 12009998,
-			["cc"] = 0,
-			["id"] = "152813:0:0:0:0",
-			["H2855"] = 12009998,
 			["sc"] = 8,
+			["H2855"] = 12009998,
+			["id"] = "152813:0:0:0:0",
+			["cc"] = 0,
 		},
 		["Battle-Scarred Augment Rune"] = {
 			["mr"] = 5199999,
-			["sc"] = 8,
-			["H2864"] = 5199999,
-			["id"] = "160053:0:0:0:0",
 			["cc"] = 0,
+			["id"] = "160053:0:0:0:0",
+			["H2864"] = 5199999,
+			["sc"] = 8,
 		},
 		["Enchant Ring - Seal of Versatility"] = {
 			["mr"] = 447999,
-			["cc"] = 8,
-			["id"] = "153441:0:0:0:0",
-			["H2855"] = 447999,
 			["sc"] = 10,
+			["H2855"] = 447999,
+			["id"] = "153441:0:0:0:0",
+			["cc"] = 8,
 		},
 		["Shimmerscale Diving Helmet"] = {
 			["mr"] = 106999,
@@ -642,24 +645,24 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Steelskin Potion"] = {
 			["mr"] = 4825000,
-			["cc"] = 0,
-			["id"] = "152557:0:0:0:0",
-			["H2855"] = 4825000,
 			["sc"] = 1,
+			["H2855"] = 4825000,
+			["id"] = "152557:0:0:0:0",
+			["cc"] = 0,
 		},
 		["Bomb-samdi Mojo Bombs"] = {
 			["mr"] = 8990,
-			["cc"] = 0,
-			["id"] = "159827:0:0:0:0",
-			["H2856"] = 8990,
 			["sc"] = 0,
+			["id"] = "159827:0:0:0:0",
+			["cc"] = 0,
+			["H2856"] = 8990,
 		},
 		["Shimmerscale Leggings of the Feverflare"] = {
 			["mr"] = 8360951,
-			["H2856"] = 8360951,
-			["id"] = "154150:0:0:0:1700",
-			["sc"] = 3,
 			["cc"] = 4,
+			["id"] = "154150:0:0:0:1700",
+			["H2856"] = 8360951,
+			["sc"] = 3,
 		},
 		["Shimmerscale Armguards of the Feverflare"] = {
 			["mr"] = 3000000,
@@ -669,53 +672,53 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 3,
 		},
 		["Masterful Kubiline"] = {
-			["mr"] = 29800,
-			["sc"] = 6,
-			["id"] = "153713:0:0:0:0",
 			["H2854"] = 29800,
 			["cc"] = 3,
+			["id"] = "153713:0:0:0:0",
+			["mr"] = 29800,
+			["sc"] = 6,
 		},
 		["Coarse Leather Pauldrons of the Harmonious"] = {
-			["mr"] = 10378359,
-			["sc"] = 2,
-			["id"] = "154143:0:0:0:1716",
 			["H2858"] = 10378359,
 			["cc"] = 4,
+			["id"] = "154143:0:0:0:1716",
+			["mr"] = 10378359,
+			["sc"] = 2,
 		},
 		["Contract: Champions of Azeroth"] = {
 			["mr"] = 1452554,
-			["cc"] = 0,
-			["id"] = "153668:0:0:0:0",
 			["sc"] = 8,
 			["H2864"] = 1452554,
+			["cc"] = 0,
+			["id"] = "153668:0:0:0:0",
 		},
 		["Coarse Leather Gauntlets of the Feverflare"] = {
-			["mr"] = 16490000,
-			["sc"] = 2,
-			["id"] = "154140:0:0:0:1703",
 			["H2858"] = 16490000,
 			["cc"] = 4,
+			["id"] = "154140:0:0:0:1703",
+			["mr"] = 16490000,
+			["sc"] = 2,
 		},
 		["Coarse Leather Treads of the Quickblade"] = {
-			["mr"] = 17510000,
-			["sc"] = 2,
-			["id"] = "154139:0:0:0:1682",
 			["H2858"] = 17510000,
 			["cc"] = 4,
+			["id"] = "154139:0:0:0:1682",
+			["mr"] = 17510000,
+			["sc"] = 2,
 		},
 		["Coarse Leather Barding"] = {
-			["H2858"] = 1000000,
-			["sc"] = 8,
-			["id"] = "154166:0:0:0:0",
-			["cc"] = 0,
 			["mr"] = 1000000,
+			["cc"] = 0,
+			["id"] = "154166:0:0:0:0",
+			["sc"] = 8,
+			["H2858"] = 1000000,
 		},
 		["Shimmerscale Waistguard of the Fireflash"] = {
 			["mr"] = 7737249,
-			["H2856"] = 7737249,
-			["id"] = "154152:0:0:0:1691",
-			["sc"] = 3,
 			["cc"] = 4,
+			["id"] = "154152:0:0:0:1691",
+			["H2856"] = 7737249,
+			["sc"] = 3,
 		},
 		["Shimmerscale Armguards of the Aurora"] = {
 			["mr"] = 3000000,
@@ -723,6 +726,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "154153:0:0:0:1706",
 			["H2861"] = 3000000,
 			["sc"] = 3,
+		},
+		["Burning Essence"] = {
+			["mr"] = 24800,
+			["cc"] = 15,
+			["id"] = "163691:0:0:0:0",
+			["H2864"] = 24800,
+			["sc"] = 0,
 		},
 		["Shimmerscale Pauldrons of the Peerless"] = {
 			["mr"] = 1980000,
@@ -739,11 +749,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["cc"] = 7,
 		},
 		["Coarse Leather Leggings of the Quickblade"] = {
-			["mr"] = 22571612,
-			["sc"] = 2,
-			["id"] = "154142:0:0:0:1676",
 			["H2858"] = 22571612,
 			["cc"] = 4,
+			["id"] = "154142:0:0:0:1676",
+			["mr"] = 22571612,
+			["sc"] = 2,
 		},
 		["Tidespray Linen Bracers of the Aurora"] = {
 			["mr"] = 14142418,
@@ -759,19 +769,19 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2861"] = 11000000,
 			["sc"] = 1,
 		},
-		["Burning Essence"] = {
-			["mr"] = 24800,
-			["sc"] = 0,
-			["H2864"] = 24800,
-			["id"] = "163691:0:0:0:0",
-			["cc"] = 15,
-		},
 		["Shimmerscale Diving Suit"] = {
 			["mr"] = 2424639,
 			["sc"] = 8,
 			["id"] = "154168:0:0:0:0",
 			["H2861"] = 2424639,
 			["cc"] = 0,
+		},
+		["Contract: Voldunai"] = {
+			["mr"] = 5390636,
+			["sc"] = 8,
+			["H2864"] = 5390636,
+			["cc"] = 0,
+			["id"] = "153666:0:0:0:0",
 		},
 		["Glyph of Burnout"] = {
 			["mr"] = 102720837,
@@ -780,39 +790,37 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2859"] = 102720837,
 			["sc"] = 4,
 		},
-		["Shimmerscale Armguards of the Quickblade"] = {
-			["mr"] = 5000000,
-			["cc"] = 4,
-			["id"] = "154153:0:0:0:1679",
-			["H2861"] = 5000000,
-			["sc"] = 3,
+		["Siren's Pollen"] = {
+			["mr"] = 372000,
+			["cc"] = 7,
+			["id"] = "152509:0:0:0:0",
+			["sc"] = 9,
+			["H2866"] = 372000,
 		},
 		["Coarse Leather Leggings of the Aurora"] = {
-			["mr"] = 22571612,
-			["sc"] = 2,
-			["id"] = "154142:0:0:0:1706",
 			["H2858"] = 22571612,
 			["cc"] = 4,
+			["id"] = "154142:0:0:0:1706",
+			["mr"] = 22571612,
+			["sc"] = 2,
 		},
 		["Veiled Crystal"] = {
-			["cc"] = 7,
 			["mr"] = 7600000,
+			["cc"] = 7,
 			["sc"] = 12,
-			["H2861"] = 9300000,
-			["H2863"] = 7283250,
+			["H2864"] = 6750000,
 			["H2865"] = 7600000,
 			["id"] = "152877:0:0:0:0",
-			["H2864"] = 6750000,
+			["H2863"] = 7283250,
 		},
 		["Gloom Dust"] = {
-			["cc"] = 7,
 			["mr"] = 240000,
+			["cc"] = 7,
 			["sc"] = 12,
-			["H2861"] = 259899,
-			["H2863"] = 241800,
+			["H2864"] = 221369,
 			["H2865"] = 240000,
 			["id"] = "152875:0:0:0:0",
-			["H2864"] = 221369,
+			["H2863"] = 241800,
 		},
 		["Tidespray Linen"] = {
 			["mr"] = 89500,
@@ -844,25 +852,25 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["cc"] = 0,
 		},
 		["Coarse Leather Leggings of the Harmonious"] = {
-			["mr"] = 22571612,
-			["sc"] = 2,
-			["id"] = "154142:0:0:0:1715",
 			["H2858"] = 22571612,
 			["cc"] = 4,
+			["id"] = "154142:0:0:0:1715",
+			["mr"] = 22571612,
+			["sc"] = 2,
 		},
 		["Widowsister Contract"] = {
 			["mr"] = 77059297,
-			["cc"] = 0,
-			["id"] = "139426:0:0:0:0",
 			["sc"] = 8,
 			["H2864"] = 77059297,
+			["cc"] = 0,
+			["id"] = "139426:0:0:0:0",
 		},
 		["Shimmerscale Armguards of the Peerless"] = {
 			["mr"] = 5431379,
-			["H2856"] = 5431379,
-			["id"] = "154153:0:0:0:1684",
-			["sc"] = 3,
 			["cc"] = 4,
+			["id"] = "154153:0:0:0:1684",
+			["H2856"] = 5431379,
+			["sc"] = 3,
 		},
 		["Crow's Nest Scope"] = {
 			["mr"] = 2499999,
@@ -880,10 +888,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Contract: Tortollan Seekers"] = {
 			["mr"] = 2900000,
-			["cc"] = 0,
-			["id"] = "153667:0:0:0:0",
 			["sc"] = 8,
 			["H2864"] = 2900000,
+			["cc"] = 0,
+			["id"] = "153667:0:0:0:0",
 		},
 		["Tidespray Linen Bandage"] = {
 			["mr"] = 26999,
@@ -893,32 +901,32 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["cc"] = 0,
 		},
 		["Coarse Leather Treads of the Aurora"] = {
-			["mr"] = 17500000,
-			["sc"] = 2,
-			["id"] = "154139:0:0:0:1705",
 			["H2858"] = 17500000,
 			["cc"] = 4,
+			["id"] = "154139:0:0:0:1705",
+			["mr"] = 17500000,
+			["sc"] = 2,
 		},
 		["Shimmerscale Pauldrons of the Harmonious"] = {
 			["mr"] = 4440000,
-			["H2856"] = 4440000,
-			["id"] = "154151:0:0:0:1716",
-			["sc"] = 3,
 			["cc"] = 4,
-		},
-		["Contract: Voldunai"] = {
-			["mr"] = 5390636,
-			["cc"] = 0,
-			["id"] = "153666:0:0:0:0",
-			["sc"] = 8,
-			["H2864"] = 5390636,
+			["id"] = "154151:0:0:0:1716",
+			["H2856"] = 4440000,
+			["sc"] = 3,
 		},
 		["Contract: Talanji's Expedition"] = {
 			["mr"] = 4499999,
-			["cc"] = 0,
-			["id"] = "153665:0:0:0:0",
 			["sc"] = 8,
 			["H2864"] = 4499999,
+			["cc"] = 0,
+			["id"] = "153665:0:0:0:0",
+		},
+		["Shimmerscale Armguards of the Quickblade"] = {
+			["mr"] = 5000000,
+			["cc"] = 4,
+			["id"] = "154153:0:0:0:1679",
+			["H2861"] = 5000000,
+			["sc"] = 3,
 		},
 		["Tidespray Linen Bracers of the Harmonious"] = {
 			["H2860"] = 15000000,
@@ -939,11 +947,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Monel-Hardened Polearm of the Aurora"] = {
 			["mr"] = 39999997,
-			["H2844"] = 40000000,
-			["id"] = "161917:0:0:0:1705",
 			["sc"] = 6,
-			["L2844"] = 39999997,
+			["id"] = "161917:0:0:0:1705",
 			["cc"] = 2,
+			["L2844"] = 39999997,
+			["H2844"] = 40000000,
 		},
 		["Redtail Loach"] = {
 			["H2835"] = 1750000,
@@ -968,33 +976,34 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["cc"] = 15,
 		},
 		["Gloom Dust"] = {
-			["mr"] = 237000,
+			["mr"] = 198888,
 			["sc"] = 12,
 			["id"] = "152875:0:0:0:0",
 			["H2865"] = 237000,
 			["cc"] = 7,
+			["H2866"] = 198888,
 		},
 		["Monel-Hardened Shanker of the Peerless"] = {
 			["mr"] = 2100000,
-			["H2844"] = 2100000,
-			["id"] = "161916:0:0:0:1687",
 			["sc"] = 15,
+			["id"] = "161916:0:0:0:1687",
 			["cc"] = 2,
+			["H2844"] = 2100000,
 		},
 		["Monel-Hardened Armguards of the Aurora"] = {
 			["mr"] = 2100000,
-			["H2844"] = 7999899,
-			["id"] = "161887:0:0:0:1706",
 			["sc"] = 4,
-			["L2844"] = 2100000,
+			["id"] = "161887:0:0:0:1706",
 			["cc"] = 4,
+			["L2844"] = 2100000,
+			["H2844"] = 7999899,
 		},
 		["Shal'dorei Silk"] = {
-			["H2830"] = 12000,
-			["sc"] = 5,
-			["id"] = "124437:0:0:0:0",
 			["mr"] = 12000,
 			["cc"] = 7,
+			["id"] = "124437:0:0:0:0",
+			["H2830"] = 12000,
+			["sc"] = 5,
 		},
 		["Coralshell Dagger of the Fireflash"] = {
 			["H2835"] = 2000000,
@@ -1005,18 +1014,18 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Monel-Hardened Greaves of the Harmonious"] = {
 			["mr"] = 2000000,
-			["H2844"] = 2000000,
-			["id"] = "161884:0:0:0:1712",
 			["sc"] = 4,
+			["id"] = "161884:0:0:0:1712",
 			["cc"] = 4,
+			["H2844"] = 2000000,
 		},
 		["Monel-Hardened Polearm of the Feverflare"] = {
 			["mr"] = 39999999,
-			["H2844"] = 88800511,
-			["id"] = "161917:0:0:0:1699",
 			["sc"] = 6,
-			["L2844"] = 39999999,
+			["id"] = "161917:0:0:0:1699",
 			["cc"] = 2,
+			["L2844"] = 39999999,
+			["H2844"] = 88800511,
 		},
 		["Akunda's Bite"] = {
 			["mr"] = 180000,
@@ -1027,10 +1036,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Monel-Hardened Claymore of the Harmonious"] = {
 			["mr"] = 45411833,
-			["H2844"] = 45411833,
-			["id"] = "161914:0:0:0:1715",
 			["sc"] = 8,
+			["id"] = "161914:0:0:0:1715",
 			["cc"] = 2,
+			["H2844"] = 45411833,
 		},
 		["Deep Sea Bandage"] = {
 			["mr"] = 599000,
@@ -1047,32 +1056,33 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 5,
 		},
 		["Veiled Crystal"] = {
-			["mr"] = 7700000,
+			["mr"] = 6699998,
 			["cc"] = 7,
 			["id"] = "152877:0:0:0:0",
 			["H2865"] = 7700000,
 			["sc"] = 12,
+			["H2866"] = 6699998,
 		},
 		["Big Fountain Goldfish"] = {
 			["mr"] = 8800,
-			["cc"] = 7,
-			["id"] = "138967:0:0:0:0",
 			["sc"] = 8,
+			["id"] = "138967:0:0:0:0",
 			["H2837"] = 8800,
+			["cc"] = 7,
 		},
 		["Mercenary Contract: Shaman"] = {
 			["mr"] = 21570550,
-			["cc"] = 0,
-			["id"] = "92433:0:0:0:0",
-			["H2864"] = 21570550,
 			["sc"] = 8,
+			["H2864"] = 21570550,
+			["id"] = "92433:0:0:0:0",
+			["cc"] = 0,
 		},
 		["Arkhana"] = {
-			["H2830"] = 8900,
-			["sc"] = 12,
-			["id"] = "124440:0:0:0:0",
 			["mr"] = 8900,
 			["cc"] = 7,
+			["id"] = "124440:0:0:0:0",
+			["H2830"] = 8900,
+			["sc"] = 12,
 		},
 		["Great Sea Catfish"] = {
 			["mr"] = 151560,
@@ -1083,18 +1093,18 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["cc"] = 7,
 		},
 		["Briny Flesh"] = {
-			["mr"] = 4800,
-			["sc"] = 8,
-			["id"] = "152631:0:0:0:0",
-			["cc"] = 7,
 			["H2830"] = 4800,
+			["cc"] = 7,
+			["id"] = "152631:0:0:0:0",
+			["sc"] = 8,
+			["mr"] = 4800,
 		},
 		["Monel-Hardened Armguards of the Quickblade"] = {
 			["mr"] = 2100000,
-			["H2844"] = 2100000,
-			["id"] = "161887:0:0:0:1677",
 			["sc"] = 4,
+			["id"] = "161887:0:0:0:1677",
 			["cc"] = 4,
+			["H2844"] = 2100000,
 		},
 		["Embroidered Deep Sea Satin"] = {
 			["mr"] = 88500,
@@ -1105,10 +1115,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Monel-Hardened Helm of the Harmonious"] = {
 			["mr"] = 22754000,
-			["H2844"] = 22754000,
-			["id"] = "161883:0:0:0:1711",
 			["sc"] = 4,
+			["id"] = "161883:0:0:0:1711",
 			["cc"] = 4,
+			["H2844"] = 22754000,
 		},
 		["Embroidered Deep Sea Cloak of the Peerless"] = {
 			["mr"] = 23500000,
@@ -1120,32 +1130,32 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Monel-Hardened Shield of the Feverflare"] = {
 			["mr"] = 5000000,
-			["H2844"] = 5000000,
-			["id"] = "161890:0:0:0:1698",
 			["sc"] = 6,
+			["id"] = "161890:0:0:0:1698",
 			["cc"] = 4,
+			["H2844"] = 5000000,
 		},
 		["Monel-Hardened Polearm of the Harmonious"] = {
 			["mr"] = 47101281,
-			["H2844"] = 47101281,
-			["id"] = "161917:0:0:0:1715",
 			["sc"] = 6,
+			["id"] = "161917:0:0:0:1715",
 			["cc"] = 2,
+			["H2844"] = 47101281,
 		},
 		["Monel-Hardened Breastplate of the Fireflash"] = {
 			["mr"] = 2000000,
-			["H2844"] = 2010000,
-			["id"] = "161880:0:0:0:1695",
 			["sc"] = 4,
-			["L2844"] = 2000000,
+			["id"] = "161880:0:0:0:1695",
 			["cc"] = 4,
+			["L2844"] = 2000000,
+			["H2844"] = 2010000,
 		},
 		["Coastal Mana Potion"] = {
 			["mr"] = 620998,
-			["cc"] = 0,
-			["id"] = "152495:0:0:0:0",
 			["sc"] = 1,
+			["id"] = "152495:0:0:0:0",
 			["H2837"] = 620998,
+			["cc"] = 0,
 		},
 		["Dreamleaf"] = {
 			["mr"] = 59900,
@@ -1164,10 +1174,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Monel-Hardened Waistguard of the Feverflare"] = {
 			["mr"] = 23090681,
-			["H2844"] = 23090681,
-			["id"] = "161886:0:0:0:1701",
 			["sc"] = 4,
+			["id"] = "161886:0:0:0:1701",
 			["cc"] = 4,
+			["H2844"] = 23090681,
 		},
 		["Flesh Eating Worm"] = {
 			["H2835"] = 84,
@@ -1178,18 +1188,18 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Monel-Hardened Boots of the Aurora"] = {
 			["mr"] = 4000000,
-			["H2844"] = 4000000,
-			["id"] = "161881:0:0:0:1706",
 			["sc"] = 4,
+			["id"] = "161881:0:0:0:1706",
 			["cc"] = 4,
+			["H2844"] = 4000000,
 		},
 		["Monel-Hardened Shanker of the Quickblade"] = {
 			["mr"] = 20000000,
-			["H2844"] = 20000000,
-			["id"] = "161916:0:0:0:1680",
 			["sc"] = 15,
-			["L2844"] = 4990000,
+			["id"] = "161916:0:0:0:1680",
 			["cc"] = 2,
+			["L2844"] = 4990000,
+			["H2844"] = 20000000,
 		},
 		["Greater Eternal Essence"] = {
 			["mr"] = 18356,
@@ -1199,18 +1209,18 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 12,
 		},
 		["Meaty Haunch"] = {
-			["mr"] = 3099,
-			["sc"] = 8,
-			["id"] = "154898:0:0:0:0",
-			["cc"] = 7,
 			["H2830"] = 3099,
+			["cc"] = 7,
+			["id"] = "154898:0:0:0:0",
+			["sc"] = 8,
+			["mr"] = 3099,
 		},
 		["Contract: Champions of Azeroth"] = {
 			["mr"] = 1452554,
-			["sc"] = 8,
-			["id"] = "153668:0:0:0:0",
-			["H2864"] = 1452554,
 			["cc"] = 0,
+			["H2864"] = 1452554,
+			["id"] = "153668:0:0:0:0",
+			["sc"] = 8,
 		},
 		["Deep Sea Bag"] = {
 			["mr"] = 20500000,
@@ -1221,17 +1231,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Monel-Hardened Cutlass of the Harmonious"] = {
 			["mr"] = 12000000,
-			["H2844"] = 12000000,
-			["id"] = "161913:0:0:0:1713",
 			["sc"] = 7,
+			["id"] = "161913:0:0:0:1713",
 			["cc"] = 2,
+			["H2844"] = 12000000,
 		},
 		["Monel-Hardened Breastplate of the Harmonious"] = {
 			["mr"] = 2871311,
-			["H2844"] = 2871311,
-			["id"] = "161880:0:0:0:1717",
 			["sc"] = 4,
+			["id"] = "161880:0:0:0:1717",
 			["cc"] = 4,
+			["H2844"] = 2871311,
 		},
 		["Leylight Shard"] = {
 			["mr"] = 179487,
@@ -1242,24 +1252,24 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Enchant Weapon - Coastal Surge"] = {
 			["mr"] = 53960000,
-			["cc"] = 8,
-			["id"] = "153476:0:0:0:0",
 			["sc"] = 10,
+			["id"] = "153476:0:0:0:0",
 			["H2837"] = 53960000,
+			["cc"] = 8,
 		},
 		["Monel-Hardened Shanker of the Harmonious"] = {
 			["mr"] = 17913468,
-			["H2844"] = 17913468,
-			["id"] = "161916:0:0:0:1717",
 			["sc"] = 15,
+			["id"] = "161916:0:0:0:1717",
 			["cc"] = 2,
+			["H2844"] = 17913468,
 		},
 		["Coastal Healing Potion"] = {
 			["mr"] = 959998,
-			["cc"] = 0,
-			["id"] = "152494:0:0:0:0",
 			["sc"] = 1,
+			["id"] = "152494:0:0:0:0",
 			["H2837"] = 959998,
+			["cc"] = 0,
 		},
 		["Zocali Warhammer of the Fireflash"] = {
 			["mr"] = 4000000,
@@ -1270,10 +1280,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Monel-Hardened Pauldrons of the Fireflash"] = {
 			["mr"] = 2000000,
-			["H2844"] = 2000000,
-			["id"] = "161885:0:0:0:1694",
 			["sc"] = 4,
+			["id"] = "161885:0:0:0:1694",
 			["cc"] = 4,
+			["H2844"] = 2000000,
 		},
 		["Chemical Blasting Cap"] = {
 			["H2835"] = 19800,
@@ -1291,24 +1301,24 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Monel-Hardened Deckpounder of the Quickblade"] = {
 			["mr"] = 39390147,
-			["H2844"] = 39390147,
-			["id"] = "161915:0:0:0:1678",
 			["sc"] = 5,
+			["id"] = "161915:0:0:0:1678",
 			["cc"] = 2,
+			["H2844"] = 39390147,
 		},
 		["Monel-Hardened Waistguard of the Fireflash"] = {
 			["mr"] = 1950000,
-			["H2844"] = 1950000,
-			["id"] = "161886:0:0:0:1692",
 			["sc"] = 4,
+			["id"] = "161886:0:0:0:1692",
 			["cc"] = 4,
+			["H2844"] = 1950000,
 		},
 		["Monel-Hardened Armguards of the Peerless"] = {
 			["mr"] = 3999999,
-			["H2844"] = 3999999,
-			["id"] = "161887:0:0:0:1684",
 			["sc"] = 4,
+			["id"] = "161887:0:0:0:1684",
 			["cc"] = 4,
+			["H2844"] = 3999999,
 		},
 		["Embroidered Deep Sea Bag"] = {
 			["mr"] = 232779999,
@@ -1319,39 +1329,39 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Widowsister Contract"] = {
 			["mr"] = 77059297,
-			["sc"] = 8,
-			["id"] = "139426:0:0:0:0",
-			["H2864"] = 77059297,
 			["cc"] = 0,
+			["H2864"] = 77059297,
+			["id"] = "139426:0:0:0:0",
+			["sc"] = 8,
 		},
 		["Monel-Hardened Greaves of the Feverflare"] = {
 			["mr"] = 2747500,
-			["H2844"] = 2747500,
-			["id"] = "161884:0:0:0:1701",
 			["sc"] = 4,
+			["id"] = "161884:0:0:0:1701",
 			["cc"] = 4,
+			["H2844"] = 2747500,
 		},
 		["Monel-Hardened Armguards of the Harmonious"] = {
 			["mr"] = 3990000,
-			["H2844"] = 3990000,
-			["id"] = "161887:0:0:0:1711",
 			["sc"] = 4,
+			["id"] = "161887:0:0:0:1711",
 			["cc"] = 4,
+			["H2844"] = 3990000,
 		},
 		["Monel-Hardened Polearm of the Peerless"] = {
 			["mr"] = 48548521,
-			["H2844"] = 48548521,
-			["id"] = "161917:0:0:0:1684",
 			["sc"] = 6,
+			["id"] = "161917:0:0:0:1684",
 			["cc"] = 2,
+			["H2844"] = 48548521,
 		},
 		["Monel-Hardened Pauldrons of the Peerless"] = {
 			["mr"] = 2000000,
-			["H2844"] = 67880000,
-			["id"] = "161885:0:0:0:1689",
 			["sc"] = 4,
-			["L2844"] = 2000000,
+			["id"] = "161885:0:0:0:1689",
 			["cc"] = 4,
+			["L2844"] = 2000000,
+			["H2844"] = 67880000,
 		},
 		["Codex of the Tranquil Mind"] = {
 			["H2835"] = 6309894,
@@ -1369,10 +1379,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Contract: Storm's Wake"] = {
 			["mr"] = 414000,
-			["sc"] = 8,
-			["id"] = "153663:0:0:0:0",
-			["H2864"] = 414000,
 			["cc"] = 0,
+			["H2864"] = 414000,
+			["id"] = "153663:0:0:0:0",
+			["sc"] = 8,
 		},
 		["Tidespray Linen"] = {
 			["mr"] = 193952,
@@ -1383,26 +1393,26 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Monel-Hardened Armguards of the Fireflash"] = {
 			["mr"] = 17167075,
-			["H2844"] = 17167075,
-			["id"] = "161887:0:0:0:1695",
 			["sc"] = 4,
+			["id"] = "161887:0:0:0:1695",
 			["cc"] = 4,
+			["H2844"] = 17167075,
 		},
 		["Monel-Hardened Polearm of the Fireflash"] = {
 			["mr"] = 39999998,
-			["H2844"] = 172339864,
-			["id"] = "161917:0:0:0:1694",
 			["sc"] = 6,
-			["L2844"] = 39999998,
+			["id"] = "161917:0:0:0:1694",
 			["cc"] = 2,
+			["L2844"] = 39999998,
+			["H2844"] = 172339864,
 		},
 		["Monel-Hardened Waistguard of the Aurora"] = {
 			["mr"] = 6989998,
-			["H2844"] = 6989998,
-			["id"] = "161886:0:0:0:1706",
 			["sc"] = 4,
-			["L2844"] = 1949999,
+			["id"] = "161886:0:0:0:1706",
 			["cc"] = 4,
+			["L2844"] = 1949999,
+			["H2844"] = 6989998,
 		},
 		["Reins of Poseidus"] = {
 			["mr"] = 168650000,
@@ -1412,11 +1422,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 5,
 		},
 		["Sailor's Pie"] = {
-			["mr"] = 49800,
-			["sc"] = 5,
-			["id"] = "154888:0:0:0:0",
-			["cc"] = 0,
 			["H2830"] = 49800,
+			["cc"] = 0,
+			["id"] = "154888:0:0:0:0",
+			["sc"] = 5,
+			["mr"] = 49800,
 		},
 		["Bonepicker Legguards of the Aurora"] = {
 			["mr"] = 3009999,
@@ -1434,18 +1444,18 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Monel-Hardened Greaves of the Aurora"] = {
 			["mr"] = 18576489,
-			["H2844"] = 18576489,
-			["id"] = "161884:0:0:0:1708",
 			["sc"] = 4,
+			["id"] = "161884:0:0:0:1708",
 			["cc"] = 4,
+			["H2844"] = 18576489,
 		},
 		["Monel-Hardened Gauntlets of the Feverflare"] = {
 			["mr"] = 9431941,
-			["H2844"] = 9431942,
-			["id"] = "161882:0:0:0:1700",
 			["sc"] = 4,
-			["L2844"] = 9431941,
+			["id"] = "161882:0:0:0:1700",
 			["cc"] = 4,
+			["L2844"] = 9431941,
+			["H2844"] = 9431942,
 		},
 		["Embroidered Deep Sea Cloak of the Feverflare"] = {
 			["mr"] = 49996714,
@@ -1456,10 +1466,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Monel-Hardened Gauntlets of the Fireflash"] = {
 			["mr"] = 22574891,
-			["H2844"] = 22574891,
-			["id"] = "161882:0:0:0:1696",
 			["sc"] = 4,
+			["id"] = "161882:0:0:0:1696",
 			["cc"] = 4,
+			["H2844"] = 22574891,
 		},
 		["Embroidered Deep Sea Cloak of the Harmonious"] = {
 			["mr"] = 23000000,
@@ -1477,11 +1487,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["cc"] = 0,
 		},
 		["Stringy Loins"] = {
-			["mr"] = 1190,
-			["sc"] = 8,
-			["id"] = "154897:0:0:0:0",
-			["cc"] = 7,
 			["H2830"] = 1190,
+			["cc"] = 7,
+			["id"] = "154897:0:0:0:0",
+			["sc"] = 8,
+			["mr"] = 1190,
 		},
 		["Defiled Augment Rune"] = {
 			["H2816"] = 99500,
@@ -1499,33 +1509,34 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Monel-Hardened Breastplate of the Quickblade"] = {
 			["mr"] = 1999899,
-			["H2844"] = 2000000,
-			["id"] = "161880:0:0:0:1676",
 			["sc"] = 4,
-			["L2844"] = 1999899,
+			["id"] = "161880:0:0:0:1676",
 			["cc"] = 4,
+			["L2844"] = 1999899,
+			["H2844"] = 2000000,
 		},
 		["Monel-Hardened Waistguard of the Harmonious"] = {
 			["mr"] = 1950000,
-			["H2844"] = 9990000,
-			["id"] = "161886:0:0:0:1716",
 			["sc"] = 4,
-			["L2844"] = 1950000,
+			["id"] = "161886:0:0:0:1716",
 			["cc"] = 4,
+			["L2844"] = 1950000,
+			["H2844"] = 9990000,
 		},
 		["Contract: Order of Embers"] = {
 			["mr"] = 349000,
-			["sc"] = 8,
-			["id"] = "153662:0:0:0:0",
-			["H2864"] = 349000,
 			["cc"] = 0,
+			["H2864"] = 349000,
+			["id"] = "153662:0:0:0:0",
+			["sc"] = 8,
 		},
 		["Umbra Shard"] = {
-			["mr"] = 1644999,
+			["mr"] = 1657500,
 			["cc"] = 7,
 			["id"] = "152876:0:0:0:0",
 			["H2865"] = 1644999,
 			["sc"] = 12,
+			["H2866"] = 1657500,
 		},
 		["Winter's Kiss"] = {
 			["mr"] = 448500,
@@ -1536,10 +1547,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Monel-Hardened Stirrups"] = {
 			["mr"] = 10000000,
-			["H2844"] = 10000000,
-			["id"] = "152813:0:0:0:0",
 			["sc"] = 8,
+			["id"] = "152813:0:0:0:0",
 			["cc"] = 0,
+			["H2844"] = 10000000,
 		},
 		["Embroidered Deep Sea Cloak of the Fireflash"] = {
 			["mr"] = 20000000,
@@ -1551,39 +1562,39 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Monel-Hardened Claymore of the Aurora"] = {
 			["mr"] = 38902749,
-			["H2844"] = 38902749,
-			["id"] = "161914:0:0:0:1710",
 			["sc"] = 8,
+			["id"] = "161914:0:0:0:1710",
 			["cc"] = 2,
+			["H2844"] = 38902749,
 		},
 		["Abyssal Fragment"] = {
 			["mr"] = 150000000,
-			["cc"] = 12,
-			["id"] = "161344:0:0:0:0",
 			["sc"] = 0,
+			["id"] = "161344:0:0:0:0",
 			["H2832"] = 150000000,
+			["cc"] = 12,
 		},
 		["Monel-Hardened Cutlass of the Peerless"] = {
 			["mr"] = 55606315,
-			["H2844"] = 55606315,
-			["id"] = "161913:0:0:0:1685",
 			["sc"] = 7,
+			["id"] = "161913:0:0:0:1685",
 			["cc"] = 2,
+			["H2844"] = 55606315,
 		},
 		["Large Brilliant Shard"] = {
-			["H2830"] = 1990,
-			["sc"] = 12,
-			["id"] = "14344:0:0:0:0",
 			["mr"] = 1990,
 			["cc"] = 7,
+			["id"] = "14344:0:0:0:0",
+			["H2830"] = 1990,
+			["sc"] = 12,
 		},
 		["Monel-Hardened Breastplate of the Aurora"] = {
 			["mr"] = 1999999,
-			["H2844"] = 2010000,
-			["id"] = "161880:0:0:0:1708",
 			["sc"] = 4,
-			["L2844"] = 1999999,
+			["id"] = "161880:0:0:0:1708",
 			["cc"] = 4,
+			["L2844"] = 1999999,
+			["H2844"] = 2010000,
 		},
 		["Embroidered Deep Sea Cloak of the Aurora"] = {
 			["mr"] = 199490000,
@@ -1594,25 +1605,25 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 1,
 		},
 		["Solstone"] = {
-			["mr"] = 289000,
-			["sc"] = 4,
-			["id"] = "153703:0:0:0:0",
-			["cc"] = 7,
 			["H2830"] = 289000,
+			["cc"] = 7,
+			["id"] = "153703:0:0:0:0",
+			["sc"] = 4,
+			["mr"] = 289000,
 		},
 		["Monel-Hardened Helm of the Peerless"] = {
 			["mr"] = 3000000,
-			["H2844"] = 3000000,
-			["id"] = "161883:0:0:0:1689",
 			["sc"] = 4,
+			["id"] = "161883:0:0:0:1689",
 			["cc"] = 4,
+			["H2844"] = 3000000,
 		},
 		["Monel-Hardened Armguards of the Feverflare"] = {
 			["mr"] = 1500000,
-			["H2844"] = 1500000,
-			["id"] = "161887:0:0:0:1702",
 			["sc"] = 4,
+			["id"] = "161887:0:0:0:1702",
 			["cc"] = 4,
+			["H2844"] = 1500000,
 		},
 		["Golden Fleet Fists of the Feverflare"] = {
 			["mr"] = 4425365,
@@ -1623,11 +1634,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Monel-Hardened Greaves of the Fireflash"] = {
 			["mr"] = 5000000,
-			["H2844"] = 5151478,
-			["id"] = "161884:0:0:0:1692",
 			["sc"] = 4,
-			["L2844"] = 5000000,
+			["id"] = "161884:0:0:0:1692",
 			["cc"] = 4,
+			["L2844"] = 5000000,
+			["H2844"] = 5151478,
 		},
 		["Rivermarsh Juju of the Fireflash"] = {
 			["mr"] = 4004040,
@@ -1645,10 +1656,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Monel-Hardened Shanker of the Fireflash"] = {
 			["mr"] = 1800000,
-			["H2844"] = 1800000,
-			["id"] = "161916:0:0:0:1694",
 			["sc"] = 15,
+			["id"] = "161916:0:0:0:1694",
 			["cc"] = 2,
+			["H2844"] = 1800000,
 		},
 		["Chaos Crystal"] = {
 			["mr"] = 49400,
@@ -1659,88 +1670,81 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Thick Paleo Steak"] = {
 			["mr"] = 2400,
-			["cc"] = 7,
-			["id"] = "154899:0:0:0:0",
 			["sc"] = 8,
+			["id"] = "154899:0:0:0:0",
 			["H2832"] = 2400,
+			["cc"] = 7,
 		},
 		["Contract: Proudmoore Admiralty"] = {
 			["mr"] = 485959,
-			["sc"] = 16,
-			["id"] = "153661:0:0:0:0",
-			["H2864"] = 485959,
 			["cc"] = 7,
+			["H2864"] = 485959,
+			["id"] = "153661:0:0:0:0",
+			["sc"] = 16,
 		},
 		["Astral Glory"] = {
 			["mr"] = 39999,
-			["cc"] = 7,
-			["id"] = "151565:0:0:0:0",
-			["H2824"] = 39999,
 			["sc"] = 9,
+			["H2824"] = 39999,
+			["id"] = "151565:0:0:0:0",
+			["cc"] = 7,
 		},
 		["Coastal Rejuvenation Potion"] = {
 			["mr"] = 528998,
-			["cc"] = 0,
-			["id"] = "163082:0:0:0:0",
 			["sc"] = 1,
+			["id"] = "163082:0:0:0:0",
 			["H2837"] = 528998,
+			["cc"] = 0,
 		},
 		["Monel-Hardened Boots of the Feverflare"] = {
 			["mr"] = 4000000,
-			["H2844"] = 4000000,
-			["id"] = "161881:0:0:0:1702",
 			["sc"] = 4,
+			["id"] = "161881:0:0:0:1702",
 			["cc"] = 4,
+			["H2844"] = 4000000,
 		},
 		["Tiragarde Perch"] = {
-			["mr"] = 7500,
-			["sc"] = 8,
-			["id"] = "152548:0:0:0:0",
-			["cc"] = 7,
 			["H2830"] = 7500,
+			["cc"] = 7,
+			["id"] = "152548:0:0:0:0",
+			["sc"] = 8,
+			["mr"] = 7500,
 		},
 		["Rubellite"] = {
-			["mr"] = 549000,
-			["sc"] = 4,
-			["id"] = "153701:0:0:0:0",
-			["cc"] = 7,
 			["H2830"] = 549000,
+			["cc"] = 7,
+			["id"] = "153701:0:0:0:0",
+			["sc"] = 4,
+			["mr"] = 549000,
 		},
 		["Monel-Hardened Greaves of the Quickblade"] = {
 			["mr"] = 2120080,
-			["H2844"] = 2120080,
-			["id"] = "161884:0:0:0:1682",
 			["sc"] = 4,
+			["id"] = "161884:0:0:0:1682",
 			["cc"] = 4,
+			["H2844"] = 2120080,
 		},
 		["Monel-Hardened Hoofplates"] = {
 			["mr"] = 14999998,
-			["H2844"] = 14999998,
-			["id"] = "152812:0:0:0:0",
 			["sc"] = 8,
+			["id"] = "152812:0:0:0:0",
 			["cc"] = 0,
+			["H2844"] = 14999998,
 		},
 		["Monel-Hardened Polearm of the Quickblade"] = {
 			["mr"] = 45917845,
-			["H2844"] = 45917845,
-			["id"] = "161917:0:0:0:1681",
 			["sc"] = 6,
+			["id"] = "161917:0:0:0:1681",
 			["cc"] = 2,
+			["H2844"] = 45917845,
 		},
 		["Monel-Hardened Greaves of the Peerless"] = {
 			["mr"] = 2000000,
-			["H2844"] = 56054582,
+			["sc"] = 4,
 			["id"] = "161884:0:0:0:1688",
-			["sc"] = 4,
-			["L2844"] = 2000000,
 			["cc"] = 4,
-		},
-		["Viridium"] = {
-			["mr"] = 199500,
-			["sc"] = 4,
-			["id"] = "153704:0:0:0:0",
-			["cc"] = 7,
-			["H2830"] = 199500,
+			["L2844"] = 2000000,
+			["H2844"] = 56054582,
 		},
 		["Golden Fleet Greataxe of the Aurora"] = {
 			["mr"] = 4000000,
@@ -1749,19 +1753,26 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 1,
 			["H2833"] = 4000000,
 		},
+		["Viridium"] = {
+			["H2830"] = 199500,
+			["cc"] = 7,
+			["id"] = "153704:0:0:0:0",
+			["sc"] = 4,
+			["mr"] = 199500,
+		},
 		["Monel-Hardened Breastplate of the Feverflare"] = {
 			["mr"] = 2000000,
-			["H2844"] = 2000000,
-			["id"] = "161880:0:0:0:1700",
 			["sc"] = 4,
+			["id"] = "161880:0:0:0:1700",
 			["cc"] = 4,
+			["H2844"] = 2000000,
 		},
 		["Shipwrecker Knife of the Fireflash"] = {
 			["mr"] = 4897500,
-			["H2832"] = 4897500,
-			["id"] = "159524:0:0:0:4796",
 			["cc"] = 2,
+			["id"] = "159524:0:0:0:4796",
 			["sc"] = 15,
+			["H2832"] = 4897500,
 		},
 		["Torgashell Breastplate of the Peerless"] = {
 			["mr"] = 5500000,
@@ -1771,90 +1782,90 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2833"] = 5500000,
 		},
 		["Aromatic Fish Oil"] = {
-			["mr"] = 39999,
-			["sc"] = 8,
-			["id"] = "160711:0:0:0:0",
-			["cc"] = 7,
 			["H2830"] = 39999,
+			["cc"] = 7,
+			["id"] = "160711:0:0:0:0",
+			["sc"] = 8,
+			["mr"] = 39999,
 		},
 		["Deep Sea Satin"] = {
-			["mr"] = 643000,
+			["mr"] = 298000,
 			["sc"] = 5,
 			["id"] = "152577:0:0:0:0",
-			["H2842"] = 643000,
 			["cc"] = 7,
+			["H2866"] = 298000,
 		},
 		["Sagehold Bracers of the Harmonious"] = {
 			["mr"] = 3987500,
-			["H2832"] = 3987500,
-			["id"] = "159223:0:0:0:4796",
 			["cc"] = 4,
+			["id"] = "159223:0:0:0:4796",
 			["sc"] = 1,
+			["H2832"] = 3987500,
 		},
 		["Monel-Hardened Waistguard of the Peerless"] = {
 			["mr"] = 1950000,
-			["H2844"] = 4500000,
-			["id"] = "161886:0:0:0:1683",
 			["sc"] = 4,
-			["L2844"] = 1950000,
+			["id"] = "161886:0:0:0:1683",
 			["cc"] = 4,
+			["L2844"] = 1950000,
+			["H2844"] = 4500000,
 		},
 		["Monel-Hardened Boots of the Harmonious"] = {
 			["mr"] = 1500000,
-			["H2844"] = 1500000,
-			["id"] = "161881:0:0:0:1717",
 			["sc"] = 4,
+			["id"] = "161881:0:0:0:1717",
 			["cc"] = 4,
+			["H2844"] = 1500000,
 		},
 		["Monel-Hardened Waistguard of the Quickblade"] = {
 			["mr"] = 3000000,
-			["H2844"] = 6316967,
-			["id"] = "161886:0:0:0:1677",
 			["sc"] = 4,
-			["L2844"] = 3000000,
+			["id"] = "161886:0:0:0:1677",
 			["cc"] = 4,
+			["L2844"] = 3000000,
+			["H2844"] = 6316967,
 		},
 		["Monel-Hardened Gauntlets of the Harmonious"] = {
 			["mr"] = 11775902,
-			["H2844"] = 11775902,
-			["id"] = "161882:0:0:0:1713",
 			["sc"] = 4,
+			["id"] = "161882:0:0:0:1713",
 			["cc"] = 4,
+			["H2844"] = 11775902,
 		},
 		["Monel-Hardened Pauldrons of the Feverflare"] = {
 			["mr"] = 2010000,
-			["H2844"] = 2010000,
-			["id"] = "161885:0:0:0:1703",
 			["sc"] = 4,
+			["id"] = "161885:0:0:0:1703",
 			["cc"] = 4,
+			["H2844"] = 2010000,
 		},
 		["Monel-Hardened Deckpounder of the Peerless"] = {
 			["mr"] = 33991117,
-			["H2844"] = 33991117,
-			["id"] = "161915:0:0:0:1687",
 			["sc"] = 5,
+			["id"] = "161915:0:0:0:1687",
 			["cc"] = 2,
+			["H2844"] = 33991117,
 		},
 		["Contract: Tortollan Seekers"] = {
 			["mr"] = 2900000,
-			["sc"] = 8,
-			["id"] = "153667:0:0:0:0",
-			["H2864"] = 2900000,
 			["cc"] = 0,
+			["H2864"] = 2900000,
+			["id"] = "153667:0:0:0:0",
+			["sc"] = 8,
 		},
 		["Monel-Hardened Breastplate of the Peerless"] = {
 			["mr"] = 2010000,
-			["H2844"] = 2010000,
-			["id"] = "161880:0:0:0:1689",
 			["sc"] = 4,
+			["id"] = "161880:0:0:0:1689",
 			["cc"] = 4,
+			["H2844"] = 2010000,
 		},
 		["Monel-Hardened Shield of the Quickblade"] = {
 			["mr"] = 9319999,
-			["H2844"] = 9319999,
-			["id"] = "161890:0:0:0:1677",
 			["sc"] = 6,
+			["id"] = "161890:0:0:0:1677",
 			["cc"] = 4,
+			["H2844"] = 9319999,
 		},
 		["Fiendish Leather"] = {
 			["H2823"] = 1785,
@@ -1865,24 +1876,24 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Monel-Hardened Claymore of the Feverflare"] = {
 			["mr"] = 40786875,
-			["H2844"] = 40786875,
-			["id"] = "161914:0:0:0:1699",
 			["sc"] = 8,
+			["id"] = "161914:0:0:0:1699",
 			["cc"] = 2,
+			["H2844"] = 40786875,
 		},
 		["Monel-Hardened Shanker of the Aurora"] = {
 			["mr"] = 4990000,
-			["H2844"] = 4990000,
-			["id"] = "161916:0:0:0:1704",
 			["sc"] = 15,
+			["id"] = "161916:0:0:0:1704",
 			["cc"] = 2,
+			["H2844"] = 4990000,
 		},
 		["Monel-Hardened Deckpounder of the Feverflare"] = {
 			["mr"] = 44615463,
-			["H2844"] = 44615463,
-			["id"] = "161915:0:0:0:1697",
 			["sc"] = 5,
+			["id"] = "161915:0:0:0:1697",
 			["cc"] = 2,
+			["H2844"] = 44615463,
 		},
 	},
 	["Moon Guard_Alliance"] = {
@@ -1939,10 +1950,10 @@ AUCTIONATOR_TOONS = {
 		["firstVersion"] = "3.2.3",
 		["guid"] = "Player-3693-07375FB3",
 	},
-	["Loranus"] = {
-		["firstSeen"] = 1537365790,
-		["guid"] = "Player-3693-0A0610D8",
-		["firstVersion"] = "5.0.5",
+	["Laurenn"] = {
+		["firstSeen"] = 1486150519,
+		["guid"] = "Player-3693-092AD2BA",
+		["firstVersion"] = "4.0.16",
 	},
 	["Hauzerogue"] = {
 		["firstSeen"] = 1448641766,
@@ -1962,10 +1973,10 @@ AUCTIONATOR_TOONS = {
 		["firstSeen"] = 1471638447,
 		["firstVersion"] = "4.0.9",
 	},
-	["Laurenn"] = {
-		["firstSeen"] = 1486150519,
-		["guid"] = "Player-3693-092AD2BA",
-		["firstVersion"] = "4.0.16",
+	["Loranus"] = {
+		["firstSeen"] = 1537365790,
+		["guid"] = "Player-3693-0A0610D8",
+		["firstVersion"] = "5.0.5",
 	},
 	["Hauzerdemon"] = {
 		["firstSeen"] = 1478650187,

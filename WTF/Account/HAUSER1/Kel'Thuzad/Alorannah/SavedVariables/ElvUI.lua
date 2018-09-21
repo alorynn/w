@@ -1,998 +1,118 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/p tyvm! have a great one!   :D", -- [1]
-		"/cheer", -- [2]
-		"/cw Gàladriel-Kel'Thuzad hey I just need one more sig and I have a couple unguilded alts if you wanna join forces?", -- [3]
-		"/cw Gàladriel-Kel'Thuzad if you have an unguilded horde alt I can use for a sig, I have 2-3 unguilded alts atm you can use for sigs", -- [4]
-		"/cw Gàladriel-Kel'Thuzad ha ya same", -- [5]
-		"/cw Gàladriel-Kel'Thuzad ok cool lets do this", -- [6]
-		"/cw Gàladriel-Kel'Thuzad same for mogs", -- [7]
-		"/cw Gàladriel-Kel'Thuzad legendaries etc", -- [8]
-		"/cw Gàladriel-Kel'Thuzad but also mats for $$$", -- [9]
-		"/cw Gàladriel hey nice mount! lol", -- [10]
-		"/cw Gàladriel hmm weird", -- [11]
-		"/cw Gàladriel ok", -- [12]
-		"/cw Gàladriel ok cool ty! lemme turn this in then I can get my alts to sign for you", -- [13]
-		"/cw Gàladriel ok that worked - now lemme copy your name so I can msg when I relog", -- [14]
-		"/g hey guys thanks for the sigs! :D", -- [15]
-		"/cw Gàladriel-Kel'Thuzad lol can you paste your name to me? I cant figfure out how to get that fancy a", -- [16]
-		"/cw Gàladriel-Kel'Thuzad ha ok I got it - ok gonna relog on alts, brb!", -- [17]
-		"/ginvite", -- [18]
-		"/ginvite laurranah", -- [19]
-		"/tar broo", -- [20]
+		"/p oh aare you in warmode?", -- [1]
+		"/p me neither", -- [2]
+		"/p ok start the fight whenever", -- [3]
+		"/p oh god", -- [4]
+		"/p ya I cant handle this", -- [5]
+		"/p grats man", -- [6]
+		"/p ya thanks I do too lol", -- [7]
+		"/p well thanks for helping, wouldnt have made it this far without you <3", -- [8]
+		"/p have a good one!", -- [9]
+		"/p ya this is nuts", -- [10]
+		"/p like on my pally this would be so easy", -- [11]
+		"/p nah I went and grabbed lunch", -- [12]
+		"/p still stealthed looking at garrosh - it's a kiting and timing exercise, I just gotta work out the details", -- [13]
+		"/p ya", -- [14]
+		"/p ya those are the problem for me", -- [15]
+		"/p still working on it'", -- [16]
+		"/p might have to respec", -- [17]
+		"/p got em", -- [18]
+		"/p but youre saying it gets harder? lol", -- [19]
+		"/p brb gotta do a rare check on my hunter", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
-			"here", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
+			"just survive and dps when you can", -- [1]
+			"Axmans-Ysera", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Alorannah", -- [5]
+			"Axmans-Ysera", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			307, -- [11]
-			"Player-3693-09ED9289", -- [12]
+			563, -- [11]
+			"Player-63-0B3F987A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537291296,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549074,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [1]
 		{
-			"careful", -- [1]
-			"Viadara-Thrall", -- [2]
+			"ya", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Viadara-Thrall", -- [5]
+			"Alorannah", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			315, -- [11]
-			"Player-3678-0ADDD5AC", -- [12]
+			564, -- [11]
+			"Player-3693-09ED9289", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa330c9Viadara-Thrall|r",
-			[51] = 1537291339,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537549081,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [2]
 		{
-			"inc ally", -- [1]
-			"Viadara-Thrall", -- [2]
+			"watch out for big cauldron looking machines", -- [1]
+			"Axmans-Ysera", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Viadara-Thrall", -- [5]
+			"Axmans-Ysera", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			316, -- [11]
-			"Player-3678-0ADDD5AC", -- [12]
+			565, -- [11]
+			"Player-63-0B3F987A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa330c9Viadara-Thrall|r",
-			[51] = 1537291342,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549082,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [3]
 		{
-			"im curious about that spirit gateway", -- [1]
-			"Viadara-Thrall", -- [2]
+			"switching to shammy", -- [1]
+			"Tehfiremon-Ysera", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Viadara-Thrall", -- [5]
+			"Tehfiremon-Ysera", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			323, -- [11]
-			"Player-3678-0ADDD5AC", -- [12]
+			566, -- [11]
+			"Player-63-0BC62754", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa330c9Viadara-Thrall|r",
-			[51] = 1537291399,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+			[52] = "|cff3fc6eaTehfiremon-Ysera|r",
+			[51] = 1537549090,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [4]
 		{
-			"ive never seen that", -- [1]
-			"Viadara-Thrall", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Viadara-Thrall", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			324, -- [11]
-			"Player-3678-0ADDD5AC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa330c9Viadara-Thrall|r",
-			[51] = 1537291403,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [5]
-		{
-			"same", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			326, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537291403,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [6]
-		{
-			"oh it took me into a crypt lol", -- [1]
-			"Viadara-Thrall", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Viadara-Thrall", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			329, -- [11]
-			"Player-3678-0ADDD5AC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa330c9Viadara-Thrall|r",
-			[51] = 1537291434,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [7]
-		{
-			"shit me too", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			330, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537291449,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [8]
-		{
-			"lol", -- [1]
-			"Viadara-Thrall", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Viadara-Thrall", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			331, -- [11]
-			"Player-3678-0ADDD5AC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa330c9Viadara-Thrall|r",
-			[51] = 1537291452,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [9]
-		{
-			"where aer you guys", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			332, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537291471,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [10]
-		{
-			"I got killed by alliance", -- [1]
-			"Frisky-Drak'Tharon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Frisky-Drak'Tharon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			333, -- [11]
-			"Player-127-07B9A15D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Frisky-Drak'Tharon|r",
-			[51] = 1537291482,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [11]
-		{
-			"oh come up this way", -- [1]
-			"Viadara-Thrall", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Viadara-Thrall", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			334, -- [11]
-			"Player-3678-0ADDD5AC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa330c9Viadara-Thrall|r",
-			[51] = 1537291501,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [12]
-		{
-			"its leading me out to an X", -- [1]
-			"Viadara-Thrall", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Viadara-Thrall", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			335, -- [11]
-			"Player-3678-0ADDD5AC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa330c9Viadara-Thrall|r",
-			[51] = 1537291507,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [13]
-		{
-			"omw", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			336, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537291508,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [14]
-		{
-			"I see it now", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			337, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537291517,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [15]
-		{
-			"oh its up above", -- [1]
-			"Viadara-Thrall", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Viadara-Thrall", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			338, -- [11]
-			"Player-3678-0ADDD5AC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa330c9Viadara-Thrall|r",
-			[51] = 1537291537,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [16]
-		{
-			"strange", -- [1]
-			"Viadara-Thrall", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Viadara-Thrall", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2, -- [11]
-			"Player-3678-0ADDD5AC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa330c9Viadara-Thrall|r",
-			[51] = 1537291596,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [17]
-		{
-			"disconnect ed me", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537291600,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [18]
-		{
-			"gg", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537291618,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [19]
-		{
-			"thanks blizz", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			8, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537291630,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [20]
-		{
-			"nice mog", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			26, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537291753,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [21]
-		{
-			"ty", -- [1]
-			"Zzyx-Smolderthorn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Zzyx-Smolderthorn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			27, -- [11]
-			"Player-1138-0776E8DE", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Zzyx-Smolderthorn|r",
-			[51] = 1537291761,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [22]
-		{
-			"allies", -- [1]
-			"Derland-Gorefiend", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Derland-Gorefiend", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			77, -- [11]
-			"Player-159-06DBF691", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaDerland-Gorefiend|r",
-			[51] = 1537292011,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [23]
-		{
-			"blind", -- [1]
-			"Derland-Gorefiend", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Derland-Gorefiend", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			114, -- [11]
-			"Player-159-06DBF691", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaDerland-Gorefiend|r",
-			[51] = 1537292269,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [24]
-		{
-			"regroup", -- [1]
-			"Derland-Gorefiend", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Derland-Gorefiend", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			131, -- [11]
-			"Player-159-06DBF691", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaDerland-Gorefiend|r",
-			[51] = 1537292380,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [25]
-		{
-			"pls can we go somewhere else", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			137, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537292436,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [26]
-		{
-			"what chest friend-o", -- [1]
-			"Ðefiant-Stormreaver", -- [2]
-			"", -- [3]
-			"1. General - Zuldazar", -- [4]
-			"Ðefiant-Stormreaver", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zuldazar", -- [9]
-			0, -- [10]
-			204, -- [11]
-			"Player-58-07879E4A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffÐefiant-Stormreaver|r",
-			[51] = 1537293018,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
-		{
-			"I'll follow you pally", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			210, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537293101,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [28]
-		{
-			"bunch of shit north of us", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			211, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537293116,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [29]
-		{
-			"lol damn", -- [1]
-			"Hesaodragoon-Stormscale", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Hesaodragoon-Stormscale", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			229, -- [11]
-			"Player-127-083E4301", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaHesaodragoon-Stormscale|r",
-			[51] = 1537293281,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [30]
-		{
-			"guys we aernt getting shit for azerite doing this", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			368, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537294268,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [31]
-		{
-			"lets go get some and finish this", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			369, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537294278,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [32]
-		{
-			"dont fight in shit like that", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			470, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537294852,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [33]
-		{
-			"need to be able to see the AOEs on the ground", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			472, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537294861,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [34]
-		{
-			"so i dont know what you guys were doing while i fought them the last 4 minutes...", -- [1]
-			"Macantsaoir-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Macantsaoir-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			478, -- [11]
-			"Player-3685-09F1C90A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaMacantsaoir-Turalyon|r",
-			[51] = 1537294978,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [35]
-		{
-			"come to me", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			480, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537294987,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [36]
-		{
-			"lets group and get this over with", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			481, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537294992,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [37]
-		{
-			"mantis wrong mobs", -- [1]
-			"Macantsaoir-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Macantsaoir-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			495, -- [11]
-			"Player-3685-09F1C90A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaMacantsaoir-Turalyon|r",
-			[51] = 1537295070,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [38]
-		{
-			"pls come here", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			496, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537295071,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [39]
-		{
-			"can we group up", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			506, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537295135,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [40]
-		{
-			"dude ", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			539, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537295269,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [41]
-		{
-			"he just doesnt get it", -- [1]
-			"Macantsaoir-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Macantsaoir-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			542, -- [11]
-			"Player-3685-09F1C90A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaMacantsaoir-Turalyon|r",
-			[51] = 1537295286,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [42]
-		{
-			"just come with me", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			544, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537295296,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [43]
-		{
-			"hes fgonna do his own thing", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			545, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537295340,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [44]
-		{
-			"let me cc", -- [1]
+			"ya those are the problem for me", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1010,451 +130,1001 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537295416,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [45]
+			[51] = 1537549097,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [5]
 		{
-			"Ill follow you guys", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
+			"ya", -- [1]
+			"Axmans-Ysera", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Alorannah", -- [5]
+			"Axmans-Ysera", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			568, -- [11]
+			"Player-63-0B3F987A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549104,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [6]
+		{
+			"they hit me for 27k", -- [1]
+			"Axmans-Ysera", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Axmans-Ysera", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			569, -- [11]
+			"Player-63-0B3F987A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549110,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [7]
+		{
+			"the best shammy youll ever find", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nöödlês-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			571, -- [11]
+			"Player-162-09CE16D0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549146,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [8]
+		{
+			"right here", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nöödlês-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			572, -- [11]
+			"Player-162-09CE16D0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549148,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [9]
+		{
+			"destroyer of gods", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nöödlês-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			573, -- [11]
+			"Player-162-09CE16D0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549153,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [10]
+		{
+			"thats debateable", -- [1]
+			"Axmans-Ysera", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Axmans-Ysera", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			574, -- [11]
+			"Player-63-0B3F987A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549161,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [11]
+		{
+			"pfft wanna duel", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nöödlês-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			575, -- [11]
+			"Player-162-09CE16D0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549170,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [12]
+		{
+			"lol. you got jokes", -- [1]
+			"Axmans-Ysera", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Axmans-Ysera", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			576, -- [11]
+			"Player-63-0B3F987A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549179,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [13]
+		{
+			"you will get to know soon, i hate pvp", -- [1]
+			"Axmans-Ysera", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Axmans-Ysera", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			577, -- [11]
+			"Player-63-0B3F987A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549188,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [14]
+		{
+			"ewww", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nöödlês-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			578, -- [11]
+			"Player-162-09CE16D0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549205,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [15]
+		{
+			"i'm a big pvper", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nöödlês-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			579, -- [11]
+			"Player-162-09CE16D0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549209,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [16]
+		{
+			"i know lol", -- [1]
+			"Axmans-Ysera", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Axmans-Ysera", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			580, -- [11]
+			"Player-63-0B3F987A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549215,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [17]
+		{
+			"murking people is my favorite thing", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nöödlês-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			581, -- [11]
+			"Player-162-09CE16D0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549220,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [18]
+		{
+			"ever", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nöödlês-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			582, -- [11]
+			"Player-162-09CE16D0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549220,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [19]
+		{
+			"im just not good at it", -- [1]
+			"Axmans-Ysera", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Axmans-Ysera", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			583, -- [11]
+			"Player-63-0B3F987A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549220,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [20]
+		{
+			"ill teach ya", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nöödlês-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			584, -- [11]
+			"Player-162-09CE16D0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549224,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [21]
+		{
+			"then i lose patience", -- [1]
+			"Axmans-Ysera", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Axmans-Ysera", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			585, -- [11]
+			"Player-63-0B3F987A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549225,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [22]
+		{
+			"let's do some twos", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nöödlês-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			586, -- [11]
+			"Player-162-09CE16D0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549228,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [23]
+		{
+			"not atm,", -- [1]
+			"Axmans-Ysera", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Axmans-Ysera", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			587, -- [11]
+			"Player-63-0B3F987A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549233,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [24]
+		{
+			"nah later on", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nöödlês-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			588, -- [11]
+			"Player-162-09CE16D0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549238,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [25]
+		{
+			"i gotta go to missouri for smokes", -- [1]
+			"Axmans-Ysera", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Axmans-Ysera", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			589, -- [11]
+			"Player-63-0B3F987A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549242,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [26]
+		{
+			"i'm eating hot wings", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nöödlês-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			590, -- [11]
+			"Player-162-09CE16D0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549251,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [27]
+		{
+			"40 min drive one way", -- [1]
+			"Axmans-Ysera", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Axmans-Ysera", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			591, -- [11]
+			"Player-63-0B3F987A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549254,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [28]
+		{
+			"yum", -- [1]
+			"Axmans-Ysera", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Axmans-Ysera", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			592, -- [11]
+			"Player-63-0B3F987A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549256,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [29]
+		{
+			"soooo those trump wow atm", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nöödlês-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			593, -- [11]
+			"Player-162-09CE16D0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549260,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [30]
+		{
+			"LOL", -- [1]
+			"Axmans-Ysera", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Axmans-Ysera", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			594, -- [11]
+			"Player-63-0B3F987A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549269,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [31]
+		{
+			"juice is dying for me to get my shammy over therelol", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nöödlês-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			595, -- [11]
+			"Player-162-09CE16D0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549290,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [32]
+		{
+			"ya , i hit exalted with honorbound lastnight at like 3am", -- [1]
+			"Axmans-Ysera", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Axmans-Ysera", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			596, -- [11]
+			"Player-63-0B3F987A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549292,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [33]
+		{
+			"ill pay you 200 bucks", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nöödlês-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			597, -- [11]
+			"Player-162-09CE16D0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549300,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [34]
+		{
+			"to grind my rep", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nöödlês-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			598, -- [11]
+			"Player-162-09CE16D0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549303,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [35]
+		{
+			"yes, we can help pay for it also", -- [1]
+			"Axmans-Ysera", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Axmans-Ysera", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			599, -- [11]
-			"Player-3693-09ED9289", -- [12]
+			"Player-63-0B3F987A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537295651,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549305,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [36]
+		{
+			"lmfao", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nöödlês-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			600, -- [11]
+			"Player-162-09CE16D0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549306,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [37]
+		{
+			"yall don't have too", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nöödlês-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			601, -- [11]
+			"Player-162-09CE16D0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549322,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [38]
+		{
+			"i told juice tuesday ill be able to afford it", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nöödlês-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			602, -- [11]
+			"Player-162-09CE16D0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549335,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [39]
+		{
+			"lol i got pathfinder part 1 done", -- [1]
+			"Axmans-Ysera", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Axmans-Ysera", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			603, -- [11]
+			"Player-63-0B3F987A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549336,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [40]
+		{
+			"but she wants me there now lol", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nöödlês-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			604, -- [11]
+			"Player-162-09CE16D0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549342,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [41]
+		{
+			"we do!", -- [1]
+			"Axmans-Ysera", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Axmans-Ysera", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			605, -- [11]
+			"Player-63-0B3F987A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549347,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [42]
+		{
+			"lol", -- [1]
+			"Axmans-Ysera", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Axmans-Ysera", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			606, -- [11]
+			"Player-63-0B3F987A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549349,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [43]
+		{
+			"lol yall are silly", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nöödlês-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			607, -- [11]
+			"Player-162-09CE16D0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549357,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [44]
+		{
+			"ya, but you like us", -- [1]
+			"Axmans-Ysera", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Axmans-Ysera", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			608, -- [11]
+			"Player-63-0B3F987A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549365,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [45]
+		{
+			"dont  lie", -- [1]
+			"Axmans-Ysera", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Axmans-Ysera", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			609, -- [11]
+			"Player-63-0B3F987A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549368,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [46]
 		{
-			"|cffffff00Zuldazar is under attack!|r", -- [1]
-			"", -- [2]
+			"brb got to put my kid down for a nap", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
 			"", -- [3]
-			"3. LocalDefense - Zuldazar", -- [4]
-			"", -- [5]
+			"", -- [4]
+			"Nöödlês-EmeraldDream", -- [5]
 			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Zuldazar", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			816, -- [11]
-			false, -- [12]
+			610, -- [11]
+			"Player-162-09CE16D0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1537298824,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549370,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [47]
 		{
-			"hey mind if I hit you up for a guild charter signature?   :D", -- [1]
-			"Thecronos", -- [2]
+			"maybe just a tad", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Thecronos", -- [5]
+			"Nöödlês-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			56, -- [11]
-			"Player-3693-09FE51F4", -- [12]
+			611, -- [11]
+			"Player-162-09CE16D0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aThecronos|r",
-			[51] = 1537364304,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549373,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [48]
 		{
-			"hey mind if I hit you up for a guild charter signature?   :D", -- [1]
-			"Groshi", -- [2]
+			"wish this staff would sell", -- [1]
+			"Axmans-Ysera", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Groshi", -- [5]
+			"Axmans-Ysera", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			61, -- [11]
-			"Player-3693-09ED256C", -- [12]
+			612, -- [11]
+			"Player-63-0B3F987A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aGroshi|r",
-			[51] = 1537364311,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549441,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [49]
 		{
-			"hey mind if I hit you up for a guild charter signature?   :D", -- [1]
-			"Tyrancid", -- [2]
+			"how you doing Alor?", -- [1]
+			"Axmans-Ysera", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Tyrancid", -- [5]
+			"Axmans-Ysera", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			68, -- [11]
-			"Player-3693-0A05ECBA", -- [12]
+			613, -- [11]
+			"Player-63-0B3F987A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaTyrancid|r",
-			[51] = 1537364320,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549504,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [50]
 		{
-			"hey mind if I hit you up for a guild charter signature?   :D", -- [1]
-			"Asterix", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Asterix", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			73, -- [11]
-			"Player-3693-072A9CE9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffAsterix|r",
-			[51] = 1537364325,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [51]
-		{
-			"like temporary? I'm not looking to join a guild", -- [1]
-			"Asterix-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Asterix", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			80, -- [11]
-			"Player-3693-072A9CE9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffAsterix|r",
-			[51] = 1537364364,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [52]
-		{
-			"oh ya you dont need to join", -- [1]
-			"Asterix-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Asterix", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			82, -- [11]
-			"Player-3693-072A9CE9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffAsterix|r",
-			[51] = 1537364380,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [53]
-		{
-			"k what do I do", -- [1]
-			"Asterix-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Asterix", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			83, -- [11]
-			"Player-3693-072A9CE9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffAsterix|r",
-			[51] = 1537364389,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [54]
-		{
-			"just to create a guild requires some sigs", -- [1]
-			"Asterix-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Asterix", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			84, -- [11]
-			"Player-3693-072A9CE9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffAsterix|r",
-			[51] = 1537364389,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [55]
-		{
-			"oh sure", -- [1]
-			"Groshi-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Groshi", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			88, -- [11]
-			"Player-3693-09ED256C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aGroshi|r",
-			[51] = 1537364427,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [56]
-		{
-			"ha Im not sure! lol been years since Ive done this, one sec", -- [1]
-			"Asterix-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Asterix", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			89, -- [11]
-			"Player-3693-072A9CE9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffAsterix|r",
-			[51] = 1537364428,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [57]
-		{
-			"|cffffff00Orgrimmar is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Orgrimmar", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Orgrimmar", -- [9]
-			0, -- [10]
-			90, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1537364432,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
-		{
-			"you still at the ah?", -- [1]
-			"Groshi-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Groshi", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			91, -- [11]
-			"Player-3693-09ED256C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aGroshi|r",
-			[51] = 1537364434,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [59]
-		{
-			"cool ty! be there in 1 min", -- [1]
-			"Groshi-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Groshi", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			92, -- [11]
-			"Player-3693-09ED256C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aGroshi|r",
-			[51] = 1537364436,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [60]
-		{
-			"hey thanks man! ", -- [1]
-			"Groshi-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Groshi", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			95, -- [11]
-			"Player-3693-09ED256C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aGroshi|r",
-			[51] = 1537364481,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [61]
-		{
-			"omw!", -- [1]
-			"Groshi-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Groshi", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			96, -- [11]
-			"Player-3693-09ED256C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aGroshi|r",
-			[51] = 1537364485,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [62]
-		{
-			"hey thanks man!", -- [1]
-			"Asterix-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Asterix", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			97, -- [11]
-			"Player-3693-072A9CE9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffAsterix|r",
-			[51] = 1537364493,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [63]
-		{
-			"I think thats it! have a good one!   :D", -- [1]
-			"Asterix-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Asterix", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			98, -- [11]
-			"Player-3693-072A9CE9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffAsterix|r",
-			[51] = 1537364501,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [64]
-		{
-			"np", -- [1]
-			"Asterix-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Asterix", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			103, -- [11]
-			"Player-3693-072A9CE9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffAsterix|r",
-			[51] = 1537364510,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [65]
-		{
-			"hey thanks a lot! have a good one!   XD", -- [1]
+			"still working on it'", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1464,7 +1134,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			107, -- [11]
+			614, -- [11]
 			"Player-3693-09ED9289", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1472,1187 +1142,1495 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537364538,
+			[51] = 1537549529,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [51]
+		{
+			"trying to get myself to want tot go do WQ", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nöödlês-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			615, -- [11]
+			"Player-162-09CE16D0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549555,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [52]
+		{
+			"might have to respec", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			616, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537549557,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [53]
+		{
+			"just focus honorbound lol", -- [1]
+			"Axmans-Ysera", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Axmans-Ysera", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			617, -- [11]
+			"Player-63-0B3F987A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549582,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [54]
+		{
+			"plenty of WQ", -- [1]
+			"Axmans-Ysera", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Axmans-Ysera", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			618, -- [11]
+			"Player-63-0B3F987A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549586,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [55]
+		{
+			"you'll learn real quick i hate quests", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nöödlês-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			619, -- [11]
+			"Player-162-09CE16D0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549609,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [56]
+		{
+			"lol", -- [1]
+			"Axmans-Ysera", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Axmans-Ysera", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			620, -- [11]
+			"Player-63-0B3F987A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549635,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [57]
+		{
+			"ill teach you =P", -- [1]
+			"Axmans-Ysera", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Axmans-Ysera", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			621, -- [11]
+			"Player-63-0B3F987A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549647,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [58]
+		{
+			"lmfao", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nöödlês-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			622, -- [11]
+			"Player-162-09CE16D0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549650,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [59]
+		{
+			"touche mfer touche", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nöödlês-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			623, -- [11]
+			"Player-162-09CE16D0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549662,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [60]
+		{
+			"lolz", -- [1]
+			"Axmans-Ysera", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Axmans-Ysera", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			624, -- [11]
+			"Player-63-0B3F987A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549667,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [61]
+		{
+			"it's just bleh", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nöödlês-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			625, -- [11]
+			"Player-162-09CE16D0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549675,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [62]
+		{
+			"i don't mind questing while in a group", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nöödlês-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			626, -- [11]
+			"Player-162-09CE16D0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549680,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [63]
+		{
+			"like two of us doign WQ", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nöödlês-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			627, -- [11]
+			"Player-162-09CE16D0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549684,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [64]
+		{
+			"but", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nöödlês-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			628, -- [11]
+			"Player-162-09CE16D0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549685,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [65]
+		{
+			"ya, the grind is real in BFA'", -- [1]
+			"Axmans-Ysera", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Axmans-Ysera", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			629, -- [11]
+			"Player-63-0B3F987A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549685,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [66]
 		{
-			"np", -- [1]
-			"Groshi-Kel'Thuzad", -- [2]
+			"solo i lost my shit", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Groshi", -- [5]
+			"Nöödlês-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			108, -- [11]
-			"Player-3693-09ED256C", -- [12]
+			630, -- [11]
+			"Player-162-09CE16D0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aGroshi|r",
-			[51] = 1537364542,
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549688,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [67]
 		{
-			"hey mind if I hit you up for a guild charter signature?   :D", -- [1]
-			"Thecronos-Kel'Thuzad", -- [2]
+			"i left legion 2 month after it cam eout", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Thecronos", -- [5]
+			"Nöödlês-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			110, -- [11]
-			"Player-3693-09FE51F4", -- [12]
+			631, -- [11]
+			"Player-162-09CE16D0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aThecronos|r",
-			[51] = 1537364565,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549695,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [68]
 		{
-			"hey mind if I hit you up for a guild charter signature?   :D", -- [1]
-			"Miikah-Kel'Thuzad", -- [2]
+			"cause of this", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Miikah", -- [5]
+			"Nöödlês-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			112, -- [11]
-			"Player-3693-092A034F", -- [12]
+			632, -- [11]
+			"Player-162-09CE16D0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Miikah|r",
-			[51] = 1537364570,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549697,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [69]
 		{
-			"hey mind if I hit you up for a guild charter signature?   :D", -- [1]
-			"Tyrancid-Kel'Thuzad", -- [2]
+			"i hate AP grinding", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Tyrancid", -- [5]
+			"Nöödlês-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			113, -- [11]
-			"Player-3693-0A05ECBA", -- [12]
+			633, -- [11]
+			"Player-162-09CE16D0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaTyrancid|r",
-			[51] = 1537364577,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549700,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [70]
 		{
-			"hey mind if I hit you up for a guild charter signature?   :D", -- [1]
-			"Gàladriel-Kel'Thuzad", -- [2]
+			"i dont focus it", -- [1]
+			"Axmans-Ysera", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gàladriel", -- [5]
+			"Axmans-Ysera", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			115, -- [11]
-			"Player-3693-092A05CC", -- [12]
+			634, -- [11]
+			"Player-63-0B3F987A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffGàladriel|r",
-			[51] = 1537364584,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549707,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [71]
 		{
-			"hey mind if I hit you up for a guild charter signature?   :D", -- [1]
-			"Kazaroth", -- [2]
+			"also", -- [1]
+			"Axmans-Ysera", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Kazaroth", -- [5]
+			"Axmans-Ysera", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			116, -- [11]
-			"Player-3693-09EF84C7", -- [12]
+			635, -- [11]
+			"Player-63-0B3F987A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffKazaroth|r",
-			[51] = 1537364591,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549708,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [72]
 		{
-			"lol im getting mine signed right now lol", -- [1]
-			"Gàladriel-Kel'Thuzad", -- [2]
+			"you been doing your island expedition?>", -- [1]
+			"Axmans-Ysera", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gàladriel", -- [5]
+			"Axmans-Ysera", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			118, -- [11]
-			"Player-3693-092A05CC", -- [12]
+			636, -- [11]
+			"Player-63-0B3F987A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffGàladriel|r",
-			[51] = 1537364598,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549717,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [73]
 		{
-			"hahaha good luck!   XD", -- [1]
-			"Gàladriel-Kel'Thuzad", -- [2]
+			"dafuk is that", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gàladriel", -- [5]
+			"Nöödlês-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			119, -- [11]
-			"Player-3693-092A05CC", -- [12]
+			637, -- [11]
+			"Player-162-09CE16D0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffGàladriel|r",
-			[51] = 1537364606,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549722,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [74]
 		{
-			"and you just asked the guy i asked lol", -- [1]
-			"Gàladriel-Kel'Thuzad", -- [2]
+			"omg", -- [1]
+			"Axmans-Ysera", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gàladriel", -- [5]
+			"Axmans-Ysera", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			120, -- [11]
-			"Player-3693-092A05CC", -- [12]
+			638, -- [11]
+			"Player-63-0B3F987A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffGàladriel|r",
-			[51] = 1537364609,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549726,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [75]
 		{
-			"haha damn ", -- [1]
-			"Gàladriel-Kel'Thuzad", -- [2]
+			"stay there", -- [1]
+			"Axmans-Ysera", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gàladriel", -- [5]
+			"Axmans-Ysera", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			121, -- [11]
-			"Player-3693-092A05CC", -- [12]
+			639, -- [11]
+			"Player-63-0B3F987A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffGàladriel|r",
-			[51] = 1537364619,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549732,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [76]
 		{
-			"wonder if we'd be better off in the started zones?", -- [1]
-			"Gàladriel-Kel'Thuzad", -- [2]
+			"if you press h", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gàladriel", -- [5]
+			"Nöödlês-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			122, -- [11]
-			"Player-3693-092A05CC", -- [12]
+			640, -- [11]
+			"Player-162-09CE16D0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffGàladriel|r",
-			[51] = 1537364624,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549734,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [77]
 		{
-			"LF Port to Vale - 400g", -- [1]
-			"Etrio-Stormreaver", -- [2]
+			"im comig to you", -- [1]
+			"Axmans-Ysera", -- [2]
 			"", -- [3]
-			"1. General - Orgrimmar", -- [4]
-			"Etrio-Stormreaver", -- [5]
+			"", -- [4]
+			"Axmans-Ysera", -- [5]
 			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Orgrimmar", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			123, -- [11]
-			"Player-58-0B1A787E", -- [12]
+			641, -- [11]
+			"Player-63-0B3F987A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "|cff0070ddEtrio-Stormreaver|r",
-			[51] = 1537364633,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549734,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [78]
 		{
-			"yeah i would say so offer them some gold theyll do it", -- [1]
-			"Gàladriel-Kel'Thuzad", -- [2]
+			"and click rangom bg", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gàladriel", -- [5]
+			"Nöödlês-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			124, -- [11]
-			"Player-3693-092A05CC", -- [12]
+			642, -- [11]
+			"Player-162-09CE16D0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffGàladriel|r",
-			[51] = 1537364645,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549739,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [79]
 		{
-			"ya maybe I'll hit up the BE starting zone", -- [1]
-			"Gàladriel-Kel'Thuzad", -- [2]
+			"and que", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gàladriel", -- [5]
+			"Nöödlês-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			125, -- [11]
-			"Player-3693-092A05CC", -- [12]
+			643, -- [11]
+			"Player-162-09CE16D0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffGàladriel|r",
-			[51] = 1537364672,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549741,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [80]
 		{
-			"sry my hubby got me first lol", -- [1]
-			"Miikah-Kel'Thuzad", -- [2]
+			"that is what i do", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Miikah", -- [5]
+			"Nöödlês-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			126, -- [11]
-			"Player-3693-092A034F", -- [12]
+			644, -- [11]
+			"Player-162-09CE16D0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Miikah|r",
-			[51] = 1537364678,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549744,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [81]
 		{
-			"hey mind if I hit you up for a guild charter signature?   :D", -- [1]
-			"Illmortal", -- [2]
+			"allllll the time", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Illmortal", -- [5]
+			"Nöödlês-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			127, -- [11]
-			"Player-3693-076461A4", -- [12]
+			645, -- [11]
+			"Player-162-09CE16D0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Illmortal|r",
-			[51] = 1537364696,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549746,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [82]
 		{
-			"ha np!", -- [1]
-			"Miikah-Kel'Thuzad", -- [2]
+			"LOL", -- [1]
+			"Axmans-Ysera", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Miikah", -- [5]
+			"Axmans-Ysera", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			128, -- [11]
-			"Player-3693-092A034F", -- [12]
+			646, -- [11]
+			"Player-63-0B3F987A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Miikah|r",
-			[51] = 1537364703,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549747,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [83]
 		{
-			"sure", -- [1]
-			"Illmortal-Kel'Thuzad", -- [2]
+			"hop on", -- [1]
+			"Axmans-Ysera", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Illmortal", -- [5]
+			"Axmans-Ysera", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			129, -- [11]
-			"Player-3693-076461A4", -- [12]
+			650, -- [11]
+			"Player-63-0B3F987A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Illmortal|r",
-			[51] = 1537364704,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549796,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [84]
 		{
-			"ty! omw!", -- [1]
-			"Illmortal-Kel'Thuzad", -- [2]
+			"damn it", -- [1]
+			"Axmans-Ysera", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Illmortal", -- [5]
+			"Axmans-Ysera", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			133, -- [11]
-			"Player-3693-076461A4", -- [12]
+			651, -- [11]
+			"Player-63-0B3F987A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Illmortal|r",
-			[51] = 1537364711,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549801,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [85]
 		{
-			"in the air right from seal", -- [1]
-			"Illmortal-Kel'Thuzad", -- [2]
+			"hahahahahaha", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Illmortal", -- [5]
+			"Nöödlês-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			136, -- [11]
-			"Player-3693-076461A4", -- [12]
+			652, -- [11]
+			"Player-162-09CE16D0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Illmortal|r",
-			[51] = 1537364767,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549801,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [86]
 		{
-			"oh shit warmode?", -- [1]
-			"Illmortal-Kel'Thuzad", -- [2]
+			"your WM", -- [1]
+			"Axmans-Ysera", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Illmortal", -- [5]
+			"Axmans-Ysera", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			143, -- [11]
-			"Player-3693-076461A4", -- [12]
+			653, -- [11]
+			"Player-63-0B3F987A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Illmortal|r",
-			[51] = 1537364825,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549803,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [87]
 		{
-			"meet in org", -- [1]
-			"Illmortal-Kel'Thuzad", -- [2]
+			"i acan't", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Illmortal", -- [5]
+			"Nöödlês-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			144, -- [11]
-			"Player-3693-076461A4", -- [12]
+			654, -- [11]
+			"Player-162-09CE16D0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Illmortal|r",
-			[51] = 1537364839,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549803,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [88]
 		{
-			"haha sorry XD", -- [1]
-			"Illmortal-Kel'Thuzad", -- [2]
+			"me pvper", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Illmortal", -- [5]
+			"Nöödlês-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			145, -- [11]
-			"Player-3693-076461A4", -- [12]
+			655, -- [11]
+			"Player-162-09CE16D0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Illmortal|r",
-			[51] = 1537364854,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549809,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [89]
 		{
-			"never done this before", -- [1]
-			"Illmortal-Kel'Thuzad", -- [2]
+			"follow my dot", -- [1]
+			"Axmans-Ysera", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Illmortal", -- [5]
+			"Axmans-Ysera", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			146, -- [11]
-			"Player-3693-076461A4", -- [12]
+			656, -- [11]
+			"Player-63-0B3F987A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Illmortal|r",
-			[51] = 1537364858,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549811,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [90]
 		{
-			"comin to org?", -- [1]
-			"Illmortal-Kel'Thuzad", -- [2]
+			"WM for life", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Illmortal", -- [5]
+			"Nöödlês-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			150, -- [11]
-			"Player-3693-076461A4", -- [12]
+			658, -- [11]
+			"Player-162-09CE16D0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Illmortal|r",
-			[51] = 1537364946,
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549812,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [91]
 		{
-			"hey there you are lol", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
+			"oooo", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Alorannah", -- [5]
+			"Nöödlês-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			153, -- [11]
-			"Player-3693-09ED9289", -- [12]
+			659, -- [11]
+			"Player-162-09CE16D0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537364960,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549828,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [92]
 		{
-			"thanks again man", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
+			"what's this", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Alorannah", -- [5]
+			"Nöödlês-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			154, -- [11]
-			"Player-3693-09ED9289", -- [12]
+			660, -- [11]
+			"Player-162-09CE16D0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537364963,
-			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549830,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [93]
 		{
-			"no worries", -- [1]
-			"Illmortal-Kel'Thuzad", -- [2]
+			"see table here?", -- [1]
+			"Axmans-Ysera", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Illmortal", -- [5]
+			"Axmans-Ysera", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			155, -- [11]
-			"Player-3693-076461A4", -- [12]
+			661, -- [11]
+			"Player-63-0B3F987A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Illmortal|r",
-			[51] = 1537364966,
-			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549830,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [94]
 		{
-			"tyvm! have a great one!   :D", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
+			"this is island expedition", -- [1]
+			"Axmans-Ysera", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Alorannah", -- [5]
+			"Axmans-Ysera", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			160, -- [11]
-			"Player-3693-09ED9289", -- [12]
+			663, -- [11]
+			"Player-63-0B3F987A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537364977,
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549839,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [95]
 		{
-			"LF Port to Vale - 400g", -- [1]
-			"Etrio-Stormreaver", -- [2]
-			"", -- [3]
-			"1. General - Orgrimmar", -- [4]
-			"Etrio-Stormreaver", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Orgrimmar", -- [9]
-			0, -- [10]
-			161, -- [11]
-			"Player-58-0B1A787E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff0070ddEtrio-Stormreaver|r",
-			[51] = 1537364979,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
-		{
-			"u2", -- [1]
-			"Illmortal-Kel'Thuzad", -- [2]
+			"oooo", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Illmortal", -- [5]
+			"Nöödlês-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			162, -- [11]
-			"Player-3693-076461A4", -- [12]
+			664, -- [11]
+			"Player-162-09CE16D0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Illmortal|r",
-			[51] = 1537364981,
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549846,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [96]
+		{
+			"they gota 3v3", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nöödlês-EmeraldDream", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			665, -- [11]
+			"Player-162-09CE16D0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549850,
 			[50] = "CHAT_MSG_PARTY",
 		}, -- [97]
 		{
-			"hey I just need one more sig and I have a couple unguilded alts if you wanna join forces?", -- [1]
-			"Gàladriel-Kel'Thuzad", -- [2]
+			"!!!!", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gàladriel", -- [5]
+			"Nöödlês-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			164, -- [11]
-			"Player-3693-092A05CC", -- [12]
+			666, -- [11]
+			"Player-162-09CE16D0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffGàladriel|r",
-			[51] = 1537365019,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549853,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [98]
 		{
-			"if you have an unguilded horde alt I can use for a sig, I have 2-3 unguilded alts atm you can use for sigs", -- [1]
-			"Gàladriel-Kel'Thuzad", -- [2]
+			"complete the weekly azerite quest to get 1500 rep with honorbound and AP", -- [1]
+			"Axmans-Ysera", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gàladriel", -- [5]
+			"Axmans-Ysera", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			165, -- [11]
-			"Player-3693-092A05CC", -- [12]
+			667, -- [11]
+			"Player-63-0B3F987A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffGàladriel|r",
-			[51] = 1537365046,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549855,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [99]
 		{
-			"ill sign it then leave so i can make mine ", -- [1]
-			"Gàladriel-Kel'Thuzad", -- [2]
+			"guess whos party has 3 memebrs", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gàladriel", -- [5]
+			"Nöödlês-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			166, -- [11]
-			"Player-3693-092A05CC", -- [12]
+			669, -- [11]
+			"Player-162-09CE16D0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffGàladriel|r",
-			[51] = 1537365058,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549865,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [100]
 		{
-			"i want a guild for the storage ", -- [1]
-			"Gàladriel-Kel'Thuzad", -- [2]
+			"and loot", -- [1]
+			"Axmans-Ysera", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gàladriel", -- [5]
+			"Axmans-Ysera", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			167, -- [11]
-			"Player-3693-092A05CC", -- [12]
+			670, -- [11]
+			"Player-63-0B3F987A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffGàladriel|r",
-			[51] = 1537365094,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549867,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [101]
 		{
-			"ha ya same", -- [1]
-			"Gàladriel-Kel'Thuzad", -- [2]
+			"this one!", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gàladriel", -- [5]
+			"Nöödlês-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			168, -- [11]
-			"Player-3693-092A05CC", -- [12]
+			671, -- [11]
+			"Player-162-09CE16D0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffGàladriel|r",
-			[51] = 1537365099,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549869,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [102]
 		{
-			"ok cool lets do this", -- [1]
-			"Gàladriel-Kel'Thuzad", -- [2]
+			"LOL", -- [1]
+			"Axmans-Ysera", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gàladriel", -- [5]
+			"Axmans-Ysera", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			171, -- [11]
-			"Player-3693-092A05CC", -- [12]
+			672, -- [11]
+			"Player-63-0B3F987A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffGàladriel|r",
-			[51] = 1537365110,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549870,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [103]
 		{
-			"i farm a lot", -- [1]
-			"Gàladriel-Kel'Thuzad", -- [2]
+			"see what i a did there", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gàladriel", -- [5]
+			"Nöödlês-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			172, -- [11]
-			"Player-3693-092A05CC", -- [12]
+			674, -- [11]
+			"Player-162-09CE16D0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffGàladriel|r",
-			[51] = 1537365113,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549880,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [104]
 		{
-			":)", -- [1]
-			"Gàladriel-Kel'Thuzad", -- [2]
+			"ya, but you wanna know something", -- [1]
+			"Axmans-Ysera", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gàladriel", -- [5]
+			"Axmans-Ysera", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			175, -- [11]
-			"Player-3693-092A05CC", -- [12]
+			675, -- [11]
+			"Player-63-0B3F987A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffGàladriel|r",
-			[51] = 1537365115,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549891,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [105]
 		{
-			"same for mogs", -- [1]
-			"Gàladriel-Kel'Thuzad", -- [2]
+			"LETS DO T", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gàladriel", -- [5]
+			"Nöödlês-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			176, -- [11]
-			"Player-3693-092A05CC", -- [12]
+			676, -- [11]
+			"Player-162-09CE16D0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffGàladriel|r",
-			[51] = 1537365118,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549895,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [106]
 		{
-			"legendaries etc", -- [1]
-			"Gàladriel-Kel'Thuzad", -- [2]
+			"i gotta leav =P for about 2 hours", -- [1]
+			"Axmans-Ysera", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gàladriel", -- [5]
+			"Axmans-Ysera", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			177, -- [11]
-			"Player-3693-092A05CC", -- [12]
+			678, -- [11]
+			"Player-63-0B3F987A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffGàladriel|r",
-			[51] = 1537365123,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549899,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [107]
 		{
-			"but also mats for $$$", -- [1]
-			"Gàladriel-Kel'Thuzad", -- [2]
+			"you my friend", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gàladriel", -- [5]
+			"Nöödlês-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			179, -- [11]
-			"Player-3693-092A05CC", -- [12]
+			679, -- [11]
+			"Player-162-09CE16D0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffGàladriel|r",
-			[51] = 1537365134,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549904,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [108]
 		{
-			"hey nice mount! lol", -- [1]
-			"Gàladriel-Kel'Thuzad", -- [2]
+			"or no fun", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gàladriel", -- [5]
+			"Nöödlês-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			181, -- [11]
-			"Player-3693-092A05CC", -- [12]
+			680, -- [11]
+			"Player-162-09CE16D0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffGàladriel|r",
-			[51] = 1537365165,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549905,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [109]
 		{
-			"ha ty", -- [1]
-			"Gàladriel-Kel'Thuzad", -- [2]
+			"T-T", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gàladriel", -- [5]
+			"Nöödlês-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			182, -- [11]
-			"Player-3693-092A05CC", -- [12]
+			681, -- [11]
+			"Player-162-09CE16D0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffGàladriel|r",
-			[51] = 1537365171,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549907,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [110]
 		{
-			"what it says already signed ", -- [1]
-			"Gàladriel-Kel'Thuzad", -- [2]
+			"QQ", -- [1]
+			"Axmans-Ysera", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gàladriel", -- [5]
+			"Axmans-Ysera", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			184, -- [11]
-			"Player-3693-092A05CC", -- [12]
+			682, -- [11]
+			"Player-63-0B3F987A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffGàladriel|r",
-			[51] = 1537365192,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549912,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [111]
 		{
-			"ok wait let me get rid of my charter maybe thats why", -- [1]
-			"Gàladriel-Kel'Thuzad", -- [2]
+			"BABY CME BACK", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gàladriel", -- [5]
+			"Nöödlês-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			185, -- [11]
-			"Player-3693-092A05CC", -- [12]
+			683, -- [11]
+			"Player-162-09CE16D0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffGàladriel|r",
-			[51] = 1537365206,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549919,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [112]
 		{
-			"hmm weird", -- [1]
-			"Gàladriel-Kel'Thuzad", -- [2]
+			"you can blame it all on me", -- [1]
+			"Axmans-Ysera", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gàladriel", -- [5]
+			"Axmans-Ysera", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			186, -- [11]
-			"Player-3693-092A05CC", -- [12]
+			684, -- [11]
+			"Player-63-0B3F987A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffGàladriel|r",
-			[51] = 1537365211,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549929,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [113]
 		{
-			"try again", -- [1]
-			"Gàladriel-Kel'Thuzad", -- [2]
+			"WE don't have to P V P", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gàladriel", -- [5]
+			"Nöödlês-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			187, -- [11]
-			"Player-3693-092A05CC", -- [12]
+			685, -- [11]
+			"Player-162-09CE16D0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffGàladriel|r",
-			[51] = 1537365219,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549931,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [114]
 		{
-			"ok", -- [1]
-			"Gàladriel-Kel'Thuzad", -- [2]
+			"i already completed mine lol", -- [1]
+			"Axmans-Ysera", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gàladriel", -- [5]
+			"Axmans-Ysera", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			188, -- [11]
-			"Player-3693-092A05CC", -- [12]
+			687, -- [11]
+			"Player-63-0B3F987A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffGàladriel|r",
-			[51] = 1537365222,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549945,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [115]
 		{
-			"there ", -- [1]
-			"Gàladriel-Kel'Thuzad", -- [2]
+			"well i'm behind", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gàladriel", -- [5]
+			"Nöödlês-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			191, -- [11]
-			"Player-3693-092A05CC", -- [12]
+			688, -- [11]
+			"Player-162-09CE16D0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffGàladriel|r",
-			[51] = 1537365239,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549952,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [116]
 		{
-			"ok cool ty! lemme turn this in then I can get my alts to sign for you", -- [1]
-			"Gàladriel-Kel'Thuzad", -- [2]
+			"dont die Alor", -- [1]
+			"Axmans-Ysera", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gàladriel", -- [5]
+			"Axmans-Ysera", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			192, -- [11]
-			"Player-3693-092A05CC", -- [12]
+			690, -- [11]
+			"Player-63-0B3F987A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffGàladriel|r",
-			[51] = 1537365250,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549956,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [117]
 		{
-			"ok awesome", -- [1]
-			"Gàladriel-Kel'Thuzad", -- [2]
+			"should have rolleda shammy", -- [1]
+			"Nöödlês-EmeraldDream", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gàladriel", -- [5]
+			"Nöödlês-EmeraldDream", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			193, -- [11]
-			"Player-3693-092A05CC", -- [12]
+			692, -- [11]
+			"Player-162-09CE16D0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffGàladriel|r",
-			[51] = 1537365261,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
+			[51] = 1537549968,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [118]
 		{
-			"ok that worked - now lemme copy your name so I can msg when I relog", -- [1]
-			"Gàladriel-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Gàladriel", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			198, -- [11]
-			"Player-3693-092A05CC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffGàladriel|r",
-			[51] = 1537365298,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [119]
-		{
-			"hey guys thanks for the sigs! :D", -- [1]
+			"got em", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Alorannah", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			199, -- [11]
+			693, -- [11]
 			"Player-3693-09ED9289", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -2660,162 +2638,184 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537365311,
-			[50] = "CHAT_MSG_GUILD",
+			[51] = 1537549970,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [119]
+		{
+			"i got one", -- [1]
+			"Axmans-Ysera", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Axmans-Ysera", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			694, -- [11]
+			"Player-63-0B3F987A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549973,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [120]
 		{
-			"<3", -- [1]
-			"Groshi-Kel'Thuzad", -- [2]
+			"AWSOME", -- [1]
+			"Axmans-Ysera", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Axmans-Ysera", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			202, -- [11]
-			"Player-3693-09ED256C", -- [12]
+			698, -- [11]
+			"Player-63-0B3F987A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aGroshi|r",
-			[51] = 1537365336,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549976,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [121]
 		{
-			"lol can you paste your name to me? I cant figfure out how to get that fancy a", -- [1]
-			"Gàladriel-Kel'Thuzad", -- [2]
+			"grats", -- [1]
+			"Axmans-Ysera", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gàladriel", -- [5]
+			"Axmans-Ysera", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			203, -- [11]
-			"Player-3693-092A05CC", -- [12]
+			699, -- [11]
+			"Player-63-0B3F987A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffGàladriel|r",
-			[51] = 1537365367,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549978,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [122]
 		{
-			"|cffffff00Orgrimmar is under attack!|r", -- [1]
-			"", -- [2]
+			"now you get to do the scenario", -- [1]
+			"Axmans-Ysera", -- [2]
 			"", -- [3]
-			"3. LocalDefense - Orgrimmar", -- [4]
-			"", -- [5]
+			"", -- [4]
+			"Axmans-Ysera", -- [5]
 			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Orgrimmar", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			204, -- [11]
-			false, -- [12]
+			700, -- [11]
+			"Player-63-0B3F987A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1537365385,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537549986,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [123]
 		{
-			"add toon friend", -- [1]
-			"Gàladriel-Kel'Thuzad", -- [2]
+			"but youre saying it gets harder? lol", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gàladriel", -- [5]
+			"Alorannah", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			205, -- [11]
-			"Player-3693-092A05CC", -- [12]
+			701, -- [11]
+			"Player-3693-09ED9289", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffGàladriel|r",
-			[51] = 1537365412,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537549988,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [124]
 		{
-			"i used special character dont remember the code ", -- [1]
-			"Gàladriel-Kel'Thuzad", -- [2]
+			"ya lol", -- [1]
+			"Axmans-Ysera", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gàladriel", -- [5]
+			"Axmans-Ysera", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			206, -- [11]
-			"Player-3693-092A05CC", -- [12]
+			707, -- [11]
+			"Player-63-0B3F987A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffGàladriel|r",
-			[51] = 1537365423,
-			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffff7c0aAxmans-Ysera|r",
+			[51] = 1537550052,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [125]
 		{
-			"ha ok I got it - ok gonna relog on alts, brb!", -- [1]
-			"Gàladriel-Kel'Thuzad", -- [2]
+			"brb gotta do a rare check on my hunter", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gàladriel", -- [5]
+			"Alorannah", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			207, -- [11]
-			"Player-3693-092A05CC", -- [12]
+			711, -- [11]
+			"Player-3693-09ED9289", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffGàladriel|r",
-			[51] = 1537365447,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537550069,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [126]
 		{
-			"|cffffff00Valley of Spirits is under attack!|r", -- [1]
-			"", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:12518:Player-3693-09ED9289:1:9:21:18:4294967295:4294967295:4294967295:4294967295|h[Allied Races: Mag'har Orc]|h|r!", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
 			"", -- [3]
-			"3. LocalDefense - Orgrimmar", -- [4]
-			"", -- [5]
+			"", -- [4]
+			"Alorannah", -- [5]
 			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Orgrimmar", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			449, -- [11]
-			false, -- [12]
+			920, -- [11]
+			"Player-3693-09ED9289", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1537417187,
-			[50] = "CHAT_MSG_CHANNEL",
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537551879,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [127]
 	},
 }

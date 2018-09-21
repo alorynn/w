@@ -79,3 +79,4 @@ DBM-DMF: disabled
 DBM-Party-BfA: disabled
 DBM-Uldir: disabled
 DBM-WorldEvents: disabled
+_NPCScan.Overlay: disabled
