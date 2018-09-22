@@ -202,15 +202,8 @@ RarityDB = {
 						["totalFinds"] = 1,
 						["found"] = true,
 					},
-					["Shard of Fozruk"] = {
-						["attempts"] = 1,
-						["time"] = 1,
-						["dates"] = {
-							[20180917] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-						},
+					["Odd Twilight Egg"] = {
+						["attempts"] = 2,
 					},
 					["Shadowy Pile of Bones"] = {
 						["attempts"] = 4,
@@ -240,10 +233,22 @@ RarityDB = {
 					["Overcomplicated Controller"] = {
 						["attempts"] = 4,
 					},
-					["Toxic Wasteling"] = {
-						["known"] = true,
-						["enabled"] = false,
-						["found"] = true,
+					["Sunscale Hatchling"] = {
+						["dates"] = {
+							[20180920] = {
+								["attempts"] = 1,
+							},
+							[20180918] = {
+								["attempts"] = 5,
+							},
+							[20180911] = {
+								["attempts"] = 7,
+							},
+							[20180908] = {
+								["attempts"] = 7,
+							},
+						},
+						["attempts"] = 20,
 					},
 					["Breezy Essence"] = {
 						["attempts"] = 3,
@@ -252,6 +257,23 @@ RarityDB = {
 						["enabled"] = false,
 						["known"] = true,
 						["found"] = true,
+					},
+					["False Knucklebump"] = {
+						["dates"] = {
+							[20180920] = {
+								["attempts"] = 1,
+							},
+							[20180918] = {
+								["attempts"] = 5,
+							},
+							[20180911] = {
+								["attempts"] = 7,
+							},
+							[20180908] = {
+								["attempts"] = 7,
+							},
+						},
+						["attempts"] = 20,
 					},
 					["Direhorn Runt"] = {
 						["enabled"] = false,
@@ -327,8 +349,22 @@ RarityDB = {
 						["known"] = true,
 						["found"] = true,
 					},
-					["Drudge Remains"] = {
-						["attempts"] = 5,
+					["Bloodstone Tunneler"] = {
+						["dates"] = {
+							[20180920] = {
+								["attempts"] = 1,
+							},
+							[20180918] = {
+								["attempts"] = 5,
+							},
+							[20180911] = {
+								["attempts"] = 7,
+							},
+							[20180908] = {
+								["attempts"] = 7,
+							},
+						},
+						["attempts"] = 20,
 					},
 					["Gluth's Bone"] = {
 						["enabled"] = false,
@@ -371,8 +407,22 @@ RarityDB = {
 						["known"] = true,
 						["found"] = true,
 					},
-					["Wriggling Darkness"] = {
-						["attempts"] = 3,
+					["Juvenile Brineshell"] = {
+						["dates"] = {
+							[20180920] = {
+								["attempts"] = 1,
+							},
+							[20180918] = {
+								["attempts"] = 5,
+							},
+							[20180911] = {
+								["attempts"] = 7,
+							},
+							[20180908] = {
+								["attempts"] = 7,
+							},
+						},
+						["attempts"] = 20,
 					},
 					["Severed Tentacle"] = {
 						["attempts"] = 4,
@@ -556,22 +606,10 @@ RarityDB = {
 						},
 						["attempts"] = 20,
 					},
-					["Deathsting Scorpid"] = {
-						["dates"] = {
-							[20180920] = {
-								["attempts"] = 1,
-							},
-							[20180918] = {
-								["attempts"] = 5,
-							},
-							[20180911] = {
-								["attempts"] = 7,
-							},
-							[20180908] = {
-								["attempts"] = 7,
-							},
-						},
-						["attempts"] = 20,
+					["Blighted Spore"] = {
+						["enabled"] = false,
+						["known"] = true,
+						["found"] = true,
 					},
 					["Angry Egg"] = {
 						["attempts"] = 1,
@@ -619,22 +657,10 @@ RarityDB = {
 						["enabled"] = false,
 						["found"] = true,
 					},
-					["Sunscale Hatchling"] = {
-						["dates"] = {
-							[20180920] = {
-								["attempts"] = 1,
-							},
-							[20180918] = {
-								["attempts"] = 5,
-							},
-							[20180911] = {
-								["attempts"] = 7,
-							},
-							[20180908] = {
-								["attempts"] = 7,
-							},
-						},
-						["attempts"] = 20,
+					["Fragment of Anger"] = {
+						["enabled"] = false,
+						["known"] = true,
+						["found"] = true,
 					},
 					["Blessed Seed"] = {
 						["attempts"] = 5,
@@ -707,7 +733,7 @@ RarityDB = {
 					["Nightmare Whelpling"] = {
 						["attempts"] = 31,
 					},
-					["False Knucklebump"] = {
+					["Deathsting Scorpid"] = {
 						["dates"] = {
 							[20180920] = {
 								["attempts"] = 1,
@@ -751,24 +777,10 @@ RarityDB = {
 						["known"] = true,
 						["found"] = true,
 					},
-					["Sandshell Chitterer"] = {
-						["dates"] = {
-							[20180920] = {
-								["attempts"] = 1,
-							},
-							[20180918] = {
-								["attempts"] = 5,
-							},
-							[20180911] = {
-								["attempts"] = 7,
-							},
-							[20180908] = {
-								["attempts"] = 7,
-							},
-						},
-						["attempts"] = 20,
+					["Gooey Sha-ling"] = {
+						["attempts"] = 1,
 					},
-					["Tinder Pup"] = {
+					["Sandshell Chitterer"] = {
 						["dates"] = {
 							[20180920] = {
 								["attempts"] = 1,
@@ -793,16 +805,18 @@ RarityDB = {
 					["Call of the Frozen Blade"] = {
 						["attempts"] = 2,
 					},
-					["Vibrating Stone"] = {
-						["attempts"] = 9,
+					["Shard of Fozruk"] = {
+						["attempts"] = 1,
+						["time"] = 1,
+						["dates"] = {
+							[20180917] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+						},
 					},
-					["Odd Twilight Egg"] = {
-						["attempts"] = 2,
-					},
-					["Fragment of Anger"] = {
-						["enabled"] = false,
-						["known"] = true,
-						["found"] = true,
+					["Wriggling Darkness"] = {
+						["attempts"] = 3,
 					},
 					["Plagued Egg"] = {
 						["attempts"] = 1,
@@ -814,6 +828,12 @@ RarityDB = {
 							},
 						},
 					},
+					["Vibrating Stone"] = {
+						["attempts"] = 9,
+					},
+					["Cinderweb Egg"] = {
+						["attempts"] = 9,
+					},
 					["Mana-Warped Egg"] = {
 						["time"] = 1,
 						["dates"] = {
@@ -823,12 +843,6 @@ RarityDB = {
 							},
 						},
 						["attempts"] = 1,
-					},
-					["Gooey Sha-ling"] = {
-						["attempts"] = 1,
-					},
-					["Cinderweb Egg"] = {
-						["attempts"] = 9,
 					},
 					["Remains of a Blood Beast"] = {
 						["attempts"] = 9,
@@ -852,22 +866,8 @@ RarityDB = {
 						},
 						["attempts"] = 2,
 					},
-					["Bloodstone Tunneler"] = {
-						["dates"] = {
-							[20180920] = {
-								["attempts"] = 1,
-							},
-							[20180918] = {
-								["attempts"] = 5,
-							},
-							[20180911] = {
-								["attempts"] = 7,
-							},
-							[20180908] = {
-								["attempts"] = 7,
-							},
-						},
-						["attempts"] = 20,
+					["Drudge Remains"] = {
+						["attempts"] = 5,
 					},
 					["Ice Chip"] = {
 						["known"] = true,
@@ -879,7 +879,7 @@ RarityDB = {
 						["known"] = true,
 						["found"] = true,
 					},
-					["Juvenile Brineshell"] = {
+					["Tinder Pup"] = {
 						["dates"] = {
 							[20180920] = {
 								["attempts"] = 1,
@@ -896,9 +896,9 @@ RarityDB = {
 						},
 						["attempts"] = 20,
 					},
-					["Blighted Spore"] = {
-						["enabled"] = false,
+					["Toxic Wasteling"] = {
 						["known"] = true,
+						["enabled"] = false,
 						["found"] = true,
 					},
 				},
@@ -2762,19 +2762,19 @@ RarityDB = {
 				[1186] = "Blackrock Depths",
 				[986] = "Kalimdor",
 				[994] = "Argus",
-				[971] = "Telogrus Rift",
+				[1045] = "Thros, The Blighted Lands",
 				[1010] = "The MOTHERLODE!!",
 				[1018] = "Waycrest Manor",
 				[1155] = "Uldir",
 				[1171] = "Gol Thovas",
 				[1187] = "Azsuna",
 				[1188] = "Val'sharah",
-				[1045] = "Thros, The Blighted Lands",
+				[1172] = "Gol Thovas",
 				[1029] = "WaycrestDimension",
 				[1166] = "Zanchul",
 				[1165] = "Dazar'alor",
 				[1156] = "The Great Sea",
-				[1172] = "Gol Thovas",
+				[971] = "Telogrus Rift",
 				[979] = "Tol Dagor",
 				[987] = "Outland",
 				[1044] = "Arathi Highlands",
