@@ -1,202 +1,5 @@
 
 EncounterDetailsDB = {
-	["emotes"] = {
-		{
-			{
-				0.176000000001295, -- [1]
-				"Initiating plasma collection.", -- [2]
-				"Taloc", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				5.55400000000009, -- [1]
-				"Initiating blood dispersal of target host.", -- [2]
-				"Taloc", -- [3]
-				7, -- [4]
-			}, -- [2]
-			{
-				31.6760000000013, -- [1]
-				"Deploying cudgel.", -- [2]
-				"Taloc", -- [3]
-				7, -- [4]
-			}, -- [3]
-			{
-				46.6670000000013, -- [1]
-				"Initiating blood dispersal of target host.", -- [2]
-				"Taloc", -- [3]
-				7, -- [4]
-			}, -- [4]
-			{
-				52.3060000000005, -- [1]
-				"Activating cudgel retrieval.", -- [2]
-				"Taloc", -- [3]
-				7, -- [4]
-			}, -- [5]
-			{
-				84.3950000000004, -- [1]
-				"Fluid evacuation in progress. Entering standby.", -- [2]
-				"Taloc", -- [3]
-				7, -- [4]
-			}, -- [6]
-			{
-				184.001, -- [1]
-				"Levels at maximum. Resume collection.", -- [2]
-				"Taloc", -- [3]
-				7, -- [4]
-			}, -- [7]
-			{
-				214.412, -- [1]
-				"Deploying cudgel.", -- [2]
-				"Taloc", -- [3]
-				7, -- [4]
-			}, -- [8]
-			{
-				235.091, -- [1]
-				"Activating cudgel retrieval.", -- [2]
-				"Taloc", -- [3]
-				7, -- [4]
-			}, -- [9]
-			{
-				271.511, -- [1]
-				"Deploying cudgel.", -- [2]
-				"Taloc", -- [3]
-				7, -- [4]
-			}, -- [10]
-			["boss"] = "Taloc",
-		}, -- [1]
-		{
-			{
-				39.8400000000001, -- [1]
-				"Ug' crish zul Thraxas!", -- [2]
-				"Zek'voz", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				39.8400000000001, -- [1]
-				"You will be eradicated!", -- [2]
-				"Zek'voz", -- [3]
-				5, -- [4]
-			}, -- [2]
-			{
-				47.7139999999999, -- [1]
-				"|TInterface\\Icons\\ACHIEVEMENT_BOSS_CTHUN.BLP:20|t The %s begins casting |cFFFF0000|Hspell:264382|h[Eye Beam]|h|r!", -- [2]
-				"Projection of C'thun", -- [3]
-				1, -- [4]
-			}, -- [3]
-			{
-				88.9579999999996, -- [1]
-				"|TInterface\\Icons\\ACHIEVEMENT_BOSS_CTHUN.BLP:20|t The %s begins casting |cFFFF0000|Hspell:264382|h[Eye Beam]|h|r!", -- [2]
-				"Projection of C'thun", -- [3]
-				1, -- [4]
-			}, -- [4]
-			{
-				112.052, -- [1]
-				"|TInterface\\Icons\\ABILITY_DEATHKNIGHT_DEATHSIPHON2.BLP:20|t The %s begins casting |cFFFF0000|Hspell:265360|h[Roiling Deceit]|h|r!", -- [2]
-				"Projection of Yogg-Saron", -- [3]
-				1, -- [4]
-			}, -- [5]
-			{
-				173.103, -- [1]
-				"Ug' crish zul Thraxas!", -- [2]
-				"Zek'voz", -- [3]
-				7, -- [4]
-			}, -- [6]
-			{
-				173.103, -- [1]
-				"You will be eradicated!", -- [2]
-				"Zek'voz", -- [3]
-				5, -- [4]
-			}, -- [7]
-			{
-				208.937, -- [1]
-				"|TInterface\\Icons\\SPELL_PRIEST_SHADOWORBS.BLP:20|t The %s begins casting |cFFFF0000|Hspell:267334|h[Orb of Corruption]|h|r!", -- [2]
-				"Warped Projection", -- [3]
-				1, -- [4]
-			}, -- [8]
-			{
-				280.078, -- [1]
-				"Ug' crish zul Thraxas!", -- [2]
-				"Zek'voz", -- [3]
-				7, -- [4]
-			}, -- [9]
-			{
-				280.078, -- [1]
-				"You will be eradicated!", -- [2]
-				"Zek'voz", -- [3]
-				5, -- [4]
-			}, -- [10]
-			["boss"] = "Zek'voz",
-		}, -- [2]
-		{
-			{
-				39.3419999999996, -- [1]
-				"Ug' crish zul Thraxas!", -- [2]
-				"Zek'voz", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				39.3419999999996, -- [1]
-				"You will be eradicated!", -- [2]
-				"Zek'voz", -- [3]
-				5, -- [4]
-			}, -- [2]
-			{
-				47.1869999999999, -- [1]
-				"|TInterface\\Icons\\ACHIEVEMENT_BOSS_CTHUN.BLP:20|t The %s begins casting |cFFFF0000|Hspell:264382|h[Eye Beam]|h|r!", -- [2]
-				"Projection of C'thun", -- [3]
-				1, -- [4]
-			}, -- [3]
-			{
-				88.4719999999998, -- [1]
-				"|TInterface\\Icons\\ACHIEVEMENT_BOSS_CTHUN.BLP:20|t The %s begins casting |cFFFF0000|Hspell:264382|h[Eye Beam]|h|r!", -- [2]
-				"Projection of C'thun", -- [3]
-				1, -- [4]
-			}, -- [4]
-			{
-				121.295999999999, -- [1]
-				"|TInterface\\Icons\\ABILITY_DEATHKNIGHT_DEATHSIPHON2.BLP:20|t The %s begins casting |cFFFF0000|Hspell:265360|h[Roiling Deceit]|h|r!", -- [2]
-				"Projection of Yogg-Saron", -- [3]
-				1, -- [4]
-			}, -- [5]
-			{
-				182.742999999999, -- [1]
-				"Ug' crish zul Thraxas!", -- [2]
-				"Zek'voz", -- [3]
-				7, -- [4]
-			}, -- [6]
-			{
-				182.742999999999, -- [1]
-				"You will be eradicated!", -- [2]
-				"Zek'voz", -- [3]
-				5, -- [4]
-			}, -- [7]
-			{
-				223.465999999999, -- [1]
-				"|TInterface\\Icons\\SPELL_PRIEST_SHADOWORBS.BLP:20|t The %s begins casting |cFFFF0000|Hspell:267334|h[Orb of Corruption]|h|r!", -- [2]
-				"Warped Projection", -- [3]
-				1, -- [4]
-			}, -- [8]
-			{
-				232.023999999999, -- [1]
-				"Ominous Cloud begins to boil upon touching %s!", -- [2]
-				"Rahza", -- [3]
-				3, -- [4]
-			}, -- [9]
-			{
-				286.058, -- [1]
-				"Naza bul rexil qalic ul'.", -- [2]
-				"Zek'voz", -- [3]
-				7, -- [4]
-			}, -- [10]
-			{
-				286.058, -- [1]
-				"Not a single worthy trait among you.", -- [2]
-				"Zek'voz", -- [3]
-				5, -- [4]
-			}, -- [11]
-			["boss"] = "Zek'voz",
-		}, -- [3]
-	},
 	["encounter_spells"] = {
 		[280286] = {
 			["school"] = 1,
@@ -204,6 +7,13 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Kortazz-Quel'dorei",
+		},
+		[29954] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Shade of Aran",
 		},
 		[271714] = {
 			["school"] = 1,
@@ -274,6 +84,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "bigblue",
 		},
+		[205289] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Crystalline Scorpid",
+		},
 		[267878] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -282,6 +100,27 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Wind Tunnel",
+		},
+		[204448] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Skorpyron",
+		},
+		[204766] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Crystalline Scorpid",
 		},
 		[265530] = {
 			["school"] = 32,
@@ -298,12 +137,38 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kortazz-Quel'dorei",
 		},
+		[29770] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Midnight",
+		},
 		[267945] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "MOTHER",
+		},
+		[32429] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Vampiric Shadowbat",
+		},
+		[207228] = {
+			["school"] = 64,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Waning Time Particle",
 		},
 		[265374] = {
 			["school"] = 32,
@@ -320,6 +185,25 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kortazz-Quel'dorei",
 		},
+		[29714] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Midnight",
+		},
+		[30890] = {
+			["school"] = 2,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Julianne",
+		},
 		[265248] = {
 			["school"] = 1,
 			["token"] = {
@@ -327,6 +211,36 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Zek'voz",
+		},
+		[29908] = {
+			["school"] = 64,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Mana Feeder",
+		},
+		[204292] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Skorpyron",
+		},
+		[29920] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Spell Shade",
+		},
+		[206610] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Chronomatic Anomaly",
 		},
 		[265662] = {
 			["school"] = 32,
@@ -337,6 +251,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Zek'voz",
 		},
+		[204483] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Skorpyron",
+		},
 		[272584] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -346,12 +269,51 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Volatile Droplet",
 		},
+		[29799] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Attumen the Huntsman",
+		},
+		[30951] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Julianne",
+		},
+		[275270] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Volatile Droplet",
+		},
+		[219815] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Chronomatic Anomaly",
+		},
 		[271728] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Taloc",
+		},
+		[273006] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Vulpestique-WyrmrestAccord",
 		},
 		[274205] = {
 			["school"] = 1,
@@ -375,12 +337,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Blairak-Ragnaros",
 		},
+		[265237] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Zek'voz",
+		},
 		[55078] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Rune Weapon",
+		},
+		[206609] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Chronomatic Anomaly",
 		},
 		[3110] = {
 			["school"] = 4,
@@ -395,6 +375,25 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Rahza-Eredar",
+		},
+		[267787] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "MOTHER",
+		},
+		[205648] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Vulpestique-WyrmrestAccord",
 		},
 		[268429] = {
 			["school"] = 4,
@@ -420,21 +419,6 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
-		[267795] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "MOTHER",
-		},
-		[262652] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Vulpestique-WyrmrestAccord",
-		},
 		[279036] = {
 			["school"] = 1,
 			["token"] = {
@@ -442,12 +426,36 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Taloc",
 		},
-		[118297] = {
-			["school"] = 4,
+		[267795] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Primal Fire Elemental",
+			["source"] = "MOTHER",
+		},
+		[265231] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Zek'voz",
+		},
+		[210074] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Skorpyron",
+		},
+		[270288] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Blood Storm",
 		},
 		[272586] = {
 			["school"] = 4,
@@ -458,16 +466,72 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Volatile Droplet",
 		},
-		[264954] = {
-			["school"] = 64,
+		[265454] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
-		[271729] = {
+		[205947] = {
+			["school"] = 64,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Skorpyron",
+		},
+		[271636] = {
 			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Cudgel of Gore",
+		},
+		[118297] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Primal Fire Elemental",
+		},
+		[204471] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Skorpyron",
+		},
+		[265646] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Zek'voz",
+		},
+		[265360] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Projection of Yogg-Saron",
+		},
+		[589] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Rahza-Eredar",
+		},
+		[271885] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Taloc",
 		},
@@ -487,26 +551,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Spirit Wolf",
 		},
-		[273006] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[219823] = {
+			["school"] = 64,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Vulpestique-WyrmrestAccord",
+			["source"] = "Chronomatic Anomaly",
 		},
 		[271895] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Taloc",
-		},
-		[271885] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Taloc",
 		},
@@ -518,6 +576,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Cudgel of Gore",
 		},
+		[277973] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "MOTHER",
+		},
 		[271864] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -527,13 +592,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Taloc",
 		},
-		[224126] = {
-			["school"] = 16,
-			["type"] = "BUFF",
+		[271224] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Spirit Wolf",
+			["source"] = "Taloc",
 		},
 		[265451] = {
 			["school"] = 32,
@@ -549,14 +615,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kortazz-Quel'dorei",
 		},
-		[271224] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[10444] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Taloc",
+			["source"] = "Vulpestique-WyrmrestAccord",
 		},
 		[278882] = {
 			["school"] = 32,
@@ -572,13 +636,18 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
-		[205648] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+		[265738] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Vulpestique-WyrmrestAccord",
+			["source"] = "Orb of Corruption",
+		},
+		[267803] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
 		},
 		[34914] = {
 			["school"] = 32,
@@ -586,21 +655,6 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Rahza-Eredar",
-		},
-		[10444] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Vulpestique-WyrmrestAccord",
-		},
-		[224127] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Spirit Wolf",
 		},
 		[265358] = {
 			["school"] = 32,
@@ -610,11 +664,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Projection of Yogg-Saron",
 		},
-		[267803] = {
-			["school"] = 4,
+		[224127] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
+			["source"] = "Spirit Wolf",
+		},
+		[206617] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Chronomatic Anomaly",
 		},
 		[268089] = {
 			["school"] = 1,
@@ -633,12 +697,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Taloc",
 		},
-		[277973] = {
-			["school"] = 1,
+		[224126] = {
+			["school"] = 16,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "MOTHER",
+			["source"] = "Spirit Wolf",
 		},
 		[265264] = {
 			["school"] = 32,
@@ -656,41 +721,38 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Taloc",
 		},
-		[589] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Rahza-Eredar",
-		},
-		[265360] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Projection of Yogg-Saron",
-		},
-		[265646] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Zek'voz",
-		},
-		[271636] = {
+		[264878] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Unknown",
+		},
+		[204316] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Skorpyron",
+		},
+		[206618] = {
+			["school"] = 64,
+			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Cudgel of Gore",
+			["source"] = "Chronomatic Anomaly",
 		},
-		[265454] = {
-			["school"] = 32,
+		[271729] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Taloc",
+		},
+		[264954] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
@@ -704,22 +766,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Taloc",
 		},
-		[270288] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[204275] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Blood Storm",
+			["source"] = "Skorpyron",
 		},
-		[265231] = {
-			["school"] = 32,
+		[204372] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Zek'voz",
+			["source"] = "Skorpyron",
 		},
 		[192109] = {
 			["school"] = 8,
@@ -728,23 +790,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Vulpestique-WyrmrestAccord",
 		},
-		[265738] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Orb of Corruption",
-		},
-		[267787] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[204459] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "MOTHER",
+			["source"] = "Skorpyron",
+		},
+		[262652] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Vulpestique-WyrmrestAccord",
 		},
 		[278888] = {
 			["school"] = 8,
@@ -755,23 +816,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Taloc",
 		},
-		[265237] = {
-			["school"] = 1,
+		[206607] = {
+			["school"] = 64,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Zek'voz",
+			["source"] = "Chronomatic Anomaly",
 		},
-		[264878] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[206612] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Unknown",
+			["source"] = "Chronomatic Anomaly",
 		},
 		[265268] = {
 			["school"] = 32,
@@ -781,13 +841,24 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Zek'voz",
 		},
-		[275270] = {
+		[211927] = {
 			["school"] = 64,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Volatile Droplet",
+			["source"] = "Chronomatic Anomaly",
 		},
+	},
+	["emotes"] = {
+		{
+			["boss"] = "Opera Hall",
+		}, -- [1]
+		{
+			["boss"] = "Opera Hall",
+		}, -- [2]
+		{
+			["boss"] = "Opera Hall",
+		}, -- [3]
 	},
 }

@@ -118,5 +118,49 @@ ElvCharacterDB = {
 			[51] = 1535368293,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [5]
+		{
+			"WTB Riverbud 25g / Siren's Pollen 30g / Anchor Weed 400g / Augment Runes 400g, Veiled Crystals 600g  COD all.", -- [1]
+			"Phazewunn-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Phazewunn", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1518, -- [11]
+			"Player-3693-09DF4911", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffff7c0aPhazewunn|r",
+			[51] = 1537715609,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [6]
+		{
+			"WTB Riverbud 25g / Siren's Pollen 30g / Anchor Weed 400g / Augment Runes 400g, Veiled Crystals 600g  COD all.", -- [1]
+			"Phazewunn-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Phazewunn", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1519, -- [11]
+			"Player-3693-09DF4911", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffff7c0aPhazewunn|r",
+			[51] = 1537715609,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [7]
 	},
 }

@@ -2,6 +2,14 @@
 CliqueDB = nil
 CliqueDB3 = {
 	["char"] = {
+		["Alorannah - Kel'Thuzad"] = {
+			["spec1_profileKey"] = "Alorannah - Kel'Thuzad",
+			["spec2_profileKey"] = "Alorannah - Kel'Thuzad",
+			["downclick"] = false,
+			["fastooc"] = false,
+			["specswap"] = false,
+			["spec3_profileKey"] = "Alorannah - Kel'Thuzad",
+		},
 		["Laurannah - Kel'Thuzad"] = {
 			["spec1_profileKey"] = "Laurannah - Kel'Thuzad",
 			["specswap"] = false,
@@ -10,6 +18,9 @@ CliqueDB3 = {
 			["spec3_profileKey"] = "Laurannah - Kel'Thuzad",
 			["spec2_profileKey"] = "Laurannah - Kel'Thuzad",
 		},
+		["Darknstormie - Kel'Thuzad"] = {
+			["alerthidden"] = true,
+		},
 		["Kmkarbashian - Kel'Thuzad"] = {
 			["spec1_profileKey"] = "Kmkarbashian - Kel'Thuzad",
 			["spec3_profileKey"] = "Kmkarbashian - Kel'Thuzad",
@@ -17,17 +28,6 @@ CliqueDB3 = {
 			["fastooc"] = false,
 			["specswap"] = false,
 			["spec2_profileKey"] = "Kmkarbashian - Kel'Thuzad",
-		},
-		["Alorannah - Kel'Thuzad"] = {
-			["spec1_profileKey"] = "Alorannah - Kel'Thuzad",
-			["fastooc"] = false,
-			["specswap"] = false,
-			["downclick"] = false,
-			["spec3_profileKey"] = "Alorannah - Kel'Thuzad",
-			["spec2_profileKey"] = "Alorannah - Kel'Thuzad",
-		},
-		["Darknstormie - Kel'Thuzad"] = {
-			["alerthidden"] = true,
 		},
 	},
 	["profileKeys"] = {

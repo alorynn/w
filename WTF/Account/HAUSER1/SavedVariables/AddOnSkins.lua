@@ -187,9 +187,9 @@ AddOnSkinsDB = {
 			["Blizzard_WorldStateCaptureBar"] = false,
 			["Skada"] = true,
 			["BigWigs"] = true,
-			["Bagnon"] = true,
-			["Blizzard_Transmogrify"] = false,
 			["ArtifactPowerUser"] = true,
+			["Blizzard_Transmogrify"] = false,
+			["Bagnon"] = true,
 		},
 		["Rogueout - Kel'Thuzad"] = {
 		},

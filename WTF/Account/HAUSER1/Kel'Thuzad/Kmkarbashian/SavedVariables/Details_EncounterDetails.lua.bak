@@ -1,6 +1,69 @@
 
 EncounterDetailsDB = {
 	["encounter_spells"] = {
+		[29583] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Phantom Guest",
+		},
+		[29537] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Phantom Guardsman",
+		},
+		[29770] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Midnight",
+		},
+		[29492] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Phantom Guest",
+		},
+		[29880] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Arcane Anomaly",
+		},
+		[99399] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Ragnaros",
+		},
+		[29512] = {
+			["school"] = 2,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Maiden of Virtue",
+		},
+		[29714] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Midnight",
+		},
 		[98952] = {
 			["school"] = 4,
 			["token"] = {
@@ -9,27 +72,76 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ragnaros",
 		},
+		[29954] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Shade of Aran",
+		},
+		[31012] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Dorothee",
+		},
+		[29582] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Phantom Guest",
+		},
+		[29513] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Phantom Guest",
+		},
+		[29920] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Spell Shade",
+		},
+		[98953] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Ragnaros",
+		},
+		[29487] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Night Mistress",
+		},
+		[29579] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Phantom Guest",
+		},
 		[98263] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Ragnaros",
-		},
-		[98981] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Ragnaros",
-		},
-		[99399] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Ragnaros",
 		},
@@ -41,120 +153,44 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Son of Flame",
 		},
-		[98953] = {
-			["school"] = 4,
+		[29799] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Attumen the Huntsman",
+		},
+		[29908] = {
+			["school"] = 64,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Mana Feeder",
+		},
+		[98981] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Ragnaros",
 		},
 	},
 	["emotes"] = {
 		{
-			{
-				2.28100000001723, -- [1]
-				"Your judgment has come!", -- [2]
-				"Ragnaros", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				2.28100000001723, -- [1]
-				"|TInterface\\Icons\\spell_fire_ragnaros_splittingblow.blp:20|t%s begins to cast |cFFFF0000|Hspell:98951|h[Splitting Blow]|h|r!", -- [2]
-				"Ragnaros", -- [3]
-				1, -- [4]
-			}, -- [2]
-			{
-				11.9859999999753, -- [1]
-				"Minions of fire! Purge the outsiders!", -- [2]
-				"Ragnaros", -- [3]
-				7, -- [4]
-			}, -- [3]
-			{
-				33.4440000000177, -- [1]
-				"Sulfuras will be your end.", -- [2]
-				"Ragnaros", -- [3]
-				7, -- [4]
-			}, -- [4]
-			{
-				38.7210000000196, -- [1]
-				"Too soon! ... You have come too soon...", -- [2]
-				"Ragnaros", -- [3]
-				7, -- [4]
-			}, -- [5]
-			["boss"] = "Ragnaros",
+			["boss"] = "Shade of Aran",
 		}, -- [1]
 		{
-			{
-				6.26900000000023, -- [1]
-				"You will be crushed!", -- [2]
-				"Ragnaros", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				6.26900000000023, -- [1]
-				"|TInterface\\Icons\\spell_fire_ragnaros_splittingblow.blp:20|t%s begins to cast |cFFFF0000|Hspell:98951|h[Splitting Blow]|h|r!", -- [2]
-				"Ragnaros", -- [3]
-				1, -- [4]
-			}, -- [2]
-			{
-				15.9749999999985, -- [1]
-				"Denizens of flame, come to me!", -- [2]
-				"Ragnaros", -- [3]
-				7, -- [4]
-			}, -- [3]
-			{
-				32.5380000000005, -- [1]
-				"Sulfuras will be your end.", -- [2]
-				"Ragnaros", -- [3]
-				7, -- [4]
-			}, -- [4]
-			{
-				37.8359999999993, -- [1]
-				"Too soon! ... You have come too soon...", -- [2]
-				"Ragnaros", -- [3]
-				7, -- [4]
-			}, -- [5]
-			["boss"] = "Ragnaros",
+			["boss"] = "Terestian Illhoof",
 		}, -- [2]
 		{
 			{
-				0.195000000065193, -- [1]
-				"The realm of fire will consume you!", -- [2]
-				"Ragnaros", -- [3]
+				0.204000000027008, -- [1]
+				"The Menagerie is for guests only.", -- [2]
+				"The Curator", -- [3]
 				7, -- [4]
 			}, -- [1]
-			{
-				4.68100000009872, -- [1]
-				"Your judgment has come!", -- [2]
-				"Ragnaros", -- [3]
-				7, -- [4]
-			}, -- [2]
-			{
-				4.68100000009872, -- [1]
-				"|TInterface\\Icons\\spell_fire_ragnaros_splittingblow.blp:20|t%s begins to cast |cFFFF0000|Hspell:98951|h[Splitting Blow]|h|r!", -- [2]
-				"Ragnaros", -- [3]
-				1, -- [4]
-			}, -- [3]
-			{
-				14.408000000054, -- [1]
-				"Denizens of flame, come to me!", -- [2]
-				"Ragnaros", -- [3]
-				7, -- [4]
-			}, -- [4]
-			{
-				30.9580000001006, -- [1]
-				"Enough! I will finish this.", -- [2]
-				"Ragnaros", -- [3]
-				7, -- [4]
-			}, -- [5]
-			{
-				36.2949999999255, -- [1]
-				"Too soon! ... You have come too soon...", -- [2]
-				"Ragnaros", -- [3]
-				7, -- [4]
-			}, -- [6]
-			["boss"] = "Ragnaros",
+			["boss"] = "The Curator",
 		}, -- [3]
 	},
 }

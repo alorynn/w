@@ -1,26 +1,26 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/cheer", -- [1]
-		"/s why is this big red lump here in lorlathil", -- [2]
-		"/lie", -- [3]
-		"/g how come no one told me DH have the best slutmog pieces", -- [4]
-		"/g just boosted a sweet belf rogue to 110 to unlock allied races with and hoo boy are the DH pieces ever hot stuff", -- [5]
-		"/mogit", -- [6]
-		"/g I'm wearing a bathrobe BUT I also have underwear on so I'd say 50% is right on", -- [7]
-		"/g check out what mlady is wearing [MogIt:3UY;1Tr.UQ.0;yT5;fpK.UQ.0;fpK.UQ.0;3UZ.UQ.0;xHZ.UQ.0;16x.UQ.0;6LI.UQ.0;1uN.UQ.0;yT6:41:0]", -- [8]
-		"/g nice but got nothing on the DH pieces boioioioing", -- [9]
-		"/bow", -- [10]
-		"/flirt", -- [11]
-		"/cw Randomzlul see", -- [12]
-		"/wave", -- [13]
-		"/cw Randomzlul ya I thought it was a good match for cat drod", -- [14]
-		"/cw Randomzlul if I had a warrior he'd be a barechested conan looking motherfucker but I dont think thats even possible anymore", -- [15]
-		"/cw Randomzlul RIP slutmogds", -- [16]
-		"/laugh", -- [17]
-		"/forthealliance", -- [18]
-		"/2 why is Tyrande the only night elf with an accent", -- [19]
-		"/2 is she a secret spy", -- [20]
+		"/s why is this big red lump here in lorlathil", -- [1]
+		"/lie", -- [2]
+		"/g how come no one told me DH have the best slutmog pieces", -- [3]
+		"/g just boosted a sweet belf rogue to 110 to unlock allied races with and hoo boy are the DH pieces ever hot stuff", -- [4]
+		"/mogit", -- [5]
+		"/g I'm wearing a bathrobe BUT I also have underwear on so I'd say 50% is right on", -- [6]
+		"/g check out what mlady is wearing [MogIt:3UY;1Tr.UQ.0;yT5;fpK.UQ.0;fpK.UQ.0;3UZ.UQ.0;xHZ.UQ.0;16x.UQ.0;6LI.UQ.0;1uN.UQ.0;yT6:41:0]", -- [7]
+		"/g nice but got nothing on the DH pieces boioioioing", -- [8]
+		"/bow", -- [9]
+		"/flirt", -- [10]
+		"/cw Randomzlul see", -- [11]
+		"/wave", -- [12]
+		"/cw Randomzlul ya I thought it was a good match for cat drod", -- [13]
+		"/cw Randomzlul if I had a warrior he'd be a barechested conan looking motherfucker but I dont think thats even possible anymore", -- [14]
+		"/cw Randomzlul RIP slutmogds", -- [15]
+		"/laugh", -- [16]
+		"/forthealliance", -- [17]
+		"/2 why is Tyrande the only night elf with an accent", -- [18]
+		"/2 is she a secret spy", -- [19]
+		"/bartender", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
@@ -1431,5 +1431,27 @@ ElvCharacterDB = {
 			[51] = 1537015706,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [64]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:11220:Player-3693-0757BA35:1:9:23:18:4294967295:4294967295:4294967295:4294967295|h[Roster of Champions]|h|r!", -- [1]
+			"Tcoats-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tcoats", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			770, -- [11]
+			"Player-3693-0757BA35", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aTcoats|r",
+			[51] = 1537712798,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [65]
 	},
 }

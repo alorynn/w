@@ -112,6 +112,68 @@ TomTomWaypointsM = {
 		["Loranno - Kel'Thuzad"] = {
 		},
 		["Laurannah - Kel'Thuzad"] = {
+			[680] = {
+				["680:460000000:640000000:Entrance to Nighthold"] = {
+					680, -- [1]
+					0.46, -- [2]
+					0.64, -- [3]
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["persistent"] = true,
+					["desc"] = "Entrance to Nighthold",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Entrance to Nighthold",
+					["crazy"] = false,
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
+			[116] = {
+				["116:309900000:560800000:Arcturis"] = {
+					116, -- [1]
+					0.3099, -- [2]
+					0.5608, -- [3]
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["persistent"] = true,
+					["desc"] = "Arcturis",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Arcturis",
+					["crazy"] = false,
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
 			[241] = {
 				["241:458000000:294000000:S3"] = {
 					241, -- [1]
