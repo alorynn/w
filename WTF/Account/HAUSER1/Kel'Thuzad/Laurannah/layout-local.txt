@@ -13,3 +13,10 @@ X: 258
 Y: -228
 W: 365
 H: 240
+Frame: FloatingBattlePetTooltip
+FrameLevel: 1
+Anchor: BOTTOM
+X: 2
+Y: 79
+W: 260
+H: 150

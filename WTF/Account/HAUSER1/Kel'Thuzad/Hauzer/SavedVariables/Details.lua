@@ -23,18 +23,17 @@ _detalhes_database = {
 								"Attumen the Huntsman <Midnight>", -- [1]
 								"Attumen the Huntsman <Midnight> <Midnight>", -- [2]
 							},
-							["friendlyfire"] = {
-							},
+							["last_event"] = 1537713483,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3.003732,
-							["last_event"] = 1537713483,
+							["boss_fight_component"] = true,
 							["dps_started"] = false,
 							["total"] = 8.003732,
 							["delay"] = 0,
+							["on_hold"] = false,
 							["nome"] = "Midnight",
-							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -55,10 +54,10 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -69,12 +68,13 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["damage_taken"] = 700088.003732,
+							["friendlyfire"] = {
+							},
 							["end_time"] = 1537713486,
 							["last_dps"] = 0,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["on_hold"] = false,
+							["damage_taken"] = 700088.003732,
 							["start_time"] = 1537713482,
 							["serial"] = "Creature-0-3779-532-10418-16151-000027A533",
 							["classe"] = "UNKNOW",
@@ -85,6 +85,7 @@ _detalhes_database = {
 							["damage_from"] = {
 								["Midnight"] = true,
 								["Attumen the Huntsman <Midnight>"] = true,
+								["Environment (Falling)"] = true,
 							},
 							["targets"] = {
 								["Spectral Stable Hand"] = 175022,
@@ -94,17 +95,17 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["end_time"] = 1537713486,
 							["tipo"] = 1,
-							["total"] = 1225153.00195,
-							["classe"] = "MAGE",
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1225153.00195,
 							["delay"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1537713486,
+							["total"] = 1225153.00195,
 							["nome"] = "Hauzer",
-							["damage_taken"] = 8.00195,
+							["damage_taken"] = 757.00195,
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -129,10 +130,10 @@ _detalhes_database = {
 										["c_max"] = 175022,
 										["id"] = 84721,
 										["r_dmg"] = 0,
-										["c_min"] = 175022,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 175022,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -152,7 +153,7 @@ _detalhes_database = {
 							},
 							["start_time"] = 1537713482,
 							["serial"] = "Player-3693-07375FB3",
-							["friendlyfire_total"] = 0,
+							["classe"] = "MAGE",
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
@@ -164,33 +165,33 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
+							["classe"] = "UNKNOW",
+							["boss_fight_component"] = true,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.005621,
 							["delay"] = 0,
-							["monster"] = true,
+							["dps_started"] = false,
 							["total"] = 0.005621,
-							["classe"] = "UNKNOW",
-							["damage_taken"] = 175022.005621,
-							["boss_fight_component"] = true,
+							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
+							["nome"] = "Spectral Stable Hand",
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "Spectral Stable Hand",
+							["last_event"] = 0,
 							["last_dps"] = 0,
 							["end_time"] = 1537713486,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["on_hold"] = false,
+							["damage_taken"] = 175022.005621,
 							["start_time"] = 1537713486,
 							["serial"] = "Creature-0-3779-532-10418-15551-0003A7A533",
-							["dps_started"] = false,
+							["monster"] = true,
 						}, -- [3]
 						{
 							["flag_original"] = 2632,
@@ -202,33 +203,33 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
+							["classe"] = "UNKNOW",
+							["boss_fight_component"] = true,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.007003,
 							["delay"] = 0,
-							["monster"] = true,
+							["dps_started"] = false,
 							["total"] = 0.007003,
-							["classe"] = "UNKNOW",
-							["damage_taken"] = 87510.007003,
-							["boss_fight_component"] = true,
+							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
+							["nome"] = "Spectral Charger",
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 2,
 							},
-							["nome"] = "Spectral Charger",
+							["last_event"] = 0,
 							["last_dps"] = 0,
 							["end_time"] = 1537713486,
 							["custom"] = 0,
 							["tipo"] = 1,
-							["on_hold"] = false,
+							["damage_taken"] = 87510.007003,
 							["start_time"] = 1537713486,
 							["serial"] = "Creature-0-3779-532-10418-15547-0001A7A533",
-							["dps_started"] = false,
+							["monster"] = true,
 						}, -- [4]
 						{
 							["flag_original"] = 68168,
@@ -243,14 +244,14 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["nome"] = "Attumen the Huntsman <Midnight>",
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["total"] = 5.0068,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 5.0068,
-							["end_time"] = 1537713486,
 							["monster"] = true,
-							["total"] = 5.0068,
+							["dps_started"] = false,
+							["end_time"] = 1537713486,
 							["damage_taken"] = 262533.0068,
 							["ownerName"] = "Midnight",
 							["boss_fight_component"] = true,
@@ -274,10 +275,10 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
 										["r_amt"] = 0,
-										["m_crit"] = 0,
 										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -288,7 +289,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["dps_started"] = false,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["friendlyfire"] = {
 							},
@@ -297,7 +298,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1537713483,
 							["serial"] = "Creature-0-3779-532-10418-15550-000027A54C",
-							["friendlyfire_total"] = 0,
+							["classe"] = "UNKNOW",
 						}, -- [5]
 						{
 							["flag_original"] = 68168,
@@ -310,14 +311,14 @@ _detalhes_database = {
 							["pets"] = {
 							},
 							["nome"] = "Attumen the Huntsman <Midnight> <Midnight>",
-							["tipo"] = 1,
-							["classe"] = "UNKNOW",
+							["total"] = 0.003642,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.003642,
-							["end_time"] = 1537713486,
 							["monster"] = true,
-							["total"] = 0.003642,
+							["dps_started"] = false,
+							["end_time"] = 1537713486,
 							["damage_taken"] = 0.003642,
 							["ownerName"] = "Midnight",
 							["boss_fight_component"] = true,
@@ -340,10 +341,10 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 29799,
 										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["m_crit"] = 0,
 										["r_amt"] = 0,
+										["m_crit"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
@@ -353,7 +354,7 @@ _detalhes_database = {
 								},
 								["tipo"] = 2,
 							},
-							["friendlyfire_total"] = 0,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["friendlyfire"] = {
 							},
@@ -362,7 +363,7 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["start_time"] = 1537713486,
 							["serial"] = "Creature-0-3779-532-10418-15550-000027A54C",
-							["dps_started"] = false,
+							["classe"] = "UNKNOW",
 						}, -- [6]
 					},
 				}, -- [1]
@@ -376,6 +377,28 @@ _detalhes_database = {
 					["tipo"] = 7,
 					["combatId"] = 59,
 					["_ActorTable"] = {
+						{
+							["flag_original"] = 1300,
+							["alternatepower"] = 99.007702,
+							["resource"] = 0.007702,
+							["nome"] = "Hauzer",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["pets"] = {
+							},
+							["received"] = 0.007702,
+							["total"] = 0.007702,
+							["last_event"] = 0,
+							["targets"] = {
+							},
+							["tipo"] = 3,
+							["serial"] = "Player-3693-07375FB3",
+							["classe"] = "MAGE",
+						}, -- [1]
 					},
 				}, -- [3]
 				{
@@ -390,10 +413,10 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["last_event"] = 1537713486,
+							["boss_fight_component"] = true,
 							["buff_uptime"] = 8,
 							["tipo"] = 4,
-							["boss_fight_component"] = true,
+							["last_event"] = 1537713486,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[186406] = {
@@ -427,6 +450,7 @@ _detalhes_database = {
 						{
 							["flag_original"] = 2600,
 							["nome"] = "Midnight",
+							["tipo"] = 4,
 							["spell_cast"] = {
 								[29714] = 1,
 								[29770] = 1,
@@ -434,9 +458,8 @@ _detalhes_database = {
 							["pets"] = {
 								"Attumen the Huntsman <Midnight>", -- [1]
 							},
-							["classe"] = "UNKNOW",
-							["tipo"] = 4,
 							["last_event"] = 0,
+							["classe"] = "UNKNOW",
 							["serial"] = "Creature-0-3779-532-10418-16151-000027A533",
 							["boss_fight_component"] = true,
 						}, -- [2]
@@ -470,16 +493,20 @@ _detalhes_database = {
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
+					["Hauzer"] = {
+						["last"] = 0,
+						["total"] = 99,
+					},
 				},
 				["enemy"] = "Attumen the Huntsman",
 				["combat_counter"] = 121,
 				["playing_solo"] = true,
 				["totals"] = {
-					1225160.984535, -- [1]
+					1225160.78481, -- [1]
 					0, -- [2]
 					{
 						0, -- [1]
-						[0] = 0,
+						[0] = -0.0107829999999902,
 						["alternatepower"] = 0,
 						[6] = 0,
 						[3] = 0,
@@ -498,6 +525,83 @@ _detalhes_database = {
 					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
+					["Hauzer"] = {
+						{
+							true, -- [1]
+							3, -- [2]
+							749, -- [3]
+							1537899744.818, -- [4]
+							28891, -- [5]
+							"Environment (Falling)", -- [6]
+							nil, -- [7]
+							3, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 2,
+					},
 				},
 				["data_fim"] = "10:38:06",
 				["frags_need_refresh"] = true,
@@ -576,9 +680,9 @@ _detalhes_database = {
 			}, -- [1]
 		},
 	},
-	["combat_counter"] = 144,
+	["combat_counter"] = 146,
 	["character_data"] = {
-		["logons"] = 32,
+		["logons"] = 34,
 	},
 	["tabela_instancias"] = {
 	},
@@ -635,13 +739,13 @@ _detalhes_database = {
 		["reverse"] = false,
 	},
 	["active_profile"] = "Hauzer-Kel'Thuzad",
-	["last_day"] = "23",
+	["last_day"] = "25",
 	["ignore_nicktag"] = false,
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
 			["enabled"] = true,
-			["showamount"] = false,
+			["animate"] = false,
 			["useplayercolor"] = false,
 			["author"] = "Details! Team",
 			["useclasscolors"] = false,
@@ -650,7 +754,7 @@ _detalhes_database = {
 				1, -- [2]
 				1, -- [3]
 			},
-			["animate"] = false,
+			["showamount"] = false,
 		},
 		["DETAILS_PLUGIN_DAMAGE_RANK"] = {
 			["lasttry"] = {
@@ -659,9 +763,9 @@ _detalhes_database = {
 			["dpshistory"] = {
 			},
 			["enabled"] = true,
-			["author"] = "Details! Team",
-			["level"] = 1,
 			["dps"] = 0,
+			["level"] = 1,
+			["author"] = "Details! Team",
 		},
 		["DETAILS_PLUGIN_TIME_ATTACK"] = {
 			["enabled"] = true,
@@ -749,9 +853,28 @@ _detalhes_database = {
 			["row_texture"] = "Details Serenity",
 			["arrow_anchor_y"] = 0,
 			["main_frame_locked"] = false,
-			["author"] = "Details! Team",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["enabled"] = false,
 			["arrow_size"] = 10,
+			["font_size"] = 10,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["use_spark"] = true,
+			["y"] = -4.577636718750e-005,
+			["x"] = 0,
+			["font_face"] = "Friz Quadrata TT",
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -763,33 +886,10 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["font_size"] = 10,
-			["use_spark"] = true,
-			["x"] = 0,
-			["font_face"] = "Friz Quadrata TT",
-			["y"] = -4.577636718750e-005,
-			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["point"] = "CENTER",
 			["row_height"] = 20,
 			["scale"] = 1,
-		},
-	},
-	["benchmark_db"] = {
-		["frame"] = {
 		},
 	},
 	["last_encounter"] = "Shade of Aran",
@@ -803,6 +903,10 @@ _detalhes_database = {
 		["level"] = 0,
 		["dungeon_zone_id"] = 0,
 		["previous_boss_killed_at"] = 0,
+	},
+	["benchmark_db"] = {
+		["frame"] = {
+		},
 	},
 	["cached_talents"] = {
 		["Player-3693-07375FB3"] = {
@@ -843,15 +947,15 @@ _detalhes_database = {
 						["Spectral Stable Hand"] = 0,
 						["Attumen the Huntsman <Midnight>"] = 0,
 						["Midnight"] = 0,
-						["Spectral Charger"] = 0,
 						["Phantom Guest"] = 832332,
+						["Spectral Charger"] = 0,
 						["Homunculus"] = 878561,
 					},
 					["pets"] = {
 					},
-					["last_dps"] = 0,
+					["damage_taken"] = 0.017433,
 					["tipo"] = 1,
-					["classe"] = "MAGE",
+					["friendlyfire_total"] = 0,
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 1710893.017433,
@@ -859,7 +963,7 @@ _detalhes_database = {
 					["dps_started"] = false,
 					["end_time"] = 1537713624,
 					["nome"] = "Hauzer",
-					["damage_taken"] = 0.017433,
+					["last_dps"] = 0,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -882,10 +986,10 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 228598,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
-								["m_crit"] = 0,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 5,
@@ -910,10 +1014,10 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 228354,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
-								["m_crit"] = 0,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 1,
@@ -942,10 +1046,10 @@ _detalhes_database = {
 								["c_max"] = 175022,
 								["id"] = 84721,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
-								["m_crit"] = 0,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
@@ -970,10 +1074,10 @@ _detalhes_database = {
 								["c_max"] = 108610,
 								["id"] = 190357,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
-								["m_crit"] = 0,
 								["r_amt"] = 0,
+								["m_crit"] = 0,
 								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 3,
@@ -992,7 +1096,7 @@ _detalhes_database = {
 					["on_hold"] = false,
 					["start_time"] = 1537713606,
 					["serial"] = "Player-3693-07375FB3",
-					["friendlyfire_total"] = 0,
+					["classe"] = "MAGE",
 				}, -- [1]
 				{
 					["flag_original"] = 68168,
@@ -1005,17 +1109,17 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["friendlyfire"] = {
-					},
+					["nome"] = "Phantom Guest",
 					["last_dps"] = 0,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.009524,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["monster"] = true,
 					["end_time"] = 1537713624,
-					["damage_taken"] = 832332.009524,
+					["friendlyfire"] = {
+					},
 					["tipo"] = 1,
 					["boss_fight_component"] = true,
 					["spells"] = {
@@ -1038,10 +1142,10 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
 								["r_amt"] = 0,
-								["m_crit"] = 0,
 								["a_amt"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
@@ -1067,10 +1171,10 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 29582,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
 								["r_amt"] = 0,
-								["m_crit"] = 0,
 								["a_amt"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 3,
 								["b_dmg"] = 0,
@@ -1096,10 +1200,10 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 29583,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
 								["r_amt"] = 0,
-								["m_crit"] = 0,
 								["a_amt"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
@@ -1125,10 +1229,10 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 29928,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
 								["r_amt"] = 0,
-								["m_crit"] = 0,
 								["a_amt"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
@@ -1154,10 +1258,10 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 29581,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
 								["r_amt"] = 0,
-								["m_crit"] = 0,
 								["a_amt"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
@@ -1183,10 +1287,10 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 29492,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
 								["r_amt"] = 0,
-								["m_crit"] = 0,
 								["a_amt"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 2,
 								["b_dmg"] = 0,
@@ -1197,9 +1301,9 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["nome"] = "Phantom Guest",
+					["fight_component"] = true,
 					["total"] = 0.009524,
-					["monster"] = true,
+					["damage_taken"] = 832332.009524,
 					["custom"] = 0,
 					["last_event"] = 0,
 					["on_hold"] = false,
@@ -1218,17 +1322,17 @@ _detalhes_database = {
 					["delay"] = 0,
 					["pets"] = {
 					},
-					["friendlyfire"] = {
-					},
+					["nome"] = "Homunculus",
 					["last_dps"] = 0,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.011317,
 					["friendlyfire_total"] = 0,
-					["fight_component"] = true,
+					["monster"] = true,
 					["end_time"] = 1537714104,
-					["damage_taken"] = 878561.011317,
+					["friendlyfire"] = {
+					},
 					["tipo"] = 1,
 					["boss_fight_component"] = true,
 					["spells"] = {
@@ -1251,10 +1355,10 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 30180,
 								["r_dmg"] = 0,
-								["c_min"] = 0,
 								["r_amt"] = 0,
-								["m_crit"] = 0,
 								["a_amt"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 4,
 								["b_dmg"] = 0,
@@ -1265,9 +1369,9 @@ _detalhes_database = {
 						},
 						["tipo"] = 2,
 					},
-					["nome"] = "Homunculus",
+					["fight_component"] = true,
 					["total"] = 0.011317,
-					["monster"] = true,
+					["damage_taken"] = 878561.011317,
 					["custom"] = 0,
 					["last_event"] = 0,
 					["on_hold"] = false,
@@ -1285,20 +1389,19 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["on_hold"] = false,
+					["last_event"] = 0,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.004275,
-					["boss_fight_component"] = true,
-					["dps_started"] = false,
-					["end_time"] = 1537715741,
-					["last_event"] = 0,
 					["friendlyfire"] = {
 					},
-					["nome"] = "Midnight",
+					["dps_started"] = false,
+					["end_time"] = 1537715741,
+					["serial"] = "Creature-0-3779-532-10418-16151-000027A533",
+					["damage_taken"] = 0.004275,
+					["boss_fight_component"] = true,
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -1321,103 +1424,103 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
-								["c_min"] = 0,
 							}, -- [1]
 						},
+						["tipo"] = 2,
 					},
-					["friendlyfire_total"] = 0,
+					["on_hold"] = false,
 					["total"] = 0.004275,
-					["serial"] = "Creature-0-3779-532-10418-16151-000027A533",
+					["nome"] = "Midnight",
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 0.004275,
+					["last_dps"] = 0,
 					["start_time"] = 1537715738,
 					["delay"] = 0,
-					["last_dps"] = 0,
+					["friendlyfire_total"] = 0,
 				}, -- [4]
 				{
 					["flag_original"] = 2632,
 					["totalabsorbed"] = 0.002887,
-					["boss_fight_component"] = true,
 					["damage_from"] = {
 					},
 					["targets"] = {
 					},
 					["pets"] = {
 					},
-					["end_time"] = 1537715741,
+					["total"] = 0.002887,
+					["boss_fight_component"] = true,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.002887,
+					["serial"] = "Creature-0-3779-532-10418-15551-0003A7A533",
+					["monster"] = true,
+					["end_time"] = 1537715741,
+					["damage_taken"] = 0.002887,
 					["friendlyfire"] = {
 					},
-					["dps_started"] = false,
-					["total"] = 0.002887,
-					["last_event"] = 0,
-					["friendlyfire_total"] = 0,
 					["nome"] = "Spectral Stable Hand",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 2,
 					},
-					["monster"] = true,
+					["last_event"] = 0,
 					["on_hold"] = false,
-					["serial"] = "Creature-0-3779-532-10418-15551-0003A7A533",
+					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 0.002887,
+					["last_dps"] = 0,
 					["start_time"] = 1537715738,
 					["delay"] = 0,
-					["last_dps"] = 0,
+					["dps_started"] = false,
 				}, -- [5]
 				{
 					["flag_original"] = 2632,
 					["totalabsorbed"] = 0.008766,
-					["boss_fight_component"] = true,
 					["damage_from"] = {
 					},
 					["targets"] = {
 					},
 					["pets"] = {
 					},
-					["end_time"] = 1537715741,
+					["total"] = 0.008766,
+					["boss_fight_component"] = true,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.008766,
+					["serial"] = "Creature-0-3779-532-10418-15547-0001A7A533",
+					["monster"] = true,
+					["end_time"] = 1537715741,
+					["damage_taken"] = 0.008766,
 					["friendlyfire"] = {
 					},
-					["dps_started"] = false,
-					["total"] = 0.008766,
-					["last_event"] = 0,
-					["friendlyfire_total"] = 0,
 					["nome"] = "Spectral Charger",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 						},
+						["tipo"] = 2,
 					},
-					["monster"] = true,
+					["last_event"] = 0,
 					["on_hold"] = false,
-					["serial"] = "Creature-0-3779-532-10418-15547-0001A7A533",
+					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 0.008766,
+					["last_dps"] = 0,
 					["start_time"] = 1537715738,
 					["delay"] = 0,
-					["last_dps"] = 0,
+					["dps_started"] = false,
 				}, -- [6]
 				{
 					["flag_original"] = 68168,
 					["totalabsorbed"] = 0.001174,
-					["boss_fight_component"] = true,
 					["damage_from"] = {
 					},
 					["targets"] = {
@@ -1425,20 +1528,20 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["end_time"] = 1537715741,
+					["total"] = 0.001174,
+					["boss_fight_component"] = true,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.001174,
+					["serial"] = "Creature-0-3779-532-10418-15550-000027A54C",
+					["monster"] = true,
+					["end_time"] = 1537715741,
+					["damage_taken"] = 0.001174,
 					["friendlyfire"] = {
 					},
-					["dps_started"] = false,
-					["total"] = 0.001174,
-					["last_event"] = 0,
-					["friendlyfire_total"] = 0,
 					["nome"] = "Attumen the Huntsman <Midnight>",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							{
 								["c_amt"] = 0,
@@ -1461,49 +1564,49 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
-								["c_min"] = 0,
 							}, -- [1]
 						},
+						["tipo"] = 2,
 					},
-					["monster"] = true,
+					["last_event"] = 0,
 					["on_hold"] = false,
-					["serial"] = "Creature-0-3779-532-10418-15550-000027A54C",
+					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 0.001174,
+					["last_dps"] = 0,
 					["start_time"] = 1537715738,
 					["delay"] = 0,
-					["last_dps"] = 0,
+					["dps_started"] = false,
 				}, -- [7]
 				{
 					["flag_original"] = 68168,
 					["totalabsorbed"] = 0.008525,
-					["boss_fight_component"] = true,
 					["damage_from"] = {
 					},
 					["targets"] = {
 					},
 					["pets"] = {
 					},
-					["end_time"] = 1537715741,
+					["total"] = 0.008525,
+					["boss_fight_component"] = true,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.008525,
+					["serial"] = "Creature-0-3779-532-10418-15550-000027A54C",
+					["monster"] = true,
+					["end_time"] = 1537715741,
+					["damage_taken"] = 0.008525,
 					["friendlyfire"] = {
 					},
-					["dps_started"] = false,
-					["total"] = 0.008525,
-					["last_event"] = 0,
-					["friendlyfire_total"] = 0,
 					["nome"] = "Attumen the Huntsman <Midnight> <Midnight>",
 					["spells"] = {
-						["tipo"] = 2,
 						["_ActorTable"] = {
 							[29799] = {
 								["c_amt"] = 0,
@@ -1525,24 +1628,25 @@ _detalhes_database = {
 								["a_dmg"] = 0,
 								["m_crit"] = 0,
 								["a_amt"] = 0,
-								["m_amt"] = 0,
+								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
+								["m_amt"] = 0,
 								["r_amt"] = 0,
-								["c_min"] = 0,
 							},
 						},
+						["tipo"] = 2,
 					},
-					["monster"] = true,
+					["last_event"] = 0,
 					["on_hold"] = false,
-					["serial"] = "Creature-0-3779-532-10418-15550-000027A54C",
+					["friendlyfire_total"] = 0,
 					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 0.008525,
+					["last_dps"] = 0,
 					["start_time"] = 1537715738,
 					["delay"] = 0,
-					["last_dps"] = 0,
+					["dps_started"] = false,
 				}, -- [8]
 			},
 		}, -- [1]
@@ -1554,6 +1658,28 @@ _detalhes_database = {
 		{
 			["tipo"] = 7,
 			["_ActorTable"] = {
+				{
+					["received"] = 0.008941,
+					["total"] = 0.008941,
+					["resource"] = 0.016643,
+					["nome"] = "Hauzer",
+					["spells"] = {
+						["tipo"] = 7,
+						["_ActorTable"] = {
+						},
+					},
+					["targets"] = {
+					},
+					["pets"] = {
+					},
+					["flag_original"] = 1300,
+					["alternatepower"] = 0.008941,
+					["classe"] = "MAGE",
+					["last_event"] = 0,
+					["grupo"] = true,
+					["serial"] = "Player-3693-07375FB3",
+					["tipo"] = 3,
+				}, -- [1]
 			},
 		}, -- [3]
 		{
@@ -1566,14 +1692,14 @@ _detalhes_database = {
 					},
 					["grupo"] = true,
 					["boss_fight_component"] = true,
-					["pets"] = {
-					},
-					["last_event"] = 0,
 					["buff_uptime"] = 38,
-					["classe"] = "MAGE",
+					["last_event"] = 0,
 					["spell_cast"] = {
 						[30455] = 6,
 						[84714] = 1,
+					},
+					["classe"] = "MAGE",
+					["pets"] = {
 					},
 					["buff_uptime_spells"] = {
 						["_ActorTable"] = {
@@ -1625,14 +1751,14 @@ _detalhes_database = {
 				}, -- [1]
 				{
 					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["nome"] = "Phantom Guest",
 					["boss_fight_component"] = true,
 					["last_event"] = 0,
 					["pets"] = {
 					},
-					["nome"] = "Phantom Guest",
-					["flag_original"] = 2632,
+					["monster"] = true,
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
 					["spell_cast"] = {
 						[29582] = 3,
 						[29583] = 1,
@@ -1640,43 +1766,43 @@ _detalhes_database = {
 						[29928] = 1,
 					},
 					["serial"] = "Creature-0-3779-532-10418-16409-001AA7A533",
-					["monster"] = true,
+					["flag_original"] = 2632,
 				}, -- [2]
 				{
 					["fight_component"] = true,
-					["classe"] = "UNKNOW",
+					["nome"] = "Homunculus",
 					["boss_fight_component"] = true,
 					["last_event"] = 0,
 					["pets"] = {
 					},
-					["nome"] = "Homunculus",
-					["flag_original"] = 2632,
+					["monster"] = true,
 					["tipo"] = 4,
+					["classe"] = "UNKNOW",
 					["spell_cast"] = {
 						[30180] = 4,
 					},
 					["serial"] = "Creature-0-3779-532-10418-16539-000027A533",
-					["monster"] = true,
+					["flag_original"] = 2632,
 				}, -- [3]
 				{
 					["flag_original"] = 2600,
 					["nome"] = "Midnight",
-					["tipo"] = 4,
+					["classe"] = "UNKNOW",
 					["pets"] = {
 					},
 					["spell_cast"] = {
 						[29714] = 0,
 						[29770] = 0,
 					},
-					["classe"] = "UNKNOW",
-					["boss_fight_component"] = true,
-					["serial"] = "Creature-0-3779-532-10418-16151-000027A533",
 					["last_event"] = 0,
+					["tipo"] = 4,
+					["serial"] = "Creature-0-3779-532-10418-16151-000027A533",
+					["boss_fight_component"] = true,
 				}, -- [4]
 				{
 					["monster"] = true,
-					["nome"] = "Attumen the Huntsman <Midnight>",
 					["tipo"] = 4,
+					["nome"] = "Attumen the Huntsman <Midnight>",
 					["pets"] = {
 					},
 					["spell_cast"] = {
@@ -1745,6 +1871,7 @@ _detalhes_database = {
 			},
 		},
 		["end_time"] = 505304.705,
+		["data_inicio"] = "10:39:18",
 		["totals_grupo"] = {
 			1710893.014175, -- [1]
 			0, -- [2]
@@ -1766,7 +1893,6 @@ _detalhes_database = {
 				["cooldowns_defensive"] = 0,
 			}, -- [4]
 		},
-		["overall_refreshed"] = true,
 		["hasSaved"] = true,
 		["frags"] = {
 		},
@@ -1793,7 +1919,7 @@ _detalhes_database = {
 			["Raid Damage Done"] = {
 			},
 		},
-		["data_inicio"] = "10:39:18",
+		["overall_refreshed"] = true,
 	},
 	["SoloTablesSaved"] = {
 		["Mode"] = 1,

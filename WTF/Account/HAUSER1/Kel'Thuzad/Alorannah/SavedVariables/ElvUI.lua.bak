@@ -1,292 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/p ya I cant handle this", -- [1]
-		"/p grats man", -- [2]
-		"/p ya thanks I do too lol", -- [3]
-		"/p well thanks for helping, wouldnt have made it this far without you <3", -- [4]
-		"/p have a good one!", -- [5]
-		"/p ya this is nuts", -- [6]
-		"/p like on my pally this would be so easy", -- [7]
-		"/p nah I went and grabbed lunch", -- [8]
-		"/p still stealthed looking at garrosh - it's a kiting and timing exercise, I just gotta work out the details", -- [9]
-		"/p ya", -- [10]
-		"/p ya those are the problem for me", -- [11]
-		"/p still working on it'", -- [12]
-		"/p might have to respec", -- [13]
-		"/p got em", -- [14]
-		"/p but youre saying it gets harder? lol", -- [15]
-		"/p brb gotta do a rare check on my hunter", -- [16]
-		"/cw Shakeyseu is that eyepatch horde only?", -- [17]
-		"/cw Shakeyseu hmm havent seen it on alliance - got a hunter on the other side, looking for new head piece", -- [18]
-		"/2 anyone buying BOE greens?", -- [19]
-		"/cw Tallimus-Shadowmoon cool cat", -- [20]
+		"/p got em", -- [1]
+		"/p but youre saying it gets harder? lol", -- [2]
+		"/p brb gotta do a rare check on my hunter", -- [3]
+		"/cw Shakeyseu is that eyepatch horde only?", -- [4]
+		"/cw Shakeyseu hmm havent seen it on alliance - got a hunter on the other side, looking for new head piece", -- [5]
+		"/2 anyone buying BOE greens?", -- [6]
+		"/cw Tallimus-Shadowmoon cool cat", -- [7]
+		"/tar syr", -- [8]
+		"/bartender", -- [9]
+		"/cw Adoriya-Sargeras ragebeak is somewhere else", -- [10]
+		"/cw Adoriya-Sargeras when horde has control", -- [11]
+		"/cw Adoriya-Sargeras the alliance timber yard iirc", -- [12]
+		"/cw Adoriya-Sargeras ya right here", -- [13]
+		"/cw Adoriya-Sargeras come south", -- [14]
+		"/cw Adoriya-Sargeras little shack on the map", -- [15]
+		"/tar ado", -- [16]
+		"/s invote", -- [17]
+		"/s ya fuck this", -- [18]
+		"/2 do honorbound quests in zandalar also give zandalar rep?", -- [19]
+		"/who z-twili", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"thats debateable", -- [1]
-			"Axmans-Ysera", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Axmans-Ysera", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			574, -- [11]
-			"Player-63-0B3F987A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aAxmans-Ysera|r",
-			[51] = 1537549161,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [1]
-		{
-			"pfft wanna duel", -- [1]
-			"Nöödlês-EmeraldDream", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Nöödlês-EmeraldDream", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			575, -- [11]
-			"Player-162-09CE16D0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
-			[51] = 1537549170,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [2]
-		{
-			"lol. you got jokes", -- [1]
-			"Axmans-Ysera", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Axmans-Ysera", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			576, -- [11]
-			"Player-63-0B3F987A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aAxmans-Ysera|r",
-			[51] = 1537549179,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [3]
-		{
-			"you will get to know soon, i hate pvp", -- [1]
-			"Axmans-Ysera", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Axmans-Ysera", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			577, -- [11]
-			"Player-63-0B3F987A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aAxmans-Ysera|r",
-			[51] = 1537549188,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [4]
-		{
-			"ewww", -- [1]
-			"Nöödlês-EmeraldDream", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Nöödlês-EmeraldDream", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			578, -- [11]
-			"Player-162-09CE16D0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
-			[51] = 1537549205,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [5]
-		{
-			"i'm a big pvper", -- [1]
-			"Nöödlês-EmeraldDream", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Nöödlês-EmeraldDream", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			579, -- [11]
-			"Player-162-09CE16D0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
-			[51] = 1537549209,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [6]
-		{
-			"i know lol", -- [1]
-			"Axmans-Ysera", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Axmans-Ysera", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			580, -- [11]
-			"Player-63-0B3F987A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aAxmans-Ysera|r",
-			[51] = 1537549215,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [7]
-		{
-			"murking people is my favorite thing", -- [1]
-			"Nöödlês-EmeraldDream", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Nöödlês-EmeraldDream", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			581, -- [11]
-			"Player-162-09CE16D0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
-			[51] = 1537549220,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [8]
-		{
-			"ever", -- [1]
-			"Nöödlês-EmeraldDream", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Nöödlês-EmeraldDream", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			582, -- [11]
-			"Player-162-09CE16D0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
-			[51] = 1537549220,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [9]
-		{
-			"im just not good at it", -- [1]
-			"Axmans-Ysera", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Axmans-Ysera", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			583, -- [11]
-			"Player-63-0B3F987A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aAxmans-Ysera|r",
-			[51] = 1537549220,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [10]
-		{
-			"ill teach ya", -- [1]
-			"Nöödlês-EmeraldDream", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Nöödlês-EmeraldDream", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			584, -- [11]
-			"Player-162-09CE16D0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
-			[51] = 1537549224,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [11]
-		{
-			"then i lose patience", -- [1]
-			"Axmans-Ysera", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Axmans-Ysera", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			585, -- [11]
-			"Player-63-0B3F987A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aAxmans-Ysera|r",
-			[51] = 1537549225,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [12]
 		{
 			"let's do some twos", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -308,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549228,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [13]
+		}, -- [1]
 		{
 			"not atm,", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -330,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549233,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [14]
+		}, -- [2]
 		{
 			"nah later on", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -352,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549238,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [15]
+		}, -- [3]
 		{
 			"i gotta go to missouri for smokes", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -374,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549242,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [16]
+		}, -- [4]
 		{
 			"i'm eating hot wings", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -396,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549251,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [17]
+		}, -- [5]
 		{
 			"40 min drive one way", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -418,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549254,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [18]
+		}, -- [6]
 		{
 			"yum", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -440,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549256,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [19]
+		}, -- [7]
 		{
 			"soooo those trump wow atm", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -462,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549260,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [20]
+		}, -- [8]
 		{
 			"LOL", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -484,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549269,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [21]
+		}, -- [9]
 		{
 			"juice is dying for me to get my shammy over therelol", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -506,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549290,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [22]
+		}, -- [10]
 		{
 			"ya , i hit exalted with honorbound lastnight at like 3am", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -528,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549292,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [23]
+		}, -- [11]
 		{
 			"ill pay you 200 bucks", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -550,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549300,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [24]
+		}, -- [12]
 		{
 			"to grind my rep", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -572,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549303,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [25]
+		}, -- [13]
 		{
 			"yes, we can help pay for it also", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -594,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549305,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [26]
+		}, -- [14]
 		{
 			"lmfao", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -616,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549306,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [27]
+		}, -- [15]
 		{
 			"yall don't have too", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -638,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549322,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [28]
+		}, -- [16]
 		{
 			"i told juice tuesday ill be able to afford it", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -660,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549335,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [29]
+		}, -- [17]
 		{
 			"lol i got pathfinder part 1 done", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -682,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549336,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [30]
+		}, -- [18]
 		{
 			"but she wants me there now lol", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -704,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549342,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [31]
+		}, -- [19]
 		{
 			"we do!", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -726,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549347,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [32]
+		}, -- [20]
 		{
 			"lol", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -748,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549349,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [33]
+		}, -- [21]
 		{
 			"lol yall are silly", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -770,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549357,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [34]
+		}, -- [22]
 		{
 			"ya, but you like us", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -792,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549365,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [35]
+		}, -- [23]
 		{
 			"dont  lie", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -814,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549368,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [36]
+		}, -- [24]
 		{
 			"brb got to put my kid down for a nap", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -836,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549370,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [37]
+		}, -- [25]
 		{
 			"maybe just a tad", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -858,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549373,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [38]
+		}, -- [26]
 		{
 			"wish this staff would sell", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -880,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549441,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [39]
+		}, -- [27]
 		{
 			"how you doing Alor?", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -902,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549504,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [40]
+		}, -- [28]
 		{
 			"still working on it'", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -924,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537549529,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [41]
+		}, -- [29]
 		{
 			"trying to get myself to want tot go do WQ", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -946,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549555,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [42]
+		}, -- [30]
 		{
 			"might have to respec", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -968,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537549557,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [43]
+		}, -- [31]
 		{
 			"just focus honorbound lol", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -990,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549582,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [44]
+		}, -- [32]
 		{
 			"plenty of WQ", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -1012,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549586,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [45]
+		}, -- [33]
 		{
 			"you'll learn real quick i hate quests", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -1034,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549609,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [46]
+		}, -- [34]
 		{
 			"lol", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -1056,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549635,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [47]
+		}, -- [35]
 		{
 			"ill teach you =P", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -1078,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549647,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [48]
+		}, -- [36]
 		{
 			"lmfao", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -1100,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549650,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [49]
+		}, -- [37]
 		{
 			"touche mfer touche", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -1122,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549662,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [50]
+		}, -- [38]
 		{
 			"lolz", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -1144,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549667,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [51]
+		}, -- [39]
 		{
 			"it's just bleh", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -1166,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549675,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [52]
+		}, -- [40]
 		{
 			"i don't mind questing while in a group", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -1188,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549680,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [53]
+		}, -- [41]
 		{
 			"like two of us doign WQ", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -1210,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549684,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [54]
+		}, -- [42]
 		{
 			"but", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -1232,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549685,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [55]
+		}, -- [43]
 		{
 			"ya, the grind is real in BFA'", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -1254,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549685,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [56]
+		}, -- [44]
 		{
 			"solo i lost my shit", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -1276,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549688,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [57]
+		}, -- [45]
 		{
 			"i left legion 2 month after it cam eout", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -1298,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549695,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [58]
+		}, -- [46]
 		{
 			"cause of this", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -1320,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549697,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [59]
+		}, -- [47]
 		{
 			"i hate AP grinding", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -1342,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549700,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [60]
+		}, -- [48]
 		{
 			"i dont focus it", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -1364,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549707,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [61]
+		}, -- [49]
 		{
 			"also", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -1386,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549708,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [62]
+		}, -- [50]
 		{
 			"you been doing your island expedition?>", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -1408,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549717,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [63]
+		}, -- [51]
 		{
 			"dafuk is that", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -1430,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549722,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [64]
+		}, -- [52]
 		{
 			"omg", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -1452,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549726,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [65]
+		}, -- [53]
 		{
 			"stay there", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -1474,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549732,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [66]
+		}, -- [54]
 		{
 			"if you press h", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -1496,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549734,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [67]
+		}, -- [55]
 		{
 			"im comig to you", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -1518,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549734,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [68]
+		}, -- [56]
 		{
 			"and click rangom bg", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -1540,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549739,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [69]
+		}, -- [57]
 		{
 			"and que", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -1562,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549741,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [70]
+		}, -- [58]
 		{
 			"that is what i do", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -1584,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549744,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [71]
+		}, -- [59]
 		{
 			"allllll the time", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -1606,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549746,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [72]
+		}, -- [60]
 		{
 			"LOL", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -1628,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549747,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [73]
+		}, -- [61]
 		{
 			"hop on", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -1650,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549796,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [74]
+		}, -- [62]
 		{
 			"damn it", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -1672,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549801,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [75]
+		}, -- [63]
 		{
 			"hahahahahaha", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -1694,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549801,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [76]
+		}, -- [64]
 		{
 			"your WM", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -1716,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549803,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [77]
+		}, -- [65]
 		{
 			"i acan't", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -1738,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549803,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [78]
+		}, -- [66]
 		{
 			"me pvper", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -1760,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549809,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [79]
+		}, -- [67]
 		{
 			"follow my dot", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -1782,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549811,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [80]
+		}, -- [68]
 		{
 			"WM for life", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -1804,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549812,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [81]
+		}, -- [69]
 		{
 			"oooo", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -1826,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549828,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [82]
+		}, -- [70]
 		{
 			"what's this", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -1848,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549830,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [83]
+		}, -- [71]
 		{
 			"see table here?", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -1870,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549830,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [84]
+		}, -- [72]
 		{
 			"this is island expedition", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -1892,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549839,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [85]
+		}, -- [73]
 		{
 			"oooo", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -1914,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549846,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [86]
+		}, -- [74]
 		{
 			"they gota 3v3", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -1936,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549850,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [87]
+		}, -- [75]
 		{
 			"!!!!", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -1958,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549853,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [88]
+		}, -- [76]
 		{
 			"complete the weekly azerite quest to get 1500 rep with honorbound and AP", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -1980,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549855,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [89]
+		}, -- [77]
 		{
 			"guess whos party has 3 memebrs", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -2002,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549865,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [90]
+		}, -- [78]
 		{
 			"and loot", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -2024,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549867,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [91]
+		}, -- [79]
 		{
 			"this one!", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -2046,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549869,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [92]
+		}, -- [80]
 		{
 			"LOL", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -2068,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549870,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [93]
+		}, -- [81]
 		{
 			"see what i a did there", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -2090,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549880,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [94]
+		}, -- [82]
 		{
 			"ya, but you wanna know something", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -2112,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549891,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [95]
+		}, -- [83]
 		{
 			"LETS DO T", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -2134,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549895,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [96]
+		}, -- [84]
 		{
 			"i gotta leav =P for about 2 hours", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -2156,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549899,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [97]
+		}, -- [85]
 		{
 			"you my friend", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -2178,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549904,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [98]
+		}, -- [86]
 		{
 			"or no fun", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -2200,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549905,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [99]
+		}, -- [87]
 		{
 			"T-T", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -2222,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549907,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [100]
+		}, -- [88]
 		{
 			"QQ", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -2244,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549912,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [101]
+		}, -- [89]
 		{
 			"BABY CME BACK", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -2266,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549919,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [102]
+		}, -- [90]
 		{
 			"you can blame it all on me", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -2288,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549929,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [103]
+		}, -- [91]
 		{
 			"WE don't have to P V P", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -2310,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549931,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [104]
+		}, -- [92]
 		{
 			"i already completed mine lol", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -2332,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549945,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [105]
+		}, -- [93]
 		{
 			"well i'm behind", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -2354,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549952,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [106]
+		}, -- [94]
 		{
 			"dont die Alor", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -2376,7 +2112,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549956,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [107]
+		}, -- [95]
 		{
 			"should have rolleda shammy", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -2398,7 +2134,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549968,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [108]
+		}, -- [96]
 		{
 			"got em", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2420,7 +2156,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537549970,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [109]
+		}, -- [97]
 		{
 			"i got one", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -2442,7 +2178,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549973,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [110]
+		}, -- [98]
 		{
 			"AWSOME", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -2464,7 +2200,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549976,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [111]
+		}, -- [99]
 		{
 			"grats", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -2486,7 +2222,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549978,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [112]
+		}, -- [100]
 		{
 			"now you get to do the scenario", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -2508,7 +2244,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549986,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [113]
+		}, -- [101]
 		{
 			"but youre saying it gets harder? lol", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2530,7 +2266,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537549988,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [114]
+		}, -- [102]
 		{
 			"ya lol", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -2552,7 +2288,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537550052,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [115]
+		}, -- [103]
 		{
 			"brb gotta do a rare check on my hunter", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2574,7 +2310,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537550069,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [116]
+		}, -- [104]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12518:Player-3693-09ED9289:1:9:21:18:4294967295:4294967295:4294967295:4294967295|h[Allied Races: Mag'har Orc]|h|r!", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2596,7 +2332,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537551879,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [117]
+		}, -- [105]
 		{
 			"is that eyepatch horde only?", -- [1]
 			"Shakeyseu-Kel'Thuzad", -- [2]
@@ -2618,7 +2354,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddShakeyseu|r",
 			[51] = 1537650071,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [118]
+		}, -- [106]
 		{
 			"no ", -- [1]
 			"Shakeyseu-Kel'Thuzad", -- [2]
@@ -2640,7 +2376,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddShakeyseu|r",
 			[51] = 1537650090,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [119]
+		}, -- [107]
 		{
 			"hmm havent seen it on alliance - got a hunter on the other side, looking for new head piece", -- [1]
 			"Shakeyseu-Kel'Thuzad", -- [2]
@@ -2662,7 +2398,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddShakeyseu|r",
 			[51] = 1537650106,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [120]
+		}, -- [108]
 		{
 			"|cffffff00The Mugambala is under attack!|r", -- [1]
 			"", -- [2]
@@ -2684,7 +2420,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1537688908,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [121]
+		}, -- [109]
 		{
 			"|cffffff00Zuldazar is under attack!|r", -- [1]
 			"", -- [2]
@@ -2706,7 +2442,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1537688957,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [122]
+		}, -- [110]
 		{
 			"anyone buying BOE greens?", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2728,7 +2464,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537689575,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [123]
+		}, -- [111]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:1177:Player-3693-09ED9289:1:9:23:18:4294967295:4294967295:4294967295:4294967295|h[Got My Mind On My Money]|h|r!", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2750,7 +2486,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537700362,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [124]
+		}, -- [112]
 		{
 			"|cffffff00Grand Bazaar is under attack!|r", -- [1]
 			"", -- [2]
@@ -2772,7 +2508,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1537701027,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [125]
+		}, -- [113]
 		{
 			"cool cat", -- [1]
 			"Tallimus-Shadowmoon", -- [2]
@@ -2794,7 +2530,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Tallimus-Shadowmoon|r",
 			[51] = 1537717727,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [126]
+		}, -- [114]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:11212:Player-3693-09ED9289:1:9:24:18:4294967295:4294967295:4294967295:4294967295|h[Raise an Army]|h|r!", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2816,6 +2552,270 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537794803,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [115]
+		{
+			"|cffffff00Port of Zandalar is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Zuldazar", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Zuldazar", -- [9]
+			0, -- [10]
+			56, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1537875494,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [116]
+		{
+			"ragebeak is somewhere else", -- [1]
+			"Adoriya-Sargeras", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Adoriya-Sargeras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			42, -- [11]
+			"Player-76-09562603", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Adoriya-Sargeras|r",
+			[51] = 1537884332,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [117]
+		{
+			"when horde has control", -- [1]
+			"Adoriya-Sargeras", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Adoriya-Sargeras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			43, -- [11]
+			"Player-76-09562603", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Adoriya-Sargeras|r",
+			[51] = 1537884336,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [118]
+		{
+			"oh ok", -- [1]
+			"Adoriya-Sargeras", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Adoriya-Sargeras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			44, -- [11]
+			"Player-76-09562603", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Adoriya-Sargeras|r",
+			[51] = 1537884344,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [119]
+		{
+			"the alliance timber yard iirc", -- [1]
+			"Adoriya-Sargeras", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Adoriya-Sargeras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			46, -- [11]
+			"Player-76-09562603", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Adoriya-Sargeras|r",
+			[51] = 1537884352,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [120]
+		{
+			"ya right here", -- [1]
+			"Adoriya-Sargeras", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Adoriya-Sargeras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			47, -- [11]
+			"Player-76-09562603", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Adoriya-Sargeras|r",
+			[51] = 1537884368,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [121]
+		{
+			"come south", -- [1]
+			"Adoriya-Sargeras", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Adoriya-Sargeras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			49, -- [11]
+			"Player-76-09562603", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Adoriya-Sargeras|r",
+			[51] = 1537884378,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [122]
+		{
+			"little shack on the map", -- [1]
+			"Adoriya-Sargeras", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Adoriya-Sargeras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			50, -- [11]
+			"Player-76-09562603", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Adoriya-Sargeras|r",
+			[51] = 1537884384,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [123]
+		{
+			"dungeon", -- [1]
+			"Adoriya-Sargeras", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Adoriya-Sargeras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			51, -- [11]
+			"Player-76-09562603", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Adoriya-Sargeras|r",
+			[51] = 1537884395,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [124]
+		{
+			"invote", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1488, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537894509,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [125]
+		{
+			"ya fuck this", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1490, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537894539,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [126]
+		{
+			"do honorbound quests in zandalar also give zandalar rep?", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1510, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1537894895,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},
 }

@@ -1,26 +1,26 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/s why is this big red lump here in lorlathil", -- [1]
-		"/lie", -- [2]
-		"/g how come no one told me DH have the best slutmog pieces", -- [3]
-		"/g just boosted a sweet belf rogue to 110 to unlock allied races with and hoo boy are the DH pieces ever hot stuff", -- [4]
-		"/mogit", -- [5]
-		"/g I'm wearing a bathrobe BUT I also have underwear on so I'd say 50% is right on", -- [6]
-		"/g check out what mlady is wearing [MogIt:3UY;1Tr.UQ.0;yT5;fpK.UQ.0;fpK.UQ.0;3UZ.UQ.0;xHZ.UQ.0;16x.UQ.0;6LI.UQ.0;1uN.UQ.0;yT6:41:0]", -- [7]
-		"/g nice but got nothing on the DH pieces boioioioing", -- [8]
-		"/bow", -- [9]
-		"/flirt", -- [10]
-		"/cw Randomzlul see", -- [11]
-		"/wave", -- [12]
-		"/cw Randomzlul ya I thought it was a good match for cat drod", -- [13]
-		"/cw Randomzlul if I had a warrior he'd be a barechested conan looking motherfucker but I dont think thats even possible anymore", -- [14]
-		"/cw Randomzlul RIP slutmogds", -- [15]
-		"/laugh", -- [16]
-		"/forthealliance", -- [17]
-		"/2 why is Tyrande the only night elf with an accent", -- [18]
-		"/2 is she a secret spy", -- [19]
-		"/bartender", -- [20]
+		"/lie", -- [1]
+		"/g how come no one told me DH have the best slutmog pieces", -- [2]
+		"/g just boosted a sweet belf rogue to 110 to unlock allied races with and hoo boy are the DH pieces ever hot stuff", -- [3]
+		"/mogit", -- [4]
+		"/g I'm wearing a bathrobe BUT I also have underwear on so I'd say 50% is right on", -- [5]
+		"/g check out what mlady is wearing [MogIt:3UY;1Tr.UQ.0;yT5;fpK.UQ.0;fpK.UQ.0;3UZ.UQ.0;xHZ.UQ.0;16x.UQ.0;6LI.UQ.0;1uN.UQ.0;yT6:41:0]", -- [6]
+		"/g nice but got nothing on the DH pieces boioioioing", -- [7]
+		"/bow", -- [8]
+		"/flirt", -- [9]
+		"/cw Randomzlul see", -- [10]
+		"/wave", -- [11]
+		"/cw Randomzlul ya I thought it was a good match for cat drod", -- [12]
+		"/cw Randomzlul if I had a warrior he'd be a barechested conan looking motherfucker but I dont think thats even possible anymore", -- [13]
+		"/cw Randomzlul RIP slutmogds", -- [14]
+		"/laugh", -- [15]
+		"/forthealliance", -- [16]
+		"/2 why is Tyrande the only night elf with an accent", -- [17]
+		"/2 is she a secret spy", -- [18]
+		"/bartender", -- [19]
+		"/2 remember that time when the NFL employed all these wife beating roidmonsters and instead of punishing played decided to run ads about domestic abuse shaming their innocent audience ", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
@@ -1453,5 +1453,71 @@ ElvCharacterDB = {
 			[51] = 1537712798,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [65]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12918:Player-3693-0844F6BF:1:9:25:18:4294967295:4294967295:4294967295:4294967295|h[Have a Heart]|h|r!", -- [1]
+			"Alauranna-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alauranna", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			155, -- [11]
+			"Player-3693-0844F6BF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aAlauranna|r",
+			[51] = 1537885636,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [66]
+		{
+			"remember that time when the NFL employed all these wife beating roidmonsters and instead of punishing played decided to run ads about domestic abuse shaming their innocent audience ", -- [1]
+			"Alauranna-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Alauranna", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			220, -- [11]
+			"Player-3693-0844F6BF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffff7c0aAlauranna|r",
+			[51] = 1537885921,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [67]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12582:Player-3693-0844F6BF:1:9:25:18:4294967295:4294967295:4294967295:4294967295|h[Come Sail Away]|h|r!", -- [1]
+			"Alauranna-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alauranna", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			382, -- [11]
+			"Player-3693-0844F6BF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aAlauranna|r",
+			[51] = 1537886313,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [68]
 	},
 }
