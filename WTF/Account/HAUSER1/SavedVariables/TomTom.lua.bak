@@ -22,26 +22,28 @@ TomTomDB = {
 		["Hauzerogue - Kel'Thuzad"] = "Default",
 		["Hauzerina - Moon Guard"] = "Default",
 		["Hauzerone - Dalaran"] = "Default",
+		["Laurannah - Undermine"] = "Default",
 		["Pharrah - Kel'Thuzad"] = "Default",
+		["Shamwowow - Kel'Thuzad"] = "Default",
 		["Deeke - Kel'Thuzad"] = "Default",
-		["Lorranah - Kel'Thuzad"] = "Default",
+		["Testfoolio - Kel'Thuzad"] = "Default",
 		["Nigellah - Kel'Thuzad"] = "Default",
-		["Loranah - Kel'Thuzad"] = "Default",
+		["Leeroyjenkem - Kel'Thuzad"] = "Default",
 		["Alorannah - Kel'Thuzad"] = "Default",
 		["Alurannah - Kel'Thuzad"] = "Default",
 		["Beatryss - Kel'Thuzad"] = "Default",
-		["Hoobastanko - Kel'Thuzad"] = "Default",
 		["Hauser - Mal'Ganis"] = "Default",
-		["Hauzerhunter - Kel'Thuzad"] = "Default",
-		["Beatryce - Kel'Thuzad"] = "Default",
 		["Skãdi - Kel'Thuzad"] = "Default",
+		["Hauzerhunter - Kel'Thuzad"] = "Default",
+		["Olrapey - Kel'Thuzad"] = "Default",
+		["Alaurannah - Undermine"] = "Default",
 		["Fsdkjhskdjfh - Kel'Thuzad"] = "Default",
 		["Ugiyo - Kel'Thuzad"] = "Default",
-		["Olrapey - Kel'Thuzad"] = "Default",
+		["Beatryce - Kel'Thuzad"] = "Default",
 		["Hauzer - Kel'Thuzad"] = "Default",
-		["Leeroyjenkem - Kel'Thuzad"] = "Default",
-		["Testfoolio - Kel'Thuzad"] = "Default",
-		["Shamwowow - Kel'Thuzad"] = "Default",
+		["Hoobastanko - Kel'Thuzad"] = "Default",
+		["Loranah - Kel'Thuzad"] = "Default",
+		["Lorranah - Kel'Thuzad"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -87,22 +89,24 @@ TomTomWaypointsM = {
 		["Loranno - Kel'Thuzad"] = "Loranno - Kel'Thuzad",
 		["Laurannah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Alisheeya - Kel'Thuzad"] = "Alisheeya - Kel'Thuzad",
+		["Laurannah - Undermine"] = "Laurannah - Undermine",
 		["Foolioioio - Kel'Thuzad"] = "Foolioioio - Kel'Thuzad",
-		["Kmkarbashian - Kel'Thuzad"] = "Kmkarbashian - Kel'Thuzad",
-		["Deeke - Kel'Thuzad"] = "Deeke - Kel'Thuzad",
-		["Loranah - Kel'Thuzad"] = "Loranah - Kel'Thuzad",
-		["Nigellah - Kel'Thuzad"] = "Nigellah - Kel'Thuzad",
-		["Testfoolio - Kel'Thuzad"] = "Testfoolio - Kel'Thuzad",
-		["Loranus - Kel'Thuzad"] = "Loranus - Kel'Thuzad",
-		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
-		["Darknstormie - Kel'Thuzad"] = "Darknstormie - Kel'Thuzad",
-		["Lorranah - Kel'Thuzad"] = "Lorranah - Kel'Thuzad",
-		["Alauranna - Kel'Thuzad"] = "Alauranna - Kel'Thuzad",
-		["Hauzerina - Kel'Thuzad"] = "Hauzerina - Kel'Thuzad",
-		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
-		["Rogueout - Kel'Thuzad"] = "Rogueout - Kel'Thuzad",
-		["Blahndee - Kel'Thuzad"] = "Blahndee - Kel'Thuzad",
 		["Shamwowow - Kel'Thuzad"] = "Shamwowow - Kel'Thuzad",
+		["Kmkarbashian - Kel'Thuzad"] = "Kmkarbashian - Kel'Thuzad",
+		["Blahndee - Kel'Thuzad"] = "Blahndee - Kel'Thuzad",
+		["Loranah - Kel'Thuzad"] = "Loranah - Kel'Thuzad",
+		["Testfoolio - Kel'Thuzad"] = "Testfoolio - Kel'Thuzad",
+		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
+		["Hauzerina - Kel'Thuzad"] = "Hauzerina - Kel'Thuzad",
+		["Lorranah - Kel'Thuzad"] = "Lorranah - Kel'Thuzad",
+		["Alaurannah - Undermine"] = "Alaurannah - Undermine",
+		["Darknstormie - Kel'Thuzad"] = "Darknstormie - Kel'Thuzad",
+		["Alauranna - Kel'Thuzad"] = "Alauranna - Kel'Thuzad",
+		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
+		["Loranus - Kel'Thuzad"] = "Loranus - Kel'Thuzad",
+		["Rogueout - Kel'Thuzad"] = "Rogueout - Kel'Thuzad",
+		["Nigellah - Kel'Thuzad"] = "Nigellah - Kel'Thuzad",
+		["Deeke - Kel'Thuzad"] = "Deeke - Kel'Thuzad",
 	},
 	["profiles"] = {
 		["Fooliolio - Kel'Thuzad"] = {
@@ -120,17 +124,10 @@ TomTomWaypointsM = {
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
 						},
 					},
 					["persistent"] = true,
@@ -151,17 +148,10 @@ TomTomWaypointsM = {
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
 						},
 					},
 					["persistent"] = true,
@@ -182,17 +172,10 @@ TomTomWaypointsM = {
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
 						},
 					},
 					["persistent"] = true,
@@ -211,17 +194,10 @@ TomTomWaypointsM = {
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
 						},
 					},
 					["persistent"] = true,
@@ -240,17 +216,10 @@ TomTomWaypointsM = {
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
 						},
 					},
 					["persistent"] = true,
@@ -269,17 +238,10 @@ TomTomWaypointsM = {
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
 						},
 					},
 					["persistent"] = true,
@@ -298,17 +260,10 @@ TomTomWaypointsM = {
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
 						},
 					},
 					["persistent"] = true,
@@ -324,37 +279,41 @@ TomTomWaypointsM = {
 		},
 		["Alisheeya - Kel'Thuzad"] = {
 		},
+		["Laurannah - Undermine"] = {
+		},
 		["Foolioioio - Kel'Thuzad"] = {
+		},
+		["Shamwowow - Kel'Thuzad"] = {
 		},
 		["Kmkarbashian - Kel'Thuzad"] = {
 		},
-		["Deeke - Kel'Thuzad"] = {
+		["Blahndee - Kel'Thuzad"] = {
 		},
 		["Loranah - Kel'Thuzad"] = {
 		},
-		["Nigellah - Kel'Thuzad"] = {
-		},
 		["Testfoolio - Kel'Thuzad"] = {
-		},
-		["Loranus - Kel'Thuzad"] = {
-		},
-		["Alorannah - Kel'Thuzad"] = {
-		},
-		["Darknstormie - Kel'Thuzad"] = {
-		},
-		["Lorranah - Kel'Thuzad"] = {
-		},
-		["Alauranna - Kel'Thuzad"] = {
-		},
-		["Hauzerina - Kel'Thuzad"] = {
 		},
 		["Hauzer - Kel'Thuzad"] = {
 		},
+		["Hauzerina - Kel'Thuzad"] = {
+		},
+		["Lorranah - Kel'Thuzad"] = {
+		},
+		["Alaurannah - Undermine"] = {
+		},
+		["Darknstormie - Kel'Thuzad"] = {
+		},
+		["Alauranna - Kel'Thuzad"] = {
+		},
+		["Alorannah - Kel'Thuzad"] = {
+		},
+		["Loranus - Kel'Thuzad"] = {
+		},
 		["Rogueout - Kel'Thuzad"] = {
 		},
-		["Blahndee - Kel'Thuzad"] = {
+		["Nigellah - Kel'Thuzad"] = {
 		},
-		["Shamwowow - Kel'Thuzad"] = {
+		["Deeke - Kel'Thuzad"] = {
 		},
 	},
 }
