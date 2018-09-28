@@ -4,11 +4,14 @@ NewOpenablesProfile = {
 		["Fooliolio - Kel'Thuzad"] = {
 			["itemID"] = 142023,
 		},
-		["Kmkarbashian - Kel'Thuzad"] = {
-			["itemID"] = 138797,
-		},
 		["Blahndee - Kel'Thuzad"] = {
 			["itemID"] = 160439,
+		},
+		["Laurannah - Kel'Thuzad"] = {
+			["itemID"] = 111589,
+		},
+		["Kmkarbashian - Kel'Thuzad"] = {
+			["itemID"] = 138797,
 		},
 		["Shamwowow - Kel'Thuzad"] = {
 			["itemID"] = 160439,
@@ -21,10 +24,10 @@ NewOpenablesProfile = {
 		["Loranno - Kel'Thuzad"] = "Default",
 		["Laurannah - Kel'Thuzad"] = "Default",
 		["Deeke - Kel'Thuzad"] = "Default",
-		["Foolioioio - Kel'Thuzad"] = "Default",
 		["Nigellah - Kel'Thuzad"] = "Default",
-		["Kmkarbashian - Kel'Thuzad"] = "Default",
+		["Foolioioio - Kel'Thuzad"] = "Default",
 		["Alorannah - Kel'Thuzad"] = "Default",
+		["Kmkarbashian - Kel'Thuzad"] = "Default",
 		["Blahndee - Kel'Thuzad"] = "Default",
 		["Loranah - Kel'Thuzad"] = "Default",
 		["Loranus - Kel'Thuzad"] = "Default",
@@ -67,9 +70,9 @@ NewOpenablesProfile = {
 				[127834] = true,
 				[153152] = true,
 				[153147] = true,
-				[153137] = true,
-				[127835] = true,
 				[153106] = true,
+				[127835] = true,
+				[153137] = true,
 				[154784] = true,
 				[147348] = true,
 				[141028] = true,

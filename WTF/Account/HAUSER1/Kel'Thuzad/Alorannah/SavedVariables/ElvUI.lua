@@ -1,94 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/cw Ertzart-Shadowmoon Im camping the bear right now on my hunter, so far it sucks LOL", -- [1]
-		"/cw Ertzart-Shadowmoon arcturis", -- [2]
-		"/cw Ertzart-Shadowmoon ya he has the one static spawn so I just set a timer from server respawn and log in a few mins before on the hour", -- [3]
-		"/cw Ertzart-Shadowmoon server restarted this morning at 9:12am EST btw if you're doing the same", -- [4]
-		"/cw Ertzart-Shadowmoon the respawns are like clockwork, I set my watch by Sambas yesterday lol - got him twice actually ", -- [5]
-		"/cw Ertzart-Shadowmoon ofc with arcturis theres always other hunters there so if one of em gets mad and hits barrage it's back to the drawing board", -- [6]
-		"/cw Ertzart-Shadowmoon nice grats", -- [7]
-		"/cw Ertzart-Shadowmoon sambas is easy to get if youre interested, I think its a great model but ofc more alliance-themed", -- [8]
-		"/cw Ertzart-Shadowmoon spawns like clockwork 6 hours after server start, 5 different spawns, takes 30 secs to travel between them", -- [9]
-		"/cw Ertzart-Shadowmoon I heard arcturis spawn time is different, WOTLK rares are on a random 6-24 hour timer from server start? is that right?", -- [10]
-		"/cw Ertzart-Shadowmoon do you just rely on NPCscan alarm to go off or do you actively watch for them?", -- [11]
-		"/cw Ertzart-Shadowmoon whoops time to log on my hunter - congrats on the cat!    :D", -- [12]
-		"/wave ert", -- [13]
-		"/who z-grizz", -- [14]
-		"/cw Ertzart-Shadowmoon lol got him", -- [15]
-		"/s haro", -- [16]
-		"/2 can we get in warfronts yet or just contribute?", -- [17]
-		"/2 ah for like a week or whatever?", -- [18]
-		"/2 right ok", -- [19]
-		"/2 are there any rewards besides rep for contributing? Im already exalted with honorbound", -- [20]
+		"/cw Ertzart-Shadowmoon arcturis", -- [1]
+		"/cw Ertzart-Shadowmoon ya he has the one static spawn so I just set a timer from server respawn and log in a few mins before on the hour", -- [2]
+		"/cw Ertzart-Shadowmoon server restarted this morning at 9:12am EST btw if you're doing the same", -- [3]
+		"/cw Ertzart-Shadowmoon the respawns are like clockwork, I set my watch by Sambas yesterday lol - got him twice actually ", -- [4]
+		"/cw Ertzart-Shadowmoon ofc with arcturis theres always other hunters there so if one of em gets mad and hits barrage it's back to the drawing board", -- [5]
+		"/cw Ertzart-Shadowmoon nice grats", -- [6]
+		"/cw Ertzart-Shadowmoon sambas is easy to get if youre interested, I think its a great model but ofc more alliance-themed", -- [7]
+		"/cw Ertzart-Shadowmoon spawns like clockwork 6 hours after server start, 5 different spawns, takes 30 secs to travel between them", -- [8]
+		"/cw Ertzart-Shadowmoon I heard arcturis spawn time is different, WOTLK rares are on a random 6-24 hour timer from server start? is that right?", -- [9]
+		"/cw Ertzart-Shadowmoon do you just rely on NPCscan alarm to go off or do you actively watch for them?", -- [10]
+		"/cw Ertzart-Shadowmoon whoops time to log on my hunter - congrats on the cat!    :D", -- [11]
+		"/wave ert", -- [12]
+		"/who z-grizz", -- [13]
+		"/cw Ertzart-Shadowmoon lol got him", -- [14]
+		"/s haro", -- [15]
+		"/2 can we get in warfronts yet or just contribute?", -- [16]
+		"/2 ah for like a week or whatever?", -- [17]
+		"/2 right ok", -- [18]
+		"/2 are there any rewards besides rep for contributing? Im already exalted with honorbound", -- [19]
+		"/2 do quests like this give zandalari rep as well as honorbound? |cffffff00|Hquest:51051:-1:120:120:0|h[Supplies Needed: Deep Sea Satin]|h|r", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"hahahahahaha", -- [1]
-			"Nöödlês-EmeraldDream", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Nöödlês-EmeraldDream", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			652, -- [11]
-			"Player-162-09CE16D0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
-			[51] = 1537549801,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [1]
-		{
-			"your WM", -- [1]
-			"Axmans-Ysera", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Axmans-Ysera", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			653, -- [11]
-			"Player-63-0B3F987A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aAxmans-Ysera|r",
-			[51] = 1537549803,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [2]
-		{
-			"i acan't", -- [1]
-			"Nöödlês-EmeraldDream", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Nöödlês-EmeraldDream", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			654, -- [11]
-			"Player-162-09CE16D0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
-			[51] = 1537549803,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [3]
 		{
 			"me pvper", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -110,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549809,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [4]
+		}, -- [1]
 		{
 			"follow my dot", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -132,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549811,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [5]
+		}, -- [2]
 		{
 			"WM for life", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -154,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549812,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [6]
+		}, -- [3]
 		{
 			"oooo", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -176,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549828,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [7]
+		}, -- [4]
 		{
 			"what's this", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -198,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549830,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [8]
+		}, -- [5]
 		{
 			"see table here?", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -220,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549830,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [9]
+		}, -- [6]
 		{
 			"this is island expedition", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -242,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549839,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [10]
+		}, -- [7]
 		{
 			"oooo", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -264,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549846,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [11]
+		}, -- [8]
 		{
 			"they gota 3v3", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -286,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549850,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [12]
+		}, -- [9]
 		{
 			"!!!!", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -308,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549853,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [13]
+		}, -- [10]
 		{
 			"complete the weekly azerite quest to get 1500 rep with honorbound and AP", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -330,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549855,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [14]
+		}, -- [11]
 		{
 			"guess whos party has 3 memebrs", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -352,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549865,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [15]
+		}, -- [12]
 		{
 			"and loot", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -374,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549867,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [16]
+		}, -- [13]
 		{
 			"this one!", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -396,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549869,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [17]
+		}, -- [14]
 		{
 			"LOL", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -418,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549870,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [18]
+		}, -- [15]
 		{
 			"see what i a did there", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -440,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549880,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [19]
+		}, -- [16]
 		{
 			"ya, but you wanna know something", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -462,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549891,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [20]
+		}, -- [17]
 		{
 			"LETS DO T", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -484,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549895,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [21]
+		}, -- [18]
 		{
 			"i gotta leav =P for about 2 hours", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -506,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549899,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [22]
+		}, -- [19]
 		{
 			"you my friend", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -528,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549904,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [23]
+		}, -- [20]
 		{
 			"or no fun", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -550,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549905,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [24]
+		}, -- [21]
 		{
 			"T-T", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -572,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549907,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [25]
+		}, -- [22]
 		{
 			"QQ", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -594,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549912,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [26]
+		}, -- [23]
 		{
 			"BABY CME BACK", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -616,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549919,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [27]
+		}, -- [24]
 		{
 			"you can blame it all on me", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -638,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549929,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [28]
+		}, -- [25]
 		{
 			"WE don't have to P V P", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -660,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549931,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [29]
+		}, -- [26]
 		{
 			"i already completed mine lol", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -682,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549945,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [30]
+		}, -- [27]
 		{
 			"well i'm behind", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -704,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549952,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [31]
+		}, -- [28]
 		{
 			"dont die Alor", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -726,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549956,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [32]
+		}, -- [29]
 		{
 			"should have rolleda shammy", -- [1]
 			"Nöödlês-EmeraldDream", -- [2]
@@ -748,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
 			[51] = 1537549968,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [33]
+		}, -- [30]
 		{
 			"got em", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -770,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537549970,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [34]
+		}, -- [31]
 		{
 			"i got one", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -792,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549973,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [35]
+		}, -- [32]
 		{
 			"AWSOME", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -814,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549976,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [36]
+		}, -- [33]
 		{
 			"grats", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -836,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549978,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [37]
+		}, -- [34]
 		{
 			"now you get to do the scenario", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -858,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537549986,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [38]
+		}, -- [35]
 		{
 			"but youre saying it gets harder? lol", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -880,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537549988,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [39]
+		}, -- [36]
 		{
 			"ya lol", -- [1]
 			"Axmans-Ysera", -- [2]
@@ -902,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAxmans-Ysera|r",
 			[51] = 1537550052,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [40]
+		}, -- [37]
 		{
 			"brb gotta do a rare check on my hunter", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -924,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537550069,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [41]
+		}, -- [38]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12518:Player-3693-09ED9289:1:9:21:18:4294967295:4294967295:4294967295:4294967295|h[Allied Races: Mag'har Orc]|h|r!", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -946,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537551879,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [42]
+		}, -- [39]
 		{
 			"is that eyepatch horde only?", -- [1]
 			"Shakeyseu-Kel'Thuzad", -- [2]
@@ -968,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddShakeyseu|r",
 			[51] = 1537650071,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [43]
+		}, -- [40]
 		{
 			"no ", -- [1]
 			"Shakeyseu-Kel'Thuzad", -- [2]
@@ -990,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddShakeyseu|r",
 			[51] = 1537650090,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [44]
+		}, -- [41]
 		{
 			"hmm havent seen it on alliance - got a hunter on the other side, looking for new head piece", -- [1]
 			"Shakeyseu-Kel'Thuzad", -- [2]
@@ -1012,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddShakeyseu|r",
 			[51] = 1537650106,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [45]
+		}, -- [42]
 		{
 			"|cffffff00The Mugambala is under attack!|r", -- [1]
 			"", -- [2]
@@ -1034,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1537688908,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [43]
 		{
 			"|cffffff00Zuldazar is under attack!|r", -- [1]
 			"", -- [2]
@@ -1056,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1537688957,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [44]
 		{
 			"anyone buying BOE greens?", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -1078,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537689575,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [45]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:1177:Player-3693-09ED9289:1:9:23:18:4294967295:4294967295:4294967295:4294967295|h[Got My Mind On My Money]|h|r!", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -1100,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537700362,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [49]
+		}, -- [46]
 		{
 			"|cffffff00Grand Bazaar is under attack!|r", -- [1]
 			"", -- [2]
@@ -1122,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1537701027,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
+		}, -- [47]
 		{
 			"cool cat", -- [1]
 			"Tallimus-Shadowmoon", -- [2]
@@ -1144,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Tallimus-Shadowmoon|r",
 			[51] = 1537717727,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [51]
+		}, -- [48]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:11212:Player-3693-09ED9289:1:9:24:18:4294967295:4294967295:4294967295:4294967295|h[Raise an Army]|h|r!", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -1166,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537794803,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [52]
+		}, -- [49]
 		{
 			"|cffffff00Port of Zandalar is under attack!|r", -- [1]
 			"", -- [2]
@@ -1188,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1537875494,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [50]
 		{
 			"ragebeak is somewhere else", -- [1]
 			"Adoriya-Sargeras", -- [2]
@@ -1210,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Adoriya-Sargeras|r",
 			[51] = 1537884332,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [54]
+		}, -- [51]
 		{
 			"when horde has control", -- [1]
 			"Adoriya-Sargeras", -- [2]
@@ -1232,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Adoriya-Sargeras|r",
 			[51] = 1537884336,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [55]
+		}, -- [52]
 		{
 			"oh ok", -- [1]
 			"Adoriya-Sargeras", -- [2]
@@ -1254,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Adoriya-Sargeras|r",
 			[51] = 1537884344,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [56]
+		}, -- [53]
 		{
 			"the alliance timber yard iirc", -- [1]
 			"Adoriya-Sargeras", -- [2]
@@ -1276,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Adoriya-Sargeras|r",
 			[51] = 1537884352,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [57]
+		}, -- [54]
 		{
 			"ya right here", -- [1]
 			"Adoriya-Sargeras", -- [2]
@@ -1298,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Adoriya-Sargeras|r",
 			[51] = 1537884368,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [58]
+		}, -- [55]
 		{
 			"come south", -- [1]
 			"Adoriya-Sargeras", -- [2]
@@ -1320,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Adoriya-Sargeras|r",
 			[51] = 1537884378,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [59]
+		}, -- [56]
 		{
 			"little shack on the map", -- [1]
 			"Adoriya-Sargeras", -- [2]
@@ -1342,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Adoriya-Sargeras|r",
 			[51] = 1537884384,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [60]
+		}, -- [57]
 		{
 			"dungeon", -- [1]
 			"Adoriya-Sargeras", -- [2]
@@ -1364,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Adoriya-Sargeras|r",
 			[51] = 1537884395,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [61]
+		}, -- [58]
 		{
 			"invote", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -1386,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537894509,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [62]
+		}, -- [59]
 		{
 			"ya fuck this", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -1408,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537894539,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [63]
+		}, -- [60]
 		{
 			"do honorbound quests in zandalar also give zandalar rep?", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -1430,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537894895,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [64]
+		}, -- [61]
 		{
 			"does |cffff80ff|Htransmogillusion:5877|h[Chronos]|h|r actually drop? never seen it drop in 100+ kills and never seen anyone with it equipped", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -1452,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537972291,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [62]
 		{
 			"sick mog dude, what pet do you use with it?", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -1474,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972525,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [66]
+		}, -- [63]
 		{
 			"spectral grpyhon", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -1496,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972547,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [67]
+		}, -- [64]
 		{
 			"nice, wheres that from", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -1518,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972554,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [68]
+		}, -- [65]
 		{
 			"trying to go for a new chest/shoulders", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -1540,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972558,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [69]
+		}, -- [66]
 		{
 			"the gryphon?", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -1562,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972561,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [70]
+		}, -- [67]
 		{
 			"my hunter is camping spectra bear right now ><", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -1584,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972563,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [71]
+		}, -- [68]
 		{
 			"ya", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -1606,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972565,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [72]
+		}, -- [69]
 		{
 			"wow its literally impossible for ur server", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -1628,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972575,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [73]
+		}, -- [70]
 		{
 			"whys that", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -1650,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972584,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [74]
+		}, -- [71]
 		{
 			"theres a feather that spawns right next to the stormwind flightmaster", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -1672,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972590,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [75]
+		}, -- [72]
 		{
 			"ah my hunters alliance", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -1694,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972599,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [76]
+		}, -- [73]
 		{
 			"oh ok", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -1716,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972603,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [77]
+		}, -- [74]
 		{
 			"think I know the one youre talking about", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -1738,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972605,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [78]
+		}, -- [75]
 		{
 			"then it should be easy", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -1760,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972607,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [79]
+		}, -- [76]
 		{
 			"the horde one is a raptor in orgrimmar", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -1782,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972618,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [80]
+		}, -- [77]
 		{
 			"ya I want the bear tho lol", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -1804,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972618,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [81]
+		}, -- [78]
 		{
 			"fox is my fav", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -1826,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972627,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [82]
+		}, -- [79]
 		{
 			"but its so hard to get", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -1848,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972632,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [83]
+		}, -- [80]
 		{
 			"holy shit nightborne are huge", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -1870,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972644,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [84]
+		}, -- [81]
 		{
 			"isnt that the one where you have to go around bushes in duskwood or something", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -1892,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972660,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [85]
+		}, -- [82]
 		{
 			"ya it walks around duskwood", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -1914,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972673,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [86]
+		}, -- [83]
 		{
 			"but alot of people camp it", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -1936,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972678,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [87]
+		}, -- [84]
 		{
 			"I like all the spirit models but since the spec changes that made them all tanks I figured the bear is the way to go", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -1958,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972684,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [88]
+		}, -- [85]
 		{
 			"and you can oneshot it so if you tame it someone can ez kill it", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -1980,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972689,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [89]
+		}, -- [86]
 		{
 			"I just camped the twilight highlands lion for my alliance hunter, twice, so I could use him with AC lol", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -2002,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972717,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [90]
+		}, -- [87]
 		{
 			"im trying to make a sylvanas mog", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -2024,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972742,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [91]
+		}, -- [88]
 		{
 			"ya I can see that, very close", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -2046,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972754,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [92]
+		}, -- [89]
 		{
 			"Im really happy with this warfront mog, looks very rogue-y, so many of sets are huge bulky armor - plus it goes perfectly with bloodwing and widow mounts", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -2068,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972807,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [93]
+		}, -- [90]
 		{
 			"easiest mog Ive ever had - hopefully I dont fall down the rabbit hole of camping rare hunter pet spawns though ><", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -2090,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972846,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [94]
+		}, -- [91]
 		{
 			"anyway gl, looking sharp o7", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -2112,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972858,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [95]
+		}, -- [92]
 		{
 			"nice talking to ya bud ;)", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -2134,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972868,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [96]
+		}, -- [93]
 		{
 			"nice man how long did it take to get that pet?", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -2156,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537972881,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [97]
+		}, -- [94]
 		{
 			"3 weeks lol", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -2178,7 +2112,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537972949,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [98]
+		}, -- [95]
 		{
 			"daaamn", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -2200,7 +2134,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537972954,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [99]
+		}, -- [96]
 		{
 			"Im camping the bear right now on my hunter, so far it sucks LOL", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -2222,7 +2156,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537972968,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [100]
+		}, -- [97]
 		{
 			"4-5 hrs per day", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -2244,7 +2178,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537972971,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [101]
+		}, -- [98]
 		{
 			"which bear?", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -2266,7 +2200,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537972987,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [102]
+		}, -- [99]
 		{
 			"arcturis", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -2288,7 +2222,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537972995,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [103]
+		}, -- [100]
 		{
 			" tried for hom", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -2310,7 +2244,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537973010,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [104]
+		}, -- [101]
 		{
 			"him", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -2332,7 +2266,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537973015,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [105]
+		}, -- [102]
 		{
 			"i never did that 1", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -2354,7 +2288,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537973028,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [106]
+		}, -- [103]
 		{
 			"ya he has the one static spawn so I just set a timer from server respawn and log in a few mins before on the hour", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -2376,7 +2310,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537973049,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [107]
+		}, -- [104]
 		{
 			"server restarted this morning at 9:12am EST btw if you're doing the same", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -2398,7 +2332,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537973063,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [108]
+		}, -- [105]
 		{
 			"the respawns are like clockwork, I set my watch by Sambas yesterday lol - got him twice actually ", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -2420,7 +2354,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537973094,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [109]
+		}, -- [106]
 		{
 			"ofc with arcturis theres always other hunters there so if one of em gets mad and hits barrage it's back to the drawing board", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -2442,7 +2376,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537973121,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [110]
+		}, -- [107]
 		{
 			"I need a break from pet hunting lol just got loque 2 days ago", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -2464,7 +2398,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537973125,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [111]
+		}, -- [108]
 		{
 			"nice grats", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -2486,7 +2420,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537973132,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [112]
+		}, -- [109]
 		{
 			"sambas is easy to get if youre interested, I think its a great model but ofc more alliance-themed", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -2508,7 +2442,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537973152,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [113]
+		}, -- [110]
 		{
 			"spawns like clockwork 6 hours after server start, 5 different spawns, takes 30 secs to travel between them", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -2530,7 +2464,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537973180,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [114]
+		}, -- [111]
 		{
 			"tks n yur right there", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -2552,7 +2486,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537973182,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [115]
+		}, -- [112]
 		{
 			"I heard arcturis spawn time is different, WOTLK rares are on a random 6-24 hour timer from server start? is that right?", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -2574,7 +2508,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537973214,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [116]
+		}, -- [113]
 		{
 			"sadly yes so potluck finding them and there are quests that need to kill them so pretty crowded at times", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -2596,7 +2530,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537973279,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [117]
+		}, -- [114]
 		{
 			"do you just rely on NPCscan alarm to go off or do you actively watch for them?", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -2618,7 +2552,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537973398,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [118]
+		}, -- [115]
 		{
 			"whoops time to log on my hunter - congrats on the cat!    :D", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -2640,7 +2574,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537973484,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [119]
+		}, -- [116]
 		{
 			"|cffffff00Fordragon Hold is under attack!|r", -- [1]
 			"", -- [2]
@@ -2662,7 +2596,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1537975793,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [120]
+		}, -- [117]
 		{
 			"haro", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2684,7 +2618,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537991354,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [121]
+		}, -- [118]
 		{
 			"haro", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2706,7 +2640,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537991361,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [122]
+		}, -- [119]
 		{
 			"haro", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2728,7 +2662,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537991369,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [123]
+		}, -- [120]
 		{
 			"|cffffff00Grand Bazaar is under attack!|r", -- [1]
 			"", -- [2]
@@ -2750,7 +2684,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1538046761,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [124]
+		}, -- [121]
 		{
 			"can we get in warfronts yet or just contribute?", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2772,7 +2706,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538052759,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [125]
+		}, -- [122]
 		{
 			"ah for like a week or whatever?", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2794,7 +2728,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538052783,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [126]
+		}, -- [123]
 		{
 			"are there any rewards besides rep for contributing? Im already exalted with honorbound", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2815,6 +2749,72 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538052900,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [124]
+		{
+			"ty", -- [1]
+			"Dirtyudder-Zul'jin", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Dirtyudder-Zul'jin", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			61, -- [11]
+			"Player-61-0A08CABB", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aDirtyudder-Zul'jin|r",
+			[51] = 1538135111,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [125]
+		{
+			"|cffffff00Xibala is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Zuldazar", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Zuldazar", -- [9]
+			0, -- [10]
+			109, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1538148808,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [126]
+		{
+			"do quests like this give zandalari rep as well as honorbound? |cffffff00|Hquest:51051:-1:120:120:0|h[Supplies Needed: Deep Sea Satin]|h|r", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			165, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1538149274,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},
