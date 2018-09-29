@@ -4,14 +4,11 @@ NewOpenablesProfile = {
 		["Fooliolio - Kel'Thuzad"] = {
 			["itemID"] = 142023,
 		},
-		["Blahndee - Kel'Thuzad"] = {
-			["itemID"] = 160439,
-		},
-		["Laurannah - Kel'Thuzad"] = {
-			["itemID"] = 111589,
-		},
 		["Kmkarbashian - Kel'Thuzad"] = {
 			["itemID"] = 138797,
+		},
+		["Blahndee - Kel'Thuzad"] = {
+			["itemID"] = 160439,
 		},
 		["Shamwowow - Kel'Thuzad"] = {
 			["itemID"] = 160439,
@@ -66,6 +63,7 @@ NewOpenablesProfile = {
 				[147350] = true,
 				[152097] = true,
 				[154779] = true,
+				[128373] = true,
 				[152741] = true,
 				[127834] = true,
 				[153152] = true,

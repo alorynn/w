@@ -391,14 +391,14 @@ Bartender4DB = {
 							["showgrid"] = true,
 							["rows"] = 2,
 							["buttons"] = 10,
+							["fadeoutalpha"] = 1,
 							["hidehotkey"] = true,
-							["version"] = 3,
 							["position"] = {
 								["y"] = 76,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["fadeoutalpha"] = 1,
+							["version"] = 3,
 							["padding"] = -2,
 							["visibility"] = {
 								["custom"] = true,
@@ -3298,14 +3298,14 @@ Bartender4DB = {
 						{
 							["showgrid"] = true,
 							["rows"] = 2,
-							["version"] = 3,
 							["hidehotkey"] = true,
+							["fadeoutalpha"] = 1,
 							["position"] = {
 								["y"] = 76,
 								["x"] = -90,
 								["point"] = "BOTTOM",
 							},
-							["fadeoutalpha"] = 1,
+							["version"] = 3,
 							["padding"] = -2,
 							["visibility"] = {
 								["custom"] = true,
@@ -4513,9 +4513,9 @@ Bartender4DB = {
 					},
 				},
 				["Hoobastankie - Kel'Thuzad"] = {
-					["fadeoutalpha"] = 0,
 					["version"] = 3,
 					["fadeout"] = true,
+					["fadeoutalpha"] = 0,
 					["position"] = {
 						["y"] = 64,
 						["x"] = -284,
@@ -4545,9 +4545,9 @@ Bartender4DB = {
 					["version"] = 3,
 				},
 				["Alisheeya - Kel'Thuzad"] = {
-					["fadeoutalpha"] = 0,
 					["version"] = 3,
 					["fadeout"] = true,
+					["fadeoutalpha"] = 0,
 					["position"] = {
 						["y"] = 64,
 						["x"] = -284,
@@ -4616,9 +4616,9 @@ Bartender4DB = {
 					},
 				},
 				["Alauranna - Kel'Thuzad"] = {
-					["fadeoutalpha"] = 0,
 					["version"] = 3,
 					["fadeout"] = true,
+					["fadeoutalpha"] = 0,
 					["position"] = {
 						["y"] = 64,
 						["x"] = -284,
@@ -4657,9 +4657,9 @@ Bartender4DB = {
 					},
 				},
 				["Leeroyjenkem - Kel'Thuzad"] = {
-					["fadeoutalpha"] = 0,
 					["version"] = 3,
 					["fadeout"] = true,
+					["fadeoutalpha"] = 0,
 					["position"] = {
 						["y"] = 64,
 						["x"] = -284,
@@ -4678,9 +4678,9 @@ Bartender4DB = {
 					},
 				},
 				["Pharrah - Kel'Thuzad"] = {
-					["fadeoutalpha"] = 0,
 					["version"] = 3,
 					["fadeout"] = true,
+					["fadeoutalpha"] = 0,
 					["position"] = {
 						["scale"] = 1,
 						["x"] = -284,
@@ -4689,9 +4689,9 @@ Bartender4DB = {
 					},
 				},
 				["Deeke - Kel'Thuzad"] = {
-					["fadeout"] = true,
 					["fadeoutalpha"] = 0,
 					["version"] = 3,
+					["fadeout"] = true,
 					["position"] = {
 						["y"] = 64,
 						["x"] = -284,
@@ -4700,9 +4700,9 @@ Bartender4DB = {
 					},
 				},
 				["Nigellah - Kel'Thuzad"] = {
-					["fadeout"] = true,
 					["version"] = 3,
 					["fadeoutalpha"] = 0,
+					["fadeout"] = true,
 					["position"] = {
 						["y"] = 64,
 						["x"] = -284,
@@ -4742,9 +4742,9 @@ Bartender4DB = {
 					},
 				},
 				["Beatryss - Kel'Thuzad"] = {
-					["fadeoutalpha"] = 0,
 					["fadeout"] = true,
 					["version"] = 3,
+					["fadeoutalpha"] = 0,
 					["position"] = {
 						["y"] = 64,
 						["x"] = -284,
@@ -4812,9 +4812,9 @@ Bartender4DB = {
 					},
 				},
 				["Ugiyo - Kel'Thuzad"] = {
-					["version"] = 3,
 					["fadeout"] = true,
 					["fadeoutalpha"] = 0,
+					["version"] = 3,
 					["position"] = {
 						["scale"] = 1,
 						["x"] = -284,
@@ -4832,9 +4832,9 @@ Bartender4DB = {
 					},
 				},
 				["Hauzer - Kel'Thuzad"] = {
-					["fadeout"] = true,
 					["version"] = 3,
 					["fadeoutalpha"] = 0,
+					["fadeout"] = true,
 					["position"] = {
 						["y"] = 64,
 						["x"] = -284,
@@ -4853,9 +4853,9 @@ Bartender4DB = {
 					},
 				},
 				["Hoobastanko - Kel'Thuzad"] = {
-					["fadeout"] = true,
 					["fadeoutalpha"] = 0,
 					["version"] = 3,
+					["fadeout"] = true,
 					["position"] = {
 						["scale"] = 1,
 						["x"] = -284,
@@ -4864,9 +4864,9 @@ Bartender4DB = {
 					},
 				},
 				["Darknstormie - Kel'Thuzad"] = {
-					["fadeout"] = true,
 					["version"] = 3,
 					["fadeoutalpha"] = 0,
+					["fadeout"] = true,
 					["position"] = {
 						["y"] = 64,
 						["x"] = -284,
