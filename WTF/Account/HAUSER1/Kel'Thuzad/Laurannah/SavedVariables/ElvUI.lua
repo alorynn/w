@@ -1,1766 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/2 whats the fastest way to get to garrison if your HS is down?", -- [1]
-		"/2 who z-ironf", -- [2]
-		"/2 sigh", -- [3]
-		"/who z-ironf", -- [4]
-		"/cw Dumple any chance I could get an ashran port?", -- [5]
-		"/cw Chrls damn really? lol thanks will try", -- [6]
-		"/cw Chrls I cant believe blizz disabled the portal in SW", -- [7]
-		"/cw Chrls oh I mean the one to stormshield in the castle", -- [8]
-		"/cw Chrls its still there in the war room but it doesnt work anymore :||", -- [9]
-		"/1 how long you guys been waiting for rukh", -- [10]
-		"/1 anyone get it?", -- [11]
-		"/cw Chrls-Kel'Thuzad hey man", -- [12]
-		"/2 lol people are gonna play classic for about 10 minutes before they come running back to BfA ", -- [13]
-		"/2 that first quest where you're fighting other players of the same faction for kills will be all it takes", -- [14]
-		"/p heya", -- [15]
-		"/p this quyest sucks", -- [16]
-		"/p need more?", -- [17]
-		"/p same ty", -- [18]
-		"/2 anyone else notice a ton of missions start to come up for a faction as soon as you hit exalted with that faction", -- [19]
-		"/2 whens the fight", -- [20]
+		"/cw Vanqsdk-Kel'Thuzad and the chest from this set clips through your tabard", -- [1]
+		"/cw Vanqsdk-Kel'Thuzad owell", -- [2]
+		"/mogit", -- [3]
+		"/2 whats the fastest way to level 20-120 now", -- [4]
+		"/2 flying cheeve was pretty easy I think I got it 2 weeks in without really trying", -- [5]
+		"/2 |cffffff00|Hachievement:12989:Player-3693-092AD332:1:8:30:18:4294967295:4294967295:4294967295:4294967295|h[Battle for Azeroth Pathfinder, Part One]|h|r", -- [6]
+		"/2 it's part 1 of flying", -- [7]
+		"/2 already got exalted with HB and am grinding zandalar now, it's slow as balls", -- [8]
+		"/2 only like 6 wqs a day plus I'm doing it on a rogue, much slower than my hunter", -- [9]
+		"/2 ya you can just do the zandalari emissaries, doesnt look like KT/ZT are gonna be available anytime soon", -- [10]
+		"/2 nah it's not in 8.1 according to Ion", -- [11]
+		"/2 so a couple months from now, plenty of time to go revered->exalted just doing emissaries", -- [12]
+		"/wave", -- [13]
+		"/2 1st half of Legion was amazing, 2nd half with Broken Shore/Argus suckdiddlyucked in comparison", -- [14]
+		"/2 Suramar was some of the best content WoW's ever had", -- [15]
+		"/2 mop was so cringe it made my entire guild quit lol", -- [16]
+		"/2 MoP was like WoW Does Minions - for babies only", -- [17]
+		"/2 you can tell who never played vanilla, it's the people who are excited for Classic lol", -- [18]
+		"/2 a few hours of slowly running everywhere and fighting with their own faction for quest mobs will send them running back to BfA", -- [19]
+		"/bartender", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"overseer down in the mine", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"1. General - Arathi Highlands", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Arathi Highlands", -- [9]
-			0, -- [10]
-			335, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538055078,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"drops a horse", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"1. General - Arathi Highlands", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Arathi Highlands", -- [9]
-			0, -- [10]
-			336, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538055086,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"I dont think the goliaths drop anything besides essences", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"1. General - Arathi Highlands", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Arathi Highlands", -- [9]
-			0, -- [10]
-			341, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538055185,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"plaguefeather", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"1. General - Arathi Highlands", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Arathi Highlands", -- [9]
-			0, -- [10]
-			344, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538055283,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"anyone seen fozruk?", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"1. General - Arathi Highlands", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Arathi Highlands", -- [9]
-			0, -- [10]
-			352, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538055551,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
-			"skullripper up, drops mount", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"1. General - Arathi Highlands", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Arathi Highlands", -- [9]
-			0, -- [10]
-			359, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538055771,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
-		{
-			"anyone getting gear from these rares?", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"1. General - Arathi Highlands", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Arathi Highlands", -- [9]
-			0, -- [10]
-			365, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538055888,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
-		{
-			"beastrider at me, drops mount", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"1. General - Arathi Highlands", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Arathi Highlands", -- [9]
-			0, -- [10]
-			434, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538056843,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
-		{
-			"|cffffff00Grand Bazaar is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Zuldazar", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Zuldazar", -- [9]
-			0, -- [10]
-			686, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1538058418,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
-		{
-			"**Riders for Azeroth** using discord while running dungeons, lfr's, mythic+'s, leveling, mount farming etc....Raiding BFA 5/8N: thurs sat and Sun 7-10pm server looking for DPS, Healers and a Tank BOTH with off spec for dps", -- [1]
-			"Shaazul-Stormrage", -- [2]
-			"", -- [3]
-			"1. General - Zuldazar", -- [4]
-			"Shaazul-Stormrage", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zuldazar", -- [9]
-			0, -- [10]
-			687, -- [11]
-			"Player-60-0AE5E571", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Shaazul-Stormrage|r",
-			[51] = 1538058468,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
-		{
-			"**Riders for Azeroth** using discord while running dungeons, lfr's, mythic+'s, leveling, mount farming etc....Raiding BFA 5/8N: thurs sat and Sun 7-10pm server looking for DPS, Healers and a Tank BOTH with off spec for dps", -- [1]
-			"Shaazul-Stormrage", -- [2]
-			"", -- [3]
-			"1. General - Zuldazar", -- [4]
-			"Shaazul-Stormrage", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Zuldazar", -- [9]
-			0, -- [10]
-			688, -- [11]
-			"Player-60-0AE5E571", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Shaazul-Stormrage|r",
-			[51] = 1538058516,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
-		{
-			"|cffffff00The Zocalo is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Zuldazar", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Zuldazar", -- [9]
-			0, -- [10]
-			690, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1538058708,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
-		{
-			"Selling cauldron services.  I show up to your raid/ group place a cauldron and provide any alchemy services for the group. Have your own mats for a cauldron? It will be much cheaper! PST for pricing", -- [1]
-			"Vitalbarron-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Vitalbarron", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			289, -- [11]
-			"Player-3693-09E7C26A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffVitalbarron|r",
-			[51] = 1538063890,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
-		{
-			"chill warrior/hpal 2s twitch.tv/dankpfrank", -- [1]
-			"Amishfurby-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Amishfurby", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			305, -- [11]
-			"Player-3693-073F20B1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc69b6dAmishfurby|r",
-			[51] = 1538063967,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
-		{
-			"WTB GREENS!!!!", -- [1]
-			"Grumpydps-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Grumpydps", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			351, -- [11]
-			"Player-3693-0732A673", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Grumpydps|r",
-			[51] = 1538064088,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
-		{
-			"WTB GREENS!!!!", -- [1]
-			"Grumpydps-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Grumpydps", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			352, -- [11]
-			"Player-3693-0732A673", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Grumpydps|r",
-			[51] = 1538064089,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
-		{
-			"Stun it, slow it, burn it down because it heals the boss a lot.", -- [1]
-			"Vaelinir-MoonGuard", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vaelinir-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			379, -- [11]
-			"Player-3675-06E4FB0E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Vaelinir-MoonGuard|r",
-			[51] = 1538064213,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [17]
-		{
-			"This fight is mostly add control. ", -- [1]
-			"Calcaz-Mannoroth", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Calcaz-Mannoroth", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			380, -- [11]
-			"Player-70-005A5A3B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaCalcaz-Mannoroth|r",
-			[51] = 1538064230,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [18]
-		{
-			"Off tank, you need to keep the crusher away from the boss before it reaches max energy stack", -- [1]
-			"Vaelinir-MoonGuard", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vaelinir-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			381, -- [11]
-			"Player-3675-06E4FB0E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Vaelinir-MoonGuard|r",
-			[51] = 1538064230,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [19]
-		{
-			"Hexxer > Crusher > Crawg > Zul", -- [1]
-			"Hekäte-Tortheldrin", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Hekäte-Tortheldrin", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			382, -- [11]
-			"Player-128-05609FD5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaHekäte-Tortheldrin|r",
-			[51] = 1538064241,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [20]
-		{
-			"he doesn't buff the boss in LFR", -- [1]
-			"Dàrkness-Sargeras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Dàrkness-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			383, -- [11]
-			"Player-76-09C49359", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaDàrkness-Sargeras|r",
-			[51] = 1538064254,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [21]
-		{
-			"For dogs, just stack center when they spawn so tank can pick them up and get cleaved.", -- [1]
-			"Vaelinir-MoonGuard", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vaelinir-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			384, -- [11]
-			"Player-3675-06E4FB0E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Vaelinir-MoonGuard|r",
-			[51] = 1538064257,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [22]
-		{
-			"^", -- [1]
-			"Callmesp-Sargeras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Callmesp-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			385, -- [11]
-			"Player-76-0553AF4E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aCallmesp-Sargeras|r",
-			[51] = 1538064258,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [23]
-		{
-			"just buffs himself", -- [1]
-			"Dàrkness-Sargeras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Dàrkness-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			386, -- [11]
-			"Player-76-09C49359", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaDàrkness-Sargeras|r",
-			[51] = 1538064260,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [24]
-		{
-			"And have to cc and kill the slimes heading for ZUl.", -- [1]
-			"Calcaz-Mannoroth", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Calcaz-Mannoroth", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			388, -- [11]
-			"Player-70-005A5A3B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaCalcaz-Mannoroth|r",
-			[51] = 1538064266,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [25]
-		{
-			"Ahh, okay. Just keep him faced away then", -- [1]
-			"Vaelinir-MoonGuard", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vaelinir-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			389, -- [11]
-			"Player-3675-06E4FB0E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Vaelinir-MoonGuard|r",
-			[51] = 1538064271,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [26]
-		{
-			"just skull what needs to die", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			390, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538064271,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [27]
-		{
-			"That won't work Laurannah. Too many adds that need priority immediately.", -- [1]
-			"Vaelinir-MoonGuard", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vaelinir-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			391, -- [11]
-			"Player-3675-06E4FB0E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Vaelinir-MoonGuard|r",
-			[51] = 1538064289,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [28]
-		{
-			"Yeah i was about to say...or you could just use your eyes", -- [1]
-			"Yvés-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Yvés-Proudmoore", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			393, -- [11]
-			"Player-5-0B31A63B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Yvés-Proudmoore|r",
-			[51] = 1538064301,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [29]
-		{
-			"Tank can't spend his time tanking and marking every 2 seconds.", -- [1]
-			"Vaelinir-MoonGuard", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vaelinir-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			394, -- [11]
-			"Player-3675-06E4FB0E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Vaelinir-MoonGuard|r",
-			[51] = 1538064301,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [30]
-		{
-			"During stage 2, burn all leftover adds and don't stand in front of the boss.", -- [1]
-			"Vaelinir-MoonGuard", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vaelinir-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			400, -- [11]
-			"Player-3675-06E4FB0E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Vaelinir-MoonGuard|r",
-			[51] = 1538064352,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [31]
-		{
-			"Priests, mass dispell the minions", -- [1]
-			"Vaelinir-MoonGuard", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vaelinir-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			401, -- [11]
-			"Player-3675-06E4FB0E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Vaelinir-MoonGuard|r",
-			[51] = 1538064364,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [32]
-		{
-			"If you have agro from a dog, bring it to center please.", -- [1]
-			"Vaelinir-MoonGuard", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vaelinir-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			405, -- [11]
-			"Player-3675-06E4FB0E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Vaelinir-MoonGuard|r",
-			[51] = 1538064387,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [33]
-		{
-			"WHy would you break the CC?", -- [1]
-			"Vaelinir-MoonGuard", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vaelinir-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			427, -- [11]
-			"Player-3675-06E4FB0E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Vaelinir-MoonGuard|r",
-			[51] = 1538064509,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [34]
-		{
-			"Burn adds now", -- [1]
-			"Vaelinir-MoonGuard", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Vaelinir-MoonGuard", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			449, -- [11]
-			"Player-3675-06E4FB0E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Vaelinir-MoonGuard|r",
-			[51] = 1538064620,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [35]
-		{
-			"rexz", -- [1]
-			"Callmesp-Sargeras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Callmesp-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			454, -- [11]
-			"Player-76-0553AF4E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aCallmesp-Sargeras|r",
-			[51] = 1538064670,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [36]
-		{
-			"rewz", -- [1]
-			"Callmesp-Sargeras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Callmesp-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			455, -- [11]
-			"Player-76-0553AF4E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aCallmesp-Sargeras|r",
-			[51] = 1538064670,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [37]
-		{
-			"rez", -- [1]
-			"Callmesp-Sargeras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Callmesp-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			457, -- [11]
-			"Player-76-0553AF4E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aCallmesp-Sargeras|r",
-			[51] = 1538064671,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [38]
-		{
-			"rez", -- [1]
-			"Callmesp-Sargeras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Callmesp-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			458, -- [11]
-			"Player-76-0553AF4E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aCallmesp-Sargeras|r",
-			[51] = 1538064672,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [39]
-		{
-			"rezx", -- [1]
-			"Callmesp-Sargeras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Callmesp-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			459, -- [11]
-			"Player-76-0553AF4E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aCallmesp-Sargeras|r",
-			[51] = 1538064673,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [40]
-		{
-			"chill warrior/hpal 2s twitch.tv/dankpfrank", -- [1]
-			"Amishfurby-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"1. General - Boralus Harbor", -- [4]
-			"Amishfurby", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Boralus Harbor", -- [9]
-			0, -- [10]
-			467, -- [11]
-			"Player-3693-073F20B1", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc69b6dAmishfurby|r",
-			[51] = 1538064735,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
-		{
-			"LFM Mythic Motherloade for |cffffff00|Hquest:52295:-1:120:120:0|h[The MOTHERLODE!!: Elementals on the Payroll]|h|r need tank", -- [1]
-			"Bdoubleoteey-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Bdoubleoteey", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			477, -- [11]
-			"Player-3693-073E6BF7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aBdoubleoteey|r",
-			[51] = 1538064932,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
-		{
-			"Interrupted Nazmani Ascendant's |cff71d5ff|Hspell:276540:0|h[Blood Shield]|h|r!", -- [1]
-			"Forlaco-Sargeras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Forlaco-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			512, -- [11]
-			"Player-76-08AB9FFB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00ff96Forlaco-Sargeras|r",
-			[51] = 1538065272,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [43]
-		{
-			"Interrupted Nazmani Ascendant's |cff71d5ff|Hspell:276435:0|h[Blood Bolt]|h|r!", -- [1]
-			"Forlaco-Sargeras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Forlaco-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			522, -- [11]
-			"Player-76-08AB9FFB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00ff96Forlaco-Sargeras|r",
-			[51] = 1538065293,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [44]
-		{
-			"Interrupted Nazmani Ascendant's |cff71d5ff|Hspell:276540:0|h[Blood Shield]|h|r!", -- [1]
-			"Forlaco-Sargeras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Forlaco-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			525, -- [11]
-			"Player-76-08AB9FFB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00ff96Forlaco-Sargeras|r",
-			[51] = 1538065324,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [45]
-		{
-			"dont stand in their blood or they regenerate health", -- [1]
-			"Syldiraa-Khadgar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Syldiraa-Khadgar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			529, -- [11]
-			"Player-52-0B1C63B5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Syldiraa-Khadgar|r",
-			[51] = 1538065383,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [46]
-		{
-			"and you take damage", -- [1]
-			"Syldiraa-Khadgar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Syldiraa-Khadgar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			531, -- [11]
-			"Player-52-0B1C63B5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Syldiraa-Khadgar|r",
-			[51] = 1538065394,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [47]
-		{
-			"back up", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			539, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538065579,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [48]
-		{
-			"ffs", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			540, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538065585,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [49]
-		{
-			"lol let tank pul back", -- [1]
-			"Aeromus-Archimonde", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Aeromus-Archimonde", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			544, -- [11]
-			"Player-1129-09EAA61A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aAeromus-Archimonde|r",
-			[51] = 1538065599,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [50]
-		{
-			"Interrupted Malformed Lion's |cff71d5ff|Hspell:277799:0|h[Roar of the Pride]|h|r!", -- [1]
-			"Forlaco-Sargeras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Forlaco-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			545, -- [11]
-			"Player-76-08AB9FFB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00ff96Forlaco-Sargeras|r",
-			[51] = 1538065627,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [51]
-		{
-			"Interrupted Malformed Lion's |cff71d5ff|Hspell:277799:0|h[Roar of the Pride]|h|r!", -- [1]
-			"Forlaco-Sargeras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Forlaco-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			546, -- [11]
-			"Player-76-08AB9FFB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00ff96Forlaco-Sargeras|r",
-			[51] = 1538065657,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [52]
-		{
-			"LFR this week is something else lol", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			556, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538065789,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
-		{
-			"can someone link the Skychaser mount in chat", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			560, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538065849,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
-		{
-			"WTS |cffa335ee|Hitem:161074::::::::120:70::5:3:4799:1492:4786:::|h[Crushproof Vambraces]|h|r ", -- [1]
-			"Emancipation-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Emancipation", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			694, -- [11]
-			"Player-3693-09FE61CD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff48cbaEmancipation|r",
-			[51] = 1538067011,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
-		{
-			"WTS |cffffffff|Hitem:152875::::::::120:64::::::|h[Gloom Dust]|h|r bulk", -- [1]
-			"Rkc-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Rkc", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			704, -- [11]
-			"Player-3693-09F610F2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3fc6eaRkc|r",
-			[51] = 1538067093,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
-		{
-			"wts |cffffffff|Hitem:152579::::::::120:64::::::|h[Storm Silver Ore]|h|r 5.4k a stack ", -- [1]
-			"Ghabo-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Ghabo", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			756, -- [11]
-			"Player-3693-07EEE212", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3fc6eaGhabo|r",
-			[51] = 1538067737,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
-		{
-			"omegalul", -- [1]
-			"Masaiah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Masaiah", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			952, -- [11]
-			"Player-3693-0A093442", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aMasaiah|r",
-			[51] = 1538068111,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [58]
-		{
-			"get ready to move", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			194, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538136710,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [59]
-		{
-			"does that thing fly?", -- [1]
-			"Lilmonstrman-Hellscream", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Lilmonstrman-Hellscream", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			277, -- [11]
-			"Player-53-0189CCB0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaLilmonstrman-Hellscream|r",
-			[51] = 1538137594,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [60]
-		{
-			"yeah", -- [1]
-			"Lilmonstrman-Hellscream", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lilmonstrman-Hellscream", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			278, -- [11]
-			"Player-53-0189CCB0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaLilmonstrman-Hellscream|r",
-			[51] = 1538137609,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [61]
-		{
-			"looks cool", -- [1]
-			"Lilmonstrman-Hellscream", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Lilmonstrman-Hellscream", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			279, -- [11]
-			"Player-53-0189CCB0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaLilmonstrman-Hellscream|r",
-			[51] = 1538137620,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [62]
-		{
-			"thnx. its part of the mind riddler secret quest. just look it up, follow the steps and you can have one too", -- [1]
-			"Lilmonstrman-Hellscream", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lilmonstrman-Hellscream", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			280, -- [11]
-			"Player-53-0189CCB0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaLilmonstrman-Hellscream|r",
-			[51] = 1538137679,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [63]
-		{
-			"cool ty", -- [1]
-			"Lilmonstrman-Hellscream", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Lilmonstrman-Hellscream", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			281, -- [11]
-			"Player-53-0189CCB0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaLilmonstrman-Hellscream|r",
-			[51] = 1538137691,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [64]
-		{
-			"WTB Spectral Tiger - PST", -- [1]
-			"Hairytales-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Hairytales", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			310, -- [11]
-			"Player-3693-09FE67CA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc41e3aHairytales|r",
-			[51] = 1538137986,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
-		{
-			"WTB Spectral Tiger - PST", -- [1]
-			"Hairytales-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Hairytales", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			335, -- [11]
-			"Player-3693-09FE67CA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc41e3aHairytales|r",
-			[51] = 1538138582,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
-		{
-			"where did you get those extra lions?", -- [1]
-			"Mistyshade-Aggramar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mistyshade-Aggramar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			93, -- [11]
-			"Player-106-09C9C26C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Mistyshade-Aggramar|r",
-			[51] = 1538139178,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [67]
-		{
-			":D", -- [1]
-			"Mistyshade-Aggramar", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Mistyshade-Aggramar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			103, -- [11]
-			"Player-106-09C9C26C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Mistyshade-Aggramar|r",
-			[51] = 1538139183,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [68]
-		{
-			"lemme get the link", -- [1]
-			"Mistyshade-Aggramar", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Mistyshade-Aggramar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			134, -- [11]
-			"Player-106-09C9C26C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Mistyshade-Aggramar|r",
-			[51] = 1538139198,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [69]
-		{
-			"wowhead down - it's a cata rare", -- [1]
-			"Mistyshade-Aggramar", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Mistyshade-Aggramar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			160, -- [11]
-			"Player-106-09C9C26C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Mistyshade-Aggramar|r",
-			[51] = 1538139226,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [70]
-		{
-			"ah I see", -- [1]
-			"Mistyshade-Aggramar", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Mistyshade-Aggramar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			161, -- [11]
-			"Player-106-09C9C26C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Mistyshade-Aggramar|r",
-			[51] = 1538139234,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [71]
-		{
-			"|cffffff00Eventide Landing is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Shadowmoon Valley", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Shadowmoon Valley", -- [9]
-			0, -- [10]
-			112, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1538144482,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:10177:Player-3693-092AD332:1:9:28:18:4294967295:4294967295:4294967295:4294967295|h[Set Sail!]|h|r!", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			126, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538144580,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [73]
-		{
-			"WTS |cffa335ee|Hitem:69228::::::::120:103::::::|h[Savage Raptor]|h|r [TCG MOUNT] PST way cheaper than AH", -- [1]
-			"Aaronar-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Aaronar", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			143, -- [11]
-			"Player-3693-09FBED4E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aAaronar|r",
-			[51] = 1538144830,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [74]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:9125:Player-3693-092AD332:1:9:28:18:4294967295:4294967295:4294967295:4294967295|h[Draftsman]|h|r!", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			240, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538145468,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [75]
-		{
-			"WTS |cffa335ee|Hitem:69228::::::::120:103::::::|h[Savage Raptor]|h|r [TCG MOUNT] PST way cheaper than AH", -- [1]
-			"Aaronar-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Aaronar", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			340, -- [11]
-			"Player-3693-09FBED4E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aAaronar|r",
-			[51] = 1538145799,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [76]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:9097:Player-3693-092AD332:1:9:28:18:4294967295:4294967295:4294967295:4294967295|h[Keepin' Busy]|h|r!", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			351, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538145828,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [77]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:9126:Player-3693-092AD332:1:9:28:18:4294967295:4294967295:4294967295:4294967295|h[Master Draftsman]|h|r!", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			358, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538146012,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [78]
-		{
-			"wts |cffa335ee|Hitem:161077::::::::120:71::5:4:4799:1808:1492:4786:::|h[Fluid-Resistant Specimen Handlers]|h|r 250k", -- [1]
-			"Powerhouse-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Powerhouse", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			215, -- [11]
-			"Player-3693-09EF56BB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc69b6dPowerhouse|r",
-			[51] = 1538150667,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9099:Player-3693-092AD332:1:9:28:18:4294967295:4294967295:4294967295:4294967295|h[Time for an Upgrade]|h|r!", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1782,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538151874,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [80]
+		}, -- [1]
 		{
 			"wts |cffa335ee|Hitem:161077::::::::120:71::5:4:4799:1808:1492:4786:::|h[Fluid-Resistant Specimen Handlers]|h|r cheaper than AH", -- [1]
 			"Powerhouse-Kel'Thuzad", -- [2]
@@ -1804,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dPowerhouse|r",
 			[51] = 1538152181,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [2]
 		{
 			"whats the fastest way to get to garrison if your HS is down?", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1826,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538152251,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [3]
 		{
 			"who z-ironf", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1848,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538152295,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [4]
 		{
 			"sigh", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1870,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538152304,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [5]
 		{
 			"any chance I could get an ashran port?", -- [1]
 			"Dumple", -- [2]
@@ -1892,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaDumple|r",
 			[51] = 1538152322,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [85]
+		}, -- [6]
 		{
 			"wts |cffa335ee|Hitem:161077::::::::120:71::5:4:4799:1808:1492:4786:::|h[Fluid-Resistant Specimen Handlers]|h|r cheaper than AH", -- [1]
 			"Powerhouse-Kel'Thuzad", -- [2]
@@ -1914,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dPowerhouse|r",
 			[51] = 1538152475,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [7]
 		{
 			"Selling cauldron services.  I show up to your raid/ group place a cauldron and provide any alchemy services for the group. Have your own mats for a cauldron? It will be much cheaper! PST for pricing", -- [1]
 			"Vitalbarron-Kel'Thuzad", -- [2]
@@ -1936,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffVitalbarron|r",
 			[51] = 1538152505,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [8]
 		{
 			"take the  hellfire portal then fly through the gate to get to blasted lands then take the the dark portal again to get to ashran then fly to garrison", -- [1]
 			"Chrls", -- [2]
@@ -1958,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Chrls|r",
 			[51] = 1538152529,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [88]
+		}, -- [9]
 		{
 			"damn really? lol thanks will try", -- [1]
 			"Chrls-Kel'Thuzad", -- [2]
@@ -1980,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Chrls|r",
 			[51] = 1538152559,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [89]
+		}, -- [10]
 		{
 			"wts |cffa335ee|Hitem:161077::::::::120:71::5:4:4799:1808:1492:4786:::|h[Fluid-Resistant Specimen Handlers]|h|r cheaper than AH", -- [1]
 			"Powerhouse-Kel'Thuzad", -- [2]
@@ -2002,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dPowerhouse|r",
 			[51] = 1538152591,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [11]
 		{
 			"<Oderint dum metuant> is recruiting for our heroic progression team. LF Rdps and heals. We raid Fri 6-9 server time and Sun 3-6. Myhtic +, pvp, and casuals are also welcome. Pst for more info", -- [1]
 			"Starfur-Kel'Thuzad", -- [2]
@@ -2024,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aStarfur|r",
 			[51] = 1538152609,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [12]
 		{
 			" -Broers Empire- We are a casual, pvp and raiding guild. Tons of active members on at all hours running various mythics, dungeons and BG's. Raiding is Tues at 6pm ST.  PST for invite! ", -- [1]
 			"Ellié-Kel'Thuzad", -- [2]
@@ -2046,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaEllié|r",
 			[51] = 1538152697,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [13]
 		{
 			"wts |cffa335ee|Hitem:161077::::::::120:71::5:4:4799:1808:1492:4786:::|h[Fluid-Resistant Specimen Handlers]|h|r cheaper than AH", -- [1]
 			"Powerhouse-Kel'Thuzad", -- [2]
@@ -2068,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dPowerhouse|r",
 			[51] = 1538152701,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [14]
 		{
 			"I cant believe blizz disabled the portal in SW", -- [1]
 			"Chrls-Kel'Thuzad", -- [2]
@@ -2090,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Chrls|r",
 			[51] = 1538152718,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [94]
+		}, -- [15]
 		{
 			"its in the mage tower", -- [1]
 			"Chrls-Kel'Thuzad", -- [2]
@@ -2112,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Chrls|r",
 			[51] = 1538152763,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [95]
+		}, -- [16]
 		{
 			"further inside it", -- [1]
 			"Chrls-Kel'Thuzad", -- [2]
@@ -2134,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Chrls|r",
 			[51] = 1538152780,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [96]
+		}, -- [17]
 		{
 			"oppisite the boralus one", -- [1]
 			"Chrls-Kel'Thuzad", -- [2]
@@ -2156,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Chrls|r",
 			[51] = 1538152793,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [97]
+		}, -- [18]
 		{
 			"oh I mean the one to stormshield in the castle", -- [1]
 			"Chrls-Kel'Thuzad", -- [2]
@@ -2178,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Chrls|r",
 			[51] = 1538152794,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [98]
+		}, -- [19]
 		{
 			"its still there in the war room but it doesnt work anymore :||", -- [1]
 			"Chrls-Kel'Thuzad", -- [2]
@@ -2200,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Chrls|r",
 			[51] = 1538152833,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [99]
+		}, -- [20]
 		{
 			"yeah well the one  to blasted lands is still there but i find it faster to go to hellfire and going through the dark portal twice", -- [1]
 			"Chrls-Kel'Thuzad", -- [2]
@@ -2222,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Chrls|r",
 			[51] = 1538152893,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [100]
+		}, -- [21]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8921:Player-3693-092AD332:1:9:28:18:4294967295:4294967295:4294967295:4294967295|h[Welcome to Draenor]|h|r!", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2244,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538154860,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [101]
+		}, -- [22]
 		{
 			"|cffffff00Swamplight Trail is under attack!|r", -- [1]
 			"", -- [2]
@@ -2266,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1538154913,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [102]
+		}, -- [23]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:8939:Player-3693-092AD332:1:9:28:18:4294967295:4294967295:4294967295:4294967295|h[Explore Gorgrond]|h|r!", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2288,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538158266,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [103]
+		}, -- [24]
 		{
 			"how long you guys been waiting for rukh", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2310,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538158875,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [104]
+		}, -- [25]
 		{
 			"anyone get it?", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2332,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538159172,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [105]
+		}, -- [26]
 		{
 			"RECRUITING FOR MYTHIC PROGRESSION 2/8M 8/8H TUES/THURS 7-10PM SERVER TIME, COME RAID WITH THE BEST ROGUE ON SERVER.", -- [1]
 			"Xivia-Kel'Thuzad", -- [2]
@@ -2354,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Xivia|r",
 			[51] = 1538159741,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [106]
+		}, -- [27]
 		{
 			"RECRUITING FOR MYTHIC PROGRESSION 2/8M 8/8H TUES/THURS 7-10PM SERVER TIME, COME RAID WITH THE BEST ROGUE ON SERVER.", -- [1]
 			"Xivia-Kel'Thuzad", -- [2]
@@ -2376,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Xivia|r",
 			[51] = 1538159940,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [107]
+		}, -- [28]
 		{
 			"lol people are gonna play classic for about 10 minutes before they come running back to BfA ", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2398,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538159946,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [108]
+		}, -- [29]
 		{
 			"join my guild", -- [1]
 			"Xivia-Kel'Thuzad", -- [2]
@@ -2420,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Xivia|r",
 			[51] = 1538159963,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [109]
+		}, -- [30]
 		{
 			"that first quest where you're fighting other players of the same faction for kills will be all it takes", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2442,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538159964,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [110]
+		}, -- [31]
 		{
 			"WTB All Tidespray Linen 12g and Deep Sea Satin 22g and all BFA BOES 100g. COD Unlimited or PST.", -- [1]
 			"Lights-Kel'Thuzad", -- [2]
@@ -2464,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaLights|r",
 			[51] = 1538160250,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [111]
+		}, -- [32]
 		{
 			"WTB |cffffffff|Hitem:152509::::::::120:259::::::|h[Siren's Pollen]|h|r|cffffffff|Hitem:152544::::::::120:259::::::|h[Slimy Mackerel]|h|r|cff1eff00|Hitem:162515::::::::120:259::::::|h[Midnight Salmon]|h|rPST", -- [1]
 			"Sanr-Kel'Thuzad", -- [2]
@@ -2486,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Sanr|r",
 			[51] = 1538160305,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [112]
+		}, -- [33]
 		{
 			"<No Redeeming Qualities> 1/8 M Uldir led by CE Raiders looking for Exceptional DPS to fill out our mythic roster. Monday & Wednesday 6-8:30pm server raids. PST for more info!", -- [1]
 			"Anduresu-Kel'Thuzad", -- [2]
@@ -2508,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dAnduresu|r",
 			[51] = 1538160313,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [113]
+		}, -- [34]
 		{
 			"WTS |cffa335ee|Hitem:44413::::::::1:256::::::|h[Mekgineer's Chopper]|h|r|cffa335ee|Hitem:163952::::::::1:256::54:2:1472:4786:::|h[Oprescu's Gilded Touch]|h|r", -- [1]
 			"Bankofchesh-Kel'Thuzad", -- [2]
@@ -2530,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffBankofchesh|r",
 			[51] = 1538160363,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [114]
+		}, -- [35]
 		{
 			"WTB |cffffffff|Hitem:152509::::::::120:259::::::|h[Siren's Pollen]|h|r|cffffffff|Hitem:152544::::::::120:259::::::|h[Slimy Mackerel]|h|r|cff1eff00|Hitem:162515::::::::120:259::::::|h[Midnight Salmon]|h|rPST", -- [1]
 			"Sanr-Kel'Thuzad", -- [2]
@@ -2552,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Sanr|r",
 			[51] = 1538160485,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [115]
+		}, -- [36]
 		{
 			"WTS |cffa335ee|Hitem:128671::::::::120:64::14::::|h[Minion of Grumpus]|h|r|cffa335ee|Hitem:44413::::::::120:64::::::|h[Mekgineer's Chopper]|h|r|cffa335ee|Hitem:137686::::::::120:64::13::::|h[Steelbound Harness]|h|r", -- [1]
 			"Salinth-Kel'Thuzad", -- [2]
@@ -2574,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaSalinth|r",
 			[51] = 1538160627,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [116]
+		}, -- [37]
 		{
 			"heya", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2596,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538227745,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [117]
+		}, -- [38]
 		{
 			"this quyest sucks", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2618,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538227747,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [118]
+		}, -- [39]
 		{
 			"agreed", -- [1]
 			"Thestrain-Kel'Thuzad", -- [2]
@@ -2640,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Thestrain|r",
 			[51] = 1538227756,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [119]
+		}, -- [40]
 		{
 			"how many more do you need", -- [1]
 			"Thestrain-Kel'Thuzad", -- [2]
@@ -2662,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Thestrain|r",
 			[51] = 1538227792,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [120]
+		}, -- [41]
 		{
 			"need more?", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2684,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538227858,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [121]
+		}, -- [42]
 		{
 			"nope all done", -- [1]
 			"Thestrain-Kel'Thuzad", -- [2]
@@ -2706,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Thestrain|r",
 			[51] = 1538227866,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [122]
+		}, -- [43]
 		{
 			"same ty", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2728,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538227870,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [123]
+		}, -- [44]
 		{
 			"ty", -- [1]
 			"Thestrain-Kel'Thuzad", -- [2]
@@ -2750,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Thestrain|r",
 			[51] = 1538227872,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [124]
+		}, -- [45]
 		{
 			"anyone else notice a ton of missions start to come up for a faction as soon as you hit exalted with that faction", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2772,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538228585,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [125]
+		}, -- [46]
 		{
 			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
 			"Gplayshopusa-Kel'Thuzad", -- [2]
@@ -2794,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGplayshopusa|r",
 			[51] = 1538228638,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [126]
+		}, -- [47]
 		{
 			"whens the fight", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2815,6 +1077,1744 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538239061,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [48]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12951:Player-3693-092AD332:1:9:30:18:4294967295:4294967295:4294967295:4294967295|h[Proudmoore Admiralty]|h|r!", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			288, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1538301876,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [49]
+		{
+			"good lord what pet is that", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			320, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302378,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [50]
+		{
+			"talbuk from argus xD", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			321, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302446,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [51]
+		{
+			"cool I skipped argus", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			322, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302493,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [52]
+		{
+			"got burned out on fel lol", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			323, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302510,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [53]
+		{
+			"rip", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			324, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302522,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [54]
+		{
+			"how long you been camping the moose?", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			325, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302547,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [55]
+		{
+			"about 2 hours so far", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			326, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302557,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [56]
+		{
+			"watching netflix in the mean time", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			327, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302564,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [57]
+		{
+			"oic decent respawn time?", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			328, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302568,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [58]
+		{
+			"very long respawn time", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			329, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302588,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [59]
+		{
+			"Ive had this guy forever but think it's time for an upgrade ", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			330, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302594,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [60]
+		{
+			"got the mount, gotta have the pet too xD", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			331, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302614,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [61]
+		{
+			"ya I hear that check this out", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			333, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302652,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [62]
+		{
+			"nice!", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			334, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302666,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [63]
+		{
+			"wait for it", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			335, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302671,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [64]
+		{
+			"there we go", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			336, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302689,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [65]
+		{
+			"omg", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			337, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302693,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [66]
+		{
+			"love the names xD", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			338, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302710,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [67]
+		{
+			"lol damndest thing", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			339, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302735,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [68]
+		{
+			"I tried to name them Llane and Varian", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			340, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302742,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [69]
+		{
+			"but the game told me Llane was reserved  ", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			341, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302749,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [70]
+		{
+			"oh wow", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			342, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302755,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [71]
+		{
+			"but not Varian or Anduin", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			343, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302758,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [72]
+		{
+			"weird", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			344, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302759,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [73]
+		{
+			"probably a restriction from way back in vanilla or something", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			345, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302778,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [74]
+		{
+			"yeah most likely", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			346, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302789,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [75]
+		{
+			"mind showing me the argus mount?", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			347, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302792,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [76]
+		{
+			"don't have the mounts from there", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			348, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302803,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [77]
+		{
+			"oh I thought you did my bad", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			349, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302810,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [78]
+		{
+			"just casually doing it while also trying to get a cloud serpent", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			350, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302821,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [79]
+		{
+			"in pandaria", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			351, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302827,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [80]
+		{
+			"well when you get it make sure to tame another goat and you can have this look lol", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			352, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302827,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [81]
+		{
+			"Yass B)", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			353, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302839,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [82]
+		{
+			"this is my \"walking around town\" mog - I dont actually use non-exotics or AC in real content LOL", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			354, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302852,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [83]
+		{
+			"casual strolling eh? :P", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			355, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302891,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [84]
+		{
+			"lol ya like this", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			356, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302914,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [85]
+		{
+			"I never noticed your chars get stinkface on this mount", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			357, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302928,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [86]
+		{
+			"look how angry my girl looks lol", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			358, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302938,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [87]
+		{
+			"omg yeah", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			359, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302944,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [88]
+		{
+			"I need to get her a helmet to cover that up LOL", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			360, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302961,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [89]
+		{
+			"anyway I just thought Id drop by to check for the moose but no camping for me today, good luck!", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			361, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302970,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [90]
+		{
+			"Probably xD", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			362, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302971,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [91]
+		{
+			"thanks!", -- [1]
+			"Laylara-Uldaman", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Laylara-Uldaman", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			363, -- [11]
+			"Player-1072-0AF6D469", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laylara-Uldaman|r",
+			[51] = 1538302978,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [92]
+		{
+			"oh thank god |cffffff00|Hachievement:12951:Player-3693-092AD332:1:9:30:18:4294967295:4294967295:4294967295:4294967295|h[Proudmoore Admiralty]|h|r|cffffff00|Hachievement:12954:Player-3693-092AD332:1:9:4:18:4294967295:4294967295:4294967295:4294967295|h[Champion of the 7th Legion]|h|r", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			892, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1538303257,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"now I dont need to log in again until part 2 of |cffffff00|Hachievement:12989:Player-3693-092AD332:1:8:30:18:4294967295:4294967295:4294967295:4294967295|h[Battle for Azeroth Pathfinder, Part One]|h|r", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			905, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1538303273,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"your mog is horrifying", -- [1]
+			"Vanqsdk-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vanqsdk", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1032, -- [11]
+			"Player-3693-09CFFC2D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aVanqsdk|r",
+			[51] = 1538303576,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [95]
+		{
+			"dont hate", -- [1]
+			"Vanqsdk-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vanqsdk", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1033, -- [11]
+			"Player-3693-09CFFC2D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aVanqsdk|r",
+			[51] = 1538303601,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [96]
+		{
+			"cant wait for fat humans to join the alliance", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1042, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1538303657,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"nice of blizzard to recognize that fat people are in fact a separate race", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1045, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1538303672,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"oh nvm your mog is hot except the boots", -- [1]
+			"Vanqsdk-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vanqsdk", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1049, -- [11]
+			"Player-3693-09CFFC2D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aVanqsdk|r",
+			[51] = 1538303689,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [99]
+		{
+			"think you missed a spot", -- [1]
+			"Vanqsdk-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vanqsdk", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1051, -- [11]
+			"Player-3693-09CFFC2D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aVanqsdk|r",
+			[51] = 1538303697,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [100]
+		{
+			"upgrade", -- [1]
+			"Vanqsdk-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vanqsdk", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1054, -- [11]
+			"Player-3693-09CFFC2D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aVanqsdk|r",
+			[51] = 1538303702,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [101]
+		{
+			"havent remog'd", -- [1]
+			"Vanqsdk-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vanqsdk", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1058, -- [11]
+			"Player-3693-09CFFC2D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aVanqsdk|r",
+			[51] = 1538303706,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [102]
+		{
+			"allow me", -- [1]
+			"Vanqsdk-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vanqsdk", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1060, -- [11]
+			"Player-3693-09CFFC2D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aVanqsdk|r",
+			[51] = 1538303717,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [103]
+		{
+			"nice", -- [1]
+			"Vanqsdk-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vanqsdk", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1069, -- [11]
+			"Player-3693-09CFFC2D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aVanqsdk|r",
+			[51] = 1538303734,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [104]
+		{
+			"belts ugly as fuck but thats just dwarfs in general", -- [1]
+			"Vanqsdk-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vanqsdk", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1110, -- [11]
+			"Player-3693-09CFFC2D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aVanqsdk|r",
+			[51] = 1538303761,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [105]
+		{
+			"all the belts are these weird things that stick out a mile this xpac", -- [1]
+			"Vanqsdk-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vanqsdk", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1135, -- [11]
+			"Player-3693-09CFFC2D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aVanqsdk|r",
+			[51] = 1538303774,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [106]
+		{
+			"this ones from brf ", -- [1]
+			"Vanqsdk-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vanqsdk", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1166, -- [11]
+			"Player-3693-09CFFC2D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aVanqsdk|r",
+			[51] = 1538303790,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [107]
+		{
+			"|cffa335ee|Hitem:163401::::::::120:253::6:4:5126:43:1562:4786:::|h[7th Legionnaire's Cincture]|h|r", -- [1]
+			"Vanqsdk-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vanqsdk", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1176, -- [11]
+			"Player-3693-09CFFC2D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aVanqsdk|r",
+			[51] = 1538303795,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [108]
+		{
+			"it's just awkwardly big ", -- [1]
+			"Vanqsdk-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vanqsdk", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1178, -- [11]
+			"Player-3693-09CFFC2D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aVanqsdk|r",
+			[51] = 1538303795,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [109]
+		{
+			"and the chest from this set clips through your tabard", -- [1]
+			"Vanqsdk-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vanqsdk", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1219, -- [11]
+			"Player-3693-09CFFC2D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aVanqsdk|r",
+			[51] = 1538303818,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [110]
+		{
+			"owell", -- [1]
+			"Vanqsdk-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Vanqsdk", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1223, -- [11]
+			"Player-3693-09CFFC2D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aVanqsdk|r",
+			[51] = 1538303820,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [111]
+		{
+			"whats the fastest way to level 20-120 now", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1417, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1538303925,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [112]
+		{
+			"flying cheeve was pretty easy I think I got it 2 weeks in without really trying", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1474, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1538303956,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [113]
+		{
+			"|cffffff00|Hachievement:12989:Player-3693-092AD332:1:8:30:18:4294967295:4294967295:4294967295:4294967295|h[Battle for Azeroth Pathfinder, Part One]|h|r", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1499, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1538303970,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [114]
+		{
+			"it's part 1 of flying", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1540, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1538303992,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [115]
+		{
+			"already got exalted with HB and am grinding zandalar now, it's slow as balls", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1613, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1538304033,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [116]
+		{
+			"only like 6 wqs a day plus I'm doing it on a rogue, much slower than my hunter", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1638, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1538304047,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [117]
+		{
+			"ya you can just do the zandalari emissaries, doesnt look like KT/ZT are gonna be available anytime soon", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1733, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1538304102,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [118]
+		{
+			"nah it's not in 8.1 according to Ion", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1795, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1538304138,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [119]
+		{
+			"so a couple months from now, plenty of time to go revered->exalted just doing emissaries", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1822, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1538304159,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [120]
+		{
+			"1st half of Legion was amazing, 2nd half with Broken Shore/Argus suckdiddlyucked in comparison", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1849, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1538304347,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [121]
+		{
+			"Suramar was some of the best content WoW's ever had", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1850, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1538304361,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [122]
+		{
+			"mop was so cringe it made my entire guild quit lol", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1864, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1538304411,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [123]
+		{
+			"MoP was like WoW Does Minions - for babies only", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1870, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1538304439,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [124]
+		{
+			"you can tell who never played vanilla, it's the people who are excited for Classic lol", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1879, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1538304476,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [125]
+		{
+			"a few hours of slowly running everywhere and fighting with their own faction for quest mobs will send them running back to BfA", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1888, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1538304507,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [126]
+		{
+			"|cffffff00Whisperwind's Citadel is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormheim", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormheim", -- [9]
+			0, -- [10]
+			21, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1538332575,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},

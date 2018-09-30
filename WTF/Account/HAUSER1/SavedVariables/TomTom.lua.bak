@@ -36,9 +36,9 @@ TomTomDB = {
 		["Ugiyo - Kel'Thuzad"] = "Default",
 		["Hauzerhunter - Kel'Thuzad"] = "Default",
 		["Fsdkjhskdjfh - Kel'Thuzad"] = "Default",
-		["Skãdi - Kel'Thuzad"] = "Default",
-		["Olrapey - Kel'Thuzad"] = "Default",
 		["Alaurannah - Undermine"] = "Default",
+		["Olrapey - Kel'Thuzad"] = "Default",
+		["Skãdi - Kel'Thuzad"] = "Default",
 		["Hauser - Mal'Ganis"] = "Default",
 		["Hauzer - Kel'Thuzad"] = "Default",
 		["Testfoolio - Kel'Thuzad"] = "Default",
@@ -125,9 +125,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["persistent"] = true,
@@ -149,9 +149,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["persistent"] = true,
@@ -159,6 +159,30 @@ TomTomWaypointsM = {
 					["silent"] = true,
 					["cleardistance"] = 0,
 					["title"] = "Arcturis",
+					["crazy"] = false,
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
+			[634] = {
+				["634:740000000:840000000:Bullvinkel"] = {
+					634, -- [1]
+					0.74, -- [2]
+					0.84, -- [3]
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["persistent"] = true,
+					["desc"] = "Bullvinkel",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Bullvinkel",
 					["crazy"] = false,
 					["minimap"] = true,
 					["world"] = true,
