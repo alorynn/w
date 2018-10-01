@@ -38,7 +38,7 @@ VER 3 0100000000000010 "Pets" "INV_MISC_BONE_01"
 /click ORLOpen Pets
 END
 VER 3 0100000000000004 "Target" "236188"
-/tar arc
+/tar samb
 END
 VER 3 0100000000000001 "Turtle" "INV_MISC_QUESTIONMARK"
 #showtooltip Aspect of the Turtle
