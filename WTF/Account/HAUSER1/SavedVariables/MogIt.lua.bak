@@ -53,16 +53,16 @@ MogItDB = {
 			["previewProps"] = {
 				{
 					["y"] = 0,
-					["x"] = -182.500061035156,
-					["point"] = "BOTTOMRIGHT",
-					["w"] = 576.666625976563,
-					["h"] = 1196.66674804688,
+					["x"] = 85.4176025390625,
+					["point"] = "TOP",
+					["w"] = 764.166687011719,
+					["h"] = 1200,
 				}, -- [1]
 				{
 					["y"] = 0,
 					["h"] = 1195.83337402344,
 					["point"] = "TOPLEFT",
-					["w"] = 1218.33276367188,
+					["w"] = 1218.33288574219,
 					["x"] = 0,
 				}, -- [2]
 				{
@@ -349,9 +349,9 @@ MogItWishlist = {
 						["TabardSlot"] = "item:160539:0::::::::::14:1:0",
 						["FeetSlot"] = "item:163400:0::::::::::6:1:3524",
 						["HeadSlot"] = "item:45118:0::::::::::0:1:3524",
-						["WaistSlot"] = "item:163401:0::::::::::6:1:3524",
 						["HandsSlot"] = "item:163397:0::::::::::6:1:3524",
 						["LegsSlot"] = "item:163265:0::::::::::3:1:0",
+						["WaistSlot"] = "item:163401:0::::::::::6:1:3524",
 						["BackSlot"] = "item:163351:0::::::::::6:1:3524",
 					},
 					["name"] = "Warfront",
@@ -430,9 +430,9 @@ MogItWishlist = {
 						["FeetSlot"] = "item:129579:0::::::::::0:1:3524",
 						["BackSlot"] = "item:134111:0",
 						["HeadSlot"] = "item:5753:0::::::::::0:1:3524",
+						["WaistSlot"] = "item:4249:0::::::::::0:1:3524",
 						["HandsSlot"] = "item:26022:0::::::::::0:1:3524",
 						["LegsSlot"] = "item:15065:0::::::::::0:1:3524",
-						["WaistSlot"] = "item:4249:0::::::::::0:1:3524",
 					},
 					["name"] = "Barbarian Feral",
 					["alternateItems"] = {
@@ -485,10 +485,10 @@ MogItWishlist = {
 					["items"] = {
 						["ChestSlot"] = "item:14966:0",
 						["FeetSlot"] = "item:14972:0",
-						["HandsSlot"] = "item:14967:0",
 						["WaistSlot"] = "item:34651:0",
-						["MainHandSlot"] = "item:58993:0",
 						["LegsSlot"] = "item:14970:0",
+						["MainHandSlot"] = "item:58993:0",
+						["HandsSlot"] = "item:14967:0",
 					},
 					["name"] = "sexy",
 					["alternateItems"] = {
@@ -565,11 +565,11 @@ MogItWishlist = {
 					["items"] = {
 						["ChestSlot"] = "item:14966:0",
 						["FeetSlot"] = "item:14972:0",
-						["WaistSlot"] = "item:34651:0",
-						["ShoulderSlot"] = "item:25020:0",
 						["HandsSlot"] = "item:14967:0",
-						["MainHandSlot"] = "item:58993:0",
+						["ShoulderSlot"] = "item:25020:0",
 						["LegsSlot"] = "item:14970:0",
+						["MainHandSlot"] = "item:58993:0",
+						["WaistSlot"] = "item:34651:0",
 					},
 					["name"] = "sexy",
 					["alternateItems"] = {
@@ -579,11 +579,11 @@ MogItWishlist = {
 					["items"] = {
 						["ChestSlot"] = "item:14966:0",
 						["FeetSlot"] = "item:14972:0",
-						["WaistSlot"] = "item:34651:0",
-						["ShoulderSlot"] = "item:25020:0",
 						["HandsSlot"] = "item:14967:0",
-						["MainHandSlot"] = "item:58993:0",
+						["ShoulderSlot"] = "item:25020:0",
 						["LegsSlot"] = "item:14970:0",
+						["MainHandSlot"] = "item:58993:0",
+						["WaistSlot"] = "item:34651:0",
 					},
 					["name"] = "sexy 2",
 					["alternateItems"] = {
@@ -593,10 +593,10 @@ MogItWishlist = {
 					["items"] = {
 						["ChestSlot"] = "item:14966:0",
 						["FeetSlot"] = "item:14972:0",
-						["HandsSlot"] = "item:14967:0",
 						["LegsSlot"] = "item:14970:0",
-						["MainHandSlot"] = "item:58993:0",
 						["WaistSlot"] = "item:34651:0",
+						["MainHandSlot"] = "item:58993:0",
+						["HandsSlot"] = "item:14967:0",
 					},
 					["name"] = "sexy 3",
 					["alternateItems"] = {
@@ -630,10 +630,10 @@ MogItWishlist = {
 						["ChestSlot"] = "item:115878:0",
 						["ShoulderSlot"] = "item:115879:0",
 						["FeetSlot"] = "item:115827:0",
-						["WaistSlot"] = "item:115824:0",
-						["HeadSlot"] = "item:115876:0",
 						["LegsSlot"] = "item:115877:0",
+						["HeadSlot"] = "item:115876:0",
 						["HandsSlot"] = "item:115875:0",
+						["WaistSlot"] = "item:115824:0",
 						["WristSlot"] = "item:115628:0",
 					},
 					["name"] = "season 1 elite",

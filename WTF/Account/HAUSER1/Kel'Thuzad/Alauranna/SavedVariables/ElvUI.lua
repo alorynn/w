@@ -1541,5 +1541,27 @@ ElvCharacterDB = {
 			[51] = 1537887276,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [69]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:13099:Player-3693-0844F6BF:1:10:2:18:4294967295:4294967295:4294967295:4294967295|h[Molten Cay]|h|r!", -- [1]
+			"Alauranna-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alauranna", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			459, -- [11]
+			"Player-3693-0844F6BF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aAlauranna|r",
+			[51] = 1538508180,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [70]
 	},
 }

@@ -157,15 +157,15 @@ PasteDB = {
 			["whispertarget"] = "",
 			["where"] = "Default",
 			["loaded"] = true,
-			["minimap"] = {
-				["minimapPos"] = 216.288929982077,
-				["hide"] = true,
-			},
 			["pos"] = {
 				["height"] = 320.833404541016,
 				["top"] = 760,
 				["left"] = 816.666809082031,
 				["width"] = 499.999938964844,
+			},
+			["minimap"] = {
+				["minimapPos"] = 216.288929982077,
+				["hide"] = true,
 			},
 		},
 		["Alurannah - Kel'Thuzad"] = {
@@ -205,15 +205,15 @@ PasteDB = {
 			["whispertarget"] = "",
 			["where"] = "Default",
 			["loaded"] = true,
-			["minimap"] = {
-				["minimapPos"] = 338.719195127498,
-				["hide"] = true,
-			},
 			["pos"] = {
 				["height"] = 320.000030517578,
 				["top"] = 770.833129882813,
 				["left"] = 762.499877929688,
 				["width"] = 499.999938964844,
+			},
+			["minimap"] = {
+				["minimapPos"] = 338.719195127498,
+				["hide"] = true,
 			},
 		},
 		["Testfoolio - Kel'Thuzad"] = {

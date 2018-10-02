@@ -1,1326 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/2 wow 2 whole zandalari rep quests in the past 12 hours", -- [1]
-		"/2 if I do 100% of them every day I might get lucky and get exalted by christmas", -- [2]
-		"/raid anyone for |cffffff00|Hquest:51069:-1:110:120:5|h[WANTED: Darkspeaker Jo'la]|h|r?", -- [3]
-		"/tar de", -- [4]
-		"/tar quar", -- [5]
-		"/cw Blackpanda-Azralon pls accept", -- [6]
-		"/cw Blackpanda-Azralon accept pls", -- [7]
-		"/p hey where is he?", -- [8]
-		"/p I couldnt find him", -- [9]
-		"/p oh I see him", -- [10]
-		"/p nice!", -- [11]
-		"/p |cffffff00|Hquest:51091:-1:110:120:5|h[WANTED: Ten'gor and Nol'ixwan]|h|r?", -- [12]
-		"/p ya sure", -- [13]
-		"/p dunno how scaling works", -- [14]
-		"/p got any others?", -- [15]
-		"/p cool me too ty", -- [16]
-		"/cheer", -- [17]
-		"/p this quest is hot trash", -- [18]
-		"/p need more?", -- [19]
-		"/mogit", -- [20]
+		"/p ya sure", -- [1]
+		"/p dunno how scaling works", -- [2]
+		"/p got any others?", -- [3]
+		"/p cool me too ty", -- [4]
+		"/cheer", -- [5]
+		"/p this quest is hot trash", -- [6]
+		"/p need more?", -- [7]
+		"/mogit", -- [8]
+		"/i 200 iron inc", -- [9]
+		"/i need a pile of dps for coe", -- [10]
+		"/i nvm lol", -- [11]
+		"/i can you heal foz?", -- [12]
+		"/2 anyone selling Zandalari contracts?", -- [13]
+		"/2 can anyone make a Zandalari contract if I provide mats?", -- [14]
+		"/2 WTB Zandalari contract", -- [15]
+		"/cw Tgodscokecan-BleedingHollow howd you get that enchant? havent had that since wod", -- [16]
+		"/cw Tgodscokecan-BleedingHollow hmm maybe locked to the character I got it on", -- [17]
+		"/cw Tgodscokecan-BleedingHollow I'll look into it ty", -- [18]
+		"/2 WTB Zandalari contract PST", -- [19]
+		"/2 anyone got a Zandalari contract for sale?", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"well i'm behind", -- [1]
-			"Nöödlês-EmeraldDream", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Nöödlês-EmeraldDream", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			688, -- [11]
-			"Player-162-09CE16D0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
-			[51] = 1537549952,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [1]
-		{
-			"dont die Alor", -- [1]
-			"Axmans-Ysera", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Axmans-Ysera", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			690, -- [11]
-			"Player-63-0B3F987A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aAxmans-Ysera|r",
-			[51] = 1537549956,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [2]
-		{
-			"should have rolleda shammy", -- [1]
-			"Nöödlês-EmeraldDream", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Nöödlês-EmeraldDream", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			692, -- [11]
-			"Player-162-09CE16D0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff0070ddNöödlês-EmeraldDream|r",
-			[51] = 1537549968,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [3]
-		{
-			"got em", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			693, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537549970,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [4]
-		{
-			"i got one", -- [1]
-			"Axmans-Ysera", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Axmans-Ysera", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			694, -- [11]
-			"Player-63-0B3F987A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aAxmans-Ysera|r",
-			[51] = 1537549973,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [5]
-		{
-			"AWSOME", -- [1]
-			"Axmans-Ysera", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Axmans-Ysera", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			698, -- [11]
-			"Player-63-0B3F987A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aAxmans-Ysera|r",
-			[51] = 1537549976,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [6]
-		{
-			"grats", -- [1]
-			"Axmans-Ysera", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Axmans-Ysera", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			699, -- [11]
-			"Player-63-0B3F987A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aAxmans-Ysera|r",
-			[51] = 1537549978,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [7]
-		{
-			"now you get to do the scenario", -- [1]
-			"Axmans-Ysera", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Axmans-Ysera", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			700, -- [11]
-			"Player-63-0B3F987A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aAxmans-Ysera|r",
-			[51] = 1537549986,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [8]
-		{
-			"but youre saying it gets harder? lol", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			701, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537549988,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [9]
-		{
-			"ya lol", -- [1]
-			"Axmans-Ysera", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Axmans-Ysera", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			707, -- [11]
-			"Player-63-0B3F987A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aAxmans-Ysera|r",
-			[51] = 1537550052,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [10]
-		{
-			"brb gotta do a rare check on my hunter", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			711, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537550069,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [11]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:12518:Player-3693-09ED9289:1:9:21:18:4294967295:4294967295:4294967295:4294967295|h[Allied Races: Mag'har Orc]|h|r!", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			920, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537551879,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [12]
-		{
-			"is that eyepatch horde only?", -- [1]
-			"Shakeyseu-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Shakeyseu", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1, -- [11]
-			"Player-3693-09FB443B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff0070ddShakeyseu|r",
-			[51] = 1537650071,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [13]
-		{
-			"no ", -- [1]
-			"Shakeyseu-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Shakeyseu", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2, -- [11]
-			"Player-3693-09FB443B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff0070ddShakeyseu|r",
-			[51] = 1537650090,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [14]
-		{
-			"hmm havent seen it on alliance - got a hunter on the other side, looking for new head piece", -- [1]
-			"Shakeyseu-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Shakeyseu", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6, -- [11]
-			"Player-3693-09FB443B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff0070ddShakeyseu|r",
-			[51] = 1537650106,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [15]
-		{
-			"|cffffff00The Mugambala is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Zuldazar", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Zuldazar", -- [9]
-			0, -- [10]
-			37, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1537688908,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
-		{
-			"|cffffff00Zuldazar is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Zuldazar", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Zuldazar", -- [9]
-			0, -- [10]
-			41, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1537688957,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
-		{
-			"anyone buying BOE greens?", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			116, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537689575,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:1177:Player-3693-09ED9289:1:9:23:18:4294967295:4294967295:4294967295:4294967295|h[Got My Mind On My Money]|h|r!", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			392, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537700362,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [19]
-		{
-			"|cffffff00Grand Bazaar is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Dazar'alor", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Dazar'alor", -- [9]
-			0, -- [10]
-			420, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1537701027,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
-		{
-			"cool cat", -- [1]
-			"Tallimus-Shadowmoon", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Tallimus-Shadowmoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			191, -- [11]
-			"Player-154-07B49AAF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Tallimus-Shadowmoon|r",
-			[51] = 1537717727,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [21]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:11212:Player-3693-09ED9289:1:9:24:18:4294967295:4294967295:4294967295:4294967295|h[Raise an Army]|h|r!", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			111, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537794803,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [22]
-		{
-			"|cffffff00Port of Zandalar is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Zuldazar", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Zuldazar", -- [9]
-			0, -- [10]
-			56, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1537875494,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
-		{
-			"ragebeak is somewhere else", -- [1]
-			"Adoriya-Sargeras", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Adoriya-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			42, -- [11]
-			"Player-76-09562603", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa330c9Adoriya-Sargeras|r",
-			[51] = 1537884332,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [24]
-		{
-			"when horde has control", -- [1]
-			"Adoriya-Sargeras", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Adoriya-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			43, -- [11]
-			"Player-76-09562603", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa330c9Adoriya-Sargeras|r",
-			[51] = 1537884336,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [25]
-		{
-			"oh ok", -- [1]
-			"Adoriya-Sargeras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Adoriya-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			44, -- [11]
-			"Player-76-09562603", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa330c9Adoriya-Sargeras|r",
-			[51] = 1537884344,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [26]
-		{
-			"the alliance timber yard iirc", -- [1]
-			"Adoriya-Sargeras", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Adoriya-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			46, -- [11]
-			"Player-76-09562603", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa330c9Adoriya-Sargeras|r",
-			[51] = 1537884352,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [27]
-		{
-			"ya right here", -- [1]
-			"Adoriya-Sargeras", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Adoriya-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			47, -- [11]
-			"Player-76-09562603", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa330c9Adoriya-Sargeras|r",
-			[51] = 1537884368,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [28]
-		{
-			"come south", -- [1]
-			"Adoriya-Sargeras", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Adoriya-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			49, -- [11]
-			"Player-76-09562603", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa330c9Adoriya-Sargeras|r",
-			[51] = 1537884378,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [29]
-		{
-			"little shack on the map", -- [1]
-			"Adoriya-Sargeras", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Adoriya-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			50, -- [11]
-			"Player-76-09562603", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa330c9Adoriya-Sargeras|r",
-			[51] = 1537884384,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [30]
-		{
-			"dungeon", -- [1]
-			"Adoriya-Sargeras", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Adoriya-Sargeras", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			51, -- [11]
-			"Player-76-09562603", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa330c9Adoriya-Sargeras|r",
-			[51] = 1537884395,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [31]
-		{
-			"invote", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1488, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537894509,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [32]
-		{
-			"ya fuck this", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1490, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537894539,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [33]
-		{
-			"do honorbound quests in zandalar also give zandalar rep?", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1510, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537894895,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
-		{
-			"does |cffff80ff|Htransmogillusion:5877|h[Chronos]|h|r actually drop? never seen it drop in 100+ kills and never seen anyone with it equipped", -- [1]
-			"Alorannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Alorannah", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			259, -- [11]
-			"Player-3693-09ED9289", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Alorannah|r",
-			[51] = 1537972291,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
-		{
-			"sick mog dude, what pet do you use with it?", -- [1]
-			"Silnarn-Stormreaver", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Silnarn-Stormreaver", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			261, -- [11]
-			"Player-58-0B0514FA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Silnarn-Stormreaver|r",
-			[51] = 1537972525,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [36]
-		{
-			"spectral grpyhon", -- [1]
-			"Silnarn-Stormreaver", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Silnarn-Stormreaver", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			262, -- [11]
-			"Player-58-0B0514FA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Silnarn-Stormreaver|r",
-			[51] = 1537972547,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [37]
-		{
-			"nice, wheres that from", -- [1]
-			"Silnarn-Stormreaver", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Silnarn-Stormreaver", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			263, -- [11]
-			"Player-58-0B0514FA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Silnarn-Stormreaver|r",
-			[51] = 1537972554,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [38]
-		{
-			"trying to go for a new chest/shoulders", -- [1]
-			"Silnarn-Stormreaver", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Silnarn-Stormreaver", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			264, -- [11]
-			"Player-58-0B0514FA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Silnarn-Stormreaver|r",
-			[51] = 1537972558,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [39]
-		{
-			"the gryphon?", -- [1]
-			"Silnarn-Stormreaver", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Silnarn-Stormreaver", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			265, -- [11]
-			"Player-58-0B0514FA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Silnarn-Stormreaver|r",
-			[51] = 1537972561,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [40]
-		{
-			"my hunter is camping spectra bear right now ><", -- [1]
-			"Silnarn-Stormreaver", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Silnarn-Stormreaver", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			266, -- [11]
-			"Player-58-0B0514FA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Silnarn-Stormreaver|r",
-			[51] = 1537972563,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [41]
-		{
-			"ya", -- [1]
-			"Silnarn-Stormreaver", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Silnarn-Stormreaver", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			267, -- [11]
-			"Player-58-0B0514FA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Silnarn-Stormreaver|r",
-			[51] = 1537972565,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [42]
-		{
-			"wow its literally impossible for ur server", -- [1]
-			"Silnarn-Stormreaver", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Silnarn-Stormreaver", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			268, -- [11]
-			"Player-58-0B0514FA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Silnarn-Stormreaver|r",
-			[51] = 1537972575,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [43]
-		{
-			"whys that", -- [1]
-			"Silnarn-Stormreaver", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Silnarn-Stormreaver", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			269, -- [11]
-			"Player-58-0B0514FA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Silnarn-Stormreaver|r",
-			[51] = 1537972584,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [44]
-		{
-			"theres a feather that spawns right next to the stormwind flightmaster", -- [1]
-			"Silnarn-Stormreaver", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Silnarn-Stormreaver", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			270, -- [11]
-			"Player-58-0B0514FA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Silnarn-Stormreaver|r",
-			[51] = 1537972590,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [45]
-		{
-			"ah my hunters alliance", -- [1]
-			"Silnarn-Stormreaver", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Silnarn-Stormreaver", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			271, -- [11]
-			"Player-58-0B0514FA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Silnarn-Stormreaver|r",
-			[51] = 1537972599,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [46]
-		{
-			"oh ok", -- [1]
-			"Silnarn-Stormreaver", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Silnarn-Stormreaver", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			272, -- [11]
-			"Player-58-0B0514FA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Silnarn-Stormreaver|r",
-			[51] = 1537972603,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [47]
-		{
-			"think I know the one youre talking about", -- [1]
-			"Silnarn-Stormreaver", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Silnarn-Stormreaver", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			273, -- [11]
-			"Player-58-0B0514FA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Silnarn-Stormreaver|r",
-			[51] = 1537972605,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [48]
-		{
-			"then it should be easy", -- [1]
-			"Silnarn-Stormreaver", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Silnarn-Stormreaver", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			274, -- [11]
-			"Player-58-0B0514FA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Silnarn-Stormreaver|r",
-			[51] = 1537972607,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [49]
-		{
-			"the horde one is a raptor in orgrimmar", -- [1]
-			"Silnarn-Stormreaver", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Silnarn-Stormreaver", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			275, -- [11]
-			"Player-58-0B0514FA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Silnarn-Stormreaver|r",
-			[51] = 1537972618,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [50]
-		{
-			"ya I want the bear tho lol", -- [1]
-			"Silnarn-Stormreaver", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Silnarn-Stormreaver", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			276, -- [11]
-			"Player-58-0B0514FA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Silnarn-Stormreaver|r",
-			[51] = 1537972618,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [51]
-		{
-			"fox is my fav", -- [1]
-			"Silnarn-Stormreaver", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Silnarn-Stormreaver", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			277, -- [11]
-			"Player-58-0B0514FA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Silnarn-Stormreaver|r",
-			[51] = 1537972627,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [52]
-		{
-			"but its so hard to get", -- [1]
-			"Silnarn-Stormreaver", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Silnarn-Stormreaver", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			278, -- [11]
-			"Player-58-0B0514FA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Silnarn-Stormreaver|r",
-			[51] = 1537972632,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [53]
-		{
-			"holy shit nightborne are huge", -- [1]
-			"Silnarn-Stormreaver", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Silnarn-Stormreaver", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			279, -- [11]
-			"Player-58-0B0514FA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Silnarn-Stormreaver|r",
-			[51] = 1537972644,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [54]
-		{
-			"isnt that the one where you have to go around bushes in duskwood or something", -- [1]
-			"Silnarn-Stormreaver", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Silnarn-Stormreaver", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			280, -- [11]
-			"Player-58-0B0514FA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Silnarn-Stormreaver|r",
-			[51] = 1537972660,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [55]
-		{
-			"ya it walks around duskwood", -- [1]
-			"Silnarn-Stormreaver", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Silnarn-Stormreaver", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			281, -- [11]
-			"Player-58-0B0514FA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Silnarn-Stormreaver|r",
-			[51] = 1537972673,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [56]
-		{
-			"but alot of people camp it", -- [1]
-			"Silnarn-Stormreaver", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Silnarn-Stormreaver", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			282, -- [11]
-			"Player-58-0B0514FA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Silnarn-Stormreaver|r",
-			[51] = 1537972678,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [57]
-		{
-			"I like all the spirit models but since the spec changes that made them all tanks I figured the bear is the way to go", -- [1]
-			"Silnarn-Stormreaver", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Silnarn-Stormreaver", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			283, -- [11]
-			"Player-58-0B0514FA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Silnarn-Stormreaver|r",
-			[51] = 1537972684,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [58]
-		{
-			"and you can oneshot it so if you tame it someone can ez kill it", -- [1]
-			"Silnarn-Stormreaver", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Silnarn-Stormreaver", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			284, -- [11]
-			"Player-58-0B0514FA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Silnarn-Stormreaver|r",
-			[51] = 1537972689,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [59]
 		{
 			"I just camped the twilight highlands lion for my alliance hunter, twice, so I could use him with AC lol", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -1342,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972717,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [60]
+		}, -- [1]
 		{
 			"im trying to make a sylvanas mog", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -1364,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972742,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [61]
+		}, -- [2]
 		{
 			"ya I can see that, very close", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -1386,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972754,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [62]
+		}, -- [3]
 		{
 			"Im really happy with this warfront mog, looks very rogue-y, so many of sets are huge bulky armor - plus it goes perfectly with bloodwing and widow mounts", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -1408,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972807,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [63]
+		}, -- [4]
 		{
 			"easiest mog Ive ever had - hopefully I dont fall down the rabbit hole of camping rare hunter pet spawns though ><", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -1430,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972846,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [64]
+		}, -- [5]
 		{
 			"anyway gl, looking sharp o7", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -1452,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972858,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [65]
+		}, -- [6]
 		{
 			"nice talking to ya bud ;)", -- [1]
 			"Silnarn-Stormreaver", -- [2]
@@ -1474,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Silnarn-Stormreaver|r",
 			[51] = 1537972868,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [66]
+		}, -- [7]
 		{
 			"nice man how long did it take to get that pet?", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -1496,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537972881,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [67]
+		}, -- [8]
 		{
 			"3 weeks lol", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -1518,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537972949,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [68]
+		}, -- [9]
 		{
 			"daaamn", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -1540,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537972954,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [69]
+		}, -- [10]
 		{
 			"Im camping the bear right now on my hunter, so far it sucks LOL", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -1562,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537972968,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [70]
+		}, -- [11]
 		{
 			"4-5 hrs per day", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -1584,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537972971,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [71]
+		}, -- [12]
 		{
 			"which bear?", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -1606,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537972987,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [72]
+		}, -- [13]
 		{
 			"arcturis", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -1628,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537972995,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [73]
+		}, -- [14]
 		{
 			" tried for hom", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -1650,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537973010,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [74]
+		}, -- [15]
 		{
 			"him", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -1672,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537973015,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [75]
+		}, -- [16]
 		{
 			"i never did that 1", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -1694,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537973028,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [76]
+		}, -- [17]
 		{
 			"ya he has the one static spawn so I just set a timer from server respawn and log in a few mins before on the hour", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -1716,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537973049,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [77]
+		}, -- [18]
 		{
 			"server restarted this morning at 9:12am EST btw if you're doing the same", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -1738,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537973063,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [78]
+		}, -- [19]
 		{
 			"the respawns are like clockwork, I set my watch by Sambas yesterday lol - got him twice actually ", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -1760,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537973094,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [79]
+		}, -- [20]
 		{
 			"ofc with arcturis theres always other hunters there so if one of em gets mad and hits barrage it's back to the drawing board", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -1782,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537973121,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [80]
+		}, -- [21]
 		{
 			"I need a break from pet hunting lol just got loque 2 days ago", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -1804,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537973125,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [81]
+		}, -- [22]
 		{
 			"nice grats", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -1826,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537973132,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [82]
+		}, -- [23]
 		{
 			"sambas is easy to get if youre interested, I think its a great model but ofc more alliance-themed", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -1848,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537973152,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [83]
+		}, -- [24]
 		{
 			"spawns like clockwork 6 hours after server start, 5 different spawns, takes 30 secs to travel between them", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -1870,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537973180,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [84]
+		}, -- [25]
 		{
 			"tks n yur right there", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -1892,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537973182,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [85]
+		}, -- [26]
 		{
 			"I heard arcturis spawn time is different, WOTLK rares are on a random 6-24 hour timer from server start? is that right?", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -1914,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537973214,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [86]
+		}, -- [27]
 		{
 			"sadly yes so potluck finding them and there are quests that need to kill them so pretty crowded at times", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -1936,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537973279,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [87]
+		}, -- [28]
 		{
 			"do you just rely on NPCscan alarm to go off or do you actively watch for them?", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -1958,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537973398,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [88]
+		}, -- [29]
 		{
 			"whoops time to log on my hunter - congrats on the cat!    :D", -- [1]
 			"Ertzart-Shadowmoon", -- [2]
@@ -1980,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ertzart-Shadowmoon|r",
 			[51] = 1537973484,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [89]
+		}, -- [30]
 		{
 			"|cffffff00Fordragon Hold is under attack!|r", -- [1]
 			"", -- [2]
@@ -2002,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1537975793,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [31]
 		{
 			"haro", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2024,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537991354,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [91]
+		}, -- [32]
 		{
 			"haro", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2046,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537991361,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [92]
+		}, -- [33]
 		{
 			"haro", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2068,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1537991369,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [93]
+		}, -- [34]
 		{
 			"|cffffff00Grand Bazaar is under attack!|r", -- [1]
 			"", -- [2]
@@ -2090,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1538046761,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [35]
 		{
 			"can we get in warfronts yet or just contribute?", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2112,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538052759,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [36]
 		{
 			"ah for like a week or whatever?", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2134,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538052783,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [37]
 		{
 			"are there any rewards besides rep for contributing? Im already exalted with honorbound", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2156,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538052900,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [38]
 		{
 			"ty", -- [1]
 			"Dirtyudder-Zul'jin", -- [2]
@@ -2178,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aDirtyudder-Zul'jin|r",
 			[51] = 1538135111,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [98]
+		}, -- [39]
 		{
 			"|cffffff00Xibala is under attack!|r", -- [1]
 			"", -- [2]
@@ -2200,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1538148808,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [99]
+		}, -- [40]
 		{
 			"do quests like this give zandalari rep as well as honorbound? |cffffff00|Hquest:51051:-1:120:120:0|h[Supplies Needed: Deep Sea Satin]|h|r", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2222,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538149274,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [100]
+		}, -- [41]
 		{
 			"wow 2 whole zandalari rep quests in the past 12 hours", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2244,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538226749,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [101]
+		}, -- [42]
 		{
 			"if I do 100% of them every day I might get lucky and get exalted by christmas", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2266,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538226775,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [102]
+		}, -- [43]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:974:Player-3693-09ED9289:1:9:30:18:4294967295:4294967295:4294967295:4294967295|h[50 Daily Quests Completed]|h|r!", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2288,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538299081,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [103]
+		}, -- [44]
 		{
 			"anyone for |cffffff00|Hquest:51069:-1:110:120:5|h[WANTED: Darkspeaker Jo'la]|h|r?", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2310,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538299103,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [104]
+		}, -- [45]
 		{
 			"|cffffff00Grand Bazaar is under attack!|r", -- [1]
 			"", -- [2]
@@ -2332,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1538324007,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [105]
+		}, -- [46]
 		{
 			"pls accept", -- [1]
 			"Blackpanda-Azralon", -- [2]
@@ -2354,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Blackpanda-Azralon|r",
 			[51] = 1538324758,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [106]
+		}, -- [47]
 		{
 			"accept pls", -- [1]
 			"Blackpanda-Azralon", -- [2]
@@ -2376,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Blackpanda-Azralon|r",
 			[51] = 1538324868,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [107]
+		}, -- [48]
 		{
 			"hi", -- [1]
 			"Nificent-Dalaran", -- [2]
@@ -2398,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaNificent-Dalaran|r",
 			[51] = 1538324927,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [108]
+		}, -- [49]
 		{
 			"hey where is he?", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2420,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538324928,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [109]
+		}, -- [50]
 		{
 			"I couldnt find him", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2442,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538324937,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [110]
+		}, -- [51]
 		{
 			"oh I see him", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2464,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538324953,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [111]
+		}, -- [52]
 		{
 			"nice!", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2486,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538324996,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [112]
+		}, -- [53]
 		{
 			"|cffffff00|Hquest:51091:-1:110:120:5|h[WANTED: Ten'gor and Nol'ixwan]|h|r?", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2508,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538324998,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [113]
+		}, -- [54]
 		{
 			"ty", -- [1]
 			"Nificent-Dalaran", -- [2]
@@ -2530,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaNificent-Dalaran|r",
 			[51] = 1538325007,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [114]
+		}, -- [55]
 		{
 			"|cffffff00|Hquest:51091:-1:110:120:5|h[WANTED: Ten'gor and Nol'ixwan]|h|r?", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2552,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538325013,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [115]
+		}, -- [56]
 		{
 			"we can prob do it", -- [1]
 			"Kezia-KulTiras", -- [2]
@@ -2574,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Kezia-KulTiras|r",
 			[51] = 1538325025,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [116]
+		}, -- [57]
 		{
 			"ya sure", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2596,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538325030,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [117]
+		}, -- [58]
 		{
 			"get triceratops first", -- [1]
 			"Kezia-KulTiras", -- [2]
@@ -2618,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Kezia-KulTiras|r",
 			[51] = 1538325042,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [118]
+		}, -- [59]
 		{
 			"dunno how scaling works", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2640,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538325042,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [119]
+		}, -- [60]
 		{
 			"ty", -- [1]
 			"Kezia-KulTiras", -- [2]
@@ -2662,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Kezia-KulTiras|r",
 			[51] = 1538325101,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [120]
+		}, -- [61]
 		{
 			"nice!", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2684,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538325105,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [121]
+		}, -- [62]
 		{
 			"got any others?", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2706,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538325107,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [122]
+		}, -- [63]
 		{
 			"thats it ", -- [1]
 			"Kezia-KulTiras", -- [2]
@@ -2728,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Kezia-KulTiras|r",
 			[51] = 1538325110,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [123]
+		}, -- [64]
 		{
 			"cool me too ty", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2750,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538325116,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [124]
+		}, -- [65]
 		{
 			"thank you", -- [1]
 			"Kezia-KulTiras", -- [2]
@@ -2772,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Kezia-KulTiras|r",
 			[51] = 1538325116,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [125]
+		}, -- [66]
 		{
 			"this quest is hot trash", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2794,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538325470,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [126]
+		}, -- [67]
 		{
 			"need more?", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2816,6 +1518,1304 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538325507,
 			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [68]
+		{
+			"大脚任务进度提示: 已消灭扭曲的莱赞之子：1/1(完成)", -- [1]
+			"Dasheipi-Illidan", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Dasheipi-Illidan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			209, -- [11]
+			"Player-57-0AF5B258", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Dasheipi-Illidan|r",
+			[51] = 1538409637,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [69]
+		{
+			"大脚任务进度提示: 已消灭扭曲的莱赞之子：1/1(完成)", -- [1]
+			"Minorie-Illidan", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Minorie-Illidan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			210, -- [11]
+			"Player-57-08FAC777", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Minorie-Illidan|r",
+			[51] = 1538409637,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [70]
+		{
+			"大脚任务进度提示: 在祖达萨完成4个世界任务。：1/1(完成)", -- [1]
+			"Minorie-Illidan", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Minorie-Illidan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			216, -- [11]
+			"Player-57-08FAC777", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Minorie-Illidan|r",
+			[51] = 1538409637,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [71]
+		{
+			"赞达拉帝国 (任务完成)", -- [1]
+			"Minorie-Illidan", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Minorie-Illidan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			220, -- [11]
+			"Player-57-08FAC777", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Minorie-Illidan|r",
+			[51] = 1538409638,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [72]
+		{
+			"|cffffff00Zuldazar is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Zuldazar", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Zuldazar", -- [9]
+			0, -- [10]
+			282, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1538409892,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [73]
+		{
+			"DID WE WIN?", -- [1]
+			"Nattydreåd-Uldum", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nattydreåd-Uldum", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			18, -- [11]
+			"Player-116-080294B7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dNattydreåd-Uldum|r",
+			[51] = 1538462993,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [74]
+		{
+			"you do realize that more than one person can loot a mine cart if you arent a dickbag and ninja it. click at about the same time and everyone gets it", -- [1]
+			"Nattydreåd-Uldum", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nattydreåd-Uldum", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			29, -- [11]
+			"Player-116-080294B7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dNattydreåd-Uldum|r",
+			[51] = 1538463063,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [75]
+		{
+			"hey guys, ANYONE GOT WOOOOOOD!?!", -- [1]
+			"Nattydreåd-Uldum", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nattydreåd-Uldum", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			68, -- [11]
+			"Player-116-080294B7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dNattydreåd-Uldum|r",
+			[51] = 1538463311,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [76]
+		{
+			"every morning", -- [1]
+			"Frøjya-Arathor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Frøjya-Arathor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			71, -- [11]
+			"Player-1165-07CC22C9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaFrøjya-Arathor|r",
+			[51] = 1538463326,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [77]
+		{
+			"interesting afk spot aleralin", -- [1]
+			"Ashilly-Thrall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ashilly-Thrall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			72, -- [11]
+			"Player-3678-0AEAF365", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aAshilly-Thrall|r",
+			[51] = 1538463331,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [78]
+		{
+			"thats my boi", -- [1]
+			"Nattydreåd-Uldum", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nattydreåd-Uldum", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			74, -- [11]
+			"Player-116-080294B7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dNattydreåd-Uldum|r",
+			[51] = 1538463334,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [79]
+		{
+			"i died", -- [1]
+			"Aleralin-Illidan", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aleralin-Illidan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			75, -- [11]
+			"Player-57-0B139B31", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Aleralin-Illidan|r",
+			[51] = 1538463342,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [80]
+		{
+			"just like BFA? lol", -- [1]
+			"Nattydreåd-Uldum", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nattydreåd-Uldum", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			76, -- [11]
+			"Player-116-080294B7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dNattydreåd-Uldum|r",
+			[51] = 1538463369,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [81]
+		{
+			"wtf is everyone doing lol", -- [1]
+			"Xarkahn-Area52", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Xarkahn-Area52", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			88, -- [11]
+			"Player-3676-09FB4062", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Xarkahn-Area52|r",
+			[51] = 1538463651,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [82]
+		{
+			"gathering resources", -- [1]
+			"Nakedfather-Illidan", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nakedfather-Illidan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			89, -- [11]
+			"Player-57-04DD767F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Nakedfather-Illidan|r",
+			[51] = 1538463664,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [83]
+		{
+			"building", -- [1]
+			"Phazed-Stormscale", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phazed-Stormscale", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			90, -- [11]
+			"Player-127-0840733D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffffffffPhazed-Stormscale|r",
+			[51] = 1538463665,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [84]
+		{
+			"talking crap on the forums?", -- [1]
+			"Nattydreåd-Uldum", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nattydreåd-Uldum", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			91, -- [11]
+			"Player-116-080294B7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dNattydreåd-Uldum|r",
+			[51] = 1538463671,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [85]
+		{
+			"we should be good to zerg mid now yeah?", -- [1]
+			"Phazed-Stormscale", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Phazed-Stormscale", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			92, -- [11]
+			"Player-127-0840733D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffffffffPhazed-Stormscale|r",
+			[51] = 1538463679,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [86]
+		{
+			"typical flog", -- [1]
+			"Bigdaddybob-Barthilas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bigdaddybob-Barthilas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			93, -- [11]
+			"Player-3723-0A976645", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Bigdaddybob-Barthilas|r",
+			[51] = 1538463683,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [87]
+		{
+			"go ahead", -- [1]
+			"Nakedfather-Illidan", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nakedfather-Illidan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			94, -- [11]
+			"Player-57-04DD767F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Nakedfather-Illidan|r",
+			[51] = 1538463693,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [88]
+		{
+			"I put up Demos", -- [1]
+			"Nakedfather-Illidan", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nakedfather-Illidan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			95, -- [11]
+			"Player-57-04DD767F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Nakedfather-Illidan|r",
+			[51] = 1538463697,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [89]
+		{
+			"i only have so much damn WOOD bruh", -- [1]
+			"Nattydreåd-Uldum", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nattydreåd-Uldum", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			98, -- [11]
+			"Player-116-080294B7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dNattydreåd-Uldum|r",
+			[51] = 1538463714,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [90]
+		{
+			"yo stabs, wth are you two doing??", -- [1]
+			"Ashilly-Thrall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ashilly-Thrall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			101, -- [11]
+			"Player-3678-0AEAF365", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aAshilly-Thrall|r",
+			[51] = 1538463752,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [91]
+		{
+			"afking", -- [1]
+			"Nattydreåd-Uldum", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nattydreåd-Uldum", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			106, -- [11]
+			"Player-116-080294B7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dNattydreåd-Uldum|r",
+			[51] = 1538463786,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [92]
+		{
+			"vote to kick", -- [1]
+			"Bigdaddybob-Barthilas", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bigdaddybob-Barthilas", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			108, -- [11]
+			"Player-3723-0A976645", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Bigdaddybob-Barthilas|r",
+			[51] = 1538463795,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [93]
+		{
+			"no", -- [1]
+			"Stabh-Thrall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stabh-Thrall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			110, -- [11]
+			"Player-3678-0ACD4461", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Stabh-Thrall|r",
+			[51] = 1538463798,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [94]
+		{
+			"yea reporring both", -- [1]
+			"Ashilly-Thrall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ashilly-Thrall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			111, -- [11]
+			"Player-3678-0AEAF365", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aAshilly-Thrall|r",
+			[51] = 1538463798,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [95]
+		{
+			"im not", -- [1]
+			"Stabh-Thrall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stabh-Thrall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			112, -- [11]
+			"Player-3678-0ACD4461", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Stabh-Thrall|r",
+			[51] = 1538463800,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [96]
+		{
+			"??", -- [1]
+			"Stabh-Thrall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stabh-Thrall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			113, -- [11]
+			"Player-3678-0ACD4461", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Stabh-Thrall|r",
+			[51] = 1538463801,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [97]
+		{
+			"im testing something", -- [1]
+			"Stabh-Thrall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stabh-Thrall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			114, -- [11]
+			"Player-3678-0ACD4461", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Stabh-Thrall|r",
+			[51] = 1538463805,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [98]
+		{
+			"u can apparently grappling hook onto the wall", -- [1]
+			"Stabh-Thrall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stabh-Thrall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			115, -- [11]
+			"Player-3678-0ACD4461", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Stabh-Thrall|r",
+			[51] = 1538463811,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [99]
+		{
+			"you both have been running around for 10 minutes doing nothing", -- [1]
+			"Ashilly-Thrall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ashilly-Thrall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			117, -- [11]
+			"Player-3678-0AEAF365", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aAshilly-Thrall|r",
+			[51] = 1538463814,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [100]
+		{
+			"theres a video for it", -- [1]
+			"Stabh-Thrall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stabh-Thrall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			118, -- [11]
+			"Player-3678-0ACD4461", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Stabh-Thrall|r",
+			[51] = 1538463815,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [101]
+		{
+			"i solo'd the mine", -- [1]
+			"Stabh-Thrall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Stabh-Thrall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			119, -- [11]
+			"Player-3678-0ACD4461", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Stabh-Thrall|r",
+			[51] = 1538463825,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [102]
+		{
+			"200 iron inc", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			120, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1538463832,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [103]
+		{
+			"nice only one more", -- [1]
+			"Ashilly-Thrall", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ashilly-Thrall", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			130, -- [11]
+			"Player-3678-0AEAF365", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aAshilly-Thrall|r",
+			[51] = 1538463892,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [104]
+		{
+			"positiveion is afk in base", -- [1]
+			"Nattydreåd-Uldum", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nattydreåd-Uldum", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			139, -- [11]
+			"Player-116-080294B7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dNattydreåd-Uldum|r",
+			[51] = 1538463979,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [105]
+		{
+			"yep", -- [1]
+			"Nakedfather-Illidan", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nakedfather-Illidan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			143, -- [11]
+			"Player-57-04DD767F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Nakedfather-Illidan|r",
+			[51] = 1538463991,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [106]
+		{
+			"he's been for a while", -- [1]
+			"Nakedfather-Illidan", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nakedfather-Illidan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			145, -- [11]
+			"Player-57-04DD767F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Nakedfather-Illidan|r",
+			[51] = 1538463994,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [107]
+		{
+			"nice reset.", -- [1]
+			"Nakedfather-Illidan", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nakedfather-Illidan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			151, -- [11]
+			"Player-57-04DD767F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Nakedfather-Illidan|r",
+			[51] = 1538464128,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [108]
+		{
+			"need a pile of dps for coe", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			155, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1538464154,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [109]
+		{
+			"if you like to run from battles, join the alliance", -- [1]
+			"Nakedfather-Illidan", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nakedfather-Illidan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			156, -- [11]
+			"Player-57-04DD767F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Nakedfather-Illidan|r",
+			[51] = 1538464158,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [110]
+		{
+			"nvm lol", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			159, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1538464165,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [111]
+		{
+			"coe is done", -- [1]
+			"Aleralin-Illidan", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aleralin-Illidan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			161, -- [11]
+			"Player-57-0B139B31", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Aleralin-Illidan|r",
+			[51] = 1538464167,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [112]
+		{
+			"can you heal foz?", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			162, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1538464190,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [113]
+		{
+			"WATCH OUR RIGHT FLANK", -- [1]
+			"Nakedfather-Illidan", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nakedfather-Illidan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			168, -- [11]
+			"Player-57-04DD767F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Nakedfather-Illidan|r",
+			[51] = 1538464238,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [114]
+		{
+			"YOUR OTHER RIGHT!", -- [1]
+			"Nattydreåd-Uldum", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Nattydreåd-Uldum", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			169, -- [11]
+			"Player-116-080294B7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dNattydreåd-Uldum|r",
+			[51] = 1538464256,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [115]
+		{
+			"anyone selling Zandalari contracts?", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			8, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1538486736,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [116]
+		{
+			"can anyone make a Zandalari contract if I provide mats?", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			126, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1538488651,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [117]
+		{
+			"WTB Zandalari contract", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			183, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1538488962,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [118]
+		{
+			"WTS |cffa335ee|Hitem:163955::::::::120:65::54:2:1472:4786:::|h[Khayurn, Blade of the Wolves]|h|r|cffa335ee|Hitem:35194::::::::120:65::::::|h[Schematic: Surestrike Goggles v3.0]|h|r|cff0070dd|Hitem:164302::::::::120:65::11::::|h[Plundered Twinbarb Shanker]|h|r", -- [1]
+			"Blackpaladin-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Blackpaladin", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			209, -- [11]
+			"Player-3693-09FFDE77", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff48cbaBlackpaladin|r",
+			[51] = 1538489139,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [119]
+		{
+			"howd you get that enchant? havent had that since wod", -- [1]
+			"Tgodscokecan-BleedingHollow", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Tgodscokecan-BleedingHollow", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			359, -- [11]
+			"Player-73-0BCA0E58", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dTgodscokecan-BleedingHollow|r",
+			[51] = 1538489301,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [120]
+		{
+			"if you got it in wod u should b able to use it from ur xmog closet", -- [1]
+			"Tgodscokecan-BleedingHollow", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Tgodscokecan-BleedingHollow", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			415, -- [11]
+			"Player-73-0BCA0E58", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dTgodscokecan-BleedingHollow|r",
+			[51] = 1538489351,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [121]
+		{
+			"hmm maybe locked to the character I got it on", -- [1]
+			"Tgodscokecan-BleedingHollow", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Tgodscokecan-BleedingHollow", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			445, -- [11]
+			"Player-73-0BCA0E58", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dTgodscokecan-BleedingHollow|r",
+			[51] = 1538489376,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [122]
+		{
+			"I'll look into it ty", -- [1]
+			"Tgodscokecan-BleedingHollow", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Tgodscokecan-BleedingHollow", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			465, -- [11]
+			"Player-73-0BCA0E58", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dTgodscokecan-BleedingHollow|r",
+			[51] = 1538489392,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [123]
+		{
+			"WTB BFA Greens 100g each, PST or COD!!!", -- [1]
+			"Yeslesso-Stormreaver", -- [2]
+			"", -- [3]
+			"1. General - Orgrimmar", -- [4]
+			"Yeslesso-Stormreaver", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Orgrimmar", -- [9]
+			0, -- [10]
+			1484, -- [11]
+			"Player-58-0B1D4C17", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Yeslesso-Stormreaver|r",
+			[51] = 1538490323,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [124]
+		{
+			"|cffffff00The Sliver is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Zuldazar", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Zuldazar", -- [9]
+			0, -- [10]
+			2079, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1538497032,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [125]
+		{
+			"WTB Zandalari contract PST", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2172, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1538498783,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [126]
+		{
+			"anyone got a Zandalari contract for sale?", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1538501712,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},
 }

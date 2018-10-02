@@ -1519,5 +1519,27 @@ ElvCharacterDB = {
 			[51] = 1537886313,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [68]
+		{
+			"wts|cffa335ee|Hitem:161072::::::::120:259::5:3:4799:1492:4786:::|h[Splatterguards]|h|rpst", -- [1]
+			"Perceptionsz-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Perceptionsz", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			712, -- [11]
+			"Player-3693-09FCC689", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Perceptionsz|r",
+			[51] = 1537887276,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [69]
 	},
 }

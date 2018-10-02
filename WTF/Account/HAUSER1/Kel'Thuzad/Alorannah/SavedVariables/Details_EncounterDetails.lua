@@ -3,6 +3,66 @@ EncounterDetailsDB = {
 	["emotes"] = {
 		{
 			{
+				0.175000000046566, -- [1]
+				"Why defy that which devours all things?", -- [2]
+				"Chronomatic Anomaly", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				28.2120000000577, -- [1]
+				"A Waning Time Particle falls out of the Nightwell.", -- [2]
+				"Chronomatic Anomaly", -- [3]
+				1, -- [4]
+			}, -- [2]
+			{
+				35.1810000000987, -- [1]
+				"The wheels of time turn against you.", -- [2]
+				"Chronomatic Anomaly", -- [3]
+				5, -- [4]
+			}, -- [3]
+			{
+				36.6830000001937, -- [1]
+				"|TInterface\\Icons\\spell_mage_altertime:20|tYou've been given a |cFFFF0000|Hspell:206617|h[Time Bomb]|h|r.", -- [2]
+				"Chronomatic Anomaly", -- [3]
+				2, -- [4]
+			}, -- [4]
+			{
+				55.2050000000745, -- [1]
+				"|TInterface\\Icons\\inv_archonpet:20|t%s begins casting |cFFFF0000|Hspell:211927|h[Power Overwhelming]|h|r!", -- [2]
+				"Chronomatic Anomaly", -- [3]
+				1, -- [4]
+			}, -- [5]
+			["boss"] = "Chronomatic Anomaly",
+		}, -- [1]
+		{
+			{
+				12.2150000000838, -- [1]
+				"|TInterface\\Icons\\Spell_Arcane_MassDispel:20|t %s begins to cast |cFFFF0000|Hspell:204471|h[Focused Blast]|h|r.", -- [2]
+				"Skorpyron", -- [3]
+				1, -- [4]
+			}, -- [1]
+			{
+				52.9839999999385, -- [1]
+				"|TInterface\\Icons\\Spell_Arcane_MassDispel:20|t %s begins to cast |cFFFF0000|Hspell:204471|h[Focused Blast]|h|r.", -- [2]
+				"Skorpyron", -- [3]
+				1, -- [4]
+			}, -- [2]
+			{
+				57.6000000000931, -- [1]
+				"|TInterface\\Icons\\ability_skyreach_wind:20|t %s begins to cast |cFFFF0000|Hspell:204316|h[Shockwave]|h|r.", -- [2]
+				"Skorpyron", -- [3]
+				1, -- [4]
+			}, -- [3]
+			{
+				87.4620000000578, -- [1]
+				"|TInterface\\Icons\\Spell_Arcane_MassDispel:20|t %s begins to cast |cFFFF0000|Hspell:204471|h[Focused Blast]|h|r.", -- [2]
+				"Skorpyron", -- [3]
+				1, -- [4]
+			}, -- [4]
+			["boss"] = "Skorpyron",
+		}, -- [2]
+		{
+			{
 				0.224999999976717, -- [1]
 				"Why defy that which devours all things?", -- [2]
 				"Chronomatic Anomaly", -- [3]
@@ -33,48 +93,6 @@ EncounterDetailsDB = {
 				1, -- [4]
 			}, -- [5]
 			["boss"] = "Chronomatic Anomaly",
-		}, -- [1]
-		{
-			{
-				12.3129999999655, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MassDispel:20|t %s begins to cast |cFFFF0000|Hspell:204471|h[Focused Blast]|h|r.", -- [2]
-				"Skorpyron", -- [3]
-				1, -- [4]
-			}, -- [1]
-			{
-				45.0409999999683, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MassDispel:20|t %s begins to cast |cFFFF0000|Hspell:204471|h[Focused Blast]|h|r.", -- [2]
-				"Skorpyron", -- [3]
-				1, -- [4]
-			}, -- [2]
-			{
-				68.8329999999842, -- [1]
-				"|TInterface\\Icons\\ability_skyreach_wind:20|t %s begins to cast |cFFFF0000|Hspell:204316|h[Shockwave]|h|r.", -- [2]
-				"Skorpyron", -- [3]
-				1, -- [4]
-			}, -- [3]
-			{
-				80.25, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MassDispel:20|t %s begins to cast |cFFFF0000|Hspell:204471|h[Focused Blast]|h|r.", -- [2]
-				"Skorpyron", -- [3]
-				1, -- [4]
-			}, -- [4]
-			{
-				127.256999999983, -- [1]
-				"|TInterface\\Icons\\ability_skyreach_wind:20|t %s begins to cast |cFFFF0000|Hspell:204316|h[Shockwave]|h|r.", -- [2]
-				"Skorpyron", -- [3]
-				1, -- [4]
-			}, -- [5]
-			{
-				138.545999999973, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MassDispel:20|t %s begins to cast |cFFFF0000|Hspell:204471|h[Focused Blast]|h|r.", -- [2]
-				"Skorpyron", -- [3]
-				1, -- [4]
-			}, -- [6]
-			["boss"] = "Skorpyron",
-		}, -- [2]
-		{
-			["boss"] = "Opera Hall",
 		}, -- [3]
 	},
 	["encounter_spells"] = {

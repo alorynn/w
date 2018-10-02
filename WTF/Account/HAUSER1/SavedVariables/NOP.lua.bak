@@ -7,6 +7,12 @@ NewOpenablesProfile = {
 		["Blahndee - Kel'Thuzad"] = {
 			["itemID"] = 160439,
 		},
+		["Alauranna - Kel'Thuzad"] = {
+			["itemID"] = 163612,
+		},
+		["Hauzer - Kel'Thuzad"] = {
+			["itemID"] = 163613,
+		},
 		["Kmkarbashian - Kel'Thuzad"] = {
 			["itemID"] = 138797,
 		},

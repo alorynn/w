@@ -6,17 +6,3 @@ X: 0
 Y: 0
 W: 365
 H: 240
-Frame: MogItPreview2
-FrameLevel: 2
-Anchor: CENTER
-X: 0
-Y: 0
-W: 1218
-H: 1196
-Frame: MogItPreview1
-FrameLevel: 2
-Anchor: TOPRIGHT
-X: -1
-Y: 0
-W: 1042
-H: 1198
