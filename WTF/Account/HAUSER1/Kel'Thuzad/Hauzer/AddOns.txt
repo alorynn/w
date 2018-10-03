@@ -86,7 +86,7 @@ ConsLegion: disabled
 AutoLootPlus: enabled
 BetterIconSelector: enabled
 BetterIconSelector-KeywordData: enabled
-Clique: enabled
+Clique: disabled
 Details: enabled
 Details_DmgRank: enabled
 Details_DpsTuning: enabled

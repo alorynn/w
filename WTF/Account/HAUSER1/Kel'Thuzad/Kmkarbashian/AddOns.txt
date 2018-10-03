@@ -44,7 +44,7 @@ AddOnSkins: enabled
 ElvUI_Config: enabled
 ElvUI: enabled
 AutoLootPlus: enabled
-Clique: enabled
+Clique: disabled
 ConsLegion: disabled
 Details: enabled
 Details_DmgRank: enabled

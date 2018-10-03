@@ -85,7 +85,7 @@ OPie: enabled
 AutoLootPlus: enabled
 BetterIconSelector: enabled
 BetterIconSelector-KeywordData: enabled
-Clique: enabled
+Clique: disabled
 ConsLegion: disabled
 Details: enabled
 Details_DmgRank: enabled

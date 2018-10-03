@@ -20,7 +20,7 @@ Bartender4: enabled
 BetterIconSelector: enabled
 BetterIconSelector-KeywordData: enabled
 Broker_Volume: enabled
-Clique: enabled
+Clique: disabled
 ConsLegion: disabled
 Details: enabled
 Details_DmgRank: enabled

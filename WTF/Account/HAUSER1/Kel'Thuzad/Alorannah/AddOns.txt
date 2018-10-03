@@ -14,7 +14,7 @@ Bartender4: enabled
 BetterIconSelector: enabled
 BetterIconSelector-KeywordData: enabled
 Broker_Volume: enabled
-Clique: enabled
+Clique: disabled
 Details: enabled
 Details_DmgRank: enabled
 Details_DpsTuning: enabled
