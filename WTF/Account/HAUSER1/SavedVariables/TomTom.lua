@@ -22,28 +22,28 @@ TomTomDB = {
 		["Hauzerogue - Kel'Thuzad"] = "Default",
 		["Hauzerina - Moon Guard"] = "Default",
 		["Hauzerone - Dalaran"] = "Default",
-		["Laurannah - Undermine"] = "Default",
+		["Lorranah - Kel'Thuzad"] = "Default",
 		["Pharrah - Kel'Thuzad"] = "Default",
-		["Shamwowow - Kel'Thuzad"] = "Default",
+		["Loranah - Kel'Thuzad"] = "Default",
 		["Deeke - Kel'Thuzad"] = "Default",
-		["Testfoolio - Kel'Thuzad"] = "Default",
+		["Hoobastanko - Kel'Thuzad"] = "Default",
 		["Nigellah - Kel'Thuzad"] = "Default",
 		["Leeroyjenkem - Kel'Thuzad"] = "Default",
 		["Alorannah - Kel'Thuzad"] = "Default",
 		["Alurannah - Kel'Thuzad"] = "Default",
 		["Beatryss - Kel'Thuzad"] = "Default",
-		["Hauser - Mal'Ganis"] = "Default",
-		["Alaurannah - Undermine"] = "Default",
+		["Beatryce - Kel'Thuzad"] = "Default",
+		["Ugiyo - Kel'Thuzad"] = "Default",
 		["Hauzerhunter - Kel'Thuzad"] = "Default",
+		["Fsdkjhskdjfh - Kel'Thuzad"] = "Default",
+		["Alaurannah - Undermine"] = "Default",
 		["Olrapey - Kel'Thuzad"] = "Default",
 		["Skãdi - Kel'Thuzad"] = "Default",
-		["Fsdkjhskdjfh - Kel'Thuzad"] = "Default",
-		["Ugiyo - Kel'Thuzad"] = "Default",
-		["Beatryce - Kel'Thuzad"] = "Default",
+		["Hauser - Mal'Ganis"] = "Default",
 		["Hauzer - Kel'Thuzad"] = "Default",
-		["Hoobastanko - Kel'Thuzad"] = "Default",
-		["Loranah - Kel'Thuzad"] = "Default",
-		["Lorranah - Kel'Thuzad"] = "Default",
+		["Testfoolio - Kel'Thuzad"] = "Default",
+		["Shamwowow - Kel'Thuzad"] = "Default",
+		["Laurannah - Undermine"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -89,24 +89,24 @@ TomTomWaypointsM = {
 		["Loranno - Kel'Thuzad"] = "Loranno - Kel'Thuzad",
 		["Laurannah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Alisheeya - Kel'Thuzad"] = "Alisheeya - Kel'Thuzad",
-		["Laurannah - Undermine"] = "Laurannah - Undermine",
+		["Deeke - Kel'Thuzad"] = "Deeke - Kel'Thuzad",
 		["Foolioioio - Kel'Thuzad"] = "Foolioioio - Kel'Thuzad",
-		["Shamwowow - Kel'Thuzad"] = "Shamwowow - Kel'Thuzad",
+		["Nigellah - Kel'Thuzad"] = "Nigellah - Kel'Thuzad",
 		["Kmkarbashian - Kel'Thuzad"] = "Kmkarbashian - Kel'Thuzad",
 		["Blahndee - Kel'Thuzad"] = "Blahndee - Kel'Thuzad",
 		["Loranah - Kel'Thuzad"] = "Loranah - Kel'Thuzad",
-		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
-		["Testfoolio - Kel'Thuzad"] = "Testfoolio - Kel'Thuzad",
-		["Hauzerina - Kel'Thuzad"] = "Hauzerina - Kel'Thuzad",
-		["Lorranah - Kel'Thuzad"] = "Lorranah - Kel'Thuzad",
-		["Alaurannah - Undermine"] = "Alaurannah - Undermine",
-		["Darknstormie - Kel'Thuzad"] = "Darknstormie - Kel'Thuzad",
-		["Alauranna - Kel'Thuzad"] = "Alauranna - Kel'Thuzad",
-		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
 		["Loranus - Kel'Thuzad"] = "Loranus - Kel'Thuzad",
+		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
+		["Hauzerina - Kel'Thuzad"] = "Hauzerina - Kel'Thuzad",
+		["Darknstormie - Kel'Thuzad"] = "Darknstormie - Kel'Thuzad",
+		["Alaurannah - Undermine"] = "Alaurannah - Undermine",
+		["Lorranah - Kel'Thuzad"] = "Lorranah - Kel'Thuzad",
+		["Alauranna - Kel'Thuzad"] = "Alauranna - Kel'Thuzad",
+		["Testfoolio - Kel'Thuzad"] = "Testfoolio - Kel'Thuzad",
+		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
 		["Rogueout - Kel'Thuzad"] = "Rogueout - Kel'Thuzad",
-		["Nigellah - Kel'Thuzad"] = "Nigellah - Kel'Thuzad",
-		["Deeke - Kel'Thuzad"] = "Deeke - Kel'Thuzad",
+		["Shamwowow - Kel'Thuzad"] = "Shamwowow - Kel'Thuzad",
+		["Laurannah - Undermine"] = "Laurannah - Undermine",
 	},
 	["profiles"] = {
 		["Fooliolio - Kel'Thuzad"] = {
@@ -116,6 +116,50 @@ TomTomWaypointsM = {
 		["Loranno - Kel'Thuzad"] = {
 		},
 		["Laurannah - Kel'Thuzad"] = {
+			[198] = {
+				["198:590000000:240000000:TomTom waypoint"] = {
+					198, -- [1]
+					0.59, -- [2]
+					0.24, -- [3]
+					["world"] = true,
+					["cleardistance"] = 0,
+					["title"] = "TomTom waypoint",
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["crazy"] = false,
+					["persistent"] = true,
+					["minimap"] = true,
+				},
+			},
+			[33] = {
+				["33:370000000:680000000:TomTom waypoint"] = {
+					33, -- [1]
+					0.37, -- [2]
+					0.68, -- [3]
+					["world"] = true,
+					["cleardistance"] = 0,
+					["title"] = "TomTom waypoint",
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["crazy"] = false,
+					["persistent"] = true,
+					["minimap"] = true,
+				},
+			},
 			[882] = {
 				["882:241600000:587000000:TomTom waypoint"] = {
 					882, -- [1]
@@ -140,6 +184,28 @@ TomTomWaypointsM = {
 					["world"] = true,
 				},
 			},
+			[115] = {
+				["115:578000000:543000000:TomTom waypoint"] = {
+					115, -- [1]
+					0.578, -- [2]
+					0.543, -- [3]
+					["world"] = true,
+					["cleardistance"] = 0,
+					["title"] = "TomTom waypoint",
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["crazy"] = false,
+					["persistent"] = true,
+					["minimap"] = true,
+				},
+			},
 			[680] = {
 				["680:460000000:640000000:Entrance to Nighthold"] = {
 					680, -- [1]
@@ -162,6 +228,26 @@ TomTomWaypointsM = {
 					["crazy"] = false,
 					["minimap"] = true,
 					["world"] = true,
+				},
+				["680:620000000:830000000:TomTom waypoint"] = {
+					680, -- [1]
+					0.62, -- [2]
+					0.83, -- [3]
+					["world"] = true,
+					["cleardistance"] = 0,
+					["title"] = "TomTom waypoint",
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["crazy"] = false,
+					["persistent"] = true,
+					["minimap"] = true,
 				},
 			},
 			[116] = {
@@ -188,11 +274,31 @@ TomTomWaypointsM = {
 					["world"] = true,
 				},
 			},
-			[76] = {
-				["76:437100000:756900000:TomTom waypoint"] = {
-					76, -- [1]
-					0.4371, -- [2]
-					0.7569, -- [3]
+			[390] = {
+				["390:80000000:590000000:TomTom waypoint"] = {
+					390, -- [1]
+					0.08, -- [2]
+					0.59, -- [3]
+					["world"] = true,
+					["cleardistance"] = 0,
+					["title"] = "TomTom waypoint",
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["crazy"] = false,
+					["persistent"] = true,
+					["minimap"] = true,
+				},
+				["390:440000000:520000000:TomTom waypoint"] = {
+					390, -- [1]
+					0.44, -- [2]
+					0.52, -- [3]
 					["world"] = true,
 					["cleardistance"] = 0,
 					["title"] = "TomTom waypoint",
@@ -234,14 +340,58 @@ TomTomWaypointsM = {
 					["world"] = true,
 				},
 			},
+			[106] = {
+				["106:563000000:565000000:TomTom waypoint"] = {
+					106, -- [1]
+					0.563, -- [2]
+					0.565, -- [3]
+					["world"] = true,
+					["cleardistance"] = 0,
+					["title"] = "TomTom waypoint",
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["crazy"] = false,
+					["persistent"] = true,
+					["minimap"] = true,
+				},
+			},
+			[379] = {
+				["379:440000000:520000000:TomTom waypoint"] = {
+					379, -- [1]
+					0.44, -- [2]
+					0.52, -- [3]
+					["world"] = true,
+					["cleardistance"] = 0,
+					["title"] = "TomTom waypoint",
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["crazy"] = false,
+					["persistent"] = true,
+					["minimap"] = true,
+				},
+			},
 		},
 		["Alisheeya - Kel'Thuzad"] = {
 		},
-		["Laurannah - Undermine"] = {
+		["Deeke - Kel'Thuzad"] = {
 		},
 		["Foolioioio - Kel'Thuzad"] = {
 		},
-		["Shamwowow - Kel'Thuzad"] = {
+		["Nigellah - Kel'Thuzad"] = {
 		},
 		["Kmkarbashian - Kel'Thuzad"] = {
 		},
@@ -249,29 +399,29 @@ TomTomWaypointsM = {
 		},
 		["Loranah - Kel'Thuzad"] = {
 		},
-		["Hauzer - Kel'Thuzad"] = {
-		},
-		["Testfoolio - Kel'Thuzad"] = {
-		},
-		["Hauzerina - Kel'Thuzad"] = {
-		},
-		["Lorranah - Kel'Thuzad"] = {
-		},
-		["Alaurannah - Undermine"] = {
-		},
-		["Darknstormie - Kel'Thuzad"] = {
-		},
-		["Alauranna - Kel'Thuzad"] = {
+		["Loranus - Kel'Thuzad"] = {
 		},
 		["Alorannah - Kel'Thuzad"] = {
 		},
-		["Loranus - Kel'Thuzad"] = {
+		["Hauzerina - Kel'Thuzad"] = {
+		},
+		["Darknstormie - Kel'Thuzad"] = {
+		},
+		["Alaurannah - Undermine"] = {
+		},
+		["Lorranah - Kel'Thuzad"] = {
+		},
+		["Alauranna - Kel'Thuzad"] = {
+		},
+		["Testfoolio - Kel'Thuzad"] = {
+		},
+		["Hauzer - Kel'Thuzad"] = {
 		},
 		["Rogueout - Kel'Thuzad"] = {
 		},
-		["Nigellah - Kel'Thuzad"] = {
+		["Shamwowow - Kel'Thuzad"] = {
 		},
-		["Deeke - Kel'Thuzad"] = {
+		["Laurannah - Undermine"] = {
 		},
 	},
 }
