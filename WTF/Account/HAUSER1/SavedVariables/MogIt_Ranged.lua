@@ -1775,10 +1775,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -1793,10 +1793,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -1811,10 +1811,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -1831,10 +1831,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -4669,10 +4669,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -4687,10 +4687,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -6784,10 +6784,10 @@ MogIt_RangedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Dragon Soul",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
 			},

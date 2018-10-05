@@ -116,272 +116,64 @@ TomTomWaypointsM = {
 		["Loranno - Kel'Thuzad"] = {
 		},
 		["Laurannah - Kel'Thuzad"] = {
-			[198] = {
-				["198:590000000:240000000:TomTom waypoint"] = {
-					198, -- [1]
-					0.59, -- [2]
-					0.24, -- [3]
-					["world"] = true,
-					["cleardistance"] = 0,
-					["title"] = "TomTom waypoint",
+			[542] = {
+				["542:355000000:320000000:Clue 1: Lit Orb"] = {
+					542, -- [1]
+					0.355, -- [2]
+					0.32, -- [3]
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["crazy"] = false,
-					["persistent"] = true,
-					["minimap"] = true,
-				},
-			},
-			[33] = {
-				["33:370000000:680000000:TomTom waypoint"] = {
-					33, -- [1]
-					0.37, -- [2]
-					0.68, -- [3]
-					["world"] = true,
-					["cleardistance"] = 0,
-					["title"] = "TomTom waypoint",
-					["arrivaldistance"] = 15,
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
+							[15] = nil --[[ skipped inline function ]],
 						},
 						["world"] = {
-						},
-					},
-					["crazy"] = false,
-					["persistent"] = true,
-					["minimap"] = true,
-				},
-			},
-			[882] = {
-				["882:241600000:587000000:TomTom waypoint"] = {
-					882, -- [1]
-					0.2416, -- [2]
-					0.587, -- [3]
-					["arrivaldistance"] = 15,
-					["callbacks"] = {
-						["distance"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-						},
-						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
 					["persistent"] = true,
-					["desc"] = "TomTom waypoint",
+					["desc"] = "Clue 1: Lit Orb",
 					["silent"] = true,
 					["cleardistance"] = 0,
-					["title"] = "TomTom waypoint",
+					["title"] = "Clue 1: Lit Orb",
 					["crazy"] = false,
 					["minimap"] = true,
 					["world"] = true,
 				},
 			},
-			[115] = {
-				["115:578000000:543000000:TomTom waypoint"] = {
-					115, -- [1]
-					0.578, -- [2]
-					0.543, -- [3]
-					["world"] = true,
+			[37] = {
+				["37:174700000:564900000:Clue 2: Strange Seed"] = {
+					37, -- [1]
+					0.1747, -- [2]
+					0.5649, -- [3]
+					["minimap"] = true,
 					["cleardistance"] = 0,
-					["title"] = "TomTom waypoint",
+					["title"] = "Clue 2: Strange Seed",
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
-						},
-						["minimap"] = {
+							[15] = nil --[[ skipped inline function ]],
 						},
 						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
 					["crazy"] = false,
 					["persistent"] = true,
-					["minimap"] = true,
-				},
-			},
-			[680] = {
-				["680:460000000:640000000:Entrance to Nighthold"] = {
-					680, -- [1]
-					0.46, -- [2]
-					0.64, -- [3]
-					["arrivaldistance"] = 15,
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["persistent"] = true,
-					["desc"] = "Entrance to Nighthold",
-					["silent"] = true,
-					["cleardistance"] = 0,
-					["title"] = "Entrance to Nighthold",
-					["crazy"] = false,
-					["minimap"] = true,
 					["world"] = true,
-				},
-				["680:620000000:830000000:TomTom waypoint"] = {
-					680, -- [1]
-					0.62, -- [2]
-					0.83, -- [3]
-					["world"] = true,
-					["cleardistance"] = 0,
-					["title"] = "TomTom waypoint",
-					["arrivaldistance"] = 15,
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["crazy"] = false,
-					["persistent"] = true,
-					["minimap"] = true,
-				},
-			},
-			[116] = {
-				["116:309900000:560800000:Arcturis"] = {
-					116, -- [1]
-					0.3099, -- [2]
-					0.5608, -- [3]
-					["arrivaldistance"] = 15,
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["persistent"] = true,
-					["desc"] = "Arcturis",
-					["silent"] = true,
-					["cleardistance"] = 0,
-					["title"] = "Arcturis",
-					["crazy"] = false,
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
-			[390] = {
-				["390:80000000:590000000:TomTom waypoint"] = {
-					390, -- [1]
-					0.08, -- [2]
-					0.59, -- [3]
-					["world"] = true,
-					["cleardistance"] = 0,
-					["title"] = "TomTom waypoint",
-					["arrivaldistance"] = 15,
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["crazy"] = false,
-					["persistent"] = true,
-					["minimap"] = true,
-				},
-				["390:440000000:520000000:TomTom waypoint"] = {
-					390, -- [1]
-					0.44, -- [2]
-					0.52, -- [3]
-					["world"] = true,
-					["cleardistance"] = 0,
-					["title"] = "TomTom waypoint",
-					["arrivaldistance"] = 15,
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["crazy"] = false,
-					["persistent"] = true,
-					["minimap"] = true,
-				},
-			},
-			[885] = {
-				["885:547000000:391000000:ManyFaced Devourer"] = {
-					885, -- [1]
-					0.547, -- [2]
-					0.391, -- [3]
-					["arrivaldistance"] = 15,
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["persistent"] = true,
-					["desc"] = "ManyFaced Devourer",
-					["silent"] = true,
-					["cleardistance"] = 0,
-					["title"] = "ManyFaced Devourer",
-					["crazy"] = false,
-					["minimap"] = true,
-					["world"] = true,
-				},
-			},
-			[106] = {
-				["106:563000000:565000000:TomTom waypoint"] = {
-					106, -- [1]
-					0.563, -- [2]
-					0.565, -- [3]
-					["world"] = true,
-					["cleardistance"] = 0,
-					["title"] = "TomTom waypoint",
-					["arrivaldistance"] = 15,
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["crazy"] = false,
-					["persistent"] = true,
-					["minimap"] = true,
-				},
-			},
-			[379] = {
-				["379:440000000:520000000:TomTom waypoint"] = {
-					379, -- [1]
-					0.44, -- [2]
-					0.52, -- [3]
-					["world"] = true,
-					["cleardistance"] = 0,
-					["title"] = "TomTom waypoint",
-					["arrivaldistance"] = 15,
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["minimap"] = {
-						},
-						["world"] = {
-						},
-					},
-					["crazy"] = false,
-					["persistent"] = true,
-					["minimap"] = true,
 				},
 			},
 		},
@@ -416,6 +208,28 @@ TomTomWaypointsM = {
 		["Testfoolio - Kel'Thuzad"] = {
 		},
 		["Hauzer - Kel'Thuzad"] = {
+			[542] = {
+				["542:355000000:320000000:Clue 1: Lit Orb"] = {
+					542, -- [1]
+					0.355, -- [2]
+					0.32, -- [3]
+					["world"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Clue 1: Lit Orb",
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["minimap"] = {
+						},
+						["world"] = {
+						},
+					},
+					["crazy"] = false,
+					["persistent"] = true,
+					["minimap"] = true,
+				},
+			},
 		},
 		["Rogueout - Kel'Thuzad"] = {
 		},

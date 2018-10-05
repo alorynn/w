@@ -31,6 +31,10 @@ VER 3 010000000000000E "Mount" "INV_Misc_QuestionMark"
 #showtooltip Primal Flamesaber
 /cast [flyable] Pureblood Fire Hawk; Crimson Water Strider;
 END
+VER 3 0100000000000017 "Mount" "INV_Misc_QuestionMark"
+#showtooltip Stormwind Skychaser
+/cast [flyable] Stormwind Skychaser; Crimson Water Strider;
+END
 VER 3 0100000000000007 "Mounts" "236191"
 /click ORLOpen Mounts
 END

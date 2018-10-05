@@ -60,8 +60,11 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["5295606"] = "649000:27",
 	},
 	["Contract: Zandalari Empire"] = {
-		["is"] = "153664:0:0:0:0",
 		["5350044"] = "5393987:1",
+		["5353206"] = "6784852:1",
+		["is"] = "153664:0:0:0:0",
+		["5352179"] = "5393987:1",
+		["5353209"] = "6943987:1",
 	},
 	["Insulated Wiring"] = {
 		["5282801"] = "10600:44",
@@ -377,56 +380,56 @@ AUCTIONATOR_PRICING_HISTORY = {
 AUCTIONATOR_SHOPPING_LISTS = {
 	{
 		["items"] = {
-			"leystone ore", -- [1]
-			"felwort", -- [2]
-			"contract", -- [3]
-			"siren's pollen", -- [4]
-			"winter's kiss", -- [5]
-			"star moss", -- [6]
-			"sea stalk", -- [7]
-			"riverbud", -- [8]
-			"Anchor weed", -- [9]
-			"pigment", -- [10]
-			"crimson ink", -- [11]
-			"ultramarine ink", -- [12]
-			"sister", -- [13]
-			"contract: zan", -- [14]
-			"contract: tor", -- [15]
-			"sand shifter", -- [16]
-			"Incendiary", -- [17]
-			"ri emp", -- [18]
-			"blood-stained bone", -- [19]
-			"Akunda's bite", -- [20]
-			"Akuna's bite", -- [21]
-			"tidespray linen", -- [22]
-			";Glyph/Rogue;0;0;0;0", -- [23]
-			"poseidus", -- [24]
-			"coarse leather", -- [25]
-			"coarse leather ", -- [26]
-			"shimmerscale", -- [27]
-			"monelite ore", -- [28]
-			"Great sea catfish", -- [29]
-			"crow's nest scope", -- [30]
-			"monel-hardened stirrups", -- [31]
-			"steelskin potion", -- [32]
-			"straddling viridium", -- [33]
-			"enchant ring - seal of vers", -- [34]
-			"coarse leather barding", -- [35]
-			"war-scroll of fortitude", -- [36]
-			"tome of the tranquil mind", -- [37]
-			"monel-har", -- [38]
-			"monel hard", -- [39]
-			"monel stirr", -- [40]
-			"Deep sea ", -- [41]
-			"big fountain goldfish", -- [42]
-			"Deep sea bandage", -- [43]
-			"coastal", -- [44]
-			"tranquil mind", -- [45]
-			"redtail", -- [46]
-			"Astral glory", -- [47]
-			"fiendish leather", -- [48]
-			"lightweave cloth", -- [49]
-			"Glorious", -- [50]
+			"crimson pigment", -- [1]
+			"leystone ore", -- [2]
+			"felwort", -- [3]
+			"contract", -- [4]
+			"siren's pollen", -- [5]
+			"winter's kiss", -- [6]
+			"star moss", -- [7]
+			"sea stalk", -- [8]
+			"riverbud", -- [9]
+			"Anchor weed", -- [10]
+			"pigment", -- [11]
+			"crimson ink", -- [12]
+			"ultramarine ink", -- [13]
+			"sister", -- [14]
+			"contract: zan", -- [15]
+			"contract: tor", -- [16]
+			"sand shifter", -- [17]
+			"Incendiary", -- [18]
+			"ri emp", -- [19]
+			"blood-stained bone", -- [20]
+			"Akunda's bite", -- [21]
+			"Akuna's bite", -- [22]
+			"tidespray linen", -- [23]
+			";Glyph/Rogue;0;0;0;0", -- [24]
+			"poseidus", -- [25]
+			"coarse leather", -- [26]
+			"coarse leather ", -- [27]
+			"shimmerscale", -- [28]
+			"monelite ore", -- [29]
+			"Great sea catfish", -- [30]
+			"crow's nest scope", -- [31]
+			"monel-hardened stirrups", -- [32]
+			"steelskin potion", -- [33]
+			"straddling viridium", -- [34]
+			"enchant ring - seal of vers", -- [35]
+			"coarse leather barding", -- [36]
+			"war-scroll of fortitude", -- [37]
+			"tome of the tranquil mind", -- [38]
+			"monel-har", -- [39]
+			"monel hard", -- [40]
+			"monel stirr", -- [41]
+			"Deep sea ", -- [42]
+			"big fountain goldfish", -- [43]
+			"Deep sea bandage", -- [44]
+			"coastal", -- [45]
+			"tranquil mind", -- [46]
+			"redtail", -- [47]
+			"Astral glory", -- [48]
+			"fiendish leather", -- [49]
+			"lightweave cloth", -- [50]
 		},
 		["isRecents"] = 1,
 		["name"] = "Recent Searches",
@@ -1506,9 +1509,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Ultramarine Ink"] = {
 			["H2879"] = 6494,
-			["mr"] = 6494,
+			["mr"] = 2899,
 			["sc"] = 16,
 			["id"] = "158187:0:0:0:0",
+			["H2881"] = 2899,
 			["cc"] = 7,
 		},
 		["Coarse Leather"] = {
@@ -1589,6 +1593,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["L2860"] = 9305538,
 			["cc"] = 4,
 		},
+		["Anchor Weed"] = {
+			["H2879"] = 2900000,
+			["mr"] = 2900000,
+			["sc"] = 9,
+			["id"] = "152510:0:0:0:0",
+			["cc"] = 7,
+		},
 		["Tidespray Linen Bracers of the Peerless"] = {
 			["mr"] = 18922578,
 			["sc"] = 1,
@@ -1631,13 +1642,6 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "39340:0:0:0:0",
 			["cc"] = 7,
 		},
-		["Anchor Weed"] = {
-			["H2879"] = 2900000,
-			["mr"] = 2900000,
-			["sc"] = 9,
-			["id"] = "152510:0:0:0:0",
-			["cc"] = 7,
-		},
 		["Alabaster Pigment"] = {
 			["H2879"] = 1429713,
 			["mr"] = 1429713,
@@ -1658,6 +1662,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 16,
 			["id"] = "129032:0:0:0:0",
 			["cc"] = 7,
+		},
+		["Crimson Ink Well"] = {
+			["mr"] = 184990000,
+			["cc"] = 0,
+			["id"] = "162114:0:0:0:0",
+			["H2881"] = 184990000,
+			["sc"] = 8,
 		},
 		["Great Sea Catfish"] = {
 			["mr"] = 134000,
@@ -1772,6 +1783,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2879"] = 5393987,
 			["mr"] = 5393987,
 			["cc"] = 0,
+			["H2880"] = 5393987,
 			["id"] = "153664:0:0:0:0",
 			["sc"] = 8,
 		},
@@ -1972,9 +1984,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Crimson Pigment"] = {
 			["H2879"] = 83750,
-			["mr"] = 83750,
+			["mr"] = 76250,
 			["sc"] = 16,
 			["id"] = "153636:0:0:0:0",
+			["H2881"] = 76250,
 			["cc"] = 7,
 		},
 		["Coarse Leather Barding"] = {
@@ -2129,9 +2142,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Crimson Ink"] = {
 			["H2879"] = 86499,
-			["mr"] = 86499,
+			["mr"] = 55000,
 			["sc"] = 16,
 			["id"] = "158188:0:0:0:0",
+			["H2881"] = 55000,
 			["cc"] = 7,
 		},
 		["Tidespray Linen Pants of the Aurora"] = {

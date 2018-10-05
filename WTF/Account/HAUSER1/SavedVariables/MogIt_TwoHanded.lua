@@ -47,10 +47,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Ahn'kahet: The Old Kingdom",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Ahn'kahet: The Old Kingdom",
 					}, -- [1]
 				},
 			},
@@ -66,11 +66,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Terrace of Endless Spring",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Terrace of Endless Spring",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -99,10 +99,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -190,10 +190,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -210,9 +210,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -229,9 +229,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Temple of Ahn'Qiraj",
 						["difficulties"] = {
 						},
+						["instance"] = "Temple of Ahn'Qiraj",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -249,10 +249,10 @@ MogIt_TwoHandedDB = {
 							"Classic", -- [1]
 							"Mists of Pandaria", -- [2]
 						},
-						["instance"] = "Scholomance",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Scholomance",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -274,10 +274,10 @@ MogIt_TwoHandedDB = {
 							"Classic", -- [1]
 							"Mists of Pandaria", -- [2]
 						},
-						["instance"] = "Scholomance",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Scholomance",
 					}, -- [1]
 				},
 			},
@@ -293,9 +293,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Blackwing Lair",
 						["difficulties"] = {
 						},
+						["instance"] = "Blackwing Lair",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -303,9 +303,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Blackwing Lair",
 						["difficulties"] = {
 						},
+						["instance"] = "Blackwing Lair",
 					}, -- [2]
 					{
 						["instanceType"] = 2,
@@ -313,9 +313,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Blackwing Lair",
 						["difficulties"] = {
 						},
+						["instance"] = "Blackwing Lair",
 					}, -- [3]
 				},
 				["faction"] = 3,
@@ -332,11 +332,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Throne of Thunder",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -469,10 +469,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -496,10 +496,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Mana-Tombs",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Mana-Tombs",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -639,10 +639,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Champion",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Trial of the Champion",
 					}, -- [1]
 					{
 						["instanceType"] = 1,
@@ -650,10 +650,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Champion",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Trial of the Champion",
 					}, -- [2]
 				},
 				["faction"] = 3,
@@ -696,11 +696,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -724,10 +724,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Pit of Saron",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Pit of Saron",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -768,10 +768,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Grimrail Depot",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Grimrail Depot",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -786,9 +786,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Grimrail Depot",
 						["difficulties"] = {
 						},
+						["instance"] = "Grimrail Depot",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -805,9 +805,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Maraudon",
 						["difficulties"] = {
 						},
+						["instance"] = "Maraudon",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -831,9 +831,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Razorfen Kraul",
 						["difficulties"] = {
 						},
+						["instance"] = "Razorfen Kraul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -879,10 +879,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -899,9 +899,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Blackrock Depths",
 						["difficulties"] = {
 						},
+						["instance"] = "Blackrock Depths",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -1010,10 +1010,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Terrace of Endless Spring",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Terrace of Endless Spring",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -1030,10 +1030,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -1105,11 +1105,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Throne of Thunder",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -1166,15 +1166,10 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 		},
-		[13291] = {
-			[26911] = {
+		[14056] = {
+			[29738] = {
 				["classes"] = 103,
-				["sourceType"] = 4,
-				["faction"] = 3,
-			},
-			[26917] = {
-				["classes"] = 103,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
@@ -1237,10 +1232,10 @@ MogIt_TwoHandedDB = {
 							"Classic", -- [1]
 							"Mists of Pandaria", -- [2]
 						},
-						["instance"] = "Scarlet Halls",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Scarlet Halls",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -1267,10 +1262,10 @@ MogIt_TwoHandedDB = {
 							"Classic", -- [1]
 							"Mists of Pandaria", -- [2]
 						},
-						["instance"] = "Scarlet Halls",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Scarlet Halls",
 					}, -- [1]
 				},
 			},
@@ -1307,10 +1302,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -1327,10 +1322,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Black Temple",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Black Temple",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -1364,11 +1359,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Dragon Soul",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -1386,10 +1381,10 @@ MogIt_TwoHandedDB = {
 							"Cataclysm", -- [1]
 							"Classic", -- [2]
 						},
-						["instance"] = "Deadmines",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Deadmines",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -1405,10 +1400,10 @@ MogIt_TwoHandedDB = {
 							"Cataclysm", -- [1]
 							"Classic", -- [2]
 						},
-						["instance"] = "Deadmines",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Deadmines",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -1435,22 +1430,10 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 		},
-		[21163] = {
-			[61912] = {
+		[18358] = {
+			[47721] = {
 				["classes"] = 103,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Garrosh Hellscream",
-						["tiers"] = {
-							"Mists of Pandaria", -- [1]
-						},
-						["instance"] = "Siege of Orgrimmar",
-						["difficulties"] = {
-						},
-					}, -- [1]
-				},
+				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
@@ -1477,11 +1460,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "The Bastion of Twilight",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "The Bastion of Twilight",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -1496,11 +1479,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "The Bastion of Twilight",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "The Bastion of Twilight",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -1529,10 +1512,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Sethekk Halls",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Sethekk Halls",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -1547,10 +1530,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Magisters' Terrace",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Magisters' Terrace",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -1588,10 +1571,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Throne of the Tides",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Throne of the Tides",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -1611,10 +1594,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "The Vortex Pinnacle",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "The Vortex Pinnacle",
 					}, -- [1]
 				},
 			},
@@ -1630,10 +1613,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -1657,11 +1640,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -1681,10 +1664,22 @@ MogIt_TwoHandedDB = {
 				["faction"] = 3,
 			},
 		},
-		[18358] = {
-			[47721] = {
+		[21163] = {
+			[61912] = {
 				["classes"] = 103,
-				["sourceType"] = 3,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Garrosh Hellscream",
+						["tiers"] = {
+							"Mists of Pandaria", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Siege of Orgrimmar",
+					}, -- [1]
+				},
 				["faction"] = 3,
 			},
 		},
@@ -1706,11 +1701,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Terrace of Endless Spring",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Terrace of Endless Spring",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -1747,10 +1742,15 @@ MogIt_TwoHandedDB = {
 				["faction"] = 2,
 			},
 		},
-		[14056] = {
-			[29738] = {
+		[13291] = {
+			[26911] = {
 				["classes"] = 103,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
+				["faction"] = 3,
+			},
+			[26917] = {
+				["classes"] = 103,
+				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
@@ -1780,9 +1780,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "The Underrot",
 						["difficulties"] = {
 						},
+						["instance"] = "The Underrot",
 					}, -- [1]
 				},
 			},
@@ -1826,10 +1826,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -1858,10 +1858,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Halls of Lightning",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Halls of Lightning",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -1956,10 +1956,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Grimrail Depot",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Grimrail Depot",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -1983,10 +1983,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Utgarde Keep",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Utgarde Keep",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -2001,10 +2001,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "The Oculus",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "The Oculus",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -2047,10 +2047,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Throne of Thunder",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -2148,10 +2148,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Naxxramas",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -2181,10 +2181,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "End Time",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "End Time",
 					}, -- [1]
 				},
 			},
@@ -2231,10 +2231,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Ahn'kahet: The Old Kingdom",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Ahn'kahet: The Old Kingdom",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -2272,9 +2272,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Gruul's Lair",
 						["difficulties"] = {
 						},
+						["instance"] = "Gruul's Lair",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -2341,10 +2341,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Old Hillsbrad Foothills",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Old Hillsbrad Foothills",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -2361,9 +2361,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Blackfathom Deeps",
 						["difficulties"] = {
 						},
+						["instance"] = "Blackfathom Deeps",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -2378,9 +2378,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Dire Maul",
 						["difficulties"] = {
 						},
+						["instance"] = "Dire Maul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -2409,9 +2409,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Karazhan",
 						["difficulties"] = {
 						},
+						["instance"] = "Karazhan",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -2447,10 +2447,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Naxxramas",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -2496,9 +2496,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -2558,9 +2558,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "The Underrot",
 						["difficulties"] = {
 						},
+						["instance"] = "The Underrot",
 					}, -- [1]
 				},
 			},
@@ -2655,10 +2655,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -2675,10 +2675,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -2693,10 +2693,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -2720,10 +2720,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -2752,10 +2752,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "The Blood Furnace",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "The Blood Furnace",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -2779,9 +2779,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Gnomeregan",
 						["difficulties"] = {
 						},
+						["instance"] = "Gnomeregan",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -2858,9 +2858,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Karazhan",
 						["difficulties"] = {
 						},
+						["instance"] = "Karazhan",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -2926,10 +2926,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -2953,10 +2953,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -2974,9 +2974,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "The Underrot",
 						["difficulties"] = {
 						},
+						["instance"] = "The Underrot",
 					}, -- [1]
 				},
 			},
@@ -3043,10 +3043,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Dragon Soul",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -3063,11 +3063,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Dragon Soul",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -3084,10 +3084,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -3118,10 +3118,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -3185,9 +3185,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Blackrock Depths",
 						["difficulties"] = {
 						},
+						["instance"] = "Blackrock Depths",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -3237,9 +3237,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Molten Core",
 						["difficulties"] = {
 						},
+						["instance"] = "Molten Core",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -3345,10 +3345,10 @@ MogIt_TwoHandedDB = {
 							"Cataclysm", -- [1]
 							"Classic", -- [2]
 						},
-						["instance"] = "Shadowfang Keep",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Shadowfang Keep",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -3364,10 +3364,10 @@ MogIt_TwoHandedDB = {
 							"Cataclysm", -- [1]
 							"Classic", -- [2]
 						},
-						["instance"] = "Shadowfang Keep",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Shadowfang Keep",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -6879,9 +6879,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -6899,10 +6899,10 @@ MogIt_TwoHandedDB = {
 							"Cataclysm", -- [1]
 							"Classic", -- [2]
 						},
-						["instance"] = "Shadowfang Keep",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Shadowfang Keep",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -6918,10 +6918,10 @@ MogIt_TwoHandedDB = {
 							"Cataclysm", -- [1]
 							"Classic", -- [2]
 						},
-						["instance"] = "Shadowfang Keep",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Shadowfang Keep",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -6952,9 +6952,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -6971,10 +6971,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "The Botanica",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "The Botanica",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -7024,11 +7024,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Throne of Thunder",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -7057,10 +7057,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -7075,10 +7075,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -7095,10 +7095,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Naxxramas",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -7106,10 +7106,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Naxxramas",
 					}, -- [2]
 				},
 				["faction"] = 3,
@@ -7141,9 +7141,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Uldir",
 						["difficulties"] = {
 						},
+						["instance"] = "Uldir",
 					}, -- [1]
 				},
 			},
@@ -7160,9 +7160,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Waycrest Manor",
 						["difficulties"] = {
 						},
+						["instance"] = "Waycrest Manor",
 					}, -- [1]
 				},
 			},
@@ -7190,10 +7190,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Highmaul",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Highmaul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -7210,10 +7210,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Hellfire Ramparts",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Hellfire Ramparts",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -7231,9 +7231,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Uldir",
 						["difficulties"] = {
 						},
+						["instance"] = "Uldir",
 					}, -- [1]
 				},
 			},
@@ -7249,10 +7249,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Skyreach",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Skyreach",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -7325,9 +7325,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -7351,9 +7351,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -7361,9 +7361,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [2]
 				},
 				["faction"] = 3,
@@ -7399,9 +7399,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -7426,9 +7426,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Waycrest Manor",
 						["difficulties"] = {
 						},
+						["instance"] = "Waycrest Manor",
 					}, -- [1]
 				},
 			},
@@ -7469,10 +7469,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Throne of Thunder",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -7496,9 +7496,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Blackwing Lair",
 						["difficulties"] = {
 						},
+						["instance"] = "Blackwing Lair",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -7506,9 +7506,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Blackwing Lair",
 						["difficulties"] = {
 						},
+						["instance"] = "Blackwing Lair",
 					}, -- [2]
 					{
 						["instanceType"] = 2,
@@ -7516,9 +7516,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Blackwing Lair",
 						["difficulties"] = {
 						},
+						["instance"] = "Blackwing Lair",
 					}, -- [3]
 				},
 				["faction"] = 3,
@@ -7535,11 +7535,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "The Bastion of Twilight",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "The Bastion of Twilight",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -7554,11 +7554,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "The Bastion of Twilight",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "The Bastion of Twilight",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -7601,9 +7601,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Wailing Caverns",
 						["difficulties"] = {
 						},
+						["instance"] = "Wailing Caverns",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -7627,11 +7627,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Siege of Niuzao Temple",
 						["difficulties"] = {
 							"Normal", -- [1]
 							"Timewalking", -- [2]
 						},
+						["instance"] = "Siege of Niuzao Temple",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -7675,9 +7675,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Uldir",
 						["difficulties"] = {
 						},
+						["instance"] = "Uldir",
 					}, -- [1]
 				},
 			},
@@ -7693,9 +7693,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Sunwell Plateau",
 						["difficulties"] = {
 						},
+						["instance"] = "Sunwell Plateau",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -7713,9 +7713,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Waycrest Manor",
 						["difficulties"] = {
 						},
+						["instance"] = "Waycrest Manor",
 					}, -- [1]
 				},
 			},
@@ -7812,10 +7812,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "End Time",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "End Time",
 					}, -- [1]
 				},
 			},
@@ -7879,9 +7879,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -7889,9 +7889,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [2]
 				},
 				["faction"] = 3,
@@ -7959,9 +7959,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -8068,10 +8068,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "The Violet Hold",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "The Violet Hold",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -8107,10 +8107,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Highmaul",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
+						["instance"] = "Highmaul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -8132,11 +8132,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Temple of the Jade Serpent",
 						["difficulties"] = {
 							"Normal", -- [1]
 							"Timewalking", -- [2]
 						},
+						["instance"] = "Temple of the Jade Serpent",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -8171,10 +8171,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "The Stonecore",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "The Stonecore",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -8198,10 +8198,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Black Temple",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Black Temple",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -8225,9 +8225,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "The Temple of Atal'hakkar",
 						["difficulties"] = {
 						},
+						["instance"] = "The Temple of Atal'hakkar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -8278,10 +8278,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Mana-Tombs",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Mana-Tombs",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -8386,10 +8386,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -8406,10 +8406,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Highmaul",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Highmaul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -8440,10 +8440,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -8487,9 +8487,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Lower Blackrock Spire",
 						["difficulties"] = {
 						},
+						["instance"] = "Lower Blackrock Spire",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -8516,9 +8516,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Dire Maul",
 						["difficulties"] = {
 						},
+						["instance"] = "Dire Maul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -8548,10 +8548,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 			},
@@ -8591,11 +8591,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -8612,10 +8612,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "The Oculus",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "The Oculus",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -8630,10 +8630,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "The Forge of Souls",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "The Forge of Souls",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -8657,10 +8657,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Highmaul",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Highmaul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -8677,10 +8677,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -8695,10 +8695,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -8713,10 +8713,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -8731,10 +8731,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -8761,9 +8761,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "The Battle for Mount Hyjal",
 						["difficulties"] = {
 						},
+						["instance"] = "The Battle for Mount Hyjal",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -8814,9 +8814,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Sunwell Plateau",
 						["difficulties"] = {
 						},
+						["instance"] = "Sunwell Plateau",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -8833,9 +8833,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "The Battle for Mount Hyjal",
 						["difficulties"] = {
 						},
+						["instance"] = "The Battle for Mount Hyjal",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -8900,11 +8900,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Terrace of Endless Spring",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Terrace of Endless Spring",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -8928,9 +8928,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Stratholme",
 						["difficulties"] = {
 						},
+						["instance"] = "Stratholme",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -8946,10 +8946,10 @@ MogIt_TwoHandedDB = {
 							"Classic", -- [1]
 							"Mists of Pandaria", -- [2]
 						},
-						["instance"] = "Scarlet Monastery",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Scarlet Monastery",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -8990,10 +8990,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Magisters' Terrace",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Magisters' Terrace",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -9010,11 +9010,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Terrace of Endless Spring",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Terrace of Endless Spring",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -9074,10 +9074,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -9094,10 +9094,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Highmaul",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Highmaul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -9145,10 +9145,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "The Botanica",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "The Botanica",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -9165,10 +9165,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -9183,10 +9183,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -9228,9 +9228,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Uldir",
 						["difficulties"] = {
 						},
+						["instance"] = "Uldir",
 					}, -- [1]
 				},
 			},
@@ -9270,10 +9270,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Azjol-Nerub",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Azjol-Nerub",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -9290,10 +9290,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -9317,10 +9317,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Highmaul",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Highmaul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -9337,10 +9337,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "The Obsidian Sanctum",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "The Obsidian Sanctum",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -9436,9 +9436,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Karazhan",
 						["difficulties"] = {
 						},
+						["instance"] = "Karazhan",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -9456,9 +9456,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Uldir",
 						["difficulties"] = {
 						},
+						["instance"] = "Uldir",
 					}, -- [1]
 				},
 			},
@@ -9474,10 +9474,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Terrace of Endless Spring",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Terrace of Endless Spring",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -9494,10 +9494,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -9526,10 +9526,10 @@ MogIt_TwoHandedDB = {
 							"Classic", -- [1]
 							"Mists of Pandaria", -- [2]
 						},
-						["instance"] = "Scholomance",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Scholomance",
 					}, -- [1]
 				},
 			},
@@ -9569,9 +9569,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Magtheridon's Lair",
 						["difficulties"] = {
 						},
+						["instance"] = "Magtheridon's Lair",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -9677,10 +9677,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -9695,10 +9695,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -9729,10 +9729,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -9762,9 +9762,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Uldir",
 						["difficulties"] = {
 						},
+						["instance"] = "Uldir",
 					}, -- [1]
 				},
 			},
@@ -9780,11 +9780,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -9799,11 +9799,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -9811,11 +9811,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [2]
 					{
 						["instanceType"] = 2,
@@ -9823,11 +9823,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [3]
 					{
 						["instanceType"] = 2,
@@ -9835,11 +9835,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [4]
 					{
 						["instanceType"] = 2,
@@ -9847,11 +9847,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [5]
 					{
 						["instanceType"] = 2,
@@ -9859,11 +9859,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [6]
 					{
 						["instanceType"] = 2,
@@ -9871,11 +9871,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [7]
 				},
 				["faction"] = 3,
@@ -9899,10 +9899,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -10015,10 +10015,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Dragon Soul",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -10064,9 +10064,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Well of Eternity",
 						["difficulties"] = {
 						},
+						["instance"] = "Well of Eternity",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -10090,9 +10090,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Hour of Twilight",
 						["difficulties"] = {
 						},
+						["instance"] = "Hour of Twilight",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -10109,10 +10109,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -10143,11 +10143,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Throne of Thunder",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -10164,10 +10164,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Highmaul",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
+						["instance"] = "Highmaul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -10216,10 +10216,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Throne of the Tides",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Throne of the Tides",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -10236,9 +10236,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Zul'Farrak",
 						["difficulties"] = {
 						},
+						["instance"] = "Zul'Farrak",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -10334,9 +10334,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Temple of Ahn'Qiraj",
 						["difficulties"] = {
 						},
+						["instance"] = "Temple of Ahn'Qiraj",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -10353,9 +10353,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -10363,9 +10363,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [2]
 				},
 				["faction"] = 3,
@@ -10402,10 +10402,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -10427,11 +10427,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Shado-Pan Monastery",
 						["difficulties"] = {
 							"Normal", -- [1]
 							"Timewalking", -- [2]
 						},
+						["instance"] = "Shado-Pan Monastery",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -10462,11 +10462,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Dragon Soul",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -10495,9 +10495,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Blackrock Depths",
 						["difficulties"] = {
 						},
+						["instance"] = "Blackrock Depths",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -10524,9 +10524,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Dire Maul",
 						["difficulties"] = {
 						},
+						["instance"] = "Dire Maul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -10570,10 +10570,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Highmaul",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Highmaul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -10611,10 +10611,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Shadowmoon Burial Grounds",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Shadowmoon Burial Grounds",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -10629,9 +10629,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Shadowmoon Burial Grounds",
 						["difficulties"] = {
 						},
+						["instance"] = "Shadowmoon Burial Grounds",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -10670,10 +10670,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -10690,10 +10690,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -10724,11 +10724,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -10743,11 +10743,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -10755,11 +10755,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [2]
 					{
 						["instanceType"] = 2,
@@ -10767,11 +10767,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [3]
 					{
 						["instanceType"] = 2,
@@ -10779,11 +10779,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [4]
 					{
 						["instanceType"] = 2,
@@ -10791,11 +10791,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [5]
 					{
 						["instanceType"] = 2,
@@ -10803,11 +10803,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [6]
 					{
 						["instanceType"] = 2,
@@ -10815,11 +10815,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [7]
 				},
 				["faction"] = 3,
@@ -10836,11 +10836,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Throne of Thunder",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -10871,10 +10871,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -10904,9 +10904,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Temple of Sethraliss",
 						["difficulties"] = {
 						},
+						["instance"] = "Temple of Sethraliss",
 					}, -- [1]
 				},
 			},
@@ -10927,10 +10927,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Ahn'kahet: The Old Kingdom",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Ahn'kahet: The Old Kingdom",
 					}, -- [1]
 				},
 			},
@@ -10946,11 +10946,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Dragon Soul",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -10986,11 +10986,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Dragon Soul",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -11021,10 +11021,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "The Black Morass",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "The Black Morass",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -11048,10 +11048,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "The Black Morass",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "The Black Morass",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -11082,10 +11082,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Naxxramas",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -11093,10 +11093,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Naxxramas",
 					}, -- [2]
 				},
 				["faction"] = 3,
@@ -11120,10 +11120,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -11140,10 +11140,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -11160,9 +11160,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -11193,10 +11193,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -11221,9 +11221,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Temple of Sethraliss",
 						["difficulties"] = {
 						},
+						["instance"] = "Temple of Sethraliss",
 					}, -- [1]
 				},
 			},
@@ -11251,10 +11251,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -11269,10 +11269,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -11303,10 +11303,10 @@ MogIt_TwoHandedDB = {
 							"Classic", -- [1]
 							"Mists of Pandaria", -- [2]
 						},
-						["instance"] = "Scarlet Monastery",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Scarlet Monastery",
 					}, -- [1]
 				},
 			},
@@ -11322,9 +11322,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Halls of Origination",
 						["difficulties"] = {
 						},
+						["instance"] = "Halls of Origination",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -11364,11 +11364,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Dragon Soul",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -11389,10 +11389,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Grim Batol",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Grim Batol",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -11441,11 +11441,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Dragon Soul",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -11462,10 +11462,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -11480,10 +11480,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -11513,9 +11513,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Temple of Sethraliss",
 						["difficulties"] = {
 						},
+						["instance"] = "Temple of Sethraliss",
 					}, -- [1]
 				},
 			},
@@ -11607,10 +11607,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -11627,9 +11627,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -11653,10 +11653,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -11671,10 +11671,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -11691,10 +11691,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "The Oculus",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "The Oculus",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -11709,10 +11709,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Utgarde Pinnacle",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Utgarde Pinnacle",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -11729,10 +11729,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "The Culling of Stratholme",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "The Culling of Stratholme",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -11777,10 +11777,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -11809,9 +11809,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Sunwell Plateau",
 						["difficulties"] = {
 						},
+						["instance"] = "Sunwell Plateau",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -11835,10 +11835,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Dragon Soul",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -11855,10 +11855,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Halls of Lightning",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Halls of Lightning",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -11970,10 +11970,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "The Botanica",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "The Botanica",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -12009,10 +12009,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Auchindoun",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Auchindoun",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -12027,9 +12027,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Auchindoun",
 						["difficulties"] = {
 						},
+						["instance"] = "Auchindoun",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -12065,10 +12065,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Shadowmoon Burial Grounds",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Shadowmoon Burial Grounds",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -12099,9 +12099,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -12123,10 +12123,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Magisters' Terrace",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Magisters' Terrace",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -12157,10 +12157,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Halls of Lightning",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Halls of Lightning",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -12175,10 +12175,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Gundrak",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Gundrak",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -12193,10 +12193,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Utgarde Keep",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Utgarde Keep",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -12256,10 +12256,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Naxxramas",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -12267,10 +12267,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Naxxramas",
 					}, -- [2]
 				},
 				["faction"] = 3,
@@ -12287,10 +12287,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Naxxramas",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -12298,10 +12298,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Naxxramas",
 					}, -- [2]
 				},
 				["faction"] = 3,
@@ -12318,10 +12318,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Naxxramas",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -12329,10 +12329,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Naxxramas",
 					}, -- [2]
 				},
 				["faction"] = 3,
@@ -12354,11 +12354,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Stormstout Brewery",
 						["difficulties"] = {
 							"Normal", -- [1]
 							"Timewalking", -- [2]
 						},
+						["instance"] = "Stormstout Brewery",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -12382,10 +12382,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "The Eye of Eternity",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "The Eye of Eternity",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -12402,11 +12402,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -12434,10 +12434,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -12452,10 +12452,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -12491,10 +12491,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Ulduar",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -12502,10 +12502,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Ulduar",
 					}, -- [2]
 				},
 				["faction"] = 3,
@@ -12539,10 +12539,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -12595,9 +12595,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Blackrock Depths",
 						["difficulties"] = {
 						},
+						["instance"] = "Blackrock Depths",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -12631,10 +12631,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Auchindoun",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Auchindoun",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -12725,10 +12725,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -12745,10 +12745,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "The Underbog",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "The Underbog",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -12791,10 +12791,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "The Steamvault",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "The Steamvault",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -12856,10 +12856,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Mana-Tombs",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Mana-Tombs",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -12886,9 +12886,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Ragefire Chasm",
 						["difficulties"] = {
 						},
+						["instance"] = "Ragefire Chasm",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -12984,9 +12984,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Shrine of the Storm",
 						["difficulties"] = {
 						},
+						["instance"] = "Shrine of the Storm",
 					}, -- [1]
 				},
 			},
@@ -13096,11 +13096,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Throne of Thunder",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -13122,10 +13122,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Zul'Gurub",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Zul'Gurub",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -13171,9 +13171,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -13209,10 +13209,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -13227,10 +13227,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -13261,10 +13261,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "The Everbloom",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "The Everbloom",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -13279,9 +13279,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "The Everbloom",
 						["difficulties"] = {
 						},
+						["instance"] = "The Everbloom",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -13324,10 +13324,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Pit of Saron",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Pit of Saron",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -13344,10 +13344,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Naxxramas",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -13442,9 +13442,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Blackwing Lair",
 						["difficulties"] = {
 						},
+						["instance"] = "Blackwing Lair",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -13461,10 +13461,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -13580,10 +13580,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Hellfire Ramparts",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Hellfire Ramparts",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -13615,9 +13615,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Uldir",
 						["difficulties"] = {
 						},
+						["instance"] = "Uldir",
 					}, -- [1]
 				},
 			},
@@ -13641,9 +13641,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Uldir",
 						["difficulties"] = {
 						},
+						["instance"] = "Uldir",
 					}, -- [1]
 				},
 			},
@@ -13660,9 +13660,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Tol Dagor",
 						["difficulties"] = {
 						},
+						["instance"] = "Tol Dagor",
 					}, -- [1]
 				},
 			},
@@ -13711,9 +13711,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Zul'Farrak",
 						["difficulties"] = {
 						},
+						["instance"] = "Zul'Farrak",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -13766,9 +13766,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Molten Core",
 						["difficulties"] = {
 						},
+						["instance"] = "Molten Core",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -13785,11 +13785,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Throne of Thunder",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -13806,10 +13806,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Throne of Thunder",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -13827,9 +13827,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Shrine of the Storm",
 						["difficulties"] = {
 						},
+						["instance"] = "Shrine of the Storm",
 					}, -- [1]
 				},
 			},
@@ -13845,10 +13845,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Dragon Soul",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -13865,10 +13865,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -13883,10 +13883,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -13929,10 +13929,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -13980,11 +13980,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Dragon Soul",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -14013,10 +14013,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Pit of Saron",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Pit of Saron",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -14104,11 +14104,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Throne of Thunder",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -14132,11 +14132,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -14151,11 +14151,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -14184,10 +14184,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -14211,9 +14211,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Karazhan",
 						["difficulties"] = {
 						},
+						["instance"] = "Karazhan",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -14305,10 +14305,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Black Temple",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Black Temple",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -14365,9 +14365,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Blackfathom Deeps",
 						["difficulties"] = {
 						},
+						["instance"] = "Blackfathom Deeps",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -14398,9 +14398,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -14417,10 +14417,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Sethekk Halls",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Sethekk Halls",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -14451,11 +14451,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Throne of Thunder",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -14472,10 +14472,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Iron Docks",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Iron Docks",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -14490,10 +14490,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Grimrail Depot",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Grimrail Depot",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -14524,9 +14524,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Uldaman",
 						["difficulties"] = {
 						},
+						["instance"] = "Uldaman",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -14557,10 +14557,10 @@ MogIt_TwoHandedDB = {
 							"Classic", -- [1]
 							"Mists of Pandaria", -- [2]
 						},
-						["instance"] = "Scarlet Monastery",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Scarlet Monastery",
 					}, -- [1]
 				},
 			},
@@ -14575,10 +14575,10 @@ MogIt_TwoHandedDB = {
 							"Classic", -- [1]
 							"Mists of Pandaria", -- [2]
 						},
-						["instance"] = "Scarlet Monastery",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Scarlet Monastery",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -14593,9 +14593,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Stratholme",
 						["difficulties"] = {
 						},
+						["instance"] = "Stratholme",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -14646,10 +14646,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Skyreach",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Skyreach",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -14664,9 +14664,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Skyreach",
 						["difficulties"] = {
 						},
+						["instance"] = "Skyreach",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -14690,39 +14690,12 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
-				["faction"] = 3,
-			},
-		},
-		[10133] = {
-			[18860] = {
-				["classes"] = 1493,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Kel'Thuzad",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["instance"] = "Naxxramas",
-						["difficulties"] = {
-							"10 Player", -- [1]
-						},
-					}, -- [1]
-				},
-				["faction"] = 3,
-			},
-		},
-		[6605] = {
-			[10173] = {
-				["classes"] = 1493,
-				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
@@ -14741,6 +14714,33 @@ MogIt_TwoHandedDB = {
 				["classes"] = 1157,
 				["sourceType"] = 2,
 				["faction"] = 2,
+			},
+		},
+		[17181] = {
+			[40218] = {
+				["classes"] = 1493,
+				["sourceType"] = 6,
+				["faction"] = 3,
+			},
+		},
+		[10133] = {
+			[18860] = {
+				["classes"] = 1493,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Kel'Thuzad",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+						},
+						["instance"] = "Naxxramas",
+					}, -- [1]
+				},
+				["faction"] = 3,
 			},
 		},
 		[17170] = {
@@ -14783,9 +14783,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Gnomeregan",
 						["difficulties"] = {
 						},
+						["instance"] = "Gnomeregan",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -14826,10 +14826,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -14990,10 +14990,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "The Everbloom",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "The Everbloom",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -15010,10 +15010,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Drak'Tharon Keep",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Drak'Tharon Keep",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -15037,10 +15037,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Naxxramas",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -15048,10 +15048,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Naxxramas",
 					}, -- [2]
 				},
 				["faction"] = 3,
@@ -15075,10 +15075,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -15127,10 +15127,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -15148,10 +15148,10 @@ MogIt_TwoHandedDB = {
 							"Cataclysm", -- [1]
 							"Classic", -- [2]
 						},
-						["instance"] = "Deadmines",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Deadmines",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -15167,10 +15167,10 @@ MogIt_TwoHandedDB = {
 							"Cataclysm", -- [1]
 							"Classic", -- [2]
 						},
-						["instance"] = "Deadmines",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Deadmines",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -15212,10 +15212,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -15249,9 +15249,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "The Eye",
 						["difficulties"] = {
 						},
+						["instance"] = "The Eye",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -15310,10 +15310,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -15351,11 +15351,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Terrace of Endless Spring",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Terrace of Endless Spring",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -15398,10 +15398,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Iron Docks",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Iron Docks",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -15416,10 +15416,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Grimrail Depot",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Grimrail Depot",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -15434,9 +15434,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Iron Docks",
 						["difficulties"] = {
 						},
+						["instance"] = "Iron Docks",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -15451,9 +15451,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Grimrail Depot",
 						["difficulties"] = {
 						},
+						["instance"] = "Grimrail Depot",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -15482,10 +15482,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "The Violet Hold",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "The Violet Hold",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -15501,10 +15501,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "The Oculus",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "The Oculus",
 					}, -- [1]
 				},
 			},
@@ -15520,10 +15520,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -15538,10 +15538,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -15572,10 +15572,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Throne of Thunder",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -15592,10 +15592,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Terrace of Endless Spring",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Terrace of Endless Spring",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -15612,10 +15612,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Dragon Soul",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -15639,10 +15639,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -15664,10 +15664,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Auchenai Crypts",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Auchenai Crypts",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -15710,10 +15710,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Highmaul",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Highmaul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -15744,9 +15744,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "The Eye",
 						["difficulties"] = {
 						},
+						["instance"] = "The Eye",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -15815,9 +15815,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Tol Dagor",
 						["difficulties"] = {
 						},
+						["instance"] = "Tol Dagor",
 					}, -- [1]
 				},
 			},
@@ -15833,10 +15833,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Throne of Thunder",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -15872,9 +15872,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -15891,10 +15891,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -15911,10 +15911,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Highmaul",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
+						["instance"] = "Highmaul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -15931,18 +15931,18 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 				["faction"] = 3,
 			},
 		},
-		[17181] = {
-			[40218] = {
+		[6605] = {
+			[10173] = {
 				["classes"] = 1493,
-				["sourceType"] = 6,
+				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
@@ -15957,10 +15957,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -15977,10 +15977,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -15997,11 +15997,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Terrace of Endless Spring",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Terrace of Endless Spring",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -16067,10 +16067,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -16101,10 +16101,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "The Forge of Souls",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "The Forge of Souls",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -16138,10 +16138,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -16172,10 +16172,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -16291,9 +16291,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Tol Dagor",
 						["difficulties"] = {
 						},
+						["instance"] = "Tol Dagor",
 					}, -- [1]
 				},
 			},
@@ -16376,11 +16376,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Dragon Soul",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -16419,9 +16419,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Shrine of the Storm",
 						["difficulties"] = {
 						},
+						["instance"] = "Shrine of the Storm",
 					}, -- [1]
 				},
 			},
@@ -16451,10 +16451,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Naxxramas",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -16462,10 +16462,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Naxxramas",
 					}, -- [2]
 				},
 				["faction"] = 3,
@@ -16500,11 +16500,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Throne of Thunder",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -16564,10 +16564,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -16584,10 +16584,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -16602,10 +16602,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -16622,11 +16622,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Dragon Soul",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -16662,9 +16662,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Ruins of Ahn'Qiraj",
 						["difficulties"] = {
 						},
+						["instance"] = "Ruins of Ahn'Qiraj",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -16717,10 +16717,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Zul'Gurub",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Zul'Gurub",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -16740,10 +16740,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Champion",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Trial of the Champion",
 					}, -- [1]
 				},
 			},
@@ -16812,10 +16812,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 			},
@@ -16832,10 +16832,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Onyxia's Lair",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Onyxia's Lair",
 					}, -- [1]
 				},
 			},
@@ -16850,10 +16850,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Onyxia's Lair",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Onyxia's Lair",
 					}, -- [1]
 				},
 			},
@@ -16870,10 +16870,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -16888,10 +16888,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -16994,10 +16994,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 			},
@@ -17021,9 +17021,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Uldir",
 						["difficulties"] = {
 						},
+						["instance"] = "Uldir",
 					}, -- [1]
 				},
 			},
@@ -17124,9 +17124,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 			},
@@ -17191,10 +17191,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 			},
@@ -17209,10 +17209,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 			},
@@ -17227,10 +17227,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 			},
@@ -17247,9 +17247,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Shadowmoon Burial Grounds",
 						["difficulties"] = {
 						},
+						["instance"] = "Shadowmoon Burial Grounds",
 					}, -- [1]
 				},
 			},
@@ -17264,10 +17264,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Shadowmoon Burial Grounds",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Shadowmoon Burial Grounds",
 					}, -- [1]
 				},
 			},
@@ -17334,10 +17334,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 			},
@@ -17414,9 +17414,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Uldir",
 						["difficulties"] = {
 						},
+						["instance"] = "Uldir",
 					}, -- [1]
 				},
 			},
@@ -17433,10 +17433,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 			},
@@ -17453,10 +17453,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 			},
@@ -17471,10 +17471,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 			},
@@ -17512,9 +17512,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Temple of Sethraliss",
 						["difficulties"] = {
 						},
+						["instance"] = "Temple of Sethraliss",
 					}, -- [1]
 				},
 			},
@@ -17531,10 +17531,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 			},
@@ -17551,10 +17551,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Black Temple",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Black Temple",
 					}, -- [1]
 				},
 			},
@@ -17696,10 +17696,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Mogu'shan Vaults",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Mogu'shan Vaults",
 					}, -- [1]
 				},
 			},
@@ -17716,9 +17716,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Uldir",
 						["difficulties"] = {
 						},
+						["instance"] = "Uldir",
 					}, -- [1]
 				},
 			},
@@ -17796,10 +17796,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -17814,10 +17814,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -17834,10 +17834,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Dragon Soul",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
 			},
@@ -17854,11 +17854,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Throne of Thunder",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 			},
@@ -17876,10 +17876,10 @@ MogIt_TwoHandedDB = {
 							"Cataclysm", -- [1]
 							"Classic", -- [2]
 						},
-						["instance"] = "Deadmines",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Deadmines",
 					}, -- [1]
 				},
 			},
@@ -17920,10 +17920,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Shadow Labyrinth",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Shadow Labyrinth",
 					}, -- [1]
 				},
 			},
@@ -17983,9 +17983,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 			},
@@ -18000,9 +18000,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 			},
@@ -18084,9 +18084,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "The Underrot",
 						["difficulties"] = {
 						},
+						["instance"] = "The Underrot",
 					}, -- [1]
 				},
 			},
@@ -18103,9 +18103,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Temple of Sethraliss",
 						["difficulties"] = {
 						},
+						["instance"] = "Temple of Sethraliss",
 					}, -- [1]
 				},
 			},
@@ -18122,10 +18122,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 			},
@@ -18156,9 +18156,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Uldir",
 						["difficulties"] = {
 						},
+						["instance"] = "Uldir",
 					}, -- [1]
 				},
 			},
@@ -18182,9 +18182,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Temple of Sethraliss",
 						["difficulties"] = {
 						},
+						["instance"] = "Temple of Sethraliss",
 					}, -- [1]
 				},
 			},
@@ -18243,10 +18243,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 			},
@@ -18289,10 +18289,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Shadowmoon Burial Grounds",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Shadowmoon Burial Grounds",
 					}, -- [1]
 				},
 			},
@@ -18316,9 +18316,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Uldaman",
 						["difficulties"] = {
 						},
+						["instance"] = "Uldaman",
 					}, -- [1]
 				},
 			},
@@ -18335,10 +18335,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 			},
@@ -18381,11 +18381,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Throne of Thunder",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 			},
@@ -18414,10 +18414,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Naxxramas",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -18425,10 +18425,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Naxxramas",
 					}, -- [2]
 				},
 			},
@@ -18457,10 +18457,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Hellfire Ramparts",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Hellfire Ramparts",
 					}, -- [1]
 				},
 			},
@@ -18504,10 +18504,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Upper Blackrock Spire",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Upper Blackrock Spire",
 					}, -- [1]
 				},
 			},
@@ -18524,10 +18524,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 			},
@@ -18597,10 +18597,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Kings' Rest",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
+						["instance"] = "Kings' Rest",
 					}, -- [1]
 				},
 			},
@@ -18615,9 +18615,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "The Underrot",
 						["difficulties"] = {
 						},
+						["instance"] = "The Underrot",
 					}, -- [1]
 				},
 			},
@@ -18680,11 +18680,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Mogu'shan Vaults",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Mogu'shan Vaults",
 					}, -- [1]
 				},
 			},
@@ -18777,10 +18777,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 			},
@@ -18809,9 +18809,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Stratholme",
 						["difficulties"] = {
 						},
+						["instance"] = "Stratholme",
 					}, -- [1]
 				},
 			},
@@ -18886,10 +18886,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "The Violet Hold",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "The Violet Hold",
 					}, -- [1]
 				},
 			},
@@ -18920,9 +18920,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Tol Dagor",
 						["difficulties"] = {
 						},
+						["instance"] = "Tol Dagor",
 					}, -- [1]
 				},
 			},
@@ -18946,9 +18946,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 			},
@@ -18965,10 +18965,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "The Eye of Eternity",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "The Eye of Eternity",
 					}, -- [1]
 				},
 			},
@@ -19066,9 +19066,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "The Underrot",
 						["difficulties"] = {
 						},
+						["instance"] = "The Underrot",
 					}, -- [1]
 				},
 			},
@@ -19085,11 +19085,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Mogu'shan Vaults",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Mogu'shan Vaults",
 					}, -- [1]
 				},
 			},
@@ -19113,10 +19113,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 			},
@@ -19140,9 +19140,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Temple of Ahn'Qiraj",
 						["difficulties"] = {
 						},
+						["instance"] = "Temple of Ahn'Qiraj",
 					}, -- [1]
 				},
 			},
@@ -19173,9 +19173,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Magtheridon's Lair",
 						["difficulties"] = {
 						},
+						["instance"] = "Magtheridon's Lair",
 					}, -- [1]
 				},
 			},
@@ -19192,10 +19192,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Bloodmaul Slag Mines",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Bloodmaul Slag Mines",
 					}, -- [1]
 				},
 			},
@@ -19231,10 +19231,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Halls of Reflection",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Halls of Reflection",
 					}, -- [1]
 				},
 			},
@@ -19265,10 +19265,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "The Mechanar",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "The Mechanar",
 					}, -- [1]
 				},
 			},
@@ -19290,10 +19290,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 			},
@@ -19310,9 +19310,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Zul'Farrak",
 						["difficulties"] = {
 						},
+						["instance"] = "Zul'Farrak",
 					}, -- [1]
 				},
 			},
@@ -19372,10 +19372,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Naxxramas",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -19383,10 +19383,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Naxxramas",
 					}, -- [2]
 				},
 			},
@@ -19403,9 +19403,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Tol Dagor",
 						["difficulties"] = {
 						},
+						["instance"] = "Tol Dagor",
 					}, -- [1]
 				},
 			},
@@ -19429,10 +19429,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 			},
@@ -19531,10 +19531,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Lost City of the Tol'vir",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Lost City of the Tol'vir",
 					}, -- [1]
 				},
 			},
@@ -19563,10 +19563,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 			},
@@ -19581,10 +19581,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 			},
@@ -19665,10 +19665,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 			},
@@ -19704,11 +19704,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Dragon Soul",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
 			},
@@ -19725,11 +19725,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Dragon Soul",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
 			},
@@ -19751,11 +19751,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Mogu'shan Palace",
 						["difficulties"] = {
 							"Normal", -- [1]
 							"Timewalking", -- [2]
 						},
+						["instance"] = "Mogu'shan Palace",
 					}, -- [1]
 				},
 			},
@@ -19803,10 +19803,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Throne of Thunder",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 			},
@@ -19842,9 +19842,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Tol Dagor",
 						["difficulties"] = {
 						},
+						["instance"] = "Tol Dagor",
 					}, -- [1]
 				},
 			},
@@ -19877,10 +19877,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Siege of Boralus",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
+						["instance"] = "Siege of Boralus",
 					}, -- [1]
 				},
 			},
@@ -19904,9 +19904,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 			},
@@ -19921,9 +19921,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 			},
@@ -19960,9 +19960,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Blackrock Depths",
 						["difficulties"] = {
 						},
+						["instance"] = "Blackrock Depths",
 					}, -- [1]
 				},
 			},
@@ -20024,9 +20024,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Molten Core",
 						["difficulties"] = {
 						},
+						["instance"] = "Molten Core",
 					}, -- [1]
 				},
 			},
@@ -20069,9 +20069,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Dire Maul",
 						["difficulties"] = {
 						},
+						["instance"] = "Dire Maul",
 					}, -- [1]
 				},
 			},
@@ -20086,9 +20086,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "The Temple of Atal'hakkar",
 						["difficulties"] = {
 						},
+						["instance"] = "The Temple of Atal'hakkar",
 					}, -- [1]
 				},
 			},
@@ -20134,10 +20134,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Bloodmaul Slag Mines",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Bloodmaul Slag Mines",
 					}, -- [1]
 				},
 			},
@@ -20152,9 +20152,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Bloodmaul Slag Mines",
 						["difficulties"] = {
 						},
+						["instance"] = "Bloodmaul Slag Mines",
 					}, -- [1]
 				},
 			},
@@ -20185,10 +20185,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Highmaul",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Highmaul",
 					}, -- [1]
 				},
 			},
@@ -20222,10 +20222,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 			},
@@ -20243,10 +20243,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -20263,11 +20263,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Throne of Thunder",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -20298,10 +20298,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Highmaul",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Highmaul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -20319,9 +20319,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Uldir",
 						["difficulties"] = {
 						},
+						["instance"] = "Uldir",
 					}, -- [1]
 				},
 			},
@@ -20354,10 +20354,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Skyreach",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Skyreach",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -20372,9 +20372,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Skyreach",
 						["difficulties"] = {
 						},
+						["instance"] = "Skyreach",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -20438,10 +20438,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Halls of Reflection",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Halls of Reflection",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -20472,10 +20472,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Upper Blackrock Spire",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Upper Blackrock Spire",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -20506,10 +20506,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -20526,10 +20526,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "The Culling of Stratholme",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "The Culling of Stratholme",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -20553,10 +20553,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Drak'Tharon Keep",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Drak'Tharon Keep",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -20573,10 +20573,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Mogu'shan Vaults",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Mogu'shan Vaults",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -20593,10 +20593,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -20678,10 +20678,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -20744,9 +20744,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -20777,9 +20777,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Sunwell Plateau",
 						["difficulties"] = {
 						},
+						["instance"] = "Sunwell Plateau",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -20848,9 +20848,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Ruins of Ahn'Qiraj",
 						["difficulties"] = {
 						},
+						["instance"] = "Ruins of Ahn'Qiraj",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -20867,10 +20867,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Mana-Tombs",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Mana-Tombs",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -20911,10 +20911,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -20943,9 +20943,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Stratholme",
 						["difficulties"] = {
 						},
+						["instance"] = "Stratholme",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -20962,10 +20962,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -20982,10 +20982,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Skyreach",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Skyreach",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -21041,9 +21041,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -21067,10 +21067,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -21118,10 +21118,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -21178,9 +21178,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Blackwing Lair",
 						["difficulties"] = {
 						},
+						["instance"] = "Blackwing Lair",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -21197,10 +21197,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Blackrock Foundry",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
+						["instance"] = "Blackrock Foundry",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -21246,10 +21246,10 @@ MogIt_TwoHandedDB = {
 							"Cataclysm", -- [1]
 							"Classic", -- [2]
 						},
-						["instance"] = "Shadowfang Keep",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Shadowfang Keep",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -21278,10 +21278,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -21310,11 +21310,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -21322,11 +21322,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [2]
 					{
 						["instanceType"] = 2,
@@ -21334,11 +21334,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [3]
 					{
 						["instanceType"] = 2,
@@ -21346,11 +21346,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [4]
 					{
 						["instanceType"] = 2,
@@ -21358,11 +21358,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [5]
 					{
 						["instanceType"] = 2,
@@ -21370,11 +21370,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [6]
 					{
 						["instanceType"] = 2,
@@ -21382,11 +21382,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [7]
 				},
 				["faction"] = 3,
@@ -21443,9 +21443,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Siege of Orgrimmar",
 						["difficulties"] = {
 						},
+						["instance"] = "Siege of Orgrimmar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -21493,10 +21493,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Dragon Soul",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -21513,10 +21513,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -21615,10 +21615,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Onyxia's Lair",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Onyxia's Lair",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -21633,10 +21633,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Onyxia's Lair",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Onyxia's Lair",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -21653,9 +21653,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Lower Blackrock Spire",
 						["difficulties"] = {
 						},
+						["instance"] = "Lower Blackrock Spire",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -21672,9 +21672,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Uldaman",
 						["difficulties"] = {
 						},
+						["instance"] = "Uldaman",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -21772,10 +21772,10 @@ MogIt_TwoHandedDB = {
 							"Classic", -- [1]
 							"Mists of Pandaria", -- [2]
 						},
-						["instance"] = "Scarlet Monastery",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Scarlet Monastery",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -21792,10 +21792,10 @@ MogIt_TwoHandedDB = {
 							"Classic", -- [1]
 							"Mists of Pandaria", -- [2]
 						},
-						["instance"] = "Scarlet Monastery",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Scarlet Monastery",
 					}, -- [1]
 				},
 			},
@@ -21818,10 +21818,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Naxxramas",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -21829,10 +21829,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Naxxramas",
 					}, -- [2]
 				},
 				["faction"] = 3,
@@ -21849,11 +21849,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Blackwing Descent",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Blackwing Descent",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -21868,11 +21868,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Blackwing Descent",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Blackwing Descent",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -21946,10 +21946,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "The Botanica",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "The Botanica",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -21967,10 +21967,10 @@ MogIt_TwoHandedDB = {
 							"Classic", -- [1]
 							"Mists of Pandaria", -- [2]
 						},
-						["instance"] = "Scholomance",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Scholomance",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -22008,9 +22008,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Razorfen Downs",
 						["difficulties"] = {
 						},
+						["instance"] = "Razorfen Downs",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -22027,10 +22027,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -22067,9 +22067,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Freehold",
 						["difficulties"] = {
 						},
+						["instance"] = "Freehold",
 					}, -- [1]
 				},
 			},
@@ -22118,10 +22118,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Halls of Stone",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Halls of Stone",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -22224,10 +22224,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Kings' Rest",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
+						["instance"] = "Kings' Rest",
 					}, -- [1]
 				},
 			},
@@ -22242,9 +22242,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Freehold",
 						["difficulties"] = {
 						},
+						["instance"] = "Freehold",
 					}, -- [1]
 				},
 			},
@@ -22260,11 +22260,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Mogu'shan Palace",
 						["difficulties"] = {
 							"Normal", -- [1]
 							"Timewalking", -- [2]
 						},
+						["instance"] = "Mogu'shan Palace",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -22295,9 +22295,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Dire Maul",
 						["difficulties"] = {
 						},
+						["instance"] = "Dire Maul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -22430,11 +22430,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Mogu'shan Vaults",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Mogu'shan Vaults",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -22473,10 +22473,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -22493,10 +22493,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -22520,9 +22520,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "The Temple of Atal'hakkar",
 						["difficulties"] = {
 						},
+						["instance"] = "The Temple of Atal'hakkar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -22539,9 +22539,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Temple of Ahn'Qiraj",
 						["difficulties"] = {
 						},
+						["instance"] = "Temple of Ahn'Qiraj",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -22558,10 +22558,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Highmaul",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Highmaul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -22585,9 +22585,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Molten Core",
 						["difficulties"] = {
 						},
+						["instance"] = "Molten Core",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -22595,9 +22595,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Molten Core",
 						["difficulties"] = {
 						},
+						["instance"] = "Molten Core",
 					}, -- [2]
 					{
 						["instanceType"] = 2,
@@ -22605,9 +22605,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Molten Core",
 						["difficulties"] = {
 						},
+						["instance"] = "Molten Core",
 					}, -- [3]
 					{
 						["instanceType"] = 2,
@@ -22615,9 +22615,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Molten Core",
 						["difficulties"] = {
 						},
+						["instance"] = "Molten Core",
 					}, -- [4]
 				},
 				["faction"] = 3,
@@ -22803,11 +22803,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Throne of Thunder",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -22831,10 +22831,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -22866,9 +22866,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Uldir",
 						["difficulties"] = {
 						},
+						["instance"] = "Uldir",
 					}, -- [1]
 				},
 			},
@@ -22891,11 +22891,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Mogu'shan Vaults",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Mogu'shan Vaults",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -22912,11 +22912,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -22924,11 +22924,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [2]
 					{
 						["instanceType"] = 2,
@@ -22936,11 +22936,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [3]
 					{
 						["instanceType"] = 2,
@@ -22948,11 +22948,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [4]
 					{
 						["instanceType"] = 2,
@@ -22960,11 +22960,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [5]
 					{
 						["instanceType"] = 2,
@@ -22972,11 +22972,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [6]
 					{
 						["instanceType"] = 2,
@@ -22984,11 +22984,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Firelands",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Firelands",
 					}, -- [7]
 				},
 				["faction"] = 3,
@@ -23005,9 +23005,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Blackfathom Deeps",
 						["difficulties"] = {
 						},
+						["instance"] = "Blackfathom Deeps",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -23031,9 +23031,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "The Eye",
 						["difficulties"] = {
 						},
+						["instance"] = "The Eye",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -23081,10 +23081,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Hellfire Citadel",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Hellfire Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -23113,10 +23113,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Icecrown Citadel",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Icecrown Citadel",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -23206,9 +23206,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Molten Core",
 						["difficulties"] = {
 						},
+						["instance"] = "Molten Core",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -23225,10 +23225,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "The Underbog",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "The Underbog",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -23245,9 +23245,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "The Battle for Mount Hyjal",
 						["difficulties"] = {
 						},
+						["instance"] = "The Battle for Mount Hyjal",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -23264,9 +23264,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Stratholme",
 						["difficulties"] = {
 						},
+						["instance"] = "Stratholme",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -23302,10 +23302,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Mists of Pandaria", -- [1]
 						},
-						["instance"] = "Throne of Thunder",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Throne of Thunder",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -23341,10 +23341,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Highmaul",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
+						["instance"] = "Highmaul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -23362,9 +23362,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Uldir",
 						["difficulties"] = {
 						},
+						["instance"] = "Uldir",
 					}, -- [1]
 				},
 			},
@@ -23380,9 +23380,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Classic", -- [1]
 						},
-						["instance"] = "Blackwing Lair",
 						["difficulties"] = {
 						},
+						["instance"] = "Blackwing Lair",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -23406,10 +23406,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Naxxramas",
 					}, -- [1]
 					{
 						["instanceType"] = 2,
@@ -23417,10 +23417,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Naxxramas",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Naxxramas",
 					}, -- [2]
 				},
 				["faction"] = 3,
@@ -23444,9 +23444,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "Karazhan",
 						["difficulties"] = {
 						},
+						["instance"] = "Karazhan",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -23492,10 +23492,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Warlords of Draenor", -- [1]
 						},
-						["instance"] = "Highmaul",
 						["difficulties"] = {
 							"Looking For Raid", -- [1]
 						},
+						["instance"] = "Highmaul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -23549,10 +23549,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "The Stonecore",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "The Stonecore",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -23657,10 +23657,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -23675,10 +23675,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -23709,11 +23709,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Dragon Soul",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 							"25 Player (Heroic)", -- [2]
 						},
+						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -23744,10 +23744,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Ulduar",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "Ulduar",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -23785,11 +23785,11 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Cataclysm", -- [1]
 						},
-						["instance"] = "Dragon Soul",
 						["difficulties"] = {
 							"10 Player", -- [1]
 							"25 Player", -- [2]
 						},
+						["instance"] = "Dragon Soul",
 					}, -- [1]
 				},
 				["faction"] = 3,
@@ -23807,9 +23807,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Uldir",
 						["difficulties"] = {
 						},
+						["instance"] = "Uldir",
 					}, -- [1]
 				},
 			},
@@ -23863,10 +23863,10 @@ MogIt_TwoHandedDB = {
 							"Classic", -- [1]
 							"Mists of Pandaria", -- [2]
 						},
-						["instance"] = "Scholomance",
 						["difficulties"] = {
 							"Heroic", -- [1]
 						},
+						["instance"] = "Scholomance",
 					}, -- [1]
 				},
 			},
@@ -23997,9 +23997,9 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Freehold",
 						["difficulties"] = {
 						},
+						["instance"] = "Freehold",
 					}, -- [1]
 				},
 			},
@@ -24023,10 +24023,10 @@ MogIt_TwoHandedDB = {
 						["tiers"] = {
 							"Burning Crusade", -- [1]
 						},
-						["instance"] = "The Black Morass",
 						["difficulties"] = {
 							"Normal", -- [1]
 						},
+						["instance"] = "The Black Morass",
 					}, -- [1]
 				},
 			},

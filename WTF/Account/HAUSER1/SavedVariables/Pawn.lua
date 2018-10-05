@@ -217,10 +217,10 @@ PawnCommon = {
 		["\"MrRobot\":ROGUE3"] = {
 			["IconTexturePath"] = 132320,
 			["PerCharacterOptions"] = {
-				["Rogueout-Kel'Thuzad"] = {
+				["Alorannah-Kel'Thuzad"] = {
 					["Visible"] = true,
 				},
-				["Alorannah-Kel'Thuzad"] = {
+				["Rogueout-Kel'Thuzad"] = {
 					["Visible"] = true,
 				},
 			},
@@ -415,10 +415,10 @@ PawnCommon = {
 		["\"MrRobot\":HUNTER1"] = {
 			["IconTexturePath"] = 461112,
 			["PerCharacterOptions"] = {
-				["Laurannah-Kel'Thuzad"] = {
+				["Laurannah-Undermine"] = {
 					["Visible"] = true,
 				},
-				["Laurannah-Undermine"] = {
+				["Laurannah-Kel'Thuzad"] = {
 					["Visible"] = true,
 				},
 			},
