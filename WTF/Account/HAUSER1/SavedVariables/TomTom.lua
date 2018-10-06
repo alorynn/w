@@ -36,9 +36,9 @@ TomTomDB = {
 		["Ugiyo - Kel'Thuzad"] = "Default",
 		["Hauzerhunter - Kel'Thuzad"] = "Default",
 		["Fsdkjhskdjfh - Kel'Thuzad"] = "Default",
-		["Alaurannah - Undermine"] = "Default",
-		["Olrapey - Kel'Thuzad"] = "Default",
 		["Skãdi - Kel'Thuzad"] = "Default",
+		["Olrapey - Kel'Thuzad"] = "Default",
+		["Alaurannah - Undermine"] = "Default",
 		["Hauser - Mal'Ganis"] = "Default",
 		["Hauzer - Kel'Thuzad"] = "Default",
 		["Testfoolio - Kel'Thuzad"] = "Default",
@@ -116,63 +116,169 @@ TomTomWaypointsM = {
 		["Loranno - Kel'Thuzad"] = {
 		},
 		["Laurannah - Kel'Thuzad"] = {
-			[542] = {
-				["542:355000000:320000000:Clue 1: Lit Orb"] = {
-					542, -- [1]
-					0.355, -- [2]
-					0.32, -- [3]
+			[1044] = {
+				["1044:883900000:692000000:Rotten Potato!"] = {
+					1044, -- [1]
+					0.8839, -- [2]
+					0.692, -- [3]
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
 						},
 						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
 					["persistent"] = true,
-					["desc"] = "Clue 1: Lit Orb",
+					["desc"] = "Rotten Potato!",
 					["silent"] = true,
 					["cleardistance"] = 0,
-					["title"] = "Clue 1: Lit Orb",
+					["title"] = "Rotten Potato!",
 					["crazy"] = false,
 					["minimap"] = true,
 					["world"] = true,
 				},
 			},
-			[37] = {
-				["37:174700000:564900000:Clue 2: Strange Seed"] = {
-					37, -- [1]
-					0.1747, -- [2]
-					0.5649, -- [3]
-					["minimap"] = true,
-					["cleardistance"] = 0,
-					["title"] = "Clue 2: Strange Seed",
+			[66] = {
+				["66:574000000:476000000:/wave Karnum Marshweaver"] = {
+					66, -- [1]
+					0.574, -- [2]
+					0.476, -- [3]
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
 						},
 						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
-					["crazy"] = false,
 					["persistent"] = true,
+					["desc"] = "/wave Karnum Marshweaver",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "/wave Karnum Marshweaver",
+					["crazy"] = false,
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
+			[121] = {
+				["121:404000000:686000000:/cheer Noggra"] = {
+					121, -- [1]
+					0.404, -- [2]
+					0.686, -- [3]
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["persistent"] = true,
+					["desc"] = "/cheer Noggra",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "/cheer Noggra",
+					["crazy"] = false,
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
+			[14] = {
+				["14:850000000:730000000:Grimmy"] = {
+					14, -- [1]
+					0.85, -- [2]
+					0.73, -- [3]
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["persistent"] = true,
+					["desc"] = "Grimmy",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Grimmy",
+					["crazy"] = false,
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["14:883900000:692000000:Rotten Potato!"] = {
+					14, -- [1]
+					0.8839, -- [2]
+					0.692, -- [3]
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["persistent"] = true,
+					["desc"] = "Rotten Potato!",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Rotten Potato!",
+					["crazy"] = false,
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
+			[241] = {
+				["241:284000000:248000000:/slap Aquinastrasz"] = {
+					241, -- [1]
+					0.284, -- [2]
+					0.248, -- [3]
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["persistent"] = true,
+					["desc"] = "/slap Aquinastrasz",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "/slap Aquinastrasz",
+					["crazy"] = false,
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
+			[379] = {
+				["379:444000000:902000000:/dance Stained Mug"] = {
+					379, -- [1]
+					0.444, -- [2]
+					0.902, -- [3]
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+						},
+						["world"] = {
+						},
+						["minimap"] = {
+						},
+					},
+					["persistent"] = true,
+					["desc"] = "/dance Stained Mug",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "/dance Stained Mug",
+					["crazy"] = false,
+					["minimap"] = true,
 					["world"] = true,
 				},
 			},

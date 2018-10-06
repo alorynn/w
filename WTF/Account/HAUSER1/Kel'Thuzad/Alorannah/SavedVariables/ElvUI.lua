@@ -1,226 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		" hmm might try and tame this mechanical squirrel", -- [1]
-		" ghost and robot, not quite on theme but still lol", -- [2]
-		"/s oh go ahead I can handle it lol", -- [3]
-		"/s ty", -- [4]
-		"/2 from WB bonus roll |cffa335ee|Hitem:161381::::::::120:261::3:4:4798:1808:1507:4784:::|h[Permafrost-Encrusted Heart]|h|r", -- [5]
-		"/2 I tried to give it away but the game wouldnt let me, wasted on me", -- [6]
-		"/s wq?", -- [7]
-		"/tar chron", -- [8]
-		"/tar chronicler as", -- [9]
-		"/tar syr", -- [10]
-		"/s np", -- [11]
-		"/wave", -- [12]
-		"/cw Treepanda-Stormreaver you da man", -- [13]
-		"/cw Treepanda-Stormreaver honestly first time Ive seen somoene with a brute popped here ", -- [14]
-		"/cw Decoyoctopus-Shadowmoon oh shit grays", -- [15]
-		"/cw Decoyoctopus-Shadowmoon grats too", -- [16]
-		"/cw Decoyoctopus-Shadowmoon 5k more to go for me", -- [17]
-		"/cw Decoyoctopus-Shadowmoon then I can log off this char forever lol", -- [18]
-		"/s indoor blimp yall", -- [19]
-		"/whistle", -- [20]
+		"/tar syr", -- [1]
+		"/s np", -- [2]
+		"/wave", -- [3]
+		"/cw Treepanda-Stormreaver you da man", -- [4]
+		"/cw Treepanda-Stormreaver honestly first time Ive seen somoene with a brute popped here ", -- [5]
+		"/cw Decoyoctopus-Shadowmoon oh shit grays", -- [6]
+		"/cw Decoyoctopus-Shadowmoon grats too", -- [7]
+		"/cw Decoyoctopus-Shadowmoon 5k more to go for me", -- [8]
+		"/cw Decoyoctopus-Shadowmoon then I can log off this char forever lol", -- [9]
+		"/s indoor blimp yall", -- [10]
+		"/whistle", -- [11]
+		"/cw Kraven-Lethon sick pet", -- [12]
+		"/s is he up top?", -- [13]
+		"/tar crim", -- [14]
+		"/cheer", -- [15]
+		"/tar val", -- [16]
+		"/tar val'", -- [17]
+		"/cw Grimlok doing a WQ but gimme a shout in a few mins if you cant find anyone", -- [18]
+		"/cw Grimlok-Kel'Thuzad any luck?", -- [19]
+		"/cw Grimlok-Kel'Thuzad grats", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"nice replacement for my 325 lol", -- [1]
-			"Indicia-Mug'thol", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Indicia-Mug'thol", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			204, -- [11]
-			"Player-84-07BA7C58", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aIndicia-Mug'thol|r",
-			[51] = 1538579479,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [1]
-		{
-			"hopefully its good for you!", -- [1]
-			"Indicia-Mug'thol", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Indicia-Mug'thol", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			207, -- [11]
-			"Player-84-07BA7C58", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aIndicia-Mug'thol|r",
-			[51] = 1538579485,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [2]
-		{
-			"looks like it, depends on proc rate I guess", -- [1]
-			"Indicia-Mug'thol", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Indicia-Mug'thol", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			208, -- [11]
-			"Player-84-07BA7C58", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aIndicia-Mug'thol|r",
-			[51] = 1538579499,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [3]
-		{
-			"i just got a weapon out of warfront. been trying for forever so i'm happy lol", -- [1]
-			"Indicia-Mug'thol", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Indicia-Mug'thol", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			209, -- [11]
-			"Player-84-07BA7C58", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aIndicia-Mug'thol|r",
-			[51] = 1538579500,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [4]
-		{
-			"very true", -- [1]
-			"Indicia-Mug'thol", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Indicia-Mug'thol", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			210, -- [11]
-			"Player-84-07BA7C58", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aIndicia-Mug'thol|r",
-			[51] = 1538579507,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [5]
-		{
-			"nice I got a 370 wep from warfront this week myself, very happy - makes a huuuge difference on a rogue", -- [1]
-			"Indicia-Mug'thol", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Indicia-Mug'thol", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			217, -- [11]
-			"Player-84-07BA7C58", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aIndicia-Mug'thol|r",
-			[51] = 1538579532,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [6]
-		{
-			"oh wow that's awesome", -- [1]
-			"Indicia-Mug'thol", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Indicia-Mug'thol", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			218, -- [11]
-			"Player-84-07BA7C58", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aIndicia-Mug'thol|r",
-			[51] = 1538579546,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [7]
-		{
-			"mine is 340 but i had a 325 and before that a 310 for a long time", -- [1]
-			"Indicia-Mug'thol", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Indicia-Mug'thol", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			227, -- [11]
-			"Player-84-07BA7C58", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aIndicia-Mug'thol|r",
-			[51] = 1538579567,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [8]
-		{
-			"ya I had 320s until warfronts basically", -- [1]
-			"Indicia-Mug'thol", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Indicia-Mug'thol", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			228, -- [11]
-			"Player-84-07BA7C58", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aIndicia-Mug'thol|r",
-			[51] = 1538579591,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [9]
 		{
 			"warfronts and arathi rares are a great way to get some gear", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -242,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538579609,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [10]
+		}, -- [1]
 		{
 			"i got 3 pieces from rares along", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -264,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538579619,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [11]
+		}, -- [2]
 		{
 			"alone", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -286,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538579621,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [12]
+		}, -- [3]
 		{
 			"ya no complaints - I'm just playing this char casually so it's nice to be able to get some gear without having to sweat raids", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -308,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538579634,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [13]
+		}, -- [4]
 		{
 			"very true. my main is a raider but i help gear my guildies with my druid by tanking for them", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -330,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538579661,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [14]
+		}, -- [5]
 		{
 			"ah is this a good trink for you? I dont really need it tbh - a 385 dagger would be another thing", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -352,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538579709,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [15]
+		}, -- [6]
 		{
 			"|cffa335ee|Hitem:161381::::::::120:261::3:4:4798:1808:1507:4784:::|h[Permafrost-Encrusted Heart]|h|r", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -374,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538579724,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [16]
+		}, -- [7]
 		{
 			"you can't trade stuff if you don't already have the ilvl equivalent", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -396,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538579746,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [17]
+		}, -- [8]
 		{
 			"that's all you =)", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -418,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538579750,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [18]
+		}, -- [9]
 		{
 			"ah really thats bullshit ", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -440,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538579770,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [19]
+		}, -- [10]
 		{
 			"i'm one of those weird people that get excited when someone gets such an amazing ilvl proc", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -462,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538579779,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [20]
+		}, -- [11]
 		{
 			"Im just playing around on this char to unlock horde allied races basically lol", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -484,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538579782,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [21]
+		}, -- [12]
 		{
 			"with a socket no less", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -506,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538579784,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [22]
+		}, -- [13]
 		{
 			"my hunter is going maghar i think when i hit exalted which is soon", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -528,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538579799,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [23]
+		}, -- [14]
 		{
 			"ya that's a cool 30 ilvl proc with socket too, crazy - there goes my RNG for the xpac", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -550,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538579805,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [24]
+		}, -- [15]
 		{
 			"XD", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -572,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538579809,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [25]
+		}, -- [16]
 		{
 			"my hunter got a 385 raid ring with a socket that my guildies drooled over lol", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -594,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538579828,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [26]
+		}, -- [17]
 		{
 			"there went mine", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -616,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538579833,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [27]
+		}, -- [18]
 		{
 			"ya my main's a hunter and I might switch from human to maghar but that rep bonus is hard to pass up especially in this xpac - Ive ground out exalted on like 7 factions now ugh", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -638,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538579843,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [28]
+		}, -- [19]
 		{
 			"i hate world quests...i have to do them on my hunter to get blues to disenchant", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -660,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538579870,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [29]
+		}, -- [20]
 		{
 			"I only have one faction left, Zandalari, but it's slow as balls since there's only like 6 WQ a day ", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -682,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538579920,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [30]
+		}, -- [21]
 		{
 			"this morning I literally learned inscription to make zandalari contracts because there arent any on the AH lol", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -704,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538579938,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [31]
+		}, -- [22]
 		{
 			"haha that's being comitted!", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -726,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538579951,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [32]
+		}, -- [23]
 		{
 			"I just wanna get em out of the way so I'm not doing WQs when the new content comes out", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -748,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538579959,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [33]
+		}, -- [24]
 		{
 			"plus I figured if no one's making these contracts, why not me? for a bit of profit ofc", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -770,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538579972,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [34]
+		}, -- [25]
 		{
 			"i hear you.  sometimes a really nice one pops up though", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -792,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538579976,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [35]
+		}, -- [26]
 		{
 			"in fact lemme check my mail", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -814,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538579979,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [36]
+		}, -- [27]
 		{
 			"ya I just sold one for like 600g, cost maybe 20g in mats", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -836,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538579994,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [37]
+		}, -- [28]
 		{
 			"grats!", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -858,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538580002,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [38]
+		}, -- [29]
 		{
 			"heh thanks if you ever want a discount hit me up - every other contract is well represented on my AH", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -880,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538580023,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [39]
+		}, -- [30]
 		{
 			"i picked up enchanting on my hunter because i had no need to scrap and it was all going to waste", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -902,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538580033,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [40]
+		}, -- [31]
 		{
 			"nice pet, did you get him twice?", -- [1]
 			"Riiaru-Kel'Thuzad", -- [2]
@@ -924,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Riiaru|r",
 			[51] = 1538580044,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [41]
+		}, -- [32]
 		{
 			"i'm not sure if we are in the same server group", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -946,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538580048,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [42]
+		}, -- [33]
 		{
 			"but i appreciate it =) it's good to know that there are still some nice people that play", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -968,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538580070,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [43]
+		}, -- [34]
 		{
 			"just once lol", -- [1]
 			"Riiaru-Kel'Thuzad", -- [2]
@@ -990,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Riiaru|r",
 			[51] = 1538580071,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [44]
+		}, -- [35]
 		{
 			"ya not sure, if youre on the AH check for zandalar contracts, if there's only 2 and they're mine then thats us", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -1012,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538580072,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [45]
+		}, -- [36]
 		{
 			"i'll check", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -1034,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538580084,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [46]
+		}, -- [37]
 		{
 			"ah you need to get him twice to strut around Org with ", -- [1]
 			"Riiaru-Kel'Thuzad", -- [2]
@@ -1056,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Riiaru|r",
 			[51] = 1538580092,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [47]
+		}, -- [38]
 		{
 			"ya no worries and ya theres lots of nice ppl still playing the game, just ignore the forums and trade where all the bored kids hang out ", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -1078,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538580126,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [48]
+		}, -- [39]
 		{
 			"if i had that talent maybe :p", -- [1]
 			"Riiaru-Kel'Thuzad", -- [2]
@@ -1100,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Riiaru|r",
 			[51] = 1538580129,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [49]
+		}, -- [40]
 		{
 			"it's the transmog talent", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -1122,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538580142,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [50]
+		}, -- [41]
 		{
 			"oops mt", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -1144,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538580180,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [51]
+		}, -- [42]
 		{
 			"the transmog talent lol", -- [1]
 			"Riiaru-Kel'Thuzad", -- [2]
@@ -1166,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Riiaru|r",
 			[51] = 1538580185,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [52]
+		}, -- [43]
 		{
 			"nope. wrong server group. but i wouldn't mind adding you to friends =)", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -1188,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538580218,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [53]
+		}, -- [44]
 		{
 			"ya same!", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -1210,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538580226,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [54]
+		}, -- [45]
 		{
 			"can talk hunter stuff at the very least", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -1232,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538580239,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [55]
+		}, -- [46]
 		{
 			"what spec do you play?", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -1254,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538580243,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [56]
+		}, -- [47]
 		{
 			"BM", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -1276,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538580247,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [57]
+		}, -- [48]
 		{
 			"same", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -1298,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538580252,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [58]
+		}, -- [49]
 		{
 			"so fast at WQ and very good in instanced/pvp", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -1320,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538580268,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [59]
+		}, -- [50]
 		{
 			"i don't pbp much on my hunter but i've started a little on my disc priest", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -1342,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538580286,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [60]
+		}, -- [51]
 		{
 			"pvp*", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -1364,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538580290,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [61]
+		}, -- [52]
 		{
 			"my battletag is Lydochka#1137", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -1386,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538580304,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [62]
+		}, -- [53]
 		{
 			"but I'm done with the rep grinds for now so been collecting some rares, doing some of those hidden questlines etc", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -1408,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538580308,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [63]
+		}, -- [54]
 		{
 			"i just got my lightning wolf from storm peaks on sunday", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -1430,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538580327,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [64]
+		}, -- [55]
 		{
 			"nice how hard is that?", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -1452,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538580341,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [65]
+		}, -- [56]
 		{
 			"just a rare spawn that a lot of other hunters camp for ", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -1474,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538580358,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [66]
+		}, -- [57]
 		{
 			"|cffffff00Zuldazar is under attack!|r", -- [1]
 			"", -- [2]
@@ -1496,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1538580359,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [58]
 		{
 			"I just grabbed Arcturis, 2 Sambas and 2 Bulvinkels over the past week", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -1518,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538580361,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [68]
+		}, -- [59]
 		{
 			"but theyre all pretty easy (except the campers) - static spawns", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -1540,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538580380,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [69]
+		}, -- [60]
 		{
 			"i want arturis but not enough to sit in grizzly hills for him since i just got skoll", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -1562,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538580381,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [70]
+		}, -- [61]
 		{
 			"tbh bullvinkel is better than arcturis", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -1584,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538580394,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [71]
+		}, -- [62]
 		{
 			"plus you can get the matching mount", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -1606,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538580399,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [72]
+		}, -- [63]
 		{
 			"how do you get taht mount? i have no idea", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -1628,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538580412,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [73]
+		}, -- [64]
 		{
 			"i missed about a year and 1/2 of legion", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -1650,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538580423,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [74]
+		}, -- [65]
 		{
 			"I stride around boralus on my alliance lion mount with 2 Sambas lions beside me lol", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -1672,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538580423,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [75]
+		}, -- [66]
 		{
 			"mount is from archaeology in Legion, an event that comes up every few months, not sure the timing - google ghost moose mount", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -1694,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538580445,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [76]
+		}, -- [67]
 		{
 			"oh yay! my priest does arch", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -1716,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538580460,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [77]
+		}, -- [68]
 		{
 			"oh yes you are right. i gotta get that moose pet", -- [1]
 			"Indicia-Mug'thol", -- [2]
@@ -1738,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aIndicia-Mug'thol|r",
 			[51] = 1538580491,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [78]
+		}, -- [69]
 		{
 			"iirc it was pretty easy even in Legion, took like 2 hours", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -1761,7 +1563,7 @@ ElvCharacterDB = {
 			[51] = 1538580550,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Lydochka",
-		}, -- [79]
+		}, -- [70]
 		{
 			"definitely looks cool with 2 Bulvinkel's by your side", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -1784,7 +1586,7 @@ ElvCharacterDB = {
 			[51] = 1538580569,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Lydochka",
-		}, -- [80]
+		}, -- [71]
 		{
 			"haha", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -1807,7 +1609,7 @@ ElvCharacterDB = {
 			[51] = 1538580585,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Lydochka",
-		}, -- [81]
+		}, -- [72]
 		{
 			"pull out a squirrel non combat pet and you are set", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -1830,7 +1632,7 @@ ElvCharacterDB = {
 			[51] = 1538580606,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Lydochka",
-		}, -- [82]
+		}, -- [73]
 		{
 			"for fun I fly over to the place where Bulvinkel spawns and pop out the whole bunch, get's a lot of /cry from the other hunters", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -1853,7 +1655,7 @@ ElvCharacterDB = {
 			[51] = 1538580615,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Lydochka",
-		}, -- [83]
+		}, -- [74]
 		{
 			"ohhhh snap I didnt think of that - wonder if there's a flying squirrel", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -1876,7 +1678,7 @@ ElvCharacterDB = {
 			[51] = 1538580633,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Lydochka",
-		}, -- [84]
+		}, -- [75]
 		{
 			"lol i rode around on my TIme lost proto in storm peaks while waiting for Skoll. people were less than enthused", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -1899,7 +1701,7 @@ ElvCharacterDB = {
 			[51] = 1538580675,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Lydochka",
-		}, -- [85]
+		}, -- [76]
 		{
 			"ha does that set off their npcscan?", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -1922,7 +1724,7 @@ ElvCharacterDB = {
 			[51] = 1538580691,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Lydochka",
-		}, -- [86]
+		}, -- [77]
 		{
 			"not anymore i don't think but yeah it used to", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -1945,7 +1747,7 @@ ElvCharacterDB = {
 			[51] = 1538580703,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Lydochka",
-		}, -- [87]
+		}, -- [78]
 		{
 			"Ive never hunted for any rare anything but I managed to figure out server timing for the pets at least so thought I;d give it a try, was pretty easy - none of this waiting around for hours, just log in a few mins every hour", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -1968,7 +1770,7 @@ ElvCharacterDB = {
 			[51] = 1538580739,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Lydochka",
-		}, -- [88]
+		}, -- [79]
 		{
 			"yeah., i set my hearth in storm peaks and just kept checking", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -1991,7 +1793,7 @@ ElvCharacterDB = {
 			[51] = 1538580760,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Lydochka",
-		}, -- [89]
+		}, -- [80]
 		{
 			"and then leaving", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -2014,7 +1816,7 @@ ElvCharacterDB = {
 			[51] = 1538580766,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Lydochka",
-		}, -- [90]
+		}, -- [81]
 		{
 			"and the one time i stayed for a few minutes to type an email and BOOM there he was", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -2037,7 +1839,7 @@ ElvCharacterDB = {
 			[51] = 1538580779,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Lydochka",
-		}, -- [91]
+		}, -- [82]
 		{
 			"Skoll", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -2060,7 +1862,7 @@ ElvCharacterDB = {
 			[51] = 1538580784,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Lydochka",
-		}, -- [92]
+		}, -- [83]
 		{
 			"haha yeah its tempting to get distracted during those few mins", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -2083,7 +1885,7 @@ ElvCharacterDB = {
 			[51] = 1538580797,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Lydochka",
-		}, -- [93]
+		}, -- [84]
 		{
 			"i got the time lost while doing english homework", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -2106,7 +1908,7 @@ ElvCharacterDB = {
 			[51] = 1538580799,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Lydochka",
-		}, -- [94]
+		}, -- [85]
 		{
 			"if youre interested last tuesday bulvinkel was there right at restart, another hunter got him by like 2 seconds - might be worth camping as it doesnt get any easier than that", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -2129,7 +1931,7 @@ ElvCharacterDB = {
 			[51] = 1538580835,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Lydochka",
-		}, -- [95]
+		}, -- [86]
 		{
 			"he spawns in this mist area?", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -2152,7 +1954,7 @@ ElvCharacterDB = {
 			[51] = 1538580884,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Lydochka",
-		}, -- [96]
+		}, -- [87]
 		{
 			"no above - hit wowhead to get the exact coords", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -2175,7 +1977,7 @@ ElvCharacterDB = {
 			[51] = 1538580901,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Lydochka",
-		}, -- [97]
+		}, -- [88]
 		{
 			"theres a plateau there where you'll see the other hunters", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -2198,7 +2000,7 @@ ElvCharacterDB = {
 			[51] = 1538580913,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Lydochka",
-		}, -- [98]
+		}, -- [89]
 		{
 			"yup. i see one", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -2221,7 +2023,7 @@ ElvCharacterDB = {
 			[51] = 1538580925,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Lydochka",
-		}, -- [99]
+		}, -- [90]
 		{
 			"around all the goats", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -2244,7 +2046,7 @@ ElvCharacterDB = {
 			[51] = 1538580933,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Lydochka",
-		}, -- [100]
+		}, -- [91]
 		{
 			"ya right in there", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -2267,7 +2069,7 @@ ElvCharacterDB = {
 			[51] = 1538580938,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Lydochka",
-		}, -- [101]
+		}, -- [92]
 		{
 			"hmm might try and tame this mechanical squirrel", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -2290,7 +2092,7 @@ ElvCharacterDB = {
 			[51] = 1538581014,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Lydochka",
-		}, -- [102]
+		}, -- [93]
 		{
 			"haha", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -2313,7 +2115,7 @@ ElvCharacterDB = {
 			[51] = 1538581027,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Lydochka",
-		}, -- [103]
+		}, -- [94]
 		{
 			"ghost and robot, not quite on theme but still lol", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -2336,7 +2138,7 @@ ElvCharacterDB = {
 			[51] = 1538581049,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Lydochka",
-		}, -- [104]
+		}, -- [95]
 		{
 			"it's a reboot.", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -2359,7 +2161,7 @@ ElvCharacterDB = {
 			[51] = 1538581058,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Lydochka",
-		}, -- [105]
+		}, -- [96]
 		{
 			"lol", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -2382,7 +2184,7 @@ ElvCharacterDB = {
 			[51] = 1538581061,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Lydochka",
-		}, -- [106]
+		}, -- [97]
 		{
 			"oh go ahead I can handle it lol", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2404,7 +2206,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538599461,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [107]
+		}, -- [98]
 		{
 			"ty", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2426,7 +2228,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538599463,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [108]
+		}, -- [99]
 		{
 			"|cffffff00Zuldazar is under attack!|r", -- [1]
 			"", -- [2]
@@ -2448,7 +2250,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1538599516,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [109]
+		}, -- [100]
 		{
 			"from WB bonus roll |cffa335ee|Hitem:161381::::::::120:261::3:4:4798:1808:1507:4784:::|h[Permafrost-Encrusted Heart]|h|r", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2470,7 +2272,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538600282,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [110]
+		}, -- [101]
 		{
 			"I tried to give it away but the game wouldnt let me, wasted on me", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2492,7 +2294,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538600308,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [111]
+		}, -- [102]
 		{
 			"wq?", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2514,7 +2316,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538659038,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [112]
+		}, -- [103]
 		{
 			"group leader changed so it put us in a new phase", -- [1]
 			"Jazsin-WyrmrestAccord", -- [2]
@@ -2536,7 +2338,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaJazsin-WyrmrestAccord|r",
 			[51] = 1538671085,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [113]
+		}, -- [104]
 		{
 			"it phased us when someone left", -- [1]
 			"Boozeyboi-Thrall", -- [2]
@@ -2558,7 +2360,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Boozeyboi-Thrall|r",
 			[51] = 1538671086,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [114]
+		}, -- [105]
 		{
 			"|cffffff00Zuldazar is under attack!|r", -- [1]
 			"", -- [2]
@@ -2580,7 +2382,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1538671614,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [115]
+		}, -- [106]
 		{
 			"i've been checking up on the ghost fox pet. any tips? lol", -- [1]
 			"|Kf1|k00000000|k", -- [2]
@@ -2603,7 +2405,7 @@ ElvCharacterDB = {
 			[51] = 1538671700,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Lydochka",
-		}, -- [116]
+		}, -- [107]
 		{
 			"np", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2625,7 +2427,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538747572,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [117]
+		}, -- [108]
 		{
 			"you da man", -- [1]
 			"Treepanda-Stormreaver", -- [2]
@@ -2647,7 +2449,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Treepanda-Stormreaver|r",
 			[51] = 1538747840,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [118]
+		}, -- [109]
 		{
 			"honestly first time Ive seen somoene with a brute popped here ", -- [1]
 			"Treepanda-Stormreaver", -- [2]
@@ -2669,7 +2471,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Treepanda-Stormreaver|r",
 			[51] = 1538747858,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [119]
+		}, -- [110]
 		{
 			"oh shit grays", -- [1]
 			"Decoyoctopus-Shadowmoon", -- [2]
@@ -2691,7 +2493,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aDecoyoctopus-Shadowmoon|r",
 			[51] = 1538754887,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [120]
+		}, -- [111]
 		{
 			"grats too", -- [1]
 			"Decoyoctopus-Shadowmoon", -- [2]
@@ -2713,7 +2515,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aDecoyoctopus-Shadowmoon|r",
 			[51] = 1538754890,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [121]
+		}, -- [112]
 		{
 			"thx", -- [1]
 			"Decoyoctopus-Shadowmoon", -- [2]
@@ -2735,7 +2537,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aDecoyoctopus-Shadowmoon|r",
 			[51] = 1538754896,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [122]
+		}, -- [113]
 		{
 			"5k more to go for me", -- [1]
 			"Decoyoctopus-Shadowmoon", -- [2]
@@ -2757,7 +2559,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aDecoyoctopus-Shadowmoon|r",
 			[51] = 1538754898,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [123]
+		}, -- [114]
 		{
 			"nice", -- [1]
 			"Decoyoctopus-Shadowmoon", -- [2]
@@ -2779,7 +2581,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aDecoyoctopus-Shadowmoon|r",
 			[51] = 1538754909,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [124]
+		}, -- [115]
 		{
 			"then I can log off this char forever lol", -- [1]
 			"Decoyoctopus-Shadowmoon", -- [2]
@@ -2801,7 +2603,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aDecoyoctopus-Shadowmoon|r",
 			[51] = 1538754938,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [125]
+		}, -- [116]
 		{
 			"indoor blimp yall", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2823,7 +2625,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538754982,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [126]
+		}, -- [117]
 		{
 			"WTS |cffffffff|Hitem:152875::::::::1:64::::::|h[Gloom Dust]|h|r 20g per |cffffffff|Hitem:152576::::::::1:64::::::|h[Tidespray Linen]|h|r 18g per PST ", -- [1]
 			"Bankslot-Stormreaver", -- [2]
@@ -2845,6 +2647,204 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaBankslot-Stormreaver|r",
 			[51] = 1538755696,
 			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [118]
+		{
+			"sick pet", -- [1]
+			"Kraven-Lethon", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Kraven-Lethon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3, -- [11]
+			"Player-154-0636DE3D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Kraven-Lethon|r",
+			[51] = 1538827426,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [119]
+		{
+			"ttks :)", -- [1]
+			"Kraven-Lethon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kraven-Lethon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4, -- [11]
+			"Player-154-0636DE3D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Kraven-Lethon|r",
+			[51] = 1538827476,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [120]
+		{
+			"is he up top?", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			124, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1538828022,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [121]
+		{
+			"|cffffff00Zuldazar is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Zuldazar", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Zuldazar", -- [9]
+			0, -- [10]
+			234, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1538842920,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [122]
+		{
+			"doing a WQ but gimme a shout in a few mins if you cant find anyone", -- [1]
+			"Grimlok-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Grimlok", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			252, -- [11]
+			"Player-3693-0A0A2239", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddGrimlok|r",
+			[51] = 1538843424,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [123]
+		{
+			"ty", -- [1]
+			"Grimlok-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Grimlok", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			255, -- [11]
+			"Player-3693-0A0A2239", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddGrimlok|r",
+			[51] = 1538843431,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [124]
+		{
+			"any luck?", -- [1]
+			"Grimlok-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Grimlok", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			287, -- [11]
+			"Player-3693-0A0A2239", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddGrimlok|r",
+			[51] = 1538843679,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [125]
+		{
+			"yep! ty", -- [1]
+			"Grimlok-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Grimlok", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			288, -- [11]
+			"Player-3693-0A0A2239", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddGrimlok|r",
+			[51] = 1538843684,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [126]
+		{
+			"grats", -- [1]
+			"Grimlok-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Grimlok", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			289, -- [11]
+			"Player-3693-0A0A2239", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddGrimlok|r",
+			[51] = 1538843700,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [127]
 	},
 }

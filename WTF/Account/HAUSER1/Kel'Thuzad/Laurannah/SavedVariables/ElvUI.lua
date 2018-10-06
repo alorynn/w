@@ -1,1348 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/p hope people hung on to their garrison hearthstones", -- [1]
-		"/p very useful for these secrets that send you all over the world", -- [2]
-		"/p ya some people have gotten the warmode thing to work", -- [3]
-		"/p I'll try it myself, brb", -- [4]
-		"/p watch us get gangfucked", -- [5]
-		"/p omw back", -- [6]
-		"/p did anyone have WM on when they came here?", -- [7]
-		"/p and there we go", -- [8]
-		"/p bloody blizzard lol", -- [9]
-		"/p did it work for everyone?", -- [10]
-		"/p same", -- [11]
-		"/p spellcheck did it work?", -- [12]
-		"/p ok great would love a port to SW", -- [13]
-		"/p thanks guys", -- [14]
-		"/bartender", -- [15]
-		"/mogit", -- [16]
-		"/way Spires of Arak 35.5 32 Clue 1: Lit Orb ", -- [17]
-		"/2 link", -- [18]
-		"/way Elwynn Forest 17.47, 56.49 Clue 2: Strange Seed ", -- [19]
-		"/reload", -- [20]
+		"/run local a,q=0,{{52819},{52809,52810},{52818,52812,-1},{53632,53634},{52827,52831},{52898,52922}} for x, y in ipairs(q) do for i = y[1], y[2] or y[1], y[3] or 1 do a=a+1 print(\"Step #\"..a..\" (\"..i..\"): \"..tostring(IsQuestFlaggedCompleted(i))) end end", -- [1]
+		"/2 is there a portal to shatt in SW?", -- [2]
+		"/paste show", -- [3]
+		"/paste", -- [4]
+		"/paste minimap", -- [5]
+		"/way 85, 73 Grimmy", -- [6]
+		"/way Twilight Highlands 28.4 24.8 /slap Aquinastrasz", -- [7]
+		"/way Desolace 57.4 47.6 /wave Karnum Marshweaver", -- [8]
+		"/way Zul'drak 40.4 68.6 /cheer Noggra", -- [9]
+		"/way Kun'lai Summit 44.4 90.2 /dance Stained Mug", -- [10]
+		"/slap", -- [11]
+		"/cheer", -- [12]
+		"/tar stain", -- [13]
+		"/dance", -- [14]
+		"/wave", -- [15]
+		"/way Arathi Highlands:Eastern Kingdoms 88.39 69.2 Rotten Potato!", -- [16]
+		"/way  88.39 69.2 Rotten Potato!", -- [17]
+		"/2 whiskey, rail, neat <--- only drink order you ever need", -- [18]
+		"/2 or well instead of rail if you live somewhere fancy", -- [19]
+		"/cw Adariel have you always been able to mog glaives into swords?", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"heh sure the basics are easy like everyone says but if you get into microing your pet you can do a lot more - surprisingly deep ", -- [1]
-			"Incineratur-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Incineratur", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1153, -- [11]
-			"Player-3693-07F32880", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aIncineratur|r",
-			[51] = 1538756385,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [1]
-		{
-			"ill have to check guides on it. unh dk has a pet but its pretty dumb lol", -- [1]
-			"Incineratur-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Incineratur", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1155, -- [11]
-			"Player-3693-07F32880", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aIncineratur|r",
-			[51] = 1538756412,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [2]
-		{
-			"its too bad the 2nd pet is basically a slave to the 1st but if you could micro 2 at once that might be just a bit OP lol", -- [1]
-			"Incineratur-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Incineratur", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1156, -- [11]
-			"Player-3693-07F32880", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aIncineratur|r",
-			[51] = 1538756415,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [3]
-		{
-			"yeah, would be hard to do but managable", -- [1]
-			"Incineratur-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Incineratur", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1175, -- [11]
-			"Player-3693-07F32880", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aIncineratur|r",
-			[51] = 1538756445,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [4]
-		{
-			"hello reddit", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1189, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538756502,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [5]
-		{
-			"use the class tryout and give it a go, you only need to grab a couple easy to get pets and youre 100% as capable as the BMs in Method", -- [1]
-			"Incineratur-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Incineratur", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1219, -- [11]
-			"Player-3693-07F32880", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aIncineratur|r",
-			[51] = 1538756536,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [6]
-		{
-			"haha im not sure if ill be that good", -- [1]
-			"Incineratur-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Incineratur", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1248, -- [11]
-			"Player-3693-07F32880", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aIncineratur|r",
-			[51] = 1538756559,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [7]
-		{
-			" Herioc Uldir Full Clear!!  one spot open--Start now!!- <kill G'HUN NOW>'-WTS mythic +10 carry ---come now", -- [1]
-			"Gradoremic-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gradoremic", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1261, -- [11]
-			"Player-3693-0A0C1748", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Gradoremic|r",
-			[51] = 1538756569,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
-		{
-			"the rares are just for fun, they dont do anything different than the regular pets anymore - one reason I'm looking forward to vanilla where all the pets had different abilities and some of the rares were really OP lol", -- [1]
-			"Incineratur-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Incineratur", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1275, -- [11]
-			"Player-3693-07F32880", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aIncineratur|r",
-			[51] = 1538756582,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [9]
-		{
-			"yeah i remember core hounds being really good for bm", -- [1]
-			"Incineratur-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Incineratur", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1288, -- [11]
-			"Player-3693-07F32880", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aIncineratur|r",
-			[51] = 1538756597,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [10]
-		{
-			"ya theyre great and super easy to get, just walk into MC and grab one", -- [1]
-			"Incineratur-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Incineratur", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1301, -- [11]
-			"Player-3693-07F32880", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aIncineratur|r",
-			[51] = 1538756616,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [11]
-		{
-			"hardest part is having to go to mc lol", -- [1]
-			"Incineratur-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Incineratur", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1302, -- [11]
-			"Player-3693-07F32880", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aIncineratur|r",
-			[51] = 1538756663,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [12]
-		{
-			"hate that place", -- [1]
-			"Incineratur-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Incineratur", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1304, -- [11]
-			"Player-3693-07F32880", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aIncineratur|r",
-			[51] = 1538756671,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [13]
-		{
-			"ya exactly", -- [1]
-			"Incineratur-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Incineratur", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1305, -- [11]
-			"Player-3693-07F32880", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aIncineratur|r",
-			[51] = 1538756674,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [14]
-		{
-			"bad memories from vanilla", -- [1]
-			"Incineratur-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Incineratur", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1310, -- [11]
-			"Player-3693-07F32880", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc41e3aIncineratur|r",
-			[51] = 1538756689,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [15]
-		{
-			"Recruiting for Mythic Progression. Need Tank/Priest Healer/Mage. Currently 2/8M Tues&Thursday 7-10PM ST. 8/8H Clears Saturday. ", -- [1]
-			"Xivia-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Xivia", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1323, -- [11]
-			"Player-3693-0748A17A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Xivia|r",
-			[51] = 1538756973,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
-		{
-			" Herioc Uldir Full Clear!!  one spot open--Start now!!- <kill G'HUN NOW>'-WTS mythic +10 carry ---come now", -- [1]
-			"Gradoremic-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gradoremic", -- [5]
-			"DND", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1408, -- [11]
-			"Player-3693-0A0C1748", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Gradoremic|r",
-			[51] = 1538757292,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
-		{
-			"IE is super fast from 110-113 then slows down a lot", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1413, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538757405,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
-		{
-			"WTS|cffa335ee|Hitem:159128::::::::103:62::13::::|h[Darkmoon Deck: Blockades]|h|r15k and|cffa335ee|Hitem:159126::::::::103:62::13::::|h[Darkmoon Deck: Squalls]|h|r12k", -- [1]
-			"Suemadre-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Suemadre", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1416, -- [11]
-			"Player-3693-086B976D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff3fc6eaSuemadre|r",
-			[51] = 1538757450,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
-		{
-			" Herioc Uldir Full Clear!!  one spot open--Start now!!- <kill G'HUN NOW>'-WTS mythic +10 carry ---come now", -- [1]
-			"Gradoremic-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gradoremic", -- [5]
-			"DND", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1419, -- [11]
-			"Player-3693-0A0C1748", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Gradoremic|r",
-			[51] = 1538757534,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
-		{
-			"<Delete> 2/8M 8/8H Uldir is recruiting for our Core Raid Team. Raid times are Tues/Wed/Mon 6:30-9:30pm Server as well as alt runs on Thursday. Also all casuals welcome. Pst for more information.", -- [1]
-			"Micho-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Micho", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1440, -- [11]
-			"Player-3693-08BB823A", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff48cbaMicho|r",
-			[51] = 1538757659,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
-		{
-			"WTS |cffa335ee|Hitem:159125::::::::6:256::13::::|h[Darkmoon Deck: Fathoms]|h|r|cffa335ee|Hitem:159127::::::::6:256::13::::|h[Darkmoon Deck: Tides]|h|r|cffa335ee|Hitem:159126::::::::6:256::13::::|h[Darkmoon Deck: Squalls]|h|r|cffa335ee|Hitem:159128::::::::6:256::13::::|h[Darkmoon Deck: Blockades]|h|r", -- [1]
-			"Xdtimexd-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Xdtimexd", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1492, -- [11]
-			"Player-3693-0A05AD7E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffXdtimexd|r",
-			[51] = 1538757741,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
-		{
-			" Herioc Uldir Full Clear!!  one spot open--Start now!!- <kill G'HUN NOW>'-WTS mythic +10 carry ---come now", -- [1]
-			"Gradoremic-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gradoremic", -- [5]
-			"DND", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1517, -- [11]
-			"Player-3693-0A0C1748", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Gradoremic|r",
-			[51] = 1538757775,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
-		{
-			"21.33 Beware! /way Stormsong Valley 69.3 9.4 Take Path /way Stormsong Valley 68.33 10.5 Entrance to Cave /way Zandalar 54.54 7.3 Back of ship, second pebble from left /way Boralus 37 80 In basement /way Drustvar 18.27 7.21 Take Path /way Drustvar 17.15 ", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1525, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538757784,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
-		{
-			"6.4 Cave /way Tiragarde Sound 75.43 70.65 In cave /way Tiragarde Sound 80.23 19.59 Behind Waterfall /way Boralus 10.01 82.59 Underwater Cave /way Zandalar 45.87 3.78 Path Start /way Zandalar 47.7 -3 Fatigue Reset Zone /way Zandalar 55.72 -10.21 ", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1526, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538757784,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
-		{
-			" Herioc Uldir Full Clear!!  one spot open--Start now!!- <kill G'HUN NOW>'-WTS mythic +10 carry ---come now", -- [1]
-			"Gradoremic-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gradoremic", -- [5]
-			"DND", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1725, -- [11]
-			"Player-3693-0A0C1748", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Gradoremic|r",
-			[51] = 1538759945,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
-		{
-			" Herioc Uldir Full Clear!!  one spot open--Start now!!- <kill G'HUN NOW>'-WTS mythic +10 carry ---come now", -- [1]
-			"Gradoremic-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gradoremic", -- [5]
-			"DND", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1801, -- [11]
-			"Player-3693-0A0C1748", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Gradoremic|r",
-			[51] = 1538761151,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
-		{
-			"<Inclusi> LFM for core raiding roster. Currently 8/8H 2/8M. Recruiting  Dps  365+ ilvl. Raid times 7-10Pm Server Time. Mon/Tues/Wed", -- [1]
-			"Excentríc-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Excentríc", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1869, -- [11]
-			"Player-3693-09F18AF6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa330c9Excentríc|r",
-			[51] = 1538762858,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
-		{
-			"<Inclusi> LFM for core raiding roster. Currently 8/8H 2/8M. Recruiting  Dps  365+ ilvl. Raid times 7-10Pm Server Time. Mon/Tues/Wed", -- [1]
-			"Excentríc-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Excentríc", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1870, -- [11]
-			"Player-3693-09F18AF6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa330c9Excentríc|r",
-			[51] = 1538762858,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
-		{
-			"good luck", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1909, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538764552,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [30]
-		{
-			"bugged for me", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1910, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538764555,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [31]
-		{
-			"fucking blizzard", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1913, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538764564,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [32]
-		{
-			"did you try switching warmode?", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1915, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538764571,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [33]
-		{
-			"ya he's got 9k health", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1919, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538764599,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [34]
-		{
-			"should have like 1000", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1920, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538764602,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [35]
-		{
-			"you did the full tour with Uuna?", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1921, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538764630,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [36]
-		{
-			"eh you can try it, you can just surrender if you see he has huge health", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1924, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538764710,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [37]
-		{
-			"still 9k for me", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1928, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538764741,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [38]
-		{
-			"any luck?", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1929, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538764800,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [39]
-		{
-			"trying to find someone with a jerry right now", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1930, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538764854,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [40]
-		{
-			"hey guys this thing is buggy as fuck apparently", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1939, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538764913,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [41]
-		{
-			"anyone have that jerry snail from TOT?", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1940, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538764927,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [42]
-		{
-			"yep is bug", -- [1]
-			"Achils-Zul'jin", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Achils-Zul'jin", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1941, -- [11]
-			"Player-61-060E7A44", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Achils-Zul'jin|r",
-			[51] = 1538764938,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [43]
-		{
-			"we're all bugged I assume", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1946, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538764970,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [44]
-		{
-			"?", -- [1]
-			"Spellcheck-Doomhammer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Spellcheck-Doomhammer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1947, -- [11]
-			"Player-1190-095B7A50", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaSpellcheck-Doomhammer|r",
-			[51] = 1538764970,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [45]
-		{
-			"im letting it kill all my pets to see if that resets it", -- [1]
-			"Blakkwydow-Ysera", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Blakkwydow-Ysera", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1948, -- [11]
-			"Player-63-0B965364", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dBlakkwydow-Ysera|r",
-			[51] = 1538764971,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [46]
-		{
-			"if you have that snail toy you can kill him to respawn him", -- [1]
-			"Spellcheck-Doomhammer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Spellcheck-Doomhammer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1949, -- [11]
-			"Player-1190-095B7A50", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaSpellcheck-Doomhammer|r",
-			[51] = 1538764997,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [47]
-		{
-			"only surefire cure seems to be letting jerry eat it but I dont have it", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1950, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538765002,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [48]
-		{
-			"nope havent gotten it ", -- [1]
-			"Blakkwydow-Ysera", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Blakkwydow-Ysera", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1951, -- [11]
-			"Player-63-0B965364", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dBlakkwydow-Ysera|r",
-			[51] = 1538765004,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [49]
-		{
-			"ya jerry the snail", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1952, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538765010,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [50]
-		{
-			"can you attack baa'l outside of battles?", -- [1]
-			"Spellcheck-Doomhammer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Spellcheck-Doomhammer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1953, -- [11]
-			"Player-1190-095B7A50", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaSpellcheck-Doomhammer|r",
-			[51] = 1538765038,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [51]
-		{
-			"nope", -- [1]
-			"Blakkwydow-Ysera", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Blakkwydow-Ysera", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1956, -- [11]
-			"Player-63-0B965364", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dBlakkwydow-Ysera|r",
-			[51] = 1538765045,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [52]
-		{
-			"when you summon uuna shes supposed to have some dialog, does anyone get that?", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1957, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538765078,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [53]
-		{
-			"nope", -- [1]
-			"Blakkwydow-Ysera", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Blakkwydow-Ysera", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1958, -- [11]
-			"Player-63-0B965364", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dBlakkwydow-Ysera|r",
-			[51] = 1538765085,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [54]
-		{
-			"if you get that it means shes applied the debuff", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1959, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538765087,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [55]
-		{
-			"if anyone has a guildie with jerry now's the time to ask lol", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1962, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538765160,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [56]
-		{
-			"lol right?", -- [1]
-			"Blakkwydow-Ysera", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Blakkwydow-Ysera", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1963, -- [11]
-			"Player-63-0B965364", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dBlakkwydow-Ysera|r",
-			[51] = 1538765170,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [57]
-		{
-			"lemme ask", -- [1]
-			"Blakkwydow-Ysera", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Blakkwydow-Ysera", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1964, -- [11]
-			"Player-63-0B965364", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dBlakkwydow-Ysera|r",
-			[51] = 1538765175,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [58]
-		{
-			"hope people hung on to their garrison hearthstones", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1965, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538765193,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [59]
-		{
-			"i did", -- [1]
-			"Blakkwydow-Ysera", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Blakkwydow-Ysera", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1966, -- [11]
-			"Player-63-0B965364", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dBlakkwydow-Ysera|r",
-			[51] = 1538765204,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [60]
 		{
 			"was thinking of going to sw to turn on warmode then come back", -- [1]
 			"Blakkwydow-Ysera", -- [2]
@@ -1364,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dBlakkwydow-Ysera|r",
 			[51] = 1538765217,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [61]
+		}, -- [1]
 		{
 			"very useful for these secrets that send you all over the world", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1386,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538765226,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [62]
+		}, -- [2]
 		{
 			"yep", -- [1]
 			"Blakkwydow-Ysera", -- [2]
@@ -1408,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dBlakkwydow-Ysera|r",
 			[51] = 1538765231,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [63]
+		}, -- [3]
 		{
 			"ya some people have gotten the warmode thing to work", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1430,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538765235,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [64]
+		}, -- [4]
 		{
 			"been using it alot for this", -- [1]
 			"Blakkwydow-Ysera", -- [2]
@@ -1452,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dBlakkwydow-Ysera|r",
 			[51] = 1538765237,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [65]
+		}, -- [5]
 		{
 			"I'll try it myself, brb", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1474,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538765242,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [66]
+		}, -- [6]
 		{
 			"kk me too", -- [1]
 			"Blakkwydow-Ysera", -- [2]
@@ -1496,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dBlakkwydow-Ysera|r",
 			[51] = 1538765245,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [67]
+		}, -- [7]
 		{
 			"watch us get gangfucked", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1518,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538765253,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [68]
+		}, -- [8]
 		{
 			"portal", -- [1]
 			"Spellcheck-Doomhammer", -- [2]
@@ -1540,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaSpellcheck-Doomhammer|r",
 			[51] = 1538765256,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [69]
+		}, -- [9]
 		{
 			"oh lol", -- [1]
 			"Spellcheck-Doomhammer", -- [2]
@@ -1562,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaSpellcheck-Doomhammer|r",
 			[51] = 1538765262,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [70]
+		}, -- [10]
 		{
 			"lol right?", -- [1]
 			"Blakkwydow-Ysera", -- [2]
@@ -1584,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dBlakkwydow-Ysera|r",
 			[51] = 1538765271,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [71]
+		}, -- [11]
 		{
 			"omw back", -- [1]
 			"Blakkwydow-Ysera", -- [2]
@@ -1606,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dBlakkwydow-Ysera|r",
 			[51] = 1538765306,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [72]
+		}, -- [12]
 		{
 			"omw back", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1628,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538765321,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [73]
+		}, -- [13]
 		{
 			"port plz", -- [1]
 			"Achils-Zul'jin", -- [2]
@@ -1650,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Achils-Zul'jin|r",
 			[51] = 1538765360,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [74]
+		}, -- [14]
 		{
 			"ty", -- [1]
 			"Achils-Zul'jin", -- [2]
@@ -1672,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Achils-Zul'jin|r",
 			[51] = 1538765382,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [75]
+		}, -- [15]
 		{
 			"did anyone have WM on when they came here?", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1694,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538765530,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [76]
+		}, -- [16]
 		{
 			"no", -- [1]
 			"Blakkwydow-Ysera", -- [2]
@@ -1716,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dBlakkwydow-Ysera|r",
 			[51] = 1538765544,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [77]
+		}, -- [17]
 		{
 			"no", -- [1]
 			"Spellcheck-Doomhammer", -- [2]
@@ -1738,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaSpellcheck-Doomhammer|r",
 			[51] = 1538765555,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [78]
+		}, -- [18]
 		{
 			"worked", -- [1]
 			"Blakkwydow-Ysera", -- [2]
@@ -1760,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dBlakkwydow-Ysera|r",
 			[51] = 1538765583,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [79]
+		}, -- [19]
 		{
 			"oh sweet, really?", -- [1]
 			"Spellcheck-Doomhammer", -- [2]
@@ -1782,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaSpellcheck-Doomhammer|r",
 			[51] = 1538765595,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [80]
+		}, -- [20]
 		{
 			"come back", -- [1]
 			"Blakkwydow-Ysera", -- [2]
@@ -1804,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dBlakkwydow-Ysera|r",
 			[51] = 1538765596,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [81]
+		}, -- [21]
 		{
 			"yep", -- [1]
 			"Blakkwydow-Ysera", -- [2]
@@ -1826,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dBlakkwydow-Ysera|r",
 			[51] = 1538765598,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [82]
+		}, -- [22]
 		{
 			"woot got it|cff0070dd|Hitem:162578::::::::120:72::::::|h[Baa'ls Darksign]|h|r", -- [1]
 			"Blakkwydow-Ysera", -- [2]
@@ -1848,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dBlakkwydow-Ysera|r",
 			[51] = 1538765631,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [83]
+		}, -- [23]
 		{
 			"and there we go", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1870,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538765637,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [84]
+		}, -- [24]
 		{
 			"bloody blizzard lol", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1892,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538765642,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [85]
+		}, -- [25]
 		{
 			"no shit", -- [1]
 			"Blakkwydow-Ysera", -- [2]
@@ -1914,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dBlakkwydow-Ysera|r",
 			[51] = 1538765648,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [86]
+		}, -- [26]
 		{
 			"did it work for everyone?", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1936,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538765648,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [87]
+		}, -- [27]
 		{
 			"one sec", -- [1]
 			"Spellcheck-Doomhammer", -- [2]
@@ -1958,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaSpellcheck-Doomhammer|r",
 			[51] = 1538765652,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [88]
+		}, -- [28]
 		{
 			"and everything said have warmode off", -- [1]
 			"Blakkwydow-Ysera", -- [2]
@@ -1980,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dBlakkwydow-Ysera|r",
 			[51] = 1538765655,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [89]
+		}, -- [29]
 		{
 			"i'll wait for everyone to come back", -- [1]
 			"Blakkwydow-Ysera", -- [2]
@@ -2002,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dBlakkwydow-Ysera|r",
 			[51] = 1538765663,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [90]
+		}, -- [30]
 		{
 			"got it", -- [1]
 			"Achils-Zul'jin", -- [2]
@@ -2024,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Achils-Zul'jin|r",
 			[51] = 1538765673,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [91]
+		}, -- [31]
 		{
 			"same", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2046,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538765674,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [92]
+		}, -- [32]
 		{
 			"ty", -- [1]
 			"Achils-Zul'jin", -- [2]
@@ -2068,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Achils-Zul'jin|r",
 			[51] = 1538765680,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [93]
+		}, -- [33]
 		{
 			"ty all great teamwork", -- [1]
 			"Blakkwydow-Ysera", -- [2]
@@ -2090,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dBlakkwydow-Ysera|r",
 			[51] = 1538765714,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [94]
+		}, -- [34]
 		{
 			"spellcheck did it work?", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2112,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538765729,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [95]
+		}, -- [35]
 		{
 			"yes!", -- [1]
 			"Spellcheck-Doomhammer", -- [2]
@@ -2134,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaSpellcheck-Doomhammer|r",
 			[51] = 1538765730,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [96]
+		}, -- [36]
 		{
 			"ty all", -- [1]
 			"Achils-Zul'jin", -- [2]
@@ -2156,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Achils-Zul'jin|r",
 			[51] = 1538765730,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [97]
+		}, -- [37]
 		{
 			"thank you guys!", -- [1]
 			"Spellcheck-Doomhammer", -- [2]
@@ -2178,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaSpellcheck-Doomhammer|r",
 			[51] = 1538765736,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [98]
+		}, -- [38]
 		{
 			"|cff0070dd|Hitem:162578::::::::120:64::::::|h[Baa'ls Darksign]|h|r", -- [1]
 			"Spellcheck-Doomhammer", -- [2]
@@ -2200,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaSpellcheck-Doomhammer|r",
 			[51] = 1538765740,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [99]
+		}, -- [39]
 		{
 			"ok great would love a port to SW", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2222,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538765741,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [100]
+		}, -- [40]
 		{
 			"tty all", -- [1]
 			"Blakkwydow-Ysera", -- [2]
@@ -2244,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dBlakkwydow-Ysera|r",
 			[51] = 1538765744,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [101]
+		}, -- [41]
 		{
 			"i got you haha", -- [1]
 			"Spellcheck-Doomhammer", -- [2]
@@ -2266,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaSpellcheck-Doomhammer|r",
 			[51] = 1538765752,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [102]
+		}, -- [42]
 		{
 			"now for the waist of time lol", -- [1]
 			"Blakkwydow-Ysera", -- [2]
@@ -2288,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dBlakkwydow-Ysera|r",
 			[51] = 1538765756,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [103]
+		}, -- [43]
 		{
 			"thanks guys", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2310,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538765763,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [104]
+		}, -- [44]
 		{
 			"oof yah thatll be fun", -- [1]
 			"Spellcheck-Doomhammer", -- [2]
@@ -2332,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaSpellcheck-Doomhammer|r",
 			[51] = 1538765767,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [105]
+		}, -- [45]
 		{
 			" Herioc Uldir Full Clear!!  one spot open--Start now!!- <kill G'HUN NOW>'-WTS mythic +10 carry ---come now", -- [1]
 			"Gradoremic-Kel'Thuzad", -- [2]
@@ -2354,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Gradoremic|r",
 			[51] = 1538769108,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [106]
+		}, -- [46]
 		{
 			"<No Redeeming Qualities> 1/8 M Uldir led by CE Raiders looking for Exceptional DPS to fill out our mythic roster. Monday & Wednesday 6-8:30pm server raids. PST for more info!", -- [1]
 			"Anduresu-Kel'Thuzad", -- [2]
@@ -2376,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dAnduresu|r",
 			[51] = 1538769136,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [107]
+		}, -- [47]
 		{
 			"<Inclusi> LFM for core raiding roster. Currently 8/8H 2/8M. Recruiting  Dps  365+ ilvl. Raid times 7-10Pm Server Time. Mon/Tues/Wed", -- [1]
 			"Excentríc-Kel'Thuzad", -- [2]
@@ -2398,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Excentríc|r",
 			[51] = 1538769214,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [108]
+		}, -- [48]
 		{
 			"<Inclusi> LFM for core raiding roster. Currently 8/8H 2/8M. Recruiting  Dps  365+ ilvl. Raid times 7-10Pm Server Time. Mon/Tues/Wed", -- [1]
 			"Excentríc-Kel'Thuzad", -- [2]
@@ -2420,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Excentríc|r",
 			[51] = 1538769214,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [109]
+		}, -- [49]
 		{
 			"<No Redeeming Qualities> 1/8 M Uldir led by CE Raiders looking for Exceptional DPS to fill out our mythic roster. Monday & Wednesday 6-8:30pm server raids. PST for more info!", -- [1]
 			"Anduresu-Kel'Thuzad", -- [2]
@@ -2442,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dAnduresu|r",
 			[51] = 1538769276,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [110]
+		}, -- [50]
 		{
 			" Herioc Uldir Full Clear!!  one spot open--Start now!!- <kill G'HUN NOW>'-WTS mythic +10 carry ---come now", -- [1]
 			"Gradoremic-Kel'Thuzad", -- [2]
@@ -2464,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Gradoremic|r",
 			[51] = 1538769349,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [111]
+		}, -- [51]
 		{
 			"WTS Normal and Heroic Uldir Runs. Smooth and Easy Guild run! Also doing Mythic+ Carries /w for info", -- [1]
 			"Serieryas-Kel'Thuzad", -- [2]
@@ -2486,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Serieryas|r",
 			[51] = 1538769355,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [112]
+		}, -- [52]
 		{
 			"WTS |cffa335ee|Hitem:161075::::::::120:253::6:3:4800:1512:4783:::|h[Antiseptic Specimen Handlers]|h|r 390ilevel looking for quick sale", -- [1]
 			"Phazewunx-Kel'Thuzad", -- [2]
@@ -2508,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Phazewunx|r",
 			[51] = 1538769438,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [113]
+		}, -- [53]
 		{
 			"WTB |cffa335ee|Hitem:114230::::::::120:72::::::|h[Truesteel Helm]|h|r I'll pay for the mats but you need to have |cff1eff00|Hitem:108257::::::::120:72::::::|h[Truesteel Ingot]|h|r! WHIPSER ME", -- [1]
 			"Airiden-Kel'Thuzad", -- [2]
@@ -2530,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dAiriden|r",
 			[51] = 1538769467,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [114]
+		}, -- [54]
 		{
 			"<No Redeeming Qualities> 1/8 M Uldir led by CE Raiders looking for Exceptional DPS to fill out our mythic roster. Monday & Wednesday 6-8:30pm server raids. PST for more info!", -- [1]
 			"Anduresu-Kel'Thuzad", -- [2]
@@ -2552,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dAnduresu|r",
 			[51] = 1538769470,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [115]
+		}, -- [55]
 		{
 			"WTS |cffa335ee|Hitem:161075::::::::120:253::6:3:4800:1512:4783:::|h[Antiseptic Specimen Handlers]|h|r 390ilevel looking for quick sale", -- [1]
 			"Phazewunx-Kel'Thuzad", -- [2]
@@ -2574,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Phazewunx|r",
 			[51] = 1538769553,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [116]
+		}, -- [56]
 		{
 			"<Inclusi> LFM for core raiding roster. Currently 8/8H 2/8M. Recruiting  Dps  365+ ilvl. Raid times 7-10Pm Server Time. Mon/Tues/Wed", -- [1]
 			"Excentríc-Kel'Thuzad", -- [2]
@@ -2596,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Excentríc|r",
 			[51] = 1538769556,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [117]
+		}, -- [57]
 		{
 			"<Inclusi> LFM for core raiding roster. Currently 8/8H 2/8M. Recruiting  Dps  365+ ilvl. Raid times 7-10Pm Server Time. Mon/Tues/Wed", -- [1]
 			"Excentríc-Kel'Thuzad", -- [2]
@@ -2618,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Excentríc|r",
 			[51] = 1538769557,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [118]
+		}, -- [58]
 		{
 			"<No Redeeming Qualities> 1/8 M Uldir led by CE Raiders looking for Exceptional DPS to fill out our mythic roster. Monday & Wednesday 6-8:30pm server raids. PST for more info!", -- [1]
 			"Anduresu-Kel'Thuzad", -- [2]
@@ -2640,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dAnduresu|r",
 			[51] = 1538769558,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [119]
+		}, -- [59]
 		{
 			"WTB |cffa335ee|Hitem:114230::::::::120:72::::::|h[Truesteel Helm]|h|r Stage 2 Purple Color WHISPER ME ", -- [1]
 			"Airiden-Kel'Thuzad", -- [2]
@@ -2662,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dAiriden|r",
 			[51] = 1538769579,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [120]
+		}, -- [60]
 		{
 			" Herioc Uldir Full Clear!!  one spot open--Start now!!- <kill G'HUN NOW>'-WTS mythic +10 carry ---come now", -- [1]
 			"Gradoremic-Kel'Thuzad", -- [2]
@@ -2684,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Gradoremic|r",
 			[51] = 1538769590,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [121]
+		}, -- [61]
 		{
 			"WTS Normal and Heroic Uldir Runs. Smooth and Easy Guild run! Also doing Mythic+ Carries /w for info", -- [1]
 			"Serieryas-Kel'Thuzad", -- [2]
@@ -2706,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Serieryas|r",
 			[51] = 1538769596,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [122]
+		}, -- [62]
 		{
 			"<Inclusi> LFM for core raiding roster. Currently 8/8H 2/8M. Recruiting  Dps  365+ ilvl. Raid times 7-10Pm Server Time. Mon/Tues/Wed", -- [1]
 			"Excentríc-Kel'Thuzad", -- [2]
@@ -2728,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Excentríc|r",
 			[51] = 1538769729,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [123]
+		}, -- [63]
 		{
 			"<Inclusi> LFM for core raiding roster. Currently 8/8H 2/8M. Recruiting  Dps  365+ ilvl. Raid times 7-10Pm Server Time. Mon/Tues/Wed", -- [1]
 			"Excentríc-Kel'Thuzad", -- [2]
@@ -2750,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Excentríc|r",
 			[51] = 1538769729,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [124]
+		}, -- [64]
 		{
 			"WTB |cffa335ee|Hitem:114230::::::::120:72::::::|h[Truesteel Helm]|h|r Stage 2 Purple Color WHISPER ME ", -- [1]
 			"Airiden-Kel'Thuzad", -- [2]
@@ -2772,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dAiriden|r",
 			[51] = 1538769733,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [125]
+		}, -- [65]
 		{
 			"WTS |cff0070dd|Hitem:49283::::::::120:252::::::|h[Reins of the Spectral Tiger]|h|r - Pst", -- [1]
 			"Hairytales-Kel'Thuzad", -- [2]
@@ -2794,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aHairytales|r",
 			[51] = 1538769743,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [126]
+		}, -- [66]
 		{
 			"link", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2815,6 +1495,1326 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538771121,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [67]
+		{
+			"is there a portal to shatt in SW?", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			482, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1538772120,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [68]
+		{
+			"|cffffff00The Stadium has been taken by the Alliance!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Hellfire Peninsula", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Hellfire Peninsula", -- [9]
+			0, -- [10]
+			501, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1538772271,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [69]
+		{
+			"WTS Normal and Heroic Uldir Runs. Smooth and Easy Guild run! Also doing Mythic+ Carries /w for info", -- [1]
+			"Serieryas-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Serieryas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			575, -- [11]
+			"Player-3693-0A0CB58D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Serieryas|r",
+			[51] = 1538773684,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [70]
+		{
+			" Herioc Uldir Full Clear!!  one spot open--Start now!!- <kill G'HUN NOW>'-WTS mythic +10 carry ---come now", -- [1]
+			"Gradoremic-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gradoremic", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			576, -- [11]
+			"Player-3693-0A0C1748", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Gradoremic|r",
+			[51] = 1538773690,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [71]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:777:Player-3693-092AD332:1:10:5:18:4294967295:4294967295:4294967295:4294967295|h[Explore Deadwind Pass]|h|r!", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			42, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1538777635,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [72]
+		{
+			"|cffffff00The Headland is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Hillsbrad Foothills", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Hillsbrad Foothills", -- [9]
+			0, -- [10]
+			87, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1538778411,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [73]
+		{
+			"|cffffff00The Overlook has been taken by the Horde!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Hellfire Peninsula", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Hellfire Peninsula", -- [9]
+			0, -- [10]
+			160, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1538779426,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [74]
+		{
+			"WTS |cffa335ee|Hitem:163963::::::::120:70::54:3:4802:1472:4786:::|h[Silirrion's Tenderizer]|h|r|cffa335ee|Hitem:163939::::::::120:70::54:2:1477:4783:::|h[Mallusof's Pantaloons of Stability]|h|r|cffa335ee|Hitem:163951::::::::120:70::54:2:1472:4786:::|h[Cinch of the Sainted General]|h|r ", -- [1]
+			"Vardrice-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vardrice", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			194, -- [11]
+			"Player-3693-0A062FE0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff48cbaVardrice|r",
+			[51] = 1538779904,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [75]
+		{
+			"WTS |cffa335ee|Hitem:163963::::::::120:70::54:3:4802:1472:4786:::|h[Silirrion's Tenderizer]|h|r|cffa335ee|Hitem:163939::::::::120:70::54:2:1477:4783:::|h[Mallusof's Pantaloons of Stability]|h|r|cffa335ee|Hitem:163951::::::::120:70::54:2:1472:4786:::|h[Cinch of the Sainted General]|h|r ", -- [1]
+			"Vardrice-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vardrice", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			202, -- [11]
+			"Player-3693-0A062FE0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff48cbaVardrice|r",
+			[51] = 1538779991,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [76]
+		{
+			"WTB ALL Veiled Crystals 500g ea. Umbra Shard 125 ea.  Will accept COD", -- [1]
+			"Ok-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ok", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			203, -- [11]
+			"Player-3693-08098A75", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffOk|r",
+			[51] = 1538779993,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [77]
+		{
+			"WTS |cffa335ee|Hitem:163963::::::::120:70::54:3:4802:1472:4786:::|h[Silirrion's Tenderizer]|h|r|cffa335ee|Hitem:163939::::::::120:70::54:2:1477:4783:::|h[Mallusof's Pantaloons of Stability]|h|r|cffa335ee|Hitem:163951::::::::120:70::54:2:1472:4786:::|h[Cinch of the Sainted General]|h|r ", -- [1]
+			"Vardrice-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vardrice", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			225, -- [11]
+			"Player-3693-0A062FE0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff48cbaVardrice|r",
+			[51] = 1538780065,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [78]
+		{
+			"WTS |cffa335ee|Hitem:163963::::::::120:70::54:3:4802:1472:4786:::|h[Silirrion's Tenderizer]|h|r|cffa335ee|Hitem:163939::::::::120:70::54:2:1477:4783:::|h[Mallusof's Pantaloons of Stability]|h|r|cffa335ee|Hitem:163951::::::::120:70::54:2:1472:4786:::|h[Cinch of the Sainted General]|h|r ", -- [1]
+			"Vardrice-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vardrice", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			236, -- [11]
+			"Player-3693-0A062FE0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff48cbaVardrice|r",
+			[51] = 1538780150,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [79]
+		{
+			"WTS Normal and Heroic Uldir Runs. Smooth and Easy Guild run! Also doing Mythic+ Carries /w for info", -- [1]
+			"Serieryas-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Serieryas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			243, -- [11]
+			"Player-3693-0A0CB58D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Serieryas|r",
+			[51] = 1538780177,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [80]
+		{
+			"<Extraction> is recruiting Healers, Tank, and Rdps for our Mythic core team. We are currently 7/8H, 1/8M. RL is 8/8H. Raid times are Tuesday/Wednesday with an optional Sunday from 9pm to 12am EST (7-10pm server).", -- [1]
+			"Dune-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Dune", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			244, -- [11]
+			"Player-3693-09D78594", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc69b6dDune|r",
+			[51] = 1538780183,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [81]
+		{
+			"WTS |cffa335ee|Hitem:163963::::::::120:70::54:3:4802:1472:4786:::|h[Silirrion's Tenderizer]|h|r|cffa335ee|Hitem:163939::::::::120:70::54:2:1477:4783:::|h[Mallusof's Pantaloons of Stability]|h|r|cffa335ee|Hitem:163951::::::::120:70::54:2:1472:4786:::|h[Cinch of the Sainted General]|h|r ", -- [1]
+			"Vardrice-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vardrice", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			247, -- [11]
+			"Player-3693-0A062FE0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff48cbaVardrice|r",
+			[51] = 1538780194,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [82]
+		{
+			" Herioc Uldir Full Clear!!  one spot open--Start now!!- <kill G'HUN NOW>'-WTS mythic +10 carry ---come now", -- [1]
+			"Gradoremic-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gradoremic", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			248, -- [11]
+			"Player-3693-0A0C1748", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Gradoremic|r",
+			[51] = 1538780201,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [83]
+		{
+			"<Extraction> is recruiting Healers, Tank, and Rdps for our Mythic core team. We are currently 7/8H, 1/8M. RL is 8/8H. Raid times are Tuesday/Wednesday with an optional Sunday from 9pm to 12am EST (7-10pm server).", -- [1]
+			"Dune-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Dune", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			260, -- [11]
+			"Player-3693-09D78594", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc69b6dDune|r",
+			[51] = 1538780359,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [84]
+		{
+			"WTS Normal and Heroic Uldir Runs. Smooth and Easy Guild run! Also doing Mythic+ Carries /w for info", -- [1]
+			"Serieryas-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Serieryas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			263, -- [11]
+			"Player-3693-0A0CB58D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Serieryas|r",
+			[51] = 1538780417,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [85]
+		{
+			" Herioc Uldir Full Clear!!  one spot open--Start now!!- <kill G'HUN NOW>'-WTS mythic +10 carry ---come now", -- [1]
+			"Gradoremic-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gradoremic", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			264, -- [11]
+			"Player-3693-0A0C1748", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Gradoremic|r",
+			[51] = 1538780442,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [86]
+		{
+			"WTS |cffa335ee|Hitem:163963::::::::120:70::54:3:4802:1472:4786:::|h[Silirrion's Tenderizer]|h|r|cffa335ee|Hitem:163939::::::::120:70::54:2:1477:4783:::|h[Mallusof's Pantaloons of Stability]|h|r|cffa335ee|Hitem:163951::::::::120:70::54:2:1472:4786:::|h[Cinch of the Sainted General]|h|r", -- [1]
+			"Vardrice-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vardrice", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			268, -- [11]
+			"Player-3693-0A062FE0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff48cbaVardrice|r",
+			[51] = 1538780461,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [87]
+		{
+			"<Extraction> is recruiting Healers, Tank, and Rdps for our Mythic core team. We are currently 7/8H, 1/8M. RL is 8/8H. Raid times are Tuesday/Wednesday with an optional Sunday from 9pm to 12am EST (7-10pm server).", -- [1]
+			"Dune-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Dune", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			269, -- [11]
+			"Player-3693-09D78594", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc69b6dDune|r",
+			[51] = 1538780479,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [88]
+		{
+			"WTS |cffa335ee|Hitem:163963::::::::120:70::54:3:4802:1472:4786:::|h[Silirrion's Tenderizer]|h|r|cffa335ee|Hitem:163939::::::::120:70::54:2:1477:4783:::|h[Mallusof's Pantaloons of Stability]|h|r|cffa335ee|Hitem:163951::::::::120:70::54:2:1472:4786:::|h[Cinch of the Sainted General]|h|r", -- [1]
+			"Vardrice-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vardrice", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			272, -- [11]
+			"Player-3693-0A062FE0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff48cbaVardrice|r",
+			[51] = 1538780512,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [89]
+		{
+			"<Elite> (8/8H 2/8M) Tues/Wed 8-11pm server time (progression) /(Sunday optional raid) is recruiting solid dps for our core team. M+ people welcome! PST to inquire. ", -- [1]
+			"Snodobaggins-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Snodobaggins", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			273, -- [11]
+			"Player-3693-0892B061", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc69b6dSnodobaggins|r",
+			[51] = 1538780517,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [90]
+		{
+			"WTS |cffa335ee|Hitem:163963::::::::120:70::54:3:4802:1472:4786:::|h[Silirrion's Tenderizer]|h|r|cffa335ee|Hitem:163939::::::::120:70::54:2:1477:4783:::|h[Mallusof's Pantaloons of Stability]|h|r|cffa335ee|Hitem:163951::::::::120:70::54:2:1472:4786:::|h[Cinch of the Sainted General]|h|r", -- [1]
+			"Vardrice-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vardrice", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			280, -- [11]
+			"Player-3693-0A062FE0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff48cbaVardrice|r",
+			[51] = 1538780560,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [91]
+		{
+			"WTS |cffa335ee|Hitem:163963::::::::120:70::54:3:4802:1472:4786:::|h[Silirrion's Tenderizer]|h|r|cffa335ee|Hitem:163939::::::::120:70::54:2:1477:4783:::|h[Mallusof's Pantaloons of Stability]|h|r|cffa335ee|Hitem:163951::::::::120:70::54:2:1472:4786:::|h[Cinch of the Sainted General]|h|r", -- [1]
+			"Vardrice-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vardrice", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			292, -- [11]
+			"Player-3693-0A062FE0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff48cbaVardrice|r",
+			[51] = 1538780679,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"WTS |cffa335ee|Hitem:163963::::::::120:70::54:3:4802:1472:4786:::|h[Silirrion's Tenderizer]|h|r|cffa335ee|Hitem:163939::::::::120:70::54:2:1477:4783:::|h[Mallusof's Pantaloons of Stability]|h|r|cffa335ee|Hitem:163951::::::::120:70::54:2:1472:4786:::|h[Cinch of the Sainted General]|h|r", -- [1]
+			"Vardrice-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vardrice", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			302, -- [11]
+			"Player-3693-0A062FE0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff48cbaVardrice|r",
+			[51] = 1538780736,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"<Extraction> is recruiting Healers, Tank, and Rdps for our Mythic core team. We are currently 7/8H, 1/8M. RL is 8/8H. Raid times are Tuesday/Wednesday with an optional Sunday from 9pm to 12am EST (7-10pm server).", -- [1]
+			"Dune-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Dune", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			306, -- [11]
+			"Player-3693-09D78594", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc69b6dDune|r",
+			[51] = 1538780745,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"WTS |cffa335ee|Hitem:159125::::::::120:577::13::::|h[Darkmoon Deck: Fathoms]|h|r! PPST!", -- [1]
+			"Vindertech-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vindertech", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			320, -- [11]
+			"Player-3693-09FC0545", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa330c9Vindertech|r",
+			[51] = 1538780868,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"wtb port to Boralus from SW 75g", -- [1]
+			"Minigingerx-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Minigingerx", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			328, -- [11]
+			"Player-3693-0838FBDE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc41e3aMinigingerx|r",
+			[51] = 1538780933,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"WTS |cffa335ee|Hitem:163963::::::::120:70::54:3:4802:1472:4786:::|h[Silirrion's Tenderizer]|h|r|cffa335ee|Hitem:163939::::::::120:70::54:2:1477:4783:::|h[Mallusof's Pantaloons of Stability]|h|r|cffa335ee|Hitem:163951::::::::120:70::54:2:1472:4786:::|h[Cinch of the Sainted General]|h|r", -- [1]
+			"Vardrice-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vardrice", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			332, -- [11]
+			"Player-3693-0A062FE0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff48cbaVardrice|r",
+			[51] = 1538780943,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"WTS |cff0070dd|Hbattlepet:2450:1:3:152:11:12:0000000000000000|h[Tinder Pup]|h|r|cff1eff00|Hbattlepet:2464:1:2:147:12:9:0000000000000000|h[Deathsting Scorpid]|h|r|cff1eff00|Hitem:164445::::::::120:254::11::::|h[Spiritbough Breeches]|h|r", -- [1]
+			"Woodgnomes-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Woodgnomes", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			335, -- [11]
+			"Player-3693-0A00CB8C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Woodgnomes|r",
+			[51] = 1538781002,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"wtb port to Boralus from SW 75g", -- [1]
+			"Minigingerx-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Minigingerx", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			337, -- [11]
+			"Player-3693-0838FBDE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc41e3aMinigingerx|r",
+			[51] = 1538781010,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [99]
+		{
+			"WTS |cffa335ee|Hitem:159125::::::::120:577::13::::|h[Darkmoon Deck: Fathoms]|h|r! PPST!", -- [1]
+			"Vindertech-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vindertech", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			340, -- [11]
+			"Player-3693-09FC0545", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa330c9Vindertech|r",
+			[51] = 1538781035,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [100]
+		{
+			"WTS |cffa335ee|Hitem:163963::::::::120:70::54:3:4802:1472:4786:::|h[Silirrion's Tenderizer]|h|r|cffa335ee|Hitem:163939::::::::120:70::54:2:1477:4783:::|h[Mallusof's Pantaloons of Stability]|h|r|cffa335ee|Hitem:163951::::::::120:70::54:2:1472:4786:::|h[Cinch of the Sainted General]|h|r", -- [1]
+			"Vardrice-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vardrice", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			342, -- [11]
+			"Player-3693-0A062FE0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff48cbaVardrice|r",
+			[51] = 1538781055,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [101]
+		{
+			"<Elite> [8/8H / 2/8M] is looking for solid dps for our core team. All exceptional raiders will be considered. Progression days are [Tues/Wed 8-11PM Server]. M+ / PVP players welcome! Pst to Inquire. ", -- [1]
+			"Snodobaggins-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Snodobaggins", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			349, -- [11]
+			"Player-3693-0892B061", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc69b6dSnodobaggins|r",
+			[51] = 1538781097,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [102]
+		{
+			"WTS Normal and Heroic Uldir Runs. Smooth and Easy Guild run! Also doing Mythic+ Carries /w for info", -- [1]
+			"Serieryas-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Serieryas", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			355, -- [11]
+			"Player-3693-0A0CB58D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Serieryas|r",
+			[51] = 1538781139,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [103]
+		{
+			"WTS |cffa335ee|Hitem:159125::::::::120:577::13::::|h[Darkmoon Deck: Fathoms]|h|r! PST!", -- [1]
+			"Vindertech-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vindertech", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			358, -- [11]
+			"Player-3693-09FC0545", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa330c9Vindertech|r",
+			[51] = 1538781165,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [104]
+		{
+			" Herioc Uldir Full Clear!!  one spot open--Start now!!- <kill G'HUN NOW>'-WTS mythic +10 carry ---come now", -- [1]
+			"Gradoremic-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gradoremic", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			359, -- [11]
+			"Player-3693-0A0C1748", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Gradoremic|r",
+			[51] = 1538781166,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [105]
+		{
+			"WTS |cffa335ee|Hitem:163963::::::::120:70::54:3:4802:1472:4786:::|h[Silirrion's Tenderizer]|h|r|cffa335ee|Hitem:163939::::::::120:70::54:2:1477:4783:::|h[Mallusof's Pantaloons of Stability]|h|r|cffa335ee|Hitem:163951::::::::120:70::54:2:1472:4786:::|h[Cinch of the Sainted General]|h|r", -- [1]
+			"Vardrice-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vardrice", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			419, -- [11]
+			"Player-3693-0A062FE0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff48cbaVardrice|r",
+			[51] = 1538781348,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [106]
+		{
+			"WTB ALL Veiled Crystals 500g ea. Umbra Shard 125 ea.  Will accept COD", -- [1]
+			"Ok-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ok", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			420, -- [11]
+			"Player-3693-08098A75", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffOk|r",
+			[51] = 1538781353,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [107]
+		{
+			"WTS BFA GREENS PST", -- [1]
+			"Otp-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Otp", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			424, -- [11]
+			"Player-3693-0A087214", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffOtp|r",
+			[51] = 1538781375,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [108]
+		{
+			"WTS |cffa335ee|Hitem:159125::::::::120:577::13::::|h[Darkmoon Deck: Fathoms]|h|r! PST!", -- [1]
+			"Vindertech-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vindertech", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			466, -- [11]
+			"Player-3693-09FC0545", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa330c9Vindertech|r",
+			[51] = 1538781466,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [109]
+		{
+			"WTS |cffa335ee|Hitem:163963::::::::120:70::54:3:4802:1472:4786:::|h[Silirrion's Tenderizer]|h|r|cffa335ee|Hitem:163939::::::::120:70::54:2:1477:4783:::|h[Mallusof's Pantaloons of Stability]|h|r|cffa335ee|Hitem:163951::::::::120:70::54:2:1472:4786:::|h[Cinch of the Sainted General]|h|r", -- [1]
+			"Vardrice-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vardrice", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			475, -- [11]
+			"Player-3693-0A062FE0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff48cbaVardrice|r",
+			[51] = 1538781514,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [110]
+		{
+			"WTS |cff0070dd|Hbattlepet:2450:1:3:152:11:12:0000000000000000|h[Tinder Pup]|h|r|cff1eff00|Hbattlepet:2464:1:2:147:12:9:0000000000000000|h[Deathsting Scorpid]|h|r|cff1eff00|Hitem:164445::::::::120:254::11::::|h[Spiritbough Breeches]|h|r", -- [1]
+			"Woodgnomes-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Woodgnomes", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			477, -- [11]
+			"Player-3693-0A00CB8C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Woodgnomes|r",
+			[51] = 1538781524,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [111]
+		{
+			"|cffffff00Nijel's Point is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Desolace", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Desolace", -- [9]
+			0, -- [10]
+			274, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1538829573,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [112]
+		{
+			" Herioc Uldir Full Clear!!  one spot open--Start now!!- <kill G'HUN NOW>'-WTS mythic +10 carry ---come now", -- [1]
+			"Gradoremic-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gradoremic", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			350, -- [11]
+			"Player-3693-0A0C1748", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Gradoremic|r",
+			[51] = 1538844341,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [113]
+		{
+			" Herioc Uldir Full Clear!!  one spot open--Start now!!- <kill G'HUN NOW>'-WTS mythic +10 carry ---come now", -- [1]
+			"Gradoremic-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gradoremic", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			403, -- [11]
+			"Player-3693-0A0C1748", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Gradoremic|r",
+			[51] = 1538844503,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [114]
+		{
+			"WTS |cffa335ee|Hitem:163955::::::::120:250::54:3:4802:1472:4786:::|h[Khayurn, Blade of the Wolves]|h|r |cffa335ee|Hitem:163955::::::::120:250::54:3:41:1472:4786:::|h[Khayurn, Blade of the Wolves]|h|r |cffa335ee|Hitem:163963::::::::120:250::54:2:1472:4786:::|h[Silirrion's Tenderizer]|h|r |cff0070dd|Hitem:49283::::::::120:250::::::|h[Reins of the Spectral Tiger]|h|r - Pst", -- [1]
+			"Hairytales-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hairytales", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			437, -- [11]
+			"Player-3693-09FE67CA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc41e3aHairytales|r",
+			[51] = 1538844559,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [115]
+		{
+			" Herioc Uldir Full Clear!!  one spot open--Start now!!- <kill G'HUN NOW>'-WTS mythic +10 carry ---come now", -- [1]
+			"Gradoremic-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gradoremic", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			438, -- [11]
+			"Player-3693-0A0C1748", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Gradoremic|r",
+			[51] = 1538844582,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [116]
+		{
+			"Want a better raiding experience in BfA? Extraction is recruiting for our core mythic team! Need people to run Mythics/bgs? We are your guild! We are currently 7/8H, 1/8M and raid Tue/Wed 7-10 ST. If you are a Tank, Healer, or Rdps we are looking for you!", -- [1]
+			"Dune-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Dune", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			537, -- [11]
+			"Player-3693-09D78594", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc69b6dDune|r",
+			[51] = 1538847493,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [117]
+		{
+			" Herioc Uldir Full Clear!!  one spot open--Start now!!- <kill G'HUN NOW>'-WTS mythic +10 carry ---come now", -- [1]
+			"Gradoremic-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gradoremic", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			561, -- [11]
+			"Player-3693-0A0C1748", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Gradoremic|r",
+			[51] = 1538847877,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [118]
+		{
+			" Herioc Uldir Full Clear!!  one spot open--Start now!!- <kill G'HUN NOW>'-WTS mythic +10 carry ---come now", -- [1]
+			"Gradoremic-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gradoremic", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			600, -- [11]
+			"Player-3693-0A0C1748", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Gradoremic|r",
+			[51] = 1538848438,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [119]
+		{
+			"LFM Mythic Trial of Valor (Legion raid) clear takes about 10 minutes.", -- [1]
+			"Xwn-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Xwn", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			625, -- [11]
+			"Player-3693-07671DE6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Xwn|r",
+			[51] = 1538848550,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [120]
+		{
+			"whiskey, rail, neat <--- only drink order you ever need", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			646, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1538848602,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [121]
+		{
+			"or well instead of rail if you live somewhere fancy", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			656, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1538848617,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [122]
+		{
+			"have you always been able to mog glaives into swords?", -- [1]
+			"Adariel-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Adariel", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			419, -- [11]
+			"Player-3693-09FEE087", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Adariel|r",
+			[51] = 1538851010,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [123]
+		{
+			" Herioc Uldir Full Clear!!  one spot open--Start now!!- <kill G'HUN NOW>'-WTS mythic +10 carry ---come now", -- [1]
+			"Gradoremic-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gradoremic", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			475, -- [11]
+			"Player-3693-0A0C1748", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Gradoremic|r",
+			[51] = 1538851089,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [124]
+		{
+			"need tank for +5 underrot", -- [1]
+			"Omgfear-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Omgfear", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			622, -- [11]
+			"Player-3693-0744F944", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffOmgfear|r",
+			[51] = 1538851186,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [125]
+		{
+			" Herioc Uldir Full Clear!!  one spot open--Start now!!- <kill G'HUN NOW>'-WTS mythic +10 carry ---come now", -- [1]
+			"Gradoremic-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gradoremic", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			714, -- [11]
+			"Player-3693-0A0C1748", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Gradoremic|r",
+			[51] = 1538851251,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [126]
+		{
+			"<Gnomercenaries> looking for experienced PvP players for RBGS/Arenas. Raiding Schedule is currently Tue/Wed 7pm ST.  We are also willing to help gear those who are willing to grow with our rapidly expanding Guild. Pst for info!", -- [1]
+			"Abator", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Abator", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			750, -- [11]
+			"Player-3693-0741A841", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3fc6eaAbator|r",
+			[51] = 1538851284,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},

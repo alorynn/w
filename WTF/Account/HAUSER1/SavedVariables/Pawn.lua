@@ -217,10 +217,10 @@ PawnCommon = {
 		["\"MrRobot\":ROGUE3"] = {
 			["IconTexturePath"] = 132320,
 			["PerCharacterOptions"] = {
-				["Alorannah-Kel'Thuzad"] = {
+				["Rogueout-Kel'Thuzad"] = {
 					["Visible"] = true,
 				},
-				["Rogueout-Kel'Thuzad"] = {
+				["Alorannah-Kel'Thuzad"] = {
 					["Visible"] = true,
 				},
 			},
@@ -346,36 +346,6 @@ PawnCommon = {
 			["SpecID"] = 2,
 			["UnenchantedColor"] = "6566b2",
 		},
-		["\"MrRobot\":PALADIN2"] = {
-			["IconTexturePath"] = 236264,
-			["PerCharacterOptions"] = {
-			},
-			["Color"] = "f58cba",
-			["ClassID"] = 2,
-			["LocalizedName"] = "Paladin: Protection",
-			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "TANK",
-			["DoNotShow2HUpgrades"] = true,
-			["UpgradesFollowSpecialization"] = true,
-			["Provider"] = "MrRobot",
-			["SpecID"] = 2,
-			["UnenchantedColor"] = "b7698b",
-		},
-		["\"MrRobot\":DEMONHUNTER2"] = {
-			["IconTexturePath"] = 1247265,
-			["PerCharacterOptions"] = {
-			},
-			["Color"] = "a330c9",
-			["ClassID"] = 12,
-			["LocalizedName"] = "Demon Hunter: Vengeance",
-			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "TANK",
-			["DoNotShow2HUpgrades"] = true,
-			["UpgradesFollowSpecialization"] = true,
-			["Provider"] = "MrRobot",
-			["SpecID"] = 2,
-			["UnenchantedColor"] = "7a2496",
-		},
 		["\"MrRobot\":DRUID2"] = {
 			["IconTexturePath"] = 132115,
 			["PerCharacterOptions"] = {
@@ -397,6 +367,39 @@ PawnCommon = {
 			["SpecID"] = 2,
 			["UnenchantedColor"] = "bf5d07",
 		},
+		["\"MrRobot\":SHAMAN3"] = {
+			["IconTexturePath"] = 136052,
+			["PerCharacterOptions"] = {
+				["Darknstormie-Kel'Thuzad"] = {
+					["Visible"] = true,
+				},
+			},
+			["Color"] = "0070de",
+			["ClassID"] = 7,
+			["LocalizedName"] = "Shaman: Restoration",
+			["DoNotShow1HUpgrades"] = false,
+			["Role"] = "HEALER",
+			["DoNotShow2HUpgrades"] = false,
+			["UpgradesFollowSpecialization"] = true,
+			["Provider"] = "MrRobot",
+			["SpecID"] = 3,
+			["UnenchantedColor"] = "0054a6",
+		},
+		["\"MrRobot\":PALADIN2"] = {
+			["IconTexturePath"] = 236264,
+			["PerCharacterOptions"] = {
+			},
+			["Color"] = "f58cba",
+			["ClassID"] = 2,
+			["LocalizedName"] = "Paladin: Protection",
+			["DoNotShow1HUpgrades"] = false,
+			["Role"] = "TANK",
+			["DoNotShow2HUpgrades"] = true,
+			["UpgradesFollowSpecialization"] = true,
+			["Provider"] = "MrRobot",
+			["SpecID"] = 2,
+			["UnenchantedColor"] = "b7698b",
+		},
 		["\"MrRobot\":MAGE1"] = {
 			["IconTexturePath"] = 135932,
 			["PerCharacterOptions"] = {
@@ -415,10 +418,10 @@ PawnCommon = {
 		["\"MrRobot\":HUNTER1"] = {
 			["IconTexturePath"] = 461112,
 			["PerCharacterOptions"] = {
-				["Laurannah-Undermine"] = {
+				["Laurannah-Kel'Thuzad"] = {
 					["Visible"] = true,
 				},
-				["Laurannah-Kel'Thuzad"] = {
+				["Laurannah-Undermine"] = {
 					["Visible"] = true,
 				},
 			},
@@ -547,23 +550,20 @@ PawnCommon = {
 			["SpecID"] = 1,
 			["UnenchantedColor"] = "bf3950",
 		},
-		["\"MrRobot\":SHAMAN3"] = {
-			["IconTexturePath"] = 136052,
+		["\"MrRobot\":DEMONHUNTER2"] = {
+			["IconTexturePath"] = 1247265,
 			["PerCharacterOptions"] = {
-				["Darknstormie-Kel'Thuzad"] = {
-					["Visible"] = true,
-				},
 			},
-			["Color"] = "0070de",
-			["ClassID"] = 7,
-			["LocalizedName"] = "Shaman: Restoration",
+			["Color"] = "a330c9",
+			["ClassID"] = 12,
+			["LocalizedName"] = "Demon Hunter: Vengeance",
 			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "HEALER",
-			["DoNotShow2HUpgrades"] = false,
+			["Role"] = "TANK",
+			["DoNotShow2HUpgrades"] = true,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["SpecID"] = 3,
-			["UnenchantedColor"] = "0054a6",
+			["SpecID"] = 2,
+			["UnenchantedColor"] = "7a2496",
 		},
 		["\"MrRobot\":DRUID3"] = {
 			["IconTexturePath"] = 132276,
