@@ -60,8 +60,8 @@ PasteDB = {
 		},
 		["Laurannah - Kel'Thuzad"] = {
 			["loaded"] = true,
-			["whispertarget"] = "",
 			["where"] = "Default",
+			["whispertarget"] = "",
 			["pos"] = {
 				["height"] = 320,
 				["top"] = 994.165893554688,
@@ -151,13 +151,13 @@ PasteDB = {
 			["loaded"] = true,
 		},
 		["Alorannah - Kel'Thuzad"] = {
+			["whispertarget"] = "",
+			["where"] = "Default",
 			["loaded"] = true,
 			["minimap"] = {
 				["minimapPos"] = 216.288929982077,
 				["hide"] = true,
 			},
-			["where"] = "Default",
-			["whispertarget"] = "",
 			["pos"] = {
 				["height"] = 320.833404541016,
 				["top"] = 760,

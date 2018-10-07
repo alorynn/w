@@ -217,10 +217,10 @@ PawnCommon = {
 		["\"MrRobot\":ROGUE3"] = {
 			["IconTexturePath"] = 132320,
 			["PerCharacterOptions"] = {
-				["Rogueout-Kel'Thuzad"] = {
+				["Alorannah-Kel'Thuzad"] = {
 					["Visible"] = true,
 				},
-				["Alorannah-Kel'Thuzad"] = {
+				["Rogueout-Kel'Thuzad"] = {
 					["Visible"] = true,
 				},
 			},
@@ -286,13 +286,13 @@ PawnCommon = {
 		["\"MrRobot\":PALADIN3"] = {
 			["IconTexturePath"] = 135873,
 			["PerCharacterOptions"] = {
-				["Testfoolio-Kel'Thuzad"] = {
+				["Kmkarbashian-Kel'Thuzad"] = {
 					["Visible"] = true,
 				},
 				["Loranah-Kel'Thuzad"] = {
 					["Visible"] = true,
 				},
-				["Kmkarbashian-Kel'Thuzad"] = {
+				["Testfoolio-Kel'Thuzad"] = {
 					["Visible"] = true,
 				},
 			},
