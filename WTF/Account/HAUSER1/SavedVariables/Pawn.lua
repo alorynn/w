@@ -418,10 +418,10 @@ PawnCommon = {
 		["\"MrRobot\":HUNTER1"] = {
 			["IconTexturePath"] = 461112,
 			["PerCharacterOptions"] = {
-				["Laurannah-Kel'Thuzad"] = {
+				["Laurannah-Undermine"] = {
 					["Visible"] = true,
 				},
-				["Laurannah-Undermine"] = {
+				["Laurannah-Kel'Thuzad"] = {
 					["Visible"] = true,
 				},
 			},

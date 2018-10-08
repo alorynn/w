@@ -24,314 +24,6 @@ ElvCharacterDB = {
 	},
 	["ChatHistoryLog"] = {
 		{
-			"wts |cffa335ee|Hitem:163947::::::::1:265::54:4:40:4802:1472:4786:::|h[Robust Legwraps of D'nusa]|h|r pst offers", -- [1]
-			"Lucreziaa-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lucreziaa", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3117, -- [11]
-			"Player-3693-0A03448C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8787edLucreziaa|r",
-			[51] = 1538938159,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
-			"Gplaytuzad-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gplaytuzad", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3120, -- [11]
-			"Player-3693-0A0D0980", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffGplaytuzad|r",
-			[51] = 1538938172,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"LF TANK FOR LEVELING IN ISLAND EXPEDITION", -- [1]
-			"Strïx-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Strïx", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3126, -- [11]
-			"Player-3693-09E39F0D", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffff7c0aStrïx|r",
-			[51] = 1538938228,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"<The Silver Order> is recruiting all lvls - amaze your friends, impress your family, make the opposite sex lusty!! pst for invite to learn more about our secrets to immorality and awesomeness!!.. must be 18yrs or older to apply", -- [1]
-			"Keroshu-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Keroshu", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3127, -- [11]
-			"Player-3693-07319EDD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8787edKeroshu|r",
-			[51] = 1538938228,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
-			"Gplaytuzad-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gplaytuzad", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3147, -- [11]
-			"Player-3693-0A0D0980", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffGplaytuzad|r",
-			[51] = 1538938352,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
-			"WTS |cff0070dd|Hitem:163804::::::::120:265::11::::|h[Kindleweb Spiderling]|h|r  |cffa335ee|Hitem:161071::::::::120:265::5:3:4799:1492:4786:::|h[Bloody Experimenter's Wraps]|h|r PST!  ", -- [1]
-			"Smorcbolt-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Smorcbolt", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3154, -- [11]
-			"Player-3693-09F936F5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8787edSmorcbolt|r",
-			[51] = 1538938413,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
-		{
-			"WTS |cff0070dd|Hitem:163804::::::::120:265::11::::|h[Kindleweb Spiderling]|h|r  |cffa335ee|Hitem:161071::::::::120:265::5:3:4799:1492:4786:::|h[Bloody Experimenter's Wraps]|h|r PST!  ", -- [1]
-			"Smorcbolt-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Smorcbolt", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3155, -- [11]
-			"Player-3693-09F936F5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8787edSmorcbolt|r",
-			[51] = 1538938414,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
-		{
-			"<Inclusi> LFM for core raiding roster. Currently 8/8H 2/8M. Recruiting  Dps  365+ ilvl. Raid times 7-10Pm Server Time. Mon/Tues/Wed", -- [1]
-			"Excentríc-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Excentríc", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3158, -- [11]
-			"Player-3693-09F18AF6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa330c9Excentríc|r",
-			[51] = 1538938483,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
-		{
-			"<Inclusi> LFM for core raiding roster. Currently 8/8H 2/8M. Recruiting  Dps  365+ ilvl. Raid times 7-10Pm Server Time. Mon/Tues/Wed", -- [1]
-			"Excentríc-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Excentríc", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3159, -- [11]
-			"Player-3693-09F18AF6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa330c9Excentríc|r",
-			[51] = 1538938483,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
-		{
-			"WTS |cff0070dd|Hitem:163804::::::::120:265::11::::|h[Kindleweb Spiderling]|h|r  |cffa335ee|Hitem:161071::::::::120:265::5:3:4799:1492:4786:::|h[Bloody Experimenter's Wraps]|h|r PST!  ", -- [1]
-			"Smorcbolt-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Smorcbolt", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3161, -- [11]
-			"Player-3693-09F936F5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8787edSmorcbolt|r",
-			[51] = 1538938492,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
-		{
-			"WTS |cff0070dd|Hitem:163804::::::::120:265::11::::|h[Kindleweb Spiderling]|h|r  |cffa335ee|Hitem:161071::::::::120:265::5:3:4799:1492:4786:::|h[Bloody Experimenter's Wraps]|h|r PST!  ", -- [1]
-			"Smorcbolt-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Smorcbolt", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3162, -- [11]
-			"Player-3693-09F936F5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8787edSmorcbolt|r",
-			[51] = 1538938492,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
-		{
-			"wtb |cffffffff|Hitem:152509::::::::120:259::::::|h[Siren's Pollen]|h|r|cffffffff|Hitem:152505::::::::120:259::::::|h[Riverbud]|h|r|cffffffff|Hitem:152507::::::::120:259::::::|h[Akunda's Bite]|h|r|cff0070dd|Hitem:152876::::::::120:259::::::|h[Umbra Shard]|h|r|cffa335ee|Hitem:152877::::::::120:259::::::|h[Veiled Crystal]|h|r", -- [1]
-			"Sanr-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Sanr", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3163, -- [11]
-			"Player-3693-09ECC96F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Sanr|r",
-			[51] = 1538938493,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
-		{
-			"WTS |cff0070dd|Hitem:163804::::::::120:265::11::::|h[Kindleweb Spiderling]|h|r  |cffa335ee|Hitem:161071::::::::120:265::5:3:4799:1492:4786:::|h[Bloody Experimenter's Wraps]|h|r PST!  ", -- [1]
-			"Smorcbolt-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Smorcbolt", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3170, -- [11]
-			"Player-3693-09F936F5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8787edSmorcbolt|r",
-			[51] = 1538938560,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
-		{
-			"<Elite> [8/8H - 2/8M] is looking for solid dps for our team. All exceptional players will be considered. Raid times are Tues/Wed 8-11pm server. All M+/PVP players are welcome. Pst to inquire.", -- [1]
-			"Snodobaggins-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Snodobaggins", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3174, -- [11]
-			"Player-3693-0892B061", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc69b6dSnodobaggins|r",
-			[51] = 1538938592,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
-		{
 			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
 			"Gplaytuzad-Kel'Thuzad", -- [2]
 			"", -- [3]
@@ -352,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGplaytuzad|r",
 			[51] = 1538938712,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
+		}, -- [1]
 		{
 			"WTS |cff0070dd|Hitem:163804::::::::120:265::11::::|h[Kindleweb Spiderling]|h|r  |cffa335ee|Hitem:161071::::::::120:265::5:3:4799:1492:4786:::|h[Bloody Experimenter's Wraps]|h|r PST!  ", -- [1]
 			"Smorcbolt-Kel'Thuzad", -- [2]
@@ -374,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edSmorcbolt|r",
 			[51] = 1538938874,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
+		}, -- [2]
 		{
 			"wtb |cffffffff|Hitem:152509::::::::120:259::::::|h[Siren's Pollen]|h|r|cffffffff|Hitem:152505::::::::120:259::::::|h[Riverbud]|h|r|cffffffff|Hitem:152507::::::::120:259::::::|h[Akunda's Bite]|h|r|cff0070dd|Hitem:152876::::::::120:259::::::|h[Umbra Shard]|h|r|cffa335ee|Hitem:152877::::::::120:259::::::|h[Veiled Crystal]|h|r", -- [1]
 			"Sanr-Kel'Thuzad", -- [2]
@@ -396,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Sanr|r",
 			[51] = 1538938973,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
+		}, -- [3]
 		{
 			"WTS |cff0070dd|Hitem:163804::::::::120:265::11::::|h[Kindleweb Spiderling]|h|r  |cffa335ee|Hitem:161071::::::::120:265::5:3:4799:1492:4786:::|h[Bloody Experimenter's Wraps]|h|r PST!  ", -- [1]
 			"Smorcbolt-Kel'Thuzad", -- [2]
@@ -418,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edSmorcbolt|r",
 			[51] = 1538938996,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
+		}, -- [4]
 		{
 			"WTS |cff0070dd|Hitem:163804::::::::120:265::11::::|h[Kindleweb Spiderling]|h|r  |cffa335ee|Hitem:161071::::::::120:265::5:3:4799:1492:4786:::|h[Bloody Experimenter's Wraps]|h|r PST!  ", -- [1]
 			"Smorcbolt-Kel'Thuzad", -- [2]
@@ -440,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edSmorcbolt|r",
 			[51] = 1538938997,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
+		}, -- [5]
 		{
 			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
 			"Gplaytuzad-Kel'Thuzad", -- [2]
@@ -462,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGplaytuzad|r",
 			[51] = 1538939073,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
+		}, -- [6]
 		{
 			"WTS |cff0070dd|Hitem:163804::::::::120:265::11::::|h[Kindleweb Spiderling]|h|r  |cffa335ee|Hitem:161071::::::::120:265::5:3:4799:1492:4786:::|h[Bloody Experimenter's Wraps]|h|r PST!  ", -- [1]
 			"Smorcbolt-Kel'Thuzad", -- [2]
@@ -484,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edSmorcbolt|r",
 			[51] = 1538939083,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
+		}, -- [7]
 		{
 			"WTS |cff0070dd|Hitem:163804::::::::120:265::11::::|h[Kindleweb Spiderling]|h|r  |cffa335ee|Hitem:161071::::::::120:265::5:3:4799:1492:4786:::|h[Bloody Experimenter's Wraps]|h|r PST!  ", -- [1]
 			"Smorcbolt-Kel'Thuzad", -- [2]
@@ -506,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edSmorcbolt|r",
 			[51] = 1538939083,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
+		}, -- [8]
 		{
 			"MAD MERCHANT UP", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -528,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538939654,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
+		}, -- [9]
 		{
 			"WTS |cff0070dd|Hitem:163804::::::::120:265::11::::|h[Kindleweb Spiderling]|h|r  |cffa335ee|Hitem:161071::::::::120:265::5:3:4799:1492:4786:::|h[Bloody Experimenter's Wraps]|h|r PST!  ", -- [1]
 			"Smorcbolt-Kel'Thuzad", -- [2]
@@ -550,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edSmorcbolt|r",
 			[51] = 1538939725,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
+		}, -- [10]
 		{
 			"WTS |cff0070dd|Hitem:163804::::::::120:265::11::::|h[Kindleweb Spiderling]|h|r  |cffa335ee|Hitem:161071::::::::120:265::5:3:4799:1492:4786:::|h[Bloody Experimenter's Wraps]|h|r PST!  ", -- [1]
 			"Smorcbolt-Kel'Thuzad", -- [2]
@@ -572,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edSmorcbolt|r",
 			[51] = 1538939725,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
+		}, -- [11]
 		{
 			"MAD MERCHANT UP", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -594,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538939732,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
+		}, -- [12]
 		{
 			"WTS |cff0070dd|Hitem:163804::::::::120:265::11::::|h[Kindleweb Spiderling]|h|r  |cffa335ee|Hitem:161071::::::::120:265::5:3:4799:1492:4786:::|h[Bloody Experimenter's Wraps]|h|r PST!  ", -- [1]
 			"Smorcbolt-Kel'Thuzad", -- [2]
@@ -616,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edSmorcbolt|r",
 			[51] = 1538939783,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
+		}, -- [13]
 		{
 			"WTS |cff0070dd|Hitem:163804::::::::120:265::11::::|h[Kindleweb Spiderling]|h|r  |cffa335ee|Hitem:161071::::::::120:265::5:3:4799:1492:4786:::|h[Bloody Experimenter's Wraps]|h|r PST!  ", -- [1]
 			"Smorcbolt-Kel'Thuzad", -- [2]
@@ -638,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edSmorcbolt|r",
 			[51] = 1538939783,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
+		}, -- [14]
 		{
 			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
 			"Gplaytuzad-Kel'Thuzad", -- [2]
@@ -660,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGplaytuzad|r",
 			[51] = 1538939793,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
+		}, -- [15]
 		{
 			"WTS |cff0070dd|Hitem:163804::::::::120:265::11::::|h[Kindleweb Spiderling]|h|r  |cffa335ee|Hitem:161071::::::::120:265::5:3:4799:1492:4786:::|h[Bloody Experimenter's Wraps]|h|r PST!  ", -- [1]
 			"Smorcbolt-Kel'Thuzad", -- [2]
@@ -682,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edSmorcbolt|r",
 			[51] = 1538939906,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
+		}, -- [16]
 		{
 			"WTS |cff0070dd|Hitem:163804::::::::120:265::11::::|h[Kindleweb Spiderling]|h|r  |cffa335ee|Hitem:161071::::::::120:265::5:3:4799:1492:4786:::|h[Bloody Experimenter's Wraps]|h|r PST!  ", -- [1]
 			"Smorcbolt-Kel'Thuzad", -- [2]
@@ -704,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edSmorcbolt|r",
 			[51] = 1538939906,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
+		}, -- [17]
 		{
 			"WTS |cffa335ee|Hitem:163955::::::::120:250::54:3:4802:1472:4786:::|h[Khayurn, Blade of the Wolves]|h|r |cffa335ee|Hitem:163955::::::::120:250::54:3:41:1472:4786:::|h[Khayurn, Blade of the Wolves]|h|r |cff0070dd|Hitem:49283::::::::120:250::::::|h[Reins of the Spectral Tiger]|h|r - Pst", -- [1]
 			"Hairytales-Kel'Thuzad", -- [2]
@@ -726,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aHairytales|r",
 			[51] = 1538940055,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
+		}, -- [18]
 		{
 			"WTS |cff0070dd|Hitem:163804::::::::120:265::11::::|h[Kindleweb Spiderling]|h|r  |cffa335ee|Hitem:161071::::::::120:265::5:3:4799:1492:4786:::|h[Bloody Experimenter's Wraps]|h|r PST!  ", -- [1]
 			"Smorcbolt-Kel'Thuzad", -- [2]
@@ -748,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edSmorcbolt|r",
 			[51] = 1538940146,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
+		}, -- [19]
 		{
 			"WTS |cff0070dd|Hitem:163804::::::::120:265::11::::|h[Kindleweb Spiderling]|h|r  |cffa335ee|Hitem:161071::::::::120:265::5:3:4799:1492:4786:::|h[Bloody Experimenter's Wraps]|h|r PST!  ", -- [1]
 			"Smorcbolt-Kel'Thuzad", -- [2]
@@ -770,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edSmorcbolt|r",
 			[51] = 1538940146,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
+		}, -- [20]
 		{
 			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
 			"Gplaytuzad-Kel'Thuzad", -- [2]
@@ -792,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGplaytuzad|r",
 			[51] = 1538940153,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
+		}, -- [21]
 		{
 			"WTS |cffa335ee|Hitem:163955::::::::120:250::54:3:4802:1472:4786:::|h[Khayurn, Blade of the Wolves]|h|r |cffa335ee|Hitem:163955::::::::120:250::54:3:41:1472:4786:::|h[Khayurn, Blade of the Wolves]|h|r |cff0070dd|Hitem:49283::::::::120:250::::::|h[Reins of the Spectral Tiger]|h|r - Pst", -- [1]
 			"Hairytales-Kel'Thuzad", -- [2]
@@ -814,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aHairytales|r",
 			[51] = 1538940155,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
+		}, -- [22]
 		{
 			"MAD MERCHANT UP", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -836,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538940167,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
+		}, -- [23]
 		{
 			"MAD MERCHANT UP", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -858,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538940412,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
+		}, -- [24]
 		{
 			"whats that?", -- [1]
 			"Smorcbolt-Kel'Thuzad", -- [2]
@@ -880,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edSmorcbolt|r",
 			[51] = 1538940422,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [39]
+		}, -- [25]
 		{
 			"the rare spawn in Legion Dalaran who sells the 2m widow mount among other things", -- [1]
 			"Smorcbolt-Kel'Thuzad", -- [2]
@@ -902,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edSmorcbolt|r",
 			[51] = 1538940439,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [40]
+		}, -- [26]
 		{
 			"ahhh", -- [1]
 			"Smorcbolt-Kel'Thuzad", -- [2]
@@ -924,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edSmorcbolt|r",
 			[51] = 1538940470,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [41]
+		}, -- [27]
 		{
 			"nice", -- [1]
 			"Smorcbolt-Kel'Thuzad", -- [2]
@@ -946,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edSmorcbolt|r",
 			[51] = 1538940471,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [42]
+		}, -- [28]
 		{
 			"he only pops for an hour every couple days or something, random timer and often in the middle of the night", -- [1]
 			"Smorcbolt-Kel'Thuzad", -- [2]
@@ -968,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edSmorcbolt|r",
 			[51] = 1538940471,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [43]
+		}, -- [29]
 		{
 			"so it's nice to call out if you see it", -- [1]
 			"Smorcbolt-Kel'Thuzad", -- [2]
@@ -990,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edSmorcbolt|r",
 			[51] = 1538940491,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [44]
+		}, -- [30]
 		{
 			"ah thxz man", -- [1]
 			"Smorcbolt-Kel'Thuzad", -- [2]
@@ -1012,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edSmorcbolt|r",
 			[51] = 1538940507,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [45]
+		}, -- [31]
 		{
 			"imma try and find him", -- [1]
 			"Smorcbolt-Kel'Thuzad", -- [2]
@@ -1034,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edSmorcbolt|r",
 			[51] = 1538940510,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [46]
+		}, -- [32]
 		{
 			"where is heè", -- [1]
 			"Smorcbolt-Kel'Thuzad", -- [2]
@@ -1056,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edSmorcbolt|r",
 			[51] = 1538940521,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [47]
+		}, -- [33]
 		{
 			"wts |cffa335ee|Hitem:163938::::::::120:66::54:3:4802:1472:4786:::|h[Kalieve's Kickers]|h|r 50k", -- [1]
 			"Vones-Kel'Thuzad", -- [2]
@@ -1078,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaVones|r",
 			[51] = 1538940536,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [34]
 		{
 			"The Wonderworks shop in Dalaran", -- [1]
 			"Smorcbolt-Kel'Thuzad", -- [2]
@@ -1100,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edSmorcbolt|r",
 			[51] = 1538940542,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [49]
+		}, -- [35]
 		{
 			"WTS |cffa335ee|Hitem:159840::::::::120:256::54:2:1472:4786:::|h[Teebu's Scorching Straight Sword]|h|r SICK TMOG 350IVL PST", -- [1]
 			"Klatoras-Kel'Thuzad", -- [2]
@@ -1122,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffKlatoras|r",
 			[51] = 1538940551,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
+		}, -- [36]
 		{
 			"<Inclusi> LFM for core raiding roster. Currently 8/8H 2/8M. Recruiting  Dps  365+ ilvl. Raid times 7-10Pm Server Time. Mon/Tues/Wed", -- [1]
 			"Excentríc-Kel'Thuzad", -- [2]
@@ -1144,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Excentríc|r",
 			[51] = 1538940558,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
+		}, -- [37]
 		{
 			"<Inclusi> LFM for core raiding roster. Currently 8/8H 2/8M. Recruiting  Dps  365+ ilvl. Raid times 7-10Pm Server Time. Mon/Tues/Wed", -- [1]
 			"Excentríc-Kel'Thuzad", -- [2]
@@ -1166,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Excentríc|r",
 			[51] = 1538940559,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [38]
 		{
 			"thx", -- [1]
 			"Smorcbolt-Kel'Thuzad", -- [2]
@@ -1188,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edSmorcbolt|r",
 			[51] = 1538940560,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [53]
+		}, -- [39]
 		{
 			"MAD MERCHANT UP, LEMME SEE SOME NEW WIDOW MOUNTS YALL", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1210,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538940560,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [40]
 		{
 			"thanks", -- [1]
 			"Carbonaceous-Kel'Thuzad", -- [2]
@@ -1232,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aCarbonaceous|r",
 			[51] = 1538940567,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [55]
+		}, -- [41]
 		{
 			"WTS |cffa335ee|Hitem:163955::::::::120:250::54:3:4802:1472:4786:::|h[Khayurn, Blade of the Wolves]|h|r |cffa335ee|Hitem:163955::::::::120:250::54:3:41:1472:4786:::|h[Khayurn, Blade of the Wolves]|h|r |cff0070dd|Hitem:49283::::::::120:250::::::|h[Reins of the Spectral Tiger]|h|r - Pst", -- [1]
 			"Hairytales-Kel'Thuzad", -- [2]
@@ -1254,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aHairytales|r",
 			[51] = 1538940576,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
+		}, -- [42]
 		{
 			"np", -- [1]
 			"Carbonaceous-Kel'Thuzad", -- [2]
@@ -1276,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aCarbonaceous|r",
 			[51] = 1538940587,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [57]
+		}, -- [43]
 		{
 			"who's the mad merchant?", -- [1]
 			"Happy", -- [2]
@@ -1298,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffHappy|r",
 			[51] = 1538940594,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [58]
+		}, -- [44]
 		{
 			"wts |cffa335ee|Hitem:163938::::::::120:66::54:3:4802:1472:4786:::|h[Kalieve's Kickers]|h|r 50k", -- [1]
 			"Vones-Kel'Thuzad", -- [2]
@@ -1320,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaVones|r",
 			[51] = 1538940598,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [45]
 		{
 			"<Elite> [8/8H - 2/8M] is looking for solid dps for our team. All exceptional players will be considered. Raid times are Tues/Wed 8-11pm server. All M+/PVP players are welcome. Pst to inquire.", -- [1]
 			"Snodobaggins-Kel'Thuzad", -- [2]
@@ -1342,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dSnodobaggins|r",
 			[51] = 1538940619,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [60]
+		}, -- [46]
 		{
 			"WTS |cffa335ee|Hitem:159840::::::::120:256::54:2:1472:4786:::|h[Teebu's Scorching Straight Sword]|h|r SICK TMOG 350IVL PST", -- [1]
 			"Klatoras-Kel'Thuzad", -- [2]
@@ -1364,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffKlatoras|r",
 			[51] = 1538940619,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [61]
+		}, -- [47]
 		{
 			"WTS |cff0070dd|Hitem:163804::::::::120:265::11::::|h[Kindleweb Spiderling]|h|r  |cffa335ee|Hitem:161071::::::::120:265::5:3:4799:1492:4786:::|h[Bloody Experimenter's Wraps]|h|r PST!  ", -- [1]
 			"Smorcbolt-Kel'Thuzad", -- [2]
@@ -1386,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edSmorcbolt|r",
 			[51] = 1538940621,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [62]
+		}, -- [48]
 		{
 			"WTS |cff0070dd|Hitem:163804::::::::120:265::11::::|h[Kindleweb Spiderling]|h|r  |cffa335ee|Hitem:161071::::::::120:265::5:3:4799:1492:4786:::|h[Bloody Experimenter's Wraps]|h|r PST!  ", -- [1]
 			"Smorcbolt-Kel'Thuzad", -- [2]
@@ -1408,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edSmorcbolt|r",
 			[51] = 1538940621,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [63]
+		}, -- [49]
 		{
 			"the rare spawn in Legion Dalaran who sells the 2m widow mount among other things", -- [1]
 			"Happy-Kel'Thuzad", -- [2]
@@ -1430,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffHappy|r",
 			[51] = 1538940631,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [64]
+		}, -- [50]
 		{
 			"WTS |cffa335ee|Hitem:159840::::::::120:256::54:2:1472:4786:::|h[Teebu's Scorching Straight Sword]|h|r SICK TMOG 350IVL PST", -- [1]
 			"Klatoras-Kel'Thuzad", -- [2]
@@ -1452,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffKlatoras|r",
 			[51] = 1538940658,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [65]
+		}, -- [51]
 		{
 			"WTS |cffa335ee|Hitem:163955::::::::120:250::54:3:4802:1472:4786:::|h[Khayurn, Blade of the Wolves]|h|r |cffa335ee|Hitem:163955::::::::120:250::54:3:41:1472:4786:::|h[Khayurn, Blade of the Wolves]|h|r |cff0070dd|Hitem:49283::::::::120:250::::::|h[Reins of the Spectral Tiger]|h|r - Pst", -- [1]
 			"Hairytales-Kel'Thuzad", -- [2]
@@ -1474,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aHairytales|r",
 			[51] = 1538940663,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [66]
+		}, -- [52]
 		{
 			"The Mad Merchant is the rare spawn at The Wonderworks in Dalaran who sells |cff71d5ff|Hspell:213115:0|h[Bloodfang Widow]|h|r among other things, only appears for an hour sometimes not for days at a time", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1496,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538940695,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [67]
+		}, -- [53]
 		{
 			"and he's up for the next 30 mins or so", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1518,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538940706,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [68]
+		}, -- [54]
 		{
 			"LFM Tomb of Sargeras normal. Have summons ready.", -- [1]
 			"Xwn-Kel'Thuzad", -- [2]
@@ -1540,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Xwn|r",
 			[51] = 1538940708,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [55]
 		{
 			"WTS |cff0070dd|Hitem:163804::::::::120:265::11::::|h[Kindleweb Spiderling]|h|r  |cffa335ee|Hitem:161071::::::::120:265::5:3:4799:1492:4786:::|h[Bloody Experimenter's Wraps]|h|r PST!  ", -- [1]
 			"Smorcbolt-Kel'Thuzad", -- [2]
@@ -1562,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edSmorcbolt|r",
 			[51] = 1538940741,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [56]
 		{
 			"LFM Tomb of Sargeras normal. Have summons ready.", -- [1]
 			"Xwn-Kel'Thuzad", -- [2]
@@ -1584,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Xwn|r",
 			[51] = 1538940742,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [57]
 		{
 			"where is it at?", -- [1]
 			"Rentlemetard-Kel'Thuzad", -- [2]
@@ -1606,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaRentlemetard|r",
 			[51] = 1538940744,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [72]
+		}, -- [58]
 		{
 			"trade trolls already have no lives so how could I ruin their day", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1628,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538940749,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [73]
+		}, -- [59]
 		{
 			"The Wonderworks in Dalaran", -- [1]
 			"Rentlemetard-Kel'Thuzad", -- [2]
@@ -1650,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaRentlemetard|r",
 			[51] = 1538940756,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [74]
+		}, -- [60]
 		{
 			"LFM Tomb of Sargeras normal. Have summons ready.", -- [1]
 			"Xwn-Kel'Thuzad", -- [2]
@@ -1672,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Xwn|r",
 			[51] = 1538940764,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [61]
 		{
 			"lol jebaited", -- [1]
 			"Rentlemetard-Kel'Thuzad", -- [2]
@@ -1694,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaRentlemetard|r",
 			[51] = 1538940805,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [76]
+		}, -- [62]
 		{
 			"youre like the 5th guy who's asked and the 1st who hasnt actually showed up in person", -- [1]
 			"Rentlemetard-Kel'Thuzad", -- [2]
@@ -1716,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaRentlemetard|r",
 			[51] = 1538940847,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [77]
+		}, -- [63]
 		{
 			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
 			"Gplaytuzad-Kel'Thuzad", -- [2]
@@ -1738,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGplaytuzad|r",
 			[51] = 1538940873,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [78]
+		}, -- [64]
 		{
 			"wtb |cffffffff|Hitem:152509::::::::120:259::::::|h[Siren's Pollen]|h|r|cffffffff|Hitem:152505::::::::120:259::::::|h[Riverbud]|h|r|cffffffff|Hitem:152507::::::::120:259::::::|h[Akunda's Bite]|h|r|cff0070dd|Hitem:152876::::::::120:259::::::|h[Umbra Shard]|h|r|cffa335ee|Hitem:152877::::::::120:259::::::|h[Veiled Crystal]|h|r", -- [1]
 			"Sanr-Kel'Thuzad", -- [2]
@@ -1760,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Sanr|r",
 			[51] = 1538941002,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [79]
+		}, -- [65]
 		{
 			"WTB TOT RAID RUN THROUGH AND |cffffff00|Hachievement:8098:Player-3693-087E5179:0:0:0:-1:0:0:0:0|h[You Said Crossing the Streams Was Bad]|h|r", -- [1]
 			"Jaw-Kel'Thuzad", -- [2]
@@ -1782,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaJaw|r",
 			[51] = 1538941051,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [80]
+		}, -- [66]
 		{
 			"WTB TOT RAID RUN THROUGH AND |cffffff00|Hachievement:8098:Player-3693-087E5179:0:0:0:-1:0:0:0:0|h[You Said Crossing the Streams Was Bad]|h|r", -- [1]
 			"Jaw-Kel'Thuzad", -- [2]
@@ -1804,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaJaw|r",
 			[51] = 1538941052,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [67]
 		{
 			"WTS |cffa335ee|Hitem:163955::::::::120:250::54:3:4802:1472:4786:::|h[Khayurn, Blade of the Wolves]|h|r |cffa335ee|Hitem:163955::::::::120:250::54:3:41:1472:4786:::|h[Khayurn, Blade of the Wolves]|h|r |cff0070dd|Hitem:49283::::::::120:250::::::|h[Reins of the Spectral Tiger]|h|r - Pst", -- [1]
 			"Hairytales-Kel'Thuzad", -- [2]
@@ -1826,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aHairytales|r",
 			[51] = 1538941200,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [82]
+		}, -- [68]
 		{
 			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
 			"Gplaytuzad-Kel'Thuzad", -- [2]
@@ -1848,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGplaytuzad|r",
 			[51] = 1538941233,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [83]
+		}, -- [69]
 		{
 			"WTB all BFA herbs 8g ea, Monelite Ore 15g ea. BFA lvl 120 greens 100g ea. Tidespray Linen 8g ea, WTB All BFA Gems 5g ea, Gloom Dust 10g ea, Umbra Shards 100g ea, Veiled Crystal 450g ea.  COD to me for instant payment.", -- [1]
 			"Vesivius-Kel'Thuzad", -- [2]
@@ -1870,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aVesivius|r",
 			[51] = 1538941278,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [84]
+		}, -- [70]
 		{
 			"wts |cffa335ee|Hitem:163938::::::::120:66::54:3:4802:1472:4786:::|h[Kalieve's Kickers]|h|r 50k", -- [1]
 			"Vones-Kel'Thuzad", -- [2]
@@ -1892,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaVones|r",
 			[51] = 1538941290,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [85]
+		}, -- [71]
 		{
 			"WTS BFA GREENS, PST", -- [1]
 			"Mugen-Kel'Thuzad", -- [2]
@@ -1914,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dMugen|r",
 			[51] = 1538941302,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [86]
+		}, -- [72]
 		{
 			"WTS BFA GREENS, PST", -- [1]
 			"Mugen-Kel'Thuzad", -- [2]
@@ -1936,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dMugen|r",
 			[51] = 1538941347,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [73]
 		{
 			"MAD MERCHANT UP FOR 20 MORE MINUTES", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1958,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538941360,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [74]
 		{
 			"<Elite> [8/8H - 2/8M] is looking for solid dps for our team. All exceptional players will be considered. Raid times are Tues/Wed 8-11pm server. All M+/PVP players are welcome. Pst to inquire.", -- [1]
 			"Snodobaggins-Kel'Thuzad", -- [2]
@@ -1980,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dSnodobaggins|r",
 			[51] = 1538941362,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [89]
+		}, -- [75]
 		{
 			"WTS BFA GREENS, PST", -- [1]
 			"Mugen-Kel'Thuzad", -- [2]
@@ -2002,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dMugen|r",
 			[51] = 1538941372,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [90]
+		}, -- [76]
 		{
 			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
 			"Gplaytuzad-Kel'Thuzad", -- [2]
@@ -2024,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGplaytuzad|r",
 			[51] = 1538941413,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [77]
 		{
 			"WTB all BFA herbs 8g ea, Monelite Ore 15g ea. BFA lvl 120 greens 100g ea. Tidespray Linen 8g ea, WTB All BFA Gems 5g ea, Gloom Dust 10g ea, Umbra Shards 100g ea, Veiled Crystal 450g ea.  COD to me for instant payment.", -- [1]
 			"Vesivius-Kel'Thuzad", -- [2]
@@ -2046,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aVesivius|r",
 			[51] = 1538941466,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [78]
 		{
 			"wtb |cffffffff|Hitem:152509::::::::120:259::::::|h[Siren's Pollen]|h|r|cffffffff|Hitem:152505::::::::120:259::::::|h[Riverbud]|h|r|cffffffff|Hitem:152507::::::::120:259::::::|h[Akunda's Bite]|h|r|cff0070dd|Hitem:152876::::::::120:259::::::|h[Umbra Shard]|h|r|cffa335ee|Hitem:152877::::::::120:259::::::|h[Veiled Crystal]|h|r", -- [1]
 			"Sanr-Kel'Thuzad", -- [2]
@@ -2068,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Sanr|r",
 			[51] = 1538941488,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [79]
 		{
 			"WTB all BFA herbs 8g ea, Monelite Ore 15g ea. BFA lvl 120 greens 100g ea. Tidespray Linen 8g ea, WTB All BFA Gems 5g ea, Gloom Dust 10g ea, Umbra Shards 100g ea, Veiled Crystal 450g ea.  COD to me for instant payment.", -- [1]
 			"Vesivius-Kel'Thuzad", -- [2]
@@ -2090,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aVesivius|r",
 			[51] = 1538941525,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [80]
 		{
 			"WTB all BFA herbs 8g ea, Monelite Ore 15g ea. BFA lvl 120 greens 100g ea. Tidespray Linen 8g ea, WTB All BFA Gems 5g ea, Gloom Dust 10g ea, Umbra Shards 100g ea, Veiled Crystal 450g ea.  COD to me for instant payment.", -- [1]
 			"Vesivius-Kel'Thuzad", -- [2]
@@ -2112,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aVesivius|r",
 			[51] = 1538941602,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [81]
 		{
 			"WTB all BFA herbs 8g ea, Monelite Ore 15g ea. BFA lvl 120 greens 100g ea. Tidespray Linen 8g ea, WTB All BFA Gems 5g ea, Gloom Dust 10g ea, Umbra Shards 100g ea, Veiled Crystal 450g ea.  COD to me for instant payment.", -- [1]
 			"Vesivius-Kel'Thuzad", -- [2]
@@ -2134,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aVesivius|r",
 			[51] = 1538941645,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [82]
 		{
 			"WTB all BFA herbs 8g ea, Monelite Ore 15g ea. BFA lvl 120 greens 100g ea. Tidespray Linen 8g ea, WTB All BFA Gems 5g ea, Gloom Dust 10g ea, Umbra Shards 100g ea, Veiled Crystal 450g ea.  COD to me for instant payment.", -- [1]
 			"Vesivius-Kel'Thuzad", -- [2]
@@ -2156,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aVesivius|r",
 			[51] = 1538941731,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [83]
 		{
 			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
 			"Gplaytuzad-Kel'Thuzad", -- [2]
@@ -2178,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGplaytuzad|r",
 			[51] = 1538941772,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [84]
 		{
 			"WTB all BFA herbs 8g ea, Monelite Ore 15g ea. BFA lvl 120 greens 100g ea. Tidespray Linen 8g ea, WTB All BFA Gems 5g ea, Gloom Dust 10g ea, Umbra Shards 100g ea, Veiled Crystal 450g ea.  COD to me for instant payment.", -- [1]
 			"Vesivius-Kel'Thuzad", -- [2]
@@ -2200,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aVesivius|r",
 			[51] = 1538941776,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [99]
+		}, -- [85]
 		{
 			"WTB all BFA herbs 8g ea, Monelite Ore 15g ea. BFA lvl 120 greens 100g ea. Tidespray Linen 8g ea, WTB All BFA Gems 5g ea, Gloom Dust 10g ea, Umbra Shards 100g ea, Veiled Crystal 450g ea.  COD to me for instant payment.", -- [1]
 			"Vesivius-Kel'Thuzad", -- [2]
@@ -2222,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aVesivius|r",
 			[51] = 1538941816,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [100]
+		}, -- [86]
 		{
 			"<Spin the Dragon> is now searching for geared Healers for heroic/mythic progression. Tuesday/Wed/Sun 7-9pm MST. Currently 5/8 H Norm on farm. Definitly not a cult.  (we do other stuff too, talk to me!)", -- [1]
 			"Tacorolls-Kel'Thuzad", -- [2]
@@ -2244,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddTacorolls|r",
 			[51] = 1538941946,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [101]
+		}, -- [87]
 		{
 			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
 			"Gplaytuzad-Kel'Thuzad", -- [2]
@@ -2266,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGplaytuzad|r",
 			[51] = 1538941953,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [102]
+		}, -- [88]
 		{
 			"Negative Bro - Currently Recruiting - 2/8 Mythic leadership 8/8H LFM Ranged/Meelee DPS with good parses.Tues-Wen 8-11EST  Whisper Aldizi or Goodblarg", -- [1]
 			"Aldizi-Kel'Thuzad", -- [2]
@@ -2288,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddAldizi|r",
 			[51] = 1538942007,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [103]
+		}, -- [89]
 		{
 			"Negative Bro - Currently Recruiting - 2/8 Mythic leadership 8/8H LFM Ranged/Meelee DPS with good parses.Tues-Wen 8-11EST  Whisper Aldizi or Goodblarg", -- [1]
 			"Aldizi-Kel'Thuzad", -- [2]
@@ -2310,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddAldizi|r",
 			[51] = 1538942009,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [104]
+		}, -- [90]
 		{
 			"wts |cffa335ee|Hitem:163947::::::::1:265::54:4:40:4802:1472:4786:::|h[Robust Legwraps of D'nusa]|h|r pst offers", -- [1]
 			"Lucreziaa-Kel'Thuzad", -- [2]
@@ -2332,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edLucreziaa|r",
 			[51] = 1538942021,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [105]
+		}, -- [91]
 		{
 			"WTB all BFA herbs 8g ea, Monelite Ore 15g ea. BFA lvl 120 greens 100g ea. Tidespray Linen 8g ea, WTB All BFA Gems 5g ea, Gloom Dust 10g ea, Umbra Shards 100g ea, Veiled Crystal 450g ea.  COD to me for instant payment.", -- [1]
 			"Vesivius-Kel'Thuzad", -- [2]
@@ -2354,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aVesivius|r",
 			[51] = 1538942030,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [106]
+		}, -- [92]
 		{
 			"WTB all BFA herbs 8g ea, Monelite Ore 15g ea. BFA lvl 120 greens 100g ea. Tidespray Linen 8g ea, WTB All BFA Gems 5g ea, Gloom Dust 10g ea, Umbra Shards 100g ea, Veiled Crystal 450g ea.  COD to me for instant payment.", -- [1]
 			"Vesivius-Kel'Thuzad", -- [2]
@@ -2376,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aVesivius|r",
 			[51] = 1538942075,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [107]
+		}, -- [93]
 		{
 			"Negative Bro - Currently Recruiting - 2/8 Mythic leadership 8/8H LFM Ranged/Meelee DPS with good parses.Tues-Wen 8-11EST  Whisper Aldizi or Goodblarg", -- [1]
 			"Aldizi-Kel'Thuzad", -- [2]
@@ -2398,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddAldizi|r",
 			[51] = 1538942109,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [108]
+		}, -- [94]
 		{
 			"WTS |cffa335ee|Hitem:159125::::::::120:268::13::::|h[Darkmoon Deck: Fathoms]|h|r|cffa335ee|Hitem:159127::::::::120:268::13::::|h[Darkmoon Deck: Tides]|h|r|cffa335ee|Hitem:159128::::::::120:268::13::::|h[Darkmoon Deck: Blockades]|h|r", -- [1]
 			"Amitie-Kel'Thuzad", -- [2]
@@ -2420,7 +2112,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Amitie|r",
 			[51] = 1538942119,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [109]
+		}, -- [95]
 		{
 			"Negative Bro - Currently Recruiting - 2/8 Mythic leadership 8/8H LFM Ranged/Meelee DPS with good parses.Tues-Wen 8-11EST  Whisper Aldizi or Goodblarg", -- [1]
 			"Aldizi-Kel'Thuzad", -- [2]
@@ -2442,7 +2134,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddAldizi|r",
 			[51] = 1538942131,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [110]
+		}, -- [96]
 		{
 			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
 			"Gplaytuzad-Kel'Thuzad", -- [2]
@@ -2464,7 +2156,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGplaytuzad|r",
 			[51] = 1538942133,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [111]
+		}, -- [97]
 		{
 			"MAD MERCHANT UP FOR FIVE MORE MINUTES", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2486,7 +2178,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1538942158,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [112]
+		}, -- [98]
 		{
 			"Negative Bro - Currently Recruiting - 2/8 Mythic leadership 8/8H LFM Ranged/Meelee DPS with good parses.Tues-Wen 8-11EST  Whisper Aldizi or Goodblarg", -- [1]
 			"Aldizi-Kel'Thuzad", -- [2]
@@ -2508,7 +2200,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddAldizi|r",
 			[51] = 1538942166,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [113]
+		}, -- [99]
 		{
 			"<Spin the Dragon> is now searching for geared Healers for heroic/mythic progression. Tuesday/Wed/Sun 7-9pm MST. Currently 5/8 H Norm on farm. Definitly not a cult.  (we do other stuff too, talk to me!)", -- [1]
 			"Tacorolls-Kel'Thuzad", -- [2]
@@ -2530,7 +2222,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddTacorolls|r",
 			[51] = 1538942210,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [114]
+		}, -- [100]
 		{
 			"WTB all BFA herbs 8g ea, Monelite Ore 15g ea. BFA lvl 120 greens 100g ea. Tidespray Linen 8g ea, WTB All BFA Gems 5g ea, Gloom Dust 10g ea, Umbra Shards 100g ea, Veiled Crystal 450g ea.  COD to me for instant payment.", -- [1]
 			"Vesivius-Kel'Thuzad", -- [2]
@@ -2552,7 +2244,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aVesivius|r",
 			[51] = 1538942300,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [115]
+		}, -- [101]
 		{
 			"Negative Bro - Currently Recruiting - 2/8 Mythic leadership 8/8H LFM Ranged/Meelee DPS with good parses.Tues-Wen 8-11EST  Whisper Aldizi or Goodblarg", -- [1]
 			"Aldizi-Kel'Thuzad", -- [2]
@@ -2574,7 +2266,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddAldizi|r",
 			[51] = 1538942347,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [116]
+		}, -- [102]
 		{
 			"Negative Bro - Currently Recruiting - 2/8 Mythic leadership 8/8H LFM Ranged/Meelee DPS with good parses.Tues-Wen 8-11EST  Whisper Aldizi or Goodblarg", -- [1]
 			"Aldizi-Kel'Thuzad", -- [2]
@@ -2596,7 +2288,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddAldizi|r",
 			[51] = 1538942347,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [117]
+		}, -- [103]
 		{
 			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
 			"Gplaytuzad-Kel'Thuzad", -- [2]
@@ -2618,7 +2310,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGplaytuzad|r",
 			[51] = 1538942493,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [118]
+		}, -- [104]
 		{
 			"<Inclusi> LFM for core raiding roster. Currently 8/8H 2/8M. Recruiting  Dps  365+ ilvl. Raid times 7-10Pm Server Time. Mon/Tues/Wed", -- [1]
 			"Excentríc-Kel'Thuzad", -- [2]
@@ -2640,7 +2332,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Excentríc|r",
 			[51] = 1538942514,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [119]
+		}, -- [105]
 		{
 			"<Inclusi> LFM for core raiding roster. Currently 8/8H 2/8M. Recruiting  Dps  365+ ilvl. Raid times 7-10Pm Server Time. Mon/Tues/Wed", -- [1]
 			"Excentríc-Kel'Thuzad", -- [2]
@@ -2662,7 +2354,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Excentríc|r",
 			[51] = 1538942514,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [120]
+		}, -- [106]
 		{
 			"Negative Bro - Currently Recruiting - 2/8 Mythic leadership 8/8H LFM Ranged/Meelee DPS with good parses.Tues-Wen 8-11EST  Whisper Aldizi or Goodblarg", -- [1]
 			"Aldizi-Kel'Thuzad", -- [2]
@@ -2684,7 +2376,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddAldizi|r",
 			[51] = 1538942529,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [121]
+		}, -- [107]
 		{
 			"Negative Bro - Currently Recruiting - 2/8 Mythic leadership 8/8H LFM Ranged/Meelee DPS with good parses.Tues-Wen 8-11EST  Whisper Aldizi or Goodblarg", -- [1]
 			"Aldizi-Kel'Thuzad", -- [2]
@@ -2706,7 +2398,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddAldizi|r",
 			[51] = 1538942577,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [122]
+		}, -- [108]
 		{
 			"Negative Bro - Currently Recruiting - 2/8 Mythic leadership 8/8H LFM Ranged/Meelee DPS with good parses.Tues-Wen 8-11EST  Whisper Aldizi or Goodblarg", -- [1]
 			"Aldizi-Kel'Thuzad", -- [2]
@@ -2728,7 +2420,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddAldizi|r",
 			[51] = 1538942608,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [123]
+		}, -- [109]
 		{
 			"Negative Bro - Currently Recruiting - 2/8 Mythic leadership 8/8H LFM Ranged/Meelee DPS with good parses.Tues-Wen 8-11EST  Whisper Aldizi or Goodblarg", -- [1]
 			"Aldizi-Kel'Thuzad", -- [2]
@@ -2750,7 +2442,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddAldizi|r",
 			[51] = 1538942649,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [124]
+		}, -- [110]
 		{
 			"Negative Bro - Currently Recruiting - 2/8 Mythic leadership 8/8H LFM Ranged/Meelee DPS with good parses.Tues-Wen 8-11EST  Whisper Aldizi or Goodblarg", -- [1]
 			"Aldizi-Kel'Thuzad", -- [2]
@@ -2772,7 +2464,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddAldizi|r",
 			[51] = 1538942707,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [125]
+		}, -- [111]
 		{
 			"<The Silver Order> is recruiting all lvls - amaze your friends, impress your family, make the opposite sex lusty!! pst for invite to learn more about our secrets to immorality and awesomeness!!.. must be 18yrs or older to apply", -- [1]
 			"Keroshu-Kel'Thuzad", -- [2]
@@ -2794,7 +2486,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edKeroshu|r",
 			[51] = 1538942712,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [126]
+		}, -- [112]
 		{
 			"WTB BFA greens", -- [1]
 			"Xivia-Kel'Thuzad", -- [2]
@@ -2815,6 +2507,314 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "|cfffff468Xivia|r",
 			[51] = 1538942713,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [113]
+		{
+			"WTS|cffa335ee|Hitem:163962::::::::120:259::54:2:1472:4786:::|h[Decapitator of Alireza]|h|r|cffa335ee|Hitem:163965::::::::120:259::54:2:1472:4786:::|h[Glave's Angular Glaive]|h|r|cffa335ee|Hitem:163956::::::::120:259::54:2:1477:4783:::|h[Treiya's Shining Pillar]|h|r|cffa335ee|Hitem:163967::::::::120:259::54:2:1472:4786:::|h[Shtuf's Ruler]|h|r", -- [1]
+			"Doovin-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Doovin", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			112, -- [11]
+			"Player-3693-09F0C276", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Doovin|r",
+			[51] = 1538996417,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [114]
+		{
+			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
+			"Gplaytuzad-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gplaytuzad", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			117, -- [11]
+			"Player-3693-0A0D0980", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffGplaytuzad|r",
+			[51] = 1538996497,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [115]
+		{
+			"WTS |cff0070dd|Hitem:49283::::::::120:250::::::|h[Reins of the Spectral Tiger]|h|r 9.5M - Pst ", -- [1]
+			"Hairytales-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hairytales", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			122, -- [11]
+			"Player-3693-09FE67CA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc41e3aHairytales|r",
+			[51] = 1538996623,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [116]
+		{
+			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
+			"Gplaytuzad-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gplaytuzad", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			123, -- [11]
+			"Player-3693-0A0D0980", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffGplaytuzad|r",
+			[51] = 1538996677,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [117]
+		{
+			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
+			"Gplaytuzad-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gplaytuzad", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			14, -- [11]
+			"Player-3693-0A0D0980", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffGplaytuzad|r",
+			[51] = 1538997037,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [118]
+		{
+			"WTS |cff0070dd|Hitem:49283::::::::120:250::::::|h[Reins of the Spectral Tiger]|h|r 9.5M - Pst ", -- [1]
+			"Hairytales-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hairytales", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			19, -- [11]
+			"Player-3693-09FE67CA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc41e3aHairytales|r",
+			[51] = 1538997157,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [119]
+		{
+			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
+			"Gplaytuzad-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gplaytuzad", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			22, -- [11]
+			"Player-3693-0A0D0980", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffGplaytuzad|r",
+			[51] = 1538997217,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [120]
+		{
+			"WTS |cff0070dd|Hitem:49283::::::::120:250::::::|h[Reins of the Spectral Tiger]|h|r 9.5M - Pst ", -- [1]
+			"Hairytales-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hairytales", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			29, -- [11]
+			"Player-3693-09FE67CA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc41e3aHairytales|r",
+			[51] = 1538997372,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [121]
+		{
+			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
+			"Gplaytuzad-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gplaytuzad", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			30, -- [11]
+			"Player-3693-0A0D0980", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffGplaytuzad|r",
+			[51] = 1538997397,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [122]
+		{
+			"__##__ WTS  Herioc Uldir 8/8  ==-Start now!!- <kill G'HUUN NOW>'-WTS mythic +10 carry ---have key now!", -- [1]
+			"Hannelgaldel-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hannelgaldel", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			62, -- [11]
+			"Player-3693-0A0DB7CE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Hannelgaldel|r",
+			[51] = 1538997577,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [123]
+		{
+			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
+			"Gplaytuzad-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gplaytuzad", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			63, -- [11]
+			"Player-3693-0A0D0980", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffGplaytuzad|r",
+			[51] = 1538997577,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [124]
+		{
+			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
+			"Gplaytuzad-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gplaytuzad", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			66, -- [11]
+			"Player-3693-0A0D0980", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffGplaytuzad|r",
+			[51] = 1538997757,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [125]
+		{
+			"WTS |cff0070dd|Hitem:49283::::::::120:250::::::|h[Reins of the Spectral Tiger]|h|r 9.5M - Pst ", -- [1]
+			"Hairytales-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hairytales", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			68, -- [11]
+			"Player-3693-09FE67CA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc41e3aHairytales|r",
+			[51] = 1538997787,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [126]
+		{
+			"__##__WTS 8/8 H uldir now -WTS Mythic+<2-10-15>loot run !360/380 raretinket&wepaon&350*355*365boe package&mount&120lvl&Gearing 360--WTS M+10 loot run now ", -- [1]
+			"Hannelgaldel-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hannelgaldel", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			69, -- [11]
+			"Player-3693-0A0DB7CE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Hannelgaldel|r",
+			[51] = 1538997818,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},
