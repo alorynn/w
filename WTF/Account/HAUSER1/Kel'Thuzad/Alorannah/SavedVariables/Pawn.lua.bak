@@ -4,6 +4,7 @@ PawnOptions = {
 	["LastPlayerFullName"] = "Alorannah-Kel'Thuzad",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128476] = {
 			["Relics"] = {
@@ -20,7 +21,6 @@ PawnOptions = {
 			["Name"] = "Fangs of the Devourer",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "ROGUE",

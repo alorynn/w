@@ -2,6 +2,14 @@
 CliqueDB = nil
 CliqueDB3 = {
 	["char"] = {
+		["Alorannah - Kel'Thuzad"] = {
+			["spec1_profileKey"] = "Alorannah - Kel'Thuzad",
+			["spec2_profileKey"] = "Alorannah - Kel'Thuzad",
+			["downclick"] = false,
+			["fastooc"] = false,
+			["spec3_profileKey"] = "Alorannah - Kel'Thuzad",
+			["specswap"] = false,
+		},
 		["Laurannah - Kel'Thuzad"] = {
 			["spec1_profileKey"] = "Laurannah - Kel'Thuzad",
 			["spec3_profileKey"] = "Laurannah - Kel'Thuzad",
@@ -9,14 +17,6 @@ CliqueDB3 = {
 			["fastooc"] = false,
 			["specswap"] = false,
 			["spec2_profileKey"] = "Laurannah - Kel'Thuzad",
-		},
-		["Alorannah - Kel'Thuzad"] = {
-			["spec1_profileKey"] = "Alorannah - Kel'Thuzad",
-			["fastooc"] = false,
-			["spec2_profileKey"] = "Alorannah - Kel'Thuzad",
-			["downclick"] = false,
-			["spec3_profileKey"] = "Alorannah - Kel'Thuzad",
-			["specswap"] = false,
 		},
 		["Kmkarbashian - Kel'Thuzad"] = {
 			["spec1_profileKey"] = "Kmkarbashian - Kel'Thuzad",
@@ -34,27 +34,30 @@ CliqueDB3 = {
 		["Fooliolio - Kel'Thuzad"] = "Fooliolio - Kel'Thuzad",
 		["Laurranah - Kel'Thuzad"] = "Laurranah - Kel'Thuzad",
 		["Hauzerina - Moon Guard"] = "Hauzerina - Moon Guard",
+		["Foolioioio - Frostwolf"] = "Foolioioio - Frostwolf",
+		["Foolioioio - Kel'Thuzad"] = "Foolioioio - Kel'Thuzad",
 		["Loranno - Kel'Thuzad"] = "Loranno - Kel'Thuzad",
+		["Kmkarbashian - Kel'Thuzad"] = "Kmkarbashian - Kel'Thuzad",
 		["Laurannah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Deeke - Kel'Thuzad"] = "Deeke - Kel'Thuzad",
-		["Foolioioio - Kel'Thuzad"] = "Foolioioio - Kel'Thuzad",
 		["Nigellah - Kel'Thuzad"] = "Nigellah - Kel'Thuzad",
-		["Kmkarbashian - Kel'Thuzad"] = "Kmkarbashian - Kel'Thuzad",
-		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
-		["Blahndee - Kel'Thuzad"] = "Blahndee - Kel'Thuzad",
-		["Loranah - Kel'Thuzad"] = "Loranah - Kel'Thuzad",
+		["Shamwowow - Kel'Thuzad"] = "Shamwowow - Kel'Thuzad",
 		["Loranus - Kel'Thuzad"] = "Loranus - Kel'Thuzad",
+		["Fooiis - Hakkar"] = "Fooiis - Hakkar",
 		["Alisheeya - Kel'Thuzad"] = "Alisheeya - Kel'Thuzad",
-		["Hauzerina - Kel'Thuzad"] = "Hauzerina - Kel'Thuzad",
+		["Loranah - Kel'Thuzad"] = "Loranah - Kel'Thuzad",
+		["Blahndee - Kel'Thuzad"] = "Blahndee - Kel'Thuzad",
 		["Lorranah - Kel'Thuzad"] = "Lorranah - Kel'Thuzad",
+		["Testfoolio - Kel'Thuzad"] = "Testfoolio - Kel'Thuzad",
+		["Hauzerina - Kel'Thuzad"] = "Hauzerina - Kel'Thuzad",
 		["Alaurannah - Undermine"] = "Alaurannah - Undermine",
 		["Darknstormie - Kel'Thuzad"] = "Darknstormie - Kel'Thuzad",
 		["Alauranna - Kel'Thuzad"] = "Alauranna - Kel'Thuzad",
-		["Testfoolio - Kel'Thuzad"] = "Testfoolio - Kel'Thuzad",
+		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
 		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
 		["Rogueout - Kel'Thuzad"] = "Rogueout - Kel'Thuzad",
-		["Shamwowow - Kel'Thuzad"] = "Shamwowow - Kel'Thuzad",
 		["Laurannah - Undermine"] = "Laurannah - Undermine",
+		["Laurennah - Vashj"] = "Laurennah - Vashj",
 	},
 	["profiles"] = {
 		["Fooliolio - Kel'Thuzad"] = {
@@ -114,7 +117,64 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
+		["Foolioioio - Frostwolf"] = {
+			["bindings"] = {
+				{
+					["type"] = "target",
+					["sets"] = {
+						["default"] = true,
+					},
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+			},
+		},
+		["Foolioioio - Kel'Thuzad"] = {
+			["bindings"] = {
+				{
+					["type"] = "target",
+					["sets"] = {
+						["default"] = true,
+					},
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+			},
+		},
 		["Loranno - Kel'Thuzad"] = {
+			["bindings"] = {
+				{
+					["sets"] = {
+						["default"] = true,
+					},
+					["type"] = "target",
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+			},
+		},
+		["Kmkarbashian - Kel'Thuzad"] = {
 			["bindings"] = {
 				{
 					["sets"] = {
@@ -171,25 +231,6 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Foolioioio - Kel'Thuzad"] = {
-			["bindings"] = {
-				{
-					["type"] = "target",
-					["sets"] = {
-						["default"] = true,
-					},
-					["key"] = "BUTTON1",
-					["unit"] = "mouseover",
-				}, -- [1]
-				{
-					["type"] = "menu",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-				}, -- [2]
-			},
-		},
 		["Nigellah - Kel'Thuzad"] = {
 			["bindings"] = {
 				{
@@ -209,26 +250,7 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Kmkarbashian - Kel'Thuzad"] = {
-			["bindings"] = {
-				{
-					["sets"] = {
-						["default"] = true,
-					},
-					["type"] = "target",
-					["key"] = "BUTTON1",
-					["unit"] = "mouseover",
-				}, -- [1]
-				{
-					["type"] = "menu",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-				}, -- [2]
-			},
-		},
-		["Alorannah - Kel'Thuzad"] = {
+		["Shamwowow - Kel'Thuzad"] = {
 			["bindings"] = {
 				{
 					["type"] = "target",
@@ -247,7 +269,45 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Blahndee - Kel'Thuzad"] = {
+		["Loranus - Kel'Thuzad"] = {
+			["bindings"] = {
+				{
+					["sets"] = {
+						["default"] = true,
+					},
+					["type"] = "target",
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+			},
+		},
+		["Fooiis - Hakkar"] = {
+			["bindings"] = {
+				{
+					["type"] = "target",
+					["sets"] = {
+						["default"] = true,
+					},
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+			},
+		},
+		["Alisheeya - Kel'Thuzad"] = {
 			["bindings"] = {
 				{
 					["type"] = "target",
@@ -285,7 +345,26 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Loranus - Kel'Thuzad"] = {
+		["Blahndee - Kel'Thuzad"] = {
+			["bindings"] = {
+				{
+					["type"] = "target",
+					["sets"] = {
+						["default"] = true,
+					},
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+			},
+		},
+		["Lorranah - Kel'Thuzad"] = {
 			["bindings"] = {
 				{
 					["sets"] = {
@@ -304,7 +383,7 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Alisheeya - Kel'Thuzad"] = {
+		["Testfoolio - Kel'Thuzad"] = {
 			["bindings"] = {
 				{
 					["type"] = "target",
@@ -324,25 +403,6 @@ CliqueDB3 = {
 			},
 		},
 		["Hauzerina - Kel'Thuzad"] = {
-			["bindings"] = {
-				{
-					["sets"] = {
-						["default"] = true,
-					},
-					["type"] = "target",
-					["key"] = "BUTTON1",
-					["unit"] = "mouseover",
-				}, -- [1]
-				{
-					["type"] = "menu",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-				}, -- [2]
-			},
-		},
-		["Lorranah - Kel'Thuzad"] = {
 			["bindings"] = {
 				{
 					["sets"] = {
@@ -463,7 +523,7 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Testfoolio - Kel'Thuzad"] = {
+		["Alorannah - Kel'Thuzad"] = {
 			["bindings"] = {
 				{
 					["type"] = "target",
@@ -520,7 +580,7 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Shamwowow - Kel'Thuzad"] = {
+		["Laurannah - Undermine"] = {
 			["bindings"] = {
 				{
 					["type"] = "target",
@@ -539,7 +599,7 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Laurannah - Undermine"] = {
+		["Laurennah - Vashj"] = {
 			["bindings"] = {
 				{
 					["type"] = "target",

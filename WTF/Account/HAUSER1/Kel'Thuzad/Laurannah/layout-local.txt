@@ -1,4 +1,11 @@
 Version: 1
+Frame: wlIdTooltipFrame
+FrameLevel: 1
+Anchor: BOTTOM
+X: -290
+Y: 8
+W: 72
+H: 38
 Frame: ColorPickerFrame
 FrameLevel: 1
 Anchor: CENTER

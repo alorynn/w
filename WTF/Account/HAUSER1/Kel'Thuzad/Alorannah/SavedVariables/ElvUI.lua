@@ -1,880 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/way 75.73 21.70", -- [1]
-		"/p heya", -- [2]
-		"/p done?", -- [3]
-		"/p ty", -- [4]
-		"/p done", -- [5]
-		"/p you?", -- [6]
-		"/1 how do you get Marks of the Sentinax?", -- [7]
-		"/1 anyone getting marks of sentinax? how?", -- [8]
-		"/cw Sachihiko-Skullcrusher Ive killed hundreds and no marks ", -- [9]
-		"/cw Sachihiko-Skullcrusher ya thats the ones Im killing", -- [10]
-		"/1 tons of caches by lost temple", -- [11]
-		"/1 how often do elites spawn?", -- [12]
-		"/1 so much of this zone is timegated cockblocking", -- [13]
-		"/1 you can do all the |cffffff00|Hachievement:11546:Player-3693-09ED9289:1:6:7:17:4294967295:4294967295:4294967295:4294967295|h[Breaching the Tomb]|h|r at once but there's time gates on some of the steps", -- [14]
-		"/1 like completing a legionfall mission", -- [15]
-		"/1 any rares up anywhere?", -- [16]
-		"/1 caches just respawned", -- [17]
-		"/who z-broke", -- [18]
-		"/reload", -- [19]
-		"/who z-brok", -- [20]
+		"/cw Sunslayerr-LaughingSkull doesnt show on the map of course", -- [1]
+		"/cw Sunslayerr-LaughingSkull you doing waist of time?", -- [2]
+		"/cw Sunslayerr-LaughingSkull take the exodar port then just follow the road north to the top of the map", -- [3]
+		"/cw Sunslayerr-LaughingSkull doesnt make any sense that we can use these alliance portals lol", -- [4]
+		"/wave", -- [5]
+		"/2 fast way to get to Ironforge?", -- [6]
+		"/2 MAD MERCHANT UP IN DALARAN", -- [7]
+		"/cast bloodfang widow", -- [8]
+		"/npcscan", -- [9]
+		"/2 MAD MERCHANT UP", -- [10]
+		"/2 MAD MERCHANT UP FOR 10 MORE MINUTES 42 45 IN LEGION DALARAN", -- [11]
+		"/1 does anyone see a quest called First Blood left side at Yogursa?", -- [12]
+		"/1 I see it on my map but dont see it in game", -- [13]
+		"/s hes here", -- [14]
+		"/1 fozruk up at me 59 28", -- [15]
+		"/1 rught by echo", -- [16]
+		"/1 LFM echo and fozruk", -- [17]
+		"/1 fozruk spawns just north of water ele so dont go far", -- [18]
+		"/1 fozruk up at water ele", -- [19]
+		"/cheer", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"BM", -- [1]
-			"Indicia-Mug'thol", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Indicia-Mug'thol", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			297, -- [11]
-			"Player-84-07BA7C58", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aIndicia-Mug'thol|r",
-			[51] = 1538580247,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [1]
-		{
-			"same", -- [1]
-			"Indicia-Mug'thol", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Indicia-Mug'thol", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			298, -- [11]
-			"Player-84-07BA7C58", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aIndicia-Mug'thol|r",
-			[51] = 1538580252,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [2]
-		{
-			"so fast at WQ and very good in instanced/pvp", -- [1]
-			"Indicia-Mug'thol", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Indicia-Mug'thol", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			299, -- [11]
-			"Player-84-07BA7C58", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aIndicia-Mug'thol|r",
-			[51] = 1538580268,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [3]
-		{
-			"i don't pbp much on my hunter but i've started a little on my disc priest", -- [1]
-			"Indicia-Mug'thol", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Indicia-Mug'thol", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			300, -- [11]
-			"Player-84-07BA7C58", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aIndicia-Mug'thol|r",
-			[51] = 1538580286,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [4]
-		{
-			"pvp*", -- [1]
-			"Indicia-Mug'thol", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Indicia-Mug'thol", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			301, -- [11]
-			"Player-84-07BA7C58", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aIndicia-Mug'thol|r",
-			[51] = 1538580290,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [5]
-		{
-			"my battletag is Lydochka#1137", -- [1]
-			"Indicia-Mug'thol", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Indicia-Mug'thol", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			302, -- [11]
-			"Player-84-07BA7C58", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aIndicia-Mug'thol|r",
-			[51] = 1538580304,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [6]
-		{
-			"but I'm done with the rep grinds for now so been collecting some rares, doing some of those hidden questlines etc", -- [1]
-			"Indicia-Mug'thol", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Indicia-Mug'thol", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			303, -- [11]
-			"Player-84-07BA7C58", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aIndicia-Mug'thol|r",
-			[51] = 1538580308,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [7]
-		{
-			"i just got my lightning wolf from storm peaks on sunday", -- [1]
-			"Indicia-Mug'thol", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Indicia-Mug'thol", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			307, -- [11]
-			"Player-84-07BA7C58", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aIndicia-Mug'thol|r",
-			[51] = 1538580327,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [8]
-		{
-			"nice how hard is that?", -- [1]
-			"Indicia-Mug'thol", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Indicia-Mug'thol", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			315, -- [11]
-			"Player-84-07BA7C58", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aIndicia-Mug'thol|r",
-			[51] = 1538580341,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [9]
-		{
-			"just a rare spawn that a lot of other hunters camp for ", -- [1]
-			"Indicia-Mug'thol", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Indicia-Mug'thol", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			324, -- [11]
-			"Player-84-07BA7C58", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aIndicia-Mug'thol|r",
-			[51] = 1538580358,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [10]
-		{
-			"|cffffff00Zuldazar is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Dazar'alor", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Dazar'alor", -- [9]
-			0, -- [10]
-			325, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1538580359,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
-		{
-			"I just grabbed Arcturis, 2 Sambas and 2 Bulvinkels over the past week", -- [1]
-			"Indicia-Mug'thol", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Indicia-Mug'thol", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			328, -- [11]
-			"Player-84-07BA7C58", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aIndicia-Mug'thol|r",
-			[51] = 1538580361,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [12]
-		{
-			"but theyre all pretty easy (except the campers) - static spawns", -- [1]
-			"Indicia-Mug'thol", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Indicia-Mug'thol", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			331, -- [11]
-			"Player-84-07BA7C58", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aIndicia-Mug'thol|r",
-			[51] = 1538580380,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [13]
-		{
-			"i want arturis but not enough to sit in grizzly hills for him since i just got skoll", -- [1]
-			"Indicia-Mug'thol", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Indicia-Mug'thol", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			332, -- [11]
-			"Player-84-07BA7C58", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aIndicia-Mug'thol|r",
-			[51] = 1538580381,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [14]
-		{
-			"tbh bullvinkel is better than arcturis", -- [1]
-			"Indicia-Mug'thol", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Indicia-Mug'thol", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			335, -- [11]
-			"Player-84-07BA7C58", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aIndicia-Mug'thol|r",
-			[51] = 1538580394,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [15]
-		{
-			"plus you can get the matching mount", -- [1]
-			"Indicia-Mug'thol", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Indicia-Mug'thol", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			337, -- [11]
-			"Player-84-07BA7C58", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aIndicia-Mug'thol|r",
-			[51] = 1538580399,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [16]
-		{
-			"how do you get taht mount? i have no idea", -- [1]
-			"Indicia-Mug'thol", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Indicia-Mug'thol", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			338, -- [11]
-			"Player-84-07BA7C58", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aIndicia-Mug'thol|r",
-			[51] = 1538580412,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [17]
-		{
-			"i missed about a year and 1/2 of legion", -- [1]
-			"Indicia-Mug'thol", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Indicia-Mug'thol", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			339, -- [11]
-			"Player-84-07BA7C58", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aIndicia-Mug'thol|r",
-			[51] = 1538580423,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [18]
-		{
-			"I stride around boralus on my alliance lion mount with 2 Sambas lions beside me lol", -- [1]
-			"Indicia-Mug'thol", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Indicia-Mug'thol", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			340, -- [11]
-			"Player-84-07BA7C58", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aIndicia-Mug'thol|r",
-			[51] = 1538580423,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [19]
-		{
-			"mount is from archaeology in Legion, an event that comes up every few months, not sure the timing - google ghost moose mount", -- [1]
-			"Indicia-Mug'thol", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"Indicia-Mug'thol", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			341, -- [11]
-			"Player-84-07BA7C58", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aIndicia-Mug'thol|r",
-			[51] = 1538580445,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [20]
-		{
-			"oh yay! my priest does arch", -- [1]
-			"Indicia-Mug'thol", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Indicia-Mug'thol", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			342, -- [11]
-			"Player-84-07BA7C58", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aIndicia-Mug'thol|r",
-			[51] = 1538580460,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [21]
-		{
-			"oh yes you are right. i gotta get that moose pet", -- [1]
-			"Indicia-Mug'thol", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Indicia-Mug'thol", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			343, -- [11]
-			"Player-84-07BA7C58", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aIndicia-Mug'thol|r",
-			[51] = 1538580491,
-			[50] = "CHAT_MSG_WHISPER",
-		}, -- [22]
-		{
-			"iirc it was pretty easy even in Legion, took like 2 hours", -- [1]
-			"|Kf39|k00000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			348, -- [11]
-			false, -- [12]
-			52, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Lydochka|r",
-			[51] = 1538580550,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "Lydochka",
-		}, -- [23]
-		{
-			"definitely looks cool with 2 Bulvinkel's by your side", -- [1]
-			"|Kf39|k00000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			349, -- [11]
-			false, -- [12]
-			52, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Lydochka|r",
-			[51] = 1538580569,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "Lydochka",
-		}, -- [24]
-		{
-			"haha", -- [1]
-			"|Kf39|k00000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			350, -- [11]
-			false, -- [12]
-			52, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Lydochka|r",
-			[51] = 1538580585,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "Lydochka",
-		}, -- [25]
-		{
-			"pull out a squirrel non combat pet and you are set", -- [1]
-			"|Kf39|k00000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			351, -- [11]
-			false, -- [12]
-			52, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Lydochka|r",
-			[51] = 1538580606,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "Lydochka",
-		}, -- [26]
-		{
-			"for fun I fly over to the place where Bulvinkel spawns and pop out the whole bunch, get's a lot of /cry from the other hunters", -- [1]
-			"|Kf39|k00000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			352, -- [11]
-			false, -- [12]
-			52, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Lydochka|r",
-			[51] = 1538580615,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "Lydochka",
-		}, -- [27]
-		{
-			"ohhhh snap I didnt think of that - wonder if there's a flying squirrel", -- [1]
-			"|Kf39|k00000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			353, -- [11]
-			false, -- [12]
-			52, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Lydochka|r",
-			[51] = 1538580633,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "Lydochka",
-		}, -- [28]
-		{
-			"lol i rode around on my TIme lost proto in storm peaks while waiting for Skoll. people were less than enthused", -- [1]
-			"|Kf39|k00000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			354, -- [11]
-			false, -- [12]
-			52, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Lydochka|r",
-			[51] = 1538580675,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "Lydochka",
-		}, -- [29]
-		{
-			"ha does that set off their npcscan?", -- [1]
-			"|Kf39|k00000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			355, -- [11]
-			false, -- [12]
-			52, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Lydochka|r",
-			[51] = 1538580691,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "Lydochka",
-		}, -- [30]
-		{
-			"not anymore i don't think but yeah it used to", -- [1]
-			"|Kf39|k00000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			356, -- [11]
-			false, -- [12]
-			52, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Lydochka|r",
-			[51] = 1538580703,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "Lydochka",
-		}, -- [31]
-		{
-			"Ive never hunted for any rare anything but I managed to figure out server timing for the pets at least so thought I;d give it a try, was pretty easy - none of this waiting around for hours, just log in a few mins every hour", -- [1]
-			"|Kf39|k00000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			364, -- [11]
-			false, -- [12]
-			52, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Lydochka|r",
-			[51] = 1538580739,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "Lydochka",
-		}, -- [32]
-		{
-			"yeah., i set my hearth in storm peaks and just kept checking", -- [1]
-			"|Kf39|k00000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			365, -- [11]
-			false, -- [12]
-			52, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Lydochka|r",
-			[51] = 1538580760,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "Lydochka",
-		}, -- [33]
-		{
-			"and then leaving", -- [1]
-			"|Kf39|k00000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			366, -- [11]
-			false, -- [12]
-			52, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Lydochka|r",
-			[51] = 1538580766,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "Lydochka",
-		}, -- [34]
-		{
-			"and the one time i stayed for a few minutes to type an email and BOOM there he was", -- [1]
-			"|Kf39|k00000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			367, -- [11]
-			false, -- [12]
-			52, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Lydochka|r",
-			[51] = 1538580779,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "Lydochka",
-		}, -- [35]
-		{
-			"Skoll", -- [1]
-			"|Kf39|k00000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			368, -- [11]
-			false, -- [12]
-			52, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Lydochka|r",
-			[51] = 1538580784,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "Lydochka",
-		}, -- [36]
-		{
-			"haha yeah its tempting to get distracted during those few mins", -- [1]
-			"|Kf39|k00000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			369, -- [11]
-			false, -- [12]
-			52, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Lydochka|r",
-			[51] = 1538580797,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "Lydochka",
-		}, -- [37]
-		{
-			"i got the time lost while doing english homework", -- [1]
-			"|Kf39|k00000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			370, -- [11]
-			false, -- [12]
-			52, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Lydochka|r",
-			[51] = 1538580799,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "Lydochka",
-		}, -- [38]
 		{
 			"if youre interested last tuesday bulvinkel was there right at restart, another hunter got him by like 2 seconds - might be worth camping as it doesnt get any easier than that", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -897,7 +45,7 @@ ElvCharacterDB = {
 			[51] = 1538580835,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Lydochka",
-		}, -- [39]
+		}, -- [1]
 		{
 			"he spawns in this mist area?", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -920,7 +68,7 @@ ElvCharacterDB = {
 			[51] = 1538580884,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Lydochka",
-		}, -- [40]
+		}, -- [2]
 		{
 			"no above - hit wowhead to get the exact coords", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -943,7 +91,7 @@ ElvCharacterDB = {
 			[51] = 1538580901,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Lydochka",
-		}, -- [41]
+		}, -- [3]
 		{
 			"theres a plateau there where you'll see the other hunters", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -966,7 +114,7 @@ ElvCharacterDB = {
 			[51] = 1538580913,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Lydochka",
-		}, -- [42]
+		}, -- [4]
 		{
 			"yup. i see one", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -989,7 +137,7 @@ ElvCharacterDB = {
 			[51] = 1538580925,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Lydochka",
-		}, -- [43]
+		}, -- [5]
 		{
 			"around all the goats", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -1012,7 +160,7 @@ ElvCharacterDB = {
 			[51] = 1538580933,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Lydochka",
-		}, -- [44]
+		}, -- [6]
 		{
 			"ya right in there", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -1035,7 +183,7 @@ ElvCharacterDB = {
 			[51] = 1538580938,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Lydochka",
-		}, -- [45]
+		}, -- [7]
 		{
 			"hmm might try and tame this mechanical squirrel", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -1058,7 +206,7 @@ ElvCharacterDB = {
 			[51] = 1538581014,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Lydochka",
-		}, -- [46]
+		}, -- [8]
 		{
 			"haha", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -1081,7 +229,7 @@ ElvCharacterDB = {
 			[51] = 1538581027,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Lydochka",
-		}, -- [47]
+		}, -- [9]
 		{
 			"ghost and robot, not quite on theme but still lol", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -1104,7 +252,7 @@ ElvCharacterDB = {
 			[51] = 1538581049,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "Lydochka",
-		}, -- [48]
+		}, -- [10]
 		{
 			"it's a reboot.", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -1127,7 +275,7 @@ ElvCharacterDB = {
 			[51] = 1538581058,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Lydochka",
-		}, -- [49]
+		}, -- [11]
 		{
 			"lol", -- [1]
 			"|Kf39|k00000000|k", -- [2]
@@ -1150,7 +298,7 @@ ElvCharacterDB = {
 			[51] = 1538581061,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Lydochka",
-		}, -- [50]
+		}, -- [12]
 		{
 			"oh go ahead I can handle it lol", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -1172,7 +320,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538599461,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [51]
+		}, -- [13]
 		{
 			"ty", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -1194,7 +342,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538599463,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [52]
+		}, -- [14]
 		{
 			"|cffffff00Zuldazar is under attack!|r", -- [1]
 			"", -- [2]
@@ -1216,7 +364,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1538599516,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [15]
 		{
 			"from WB bonus roll |cffa335ee|Hitem:161381::::::::120:261::3:4:4798:1808:1507:4784:::|h[Permafrost-Encrusted Heart]|h|r", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -1238,7 +386,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538600282,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [16]
 		{
 			"I tried to give it away but the game wouldnt let me, wasted on me", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -1260,7 +408,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538600308,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [17]
 		{
 			"wq?", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -1282,7 +430,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538659038,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [56]
+		}, -- [18]
 		{
 			"group leader changed so it put us in a new phase", -- [1]
 			"Jazsin-WyrmrestAccord", -- [2]
@@ -1304,7 +452,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaJazsin-WyrmrestAccord|r",
 			[51] = 1538671085,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [57]
+		}, -- [19]
 		{
 			"it phased us when someone left", -- [1]
 			"Boozeyboi-Thrall", -- [2]
@@ -1326,7 +474,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Boozeyboi-Thrall|r",
 			[51] = 1538671086,
 			[50] = "CHAT_MSG_RAID",
-		}, -- [58]
+		}, -- [20]
 		{
 			"|cffffff00Zuldazar is under attack!|r", -- [1]
 			"", -- [2]
@@ -1348,7 +496,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1538671614,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [59]
+		}, -- [21]
 		{
 			"i've been checking up on the ghost fox pet. any tips? lol", -- [1]
 			"|Kf1|k00000000|k", -- [2]
@@ -1371,7 +519,7 @@ ElvCharacterDB = {
 			[51] = 1538671700,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "Lydochka",
-		}, -- [60]
+		}, -- [22]
 		{
 			"np", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -1393,7 +541,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538747572,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [61]
+		}, -- [23]
 		{
 			"you da man", -- [1]
 			"Treepanda-Stormreaver", -- [2]
@@ -1415,7 +563,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Treepanda-Stormreaver|r",
 			[51] = 1538747840,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [62]
+		}, -- [24]
 		{
 			"honestly first time Ive seen somoene with a brute popped here ", -- [1]
 			"Treepanda-Stormreaver", -- [2]
@@ -1437,7 +585,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Treepanda-Stormreaver|r",
 			[51] = 1538747858,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [63]
+		}, -- [25]
 		{
 			"oh shit grays", -- [1]
 			"Decoyoctopus-Shadowmoon", -- [2]
@@ -1459,7 +607,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aDecoyoctopus-Shadowmoon|r",
 			[51] = 1538754887,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [64]
+		}, -- [26]
 		{
 			"grats too", -- [1]
 			"Decoyoctopus-Shadowmoon", -- [2]
@@ -1481,7 +629,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aDecoyoctopus-Shadowmoon|r",
 			[51] = 1538754890,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [65]
+		}, -- [27]
 		{
 			"thx", -- [1]
 			"Decoyoctopus-Shadowmoon", -- [2]
@@ -1503,7 +651,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aDecoyoctopus-Shadowmoon|r",
 			[51] = 1538754896,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [66]
+		}, -- [28]
 		{
 			"5k more to go for me", -- [1]
 			"Decoyoctopus-Shadowmoon", -- [2]
@@ -1525,7 +673,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aDecoyoctopus-Shadowmoon|r",
 			[51] = 1538754898,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [67]
+		}, -- [29]
 		{
 			"nice", -- [1]
 			"Decoyoctopus-Shadowmoon", -- [2]
@@ -1547,7 +695,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aDecoyoctopus-Shadowmoon|r",
 			[51] = 1538754909,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [68]
+		}, -- [30]
 		{
 			"then I can log off this char forever lol", -- [1]
 			"Decoyoctopus-Shadowmoon", -- [2]
@@ -1569,7 +717,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aDecoyoctopus-Shadowmoon|r",
 			[51] = 1538754938,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [69]
+		}, -- [31]
 		{
 			"indoor blimp yall", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -1591,7 +739,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538754982,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [70]
+		}, -- [32]
 		{
 			"WTS |cffffffff|Hitem:152875::::::::1:64::::::|h[Gloom Dust]|h|r 20g per |cffffffff|Hitem:152576::::::::1:64::::::|h[Tidespray Linen]|h|r 18g per PST ", -- [1]
 			"Bankslot-Stormreaver", -- [2]
@@ -1613,7 +761,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaBankslot-Stormreaver|r",
 			[51] = 1538755696,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [71]
+		}, -- [33]
 		{
 			"sick pet", -- [1]
 			"Kraven-Lethon", -- [2]
@@ -1635,7 +783,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Kraven-Lethon|r",
 			[51] = 1538827426,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [72]
+		}, -- [34]
 		{
 			"ttks :)", -- [1]
 			"Kraven-Lethon", -- [2]
@@ -1657,7 +805,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Kraven-Lethon|r",
 			[51] = 1538827476,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [73]
+		}, -- [35]
 		{
 			"is he up top?", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -1679,7 +827,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538828022,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [74]
+		}, -- [36]
 		{
 			"|cffffff00Zuldazar is under attack!|r", -- [1]
 			"", -- [2]
@@ -1701,7 +849,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1538842920,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [37]
 		{
 			"doing a WQ but gimme a shout in a few mins if you cant find anyone", -- [1]
 			"Grimlok-Kel'Thuzad", -- [2]
@@ -1723,7 +871,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddGrimlok|r",
 			[51] = 1538843424,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [76]
+		}, -- [38]
 		{
 			"ty", -- [1]
 			"Grimlok-Kel'Thuzad", -- [2]
@@ -1745,7 +893,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddGrimlok|r",
 			[51] = 1538843431,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [77]
+		}, -- [39]
 		{
 			"any luck?", -- [1]
 			"Grimlok-Kel'Thuzad", -- [2]
@@ -1767,7 +915,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddGrimlok|r",
 			[51] = 1538843679,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [78]
+		}, -- [40]
 		{
 			"yep! ty", -- [1]
 			"Grimlok-Kel'Thuzad", -- [2]
@@ -1789,7 +937,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddGrimlok|r",
 			[51] = 1538843684,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [79]
+		}, -- [41]
 		{
 			"grats", -- [1]
 			"Grimlok-Kel'Thuzad", -- [2]
@@ -1811,7 +959,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddGrimlok|r",
 			[51] = 1538843700,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [80]
+		}, -- [42]
 		{
 			"is it even possible to farm |cffffffff|Hitem:161344::::::::120:261::::::|h[Abyssal Fragment]|h|r?", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -1833,7 +981,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538871418,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [43]
 		{
 			"nice $4000 mount", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -1855,7 +1003,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538871660,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [82]
+		}, -- [44]
 		{
 			"yo", -- [1]
 			"Pvpgods-Kel'Thuzad", -- [2]
@@ -1877,7 +1025,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Pvpgods|r",
 			[51] = 1538871748,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [83]
+		}, -- [45]
 		{
 			"big blimpin", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -1899,7 +1047,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538871918,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [84]
+		}, -- [46]
 		{
 			"stack yo blimps yo", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -1921,7 +1069,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538871954,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [85]
+		}, -- [47]
 		{
 			"suckas aint blimpin", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -1943,7 +1091,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538871988,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [86]
+		}, -- [48]
 		{
 			"wat else", -- [1]
 			"Bigbrainmage-Kel'Thuzad", -- [2]
@@ -1965,7 +1113,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaBigbrainmage|r",
 			[51] = 1538873177,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [87]
+		}, -- [49]
 		{
 			"|cffffff00Whisperwind's Citadel is under attack!|r", -- [1]
 			"", -- [2]
@@ -1987,7 +1135,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1538874528,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [88]
+		}, -- [50]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10804:Player-3693-09ED9289:1:10:6:18:4294967295:4294967295:4294967295:4294967295|h[Black Rook Hold]|h|r!", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2009,7 +1157,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538875935,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [89]
+		}, -- [51]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:11214:Player-3693-09ED9289:1:10:6:18:4294967295:4294967295:4294967295:4294967295|h[Many Missions]|h|r!", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2031,7 +1179,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538879881,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [90]
+		}, -- [52]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:11543:Player-3693-09ED9289:1:10:7:18:4294967295:4294967295:4294967295:4294967295|h[Explore Broken Shore]|h|r!", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2053,7 +1201,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538916136,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [91]
+		}, -- [53]
 		{
 			"anyone know how to do |cff40c040|Hquest:46247:110:110:255:0|h[Defending Broken Isles]|h|r?", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2075,7 +1223,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538916664,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [54]
 		{
 			"oic ty", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2097,7 +1245,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538916704,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [55]
 		{
 			"how do you get nethershards?", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2119,7 +1267,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538921134,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [94]
+		}, -- [56]
 		{
 			"are rares marked with stars here? havent seen any", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2141,7 +1289,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538921251,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [57]
 		{
 			"what about that sentinax thing, can I get nethershards from it somehow?", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2163,7 +1311,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538921323,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [58]
 		{
 			"just trying to get my class mount and some of this old stuff is so unnecessary ", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2185,7 +1333,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538921380,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [59]
 		{
 			"where do the beacons come from? rares I'm guessing? lol", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2207,7 +1355,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538921394,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [60]
 		{
 			"and I imagine endgame guys like me kill rares here in about 1/2 a second", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2229,7 +1377,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538921456,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [99]
+		}, -- [61]
 		{
 			"heya", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2251,7 +1399,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538925353,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [100]
+		}, -- [62]
 		{
 			"done?", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2273,7 +1421,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538925555,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [101]
+		}, -- [63]
 		{
 			"ty", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2295,7 +1443,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538925568,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [102]
+		}, -- [64]
 		{
 			"done", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2317,7 +1465,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538925897,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [103]
+		}, -- [65]
 		{
 			"you?", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2339,7 +1487,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538925899,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [104]
+		}, -- [66]
 		{
 			"ty", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2361,7 +1509,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538925907,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [105]
+		}, -- [67]
 		{
 			"how do you get Marks of the Sentinax?", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2383,7 +1531,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538926358,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [106]
+		}, -- [68]
 		{
 			"anyone getting marks of sentinax? how?", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2405,7 +1553,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538926702,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [107]
+		}, -- [69]
 		{
 			"You have to kill the little green skulls that show on map- they'll be the silver rare elites. They drop summon stones, you do the stones on ground where ship location is on map. summons the demons out of portals- they drop marks", -- [1]
 			"Maddiie-BlackDragonflight", -- [2]
@@ -2427,7 +1575,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaMaddiie-BlackDragonflight|r",
 			[51] = 1538926749,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [108]
+		}, -- [70]
 		{
 			"Killing mobs close to the portals that appear below the sentinex", -- [1]
 			"Sachihiko-Skullcrusher", -- [2]
@@ -2449,7 +1597,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaSachihiko-Skullcrusher|r",
 			[51] = 1538926750,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [109]
+		}, -- [71]
 		{
 			"Ive killed hundreds and no marks ", -- [1]
 			"Sachihiko-Skullcrusher", -- [2]
@@ -2471,7 +1619,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaSachihiko-Skullcrusher|r",
 			[51] = 1538926778,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [110]
+		}, -- [72]
 		{
 			"only the ones that spawn from the portals counts", -- [1]
 			"Sachihiko-Skullcrusher", -- [2]
@@ -2493,7 +1641,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaSachihiko-Skullcrusher|r",
 			[51] = 1538926793,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [111]
+		}, -- [73]
 		{
 			"ya thats the ones Im killing", -- [1]
 			"Sachihiko-Skullcrusher", -- [2]
@@ -2515,7 +1663,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaSachihiko-Skullcrusher|r",
 			[51] = 1538926803,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [112]
+		}, -- [74]
 		{
 			"sorry, I think I don't understand why then :/", -- [1]
 			"Sachihiko-Skullcrusher", -- [2]
@@ -2537,7 +1685,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaSachihiko-Skullcrusher|r",
 			[51] = 1538926837,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [113]
+		}, -- [75]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:10994:Player-3693-09ED9289:1:10:7:18:4294967295:4294967295:4294967295:4294967295|h[A Glorious Campaign]|h|r!", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2559,7 +1707,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538928590,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [114]
+		}, -- [76]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:11136:Player-3693-09ED9289:1:10:7:18:4294967295:4294967295:4294967295:4294967295|h[An Epic Campaign]|h|r!", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2581,7 +1729,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538928590,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [115]
+		}, -- [77]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:11220:Player-3693-09ED9289:1:10:7:18:4294967295:4294967295:4294967295:4294967295|h[Roster of Champions]|h|r!", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2603,7 +1751,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538928641,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [116]
+		}, -- [78]
 		{
 			"<LoFi> Small laid-back Raiding guild composed of close knit group looking to add to our core raiding team to progress Mythic+ Heroic/Mythic Raids Tues/Wed 6pm server, Only looking for players willing to progress.", -- [1]
 			"Rawrep", -- [2]
@@ -2625,7 +1773,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aRawrep|r",
 			[51] = 1538928787,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [117]
+		}, -- [79]
 		{
 			"i remember back in the day where u could wipe to this", -- [1]
 			"Arìe-Turalyon", -- [2]
@@ -2647,7 +1795,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Arìe-Turalyon|r",
 			[51] = 1538957878,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [118]
+		}, -- [80]
 		{
 			"Thanks", -- [1]
 			"Golgurok-Trollbane", -- [2]
@@ -2669,7 +1817,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edGolgurok-Trollbane|r",
 			[51] = 1538958078,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [119]
+		}, -- [81]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:11846:Player-3693-09ED9289:1:10:7:18:4294967295:4294967295:4294967295:4294967295|h[Champions of Legionfall]|h|r!", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2691,7 +1839,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1538959452,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [120]
+		}, -- [82]
 		{
 			"tons of caches by lost temple", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2713,7 +1861,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1539015737,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [121]
+		}, -- [83]
 		{
 			"how often do elites spawn?", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2735,7 +1883,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1539016206,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [122]
+		}, -- [84]
 		{
 			"so much of this zone is timegated cockblocking", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2757,7 +1905,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1539016222,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [123]
+		}, -- [85]
 		{
 			"you can do all the |cffffff00|Hachievement:11546:Player-3693-09ED9289:1:6:7:17:4294967295:4294967295:4294967295:4294967295|h[Breaching the Tomb]|h|r at once but there's time gates on some of the steps", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2779,7 +1927,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1539016364,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [124]
+		}, -- [86]
 		{
 			"like completing a legionfall mission", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2801,7 +1949,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1539016380,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [125]
+		}, -- [87]
 		{
 			"any rares up anywhere?", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2823,7 +1971,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1539016480,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [126]
+		}, -- [88]
 		{
 			"caches just respawned", -- [1]
 			"Alorannah-Kel'Thuzad", -- [2]
@@ -2844,6 +1992,842 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "|cfffff468Alorannah|r",
 			[51] = 1539016739,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [89]
+		{
+			"ya", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"1. General - Broken Shore", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Broken Shore", -- [9]
+			0, -- [10]
+			21, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1539046812,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [90]
+		{
+			"come to me", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"1. General - Broken Shore", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Broken Shore", -- [9]
+			0, -- [10]
+			22, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1539046825,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [91]
+		{
+			"there ya go", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"1. General - Broken Shore", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Broken Shore", -- [9]
+			0, -- [10]
+			26, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1539046848,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:11545:Player-3693-09ED9289:1:10:8:18:4294967295:4294967295:4294967295:4294967295|h[Legionfall Commander]|h|r!", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			31, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1539046868,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [93]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:11546:Player-3693-09ED9289:1:10:8:18:4294967295:4294967295:4294967295:4294967295|h[Breaching the Tomb]|h|r!", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			32, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1539046868,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [94]
+		{
+			"I just popped a ton, see the yellow dots on map under sentinax", -- [1]
+			"Vahalia-ShatteredHalls", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Vahalia-ShatteredHalls", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			42, -- [11]
+			"Player-155-06BE61B8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Vahalia-ShatteredHalls|r",
+			[51] = 1539046931,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [95]
+		{
+			"|cffffff00The Mugambala is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Zuldazar", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Zuldazar", -- [9]
+			0, -- [10]
+			70, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1539047520,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12950:Player-3693-09ED9289:1:10:8:18:4294967295:4294967295:4294967295:4294967295|h[Zandalari Empire]|h|r!", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			83, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1539047732,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [97]
+		{
+			"where are the portals to Hyjal etc in Org?", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			111, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1539048534,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"like all the Cata portals?", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			114, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1539048650,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [99]
+		{
+			"vashjir etc?", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			115, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1539048653,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [100]
+		{
+			"know how to get to exodar?", -- [1]
+			"Sunslayerr-LaughingSkull", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Sunslayerr-LaughingSkull", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			136, -- [11]
+			"Player-101-082C6C5E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Sunslayerr-LaughingSkull|r",
+			[51] = 1539049164,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [101]
+		{
+			"there's a portal next to me for exodar, i'm trying to figure out how to get to bloodmyst lol", -- [1]
+			"Sunslayerr-LaughingSkull", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Sunslayerr-LaughingSkull", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			137, -- [11]
+			"Player-101-082C6C5E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Sunslayerr-LaughingSkull|r",
+			[51] = 1539049198,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [102]
+		{
+			"oh shit lol", -- [1]
+			"Sunslayerr-LaughingSkull", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Sunslayerr-LaughingSkull", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			138, -- [11]
+			"Player-101-082C6C5E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Sunslayerr-LaughingSkull|r",
+			[51] = 1539049215,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [103]
+		{
+			"there's a bridge from azuremyst to bloodmyst", -- [1]
+			"Sunslayerr-LaughingSkull", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Sunslayerr-LaughingSkull", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			139, -- [11]
+			"Player-101-082C6C5E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Sunslayerr-LaughingSkull|r",
+			[51] = 1539049228,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [104]
+		{
+			"doesnt show on the map of course", -- [1]
+			"Sunslayerr-LaughingSkull", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Sunslayerr-LaughingSkull", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			140, -- [11]
+			"Player-101-082C6C5E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Sunslayerr-LaughingSkull|r",
+			[51] = 1539049233,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [105]
+		{
+			"you doing waist of time?", -- [1]
+			"Sunslayerr-LaughingSkull", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Sunslayerr-LaughingSkull", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			141, -- [11]
+			"Player-101-082C6C5E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Sunslayerr-LaughingSkull|r",
+			[51] = 1539049247,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [106]
+		{
+			"im at rutherian righ tnow", -- [1]
+			"Sunslayerr-LaughingSkull", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Sunslayerr-LaughingSkull", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			142, -- [11]
+			"Player-101-082C6C5E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Sunslayerr-LaughingSkull|r",
+			[51] = 1539049250,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [107]
+		{
+			"naa, just trying to finish this battle pet achiev lol", -- [1]
+			"Sunslayerr-LaughingSkull", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Sunslayerr-LaughingSkull", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			145, -- [11]
+			"Player-101-082C6C5E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Sunslayerr-LaughingSkull|r",
+			[51] = 1539049259,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [108]
+		{
+			"take the exodar port then just follow the road north to the top of the map", -- [1]
+			"Sunslayerr-LaughingSkull", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Sunslayerr-LaughingSkull", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			148, -- [11]
+			"Player-101-082C6C5E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Sunslayerr-LaughingSkull|r",
+			[51] = 1539049280,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [109]
+		{
+			"ok thx", -- [1]
+			"Sunslayerr-LaughingSkull", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Sunslayerr-LaughingSkull", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			149, -- [11]
+			"Player-101-082C6C5E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Sunslayerr-LaughingSkull|r",
+			[51] = 1539049286,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [110]
+		{
+			"doesnt make any sense that we can use these alliance portals lol", -- [1]
+			"Sunslayerr-LaughingSkull", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Sunslayerr-LaughingSkull", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			153, -- [11]
+			"Player-101-082C6C5E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Sunslayerr-LaughingSkull|r",
+			[51] = 1539049307,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [111]
+		{
+			"yeah", -- [1]
+			"Sunslayerr-LaughingSkull", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Sunslayerr-LaughingSkull", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			154, -- [11]
+			"Player-101-082C6C5E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Sunslayerr-LaughingSkull|r",
+			[51] = 1539049312,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [112]
+		{
+			"fast way to get to Ironforge?", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			182, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1539049800,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [113]
+		{
+			"MAD MERCHANT UP IN DALARAN", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			132, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1539101362,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [114]
+		{
+			"MAD MERCHANT UP", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			164, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1539101667,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [115]
+		{
+			"MAD MERCHANT UP FOR 10 MORE MINUTES 42 45 IN LEGION DALARAN", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			503, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1539103727,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [116]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12587:Player-3693-09ED9289:1:10:9:18:4294967295:4294967295:4294967295:4294967295|h[Unbound Monstrosities]|h|r!", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			134, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1539106358,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [117]
+		{
+			"|cffffff00The Sliver is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Zuldazar", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Zuldazar", -- [9]
+			0, -- [10]
+			158, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1539106446,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [118]
+		{
+			"does anyone see a quest called First Blood left side at Yogursa?", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"1. General - Arathi Highlands", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Arathi Highlands", -- [9]
+			0, -- [10]
+			193, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1539106747,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [119]
+		{
+			"I see it on my map but dont see it in game", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"1. General - Arathi Highlands", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Arathi Highlands", -- [9]
+			0, -- [10]
+			195, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1539106757,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [120]
+		{
+			"XD", -- [1]
+			"Rimaa-Eredar", -- [2]
+			"", -- [3]
+			"1. General - Arathi Highlands", -- [4]
+			"Rimaa-Eredar", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Arathi Highlands", -- [9]
+			0, -- [10]
+			271, -- [11]
+			"Player-159-06EC7560", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Rimaa-Eredar|r",
+			[51] = 1539107654,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [121]
+		{
+			"hes here", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			284, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1539107821,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [122]
+		{
+			"fozruk up at me 59 28", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"1. General - Arathi Highlands", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Arathi Highlands", -- [9]
+			0, -- [10]
+			434, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1539110591,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [123]
+		{
+			"rught by echo", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"1. General - Arathi Highlands", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Arathi Highlands", -- [9]
+			0, -- [10]
+			435, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1539110600,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [124]
+		{
+			"LFM echo and fozruk", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"1. General - Arathi Highlands", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Arathi Highlands", -- [9]
+			0, -- [10]
+			436, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1539110634,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [125]
+		{
+			"fozruk spawns just north of water ele so dont go far", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"1. General - Arathi Highlands", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Arathi Highlands", -- [9]
+			0, -- [10]
+			441, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1539110753,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [126]
+		{
+			"fozruk up at water ele", -- [1]
+			"Alorannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"1. General - Arathi Highlands", -- [4]
+			"Alorannah", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Arathi Highlands", -- [9]
+			0, -- [10]
+			453, -- [11]
+			"Player-3693-09ED9289", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Alorannah|r",
+			[51] = 1539111992,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},

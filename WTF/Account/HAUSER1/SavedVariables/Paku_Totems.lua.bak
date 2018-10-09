@@ -1,8 +1,11 @@
 
 Paku_Totems_DB = {
 	["profileKeys"] = {
-		["Laurannah - Kel'Thuzad"] = "Default",
 		["Alorannah - Kel'Thuzad"] = "Default",
+		["Laurennah - Vashj"] = "Default",
 		["Hauzer - Kel'Thuzad"] = "Default",
+		["Foolioioio - Frostwolf"] = "Default",
+		["Fooiis - Hakkar"] = "Default",
+		["Laurannah - Kel'Thuzad"] = "Default",
 	},
 }
