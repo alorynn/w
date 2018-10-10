@@ -1,622 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/y LET'S SEE SOME NEW BLOODGANGS BOYS", -- [1]
-		"/2 like what @Vulcanz", -- [2]
-		"/2 lol people arent still seriously complaining about LFR are they", -- [3]
-		"/2 enabled them to do what? buy subscriptions to help pay for the development of the game? lol", -- [4]
-		"/2 casuals are the lifeblood of any MMO, the Cutting Edge guys are 0.1% or less and you can't fund a big game on that tiny playerbase", -- [5]
-		"/2 @Vulcanz I'd be fine with that if realm transfers were free but they're not, ever played horde on KT for example? lol I doubt they have a single guild who's killed heroic GH", -- [6]
-		"/2 MAD MERCHANT UP FOR 30 MORE MINS CASH IN THOSE AUCTIONS", -- [7]
-		"/cw Geikk sells |cff71d5ff|Hspell:213115:0|h[Bloodfang Widow]|h|r and other things", -- [8]
-		"/2 AQ opening was so bad lol", -- [9]
-		"/2 I remember the horde guild on my server at the time ninja opened it at like 4am, all the alliance missed out on the mount", -- [10]
-		"/2 MAD MERCHANT UP FOR 15 MORE MINUTES", -- [11]
-		"/cw Inflikted legion dal at wonderworks", -- [12]
-		"/cw Inflikted 42 45", -- [13]
-		"/cw Whîmsical-Proudmoore I'd take that if you're giving it away!", -- [14]
-		"/cw Whîmsical-Proudmoore weird, bonus roll loot?", -- [15]
-		"/cw Whîmsical-Proudmoore lol bfa loot rules", -- [16]
-		"/cw Whîmsical-Proudmoore ya one reason idgaf about this game anymore - caring leads to disappointment ", -- [17]
-		"/cw Whîmsical-Proudmoore nice my throwaway horde rogue got a socketed 385 from WB last week lol", -- [18]
-		"/cw Whîmsical-Proudmoore ya there goes my rng for the entire xpac", -- [19]
-		"/way 40.2 43.8", -- [20]
+		"/cast stormwind skychaser", -- [1]
+		"/2 anyone here with a horde alt who wants to trade some gold between factions? got about 60k I can swap", -- [2]
+		"/way 70.8, 26.4", -- [3]
+		"/way Burning Steppes 25.3 25.0 Blackwing Descent Entrance", -- [4]
+		"/way 53.4, 21.8", -- [5]
+		"/2 can someone pls pop a longboi in Boralus?", -- [6]
+		"/cw Pitiliana ???", -- [7]
+		"/2 azerite emissary can give 370 if you already have 370 basically yes", -- [8]
+		"/2 need like 367", -- [9]
+		"/2 in your emissary slots", -- [10]
+		"/2 I'm 365 but have 340 emissary slots so only got a 355", -- [11]
+		"/way  42.0 62.8", -- [12]
+		"/way tanaan jungle 39 41", -- [13]
+		"/way tanaan jungle:draenor 39 41", -- [14]
+		"/way 39 41", -- [15]
+		"/npcscan", -- [16]
+		"/stablegenius", -- [17]
+		"/stablegenius toggle", -- [18]
+		"/2 why use |cffffffff|Hitem:152494::::::::120:253::::::|h[Coastal Healing Potion]|h|r instead of |cffffffff|Hitem:163082::::::::120:253::::::|h[Coastal Rejuvenation Potion]|h|r for 3x the price?", -- [19]
+		"/move", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"WTB all BFA herbs 8g ea, Monelite Ore 15g ea. BFA lvl 120 greens 100g ea. Tidespray Linen 8g ea, WTB All BFA Gems 5g ea, Gloom Dust 10g ea, Umbra Shards 100g ea, Veiled Crystal 450g ea.  COD to me for instant payment.", -- [1]
-			"Vesivius-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Vesivius", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3493, -- [11]
-			"Player-3693-09F2129B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc41e3aVesivius|r",
-			[51] = 1538941525,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"WTB all BFA herbs 8g ea, Monelite Ore 15g ea. BFA lvl 120 greens 100g ea. Tidespray Linen 8g ea, WTB All BFA Gems 5g ea, Gloom Dust 10g ea, Umbra Shards 100g ea, Veiled Crystal 450g ea.  COD to me for instant payment.", -- [1]
-			"Vesivius-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Vesivius", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3498, -- [11]
-			"Player-3693-09F2129B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc41e3aVesivius|r",
-			[51] = 1538941602,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [2]
-		{
-			"WTB all BFA herbs 8g ea, Monelite Ore 15g ea. BFA lvl 120 greens 100g ea. Tidespray Linen 8g ea, WTB All BFA Gems 5g ea, Gloom Dust 10g ea, Umbra Shards 100g ea, Veiled Crystal 450g ea.  COD to me for instant payment.", -- [1]
-			"Vesivius-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Vesivius", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3505, -- [11]
-			"Player-3693-09F2129B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc41e3aVesivius|r",
-			[51] = 1538941645,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
-		{
-			"WTB all BFA herbs 8g ea, Monelite Ore 15g ea. BFA lvl 120 greens 100g ea. Tidespray Linen 8g ea, WTB All BFA Gems 5g ea, Gloom Dust 10g ea, Umbra Shards 100g ea, Veiled Crystal 450g ea.  COD to me for instant payment.", -- [1]
-			"Vesivius-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Vesivius", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3513, -- [11]
-			"Player-3693-09F2129B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc41e3aVesivius|r",
-			[51] = 1538941731,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
-			"Gplaytuzad-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gplaytuzad", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3516, -- [11]
-			"Player-3693-0A0D0980", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffGplaytuzad|r",
-			[51] = 1538941772,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
-			"WTB all BFA herbs 8g ea, Monelite Ore 15g ea. BFA lvl 120 greens 100g ea. Tidespray Linen 8g ea, WTB All BFA Gems 5g ea, Gloom Dust 10g ea, Umbra Shards 100g ea, Veiled Crystal 450g ea.  COD to me for instant payment.", -- [1]
-			"Vesivius-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Vesivius", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3517, -- [11]
-			"Player-3693-09F2129B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc41e3aVesivius|r",
-			[51] = 1538941776,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
-		{
-			"WTB all BFA herbs 8g ea, Monelite Ore 15g ea. BFA lvl 120 greens 100g ea. Tidespray Linen 8g ea, WTB All BFA Gems 5g ea, Gloom Dust 10g ea, Umbra Shards 100g ea, Veiled Crystal 450g ea.  COD to me for instant payment.", -- [1]
-			"Vesivius-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Vesivius", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3520, -- [11]
-			"Player-3693-09F2129B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc41e3aVesivius|r",
-			[51] = 1538941816,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
-		{
-			"<Spin the Dragon> is now searching for geared Healers for heroic/mythic progression. Tuesday/Wed/Sun 7-9pm MST. Currently 5/8 H Norm on farm. Definitly not a cult.  (we do other stuff too, talk to me!)", -- [1]
-			"Tacorolls-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Tacorolls", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3529, -- [11]
-			"Player-3693-074BF61C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff0070ddTacorolls|r",
-			[51] = 1538941946,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
-		{
-			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
-			"Gplaytuzad-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gplaytuzad", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3532, -- [11]
-			"Player-3693-0A0D0980", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffGplaytuzad|r",
-			[51] = 1538941953,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
-		{
-			"Negative Bro - Currently Recruiting - 2/8 Mythic leadership 8/8H LFM Ranged/Meelee DPS with good parses.Tues-Wen 8-11EST  Whisper Aldizi or Goodblarg", -- [1]
-			"Aldizi-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Aldizi", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3535, -- [11]
-			"Player-3693-08E8EE38", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff0070ddAldizi|r",
-			[51] = 1538942007,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
-		{
-			"Negative Bro - Currently Recruiting - 2/8 Mythic leadership 8/8H LFM Ranged/Meelee DPS with good parses.Tues-Wen 8-11EST  Whisper Aldizi or Goodblarg", -- [1]
-			"Aldizi-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Aldizi", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3536, -- [11]
-			"Player-3693-08E8EE38", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff0070ddAldizi|r",
-			[51] = 1538942009,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
-		{
-			"wts |cffa335ee|Hitem:163947::::::::1:265::54:4:40:4802:1472:4786:::|h[Robust Legwraps of D'nusa]|h|r pst offers", -- [1]
-			"Lucreziaa-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Lucreziaa", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3538, -- [11]
-			"Player-3693-0A03448C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff8787edLucreziaa|r",
-			[51] = 1538942021,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
-		{
-			"WTB all BFA herbs 8g ea, Monelite Ore 15g ea. BFA lvl 120 greens 100g ea. Tidespray Linen 8g ea, WTB All BFA Gems 5g ea, Gloom Dust 10g ea, Umbra Shards 100g ea, Veiled Crystal 450g ea.  COD to me for instant payment.", -- [1]
-			"Vesivius-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Vesivius", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3539, -- [11]
-			"Player-3693-09F2129B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc41e3aVesivius|r",
-			[51] = 1538942030,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
-		{
-			"WTB all BFA herbs 8g ea, Monelite Ore 15g ea. BFA lvl 120 greens 100g ea. Tidespray Linen 8g ea, WTB All BFA Gems 5g ea, Gloom Dust 10g ea, Umbra Shards 100g ea, Veiled Crystal 450g ea.  COD to me for instant payment.", -- [1]
-			"Vesivius-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Vesivius", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3542, -- [11]
-			"Player-3693-09F2129B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc41e3aVesivius|r",
-			[51] = 1538942075,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
-		{
-			"Negative Bro - Currently Recruiting - 2/8 Mythic leadership 8/8H LFM Ranged/Meelee DPS with good parses.Tues-Wen 8-11EST  Whisper Aldizi or Goodblarg", -- [1]
-			"Aldizi-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Aldizi", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3545, -- [11]
-			"Player-3693-08E8EE38", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff0070ddAldizi|r",
-			[51] = 1538942109,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
-		{
-			"WTS |cffa335ee|Hitem:159125::::::::120:268::13::::|h[Darkmoon Deck: Fathoms]|h|r|cffa335ee|Hitem:159127::::::::120:268::13::::|h[Darkmoon Deck: Tides]|h|r|cffa335ee|Hitem:159128::::::::120:268::13::::|h[Darkmoon Deck: Blockades]|h|r", -- [1]
-			"Amitie-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Amitie", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3546, -- [11]
-			"Player-3693-09F8854F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff00ff96Amitie|r",
-			[51] = 1538942119,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
-		{
-			"Negative Bro - Currently Recruiting - 2/8 Mythic leadership 8/8H LFM Ranged/Meelee DPS with good parses.Tues-Wen 8-11EST  Whisper Aldizi or Goodblarg", -- [1]
-			"Aldizi-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Aldizi", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3547, -- [11]
-			"Player-3693-08E8EE38", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff0070ddAldizi|r",
-			[51] = 1538942131,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
-		{
-			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
-			"Gplaytuzad-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gplaytuzad", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3548, -- [11]
-			"Player-3693-0A0D0980", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffGplaytuzad|r",
-			[51] = 1538942133,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
-		{
-			"MAD MERCHANT UP FOR FIVE MORE MINUTES", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3550, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1538942158,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
-		{
-			"Negative Bro - Currently Recruiting - 2/8 Mythic leadership 8/8H LFM Ranged/Meelee DPS with good parses.Tues-Wen 8-11EST  Whisper Aldizi or Goodblarg", -- [1]
-			"Aldizi-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Aldizi", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3551, -- [11]
-			"Player-3693-08E8EE38", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff0070ddAldizi|r",
-			[51] = 1538942166,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
-		{
-			"<Spin the Dragon> is now searching for geared Healers for heroic/mythic progression. Tuesday/Wed/Sun 7-9pm MST. Currently 5/8 H Norm on farm. Definitly not a cult.  (we do other stuff too, talk to me!)", -- [1]
-			"Tacorolls-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Tacorolls", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3562, -- [11]
-			"Player-3693-074BF61C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff0070ddTacorolls|r",
-			[51] = 1538942210,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [21]
-		{
-			"WTB all BFA herbs 8g ea, Monelite Ore 15g ea. BFA lvl 120 greens 100g ea. Tidespray Linen 8g ea, WTB All BFA Gems 5g ea, Gloom Dust 10g ea, Umbra Shards 100g ea, Veiled Crystal 450g ea.  COD to me for instant payment.", -- [1]
-			"Vesivius-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Vesivius", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3569, -- [11]
-			"Player-3693-09F2129B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffc41e3aVesivius|r",
-			[51] = 1538942300,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [22]
-		{
-			"Negative Bro - Currently Recruiting - 2/8 Mythic leadership 8/8H LFM Ranged/Meelee DPS with good parses.Tues-Wen 8-11EST  Whisper Aldizi or Goodblarg", -- [1]
-			"Aldizi-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Aldizi", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3575, -- [11]
-			"Player-3693-08E8EE38", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff0070ddAldizi|r",
-			[51] = 1538942347,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
-		{
-			"Negative Bro - Currently Recruiting - 2/8 Mythic leadership 8/8H LFM Ranged/Meelee DPS with good parses.Tues-Wen 8-11EST  Whisper Aldizi or Goodblarg", -- [1]
-			"Aldizi-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Aldizi", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3576, -- [11]
-			"Player-3693-08E8EE38", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cff0070ddAldizi|r",
-			[51] = 1538942347,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
-		{
-			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
-			"Gplaytuzad-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Gplaytuzad", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3603, -- [11]
-			"Player-3693-0A0D0980", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffGplaytuzad|r",
-			[51] = 1538942493,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
-		{
-			"<Inclusi> LFM for core raiding roster. Currently 8/8H 2/8M. Recruiting  Dps  365+ ilvl. Raid times 7-10Pm Server Time. Mon/Tues/Wed", -- [1]
-			"Excentríc-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Excentríc", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3608, -- [11]
-			"Player-3693-09F18AF6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa330c9Excentríc|r",
-			[51] = 1538942514,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
-		{
-			"<Inclusi> LFM for core raiding roster. Currently 8/8H 2/8M. Recruiting  Dps  365+ ilvl. Raid times 7-10Pm Server Time. Mon/Tues/Wed", -- [1]
-			"Excentríc-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Excentríc", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3609, -- [11]
-			"Player-3693-09F18AF6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa330c9Excentríc|r",
-			[51] = 1538942514,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [27]
 		{
 			"Negative Bro - Currently Recruiting - 2/8 Mythic leadership 8/8H LFM Ranged/Meelee DPS with good parses.Tues-Wen 8-11EST  Whisper Aldizi or Goodblarg", -- [1]
 			"Aldizi-Kel'Thuzad", -- [2]
@@ -638,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddAldizi|r",
 			[51] = 1538942529,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [28]
+		}, -- [1]
 		{
 			"Negative Bro - Currently Recruiting - 2/8 Mythic leadership 8/8H LFM Ranged/Meelee DPS with good parses.Tues-Wen 8-11EST  Whisper Aldizi or Goodblarg", -- [1]
 			"Aldizi-Kel'Thuzad", -- [2]
@@ -660,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddAldizi|r",
 			[51] = 1538942577,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [29]
+		}, -- [2]
 		{
 			"Negative Bro - Currently Recruiting - 2/8 Mythic leadership 8/8H LFM Ranged/Meelee DPS with good parses.Tues-Wen 8-11EST  Whisper Aldizi or Goodblarg", -- [1]
 			"Aldizi-Kel'Thuzad", -- [2]
@@ -682,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddAldizi|r",
 			[51] = 1538942608,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [30]
+		}, -- [3]
 		{
 			"Negative Bro - Currently Recruiting - 2/8 Mythic leadership 8/8H LFM Ranged/Meelee DPS with good parses.Tues-Wen 8-11EST  Whisper Aldizi or Goodblarg", -- [1]
 			"Aldizi-Kel'Thuzad", -- [2]
@@ -704,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddAldizi|r",
 			[51] = 1538942649,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [31]
+		}, -- [4]
 		{
 			"Negative Bro - Currently Recruiting - 2/8 Mythic leadership 8/8H LFM Ranged/Meelee DPS with good parses.Tues-Wen 8-11EST  Whisper Aldizi or Goodblarg", -- [1]
 			"Aldizi-Kel'Thuzad", -- [2]
@@ -726,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddAldizi|r",
 			[51] = 1538942707,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [32]
+		}, -- [5]
 		{
 			"<The Silver Order> is recruiting all lvls - amaze your friends, impress your family, make the opposite sex lusty!! pst for invite to learn more about our secrets to immorality and awesomeness!!.. must be 18yrs or older to apply", -- [1]
 			"Keroshu-Kel'Thuzad", -- [2]
@@ -748,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edKeroshu|r",
 			[51] = 1538942712,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
+		}, -- [6]
 		{
 			"WTB BFA greens", -- [1]
 			"Xivia-Kel'Thuzad", -- [2]
@@ -770,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Xivia|r",
 			[51] = 1538942713,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [34]
+		}, -- [7]
 		{
 			"WTS|cffa335ee|Hitem:163962::::::::120:259::54:2:1472:4786:::|h[Decapitator of Alireza]|h|r|cffa335ee|Hitem:163965::::::::120:259::54:2:1472:4786:::|h[Glave's Angular Glaive]|h|r|cffa335ee|Hitem:163956::::::::120:259::54:2:1477:4783:::|h[Treiya's Shining Pillar]|h|r|cffa335ee|Hitem:163967::::::::120:259::54:2:1472:4786:::|h[Shtuf's Ruler]|h|r", -- [1]
 			"Doovin-Kel'Thuzad", -- [2]
@@ -792,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Doovin|r",
 			[51] = 1538996417,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
+		}, -- [8]
 		{
 			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
 			"Gplaytuzad-Kel'Thuzad", -- [2]
@@ -814,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGplaytuzad|r",
 			[51] = 1538996497,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
+		}, -- [9]
 		{
 			"WTS |cff0070dd|Hitem:49283::::::::120:250::::::|h[Reins of the Spectral Tiger]|h|r 9.5M - Pst ", -- [1]
 			"Hairytales-Kel'Thuzad", -- [2]
@@ -836,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aHairytales|r",
 			[51] = 1538996623,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
+		}, -- [10]
 		{
 			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
 			"Gplaytuzad-Kel'Thuzad", -- [2]
@@ -858,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGplaytuzad|r",
 			[51] = 1538996677,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [38]
+		}, -- [11]
 		{
 			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
 			"Gplaytuzad-Kel'Thuzad", -- [2]
@@ -880,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGplaytuzad|r",
 			[51] = 1538997037,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [39]
+		}, -- [12]
 		{
 			"WTS |cff0070dd|Hitem:49283::::::::120:250::::::|h[Reins of the Spectral Tiger]|h|r 9.5M - Pst ", -- [1]
 			"Hairytales-Kel'Thuzad", -- [2]
@@ -902,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aHairytales|r",
 			[51] = 1538997157,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [40]
+		}, -- [13]
 		{
 			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
 			"Gplaytuzad-Kel'Thuzad", -- [2]
@@ -924,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGplaytuzad|r",
 			[51] = 1538997217,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [41]
+		}, -- [14]
 		{
 			"WTS |cff0070dd|Hitem:49283::::::::120:250::::::|h[Reins of the Spectral Tiger]|h|r 9.5M - Pst ", -- [1]
 			"Hairytales-Kel'Thuzad", -- [2]
@@ -946,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aHairytales|r",
 			[51] = 1538997372,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [42]
+		}, -- [15]
 		{
 			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
 			"Gplaytuzad-Kel'Thuzad", -- [2]
@@ -968,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGplaytuzad|r",
 			[51] = 1538997397,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [43]
+		}, -- [16]
 		{
 			"__##__ WTS  Herioc Uldir 8/8  ==-Start now!!- <kill G'HUUN NOW>'-WTS mythic +10 carry ---have key now!", -- [1]
 			"Hannelgaldel-Kel'Thuzad", -- [2]
@@ -990,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Hannelgaldel|r",
 			[51] = 1538997577,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
+		}, -- [17]
 		{
 			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
 			"Gplaytuzad-Kel'Thuzad", -- [2]
@@ -1012,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGplaytuzad|r",
 			[51] = 1538997577,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [18]
 		{
 			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
 			"Gplaytuzad-Kel'Thuzad", -- [2]
@@ -1034,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGplaytuzad|r",
 			[51] = 1538997757,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [19]
 		{
 			"WTS |cff0070dd|Hitem:49283::::::::120:250::::::|h[Reins of the Spectral Tiger]|h|r 9.5M - Pst ", -- [1]
 			"Hairytales-Kel'Thuzad", -- [2]
@@ -1056,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aHairytales|r",
 			[51] = 1538997787,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [47]
+		}, -- [20]
 		{
 			"__##__WTS 8/8 H uldir now -WTS Mythic+<2-10-15>loot run !360/380 raretinket&wepaon&350*355*365boe package&mount&120lvl&Gearing 360--WTS M+10 loot run now ", -- [1]
 			"Hannelgaldel-Kel'Thuzad", -- [2]
@@ -1078,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Hannelgaldel|r",
 			[51] = 1538997818,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [48]
+		}, -- [21]
 		{
 			"never eat out, problem solved", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1100,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539080653,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [49]
+		}, -- [22]
 		{
 			"__##__ WTS  Herioc Uldir 8/8  ==-Start now!!- <kill G'HUUN NOW>'-WTS mythic +10 carry ---have key now!", -- [1]
 			"Gradoremic-Kel'Thuzad", -- [2]
@@ -1122,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Gradoremic|r",
 			[51] = 1539081369,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [50]
+		}, -- [23]
 		{
 			"__##__WTS 8/8 H uldir now -WTS Mythic+<2-10-15>loot run !360/380 raretinket&wepaon&350*355*365boe package&mount&120lvl&Gearing 360--WTS M+10 loot run now ", -- [1]
 			"Gradoremic-Kel'Thuzad", -- [2]
@@ -1144,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Gradoremic|r",
 			[51] = 1539081610,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [51]
+		}, -- [24]
 		{
 			"__##__WTS 8/8 H uldir now -WTS Mythic+<2-10-15>loot run !360/380 raretinket&wepaon&350*355*365boe package&mount&120lvl&Gearing 360--WTS M+10 loot run now ", -- [1]
 			"Gradoremic", -- [2]
@@ -1166,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Gradoremic|r",
 			[51] = 1539082094,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [52]
+		}, -- [25]
 		{
 			"__##__ WTS  Herioc Uldir 8/8  ==-Start now!!- <kill G'HUUN NOW>'-WTS mythic +10 carry ---have key now!", -- [1]
 			"Gradoremic-Kel'Thuzad", -- [2]
@@ -1188,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Gradoremic|r",
 			[51] = 1539082333,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [53]
+		}, -- [26]
 		{
 			"nerd", -- [1]
 			"Miswired-Kel'Thuzad", -- [2]
@@ -1210,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dMiswired|r",
 			[51] = 1539082842,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [54]
+		}, -- [27]
 		{
 			"WTS Mythic 10 freehold carry. 1300+ io group. Get your 380+ drop next week and any 370+ loot we don't need. PST for more info - Easy timed run before reset", -- [1]
 			"Gibiati-Kel'Thuzad", -- [2]
@@ -1232,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Gibiati|r",
 			[51] = 1539083095,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [55]
+		}, -- [28]
 		{
 			"pls inv", -- [1]
 			"Dumbthicc-Frostmourne", -- [2]
@@ -1254,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaDumbthicc-Frostmourne|r",
 			[51] = 1539096600,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [56]
+		}, -- [29]
 		{
 			"hey man what server are you on? trying to figure out where I am", -- [1]
 			"Trentscuz", -- [2]
@@ -1276,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edTrentscuz|r",
 			[51] = 1539096790,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [57]
+		}, -- [30]
 		{
 			"kiljaden", -- [1]
 			"Trentscuz-Kel'Thuzad", -- [2]
@@ -1298,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edTrentscuz|r",
 			[51] = 1539096804,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [58]
+		}, -- [31]
 		{
 			"inv inv inv", -- [1]
 			"Dumbthicc-Frostmourne", -- [2]
@@ -1320,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaDumbthicc-Frostmourne|r",
 			[51] = 1539096805,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [59]
+		}, -- [32]
 		{
 			"wow weird lol", -- [1]
 			"Trentscuz-Kel'Thuzad", -- [2]
@@ -1342,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edTrentscuz|r",
 			[51] = 1539096812,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [60]
+		}, -- [33]
 		{
 			"lol", -- [1]
 			"Trentscuz-Kel'Thuzad", -- [2]
@@ -1364,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edTrentscuz|r",
 			[51] = 1539096817,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [61]
+		}, -- [34]
 		{
 			"opps", -- [1]
 			"Trentscuz-Kel'Thuzad", -- [2]
@@ -1386,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edTrentscuz|r",
 			[51] = 1539096821,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [62]
+		}, -- [35]
 		{
 			"im wrong", -- [1]
 			"Trentscuz-Kel'Thuzad", -- [2]
@@ -1408,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edTrentscuz|r",
 			[51] = 1539096825,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [63]
+		}, -- [36]
 		{
 			"its kelthazaud", -- [1]
 			"Trentscuz-Kel'Thuzad", -- [2]
@@ -1430,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edTrentscuz|r",
 			[51] = 1539096830,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [64]
+		}, -- [37]
 		{
 			"sorry", -- [1]
 			"Trentscuz-Kel'Thuzad", -- [2]
@@ -1452,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edTrentscuz|r",
 			[51] = 1539096833,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [65]
+		}, -- [38]
 		{
 			"sup", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1474,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539096849,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [66]
+		}, -- [39]
 		{
 			"ty", -- [1]
 			"Dumbthicc-Frostmourne", -- [2]
@@ -1496,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaDumbthicc-Frostmourne|r",
 			[51] = 1539096849,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [67]
+		}, -- [40]
 		{
 			"i had server trasfedc so your on home sever atm", -- [1]
 			"Trentscuz-Kel'Thuzad", -- [2]
@@ -1518,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edTrentscuz|r",
 			[51] = 1539096858,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [68]
+		}, -- [41]
 		{
 			"nm what you doing", -- [1]
 			"Dumbthicc-Frostmourne", -- [2]
@@ -1540,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaDumbthicc-Frostmourne|r",
 			[51] = 1539096871,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [69]
+		}, -- [42]
 		{
 			"waiting for reset then running ulduar", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1562,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539096882,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [70]
+		}, -- [43]
 		{
 			"you?", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1584,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539096891,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [71]
+		}, -- [44]
 		{
 			"nice im trolling mitch jones", -- [1]
 			"Dumbthicc-Frostmourne", -- [2]
@@ -1606,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaDumbthicc-Frostmourne|r",
 			[51] = 1539096892,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [72]
+		}, -- [45]
 		{
 			"lol how", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1628,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539096898,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [73]
+		}, -- [46]
 		{
 			"hes on horde", -- [1]
 			"Dumbthicc-Frostmourne", -- [2]
@@ -1650,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaDumbthicc-Frostmourne|r",
 			[51] = 1539096908,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [74]
+		}, -- [47]
 		{
 			"and isnt he EU?", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1672,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539096909,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [75]
+		}, -- [48]
 		{
 			"on your server", -- [1]
 			"Dumbthicc-Frostmourne", -- [2]
@@ -1694,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaDumbthicc-Frostmourne|r",
 			[51] = 1539096917,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [76]
+		}, -- [49]
 		{
 			"oic ", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1716,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539096922,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [77]
+		}, -- [50]
 		{
 			"whats his char name", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1738,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539096929,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [78]
+		}, -- [51]
 		{
 			"watchmeblink", -- [1]
 			"Dumbthicc-Frostmourne", -- [2]
@@ -1760,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaDumbthicc-Frostmourne|r",
 			[51] = 1539096952,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [79]
+		}, -- [52]
 		{
 			"but got a funny i", -- [1]
 			"Dumbthicc-Frostmourne", -- [2]
@@ -1782,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaDumbthicc-Frostmourne|r",
 			[51] = 1539096956,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [80]
+		}, -- [53]
 		{
 			"    í", -- [1]
 			"Dumbthicc-Frostmourne", -- [2]
@@ -1804,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaDumbthicc-Frostmourne|r",
 			[51] = 1539096960,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [81]
+		}, -- [54]
 		{
 			"hey man what server is your character on? our group cant figure out what server we got put on", -- [1]
 			"Oakeyy", -- [2]
@@ -1826,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dOakeyy|r",
 			[51] = 1539097027,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [82]
+		}, -- [55]
 		{
 			"kel thuzad", -- [1]
 			"Oakeyy-Kel'Thuzad", -- [2]
@@ -1848,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dOakeyy|r",
 			[51] = 1539097041,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [83]
+		}, -- [56]
 		{
 			"ok cool ty", -- [1]
 			"Oakeyy-Kel'Thuzad", -- [2]
@@ -1870,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dOakeyy|r",
 			[51] = 1539097046,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [84]
+		}, -- [57]
 		{
 			"lol", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1892,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539097161,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [85]
+		}, -- [58]
 		{
 			"so what are you guys doing down there, pvp?", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1914,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539097249,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [86]
+		}, -- [59]
 		{
 			"im just dancing as a naked human", -- [1]
 			"Dumbthicc-Frostmourne", -- [2]
@@ -1936,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaDumbthicc-Frostmourne|r",
 			[51] = 1539097297,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [87]
+		}, -- [60]
 		{
 			"oic", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1958,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539097317,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [88]
+		}, -- [61]
 		{
 			"cant find him", -- [1]
 			"Dumbthicc-Frostmourne", -- [2]
@@ -1980,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaDumbthicc-Frostmourne|r",
 			[51] = 1539097355,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [89]
+		}, -- [62]
 		{
 			"glk", -- [1]
 			"Dumbthicc-Frostmourne", -- [2]
@@ -2002,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaDumbthicc-Frostmourne|r",
 			[51] = 1539097363,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [90]
+		}, -- [63]
 		{
 			"MAD MERCHANT UP IN DALARAN", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2024,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539101222,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [64]
 		{
 			"MAD MERCHANT UP", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2046,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539102198,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [65]
 		{
 			"come on dude buy the widow", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2068,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539102350,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [93]
+		}, -- [66]
 		{
 			"LET'S SEE SOME NEW BLOODGANGS BOYS", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2090,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539102381,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [94]
+		}, -- [67]
 		{
 			"like what @Vulcanz", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2112,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539102440,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [95]
+		}, -- [68]
 		{
 			"lol people arent still seriously complaining about LFR are they", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2134,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539102476,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [96]
+		}, -- [69]
 		{
 			"enabled them to do what? buy subscriptions to help pay for the development of the game? lol", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2156,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539102510,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [70]
 		{
 			"casuals are the lifeblood of any MMO, the Cutting Edge guys are 0.1% or less and you can't fund a big game on that tiny playerbase", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2178,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539102613,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [98]
+		}, -- [71]
 		{
 			"@Vulcanz I'd be fine with that if realm transfers were free but they're not, ever played horde on KT for example? lol I doubt they have a single guild who's killed heroic GH", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2200,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539102666,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [99]
+		}, -- [72]
 		{
 			"MAD MERCHANT UP FOR 30 MORE MINS CASH IN THOSE AUCTIONS", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2222,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539102700,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [100]
+		}, -- [73]
 		{
 			"whats mad mechant", -- [1]
 			"Geikk", -- [2]
@@ -2244,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaGeikk|r",
 			[51] = 1539102750,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [101]
+		}, -- [74]
 		{
 			"WTS |cffa335ee|Hitem:160612::::::::120:267::5:3:4799:1507:4784:::|h[Spellbound Specimen Handlers]|h|r SIGNIFICANTLY CHEAPER THAN AH", -- [1]
 			"Erody-Kel'Thuzad", -- [2]
@@ -2266,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edErody|r",
 			[51] = 1539102965,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [102]
+		}, -- [75]
 		{
 			"Selling 8/8H AoTC Tonight 9:30 PM server, 1 carry slot open. PM if interested.", -- [1]
 			"Vvheelchair-Kel'Thuzad", -- [2]
@@ -2288,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffVvheelchair|r",
 			[51] = 1539102977,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [103]
+		}, -- [76]
 		{
 			"•Colossal• is recruiting competent players for Mythic Uldir progression. Currently 8/8H 3/8M. Raid days are Tues/Wed/Sun 8pm-11pm Server Time. Immediate Raid spots are available!", -- [1]
 			"Darmoralol-Kel'Thuzad", -- [2]
@@ -2310,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffDarmoralol|r",
 			[51] = 1539103023,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [104]
+		}, -- [77]
 		{
 			"Selling 8/8H AoTC Tonight 9:30 PM server, 1 carry slot open. PM if interested.", -- [1]
 			"Vvheelchair-Kel'Thuzad", -- [2]
@@ -2332,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffVvheelchair|r",
 			[51] = 1539103063,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [105]
+		}, -- [78]
 		{
 			"AQ opening was so bad lol", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2354,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539103119,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [106]
+		}, -- [79]
 		{
 			"I remember the horde guild on my server at the time ninja opened it at like 4am, all the alliance missed out on the mount", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2376,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539103156,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [107]
+		}, -- [80]
 		{
 			"MAD MERCHANT UP FOR 15 MORE MINUTES", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2398,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539103480,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [108]
+		}, -- [81]
 		{
 			"where is he", -- [1]
 			"Inflikted", -- [2]
@@ -2420,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Inflikted|r",
 			[51] = 1539103488,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [109]
+		}, -- [82]
 		{
 			"legion dal at wonderworks", -- [1]
 			"Inflikted-Kel'Thuzad", -- [2]
@@ -2442,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Inflikted|r",
 			[51] = 1539103496,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [110]
+		}, -- [83]
 		{
 			"42 45", -- [1]
 			"Inflikted-Kel'Thuzad", -- [2]
@@ -2464,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Inflikted|r",
 			[51] = 1539103502,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [111]
+		}, -- [84]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12587:Player-3693-092AD332:1:10:9:18:4294967295:4294967295:4294967295:4294967295|h[Unbound Monstrosities]|h|r!", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2486,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539104442,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [112]
+		}, -- [85]
 		{
 			"I'd take that if you're giving it away!", -- [1]
 			"Whîmsical-Proudmoore", -- [2]
@@ -2508,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Whîmsical-Proudmoore|r",
 			[51] = 1539104560,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [113]
+		}, -- [86]
 		{
 			"i can't trade it, even though my trinkets are higher ilvl :S", -- [1]
 			"Whîmsical-Proudmoore", -- [2]
@@ -2530,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Whîmsical-Proudmoore|r",
 			[51] = 1539104578,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [114]
+		}, -- [87]
 		{
 			"soz", -- [1]
 			"Whîmsical-Proudmoore", -- [2]
@@ -2552,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Whîmsical-Proudmoore|r",
 			[51] = 1539104582,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [115]
+		}, -- [88]
 		{
 			"weird, bonus roll loot?", -- [1]
 			"Whîmsical-Proudmoore", -- [2]
@@ -2574,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Whîmsical-Proudmoore|r",
 			[51] = 1539104589,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [116]
+		}, -- [89]
 		{
 			"nope", -- [1]
 			"Whîmsical-Proudmoore", -- [2]
@@ -2596,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Whîmsical-Proudmoore|r",
 			[51] = 1539104591,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [117]
+		}, -- [90]
 		{
 			"lol bfa loot rules", -- [1]
 			"Whîmsical-Proudmoore", -- [2]
@@ -2618,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Whîmsical-Proudmoore|r",
 			[51] = 1539104607,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [118]
+		}, -- [91]
 		{
 			"working as intented™", -- [1]
 			"Whîmsical-Proudmoore", -- [2]
@@ -2640,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Whîmsical-Proudmoore|r",
 			[51] = 1539104607,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [119]
+		}, -- [92]
 		{
 			"ya one reason idgaf about this game anymore - caring leads to disappointment ", -- [1]
 			"Whîmsical-Proudmoore", -- [2]
@@ -2662,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Whîmsical-Proudmoore|r",
 			[51] = 1539104625,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [120]
+		}, -- [93]
 		{
 			"|cffa335ee|Hitem:159292::154127::::::120:255::35:4:5009:4802:1547:4783:::|h[Sporecaller's Shroud]|h|r from my chest... it got a socket from last week", -- [1]
 			"Whîmsical-Proudmoore", -- [2]
@@ -2684,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Whîmsical-Proudmoore|r",
 			[51] = 1539104667,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [121]
+		}, -- [94]
 		{
 			"mucho upgrade :D", -- [1]
 			"Whîmsical-Proudmoore", -- [2]
@@ -2706,7 +2112,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Whîmsical-Proudmoore|r",
 			[51] = 1539104679,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [122]
+		}, -- [95]
 		{
 			"nice my throwaway horde rogue got a socketed 385 from WB last week lol", -- [1]
 			"Whîmsical-Proudmoore", -- [2]
@@ -2728,7 +2134,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Whîmsical-Proudmoore|r",
 			[51] = 1539104689,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [123]
+		}, -- [96]
 		{
 			"McForge!", -- [1]
 			"Whîmsical-Proudmoore", -- [2]
@@ -2750,7 +2156,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Whîmsical-Proudmoore|r",
 			[51] = 1539104702,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [124]
+		}, -- [97]
 		{
 			"ya there goes my rng for the entire xpac", -- [1]
 			"Whîmsical-Proudmoore", -- [2]
@@ -2772,7 +2178,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Whîmsical-Proudmoore|r",
 			[51] = 1539104714,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [125]
+		}, -- [98]
 		{
 			"|cffffff00The Sliver is under attack!|r", -- [1]
 			"", -- [2]
@@ -2794,7 +2200,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1539105441,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [126]
+		}, -- [99]
 		{
 			"|cffffff00Zuldazar is under attack!|r", -- [1]
 			"", -- [2]
@@ -2815,6 +2221,600 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "",
 			[51] = 1539105514,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [100]
+		{
+			"dude have you been here for 24 hours straight?", -- [1]
+			"Beastwoo-Bloodhoof", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Beastwoo-Bloodhoof", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1, -- [11]
+			"Player-64-09B3154C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Beastwoo-Bloodhoof|r",
+			[51] = 1539181023,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [101]
+		{
+			"I got a portable stable if you need", -- [1]
+			"Beastwoo-Bloodhoof", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Beastwoo-Bloodhoof", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3, -- [11]
+			"Player-64-09B3154C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Beastwoo-Bloodhoof|r",
+			[51] = 1539181033,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [102]
+		{
+			"so whats the ilvl of gear from the 8.1 warfront?", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			187, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1539181979,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [103]
+		{
+			"beautiful mount", -- [1]
+			"Plebsawce-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Plebsawce", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			308, -- [11]
+			"Player-3693-09E21D09", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Plebsawce|r",
+			[51] = 1539182359,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [104]
+		{
+			"tyty", -- [1]
+			"Plebsawce-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Plebsawce", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			309, -- [11]
+			"Player-3693-09E21D09", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Plebsawce|r",
+			[51] = 1539182374,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [105]
+		{
+			"WTS xmogs |cffa335ee|Hitem:59521::::::::120:251::::::|h[Soul Blade]|h|r|cff0070dd|Hitem:67119::::::::120:251:512:36:1:4760:120:::|h[Thousand Bandage Drape]|h|r|cffa335ee|Hitem:30729::::::::120:251::::::|h[Black-Iron Battlecloak]|h|r|cffa335ee|Hitem:67142::::::::120:251::::::|h[Zom's Electrostatic Cloak]|h|r", -- [1]
+			"Fledious-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Fledious", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			501, -- [11]
+			"Player-3693-09ECC05D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc41e3aFledious|r",
+			[51] = 1539182924,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [106]
+		{
+			"<The Chosen of Azeroth> 8/8N 5/8H are recruting for its raid on tuesdays and thursdays from 6:30pm to 9:30pm server! We especially need rDPS, Priests and Rogues. We also do PvP, WQ, Mythic + and leveling. Join us today!", -- [1]
+			"Maxplänck-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Maxplänck", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			532, -- [11]
+			"Player-3693-07436D82", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffff7c0aMaxplänck|r",
+			[51] = 1539183238,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [107]
+		{
+			"WTS |cffa335ee|Hitem:163573::::::::120:267::::::|h[Goldenmane's Reins]|h|r", -- [1]
+			"Lephantis-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Lephantis", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			554, -- [11]
+			"Player-3693-0A0C186F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8787edLephantis|r",
+			[51] = 1539183539,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [108]
+		{
+			"<The Chosen of Azeroth> 8/8N 5/8H are recruting for its raid on tuesdays and thursdays from 6:30pm to 9:30pm server! We especially need rDPS, Priests and Rogues. We also do PvP, WQ, Mythic + and leveling. Join us today!", -- [1]
+			"Maxplänck-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Maxplänck", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			570, -- [11]
+			"Player-3693-07436D82", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffff7c0aMaxplänck|r",
+			[51] = 1539183616,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [109]
+		{
+			"WTS xmogs |cffa335ee|Hitem:59521::::::::120:251::::::|h[Soul Blade]|h|r|cff0070dd|Hitem:67119::::::::120:251:512:36:1:4760:120:::|h[Thousand Bandage Drape]|h|r|cffa335ee|Hitem:30729::::::::120:251::::::|h[Black-Iron Battlecloak]|h|r|cffa335ee|Hitem:67142::::::::120:251::::::|h[Zom's Electrostatic Cloak]|h|r", -- [1]
+			"Fledious-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Fledious", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			580, -- [11]
+			"Player-3693-09ECC05D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc41e3aFledious|r",
+			[51] = 1539183783,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [110]
+		{
+			"WTS xmogs |cffa335ee|Hitem:59521::::::::120:251::::::|h[Soul Blade]|h|r|cff0070dd|Hitem:67119::::::::120:251:512:36:1:4760:120:::|h[Thousand Bandage Drape]|h|r|cffa335ee|Hitem:30729::::::::120:251::::::|h[Black-Iron Battlecloak]|h|r|cffa335ee|Hitem:67142::::::::120:251::::::|h[Zom's Electrostatic Cloak]|h|r", -- [1]
+			"Fledious-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Fledious", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1028, -- [11]
+			"Player-3693-09ECC05D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc41e3aFledious|r",
+			[51] = 1539184795,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [111]
+		{
+			"anyone here with a horde alt who wants to trade some gold between factions? got about 60k I can swap", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1237, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1539185029,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [112]
+		{
+			"Paying 100g Per guild sig @ stormwind bank", -- [1]
+			"Ifeldprepard-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ifeldprepard", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1330, -- [11]
+			"Player-3693-0A07864B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa330c9Ifeldprepard|r",
+			[51] = 1539185182,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [113]
+		{
+			"<Delete> 2/8M 8/8H Uldir is recruiting for our Core Raid Team. Raid times are Tues/Wed/Mon 6:30-9:30pm Server as well as alt runs on Thursday. Also all casuals welcome. Pst for more information.", -- [1]
+			"Michoeight-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Michoeight", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1415, -- [11]
+			"Player-3693-09C13F67", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Michoeight|r",
+			[51] = 1539185312,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [114]
+		{
+			"WTB blood-stained bones", -- [1]
+			"Doesupz-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Doesupz", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1732, -- [11]
+			"Player-3693-09F1C0C0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Doesupz|r",
+			[51] = 1539187943,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [115]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:5307:Player-3693-092AD332:1:10:10:18:4294967295:4294967295:4294967295:4294967295|h[Achieve-a-tron]|h|r!", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1750, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1539188354,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [116]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:5306:Player-3693-092AD332:1:10:10:18:4294967295:4294967295:4294967295:4294967295|h[Parasite Evening]|h|r!", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1762, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1539188412,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [117]
+		{
+			"can someone pls pop a longboi in Boralus?", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1812, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1539189192,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [118]
+		{
+			"is it a hrody?", -- [1]
+			"Pitiliana", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Pitiliana", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1815, -- [11]
+			"Player-3693-09FFF16E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddPitiliana|r",
+			[51] = 1539189209,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [119]
+		{
+			"???", -- [1]
+			"Pitiliana-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Pitiliana", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1829, -- [11]
+			"Player-3693-09FFF16E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddPitiliana|r",
+			[51] = 1539189231,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [120]
+		{
+			"azerite emissary can give 370 if you already have 370 basically yes", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1868, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1539189327,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [121]
+		{
+			"need like 367", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1869, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1539189335,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [122]
+		{
+			"in your emissary slots", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1878, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1539189357,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [123]
+		{
+			"I'm 365 but have 340 emissary slots so only got a 355", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1890, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1539189381,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [124]
+		{
+			"|cffffff00Fort Daelin is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormsong Valley", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormsong Valley", -- [9]
+			0, -- [10]
+			1981, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1539190296,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [125]
+		{
+			"why use |cffffffff|Hitem:152494::::::::120:253::::::|h[Coastal Healing Potion]|h|r instead of |cffffffff|Hitem:163082::::::::120:253::::::|h[Coastal Rejuvenation Potion]|h|r for 3x the price?", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			356, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1539197304,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [126]
+		{
+			"WTS |cff0070dd|Hitem:49283::::::::120:250::::::|h[Reins of the Spectral Tiger]|h|r  9.5M - Pst", -- [1]
+			"Hairytales-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Hairytales", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			358, -- [11]
+			"Player-3693-09FE67CA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc41e3aHairytales|r",
+			[51] = 1539197305,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},

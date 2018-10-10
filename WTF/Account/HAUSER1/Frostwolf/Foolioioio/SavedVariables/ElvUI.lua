@@ -13,6 +13,7 @@ ElvCharacterDB = {
 		"/tar sko", -- [10]
 		"/who z-stor,", -- [11]
 		"/who z-stor", -- [12]
+		"/who z-peak", -- [13]
 	},
 	["ChatHistoryLog"] = {
 	},

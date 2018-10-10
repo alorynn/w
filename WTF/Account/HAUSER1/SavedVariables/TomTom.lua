@@ -31,8 +31,8 @@ TomTomDB = {
 		["Deeke - Kel'Thuzad"] = "Default",
 		["Beatryce - Kel'Thuzad"] = "Default",
 		["Nigellah - Kel'Thuzad"] = "Default",
-		["Ugiyo - Kel'Thuzad"] = "Default",
 		["Alorannah - Kel'Thuzad"] = "Default",
+		["Fooiis - Hakkar"] = "Default",
 		["Alurannah - Kel'Thuzad"] = "Default",
 		["Beatryss - Kel'Thuzad"] = "Default",
 		["Fsdkjhskdjfh - Kel'Thuzad"] = "Default",
@@ -41,7 +41,7 @@ TomTomDB = {
 		["Hauser - Mal'Ganis"] = "Default",
 		["Skãdi - Kel'Thuzad"] = "Default",
 		["Olrapey - Kel'Thuzad"] = "Default",
-		["Fooiis - Hakkar"] = "Default",
+		["Ugiyo - Kel'Thuzad"] = "Default",
 		["Leeroyjenkem - Kel'Thuzad"] = "Default",
 		["Hauzer - Kel'Thuzad"] = "Default",
 		["Shamwowow - Kel'Thuzad"] = "Default",
@@ -90,12 +90,12 @@ TomTomWaypointsM = {
 		["Fooliolio - Kel'Thuzad"] = "Fooliolio - Kel'Thuzad",
 		["Laurranah - Kel'Thuzad"] = "Laurranah - Kel'Thuzad",
 		["Foolioioio - Frostwolf"] = "Foolioioio - Frostwolf",
-		["Alisheeya - Kel'Thuzad"] = "Alisheeya - Kel'Thuzad",
-		["Loranno - Kel'Thuzad"] = "Loranno - Kel'Thuzad",
-		["Foolioioio - Kel'Thuzad"] = "Foolioioio - Kel'Thuzad",
-		["Laurannah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Deeke - Kel'Thuzad"] = "Deeke - Kel'Thuzad",
+		["Loranno - Kel'Thuzad"] = "Loranno - Kel'Thuzad",
 		["Nigellah - Kel'Thuzad"] = "Nigellah - Kel'Thuzad",
+		["Laurannah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
+		["Alisheeya - Kel'Thuzad"] = "Alisheeya - Kel'Thuzad",
+		["Foolioioio - Kel'Thuzad"] = "Foolioioio - Kel'Thuzad",
 		["Shamwowow - Kel'Thuzad"] = "Shamwowow - Kel'Thuzad",
 		["Loranus - Kel'Thuzad"] = "Loranus - Kel'Thuzad",
 		["Fooiis - Hakkar"] = "Fooiis - Hakkar",
@@ -233,137 +233,63 @@ TomTomWaypointsM = {
 				},
 			},
 		},
-		["Alisheeya - Kel'Thuzad"] = {
+		["Deeke - Kel'Thuzad"] = {
 		},
 		["Loranno - Kel'Thuzad"] = {
 		},
-		["Foolioioio - Kel'Thuzad"] = {
+		["Nigellah - Kel'Thuzad"] = {
 		},
 		["Laurannah - Kel'Thuzad"] = {
-			[120] = {
-				["120:290000000:500000000:Skoll"] = {
-					120, -- [1]
-					0.29, -- [2]
-					0.5, -- [3]
+			[36] = {
+				["36:253000000:250000000:Blackwing Descent Entrance"] = {
+					36, -- [1]
+					0.253, -- [2]
+					0.25, -- [3]
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
+							[15] = nil --[[ skipped inline function ]],
 						},
 						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
 					["persistent"] = true,
-					["desc"] = "Skoll",
+					["desc"] = "Blackwing Descent Entrance",
 					["silent"] = true,
 					["cleardistance"] = 0,
-					["title"] = "Skoll",
-					["crazy"] = false,
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["120:270000000:500000000:Skoll"] = {
-					120, -- [1]
-					0.27, -- [2]
-					0.5, -- [3]
-					["arrivaldistance"] = 15,
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["persistent"] = true,
-					["desc"] = "Skoll",
-					["silent"] = true,
-					["cleardistance"] = 0,
-					["title"] = "Skoll",
-					["crazy"] = false,
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["120:300000000:640000000:Skoll"] = {
-					120, -- [1]
-					0.3, -- [2]
-					0.64, -- [3]
-					["arrivaldistance"] = 15,
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["persistent"] = true,
-					["desc"] = "Skoll",
-					["silent"] = true,
-					["cleardistance"] = 0,
-					["title"] = "Skoll",
-					["crazy"] = false,
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["120:440000000:620000000:Skoll"] = {
-					120, -- [1]
-					0.44, -- [2]
-					0.62, -- [3]
-					["arrivaldistance"] = 15,
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["persistent"] = true,
-					["desc"] = "Skoll",
-					["silent"] = true,
-					["cleardistance"] = 0,
-					["title"] = "Skoll",
-					["crazy"] = false,
-					["minimap"] = true,
-					["world"] = true,
-				},
-				["120:460000000:650000000:Skoll"] = {
-					120, -- [1]
-					0.46, -- [2]
-					0.65, -- [3]
-					["arrivaldistance"] = 15,
-					["callbacks"] = {
-						["distance"] = {
-						},
-						["world"] = {
-						},
-						["minimap"] = {
-						},
-					},
-					["persistent"] = true,
-					["desc"] = "Skoll",
-					["silent"] = true,
-					["cleardistance"] = 0,
-					["title"] = "Skoll",
+					["title"] = "Blackwing Descent Entrance",
 					["crazy"] = false,
 					["minimap"] = true,
 					["world"] = true,
 				},
 			},
-			[862] = {
-				["862:402000000:438000000:TomTom waypoint"] = {
-					862, -- [1]
-					0.402, -- [2]
-					0.438, -- [3]
+			[534] = {
+				["534:390000000:410000000:TomTom waypoint"] = {
+					534, -- [1]
+					0.39, -- [2]
+					0.41, -- [3]
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
+							[15] = nil --[[ skipped inline function ]],
 						},
 						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 					},
 					["persistent"] = true,
@@ -376,10 +302,219 @@ TomTomWaypointsM = {
 					["world"] = true,
 				},
 			},
+			[942] = {
+				["942:420000000:628000000:TomTom waypoint"] = {
+					942, -- [1]
+					0.42, -- [2]
+					0.628, -- [3]
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["persistent"] = true,
+					["desc"] = "TomTom waypoint",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "TomTom waypoint",
+					["crazy"] = false,
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
+			[577] = {
+				["577:390000000:410000000:TomTom waypoint"] = {
+					577, -- [1]
+					0.39, -- [2]
+					0.41, -- [3]
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["persistent"] = true,
+					["desc"] = "TomTom waypoint",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "TomTom waypoint",
+					["crazy"] = false,
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
+			[120] = {
+				["120:290000000:500000000:Skoll"] = {
+					120, -- [1]
+					0.29, -- [2]
+					0.5, -- [3]
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["persistent"] = true,
+					["desc"] = "Skoll",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Skoll",
+					["crazy"] = false,
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["120:270000000:500000000:Skoll"] = {
+					120, -- [1]
+					0.27, -- [2]
+					0.5, -- [3]
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["persistent"] = true,
+					["desc"] = "Skoll",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Skoll",
+					["crazy"] = false,
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["120:300000000:640000000:Skoll"] = {
+					120, -- [1]
+					0.3, -- [2]
+					0.64, -- [3]
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["persistent"] = true,
+					["desc"] = "Skoll",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Skoll",
+					["crazy"] = false,
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["120:440000000:620000000:Skoll"] = {
+					120, -- [1]
+					0.44, -- [2]
+					0.62, -- [3]
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["persistent"] = true,
+					["desc"] = "Skoll",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Skoll",
+					["crazy"] = false,
+					["minimap"] = true,
+					["world"] = true,
+				},
+				["120:460000000:650000000:Skoll"] = {
+					120, -- [1]
+					0.46, -- [2]
+					0.65, -- [3]
+					["arrivaldistance"] = 15,
+					["callbacks"] = {
+						["distance"] = {
+							[15] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["minimap"] = {
+							["onclick"] = nil --[[ skipped inline function ]],
+							["tooltip_update"] = nil --[[ skipped inline function ]],
+							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+					},
+					["persistent"] = true,
+					["desc"] = "Skoll",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Skoll",
+					["crazy"] = false,
+					["minimap"] = true,
+					["world"] = true,
+				},
+			},
 		},
-		["Deeke - Kel'Thuzad"] = {
+		["Alisheeya - Kel'Thuzad"] = {
 		},
-		["Nigellah - Kel'Thuzad"] = {
+		["Foolioioio - Kel'Thuzad"] = {
 		},
 		["Shamwowow - Kel'Thuzad"] = {
 		},
@@ -391,100 +526,110 @@ TomTomWaypointsM = {
 					120, -- [1]
 					0.29, -- [2]
 					0.5, -- [3]
-					["minimap"] = true,
-					["cleardistance"] = 0,
-					["title"] = "Skoll",
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
 						},
+						["world"] = {
+						},
 					},
-					["crazy"] = false,
 					["persistent"] = true,
+					["desc"] = "Skoll",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Skoll",
+					["crazy"] = false,
+					["minimap"] = true,
 					["world"] = true,
 				},
 				["120:270000000:500000000:Skoll"] = {
 					120, -- [1]
 					0.27, -- [2]
 					0.5, -- [3]
-					["minimap"] = true,
-					["cleardistance"] = 0,
-					["title"] = "Skoll",
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
 						},
+						["world"] = {
+						},
 					},
-					["crazy"] = false,
 					["persistent"] = true,
+					["desc"] = "Skoll",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Skoll",
+					["crazy"] = false,
+					["minimap"] = true,
 					["world"] = true,
 				},
 				["120:300000000:640000000:Skoll"] = {
 					120, -- [1]
 					0.3, -- [2]
 					0.64, -- [3]
-					["minimap"] = true,
-					["cleardistance"] = 0,
-					["title"] = "Skoll",
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
 						},
+						["world"] = {
+						},
 					},
-					["crazy"] = false,
 					["persistent"] = true,
+					["desc"] = "Skoll",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Skoll",
+					["crazy"] = false,
+					["minimap"] = true,
 					["world"] = true,
 				},
 				["120:440000000:620000000:Skoll"] = {
 					120, -- [1]
 					0.44, -- [2]
 					0.62, -- [3]
-					["minimap"] = true,
-					["cleardistance"] = 0,
-					["title"] = "Skoll",
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
 						},
+						["world"] = {
+						},
 					},
-					["crazy"] = false,
 					["persistent"] = true,
+					["desc"] = "Skoll",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Skoll",
+					["crazy"] = false,
+					["minimap"] = true,
 					["world"] = true,
 				},
 				["120:460000000:650000000:Skoll"] = {
 					120, -- [1]
 					0.46, -- [2]
 					0.65, -- [3]
-					["minimap"] = true,
-					["cleardistance"] = 0,
-					["title"] = "Skoll",
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
 						},
+						["world"] = {
+						},
 					},
-					["crazy"] = false,
 					["persistent"] = true,
+					["desc"] = "Skoll",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Skoll",
+					["crazy"] = false,
+					["minimap"] = true,
 					["world"] = true,
 				},
 			},
@@ -569,135 +714,110 @@ TomTomWaypointsM = {
 					120, -- [1]
 					0.29, -- [2]
 					0.5, -- [3]
-					["minimap"] = true,
-					["cleardistance"] = 0,
-					["title"] = "Skoll",
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
 						},
 					},
-					["crazy"] = false,
 					["persistent"] = true,
+					["desc"] = "Skoll",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Skoll",
+					["crazy"] = false,
+					["minimap"] = true,
 					["world"] = true,
 				},
 				["120:270000000:500000000:Skoll"] = {
 					120, -- [1]
 					0.27, -- [2]
 					0.5, -- [3]
-					["minimap"] = true,
-					["cleardistance"] = 0,
-					["title"] = "Skoll",
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
 						},
 					},
-					["crazy"] = false,
 					["persistent"] = true,
+					["desc"] = "Skoll",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Skoll",
+					["crazy"] = false,
+					["minimap"] = true,
 					["world"] = true,
 				},
 				["120:300000000:640000000:Skoll"] = {
 					120, -- [1]
 					0.3, -- [2]
 					0.64, -- [3]
-					["minimap"] = true,
-					["cleardistance"] = 0,
-					["title"] = "Skoll",
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
 						},
 					},
-					["crazy"] = false,
 					["persistent"] = true,
+					["desc"] = "Skoll",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Skoll",
+					["crazy"] = false,
+					["minimap"] = true,
 					["world"] = true,
 				},
 				["120:440000000:620000000:Skoll"] = {
 					120, -- [1]
 					0.44, -- [2]
 					0.62, -- [3]
-					["minimap"] = true,
-					["cleardistance"] = 0,
-					["title"] = "Skoll",
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
 						},
 					},
-					["crazy"] = false,
 					["persistent"] = true,
+					["desc"] = "Skoll",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Skoll",
+					["crazy"] = false,
+					["minimap"] = true,
 					["world"] = true,
 				},
 				["120:460000000:650000000:Skoll"] = {
 					120, -- [1]
 					0.46, -- [2]
 					0.65, -- [3]
-					["minimap"] = true,
-					["cleardistance"] = 0,
-					["title"] = "Skoll",
 					["arrivaldistance"] = 15,
 					["callbacks"] = {
 						["distance"] = {
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
 						},
 					},
-					["crazy"] = false,
 					["persistent"] = true,
+					["desc"] = "Skoll",
+					["silent"] = true,
+					["cleardistance"] = 0,
+					["title"] = "Skoll",
+					["crazy"] = false,
+					["minimap"] = true,
 					["world"] = true,
 				},
 			},

@@ -1,0 +1,16 @@
+lightweight tag c50ae877b8dcb50de699f61ddbb409dbfdc773b2 1.0.2
+Author:	Robert Maldoom <robertmaldoom@gmail.com>
+Date:	Wed Jul 18 00:22:46 2018 -0400
+
+commit c50ae877b8dcb50de699f61ddbb409dbfdc773b2
+Author: Robert Maldoom <robertmaldoom@gmail.com>
+Date:   Wed Jul 18 00:22:46 2018 -0400
+
+    Bump Interface version to 80000 for BfA
+
+commit bd7726bf090269d226b69b8f0e0b6a743243ec76
+Author: Robert Maldoom <robertmaldoom@gmail.com>
+Date:   Wed Jul 18 00:20:16 2018 -0400
+
+    GameTooltip GetSpell call has changed as of WoW API 80000.  It no longer returns spellRank.
+

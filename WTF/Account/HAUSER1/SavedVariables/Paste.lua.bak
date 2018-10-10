@@ -31,18 +31,18 @@ PasteDB = {
 		["Deeke - Kel'Thuzad"] = "Deeke - Kel'Thuzad",
 		["Beatryce - Kel'Thuzad"] = "Beatryce - Kel'Thuzad",
 		["Nigellah - Kel'Thuzad"] = "Nigellah - Kel'Thuzad",
-		["Ugiyo - Kel'Thuzad"] = "Ugiyo - Kel'Thuzad",
 		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
+		["Fooiis - Hakkar"] = "Fooiis - Hakkar",
 		["Alurannah - Kel'Thuzad"] = "Alurannah - Kel'Thuzad",
 		["Beatryss - Kel'Thuzad"] = "Beatryss - Kel'Thuzad",
-		["Leeroyjenkem - Kel'Thuzad"] = "Leeroyjenkem - Kel'Thuzad",
 		["Olrapey - Kel'Thuzad"] = "Olrapey - Kel'Thuzad",
-		["Hauzerhunter - Kel'Thuzad"] = "Hauzerhunter - Kel'Thuzad",
 		["Skãdi - Kel'Thuzad"] = "Skãdi - Kel'Thuzad",
+		["Hauzerhunter - Kel'Thuzad"] = "Hauzerhunter - Kel'Thuzad",
+		["Leeroyjenkem - Kel'Thuzad"] = "Leeroyjenkem - Kel'Thuzad",
 		["Alaurannah - Undermine"] = "Alaurannah - Undermine",
 		["Fsdkjhskdjfh - Kel'Thuzad"] = "Fsdkjhskdjfh - Kel'Thuzad",
+		["Ugiyo - Kel'Thuzad"] = "Ugiyo - Kel'Thuzad",
 		["Kmkarbashian - Kel'Thuzad"] = "Kmkarbashian - Kel'Thuzad",
-		["Fooiis - Hakkar"] = "Fooiis - Hakkar",
 		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
 		["Hauzerone - Dalaran"] = "Hauzerone - Dalaran",
 		["Loranah - Kel'Thuzad"] = "Loranah - Kel'Thuzad",
@@ -62,17 +62,17 @@ PasteDB = {
 			["loaded"] = true,
 		},
 		["Laurannah - Kel'Thuzad"] = {
-			["whispertarget"] = "",
-			["where"] = "Default",
 			["loaded"] = true,
+			["minimap"] = {
+				["hide"] = true,
+			},
+			["where"] = "Default",
+			["whispertarget"] = "",
 			["pos"] = {
 				["height"] = 320,
 				["top"] = 994.165893554688,
 				["left"] = 1633.33349609375,
 				["width"] = 499.999938964844,
-			},
-			["minimap"] = {
-				["hide"] = true,
 			},
 		},
 		["Alisheeya - Kel'Thuzad"] = {
@@ -137,6 +137,10 @@ PasteDB = {
 		},
 		["Laurennah - Vashj"] = {
 			["loaded"] = true,
+			["whispertarget"] = "",
+			["where"] = "Default",
+			["pos"] = {
+			},
 		},
 		["Hauser - Mal'Ganis"] = {
 			["loaded"] = true,
@@ -166,9 +170,6 @@ PasteDB = {
 			["pos"] = {
 			},
 		},
-		["Ugiyo - Kel'Thuzad"] = {
-			["loaded"] = true,
-		},
 		["Alorannah - Kel'Thuzad"] = {
 			["whispertarget"] = "",
 			["where"] = "Default",
@@ -184,22 +185,29 @@ PasteDB = {
 				["hide"] = true,
 			},
 		},
+		["Fooiis - Hakkar"] = {
+			["loaded"] = true,
+			["whispertarget"] = "",
+			["where"] = "Default",
+			["pos"] = {
+			},
+		},
 		["Alurannah - Kel'Thuzad"] = {
 			["loaded"] = true,
 		},
 		["Beatryss - Kel'Thuzad"] = {
 			["loaded"] = true,
 		},
-		["Leeroyjenkem - Kel'Thuzad"] = {
+		["Olrapey - Kel'Thuzad"] = {
 			["loaded"] = true,
 		},
-		["Olrapey - Kel'Thuzad"] = {
+		["Skãdi - Kel'Thuzad"] = {
 			["loaded"] = true,
 		},
 		["Hauzerhunter - Kel'Thuzad"] = {
 			["loaded"] = true,
 		},
-		["Skãdi - Kel'Thuzad"] = {
+		["Leeroyjenkem - Kel'Thuzad"] = {
 			["loaded"] = true,
 		},
 		["Alaurannah - Undermine"] = {
@@ -208,17 +216,13 @@ PasteDB = {
 		["Fsdkjhskdjfh - Kel'Thuzad"] = {
 			["loaded"] = true,
 		},
+		["Ugiyo - Kel'Thuzad"] = {
+			["loaded"] = true,
+		},
 		["Kmkarbashian - Kel'Thuzad"] = {
 			["loaded"] = true,
 			["minimap"] = {
 				["hide"] = true,
-			},
-		},
-		["Fooiis - Hakkar"] = {
-			["loaded"] = true,
-			["whispertarget"] = "",
-			["where"] = "Default",
-			["pos"] = {
 			},
 		},
 		["Hauzer - Kel'Thuzad"] = {

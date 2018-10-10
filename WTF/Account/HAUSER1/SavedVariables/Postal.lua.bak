@@ -31,18 +31,18 @@ Postal3DB = {
 		["Deeke - Kel'Thuzad"] = "Deeke - Kel'Thuzad",
 		["Beatryce - Kel'Thuzad"] = "Beatryce - Kel'Thuzad",
 		["Nigellah - Kel'Thuzad"] = "Nigellah - Kel'Thuzad",
-		["Ugiyo - Kel'Thuzad"] = "Ugiyo - Kel'Thuzad",
 		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
+		["Fooiis - Hakkar"] = "Fooiis - Hakkar",
 		["Alurannah - Kel'Thuzad"] = "Alurannah - Kel'Thuzad",
 		["Beatryss - Kel'Thuzad"] = "Beatryss - Kel'Thuzad",
-		["Leeroyjenkem - Kel'Thuzad"] = "Leeroyjenkem - Kel'Thuzad",
 		["Olrapey - Kel'Thuzad"] = "Olrapey - Kel'Thuzad",
-		["Hauzerhunter - Kel'Thuzad"] = "Hauzerhunter - Kel'Thuzad",
 		["Skãdi - Kel'Thuzad"] = "Skãdi - Kel'Thuzad",
+		["Hauzerhunter - Kel'Thuzad"] = "Hauzerhunter - Kel'Thuzad",
+		["Leeroyjenkem - Kel'Thuzad"] = "Leeroyjenkem - Kel'Thuzad",
 		["Alaurannah - Undermine"] = "Alaurannah - Undermine",
 		["Fsdkjhskdjfh - Kel'Thuzad"] = "Fsdkjhskdjfh - Kel'Thuzad",
+		["Ugiyo - Kel'Thuzad"] = "Ugiyo - Kel'Thuzad",
 		["Kmkarbashian - Kel'Thuzad"] = "Kmkarbashian - Kel'Thuzad",
-		["Fooiis - Hakkar"] = "Fooiis - Hakkar",
 		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
 		["Hauzerone - Dalaran"] = "Hauzerone - Dalaran",
 		["Loranah - Kel'Thuzad"] = "Loranah - Kel'Thuzad",
@@ -192,8 +192,6 @@ Postal3DB = {
 		},
 		["Nigellah - Kel'Thuzad"] = {
 		},
-		["Ugiyo - Kel'Thuzad"] = {
-		},
 		["Alorannah - Kel'Thuzad"] = {
 			["BlackBook"] = {
 				["recent"] = {
@@ -201,21 +199,25 @@ Postal3DB = {
 				},
 			},
 		},
+		["Fooiis - Hakkar"] = {
+		},
 		["Alurannah - Kel'Thuzad"] = {
 		},
 		["Beatryss - Kel'Thuzad"] = {
 		},
-		["Leeroyjenkem - Kel'Thuzad"] = {
-		},
 		["Olrapey - Kel'Thuzad"] = {
+		},
+		["Skãdi - Kel'Thuzad"] = {
 		},
 		["Hauzerhunter - Kel'Thuzad"] = {
 		},
-		["Skãdi - Kel'Thuzad"] = {
+		["Leeroyjenkem - Kel'Thuzad"] = {
 		},
 		["Alaurannah - Undermine"] = {
 		},
 		["Fsdkjhskdjfh - Kel'Thuzad"] = {
+		},
+		["Ugiyo - Kel'Thuzad"] = {
 		},
 		["Kmkarbashian - Kel'Thuzad"] = {
 			["BlackBook"] = {
@@ -223,8 +225,6 @@ Postal3DB = {
 					"Laurannah|Kel'Thuzad|Alliance", -- [1]
 				},
 			},
-		},
-		["Fooiis - Hakkar"] = {
 		},
 		["Hauzer - Kel'Thuzad"] = {
 			["BlackBook"] = {
