@@ -6,6 +6,7 @@ CrossRealmAssistDB = {
 		["Hauzerina - Moon Guard"] = "Hauzerina - Moon Guard",
 		["Foolioioio - Frostwolf"] = "Foolioioio - Frostwolf",
 		["Hauzerone - Dalaran"] = "Hauzerone - Dalaran",
+		["Foolse - Twisting Nether"] = "Foolse - Twisting Nether",
 		["Laurannah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Bazoomercom - Dark Iron"] = "Bazoomercom - Dark Iron",
 		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",

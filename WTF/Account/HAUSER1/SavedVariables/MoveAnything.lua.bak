@@ -2,71 +2,12 @@
 MADB = {
 	["characters"] = {
 	},
-	["frameListRows"] = 18,
 	["tooltips"] = true,
+	["frameListRows"] = 18,
 	["profiles"] = {
 		["default"] = {
 			["name"] = "default",
 			["frames"] = {
-				["QuestChoiceFrame"] = {
-					["name"] = "QuestChoiceFrame",
-				},
-				["TalkingHeadFrame"] = {
-					["orgPos"] = {
-						"BOTTOM", -- [1]
-						"TalkingHeadFrameMover", -- [2]
-						"BOTTOM", -- [3]
-						0, -- [4]
-						0, -- [5]
-					},
-					["name"] = "TalkingHeadFrame",
-					["pos"] = {
-						"BOTTOM", -- [1]
-						"TalkingHeadFrameMover", -- [2]
-						"BOTTOM", -- [3]
-						7.900717655055640e-005, -- [4]
-						3.39983787128470e-005, -- [5]
-					},
-				},
-				["QuestLogPopupDetailFrame"] = {
-					["orgPos"] = {
-						"TOPLEFT", -- [1]
-						"UIParent", -- [2]
-						"TOPLEFT", -- [3]
-						0, -- [4]
-						0, -- [5]
-					},
-					["name"] = "QuestLogPopupDetailFrame",
-					["UIPanelWindows"] = {
-						["whileDead"] = 1,
-						["pushable"] = 0,
-						["area"] = "left",
-					},
-					["pos"] = {
-						"BOTTOMLEFT", -- [1]
-						"UIParent", -- [2]
-						"BOTTOMLEFT", -- [3]
-						0, -- [4]
-						704.000061035156, -- [5]
-					},
-				},
-				["QuestNPCModel"] = {
-					["orgPos"] = {
-						"TOPLEFT", -- [1]
-						"UIParent", -- [2]
-						"TOPRIGHT", -- [3]
-						4.16666650772095, -- [4]
-						-34.1666679382324, -- [5]
-					},
-					["name"] = "QuestNPCModel",
-					["pos"] = {
-						"TOPLEFT", -- [1]
-						"UIParent", -- [2]
-						"TOPRIGHT", -- [3]
-						75.4466223144555, -- [4]
-						48.6334400177002, -- [5]
-					},
-				},
 				["ObjectiveTrackerFrameMover"] = {
 					["orgPos"] = {
 						"TOPRIGHT", -- [1]
@@ -84,25 +25,49 @@ MADB = {
 						0, -- [5]
 					},
 				},
-				["QuestFrame"] = {
+				["QuestNPCModel"] = {
 					["orgPos"] = {
-						"TOP", -- [1]
+						"TOPLEFT", -- [1]
 						"UIParent", -- [2]
-						"TOP", -- [3]
-						0, -- [4]
-						-135, -- [5]
+						"TOPRIGHT", -- [3]
+						4.16666698455811, -- [4]
+						-34.1666679382324, -- [5]
 					},
-					["name"] = "QuestFrame",
+					["name"] = "QuestNPCModel",
+					["pos"] = {
+						"TOPLEFT", -- [1]
+						"UIParent", -- [2]
+						"TOPRIGHT", -- [3]
+						75.4466223144555, -- [4]
+						48.6334400177002, -- [5]
+					},
+				},
+				["PetStableFrame"] = {
+					["orgPos"] = {
+						"TOPLEFT", -- [1]
+						"UIParent", -- [2]
+						"TOPLEFT", -- [3]
+						0, -- [4]
+						-104.000007629395, -- [5]
+					},
 					["UIPanelWindows"] = {
 						["pushable"] = 0,
 						["area"] = "left",
 					},
+					["scale"] = 2,
+					["disableLayerHighlight"] = false,
+					["orgScale"] = 1,
+					["disableLayerBackground"] = false,
+					["disableLayerArtwork"] = false,
+					["disableLayerBorder"] = false,
+					["name"] = "PetStableFrame",
+					["disableLayerOverlay"] = false,
 					["pos"] = {
 						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]
 						"BOTTOMLEFT", -- [3]
-						0, -- [4]
-						0, -- [5]
+						12.6308288574219, -- [4]
+						100, -- [5]
 					},
 				},
 				["ObjectiveTrackerBonusBannerFrame"] = {
@@ -122,6 +87,44 @@ MADB = {
 						-170, -- [5]
 					},
 				},
+				["TalkingHeadFrame"] = {
+					["orgPos"] = {
+						"BOTTOM", -- [1]
+						"UIParent", -- [2]
+						"BOTTOM", -- [3]
+						0, -- [4]
+						96, -- [5]
+					},
+					["name"] = "TalkingHeadFrame",
+					["pos"] = {
+						"BOTTOM", -- [1]
+						"TalkingHeadFrameMover", -- [2]
+						"BOTTOM", -- [3]
+						7.900717655055640e-005, -- [4]
+						3.39983787128470e-005, -- [5]
+					},
+				},
+				["QuestFrame"] = {
+					["UIPanelWindows"] = {
+						["pushable"] = 0,
+						["area"] = "left",
+					},
+					["orgPos"] = {
+						"TOP", -- [1]
+						"UIParent", -- [2]
+						"TOP", -- [3]
+						0, -- [4]
+						-135, -- [5]
+					},
+					["name"] = "QuestFrame",
+					["pos"] = {
+						"BOTTOMLEFT", -- [1]
+						"UIParent", -- [2]
+						"BOTTOMLEFT", -- [3]
+						0, -- [4]
+						0, -- [5]
+					},
+				},
 				["ObjectiveTrackerFrameScaleMover"] = {
 					["orgPos"] = {
 						"TOPRIGHT", -- [1]
@@ -139,8 +142,27 @@ MADB = {
 						0, -- [5]
 					},
 				},
-				["WorldQuestCompleteAlertFrame"] = {
-					["name"] = "WorldQuestCompleteAlertFrame",
+				["QuestLogPopupDetailFrame"] = {
+					["UIPanelWindows"] = {
+						["whileDead"] = 1,
+						["pushable"] = 0,
+						["area"] = "left",
+					},
+					["orgPos"] = {
+						"TOPLEFT", -- [1]
+						"UIParent", -- [2]
+						"TOPLEFT", -- [3]
+						0, -- [4]
+						0, -- [5]
+					},
+					["name"] = "QuestLogPopupDetailFrame",
+					["pos"] = {
+						"BOTTOMLEFT", -- [1]
+						"UIParent", -- [2]
+						"BOTTOMLEFT", -- [3]
+						0, -- [4]
+						704.000061035156, -- [5]
+					},
 				},
 			},
 		},

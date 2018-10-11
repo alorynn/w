@@ -44,6 +44,9 @@ END
 VER 3 0100000000000010 "Pets" "INV_MISC_BONE_01"
 /click ORLOpen Pets
 END
+VER 3 0100000000000019 "StableGenius" "ability_hunter_sickem"
+/stablegenius toggle
+END
 VER 3 0100000000000004 "Target" "236188"
 /tar bul
 END

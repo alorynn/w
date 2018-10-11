@@ -36,8 +36,9 @@ CliqueDB3 = {
 		["Hauzerina - Moon Guard"] = "Hauzerina - Moon Guard",
 		["Foolioioio - Frostwolf"] = "Foolioioio - Frostwolf",
 		["Nigellah - Kel'Thuzad"] = "Nigellah - Kel'Thuzad",
-		["Loranno - Kel'Thuzad"] = "Loranno - Kel'Thuzad",
 		["Shamwowow - Kel'Thuzad"] = "Shamwowow - Kel'Thuzad",
+		["Loranno - Kel'Thuzad"] = "Loranno - Kel'Thuzad",
+		["Foolse - Twisting Nether"] = "Foolse - Twisting Nether",
 		["Laurannah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Deeke - Kel'Thuzad"] = "Deeke - Kel'Thuzad",
 		["Kmkarbashian - Kel'Thuzad"] = "Kmkarbashian - Kel'Thuzad",
@@ -56,8 +57,8 @@ CliqueDB3 = {
 		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
 		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
 		["Rogueout - Kel'Thuzad"] = "Rogueout - Kel'Thuzad",
-		["Laurannah - Undermine"] = "Laurannah - Undermine",
 		["Laurennah - Vashj"] = "Laurennah - Vashj",
+		["Laurannah - Undermine"] = "Laurannah - Undermine",
 	},
 	["profiles"] = {
 		["Fooliolio - Kel'Thuzad"] = {
@@ -155,6 +156,25 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
+		["Shamwowow - Kel'Thuzad"] = {
+			["bindings"] = {
+				{
+					["type"] = "target",
+					["sets"] = {
+						["default"] = true,
+					},
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+			},
+		},
 		["Loranno - Kel'Thuzad"] = {
 			["bindings"] = {
 				{
@@ -174,7 +194,7 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Shamwowow - Kel'Thuzad"] = {
+		["Foolse - Twisting Nether"] = {
 			["bindings"] = {
 				{
 					["type"] = "target",
@@ -580,7 +600,7 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Laurannah - Undermine"] = {
+		["Laurennah - Vashj"] = {
 			["bindings"] = {
 				{
 					["type"] = "target",
@@ -599,7 +619,7 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Laurennah - Vashj"] = {
+		["Laurannah - Undermine"] = {
 			["bindings"] = {
 				{
 					["type"] = "target",

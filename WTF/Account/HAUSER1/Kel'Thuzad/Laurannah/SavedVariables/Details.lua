@@ -7,6 +7,271 @@ _detalhes_database = {
 		["tabelas"] = {
 			{
 				{
+					["combatId"] = 486,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.001868,
+							["damage_from"] = {
+								["Veiled Fanatic"] = true,
+							},
+							["targets"] = {
+								["Veiled Fanatic"] = 5488,
+							},
+							["friendlyfire"] = {
+							},
+							["pets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 5488.001868,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["total"] = 5488.001868,
+							["classe"] = "HUNTER",
+							["serial"] = "Player-3693-092AD332",
+							["nome"] = "Laurannah",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									[75] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2719,
+										["targets"] = {
+											["Veiled Fanatic"] = 2719,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2719,
+										["n_min"] = 2719,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 2719,
+										["c_max"] = 0,
+										["id"] = 75,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									[193455] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2769,
+										["targets"] = {
+											["Veiled Fanatic"] = 2769,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2769,
+										["n_min"] = 2769,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 2769,
+										["c_max"] = 0,
+										["id"] = 193455,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["end_time"] = 1539259711,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 146.001868,
+							["start_time"] = 1539259710,
+							["delay"] = 0,
+							["last_event"] = 1539259710,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 486,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["combatId"] = 486,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 486,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["nome"] = "Laurannah",
+							["buff_uptime"] = 7,
+							["spell_cast"] = {
+								[193455] = 1,
+							},
+							["pets"] = {
+							},
+							["classe"] = "HUNTER",
+							["tipo"] = 4,
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									[225788] = {
+										["activedamt"] = 1,
+										["id"] = 225788,
+										["targets"] = {
+										},
+										["uptime"] = 4,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[231390] = {
+										["activedamt"] = 1,
+										["id"] = 231390,
+										["targets"] = {
+										},
+										["uptime"] = 3,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["serial"] = "Player-3693-092AD332",
+							["last_event"] = 1539259711,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 486,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Laurannah"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Veiled Fanatic",
+				["combat_counter"] = 12653,
+				["playing_solo"] = true,
+				["totals"] = {
+					5487.982972, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = -0.00864500000000135,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Laurannah"] = 5488.001868,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 750314.316,
+				["combat_id"] = 486,
+				["instance_type"] = "none",
+				["frags"] = {
+					["Veiled Fanatic"] = 1,
+				},
+				["data_fim"] = "08:08:31",
+				["data_inicio"] = "08:08:28",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					5488, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 750310.676,
+				["contra"] = "Veiled Fanatic",
+				["TimeData"] = {
+				},
+			}, -- [1]
+			{
+				{
 					["tipo"] = 2,
 					["combatId"] = 485,
 					["_ActorTable"] = {
@@ -14,8 +279,9 @@ _detalhes_database = {
 							["flag_original"] = 1297,
 							["totalabsorbed"] = 0.003883,
 							["damage_from"] = {
-								["Iron Warwolf"] = true,
 								["Environment (Falling)"] = true,
+								["Veiled Fanatic"] = true,
+								["Iron Warwolf"] = true,
 							},
 							["targets"] = {
 								["Iron Warwolf"] = 25994,
@@ -23,16 +289,17 @@ _detalhes_database = {
 							["pets"] = {
 								"Wolf <Laurannah>", -- [1]
 							},
-							["damage_taken"] = 42136.003883,
+							["friendlyfire"] = {
+							},
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 								[128] = 25994,
 							},
 							["total_without_pet"] = 0.003883,
-							["classe"] = "HUNTER",
+							["on_hold"] = false,
 							["dps_started"] = false,
 							["total"] = 25994.003883,
-							["delay"] = 0,
+							["serial"] = "Player-3693-092AD332",
 							["end_time"] = 1539192275,
 							["nome"] = "Laurannah",
 							["spells"] = {
@@ -41,15 +308,14 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["last_event"] = 1539192275,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["last_event"] = 1539192275,
+							["damage_taken"] = 42243.003883,
 							["start_time"] = 1539192275,
-							["serial"] = "Player-3693-092AD332",
-							["on_hold"] = false,
+							["delay"] = 0,
+							["classe"] = "HUNTER",
 						}, -- [1]
 						{
 							["flag_original"] = 69905,
@@ -61,17 +327,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["damage_taken"] = 0.00838,
+							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 								[128] = 25994,
 							},
 							["total_without_pet"] = 25994.00838,
-							["friendlyfire"] = {
-							},
+							["classe"] = "PET",
 							["dps_started"] = false,
 							["total"] = 25994.00838,
-							["delay"] = 0,
+							["serial"] = "Pet-0-3886-1464-13974-91250-0102C87825",
 							["ownerName"] = "Laurannah",
 							["nome"] = "Wolf <Laurannah>",
 							["spells"] = {
@@ -94,29 +359,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 								},
 								["tipo"] = 2,
 							},
 							["end_time"] = 1539192275,
-							["last_event"] = 1539192275,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
+							["last_event"] = 1539192275,
+							["damage_taken"] = 0.00838,
 							["start_time"] = 1539192275,
-							["serial"] = "Pet-0-3886-1464-13974-91250-0102C87825",
-							["classe"] = "PET",
+							["delay"] = 0,
+							["friendlyfire"] = {
+							},
 						}, -- [2]
 					},
 				}, -- [1]
@@ -147,57 +413,69 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1539192275,
 										["uptime"] = 0,
-										["counter"] = 0,
+										["appliedamt"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = false,
-										["appliedamt"] = 0,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
-							["buff_uptime"] = 3,
+							["pets"] = {
+								"Wolf <Laurannah>", -- [1]
+							},
 							["classe"] = "HUNTER",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[1515] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 1515,
-										["uptime"] = 1,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 1515,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[231390] = {
-										["counter"] = 0,
-										["actived"] = false,
 										["activedamt"] = 1,
-										["refreshamt"] = 0,
 										["id"] = 231390,
-										["uptime"] = 1,
 										["targets"] = {
 										},
+										["uptime"] = 1,
 										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[225788] = {
-										["counter"] = 0,
-										["actived"] = false,
 										["activedamt"] = 1,
-										["refreshamt"] = 0,
 										["id"] = 225788,
-										["uptime"] = 1,
 										["targets"] = {
 										},
+										["uptime"] = 1,
 										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[245723] = {
+										["activedamt"] = 0,
+										["id"] = 245723,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 0,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Laurannah",
 							["grupo"] = true,
 							["spell_cast"] = {
 								[13481] = 1,
@@ -205,12 +483,11 @@ _detalhes_database = {
 							["debuff_uptime_targets"] = {
 							},
 							["tipo"] = 4,
-							["nome"] = "Laurannah",
-							["pets"] = {
-								"Wolf <Laurannah>", -- [1]
+							["buff_uptime_targets"] = {
 							},
+							["last_event"] = 1539259635,
 							["serial"] = "Player-3693-092AD332",
-							["last_event"] = 1539192275,
+							["buff_uptime"] = 3,
 						}, -- [1]
 						{
 							["flag_original"] = 69905,
@@ -218,13 +495,13 @@ _detalhes_database = {
 							["nome"] = "Wolf <Laurannah>",
 							["pets"] = {
 							},
+							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "PET",
+							["serial"] = "Pet-0-3886-1464-13974-91250-0102C87825",
 							["spell_cast"] = {
 								[2649] = 1,
 							},
-							["last_event"] = 0,
-							["tipo"] = 4,
-							["serial"] = "Pet-0-3886-1464-13974-91250-0102C87825",
-							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -246,53 +523,43 @@ _detalhes_database = {
 				["combat_counter"] = 12644,
 				["playing_solo"] = true,
 				["totals"] = {
-					25993.6699460002, -- [1]
+					25993.5738060002, -- [1]
 					0, -- [2]
 					{
-						0, -- [1]
-						[0] = -0.0269770000000307,
+						2, -- [1]
+						[0] = -2.05538300000006,
 						["alternatepower"] = 0,
-						[6] = -0.006441,
 						[3] = 0,
+						[6] = -0.006441,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
 					["Laurannah"] = {
 						{
 							true, -- [1]
-							3, -- [2]
-							12378, -- [3]
-							1539197391.184, -- [4]
-							109322, -- [5]
-							"Environment (Falling)", -- [6]
+							1, -- [2]
+							107, -- [3]
+							1539259708.104, -- [4]
+							121700, -- [5]
+							"Veiled Fanatic", -- [6]
 							nil, -- [7]
-							3, -- [8]
+							1, -- [8]
 							false, -- [9]
 							-1, -- [10]
 						}, -- [1]
 						{
-							true, -- [1]
-							3, -- [2]
-							29748, -- [3]
-							1539197399.202, -- [4]
-							91952, -- [5]
-							"Environment (Falling)", -- [6]
-							nil, -- [7]
-							3, -- [8]
-							false, -- [9]
-							-1, -- [10]
 						}, -- [2]
 						{
 						}, -- [3]
@@ -354,7 +621,7 @@ _detalhes_database = {
 						}, -- [31]
 						{
 						}, -- [32]
-						["n"] = 3,
+						["n"] = 2,
 					},
 				},
 				["frags_need_refresh"] = false,
@@ -365,10 +632,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["Laurannah"] = 25994.003883,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -376,18 +640,20 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Laurannah"] = 25994.003883,
+						}, -- [1]
 					},
 				},
-				["end_time"] = 682880.107,
+				["end_time"] = 750238.538,
 				["combat_id"] = 485,
-				["data_inicio"] = "13:24:34",
+				["instance_type"] = "none",
 				["hasSaved"] = true,
 				["frags"] = {
 				},
-				["data_fim"] = "13:24:36",
-				["TimeData"] = {
-				},
+				["data_fim"] = "08:07:16",
+				["contra"] = "Iron Warwolf",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -397,24 +663,437 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 682879.125,
-				["contra"] = "Iron Warwolf",
+				["TimeData"] = {
+				},
+				["data_inicio"] = "13:24:34",
+			}, -- [2]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 485,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.003883,
+							["damage_from"] = {
+								["Environment (Falling)"] = true,
+								["Veiled Fanatic"] = true,
+								["Iron Warwolf"] = true,
+							},
+							["targets"] = {
+								["Iron Warwolf"] = 25994,
+							},
+							["pets"] = {
+								"Wolf <Laurannah>", -- [1]
+							},
+							["friendlyfire"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+								[128] = 25994,
+							},
+							["total_without_pet"] = 0.003883,
+							["on_hold"] = false,
+							["dps_started"] = false,
+							["total"] = 25994.003883,
+							["serial"] = "Player-3693-092AD332",
+							["end_time"] = 1539192275,
+							["nome"] = "Laurannah",
+							["spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["tipo"] = 1,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1539192275,
+							["damage_taken"] = 42243.003883,
+							["start_time"] = 1539192275,
+							["delay"] = 0,
+							["classe"] = "HUNTER",
+						}, -- [1]
+						{
+							["flag_original"] = 69905,
+							["totalabsorbed"] = 0.00838,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Iron Warwolf"] = 25994,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+								[128] = 25994,
+							},
+							["total_without_pet"] = 25994.00838,
+							["classe"] = "PET",
+							["dps_started"] = false,
+							["total"] = 25994.00838,
+							["serial"] = "Pet-0-3886-1464-13974-91250-0102C87825",
+							["ownerName"] = "Laurannah",
+							["nome"] = "Wolf <Laurannah>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 25994,
+										["targets"] = {
+											["Iron Warwolf"] = 25994,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 25994,
+										["n_min"] = 25994,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 25994,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["m_amt"] = 0,
+										["c_min"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["end_time"] = 1539192275,
+							["tipo"] = 1,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1539192275,
+							["damage_taken"] = 0.00838,
+							["start_time"] = 1539192275,
+							["delay"] = 0,
+							["friendlyfire"] = {
+							},
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 485,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 485,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 485,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[1515] = {
+										["activedamt"] = -1,
+										["id"] = 1515,
+										["targets"] = {
+										},
+										["actived_at"] = 1539192275,
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+								"Wolf <Laurannah>", -- [1]
+							},
+							["classe"] = "HUNTER",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[1515] = {
+										["appliedamt"] = 1,
+										["targets"] = {
+										},
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 1515,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[231390] = {
+										["activedamt"] = 1,
+										["id"] = 231390,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[225788] = {
+										["activedamt"] = 1,
+										["id"] = 225788,
+										["targets"] = {
+										},
+										["uptime"] = 1,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[245723] = {
+										["activedamt"] = 0,
+										["id"] = 245723,
+										["targets"] = {
+										},
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 0,
+							["nome"] = "Laurannah",
+							["grupo"] = true,
+							["spell_cast"] = {
+								[13481] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["tipo"] = 4,
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1539259635,
+							["serial"] = "Player-3693-092AD332",
+							["buff_uptime"] = 3,
+						}, -- [1]
+						{
+							["flag_original"] = 69905,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Wolf <Laurannah>",
+							["pets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "PET",
+							["serial"] = "Pet-0-3886-1464-13974-91250-0102C87825",
+							["spell_cast"] = {
+								[2649] = 1,
+							},
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 485,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Laurannah"] = true,
+				},
+				["overall_added"] = true,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Iron Warwolf",
+				["combat_counter"] = 12644,
+				["playing_solo"] = true,
+				["totals"] = {
+					25993.5738060002, -- [1]
+					0, -- [2]
+					{
+						2, -- [1]
+						[0] = -2.05538300000006,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = -0.006441,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["player_last_events"] = {
+					["Laurannah"] = {
+						{
+							true, -- [1]
+							1, -- [2]
+							107, -- [3]
+							1539259708.104, -- [4]
+							121700, -- [5]
+							"Veiled Fanatic", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						{
+						}, -- [17]
+						{
+						}, -- [18]
+						{
+						}, -- [19]
+						{
+						}, -- [20]
+						{
+						}, -- [21]
+						{
+						}, -- [22]
+						{
+						}, -- [23]
+						{
+						}, -- [24]
+						{
+						}, -- [25]
+						{
+						}, -- [26]
+						{
+						}, -- [27]
+						{
+						}, -- [28]
+						{
+						}, -- [29]
+						{
+						}, -- [30]
+						{
+						}, -- [31]
+						{
+						}, -- [32]
+						["n"] = 2,
+					},
+				},
+				["frags_need_refresh"] = false,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage_section"] = {
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage"] = {
+						{
+							["Laurannah"] = 25994.003883,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 750238.538,
+				["combat_id"] = 485,
 				["instance_type"] = "none",
-			}, -- [1]
+				["hasSaved"] = true,
+				["frags"] = {
+				},
+				["data_fim"] = "08:07:16",
+				["contra"] = "Iron Warwolf",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					0, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 682879.125,
+				["TimeData"] = {
+				},
+				["data_inicio"] = "13:24:34",
+			}, -- [3]
 			{
 				{
 					["tipo"] = 2,
@@ -431,16 +1110,17 @@ _detalhes_database = {
 							["pets"] = {
 								"Wolf <Laurannah>", -- [1]
 							},
-							["damage_taken"] = 0.008081,
+							["friendlyfire"] = {
+							},
 							["classe"] = "HUNTER",
 							["raid_targets"] = {
 								[128] = 25993,
 							},
 							["total_without_pet"] = 0.008081,
-							["on_hold"] = false,
+							["total"] = 25993.008081,
 							["dps_started"] = false,
 							["end_time"] = 1539191665,
-							["delay"] = 0,
+							["serial"] = "Player-3693-092AD332",
 							["friendlyfire_total"] = 0,
 							["nome"] = "Laurannah",
 							["spells"] = {
@@ -449,15 +1129,14 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["tipo"] = 1,
+							["last_event"] = 1539191664,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1539191664,
-							["friendlyfire"] = {
-							},
+							["tipo"] = 1,
+							["damage_taken"] = 0.008081,
 							["start_time"] = 1539191664,
-							["serial"] = "Player-3693-092AD332",
-							["total"] = 25993.008081,
+							["delay"] = 0,
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 69905,
@@ -469,16 +1148,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["damage_taken"] = 0.007137,
+							["on_hold"] = false,
 							["classe"] = "PET",
 							["raid_targets"] = {
 								[128] = 25993,
 							},
 							["total_without_pet"] = 25993.007137,
-							["friendlyfire_total"] = 0,
+							["end_time"] = 1539191665,
 							["dps_started"] = false,
 							["total"] = 25993.007137,
-							["delay"] = 0,
+							["serial"] = "Pet-0-3779-1116-18407-79755-0102C87817",
 							["ownerName"] = "Laurannah",
 							["nome"] = "Wolf <Laurannah>",
 							["spells"] = {
@@ -501,30 +1180,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 								},
 								["tipo"] = 2,
 							},
 							["friendlyfire"] = {
 							},
-							["tipo"] = 1,
+							["last_event"] = 1539191664,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1539191664,
-							["on_hold"] = false,
+							["tipo"] = 1,
+							["damage_taken"] = 0.007137,
 							["start_time"] = 1539191664,
-							["serial"] = "Pet-0-3779-1116-18407-79755-0102C87817",
-							["end_time"] = 1539191665,
+							["delay"] = 0,
+							["friendlyfire_total"] = 0,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -551,40 +1230,40 @@ _detalhes_database = {
 							["pets"] = {
 								"Wolf <Laurannah>", -- [1]
 							},
-							["last_event"] = 1539191665,
-							["classe"] = "HUNTER",
+							["buff_uptime_targets"] = {
+							},
 							["tipo"] = 4,
+							["last_event"] = 1539191665,
 							["buff_uptime"] = 2,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[225788] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 225788,
-										["uptime"] = 1,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 225788,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[231390] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 231390,
-										["uptime"] = 1,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 231390,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-3693-092AD332",
-							["buff_uptime_targets"] = {
-							},
+							["classe"] = "HUNTER",
 						}, -- [1]
 						{
 							["flag_original"] = 69905,
@@ -592,13 +1271,13 @@ _detalhes_database = {
 							["nome"] = "Wolf <Laurannah>",
 							["pets"] = {
 							},
+							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "PET",
+							["serial"] = "Pet-0-3779-1116-18407-79755-0102C87817",
 							["spell_cast"] = {
 								[2649] = 1,
 							},
-							["last_event"] = 0,
-							["tipo"] = 4,
-							["serial"] = "Pet-0-3779-1116-18407-79755-0102C87817",
-							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -625,21 +1304,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = -2.01902499999992,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 2,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -651,10 +1330,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["Laurannah"] = 25993.008081,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -662,7 +1338,10 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Laurannah"] = 25993.008081,
+						}, -- [1]
 					},
 				},
 				["end_time"] = 682270.373,
@@ -682,25 +1361,25 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 682269.366,
 				["TimeData"] = {
 				},
 				["pvp"] = true,
-			}, -- [2]
+			}, -- [4]
 			{
 				{
 					["tipo"] = 2,
@@ -716,15 +1395,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["damage_taken"] = 0.003319,
+							["friendlyfire"] = {
+							},
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 81830.003319,
-							["classe"] = "HUNTER",
+							["on_hold"] = false,
 							["dps_started"] = false,
 							["total"] = 81830.003319,
-							["delay"] = 0,
+							["serial"] = "Player-3693-092AD332",
 							["end_time"] = 1539191503,
 							["nome"] = "Laurannah",
 							["spells"] = {
@@ -747,30 +1427,29 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 75,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["last_event"] = 1539191502,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["last_event"] = 1539191502,
+							["damage_taken"] = 0.003319,
 							["start_time"] = 1539191502,
-							["serial"] = "Player-3693-092AD332",
-							["on_hold"] = false,
+							["delay"] = 0,
+							["classe"] = "HUNTER",
 						}, -- [1]
 					},
 				}, -- [1]
@@ -796,29 +1475,29 @@ _detalhes_database = {
 							["grupo"] = true,
 							["pets"] = {
 							},
-							["last_event"] = 1539191503,
-							["classe"] = "HUNTER",
+							["buff_uptime_targets"] = {
+							},
 							["tipo"] = 4,
+							["last_event"] = 1539191503,
 							["buff_uptime"] = 1,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[225788] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 225788,
-										["uptime"] = 1,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 225788,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-3693-092AD332",
-							["buff_uptime_targets"] = {
-							},
+							["classe"] = "HUNTER",
 						}, -- [1]
 					},
 				}, -- [4]
@@ -846,21 +1525,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -872,10 +1551,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["Laurannah"] = 81830.003319,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -883,19 +1559,21 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Laurannah"] = 81830.003319,
+						}, -- [1]
 					},
 				},
 				["end_time"] = 682108.263,
 				["combat_id"] = 483,
-				["data_inicio"] = "13:11:43",
+				["instance_type"] = "none",
 				["hasSaved"] = true,
 				["frags"] = {
 					["Warsong Raider"] = 1,
 				},
 				["data_fim"] = "13:11:44",
-				["TimeData"] = {
-				},
+				["contra"] = "Warsong Raider",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -905,24 +1583,25 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 682107.284,
-				["contra"] = "Warsong Raider",
-				["instance_type"] = "none",
-			}, -- [3]
+				["TimeData"] = {
+				},
+				["data_inicio"] = "13:11:43",
+			}, -- [5]
 			{
 				{
 					["tipo"] = 2,
@@ -941,15 +1620,16 @@ _detalhes_database = {
 							["pets"] = {
 								"Clefthoof <Laurannah>", -- [1]
 							},
-							["damage_taken"] = 62.004706,
+							["friendlyfire"] = {
+							},
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 160865.004706,
-							["classe"] = "HUNTER",
+							["on_hold"] = false,
 							["dps_started"] = false,
 							["total"] = 186858.004706,
-							["delay"] = 0,
+							["serial"] = "Player-3693-092AD332",
 							["end_time"] = 1539190854,
 							["nome"] = "Laurannah",
 							["spells"] = {
@@ -972,30 +1652,29 @@ _detalhes_database = {
 										["c_max"] = 160865,
 										["id"] = 75,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 160865,
 										["m_amt"] = 0,
+										["c_min"] = 160865,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["last_event"] = 1539190854,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["last_event"] = 1539190854,
+							["damage_taken"] = 62.004706,
 							["start_time"] = 1539190846,
-							["serial"] = "Player-3693-092AD332",
-							["on_hold"] = false,
+							["delay"] = 0,
+							["classe"] = "HUNTER",
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -1007,16 +1686,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["damage_taken"] = 0.005999,
+							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 25993.005999,
-							["friendlyfire"] = {
-							},
+							["classe"] = "PET",
 							["dps_started"] = false,
 							["total"] = 25993.005999,
-							["delay"] = 0,
+							["serial"] = "Pet-0-3886-1464-13974-90124-0102C87802",
 							["ownerName"] = "Laurannah",
 							["nome"] = "Clefthoof <Laurannah>",
 							["spells"] = {
@@ -1039,29 +1717,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 								},
 								["tipo"] = 2,
 							},
 							["end_time"] = 1539190854,
-							["last_event"] = 1539190854,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
+							["last_event"] = 1539190854,
+							["damage_taken"] = 0.005999,
 							["start_time"] = 1539190854,
-							["serial"] = "Pet-0-3886-1464-13974-90124-0102C87802",
-							["classe"] = "PET",
+							["delay"] = 0,
+							["friendlyfire"] = {
+							},
 						}, -- [2]
 					},
 				}, -- [1]
@@ -1086,74 +1765,72 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[1515] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = 1515,
-										["uptime"] = 5,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 0,
+										["uptime"] = 5,
+										["id"] = 1515,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
-							["pets"] = {
-								"Clefthoof <Laurannah>", -- [1]
-							},
+							["buff_uptime"] = 27,
 							["classe"] = "HUNTER",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[1515] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 1515,
-										["uptime"] = 5,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 5,
+										["id"] = 1515,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[231390] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 231390,
-										["uptime"] = 6,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 6,
+										["id"] = 231390,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[278070] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 278070,
-										["uptime"] = 8,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 278070,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[225788] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 225788,
-										["uptime"] = 8,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 8,
+										["id"] = 225788,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 5,
-							["buff_uptime_targets"] = {
+							["debuff_uptime_targets"] = {
 							},
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -1162,11 +1839,13 @@ _detalhes_database = {
 							},
 							["nome"] = "Laurannah",
 							["tipo"] = 4,
-							["debuff_uptime_targets"] = {
+							["buff_uptime_targets"] = {
 							},
-							["buff_uptime"] = 27,
-							["serial"] = "Player-3693-092AD332",
 							["last_event"] = 1539190854,
+							["serial"] = "Player-3693-092AD332",
+							["pets"] = {
+								"Clefthoof <Laurannah>", -- [1]
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -1174,13 +1853,13 @@ _detalhes_database = {
 							["nome"] = "Clefthoof <Laurannah>",
 							["pets"] = {
 							},
+							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "PET",
+							["serial"] = "Pet-0-3886-1464-13974-90124-0102C87802",
 							["spell_cast"] = {
 								[2649] = 1,
 							},
-							["last_event"] = 0,
-							["tipo"] = 4,
-							["serial"] = "Pet-0-3886-1464-13974-90124-0102C87802",
-							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -1208,21 +1887,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -1234,10 +1913,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["Laurannah"] = 186858.004706,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -1245,19 +1921,21 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Laurannah"] = 186858.004706,
+						}, -- [1]
 					},
 				},
 				["end_time"] = 681458.932,
 				["combat_id"] = 482,
-				["data_inicio"] = "13:00:46",
+				["instance_type"] = "none",
 				["hasSaved"] = true,
 				["frags"] = {
 					["Grom'kar Leadslinger"] = 1,
 				},
 				["data_fim"] = "13:00:54",
-				["TimeData"] = {
-				},
+				["contra"] = "Grom'kar Leadslinger",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -1267,24 +1945,25 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 681450.454,
-				["contra"] = "Grom'kar Leadslinger",
-				["instance_type"] = "none",
-			}, -- [4]
+				["TimeData"] = {
+				},
+				["data_inicio"] = "13:00:46",
+			}, -- [6]
 			{
 				{
 					["tipo"] = 2,
@@ -1302,15 +1981,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["damage_taken"] = 2746.008673,
+							["friendlyfire"] = {
+							},
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 242798.008673,
-							["classe"] = "HUNTER",
+							["on_hold"] = false,
 							["dps_started"] = false,
 							["total"] = 242798.008673,
-							["delay"] = 0,
+							["serial"] = "Player-3693-092AD332",
 							["end_time"] = 1539190809,
 							["nome"] = "Laurannah",
 							["spells"] = {
@@ -1334,30 +2014,29 @@ _detalhes_database = {
 										["c_max"] = 161411,
 										["id"] = 75,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 161411,
 										["m_amt"] = 0,
+										["c_min"] = 161411,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["last_event"] = 1539190808,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["last_event"] = 1539190808,
+							["damage_taken"] = 2746.008673,
 							["start_time"] = 1539190805,
-							["serial"] = "Player-3693-092AD332",
-							["on_hold"] = false,
+							["delay"] = 0,
+							["classe"] = "HUNTER",
 						}, -- [1]
 					},
 				}, -- [1]
@@ -1379,47 +2058,47 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["nome"] = "Laurannah",
-							["grupo"] = true,
 							["buff_uptime_targets"] = {
 							},
+							["grupo"] = true,
+							["nome"] = "Laurannah",
+							["spell_cast"] = {
+								[193455] = 1,
+							},
+							["classe"] = "HUNTER",
 							["pets"] = {
 							},
 							["last_event"] = 1539190809,
 							["buff_uptime"] = 4,
-							["tipo"] = 4,
-							["spell_cast"] = {
-								[193455] = 1,
-							},
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[225788] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 225788,
-										["uptime"] = 4,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 4,
+										["id"] = 225788,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[231390] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 231390,
-										["uptime"] = 0,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 0,
+										["id"] = 231390,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-3693-092AD332",
-							["classe"] = "HUNTER",
+							["tipo"] = 4,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -1447,21 +2126,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
 					["Laurannah"] = {
@@ -1550,10 +2229,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["Laurannah"] = 242798.008673,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -1561,20 +2237,22 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Laurannah"] = 242798.008673,
+						}, -- [1]
 					},
 				},
 				["end_time"] = 681414.276,
 				["combat_id"] = 481,
-				["data_inicio"] = "13:00:05",
+				["instance_type"] = "none",
 				["hasSaved"] = true,
 				["frags"] = {
 					["Emberhide Warbeast"] = 1,
 					["Grom'kar Leadslinger"] = 1,
 				},
 				["data_fim"] = "13:00:10",
-				["TimeData"] = {
-				},
+				["contra"] = "Emberhide Warbeast",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -1584,24 +2262,25 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 681409.607,
-				["contra"] = "Emberhide Warbeast",
-				["instance_type"] = "none",
-			}, -- [5]
+				["TimeData"] = {
+				},
+				["data_inicio"] = "13:00:05",
+			}, -- [7]
 			{
 				{
 					["tipo"] = 2,
@@ -1618,16 +2297,17 @@ _detalhes_database = {
 							["pets"] = {
 								"Bear <Laurannah>", -- [1]
 							},
-							["damage_taken"] = 0.004751,
+							["friendlyfire"] = {
+							},
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 								[128] = 658,
 							},
 							["total_without_pet"] = 0.004751,
-							["classe"] = "HUNTER",
+							["on_hold"] = false,
 							["dps_started"] = false,
 							["total"] = 658.004751,
-							["delay"] = 0,
+							["serial"] = "Player-3693-092AD332",
 							["end_time"] = 1539190346,
 							["nome"] = "Laurannah",
 							["spells"] = {
@@ -1636,15 +2316,14 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["last_event"] = 1539190345,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["last_event"] = 1539190345,
+							["damage_taken"] = 0.004751,
 							["start_time"] = 1539190345,
-							["serial"] = "Player-3693-092AD332",
-							["on_hold"] = false,
+							["delay"] = 0,
+							["classe"] = "HUNTER",
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -1656,17 +2335,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["damage_taken"] = 0.003496,
+							["on_hold"] = false,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 								[128] = 658,
 							},
 							["total_without_pet"] = 658.003496,
-							["friendlyfire"] = {
-							},
+							["classe"] = "PET",
 							["dps_started"] = false,
 							["total"] = 658.003496,
-							["delay"] = 0,
+							["serial"] = "Pet-0-3137-1643-10739-141239-0102C877F2",
 							["ownerName"] = "Laurannah",
 							["nome"] = "Bear <Laurannah>",
 							["spells"] = {
@@ -1689,29 +2367,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
 										["m_amt"] = 0,
+										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_amt"] = 0,
+										["r_amt"] = 0,
 									}, -- [1]
 								},
 								["tipo"] = 2,
 							},
 							["end_time"] = 1539190346,
-							["last_event"] = 1539190345,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
+							["last_event"] = 1539190345,
+							["damage_taken"] = 0.003496,
 							["start_time"] = 1539190345,
-							["serial"] = "Pet-0-3137-1643-10739-141239-0102C877F2",
-							["classe"] = "PET",
+							["delay"] = 0,
+							["friendlyfire"] = {
+							},
 						}, -- [2]
 					},
 				}, -- [1]
@@ -1738,40 +2417,40 @@ _detalhes_database = {
 							["pets"] = {
 								"Bear <Laurannah>", -- [1]
 							},
-							["last_event"] = 1539190346,
-							["classe"] = "HUNTER",
+							["buff_uptime_targets"] = {
+							},
 							["tipo"] = 4,
+							["last_event"] = 1539190346,
 							["buff_uptime"] = 2,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[231390] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 231390,
-										["uptime"] = 1,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 231390,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[225788] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 225788,
-										["uptime"] = 1,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 1,
+										["id"] = 225788,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-3693-092AD332",
-							["buff_uptime_targets"] = {
-							},
+							["classe"] = "HUNTER",
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -1779,13 +2458,13 @@ _detalhes_database = {
 							["nome"] = "Bear <Laurannah>",
 							["pets"] = {
 							},
+							["tipo"] = 4,
+							["last_event"] = 0,
+							["classe"] = "PET",
+							["serial"] = "Pet-0-3137-1643-10739-141239-0102C877F2",
 							["spell_cast"] = {
 								[2649] = 1,
 							},
-							["last_event"] = 0,
-							["tipo"] = 4,
-							["serial"] = "Pet-0-3137-1643-10739-141239-0102C877F2",
-							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [4]
@@ -1812,21 +2491,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = -0.00526499999999963,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -1838,10 +2517,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["Laurannah"] = 658.004751,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -1849,18 +2525,20 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Laurannah"] = 658.004751,
+						}, -- [1]
 					},
 				},
 				["end_time"] = 680951.33,
 				["combat_id"] = 480,
-				["data_inicio"] = "12:52:26",
+				["instance_type"] = "none",
 				["hasSaved"] = true,
 				["frags"] = {
 				},
 				["data_fim"] = "12:52:27",
-				["TimeData"] = {
-				},
+				["contra"] = "Osca the Bloodied",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -1870,24 +2548,25 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 680950.329,
-				["contra"] = "Osca the Bloodied",
-				["instance_type"] = "none",
-			}, -- [6]
+				["TimeData"] = {
+				},
+				["data_inicio"] = "12:52:26",
+			}, -- [8]
 			{
 				{
 					["tipo"] = 2,
@@ -1903,15 +2582,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["damage_taken"] = 8096.006201,
+							["friendlyfire"] = {
+							},
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.006201,
-							["classe"] = "HUNTER",
+							["on_hold"] = false,
 							["dps_started"] = false,
 							["end_time"] = 1539190345,
-							["delay"] = 0,
+							["serial"] = "Player-3693-092AD332",
 							["total"] = 0.006201,
 							["nome"] = "Laurannah",
 							["spells"] = {
@@ -1920,15 +2600,14 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["last_event"] = 0,
+							["tipo"] = 1,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
+							["last_event"] = 0,
+							["damage_taken"] = 8096.006201,
 							["start_time"] = 1539190345,
-							["serial"] = "Player-3693-092AD332",
-							["on_hold"] = false,
+							["delay"] = 0,
+							["classe"] = "HUNTER",
 						}, -- [1]
 					},
 				}, -- [1]
@@ -1959,57 +2638,57 @@ _detalhes_database = {
 										},
 										["actived_at"] = 1539190345,
 										["uptime"] = 0,
-										["counter"] = 0,
+										["appliedamt"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = false,
-										["appliedamt"] = 0,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
-							["buff_uptime"] = 6,
+							["pets"] = {
+							},
 							["classe"] = "HUNTER",
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[1515] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 1515,
-										["uptime"] = 2,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 2,
+										["id"] = 1515,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[231390] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 231390,
-										["uptime"] = 2,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 2,
+										["id"] = 231390,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 									[225788] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 225788,
-										["uptime"] = 2,
+										["appliedamt"] = 1,
 										["targets"] = {
 										},
-										["appliedamt"] = 1,
+										["activedamt"] = 1,
+										["uptime"] = 2,
+										["id"] = 225788,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 0,
-							["buff_uptime_targets"] = {
-							},
+							["nome"] = "Laurannah",
 							["grupo"] = true,
 							["spell_cast"] = {
 								[13481] = 1,
@@ -2017,11 +2696,11 @@ _detalhes_database = {
 							["debuff_uptime_targets"] = {
 							},
 							["tipo"] = 4,
-							["nome"] = "Laurannah",
-							["pets"] = {
+							["buff_uptime_targets"] = {
 							},
-							["serial"] = "Player-3693-092AD332",
 							["last_event"] = 1539190345,
+							["serial"] = "Player-3693-092AD332",
+							["buff_uptime"] = 6,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -2049,21 +2728,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -2075,10 +2754,7 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["Laurannah"] = 0.006201,
-						}, -- [1]
+					["damage_section"] = {
 					},
 					["heal_section"] = {
 					},
@@ -2086,18 +2762,20 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Laurannah"] = 0.006201,
+						}, -- [1]
 					},
 				},
 				["end_time"] = 680950.329,
 				["combat_id"] = 479,
-				["data_inicio"] = "12:52:23",
+				["instance_type"] = "none",
 				["hasSaved"] = true,
 				["frags"] = {
 				},
 				["data_fim"] = "12:52:26",
-				["TimeData"] = {
-				},
+				["contra"] = "Osca the Bloodied",
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -2107,24 +2785,25 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 680947.738,
-				["contra"] = "Osca the Bloodied",
-				["instance_type"] = "none",
-			}, -- [7]
+				["TimeData"] = {
+				},
+				["data_inicio"] = "12:52:23",
+			}, -- [9]
 			{
 				{
 					["tipo"] = 2,
@@ -2141,16 +2820,15 @@ _detalhes_database = {
 							["pets"] = {
 								"Goat <Laurannah>", -- [1]
 							},
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 0.003902,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.003902,
-							["on_hold"] = false,
+							["classe"] = "HUNTER",
 							["dps_started"] = false,
 							["total"] = 657.003902,
-							["serial"] = "Player-3693-092AD332",
+							["delay"] = 0,
 							["end_time"] = 1539188963,
 							["nome"] = "Laurannah",
 							["spells"] = {
@@ -2159,14 +2837,15 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["tipo"] = 1,
+							["last_event"] = 1539188962,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1539188962,
-							["damage_taken"] = 0.003902,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1539188962,
-							["delay"] = 0,
-							["classe"] = "HUNTER",
+							["serial"] = "Player-3693-092AD332",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 69905,
@@ -2178,15 +2857,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 0.008092,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 657.008092,
-							["classe"] = "PET",
+							["friendlyfire"] = {
+							},
 							["dps_started"] = false,
 							["total"] = 657.008092,
-							["serial"] = "Pet-0-3887-1643-15397-143929-0102C877CF",
+							["delay"] = 0,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Goat <Laurannah>",
 							["spells"] = {
@@ -2209,30 +2889,29 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									}, -- [1]
 								},
 								["tipo"] = 2,
 							},
 							["end_time"] = 1539188963,
-							["tipo"] = 1,
+							["last_event"] = 1539188962,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1539188962,
-							["damage_taken"] = 0.008092,
+							["tipo"] = 1,
+							["on_hold"] = false,
 							["start_time"] = 1539188962,
-							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["serial"] = "Pet-0-3887-1643-15397-143929-0102C877CF",
+							["classe"] = "PET",
 						}, -- [2]
 					},
 				}, -- [1]
@@ -2259,40 +2938,40 @@ _detalhes_database = {
 							["pets"] = {
 								"Goat <Laurannah>", -- [1]
 							},
-							["buff_uptime_targets"] = {
-							},
-							["tipo"] = 4,
+							["classe"] = "HUNTER",
 							["last_event"] = 1539188963,
+							["tipo"] = 4,
 							["buff_uptime"] = 2,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[231390] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 231390,
+										["uptime"] = 1,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 1,
-										["id"] = 231390,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[225788] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 225788,
+										["uptime"] = 1,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 1,
-										["id"] = 225788,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-3693-092AD332",
-							["classe"] = "HUNTER",
+							["buff_uptime_targets"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 69905,
@@ -2300,13 +2979,13 @@ _detalhes_database = {
 							["nome"] = "Goat <Laurannah>",
 							["pets"] = {
 							},
-							["tipo"] = 4,
-							["last_event"] = 0,
 							["classe"] = "PET",
-							["serial"] = "Pet-0-3887-1643-15397-143929-0102C877CF",
+							["tipo"] = 4,
 							["spell_cast"] = {
 								[2649] = 1,
 							},
+							["serial"] = "Pet-0-3887-1643-15397-143929-0102C877CF",
+							["last_event"] = 0,
 						}, -- [2]
 					},
 				}, -- [4]
@@ -2333,21 +3012,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = -0.0136289999999946,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -2359,7 +3038,10 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Laurannah"] = 657.003902,
+						}, -- [1]
 					},
 					["heal_section"] = {
 					},
@@ -2367,10 +3049,7 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage"] = {
-						{
-							["Laurannah"] = 657.003902,
-						}, -- [1]
+					["damage_section"] = {
 					},
 				},
 				["end_time"] = 679567.679,
@@ -2390,25 +3069,25 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 679566.678,
 				["TimeData"] = {
 				},
 				["pvp"] = true,
-			}, -- [8]
+			}, -- [10]
 			{
 				{
 					["tipo"] = 2,
@@ -2424,16 +3103,15 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 16020.002183,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.002183,
-							["on_hold"] = false,
+							["classe"] = "HUNTER",
 							["dps_started"] = false,
 							["total"] = 0.002183,
-							["serial"] = "Player-3693-092AD332",
+							["delay"] = 0,
 							["end_time"] = 1539188962,
 							["nome"] = "Laurannah",
 							["spells"] = {
@@ -2442,14 +3120,15 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["tipo"] = 1,
+							["last_event"] = 0,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 0,
-							["damage_taken"] = 16020.002183,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1539188962,
-							["delay"] = 0,
-							["classe"] = "HUNTER",
+							["serial"] = "Player-3693-092AD332",
+							["on_hold"] = false,
 						}, -- [1]
 					},
 				}, -- [1]
@@ -2474,15 +3153,15 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[1515] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = -1,
+										["refreshamt"] = 0,
+										["id"] = 1515,
+										["uptime"] = 7,
 										["targets"] = {
 										},
-										["activedamt"] = -1,
-										["uptime"] = 7,
-										["id"] = 1515,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
@@ -2493,43 +3172,44 @@ _detalhes_database = {
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[1515] = {
-										["appliedamt"] = 2,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 1515,
+										["uptime"] = 8,
 										["targets"] = {
 										},
-										["activedamt"] = 2,
-										["uptime"] = 8,
-										["id"] = 1515,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 2,
 									},
 									[231390] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 231390,
+										["uptime"] = 9,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 9,
-										["id"] = 231390,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[225788] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 225788,
+										["uptime"] = 9,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 9,
-										["id"] = 225788,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 7,
-							["nome"] = "Laurannah",
+							["buff_uptime_targets"] = {
+							},
 							["grupo"] = true,
 							["spell_cast"] = {
 								[1515] = 1,
@@ -2538,11 +3218,10 @@ _detalhes_database = {
 							["debuff_uptime_targets"] = {
 							},
 							["tipo"] = 4,
-							["buff_uptime_targets"] = {
-							},
-							["last_event"] = 1539188962,
-							["serial"] = "Player-3693-092AD332",
+							["nome"] = "Laurannah",
 							["buff_uptime"] = 26,
+							["serial"] = "Player-3693-092AD332",
+							["last_event"] = 1539188962,
 						}, -- [1]
 					},
 				}, -- [4]
@@ -2570,21 +3249,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -2596,7 +3275,10 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Laurannah"] = 0.002183,
+						}, -- [1]
 					},
 					["heal_section"] = {
 					},
@@ -2604,20 +3286,18 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage"] = {
-						{
-							["Laurannah"] = 0.002183,
-						}, -- [1]
+					["damage_section"] = {
 					},
 				},
 				["end_time"] = 679566.678,
 				["combat_id"] = 477,
-				["instance_type"] = "none",
+				["data_inicio"] = "12:29:13",
 				["hasSaved"] = true,
 				["frags"] = {
 				},
 				["data_fim"] = "12:29:22",
-				["contra"] = "Hexed Craghopper",
+				["TimeData"] = {
+				},
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -2627,25 +3307,24 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 679557.51,
-				["TimeData"] = {
-				},
-				["data_inicio"] = "12:29:13",
-			}, -- [9]
+				["contra"] = "Hexed Craghopper",
+				["instance_type"] = "none",
+			}, -- [11]
 			{
 				{
 					["tipo"] = 2,
@@ -2662,19 +3341,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
+							["total"] = 3524399.008573,
+							["tipo"] = 1,
 							["classe"] = "HUNTER",
-							["last_event"] = 1539188555,
-							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 3524399.008573,
-							["serial"] = "Player-3693-092AD332",
+							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1539188561,
-							["boss_fight_component"] = true,
-							["friendlyfire"] = {
-							},
 							["nome"] = "Laurannah",
+							["damage_taken"] = 795.008573,
+							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
 									[75] = {
@@ -2695,16 +3373,16 @@ _detalhes_database = {
 										["c_max"] = 690031,
 										["id"] = 75,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 690031,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 8,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
@@ -2713,11 +3391,12 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 795.008573,
+							["last_event"] = 1539188555,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1539188533,
-							["delay"] = 0,
-							["total"] = 3524399.008573,
+							["serial"] = "Player-3693-092AD332",
+							["friendlyfire_total"] = 0,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -2732,18 +3411,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["monster"] = true,
-							["boss_fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Chimaeron",
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 797.004358,
-							["serial"] = "Creature-0-3020-669-21045-43296-00003E25B2",
-							["dps_started"] = false,
+							["delay"] = 0,
+							["monster"] = true,
 							["total"] = 797.004358,
 							["end_time"] = 1539188561,
-							["on_hold"] = false,
-							["nome"] = "Chimaeron",
+							["damage_taken"] = 3524401.004358,
+							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -2762,19 +3441,19 @@ _detalhes_database = {
 										["counter"] = 9,
 										["total"] = 795,
 										["c_max"] = 209,
-										["DODGE"] = 1,
+										["r_amt"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
+										["c_min"] = 209,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
-										["c_min"] = 209,
+										["a_amt"] = 0,
 										["n_amt"] = 7,
-										["a_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["DODGE"] = 1,
 									}, -- [1]
 									[82890] = {
 										["c_amt"] = 0,
@@ -2793,15 +3472,15 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 82890,
 										["r_dmg"] = 0,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
 									},
 									[82882] = {
 										["c_amt"] = 0,
@@ -2821,16 +3500,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 82882,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 									[82934] = {
 										["c_amt"] = 0,
@@ -2849,29 +3528,29 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 82934,
 										["r_dmg"] = 0,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["last_event"] = 1539188559,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["friendlyfire"] = {
 							},
-							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 3524401.004358,
+							["last_event"] = 1539188559,
+							["on_hold"] = false,
 							["start_time"] = 1539188535,
-							["delay"] = 0,
-							["friendlyfire_total"] = 0,
+							["serial"] = "Creature-0-3020-669-21045-43296-00003E25B2",
+							["dps_started"] = false,
 						}, -- [2]
 					},
 				}, -- [1]
@@ -2896,15 +3575,15 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[1515] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 1515,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["activedamt"] = 0,
-										["uptime"] = 5,
-										["id"] = 1515,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
@@ -2914,69 +3593,69 @@ _detalhes_database = {
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[1515] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 1515,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 5,
-										["id"] = 1515,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[231390] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 231390,
+										["uptime"] = 3,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 3,
-										["id"] = 231390,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[278070] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 278070,
+										["uptime"] = 10,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 10,
-										["id"] = 278070,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[225788] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 225788,
+										["uptime"] = 28,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 28,
-										["id"] = 225788,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 5,
-							["buff_uptime_targets"] = {
+							["debuff_uptime_targets"] = {
 							},
 							["grupo"] = true,
 							["spell_cast"] = {
 								[1515] = 1,
 								[13481] = 1,
 							},
-							["nome"] = "Laurannah",
-							["debuff_uptime_targets"] = {
+							["boss_fight_component"] = true,
+							["buff_uptime_targets"] = {
 							},
 							["last_event"] = 1539188561,
-							["tipo"] = 4,
+							["nome"] = "Laurannah",
 							["pets"] = {
 							},
 							["serial"] = "Player-3693-092AD332",
-							["boss_fight_component"] = true,
+							["tipo"] = 4,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
@@ -2992,38 +3671,38 @@ _detalhes_database = {
 							["monster"] = true,
 							["debuff_uptime"] = 22,
 							["spellschool"] = 1,
+							["boss_fight_component"] = true,
 							["debuff_uptime_targets"] = {
 								["Laurannah"] = {
 									["uptime"] = 22,
-									["appliedamt"] = 0,
+									["refreshamt"] = 0,
 									["activedamt"] = 0,
 									["actived"] = false,
-									["refreshamt"] = 0,
+									["appliedamt"] = 0,
 								},
 							},
-							["boss_fight_component"] = true,
-							["nome"] = "Break",
+							["last_event"] = 1539188561,
 							["tipo"] = 4,
 							["damage_twin"] = "Chimaeron",
-							["damage_spellid"] = 82881,
 							["serial"] = "Creature-0-3020-669-21045-43296-00003E25B2",
-							["last_event"] = 1539188561,
+							["damage_spellid"] = 82881,
+							["nome"] = "Break",
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
-							["tipo"] = 4,
+							["last_event"] = 0,
 							["nome"] = "Chimaeron",
 							["pets"] = {
 							},
-							["boss_fight_component"] = true,
+							["classe"] = "UNKNOW",
 							["spell_cast"] = {
 								[82890] = 1,
 								[82934] = 1,
 							},
-							["last_event"] = 0,
+							["tipo"] = 4,
 							["monster"] = true,
 							["serial"] = "Creature-0-3020-669-21045-43296-00003E25B2",
-							["classe"] = "UNKNOW",
+							["boss_fight_component"] = true,
 						}, -- [3]
 						{
 							["flag_original"] = 68168,
@@ -3039,22 +3718,22 @@ _detalhes_database = {
 							["monster"] = true,
 							["debuff_uptime"] = 5,
 							["spellschool"] = 1,
+							["boss_fight_component"] = true,
 							["debuff_uptime_targets"] = {
 								["Laurannah"] = {
 									["uptime"] = 5,
-									["appliedamt"] = 0,
+									["refreshamt"] = 0,
 									["activedamt"] = 0,
 									["actived"] = false,
-									["refreshamt"] = 0,
+									["appliedamt"] = 0,
 								},
 							},
-							["boss_fight_component"] = true,
-							["nome"] = "Mortality",
+							["last_event"] = 1539188560,
 							["tipo"] = 4,
 							["damage_twin"] = "Chimaeron",
-							["damage_spellid"] = 82890,
 							["serial"] = "Creature-0-3020-669-21045-43296-00003E25B2",
-							["last_event"] = 1539188560,
+							["damage_spellid"] = 82890,
+							["nome"] = "Mortality",
 						}, -- [4]
 					},
 				}, -- [4]
@@ -3082,21 +3761,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = -0.0169439999999996,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -3108,7 +3787,10 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Laurannah"] = 3524399.008573,
+						}, -- [1]
 					},
 					["heal_section"] = {
 					},
@@ -3116,16 +3798,14 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage"] = {
-						{
-							["Laurannah"] = 3524399.008573,
-						}, -- [1]
+					["damage_section"] = {
 					},
 				},
 				["end_time"] = 679165.776,
 				["combat_id"] = 476,
-				["contra"] = "Chimaeron",
-				["instance_type"] = "raid",
+				["TimeData"] = {
+				},
+				["data_fim"] = "12:22:41",
 				["hasSaved"] = true,
 				["frags"] = {
 				},
@@ -3137,9 +3817,9 @@ _detalhes_database = {
 					["mapid"] = 669,
 					["try_number"] = 1,
 					["name"] = "Chimaeron",
-					["id"] = 1023,
-					["ej_instance_id"] = 73,
 					["diff"] = 4,
+					["ej_instance_id"] = 73,
+					["id"] = 1023,
 				},
 				["data_inicio"] = "12:22:14",
 				["CombatSkillCache"] = {
@@ -3151,25 +3831,24 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 679138.603,
-				["TimeData"] = {
-				},
-				["data_fim"] = "12:22:41",
-			}, -- [10]
+				["contra"] = "Chimaeron",
+				["instance_type"] = "raid",
+			}, -- [12]
 			{
 				{
 					["tipo"] = 2,
@@ -3190,19 +3869,18 @@ _detalhes_database = {
 								"Varian <Laurannah>", -- [1]
 								"Anduin <Laurannah>", -- [2]
 							},
+							["total"] = 6795503.001907,
+							["tipo"] = 1,
 							["classe"] = "HUNTER",
-							["last_event"] = 1539188411,
-							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 4676542.001907,
-							["serial"] = "Player-3693-092AD332",
+							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1539188411,
-							["boss_fight_component"] = true,
-							["friendlyfire"] = {
-							},
 							["nome"] = "Laurannah",
+							["damage_taken"] = 76.001907,
+							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
 									[120361] = {
@@ -3225,16 +3903,16 @@ _detalhes_database = {
 										["c_max"] = 285849,
 										["id"] = 120361,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 285849,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 13,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 									[75] = {
 										["c_amt"] = 1,
@@ -3254,16 +3932,16 @@ _detalhes_database = {
 										["c_max"] = 708336,
 										["id"] = 75,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 708336,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 									[193455] = {
 										["c_amt"] = 2,
@@ -3283,16 +3961,16 @@ _detalhes_database = {
 										["c_max"] = 735452,
 										["id"] = 193455,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 735451,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
@@ -3301,11 +3979,12 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 76.001907,
+							["last_event"] = 1539188411,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1539188403,
-							["delay"] = 0,
-							["total"] = 6795503.001907,
+							["serial"] = "Player-3693-092AD332",
+							["friendlyfire_total"] = 0,
 						}, -- [1]
 						{
 							["flag_original"] = 2632,
@@ -3320,18 +3999,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["monster"] = true,
-							["boss_fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Magmaw",
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 76.001419,
-							["serial"] = "Vehicle-0-3020-669-21045-41570-00003E25B2",
-							["dps_started"] = false,
+							["delay"] = 0,
+							["monster"] = true,
 							["total"] = 76.001419,
 							["end_time"] = 1539188411,
-							["on_hold"] = false,
-							["nome"] = "Magmaw",
+							["damage_taken"] = 5795029.001419,
+							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
 									[78068] = {
@@ -3352,15 +4031,15 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 78068,
 										["r_dmg"] = 0,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["c_min"] = 0,
-										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
 									},
 									[78359] = {
 										["c_amt"] = 0,
@@ -3380,30 +4059,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 78359,
 										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["last_event"] = 1539188410,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["friendlyfire"] = {
 							},
-							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 5795029.001419,
+							["last_event"] = 1539188410,
+							["on_hold"] = false,
 							["start_time"] = 1539188408,
-							["delay"] = 0,
-							["friendlyfire_total"] = 0,
+							["serial"] = "Vehicle-0-3020-669-21045-41570-00003E25B2",
+							["dps_started"] = false,
 						}, -- [2]
 						{
 							["flag_original"] = 2632,
@@ -3415,33 +4094,33 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["monster"] = true,
-							["nome"] = "Drakonid Chainwielder",
+							["friendlyfire_total"] = 0,
+							["boss_fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.004127,
-							["serial"] = "Creature-0-3020-669-21045-42649-00003E25B2",
-							["dps_started"] = false,
+							["delay"] = 0,
+							["monster"] = true,
 							["total"] = 0.004127,
-							["damage_taken"] = 142925.004127,
 							["on_hold"] = false,
-							["boss_fight_component"] = true,
+							["friendlyfire"] = {
+							},
+							["nome"] = "Drakonid Chainwielder",
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 2,
 							},
-							["tipo"] = 1,
-							["end_time"] = 1539188411,
-							["last_dps"] = 0,
-							["custom"] = 0,
 							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
+							["last_dps"] = 0,
+							["end_time"] = 1539188411,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 142925.004127,
 							["start_time"] = 1539188411,
-							["delay"] = 0,
-							["friendlyfire_total"] = 0,
+							["serial"] = "Creature-0-3020-669-21045-42649-00003E25B2",
+							["dps_started"] = false,
 						}, -- [3]
 						{
 							["flag_original"] = 68168,
@@ -3453,18 +4132,19 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["monster"] = true,
-							["nome"] = "Drakonid Drudge",
+							["friendlyfire_total"] = 0,
+							["boss_fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.00656,
-							["serial"] = "Creature-0-3020-669-21045-42362-0000BE25B2",
-							["dps_started"] = false,
+							["delay"] = 0,
+							["monster"] = true,
 							["total"] = 0.00656,
-							["damage_taken"] = 857549.00656,
 							["on_hold"] = false,
-							["boss_fight_component"] = true,
+							["friendlyfire"] = {
+							},
+							["nome"] = "Drakonid Drudge",
 							["spells"] = {
 								["_ActorTable"] = {
 									[80035] = {
@@ -3484,29 +4164,28 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 80035,
 										["r_dmg"] = 0,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 2,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["tipo"] = 1,
-							["end_time"] = 1539188411,
-							["last_dps"] = 0,
-							["custom"] = 0,
 							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
+							["last_dps"] = 0,
+							["end_time"] = 1539188411,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 857549.00656,
 							["start_time"] = 1539188411,
-							["delay"] = 0,
-							["friendlyfire_total"] = 0,
+							["serial"] = "Creature-0-3020-669-21045-42362-0000BE25B2",
+							["dps_started"] = false,
 						}, -- [4]
 						{
 							["flag_original"] = 4369,
@@ -3518,18 +4197,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 859056.006558,
-							["last_event"] = 1539188411,
+							["classe"] = "PET",
+							["tipo"] = 1,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 859056.006558,
-							["serial"] = "Pet-0-3133-0-16575-50159-0102C5DB6C",
+							["delay"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1539188411,
-							["boss_fight_component"] = true,
-							["ownerName"] = "Laurannah",
+							["total"] = 859056.006558,
 							["nome"] = "Varian <Laurannah>",
+							["ownerName"] = "Laurannah",
+							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -3550,16 +4229,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 3,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									}, -- [1]
 									[83381] = {
 										["c_amt"] = 0,
@@ -3579,30 +4258,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 83381,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 0.006558,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.006558,
+							["last_event"] = 1539188411,
+							["on_hold"] = false,
 							["start_time"] = 1539188408,
-							["delay"] = 0,
-							["classe"] = "PET",
+							["serial"] = "Pet-0-3133-0-16575-50159-0102C5DB6C",
+							["end_time"] = 1539188411,
 						}, -- [5]
 						{
 							["flag_original"] = 4369,
@@ -3614,18 +4293,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 1259905.001095,
-							["last_event"] = 1539188411,
+							["classe"] = "PET",
+							["tipo"] = 1,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1259905.001095,
-							["serial"] = "Pet-0-3133-0-16575-50159-0102C68B02",
+							["delay"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1539188411,
-							["boss_fight_component"] = true,
-							["ownerName"] = "Laurannah",
+							["total"] = 1259905.001095,
 							["nome"] = "Anduin <Laurannah>",
+							["ownerName"] = "Laurannah",
+							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -3646,16 +4325,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 3,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									}, -- [1]
 									[16827] = {
 										["c_amt"] = 0,
@@ -3675,16 +4354,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 16827,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 									[83381] = {
 										["c_amt"] = 0,
@@ -3704,30 +4383,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 83381,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 0.001095,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.001095,
+							["last_event"] = 1539188411,
+							["on_hold"] = false,
 							["start_time"] = 1539188408,
-							["delay"] = 0,
-							["classe"] = "PET",
+							["serial"] = "Pet-0-3133-0-16575-50159-0102C68B02",
+							["end_time"] = 1539188411,
 						}, -- [6]
 					},
 				}, -- [1]
@@ -3739,28 +4418,28 @@ _detalhes_database = {
 							["flag_original"] = 1297,
 							["totalabsorb"] = 0.002284,
 							["last_hps"] = 0,
-							["healing_from"] = {
-								["Laurannah"] = true,
+							["targets_overheal"] = {
+								["Laurannah"] = 110297,
 							},
 							["targets"] = {
 								["Laurannah"] = 110318,
 							},
-							["healing_taken"] = 21.002284,
+							["delay"] = 0,
 							["pets"] = {
 							},
-							["totalover_without_pet"] = 0.002284,
-							["targets_overheal"] = {
-								["Laurannah"] = 110297,
+							["iniciar_hps"] = false,
+							["healing_from"] = {
+								["Laurannah"] = true,
 							},
-							["classe"] = "HUNTER",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 110297.002284,
 							["total_without_pet"] = 21.002284,
-							["iniciar_hps"] = false,
-							["start_time"] = 1539188409,
-							["heal_enemy_amt"] = 0,
-							["end_time"] = 1539188411,
+							["totalover_without_pet"] = 0.002284,
+							["totaldenied"] = 0.002284,
+							["healing_taken"] = 21.002284,
 							["total"] = 21.002284,
-							["nome"] = "Laurannah",
+							["classe"] = "HUNTER",
+							["end_time"] = 1539188411,
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -3784,29 +4463,29 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 21,
-										["n_amt"] = 1,
-										["totaldenied"] = 0,
 										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 1,
+										["n_curado"] = 21,
+										["m_amt"] = 0,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["serial"] = "Player-3693-092AD332",
+							["tipo"] = 2,
 							["heal_enemy"] = {
 							},
-							["targets_absorbs"] = {
-							},
+							["nome"] = "Laurannah",
 							["custom"] = 0,
 							["last_event"] = 1539188409,
 							["on_hold"] = false,
-							["totaldenied"] = 0.002284,
-							["delay"] = 0,
-							["tipo"] = 2,
+							["start_time"] = 1539188409,
+							["serial"] = "Player-3693-092AD332",
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -3822,129 +4501,129 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["boss_fight_component"] = true,
+							["nome"] = "Laurannah",
 							["buff_uptime_targets"] = {
 							},
 							["grupo"] = true,
-							["nome"] = "Laurannah",
+							["boss_fight_component"] = true,
+							["buff_uptime"] = 23,
+							["last_event"] = 1539188411,
 							["spell_cast"] = {
 								[193455] = 2,
 								[34026] = 1,
 							},
-							["tipo"] = 4,
+							["classe"] = "HUNTER",
 							["pets"] = {
 								"Anduin <Laurannah>", -- [1]
 							},
-							["classe"] = "HUNTER",
-							["buff_uptime"] = 23,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[186258] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 186258,
+										["uptime"] = 2,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 2,
-										["id"] = 186258,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[225788] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 225788,
+										["uptime"] = 8,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 8,
-										["id"] = 225788,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[279902] = {
-										["appliedamt"] = 2,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 279902,
+										["uptime"] = 7,
 										["targets"] = {
 										},
-										["activedamt"] = 2,
-										["uptime"] = 7,
-										["id"] = 279902,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 2,
 									},
 									[35079] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 35079,
+										["uptime"] = 6,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 6,
-										["id"] = 35079,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[120360] = {
-										["appliedamt"] = 0,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 120360,
+										["uptime"] = 0,
 										["targets"] = {
 										},
-										["activedamt"] = 0,
-										["uptime"] = 0,
-										["id"] = 120360,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 0,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-3693-092AD332",
-							["last_event"] = 1539188411,
+							["tipo"] = 4,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
-							["tipo"] = 4,
+							["last_event"] = 0,
 							["nome"] = "Drakonid Drudge",
 							["pets"] = {
 							},
-							["boss_fight_component"] = true,
+							["classe"] = "UNKNOW",
 							["spell_cast"] = {
 								[80035] = 2,
 							},
-							["last_event"] = 0,
+							["tipo"] = 4,
 							["monster"] = true,
 							["serial"] = "Creature-0-3020-669-21045-42362-0000BE25B2",
-							["classe"] = "UNKNOW",
+							["boss_fight_component"] = true,
 						}, -- [2]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Anduin <Laurannah>",
-							["tipo"] = 4,
+							["classe"] = "PET",
 							["spell_cast"] = {
 								[61684] = 1,
 								[16827] = 1,
 							},
-							["boss_fight_component"] = true,
-							["last_event"] = 0,
-							["classe"] = "PET",
-							["serial"] = "Pet-0-3133-0-16575-50159-0102C68B02",
 							["pets"] = {
 							},
+							["tipo"] = 4,
+							["last_event"] = 0,
+							["serial"] = "Pet-0-3133-0-16575-50159-0102C68B02",
+							["boss_fight_component"] = true,
 						}, -- [3]
 						{
 							["flag_original"] = 68168,
-							["tipo"] = 4,
+							["last_event"] = 0,
 							["nome"] = "Magmaw",
 							["pets"] = {
 							},
-							["boss_fight_component"] = true,
+							["classe"] = "UNKNOW",
 							["spell_cast"] = {
 								[78068] = 1,
 							},
-							["last_event"] = 0,
+							["tipo"] = 4,
 							["monster"] = true,
 							["serial"] = "Vehicle-0-3020-669-21045-41570-00003E25B2",
-							["classe"] = "UNKNOW",
+							["boss_fight_component"] = true,
 						}, -- [4]
 					},
 				}, -- [4]
@@ -3972,21 +4651,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -3998,7 +4677,10 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Laurannah"] = 6795503.001907,
+						}, -- [1]
 					},
 					["heal_section"] = {
 					},
@@ -4007,16 +4689,14 @@ _detalhes_database = {
 							["Laurannah"] = 21.002284,
 						}, -- [1]
 					},
-					["damage"] = {
-						{
-							["Laurannah"] = 6795503.001907,
-						}, -- [1]
+					["damage_section"] = {
 					},
 				},
 				["end_time"] = 679016.73,
 				["combat_id"] = 475,
-				["contra"] = "Magmaw",
-				["instance_type"] = "raid",
+				["TimeData"] = {
+				},
+				["data_fim"] = "12:20:12",
 				["hasSaved"] = true,
 				["frags"] = {
 					["Drakonid Chainwielder"] = 1,
@@ -4032,8 +4712,8 @@ _detalhes_database = {
 					["try_number"] = 1,
 					["name"] = "Magmaw",
 					["diff"] = 4,
-					["id"] = 1024,
 					["ej_instance_id"] = 73,
+					["id"] = 1024,
 					["killed"] = true,
 				},
 				["data_inicio"] = "12:20:03",
@@ -4046,3211 +4726,3210 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 679008.139,
-				["TimeData"] = {
-				},
-				["data_fim"] = "12:20:12",
-			}, -- [11]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 474,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1300,
-							["totalabsorbed"] = 0.00659,
-							["damage_from"] = {
-								["Environment (Falling)"] = true,
-								["Fenryr"] = true,
-								["Ebonclaw Packmate"] = true,
-							},
-							["targets"] = {
-								["Ebonclaw Packmate"] = 8710,
-								["Fenryr"] = 171749,
-							},
-							["pets"] = {
-								"Anduin <Laurannah>", -- [1]
-								"Varian <Laurannah>", -- [2]
-							},
-							["classe"] = "HUNTER",
-							["last_event"] = 1539187747,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 89769.00659,
-							["serial"] = "Player-3693-092AD332",
-							["dps_started"] = false,
-							["end_time"] = 1539187747,
-							["boss_fight_component"] = true,
-							["friendlyfire"] = {
-							},
-							["nome"] = "Laurannah",
-							["spells"] = {
-								["_ActorTable"] = {
-									[193455] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 7565,
-										["g_amt"] = 0,
-										["n_max"] = 3782,
-										["targets"] = {
-											["Fenryr"] = 29923,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 22358,
-										["n_min"] = 2752,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 29923,
-										["c_max"] = 7565,
-										["id"] = 193455,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 7565,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 7,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[75] = {
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 24938,
-										["g_amt"] = 0,
-										["n_max"] = 3690,
-										["targets"] = {
-											["Fenryr"] = 38788,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 13850,
-										["n_min"] = 3380,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 38788,
-										["c_max"] = 7178,
-										["id"] = 75,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 5167,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[171457] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 8710,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Ebonclaw Packmate"] = 8710,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 8710,
-										["c_max"] = 8710,
-										["id"] = 171457,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 8710,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[269031] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 3110,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Fenryr"] = 3110,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 3110,
-										["c_max"] = 3110,
-										["id"] = 269031,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 3110,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[171454] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 4355,
-										["targets"] = {
-											["Fenryr"] = 4355,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 4355,
-										["n_min"] = 4355,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 4355,
-										["c_max"] = 0,
-										["id"] = 171454,
-										["r_dmg"] = 0,
-										["spellschool"] = 16,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[217200] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 584,
-										["targets"] = {
-											["Fenryr"] = 4883,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 4883,
-										["n_min"] = 530,
-										["g_dmg"] = 0,
-										["counter"] = 9,
-										["total"] = 4883,
-										["c_max"] = 0,
-										["id"] = 217200,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 9,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["grupo"] = true,
-							["on_hold"] = false,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 17749.00659,
-							["start_time"] = 1539187726,
-							["delay"] = 0,
-							["total"] = 180459.00659,
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["totalabsorbed"] = 0.008078,
-							["damage_from"] = {
-								["Fenryr"] = true,
-							},
-							["targets"] = {
-								["Fenryr"] = 57056,
-							},
-							["pets"] = {
-							},
-							["total"] = 57056.008078,
-							["last_event"] = 1539187747,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 57056.008078,
-							["serial"] = "Pet-0-3133-1477-19893-50159-0102C68B02",
-							["dps_started"] = false,
-							["end_time"] = 1539187747,
-							["boss_fight_component"] = true,
-							["ownerName"] = "Laurannah",
-							["nome"] = "Anduin <Laurannah>",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 4680,
-										["g_amt"] = 0,
-										["n_max"] = 1170,
-										["targets"] = {
-											["Fenryr"] = 16809,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 12129,
-										["n_min"] = 851,
-										["g_dmg"] = 0,
-										["counter"] = 14,
-										["total"] = 16809,
-										["c_max"] = 2340,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 2340,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 12,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[83381] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 5242,
-										["targets"] = {
-											["Fenryr"] = 14121,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 14121,
-										["n_min"] = 3876,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 14121,
-										["c_max"] = 0,
-										["id"] = 83381,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[16827] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 8417,
-										["g_amt"] = 0,
-										["n_max"] = 4209,
-										["targets"] = {
-											["Fenryr"] = 26126,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 17709,
-										["n_min"] = 3000,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 26126,
-										["c_max"] = 8417,
-										["id"] = 16827,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 8417,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 5,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["on_hold"] = false,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 3465.008078,
-							["start_time"] = 1539187726,
-							["delay"] = 0,
-							["classe"] = "PET",
-						}, -- [2]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 0.001188,
-							["damage_from"] = {
-								["Varian <Laurannah>"] = true,
-								["Laurannah"] = true,
-								["Anduin <Laurannah>"] = true,
-							},
-							["targets"] = {
-								["Laurannah"] = 3123,
-								["Anduin <Laurannah>"] = 3465,
-							},
-							["pets"] = {
-							},
-							["monster"] = true,
-							["boss_fight_component"] = true,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 6588.001188,
-							["serial"] = "Creature-0-3133-1477-19893-99868-00003E23FD",
-							["dps_started"] = false,
-							["total"] = 6588.001188,
-							["end_time"] = 1539187747,
-							["on_hold"] = false,
-							["nome"] = "Fenryr",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1713,
-										["targets"] = {
-											["Laurannah"] = 1713,
-											["Anduin"] = 0,
-											["Anduin <Laurannah>"] = 3465,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 5178,
-										["n_min"] = 920,
-										["g_dmg"] = 0,
-										["counter"] = 11,
-										["MISS"] = 3,
-										["r_amt"] = 0,
-										["c_max"] = 0,
-										["DODGE"] = 4,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 4,
-										["spellschool"] = 1,
-										["total"] = 5178,
-									}, -- [1]
-									[196543] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Laurannah"] = 0,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 196543,
-										["r_dmg"] = 0,
-										["MISS"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[196497] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 671,
-										["targets"] = {
-											["Laurannah"] = 671,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 671,
-										["n_min"] = 671,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 671,
-										["c_max"] = 0,
-										["id"] = 196497,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[197558] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 197558,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
-									},
-									[196496] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 739,
-										["targets"] = {
-											["Laurannah"] = 739,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 739,
-										["n_min"] = 739,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 739,
-										["c_max"] = 0,
-										["id"] = 196496,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["last_event"] = 1539187767,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 171749.001188,
-							["start_time"] = 1539187727,
-							["delay"] = 0,
-							["friendlyfire_total"] = 0,
-						}, -- [3]
-						{
-							["flag_original"] = 4369,
-							["totalabsorbed"] = 0.00122,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Fenryr"] = 33634,
-							},
-							["pets"] = {
-							},
-							["total"] = 33634.00122,
-							["last_event"] = 1539187747,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 33634.00122,
-							["serial"] = "Pet-0-3133-1477-19893-50159-0202C5DB6C",
-							["dps_started"] = false,
-							["end_time"] = 1539187747,
-							["boss_fight_component"] = true,
-							["ownerName"] = "Laurannah",
-							["nome"] = "Varian <Laurannah>",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 2340,
-										["g_amt"] = 0,
-										["n_max"] = 1170,
-										["targets"] = {
-											["Fenryr"] = 15638,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 13298,
-										["n_min"] = 851,
-										["g_dmg"] = 0,
-										["counter"] = 14,
-										["total"] = 15638,
-										["c_max"] = 2340,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 2340,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 13,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[83381] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 7751,
-										["g_amt"] = 0,
-										["n_max"] = 5242,
-										["targets"] = {
-											["Fenryr"] = 17996,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 10245,
-										["n_min"] = 5003,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 17996,
-										["c_max"] = 7751,
-										["id"] = 83381,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 7751,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["on_hold"] = false,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.00122,
-							["start_time"] = 1539187726,
-							["delay"] = 0,
-							["classe"] = "PET",
-						}, -- [4]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.005496,
-							["damage_from"] = {
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["monster"] = true,
-							["nome"] = "Unknown",
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.005496,
-							["serial"] = "Creature-0-3133-1477-19893-99922-00003E2415",
-							["dps_started"] = false,
-							["total"] = 0.005496,
-							["damage_taken"] = 0.005496,
-							["on_hold"] = false,
-							["boss_fight_component"] = true,
-							["spells"] = {
-								["_ActorTable"] = {
-									[207707] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 207707,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 3,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["tipo"] = 1,
-							["end_time"] = 1539187747,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1539187747,
-							["delay"] = 0,
-							["friendlyfire_total"] = 0,
-						}, -- [5]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.003752,
-							["damage_from"] = {
-								["Laurannah"] = true,
-							},
-							["targets"] = {
-								["Laurannah"] = 12050,
-							},
-							["pets"] = {
-							},
-							["monster"] = true,
-							["boss_fight_component"] = true,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 12050.003752,
-							["serial"] = "Creature-0-3133-1477-19893-99922-00013E2415",
-							["dps_started"] = false,
-							["total"] = 12050.003752,
-							["end_time"] = 1539187747,
-							["on_hold"] = false,
-							["nome"] = "Ebonclaw Packmate",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 978,
-										["targets"] = {
-											["Laurannah"] = 12050,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 12050,
-										["n_min"] = 659,
-										["g_dmg"] = 0,
-										["counter"] = 24,
-										["MISS"] = 4,
-										["r_amt"] = 0,
-										["c_max"] = 0,
-										["DODGE"] = 5,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 15,
-										["spellschool"] = 1,
-										["total"] = 12050,
-									}, -- [1]
-								},
-								["tipo"] = 2,
-							},
-							["last_event"] = 1539187746,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 8710.003752,
-							["start_time"] = 1539187737,
-							["delay"] = 0,
-							["friendlyfire_total"] = 0,
-						}, -- [6]
-						{
-							["flag_original"] = -2147483648,
-							["totalabsorbed"] = 0.004388,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Bibbee-Dalaran"] = 13088,
-								["Wolfmanner-MoonGuard"] = 6098,
-								["Harrisons"] = 21612,
-								["Espyri-Dalaran"] = 11575,
-								["Thiccho"] = 330,
-								["Laurannah"] = 2576,
-								["Walkinplague-Stormrage"] = 7941,
-								["Cojo"] = 609,
-							},
-							["pets"] = {
-							},
-							["tipo"] = 1,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 63829.004388,
-							["end_time"] = 1539188351,
-							["dps_started"] = false,
-							["total"] = 63829.004388,
-							["serial"] = "",
-							["boss_fight_component"] = true,
-							["nome"] = "Environment (Falling)",
-							["spells"] = {
-								["_ActorTable"] = {
-									[3] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 21612,
-										["targets"] = {
-											["Bibbee-Dalaran"] = 13088,
-											["Wolfmanner-MoonGuard"] = 6098,
-											["Harrisons"] = 21612,
-											["Espyri-Dalaran"] = 11575,
-											["Thiccho"] = 330,
-											["Laurannah"] = 2576,
-											["Walkinplague-Stormrage"] = 7941,
-											["Cojo"] = 609,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 63829,
-										["n_min"] = 233,
-										["g_dmg"] = 0,
-										["counter"] = 9,
-										["total"] = 63829,
-										["c_max"] = 0,
-										["id"] = 3,
-										["r_dmg"] = 0,
-										["spellschool"] = 3,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 9,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["on_hold"] = false,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1539187974,
-							["damage_taken"] = 0.004388,
-							["start_time"] = 1539188335,
-							["delay"] = 1539187974,
-							["classe"] = "UNKNOW",
-						}, -- [7]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.001368,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Alpine Hare"] = 6,
-							},
-							["pets"] = {
-							},
-							["monster"] = true,
-							["nome"] = "Snow Tracker Wolf",
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 6.001368,
-							["serial"] = "Creature-0-3133-0-16826-41478-00003E19AA",
-							["dps_started"] = false,
-							["total"] = 6.001368,
-							["end_time"] = 1539188351,
-							["on_hold"] = false,
-							["boss_fight_component"] = true,
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 6,
-										["targets"] = {
-											["Alpine Hare"] = 6,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 6,
-										["n_min"] = 6,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 6,
-										["c_max"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-								},
-								["tipo"] = 2,
-							},
-							["last_event"] = 1539188024,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.001368,
-							["start_time"] = 1539188350,
-							["delay"] = 1539188024,
-							["friendlyfire_total"] = 0,
-						}, -- [8]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.00655,
-							["damage_from"] = {
-								["Warskool-Stormrage"] = true,
-							},
-							["targets"] = {
-								["Warskool-Stormrage"] = 140,
-							},
-							["pets"] = {
-							},
-							["monster"] = true,
-							["nome"] = "Dark Iron Steamsmith",
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 140.00655,
-							["serial"] = "Vehicle-0-3882-0-18662-5840-00003E1C8F",
-							["dps_started"] = false,
-							["total"] = 140.00655,
-							["end_time"] = 1539188351,
-							["on_hold"] = false,
-							["boss_fight_component"] = true,
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 140,
-										["targets"] = {
-											["Warskool-Stormrage"] = 140,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 140,
-										["n_min"] = 140,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 140,
-										["c_max"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-								},
-								["tipo"] = 2,
-							},
-							["last_event"] = 1539188073,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 354.00655,
-							["start_time"] = 1539188350,
-							["delay"] = 1539188073,
-							["friendlyfire_total"] = 0,
-						}, -- [9]
-						{
-							["flag_original"] = 1320,
-							["totalabsorbed"] = 0.007116,
-							["damage_from"] = {
-								["Dark Iron Steamsmith"] = true,
-							},
-							["targets"] = {
-								["Dark Iron Steamsmith"] = 354,
-							},
-							["pets"] = {
-							},
-							["last_event"] = 1539188073,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 354.007116,
-							["total"] = 354.007116,
-							["dps_started"] = false,
-							["end_time"] = 1539188351,
-							["serial"] = "Player-60-0BC94F70",
-							["boss_fight_component"] = true,
-							["nome"] = "Warskool-Stormrage",
-							["spells"] = {
-								["_ActorTable"] = {
-									[12294] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 354,
-										["targets"] = {
-											["Dark Iron Steamsmith"] = 354,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 354,
-										["n_min"] = 354,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 354,
-										["c_max"] = 0,
-										["id"] = 12294,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["on_hold"] = false,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 140.007116,
-							["start_time"] = 1539188350,
-							["delay"] = 1539188073,
-							["classe"] = "WARRIOR",
-						}, -- [10]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 474,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1300,
-							["totalabsorb"] = 0.005933,
-							["last_hps"] = 0,
-							["targets_overheal"] = {
-							},
-							["targets"] = {
-								["Laurannah"] = 7177,
-								["Anduin <Laurannah>"] = 14888,
-							},
-							["classe"] = "HUNTER",
-							["pets"] = {
-								"Anduin <Laurannah>", -- [1]
-							},
-							["iniciar_hps"] = false,
-							["healing_from"] = {
-								["Laurannah"] = true,
-							},
-							["healing_taken"] = 7177.005933,
-							["totalover"] = 11423.005933,
-							["total_without_pet"] = 7177.005933,
-							["totalover_without_pet"] = 0.005933,
-							["start_time"] = 1539187729,
-							["heal_enemy_amt"] = 0,
-							["total"] = 10642.005933,
-							["end_time"] = 1539187747,
-							["nome"] = "Laurannah",
-							["boss_fight_component"] = true,
-							["spells"] = {
-								["_ActorTable"] = {
-									[143924] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 2772,
-										["targets"] = {
-											["Laurannah"] = 7177,
-										},
-										["n_min"] = 79,
-										["counter"] = 9,
-										["overheal"] = 0,
-										["total"] = 7177,
-										["c_max"] = 0,
-										["id"] = 143924,
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 7177,
-										["n_amt"] = 9,
-										["totaldenied"] = 0,
-										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-								},
-								["tipo"] = 3,
-							},
-							["grupo"] = true,
-							["serial"] = "Player-3693-092AD332",
-							["heal_enemy"] = {
-							},
-							["targets_absorbs"] = {
-							},
-							["custom"] = 0,
-							["tipo"] = 2,
-							["on_hold"] = false,
-							["totaldenied"] = 0.005933,
-							["delay"] = 0,
-							["last_event"] = 1539187747,
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["healing_from"] = {
-								["Anduin <Laurannah>"] = true,
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "PET",
-							["totalover"] = 11423.0077,
-							["total_without_pet"] = 3465.0077,
-							["total"] = 3465.0077,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Pet-0-3133-1477-19893-50159-0102C68B02",
-							["totalabsorb"] = 0.0077,
-							["last_hps"] = 0,
-							["targets"] = {
-								["Anduin <Laurannah>"] = 14888,
-							},
-							["totalover_without_pet"] = 0.0077,
-							["healing_taken"] = 3465.0077,
-							["end_time"] = 1539187747,
-							["ownerName"] = "Laurannah",
-							["nome"] = "Anduin <Laurannah>",
-							["spells"] = {
-								["_ActorTable"] = {
-									[143924] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Anduin <Laurannah>"] = 11423,
-										},
-										["n_max"] = 2182,
-										["targets"] = {
-											["Anduin <Laurannah>"] = 3465,
-										},
-										["n_min"] = 1283,
-										["counter"] = 2,
-										["overheal"] = 11423,
-										["total"] = 3465,
-										["c_max"] = 0,
-										["id"] = 143924,
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 3465,
-										["n_amt"] = 2,
-										["totaldenied"] = 0,
-										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-								},
-								["tipo"] = 3,
-							},
-							["start_time"] = 1539187741,
-							["targets_overheal"] = {
-								["Anduin <Laurannah>"] = 11423,
-							},
-							["boss_fight_component"] = true,
-							["custom"] = 0,
-							["last_event"] = 1539187734,
-							["heal_enemy_amt"] = 0,
-							["totaldenied"] = 0.0077,
-							["delay"] = 1539187734,
-							["tipo"] = 2,
-						}, -- [2]
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 474,
-					["_ActorTable"] = {
-						{
-							["received"] = 90.00849,
-							["resource"] = 0.00849,
-							["targets"] = {
-								["Laurannah"] = 90,
-							},
-							["pets"] = {
-							},
-							["powertype"] = 0,
-							["classe"] = "HUNTER",
-							["total"] = 90.00849,
-							["nome"] = "Laurannah",
-							["spells"] = {
-								["_ActorTable"] = {
-									[204304] = {
-										["id"] = 204304,
-										["total"] = 20,
-										["targets"] = {
-											["Laurannah"] = 20,
-										},
-										["counter"] = 2,
-									},
-									[246152] = {
-										["id"] = 246152,
-										["total"] = 50,
-										["targets"] = {
-											["Laurannah"] = 50,
-										},
-										["counter"] = 10,
-									},
-									[246851] = {
-										["id"] = 246851,
-										["total"] = 20,
-										["targets"] = {
-											["Laurannah"] = 20,
-										},
-										["counter"] = 4,
-									},
-								},
-								["tipo"] = 7,
-							},
-							["grupo"] = true,
-							["flag_original"] = 1297,
-							["last_event"] = 1539187753,
-							["alternatepower"] = 0.00849,
-							["boss_fight_component"] = true,
-							["serial"] = "Player-3693-092AD332",
-							["tipo"] = 3,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 474,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[217200] = {
-										["appliedamt"] = 2,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 18,
-										["id"] = 217200,
-										["refreshamt"] = 2,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["buff_uptime"] = 77,
-							["classe"] = "HUNTER",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[186258] = {
-										["appliedamt"] = 0,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 0,
-										["id"] = 186258,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[273264] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 6,
-										["id"] = 273264,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[246152] = {
-										["appliedamt"] = 3,
-										["targets"] = {
-										},
-										["activedamt"] = 3,
-										["uptime"] = 16,
-										["id"] = 246152,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[278070] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 3,
-										["id"] = 278070,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[279902] = {
-										["appliedamt"] = 2,
-										["targets"] = {
-										},
-										["activedamt"] = 2,
-										["uptime"] = 10,
-										["id"] = 279902,
-										["refreshamt"] = 2,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[246851] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 8,
-										["id"] = 246851,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[19574] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 13,
-										["id"] = 19574,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[225788] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 21,
-										["id"] = 225788,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["debuff_uptime"] = 18,
-							["buff_uptime_targets"] = {
-							},
-							["grupo"] = true,
-							["spell_cast"] = {
-								[34026] = 2,
-								[193455] = 8,
-								[272790] = 8,
-								[53209] = 1,
-								[217200] = 4,
-							},
-							["nome"] = "Laurannah",
-							["debuff_uptime_targets"] = {
-							},
-							["last_event"] = 1539188353,
-							["tipo"] = 4,
-							["pets"] = {
-								"Anduin <Laurannah>", -- [1]
-							},
-							["serial"] = "Player-3693-092AD332",
-							["boss_fight_component"] = true,
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["ownerName"] = "Laurannah",
-							["nome"] = "Anduin <Laurannah>",
-							["tipo"] = 4,
-							["spell_cast"] = {
-								[16827] = 6,
-								[61684] = 1,
-							},
-							["boss_fight_component"] = true,
-							["last_event"] = 0,
-							["classe"] = "PET",
-							["serial"] = "Pet-0-3133-1477-19893-50159-0102C68B02",
-							["pets"] = {
-							},
-						}, -- [2]
-						{
-							["flag_original"] = 68168,
-							["tipo"] = 4,
-							["nome"] = "Fenryr",
-							["pets"] = {
-							},
-							["boss_fight_component"] = true,
-							["spell_cast"] = {
-								[196543] = 1,
-								[197558] = 1,
-							},
-							["last_event"] = 0,
-							["monster"] = true,
-							["serial"] = "Creature-0-3133-1477-19893-99868-00003E23FD",
-							["classe"] = "UNKNOW",
-						}, -- [3]
-						{
-							["flag_original"] = 2632,
-							["tipo"] = 4,
-							["nome"] = "Unknown",
-							["pets"] = {
-							},
-							["boss_fight_component"] = true,
-							["spell_cast"] = {
-								[207707] = 3,
-							},
-							["last_event"] = 0,
-							["monster"] = true,
-							["serial"] = "Creature-0-3133-1477-19893-99922-00003E2415",
-							["classe"] = "UNKNOW",
-						}, -- [4]
-						{
-							["flag_original"] = 68168,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 9,
-							},
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["boss_debuff"] = true,
-							["monster"] = true,
-							["debuff_uptime"] = 9,
-							["spellschool"] = 1,
-							["debuff_uptime_targets"] = {
-								["Laurannah"] = {
-									["uptime"] = 9,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-							},
-							["boss_fight_component"] = true,
-							["nome"] = "Ravenous Leap",
-							["tipo"] = 4,
-							["damage_twin"] = "Fenryr",
-							["damage_spellid"] = 197556,
-							["serial"] = "Creature-0-3133-1477-19893-99868-00003E23FD",
-							["last_event"] = 1539187747,
-						}, -- [5]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 474,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Laurannah"] = true,
-				},
-				["overall_added"] = false,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["enemy"] = "Fenryr",
-				["combat_counter"] = 12626,
-				["playing_solo"] = true,
-				["totals"] = {
-					263425.95589, -- [1]
-					10642, -- [2]
-					{
-						0, -- [1]
-						[0] = 90,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Laurannah"] = 10642.005933,
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["Laurannah"] = 6649524.028819,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 678958.383,
-				["contra"] = "Fenryr",
-				["combat_id"] = 474,
+				["contra"] = "Magmaw",
 				["instance_type"] = "raid",
-				["resincked"] = true,
-				["hasSaved"] = true,
-				["frags"] = {
-					["Fenryr"] = 1,
-				},
-				["is_boss"] = {
-					["diff_string"] = "Mythic",
-					["index"] = 1,
-					["zone"] = "Halls of Valor",
-					["encounter"] = "Fenryr",
-					["mapid"] = 1477,
-					["try_number"] = 3,
-					["name"] = "Fenryr",
-					["id"] = 1807,
-					["ej_instance_id"] = 721,
-					["diff"] = 23,
-				},
-				["data_inicio"] = "12:08:46",
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					89769, -- [1]
-					7177, -- [2]
-					{
-						0, -- [1]
-						[0] = 90,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 678330.88,
-				["TimeData"] = {
-				},
-				["data_fim"] = "12:19:14",
-			}, -- [12]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 474,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1300,
-							["totalabsorbed"] = 0.00659,
-							["damage_from"] = {
-								["Environment (Falling)"] = true,
-								["Fenryr"] = true,
-								["Ebonclaw Packmate"] = true,
-							},
-							["targets"] = {
-								["Ebonclaw Packmate"] = 8710,
-								["Fenryr"] = 171749,
-							},
-							["pets"] = {
-								"Anduin <Laurannah>", -- [1]
-								"Varian <Laurannah>", -- [2]
-							},
-							["classe"] = "HUNTER",
-							["last_event"] = 1539187747,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 89769.00659,
-							["serial"] = "Player-3693-092AD332",
-							["dps_started"] = false,
-							["end_time"] = 1539187747,
-							["boss_fight_component"] = true,
-							["friendlyfire"] = {
-							},
-							["nome"] = "Laurannah",
-							["spells"] = {
-								["_ActorTable"] = {
-									[193455] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 7565,
-										["g_amt"] = 0,
-										["n_max"] = 3782,
-										["targets"] = {
-											["Fenryr"] = 29923,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 22358,
-										["n_min"] = 2752,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 29923,
-										["c_max"] = 7565,
-										["id"] = 193455,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 7565,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 7,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[75] = {
-										["c_amt"] = 4,
-										["b_amt"] = 0,
-										["c_dmg"] = 24938,
-										["g_amt"] = 0,
-										["n_max"] = 3690,
-										["targets"] = {
-											["Fenryr"] = 38788,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 13850,
-										["n_min"] = 3380,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 38788,
-										["c_max"] = 7178,
-										["id"] = 75,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 5167,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[171457] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 8710,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Ebonclaw Packmate"] = 8710,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 8710,
-										["c_max"] = 8710,
-										["id"] = 171457,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 8710,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[269031] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 3110,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Fenryr"] = 3110,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 3110,
-										["c_max"] = 3110,
-										["id"] = 269031,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 3110,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[171454] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 4355,
-										["targets"] = {
-											["Fenryr"] = 4355,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 4355,
-										["n_min"] = 4355,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 4355,
-										["c_max"] = 0,
-										["id"] = 171454,
-										["r_dmg"] = 0,
-										["spellschool"] = 16,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[217200] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 584,
-										["targets"] = {
-											["Fenryr"] = 4883,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 4883,
-										["n_min"] = 530,
-										["g_dmg"] = 0,
-										["counter"] = 9,
-										["total"] = 4883,
-										["c_max"] = 0,
-										["id"] = 217200,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 9,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["grupo"] = true,
-							["on_hold"] = false,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 17749.00659,
-							["start_time"] = 1539187726,
-							["delay"] = 0,
-							["total"] = 180459.00659,
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["totalabsorbed"] = 0.008078,
-							["damage_from"] = {
-								["Fenryr"] = true,
-							},
-							["targets"] = {
-								["Fenryr"] = 57056,
-							},
-							["pets"] = {
-							},
-							["total"] = 57056.008078,
-							["last_event"] = 1539187747,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 57056.008078,
-							["serial"] = "Pet-0-3133-1477-19893-50159-0102C68B02",
-							["dps_started"] = false,
-							["end_time"] = 1539187747,
-							["boss_fight_component"] = true,
-							["ownerName"] = "Laurannah",
-							["nome"] = "Anduin <Laurannah>",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 4680,
-										["g_amt"] = 0,
-										["n_max"] = 1170,
-										["targets"] = {
-											["Fenryr"] = 16809,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 12129,
-										["n_min"] = 851,
-										["g_dmg"] = 0,
-										["counter"] = 14,
-										["total"] = 16809,
-										["c_max"] = 2340,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 2340,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 12,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[83381] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 5242,
-										["targets"] = {
-											["Fenryr"] = 14121,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 14121,
-										["n_min"] = 3876,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 14121,
-										["c_max"] = 0,
-										["id"] = 83381,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[16827] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 8417,
-										["g_amt"] = 0,
-										["n_max"] = 4209,
-										["targets"] = {
-											["Fenryr"] = 26126,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 17709,
-										["n_min"] = 3000,
-										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 26126,
-										["c_max"] = 8417,
-										["id"] = 16827,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 8417,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 5,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["on_hold"] = false,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 3465.008078,
-							["start_time"] = 1539187726,
-							["delay"] = 0,
-							["classe"] = "PET",
-						}, -- [2]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 0.001188,
-							["damage_from"] = {
-								["Varian <Laurannah>"] = true,
-								["Laurannah"] = true,
-								["Anduin <Laurannah>"] = true,
-							},
-							["targets"] = {
-								["Laurannah"] = 3123,
-								["Anduin <Laurannah>"] = 3465,
-							},
-							["pets"] = {
-							},
-							["monster"] = true,
-							["boss_fight_component"] = true,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 6588.001188,
-							["serial"] = "Creature-0-3133-1477-19893-99868-00003E23FD",
-							["dps_started"] = false,
-							["total"] = 6588.001188,
-							["end_time"] = 1539187747,
-							["on_hold"] = false,
-							["nome"] = "Fenryr",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 1713,
-										["targets"] = {
-											["Laurannah"] = 1713,
-											["Anduin"] = 0,
-											["Anduin <Laurannah>"] = 3465,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 5178,
-										["n_min"] = 920,
-										["g_dmg"] = 0,
-										["counter"] = 11,
-										["MISS"] = 3,
-										["r_amt"] = 0,
-										["c_max"] = 0,
-										["DODGE"] = 4,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 4,
-										["spellschool"] = 1,
-										["total"] = 5178,
-									}, -- [1]
-									[196543] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Laurannah"] = 0,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 196543,
-										["r_dmg"] = 0,
-										["MISS"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[196497] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 671,
-										["targets"] = {
-											["Laurannah"] = 671,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 671,
-										["n_min"] = 671,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 671,
-										["c_max"] = 0,
-										["id"] = 196497,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[197558] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 197558,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
-									},
-									[196496] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 739,
-										["targets"] = {
-											["Laurannah"] = 739,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 739,
-										["n_min"] = 739,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 739,
-										["c_max"] = 0,
-										["id"] = 196496,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["last_event"] = 1539187767,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 171749.001188,
-							["start_time"] = 1539187727,
-							["delay"] = 0,
-							["friendlyfire_total"] = 0,
-						}, -- [3]
-						{
-							["flag_original"] = 4369,
-							["totalabsorbed"] = 0.00122,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Fenryr"] = 33634,
-							},
-							["pets"] = {
-							},
-							["total"] = 33634.00122,
-							["last_event"] = 1539187747,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 33634.00122,
-							["serial"] = "Pet-0-3133-1477-19893-50159-0202C5DB6C",
-							["dps_started"] = false,
-							["end_time"] = 1539187747,
-							["boss_fight_component"] = true,
-							["ownerName"] = "Laurannah",
-							["nome"] = "Varian <Laurannah>",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 2340,
-										["g_amt"] = 0,
-										["n_max"] = 1170,
-										["targets"] = {
-											["Fenryr"] = 15638,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 13298,
-										["n_min"] = 851,
-										["g_dmg"] = 0,
-										["counter"] = 14,
-										["total"] = 15638,
-										["c_max"] = 2340,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 2340,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 13,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-									[83381] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 7751,
-										["g_amt"] = 0,
-										["n_max"] = 5242,
-										["targets"] = {
-											["Fenryr"] = 17996,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 10245,
-										["n_min"] = 5003,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 17996,
-										["c_max"] = 7751,
-										["id"] = 83381,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 7751,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["on_hold"] = false,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.00122,
-							["start_time"] = 1539187726,
-							["delay"] = 0,
-							["classe"] = "PET",
-						}, -- [4]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.005496,
-							["damage_from"] = {
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["monster"] = true,
-							["nome"] = "Unknown",
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.005496,
-							["serial"] = "Creature-0-3133-1477-19893-99922-00003E2415",
-							["dps_started"] = false,
-							["total"] = 0.005496,
-							["damage_taken"] = 0.005496,
-							["on_hold"] = false,
-							["boss_fight_component"] = true,
-							["spells"] = {
-								["_ActorTable"] = {
-									[207707] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = 207707,
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 3,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["tipo"] = 1,
-							["end_time"] = 1539187747,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1539187747,
-							["delay"] = 0,
-							["friendlyfire_total"] = 0,
-						}, -- [5]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.003752,
-							["damage_from"] = {
-								["Laurannah"] = true,
-							},
-							["targets"] = {
-								["Laurannah"] = 12050,
-							},
-							["pets"] = {
-							},
-							["monster"] = true,
-							["boss_fight_component"] = true,
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 12050.003752,
-							["serial"] = "Creature-0-3133-1477-19893-99922-00013E2415",
-							["dps_started"] = false,
-							["total"] = 12050.003752,
-							["end_time"] = 1539187747,
-							["on_hold"] = false,
-							["nome"] = "Ebonclaw Packmate",
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 978,
-										["targets"] = {
-											["Laurannah"] = 12050,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 12050,
-										["n_min"] = 659,
-										["g_dmg"] = 0,
-										["counter"] = 24,
-										["MISS"] = 4,
-										["r_amt"] = 0,
-										["c_max"] = 0,
-										["DODGE"] = 5,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["b_dmg"] = 0,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["a_amt"] = 0,
-										["n_amt"] = 15,
-										["spellschool"] = 1,
-										["total"] = 12050,
-									}, -- [1]
-								},
-								["tipo"] = 2,
-							},
-							["last_event"] = 1539187746,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 8710.003752,
-							["start_time"] = 1539187737,
-							["delay"] = 0,
-							["friendlyfire_total"] = 0,
-						}, -- [6]
-						{
-							["flag_original"] = -2147483648,
-							["totalabsorbed"] = 0.004388,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Bibbee-Dalaran"] = 13088,
-								["Wolfmanner-MoonGuard"] = 6098,
-								["Harrisons"] = 21612,
-								["Espyri-Dalaran"] = 11575,
-								["Thiccho"] = 330,
-								["Laurannah"] = 2576,
-								["Walkinplague-Stormrage"] = 7941,
-								["Cojo"] = 609,
-							},
-							["pets"] = {
-							},
-							["tipo"] = 1,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 63829.004388,
-							["end_time"] = 1539188351,
-							["dps_started"] = false,
-							["total"] = 63829.004388,
-							["serial"] = "",
-							["boss_fight_component"] = true,
-							["nome"] = "Environment (Falling)",
-							["spells"] = {
-								["_ActorTable"] = {
-									[3] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 21612,
-										["targets"] = {
-											["Bibbee-Dalaran"] = 13088,
-											["Wolfmanner-MoonGuard"] = 6098,
-											["Harrisons"] = 21612,
-											["Espyri-Dalaran"] = 11575,
-											["Thiccho"] = 330,
-											["Laurannah"] = 2576,
-											["Walkinplague-Stormrage"] = 7941,
-											["Cojo"] = 609,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 63829,
-										["n_min"] = 233,
-										["g_dmg"] = 0,
-										["counter"] = 9,
-										["total"] = 63829,
-										["c_max"] = 0,
-										["id"] = 3,
-										["r_dmg"] = 0,
-										["spellschool"] = 3,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 9,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["on_hold"] = false,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1539187974,
-							["damage_taken"] = 0.004388,
-							["start_time"] = 1539188335,
-							["delay"] = 1539187974,
-							["classe"] = "UNKNOW",
-						}, -- [7]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.001368,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Alpine Hare"] = 6,
-							},
-							["pets"] = {
-							},
-							["monster"] = true,
-							["nome"] = "Snow Tracker Wolf",
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 6.001368,
-							["serial"] = "Creature-0-3133-0-16826-41478-00003E19AA",
-							["dps_started"] = false,
-							["total"] = 6.001368,
-							["end_time"] = 1539188351,
-							["on_hold"] = false,
-							["boss_fight_component"] = true,
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 6,
-										["targets"] = {
-											["Alpine Hare"] = 6,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 6,
-										["n_min"] = 6,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 6,
-										["c_max"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-								},
-								["tipo"] = 2,
-							},
-							["last_event"] = 1539188024,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.001368,
-							["start_time"] = 1539188350,
-							["delay"] = 1539188024,
-							["friendlyfire_total"] = 0,
-						}, -- [8]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.00655,
-							["damage_from"] = {
-								["Warskool-Stormrage"] = true,
-							},
-							["targets"] = {
-								["Warskool-Stormrage"] = 140,
-							},
-							["pets"] = {
-							},
-							["monster"] = true,
-							["nome"] = "Dark Iron Steamsmith",
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 140.00655,
-							["serial"] = "Vehicle-0-3882-0-18662-5840-00003E1C8F",
-							["dps_started"] = false,
-							["total"] = 140.00655,
-							["end_time"] = 1539188351,
-							["on_hold"] = false,
-							["boss_fight_component"] = true,
-							["spells"] = {
-								["_ActorTable"] = {
-									{
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 140,
-										["targets"] = {
-											["Warskool-Stormrage"] = 140,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 140,
-										["n_min"] = 140,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 140,
-										["c_max"] = 0,
-										["id"] = 1,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									}, -- [1]
-								},
-								["tipo"] = 2,
-							},
-							["last_event"] = 1539188073,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 354.00655,
-							["start_time"] = 1539188350,
-							["delay"] = 1539188073,
-							["friendlyfire_total"] = 0,
-						}, -- [9]
-						{
-							["flag_original"] = 1320,
-							["totalabsorbed"] = 0.007116,
-							["damage_from"] = {
-								["Dark Iron Steamsmith"] = true,
-							},
-							["targets"] = {
-								["Dark Iron Steamsmith"] = 354,
-							},
-							["pets"] = {
-							},
-							["last_event"] = 1539188073,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 354.007116,
-							["total"] = 354.007116,
-							["dps_started"] = false,
-							["end_time"] = 1539188351,
-							["serial"] = "Player-60-0BC94F70",
-							["boss_fight_component"] = true,
-							["nome"] = "Warskool-Stormrage",
-							["spells"] = {
-								["_ActorTable"] = {
-									[12294] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 354,
-										["targets"] = {
-											["Dark Iron Steamsmith"] = 354,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 354,
-										["n_min"] = 354,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 354,
-										["c_max"] = 0,
-										["id"] = 12294,
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["on_hold"] = false,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 140.007116,
-							["start_time"] = 1539188350,
-							["delay"] = 1539188073,
-							["classe"] = "WARRIOR",
-						}, -- [10]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 474,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1300,
-							["totalabsorb"] = 0.005933,
-							["last_hps"] = 0,
-							["targets_overheal"] = {
-							},
-							["targets"] = {
-								["Laurannah"] = 7177,
-								["Anduin <Laurannah>"] = 14888,
-							},
-							["classe"] = "HUNTER",
-							["pets"] = {
-								"Anduin <Laurannah>", -- [1]
-							},
-							["iniciar_hps"] = false,
-							["healing_from"] = {
-								["Laurannah"] = true,
-							},
-							["healing_taken"] = 7177.005933,
-							["totalover"] = 11423.005933,
-							["total_without_pet"] = 7177.005933,
-							["totalover_without_pet"] = 0.005933,
-							["start_time"] = 1539187729,
-							["heal_enemy_amt"] = 0,
-							["total"] = 10642.005933,
-							["end_time"] = 1539187747,
-							["nome"] = "Laurannah",
-							["boss_fight_component"] = true,
-							["spells"] = {
-								["_ActorTable"] = {
-									[143924] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 2772,
-										["targets"] = {
-											["Laurannah"] = 7177,
-										},
-										["n_min"] = 79,
-										["counter"] = 9,
-										["overheal"] = 0,
-										["total"] = 7177,
-										["c_max"] = 0,
-										["id"] = 143924,
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 7177,
-										["n_amt"] = 9,
-										["totaldenied"] = 0,
-										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-								},
-								["tipo"] = 3,
-							},
-							["grupo"] = true,
-							["serial"] = "Player-3693-092AD332",
-							["heal_enemy"] = {
-							},
-							["targets_absorbs"] = {
-							},
-							["custom"] = 0,
-							["tipo"] = 2,
-							["on_hold"] = false,
-							["totaldenied"] = 0.005933,
-							["delay"] = 0,
-							["last_event"] = 1539187747,
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["healing_from"] = {
-								["Anduin <Laurannah>"] = true,
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "PET",
-							["totalover"] = 11423.0077,
-							["total_without_pet"] = 3465.0077,
-							["total"] = 3465.0077,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Pet-0-3133-1477-19893-50159-0102C68B02",
-							["totalabsorb"] = 0.0077,
-							["last_hps"] = 0,
-							["targets"] = {
-								["Anduin <Laurannah>"] = 14888,
-							},
-							["totalover_without_pet"] = 0.0077,
-							["healing_taken"] = 3465.0077,
-							["end_time"] = 1539187747,
-							["ownerName"] = "Laurannah",
-							["nome"] = "Anduin <Laurannah>",
-							["spells"] = {
-								["_ActorTable"] = {
-									[143924] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Anduin <Laurannah>"] = 11423,
-										},
-										["n_max"] = 2182,
-										["targets"] = {
-											["Anduin <Laurannah>"] = 3465,
-										},
-										["n_min"] = 1283,
-										["counter"] = 2,
-										["overheal"] = 11423,
-										["total"] = 3465,
-										["c_max"] = 0,
-										["id"] = 143924,
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 3465,
-										["n_amt"] = 2,
-										["totaldenied"] = 0,
-										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-								},
-								["tipo"] = 3,
-							},
-							["start_time"] = 1539187741,
-							["targets_overheal"] = {
-								["Anduin <Laurannah>"] = 11423,
-							},
-							["boss_fight_component"] = true,
-							["custom"] = 0,
-							["last_event"] = 1539187734,
-							["heal_enemy_amt"] = 0,
-							["totaldenied"] = 0.0077,
-							["delay"] = 1539187734,
-							["tipo"] = 2,
-						}, -- [2]
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 474,
-					["_ActorTable"] = {
-						{
-							["received"] = 90.00849,
-							["resource"] = 0.00849,
-							["targets"] = {
-								["Laurannah"] = 90,
-							},
-							["pets"] = {
-							},
-							["powertype"] = 0,
-							["classe"] = "HUNTER",
-							["total"] = 90.00849,
-							["nome"] = "Laurannah",
-							["spells"] = {
-								["_ActorTable"] = {
-									[204304] = {
-										["id"] = 204304,
-										["total"] = 20,
-										["targets"] = {
-											["Laurannah"] = 20,
-										},
-										["counter"] = 2,
-									},
-									[246152] = {
-										["id"] = 246152,
-										["total"] = 50,
-										["targets"] = {
-											["Laurannah"] = 50,
-										},
-										["counter"] = 10,
-									},
-									[246851] = {
-										["id"] = 246851,
-										["total"] = 20,
-										["targets"] = {
-											["Laurannah"] = 20,
-										},
-										["counter"] = 4,
-									},
-								},
-								["tipo"] = 7,
-							},
-							["grupo"] = true,
-							["flag_original"] = 1297,
-							["last_event"] = 1539187753,
-							["alternatepower"] = 0.00849,
-							["boss_fight_component"] = true,
-							["serial"] = "Player-3693-092AD332",
-							["tipo"] = 3,
-						}, -- [1]
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 474,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[217200] = {
-										["appliedamt"] = 2,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 18,
-										["id"] = 217200,
-										["refreshamt"] = 2,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["buff_uptime"] = 77,
-							["classe"] = "HUNTER",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[186258] = {
-										["appliedamt"] = 0,
-										["targets"] = {
-										},
-										["activedamt"] = 0,
-										["uptime"] = 0,
-										["id"] = 186258,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[273264] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 6,
-										["id"] = 273264,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[246152] = {
-										["appliedamt"] = 3,
-										["targets"] = {
-										},
-										["activedamt"] = 3,
-										["uptime"] = 16,
-										["id"] = 246152,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[278070] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 3,
-										["id"] = 278070,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[279902] = {
-										["appliedamt"] = 2,
-										["targets"] = {
-										},
-										["activedamt"] = 2,
-										["uptime"] = 10,
-										["id"] = 279902,
-										["refreshamt"] = 2,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[246851] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 8,
-										["id"] = 246851,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[19574] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 13,
-										["id"] = 19574,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[225788] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 21,
-										["id"] = 225788,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["debuff_uptime"] = 18,
-							["buff_uptime_targets"] = {
-							},
-							["grupo"] = true,
-							["spell_cast"] = {
-								[34026] = 2,
-								[193455] = 8,
-								[272790] = 8,
-								[53209] = 1,
-								[217200] = 4,
-							},
-							["nome"] = "Laurannah",
-							["debuff_uptime_targets"] = {
-							},
-							["last_event"] = 1539188353,
-							["tipo"] = 4,
-							["pets"] = {
-								"Anduin <Laurannah>", -- [1]
-							},
-							["serial"] = "Player-3693-092AD332",
-							["boss_fight_component"] = true,
-						}, -- [1]
-						{
-							["flag_original"] = 4369,
-							["ownerName"] = "Laurannah",
-							["nome"] = "Anduin <Laurannah>",
-							["tipo"] = 4,
-							["spell_cast"] = {
-								[16827] = 6,
-								[61684] = 1,
-							},
-							["boss_fight_component"] = true,
-							["last_event"] = 0,
-							["classe"] = "PET",
-							["serial"] = "Pet-0-3133-1477-19893-50159-0102C68B02",
-							["pets"] = {
-							},
-						}, -- [2]
-						{
-							["flag_original"] = 68168,
-							["tipo"] = 4,
-							["nome"] = "Fenryr",
-							["pets"] = {
-							},
-							["boss_fight_component"] = true,
-							["spell_cast"] = {
-								[196543] = 1,
-								[197558] = 1,
-							},
-							["last_event"] = 0,
-							["monster"] = true,
-							["serial"] = "Creature-0-3133-1477-19893-99868-00003E23FD",
-							["classe"] = "UNKNOW",
-						}, -- [3]
-						{
-							["flag_original"] = 2632,
-							["tipo"] = 4,
-							["nome"] = "Unknown",
-							["pets"] = {
-							},
-							["boss_fight_component"] = true,
-							["spell_cast"] = {
-								[207707] = 3,
-							},
-							["last_event"] = 0,
-							["monster"] = true,
-							["serial"] = "Creature-0-3133-1477-19893-99922-00003E2415",
-							["classe"] = "UNKNOW",
-						}, -- [4]
-						{
-							["flag_original"] = 68168,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 9,
-							},
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["boss_debuff"] = true,
-							["monster"] = true,
-							["debuff_uptime"] = 9,
-							["spellschool"] = 1,
-							["debuff_uptime_targets"] = {
-								["Laurannah"] = {
-									["uptime"] = 9,
-									["appliedamt"] = 0,
-									["activedamt"] = 0,
-									["actived"] = false,
-									["refreshamt"] = 0,
-								},
-							},
-							["boss_fight_component"] = true,
-							["nome"] = "Ravenous Leap",
-							["tipo"] = 4,
-							["damage_twin"] = "Fenryr",
-							["damage_spellid"] = 197556,
-							["serial"] = "Creature-0-3133-1477-19893-99868-00003E23FD",
-							["last_event"] = 1539187747,
-						}, -- [5]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 474,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Laurannah"] = true,
-				},
-				["overall_added"] = false,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["enemy"] = "Fenryr",
-				["combat_counter"] = 12626,
-				["playing_solo"] = true,
-				["totals"] = {
-					263425.95589, -- [1]
-					10642, -- [2]
-					{
-						0, -- [1]
-						[0] = 90,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage_section"] = {
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Laurannah"] = 10642.005933,
-						}, -- [1]
-					},
-					["damage"] = {
-						{
-							["Laurannah"] = 6649524.028819,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 678958.383,
-				["contra"] = "Fenryr",
-				["combat_id"] = 474,
-				["instance_type"] = "raid",
-				["resincked"] = true,
-				["hasSaved"] = true,
-				["frags"] = {
-					["Fenryr"] = 1,
-				},
-				["is_boss"] = {
-					["diff_string"] = "Mythic",
-					["index"] = 1,
-					["zone"] = "Halls of Valor",
-					["encounter"] = "Fenryr",
-					["mapid"] = 1477,
-					["try_number"] = 3,
-					["name"] = "Fenryr",
-					["id"] = 1807,
-					["ej_instance_id"] = 721,
-					["diff"] = 23,
-				},
-				["data_inicio"] = "12:08:46",
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					89769, -- [1]
-					7177, -- [2]
-					{
-						0, -- [1]
-						[0] = 90,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 678330.88,
-				["TimeData"] = {
-				},
-				["data_fim"] = "12:19:14",
 			}, -- [13]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 474,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1300,
+							["totalabsorbed"] = 0.00659,
+							["damage_from"] = {
+								["Environment (Falling)"] = true,
+								["Ebonclaw Packmate"] = true,
+								["Fenryr"] = true,
+							},
+							["targets"] = {
+								["Fenryr"] = 171749,
+								["Ebonclaw Packmate"] = 8710,
+							},
+							["pets"] = {
+								"Anduin <Laurannah>", -- [1]
+								"Varian <Laurannah>", -- [2]
+							},
+							["total"] = 180459.00659,
+							["tipo"] = 1,
+							["classe"] = "HUNTER",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 89769.00659,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1539187747,
+							["nome"] = "Laurannah",
+							["damage_taken"] = 17749.00659,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[193455] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 7565,
+										["g_amt"] = 0,
+										["n_max"] = 3782,
+										["targets"] = {
+											["Fenryr"] = 29923,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 22358,
+										["n_min"] = 2752,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 29923,
+										["c_max"] = 7565,
+										["id"] = 193455,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 7565,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 7,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[75] = {
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 24938,
+										["g_amt"] = 0,
+										["n_max"] = 3690,
+										["targets"] = {
+											["Fenryr"] = 38788,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 13850,
+										["n_min"] = 3380,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 38788,
+										["c_max"] = 7178,
+										["id"] = 75,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 5167,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[171457] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 8710,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Ebonclaw Packmate"] = 8710,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 8710,
+										["c_max"] = 8710,
+										["id"] = 171457,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 8710,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+									[217200] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 584,
+										["targets"] = {
+											["Fenryr"] = 4883,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 4883,
+										["n_min"] = 530,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 4883,
+										["c_max"] = 0,
+										["id"] = 217200,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 9,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[171454] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 4355,
+										["targets"] = {
+											["Fenryr"] = 4355,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 4355,
+										["n_min"] = 4355,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 4355,
+										["c_max"] = 0,
+										["id"] = 171454,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 16,
+									},
+									[269031] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 3110,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Fenryr"] = 3110,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 3110,
+										["c_max"] = 3110,
+										["id"] = 269031,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 3110,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1539187747,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1539187726,
+							["serial"] = "Player-3693-092AD332",
+							["friendlyfire_total"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.008078,
+							["damage_from"] = {
+								["Fenryr"] = true,
+							},
+							["targets"] = {
+								["Fenryr"] = 57056,
+							},
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 57056.008078,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 57056.008078,
+							["nome"] = "Anduin <Laurannah>",
+							["ownerName"] = "Laurannah",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 4680,
+										["g_amt"] = 0,
+										["n_max"] = 1170,
+										["targets"] = {
+											["Fenryr"] = 16809,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 12129,
+										["n_min"] = 851,
+										["g_dmg"] = 0,
+										["counter"] = 14,
+										["total"] = 16809,
+										["c_max"] = 2340,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 2340,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 12,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+									[83381] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 5242,
+										["targets"] = {
+											["Fenryr"] = 14121,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 14121,
+										["n_min"] = 3876,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 14121,
+										["c_max"] = 0,
+										["id"] = 83381,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[16827] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 8417,
+										["g_amt"] = 0,
+										["n_max"] = 4209,
+										["targets"] = {
+											["Fenryr"] = 26126,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 17709,
+										["n_min"] = 3000,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 26126,
+										["c_max"] = 8417,
+										["id"] = 16827,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 8417,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["damage_taken"] = 3465.008078,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1539187747,
+							["on_hold"] = false,
+							["start_time"] = 1539187726,
+							["serial"] = "Pet-0-3133-1477-19893-50159-0102C68B02",
+							["end_time"] = 1539187747,
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.001188,
+							["damage_from"] = {
+								["Varian <Laurannah>"] = true,
+								["Laurannah"] = true,
+								["Anduin <Laurannah>"] = true,
+							},
+							["targets"] = {
+								["Laurannah"] = 3123,
+								["Anduin <Laurannah>"] = 3465,
+							},
+							["pets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["nome"] = "Fenryr",
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 6588.001188,
+							["delay"] = 0,
+							["monster"] = true,
+							["total"] = 6588.001188,
+							["end_time"] = 1539187747,
+							["damage_taken"] = 171749.001188,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1713,
+										["targets"] = {
+											["Anduin"] = 0,
+											["Laurannah"] = 1713,
+											["Anduin <Laurannah>"] = 3465,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 5178,
+										["n_min"] = 920,
+										["g_dmg"] = 0,
+										["counter"] = 11,
+										["total"] = 5178,
+										["r_amt"] = 0,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["b_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 4,
+										["DODGE"] = 4,
+										["MISS"] = 3,
+									}, -- [1]
+									[196543] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Laurannah"] = 0,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 196543,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["MISS"] = 1,
+									},
+									[196497] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 671,
+										["targets"] = {
+											["Laurannah"] = 671,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 671,
+										["n_min"] = 671,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 671,
+										["c_max"] = 0,
+										["id"] = 196497,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[197558] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 197558,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
+									},
+									[196496] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 739,
+										["targets"] = {
+											["Laurannah"] = 739,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 739,
+										["n_min"] = 739,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 739,
+										["c_max"] = 0,
+										["id"] = 196496,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["tipo"] = 1,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1539187767,
+							["on_hold"] = false,
+							["start_time"] = 1539187727,
+							["serial"] = "Creature-0-3133-1477-19893-99868-00003E23FD",
+							["dps_started"] = false,
+						}, -- [3]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.00122,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Fenryr"] = 33634,
+							},
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 33634.00122,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 33634.00122,
+							["nome"] = "Varian <Laurannah>",
+							["ownerName"] = "Laurannah",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 2340,
+										["g_amt"] = 0,
+										["n_max"] = 1170,
+										["targets"] = {
+											["Fenryr"] = 15638,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 13298,
+										["n_min"] = 851,
+										["g_dmg"] = 0,
+										["counter"] = 14,
+										["total"] = 15638,
+										["c_max"] = 2340,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 2340,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 13,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+									[83381] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 7751,
+										["g_amt"] = 0,
+										["n_max"] = 5242,
+										["targets"] = {
+											["Fenryr"] = 17996,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 10245,
+										["n_min"] = 5003,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 17996,
+										["c_max"] = 7751,
+										["id"] = 83381,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 7751,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["damage_taken"] = 0.00122,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1539187747,
+							["on_hold"] = false,
+							["start_time"] = 1539187726,
+							["serial"] = "Pet-0-3133-1477-19893-50159-0202C5DB6C",
+							["end_time"] = 1539187747,
+						}, -- [4]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.005496,
+							["damage_from"] = {
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["boss_fight_component"] = true,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.005496,
+							["delay"] = 0,
+							["monster"] = true,
+							["total"] = 0.005496,
+							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
+							["nome"] = "Unknown",
+							["spells"] = {
+								["_ActorTable"] = {
+									[207707] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 207707,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 3,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["last_event"] = 0,
+							["last_dps"] = 0,
+							["end_time"] = 1539187747,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.005496,
+							["start_time"] = 1539187747,
+							["serial"] = "Creature-0-3133-1477-19893-99922-00003E2415",
+							["dps_started"] = false,
+						}, -- [5]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.003752,
+							["damage_from"] = {
+								["Laurannah"] = true,
+							},
+							["targets"] = {
+								["Laurannah"] = 12050,
+							},
+							["pets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["nome"] = "Ebonclaw Packmate",
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 12050.003752,
+							["delay"] = 0,
+							["monster"] = true,
+							["total"] = 12050.003752,
+							["end_time"] = 1539187747,
+							["damage_taken"] = 8710.003752,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 978,
+										["targets"] = {
+											["Laurannah"] = 12050,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 12050,
+										["n_min"] = 659,
+										["g_dmg"] = 0,
+										["counter"] = 24,
+										["total"] = 12050,
+										["r_amt"] = 0,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["b_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 15,
+										["DODGE"] = 5,
+										["MISS"] = 4,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["tipo"] = 1,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1539187746,
+							["on_hold"] = false,
+							["start_time"] = 1539187737,
+							["serial"] = "Creature-0-3133-1477-19893-99922-00013E2415",
+							["dps_started"] = false,
+						}, -- [6]
+						{
+							["flag_original"] = -2147483648,
+							["totalabsorbed"] = 0.004388,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Bibbee-Dalaran"] = 13088,
+								["Wolfmanner-MoonGuard"] = 6098,
+								["Laurannah"] = 2576,
+								["Espyri-Dalaran"] = 11575,
+								["Thiccho"] = 330,
+								["Walkinplague-Stormrage"] = 7941,
+								["Harrisons"] = 21612,
+								["Cojo"] = 609,
+							},
+							["pets"] = {
+							},
+							["last_event"] = 1539187974,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 63829.004388,
+							["classe"] = "UNKNOW",
+							["dps_started"] = false,
+							["end_time"] = 1539188351,
+							["delay"] = 1539187974,
+							["nome"] = "Environment (Falling)",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[3] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 21612,
+										["targets"] = {
+											["Bibbee-Dalaran"] = 13088,
+											["Wolfmanner-MoonGuard"] = 6098,
+											["Laurannah"] = 2576,
+											["Espyri-Dalaran"] = 11575,
+											["Thiccho"] = 330,
+											["Walkinplague-Stormrage"] = 7941,
+											["Harrisons"] = 21612,
+											["Cojo"] = 609,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 63829,
+										["n_min"] = 233,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 63829,
+										["c_max"] = 0,
+										["id"] = 3,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 9,
+										["a_dmg"] = 0,
+										["spellschool"] = 3,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["damage_taken"] = 0.004388,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1539188335,
+							["serial"] = "",
+							["total"] = 63829.004388,
+						}, -- [7]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.001368,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Alpine Hare"] = 6,
+							},
+							["pets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["boss_fight_component"] = true,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 6.001368,
+							["delay"] = 1539188024,
+							["monster"] = true,
+							["total"] = 6.001368,
+							["end_time"] = 1539188351,
+							["damage_taken"] = 0.001368,
+							["nome"] = "Snow Tracker Wolf",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 6,
+										["targets"] = {
+											["Alpine Hare"] = 6,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 6,
+										["n_min"] = 6,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 6,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["tipo"] = 1,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1539188024,
+							["on_hold"] = false,
+							["start_time"] = 1539188350,
+							["serial"] = "Creature-0-3133-0-16826-41478-00003E19AA",
+							["dps_started"] = false,
+						}, -- [8]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.00655,
+							["damage_from"] = {
+								["Warskool-Stormrage"] = true,
+							},
+							["targets"] = {
+								["Warskool-Stormrage"] = 140,
+							},
+							["pets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["boss_fight_component"] = true,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 140.00655,
+							["delay"] = 1539188073,
+							["monster"] = true,
+							["total"] = 140.00655,
+							["end_time"] = 1539188351,
+							["damage_taken"] = 354.00655,
+							["nome"] = "Dark Iron Steamsmith",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 140,
+										["targets"] = {
+											["Warskool-Stormrage"] = 140,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 140,
+										["n_min"] = 140,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 140,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["tipo"] = 1,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1539188073,
+							["on_hold"] = false,
+							["start_time"] = 1539188350,
+							["serial"] = "Vehicle-0-3882-0-18662-5840-00003E1C8F",
+							["dps_started"] = false,
+						}, -- [9]
+						{
+							["flag_original"] = 1320,
+							["totalabsorbed"] = 0.007116,
+							["damage_from"] = {
+								["Dark Iron Steamsmith"] = true,
+							},
+							["targets"] = {
+								["Dark Iron Steamsmith"] = 354,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 354.007116,
+							["classe"] = "WARRIOR",
+							["dps_started"] = false,
+							["total"] = 354.007116,
+							["delay"] = 1539188073,
+							["nome"] = "Warskool-Stormrage",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[12294] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 354,
+										["targets"] = {
+											["Dark Iron Steamsmith"] = 354,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 354,
+										["n_min"] = 354,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 354,
+										["c_max"] = 0,
+										["id"] = 12294,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["damage_taken"] = 140.007116,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1539188073,
+							["on_hold"] = false,
+							["start_time"] = 1539188350,
+							["serial"] = "Player-60-0BC94F70",
+							["end_time"] = 1539188351,
+						}, -- [10]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 474,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1300,
+							["totalabsorb"] = 0.005933,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["Laurannah"] = true,
+							},
+							["targets"] = {
+								["Laurannah"] = 7177,
+								["Anduin <Laurannah>"] = 14888,
+							},
+							["delay"] = 0,
+							["pets"] = {
+								"Anduin <Laurannah>", -- [1]
+							},
+							["totalover_without_pet"] = 0.005933,
+							["targets_overheal"] = {
+							},
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 11423.005933,
+							["total_without_pet"] = 7177.005933,
+							["iniciar_hps"] = false,
+							["totaldenied"] = 0.005933,
+							["classe"] = "HUNTER",
+							["end_time"] = 1539187747,
+							["healing_taken"] = 7177.005933,
+							["total"] = 10642.005933,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 2772,
+										["targets"] = {
+											["Laurannah"] = 7177,
+										},
+										["n_min"] = 79,
+										["counter"] = 9,
+										["overheal"] = 0,
+										["total"] = 7177,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 9,
+										["n_curado"] = 7177,
+										["m_amt"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["last_event"] = 1539187747,
+							["heal_enemy"] = {
+							},
+							["nome"] = "Laurannah",
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["start_time"] = 1539187729,
+							["serial"] = "Player-3693-092AD332",
+							["targets_absorbs"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["targets_overheal"] = {
+								["Anduin <Laurannah>"] = 11423,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 11423.0077,
+							["total_without_pet"] = 3465.0077,
+							["total"] = 3465.0077,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Pet-0-3133-1477-19893-50159-0102C68B02",
+							["totalabsorb"] = 0.0077,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Anduin <Laurannah>"] = 14888,
+							},
+							["totalover_without_pet"] = 0.0077,
+							["healing_taken"] = 3465.0077,
+							["end_time"] = 1539187747,
+							["ownerName"] = "Laurannah",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Anduin <Laurannah>"] = 11423,
+										},
+										["n_max"] = 2182,
+										["targets"] = {
+											["Anduin <Laurannah>"] = 3465,
+										},
+										["n_min"] = 1283,
+										["counter"] = 2,
+										["overheal"] = 11423,
+										["total"] = 3465,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 2,
+										["n_curado"] = 3465,
+										["m_amt"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["totaldenied"] = 0.0077,
+							["healing_from"] = {
+								["Anduin <Laurannah>"] = true,
+							},
+							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 1539187734,
+							["classe"] = "PET",
+							["start_time"] = 1539187741,
+							["delay"] = 1539187734,
+							["nome"] = "Anduin <Laurannah>",
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 474,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["resource"] = 0.00849,
+							["targets"] = {
+								["Laurannah"] = 90,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "HUNTER",
+							["alternatepower"] = 0.00849,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[204304] = {
+										["id"] = 204304,
+										["total"] = 20,
+										["targets"] = {
+											["Laurannah"] = 20,
+										},
+										["counter"] = 2,
+									},
+									[246152] = {
+										["id"] = 246152,
+										["total"] = 50,
+										["targets"] = {
+											["Laurannah"] = 50,
+										},
+										["counter"] = 10,
+									},
+									[246851] = {
+										["id"] = 246851,
+										["total"] = 20,
+										["targets"] = {
+											["Laurannah"] = 20,
+										},
+										["counter"] = 4,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["received"] = 90.00849,
+							["last_event"] = 1539187753,
+							["total"] = 90.00849,
+							["tipo"] = 3,
+							["serial"] = "Player-3693-092AD332",
+							["nome"] = "Laurannah",
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 474,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[217200] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 2,
+										["id"] = 217200,
+										["uptime"] = 18,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 77,
+							["classe"] = "HUNTER",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186258] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 186258,
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["appliedamt"] = 0,
+									},
+									[273264] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 273264,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[246152] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 3,
+										["refreshamt"] = 0,
+										["id"] = 246152,
+										["uptime"] = 16,
+										["targets"] = {
+										},
+										["appliedamt"] = 3,
+									},
+									[278070] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 278070,
+										["uptime"] = 3,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[225788] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 225788,
+										["uptime"] = 21,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[19574] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 19574,
+										["uptime"] = 13,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[246851] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 246851,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[279902] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 2,
+										["id"] = 279902,
+										["uptime"] = 10,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 18,
+							["debuff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["spell_cast"] = {
+								[34026] = 2,
+								[193455] = 8,
+								[272790] = 8,
+								[53209] = 1,
+								[217200] = 4,
+							},
+							["boss_fight_component"] = true,
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1539188353,
+							["nome"] = "Laurannah",
+							["pets"] = {
+								"Anduin <Laurannah>", -- [1]
+							},
+							["serial"] = "Player-3693-092AD332",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Anduin <Laurannah>",
+							["classe"] = "PET",
+							["spell_cast"] = {
+								[16827] = 6,
+								[61684] = 1,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 0,
+							["serial"] = "Pet-0-3133-1477-19893-50159-0102C68B02",
+							["boss_fight_component"] = true,
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["last_event"] = 0,
+							["nome"] = "Fenryr",
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["spell_cast"] = {
+								[196543] = 1,
+								[197558] = 1,
+							},
+							["tipo"] = 4,
+							["monster"] = true,
+							["serial"] = "Creature-0-3133-1477-19893-99868-00003E23FD",
+							["boss_fight_component"] = true,
+						}, -- [3]
+						{
+							["flag_original"] = 2632,
+							["last_event"] = 0,
+							["nome"] = "Unknown",
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["spell_cast"] = {
+								[207707] = 3,
+							},
+							["tipo"] = 4,
+							["monster"] = true,
+							["serial"] = "Creature-0-3133-1477-19893-99922-00003E2415",
+							["boss_fight_component"] = true,
+						}, -- [4]
+						{
+							["flag_original"] = 68168,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["boss_debuff"] = true,
+							["monster"] = true,
+							["debuff_uptime"] = 9,
+							["spellschool"] = 1,
+							["boss_fight_component"] = true,
+							["debuff_uptime_targets"] = {
+								["Laurannah"] = {
+									["uptime"] = 9,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+							},
+							["last_event"] = 1539187747,
+							["tipo"] = 4,
+							["damage_twin"] = "Fenryr",
+							["serial"] = "Creature-0-3133-1477-19893-99868-00003E23FD",
+							["damage_spellid"] = 197556,
+							["nome"] = "Ravenous Leap",
+						}, -- [5]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 474,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Laurannah"] = true,
+				},
+				["overall_added"] = false,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Fenryr",
+				["combat_counter"] = 12626,
+				["playing_solo"] = true,
+				["totals"] = {
+					263425.95589, -- [1]
+					10642, -- [2]
+					{
+						0, -- [1]
+						[0] = 90,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Laurannah"] = 6649524.028819,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Laurannah"] = 10642.005933,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 678958.383,
+				["TimeData"] = {
+				},
+				["combat_id"] = 474,
+				["data_fim"] = "12:19:14",
+				["resincked"] = true,
+				["hasSaved"] = true,
+				["frags"] = {
+					["Fenryr"] = 1,
+				},
+				["is_boss"] = {
+					["diff_string"] = "Mythic",
+					["index"] = 1,
+					["zone"] = "Halls of Valor",
+					["encounter"] = "Fenryr",
+					["mapid"] = 1477,
+					["try_number"] = 3,
+					["name"] = "Fenryr",
+					["diff"] = 23,
+					["ej_instance_id"] = 721,
+					["id"] = 1807,
+				},
+				["data_inicio"] = "12:08:46",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					89769, -- [1]
+					7177, -- [2]
+					{
+						0, -- [1]
+						[0] = 90,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 678330.88,
+				["contra"] = "Fenryr",
+				["instance_type"] = "raid",
+			}, -- [14]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 474,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1300,
+							["totalabsorbed"] = 0.00659,
+							["damage_from"] = {
+								["Environment (Falling)"] = true,
+								["Ebonclaw Packmate"] = true,
+								["Fenryr"] = true,
+							},
+							["targets"] = {
+								["Fenryr"] = 171749,
+								["Ebonclaw Packmate"] = 8710,
+							},
+							["pets"] = {
+								"Anduin <Laurannah>", -- [1]
+								"Varian <Laurannah>", -- [2]
+							},
+							["total"] = 180459.00659,
+							["tipo"] = 1,
+							["classe"] = "HUNTER",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 89769.00659,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1539187747,
+							["nome"] = "Laurannah",
+							["damage_taken"] = 17749.00659,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[193455] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 7565,
+										["g_amt"] = 0,
+										["n_max"] = 3782,
+										["targets"] = {
+											["Fenryr"] = 29923,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 22358,
+										["n_min"] = 2752,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 29923,
+										["c_max"] = 7565,
+										["id"] = 193455,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 7565,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 7,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[75] = {
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 24938,
+										["g_amt"] = 0,
+										["n_max"] = 3690,
+										["targets"] = {
+											["Fenryr"] = 38788,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 13850,
+										["n_min"] = 3380,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 38788,
+										["c_max"] = 7178,
+										["id"] = 75,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 5167,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[171457] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 8710,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Ebonclaw Packmate"] = 8710,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 8710,
+										["c_max"] = 8710,
+										["id"] = 171457,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 8710,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+									[217200] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 584,
+										["targets"] = {
+											["Fenryr"] = 4883,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 4883,
+										["n_min"] = 530,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 4883,
+										["c_max"] = 0,
+										["id"] = 217200,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 9,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[171454] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 4355,
+										["targets"] = {
+											["Fenryr"] = 4355,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 4355,
+										["n_min"] = 4355,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 4355,
+										["c_max"] = 0,
+										["id"] = 171454,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 16,
+									},
+									[269031] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 3110,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Fenryr"] = 3110,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 3110,
+										["c_max"] = 3110,
+										["id"] = 269031,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 3110,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["grupo"] = true,
+							["on_hold"] = false,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1539187747,
+							["friendlyfire"] = {
+							},
+							["start_time"] = 1539187726,
+							["serial"] = "Player-3693-092AD332",
+							["friendlyfire_total"] = 0,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.008078,
+							["damage_from"] = {
+								["Fenryr"] = true,
+							},
+							["targets"] = {
+								["Fenryr"] = 57056,
+							},
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 57056.008078,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 57056.008078,
+							["nome"] = "Anduin <Laurannah>",
+							["ownerName"] = "Laurannah",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 4680,
+										["g_amt"] = 0,
+										["n_max"] = 1170,
+										["targets"] = {
+											["Fenryr"] = 16809,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 12129,
+										["n_min"] = 851,
+										["g_dmg"] = 0,
+										["counter"] = 14,
+										["total"] = 16809,
+										["c_max"] = 2340,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 2340,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 12,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+									[83381] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 5242,
+										["targets"] = {
+											["Fenryr"] = 14121,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 14121,
+										["n_min"] = 3876,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 14121,
+										["c_max"] = 0,
+										["id"] = 83381,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[16827] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 8417,
+										["g_amt"] = 0,
+										["n_max"] = 4209,
+										["targets"] = {
+											["Fenryr"] = 26126,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 17709,
+										["n_min"] = 3000,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 26126,
+										["c_max"] = 8417,
+										["id"] = 16827,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 8417,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["damage_taken"] = 3465.008078,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1539187747,
+							["on_hold"] = false,
+							["start_time"] = 1539187726,
+							["serial"] = "Pet-0-3133-1477-19893-50159-0102C68B02",
+							["end_time"] = 1539187747,
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.001188,
+							["damage_from"] = {
+								["Varian <Laurannah>"] = true,
+								["Laurannah"] = true,
+								["Anduin <Laurannah>"] = true,
+							},
+							["targets"] = {
+								["Laurannah"] = 3123,
+								["Anduin <Laurannah>"] = 3465,
+							},
+							["pets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["nome"] = "Fenryr",
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 6588.001188,
+							["delay"] = 0,
+							["monster"] = true,
+							["total"] = 6588.001188,
+							["end_time"] = 1539187747,
+							["damage_taken"] = 171749.001188,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 1713,
+										["targets"] = {
+											["Anduin"] = 0,
+											["Laurannah"] = 1713,
+											["Anduin <Laurannah>"] = 3465,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 5178,
+										["n_min"] = 920,
+										["g_dmg"] = 0,
+										["counter"] = 11,
+										["total"] = 5178,
+										["r_amt"] = 0,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["b_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 4,
+										["DODGE"] = 4,
+										["MISS"] = 3,
+									}, -- [1]
+									[196543] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Laurannah"] = 0,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 196543,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["MISS"] = 1,
+									},
+									[196497] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 671,
+										["targets"] = {
+											["Laurannah"] = 671,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 671,
+										["n_min"] = 671,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 671,
+										["c_max"] = 0,
+										["id"] = 196497,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[197558] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 197558,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
+									},
+									[196496] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 739,
+										["targets"] = {
+											["Laurannah"] = 739,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 739,
+										["n_min"] = 739,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 739,
+										["c_max"] = 0,
+										["id"] = 196496,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["tipo"] = 1,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1539187767,
+							["on_hold"] = false,
+							["start_time"] = 1539187727,
+							["serial"] = "Creature-0-3133-1477-19893-99868-00003E23FD",
+							["dps_started"] = false,
+						}, -- [3]
+						{
+							["flag_original"] = 4369,
+							["totalabsorbed"] = 0.00122,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Fenryr"] = 33634,
+							},
+							["pets"] = {
+							},
+							["classe"] = "PET",
+							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 33634.00122,
+							["delay"] = 0,
+							["dps_started"] = false,
+							["total"] = 33634.00122,
+							["nome"] = "Varian <Laurannah>",
+							["ownerName"] = "Laurannah",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 2340,
+										["g_amt"] = 0,
+										["n_max"] = 1170,
+										["targets"] = {
+											["Fenryr"] = 15638,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 13298,
+										["n_min"] = 851,
+										["g_dmg"] = 0,
+										["counter"] = 14,
+										["total"] = 15638,
+										["c_max"] = 2340,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 2340,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 13,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+									[83381] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 7751,
+										["g_amt"] = 0,
+										["n_max"] = 5242,
+										["targets"] = {
+											["Fenryr"] = 17996,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 10245,
+										["n_min"] = 5003,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 17996,
+										["c_max"] = 7751,
+										["id"] = 83381,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 7751,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["damage_taken"] = 0.00122,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1539187747,
+							["on_hold"] = false,
+							["start_time"] = 1539187726,
+							["serial"] = "Pet-0-3133-1477-19893-50159-0202C5DB6C",
+							["end_time"] = 1539187747,
+						}, -- [4]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.005496,
+							["damage_from"] = {
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["boss_fight_component"] = true,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 0.005496,
+							["delay"] = 0,
+							["monster"] = true,
+							["total"] = 0.005496,
+							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
+							["nome"] = "Unknown",
+							["spells"] = {
+								["_ActorTable"] = {
+									[207707] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = 207707,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 3,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["last_event"] = 0,
+							["last_dps"] = 0,
+							["end_time"] = 1539187747,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.005496,
+							["start_time"] = 1539187747,
+							["serial"] = "Creature-0-3133-1477-19893-99922-00003E2415",
+							["dps_started"] = false,
+						}, -- [5]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.003752,
+							["damage_from"] = {
+								["Laurannah"] = true,
+							},
+							["targets"] = {
+								["Laurannah"] = 12050,
+							},
+							["pets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["nome"] = "Ebonclaw Packmate",
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 12050.003752,
+							["delay"] = 0,
+							["monster"] = true,
+							["total"] = 12050.003752,
+							["end_time"] = 1539187747,
+							["damage_taken"] = 8710.003752,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 978,
+										["targets"] = {
+											["Laurannah"] = 12050,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 12050,
+										["n_min"] = 659,
+										["g_dmg"] = 0,
+										["counter"] = 24,
+										["total"] = 12050,
+										["r_amt"] = 0,
+										["c_max"] = 0,
+										["spellschool"] = 1,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["b_dmg"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["a_dmg"] = 0,
+										["n_amt"] = 15,
+										["DODGE"] = 5,
+										["MISS"] = 4,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["tipo"] = 1,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1539187746,
+							["on_hold"] = false,
+							["start_time"] = 1539187737,
+							["serial"] = "Creature-0-3133-1477-19893-99922-00013E2415",
+							["dps_started"] = false,
+						}, -- [6]
+						{
+							["flag_original"] = -2147483648,
+							["totalabsorbed"] = 0.004388,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Bibbee-Dalaran"] = 13088,
+								["Wolfmanner-MoonGuard"] = 6098,
+								["Laurannah"] = 2576,
+								["Espyri-Dalaran"] = 11575,
+								["Thiccho"] = 330,
+								["Walkinplague-Stormrage"] = 7941,
+								["Harrisons"] = 21612,
+								["Cojo"] = 609,
+							},
+							["pets"] = {
+							},
+							["last_event"] = 1539187974,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 63829.004388,
+							["classe"] = "UNKNOW",
+							["dps_started"] = false,
+							["end_time"] = 1539188351,
+							["delay"] = 1539187974,
+							["nome"] = "Environment (Falling)",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[3] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 21612,
+										["targets"] = {
+											["Bibbee-Dalaran"] = 13088,
+											["Wolfmanner-MoonGuard"] = 6098,
+											["Laurannah"] = 2576,
+											["Espyri-Dalaran"] = 11575,
+											["Thiccho"] = 330,
+											["Walkinplague-Stormrage"] = 7941,
+											["Harrisons"] = 21612,
+											["Cojo"] = 609,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 63829,
+										["n_min"] = 233,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 63829,
+										["c_max"] = 0,
+										["id"] = 3,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 9,
+										["a_dmg"] = 0,
+										["spellschool"] = 3,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["damage_taken"] = 0.004388,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1539188335,
+							["serial"] = "",
+							["total"] = 63829.004388,
+						}, -- [7]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.001368,
+							["damage_from"] = {
+							},
+							["targets"] = {
+								["Alpine Hare"] = 6,
+							},
+							["pets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["boss_fight_component"] = true,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 6.001368,
+							["delay"] = 1539188024,
+							["monster"] = true,
+							["total"] = 6.001368,
+							["end_time"] = 1539188351,
+							["damage_taken"] = 0.001368,
+							["nome"] = "Snow Tracker Wolf",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 6,
+										["targets"] = {
+											["Alpine Hare"] = 6,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 6,
+										["n_min"] = 6,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 6,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["tipo"] = 1,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1539188024,
+							["on_hold"] = false,
+							["start_time"] = 1539188350,
+							["serial"] = "Creature-0-3133-0-16826-41478-00003E19AA",
+							["dps_started"] = false,
+						}, -- [8]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.00655,
+							["damage_from"] = {
+								["Warskool-Stormrage"] = true,
+							},
+							["targets"] = {
+								["Warskool-Stormrage"] = 140,
+							},
+							["pets"] = {
+							},
+							["friendlyfire_total"] = 0,
+							["boss_fight_component"] = true,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 140.00655,
+							["delay"] = 1539188073,
+							["monster"] = true,
+							["total"] = 140.00655,
+							["end_time"] = 1539188351,
+							["damage_taken"] = 354.00655,
+							["nome"] = "Dark Iron Steamsmith",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 140,
+										["targets"] = {
+											["Warskool-Stormrage"] = 140,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 140,
+										["n_min"] = 140,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 140,
+										["c_max"] = 0,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+								},
+								["tipo"] = 2,
+							},
+							["tipo"] = 1,
+							["last_dps"] = 0,
+							["friendlyfire"] = {
+							},
+							["custom"] = 0,
+							["last_event"] = 1539188073,
+							["on_hold"] = false,
+							["start_time"] = 1539188350,
+							["serial"] = "Vehicle-0-3882-0-18662-5840-00003E1C8F",
+							["dps_started"] = false,
+						}, -- [9]
+						{
+							["flag_original"] = 1320,
+							["totalabsorbed"] = 0.007116,
+							["damage_from"] = {
+								["Dark Iron Steamsmith"] = true,
+							},
+							["targets"] = {
+								["Dark Iron Steamsmith"] = 354,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 1,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 354.007116,
+							["classe"] = "WARRIOR",
+							["dps_started"] = false,
+							["total"] = 354.007116,
+							["delay"] = 1539188073,
+							["nome"] = "Warskool-Stormrage",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[12294] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 354,
+										["targets"] = {
+											["Dark Iron Steamsmith"] = 354,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 354,
+										["n_min"] = 354,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 354,
+										["c_max"] = 0,
+										["id"] = 12294,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["damage_taken"] = 140.007116,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1539188073,
+							["on_hold"] = false,
+							["start_time"] = 1539188350,
+							["serial"] = "Player-60-0BC94F70",
+							["end_time"] = 1539188351,
+						}, -- [10]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 474,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1300,
+							["totalabsorb"] = 0.005933,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["Laurannah"] = true,
+							},
+							["targets"] = {
+								["Laurannah"] = 7177,
+								["Anduin <Laurannah>"] = 14888,
+							},
+							["delay"] = 0,
+							["pets"] = {
+								"Anduin <Laurannah>", -- [1]
+							},
+							["totalover_without_pet"] = 0.005933,
+							["targets_overheal"] = {
+							},
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 11423.005933,
+							["total_without_pet"] = 7177.005933,
+							["iniciar_hps"] = false,
+							["totaldenied"] = 0.005933,
+							["classe"] = "HUNTER",
+							["end_time"] = 1539187747,
+							["healing_taken"] = 7177.005933,
+							["total"] = 10642.005933,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 2772,
+										["targets"] = {
+											["Laurannah"] = 7177,
+										},
+										["n_min"] = 79,
+										["counter"] = 9,
+										["overheal"] = 0,
+										["total"] = 7177,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 9,
+										["n_curado"] = 7177,
+										["m_amt"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["grupo"] = true,
+							["last_event"] = 1539187747,
+							["heal_enemy"] = {
+							},
+							["nome"] = "Laurannah",
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["start_time"] = 1539187729,
+							["serial"] = "Player-3693-092AD332",
+							["targets_absorbs"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["targets_overheal"] = {
+								["Anduin <Laurannah>"] = 11423,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["totalover"] = 11423.0077,
+							["total_without_pet"] = 3465.0077,
+							["total"] = 3465.0077,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Pet-0-3133-1477-19893-50159-0102C68B02",
+							["totalabsorb"] = 0.0077,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Anduin <Laurannah>"] = 14888,
+							},
+							["totalover_without_pet"] = 0.0077,
+							["healing_taken"] = 3465.0077,
+							["end_time"] = 1539187747,
+							["ownerName"] = "Laurannah",
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[143924] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Anduin <Laurannah>"] = 11423,
+										},
+										["n_max"] = 2182,
+										["targets"] = {
+											["Anduin <Laurannah>"] = 3465,
+										},
+										["n_min"] = 1283,
+										["counter"] = 2,
+										["overheal"] = 11423,
+										["total"] = 3465,
+										["c_max"] = 0,
+										["id"] = 143924,
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 2,
+										["n_curado"] = 3465,
+										["m_amt"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+								["tipo"] = 3,
+							},
+							["totaldenied"] = 0.0077,
+							["healing_from"] = {
+								["Anduin <Laurannah>"] = true,
+							},
+							["tipo"] = 2,
+							["custom"] = 0,
+							["last_event"] = 1539187734,
+							["classe"] = "PET",
+							["start_time"] = 1539187741,
+							["delay"] = 1539187734,
+							["nome"] = "Anduin <Laurannah>",
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 474,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["resource"] = 0.00849,
+							["targets"] = {
+								["Laurannah"] = 90,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "HUNTER",
+							["alternatepower"] = 0.00849,
+							["boss_fight_component"] = true,
+							["spells"] = {
+								["_ActorTable"] = {
+									[204304] = {
+										["id"] = 204304,
+										["total"] = 20,
+										["targets"] = {
+											["Laurannah"] = 20,
+										},
+										["counter"] = 2,
+									},
+									[246152] = {
+										["id"] = 246152,
+										["total"] = 50,
+										["targets"] = {
+											["Laurannah"] = 50,
+										},
+										["counter"] = 10,
+									},
+									[246851] = {
+										["id"] = 246851,
+										["total"] = 20,
+										["targets"] = {
+											["Laurannah"] = 20,
+										},
+										["counter"] = 4,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["received"] = 90.00849,
+							["last_event"] = 1539187753,
+							["total"] = 90.00849,
+							["tipo"] = 3,
+							["serial"] = "Player-3693-092AD332",
+							["nome"] = "Laurannah",
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 474,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[217200] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 2,
+										["id"] = 217200,
+										["uptime"] = 18,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["buff_uptime"] = 77,
+							["classe"] = "HUNTER",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[186258] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 0,
+										["id"] = 186258,
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["appliedamt"] = 0,
+									},
+									[273264] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 273264,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[246152] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 3,
+										["refreshamt"] = 0,
+										["id"] = 246152,
+										["uptime"] = 16,
+										["targets"] = {
+										},
+										["appliedamt"] = 3,
+									},
+									[278070] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 278070,
+										["uptime"] = 3,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[225788] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 225788,
+										["uptime"] = 21,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[19574] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 19574,
+										["uptime"] = 13,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[246851] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 246851,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[279902] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 2,
+										["id"] = 279902,
+										["uptime"] = 10,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 18,
+							["debuff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["spell_cast"] = {
+								[34026] = 2,
+								[193455] = 8,
+								[272790] = 8,
+								[53209] = 1,
+								[217200] = 4,
+							},
+							["boss_fight_component"] = true,
+							["buff_uptime_targets"] = {
+							},
+							["last_event"] = 1539188353,
+							["nome"] = "Laurannah",
+							["pets"] = {
+								"Anduin <Laurannah>", -- [1]
+							},
+							["serial"] = "Player-3693-092AD332",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 4369,
+							["ownerName"] = "Laurannah",
+							["nome"] = "Anduin <Laurannah>",
+							["classe"] = "PET",
+							["spell_cast"] = {
+								[16827] = 6,
+								[61684] = 1,
+							},
+							["pets"] = {
+							},
+							["tipo"] = 4,
+							["last_event"] = 0,
+							["serial"] = "Pet-0-3133-1477-19893-50159-0102C68B02",
+							["boss_fight_component"] = true,
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["last_event"] = 0,
+							["nome"] = "Fenryr",
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["spell_cast"] = {
+								[196543] = 1,
+								[197558] = 1,
+							},
+							["tipo"] = 4,
+							["monster"] = true,
+							["serial"] = "Creature-0-3133-1477-19893-99868-00003E23FD",
+							["boss_fight_component"] = true,
+						}, -- [3]
+						{
+							["flag_original"] = 2632,
+							["last_event"] = 0,
+							["nome"] = "Unknown",
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["spell_cast"] = {
+								[207707] = 3,
+							},
+							["tipo"] = 4,
+							["monster"] = true,
+							["serial"] = "Creature-0-3133-1477-19893-99922-00003E2415",
+							["boss_fight_component"] = true,
+						}, -- [4]
+						{
+							["flag_original"] = 68168,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["boss_debuff"] = true,
+							["monster"] = true,
+							["debuff_uptime"] = 9,
+							["spellschool"] = 1,
+							["boss_fight_component"] = true,
+							["debuff_uptime_targets"] = {
+								["Laurannah"] = {
+									["uptime"] = 9,
+									["refreshamt"] = 0,
+									["activedamt"] = 0,
+									["actived"] = false,
+									["appliedamt"] = 0,
+								},
+							},
+							["last_event"] = 1539187747,
+							["tipo"] = 4,
+							["damage_twin"] = "Fenryr",
+							["serial"] = "Creature-0-3133-1477-19893-99868-00003E23FD",
+							["damage_spellid"] = 197556,
+							["nome"] = "Ravenous Leap",
+						}, -- [5]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 474,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Laurannah"] = true,
+				},
+				["overall_added"] = false,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["enemy"] = "Fenryr",
+				["combat_counter"] = 12626,
+				["playing_solo"] = true,
+				["totals"] = {
+					263425.95589, -- [1]
+					10642, -- [2]
+					{
+						0, -- [1]
+						[0] = 90,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Laurannah"] = 6649524.028819,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Laurannah"] = 10642.005933,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 678958.383,
+				["TimeData"] = {
+				},
+				["combat_id"] = 474,
+				["data_fim"] = "12:19:14",
+				["resincked"] = true,
+				["hasSaved"] = true,
+				["frags"] = {
+					["Fenryr"] = 1,
+				},
+				["is_boss"] = {
+					["diff_string"] = "Mythic",
+					["index"] = 1,
+					["zone"] = "Halls of Valor",
+					["encounter"] = "Fenryr",
+					["mapid"] = 1477,
+					["try_number"] = 3,
+					["name"] = "Fenryr",
+					["diff"] = 23,
+					["ej_instance_id"] = 721,
+					["id"] = 1807,
+				},
+				["data_inicio"] = "12:08:46",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					89769, -- [1]
+					7177, -- [2]
+					{
+						0, -- [1]
+						[0] = 90,
+						["alternatepower"] = 0,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 678330.88,
+				["contra"] = "Fenryr",
+				["instance_type"] = "raid",
+			}, -- [15]
 			{
 				{
 					["tipo"] = 2,
@@ -7269,19 +7948,18 @@ _detalhes_database = {
 								"Anduin <Laurannah>", -- [1]
 								"Varian <Laurannah>", -- [2]
 							},
+							["total"] = 123937.008519,
+							["tipo"] = 1,
 							["classe"] = "HUNTER",
-							["last_event"] = 1539187696,
-							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 80616.008519,
-							["serial"] = "Player-3693-092AD332",
+							["delay"] = 0,
 							["dps_started"] = false,
 							["end_time"] = 1539187702,
-							["boss_fight_component"] = true,
-							["friendlyfire"] = {
-							},
 							["nome"] = "Laurannah",
+							["damage_taken"] = 1800.008519,
+							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
 									[280206] = {
@@ -7302,16 +7980,16 @@ _detalhes_database = {
 										["c_max"] = 2728,
 										["id"] = 280206,
 										["r_dmg"] = 0,
-										["spellschool"] = 32,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 2728,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 3,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 32,
 									},
 									[193455] = {
 										["c_amt"] = 2,
@@ -7331,16 +8009,16 @@ _detalhes_database = {
 										["c_max"] = 5505,
 										["id"] = 193455,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 5504,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 									[75] = {
 										["c_amt"] = 0,
@@ -7360,16 +8038,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 75,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 5,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 									[265092] = {
 										["c_amt"] = 1,
@@ -7389,16 +8067,16 @@ _detalhes_database = {
 										["c_max"] = 22887,
 										["id"] = 265092,
 										["r_dmg"] = 0,
-										["spellschool"] = 4,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 22887,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
 									},
 									[131900] = {
 										["c_amt"] = 2,
@@ -7418,16 +8096,16 @@ _detalhes_database = {
 										["c_max"] = 3264,
 										["id"] = 131900,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 3263,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 8,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 									[269031] = {
 										["c_amt"] = 0,
@@ -7447,16 +8125,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 269031,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
@@ -7465,11 +8143,12 @@ _detalhes_database = {
 							["on_hold"] = false,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 1800.008519,
+							["last_event"] = 1539187696,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1539187683,
-							["delay"] = 0,
-							["total"] = 123937.008519,
+							["serial"] = "Player-3693-092AD332",
+							["friendlyfire_total"] = 0,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -7481,18 +8160,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 25735.008036,
-							["last_event"] = 1539187694,
+							["classe"] = "PET",
+							["tipo"] = 1,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 25735.008036,
-							["serial"] = "Pet-0-3133-1477-19893-50159-0102C68B02",
+							["delay"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1539187702,
-							["boss_fight_component"] = true,
-							["ownerName"] = "Laurannah",
+							["total"] = 25735.008036,
 							["nome"] = "Anduin <Laurannah>",
+							["ownerName"] = "Laurannah",
+							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -7513,16 +8192,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 6,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									}, -- [1]
 									[83381] = {
 										["c_amt"] = 1,
@@ -7542,16 +8221,16 @@ _detalhes_database = {
 										["c_max"] = 7752,
 										["id"] = 83381,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 7752,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 									[16827] = {
 										["c_amt"] = 0,
@@ -7571,30 +8250,30 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 16827,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 3,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 0.008036,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.008036,
+							["last_event"] = 1539187694,
+							["on_hold"] = false,
 							["start_time"] = 1539187683,
-							["delay"] = 0,
-							["classe"] = "PET",
+							["serial"] = "Pet-0-3133-1477-19893-50159-0102C68B02",
+							["end_time"] = 1539187702,
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
@@ -7609,18 +8288,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["monster"] = true,
-							["boss_fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Fenryr",
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1800.00729,
-							["serial"] = "Creature-0-3133-1477-19893-95674-00003E20CE",
-							["dps_started"] = false,
+							["delay"] = 0,
+							["monster"] = true,
 							["total"] = 1800.00729,
 							["end_time"] = 1539187702,
-							["on_hold"] = false,
-							["nome"] = "Fenryr",
+							["damage_taken"] = 123937.00729,
+							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -7639,19 +8318,19 @@ _detalhes_database = {
 										["counter"] = 5,
 										["total"] = 1800,
 										["c_max"] = 0,
-										["MISS"] = 4,
+										["r_amt"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
+										["a_dmg"] = 0,
 										["b_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
-										["c_min"] = 0,
+										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
+										["MISS"] = 4,
 									}, -- [1]
 									[196543] = {
 										["c_amt"] = 0,
@@ -7671,16 +8350,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 196543,
 										["r_dmg"] = 0,
-										["MISS"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["MISS"] = 1,
 									},
 									[196567] = {
 										["c_amt"] = 0,
@@ -7699,29 +8378,29 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 196567,
 										["r_dmg"] = 0,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["last_event"] = 1539187694,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["friendlyfire"] = {
 							},
-							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 123937.00729,
+							["last_event"] = 1539187694,
+							["on_hold"] = false,
 							["start_time"] = 1539187686,
-							["delay"] = 0,
-							["friendlyfire_total"] = 0,
+							["serial"] = "Creature-0-3133-1477-19893-95674-00003E20CE",
+							["dps_started"] = false,
 						}, -- [3]
 						{
 							["flag_original"] = 4369,
@@ -7733,18 +8412,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 17586.00527,
-							["last_event"] = 1539187694,
+							["classe"] = "PET",
+							["tipo"] = 1,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 17586.00527,
-							["serial"] = "Pet-0-3133-1477-19893-50159-0202C5DB6C",
+							["delay"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1539187702,
-							["boss_fight_component"] = true,
-							["ownerName"] = "Laurannah",
+							["total"] = 17586.00527,
 							["nome"] = "Varian <Laurannah>",
+							["ownerName"] = "Laurannah",
+							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -7765,16 +8444,16 @@ _detalhes_database = {
 										["c_max"] = 1702,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 1702,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 5,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									}, -- [1]
 									[83381] = {
 										["c_amt"] = 1,
@@ -7794,30 +8473,30 @@ _detalhes_database = {
 										["c_max"] = 7752,
 										["id"] = 83381,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 7752,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 0.00527,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.00527,
+							["last_event"] = 1539187694,
+							["on_hold"] = false,
 							["start_time"] = 1539187683,
-							["delay"] = 0,
-							["classe"] = "PET",
+							["serial"] = "Pet-0-3133-1477-19893-50159-0202C5DB6C",
+							["end_time"] = 1539187702,
 						}, -- [4]
 					},
 				}, -- [1]
@@ -7829,28 +8508,28 @@ _detalhes_database = {
 							["flag_original"] = 1297,
 							["totalabsorb"] = 0.003446,
 							["last_hps"] = 0,
-							["healing_from"] = {
-								["Laurannah"] = true,
+							["targets_overheal"] = {
+								["Laurannah"] = 593,
 							},
 							["targets"] = {
 								["Laurannah"] = 2393,
 							},
-							["healing_taken"] = 1800.003446,
+							["delay"] = 1539187689,
 							["pets"] = {
 							},
-							["totalover_without_pet"] = 0.003446,
-							["targets_overheal"] = {
-								["Laurannah"] = 593,
+							["iniciar_hps"] = false,
+							["healing_from"] = {
+								["Laurannah"] = true,
 							},
-							["classe"] = "HUNTER",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 593.003446,
 							["total_without_pet"] = 1800.003446,
-							["iniciar_hps"] = false,
-							["start_time"] = 1539187699,
-							["heal_enemy_amt"] = 0,
-							["end_time"] = 1539187702,
+							["totalover_without_pet"] = 0.003446,
+							["totaldenied"] = 0.003446,
+							["healing_taken"] = 1800.003446,
 							["total"] = 1800.003446,
-							["nome"] = "Laurannah",
+							["classe"] = "HUNTER",
+							["end_time"] = 1539187702,
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -7874,29 +8553,29 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 1800,
-										["n_amt"] = 3,
-										["totaldenied"] = 0,
 										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 3,
+										["n_curado"] = 1800,
+										["m_amt"] = 0,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["serial"] = "Player-3693-092AD332",
+							["tipo"] = 2,
 							["heal_enemy"] = {
 							},
-							["targets_absorbs"] = {
-							},
+							["nome"] = "Laurannah",
 							["custom"] = 0,
 							["last_event"] = 1539187689,
 							["on_hold"] = false,
-							["totaldenied"] = 0.003446,
-							["delay"] = 1539187689,
-							["tipo"] = 2,
+							["start_time"] = 1539187699,
+							["serial"] = "Player-3693-092AD332",
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 					},
 				}, -- [2]
@@ -7912,116 +8591,116 @@ _detalhes_database = {
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["boss_fight_component"] = true,
+							["nome"] = "Laurannah",
 							["buff_uptime_targets"] = {
 							},
 							["grupo"] = true,
-							["nome"] = "Laurannah",
+							["boss_fight_component"] = true,
+							["buff_uptime"] = 57,
+							["last_event"] = 1539187702,
 							["spell_cast"] = {
-								[131894] = 1,
-								[193455] = 4,
-								[34026] = 1,
 								[147362] = 1,
+								[193455] = 4,
+								[131894] = 1,
+								[34026] = 1,
 							},
-							["tipo"] = 4,
+							["classe"] = "HUNTER",
 							["pets"] = {
 								"Anduin <Laurannah>", -- [1]
 							},
-							["classe"] = "HUNTER",
-							["buff_uptime"] = 57,
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[225788] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 225788,
+										["uptime"] = 19,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 19,
-										["id"] = 225788,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[279902] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 279902,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 5,
-										["id"] = 279902,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[278070] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 1,
+										["id"] = 278070,
+										["uptime"] = 14,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 14,
-										["id"] = 278070,
-										["refreshamt"] = 1,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[280204] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 280204,
+										["uptime"] = 14,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 14,
-										["id"] = 280204,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[231390] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 231390,
+										["uptime"] = 5,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 5,
-										["id"] = 231390,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["serial"] = "Player-3693-092AD332",
-							["last_event"] = 1539187702,
+							["tipo"] = 4,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Anduin <Laurannah>",
-							["tipo"] = 4,
+							["classe"] = "PET",
 							["spell_cast"] = {
 								[16827] = 3,
 							},
-							["boss_fight_component"] = true,
-							["last_event"] = 0,
-							["classe"] = "PET",
-							["serial"] = "Pet-0-3133-1477-19893-50159-0102C68B02",
 							["pets"] = {
 							},
+							["tipo"] = 4,
+							["last_event"] = 0,
+							["serial"] = "Pet-0-3133-1477-19893-50159-0102C68B02",
+							["boss_fight_component"] = true,
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
-							["tipo"] = 4,
+							["last_event"] = 0,
 							["nome"] = "Fenryr",
 							["pets"] = {
 							},
-							["boss_fight_component"] = true,
+							["classe"] = "UNKNOW",
 							["spell_cast"] = {
 								[196543] = 1,
 								[196567] = 1,
 							},
-							["last_event"] = 0,
+							["tipo"] = 4,
 							["monster"] = true,
 							["serial"] = "Creature-0-3133-1477-19893-95674-00003E20CE",
-							["classe"] = "UNKNOW",
+							["boss_fight_component"] = true,
 						}, -- [3]
 					},
 				}, -- [4]
@@ -8049,21 +8728,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -8075,7 +8754,10 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Laurannah"] = 123937.008519,
+						}, -- [1]
 					},
 					["heal_section"] = {
 					},
@@ -8084,16 +8766,14 @@ _detalhes_database = {
 							["Laurannah"] = 1800.003446,
 						}, -- [1]
 					},
-					["damage"] = {
-						{
-							["Laurannah"] = 123937.008519,
-						}, -- [1]
+					["damage_section"] = {
 					},
 				},
 				["end_time"] = 678306.895,
 				["combat_id"] = 473,
-				["contra"] = "Fenryr",
-				["instance_type"] = "party",
+				["TimeData"] = {
+				},
+				["data_fim"] = "12:08:22",
 				["hasSaved"] = true,
 				["frags"] = {
 				},
@@ -8105,9 +8785,9 @@ _detalhes_database = {
 					["mapid"] = 1477,
 					["try_number"] = 1,
 					["name"] = "Fenryr",
-					["id"] = 1807,
-					["ej_instance_id"] = 721,
 					["diff"] = 23,
+					["ej_instance_id"] = 721,
+					["id"] = 1807,
 				},
 				["data_inicio"] = "12:08:04",
 				["CombatSkillCache"] = {
@@ -8119,25 +8799,24 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 678288.78,
-				["TimeData"] = {
-				},
-				["data_fim"] = "12:08:22",
-			}, -- [14]
+				["contra"] = "Fenryr",
+				["instance_type"] = "party",
+			}, -- [16]
 			{
 				{
 					["tipo"] = 2,
@@ -8156,19 +8835,18 @@ _detalhes_database = {
 								"Anduin <Laurannah>", -- [1]
 								"Varian <Laurannah>", -- [2]
 							},
-							["on_hold"] = false,
-							["last_event"] = 1539186893,
+							["classe"] = "HUNTER",
+							["tipo"] = 1,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 120423.006057,
-							["serial"] = "Player-3693-092AD332",
+							["delay"] = 0,
 							["dps_started"] = false,
 							["total"] = 243841.006057,
-							["boss_fight_component"] = true,
-							["friendlyfire"] = {
-							},
 							["nome"] = "Laurannah",
+							["damage_taken"] = 5718.006057,
+							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
 									[193455] = {
@@ -8189,16 +8867,16 @@ _detalhes_database = {
 										["c_max"] = 6880,
 										["id"] = 193455,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 6078,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 4,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 									[75] = {
 										["c_amt"] = 1,
@@ -8218,16 +8896,16 @@ _detalhes_database = {
 										["c_max"] = 5419,
 										["id"] = 75,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 5419,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 7,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 									[271686] = {
 										["c_amt"] = 0,
@@ -8247,16 +8925,16 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 271686,
 										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
 									},
 									[131900] = {
 										["c_amt"] = 6,
@@ -8276,74 +8954,16 @@ _detalhes_database = {
 										["c_max"] = 4485,
 										["id"] = 131900,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 3603,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 10,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[265092] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 11443,
-										["targets"] = {
-											["Hymdall"] = 11443,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 11443,
-										["n_min"] = 11443,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 11443,
-										["c_max"] = 0,
-										["id"] = 265092,
-										["r_dmg"] = 0,
-										["spellschool"] = 4,
 										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
-									},
-									[271685] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 3892,
-										["targets"] = {
-											["Hymdall"] = 3892,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 3892,
-										["n_min"] = 3892,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 3892,
-										["c_max"] = 0,
-										["id"] = 271685,
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["m_amt"] = 0,
-										["c_min"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["spellschool"] = 1,
 									},
 									[217200] = {
 										["c_amt"] = 0,
@@ -8363,16 +8983,74 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 217200,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 10,
-										["a_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[271685] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 3892,
+										["targets"] = {
+											["Hymdall"] = 3892,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 3892,
+										["n_min"] = 3892,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 3892,
+										["c_max"] = 0,
+										["id"] = 271685,
+										["r_dmg"] = 0,
 										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+									[265092] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 11443,
+										["targets"] = {
+											["Hymdall"] = 11443,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 11443,
+										["n_min"] = 11443,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 11443,
+										["c_max"] = 0,
+										["id"] = 265092,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
 									},
 								},
 								["tipo"] = 2,
@@ -8381,11 +9059,12 @@ _detalhes_database = {
 							["end_time"] = 1539186899,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 5718.006057,
+							["last_event"] = 1539186893,
+							["on_hold"] = false,
 							["start_time"] = 1539186869,
-							["delay"] = 0,
-							["classe"] = "HUNTER",
+							["serial"] = "Player-3693-092AD332",
+							["friendlyfire"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -8398,18 +9077,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 79990.006928,
-							["last_event"] = 1539186893,
+							["classe"] = "PET",
+							["tipo"] = 1,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 79990.006928,
-							["serial"] = "Pet-0-3133-1220-23184-50159-0102C68B02",
+							["delay"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1539186899,
-							["boss_fight_component"] = true,
-							["ownerName"] = "Laurannah",
+							["total"] = 79990.006928,
 							["nome"] = "Anduin <Laurannah>",
+							["ownerName"] = "Laurannah",
+							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -8430,16 +9109,16 @@ _detalhes_database = {
 										["c_max"] = 2340,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 1702,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 10,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									}, -- [1]
 									[83381] = {
 										["c_amt"] = 1,
@@ -8459,16 +9138,16 @@ _detalhes_database = {
 										["c_max"] = 10483,
 										["id"] = 83381,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 10483,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 3,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 									[16827] = {
 										["c_amt"] = 2,
@@ -8488,30 +9167,30 @@ _detalhes_database = {
 										["c_max"] = 7501,
 										["id"] = 16827,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 7500,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 5,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 2008.006928,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 2008.006928,
+							["last_event"] = 1539186893,
+							["on_hold"] = false,
 							["start_time"] = 1539186869,
-							["delay"] = 0,
-							["classe"] = "PET",
+							["serial"] = "Pet-0-3133-1220-23184-50159-0102C68B02",
+							["end_time"] = 1539186899,
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
@@ -8527,18 +9206,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["monster"] = true,
-							["boss_fight_component"] = true,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Hymdall",
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 7726.006616,
-							["serial"] = "Creature-0-3133-1477-19893-94960-00003E2047",
-							["dps_started"] = false,
+							["delay"] = 0,
+							["monster"] = true,
 							["total"] = 7726.006616,
 							["end_time"] = 1539186899,
-							["on_hold"] = false,
-							["nome"] = "Hymdall",
+							["damage_taken"] = 243841.006616,
+							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -8548,32 +9227,32 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 1008,
 										["targets"] = {
-											["Laurannah"] = 0,
 											["Anduin"] = 0,
+											["Laurannah"] = 0,
 											["Anduin <Laurannah>"] = 2008,
 										},
 										["m_dmg"] = 0,
 										["n_dmg"] = 2008,
-										["a_amt"] = 0,
+										["g_dmg"] = 0,
 										["n_min"] = 1000,
-										["MISS"] = 3,
+										["a_amt"] = 0,
 										["counter"] = 12,
-										["DODGE"] = 5,
+										["r_amt"] = 0,
 										["total"] = 2008,
 										["c_max"] = 0,
 										["b_dmg"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["m_amt"] = 0,
+										["a_dmg"] = 0,
+										["c_min"] = 0,
 										["m_crit"] = 0,
 										["PARRY"] = 2,
-										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
-										["a_dmg"] = 0,
+										["spellschool"] = 1,
 										["n_amt"] = 2,
-										["r_amt"] = 0,
-										["g_dmg"] = 0,
+										["DODGE"] = 5,
+										["MISS"] = 3,
 									}, -- [1]
 									[191284] = {
 										["c_amt"] = 0,
@@ -8593,15 +9272,15 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 191284,
 										["r_dmg"] = 0,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 1,
-										["c_min"] = 0,
-										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
 									},
 									[193092] = {
 										["c_amt"] = 0,
@@ -8620,15 +9299,15 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 193092,
 										["r_dmg"] = 0,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
 									},
 									[193235] = {
 										["c_amt"] = 0,
@@ -8647,29 +9326,29 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 193235,
 										["r_dmg"] = 0,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["last_event"] = 1539186892,
+							["tipo"] = 1,
+							["last_dps"] = 0,
 							["friendlyfire"] = {
 							},
-							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 243841.006616,
+							["last_event"] = 1539186892,
+							["on_hold"] = false,
 							["start_time"] = 1539186873,
-							["delay"] = 0,
-							["friendlyfire_total"] = 0,
+							["serial"] = "Creature-0-3133-1477-19893-94960-00003E2047",
+							["dps_started"] = false,
 						}, -- [3]
 						{
 							["flag_original"] = 4369,
@@ -8681,18 +9360,18 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 43428.00765,
-							["last_event"] = 1539186892,
+							["classe"] = "PET",
+							["tipo"] = 1,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 43428.00765,
-							["serial"] = "Pet-0-3133-1477-19893-50159-0102C5DB6C",
+							["delay"] = 0,
 							["dps_started"] = false,
-							["end_time"] = 1539186899,
-							["boss_fight_component"] = true,
-							["ownerName"] = "Laurannah",
+							["total"] = 43428.00765,
 							["nome"] = "Varian <Laurannah>",
+							["ownerName"] = "Laurannah",
+							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
 									{
@@ -8713,16 +9392,16 @@ _detalhes_database = {
 										["c_max"] = 2340,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 1702,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 13,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									}, -- [1]
 									[83381] = {
 										["c_amt"] = 1,
@@ -8742,30 +9421,30 @@ _detalhes_database = {
 										["c_max"] = 9690,
 										["id"] = 83381,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 9690,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 3,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 0.00765,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 0.00765,
+							["last_event"] = 1539186892,
+							["on_hold"] = false,
 							["start_time"] = 1539186869,
-							["delay"] = 0,
-							["classe"] = "PET",
+							["serial"] = "Pet-0-3133-1477-19893-50159-0102C5DB6C",
+							["end_time"] = 1539186899,
 						}, -- [4]
 						{
 							["flag_original"] = 2632,
@@ -8776,18 +9455,19 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["monster"] = true,
-							["nome"] = "Storm Drake",
+							["friendlyfire_total"] = 0,
+							["boss_fight_component"] = true,
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.00734,
-							["serial"] = "Vehicle-0-3133-1477-19893-97788-00003E20C2",
-							["dps_started"] = false,
+							["delay"] = 0,
+							["monster"] = true,
 							["total"] = 0.00734,
-							["damage_taken"] = 0.00734,
 							["on_hold"] = false,
-							["boss_fight_component"] = true,
+							["friendlyfire"] = {
+							},
+							["nome"] = "Storm Drake",
 							["spells"] = {
 								["_ActorTable"] = {
 									[188404] = {
@@ -8807,29 +9487,28 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 188404,
 										["r_dmg"] = 0,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
+										["c_min"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 1,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
+										["a_amt"] = 0,
+										["a_dmg"] = 0,
 									},
 								},
 								["tipo"] = 2,
 							},
-							["tipo"] = 1,
-							["end_time"] = 1539186899,
-							["last_dps"] = 0,
-							["custom"] = 0,
 							["last_event"] = 0,
-							["friendlyfire"] = {
-							},
+							["last_dps"] = 0,
+							["end_time"] = 1539186899,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["damage_taken"] = 0.00734,
 							["start_time"] = 1539186899,
-							["delay"] = 0,
-							["friendlyfire_total"] = 0,
+							["serial"] = "Vehicle-0-3133-1477-19893-97788-00003E20C2",
+							["dps_started"] = false,
 						}, -- [5]
 					},
 				}, -- [1]
@@ -8841,30 +9520,30 @@ _detalhes_database = {
 							["flag_original"] = 1300,
 							["totalabsorb"] = 0.007454,
 							["last_hps"] = 0,
-							["healing_from"] = {
-								["Laurannah"] = true,
+							["targets_overheal"] = {
+								["Laurannah"] = 754,
 							},
 							["targets"] = {
 								["Laurannah"] = 6472,
 								["Anduin <Laurannah>"] = 15511,
 							},
-							["healing_taken"] = 5718.007454,
+							["delay"] = 1539186887,
 							["pets"] = {
 								"Anduin <Laurannah>", -- [1]
 							},
-							["totalover_without_pet"] = 0.007454,
-							["targets_overheal"] = {
-								["Laurannah"] = 754,
+							["iniciar_hps"] = false,
+							["healing_from"] = {
+								["Laurannah"] = true,
 							},
-							["classe"] = "HUNTER",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 14257.007454,
 							["total_without_pet"] = 5718.007454,
-							["iniciar_hps"] = false,
-							["start_time"] = 1539186887,
-							["heal_enemy_amt"] = 0,
-							["end_time"] = 1539186899,
+							["totalover_without_pet"] = 0.007454,
+							["totaldenied"] = 0.007454,
+							["healing_taken"] = 5718.007454,
 							["total"] = 7726.007454,
-							["nome"] = "Laurannah",
+							["classe"] = "HUNTER",
+							["end_time"] = 1539186899,
 							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
@@ -8888,39 +9567,39 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 5718,
-										["n_amt"] = 6,
-										["totaldenied"] = 0,
 										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 6,
+										["n_curado"] = 5718,
+										["m_amt"] = 0,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
 							["grupo"] = true,
-							["serial"] = "Player-3693-092AD332",
+							["tipo"] = 2,
 							["heal_enemy"] = {
 							},
-							["targets_absorbs"] = {
-							},
+							["nome"] = "Laurannah",
 							["custom"] = 0,
 							["last_event"] = 1539186887,
 							["on_hold"] = false,
-							["totaldenied"] = 0.007454,
-							["delay"] = 1539186887,
-							["tipo"] = 2,
+							["start_time"] = 1539186887,
+							["serial"] = "Player-3693-092AD332",
+							["targets_absorbs"] = {
+							},
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
-							["healing_from"] = {
-								["Anduin <Laurannah>"] = true,
+							["targets_overheal"] = {
+								["Anduin <Laurannah>"] = 13503,
 							},
 							["pets"] = {
 							},
 							["iniciar_hps"] = false,
-							["classe"] = "PET",
+							["heal_enemy_amt"] = 0,
 							["totalover"] = 13503.005068,
 							["total_without_pet"] = 2008.005068,
 							["total"] = 2008.005068,
@@ -8939,7 +9618,7 @@ _detalhes_database = {
 							["healing_taken"] = 2008.005068,
 							["end_time"] = 1539186899,
 							["ownerName"] = "Laurannah",
-							["nome"] = "Anduin <Laurannah>",
+							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
 									[143924] = {
@@ -8962,28 +9641,28 @@ _detalhes_database = {
 										},
 										["c_curado"] = 0,
 										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 2008,
-										["n_amt"] = 2,
-										["totaldenied"] = 0,
 										["m_healed"] = 0,
+										["c_min"] = 0,
+										["totaldenied"] = 0,
+										["n_amt"] = 2,
+										["n_curado"] = 2008,
+										["m_amt"] = 0,
 										["absorbed"] = 0,
 									},
 								},
 								["tipo"] = 3,
 							},
-							["start_time"] = 1539186898,
-							["targets_overheal"] = {
-								["Anduin <Laurannah>"] = 13503,
+							["totaldenied"] = 0.005068,
+							["healing_from"] = {
+								["Anduin <Laurannah>"] = true,
 							},
-							["boss_fight_component"] = true,
+							["tipo"] = 2,
 							["custom"] = 0,
 							["last_event"] = 1539186886,
-							["heal_enemy_amt"] = 0,
-							["totaldenied"] = 0.005068,
+							["classe"] = "PET",
+							["start_time"] = 1539186898,
 							["delay"] = 1539186886,
-							["tipo"] = 2,
+							["nome"] = "Anduin <Laurannah>",
 						}, -- [2]
 					},
 				}, -- [2]
@@ -8992,7 +9671,7 @@ _detalhes_database = {
 					["combatId"] = 470,
 					["_ActorTable"] = {
 						{
-							["received"] = 119.001416,
+							["flag_original"] = 1297,
 							["resource"] = 0.001416,
 							["targets"] = {
 								["Laurannah"] = 119,
@@ -9003,8 +9682,8 @@ _detalhes_database = {
 							},
 							["powertype"] = 0,
 							["classe"] = "HUNTER",
-							["total"] = 201.001416,
-							["nome"] = "Laurannah",
+							["alternatepower"] = 0.001416,
+							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
 									[193530] = {
@@ -9036,15 +9715,15 @@ _detalhes_database = {
 								["tipo"] = 7,
 							},
 							["grupo"] = true,
-							["flag_original"] = 1297,
+							["received"] = 119.001416,
 							["last_event"] = 1539186896,
-							["alternatepower"] = 0.001416,
-							["boss_fight_component"] = true,
-							["serial"] = "Player-3693-092AD332",
+							["total"] = 201.001416,
 							["tipo"] = 3,
+							["serial"] = "Player-3693-092AD332",
+							["nome"] = "Laurannah",
 						}, -- [1]
 						{
-							["received"] = 82.005605,
+							["flag_original"] = 4369,
 							["resource"] = 0.005605,
 							["targets"] = {
 							},
@@ -9052,18 +9731,18 @@ _detalhes_database = {
 							},
 							["powertype"] = 0,
 							["classe"] = "PET",
-							["total"] = 0.005605,
+							["alternatepower"] = 0.005605,
 							["ownerName"] = "Laurannah",
-							["nome"] = "Anduin <Laurannah>",
+							["boss_fight_component"] = true,
 							["spells"] = {
 								["_ActorTable"] = {
 								},
 								["tipo"] = 7,
 							},
-							["flag_original"] = 4369,
+							["received"] = 82.005605,
 							["last_event"] = 0,
-							["alternatepower"] = 0.005605,
-							["boss_fight_component"] = true,
+							["total"] = 0.005605,
+							["nome"] = "Anduin <Laurannah>",
 							["serial"] = "Pet-0-3133-1220-23184-50159-0102C68B02",
 							["tipo"] = 3,
 						}, -- [2]
@@ -9078,15 +9757,15 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[217200] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 0,
+										["refreshamt"] = 2,
+										["id"] = 217200,
+										["uptime"] = 20,
 										["targets"] = {
 										},
-										["activedamt"] = 0,
-										["uptime"] = 20,
-										["id"] = 217200,
-										["refreshamt"] = 2,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
@@ -9096,120 +9775,120 @@ _detalhes_database = {
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[246851] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 246851,
+										["uptime"] = 8,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 8,
-										["id"] = 246851,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[193530] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 193530,
+										["uptime"] = 20,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 20,
-										["id"] = 193530,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[246152] = {
-										["appliedamt"] = 2,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 246152,
+										["uptime"] = 16,
 										["targets"] = {
 										},
-										["activedamt"] = 2,
-										["uptime"] = 16,
-										["id"] = 246152,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 2,
 									},
 									[225788] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
+										["counter"] = 0,
+										["actived"] = false,
 										["activedamt"] = 1,
-										["uptime"] = 30,
+										["refreshamt"] = 0,
 										["id"] = 225788,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[231390] = {
-										["appliedamt"] = 2,
+										["uptime"] = 30,
 										["targets"] = {
 										},
-										["activedamt"] = 2,
-										["uptime"] = 7,
-										["id"] = 231390,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[273264] = {
 										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 6,
-										["id"] = 273264,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[19574] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 13,
-										["id"] = 19574,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[279902] = {
-										["appliedamt"] = 2,
-										["targets"] = {
-										},
-										["activedamt"] = 2,
-										["uptime"] = 15,
-										["id"] = 279902,
-										["refreshamt"] = 2,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[274443] = {
-										["appliedamt"] = 1,
-										["targets"] = {
-										},
-										["activedamt"] = 1,
-										["uptime"] = 8,
-										["id"] = 274443,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
 									},
 									[278070] = {
-										["appliedamt"] = 2,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 278070,
+										["uptime"] = 12,
 										["targets"] = {
 										},
-										["activedamt"] = 2,
-										["uptime"] = 12,
-										["id"] = 278070,
-										["refreshamt"] = 0,
-										["actived"] = false,
+										["appliedamt"] = 2,
+									},
+									[273264] = {
 										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 273264,
+										["uptime"] = 6,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[19574] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 19574,
+										["uptime"] = 13,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[279902] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 2,
+										["id"] = 279902,
+										["uptime"] = 15,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
+									},
+									[274443] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 274443,
+										["uptime"] = 8,
+										["targets"] = {
+										},
+										["appliedamt"] = 1,
+									},
+									[231390] = {
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 231390,
+										["uptime"] = 7,
+										["targets"] = {
+										},
+										["appliedamt"] = 2,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 20,
-							["buff_uptime_targets"] = {
+							["debuff_uptime_targets"] = {
 							},
 							["grupo"] = true,
 							["spell_cast"] = {
@@ -9220,64 +9899,64 @@ _detalhes_database = {
 								[193530] = 1,
 								[217200] = 3,
 							},
-							["nome"] = "Laurannah",
-							["debuff_uptime_targets"] = {
+							["boss_fight_component"] = true,
+							["buff_uptime_targets"] = {
 							},
 							["last_event"] = 1539186899,
-							["tipo"] = 4,
+							["nome"] = "Laurannah",
 							["pets"] = {
 								"Anduin <Laurannah>", -- [1]
 							},
 							["serial"] = "Player-3693-092AD332",
-							["boss_fight_component"] = true,
+							["tipo"] = 4,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Anduin <Laurannah>",
-							["tipo"] = 4,
+							["classe"] = "PET",
 							["spell_cast"] = {
 								[16827] = 7,
 								[61684] = 1,
 							},
-							["boss_fight_component"] = true,
-							["last_event"] = 0,
-							["classe"] = "PET",
-							["serial"] = "Pet-0-3133-1220-23184-50159-0102C68B02",
 							["pets"] = {
 							},
+							["tipo"] = 4,
+							["last_event"] = 0,
+							["serial"] = "Pet-0-3133-1220-23184-50159-0102C68B02",
+							["boss_fight_component"] = true,
 						}, -- [2]
 						{
 							["flag_original"] = 68168,
-							["tipo"] = 4,
+							["last_event"] = 0,
 							["nome"] = "Hymdall",
 							["pets"] = {
 							},
-							["boss_fight_component"] = true,
+							["classe"] = "UNKNOW",
 							["spell_cast"] = {
 								[191284] = 1,
 								[193092] = 1,
 								[193235] = 1,
 							},
-							["last_event"] = 0,
+							["tipo"] = 4,
 							["monster"] = true,
 							["serial"] = "Creature-0-3133-1477-19893-94960-00003E2047",
-							["classe"] = "UNKNOW",
+							["boss_fight_component"] = true,
 						}, -- [3]
 						{
 							["flag_original"] = 2632,
-							["tipo"] = 4,
+							["last_event"] = 0,
 							["nome"] = "Storm Drake",
 							["pets"] = {
 							},
-							["boss_fight_component"] = true,
+							["classe"] = "UNKNOW",
 							["spell_cast"] = {
 								[188404] = 1,
 							},
-							["last_event"] = 0,
+							["tipo"] = 4,
 							["monster"] = true,
 							["serial"] = "Vehicle-0-3133-1477-19893-97788-00003E20C2",
-							["classe"] = "UNKNOW",
+							["boss_fight_component"] = true,
 						}, -- [4]
 					},
 				}, -- [4]
@@ -9305,21 +9984,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 201,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -9331,7 +10010,10 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Laurannah"] = 243841.006057,
+						}, -- [1]
 					},
 					["heal_section"] = {
 					},
@@ -9340,16 +10022,14 @@ _detalhes_database = {
 							["Laurannah"] = 7726.007454,
 						}, -- [1]
 					},
-					["damage"] = {
-						{
-							["Laurannah"] = 243841.006057,
-						}, -- [1]
+					["damage_section"] = {
 					},
 				},
 				["end_time"] = 677503.959,
 				["combat_id"] = 470,
-				["contra"] = "Hymdall",
-				["instance_type"] = "party",
+				["TimeData"] = {
+				},
+				["data_fim"] = "11:54:59",
 				["hasSaved"] = true,
 				["frags"] = {
 				},
@@ -9361,9 +10041,9 @@ _detalhes_database = {
 					["mapid"] = 1477,
 					["try_number"] = 1,
 					["name"] = "Hymdall",
-					["id"] = 1805,
-					["ej_instance_id"] = 721,
 					["diff"] = 23,
+					["ej_instance_id"] = 721,
+					["id"] = 1805,
 				},
 				["data_inicio"] = "11:54:29",
 				["CombatSkillCache"] = {
@@ -9375,25 +10055,24 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 201,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 677474.099,
-				["TimeData"] = {
-				},
-				["data_fim"] = "11:54:59",
-			}, -- [15]
+				["contra"] = "Hymdall",
+				["instance_type"] = "party",
+			}, -- [17]
 			{
 				{
 					["tipo"] = 2,
@@ -9412,16 +10091,15 @@ _detalhes_database = {
 								"Varian <Laurannah>", -- [1]
 								"Riverbeast <Laurannah>", -- [2]
 							},
-							["friendlyfire"] = {
-							},
+							["damage_taken"] = 11594.00149,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 0.00149,
-							["on_hold"] = false,
+							["classe"] = "HUNTER",
 							["dps_started"] = false,
 							["total"] = 2629.00149,
-							["serial"] = "Player-3693-092AD332",
+							["delay"] = 0,
 							["end_time"] = 1539186425,
 							["nome"] = "Laurannah",
 							["spells"] = {
@@ -9430,14 +10108,15 @@ _detalhes_database = {
 								["tipo"] = 2,
 							},
 							["grupo"] = true,
-							["tipo"] = 1,
+							["last_event"] = 1539186425,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1539186425,
-							["damage_taken"] = 11594.00149,
+							["tipo"] = 1,
+							["friendlyfire"] = {
+							},
 							["start_time"] = 1539186416,
-							["delay"] = 0,
-							["classe"] = "HUNTER",
+							["serial"] = "Player-3693-092AD332",
+							["on_hold"] = false,
 						}, -- [1]
 						{
 							["flag_original"] = 4369,
@@ -9449,15 +10128,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 0.007064,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1314.007064,
-							["classe"] = "PET",
+							["friendlyfire"] = {
+							},
 							["dps_started"] = false,
 							["total"] = 1314.007064,
-							["serial"] = "Pet-0-3138-1642-14670-50159-0202C5DB6C",
+							["delay"] = 0,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Varian <Laurannah>",
 							["spells"] = {
@@ -9480,30 +10160,29 @@ _detalhes_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 0,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 2,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									}, -- [1]
 								},
 								["tipo"] = 2,
 							},
 							["end_time"] = 1539186425,
-							["tipo"] = 1,
+							["last_event"] = 1539186418,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1539186418,
-							["damage_taken"] = 0.007064,
+							["tipo"] = 1,
+							["on_hold"] = false,
 							["start_time"] = 1539186416,
-							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["serial"] = "Pet-0-3138-1642-14670-50159-0202C5DB6C",
+							["classe"] = "PET",
 						}, -- [2]
 						{
 							["flag_original"] = 69905,
@@ -9515,15 +10194,16 @@ _detalhes_database = {
 							},
 							["pets"] = {
 							},
-							["on_hold"] = false,
+							["damage_taken"] = 0.003898,
 							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
 							["total_without_pet"] = 1315.003898,
-							["classe"] = "PET",
+							["friendlyfire"] = {
+							},
 							["dps_started"] = false,
 							["total"] = 1315.003898,
-							["serial"] = "Pet-0-3138-1642-14670-123653-0102C876CC",
+							["delay"] = 0,
 							["ownerName"] = "Laurannah",
 							["nome"] = "Riverbeast <Laurannah>",
 							["spells"] = {
@@ -9546,30 +10226,29 @@ _detalhes_database = {
 										["c_max"] = 1315,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_amt"] = 0,
 										["m_crit"] = 0,
-										["m_amt"] = 0,
 										["c_min"] = 1315,
+										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
 										["n_amt"] = 0,
-										["a_amt"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									}, -- [1]
 								},
 								["tipo"] = 2,
 							},
 							["end_time"] = 1539186425,
-							["tipo"] = 1,
+							["last_event"] = 1539186425,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1539186425,
-							["damage_taken"] = 0.003898,
+							["tipo"] = 1,
+							["on_hold"] = false,
 							["start_time"] = 1539186425,
-							["delay"] = 0,
-							["friendlyfire"] = {
-							},
+							["serial"] = "Pet-0-3138-1642-14670-123653-0102C876CC",
+							["classe"] = "PET",
 						}, -- [3]
 					},
 				}, -- [1]
@@ -9594,15 +10273,15 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[1515] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = -1,
+										["refreshamt"] = 0,
+										["id"] = 1515,
+										["uptime"] = 8,
 										["targets"] = {
 										},
-										["activedamt"] = -1,
-										["uptime"] = 8,
-										["id"] = 1515,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
@@ -9614,43 +10293,44 @@ _detalhes_database = {
 							["buff_uptime_spells"] = {
 								["_ActorTable"] = {
 									[1515] = {
-										["appliedamt"] = 2,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 2,
+										["refreshamt"] = 0,
+										["id"] = 1515,
+										["uptime"] = 7,
 										["targets"] = {
 										},
-										["activedamt"] = 2,
-										["uptime"] = 7,
-										["id"] = 1515,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 2,
 									},
 									[231390] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 231390,
+										["uptime"] = 9,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 9,
-										["id"] = 231390,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 									[225788] = {
-										["appliedamt"] = 1,
+										["counter"] = 0,
+										["actived"] = false,
+										["activedamt"] = 1,
+										["refreshamt"] = 0,
+										["id"] = 225788,
+										["uptime"] = 9,
 										["targets"] = {
 										},
-										["activedamt"] = 1,
-										["uptime"] = 9,
-										["id"] = 225788,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
+										["appliedamt"] = 1,
 									},
 								},
 								["tipo"] = 9,
 							},
 							["debuff_uptime"] = 8,
-							["nome"] = "Laurannah",
+							["buff_uptime_targets"] = {
+							},
 							["grupo"] = true,
 							["spell_cast"] = {
 								[1515] = 1,
@@ -9659,11 +10339,10 @@ _detalhes_database = {
 							["debuff_uptime_targets"] = {
 							},
 							["tipo"] = 4,
-							["buff_uptime_targets"] = {
-							},
-							["last_event"] = 1539186425,
-							["serial"] = "Player-3693-092AD332",
+							["nome"] = "Laurannah",
 							["buff_uptime"] = 25,
+							["serial"] = "Player-3693-092AD332",
+							["last_event"] = 1539186425,
 						}, -- [1]
 						{
 							["flag_original"] = 69905,
@@ -9671,13 +10350,13 @@ _detalhes_database = {
 							["nome"] = "Riverbeast <Laurannah>",
 							["pets"] = {
 							},
-							["tipo"] = 4,
-							["last_event"] = 0,
 							["classe"] = "PET",
-							["serial"] = "Pet-0-3138-1642-14670-123653-0102C876CC",
+							["tipo"] = 4,
 							["spell_cast"] = {
 								[160018] = 1,
 							},
+							["serial"] = "Pet-0-3138-1642-14670-123653-0102C876CC",
+							["last_event"] = 0,
 						}, -- [2]
 					},
 				}, -- [4]
@@ -9705,21 +10384,21 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = -0.00964299999999807,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -9731,7 +10410,10 @@ _detalhes_database = {
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage_section"] = {
+					["damage"] = {
+						{
+							["Laurannah"] = 2629.00149,
+						}, -- [1]
 					},
 					["heal_section"] = {
 					},
@@ -9739,20 +10421,18 @@ _detalhes_database = {
 						{
 						}, -- [1]
 					},
-					["damage"] = {
-						{
-							["Laurannah"] = 2629.00149,
-						}, -- [1]
+					["damage_section"] = {
 					},
 				},
 				["end_time"] = 677030.11,
 				["combat_id"] = 466,
-				["instance_type"] = "none",
+				["data_inicio"] = "11:46:57",
 				["hasSaved"] = true,
 				["frags"] = {
 				},
 				["data_fim"] = "11:47:05",
-				["contra"] = "Wildtusk",
+				["TimeData"] = {
+				},
 				["CombatSkillCache"] = {
 				},
 				["totals_grupo"] = {
@@ -9762,566 +10442,22 @@ _detalhes_database = {
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[3] = 0,
 						[6] = 0,
+						[3] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["cooldowns_defensive"] = 0,
-						["dispell"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["start_time"] = 677021.745,
-				["TimeData"] = {
-				},
-				["data_inicio"] = "11:46:57",
-			}, -- [16]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 465,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.002954,
-							["damage_from"] = {
-								["Environment (Falling)"] = true,
-							},
-							["targets"] = {
-								["Stormforged Taskmaster"] = 283092,
-							},
-							["pets"] = {
-							},
-							["damage_taken"] = 51265.002954,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 283092.002954,
-							["classe"] = "HUNTER",
-							["dps_started"] = false,
-							["total"] = 283092.002954,
-							["delay"] = 0,
-							["end_time"] = 1539114785,
-							["nome"] = "Laurannah",
-							["spells"] = {
-								["_ActorTable"] = {
-									[75] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 283092,
-										["targets"] = {
-											["Stormforged Taskmaster"] = 283092,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 283092,
-										["n_min"] = 283092,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 283092,
-										["c_max"] = 0,
-										["id"] = 75,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["grupo"] = true,
-							["last_event"] = 1539114784,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1539114784,
-							["serial"] = "Player-3693-092AD332",
-							["on_hold"] = false,
-						}, -- [1]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 465,
-					["_ActorTable"] = {
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 465,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 465,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["nome"] = "Laurannah",
-							["grupo"] = true,
-							["pets"] = {
-							},
-							["classe"] = "HUNTER",
-							["last_event"] = 1539114785,
-							["tipo"] = 4,
-							["buff_uptime"] = 2,
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[225788] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 225788,
-										["uptime"] = 1,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									[278070] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 278070,
-										["uptime"] = 1,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["serial"] = "Player-3693-092AD332",
-							["buff_uptime_targets"] = {
-							},
-						}, -- [1]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 465,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Laurannah"] = true,
-				},
-				["overall_added"] = false,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["enemy"] = "Stormforged Taskmaster",
-				["combat_counter"] = 12611,
-				["playing_solo"] = true,
-				["totals"] = {
-					283091.093038, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = -0.0923989999991619,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-					["voidzone_damage"] = 0,
-					["frags_total"] = 0,
-				},
-				["player_last_events"] = {
-					["Laurannah"] = {
-						{
-							true, -- [1]
-							3, -- [2]
-							24439, -- [3]
-							1539186403.796, -- [4]
-							97261, -- [5]
-							"Environment (Falling)", -- [6]
-							nil, -- [7]
-							3, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [1]
-						{
-							true, -- [1]
-							3, -- [2]
-							26826, -- [3]
-							1539186408.062, -- [4]
-							73066, -- [5]
-							"Environment (Falling)", -- [6]
-							nil, -- [7]
-							3, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [2]
-						{
-						}, -- [3]
-						{
-						}, -- [4]
-						{
-						}, -- [5]
-						{
-						}, -- [6]
-						{
-						}, -- [7]
-						{
-						}, -- [8]
-						{
-						}, -- [9]
-						{
-						}, -- [10]
-						{
-						}, -- [11]
-						{
-						}, -- [12]
-						{
-						}, -- [13]
-						{
-						}, -- [14]
-						{
-						}, -- [15]
-						{
-						}, -- [16]
-						{
-						}, -- [17]
-						{
-						}, -- [18]
-						{
-						}, -- [19]
-						{
-						}, -- [20]
-						{
-						}, -- [21]
-						{
-						}, -- [22]
-						{
-						}, -- [23]
-						{
-						}, -- [24]
-						{
-						}, -- [25]
-						{
-						}, -- [26]
-						{
-						}, -- [27]
-						{
-						}, -- [28]
-						{
-						}, -- [29]
-						{
-						}, -- [30]
-						{
-						}, -- [31]
-						{
-						}, -- [32]
-						["n"] = 3,
-					},
-				},
-				["frags_need_refresh"] = true,
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Laurannah"] = 283092.002954,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
-				["end_time"] = 605392.265,
-				["combat_id"] = 465,
-				["data_inicio"] = "15:53:04",
-				["hasSaved"] = true,
-				["frags"] = {
-					["Stormforged Taskmaster"] = 1,
-				},
-				["data_fim"] = "15:53:06",
-				["TimeData"] = {
-				},
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					283092, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 605390.993,
-				["contra"] = "Stormforged Taskmaster",
-				["instance_type"] = "none",
-			}, -- [17]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 464,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.008952,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Stormforged Taskmaster"] = 280539,
-							},
-							["pets"] = {
-							},
-							["damage_taken"] = 0.008952,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 280539.008952,
-							["classe"] = "HUNTER",
-							["dps_started"] = false,
-							["total"] = 280539.008952,
-							["delay"] = 0,
-							["end_time"] = 1539114782,
-							["nome"] = "Laurannah",
-							["spells"] = {
-								["_ActorTable"] = {
-									[75] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 280539,
-										["targets"] = {
-											["Stormforged Taskmaster"] = 280539,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 280539,
-										["n_min"] = 280539,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 280539,
-										["c_max"] = 0,
-										["id"] = 75,
-										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["a_amt"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["grupo"] = true,
-							["last_event"] = 1539114781,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1539114781,
-							["serial"] = "Player-3693-092AD332",
-							["on_hold"] = false,
-						}, -- [1]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 464,
-					["_ActorTable"] = {
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 464,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 464,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["nome"] = "Laurannah",
-							["grupo"] = true,
-							["pets"] = {
-							},
-							["classe"] = "HUNTER",
-							["last_event"] = 1539114782,
-							["tipo"] = 4,
-							["buff_uptime"] = 1,
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									[225788] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = 225788,
-										["uptime"] = 1,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["serial"] = "Player-3693-092AD332",
-							["buff_uptime_targets"] = {
-							},
-						}, -- [1]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 464,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Laurannah"] = true,
-				},
-				["overall_added"] = false,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["enemy"] = "Stormforged Taskmaster",
-				["combat_counter"] = 12610,
-				["playing_solo"] = true,
-				["totals"] = {
-					280538.998609, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-					["voidzone_damage"] = 0,
-					["frags_total"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Laurannah"] = 280539.008952,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
-				["end_time"] = 605388.596,
-				["combat_id"] = 464,
-				["data_inicio"] = "15:53:01",
-				["hasSaved"] = true,
-				["frags"] = {
-					["Stormforged Taskmaster"] = 1,
-				},
-				["data_fim"] = "15:53:02",
-				["TimeData"] = {
-				},
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					280539, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 605387.535,
-				["contra"] = "Stormforged Taskmaster",
+				["contra"] = "Wildtusk",
 				["instance_type"] = "none",
 			}, -- [18]
 		},
@@ -10414,7 +10550,7 @@ _detalhes_database = {
 	},
 	["last_instance_time"] = 1539188147,
 	["active_profile"] = "Laurannah-Kel'Thuzad",
-	["last_day"] = "10",
+	["last_day"] = "11",
 	["benchmark_db"] = {
 		["frame"] = {
 		},
@@ -10422,17 +10558,28 @@ _detalhes_database = {
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
+			["enabled"] = true,
 			["animate"] = false,
-			["showamount"] = false,
 			["useplayercolor"] = false,
-			["useclasscolors"] = false,
 			["author"] = "Details! Team",
+			["useclasscolors"] = false,
 			["playercolor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 			},
+			["showamount"] = false,
+		},
+		["DETAILS_PLUGIN_DAMAGE_RANK"] = {
+			["lasttry"] = {
+			},
+			["annouce"] = true,
+			["dpshistory"] = {
+			},
 			["enabled"] = true,
+			["dps"] = 0,
+			["level"] = 1,
+			["author"] = "Details! Team",
 		},
 		["DETAILS_PLUGIN_TIME_ATTACK"] = {
 			["enabled"] = true,
@@ -10445,31 +10592,20 @@ _detalhes_database = {
 			},
 			["time"] = 40,
 			["history_lastindex"] = 0,
-			["realm_lastamt"] = 0,
+			["author"] = "Details! Team",
 			["realm_history"] = {
 			},
-			["author"] = "Details! Team",
-		},
-		["DETAILS_PLUGIN_DAMAGE_RANK"] = {
-			["lasttry"] = {
-			},
-			["annouce"] = true,
-			["dpshistory"] = {
-			},
-			["dps"] = 0,
-			["author"] = "Details! Team",
-			["level"] = 1,
-			["enabled"] = true,
+			["realm_lastamt"] = 0,
 		},
 		["DETAILS_PLUGIN_VANGUARD"] = {
 			["enabled"] = true,
-			["tank_block_texture"] = "Details Serenity",
 			["tank_block_color"] = {
 				0.24705882, -- [1]
 				0.0039215, -- [2]
 				0, -- [3]
 				0.8, -- [4]
 			},
+			["tank_block_texture"] = "Details Serenity",
 			["show_inc_bars"] = false,
 			["author"] = "Details! Team",
 			["first_run"] = false,
@@ -10482,16 +10618,11 @@ _detalhes_database = {
 			["max_emote_segments"] = 3,
 			["author"] = "Details! Team",
 			["window_scale"] = 1,
-			["hide_on_combat"] = false,
-			["show_icon"] = 5,
-			["opened"] = 0,
 			["encounter_timers_dbm"] = {
 			},
-		},
-		["DETAILS_PLUGIN_DPS_TUNING"] = {
-			["enabled"] = true,
-			["author"] = "Details! Team",
-			["SpellBarsShowType"] = 1,
+			["show_icon"] = 5,
+			["opened"] = 0,
+			["hide_on_combat"] = false,
 		},
 		["DETAILS_PLUGIN_RAIDCHECK"] = {
 			["enabled"] = true,
@@ -10503,6 +10634,11 @@ _detalhes_database = {
 			["pre_pot_healers"] = false,
 			["pre_pot_tanks"] = false,
 			["food_tier3"] = true,
+		},
+		["DETAILS_PLUGIN_DPS_TUNING"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+			["SpellBarsShowType"] = 1,
 		},
 		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
 			["font_color"] = {
@@ -10529,12 +10665,12 @@ _detalhes_database = {
 			},
 			["arrow_anchor_x"] = 0,
 			["row_texture"] = "Details Serenity",
-			["scale"] = 1,
-			["row_height"] = 20,
-			["point"] = "CENTER",
+			["arrow_anchor_y"] = 0,
+			["main_frame_locked"] = false,
+			["main_frame_strata"] = "LOW",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["author"] = "Details! Team",
+			["y"] = -4.577636718750e-005,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -10542,17 +10678,8 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["author"] = "Details! Team",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["font_size"] = 10,
-			["use_spark"] = true,
-			["x"] = 0,
-			["font_face"] = "Friz Quadrata TT",
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -10560,25 +10687,34 @@ _detalhes_database = {
 				["font_shadow"] = true,
 				["y"] = 6.1035156250e-005,
 				["x"] = -6.1035156250e-005,
-				["size"] = 32,
-				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
+				["update_speed"] = 0.05,
+				["size"] = 32,
 			},
-			["y"] = -4.577636718750e-005,
-			["main_frame_strata"] = "LOW",
-			["main_frame_locked"] = false,
-			["arrow_anchor_y"] = 0,
+			["font_size"] = 10,
+			["x"] = 0,
+			["font_face"] = "Friz Quadrata TT",
+			["use_spark"] = true,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["point"] = "CENTER",
+			["row_height"] = 20,
+			["scale"] = 1,
 		},
 	},
+	["last_realversion"] = 134,
 	["character_data"] = {
-		["logons"] = 628,
+		["logons"] = 629,
 	},
 	["announce_prepots"] = {
 		["enabled"] = true,
 		["reverse"] = false,
 		["channel"] = "SELF",
 	},
-	["last_realversion"] = 134,
 	["mythic_dungeon_currentsaved"] = {
 		["dungeon_name"] = "",
 		["started"] = false,
@@ -10590,22 +10726,15 @@ _detalhes_database = {
 		["dungeon_zone_id"] = 0,
 		["previous_boss_killed_at"] = 0,
 	},
-	["ignore_nicktag"] = false,
-	["combat_id"] = 485,
+	["nick_tag_cache"] = {
+		["last_version"] = 10,
+		["nextreset"] = 1540290725,
+	},
+	["combat_id"] = 486,
 	["savedStyles"] = {
 	},
-	["cached_talents"] = {
-		["Player-3693-092AD332"] = {
-			22002, -- [1]
-			22269, -- [2]
-			22273, -- [3]
-			22276, -- [4]
-			22280, -- [5]
-			19347, -- [6]
-			22290, -- [7]
-		},
-	},
-	["combat_counter"] = 12651,
+	["last_encounter"] = "Chimaeron",
+	["force_font_outline"] = "",
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -10618,13 +10747,14 @@ _detalhes_database = {
 			["_ActorTable"] = {
 				{
 					["flag_original"] = 1297,
-					["totalabsorbed"] = 0.055521,
+					["totalabsorbed"] = 0.057389,
 					["damage_from"] = {
 						["Chimaeron"] = true,
+						["Veiled Fanatic"] = true,
 						["Emberhide Warbeast"] = true,
 						["Osca the Bloodied"] = true,
-						["Hexed Craghopper"] = true,
 						["Iron Warwolf"] = true,
+						["Hexed Craghopper"] = true,
 					},
 					["targets"] = {
 						["Ebonclaw Packmate"] = 0,
@@ -10638,13 +10768,14 @@ _detalhes_database = {
 						["Savage Warwolf"] = 25993,
 						["Hymdall"] = 0,
 						["Wildtusk"] = 0,
-						["Magmaw"] = 0,
+						["Veiled Fanatic"] = 5488,
+						["Iron Warwolf"] = 25994,
 						["Grom'kar Leadslinger"] = 242252,
 						["Emberhide Warbeast"] = 187404,
 						["Hexed Craghopper"] = 657,
 						["Osca the Bloodied"] = 658,
 						["Bilgewater Treasure Thief"] = 0,
-						["Iron Warwolf"] = 25994,
+						["Magmaw"] = 0,
 					},
 					["pets"] = {
 						"Goat <Laurannah> <Laurannah>", -- [1]
@@ -10652,18 +10783,17 @@ _detalhes_database = {
 						"Clefthoof <Laurannah> <Laurannah>", -- [3]
 						"Wolf <Laurannah> <Laurannah>", -- [4]
 					},
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["classe"] = "HUNTER",
 					["raid_targets"] = {
 						[128] = 52645,
 					},
-					["total_without_pet"] = 4009892.055521,
-					["on_hold"] = false,
+					["total_without_pet"] = 4015380.057389,
+					["damage_taken"] = 25129.057389,
 					["dps_started"] = false,
 					["end_time"] = 1539188561,
-					["serial"] = "Player-3693-092AD332",
-					["total"] = 4089187.055521,
+					["delay"] = 0,
+					["total"] = 4094675.057389,
 					["nome"] = "Laurannah",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -10685,15 +10815,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 171457,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							},
 							[217200] = {
 								["c_amt"] = 0,
@@ -10714,310 +10844,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 217200,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
-							},
-							[269031] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Fenryr"] = 0,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 269031,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["m_crit"] = 0,
-								["m_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
-							},
-							[171454] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Fenryr"] = 0,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 171454,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["m_crit"] = 0,
-								["m_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
-							},
-							[280206] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Wild Skyscreamer"] = 0,
-									["Fenryr"] = 0,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 280206,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["m_crit"] = 0,
-								["m_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
-							},
-							[75] = {
-								["c_amt"] = 3,
-								["b_amt"] = 0,
-								["c_dmg"] = 1012307,
-								["g_amt"] = 0,
-								["n_max"] = 360776,
-								["targets"] = {
-									["Hymdall"] = 0,
-									["Magmaw"] = 0,
-									["Chimaeron"] = 3524399,
-									["Stormforged Taskmaster"] = 0,
-									["Fenryr"] = 0,
-									["Emberhide Warbeast"] = 161411,
-									["Grom'kar Leadslinger"] = 242252,
-									["Bilgewater Treasure Thief"] = 0,
-									["Warsong Raider"] = 81830,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 2997585,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 13,
-								["total"] = 4009892,
-								["c_max"] = 690031,
-								["id"] = 75,
-								["r_dmg"] = 0,
-								["a_dmg"] = 0,
-								["m_crit"] = 0,
-								["a_amt"] = 0,
-								["m_amt"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 10,
 								["c_min"] = 0,
 								["r_amt"] = 0,
-							},
-							[193455] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Magmaw"] = 0,
-									["Hymdall"] = 0,
-									["Bilgewater Treasure Thief"] = 0,
-									["Fenryr"] = 0,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 193455,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["m_crit"] = 0,
-								["m_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
-							},
-							[271685] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Hymdall"] = 0,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 271685,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["m_crit"] = 0,
-								["m_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
-							},
-							[265092] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Hymdall"] = 0,
-									["Fenryr"] = 0,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 265092,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["m_crit"] = 0,
-								["m_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
-							},
-							[1515] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Wild Skyscreamer"] = 0,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 1515,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["m_crit"] = 0,
-								["m_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
-							},
-							[271686] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Hymdall"] = 0,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 271686,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["m_crit"] = 0,
-								["m_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
-							},
-							[131900] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-									["Hymdall"] = 0,
-									["Bilgewater Treasure Thief"] = 0,
-									["Fenryr"] = 0,
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 131900,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["m_crit"] = 0,
-								["m_amt"] = 0,
-								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
 							},
 							[120361] = {
 								["c_amt"] = 0,
@@ -11039,28 +10874,326 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 120361,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
+							},
+							[171454] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Fenryr"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 171454,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
+							},
+							[131900] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Bilgewater Treasure Thief"] = 0,
+									["Hymdall"] = 0,
+									["Fenryr"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 131900,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
+							},
+							[75] = {
+								["c_amt"] = 3,
+								["b_amt"] = 0,
+								["c_dmg"] = 1012307,
+								["g_amt"] = 0,
+								["n_max"] = 360776,
+								["targets"] = {
+									["Veiled Fanatic"] = 2719,
+									["Hymdall"] = 0,
+									["Magmaw"] = 0,
+									["Chimaeron"] = 3524399,
+									["Warsong Raider"] = 81830,
+									["Fenryr"] = 0,
+									["Emberhide Warbeast"] = 161411,
+									["Grom'kar Leadslinger"] = 242252,
+									["Bilgewater Treasure Thief"] = 0,
+									["Stormforged Taskmaster"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 3000304,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 14,
+								["total"] = 4012611,
+								["c_max"] = 690031,
+								["id"] = 75,
+								["r_dmg"] = 0,
+								["r_amt"] = 0,
+								["m_crit"] = 0,
+								["c_min"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 11,
 								["a_amt"] = 0,
 								["a_dmg"] = 0,
+							},
+							[271686] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Hymdall"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 271686,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
+							},
+							[271685] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Hymdall"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 271685,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
+							},
+							[265092] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Hymdall"] = 0,
+									["Fenryr"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 265092,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
+							},
+							[1515] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Wild Skyscreamer"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 1515,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
+							},
+							[193455] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 2769,
+								["targets"] = {
+									["Fenryr"] = 0,
+									["Veiled Fanatic"] = 2769,
+									["Bilgewater Treasure Thief"] = 0,
+									["Hymdall"] = 0,
+									["Magmaw"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 2769,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 1,
+								["total"] = 2769,
+								["c_max"] = 0,
+								["id"] = 193455,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 1,
+								["c_min"] = 0,
+								["r_amt"] = 0,
+							},
+							[269031] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Fenryr"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 269031,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
+							},
+							[280206] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Wild Skyscreamer"] = 0,
+									["Fenryr"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 280206,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
 					["grupo"] = true,
-					["last_event"] = 0,
+					["tipo"] = 1,
 					["friendlyfire_total"] = 0,
 					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
-					["start_time"] = 1539188514,
-					["delay"] = 0,
-					["damage_taken"] = 24983.055521,
+					["last_event"] = 0,
+					["friendlyfire"] = {
+					},
+					["start_time"] = 1539188513,
+					["serial"] = "Player-3693-092AD332",
+					["on_hold"] = false,
 				}, -- [1]
 				{
 					["flag_original"] = 68168,
@@ -11075,19 +11208,18 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["on_hold"] = false,
-					["boss_fight_component"] = true,
+					["monster"] = true,
+					["nome"] = "Chimaeron",
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 797.008331,
-					["serial"] = "Creature-0-3020-669-21045-43296-00003E25B2",
+					["delay"] = 0,
 					["dps_started"] = false,
 					["end_time"] = 1539188561,
-					["friendlyfire"] = {
-					},
 					["last_dps"] = 0,
-					["nome"] = "Chimaeron",
+					["damage_taken"] = 3524401.008331,
+					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
 							{
@@ -11108,16 +11240,16 @@ _detalhes_database = {
 								["c_max"] = 209,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["DODGE"] = 1,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
+								["a_amt"] = 0,
 								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 7,
-								["a_amt"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
+								["DODGE"] = 1,
 							}, -- [1]
 							[82890] = {
 								["c_amt"] = 0,
@@ -11136,15 +11268,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 82890,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["c_min"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["c_min"] = 0,
-								["r_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[82882] = {
 								["c_amt"] = 0,
@@ -11164,15 +11296,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 82882,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["c_min"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 2,
-								["c_min"] = 0,
-								["r_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 							[82934] = {
 								["c_amt"] = 0,
@@ -11191,28 +11323,29 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 82934,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["c_min"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 1,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["c_min"] = 0,
-								["r_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["last_event"] = 0,
-					["total"] = 797.008331,
-					["friendlyfire_total"] = 0,
-					["custom"] = 0,
 					["tipo"] = 1,
-					["damage_taken"] = 3524401.008331,
+					["friendlyfire_total"] = 0,
+					["total"] = 797.008331,
+					["custom"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
 					["start_time"] = 1539188532,
-					["delay"] = 0,
-					["monster"] = true,
+					["serial"] = "Creature-0-3020-669-21045-43296-00003E25B2",
+					["friendlyfire"] = {
+					},
 				}, -- [2]
 				{
 					["flag_original"] = 69905,
@@ -11224,15 +11357,15 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["on_hold"] = false,
+					["last_dps"] = 0,
 					["classe"] = "PET",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 657.014868,
-					["friendlyfire_total"] = 0,
+					["damage_taken"] = 0.014868,
 					["dps_started"] = false,
 					["total"] = 657.014868,
-					["serial"] = "Pet-0-3887-1643-15397-143929-0102C877CF",
+					["delay"] = 0,
 					["ownerName"] = "Laurannah",
 					["nome"] = "Goat <Laurannah> <Laurannah>",
 					["spells"] = {
@@ -11255,29 +11388,29 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["c_min"] = 0,
 								["m_amt"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 1,
-								["c_min"] = 0,
-								["r_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							}, -- [1]
 						},
 						["tipo"] = 2,
 					},
 					["friendlyfire"] = {
 					},
-					["last_event"] = 0,
+					["tipo"] = 1,
 					["end_time"] = 1539188963,
 					["custom"] = 0,
-					["tipo"] = 1,
-					["last_dps"] = 0,
+					["last_event"] = 0,
+					["on_hold"] = false,
 					["start_time"] = 1539188959,
-					["delay"] = 0,
-					["damage_taken"] = 0.014868,
+					["serial"] = "Pet-0-3887-1643-15397-143929-0102C877CF",
+					["friendlyfire_total"] = 0,
 				}, -- [3]
 				{
 					["flag_original"] = 2632,
@@ -11289,18 +11422,19 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["nome"] = "Magmaw",
+					["end_time"] = 1539190169,
+					["boss_fight_component"] = true,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.006682,
-					["delay"] = 0,
-					["monster"] = true,
+					["serial"] = "Vehicle-0-3020-669-21045-41570-00003E25B2",
+					["dps_started"] = false,
 					["total"] = 0.006682,
-					["last_dps"] = 0,
 					["damage_taken"] = 0.006682,
-					["boss_fight_component"] = true,
+					["friendlyfire"] = {
+					},
+					["nome"] = "Magmaw",
 					["spells"] = {
 						["_ActorTable"] = {
 							[78068] = {
@@ -11321,15 +11455,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 78068,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							},
 							[78359] = {
 								["c_amt"] = 0,
@@ -11349,29 +11483,28 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 78359,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["tipo"] = 1,
-					["friendlyfire_total"] = 0,
-					["on_hold"] = false,
-					["custom"] = 0,
 					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
+					["friendlyfire_total"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
 					["start_time"] = 1539190166,
-					["serial"] = "Vehicle-0-3020-669-21045-41570-00003E25B2",
-					["end_time"] = 1539190169,
+					["delay"] = 0,
+					["monster"] = true,
 				}, -- [4]
 				{
 					["flag_original"] = 2632,
@@ -11382,33 +11515,33 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["nome"] = "Drakonid Chainwielder",
+					["end_time"] = 1539190169,
+					["boss_fight_component"] = true,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.006563,
-					["delay"] = 0,
-					["monster"] = true,
+					["serial"] = "Creature-0-3020-669-21045-42649-00003E25B2",
+					["dps_started"] = false,
 					["total"] = 0.006563,
-					["last_dps"] = 0,
 					["damage_taken"] = 0.006563,
-					["boss_fight_component"] = true,
+					["friendlyfire"] = {
+					},
+					["nome"] = "Drakonid Chainwielder",
 					["spells"] = {
 						["_ActorTable"] = {
 						},
 						["tipo"] = 2,
 					},
-					["tipo"] = 1,
-					["friendlyfire_total"] = 0,
-					["on_hold"] = false,
-					["custom"] = 0,
 					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
+					["friendlyfire_total"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
 					["start_time"] = 1539190166,
-					["serial"] = "Creature-0-3020-669-21045-42649-00003E25B2",
-					["end_time"] = 1539190169,
+					["delay"] = 0,
+					["monster"] = true,
 				}, -- [5]
 				{
 					["flag_original"] = 68168,
@@ -11419,18 +11552,19 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["nome"] = "Drakonid Drudge",
+					["end_time"] = 1539190169,
+					["boss_fight_component"] = true,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.001713,
-					["delay"] = 0,
-					["monster"] = true,
+					["serial"] = "Creature-0-3020-669-21045-42362-0000BE25B2",
+					["dps_started"] = false,
 					["total"] = 0.001713,
-					["last_dps"] = 0,
 					["damage_taken"] = 0.001713,
-					["boss_fight_component"] = true,
+					["friendlyfire"] = {
+					},
+					["nome"] = "Drakonid Drudge",
 					["spells"] = {
 						["_ActorTable"] = {
 							[80035] = {
@@ -11450,29 +11584,28 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 80035,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["tipo"] = 1,
-					["friendlyfire_total"] = 0,
-					["on_hold"] = false,
-					["custom"] = 0,
 					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
+					["friendlyfire_total"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
 					["start_time"] = 1539190166,
-					["serial"] = "Creature-0-3020-669-21045-42362-0000BE25B2",
-					["end_time"] = 1539190169,
+					["delay"] = 0,
+					["monster"] = true,
 				}, -- [6]
 				{
 					["flag_original"] = 4369,
@@ -11480,23 +11613,24 @@ _detalhes_database = {
 					["damage_from"] = {
 					},
 					["targets"] = {
-						["Magmaw"] = 0,
+						["Wildtusk"] = 0,
 						["Fenryr"] = 0,
 						["Hymdall"] = 0,
-						["Wildtusk"] = 0,
+						["Magmaw"] = 0,
 					},
 					["pets"] = {
 					},
-					["tipo"] = 1,
+					["last_event"] = 0,
 					["classe"] = "PET",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.007228,
-					["friendlyfire_total"] = 0,
+					["on_hold"] = false,
 					["dps_started"] = false,
 					["end_time"] = 1539190169,
-					["delay"] = 0,
-					["damage_taken"] = 0.007228,
+					["serial"] = "Pet-0-3133-0-16575-50159-0102C5DB6C",
+					["friendlyfire"] = {
+					},
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -11507,10 +11641,10 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
-									["Magmaw"] = 0,
+									["Wildtusk"] = 0,
 									["Fenryr"] = 0,
 									["Hymdall"] = 0,
-									["Wildtusk"] = 0,
+									["Magmaw"] = 0,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 0,
@@ -11521,15 +11655,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							}, -- [1]
 							[83381] = {
 								["c_amt"] = 0,
@@ -11538,9 +11672,9 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
-									["Magmaw"] = 0,
-									["Hymdall"] = 0,
 									["Fenryr"] = 0,
+									["Hymdall"] = 0,
+									["Magmaw"] = 0,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 0,
@@ -11551,29 +11685,28 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 83381,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["total"] = 0.007228,
 					["nome"] = "Varian <Laurannah>",
 					["custom"] = 0,
-					["last_event"] = 0,
-					["last_dps"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 0.007228,
 					["start_time"] = 1539190166,
-					["serial"] = "Pet-0-3133-0-16575-50159-0102C5DB6C",
-					["on_hold"] = false,
+					["delay"] = 0,
+					["friendlyfire_total"] = 0,
 				}, -- [7]
 				{
 					["flag_original"] = 4369,
@@ -11581,22 +11714,23 @@ _detalhes_database = {
 					["damage_from"] = {
 					},
 					["targets"] = {
-						["Magmaw"] = 0,
-						["Hymdall"] = 0,
 						["Fenryr"] = 0,
+						["Hymdall"] = 0,
+						["Magmaw"] = 0,
 					},
 					["pets"] = {
 					},
-					["tipo"] = 1,
+					["last_event"] = 0,
 					["classe"] = "PET",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.006703,
-					["friendlyfire_total"] = 0,
+					["on_hold"] = false,
 					["dps_started"] = false,
 					["end_time"] = 1539190169,
-					["delay"] = 0,
-					["damage_taken"] = 0.006703,
+					["serial"] = "Pet-0-3133-0-16575-50159-0102C68B02",
+					["friendlyfire"] = {
+					},
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -11607,9 +11741,9 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
-									["Magmaw"] = 0,
-									["Hymdall"] = 0,
 									["Fenryr"] = 0,
+									["Hymdall"] = 0,
+									["Magmaw"] = 0,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 0,
@@ -11620,15 +11754,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							}, -- [1]
 							[16827] = {
 								["c_amt"] = 0,
@@ -11637,9 +11771,9 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
-									["Magmaw"] = 0,
-									["Hymdall"] = 0,
 									["Fenryr"] = 0,
+									["Hymdall"] = 0,
+									["Magmaw"] = 0,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 0,
@@ -11650,15 +11784,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 16827,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							},
 							[83381] = {
 								["c_amt"] = 0,
@@ -11667,9 +11801,9 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
-									["Magmaw"] = 0,
-									["Hymdall"] = 0,
 									["Fenryr"] = 0,
+									["Hymdall"] = 0,
+									["Magmaw"] = 0,
 								},
 								["m_dmg"] = 0,
 								["n_dmg"] = 0,
@@ -11680,29 +11814,28 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 83381,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["total"] = 0.006703,
 					["nome"] = "Anduin <Laurannah>",
 					["custom"] = 0,
-					["last_event"] = 0,
-					["last_dps"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 0.006703,
 					["start_time"] = 1539190166,
-					["serial"] = "Pet-0-3133-0-16575-50159-0102C68B02",
-					["on_hold"] = false,
+					["delay"] = 0,
+					["friendlyfire_total"] = 0,
 				}, -- [8]
 				{
 					["flag_original"] = 68168,
@@ -11715,18 +11848,19 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["nome"] = "Fenryr",
+					["end_time"] = 1539190169,
+					["boss_fight_component"] = true,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.003776,
-					["delay"] = 0,
-					["monster"] = true,
+					["serial"] = "Creature-0-3133-1477-19893-99868-00003E23FD",
+					["dps_started"] = false,
 					["total"] = 0.003776,
-					["last_dps"] = 0,
 					["damage_taken"] = 0.003776,
-					["boss_fight_component"] = true,
+					["friendlyfire"] = {
+					},
+					["nome"] = "Fenryr",
 					["spells"] = {
 						["_ActorTable"] = {
 							{
@@ -11736,8 +11870,8 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
-									["Laurannah"] = 0,
 									["Anduin"] = 0,
+									["Laurannah"] = 0,
 									["Anduin <Laurannah>"] = 0,
 								},
 								["m_dmg"] = 0,
@@ -11749,15 +11883,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							}, -- [1]
 							[197558] = {
 								["c_amt"] = 0,
@@ -11776,15 +11910,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 197558,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							},
 							[196496] = {
 								["c_amt"] = 0,
@@ -11804,15 +11938,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 196496,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							},
 							[196497] = {
 								["c_amt"] = 0,
@@ -11832,15 +11966,42 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 196497,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
+							},
+							[196567] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 196567,
+								["r_dmg"] = 0,
 								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							},
 							[196543] = {
 								["c_amt"] = 0,
@@ -11860,56 +12021,28 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 196543,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
-							},
-							[196567] = {
-								["c_amt"] = 0,
-								["b_amt"] = 0,
-								["c_dmg"] = 0,
-								["g_amt"] = 0,
-								["n_max"] = 0,
-								["targets"] = {
-								},
-								["m_dmg"] = 0,
-								["n_dmg"] = 0,
-								["n_min"] = 0,
-								["g_dmg"] = 0,
-								["counter"] = 0,
-								["total"] = 0,
-								["c_max"] = 0,
-								["id"] = 196567,
-								["r_dmg"] = 0,
-								["r_amt"] = 0,
-								["m_crit"] = 0,
-								["m_amt"] = 0,
 								["c_min"] = 0,
-								["successful_casted"] = 0,
-								["b_dmg"] = 0,
-								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["tipo"] = 1,
-					["friendlyfire_total"] = 0,
-					["on_hold"] = false,
-					["custom"] = 0,
 					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
+					["friendlyfire_total"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
 					["start_time"] = 1539190166,
-					["serial"] = "Creature-0-3133-1477-19893-99868-00003E23FD",
-					["end_time"] = 1539190169,
+					["delay"] = 0,
+					["monster"] = true,
 				}, -- [9]
 				{
 					["flag_original"] = 2632,
@@ -11920,18 +12053,19 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["nome"] = "Unknown",
+					["end_time"] = 1539190169,
+					["boss_fight_component"] = true,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.008297,
-					["delay"] = 0,
-					["monster"] = true,
+					["serial"] = "Creature-0-3133-1477-19893-99922-00003E2415",
+					["dps_started"] = false,
 					["total"] = 0.008297,
-					["last_dps"] = 0,
 					["damage_taken"] = 0.008297,
-					["boss_fight_component"] = true,
+					["friendlyfire"] = {
+					},
+					["nome"] = "Unknown",
 					["spells"] = {
 						["_ActorTable"] = {
 							[207707] = {
@@ -11951,29 +12085,28 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 207707,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["tipo"] = 1,
-					["friendlyfire_total"] = 0,
-					["on_hold"] = false,
-					["custom"] = 0,
 					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
+					["friendlyfire_total"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
 					["start_time"] = 1539190166,
-					["serial"] = "Creature-0-3133-1477-19893-99922-00003E2415",
-					["end_time"] = 1539190169,
+					["delay"] = 0,
+					["monster"] = true,
 				}, -- [10]
 				{
 					["flag_original"] = 2632,
@@ -11985,18 +12118,19 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["nome"] = "Ebonclaw Packmate",
+					["end_time"] = 1539190169,
+					["boss_fight_component"] = true,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.001484,
-					["delay"] = 0,
-					["monster"] = true,
+					["serial"] = "Creature-0-3133-1477-19893-99922-00013E2415",
+					["dps_started"] = false,
 					["total"] = 0.001484,
-					["last_dps"] = 0,
 					["damage_taken"] = 0.001484,
-					["boss_fight_component"] = true,
+					["friendlyfire"] = {
+					},
+					["nome"] = "Ebonclaw Packmate",
 					["spells"] = {
 						["_ActorTable"] = {
 							{
@@ -12017,29 +12151,28 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							}, -- [1]
 						},
 						["tipo"] = 2,
 					},
-					["tipo"] = 1,
-					["friendlyfire_total"] = 0,
-					["on_hold"] = false,
-					["custom"] = 0,
 					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
+					["friendlyfire_total"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
 					["start_time"] = 1539190166,
-					["serial"] = "Creature-0-3133-1477-19893-99922-00013E2415",
-					["end_time"] = 1539190169,
+					["delay"] = 0,
+					["monster"] = true,
 				}, -- [11]
 				{
 					["flag_original"] = 2632,
@@ -12051,18 +12184,19 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["nome"] = "Snow Tracker Wolf",
+					["end_time"] = 1539190169,
+					["boss_fight_component"] = true,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.003699,
-					["delay"] = 0,
-					["monster"] = true,
+					["serial"] = "Creature-0-3133-0-16826-41478-00003E19AA",
+					["dps_started"] = false,
 					["total"] = 0.003699,
-					["last_dps"] = 0,
 					["damage_taken"] = 0.003699,
-					["boss_fight_component"] = true,
+					["friendlyfire"] = {
+					},
+					["nome"] = "Snow Tracker Wolf",
 					["spells"] = {
 						["_ActorTable"] = {
 							{
@@ -12083,29 +12217,28 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							}, -- [1]
 						},
 						["tipo"] = 2,
 					},
-					["tipo"] = 1,
-					["friendlyfire_total"] = 0,
-					["on_hold"] = false,
-					["custom"] = 0,
 					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
+					["friendlyfire_total"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
 					["start_time"] = 1539190166,
-					["serial"] = "Creature-0-3133-0-16826-41478-00003E19AA",
-					["end_time"] = 1539190169,
+					["delay"] = 0,
+					["monster"] = true,
 				}, -- [12]
 				{
 					["flag_original"] = 2632,
@@ -12117,18 +12250,19 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["nome"] = "Dark Iron Steamsmith",
+					["end_time"] = 1539190169,
+					["boss_fight_component"] = true,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.001958,
-					["delay"] = 0,
-					["monster"] = true,
+					["serial"] = "Vehicle-0-3882-0-18662-5840-00003E1C8F",
+					["dps_started"] = false,
 					["total"] = 0.001958,
-					["last_dps"] = 0,
 					["damage_taken"] = 0.001958,
-					["boss_fight_component"] = true,
+					["friendlyfire"] = {
+					},
+					["nome"] = "Dark Iron Steamsmith",
 					["spells"] = {
 						["_ActorTable"] = {
 							{
@@ -12149,29 +12283,28 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							}, -- [1]
 						},
 						["tipo"] = 2,
 					},
-					["tipo"] = 1,
-					["friendlyfire_total"] = 0,
-					["on_hold"] = false,
-					["custom"] = 0,
 					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
+					["friendlyfire_total"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
 					["start_time"] = 1539190166,
-					["serial"] = "Vehicle-0-3882-0-18662-5840-00003E1C8F",
-					["end_time"] = 1539190169,
+					["delay"] = 0,
+					["monster"] = true,
 				}, -- [13]
 				{
 					["flag_original"] = 1320,
@@ -12183,16 +12316,17 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["tipo"] = 1,
+					["last_event"] = 0,
 					["classe"] = "WARRIOR",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.001621,
-					["friendlyfire_total"] = 0,
+					["on_hold"] = false,
 					["dps_started"] = false,
 					["end_time"] = 1539190169,
-					["delay"] = 0,
-					["damage_taken"] = 0.001621,
+					["serial"] = "Player-60-0BC94F70",
+					["friendlyfire"] = {
+					},
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -12214,29 +12348,28 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 12294,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["friendlyfire"] = {
-					},
+					["last_dps"] = 0,
 					["total"] = 0.001621,
 					["nome"] = "Warskool-Stormrage",
 					["custom"] = 0,
-					["last_event"] = 0,
-					["last_dps"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 0.001621,
 					["start_time"] = 1539190166,
-					["serial"] = "Player-60-0BC94F70",
-					["on_hold"] = false,
+					["delay"] = 0,
+					["friendlyfire_total"] = 0,
 				}, -- [14]
 				{
 					["flag_original"] = 68168,
@@ -12249,18 +12382,19 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["nome"] = "Hymdall",
+					["end_time"] = 1539190169,
+					["boss_fight_component"] = true,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.005977,
-					["delay"] = 0,
-					["monster"] = true,
+					["serial"] = "Creature-0-3133-1477-19893-94960-00003E2047",
+					["dps_started"] = false,
 					["total"] = 0.005977,
-					["last_dps"] = 0,
 					["damage_taken"] = 0.005977,
-					["boss_fight_component"] = true,
+					["friendlyfire"] = {
+					},
+					["nome"] = "Hymdall",
 					["spells"] = {
 						["_ActorTable"] = {
 							{
@@ -12270,8 +12404,8 @@ _detalhes_database = {
 								["g_amt"] = 0,
 								["n_max"] = 0,
 								["targets"] = {
-									["Laurannah"] = 0,
 									["Anduin"] = 0,
+									["Laurannah"] = 0,
 									["Anduin <Laurannah>"] = 0,
 								},
 								["m_dmg"] = 0,
@@ -12283,15 +12417,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							}, -- [1]
 							[191284] = {
 								["c_amt"] = 0,
@@ -12311,15 +12445,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 191284,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							},
 							[193092] = {
 								["c_amt"] = 0,
@@ -12338,15 +12472,15 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 193092,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							},
 							[193235] = {
 								["c_amt"] = 0,
@@ -12365,29 +12499,28 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 193235,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["tipo"] = 1,
-					["friendlyfire_total"] = 0,
-					["on_hold"] = false,
-					["custom"] = 0,
 					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
+					["friendlyfire_total"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
 					["start_time"] = 1539190166,
-					["serial"] = "Creature-0-3133-1477-19893-94960-00003E2047",
-					["end_time"] = 1539190169,
+					["delay"] = 0,
+					["monster"] = true,
 				}, -- [15]
 				{
 					["flag_original"] = 2632,
@@ -12398,18 +12531,19 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["dps_started"] = false,
-					["nome"] = "Storm Drake",
+					["end_time"] = 1539190169,
+					["boss_fight_component"] = true,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.003306,
-					["delay"] = 0,
-					["monster"] = true,
+					["serial"] = "Vehicle-0-3133-1477-19893-97788-00003E20C2",
+					["dps_started"] = false,
 					["total"] = 0.003306,
-					["last_dps"] = 0,
 					["damage_taken"] = 0.003306,
-					["boss_fight_component"] = true,
+					["friendlyfire"] = {
+					},
+					["nome"] = "Storm Drake",
 					["spells"] = {
 						["_ActorTable"] = {
 							[188404] = {
@@ -12429,29 +12563,28 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 188404,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["tipo"] = 1,
-					["friendlyfire_total"] = 0,
-					["on_hold"] = false,
-					["custom"] = 0,
 					["last_event"] = 0,
-					["friendlyfire"] = {
-					},
+					["on_hold"] = false,
+					["friendlyfire_total"] = 0,
+					["custom"] = 0,
+					["tipo"] = 1,
+					["last_dps"] = 0,
 					["start_time"] = 1539190166,
-					["serial"] = "Vehicle-0-3133-1477-19893-97788-00003E20C2",
-					["end_time"] = 1539190169,
+					["delay"] = 0,
+					["monster"] = true,
 				}, -- [16]
 				{
 					["flag_original"] = 4369,
@@ -12463,16 +12596,16 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["classe"] = "PET",
 					["raid_targets"] = {
 						[128] = 658,
 					},
 					["total_without_pet"] = 658.008636,
-					["damage_taken"] = 0.008636,
+					["friendlyfire_total"] = 0,
 					["dps_started"] = false,
 					["total"] = 658.008636,
-					["delay"] = 0,
+					["serial"] = "Pet-0-3137-1643-10739-141239-0102C877F2",
 					["ownerName"] = "Laurannah",
 					["nome"] = "Bear <Laurannah> <Laurannah>",
 					["spells"] = {
@@ -12495,29 +12628,29 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 1,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							}, -- [1]
 						},
 						["tipo"] = 2,
 					},
 					["friendlyfire"] = {
 					},
-					["tipo"] = 1,
+					["last_event"] = 0,
 					["end_time"] = 1539190347,
 					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
+					["tipo"] = 1,
+					["last_dps"] = 0,
 					["start_time"] = 1539190343,
-					["serial"] = "Pet-0-3137-1643-10739-141239-0102C877F2",
-					["friendlyfire_total"] = 0,
+					["delay"] = 0,
+					["damage_taken"] = 0.008636,
 				}, -- [17]
 				{
 					["flag_original"] = 4369,
@@ -12529,15 +12662,15 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["classe"] = "PET",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 25993.010346,
-					["damage_taken"] = 0.010346,
+					["friendlyfire_total"] = 0,
 					["dps_started"] = false,
 					["total"] = 25993.010346,
-					["delay"] = 0,
+					["serial"] = "Pet-0-3886-1464-13974-90124-0102C87802",
 					["ownerName"] = "Laurannah",
 					["nome"] = "Clefthoof <Laurannah> <Laurannah>",
 					["spells"] = {
@@ -12560,29 +12693,29 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 1,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							}, -- [1]
 						},
 						["tipo"] = 2,
 					},
 					["friendlyfire"] = {
 					},
-					["tipo"] = 1,
+					["last_event"] = 0,
 					["end_time"] = 1539190854,
 					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
+					["tipo"] = 1,
+					["last_dps"] = 0,
 					["start_time"] = 1539190851,
-					["serial"] = "Pet-0-3886-1464-13974-90124-0102C87802",
-					["friendlyfire_total"] = 0,
+					["delay"] = 0,
+					["damage_taken"] = 0.010346,
 				}, -- [18]
 				{
 					["flag_original"] = 69905,
@@ -12595,16 +12728,16 @@ _detalhes_database = {
 					},
 					["pets"] = {
 					},
-					["last_dps"] = 0,
+					["on_hold"] = false,
 					["classe"] = "PET",
 					["raid_targets"] = {
 						[128] = 51987,
 					},
 					["total_without_pet"] = 51987.021732,
-					["friendlyfire_total"] = 0,
+					["damage_taken"] = 0.021732,
 					["dps_started"] = false,
 					["total"] = 51987.021732,
-					["serial"] = "Pet-0-3779-1116-18407-79755-0102C87817",
+					["delay"] = 0,
 					["ownerName"] = "Laurannah",
 					["nome"] = "Wolf <Laurannah> <Laurannah>",
 					["spells"] = {
@@ -12628,29 +12761,29 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 1,
 								["r_dmg"] = 0,
-								["r_amt"] = 0,
+								["a_dmg"] = 0,
 								["m_crit"] = 0,
+								["a_amt"] = 0,
 								["m_amt"] = 0,
-								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 2,
-								["a_amt"] = 0,
-								["a_dmg"] = 0,
+								["c_min"] = 0,
+								["r_amt"] = 0,
 							}, -- [1]
 						},
 						["tipo"] = 2,
 					},
 					["end_time"] = 1539192276,
-					["tipo"] = 1,
+					["last_event"] = 0,
 					["friendlyfire"] = {
 					},
 					["custom"] = 0,
-					["last_event"] = 0,
-					["on_hold"] = false,
+					["tipo"] = 1,
+					["last_dps"] = 0,
 					["start_time"] = 1539192273,
-					["delay"] = 0,
-					["damage_taken"] = 0.021732,
+					["serial"] = "Pet-0-3779-1116-18407-79755-0102C87817",
+					["friendlyfire_total"] = 0,
 				}, -- [19]
 				{
 					["flag_original"] = -2147483648,
@@ -12660,25 +12793,25 @@ _detalhes_database = {
 					["targets"] = {
 						["Bibbee-Dalaran"] = 0,
 						["Wolfmanner-MoonGuard"] = 0,
-						["Laurannah"] = 0,
+						["Walkinplague-Stormrage"] = 0,
 						["Espyri-Dalaran"] = 0,
 						["Thiccho"] = 0,
-						["Walkinplague-Stormrage"] = 0,
 						["Harrisons"] = 0,
+						["Laurannah"] = 0,
 						["Cojo"] = 0,
 					},
 					["pets"] = {
 					},
-					["last_event"] = 0,
+					["tipo"] = 1,
 					["classe"] = "UNKNOW",
 					["raid_targets"] = {
 					},
 					["total_without_pet"] = 0.007846,
-					["last_dps"] = 0,
+					["friendlyfire_total"] = 0,
 					["dps_started"] = false,
 					["end_time"] = 1539192387,
-					["serial"] = "",
-					["on_hold"] = false,
+					["delay"] = 0,
+					["damage_taken"] = 0.007846,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -12691,11 +12824,11 @@ _detalhes_database = {
 								["targets"] = {
 									["Bibbee-Dalaran"] = 0,
 									["Wolfmanner-MoonGuard"] = 0,
-									["Laurannah"] = 0,
+									["Walkinplague-Stormrage"] = 0,
 									["Espyri-Dalaran"] = 0,
 									["Thiccho"] = 0,
-									["Walkinplague-Stormrage"] = 0,
 									["Harrisons"] = 0,
+									["Laurannah"] = 0,
 									["Cojo"] = 0,
 								},
 								["m_dmg"] = 0,
@@ -12707,29 +12840,29 @@ _detalhes_database = {
 								["c_max"] = 0,
 								["id"] = 3,
 								["r_dmg"] = 0,
-								["a_dmg"] = 0,
+								["r_amt"] = 0,
 								["m_crit"] = 0,
-								["a_amt"] = 0,
+								["m_amt"] = 0,
 								["c_min"] = 0,
 								["successful_casted"] = 0,
 								["b_dmg"] = 0,
 								["n_amt"] = 0,
-								["m_amt"] = 0,
-								["r_amt"] = 0,
+								["a_amt"] = 0,
+								["a_dmg"] = 0,
 							},
 						},
 						["tipo"] = 2,
 					},
-					["damage_taken"] = 0.007846,
+					["friendlyfire"] = {
+					},
 					["total"] = 0.007846,
 					["nome"] = "Environment (Falling)",
 					["custom"] = 0,
-					["tipo"] = 1,
-					["friendlyfire"] = {
-					},
+					["last_event"] = 0,
+					["last_dps"] = 0,
 					["start_time"] = 1539192384,
-					["delay"] = 0,
-					["friendlyfire_total"] = 0,
+					["serial"] = "",
+					["on_hold"] = false,
 				}, -- [20]
 			},
 		}, -- [1]
@@ -12740,26 +12873,35 @@ _detalhes_database = {
 					["flag_original"] = 1297,
 					["totalabsorb"] = 0.006889,
 					["last_hps"] = 0,
-					["healing_from"] = {
+					["targets_overheal"] = {
+						["Laurannah"] = 0,
 					},
 					["targets"] = {
 						["Laurannah"] = 0,
 						["Anduin <Laurannah>"] = 0,
 					},
-					["delay"] = 0,
+					["heal_enemy_amt"] = 0,
 					["pets"] = {
 					},
-					["iniciar_hps"] = false,
-					["targets_overheal"] = {
-						["Laurannah"] = 0,
+					["totalover_without_pet"] = 0.006889,
+					["healing_from"] = {
 					},
-					["heal_enemy_amt"] = 0,
+					["classe"] = "HUNTER",
 					["totalover"] = 0.006889,
 					["total_without_pet"] = 0.006889,
-					["totalover_without_pet"] = 0.006889,
-					["totaldenied"] = 0.006889,
-					["classe"] = "HUNTER",
+					["iniciar_hps"] = false,
+					["start_time"] = 1539190166,
+					["healing_taken"] = 0.006889,
 					["end_time"] = 1539190169,
+					["total"] = 0.006889,
+					["nome"] = "Laurannah",
+					["boss_fight_component"] = true,
+					["targets_absorbs"] = {
+					},
+					["grupo"] = true,
+					["serial"] = "Player-3693-092AD332",
+					["heal_enemy"] = {
+					},
 					["spells"] = {
 						["_ActorTable"] = {
 							[143924] = {
@@ -12782,12 +12924,12 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["totaldenied"] = 0,
-								["m_amt"] = 0,
-								["m_healed"] = 0,
-								["n_amt"] = 0,
-								["n_curado"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
+								["n_curado"] = 0,
+								["n_amt"] = 0,
+								["totaldenied"] = 0,
+								["m_healed"] = 0,
 								["absorbed"] = 0,
 							},
 							[109304] = {
@@ -12809,32 +12951,23 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["totaldenied"] = 0,
-								["m_amt"] = 0,
-								["m_healed"] = 0,
-								["n_amt"] = 0,
-								["n_curado"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
+								["n_curado"] = 0,
+								["n_amt"] = 0,
+								["totaldenied"] = 0,
+								["m_healed"] = 0,
 								["absorbed"] = 0,
 							},
 						},
 						["tipo"] = 3,
 					},
-					["healing_taken"] = 0.006889,
-					["boss_fight_component"] = true,
-					["targets_absorbs"] = {
-					},
-					["grupo"] = true,
-					["total"] = 0.006889,
-					["heal_enemy"] = {
-					},
-					["last_event"] = 0,
 					["custom"] = 0,
 					["tipo"] = 2,
 					["on_hold"] = false,
-					["start_time"] = 1539190166,
-					["serial"] = "Player-3693-092AD332",
-					["nome"] = "Laurannah",
+					["totaldenied"] = 0.006889,
+					["delay"] = 0,
+					["last_event"] = 0,
 				}, -- [1]
 				{
 					["flag_original"] = 4369,
@@ -12854,12 +12987,12 @@ _detalhes_database = {
 					["healing_taken"] = 0.003278,
 					["totalover"] = 0.003278,
 					["total_without_pet"] = 0.003278,
-					["total"] = 0.003278,
+					["tipo"] = 2,
 					["iniciar_hps"] = false,
 					["classe"] = "PET",
 					["end_time"] = 1539190169,
-					["delay"] = 0,
-					["nome"] = "Anduin <Laurannah>",
+					["serial"] = "Pet-0-3133-1477-19893-50159-0102C68B02",
+					["heal_enemy_amt"] = 0,
 					["boss_fight_component"] = true,
 					["spells"] = {
 						["_ActorTable"] = {
@@ -12883,29 +13016,29 @@ _detalhes_database = {
 								},
 								["c_curado"] = 0,
 								["m_crit"] = 0,
-								["totaldenied"] = 0,
-								["m_amt"] = 0,
-								["m_healed"] = 0,
-								["n_amt"] = 0,
-								["n_curado"] = 0,
 								["c_min"] = 0,
+								["m_amt"] = 0,
+								["n_curado"] = 0,
+								["n_amt"] = 0,
+								["totaldenied"] = 0,
+								["m_healed"] = 0,
 								["absorbed"] = 0,
 							},
 						},
 						["tipo"] = 3,
 					},
-					["last_event"] = 0,
-					["heal_enemy_amt"] = 0,
+					["total"] = 0.003278,
+					["totaldenied"] = 0.003278,
 					["heal_enemy"] = {
 					},
-					["targets_absorbs"] = {
-					},
+					["nome"] = "Anduin <Laurannah>",
 					["custom"] = 0,
-					["tipo"] = 2,
+					["last_event"] = 0,
 					["on_hold"] = false,
 					["start_time"] = 1539190166,
-					["serial"] = "Pet-0-3133-1477-19893-50159-0102C68B02",
-					["totaldenied"] = 0.003278,
+					["delay"] = 0,
+					["targets_absorbs"] = {
+					},
 				}, -- [2]
 			},
 		}, -- [2]
@@ -12913,8 +13046,8 @@ _detalhes_database = {
 			["tipo"] = 7,
 			["_ActorTable"] = {
 				{
-					["received"] = 0.002834,
-					["resource"] = 0.150002,
+					["flag_original"] = 1297,
+					["resource"] = 0.168398,
 					["targets"] = {
 						["Laurannah"] = 0,
 						["Anduin <Laurannah>"] = 0,
@@ -12923,7 +13056,7 @@ _detalhes_database = {
 					},
 					["powertype"] = 0,
 					["classe"] = "HUNTER",
-					["total"] = 0.002834,
+					["alternatepower"] = 0.002834,
 					["nome"] = "Laurannah",
 					["spells"] = {
 						["_ActorTable"] = {
@@ -12964,35 +13097,35 @@ _detalhes_database = {
 						["tipo"] = 7,
 					},
 					["grupo"] = true,
-					["flag_original"] = 1297,
+					["received"] = 0.002834,
 					["tipo"] = 3,
-					["alternatepower"] = 0.002834,
-					["last_event"] = 0,
-					["serial"] = "Player-3693-092AD332",
+					["total"] = 0.002834,
 					["boss_fight_component"] = true,
+					["serial"] = "Player-3693-092AD332",
+					["last_event"] = 0,
 				}, -- [1]
 				{
-					["received"] = 0.005257,
-					["resource"] = 0.050097,
+					["flag_original"] = 4369,
+					["resource"] = 0.055702,
 					["targets"] = {
 					},
 					["pets"] = {
 					},
 					["powertype"] = 0,
 					["classe"] = "PET",
-					["total"] = 0.005257,
+					["alternatepower"] = 0.005257,
 					["nome"] = "Anduin <Laurannah>",
 					["spells"] = {
 						["_ActorTable"] = {
 						},
 						["tipo"] = 7,
 					},
-					["flag_original"] = 4369,
-					["tipo"] = 3,
-					["alternatepower"] = 0.005257,
+					["received"] = 0.005257,
 					["last_event"] = 0,
-					["serial"] = "Pet-0-3133-1220-23184-50159-0102C68B02",
+					["total"] = 0.005257,
 					["boss_fight_component"] = true,
+					["serial"] = "Pet-0-3133-1220-23184-50159-0102C68B02",
+					["tipo"] = 3,
 				}, -- [2]
 			},
 		}, -- [3]
@@ -13004,15 +13137,15 @@ _detalhes_database = {
 					["debuff_uptime_spells"] = {
 						["_ActorTable"] = {
 							[1515] = {
-								["refreshamt"] = 0,
+								["actived_at"] = 3078382620,
 								["counter"] = 0,
 								["activedamt"] = -3,
-								["uptime"] = 17,
-								["id"] = 1515,
 								["appliedamt"] = 3,
+								["id"] = 1515,
+								["uptime"] = 17,
 								["targets"] = {
 								},
-								["actived_at"] = 3078382620,
+								["refreshamt"] = 0,
 							},
 							[217200] = {
 								["id"] = 217200,
@@ -13024,7 +13157,7 @@ _detalhes_database = {
 						["tipo"] = 9,
 					},
 					["cooldowns_defensive"] = 0,
-					["buff_uptime"] = 119,
+					["buff_uptime"] = 126,
 					["classe"] = "HUNTER",
 					["cooldowns_defensive_targets"] = {
 						["Laurannah"] = 0,
@@ -13044,14 +13177,14 @@ _detalhes_database = {
 								["counter"] = 0,
 							},
 							[231390] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 9,
-								["appliedamt"] = 9,
+								["counter"] = 0,
+								["activedamt"] = 10,
+								["appliedamt"] = 10,
 								["id"] = 231390,
-								["uptime"] = 24,
+								["uptime"] = 27,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[186258] = {
 								["id"] = 186258,
@@ -13060,14 +13193,14 @@ _detalhes_database = {
 								["counter"] = 0,
 							},
 							[1515] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 6,
 								["appliedamt"] = 6,
 								["id"] = 1515,
 								["uptime"] = 21,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[19574] = {
 								["id"] = 19574,
@@ -13076,14 +13209,14 @@ _detalhes_database = {
 								["counter"] = 0,
 							},
 							[225788] = {
-								["refreshamt"] = 0,
-								["activedamt"] = 10,
-								["appliedamt"] = 10,
+								["counter"] = 0,
+								["activedamt"] = 11,
+								["appliedamt"] = 11,
 								["id"] = 225788,
-								["uptime"] = 56,
+								["uptime"] = 60,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[273264] = {
 								["id"] = 273264,
@@ -13092,14 +13225,14 @@ _detalhes_database = {
 								["counter"] = 0,
 							},
 							[278070] = {
-								["refreshamt"] = 0,
+								["counter"] = 0,
 								["activedamt"] = 2,
 								["appliedamt"] = 2,
 								["id"] = 278070,
 								["uptime"] = 18,
 								["targets"] = {
 								},
-								["counter"] = 0,
+								["refreshamt"] = 0,
 							},
 							[246152] = {
 								["id"] = 246152,
@@ -13119,8 +13252,8 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[274443] = {
-								["id"] = 274443,
+							[127271] = {
+								["id"] = 127271,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -13143,8 +13276,8 @@ _detalhes_database = {
 								},
 								["counter"] = 0,
 							},
-							[127271] = {
-								["id"] = 127271,
+							[274443] = {
+								["id"] = 274443,
 								["targets"] = {
 								},
 								["counter"] = 0,
@@ -13159,28 +13292,17 @@ _detalhes_database = {
 						[109304] = 0,
 						[217200] = 0,
 						[147362] = 0,
-						[272790] = 0,
-						[193455] = 1,
-						[53209] = 0,
+						[193530] = 0,
+						[193455] = 2,
 						[83242] = 0,
+						[53209] = 0,
 						[131894] = 0,
 						[1515] = 3,
 						[13481] = 5,
 						[34026] = 0,
-						[193530] = 0,
+						[272790] = 0,
 					},
-					["buff_uptime_targets"] = {
-					},
-					["serial"] = "Player-3693-092AD332",
-					["last_event"] = 0,
-					["pets"] = {
-						"Goat <Laurannah> <Laurannah>", -- [1]
-						"Bear <Laurannah> <Laurannah>", -- [2]
-						"Clefthoof <Laurannah> <Laurannah>", -- [3]
-						"Wolf <Laurannah> <Laurannah>", -- [4]
-					},
-					["debuff_uptime_targets"] = {
-					},
+					["tipo"] = 4,
 					["cooldowns_defensive_spells"] = {
 						["_ActorTable"] = {
 							[109304] = {
@@ -13193,7 +13315,18 @@ _detalhes_database = {
 						},
 						["tipo"] = 9,
 					},
-					["tipo"] = 4,
+					["last_event"] = 0,
+					["debuff_uptime_targets"] = {
+					},
+					["pets"] = {
+						"Goat <Laurannah> <Laurannah>", -- [1]
+						"Bear <Laurannah> <Laurannah>", -- [2]
+						"Clefthoof <Laurannah> <Laurannah>", -- [3]
+						"Wolf <Laurannah> <Laurannah>", -- [4]
+					},
+					["serial"] = "Player-3693-092AD332",
+					["buff_uptime_targets"] = {
+					},
 				}, -- [1]
 				{
 					["flag_original"] = 68168,
@@ -13209,38 +13342,38 @@ _detalhes_database = {
 					["monster"] = true,
 					["debuff_uptime"] = 22,
 					["spellschool"] = 1,
+					["nome"] = "Break",
 					["debuff_uptime_targets"] = {
 						["Laurannah"] = {
 							["uptime"] = 22,
-							["appliedamt"] = 0,
+							["refreshamt"] = 0,
 							["activedamt"] = 0,
 							["actived"] = false,
-							["refreshamt"] = 0,
+							["appliedamt"] = 0,
 						},
 					},
-					["nome"] = "Break",
-					["boss_fight_component"] = true,
+					["last_event"] = 0,
 					["tipo"] = 4,
 					["damage_twin"] = "Chimaeron",
-					["damage_spellid"] = 82881,
 					["serial"] = "Creature-0-3020-669-21045-43296-00003E25B2",
-					["last_event"] = 0,
+					["damage_spellid"] = 82881,
+					["boss_fight_component"] = true,
 				}, -- [2]
 				{
 					["monster"] = true,
-					["tipo"] = 4,
+					["last_event"] = 0,
 					["nome"] = "Chimaeron",
 					["pets"] = {
 					},
+					["classe"] = "UNKNOW",
+					["flag_original"] = 68168,
+					["tipo"] = 4,
+					["boss_fight_component"] = true,
+					["serial"] = "Creature-0-3020-669-21045-43296-00003E25B2",
 					["spell_cast"] = {
 						[82890] = 1,
 						[82934] = 1,
 					},
-					["flag_original"] = 68168,
-					["last_event"] = 0,
-					["boss_fight_component"] = true,
-					["serial"] = "Creature-0-3020-669-21045-43296-00003E25B2",
-					["classe"] = "UNKNOW",
 				}, -- [3]
 				{
 					["flag_original"] = 68168,
@@ -13256,22 +13389,22 @@ _detalhes_database = {
 					["monster"] = true,
 					["debuff_uptime"] = 5,
 					["spellschool"] = 1,
+					["nome"] = "Mortality",
 					["debuff_uptime_targets"] = {
 						["Laurannah"] = {
 							["uptime"] = 5,
-							["appliedamt"] = 0,
+							["refreshamt"] = 0,
 							["activedamt"] = 0,
 							["actived"] = false,
-							["refreshamt"] = 0,
+							["appliedamt"] = 0,
 						},
 					},
-					["nome"] = "Mortality",
-					["boss_fight_component"] = true,
+					["last_event"] = 0,
 					["tipo"] = 4,
 					["damage_twin"] = "Chimaeron",
-					["damage_spellid"] = 82890,
 					["serial"] = "Creature-0-3020-669-21045-43296-00003E25B2",
-					["last_event"] = 0,
+					["damage_spellid"] = 82890,
+					["boss_fight_component"] = true,
 				}, -- [4]
 				{
 					["flag_original"] = 69905,
@@ -13279,90 +13412,90 @@ _detalhes_database = {
 					["nome"] = "Goat <Laurannah> <Laurannah>",
 					["pets"] = {
 					},
-					["classe"] = "PET",
-					["last_event"] = 0,
 					["spell_cast"] = {
 						[2649] = 1,
 					},
-					["serial"] = "Pet-0-3887-1643-15397-143929-0102C877CF",
+					["classe"] = "PET",
 					["tipo"] = 4,
+					["serial"] = "Pet-0-3887-1643-15397-143929-0102C877CF",
+					["last_event"] = 0,
 				}, -- [5]
 				{
 					["monster"] = true,
-					["last_event"] = 0,
+					["tipo"] = 4,
 					["nome"] = "Drakonid Drudge",
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
-					["flag_original"] = 68168,
-					["tipo"] = 4,
-					["boss_fight_component"] = true,
-					["serial"] = "Creature-0-3020-669-21045-42362-0000BE25B2",
 					["spell_cast"] = {
 						[80035] = 0,
 					},
+					["flag_original"] = 68168,
+					["last_event"] = 0,
+					["boss_fight_component"] = true,
+					["serial"] = "Creature-0-3020-669-21045-42362-0000BE25B2",
+					["classe"] = "UNKNOW",
 				}, -- [6]
 				{
 					["flag_original"] = 4369,
 					["nome"] = "Anduin <Laurannah>",
-					["last_event"] = 0,
+					["classe"] = "PET",
 					["pets"] = {
 					},
-					["boss_fight_component"] = true,
-					["tipo"] = 4,
-					["classe"] = "PET",
-					["serial"] = "Pet-0-3133-0-16575-50159-0102C68B02",
 					["spell_cast"] = {
 						[61684] = 0,
 						[16827] = 0,
 					},
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["serial"] = "Pet-0-3133-0-16575-50159-0102C68B02",
+					["boss_fight_component"] = true,
 				}, -- [7]
 				{
 					["monster"] = true,
-					["last_event"] = 0,
+					["tipo"] = 4,
 					["nome"] = "Magmaw",
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
-					["flag_original"] = 68168,
-					["tipo"] = 4,
-					["boss_fight_component"] = true,
-					["serial"] = "Vehicle-0-3020-669-21045-41570-00003E25B2",
 					["spell_cast"] = {
 						[78068] = 0,
 					},
+					["flag_original"] = 68168,
+					["last_event"] = 0,
+					["boss_fight_component"] = true,
+					["serial"] = "Vehicle-0-3020-669-21045-41570-00003E25B2",
+					["classe"] = "UNKNOW",
 				}, -- [8]
 				{
 					["monster"] = true,
-					["last_event"] = 0,
+					["tipo"] = 4,
 					["nome"] = "Fenryr",
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
-					["flag_original"] = 68168,
-					["tipo"] = 4,
-					["boss_fight_component"] = true,
-					["serial"] = "Creature-0-3133-1477-19893-99868-00003E23FD",
 					["spell_cast"] = {
 						[196543] = 0,
 						[197558] = 0,
 						[196567] = 0,
 					},
+					["flag_original"] = 68168,
+					["last_event"] = 0,
+					["boss_fight_component"] = true,
+					["serial"] = "Creature-0-3133-1477-19893-99868-00003E23FD",
+					["classe"] = "UNKNOW",
 				}, -- [9]
 				{
 					["monster"] = true,
-					["last_event"] = 0,
+					["tipo"] = 4,
 					["nome"] = "Unknown",
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
-					["flag_original"] = 2632,
-					["tipo"] = 4,
-					["boss_fight_component"] = true,
-					["serial"] = "Creature-0-3133-1477-19893-99922-00003E2415",
 					["spell_cast"] = {
 						[207707] = 0,
 					},
+					["flag_original"] = 2632,
+					["last_event"] = 0,
+					["boss_fight_component"] = true,
+					["serial"] = "Creature-0-3133-1477-19893-99922-00003E2415",
+					["classe"] = "UNKNOW",
 				}, -- [10]
 				{
 					["flag_original"] = 68168,
@@ -13378,47 +13511,47 @@ _detalhes_database = {
 					["monster"] = true,
 					["debuff_uptime"] = 0,
 					["spellschool"] = 1,
-					["nome"] = "Ravenous Leap",
 					["debuff_uptime_targets"] = {
 					},
-					["last_event"] = 0,
+					["nome"] = "Ravenous Leap",
+					["boss_fight_component"] = true,
 					["tipo"] = 4,
 					["damage_twin"] = "Fenryr",
-					["serial"] = "Creature-0-3133-1477-19893-99868-00003E23FD",
 					["damage_spellid"] = 197556,
-					["boss_fight_component"] = true,
+					["serial"] = "Creature-0-3133-1477-19893-99868-00003E23FD",
+					["last_event"] = 0,
 				}, -- [11]
 				{
 					["monster"] = true,
-					["last_event"] = 0,
+					["tipo"] = 4,
 					["nome"] = "Hymdall",
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
-					["flag_original"] = 68168,
-					["tipo"] = 4,
-					["boss_fight_component"] = true,
-					["serial"] = "Creature-0-3133-1477-19893-94960-00003E2047",
 					["spell_cast"] = {
 						[191284] = 0,
 						[193092] = 0,
 						[193235] = 0,
 					},
+					["flag_original"] = 68168,
+					["last_event"] = 0,
+					["boss_fight_component"] = true,
+					["serial"] = "Creature-0-3133-1477-19893-94960-00003E2047",
+					["classe"] = "UNKNOW",
 				}, -- [12]
 				{
 					["monster"] = true,
-					["last_event"] = 0,
+					["tipo"] = 4,
 					["nome"] = "Storm Drake",
 					["pets"] = {
 					},
-					["classe"] = "UNKNOW",
-					["flag_original"] = 2632,
-					["tipo"] = 4,
-					["boss_fight_component"] = true,
-					["serial"] = "Vehicle-0-3133-1477-19893-97788-00003E20C2",
 					["spell_cast"] = {
 						[188404] = 0,
 					},
+					["flag_original"] = 2632,
+					["last_event"] = 0,
+					["boss_fight_component"] = true,
+					["serial"] = "Vehicle-0-3133-1477-19893-97788-00003E20C2",
+					["classe"] = "UNKNOW",
 				}, -- [13]
 				{
 					["flag_original"] = 4369,
@@ -13426,13 +13559,13 @@ _detalhes_database = {
 					["nome"] = "Bear <Laurannah> <Laurannah>",
 					["pets"] = {
 					},
-					["last_event"] = 0,
-					["tipo"] = 4,
 					["classe"] = "PET",
-					["serial"] = "Pet-0-3137-1643-10739-141239-0102C877F2",
+					["last_event"] = 0,
 					["spell_cast"] = {
 						[2649] = 1,
 					},
+					["serial"] = "Pet-0-3137-1643-10739-141239-0102C877F2",
+					["tipo"] = 4,
 				}, -- [14]
 				{
 					["flag_original"] = 4369,
@@ -13440,13 +13573,13 @@ _detalhes_database = {
 					["nome"] = "Clefthoof <Laurannah> <Laurannah>",
 					["pets"] = {
 					},
-					["last_event"] = 0,
-					["tipo"] = 4,
 					["classe"] = "PET",
-					["serial"] = "Pet-0-3886-1464-13974-90124-0102C87802",
+					["last_event"] = 0,
 					["spell_cast"] = {
 						[2649] = 1,
 					},
+					["serial"] = "Pet-0-3886-1464-13974-90124-0102C87802",
+					["tipo"] = 4,
 				}, -- [15]
 				{
 					["flag_original"] = 69905,
@@ -13455,12 +13588,12 @@ _detalhes_database = {
 					["spell_cast"] = {
 						[2649] = 2,
 					},
-					["tipo"] = 4,
-					["last_event"] = 0,
 					["classe"] = "PET",
-					["serial"] = "Pet-0-3779-1116-18407-79755-0102C87817",
+					["tipo"] = 4,
 					["pets"] = {
 					},
+					["serial"] = "Pet-0-3779-1116-18407-79755-0102C87817",
+					["last_event"] = 0,
 				}, -- [16]
 			},
 		}, -- [4]
@@ -13477,27 +13610,27 @@ _detalhes_database = {
 		},
 		["combat_counter"] = 12634,
 		["totals"] = {
-			4193467.070386, -- [1]
+			4199101.079311, -- [1]
 			0, -- [2]
 			{
 				0, -- [1]
 				[0] = -0.008381,
 				["alternatepower"] = 0,
-				[3] = 0,
 				[6] = 0,
+				[3] = 0,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["cooldowns_defensive"] = 0,
-				["dispell"] = 0,
+				["dead"] = 0,
+				["cc_break"] = 0,
 				["interrupt"] = 0,
 				["debuff_uptime"] = 0,
-				["cc_break"] = 0,
-				["dead"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 0,
 			}, -- [4]
-			["frags_total"] = 0,
 			["voidzone_damage"] = 0,
+			["frags_total"] = 0,
 		},
 		["player_last_events"] = {
 		},
@@ -13509,124 +13642,137 @@ _detalhes_database = {
 				1, -- [1]
 				1, -- [2]
 			}, -- [1]
-			["damage_section"] = {
+			["damage"] = {
 			},
 			["heal_section"] = {
 			},
 			["heal"] = {
 			},
-			["damage"] = {
+			["damage_section"] = {
 			},
 		},
-		["end_time"] = 682880.107,
-		["overall_refreshed"] = true,
+		["end_time"] = 750314.316,
 		["data_inicio"] = "12:22:14",
-		["hasSaved"] = true,
-		["frags"] = {
-		},
-		["data_fim"] = "13:24:36",
-		["overall_enemy_name"] = "-- x -- x --",
-		["CombatSkillCache"] = {
-		},
-		["segments_added"] = {
-			{
-				["elapsed"] = 0.981999999959953,
-				["type"] = 0,
-				["name"] = "Iron Warwolf",
-				["clock"] = "13:24:34",
-			}, -- [1]
-			{
-				["elapsed"] = 1.00699999998324,
-				["type"] = 0,
-				["name"] = "Savage Warwolf",
-				["clock"] = "13:14:25",
-			}, -- [2]
-			{
-				["elapsed"] = 0.979000000050291,
-				["type"] = 0,
-				["name"] = "Warsong Raider",
-				["clock"] = "13:11:43",
-			}, -- [3]
-			{
-				["elapsed"] = 8.47800000000279,
-				["type"] = 0,
-				["name"] = "Emberhide Warbeast",
-				["clock"] = "13:00:46",
-			}, -- [4]
-			{
-				["elapsed"] = 4.66900000011083,
-				["type"] = 0,
-				["name"] = "Emberhide Warbeast",
-				["clock"] = "13:00:05",
-			}, -- [5]
-			{
-				["elapsed"] = 1.00099999993108,
-				["type"] = 0,
-				["name"] = "Osca the Bloodied",
-				["clock"] = "12:52:26",
-			}, -- [6]
-			{
-				["elapsed"] = 2.5910000000149,
-				["type"] = 0,
-				["name"] = "Osca the Bloodied",
-				["clock"] = "12:52:23",
-			}, -- [7]
-			{
-				["elapsed"] = 1.0010000000475,
-				["type"] = 0,
-				["name"] = "Hexed Craghopper",
-				["clock"] = "12:29:22",
-			}, -- [8]
-			{
-				["elapsed"] = 9.16799999994692,
-				["type"] = 0,
-				["name"] = "Hexed Craghopper",
-				["clock"] = "12:29:13",
-			}, -- [9]
-			{
-				["elapsed"] = 27.173000000068,
-				["type"] = 8,
-				["name"] = "Chimaeron",
-				["clock"] = "12:22:14",
-			}, -- [10]
-		},
-		["start_time"] = 682823.058,
-		["TimeData"] = {
-			["Raid Damage Done"] = {
-			},
-		},
 		["totals_grupo"] = {
-			4089187.054272, -- [1]
+			4094675.05614, -- [1]
 			0, -- [2]
 			{
 				0, -- [1]
 				[0] = 0,
 				["alternatepower"] = 0,
-				[3] = 0,
 				[6] = 0,
+				[3] = 0,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["cooldowns_defensive"] = 0,
-				["dispell"] = 0,
+				["dead"] = 0,
+				["cc_break"] = 0,
 				["interrupt"] = 0,
 				["debuff_uptime"] = 0,
-				["cc_break"] = 0,
-				["dead"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 0,
 			}, -- [4]
 		},
+		["hasSaved"] = true,
+		["frags"] = {
+		},
+		["data_fim"] = "08:08:31",
+		["overall_enemy_name"] = "-- x -- x --",
+		["CombatSkillCache"] = {
+		},
+		["segments_added"] = {
+			{
+				["elapsed"] = 3.64000000001397,
+				["type"] = 0,
+				["name"] = "Veiled Fanatic",
+				["clock"] = "08:08:28",
+			}, -- [1]
+			{
+				["elapsed"] = 0.981999999959953,
+				["type"] = 0,
+				["name"] = "Iron Warwolf",
+				["clock"] = "13:24:34",
+			}, -- [2]
+			{
+				["elapsed"] = 1.00699999998324,
+				["type"] = 0,
+				["name"] = "Savage Warwolf",
+				["clock"] = "13:14:25",
+			}, -- [3]
+			{
+				["elapsed"] = 0.979000000050291,
+				["type"] = 0,
+				["name"] = "Warsong Raider",
+				["clock"] = "13:11:43",
+			}, -- [4]
+			{
+				["elapsed"] = 8.47800000000279,
+				["type"] = 0,
+				["name"] = "Emberhide Warbeast",
+				["clock"] = "13:00:46",
+			}, -- [5]
+			{
+				["elapsed"] = 4.66900000011083,
+				["type"] = 0,
+				["name"] = "Emberhide Warbeast",
+				["clock"] = "13:00:05",
+			}, -- [6]
+			{
+				["elapsed"] = 1.00099999993108,
+				["type"] = 0,
+				["name"] = "Osca the Bloodied",
+				["clock"] = "12:52:26",
+			}, -- [7]
+			{
+				["elapsed"] = 2.5910000000149,
+				["type"] = 0,
+				["name"] = "Osca the Bloodied",
+				["clock"] = "12:52:23",
+			}, -- [8]
+			{
+				["elapsed"] = 1.0010000000475,
+				["type"] = 0,
+				["name"] = "Hexed Craghopper",
+				["clock"] = "12:29:22",
+			}, -- [9]
+			{
+				["elapsed"] = 9.16799999994692,
+				["type"] = 0,
+				["name"] = "Hexed Craghopper",
+				["clock"] = "12:29:13",
+			}, -- [10]
+			{
+				["elapsed"] = 27.173000000068,
+				["type"] = 8,
+				["name"] = "Chimaeron",
+				["clock"] = "12:22:14",
+			}, -- [11]
+		},
+		["start_time"] = 750253.627,
+		["TimeData"] = {
+			["Raid Damage Done"] = {
+			},
+		},
+		["overall_refreshed"] = true,
 	},
-	["force_font_outline"] = "",
-	["last_encounter"] = "Chimaeron",
-	["nick_tag_cache"] = {
-		["last_version"] = 10,
-		["nextreset"] = 1540290725,
+	["combat_counter"] = 12653,
+	["cached_talents"] = {
+		["Player-3693-092AD332"] = {
+			22002, -- [1]
+			22269, -- [2]
+			22273, -- [3]
+			22276, -- [4]
+			22280, -- [5]
+			19347, -- [6]
+			22290, -- [7]
+		},
 	},
+	["ignore_nicktag"] = false,
 	["announce_cooldowns"] = {
+		["enabled"] = false,
 		["ignored_cooldowns"] = {
 		},
-		["enabled"] = false,
 		["custom"] = "",
 		["channel"] = "RAID",
 	},

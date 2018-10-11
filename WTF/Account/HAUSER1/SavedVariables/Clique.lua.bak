@@ -35,9 +35,10 @@ CliqueDB3 = {
 		["Laurranah - Kel'Thuzad"] = "Laurranah - Kel'Thuzad",
 		["Hauzerina - Moon Guard"] = "Hauzerina - Moon Guard",
 		["Foolioioio - Frostwolf"] = "Foolioioio - Frostwolf",
+		["Laurannah - Undermine"] = "Laurannah - Undermine",
 		["Laurennah - Vashj"] = "Laurennah - Vashj",
 		["Loranno - Kel'Thuzad"] = "Loranno - Kel'Thuzad",
-		["Laurannah - Undermine"] = "Laurannah - Undermine",
+		["Foolse - Twisting Nether"] = "Foolse - Twisting Nether",
 		["Laurannah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Deeke - Kel'Thuzad"] = "Deeke - Kel'Thuzad",
 		["Fooiis - Hakkar"] = "Fooiis - Hakkar",
@@ -136,6 +137,25 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
+		["Laurannah - Undermine"] = {
+			["bindings"] = {
+				{
+					["sets"] = {
+						["default"] = true,
+					},
+					["type"] = "target",
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+			},
+		},
 		["Laurennah - Vashj"] = {
 			["bindings"] = {
 				{
@@ -174,7 +194,7 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Laurannah - Undermine"] = {
+		["Foolse - Twisting Nether"] = {
 			["bindings"] = {
 				{
 					["sets"] = {

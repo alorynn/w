@@ -48,7 +48,7 @@ VER 3 0100000000000019 "StableGenius" "ability_hunter_sickem"
 /stablegenius toggle
 END
 VER 3 0100000000000004 "Target" "236188"
-/tar bul
+/tar light
 END
 VER 3 0100000000000001 "Turtle" "INV_MISC_QUESTIONMARK"
 #showtooltip Aspect of the Turtle

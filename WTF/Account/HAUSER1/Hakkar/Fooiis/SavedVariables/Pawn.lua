@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0228,
+	["LastVersion"] = 2.023,
 	["LastPlayerFullName"] = "Fooiis-Hakkar",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,

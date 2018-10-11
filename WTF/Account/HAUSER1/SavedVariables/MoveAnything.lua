@@ -2,78 +2,62 @@
 MADB = {
 	["characters"] = {
 	},
-	["tooltips"] = true,
 	["frameListRows"] = 18,
+	["tooltips"] = true,
 	["profiles"] = {
 		["default"] = {
 			["name"] = "default",
 			["frames"] = {
-				["TalkingHeadFrame"] = {
+				["ObjectiveTrackerBonusBannerFrame"] = {
 					["orgPos"] = {
-						"BOTTOM", -- [1]
+						"TOP", -- [1]
 						"UIParent", -- [2]
-						"BOTTOM", -- [3]
+						"TOP", -- [3]
 						0, -- [4]
-						96, -- [5]
+						-170, -- [5]
 					},
-					["name"] = "TalkingHeadFrame",
+					["name"] = "ObjectiveTrackerBonusBannerFrame",
 					["pos"] = {
-						"BOTTOM", -- [1]
-						"TalkingHeadFrameMover", -- [2]
-						"BOTTOM", -- [3]
-						7.900717655055640e-005, -- [4]
-						3.39983787128470e-005, -- [5]
+						"TOP", -- [1]
+						"UIParent", -- [2]
+						"TOP", -- [3]
+						-3.05175781250e-005, -- [4]
+						-170, -- [5]
 					},
 				},
-				["QuestLogPopupDetailFrame"] = {
-					["UIPanelWindows"] = {
-						["whileDead"] = 1,
-						["pushable"] = 0,
-						["area"] = "left",
-					},
+				["QuestNPCModel"] = {
 					["orgPos"] = {
 						"TOPLEFT", -- [1]
 						"UIParent", -- [2]
-						"TOPLEFT", -- [3]
-						0, -- [4]
+						"TOPRIGHT", -- [3]
+						4.16666698455811, -- [4]
+						-34.1666679382324, -- [5]
+					},
+					["name"] = "QuestNPCModel",
+					["pos"] = {
+						"TOPLEFT", -- [1]
+						"UIParent", -- [2]
+						"TOPRIGHT", -- [3]
+						75.4466223144555, -- [4]
+						48.6334400177002, -- [5]
+					},
+				},
+				["ObjectiveTrackerFrameScaleMover"] = {
+					["orgPos"] = {
+						"TOPRIGHT", -- [1]
+						"MinimapCluster", -- [2]
+						"BOTTOMRIGHT", -- [3]
+						-10, -- [4]
 						0, -- [5]
 					},
-					["name"] = "QuestLogPopupDetailFrame",
+					["name"] = "ObjectiveTrackerFrameScaleMover",
 					["pos"] = {
-						"BOTTOMLEFT", -- [1]
-						"UIParent", -- [2]
-						"BOTTOMLEFT", -- [3]
-						0, -- [4]
-						704.000061035156, -- [5]
+						"TOPRIGHT", -- [1]
+						"MinimapCluster", -- [2]
+						"BOTTOMRIGHT", -- [3]
+						-10, -- [4]
+						0, -- [5]
 					},
-				},
-				["PetStableFrame"] = {
-					["orgPos"] = {
-						"TOPLEFT", -- [1]
-						"UIParent", -- [2]
-						"TOPLEFT", -- [3]
-						16, -- [4]
-						-116.000007629395, -- [5]
-					},
-					["UIPanelWindows"] = {
-						["pushable"] = 0,
-						["area"] = "left",
-					},
-					["scale"] = 2,
-					["disableLayerHighlight"] = false,
-					["disableLayerBackground"] = false,
-					["disableLayerArtwork"] = false,
-					["pos"] = {
-						"BOTTOMLEFT", -- [1]
-						"UIParent", -- [2]
-						"BOTTOMLEFT", -- [3]
-						12.6308288574219, -- [4]
-						100, -- [5]
-					},
-					["disableLayerBorder"] = false,
-					["name"] = "PetStableFrame",
-					["disableLayerOverlay"] = false,
-					["orgScale"] = 1,
 				},
 				["ObjectiveTrackerFrameMover"] = {
 					["orgPos"] = {
@@ -90,6 +74,23 @@ MADB = {
 						"BOTTOMRIGHT", -- [3]
 						-10, -- [4]
 						0, -- [5]
+					},
+				},
+				["TalkingHeadFrame"] = {
+					["orgPos"] = {
+						"BOTTOM", -- [1]
+						"UIParent", -- [2]
+						"BOTTOM", -- [3]
+						0, -- [4]
+						96, -- [5]
+					},
+					["name"] = "TalkingHeadFrame",
+					["pos"] = {
+						"BOTTOM", -- [1]
+						"TalkingHeadFrameMover", -- [2]
+						"BOTTOM", -- [3]
+						7.900717655055640e-005, -- [4]
+						3.39983787128470e-005, -- [5]
 					},
 				},
 				["QuestFrame"] = {
@@ -113,55 +114,54 @@ MADB = {
 						0, -- [5]
 					},
 				},
-				["ObjectiveTrackerBonusBannerFrame"] = {
+				["PetStableFrame"] = {
 					["orgPos"] = {
-						"TOP", -- [1]
+						"TOPLEFT", -- [1]
 						"UIParent", -- [2]
-						"TOP", -- [3]
+						"TOPLEFT", -- [3]
 						0, -- [4]
-						-170, -- [5]
+						-104.000007629395, -- [5]
 					},
-					["name"] = "ObjectiveTrackerBonusBannerFrame",
+					["UIPanelWindows"] = {
+						["pushable"] = 0,
+						["area"] = "left",
+					},
+					["scale"] = 2,
+					["disableLayerHighlight"] = false,
+					["orgScale"] = 1,
+					["disableLayerBackground"] = false,
+					["disableLayerArtwork"] = false,
+					["disableLayerBorder"] = false,
+					["name"] = "PetStableFrame",
+					["disableLayerOverlay"] = false,
 					["pos"] = {
-						"TOP", -- [1]
+						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]
-						"TOP", -- [3]
-						-3.05175781250e-005, -- [4]
-						-170, -- [5]
+						"BOTTOMLEFT", -- [3]
+						12.6308288574219, -- [4]
+						100, -- [5]
 					},
 				},
-				["ObjectiveTrackerFrameScaleMover"] = {
-					["orgPos"] = {
-						"TOPRIGHT", -- [1]
-						"MinimapCluster", -- [2]
-						"BOTTOMRIGHT", -- [3]
-						-10, -- [4]
-						0, -- [5]
+				["QuestLogPopupDetailFrame"] = {
+					["UIPanelWindows"] = {
+						["whileDead"] = 1,
+						["pushable"] = 0,
+						["area"] = "left",
 					},
-					["name"] = "ObjectiveTrackerFrameScaleMover",
-					["pos"] = {
-						"TOPRIGHT", -- [1]
-						"MinimapCluster", -- [2]
-						"BOTTOMRIGHT", -- [3]
-						-10, -- [4]
-						0, -- [5]
-					},
-				},
-				["QuestNPCModel"] = {
 					["orgPos"] = {
 						"TOPLEFT", -- [1]
 						"UIParent", -- [2]
-						"TOPRIGHT", -- [3]
-						4.16666698455811, -- [4]
-						-34.1666679382324, -- [5]
+						"TOPLEFT", -- [3]
+						0, -- [4]
+						0, -- [5]
 					},
-					["name"] = "QuestNPCModel",
+					["name"] = "QuestLogPopupDetailFrame",
 					["pos"] = {
-						"TOPLEFT", -- [1]
+						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]
-						"TOPRIGHT", -- [3]
-						75.4466223144555, -- [4]
-						48.6334400177002, -- [5]
+						"BOTTOMLEFT", -- [3]
+						0, -- [4]
+						704.000061035156, -- [5]
 					},
 				},
 			},

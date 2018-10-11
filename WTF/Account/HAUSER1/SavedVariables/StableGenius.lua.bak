@@ -3,5 +3,7 @@ StableGeniusDB = {
 	["profileKeys"] = {
 		["Laurannah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
 		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
+		["Fooiis - Hakkar"] = "Fooiis - Hakkar",
+		["Foolse - Twisting Nether"] = "Foolse - Twisting Nether",
 	},
 }
