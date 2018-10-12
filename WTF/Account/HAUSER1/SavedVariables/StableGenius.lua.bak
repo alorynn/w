@@ -1,9 +1,15 @@
 
 StableGeniusDB = {
 	["profileKeys"] = {
-		["Laurannah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
-		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
 		["Fooiis - Hakkar"] = "Fooiis - Hakkar",
+		["Foioioi - Gallywix"] = "Foioioi - Gallywix",
+		["Foolioioio - Frostwolf"] = "Foolioioio - Frostwolf",
+		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
 		["Foolse - Twisting Nether"] = "Foolse - Twisting Nether",
+		["Foioi - Aman'Thul"] = "Foioi - Aman'Thul",
+		["Laurannah - Kel'Thuzad"] = "Laurannah - Kel'Thuzad",
+		["Foiio - Drakkari"] = "Foiio - Drakkari",
+		["Laurennah - Vashj"] = "Laurennah - Vashj",
+		["Foifo - Azgalor"] = "Foifo - Azgalor",
 	},
 }

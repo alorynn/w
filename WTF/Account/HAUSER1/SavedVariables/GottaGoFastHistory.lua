@@ -3,37 +3,49 @@ GottaGoFastHistoryDB = {
 	["profileKeys"] = {
 		["Fooliolio - Kel'Thuzad"] = "Default",
 		["Laurranah - Kel'Thuzad"] = "Default",
+		["Blahndee - Kel'Thuzad"] = "Default",
+		["Nigellah - Kel'Thuzad"] = "Default",
 		["Hauzerina - Moon Guard"] = "Default",
 		["Foolioioio - Frostwolf"] = "Default",
-		["Laurennah - Vashj"] = "Default",
-		["Laurannah - Undermine"] = "Default",
+		["Alisheeya - Kel'Thuzad"] = "Default",
+		["Loranus - Kel'Thuzad"] = "Default",
+		["Foolioioio - Kel'Thuzad"] = "Default",
+		["Alorannah - Kel'Thuzad"] = "Default",
 		["Loranno - Kel'Thuzad"] = "Default",
 		["Foolse - Twisting Nether"] = "Default",
 		["Laurannah - Kel'Thuzad"] = "Default",
 		["Deeke - Kel'Thuzad"] = "Default",
-		["Fooiis - Hakkar"] = "Default",
-		["Nigellah - Kel'Thuzad"] = "Default",
-		["Hauzer - Kel'Thuzad"] = "Default",
-		["Kmkarbashian - Kel'Thuzad"] = "Default",
-		["Alorannah - Kel'Thuzad"] = "Default",
-		["Loranah - Kel'Thuzad"] = "Default",
-		["Blahndee - Kel'Thuzad"] = "Default",
-		["Darknstormie - Kel'Thuzad"] = "Default",
-		["Testfoolio - Kel'Thuzad"] = "Default",
-		["Hauzerina - Kel'Thuzad"] = "Default",
-		["Alaurannah - Undermine"] = "Default",
 		["Lorranah - Kel'Thuzad"] = "Default",
-		["Alauranna - Kel'Thuzad"] = "Default",
-		["Alisheeya - Kel'Thuzad"] = "Default",
-		["Loranus - Kel'Thuzad"] = "Default",
-		["Rogueout - Kel'Thuzad"] = "Default",
 		["Shamwowow - Kel'Thuzad"] = "Default",
-		["Foolioioio - Kel'Thuzad"] = "Default",
+		["Fooiis - Hakkar"] = "Default",
+		["Kmkarbashian - Kel'Thuzad"] = "Default",
+		["Foifo - Azgalor"] = "Default",
+		["Foioioi - Gallywix"] = "Default",
+		["Loranah - Kel'Thuzad"] = "Default",
+		["Hauzerina - Kel'Thuzad"] = "Default",
+		["Testfoolio - Kel'Thuzad"] = "Default",
+		["Foiio - Drakkari"] = "Default",
+		["Alaurannah - Undermine"] = "Default",
+		["Darknstormie - Kel'Thuzad"] = "Default",
+		["Alauranna - Kel'Thuzad"] = "Default",
+		["Foioi - Aman'Thul"] = "Default",
+		["Hauzer - Kel'Thuzad"] = "Default",
+		["Rogueout - Kel'Thuzad"] = "Default",
+		["Laurannah - Undermine"] = "Default",
+		["Laurennah - Vashj"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["History"] = {
 				[1492] = {
+					["objectives"] = {
+						"Ymiron, the Fallen King", -- [1]
+						"Harbaron", -- [2]
+						"Helya", -- [3]
+						"Enemy Forces", -- [4]
+					},
+					["zoneID"] = 1492,
+					["name"] = "Maw of Souls",
 					["runs"] = {
 						{
 							["corrupt"] = false,
@@ -54,8 +66,16 @@ GottaGoFastHistoryDB = {
 								["day"] = 12,
 								["month"] = 4,
 								["hours"] = 11,
-								["mins"] = 59,
 								["year"] = 2017,
+								["mins"] = 59,
+							},
+							["startTime"] = 106928.41,
+							["level"] = 7,
+							["objectiveTimes"] = {
+								"02:35.389", -- [1]
+								"07:47.578", -- [2]
+								"13:18.341", -- [3]
+								"10:24.051", -- [4]
 							},
 							["players"] = {
 								{
@@ -84,26 +104,19 @@ GottaGoFastHistoryDB = {
 									["role"] = "DAMAGER",
 								}, -- [5]
 							},
-							["level"] = 7,
-							["objectiveTimes"] = {
-								"02:35.389", -- [1]
-								"07:47.578", -- [2]
-								"13:18.341", -- [3]
-								"10:24.051", -- [4]
-							},
-							["startTime"] = 106928.41,
 						}, -- [1]
-					},
-					["name"] = "Maw of Souls",
-					["zoneID"] = 1492,
-					["objectives"] = {
-						"Ymiron, the Fallen King", -- [1]
-						"Harbaron", -- [2]
-						"Helya", -- [3]
-						"Enemy Forces", -- [4]
 					},
 				},
 				[1458] = {
+					["objectives"] = {
+						"Rokmora", -- [1]
+						"Ularogg Cragshaper", -- [2]
+						"Naraxas", -- [3]
+						"Dargrul", -- [4]
+						"Enemy Forces", -- [5]
+					},
+					["zoneID"] = 1458,
+					["name"] = "Neltharion's Lair",
 					["runs"] = {
 						{
 							["corrupt"] = false,
@@ -124,8 +137,17 @@ GottaGoFastHistoryDB = {
 								["day"] = 18,
 								["month"] = 4,
 								["hours"] = 14,
-								["mins"] = 39,
 								["year"] = 2017,
+								["mins"] = 39,
+							},
+							["startTime"] = 463292.719,
+							["level"] = 9,
+							["objectiveTimes"] = {
+								"04:41.259", -- [1]
+								"12:47.570", -- [2]
+								"17:22.971", -- [3]
+								"21:31.300", -- [4]
+								"19:54.814", -- [5]
 							},
 							["players"] = {
 								{
@@ -154,28 +176,14 @@ GottaGoFastHistoryDB = {
 									["role"] = "DAMAGER",
 								}, -- [5]
 							},
-							["level"] = 9,
-							["objectiveTimes"] = {
-								"04:41.259", -- [1]
-								"12:47.570", -- [2]
-								"17:22.971", -- [3]
-								"21:31.300", -- [4]
-								"19:54.814", -- [5]
-							},
-							["startTime"] = 463292.719,
 						}, -- [1]
-					},
-					["name"] = "Neltharion's Lair",
-					["zoneID"] = 1458,
-					["objectives"] = {
-						"Rokmora", -- [1]
-						"Ularogg Cragshaper", -- [2]
-						"Naraxas", -- [3]
-						"Dargrul", -- [4]
-						"Enemy Forces", -- [5]
 					},
 				},
 				[1651] = {
+					["runs"] = {
+					},
+					["name"] = "Return to Karazhan: Lower",
+					["zoneID"] = 1651,
 					["objectives"] = {
 						"Opera Hall", -- [1]
 						"Maiden of Virtue defeated", -- [2]
@@ -183,21 +191,8 @@ GottaGoFastHistoryDB = {
 						"Moroes defeated", -- [4]
 						"Enemy Forces", -- [5]
 					},
-					["zoneID"] = 1651,
-					["name"] = "Return to Karazhan: Lower",
-					["runs"] = {
-					},
 				},
 				[1466] = {
-					["objectives"] = {
-						"Archdruid Glaidalis", -- [1]
-						"Oakheart", -- [2]
-						"Dresaron", -- [3]
-						"Shade of Xavius", -- [4]
-						"Enemy Forces", -- [5]
-					},
-					["zoneID"] = 1466,
-					["name"] = "Darkheart Thicket",
 					["runs"] = {
 						{
 							["corrupt"] = false,
@@ -214,17 +209,8 @@ GottaGoFastHistoryDB = {
 								["day"] = 11,
 								["month"] = 4,
 								["hours"] = 14,
-								["year"] = 2017,
 								["mins"] = 50,
-							},
-							["startTime"] = 30788.4,
-							["level"] = 5,
-							["objectiveTimes"] = {
-								"03:33.757", -- [1]
-								"07:52.574", -- [2]
-								"12:30.455", -- [3]
-								"15:26.228", -- [4]
-								"14:30.605", -- [5]
+								["year"] = 2017,
 							},
 							["players"] = {
 								{
@@ -253,6 +239,15 @@ GottaGoFastHistoryDB = {
 									["role"] = "DAMAGER",
 								}, -- [5]
 							},
+							["startTime"] = 30788.4,
+							["objectiveTimes"] = {
+								"03:33.757", -- [1]
+								"07:52.574", -- [2]
+								"12:30.455", -- [3]
+								"15:26.228", -- [4]
+								"14:30.605", -- [5]
+							},
+							["level"] = 5,
 						}, -- [1]
 						{
 							["corrupt"] = false,
@@ -269,17 +264,8 @@ GottaGoFastHistoryDB = {
 								["day"] = 12,
 								["month"] = 4,
 								["hours"] = 9,
-								["year"] = 2017,
 								["mins"] = 21,
-							},
-							["startTime"] = 97322.613,
-							["level"] = 4,
-							["objectiveTimes"] = {
-								"04:10.360", -- [1]
-								"08:14.119", -- [2]
-								"12:58.893", -- [3]
-								"16:22.119", -- [4]
-								"15:19.425", -- [5]
+								["year"] = 2017,
 							},
 							["players"] = {
 								{
@@ -308,6 +294,15 @@ GottaGoFastHistoryDB = {
 									["role"] = "DAMAGER",
 								}, -- [5]
 							},
+							["startTime"] = 97322.613,
+							["objectiveTimes"] = {
+								"04:10.360", -- [1]
+								"08:14.119", -- [2]
+								"12:58.893", -- [3]
+								"16:22.119", -- [4]
+								"15:19.425", -- [5]
+							},
+							["level"] = 4,
 						}, -- [2]
 						{
 							["corrupt"] = false,
@@ -324,17 +319,8 @@ GottaGoFastHistoryDB = {
 								["day"] = 19,
 								["month"] = 4,
 								["hours"] = 11,
-								["year"] = 2017,
 								["mins"] = 38,
-							},
-							["level"] = 5,
-							["startTime"] = 538984.971,
-							["objectiveTimes"] = {
-								"04:38.879", -- [1]
-								"09:35.414", -- [2]
-								"14:31.942", -- [3]
-								"18:01.560", -- [4]
-								"16:54.297", -- [5]
+								["year"] = 2017,
 							},
 							["players"] = {
 								{
@@ -363,20 +349,28 @@ GottaGoFastHistoryDB = {
 									["role"] = "DAMAGER",
 								}, -- [5]
 							},
+							["level"] = 5,
+							["objectiveTimes"] = {
+								"04:38.879", -- [1]
+								"09:35.414", -- [2]
+								"14:31.942", -- [3]
+								"18:01.560", -- [4]
+								"16:54.297", -- [5]
+							},
+							["startTime"] = 538984.971,
 						}, -- [3]
+					},
+					["name"] = "Darkheart Thicket",
+					["zoneID"] = 1466,
+					["objectives"] = {
+						"Archdruid Glaidalis", -- [1]
+						"Oakheart", -- [2]
+						"Dresaron", -- [3]
+						"Shade of Xavius", -- [4]
+						"Enemy Forces", -- [5]
 					},
 				},
 				[1477] = {
-					["objectives"] = {
-						"Hymdall", -- [1]
-						"Hyrja", -- [2]
-						"Fenryr", -- [3]
-						"God-King Skovald", -- [4]
-						"Odyn", -- [5]
-						"Enemy Forces", -- [6]
-					},
-					["zoneID"] = 1477,
-					["name"] = "Halls of Valor",
 					["runs"] = {
 						{
 							["corrupt"] = false,
@@ -397,18 +391,8 @@ GottaGoFastHistoryDB = {
 								["day"] = 12,
 								["month"] = 4,
 								["hours"] = 10,
-								["year"] = 2017,
 								["mins"] = 29,
-							},
-							["startTime"] = 100915.642,
-							["level"] = 8,
-							["objectiveTimes"] = {
-								"03:43.703", -- [1]
-								"11:27.614", -- [2]
-								"16:49.314", -- [3]
-								"23:06.302", -- [4]
-								"25:16.807", -- [5]
-								"23:06.302", -- [6]
+								["year"] = 2017,
 							},
 							["players"] = {
 								{
@@ -437,20 +421,30 @@ GottaGoFastHistoryDB = {
 									["role"] = "DAMAGER",
 								}, -- [5]
 							},
+							["startTime"] = 100915.642,
+							["objectiveTimes"] = {
+								"03:43.703", -- [1]
+								"11:27.614", -- [2]
+								"16:49.314", -- [3]
+								"23:06.302", -- [4]
+								"25:16.807", -- [5]
+								"23:06.302", -- [6]
+							},
+							["level"] = 8,
 						}, -- [1]
+					},
+					["name"] = "Halls of Valor",
+					["zoneID"] = 1477,
+					["objectives"] = {
+						"Hymdall", -- [1]
+						"Hyrja", -- [2]
+						"Fenryr", -- [3]
+						"God-King Skovald", -- [4]
+						"Odyn", -- [5]
+						"Enemy Forces", -- [6]
 					},
 				},
 				[1456] = {
-					["objectives"] = {
-						"Warlord Parjesh", -- [1]
-						"Lady Hatecoil", -- [2]
-						"King Deepbeard", -- [3]
-						"Serpentrix", -- [4]
-						"Wrath of Azshara", -- [5]
-						"Enemy Forces", -- [6]
-					},
-					["zoneID"] = 1456,
-					["name"] = "Eye of Azshara",
 					["runs"] = {
 						{
 							["corrupt"] = false,
@@ -475,18 +469,8 @@ GottaGoFastHistoryDB = {
 								["day"] = 18,
 								["month"] = 4,
 								["hours"] = 13,
-								["year"] = 2017,
 								["mins"] = 59,
-							},
-							["startTime"] = 460375.796,
-							["level"] = 10,
-							["objectiveTimes"] = {
-								"04:39.139", -- [1]
-								"09:11.986", -- [2]
-								"21:26.873", -- [3]
-								"14:43.745", -- [4]
-								"37:27.928", -- [5]
-								"23:10.516", -- [6]
+								["year"] = 2017,
 							},
 							["players"] = {
 								{
@@ -515,7 +499,27 @@ GottaGoFastHistoryDB = {
 									["role"] = "DAMAGER",
 								}, -- [5]
 							},
+							["startTime"] = 460375.796,
+							["objectiveTimes"] = {
+								"04:39.139", -- [1]
+								"09:11.986", -- [2]
+								"21:26.873", -- [3]
+								"14:43.745", -- [4]
+								"37:27.928", -- [5]
+								"23:10.516", -- [6]
+							},
+							["level"] = 10,
 						}, -- [1]
+					},
+					["name"] = "Eye of Azshara",
+					["zoneID"] = 1456,
+					["objectives"] = {
+						"Warlord Parjesh", -- [1]
+						"Lady Hatecoil", -- [2]
+						"King Deepbeard", -- [3]
+						"Serpentrix", -- [4]
+						"Wrath of Azshara", -- [5]
+						"Enemy Forces", -- [6]
 					},
 				},
 			},

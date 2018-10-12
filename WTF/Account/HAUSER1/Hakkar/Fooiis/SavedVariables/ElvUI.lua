@@ -14,6 +14,7 @@ ElvCharacterDB = {
 		"/way The Storm Peaks 46 65 Skoll", -- [11]
 		"/who z-storm", -- [12]
 		"/who z-duskw", -- [13]
+		"/who z-storm ", -- [14]
 	},
 	["ChatHistoryLog"] = {
 	},

@@ -10,41 +10,9 @@ VWQL = {
 		["FilterType"] = {
 		},
 	},
-	["Hauzerone-Dalaran"] = {
-		["Filter"] = 63,
-		["Quests"] = {
-		},
-		["FilterType"] = {
-		},
-	},
 	["Beatryce-Kel'Thuzad"] = {
-		["FilterType"] = {
-		},
-		["Quests"] = {
-		},
-		["Filter"] = 63,
-	},
-	["Fsdkjhskdjfh-Kel'Thuzad"] = {
 		["Filter"] = 63,
 		["Quests"] = {
-		},
-		["FilterType"] = {
-		},
-	},
-	["Loranno-Kel'Thuzad"] = {
-		["VERSION"] = 81,
-		["Filter"] = 63,
-		["RegularQuestMode"] = true,
-		["Quests"] = {
-		},
-		["FilterType"] = {
-		},
-	},
-	["Alauranna-Kel'Thuzad"] = {
-		["VERSION"] = 81,
-		["Filter"] = 63,
-		["Quests"] = {
-			[44895] = true,
 		},
 		["FilterType"] = {
 		},
@@ -60,25 +28,203 @@ VWQL = {
 		},
 	},
 	["Pharrah-Kel'Thuzad"] = {
-		["Filter"] = 63,
-		["Quests"] = {
-		},
 		["FilterType"] = {
 		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
 	},
 	["Hoobastankie-Kel'Thuzad"] = {
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["Foiio-Drakkari"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["VERSION"] = 81,
+	},
+	["Sdkfhsdkjfhs-Kel'Thuzad"] = {
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["AzeriteFormat"] = 20,
+	["ReverseSort"] = true,
+	["Lorranah-Kel'Thuzad"] = {
+		["VERSION"] = 77,
+		["Filter"] = 63,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Laurannah-Undermine"] = {
+		["VERSION"] = 81,
+		["Filter"] = 63,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Laurennah-Vashj"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+			[54167] = true,
+		},
+		["VERSION"] = 81,
+	},
+	["AnchorQCBLeft"] = 1737.49951171875,
+	["Skãdi-Kel'Thuzad"] = {
 		["Filter"] = 63,
 		["Quests"] = {
 		},
 		["FilterType"] = {
 		},
 	},
-	["VERSION"] = 81,
-	["Arrow_Point1"] = "TOP",
-	["DisableTotalAP"] = false,
-	["Sdkfhsdkjfhs-Kel'Thuzad"] = {
+	["AnchorQCBTop"] = 282.500946044922,
+	["Alisheeya-Kel'Thuzad"] = {
+		["VERSION"] = 79,
+		["Filter"] = 63,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Foioioi-Gallywix"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["VERSION"] = 81,
+	},
+	["DisableRewardIcons"] = true,
+	["Blahndee-Kel'Thuzad"] = {
+		["VERSION"] = 79,
+		["Filter"] = 63,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Arrow_PointX"] = 144.166351318359,
+	["Foolioioio-Frostwolf"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+			[54167] = true,
+		},
+		["VERSION"] = 81,
+	},
+	["Fooiis-Hakkar"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+			[54167] = true,
+		},
+		["VERSION"] = 81,
+	},
+	["DisableLFG"] = true,
+	["Alauranna-Kel'Thuzad"] = {
+		["FilterType"] = {
+		},
 		["Filter"] = 63,
 		["Quests"] = {
+			[44895] = true,
+		},
+		["VERSION"] = 81,
+	},
+	["HideLegion"] = true,
+	["Alorannah-Kel'Thuzad"] = {
+		["VERSION"] = 81,
+		["Filter"] = 63,
+		["Quests"] = {
+			[51558] = true,
+			[50489] = true,
+			[50869] = true,
+			[53076] = true,
+			[51637] = true,
+			[51832] = true,
+			[51155] = true,
+			[51157] = true,
+			[50529] = true,
+			[52862] = true,
+			[51541] = true,
+			[51102] = true,
+			[51232] = true,
+			[50667] = true,
+			[51175] = true,
+			[51114] = true,
+			[50549] = true,
+			[51181] = true,
+			[51185] = true,
+			[50872] = true,
+			[51636] = true,
+			[51640] = true,
+			[50510] = true,
+			[54166] = true,
+			[50650] = true,
+			[42779] = true,
+			[51497] = true,
+			[52858] = true,
+			[51983] = true,
+			[52300] = true,
+			[52361] = true,
+			[51611] = true,
+			[51046] = true,
+			[51669] = true,
+			[50744] = true,
+		},
+		["FilterType"] = {
+			["pvp"] = false,
+			["pet"] = true,
+			["dung"] = true,
+		},
+	},
+	["Hauzerina-MoonGuard"] = {
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["Fsdkjhskdjfh-Kel'Thuzad"] = {
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["VERSION"] = 81,
+	["Hauzerdemon-Kel'Thuzad"] = {
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["Hauzer-Kel'Thuzad"] = {
+		["VERSION"] = 81,
+		["Filter"] = 63,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+			[43798] = true,
 		},
 		["FilterType"] = {
 		},
@@ -92,70 +238,22 @@ VWQL = {
 		["FilterType"] = {
 		},
 	},
-	["Hauzer-Kel'Thuzad"] = {
-		["VERSION"] = 81,
-		["Filter"] = 63,
-		["RegularQuestMode"] = true,
-		["Quests"] = {
-			[43798] = true,
-		},
-		["FilterType"] = {
-		},
-	},
-	["ReverseSort"] = true,
-	["Lorranah-Kel'Thuzad"] = {
-		["VERSION"] = 77,
-		["Filter"] = 63,
-		["RegularQuestMode"] = true,
-		["Quests"] = {
-		},
-		["FilterType"] = {
-		},
-	},
 	["Arrow_PointY"] = 0,
-	["Laurannah-Undermine"] = {
-		["VERSION"] = 81,
-		["Filter"] = 63,
-		["RegularQuestMode"] = true,
-		["Quests"] = {
-		},
-		["FilterType"] = {
-		},
-	},
-	["AnchorQCBLeft"] = 1737.49951171875,
-	["Testfoolio-Kel'Thuzad"] = {
-		["VERSION"] = 79,
-		["Filter"] = 63,
-		["RegularQuestMode"] = true,
-		["Quests"] = {
-		},
-		["FilterType"] = {
-		},
-	},
-	["Laurennah-Vashj"] = {
-		["VERSION"] = 81,
-		["FilterType"] = {
-		},
-		["Quests"] = {
-			[54167] = true,
-		},
-		["Filter"] = 63,
-	},
 	["Laurenn-Kel'Thuzad"] = {
-		["FilterType"] = {
-		},
+		["Filter"] = 63,
 		["Quests"] = {
 		},
-		["Filter"] = 63,
+		["FilterType"] = {
+		},
 	},
-	["Fooiis-Hakkar"] = {
+	["Foioi-Aman'Thul"] = {
 		["VERSION"] = 81,
+		["Filter"] = 63,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
 		["FilterType"] = {
 		},
-		["Quests"] = {
-			[54167] = true,
-		},
-		["Filter"] = 63,
 	},
 	["Fooliolio-Kel'Thuzad"] = {
 		["VERSION"] = 69,
@@ -167,57 +265,11 @@ VWQL = {
 		},
 	},
 	["Olrapey-Kel'Thuzad"] = {
-		["Filter"] = 63,
-		["Quests"] = {
-		},
-		["FilterType"] = {
-		},
-	},
-	["Foolioioio-Frostwolf"] = {
-		["VERSION"] = 81,
-		["FilterType"] = {
-		},
-		["Quests"] = {
-			[54167] = true,
-		},
-		["Filter"] = 63,
-	},
-	["Skãdi-Kel'Thuzad"] = {
 		["FilterType"] = {
 		},
 		["Quests"] = {
 		},
 		["Filter"] = 63,
-	},
-	["AnchorQCBTop"] = 282.500946044922,
-	["Alisheeya-Kel'Thuzad"] = {
-		["VERSION"] = 79,
-		["Filter"] = 63,
-		["RegularQuestMode"] = true,
-		["Quests"] = {
-		},
-		["FilterType"] = {
-		},
-	},
-	["DisableHeader"] = false,
-	["Laurranah-Kel'Thuzad"] = {
-		["VERSION"] = 77,
-		["Filter"] = 63,
-		["RegularQuestMode"] = true,
-		["Quests"] = {
-		},
-		["FilterType"] = {
-		},
-	},
-	["DisableIconsGeneralMap947"] = true,
-	["Loranah-Kel'Thuzad"] = {
-		["VERSION"] = 77,
-		["Filter"] = 63,
-		["RegularQuestMode"] = true,
-		["Quests"] = {
-		},
-		["FilterType"] = {
-		},
 	},
 	["Laurannah-Kel'Thuzad"] = {
 		["epicIgnoreFilter"] = false,
@@ -230,186 +282,86 @@ VWQL = {
 		["petIgnoreFilter"] = false,
 		["FilterType"] = {
 			["prof"] = false,
-			["dung"] = false,
-			["pet"] = true,
 			["pvp"] = false,
+			["pet"] = true,
+			["dung"] = false,
 		},
-		["wantedIgnoreFilter"] = false,
+		["faction2162IgnoreFilter"] = false,
+		["faction2160IgnoreFilter"] = false,
+		["faction2163IgnoreFilter"] = false,
+		["bountyIgnoreFilter"] = false,
+		["Filter"] = 63,
+		["faction2161IgnoreFilter"] = false,
 		["Quests"] = {
-			[51806] = true,
-			[44815] = true,
-			[46833] = true,
-			[48095] = true,
+			[50489] = true,
+			[50869] = true,
 			[41421] = true,
 			[43943] = true,
-			[51633] = true,
-			[44894] = true,
-			[43951] = true,
-			[50505] = true,
-			[41789] = true,
-			[52875] = true,
-			[43248] = true,
+			[51637] = true,
+			[51706] = true,
+			[50322] = true,
+			[51836] = true,
+			[52785] = true,
 			[54167] = true,
-			[51397] = true,
-			[52862] = true,
-			[42028] = true,
-			[50899] = true,
-			[48192] = true,
-			[48835] = true,
+			[51434] = true,
+			[51604] = true,
+			[51155] = true,
 			[51157] = true,
-			[43599] = true,
-			[51287] = true,
-			[44737] = true,
 			[42723] = true,
-			[51608] = true,
-			[45068] = true,
+			[52862] = true,
+			[51541] = true,
+			[51102] = true,
+			[51669] = true,
+			[51017] = true,
 			[44934] = true,
-			[48338] = true,
 			[45379] = true,
-			[42861] = true,
+			[52120] = true,
+			[51681] = true,
 			[52250] = true,
-			[48724] = true,
+			[51114] = true,
+			[51640] = true,
+			[51185] = true,
+			[50872] = true,
+			[51378] = true,
+			[51632] = true,
+			[52463] = true,
 			[51636] = true,
-			[50870] = true,
-			[51124] = true,
-			[42631] = true,
-			[51884] = true,
-			[51886] = true,
-			[44895] = true,
-			[52142] = true,
-			[41686] = true,
-			[42859] = true,
-			[52211] = true,
-			[42714] = true,
+			[51512] = true,
+			[52144] = true,
+			[51406] = true,
+			[50510] = true,
+			[51583] = true,
 			[51963] = true,
-			[43807] = true,
-			[44192] = true,
-			[45069] = true,
-			[42018] = true,
-			[42764] = true,
+			[51028] = true,
+			[51618] = true,
+			[51654] = true,
+			[51530] = true,
+			[53107] = true,
 			[48951] = true,
 			[42779] = true,
-			[48514] = true,
-			[46707] = true,
-			[52872] = true,
-			[51670] = true,
+			[52168] = true,
+			[50756] = true,
+			[51175] = true,
+			[52300] = true,
 			[52302] = true,
-			[51422] = true,
-			[47707] = true,
-			[44811] = true,
-			[52877] = true,
+			[51611] = true,
+			[51172] = true,
+			[52858] = true,
+			[52133] = true,
 		},
-		["bountyIgnoreFilter"] = false,
-		["faction2161IgnoreFilter"] = false,
-		["Filter"] = 63,
-		["faction2163IgnoreFilter"] = false,
-		["faction2160IgnoreFilter"] = false,
-		["faction2162IgnoreFilter"] = false,
+		["wantedIgnoreFilter"] = false,
 	},
-	["Blahndee-Kel'Thuzad"] = {
-		["VERSION"] = 79,
-		["Filter"] = 63,
-		["RegularQuestMode"] = true,
-		["Quests"] = {
-		},
-		["FilterType"] = {
-		},
-	},
-	["Ignore"] = {
-	},
-	["Hoobastanko-Kel'Thuzad"] = {
-		["Filter"] = 63,
-		["Quests"] = {
-		},
-		["FilterType"] = {
-		},
-	},
-	["AzeriteFormat"] = 20,
-	["DisableShellGame"] = true,
-	["Alorannah-Kel'Thuzad"] = {
+	["DisableHeader"] = false,
+	["Foifo-Azgalor"] = {
 		["VERSION"] = 81,
-		["Filter"] = 63,
-		["TreasureMode"] = true,
-		["Quests"] = {
-			[51633] = true,
-			[50735] = true,
-			[41686] = true,
-			[51422] = true,
-			[45068] = true,
-			[50619] = true,
-			[42779] = true,
-			[52359] = true,
-			[41789] = true,
-			[42070] = true,
-			[44894] = true,
-			[52862] = true,
-			[54166] = true,
-			[48835] = true,
-			[50859] = true,
-			[43753] = true,
-			[51157] = true,
-			[51050] = true,
-			[51475] = true,
-			[51042] = true,
-			[51622] = true,
-		},
-		["FilterType"] = {
-			["dung"] = true,
-			["pet"] = true,
-			["pvp"] = false,
-		},
-	},
-	["Arrow_Point2"] = "TOP",
-	["Beatryss-Kel'Thuzad"] = {
 		["FilterType"] = {
 		},
 		["Quests"] = {
 		},
 		["Filter"] = 63,
 	},
-	["Hauzerdemon-Kel'Thuzad"] = {
-		["Filter"] = 63,
-		["Quests"] = {
-		},
-		["FilterType"] = {
-		},
-	},
-	["DisableRewardIcons"] = true,
-	["Shamwowow-Kel'Thuzad"] = {
-		["VERSION"] = 79,
-		["FilterType"] = {
-		},
-		["Quests"] = {
-		},
-		["Filter"] = 63,
-	},
-	["Ugiyo-Kel'Thuzad"] = {
-		["FilterType"] = {
-		},
-		["Quests"] = {
-		},
-		["Filter"] = 63,
-	},
-	["Loranus-Kel'Thuzad"] = {
-		["VERSION"] = 81,
-		["Filter"] = 63,
-		["RegularQuestMode"] = true,
-		["Quests"] = {
-		},
-		["FilterType"] = {
-		},
-	},
-	["Arrow_PointX"] = 144.166351318359,
-	["Rogueout-Kel'Thuzad"] = {
-		["VERSION"] = 70,
-		["Filter"] = 63,
-		["RegularQuestMode"] = true,
-		["Quests"] = {
-		},
-		["FilterType"] = {
-		},
-	},
-	["Hauzerina-Kel'Thuzad"] = {
+	["DisableIconsGeneralMap947"] = true,
+	["Loranah-Kel'Thuzad"] = {
 		["VERSION"] = 77,
 		["Filter"] = 63,
 		["RegularQuestMode"] = true,
@@ -418,16 +370,39 @@ VWQL = {
 		["FilterType"] = {
 		},
 	},
-	["DisableLFG"] = true,
-	["Hauzerina-MoonGuard"] = {
+	["Loranno-Kel'Thuzad"] = {
+		["VERSION"] = 81,
+		["Filter"] = 63,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Hauzerone-Dalaran"] = {
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["Leeroyjenkem-Kel'Thuzad"] = {
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["Arrow_Point2"] = "TOP",
+	["Beatryss-Kel'Thuzad"] = {
 		["Filter"] = 63,
 		["Quests"] = {
 		},
 		["FilterType"] = {
 		},
 	},
-	["Foolioioio-Kel'Thuzad"] = {
-		["VERSION"] = 70,
+	["Darknstormie-Kel'Thuzad"] = {
+		["VERSION"] = 75,
 		["Filter"] = 63,
 		["RegularQuestMode"] = true,
 		["Quests"] = {
@@ -436,8 +411,7 @@ VWQL = {
 		},
 	},
 	["Kmkarbashian-Kel'Thuzad"] = {
-		["FilterType"] = {
-		},
+		["VERSION"] = 81,
 		["Filter"] = 63,
 		["Quests"] = {
 			[43175] = true,
@@ -454,24 +428,24 @@ VWQL = {
 			[44784] = true,
 			[43599] = true,
 			[42026] = true,
-			[43963] = true,
-			[44813] = true,
+			[42624] = true,
+			[41091] = true,
 			[42160] = true,
 			[44934] = true,
-			[41914] = true,
 			[43426] = true,
+			[41914] = true,
 			[44121] = true,
 			[44816] = true,
 			[41416] = true,
 			[42240] = true,
 			[43751] = true,
-			[45068] = true,
+			[41298] = true,
 			[43755] = true,
-			[40980] = true,
-			[42176] = true,
-			[43450] = true,
-			[43448] = true,
+			[42124] = true,
+			[43764] = true,
 			[41686] = true,
+			[43448] = true,
+			[43450] = true,
 			[43452] = true,
 			[43769] = true,
 			[41692] = true,
@@ -480,23 +454,88 @@ VWQL = {
 			[41824] = true,
 			[41700] = true,
 			[40920] = true,
-			[43710] = true,
 			[41257] = true,
+			[43710] = true,
 			[42023] = true,
 			[42151] = true,
 			[41964] = true,
-			[43764] = true,
-			[42124] = true,
-			[41298] = true,
+			[42176] = true,
+			[40980] = true,
+			[45068] = true,
 			[44744] = true,
 			[43738] = true,
-			[41091] = true,
-			[42624] = true,
+			[44813] = true,
+			[43963] = true,
 		},
-		["VERSION"] = 81,
+		["FilterType"] = {
+		},
 	},
-	["Darknstormie-Kel'Thuzad"] = {
-		["VERSION"] = 75,
+	["Shamwowow-Kel'Thuzad"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["VERSION"] = 79,
+	},
+	["Hoobastanko-Kel'Thuzad"] = {
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["Loranus-Kel'Thuzad"] = {
+		["VERSION"] = 81,
+		["Filter"] = 63,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Laurranah-Kel'Thuzad"] = {
+		["VERSION"] = 77,
+		["Filter"] = 63,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Rogueout-Kel'Thuzad"] = {
+		["VERSION"] = 70,
+		["Filter"] = 63,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Ignore"] = {
+	},
+	["Arrow_Point1"] = "TOP",
+	["Hauzerina-Kel'Thuzad"] = {
+		["VERSION"] = 77,
+		["Filter"] = 63,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Foolioioio-Kel'Thuzad"] = {
+		["VERSION"] = 70,
+		["Filter"] = 63,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["DisableTotalAP"] = false,
+	["Testfoolio-Kel'Thuzad"] = {
+		["VERSION"] = 79,
 		["Filter"] = 63,
 		["RegularQuestMode"] = true,
 		["Quests"] = {
@@ -505,20 +544,20 @@ VWQL = {
 		},
 	},
 	["Foolse-TwistingNether"] = {
-		["Filter"] = 63,
+		["VERSION"] = 81,
 		["FilterType"] = {
 		},
 		["Quests"] = {
 			[54167] = true,
 		},
-		["VERSION"] = 81,
+		["Filter"] = 63,
 	},
-	["Leeroyjenkem-Kel'Thuzad"] = {
+	["Ugiyo-Kel'Thuzad"] = {
 		["Filter"] = 63,
 		["Quests"] = {
 		},
 		["FilterType"] = {
 		},
 	},
-	["HideLegion"] = true,
+	["DisableShellGame"] = true,
 }

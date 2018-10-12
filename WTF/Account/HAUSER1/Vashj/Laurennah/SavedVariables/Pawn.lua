@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0228,
+	["LastVersion"] = 2.023,
 	["LastPlayerFullName"] = "Laurennah-Vashj",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,

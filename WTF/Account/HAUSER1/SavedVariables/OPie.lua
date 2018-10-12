@@ -95,6 +95,36 @@ OneRing_Config = {
 			["OPieFlagStore"] = {
 				["FlushedDefaultColors"] = true,
 			},
+			["HunterPets"] = {
+				{
+					["sliceToken"] = "OPCHP1",
+					["id"] = "#showtooltip [@pet,exists,nodead,nopet:1] {{spell:883}};\n/cast [@pet,exists,nopet:1,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:883}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
+					["show"] = "[known:883,havepet:1]",
+				}, -- [1]
+				{
+					["sliceToken"] = "OPCHP2",
+					["id"] = "#showtooltip [@pet,exists,nodead,nopet:2] {{spell:83242}};\n/cast [@pet,exists,nopet:2,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:83242}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
+					["show"] = "[known:83242,havepet:2]",
+				}, -- [2]
+				{
+					["sliceToken"] = "OPCHP3",
+					["id"] = "#showtooltip [@pet,exists,nodead,nopet:3] {{spell:83243}};\n/cast [@pet,exists,nopet:3,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:83243}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
+					["show"] = "[known:83243,havepet:3]",
+				}, -- [3]
+				{
+					["sliceToken"] = "OPCHP4",
+					["id"] = "#showtooltip [@pet,exists,nodead,nopet:4] {{spell:83244}};\n/cast [@pet,exists,nopet:4,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:83244}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
+					["show"] = "[known:83244,havepet:4]",
+				}, -- [4]
+				{
+					["sliceToken"] = "OPCHP5",
+					["id"] = "#showtooltip [@pet,exists,nodead,nopet:5] {{spell:83245}};\n/cast [@pet,exists,nopet:5,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:83245}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
+					["show"] = "[known:83245,havepet:5]",
+				}, -- [5]
+				["name"] = "Pets",
+				["save"] = true,
+				["limit"] = "HUNTER",
+			},
 			["Mounts"] = {
 				{
 					["id"] = 127271,
@@ -114,35 +144,6 @@ OneRing_Config = {
 				}, -- [4]
 				["save"] = true,
 				["name"] = "Mounts",
-				["limit"] = "Laurannah-Kel'Thuzad",
-			},
-			["Management"] = {
-				{
-					["id"] = 883,
-					["sliceToken"] = "ABueoSfffGl",
-				}, -- [1]
-				{
-					["id"] = 83242,
-					["sliceToken"] = "ABueoSfffGk",
-				}, -- [2]
-				{
-					["id"] = 83243,
-					["sliceToken"] = "ABueoSfffGj",
-				}, -- [3]
-				{
-					["id"] = 83244,
-					["sliceToken"] = "ABueoSfffG4",
-				}, -- [4]
-				{
-					["id"] = 83245,
-					["sliceToken"] = "ABueoSfffGh",
-				}, -- [5]
-				{
-					["id"] = 982,
-					["sliceToken"] = "ABueoXQbBSe",
-				}, -- [6]
-				["save"] = true,
-				["name"] = "Pet Management",
 				["limit"] = "Laurannah-Kel'Thuzad",
 			},
 			["Emotes"] = {
@@ -196,25 +197,34 @@ OneRing_Config = {
 				["noOpportunisticCA"] = true,
 				["save"] = true,
 			},
-			["Pets"] = {
+			["Management"] = {
 				{
-					"battlepet", -- [1]
-					"BattlePet-0-0000036D071D", -- [2]
-					["sliceToken"] = "ABueo98aIgu",
+					["id"] = 883,
+					["sliceToken"] = "ABueoSfffGl",
 				}, -- [1]
 				{
-					"battlepet", -- [1]
-					"BattlePet-0-000005F0B637", -- [2]
-					["sliceToken"] = "ABueo98aIgy",
+					["id"] = 83242,
+					["sliceToken"] = "ABueoSfffGk",
 				}, -- [2]
 				{
-					"battlepet", -- [1]
-					"BattlePet-0-000005C494B4", -- [2]
-					["sliceToken"] = "ABuedaqMAAr",
+					["id"] = 83243,
+					["sliceToken"] = "ABueoSfffGj",
 				}, -- [3]
+				{
+					["id"] = 83244,
+					["sliceToken"] = "ABueoSfffG4",
+				}, -- [4]
+				{
+					["id"] = 83245,
+					["sliceToken"] = "ABueoSfffGh",
+				}, -- [5]
+				{
+					["id"] = 982,
+					["sliceToken"] = "ABueoXQbBSe",
+				}, -- [6]
 				["save"] = true,
+				["name"] = "Pet Management",
 				["limit"] = "Laurannah-Kel'Thuzad",
-				["name"] = "Pets",
 			},
 			["Toys"] = {
 				{
@@ -276,35 +286,25 @@ OneRing_Config = {
 				["limit"] = "Laurannah-Kel'Thuzad",
 				["name"] = "Outfits",
 			},
-			["HunterPets"] = {
+			["Pets"] = {
 				{
-					["show"] = "[known:883,havepet:1]",
-					["sliceToken"] = "OPCHP1",
-					["id"] = "#showtooltip [@pet,exists,nodead,nopet:1] {{spell:883}};\n/cast [@pet,exists,nopet:1,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:883}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
+					"battlepet", -- [1]
+					"BattlePet-0-0000036D071D", -- [2]
+					["sliceToken"] = "ABueo98aIgu",
 				}, -- [1]
 				{
-					["show"] = "[known:83242,havepet:2]",
-					["sliceToken"] = "OPCHP2",
-					["id"] = "#showtooltip [@pet,exists,nodead,nopet:2] {{spell:83242}};\n/cast [@pet,exists,nopet:2,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:83242}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
+					"battlepet", -- [1]
+					"BattlePet-0-000005F0B637", -- [2]
+					["sliceToken"] = "ABueo98aIgy",
 				}, -- [2]
 				{
-					["show"] = "[known:83243,havepet:3]",
-					["sliceToken"] = "OPCHP3",
-					["id"] = "#showtooltip [@pet,exists,nodead,nopet:3] {{spell:83243}};\n/cast [@pet,exists,nopet:3,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:83243}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
+					"battlepet", -- [1]
+					"BattlePet-0-000005C494B4", -- [2]
+					["sliceToken"] = "ABuedaqMAAr",
 				}, -- [3]
-				{
-					["show"] = "[known:83244,havepet:4]",
-					["sliceToken"] = "OPCHP4",
-					["id"] = "#showtooltip [@pet,exists,nodead,nopet:4] {{spell:83244}};\n/cast [@pet,exists,nopet:4,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:83244}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
-				}, -- [4]
-				{
-					["show"] = "[known:83245,havepet:5]",
-					["sliceToken"] = "OPCHP5",
-					["id"] = "#showtooltip [@pet,exists,nodead,nopet:5] {{spell:83245}};\n/cast [@pet,exists,nopet:5,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:83245}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
-				}, -- [5]
 				["save"] = true,
+				["limit"] = "Laurannah-Kel'Thuzad",
 				["name"] = "Pets",
-				["limit"] = "HUNTER",
 			},
 		},
 	},

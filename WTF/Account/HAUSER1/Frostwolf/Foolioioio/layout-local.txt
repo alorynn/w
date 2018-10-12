@@ -1,12 +1,12 @@
 Version: 1
-Frame: ObjectiveTrackerFrameScaleMover
+Frame: ObjectiveTrackerFrameMover
 FrameLevel: 1
 Anchor: RIGHT
 X: -10
 Y: 58
 W: 235
 H: 700
-Frame: ObjectiveTrackerFrameMover
+Frame: ObjectiveTrackerFrameScaleMover
 FrameLevel: 1
 Anchor: RIGHT
 X: -10

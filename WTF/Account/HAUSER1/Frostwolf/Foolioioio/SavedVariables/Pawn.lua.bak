@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0228,
+	["LastVersion"] = 2.023,
 	["LastPlayerFullName"] = "Foolioioio-Frostwolf",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,

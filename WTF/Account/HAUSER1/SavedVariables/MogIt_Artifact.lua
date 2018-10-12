@@ -4,7 +4,7 @@ MogIt_ArtifactDB = {
 		[28046] = {
 			[73701] = {
 				["classes"] = 8,
-				["faction"] = 2,
+				["faction"] = 3,
 			},
 		},
 		[28815] = {
@@ -34,7 +34,7 @@ MogIt_ArtifactDB = {
 		[28349] = {
 			[77434] = {
 				["classes"] = 8,
-				["faction"] = 2,
+				["faction"] = 3,
 			},
 		},
 		[28102] = {
@@ -208,7 +208,7 @@ MogIt_ArtifactDB = {
 		[28043] = {
 			[73698] = {
 				["classes"] = 8,
-				["faction"] = 2,
+				["faction"] = 3,
 			},
 		},
 		[27031] = {
@@ -492,7 +492,7 @@ MogIt_ArtifactDB = {
 		[28347] = {
 			[77431] = {
 				["classes"] = 8,
-				["faction"] = 2,
+				["faction"] = 3,
 			},
 		},
 		[26821] = {
@@ -576,7 +576,7 @@ MogIt_ArtifactDB = {
 		[28044] = {
 			[73699] = {
 				["classes"] = 8,
-				["faction"] = 2,
+				["faction"] = 3,
 			},
 		},
 		[30543] = {
@@ -600,7 +600,7 @@ MogIt_ArtifactDB = {
 		[27040] = {
 			[73512] = {
 				["classes"] = 8,
-				["faction"] = 2,
+				["faction"] = 3,
 			},
 		},
 		[28028] = {
@@ -660,7 +660,7 @@ MogIt_ArtifactDB = {
 		[28045] = {
 			[73700] = {
 				["classes"] = 8,
-				["faction"] = 2,
+				["faction"] = 3,
 			},
 		},
 		[26523] = {
@@ -672,7 +672,7 @@ MogIt_ArtifactDB = {
 		[27033] = {
 			[73505] = {
 				["classes"] = 8,
-				["faction"] = 2,
+				["faction"] = 3,
 			},
 		},
 		[28822] = {
@@ -732,7 +732,7 @@ MogIt_ArtifactDB = {
 		[28348] = {
 			[77432] = {
 				["classes"] = 8,
-				["faction"] = 2,
+				["faction"] = 3,
 			},
 		},
 		[26822] = {
@@ -801,6 +801,12 @@ MogIt_ArtifactDB = {
 				["faction"] = 3,
 			},
 		},
+		[28914] = {
+			[77155] = {
+				["classes"] = 2048,
+				["faction"] = 1,
+			},
+		},
 		[28659] = {
 			[96458] = {
 				["classes"] = 1024,
@@ -810,12 +816,6 @@ MogIt_ArtifactDB = {
 		[27384] = {
 			[76535] = {
 				["classes"] = 64,
-				["faction"] = 1,
-			},
-		},
-		[28914] = {
-			[77155] = {
-				["classes"] = 2048,
 				["faction"] = 1,
 			},
 		},
@@ -831,6 +831,12 @@ MogIt_ArtifactDB = {
 				["faction"] = 1,
 			},
 		},
+		[27149] = {
+			[76530] = {
+				["classes"] = 2,
+				["faction"] = 3,
+			},
+		},
 		[26639] = {
 			[73399] = {
 				["classes"] = 1024,
@@ -840,12 +846,6 @@ MogIt_ArtifactDB = {
 		[27404] = {
 			[75203] = {
 				["classes"] = 4,
-				["faction"] = 3,
-			},
-		},
-		[27149] = {
-			[76530] = {
-				["classes"] = 2,
 				["faction"] = 3,
 			},
 		},
@@ -972,7 +972,7 @@ MogIt_ArtifactDB = {
 		[27039] = {
 			[73510] = {
 				["classes"] = 8,
-				["faction"] = 2,
+				["faction"] = 3,
 			},
 		},
 		[31317] = {
@@ -1020,7 +1020,7 @@ MogIt_ArtifactDB = {
 		[27038] = {
 			[73511] = {
 				["classes"] = 8,
-				["faction"] = 2,
+				["faction"] = 3,
 			},
 		},
 		[28799] = {
@@ -1044,7 +1044,7 @@ MogIt_ArtifactDB = {
 		[28350] = {
 			[77435] = {
 				["classes"] = 8,
-				["faction"] = 2,
+				["faction"] = 3,
 			},
 		},
 	},
