@@ -6,6 +6,8 @@ ElvCharacterDB = {
 		"/1 oh thisalee?", -- [3]
 		"/1 already did her", -- [4]
 		"/mogit", -- [5]
+		"/elvui", -- [6]
+		"/move", -- [7]
 	},
 	["ChatHistoryLog"] = {
 		{

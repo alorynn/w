@@ -21,6 +21,10 @@ VER 3 0100000000000004 "Moonkin" "INV_MISC_QUESTIONMARK"
 #showtooltip moonkin form
 /cast [nostance:0] !moonkin form
 END
+VER 3 010000000000000A "Prowl" "INV_Misc_QuestionMark"
+#showtooltip Prowl
+/cast !Prowl
+END
 VER 3 0100000000000003 "Prowl" "INV_MISC_QUESTIONMARK"
 #showtooltip prowl
 /cancelform [stance:3]

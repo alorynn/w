@@ -99,11 +99,11 @@ MADB = {
 						["area"] = "left",
 					},
 					["orgPos"] = {
-						"BOTTOMLEFT", -- [1]
+						"TOP", -- [1]
 						"UIParent", -- [2]
-						"BOTTOMLEFT", -- [3]
+						"TOP", -- [3]
 						0, -- [4]
-						0, -- [5]
+						-135, -- [5]
 					},
 					["name"] = "QuestFrame",
 					["pos"] = {
@@ -116,11 +116,11 @@ MADB = {
 				},
 				["PetStableFrame"] = {
 					["orgPos"] = {
-						"LEFT", -- [1]
+						"TOPLEFT", -- [1]
 						"UIParent", -- [2]
-						"LEFT", -- [3]
-						13.0000009536743, -- [4]
-						19.0000019073486, -- [5]
+						"TOPLEFT", -- [3]
+						0, -- [4]
+						-104.000007629395, -- [5]
 					},
 					["UIPanelWindows"] = {
 						["pushable"] = 0,

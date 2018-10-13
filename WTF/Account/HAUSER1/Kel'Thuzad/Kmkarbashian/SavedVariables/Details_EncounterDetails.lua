@@ -1,22 +1,5 @@
 
 EncounterDetailsDB = {
-	["emotes"] = {
-		{
-			["boss"] = "Shade of Aran",
-		}, -- [1]
-		{
-			["boss"] = "Terestian Illhoof",
-		}, -- [2]
-		{
-			{
-				0.204000000027008, -- [1]
-				"The Menagerie is for guests only.", -- [2]
-				"The Curator", -- [3]
-				7, -- [4]
-			}, -- [1]
-			["boss"] = "The Curator",
-		}, -- [3]
-	},
 	["encounter_spells"] = {
 		[29583] = {
 			["school"] = 1,
@@ -89,20 +72,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ragnaros",
 		},
-		[98981] = {
-			["school"] = 4,
+		[31012] = {
+			["school"] = 16,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ragnaros",
-		},
-		[29582] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Phantom Guest",
+			["source"] = "Dorothee",
 		},
 		[29799] = {
 			["school"] = 1,
@@ -111,13 +88,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Attumen the Huntsman",
 		},
-		[99112] = {
-			["school"] = 4,
+		[29954] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Son of Flame",
+			["source"] = "Shade of Aran",
+		},
+		[29513] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Phantom Guest",
 		},
 		[29920] = {
 			["school"] = 1,
@@ -159,21 +144,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ragnaros",
 		},
-		[29513] = {
+		[99112] = {
 			["school"] = 4,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Phantom Guest",
+			["source"] = "Son of Flame",
 		},
-		[29954] = {
-			["school"] = 16,
+		[29582] = {
+			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Shade of Aran",
+			["source"] = "Phantom Guest",
 		},
 		[29908] = {
 			["school"] = 64,
@@ -183,14 +168,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mana Feeder",
 		},
-		[31012] = {
-			["school"] = 16,
+		[98981] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Dorothee",
+			["source"] = "Ragnaros",
 		},
+	},
+	["emotes"] = {
+		{
+			["boss"] = "Shade of Aran",
+		}, -- [1]
+		{
+			["boss"] = "Terestian Illhoof",
+		}, -- [2]
+		{
+			{
+				0.204000000027008, -- [1]
+				"The Menagerie is for guests only.", -- [2]
+				"The Curator", -- [3]
+				7, -- [4]
+			}, -- [1]
+			["boss"] = "The Curator",
+		}, -- [3]
 	},
 }
