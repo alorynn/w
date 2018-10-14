@@ -2,13 +2,8 @@
 CliqueDB = nil
 CliqueDB3 = {
 	["char"] = {
-		["Alorannah - Kel'Thuzad"] = {
-			["spec1_profileKey"] = "Alorannah - Kel'Thuzad",
-			["spec2_profileKey"] = "Alorannah - Kel'Thuzad",
-			["downclick"] = false,
-			["fastooc"] = false,
-			["spec3_profileKey"] = "Alorannah - Kel'Thuzad",
-			["specswap"] = false,
+		["Darknstormie - Kel'Thuzad"] = {
+			["alerthidden"] = true,
 		},
 		["Laurannah - Kel'Thuzad"] = {
 			["spec1_profileKey"] = "Laurannah - Kel'Thuzad",
@@ -18,6 +13,14 @@ CliqueDB3 = {
 			["specswap"] = false,
 			["spec2_profileKey"] = "Laurannah - Kel'Thuzad",
 		},
+		["Alorannah - Kel'Thuzad"] = {
+			["spec1_profileKey"] = "Alorannah - Kel'Thuzad",
+			["spec2_profileKey"] = "Alorannah - Kel'Thuzad",
+			["downclick"] = false,
+			["fastooc"] = false,
+			["spec3_profileKey"] = "Alorannah - Kel'Thuzad",
+			["specswap"] = false,
+		},
 		["Kmkarbashian - Kel'Thuzad"] = {
 			["spec1_profileKey"] = "Kmkarbashian - Kel'Thuzad",
 			["spec3_profileKey"] = "Kmkarbashian - Kel'Thuzad",
@@ -25,9 +28,6 @@ CliqueDB3 = {
 			["fastooc"] = false,
 			["spec2_profileKey"] = "Kmkarbashian - Kel'Thuzad",
 			["specswap"] = false,
-		},
-		["Darknstormie - Kel'Thuzad"] = {
-			["alerthidden"] = true,
 		},
 	},
 	["profileKeys"] = {
@@ -50,21 +50,22 @@ CliqueDB3 = {
 		["Foolioioio - Frostwolf"] = "Foolioioio - Frostwolf",
 		["Deeke - Kel'Thuzad"] = "Deeke - Kel'Thuzad",
 		["Nigellah - Kel'Thuzad"] = "Nigellah - Kel'Thuzad",
-		["Fooiis - Hakkar"] = "Fooiis - Hakkar",
 		["Loranah - Kel'Thuzad"] = "Loranah - Kel'Thuzad",
-		["Foiio - Drakkari"] = "Foiio - Drakkari",
+		["Fooiis - Hakkar"] = "Fooiis - Hakkar",
 		["Foifo - Azgalor"] = "Foifo - Azgalor",
+		["Foiio - Drakkari"] = "Foiio - Drakkari",
 		["Foioioi - Gallywix"] = "Foioioi - Gallywix",
 		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
 		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
-		["Alaurannah - Undermine"] = "Alaurannah - Undermine",
 		["Foolioioio - Kel'Thuzad"] = "Foolioioio - Kel'Thuzad",
+		["Alaurannah - Undermine"] = "Alaurannah - Undermine",
 		["Darknstormie - Kel'Thuzad"] = "Darknstormie - Kel'Thuzad",
 		["Laurannah - Undermine"] = "Laurannah - Undermine",
-		["Foioio - Thunderlord"] = "Foioio - Thunderlord",
 		["Laurranah - Kel'Thuzad"] = "Laurranah - Kel'Thuzad",
+		["Foioio - Thunderlord"] = "Foioio - Thunderlord",
 		["Fooliolio - Kel'Thuzad"] = "Fooliolio - Kel'Thuzad",
 		["Foioio - Bonechewer"] = "Foioio - Bonechewer",
+		["Foio - Garona"] = "Foio - Garona",
 	},
 	["profiles"] = {
 		["Testfoolio - Kel'Thuzad"] = {
@@ -428,25 +429,6 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Fooiis - Hakkar"] = {
-			["bindings"] = {
-				{
-					["type"] = "target",
-					["sets"] = {
-						["default"] = true,
-					},
-					["key"] = "BUTTON1",
-					["unit"] = "mouseover",
-				}, -- [1]
-				{
-					["type"] = "menu",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-				}, -- [2]
-			},
-		},
 		["Loranah - Kel'Thuzad"] = {
 			["bindings"] = {
 				{
@@ -466,7 +448,7 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Foiio - Drakkari"] = {
+		["Fooiis - Hakkar"] = {
 			["bindings"] = {
 				{
 					["type"] = "target",
@@ -492,6 +474,25 @@ CliqueDB3 = {
 						["default"] = true,
 					},
 					["type"] = "target",
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+			},
+		},
+		["Foiio - Drakkari"] = {
+			["bindings"] = {
+				{
+					["type"] = "target",
+					["sets"] = {
+						["default"] = true,
+					},
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -561,7 +562,7 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Alaurannah - Undermine"] = {
+		["Foolioioio - Kel'Thuzad"] = {
 			["bindings"] = {
 				{
 					["type"] = "target",
@@ -580,7 +581,7 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Foolioioio - Kel'Thuzad"] = {
+		["Alaurannah - Undermine"] = {
 			["bindings"] = {
 				{
 					["type"] = "target",
@@ -682,13 +683,13 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Foioio - Thunderlord"] = {
+		["Laurranah - Kel'Thuzad"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -701,13 +702,13 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Laurranah - Kel'Thuzad"] = {
+		["Foioio - Thunderlord"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -740,6 +741,25 @@ CliqueDB3 = {
 			},
 		},
 		["Foioio - Bonechewer"] = {
+			["bindings"] = {
+				{
+					["type"] = "target",
+					["sets"] = {
+						["default"] = true,
+					},
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+			},
+		},
+		["Foio - Garona"] = {
 			["bindings"] = {
 				{
 					["type"] = "target",

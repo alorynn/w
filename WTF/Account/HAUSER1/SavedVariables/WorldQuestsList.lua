@@ -195,9 +195,9 @@ VWQL = {
 			[50872] = true,
 			[50870] = true,
 			[51632] = true,
-			[51512] = true,
-			[51636] = true,
 			[51764] = true,
+			[51636] = true,
+			[51512] = true,
 			[51157] = true,
 			[51768] = true,
 			[50510] = true,
@@ -327,65 +327,19 @@ VWQL = {
 		["faction2162IgnoreFilter"] = false,
 		["faction2160IgnoreFilter"] = false,
 		["faction2163IgnoreFilter"] = false,
-		["faction2161IgnoreFilter"] = false,
-		["Filter"] = 63,
 		["bountyIgnoreFilter"] = false,
+		["Filter"] = 63,
+		["faction2161IgnoreFilter"] = false,
 		["Quests"] = {
-			[50489] = true,
-			[50869] = true,
-			[41421] = true,
-			[43943] = true,
-			[51637] = true,
-			[51706] = true,
-			[50322] = true,
-			[51836] = true,
-			[52785] = true,
-			[54167] = true,
-			[51434] = true,
-			[51604] = true,
-			[51155] = true,
-			[52858] = true,
-			[42723] = true,
-			[52862] = true,
-			[51541] = true,
-			[51102] = true,
-			[51669] = true,
-			[51017] = true,
-			[44934] = true,
-			[51175] = true,
-			[45379] = true,
-			[51681] = true,
-			[52250] = true,
-			[51114] = true,
-			[51640] = true,
-			[51185] = true,
-			[50872] = true,
-			[51378] = true,
-			[51632] = true,
-			[52463] = true,
-			[51636] = true,
-			[50756] = true,
-			[52144] = true,
-			[51028] = true,
-			[50510] = true,
-			[51583] = true,
-			[51963] = true,
-			[53107] = true,
-			[51618] = true,
-			[51654] = true,
-			[51530] = true,
-			[51406] = true,
-			[48951] = true,
 			[42779] = true,
-			[52168] = true,
-			[51512] = true,
+			[43943] = true,
+			[44934] = true,
+			[54167] = true,
 			[52120] = true,
+			[45379] = true,
+			[51378] = true,
+			[48951] = true,
 			[52300] = true,
-			[52302] = true,
-			[51611] = true,
-			[51172] = true,
-			[51157] = true,
-			[52133] = true,
 		},
 		["wantedIgnoreFilter"] = false,
 	},
@@ -424,15 +378,7 @@ VWQL = {
 		},
 		["Filter"] = 63,
 	},
-	["Leeroyjenkem-Kel'Thuzad"] = {
-		["FilterType"] = {
-		},
-		["Quests"] = {
-		},
-		["Filter"] = 63,
-	},
-	["Arrow_Point2"] = "TOP",
-	["Beatryss-Kel'Thuzad"] = {
+	["Ugiyo-Kel'Thuzad"] = {
 		["Filter"] = 63,
 		["Quests"] = {
 		},
@@ -443,6 +389,14 @@ VWQL = {
 		["VERSION"] = 75,
 		["Filter"] = 63,
 		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Arrow_Point2"] = "TOP",
+	["Beatryss-Kel'Thuzad"] = {
+		["Filter"] = 63,
 		["Quests"] = {
 		},
 		["FilterType"] = {
@@ -465,6 +419,7 @@ VWQL = {
 		["FilterType"] = {
 		},
 	},
+	["DisableTotalAP"] = false,
 	["Shamwowow-Kel'Thuzad"] = {
 		["Filter"] = 63,
 		["FilterType"] = {
@@ -473,13 +428,7 @@ VWQL = {
 		},
 		["VERSION"] = 79,
 	},
-	["Hoobastanko-Kel'Thuzad"] = {
-		["FilterType"] = {
-		},
-		["Quests"] = {
-		},
-		["Filter"] = 63,
-	},
+	["Arrow_Point1"] = "TOP",
 	["Loranus-Kel'Thuzad"] = {
 		["VERSION"] = 81,
 		["Filter"] = 63,
@@ -509,7 +458,6 @@ VWQL = {
 	},
 	["Ignore"] = {
 	},
-	["Arrow_Point1"] = "TOP",
 	["Hauzerina-Kel'Thuzad"] = {
 		["VERSION"] = 77,
 		["Filter"] = 63,
@@ -518,6 +466,13 @@ VWQL = {
 		},
 		["FilterType"] = {
 		},
+	},
+	["Hoobastanko-Kel'Thuzad"] = {
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
 	},
 	["Foolioioio-Kel'Thuzad"] = {
 		["VERSION"] = 70,
@@ -528,7 +483,6 @@ VWQL = {
 		["FilterType"] = {
 		},
 	},
-	["DisableTotalAP"] = false,
 	["Testfoolio-Kel'Thuzad"] = {
 		["VERSION"] = 79,
 		["Filter"] = 63,
@@ -537,6 +491,13 @@ VWQL = {
 		},
 		["FilterType"] = {
 		},
+	},
+	["Leeroyjenkem-Kel'Thuzad"] = {
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
 	},
 	["Foolse-TwistingNether"] = {
 		["VERSION"] = 81,
@@ -547,12 +508,13 @@ VWQL = {
 		},
 		["Filter"] = 63,
 	},
-	["Ugiyo-Kel'Thuzad"] = {
+	["DisableShellGame"] = true,
+	["Foio-Garona"] = {
 		["Filter"] = 63,
-		["Quests"] = {
-		},
 		["FilterType"] = {
 		},
+		["Quests"] = {
+		},
+		["VERSION"] = 81,
 	},
-	["DisableShellGame"] = true,
 }

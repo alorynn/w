@@ -415,6 +415,44 @@ ConsLegionSavedVar = {
 			["XPtop"] = -955.832595825195,
 		},
 	},
+	["Foio-Garona"] = {
+		["Settings"] = {
+			["Textleft"] = 1015.87309337798,
+			["Scale"] = 0.639999985694885,
+			["TextScale"] = 0.639999985694885,
+			["SkipCutScene"] = 1,
+			["Newsleft"] = 1998.52685546875,
+			["Newsalpha"] = 1,
+			["Hide"] = 0,
+			["AutoChoice"] = 0,
+			["XPLock"] = 0,
+			["AutoHandin"] = 0,
+			["Textalpha"] = 1,
+			["Arrowy"] = -600,
+			["XPScale"] = 0.639999985694885,
+			["NewsHide"] = 0,
+			["AutoPickup"] = 0,
+			["Newstop"] = -518.332946777344,
+			["XPalpha"] = 1,
+			["NewsScale"] = 0.639999985694885,
+			["XPHide"] = 0,
+			["Arrowx"] = 1066.66674804688,
+			["XPleft"] = 1977.22204589844,
+			["Lock"] = 0,
+			["AutoShare"] = 0,
+			["TextHide"] = 0,
+			["Greetings"] = 1,
+			["Texttop"] = -923.076923076923,
+			["TextLock"] = 0,
+			["alpha"] = 1,
+			["top"] = -600,
+			["XPInvert"] = 0,
+			["NewsLock"] = 0,
+			["left"] = 426.66669921875,
+			["TextInvert"] = 0,
+			["XPtop"] = -585.833923339844,
+		},
+	},
 	["Foioio-Thunderlord"] = {
 		["Settings"] = {
 			["Textleft"] = 1015.87309337798,
@@ -703,6 +741,8 @@ ConsLegionSteps = {
 	["Foolioioio-Frostwolf"] = {
 	},
 	["Fooiis-Hakkar"] = {
+	},
+	["Foio-Garona"] = {
 	},
 	["Foioio-Thunderlord"] = {
 	},

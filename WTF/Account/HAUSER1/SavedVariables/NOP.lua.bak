@@ -10,13 +10,10 @@ NewOpenablesProfile = {
 		["Foifo - Azgalor"] = {
 			["itemID"] = 160439,
 		},
-		["Foolioioio - Frostwolf"] = {
+		["Foolse - Twisting Nether"] = {
 			["itemID"] = 160439,
 		},
-		["Alauranna - Kel'Thuzad"] = {
-			["itemID"] = 163611,
-		},
-		["Foolse - Twisting Nether"] = {
+		["Foolioioio - Frostwolf"] = {
 			["itemID"] = 160439,
 		},
 		["Blahndee - Kel'Thuzad"] = {
@@ -49,12 +46,13 @@ NewOpenablesProfile = {
 		["Foolioioio - Frostwolf"] = "Default",
 		["Deeke - Kel'Thuzad"] = "Default",
 		["Nigellah - Kel'Thuzad"] = "Default",
+		["Foioio - Bonechewer"] = "Default",
 		["Fooiis - Hakkar"] = "Default",
 		["Laurannah - Undermine"] = "Default",
 		["Foiio - Drakkari"] = "Default",
 		["Hauzerina - Kel'Thuzad"] = "Default",
-		["Foioioi - Gallywix"] = "Default",
 		["Hauzer - Kel'Thuzad"] = "Default",
+		["Foioioi - Gallywix"] = "Default",
 		["Loranah - Kel'Thuzad"] = "Default",
 		["Alaurannah - Undermine"] = "Default",
 		["Lorranah - Kel'Thuzad"] = "Default",
@@ -63,7 +61,7 @@ NewOpenablesProfile = {
 		["Foioio - Thunderlord"] = "Default",
 		["Laurranah - Kel'Thuzad"] = "Default",
 		["Fooliolio - Kel'Thuzad"] = "Default",
-		["Foioio - Bonechewer"] = "Default",
+		["Foio - Garona"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -92,13 +90,13 @@ NewOpenablesProfile = {
 				[153147] = true,
 				[0] = true,
 				[141028] = true,
-				[153106] = true,
+				[153137] = true,
 				[154784] = true,
 				[147348] = true,
 				[127835] = true,
 				[143605] = true,
 				[163015] = true,
-				[153137] = true,
+				[153106] = true,
 				[138967] = true,
 				[127834] = true,
 			},
