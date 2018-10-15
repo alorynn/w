@@ -43,9 +43,9 @@ OneRing_Config = {
 					["sliceToken"] = "ABueo8UftHg",
 					["id"] = 78670,
 				}, -- [6]
-				["limit"] = "Laurannah-Kel'Thuzad",
-				["save"] = true,
 				["name"] = "Professions",
+				["save"] = true,
+				["limit"] = "Laurannah-Kel'Thuzad",
 			},
 			["Travel"] = {
 				{
@@ -88,9 +88,9 @@ OneRing_Config = {
 					112059, -- [2]
 					["sliceToken"] = "ABueoP7uCCi",
 				}, -- [8]
-				["name"] = "Travel",
-				["save"] = true,
 				["limit"] = "Laurannah-Kel'Thuzad",
+				["save"] = true,
+				["name"] = "Travel",
 			},
 			["OPieFlagStore"] = {
 				["FlushedDefaultColors"] = true,
@@ -121,28 +121,47 @@ OneRing_Config = {
 					["id"] = "#showtooltip [@pet,exists,nodead,nopet:5] {{spell:83245}};\n/cast [@pet,exists,nopet:5,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:83245}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
 					["show"] = "[known:83245,havepet:5]",
 				}, -- [5]
-				["name"] = "Pets",
-				["save"] = true,
 				["limit"] = "HUNTER",
+				["save"] = true,
+				["name"] = "Pets",
 			},
-			["Mounts"] = {
+			["Toys"] = {
 				{
-					["sliceToken"] = "ABueo8Ra/Eu",
-					["id"] = 127271,
+					"item", -- [1]
+					49040, -- [2]
+					["sliceToken"] = "ABueoD8gCKu",
 				}, -- [1]
 				{
-					["sliceToken"] = "ABue3/bX0Tr",
-					["id"] = 122708,
+					"toy", -- [1]
+					40768, -- [2]
+					["sliceToken"] = "ABueoD8gCKy",
 				}, -- [2]
 				{
-					["sliceToken"] = "ABueo8Ra/E1",
-					["id"] = 75973,
+					"toy", -- [1]
+					13379, -- [2]
+					["sliceToken"] = "ABueoD8gCKt",
 				}, -- [3]
 				{
-					["sliceToken"] = "ABuedijXpge",
-					["id"] = 98718,
+					"toy", -- [1]
+					134026, -- [2]
+					["sliceToken"] = "ABue3GAFK2e",
 				}, -- [4]
-				["name"] = "Mounts",
+				{
+					"toy", -- [1]
+					45011, -- [2]
+					["sliceToken"] = "ABuedl4Be5u",
+				}, -- [5]
+				{
+					"toy", -- [1]
+					89999, -- [2]
+					["sliceToken"] = "ABuedl4Be5t",
+				}, -- [6]
+				{
+					"toy", -- [1]
+					119217, -- [2]
+					["sliceToken"] = "ABuedl4Be5y",
+				}, -- [7]
+				["name"] = "Toys",
 				["save"] = true,
 				["limit"] = "Laurannah-Kel'Thuzad",
 			},
@@ -222,49 +241,30 @@ OneRing_Config = {
 					["sliceToken"] = "ABueoXQbBSe",
 					["id"] = 982,
 				}, -- [6]
-				["name"] = "Pet Management",
-				["save"] = true,
 				["limit"] = "Laurannah-Kel'Thuzad",
+				["save"] = true,
+				["name"] = "Pet Management",
 			},
-			["Toys"] = {
+			["Mounts"] = {
 				{
-					"item", -- [1]
-					49040, -- [2]
-					["sliceToken"] = "ABueoD8gCKu",
+					["sliceToken"] = "ABueo8Ra/Eu",
+					["id"] = 127271,
 				}, -- [1]
 				{
-					"toy", -- [1]
-					40768, -- [2]
-					["sliceToken"] = "ABueoD8gCKy",
+					["sliceToken"] = "ABue3/bX0Tr",
+					["id"] = 122708,
 				}, -- [2]
 				{
-					"toy", -- [1]
-					13379, -- [2]
-					["sliceToken"] = "ABueoD8gCKt",
+					["sliceToken"] = "ABueo8Ra/E1",
+					["id"] = 75973,
 				}, -- [3]
 				{
-					"toy", -- [1]
-					134026, -- [2]
-					["sliceToken"] = "ABue3GAFK2e",
+					["sliceToken"] = "ABuedijXpge",
+					["id"] = 98718,
 				}, -- [4]
-				{
-					"toy", -- [1]
-					45011, -- [2]
-					["sliceToken"] = "ABuedl4Be5u",
-				}, -- [5]
-				{
-					"toy", -- [1]
-					89999, -- [2]
-					["sliceToken"] = "ABuedl4Be5t",
-				}, -- [6]
-				{
-					"toy", -- [1]
-					119217, -- [2]
-					["sliceToken"] = "ABuedl4Be5y",
-				}, -- [7]
 				["limit"] = "Laurannah-Kel'Thuzad",
 				["save"] = true,
-				["name"] = "Toys",
+				["name"] = "Mounts",
 			},
 			["Outfits"] = {
 				{
@@ -282,9 +282,9 @@ OneRing_Config = {
 					"Naked", -- [2]
 					["sliceToken"] = "ABueoLj3Jit",
 				}, -- [3]
-				["limit"] = "Laurannah-Kel'Thuzad",
-				["save"] = true,
 				["name"] = "Outfits",
+				["save"] = true,
+				["limit"] = "Laurannah-Kel'Thuzad",
 			},
 			["Pets"] = {
 				{
@@ -302,9 +302,9 @@ OneRing_Config = {
 					"BattlePet-0-000005C494B4", -- [2]
 					["sliceToken"] = "ABuedaqMAAr",
 				}, -- [3]
-				["limit"] = "Laurannah-Kel'Thuzad",
-				["save"] = true,
 				["name"] = "Pets",
+				["save"] = true,
+				["limit"] = "Laurannah-Kel'Thuzad",
 			},
 		},
 	},
