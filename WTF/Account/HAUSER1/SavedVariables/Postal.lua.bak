@@ -85,7 +85,7 @@ Postal3DB = {
 		["Lorranah - Kel'Thuzad"] = "Lorranah - Kel'Thuzad",
 		["Foioio - Thunderlord"] = "Foioio - Thunderlord",
 		["Loranah - Kel'Thuzad"] = "Loranah - Kel'Thuzad",
-		["Laurannah - Undermine"] = "Laurannah - Undermine",
+		["Laurranah - Kel'Thuzad"] = "Laurranah - Kel'Thuzad",
 		["Laurenn - Kel'Thuzad"] = "Laurenn - Kel'Thuzad",
 		["Hauzerogue - Kel'Thuzad"] = "Hauzerogue - Kel'Thuzad",
 		["Hauzerina - Moon Guard"] = "Hauzerina - Moon Guard",
@@ -98,22 +98,22 @@ Postal3DB = {
 		["Pharrah - Kel'Thuzad"] = "Pharrah - Kel'Thuzad",
 		["Leeroyjenkem - Kel'Thuzad"] = "Leeroyjenkem - Kel'Thuzad",
 		["Deeke - Kel'Thuzad"] = "Deeke - Kel'Thuzad",
-		["Fooiis - Hakkar"] = "Fooiis - Hakkar",
-		["Nigellah - Kel'Thuzad"] = "Nigellah - Kel'Thuzad",
-		["Foiio - Drakkari"] = "Foiio - Drakkari",
 		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
-		["Alurannah - Kel'Thuzad"] = "Alurannah - Kel'Thuzad",
+		["Nigellah - Kel'Thuzad"] = "Nigellah - Kel'Thuzad",
 		["Foioioi - Gallywix"] = "Foioioi - Gallywix",
-		["Beatryss - Kel'Thuzad"] = "Beatryss - Kel'Thuzad",
 		["Ugiyo - Kel'Thuzad"] = "Ugiyo - Kel'Thuzad",
+		["Alurannah - Kel'Thuzad"] = "Alurannah - Kel'Thuzad",
+		["Beatryss - Kel'Thuzad"] = "Beatryss - Kel'Thuzad",
+		["Foiio - Drakkari"] = "Foiio - Drakkari",
+		["Fooiis - Hakkar"] = "Fooiis - Hakkar",
 		["Hauzerhunter - Kel'Thuzad"] = "Hauzerhunter - Kel'Thuzad",
 		["Kmkarbashian - Kel'Thuzad"] = "Kmkarbashian - Kel'Thuzad",
 		["Skãdi - Kel'Thuzad"] = "Skãdi - Kel'Thuzad",
 		["Olrapey - Kel'Thuzad"] = "Olrapey - Kel'Thuzad",
 		["Beatryce - Kel'Thuzad"] = "Beatryce - Kel'Thuzad",
-		["Laurennah - Vashj"] = "Laurennah - Vashj",
+		["Laurannah - Undermine"] = "Laurannah - Undermine",
 		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
-		["Laurranah - Kel'Thuzad"] = "Laurranah - Kel'Thuzad",
+		["Laurennah - Vashj"] = "Laurennah - Vashj",
 		["Shamwowow - Kel'Thuzad"] = "Shamwowow - Kel'Thuzad",
 		["Foio - Garona"] = "Foio - Garona",
 	},
@@ -194,7 +194,7 @@ Postal3DB = {
 		},
 		["Loranah - Kel'Thuzad"] = {
 		},
-		["Laurannah - Undermine"] = {
+		["Laurranah - Kel'Thuzad"] = {
 		},
 		["Laurenn - Kel'Thuzad"] = {
 		},
@@ -220,12 +220,6 @@ Postal3DB = {
 		},
 		["Deeke - Kel'Thuzad"] = {
 		},
-		["Fooiis - Hakkar"] = {
-		},
-		["Nigellah - Kel'Thuzad"] = {
-		},
-		["Foiio - Drakkari"] = {
-		},
 		["Alorannah - Kel'Thuzad"] = {
 			["BlackBook"] = {
 				["recent"] = {
@@ -233,13 +227,19 @@ Postal3DB = {
 				},
 			},
 		},
-		["Alurannah - Kel'Thuzad"] = {
+		["Nigellah - Kel'Thuzad"] = {
 		},
 		["Foioioi - Gallywix"] = {
 		},
+		["Ugiyo - Kel'Thuzad"] = {
+		},
+		["Alurannah - Kel'Thuzad"] = {
+		},
 		["Beatryss - Kel'Thuzad"] = {
 		},
-		["Ugiyo - Kel'Thuzad"] = {
+		["Foiio - Drakkari"] = {
+		},
+		["Fooiis - Hakkar"] = {
 		},
 		["Hauzerhunter - Kel'Thuzad"] = {
 		},
@@ -256,7 +256,7 @@ Postal3DB = {
 		},
 		["Beatryce - Kel'Thuzad"] = {
 		},
-		["Laurennah - Vashj"] = {
+		["Laurannah - Undermine"] = {
 		},
 		["Hauzer - Kel'Thuzad"] = {
 			["BlackBook"] = {
@@ -271,7 +271,7 @@ Postal3DB = {
 				},
 			},
 		},
-		["Laurranah - Kel'Thuzad"] = {
+		["Laurennah - Vashj"] = {
 		},
 		["Shamwowow - Kel'Thuzad"] = {
 		},

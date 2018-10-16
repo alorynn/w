@@ -36,14 +36,14 @@ BrokerVolumeDB = {
 		["Pharrah - Kel'Thuzad"] = "Pharrah - Kel'Thuzad",
 		["Beatryce - Kel'Thuzad"] = "Beatryce - Kel'Thuzad",
 		["Deeke - Kel'Thuzad"] = "Deeke - Kel'Thuzad",
-		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
-		["Nigellah - Kel'Thuzad"] = "Nigellah - Kel'Thuzad",
-		["Foiio - Drakkari"] = "Foiio - Drakkari",
 		["Fooiis - Hakkar"] = "Fooiis - Hakkar",
-		["Alurannah - Kel'Thuzad"] = "Alurannah - Kel'Thuzad",
+		["Nigellah - Kel'Thuzad"] = "Nigellah - Kel'Thuzad",
 		["Foioioi - Gallywix"] = "Foioioi - Gallywix",
-		["Beatryss - Kel'Thuzad"] = "Beatryss - Kel'Thuzad",
 		["Ugiyo - Kel'Thuzad"] = "Ugiyo - Kel'Thuzad",
+		["Alurannah - Kel'Thuzad"] = "Alurannah - Kel'Thuzad",
+		["Beatryss - Kel'Thuzad"] = "Beatryss - Kel'Thuzad",
+		["Foiio - Drakkari"] = "Foiio - Drakkari",
+		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
 		["Hauzerhunter - Kel'Thuzad"] = "Hauzerhunter - Kel'Thuzad",
 		["Hauser - Mal'Ganis"] = "Hauser - Mal'Ganis",
 		["Skãdi - Kel'Thuzad"] = "Skãdi - Kel'Thuzad",
@@ -129,21 +129,21 @@ BrokerVolumeDB = {
 		},
 		["Deeke - Kel'Thuzad"] = {
 		},
-		["Alorannah - Kel'Thuzad"] = {
+		["Fooiis - Hakkar"] = {
 		},
 		["Nigellah - Kel'Thuzad"] = {
 		},
-		["Foiio - Drakkari"] = {
+		["Foioioi - Gallywix"] = {
 		},
-		["Fooiis - Hakkar"] = {
+		["Ugiyo - Kel'Thuzad"] = {
 		},
 		["Alurannah - Kel'Thuzad"] = {
 		},
-		["Foioioi - Gallywix"] = {
-		},
 		["Beatryss - Kel'Thuzad"] = {
 		},
-		["Ugiyo - Kel'Thuzad"] = {
+		["Foiio - Drakkari"] = {
+		},
+		["Alorannah - Kel'Thuzad"] = {
 		},
 		["Hauzerhunter - Kel'Thuzad"] = {
 			["bgSound"] = true,

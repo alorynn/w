@@ -24,28 +24,6 @@ ElvCharacterDB = {
 	},
 	["ChatHistoryLog"] = {
 		{
-			"WTS-- __8/8 H Uldir start NOW!!!--WTS BFA Mythic<2-10> lootrun+ week reward higher lvl 340-385==selling H/N Uldir full clear -WTS mythic +10 carry --come now ", -- [1]
-			"Aberict-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Aberict", -- [5]
-			"DND", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			573, -- [11]
-			"Player-3693-0A0617C7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Aberict|r",
-			[51] = 1537692803,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
 			"So no in that case you don't need a new toon", -- [1]
 			"Tarleidelyn-Kel'Thuzad", -- [2]
 			"", -- [3]
@@ -66,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTarleidelyn|r",
 			[51] = 1537692815,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [2]
+		}, -- [1]
 		{
 			"WTS |cffa335ee|Hitem:163960::::::::120:72::54:3:4802:1472:4786:::|h[Flaming Gavel of Truth]|h|r 80k -15k cheaper than ah ", -- [1]
 			"Rushnm-Kel'Thuzad", -- [2]
@@ -88,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dRushnm|r",
 			[51] = 1537692836,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
+		}, -- [2]
 		{
 			"ya my question is if I create a dwarf, will HE have to be exalted with IF, or is having my human main be exalted with IF enough", -- [1]
 			"Tarleidelyn-Kel'Thuzad", -- [2]
@@ -110,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTarleidelyn|r",
 			[51] = 1537692843,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [4]
+		}, -- [3]
 		{
 			"Blizz is removing the rep requirement for transmogs, so you should be able to transmog the heritage armor for him without that actual toon being exalted.", -- [1]
 			"Tarleidelyn-Kel'Thuzad", -- [2]
@@ -132,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTarleidelyn|r",
 			[51] = 1537692897,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [5]
+		}, -- [4]
 		{
 			"WTS-- __8/8 H Uldir start NOW-One spot now--My+<2-10>key !360/390wepaon&350*355*365boe package &mount&11o-12O&Update gear 360", -- [1]
 			"Aberict-Kel'Thuzad", -- [2]
@@ -154,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Aberict|r",
 			[51] = 1537692907,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
+		}, -- [5]
 		{
 			"WTS-- __8/8 H Uldir start NOW-One spot now--My+<2-10>key !360/390wepaon&350*355*365boe package &mount&11o-12O&Update gear 360", -- [1]
 			"Aberict-Kel'Thuzad", -- [2]
@@ -176,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Aberict|r",
 			[51] = 1537692909,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
+		}, -- [6]
 		{
 			"I don't know if the heritage armors will require lvl 120 or not though", -- [1]
 			"Tarleidelyn-Kel'Thuzad", -- [2]
@@ -198,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTarleidelyn|r",
 			[51] = 1537692912,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [8]
+		}, -- [7]
 		{
 			"actually come to think of it all my alts are boosts from various xpacs so I likely wont be able to get heritage armor on any of them :\\", -- [1]
 			"Tarleidelyn-Kel'Thuzad", -- [2]
@@ -220,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTarleidelyn|r",
 			[51] = 1537692945,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [9]
+		}, -- [8]
 		{
 			"WTS |cffa335ee|Hitem:163960::::::::120:72::54:3:4802:1472:4786:::|h[Flaming Gavel of Truth]|h|r 80k -15k cheaper than ah ", -- [1]
 			"Rushnm-Kel'Thuzad", -- [2]
@@ -242,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dRushnm|r",
 			[51] = 1537692948,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
+		}, -- [9]
 		{
 			"That would matter for the allied races, but it may not matter for dwarf/blood elf", -- [1]
 			"Tarleidelyn-Kel'Thuzad", -- [2]
@@ -264,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTarleidelyn|r",
 			[51] = 1537692979,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [11]
+		}, -- [10]
 		{
 			"I don't think they clarified that yet in their recent interviews", -- [1]
 			"Tarleidelyn-Kel'Thuzad", -- [2]
@@ -286,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTarleidelyn|r",
 			[51] = 1537692996,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [12]
+		}, -- [11]
 		{
 			"WTS |cffa335ee|Hitem:163960::::::::120:72::54:3:4802:1472:4786:::|h[Flaming Gavel of Truth]|h|r 80k -15k cheaper than ah ", -- [1]
 			"Rushnm-Kel'Thuzad", -- [2]
@@ -308,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dRushnm|r",
 			[51] = 1537693025,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
+		}, -- [12]
 		{
 			"ya hopefully wouldnt require someone who's been playing a boosted main for literally years to regrind 20-120 on a whole new character, but you know, Blizzard", -- [1]
 			"Tarleidelyn-Kel'Thuzad", -- [2]
@@ -330,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTarleidelyn|r",
 			[51] = 1537693025,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [14]
+		}, -- [13]
 		{
 			"WTS-- __8/8 H Uldir start NOW-One spot now--My+<2-10>key !360/390wepaon&350*355*365boe package &mount&11o-12O&Update gear 360", -- [1]
 			"Aberict-Kel'Thuzad", -- [2]
@@ -352,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Aberict|r",
 			[51] = 1537693037,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
+		}, -- [14]
 		{
 			"WTS-- __8/8 H Uldir start NOW-One spot now--My+<2-10>key !360/390wepaon&350*355*365boe package &mount&11o-12O&Update gear 360", -- [1]
 			"Aberict-Kel'Thuzad", -- [2]
@@ -374,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Aberict|r",
 			[51] = 1537693044,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
+		}, -- [15]
 		{
 			"That would be unbelievably dumb of them if they executed it that way", -- [1]
 			"Tarleidelyn-Kel'Thuzad", -- [2]
@@ -396,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTarleidelyn|r",
 			[51] = 1537693050,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [17]
+		}, -- [16]
 		{
 			"ya but you'd think they wouldnt mind you using a boost and using it for the allied race heritage armor, but apparently they do    v0v", -- [1]
 			"Tarleidelyn-Kel'Thuzad", -- [2]
@@ -418,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTarleidelyn|r",
 			[51] = 1537693132,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [18]
+		}, -- [17]
 		{
 			"WTS-- __8/8 H Uldir start NOW!!!--WTS BFA Mythic<2-10> lootrun+ week reward higher lvl 340-385==selling H/N Uldir full clear -WTS mythic +10 carry --come now ", -- [1]
 			"Aberict-Kel'Thuzad", -- [2]
@@ -440,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Aberict|r",
 			[51] = 1537693148,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
+		}, -- [18]
 		{
 			"WTS-- __8/8 H Uldir start NOW!!!--WTS BFA Mythic<2-10> lootrun+ week reward higher lvl 340-385==selling H/N Uldir full clear -WTS mythic +10 carry --come now ", -- [1]
 			"Aberict-Kel'Thuzad", -- [2]
@@ -462,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Aberict|r",
 			[51] = 1537693150,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
+		}, -- [19]
 		{
 			"I think that's because they don't want people to think super callously of the new races", -- [1]
 			"Tarleidelyn-Kel'Thuzad", -- [2]
@@ -484,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTarleidelyn|r",
 			[51] = 1537693195,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [21]
+		}, -- [20]
 		{
 			"It may be a bad argument, but it makes a little more sense than if they decide to do the same sort of gatekeeoping for existing races", -- [1]
 			"Tarleidelyn-Kel'Thuzad", -- [2]
@@ -506,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTarleidelyn|r",
 			[51] = 1537693224,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [22]
+		}, -- [21]
 		{
 			"WTS-- __8/8 H Uldir start NOW!!!--WTS BFA Mythic<2-10> lootrun+ week reward higher lvl 340-385==selling H/N Uldir full clear -WTS mythic +10 carry --come now ", -- [1]
 			"Aberict-Kel'Thuzad", -- [2]
@@ -528,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Aberict|r",
 			[51] = 1537693278,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [23]
+		}, -- [22]
 		{
 			"WTS-- __8/8 H Uldir start NOW!!!--WTS BFA Mythic<2-10> lootrun+ week reward higher lvl 340-385==selling H/N Uldir full clear -WTS mythic +10 carry --come now ", -- [1]
 			"Aberict-Kel'Thuzad", -- [2]
@@ -550,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Aberict|r",
 			[51] = 1537693285,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [24]
+		}, -- [23]
 		{
 			"WTS-- __8/8 H Uldir start NOW-One spot now--My+<2-10>key !360/390wepaon&350*355*365boe package &mount&11o-12O&Update gear 360", -- [1]
 			"Aberict-Kel'Thuzad", -- [2]
@@ -572,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Aberict|r",
 			[51] = 1537693389,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [25]
+		}, -- [24]
 		{
 			"WTS-- __8/8 H Uldir start NOW-One spot now--My+<2-10>key !360/390wepaon&350*355*365boe package &mount&11o-12O&Update gear 360", -- [1]
 			"Aberict-Kel'Thuzad", -- [2]
@@ -594,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Aberict|r",
 			[51] = 1537693391,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [26]
+		}, -- [25]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12918:Player-3693-07375FB3:1:9:25:18:4294967295:4294967295:4294967295:4294967295|h[Have a Heart]|h|r!", -- [1]
 			"Hauzer-Kel'Thuzad", -- [2]
@@ -616,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaHauzer|r",
 			[51] = 1537887842,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [27]
+		}, -- [26]
 		{
 			"sick pet dude", -- [1]
 			"Defarus-Kel'Thuzad", -- [2]
@@ -638,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Defarus|r",
 			[51] = 1537899439,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [28]
+		}, -- [27]
 		{
 			"ty", -- [1]
 			"Defarus-Kel'Thuzad", -- [2]
@@ -660,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Defarus|r",
 			[51] = 1537899445,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [29]
+		}, -- [28]
 		{
 			"whats it from?", -- [1]
 			"Defarus-Kel'Thuzad", -- [2]
@@ -682,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Defarus|r",
 			[51] = 1537899449,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [30]
+		}, -- [29]
 		{
 			"wod i think idk if you can still get", -- [1]
 			"Defarus-Kel'Thuzad", -- [2]
@@ -704,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Defarus|r",
 			[51] = 1537899461,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [31]
+		}, -- [30]
 		{
 			"cool ", -- [1]
 			"Defarus-Kel'Thuzad", -- [2]
@@ -726,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Defarus|r",
 			[51] = 1537899467,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [32]
+		}, -- [31]
 		{
 			"WTB ALL BFA herbs 10g each. Siren's Pollen 30g each.  Anchor Weed 325g each! Buying bulk! Trade or COD.", -- [1]
 			"Sgtsneaks-Kel'Thuzad", -- [2]
@@ -748,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Sgtsneaks|r",
 			[51] = 1537899646,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [33]
+		}, -- [32]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12582:Player-3693-07375FB3:1:9:25:18:4294967295:4294967295:4294967295:4294967295|h[Come Sail Away]|h|r!", -- [1]
 			"Hauzer-Kel'Thuzad", -- [2]
@@ -770,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaHauzer|r",
 			[51] = 1537899770,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [34]
+		}, -- [33]
 		{
 			"WTB ALL BFA herbs 10g each. Siren's Pollen 30g each.  Anchor Weed 350g each! Buying bulk! Trade or COD.", -- [1]
 			"Sgtsneaks-Kel'Thuzad", -- [2]
@@ -792,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Sgtsneaks|r",
 			[51] = 1537899894,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [35]
+		}, -- [34]
 		{
 			"-Guapiles Special Force- is recruiting new members, we are doing Heroic uldir and mythic plus dungeons every week. We help guildies and curse a lot in spanish. Please join in you like tacos. ", -- [1]
 			"Homestuck-Kel'Thuzad", -- [2]
@@ -814,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Homestuck|r",
 			[51] = 1537899911,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [36]
+		}, -- [35]
 		{
 			"has anyone actually seen |cffff80ff|Htransmogillusion:5877|h[Chronos]|h|r drop? Ive killed CA 100+ times, never seen it drop, never seen anyone with it equipped", -- [1]
 			"Hauzer-Kel'Thuzad", -- [2]
@@ -836,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaHauzer|r",
 			[51] = 1537973880,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [37]
+		}, -- [36]
 		{
 			"Whats that?", -- [1]
 			"Demonwah-Kel'Thuzad", -- [2]
@@ -858,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Demonwah|r",
 			[51] = 1537973903,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [38]
+		}, -- [37]
 		{
 			"weapon enchant illusion from CA in nighthold", -- [1]
 			"Demonwah-Kel'Thuzad", -- [2]
@@ -880,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Demonwah|r",
 			[51] = 1537973918,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [39]
+		}, -- [38]
 		{
 			"nice, did you farm it or just get lucky?", -- [1]
 			"Rigamortarz-Kel'Thuzad", -- [2]
@@ -902,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Rigamortarz|r",
 			[51] = 1537973949,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [40]
+		}, -- [39]
 		{
 			"lucky, back in legion", -- [1]
 			"Rigamortarz-Kel'Thuzad", -- [2]
@@ -924,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Rigamortarz|r",
 			[51] = 1537973970,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [41]
+		}, -- [40]
 		{
 			"ya hrays", -- [1]
 			"Rigamortarz-Kel'Thuzad", -- [2]
@@ -946,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Rigamortarz|r",
 			[51] = 1537973981,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [42]
+		}, -- [41]
 		{
 			"grats*", -- [1]
 			"Rigamortarz-Kel'Thuzad", -- [2]
@@ -968,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Rigamortarz|r",
 			[51] = 1537973984,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [43]
+		}, -- [42]
 		{
 			"can anyone link the Dreadflame weapon enchant illusion?", -- [1]
 			"Hauzer-Kel'Thuzad", -- [2]
@@ -990,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaHauzer|r",
 			[51] = 1538502206,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [44]
+		}, -- [43]
 		{
 			"LF1M |cffa335ee|Hkeystone:158923:252:2:10:0:0:0|h[Keystone: Shrine of the Storm (2)]|h|r Tank", -- [1]
 			"Bdoubleoteey-Kel'Thuzad", -- [2]
@@ -1012,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aBdoubleoteey|r",
 			[51] = 1538502508,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [45]
+		}, -- [44]
 		{
 			"LF1M |cffa335ee|Hkeystone:158923:252:2:10:0:0:0|h[Keystone: Shrine of the Storm (2)]|h|r Tank", -- [1]
 			"Bdoubleoteey-Kel'Thuzad", -- [2]
@@ -1034,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aBdoubleoteey|r",
 			[51] = 1538502509,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [46]
+		}, -- [45]
 		{
 			"do you like being in goon squad", -- [1]
 			"Podooshka", -- [2]
@@ -1056,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddPodooshka|r",
 			[51] = 1538502673,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [47]
+		}, -- [46]
 		{
 			"lol I forgot I was IN goon squad", -- [1]
 			"Podooshka-Kel'Thuzad", -- [2]
@@ -1078,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddPodooshka|r",
 			[51] = 1538502722,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [48]
+		}, -- [47]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:13099:Player-3693-07375FB3:1:10:2:18:4294967295:4294967295:4294967295:4294967295|h[Molten Cay]|h|r!", -- [1]
 			"Hauzer-Kel'Thuzad", -- [2]
@@ -1100,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaHauzer|r",
 			[51] = 1538502782,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [49]
+		}, -- [48]
 		{
 			"how embarassing", -- [1]
 			"Podooshka-Kel'Thuzad", -- [2]
@@ -1122,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddPodooshka|r",
 			[51] = 1538502809,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [50]
+		}, -- [49]
 		{
 			" I hardly played this char at all since like wod", -- [1]
 			"Podooshka-Kel'Thuzad", -- [2]
@@ -1144,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddPodooshka|r",
 			[51] = 1538502813,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [51]
+		}, -- [50]
 		{
 			"my mains are all out of GS ", -- [1]
 			"Podooshka-Kel'Thuzad", -- [2]
@@ -1166,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddPodooshka|r",
 			[51] = 1538502817,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [52]
+		}, -- [51]
 		{
 			"good choice", -- [1]
 			"Podooshka-Kel'Thuzad", -- [2]
@@ -1188,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddPodooshka|r",
 			[51] = 1538502830,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [53]
+		}, -- [52]
 		{
 			"what happened to k't goon squad", -- [1]
 			"Podooshka-Kel'Thuzad", -- [2]
@@ -1210,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddPodooshka|r",
 			[51] = 1538502840,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [54]
+		}, -- [53]
 		{
 			"no idea, goons in general are weaksauce now", -- [1]
 			"Podooshka-Kel'Thuzad", -- [2]
@@ -1232,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddPodooshka|r",
 			[51] = 1538502855,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [55]
+		}, -- [54]
 		{
 			"LF1M |cffa335ee|Hkeystone:158923:252:2:10:0:0:0|h[Keystone: Shrine of the Storm (2)]|h|r Tank", -- [1]
 			"Bdoubleoteey-Kel'Thuzad", -- [2]
@@ -1254,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aBdoubleoteey|r",
 			[51] = 1538502902,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [56]
+		}, -- [55]
 		{
 			"LF1M |cffa335ee|Hkeystone:158923:252:2:10:0:0:0|h[Keystone: Shrine of the Storm (2)]|h|r Tank", -- [1]
 			"Bdoubleoteey-Kel'Thuzad", -- [2]
@@ -1276,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aBdoubleoteey|r",
 			[51] = 1538502905,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [57]
+		}, -- [56]
 		{
 			"back in vanilla our guilds were great, caused all kinds of shit, leftover goons today care more about their feelings and trump and shit lol", -- [1]
 			"Podooshka-Kel'Thuzad", -- [2]
@@ -1298,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddPodooshka|r",
 			[51] = 1538502934,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [58]
+		}, -- [57]
 		{
 			"you guys leveling this way? how is it?", -- [1]
 			"Hauzer-Kel'Thuzad", -- [2]
@@ -1320,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaHauzer|r",
 			[51] = 1538502965,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [59]
+		}, -- [58]
 		{
 			"very fast", -- [1]
 			"Zheely-ScarletCrusade", -- [2]
@@ -1342,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edZheely-ScarletCrusade|r",
 			[51] = 1538502973,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [60]
+		}, -- [59]
 		{
 			"i'll have u know ur talking to a vanilla gsa member RIGHT NOW", -- [1]
 			"Podooshka-Kel'Thuzad", -- [2]
@@ -1364,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddPodooshka|r",
 			[51] = 1538503008,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [61]
+		}, -- [60]
 		{
 			"dude I cant even remember the gm of the guild I'm in", -- [1]
 			"Podooshka-Kel'Thuzad", -- [2]
@@ -1386,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddPodooshka|r",
 			[51] = 1538503041,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [62]
+		}, -- [61]
 		{
 			"is it burnoutcarny", -- [1]
 			"Podooshka-Kel'Thuzad", -- [2]
@@ -1408,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddPodooshka|r",
 			[51] = 1538503103,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [63]
+		}, -- [62]
 		{
 			"or mistletoe", -- [1]
 			"Podooshka-Kel'Thuzad", -- [2]
@@ -1430,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddPodooshka|r",
 			[51] = 1538503109,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [64]
+		}, -- [63]
 		{
 			"ah ya thats it", -- [1]
 			"Podooshka-Kel'Thuzad", -- [2]
@@ -1452,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddPodooshka|r",
 			[51] = 1538503111,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [65]
+		}, -- [64]
 		{
 			"carny", -- [1]
 			"Podooshka-Kel'Thuzad", -- [2]
@@ -1474,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddPodooshka|r",
 			[51] = 1538503114,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [66]
+		}, -- [65]
 		{
 			"evading", -- [1]
 			"Radiant-Zangarmarsh", -- [2]
@@ -1496,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaRadiant-Zangarmarsh|r",
 			[51] = 1538503513,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [67]
+		}, -- [66]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:13119:Player-3693-07375FB3:1:10:2:18:4294967295:4294967295:4294967295:4294967295|h[Whispering Reef]|h|r!", -- [1]
 			"Hauzer-Kel'Thuzad", -- [2]
@@ -1518,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaHauzer|r",
 			[51] = 1538503532,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [68]
+		}, -- [67]
 		{
 			"mccuck is quitting", -- [1]
 			"Hauzer-Kel'Thuzad", -- [2]
@@ -1540,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaHauzer|r",
 			[51] = 1538510575,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [69]
+		}, -- [68]
 		{
 			"hoist a stein for mccuckle", -- [1]
 			"Hauzer-Kel'Thuzad", -- [2]
@@ -1562,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaHauzer|r",
 			[51] = 1538510585,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [70]
+		}, -- [69]
 		{
 			"pop invis", -- [1]
 			"Hauzer-Kel'Thuzad", -- [2]
@@ -1584,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaHauzer|r",
 			[51] = 1538511088,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [71]
+		}, -- [70]
 		{
 			"portal", -- [1]
 			"Zandorraa-EmeraldDream", -- [2]
@@ -1606,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edZandorraa-EmeraldDream|r",
 			[51] = 1538511886,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [72]
+		}, -- [71]
 		{
 			"up here", -- [1]
 			"Zandorraa-EmeraldDream", -- [2]
@@ -1628,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edZandorraa-EmeraldDream|r",
 			[51] = 1538511918,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [73]
+		}, -- [72]
 		{
 			"stick with us", -- [1]
 			"Zandorraa-EmeraldDream", -- [2]
@@ -1650,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edZandorraa-EmeraldDream|r",
 			[51] = 1538511922,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [74]
+		}, -- [73]
 		{
 			"hmm |cff0070dd|Hitem:164280::::::::110:64::11::::|h[Plundered Light-Binding Wand]|h|r", -- [1]
 			"Hauzer-Kel'Thuzad", -- [2]
@@ -1672,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaHauzer|r",
 			[51] = 1538512951,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [75]
+		}, -- [74]
 		{
 			"I'll follow you guys", -- [1]
 			"Hauzer-Kel'Thuzad", -- [2]
@@ -1694,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaHauzer|r",
 			[51] = 1538513037,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [76]
+		}, -- [75]
 		{
 			"kk", -- [1]
 			"Ronniebowalz-KulTiras", -- [2]
@@ -1716,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Ronniebowalz-KulTiras|r",
 			[51] = 1538513043,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [77]
+		}, -- [76]
 		{
 			"just do warfront", -- [1]
 			"Huntnwabits-Kel'Thuzad", -- [2]
@@ -1738,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Huntnwabits|r",
 			[51] = 1538513773,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [78]
+		}, -- [77]
 		{
 			"we dont have it", -- [1]
 			"Huntnwabits-Kel'Thuzad", -- [2]
@@ -1760,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Huntnwabits|r",
 			[51] = 1538513785,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [79]
+		}, -- [78]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:13111:Player-3693-07375FB3:1:10:2:18:4294967295:4294967295:4294967295:4294967295|h[Verdant Wilds]|h|r!", -- [1]
 			"Hauzer-Kel'Thuzad", -- [2]
@@ -1782,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaHauzer|r",
 			[51] = 1538514565,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [80]
+		}, -- [79]
 		{
 			"LFM Mythic Taloc link AoTc and ilvl/role ez kill 365+ grp Need healz and ranged dps", -- [1]
 			"Malphest-Kel'Thuzad", -- [2]
@@ -1804,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aMalphest|r",
 			[51] = 1538514582,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [81]
+		}, -- [80]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:13123:Player-3693-07375FB3:1:10:2:18:4294967295:4294967295:4294967295:4294967295|h[My Dubs]|h|r!", -- [1]
 			"Hauzer-Kel'Thuzad", -- [2]
@@ -1826,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaHauzer|r",
 			[51] = 1538514593,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [82]
+		}, -- [81]
 		{
 			"we gonna kill the rares?", -- [1]
 			"Bankai-Frostmourne", -- [2]
@@ -1848,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaBankai-Frostmourne|r",
 			[51] = 1538514718,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [83]
+		}, -- [82]
 		{
 			"ton over here", -- [1]
 			"Hauzer-Kel'Thuzad", -- [2]
@@ -1870,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaHauzer|r",
 			[51] = 1538515278,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [84]
+		}, -- [83]
 		{
 			"kk", -- [1]
 			"Bankai-Frostmourne", -- [2]
@@ -1892,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaBankai-Frostmourne|r",
 			[51] = 1538515291,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [85]
+		}, -- [84]
 		{
 			"come to me", -- [1]
 			"Hauzer-Kel'Thuzad", -- [2]
@@ -1914,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaHauzer|r",
 			[51] = 1538515806,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [86]
+		}, -- [85]
 		{
 			"here", -- [1]
 			"Hauzer-Kel'Thuzad", -- [2]
@@ -1936,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaHauzer|r",
 			[51] = 1538517727,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [87]
+		}, -- [86]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12596:Player-3693-07375FB3:1:10:2:18:4294967295:4294967295:4294967295:4294967295|h[No Tourist]|h|r!", -- [1]
 			"Hauzer-Kel'Thuzad", -- [2]
@@ -1958,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaHauzer|r",
 			[51] = 1538518059,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [88]
+		}, -- [87]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12738:Player-3693-09D26112:1:10:2:18:4294967295:4294967295:4294967295:4294967295|h[Holy Scrap!]|h|r!", -- [1]
 			"Tethman-Kel'Thuzad", -- [2]
@@ -1980,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaTethman|r",
 			[51] = 1538527980,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [89]
+		}, -- [88]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:9671:Player-3693-0757BA35:1:10:2:18:4294967295:4294967295:4294967295:4294967295|h[Having a Ball]|h|r!", -- [1]
 			"Tcoats-Kel'Thuzad", -- [2]
@@ -2002,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cffc41e3aTcoats|r",
 			[51] = 1538528119,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [90]
+		}, -- [89]
 		{
 			"dammit this old frost mage is still a ton of fun to play", -- [1]
 			"Hauzer-Kel'Thuzad", -- [2]
@@ -2024,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaHauzer|r",
 			[51] = 1538528319,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [91]
+		}, -- [90]
 		{
 			"bet the proc rate goes to zero at 120 tho", -- [1]
 			"Hauzer-Kel'Thuzad", -- [2]
@@ -2046,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaHauzer|r",
 			[51] = 1538528345,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [92]
+		}, -- [91]
 		{
 			"I heard arcane was arse rn", -- [1]
 			"Hauzer-Kel'Thuzad", -- [2]
@@ -2068,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaHauzer|r",
 			[51] = 1538528385,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [93]
+		}, -- [92]
 		{
 			"im hunting rares btw", -- [1]
 			"Mallaki-Bonechewer", -- [2]
@@ -2090,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaMallaki-Bonechewer|r",
 			[51] = 1538528609,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [94]
+		}, -- [93]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:13099:Player-3693-09D26112:1:10:2:18:4294967295:4294967295:4294967295:4294967295|h[Molten Cay]|h|r!", -- [1]
 			"Tethman-Kel'Thuzad", -- [2]
@@ -2112,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaTethman|r",
 			[51] = 1538529272,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [95]
+		}, -- [94]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:13100:Player-3693-09D26112:1:10:2:18:4294967295:4294967295:4294967295:4294967295|h[Heroic: Molten Cay]|h|r!", -- [1]
 			"Tethman-Kel'Thuzad", -- [2]
@@ -2134,7 +2112,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaTethman|r",
 			[51] = 1538529272,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [96]
+		}, -- [95]
 		{
 			"anyone interested in |cff0070dd|Hitem:164280::::::::112:64::11::::|h[Plundered Light-Binding Wand]|h|r?", -- [1]
 			"Hauzer-Kel'Thuzad", -- [2]
@@ -2156,7 +2134,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaHauzer|r",
 			[51] = 1538529630,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [97]
+		}, -- [96]
 		{
 			"how much", -- [1]
 			"Camelherder", -- [2]
@@ -2178,7 +2156,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaCamelherder|r",
 			[51] = 1538529641,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [98]
+		}, -- [97]
 		{
 			"?", -- [1]
 			"Camelherder-Kel'Thuzad", -- [2]
@@ -2200,7 +2178,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaCamelherder|r",
 			[51] = 1538529730,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [99]
+		}, -- [98]
 		{
 			"hey sorry got pulled into IE with buds", -- [1]
 			"Camelherder-Kel'Thuzad", -- [2]
@@ -2222,7 +2200,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaCamelherder|r",
 			[51] = 1538529752,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [100]
+		}, -- [99]
 		{
 			"ill give u 3k for that wand", -- [1]
 			"Camelherder-Kel'Thuzad", -- [2]
@@ -2244,7 +2222,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaCamelherder|r",
 			[51] = 1538530126,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [101]
+		}, -- [100]
 		{
 			"wts |cffa335ee|Hitem:163576::::::::120:267::::::|h[Captured Dune Scavenger]|h|r pst offer", -- [1]
 			"Limpwo-Kel'Thuzad", -- [2]
@@ -2266,7 +2244,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edLimpwo|r",
 			[51] = 1538530275,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [102]
+		}, -- [101]
 		{
 			"dude", -- [1]
 			"Hauzer-Kel'Thuzad", -- [2]
@@ -2288,7 +2266,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaHauzer|r",
 			[51] = 1538530324,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [103]
+		}, -- [102]
 		{
 			"we are like brothers", -- [1]
 			"Hauzer-Kel'Thuzad", -- [2]
@@ -2310,7 +2288,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaHauzer|r",
 			[51] = 1538530326,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [104]
+		}, -- [103]
 		{
 			"cant get out of combat", -- [1]
 			"Hauzer-Kel'Thuzad", -- [2]
@@ -2332,7 +2310,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaHauzer|r",
 			[51] = 1538530675,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [105]
+		}, -- [104]
 		{
 			"omw to druid", -- [1]
 			"Hauzer-Kel'Thuzad", -- [2]
@@ -2354,7 +2332,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaHauzer|r",
 			[51] = 1538530853,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [106]
+		}, -- [105]
 		{
 			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
 			"Gplaykelt-Kel'Thuzad", -- [2]
@@ -2376,7 +2354,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGplaykelt|r",
 			[51] = 1538531102,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [107]
+		}, -- [106]
 		{
 			"WTS |cffa335ee|Hitem:163943::::::::120:70::54:2:1472:4786:::|h[Neleimour's Patterned Leggings]|h|r", -- [1]
 			"Omgcorey-Kel'Thuzad", -- [2]
@@ -2398,7 +2376,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaOmgcorey|r",
 			[51] = 1538531121,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [108]
+		}, -- [107]
 		{
 			"horde ship right beside us to the left", -- [1]
 			"Hauzer-Kel'Thuzad", -- [2]
@@ -2420,7 +2398,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaHauzer|r",
 			[51] = 1538531195,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [109]
+		}, -- [108]
 		{
 			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
 			"Gplaykelt-Kel'Thuzad", -- [2]
@@ -2442,7 +2420,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGplaykelt|r",
 			[51] = 1538532362,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [110]
+		}, -- [109]
 		{
 			"wts |cffa335ee|Hitem:163576::::::::120:267::::::|h[Captured Dune Scavenger]|h|r pst offer", -- [1]
 			"Limpwo-Kel'Thuzad", -- [2]
@@ -2464,7 +2442,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edLimpwo|r",
 			[51] = 1538532478,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [111]
+		}, -- [110]
 		{
 			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
 			"Gplaykelt-Kel'Thuzad", -- [2]
@@ -2486,7 +2464,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGplaykelt|r",
 			[51] = 1538533262,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [112]
+		}, -- [111]
 		{
 			"Going south", -- [1]
 			"Scålder-Stormrage", -- [2]
@@ -2508,7 +2486,7 @@ ElvCharacterDB = {
 			[52] = "|cfff48cbaScålder-Stormrage|r",
 			[51] = 1538533591,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [113]
+		}, -- [112]
 		{
 			"wts |cffa335ee|Hitem:163576::::::::120:267::::::|h[Captured Dune Scavenger]|h|r pst offer", -- [1]
 			"Limpwo-Kel'Thuzad", -- [2]
@@ -2530,7 +2508,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edLimpwo|r",
 			[51] = 1538534174,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [114]
+		}, -- [113]
 		{
 			"wow you ever been too drunk for island expeditions? because Im there now", -- [1]
 			"Hauzer-Kel'Thuzad", -- [2]
@@ -2552,7 +2530,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaHauzer|r",
 			[51] = 1538534324,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [115]
+		}, -- [114]
 		{
 			"wts |cffa335ee|Hitem:163576::::::::120:267::::::|h[Captured Dune Scavenger]|h|r pst", -- [1]
 			"Limpwo-Kel'Thuzad", -- [2]
@@ -2574,7 +2552,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edLimpwo|r",
 			[51] = 1538535084,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [116]
+		}, -- [115]
 		{
 			"WTB |cff1eff00|Hitem:152510::::::::120:256::::::|h[Anchor Weed]|h|r 300g ea. Siren's Pollen 25g ea. all other BFA herbs 10g ea Redtail Loach 30g ea. PM or COD", -- [1]
 			"Vvheelchair-Kel'Thuzad", -- [2]
@@ -2596,7 +2574,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffVvheelchair|r",
 			[51] = 1538535137,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [117]
+		}, -- [116]
 		{
 			"that poor hippo", -- [1]
 			"Çòñféssìôñs-Saurfang", -- [2]
@@ -2618,7 +2596,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Çòñféssìôñs-Saurfang|r",
 			[51] = 1538561110,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [118]
+		}, -- [117]
 		{
 			"why don't you heal him", -- [1]
 			"Çòñféssìôñs-Saurfang", -- [2]
@@ -2640,7 +2618,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Çòñféssìôñs-Saurfang|r",
 			[51] = 1538561119,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [119]
+		}, -- [118]
 		{
 			"lol", -- [1]
 			"Hauzer-Kel'Thuzad", -- [2]
@@ -2662,7 +2640,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaHauzer|r",
 			[51] = 1538561131,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [120]
+		}, -- [119]
 		{
 			"lol", -- [1]
 			"Mïnx-Shu'halo", -- [2]
@@ -2684,7 +2662,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Mïnx-Shu'halo|r",
 			[51] = 1538561161,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [121]
+		}, -- [120]
 		{
 			"shovel", -- [1]
 			"Hauzer-Kel'Thuzad", -- [2]
@@ -2706,7 +2684,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaHauzer|r",
 			[51] = 1538561332,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [122]
+		}, -- [121]
 		{
 			"nice - thx all", -- [1]
 			"Mïnx-Shu'halo", -- [2]
@@ -2728,7 +2706,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Mïnx-Shu'halo|r",
 			[51] = 1538561554,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [123]
+		}, -- [122]
 		{
 			"ty", -- [1]
 			"Hauzer-Kel'Thuzad", -- [2]
@@ -2750,7 +2728,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaHauzer|r",
 			[51] = 1538561557,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [124]
+		}, -- [123]
 		{
 			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
 			"Gplaykelt-Kel'Thuzad", -- [2]
@@ -2772,7 +2750,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGplaykelt|r",
 			[51] = 1538562605,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [125]
+		}, -- [124]
 		{
 			"Uldir 8/8 daily carry, mythic+ runs, gearing, powerlvling and more! Visit gplay.pro for info!", -- [1]
 			"Gplaykelt-Kel'Thuzad", -- [2]
@@ -2794,7 +2772,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffGplaykelt|r",
 			[51] = 1538562785,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [126]
+		}, -- [125]
 		{
 			"rukh up", -- [1]
 			"Hauzer-Kel'Thuzad", -- [2]
@@ -2815,6 +2793,28 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "|cff3fc6eaHauzer|r",
 			[51] = 1538770167,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [126]
+		{
+			"LFM for |cffa335ee|Hkeystone:158923:247:5:10:8:0:0|h[Keystone: The MOTHERLODE!! (5)]|h|r pst me for invite!! need tank and heals and 1 dps", -- [1]
+			"Vèn-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vèn", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			141, -- [11]
+			"Player-3693-072EB845", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffaad372Vèn|r",
+			[51] = 1539705198,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},

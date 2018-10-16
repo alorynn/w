@@ -1602,11 +1602,6 @@ MogIt_OneHandedDB = {
 			},
 		},
 		[22016] = {
-			[72512] = {
-				["classes"] = 3149,
-				["sourceType"] = 4,
-				["faction"] = 3,
-			},
 			[61107] = {
 				["classes"] = 3149,
 				["sourceType"] = 1,
@@ -1641,6 +1636,11 @@ MogIt_OneHandedDB = {
 						["instance"] = "Skyreach",
 					}, -- [1]
 				},
+			},
+			[72512] = {
+				["classes"] = 3149,
+				["sourceType"] = 4,
+				["faction"] = 3,
 			},
 		},
 		[24681] = {
@@ -2596,26 +2596,6 @@ MogIt_OneHandedDB = {
 				},
 			},
 		},
-		[9857] = {
-			[17910] = {
-				["classes"] = 3149,
-				["sourceType"] = 1,
-				["faction"] = 3,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Moorabi",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Gundrak",
-					}, -- [1]
-				},
-			},
-		},
 		[13427] = {
 			[27392] = {
 				["classes"] = 3076,
@@ -2668,6 +2648,26 @@ MogIt_OneHandedDB = {
 							"Normal", -- [1]
 						},
 						["instance"] = "The Stonecore",
+					}, -- [1]
+				},
+			},
+		},
+		[10367] = {
+			[19416] = {
+				["classes"] = 3149,
+				["sourceType"] = 1,
+				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Sartharion",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
+						["difficulties"] = {
+							"10 Player", -- [1]
+						},
+						["instance"] = "The Obsidian Sanctum",
 					}, -- [1]
 				},
 			},
@@ -3263,22 +3263,22 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[10367] = {
-			[19416] = {
+		[9857] = {
+			[17910] = {
 				["classes"] = 3149,
 				["sourceType"] = 1,
 				["faction"] = 3,
 				["drops"] = {
 					{
-						["instanceType"] = 2,
-						["encounter"] = "Sartharion",
+						["instanceType"] = 1,
+						["encounter"] = "Moorabi",
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
 						["difficulties"] = {
-							"10 Player", -- [1]
+							"Normal", -- [1]
 						},
-						["instance"] = "The Obsidian Sanctum",
+						["instance"] = "Gundrak",
 					}, -- [1]
 				},
 			},
@@ -4980,12 +4980,12 @@ MogIt_OneHandedDB = {
 			},
 		},
 		[9568] = {
-			[17229] = {
+			[18288] = {
 				["classes"] = 1147,
-				["sourceType"] = 4,
+				["sourceType"] = 2,
 				["faction"] = 3,
 			},
-			[18288] = {
+			[20745] = {
 				["classes"] = 1147,
 				["sourceType"] = 2,
 				["faction"] = 3,
@@ -4995,9 +4995,9 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
-			[20745] = {
+			[17229] = {
 				["classes"] = 1147,
-				["sourceType"] = 2,
+				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
@@ -5701,17 +5701,7 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
-			[26983] = {
-				["classes"] = 1147,
-				["sourceType"] = 4,
-				["faction"] = 3,
-			},
 			[26990] = {
-				["classes"] = 1147,
-				["sourceType"] = 4,
-				["faction"] = 3,
-			},
-			[26984] = {
 				["classes"] = 1147,
 				["sourceType"] = 4,
 				["faction"] = 3,
@@ -5719,6 +5709,16 @@ MogIt_OneHandedDB = {
 			[29895] = {
 				["classes"] = 1147,
 				["sourceType"] = 2,
+				["faction"] = 3,
+			},
+			[26984] = {
+				["classes"] = 1147,
+				["sourceType"] = 4,
+				["faction"] = 3,
+			},
+			[26983] = {
+				["classes"] = 1147,
+				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
@@ -5812,10 +5812,10 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
-			[60632] = {
-				["classes"] = 1035,
+			[61127] = {
+				["classes"] = 1147,
 				["sourceType"] = 2,
-				["faction"] = 2,
+				["faction"] = 3,
 			},
 			[72515] = {
 				["classes"] = 1147,
@@ -5837,7 +5837,7 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
-			[61127] = {
+			[62027] = {
 				["classes"] = 1147,
 				["sourceType"] = 2,
 				["faction"] = 3,
@@ -5882,10 +5882,10 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[62027] = {
-				["classes"] = 1147,
+			[60632] = {
+				["classes"] = 1035,
 				["sourceType"] = 2,
-				["faction"] = 3,
+				["faction"] = 2,
 			},
 		},
 		[37732] = {
@@ -7017,17 +7017,17 @@ MogIt_OneHandedDB = {
 			},
 		},
 		[726] = {
-			[8142] = {
-				["classes"] = 1147,
-				["sourceType"] = 2,
-				["faction"] = 3,
-			},
 			[657] = {
 				["classes"] = 1147,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[27472] = {
+				["classes"] = 1147,
+				["sourceType"] = 2,
+				["faction"] = 3,
+			},
+			[8142] = {
 				["classes"] = 1147,
 				["sourceType"] = 2,
 				["faction"] = 3,
@@ -7195,10 +7195,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Battle for Azeroth", -- [1]
 						},
-						["instance"] = "Siege of Boralus",
 						["difficulties"] = {
 							"Mythic", -- [1]
 						},
+						["instance"] = "Siege of Boralus",
 					}, -- [1]
 				},
 			},
@@ -9001,10 +9001,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -9511,10 +9511,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -9529,10 +9529,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -10170,10 +10170,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -10445,10 +10445,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -10463,10 +10463,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -11864,7 +11864,7 @@ MogIt_OneHandedDB = {
 			},
 		},
 		[9678] = {
-			[18251] = {
+			[18272] = {
 				["classes"] = 1147,
 				["sourceType"] = 2,
 				["faction"] = 3,
@@ -11874,7 +11874,7 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
-			[18272] = {
+			[21163] = {
 				["classes"] = 1147,
 				["sourceType"] = 2,
 				["faction"] = 3,
@@ -11899,7 +11899,7 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
-			[21163] = {
+			[18251] = {
 				["classes"] = 1147,
 				["sourceType"] = 2,
 				["faction"] = 3,
@@ -12537,11 +12537,6 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 2,
 				["faction"] = 1,
 			},
-			[10312] = {
-				["classes"] = 1147,
-				["sourceType"] = 4,
-				["faction"] = 3,
-			},
 			[10111] = {
 				["classes"] = 1147,
 				["sourceType"] = 4,
@@ -12551,6 +12546,11 @@ MogIt_OneHandedDB = {
 				["classes"] = 1026,
 				["sourceType"] = 2,
 				["faction"] = 1,
+			},
+			[10312] = {
+				["classes"] = 1147,
+				["sourceType"] = 4,
+				["faction"] = 3,
 			},
 		},
 		[6106] = {
@@ -13154,11 +13154,6 @@ MogIt_OneHandedDB = {
 			},
 		},
 		[19138] = {
-			[47016] = {
-				["classes"] = 2159,
-				["sourceType"] = 2,
-				["faction"] = 3,
-			},
 			[45228] = {
 				["classes"] = 2159,
 				["sourceType"] = 4,
@@ -13182,6 +13177,11 @@ MogIt_OneHandedDB = {
 					}, -- [1]
 				},
 				["faction"] = 1,
+			},
+			[47016] = {
+				["classes"] = 2159,
+				["sourceType"] = 2,
+				["faction"] = 3,
 			},
 		},
 		[21733] = {
@@ -14202,10 +14202,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -14225,10 +14225,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -14374,10 +14374,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -14392,10 +14392,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -14410,10 +14410,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -14428,10 +14428,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -14941,10 +14941,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -15137,10 +15137,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -15155,10 +15155,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -16349,11 +16349,6 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 3,
 				["faction"] = 1,
 			},
-			[31378] = {
-				["classes"] = 15,
-				["sourceType"] = 3,
-				["faction"] = 2,
-			},
 			[27688] = {
 				["classes"] = 2159,
 				["sourceType"] = 1,
@@ -16389,6 +16384,11 @@ MogIt_OneHandedDB = {
 					}, -- [1]
 				},
 				["faction"] = 1,
+			},
+			[31378] = {
+				["classes"] = 15,
+				["sourceType"] = 3,
+				["faction"] = 2,
 			},
 		},
 		[7493] = {
@@ -17082,29 +17082,6 @@ MogIt_OneHandedDB = {
 			},
 		},
 		[11764] = {
-			[23023] = {
-				["classes"] = 2158,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 2,
-						["encounter"] = "Anub'arak",
-						["tiers"] = {
-							"Wrath of the Lich King", -- [1]
-						},
-						["difficulties"] = {
-							"10 Player", -- [1]
-						},
-						["instance"] = "Trial of the Crusader",
-					}, -- [1]
-				},
-				["faction"] = 1,
-			},
-			[46966] = {
-				["classes"] = 2158,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
 			[22591] = {
 				["classes"] = 2158,
 				["sourceType"] = 1,
@@ -17115,12 +17092,17 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
+				["faction"] = 1,
+			},
+			[46966] = {
+				["classes"] = 2158,
+				["sourceType"] = 2,
 				["faction"] = 1,
 			},
 			[23134] = {
@@ -17133,10 +17115,28 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
+					}, -- [1]
+				},
+				["faction"] = 1,
+			},
+			[23023] = {
+				["classes"] = 2158,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Anub'arak",
+						["tiers"] = {
+							"Wrath of the Lich King", -- [1]
+						},
 						["instance"] = "Trial of the Crusader",
+						["difficulties"] = {
+							"10 Player", -- [1]
+						},
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -18885,10 +18885,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -18903,10 +18903,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -19595,10 +19595,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -19613,10 +19613,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -22948,10 +22948,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -22966,10 +22966,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -25846,10 +25846,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -25864,10 +25864,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -26552,17 +26552,17 @@ MogIt_OneHandedDB = {
 			},
 		},
 		[9311] = {
-			[16618] = {
-				["classes"] = 3549,
-				["sourceType"] = 2,
-				["faction"] = 3,
-			},
 			[78383] = {
 				["classes"] = 3549,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 			[18262] = {
+				["classes"] = 3549,
+				["sourceType"] = 2,
+				["faction"] = 3,
+			},
+			[16618] = {
 				["classes"] = 3549,
 				["sourceType"] = 2,
 				["faction"] = 3,
@@ -26687,7 +26687,7 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
-			[58400] = {
+			[58580] = {
 				["classes"] = 3549,
 				["sourceType"] = 4,
 				["faction"] = 3,
@@ -26697,12 +26697,12 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
-			[48545] = {
+			[58400] = {
 				["classes"] = 3549,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
-			[58580] = {
+			[48545] = {
 				["classes"] = 3549,
 				["sourceType"] = 4,
 				["faction"] = 3,
@@ -27077,10 +27077,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -27095,10 +27095,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -28407,11 +28407,6 @@ MogIt_OneHandedDB = {
 			},
 		},
 		[3521] = {
-			[4371] = {
-				["classes"] = 3549,
-				["sourceType"] = 3,
-				["faction"] = 3,
-			},
 			[10108] = {
 				["classes"] = 3549,
 				["sourceType"] = 4,
@@ -28420,6 +28415,11 @@ MogIt_OneHandedDB = {
 			[6027] = {
 				["classes"] = 3549,
 				["sourceType"] = 4,
+				["faction"] = 3,
+			},
+			[4371] = {
+				["classes"] = 3549,
+				["sourceType"] = 3,
 				["faction"] = 3,
 			},
 		},
@@ -28570,7 +28570,7 @@ MogIt_OneHandedDB = {
 			},
 		},
 		[8173] = {
-			[34752] = {
+			[45573] = {
 				["classes"] = 3549,
 				["sourceType"] = 4,
 				["faction"] = 3,
@@ -28580,12 +28580,12 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
-			[45573] = {
+			[14320] = {
 				["classes"] = 3549,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
-			[14320] = {
+			[34752] = {
 				["classes"] = 3549,
 				["sourceType"] = 4,
 				["faction"] = 3,
@@ -28880,22 +28880,22 @@ MogIt_OneHandedDB = {
 			},
 		},
 		[36006] = {
-			[97106] = {
-				["classes"] = 1165,
-				["sourceType"] = 2,
-				["faction"] = 2,
+			[96902] = {
+				["classes"] = 1501,
+				["sourceType"] = 4,
+				["faction"] = 3,
 			},
 			[95329] = {
 				["classes"] = 1501,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
-			[96902] = {
-				["classes"] = 1501,
-				["sourceType"] = 4,
-				["faction"] = 3,
-			},
 			[94862] = {
+				["classes"] = 1165,
+				["sourceType"] = 2,
+				["faction"] = 2,
+			},
+			[97106] = {
 				["classes"] = 1165,
 				["sourceType"] = 2,
 				["faction"] = 2,
@@ -29150,10 +29150,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -29168,10 +29168,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -29619,11 +29619,6 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 6,
 				["faction"] = 3,
 			},
-			[636] = {
-				["classes"] = 3549,
-				["sourceType"] = 4,
-				["faction"] = 3,
-			},
 			[10105] = {
 				["classes"] = 3549,
 				["sourceType"] = 4,
@@ -29644,6 +29639,11 @@ MogIt_OneHandedDB = {
 						["instance"] = "Maraudon",
 					}, -- [1]
 				},
+				["faction"] = 3,
+			},
+			[636] = {
+				["classes"] = 3549,
+				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
@@ -30923,17 +30923,7 @@ MogIt_OneHandedDB = {
 			},
 		},
 		[9675] = {
-			[17406] = {
-				["classes"] = 3549,
-				["sourceType"] = 4,
-				["faction"] = 3,
-			},
 			[19914] = {
-				["classes"] = 3549,
-				["sourceType"] = 6,
-				["faction"] = 3,
-			},
-			[19915] = {
 				["classes"] = 3549,
 				["sourceType"] = 6,
 				["faction"] = 3,
@@ -30941,6 +30931,16 @@ MogIt_OneHandedDB = {
 			[18291] = {
 				["classes"] = 3549,
 				["sourceType"] = 2,
+				["faction"] = 3,
+			},
+			[19915] = {
+				["classes"] = 3549,
+				["sourceType"] = 6,
+				["faction"] = 3,
+			},
+			[17406] = {
+				["classes"] = 3549,
+				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
@@ -31690,10 +31690,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -31708,10 +31708,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -31726,10 +31726,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -31744,10 +31744,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -31762,10 +31762,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -31941,7 +31941,7 @@ MogIt_OneHandedDB = {
 			},
 		},
 		[14919] = {
-			[33756] = {
+			[84281] = {
 				["classes"] = 3549,
 				["sourceType"] = 4,
 				["faction"] = 3,
@@ -31951,12 +31951,12 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
-			[84281] = {
+			[48849] = {
 				["classes"] = 3549,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
-			[48849] = {
+			[33756] = {
 				["classes"] = 3549,
 				["sourceType"] = 4,
 				["faction"] = 3,
@@ -32031,10 +32031,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -32049,10 +32049,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -32097,11 +32097,6 @@ MogIt_OneHandedDB = {
 				["sourceType"] = 2,
 				["faction"] = 3,
 			},
-			[62028] = {
-				["classes"] = 3549,
-				["sourceType"] = 2,
-				["faction"] = 3,
-			},
 			[66491] = {
 				["classes"] = 3549,
 				["sourceType"] = 4,
@@ -32110,6 +32105,11 @@ MogIt_OneHandedDB = {
 			[65493] = {
 				["classes"] = 3549,
 				["sourceType"] = 4,
+				["faction"] = 3,
+			},
+			[62028] = {
+				["classes"] = 3549,
+				["sourceType"] = 2,
 				["faction"] = 3,
 			},
 		},
@@ -32341,10 +32341,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -32359,10 +32359,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -33827,10 +33827,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -33845,10 +33845,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -33864,10 +33864,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -33986,41 +33986,20 @@ MogIt_OneHandedDB = {
 				["faction"] = 3,
 			},
 		},
-		[5478] = {
-			[35529] = {
+		[21880] = {
+			[63755] = {
 				["classes"] = 3549,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Jin'do the Godbreaker",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Zul'Gurub",
-					}, -- [1]
-				},
+				["sourceType"] = 2,
 				["faction"] = 3,
 			},
-			[35530] = {
+			[65425] = {
 				["classes"] = 3549,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Jin'do the Godbreaker",
-						["tiers"] = {
-							"Cataclysm", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Zul'Gurub",
-					}, -- [1]
-				},
+				["sourceType"] = 4,
+				["faction"] = 3,
+			},
+			[65459] = {
+				["classes"] = 3549,
+				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
@@ -34112,10 +34091,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -34135,10 +34114,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 				["faction"] = 1,
@@ -34170,21 +34149,40 @@ MogIt_OneHandedDB = {
 				["faction"] = 3,
 			},
 		},
-		[21880] = {
-			[63755] = {
-				["classes"] = 3549,
-				["sourceType"] = 2,
+		[37590] = {
+			[96641] = {
+				["classes"] = 1501,
+				["sourceType"] = 1,
 				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "MOTHER",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Uldir",
+					}, -- [1]
+				},
 			},
-			[65425] = {
-				["classes"] = 3549,
-				["sourceType"] = 4,
+			[96644] = {
+				["classes"] = 1501,
+				["sourceType"] = 1,
 				["faction"] = 3,
-			},
-			[65459] = {
-				["classes"] = 3549,
-				["sourceType"] = 4,
-				["faction"] = 3,
+				["drops"] = {
+					{
+						["instanceType"] = 2,
+						["encounter"] = "Zul, Reborn",
+						["tiers"] = {
+							"Battle for Azeroth", -- [1]
+						},
+						["difficulties"] = {
+						},
+						["instance"] = "Uldir",
+					}, -- [1]
+				},
 			},
 		},
 		[4420] = {
@@ -34231,23 +34229,10 @@ MogIt_OneHandedDB = {
 				["faction"] = 1,
 			},
 		},
-		[7556] = {
-			[13093] = {
+		[12035] = {
+			[24012] = {
 				["classes"] = 3549,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Vazruden the Herald",
-						["tiers"] = {
-							"Burning Crusade", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Hellfire Ramparts",
-					}, -- [1]
-				},
+				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
@@ -34285,8 +34270,18 @@ MogIt_OneHandedDB = {
 				["faction"] = 3,
 			},
 		},
-		[12035] = {
-			[24012] = {
+		[946] = {
+			[1299] = {
+				["classes"] = 3549,
+				["sourceType"] = 6,
+				["faction"] = 3,
+			},
+			[14588] = {
+				["classes"] = 3549,
+				["sourceType"] = 2,
+				["faction"] = 3,
+			},
+			[10306] = {
 				["classes"] = 3549,
 				["sourceType"] = 4,
 				["faction"] = 3,
@@ -34467,23 +34462,15 @@ MogIt_OneHandedDB = {
 				["faction"] = 3,
 			},
 		},
-		[5562] = {
-			[11912] = {
+		[1904] = {
+			[2158] = {
 				["classes"] = 3549,
-				["sourceType"] = 1,
-				["drops"] = {
-					{
-						["instanceType"] = 1,
-						["encounter"] = "Omor the Unscarred",
-						["tiers"] = {
-							"Burning Crusade", -- [1]
-						},
-						["difficulties"] = {
-							"Normal", -- [1]
-						},
-						["instance"] = "Hellfire Ramparts",
-					}, -- [1]
-				},
+				["sourceType"] = 4,
+				["faction"] = 3,
+			},
+			[6030] = {
+				["classes"] = 3549,
+				["sourceType"] = 4,
 				["faction"] = 3,
 			},
 		},
@@ -34528,14 +34515,14 @@ MogIt_OneHandedDB = {
 				["faction"] = 3,
 			},
 		},
-		[1904] = {
-			[2158] = {
-				["classes"] = 3549,
-				["sourceType"] = 4,
-				["faction"] = 3,
+		[36216] = {
+			[94293] = {
+				["classes"] = 1500,
+				["sourceType"] = 2,
+				["faction"] = 1,
 			},
-			[6030] = {
-				["classes"] = 3549,
+			[95320] = {
+				["classes"] = 1501,
 				["sourceType"] = 4,
 				["faction"] = 3,
 			},
@@ -35944,15 +35931,23 @@ MogIt_OneHandedDB = {
 				["faction"] = 3,
 			},
 		},
-		[36216] = {
-			[94293] = {
-				["classes"] = 1500,
-				["sourceType"] = 2,
-				["faction"] = 1,
-			},
-			[95320] = {
-				["classes"] = 1501,
-				["sourceType"] = 4,
+		[5562] = {
+			[11912] = {
+				["classes"] = 3549,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Omor the Unscarred",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Hellfire Ramparts",
+					}, -- [1]
+				},
 				["faction"] = 3,
 			},
 		},
@@ -36044,20 +36039,23 @@ MogIt_OneHandedDB = {
 				["faction"] = 3,
 			},
 		},
-		[946] = {
-			[1299] = {
+		[7556] = {
+			[13093] = {
 				["classes"] = 3549,
-				["sourceType"] = 6,
-				["faction"] = 3,
-			},
-			[14588] = {
-				["classes"] = 3549,
-				["sourceType"] = 2,
-				["faction"] = 3,
-			},
-			[10306] = {
-				["classes"] = 3549,
-				["sourceType"] = 4,
+				["sourceType"] = 1,
+				["drops"] = {
+					{
+						["instanceType"] = 1,
+						["encounter"] = "Vazruden the Herald",
+						["tiers"] = {
+							"Burning Crusade", -- [1]
+						},
+						["difficulties"] = {
+							"Normal", -- [1]
+						},
+						["instance"] = "Hellfire Ramparts",
+					}, -- [1]
+				},
 				["faction"] = 3,
 			},
 		},
@@ -36133,10 +36131,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -36151,10 +36149,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"25 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -36169,10 +36167,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -36187,48 +36185,50 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
 		},
-		[37590] = {
-			[96641] = {
-				["classes"] = 1501,
+		[5478] = {
+			[35529] = {
+				["classes"] = 3549,
 				["sourceType"] = 1,
-				["faction"] = 3,
 				["drops"] = {
 					{
-						["instanceType"] = 2,
-						["encounter"] = "MOTHER",
+						["instanceType"] = 1,
+						["encounter"] = "Jin'do the Godbreaker",
 						["tiers"] = {
-							"Battle for Azeroth", -- [1]
+							"Cataclysm", -- [1]
 						},
 						["difficulties"] = {
+							"Normal", -- [1]
 						},
-						["instance"] = "Uldir",
+						["instance"] = "Zul'Gurub",
 					}, -- [1]
 				},
+				["faction"] = 3,
 			},
-			[96644] = {
-				["classes"] = 1501,
+			[35530] = {
+				["classes"] = 3549,
 				["sourceType"] = 1,
-				["faction"] = 3,
 				["drops"] = {
 					{
-						["instanceType"] = 2,
-						["encounter"] = "Zul, Reborn",
+						["instanceType"] = 1,
+						["encounter"] = "Jin'do the Godbreaker",
 						["tiers"] = {
-							"Battle for Azeroth", -- [1]
+							"Cataclysm", -- [1]
 						},
 						["difficulties"] = {
+							"Normal", -- [1]
 						},
-						["instance"] = "Uldir",
+						["instance"] = "Zul'Gurub",
 					}, -- [1]
 				},
+				["faction"] = 3,
 			},
 		},
 		[11963] = {
@@ -36248,10 +36248,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player (Heroic)", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},
@@ -36266,10 +36266,10 @@ MogIt_OneHandedDB = {
 						["tiers"] = {
 							"Wrath of the Lich King", -- [1]
 						},
-						["instance"] = "Trial of the Crusader",
 						["difficulties"] = {
 							"10 Player", -- [1]
 						},
+						["instance"] = "Trial of the Crusader",
 					}, -- [1]
 				},
 			},

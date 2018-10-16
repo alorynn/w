@@ -9,7 +9,7 @@ RarityDB = {
 		["Foolioioio - Frostwolf"] = "Default",
 		["Shamwowow - Kel'Thuzad"] = "Default",
 		["Loranus - Kel'Thuzad"] = "Default",
-		["Foioioi - Gallywix"] = "Default",
+		["Foioio - Bonechewer"] = "Default",
 		["Fooiis - Hakkar"] = "Default",
 		["Loranno - Kel'Thuzad"] = "Default",
 		["Foolse - Twisting Nether"] = "Default",
@@ -17,14 +17,14 @@ RarityDB = {
 		["Alisheeya - Kel'Thuzad"] = "Default",
 		["Lorranah - Kel'Thuzad"] = "Default",
 		["Nigellah - Kel'Thuzad"] = "Default",
-		["Foiio - Drakkari"] = "Default",
-		["Alorannah - Kel'Thuzad"] = "Default",
-		["Hauzerina - Kel'Thuzad"] = "Default",
 		["Foifo - Azgalor"] = "Default",
+		["Alorannah - Kel'Thuzad"] = "Default",
+		["Foioioi - Gallywix"] = "Default",
+		["Hauzerina - Kel'Thuzad"] = "Default",
 		["Loranah - Kel'Thuzad"] = "Default",
 		["Deeke - Kel'Thuzad"] = "Default",
 		["Kmkarbashian - Kel'Thuzad"] = "Default",
-		["Foioio - Bonechewer"] = "Default",
+		["Foiio - Drakkari"] = "Default",
 		["Alaurannah - Undermine"] = "Default",
 		["Darknstormie - Kel'Thuzad"] = "Default",
 		["Alauranna - Kel'Thuzad"] = "Default",
@@ -388,7 +388,7 @@ RarityDB = {
 						["known"] = true,
 						["found"] = true,
 					},
-					["Coldlight Surfrunner"] = {
+					["False Knucklebump"] = {
 						["dates"] = {
 							[20180911] = {
 								["attempts"] = 7,
@@ -952,7 +952,7 @@ RarityDB = {
 					["Elementium Back Plate"] = {
 						["attempts"] = 4,
 					},
-					["False Knucklebump"] = {
+					["Coldlight Surfrunner"] = {
 						["dates"] = {
 							[20180911] = {
 								["attempts"] = 7,
@@ -1028,8 +1028,31 @@ RarityDB = {
 						["known"] = true,
 						["found"] = true,
 					},
-					["Gooey Sha-ling"] = {
-						["attempts"] = 1,
+					["Tinder Pup"] = {
+						["dates"] = {
+							[20180911] = {
+								["attempts"] = 7,
+							},
+							[20180908] = {
+								["attempts"] = 7,
+							},
+							[20181003] = {
+								["attempts"] = 2,
+							},
+							[20180920] = {
+								["attempts"] = 1,
+							},
+							[20181013] = {
+								["attempts"] = 3,
+							},
+							[20181002] = {
+								["attempts"] = 20,
+							},
+							[20180918] = {
+								["attempts"] = 5,
+							},
+						},
+						["attempts"] = 45,
 					},
 					["Snort"] = {
 						["dates"] = {
@@ -1065,31 +1088,8 @@ RarityDB = {
 						["enabled"] = false,
 						["found"] = true,
 					},
-					["Tinder Pup"] = {
-						["dates"] = {
-							[20180911] = {
-								["attempts"] = 7,
-							},
-							[20180908] = {
-								["attempts"] = 7,
-							},
-							[20181003] = {
-								["attempts"] = 2,
-							},
-							[20180920] = {
-								["attempts"] = 1,
-							},
-							[20181013] = {
-								["attempts"] = 3,
-							},
-							[20181002] = {
-								["attempts"] = 20,
-							},
-							[20180918] = {
-								["attempts"] = 5,
-							},
-						},
-						["attempts"] = 45,
+					["Gooey Sha-ling"] = {
+						["attempts"] = 1,
 					},
 					["Wriggling Darkness"] = {
 						["attempts"] = 3,
@@ -1172,31 +1172,10 @@ RarityDB = {
 						},
 						["attempts"] = 3,
 					},
-					["Bloodstone Tunneler"] = {
-						["dates"] = {
-							[20180911] = {
-								["attempts"] = 7,
-							},
-							[20180908] = {
-								["attempts"] = 7,
-							},
-							[20181003] = {
-								["attempts"] = 2,
-							},
-							[20180920] = {
-								["attempts"] = 1,
-							},
-							[20181013] = {
-								["attempts"] = 3,
-							},
-							[20181002] = {
-								["attempts"] = 20,
-							},
-							[20180918] = {
-								["attempts"] = 5,
-							},
-						},
-						["attempts"] = 45,
+					["Blighted Spore"] = {
+						["enabled"] = false,
+						["known"] = true,
+						["found"] = true,
 					},
 					["Remains of a Blood Beast"] = {
 						["attempts"] = 9,
@@ -1263,7 +1242,7 @@ RarityDB = {
 						["enabled"] = false,
 						["found"] = true,
 					},
-					["Barnaby"] = {
+					["Bloodstone Tunneler"] = {
 						["dates"] = {
 							[20180911] = {
 								["attempts"] = 7,
@@ -1289,10 +1268,31 @@ RarityDB = {
 						},
 						["attempts"] = 45,
 					},
-					["Blighted Spore"] = {
-						["enabled"] = false,
-						["known"] = true,
-						["found"] = true,
+					["Barnaby"] = {
+						["dates"] = {
+							[20180911] = {
+								["attempts"] = 7,
+							},
+							[20180908] = {
+								["attempts"] = 7,
+							},
+							[20181003] = {
+								["attempts"] = 2,
+							},
+							[20180920] = {
+								["attempts"] = 1,
+							},
+							[20181013] = {
+								["attempts"] = 3,
+							},
+							[20181002] = {
+								["attempts"] = 20,
+							},
+							[20180918] = {
+								["attempts"] = 5,
+							},
+						},
+						["attempts"] = 45,
 					},
 					["Gluth's Bone"] = {
 						["enabled"] = false,
@@ -1683,12 +1683,21 @@ RarityDB = {
 						["attempts"] = 45,
 					},
 					["Toy War Machine"] = {
+						["time"] = 1,
 						["dates"] = {
 							[20181009] = {
 								["attempts"] = 1,
 							},
+							[20181016] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
 						},
-						["attempts"] = 1,
+						["session"] = {
+							["time"] = 1,
+							["attempts"] = 1,
+						},
+						["attempts"] = 2,
 					},
 					["Kovork Kostume"] = {
 						["lastAttempts"] = 1,
@@ -3383,19 +3392,19 @@ RarityDB = {
 				[978] = "Tol Dagor",
 				[986] = "Kalimdor",
 				[994] = "Argus",
-				[971] = "Telogrus Rift",
+				[1172] = "Gol Thovas",
 				[1010] = "The MOTHERLODE!!",
 				[1018] = "Waycrest Manor",
 				[1155] = "Uldir",
 				[1171] = "Gol Thovas",
 				[1187] = "Azsuna",
 				[979] = "Tol Dagor",
-				[1045] = "Thros, The Blighted Lands",
+				[971] = "Telogrus Rift",
 				[1156] = "The Great Sea",
 				[1165] = "Dazar'alor",
 				[1166] = "Zanchul",
 				[1029] = "WaycrestDimension",
-				[1172] = "Gol Thovas",
+				[1045] = "Thros, The Blighted Lands",
 				[1188] = "Val'sharah",
 				[987] = "Outland",
 				[1186] = "Blackrock Depths",
@@ -7996,8 +8005,8 @@ RarityDB = {
 					["server"] = "Bonechewer",
 				},
 			},
-			["trackedGroup"] = "mounts",
-			["trackedItem"] = 163584,
+			["trackedGroup"] = "items",
+			["trackedItem"] = 163829,
 			["importIsError"] = true,
 		},
 	},
