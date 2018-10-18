@@ -3,8 +3,8 @@ Paku_Totems_DB = {
 	["profileKeys"] = {
 		["Kmkarbashian - Kel'Thuzad"] = "Default",
 		["Laurennah - Vashj"] = "Default",
-		["Foioio - Bonechewer"] = "Default",
 		["Foiio - Drakkari"] = "Default",
+		["Foioioi - Gallywix"] = "Default",
 		["Alorannah - Kel'Thuzad"] = "Default",
 		["Foolioioio - Frostwolf"] = "Default",
 		["Foioio - Thunderlord"] = "Default",
@@ -15,7 +15,7 @@ Paku_Totems_DB = {
 		["Foolse - Twisting Nether"] = "Default",
 		["Hauzer - Kel'Thuzad"] = "Default",
 		["Foifo - Azgalor"] = "Default",
-		["Foioioi - Gallywix"] = "Default",
+		["Foioio - Bonechewer"] = "Default",
 		["Foio - Garona"] = "Default",
 	},
 }

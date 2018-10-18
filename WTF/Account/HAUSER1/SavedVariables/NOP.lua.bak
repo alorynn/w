@@ -7,10 +7,10 @@ NewOpenablesProfile = {
 		["Kmkarbashian - Kel'Thuzad"] = {
 			["itemID"] = 138797,
 		},
-		["Foolse - Twisting Nether"] = {
+		["Foifo - Azgalor"] = {
 			["itemID"] = 160439,
 		},
-		["Foifo - Azgalor"] = {
+		["Foolse - Twisting Nether"] = {
 			["itemID"] = 160439,
 		},
 		["Foolioioio - Frostwolf"] = {
@@ -88,9 +88,9 @@ NewOpenablesProfile = {
 				[127834] = true,
 				[153152] = true,
 				[153147] = true,
-				[153106] = true,
-				[127835] = true,
 				[153137] = true,
+				[127835] = true,
+				[153106] = true,
 				[154784] = true,
 				[147348] = true,
 				[141028] = true,

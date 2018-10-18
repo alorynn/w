@@ -4,7 +4,7 @@ StableGeniusDB = {
 		["Kmkarbashian - Kel'Thuzad"] = "Kmkarbashian - Kel'Thuzad",
 		["Fooiis - Hakkar"] = "Fooiis - Hakkar",
 		["Alorannah - Kel'Thuzad"] = "Alorannah - Kel'Thuzad",
-		["Foioioi - Gallywix"] = "Foioioi - Gallywix",
+		["Foioio - Bonechewer"] = "Foioio - Bonechewer",
 		["Foiio - Drakkari"] = "Foiio - Drakkari",
 		["Foolioioio - Frostwolf"] = "Foolioioio - Frostwolf",
 		["Foioio - Thunderlord"] = "Foioio - Thunderlord",
@@ -15,7 +15,7 @@ StableGeniusDB = {
 		["Foolse - Twisting Nether"] = "Foolse - Twisting Nether",
 		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
 		["Foifo - Azgalor"] = "Foifo - Azgalor",
-		["Foioio - Bonechewer"] = "Foioio - Bonechewer",
+		["Foioioi - Gallywix"] = "Foioioi - Gallywix",
 		["Foio - Garona"] = "Foio - Garona",
 	},
 }
