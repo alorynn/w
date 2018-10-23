@@ -18,6 +18,7 @@ GottaGoFastDB = {
 		["Laurennah - Vashj"] = "Default",
 		["Hauzerina - Moon Guard"] = "Default",
 		["Foolioioio - Frostwolf"] = "Default",
+		["Fakake - Kel'Thuzad"] = "Default",
 		["Deeke - Kel'Thuzad"] = "Default",
 		["Nigellah - Kel'Thuzad"] = "Default",
 		["Foioio - Bonechewer"] = "Default",

@@ -18,6 +18,7 @@ GottaGoFastHistoryDB = {
 		["Laurennah - Vashj"] = "Default",
 		["Hauzerina - Moon Guard"] = "Default",
 		["Foolioioio - Frostwolf"] = "Default",
+		["Fakake - Kel'Thuzad"] = "Default",
 		["Deeke - Kel'Thuzad"] = "Default",
 		["Nigellah - Kel'Thuzad"] = "Default",
 		["Foioio - Bonechewer"] = "Default",
@@ -72,8 +73,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2017,
 								["mins"] = 59,
 							},
-							["level"] = 7,
 							["startTime"] = 106928.41,
+							["level"] = 7,
 							["objectiveTimes"] = {
 								"02:35.389", -- [1]
 								"07:47.578", -- [2]
@@ -143,8 +144,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2017,
 								["mins"] = 39,
 							},
-							["level"] = 9,
 							["startTime"] = 463292.719,
+							["level"] = 9,
 							["objectiveTimes"] = {
 								"04:41.259", -- [1]
 								"12:47.570", -- [2]
@@ -242,7 +243,7 @@ GottaGoFastHistoryDB = {
 									["role"] = "DAMAGER",
 								}, -- [5]
 							},
-							["level"] = 5,
+							["startTime"] = 30788.4,
 							["objectiveTimes"] = {
 								"03:33.757", -- [1]
 								"07:52.574", -- [2]
@@ -250,7 +251,7 @@ GottaGoFastHistoryDB = {
 								"15:26.228", -- [4]
 								"14:30.605", -- [5]
 							},
-							["startTime"] = 30788.4,
+							["level"] = 5,
 						}, -- [1]
 						{
 							["corrupt"] = false,
@@ -297,7 +298,7 @@ GottaGoFastHistoryDB = {
 									["role"] = "DAMAGER",
 								}, -- [5]
 							},
-							["level"] = 4,
+							["startTime"] = 97322.613,
 							["objectiveTimes"] = {
 								"04:10.360", -- [1]
 								"08:14.119", -- [2]
@@ -305,7 +306,7 @@ GottaGoFastHistoryDB = {
 								"16:22.119", -- [4]
 								"15:19.425", -- [5]
 							},
-							["startTime"] = 97322.613,
+							["level"] = 4,
 						}, -- [2]
 						{
 							["corrupt"] = false,
@@ -352,7 +353,7 @@ GottaGoFastHistoryDB = {
 									["role"] = "DAMAGER",
 								}, -- [5]
 							},
-							["startTime"] = 538984.971,
+							["level"] = 5,
 							["objectiveTimes"] = {
 								"04:38.879", -- [1]
 								"09:35.414", -- [2]
@@ -360,7 +361,7 @@ GottaGoFastHistoryDB = {
 								"18:01.560", -- [4]
 								"16:54.297", -- [5]
 							},
-							["level"] = 5,
+							["startTime"] = 538984.971,
 						}, -- [3]
 					},
 					["name"] = "Darkheart Thicket",
@@ -424,7 +425,7 @@ GottaGoFastHistoryDB = {
 									["role"] = "DAMAGER",
 								}, -- [5]
 							},
-							["level"] = 8,
+							["startTime"] = 100915.642,
 							["objectiveTimes"] = {
 								"03:43.703", -- [1]
 								"11:27.614", -- [2]
@@ -433,7 +434,7 @@ GottaGoFastHistoryDB = {
 								"25:16.807", -- [5]
 								"23:06.302", -- [6]
 							},
-							["startTime"] = 100915.642,
+							["level"] = 8,
 						}, -- [1]
 					},
 					["name"] = "Halls of Valor",
@@ -502,7 +503,7 @@ GottaGoFastHistoryDB = {
 									["role"] = "DAMAGER",
 								}, -- [5]
 							},
-							["level"] = 10,
+							["startTime"] = 460375.796,
 							["objectiveTimes"] = {
 								"04:39.139", -- [1]
 								"09:11.986", -- [2]
@@ -511,7 +512,7 @@ GottaGoFastHistoryDB = {
 								"37:27.928", -- [5]
 								"23:10.516", -- [6]
 							},
-							["startTime"] = 460375.796,
+							["level"] = 10,
 						}, -- [1]
 					},
 					["name"] = "Eye of Azshara",

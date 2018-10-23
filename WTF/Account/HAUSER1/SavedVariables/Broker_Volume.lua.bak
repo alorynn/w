@@ -15,21 +15,22 @@ BrokerVolumeDB = {
 		["Hauzerdemon - Kel'Thuzad"] = "Hauzerdemon - Kel'Thuzad",
 		["Hauzerina - Kel'Thuzad"] = "Hauzerina - Kel'Thuzad",
 		["Foioio - Bonechewer"] = "Foioio - Bonechewer",
+		["Shamwowow - Kel'Thuzad"] = "Shamwowow - Kel'Thuzad",
 		["Darknstormie - Kel'Thuzad"] = "Darknstormie - Kel'Thuzad",
 		["Alauranna - Kel'Thuzad"] = "Alauranna - Kel'Thuzad",
 		["Foioi - Aman'Thul"] = "Foioi - Aman'Thul",
 		["Loranus - Kel'Thuzad"] = "Loranus - Kel'Thuzad",
 		["Rogueout - Kel'Thuzad"] = "Rogueout - Kel'Thuzad",
-		["Shamwowow - Kel'Thuzad"] = "Shamwowow - Kel'Thuzad",
-		["Laurannah - Undermine"] = "Laurannah - Undermine",
-		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
 		["Laurranah - Kel'Thuzad"] = "Laurranah - Kel'Thuzad",
-		["Laurenn - Kel'Thuzad"] = "Laurenn - Kel'Thuzad",
+		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
 		["Laurennah - Vashj"] = "Laurennah - Vashj",
+		["Laurannah - Undermine"] = "Laurannah - Undermine",
+		["Laurenn - Kel'Thuzad"] = "Laurenn - Kel'Thuzad",
+		["Hoobastanko - Kel'Thuzad"] = "Hoobastanko - Kel'Thuzad",
 		["Hauzerina - Moon Guard"] = "Hauzerina - Moon Guard",
 		["Foolioioio - Frostwolf"] = "Foolioioio - Frostwolf",
-		["Hoobastanko - Kel'Thuzad"] = "Hoobastanko - Kel'Thuzad",
 		["Olrapey - Kel'Thuzad"] = "Olrapey - Kel'Thuzad",
+		["Fakake - Kel'Thuzad"] = "Fakake - Kel'Thuzad",
 		["Hauzerone - Dalaran"] = "Hauzerone - Dalaran",
 		["Skãdi - Kel'Thuzad"] = "Skãdi - Kel'Thuzad",
 		["Hauser - Mal'Ganis"] = "Hauser - Mal'Ganis",
@@ -85,6 +86,8 @@ BrokerVolumeDB = {
 		},
 		["Foioio - Bonechewer"] = {
 		},
+		["Shamwowow - Kel'Thuzad"] = {
+		},
 		["Darknstormie - Kel'Thuzad"] = {
 		},
 		["Alauranna - Kel'Thuzad"] = {
@@ -96,26 +99,26 @@ BrokerVolumeDB = {
 		},
 		["Rogueout - Kel'Thuzad"] = {
 		},
-		["Shamwowow - Kel'Thuzad"] = {
-		},
-		["Laurannah - Undermine"] = {
+		["Laurranah - Kel'Thuzad"] = {
 		},
 		["Hauzer - Kel'Thuzad"] = {
 			["bgSound"] = true,
 		},
-		["Laurranah - Kel'Thuzad"] = {
+		["Laurennah - Vashj"] = {
+		},
+		["Laurannah - Undermine"] = {
 		},
 		["Laurenn - Kel'Thuzad"] = {
 		},
-		["Laurennah - Vashj"] = {
+		["Hoobastanko - Kel'Thuzad"] = {
 		},
 		["Hauzerina - Moon Guard"] = {
 		},
 		["Foolioioio - Frostwolf"] = {
 		},
-		["Hoobastanko - Kel'Thuzad"] = {
-		},
 		["Olrapey - Kel'Thuzad"] = {
+		},
+		["Fakake - Kel'Thuzad"] = {
 		},
 		["Hauzerone - Dalaran"] = {
 		},

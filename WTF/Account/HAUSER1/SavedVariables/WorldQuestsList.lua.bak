@@ -111,6 +111,14 @@ VWQL = {
 		},
 		["Filter"] = 63,
 	},
+	["Fakake-Kel'Thuzad"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["VERSION"] = 81,
+	},
 	["Foioio-Bonechewer"] = {
 		["Filter"] = 63,
 		["FilterType"] = {
@@ -318,20 +326,20 @@ VWQL = {
 			[54167] = true,
 			[43943] = true,
 			[51651] = true,
-			[51653] = true,
+			[42014] = true,
 			[45985] = true,
 			[42963] = true,
 			[42713] = true,
-			[43802] = true,
-			[52939] = true,
+			[44784] = true,
+			[51608] = true,
 			[50468] = true,
 			[44737] = true,
 			[48834] = true,
 			[43985] = true,
 			[51610] = true,
-			[44784] = true,
-			[52874] = true,
 			[45379] = true,
+			[52874] = true,
+			[52939] = true,
 			[51616] = true,
 			[46756] = true,
 			[48096] = true,
@@ -341,14 +349,14 @@ VWQL = {
 			[42243] = true,
 			[49994] = true,
 			[44893] = true,
-			[51636] = true,
+			[51699] = true,
 			[41936] = true,
 			[45049] = true,
 			[48614] = true,
 			[43328] = true,
-			[51461] = true,
-			[51528] = true,
 			[45035] = true,
+			[51528] = true,
+			[51461] = true,
 			[46866] = true,
 			[51213] = true,
 			[42962] = true,
@@ -357,16 +365,16 @@ VWQL = {
 			[51032] = true,
 			[52357] = true,
 			[48957] = true,
-			[51699] = true,
+			[51636] = true,
 			[47953] = true,
 			[51687] = true,
-			[51608] = true,
+			[43802] = true,
 			[44935] = true,
 			[52875] = true,
-			[42014] = true,
+			[51653] = true,
 		},
-		["faction2161IgnoreFilter"] = false,
 		["bountyIgnoreFilter"] = false,
+		["faction2161IgnoreFilter"] = false,
 		["Filter"] = 63,
 		["faction2163IgnoreFilter"] = false,
 		["faction2160IgnoreFilter"] = false,
@@ -440,8 +448,10 @@ VWQL = {
 		},
 		["Filter"] = 63,
 	},
-	["Hoobastanko-Kel'Thuzad"] = {
+	["Rogueout-Kel'Thuzad"] = {
+		["VERSION"] = 70,
 		["Filter"] = 63,
+		["RegularQuestMode"] = true,
 		["Quests"] = {
 		},
 		["FilterType"] = {
@@ -465,10 +475,8 @@ VWQL = {
 		["FilterType"] = {
 		},
 	},
-	["Rogueout-Kel'Thuzad"] = {
-		["VERSION"] = 70,
+	["Hoobastanko-Kel'Thuzad"] = {
 		["Filter"] = 63,
-		["RegularQuestMode"] = true,
 		["Quests"] = {
 		},
 		["FilterType"] = {

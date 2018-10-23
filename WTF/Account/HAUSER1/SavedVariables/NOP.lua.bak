@@ -7,19 +7,22 @@ NewOpenablesProfile = {
 		["Kmkarbashian - Kel'Thuzad"] = {
 			["itemID"] = 138797,
 		},
+		["Shamwowow - Kel'Thuzad"] = {
+			["itemID"] = 160439,
+		},
 		["Foifo - Azgalor"] = {
-			["itemID"] = 160439,
-		},
-		["Foolse - Twisting Nether"] = {
-			["itemID"] = 160439,
-		},
-		["Foolioioio - Frostwolf"] = {
 			["itemID"] = 160439,
 		},
 		["Blahndee - Kel'Thuzad"] = {
 			["itemID"] = 160439,
 		},
-		["Shamwowow - Kel'Thuzad"] = {
+		["Foolioioio - Frostwolf"] = {
+			["itemID"] = 160439,
+		},
+		["Foolse - Twisting Nether"] = {
+			["itemID"] = 160439,
+		},
+		["Fakake - Kel'Thuzad"] = {
 			["itemID"] = 160439,
 		},
 	},
@@ -44,6 +47,7 @@ NewOpenablesProfile = {
 		["Laurennah - Vashj"] = "Default",
 		["Hauzerina - Moon Guard"] = "Default",
 		["Foolioioio - Frostwolf"] = "Default",
+		["Fakake - Kel'Thuzad"] = "Default",
 		["Deeke - Kel'Thuzad"] = "Default",
 		["Nigellah - Kel'Thuzad"] = "Default",
 		["Foioio - Bonechewer"] = "Default",
@@ -90,13 +94,13 @@ NewOpenablesProfile = {
 				[153147] = true,
 				[0] = true,
 				[141028] = true,
-				[153106] = true,
+				[153137] = true,
 				[154784] = true,
 				[147348] = true,
 				[127835] = true,
 				[143605] = true,
 				[163015] = true,
-				[153137] = true,
+				[153106] = true,
 				[138967] = true,
 				[127834] = true,
 			},

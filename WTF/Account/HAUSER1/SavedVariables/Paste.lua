@@ -16,22 +16,23 @@ PasteDB = {
 		["Hauzerina - Kel'Thuzad"] = "Hauzerina - Kel'Thuzad",
 		["Foioio - Bonechewer"] = "Foioio - Bonechewer",
 		["Foifo - Azgalor"] = "Foifo - Azgalor",
+		["Lorranah - Kel'Thuzad"] = "Lorranah - Kel'Thuzad",
 		["Darknstormie - Kel'Thuzad"] = "Darknstormie - Kel'Thuzad",
 		["Alauranna - Kel'Thuzad"] = "Alauranna - Kel'Thuzad",
 		["Foioi - Aman'Thul"] = "Foioi - Aman'Thul",
 		["Loranus - Kel'Thuzad"] = "Loranus - Kel'Thuzad",
 		["Rogueout - Kel'Thuzad"] = "Rogueout - Kel'Thuzad",
-		["Lorranah - Kel'Thuzad"] = "Lorranah - Kel'Thuzad",
 		["Foioio - Thunderlord"] = "Foioio - Thunderlord",
 		["Loranah - Kel'Thuzad"] = "Loranah - Kel'Thuzad",
+		["Hauser - Mal'Ganis"] = "Hauser - Mal'Ganis",
 		["Laurranah - Kel'Thuzad"] = "Laurranah - Kel'Thuzad",
 		["Laurenn - Kel'Thuzad"] = "Laurenn - Kel'Thuzad",
 		["Hauzerogue - Kel'Thuzad"] = "Hauzerogue - Kel'Thuzad",
 		["Hauzerina - Moon Guard"] = "Hauzerina - Moon Guard",
 		["Foolioioio - Frostwolf"] = "Foolioioio - Frostwolf",
-		["Hauzerone - Dalaran"] = "Hauzerone - Dalaran",
 		["Fsdkjhskdjfh - Kel'Thuzad"] = "Fsdkjhskdjfh - Kel'Thuzad",
-		["Hauser - Mal'Ganis"] = "Hauser - Mal'Ganis",
+		["Fakake - Kel'Thuzad"] = "Fakake - Kel'Thuzad",
+		["Hauzerone - Dalaran"] = "Hauzerone - Dalaran",
 		["Alaurannah - Undermine"] = "Alaurannah - Undermine",
 		["Testfoolio - Kel'Thuzad"] = "Testfoolio - Kel'Thuzad",
 		["Pharrah - Kel'Thuzad"] = "Pharrah - Kel'Thuzad",
@@ -49,8 +50,8 @@ PasteDB = {
 		["Kmkarbashian - Kel'Thuzad"] = "Kmkarbashian - Kel'Thuzad",
 		["Skãdi - Kel'Thuzad"] = "Skãdi - Kel'Thuzad",
 		["Olrapey - Kel'Thuzad"] = "Olrapey - Kel'Thuzad",
-		["Beatryce - Kel'Thuzad"] = "Beatryce - Kel'Thuzad",
 		["Laurannah - Undermine"] = "Laurannah - Undermine",
+		["Beatryce - Kel'Thuzad"] = "Beatryce - Kel'Thuzad",
 		["Hauzer - Kel'Thuzad"] = "Hauzer - Kel'Thuzad",
 		["Laurennah - Vashj"] = "Laurennah - Vashj",
 		["Shamwowow - Kel'Thuzad"] = "Shamwowow - Kel'Thuzad",
@@ -77,12 +78,12 @@ PasteDB = {
 			},
 		},
 		["Laurannah - Kel'Thuzad"] = {
-			["whispertarget"] = "",
-			["where"] = "Default",
 			["loaded"] = true,
 			["minimap"] = {
 				["hide"] = true,
 			},
+			["where"] = "Default",
+			["whispertarget"] = "",
 			["pos"] = {
 				["height"] = 320,
 				["top"] = 994.165893554688,
@@ -125,6 +126,9 @@ PasteDB = {
 			["pos"] = {
 			},
 		},
+		["Lorranah - Kel'Thuzad"] = {
+			["loaded"] = true,
+		},
 		["Darknstormie - Kel'Thuzad"] = {
 			["loaded"] = true,
 		},
@@ -148,9 +152,6 @@ PasteDB = {
 		["Rogueout - Kel'Thuzad"] = {
 			["loaded"] = true,
 		},
-		["Lorranah - Kel'Thuzad"] = {
-			["loaded"] = true,
-		},
 		["Foioio - Thunderlord"] = {
 			["loaded"] = true,
 			["whispertarget"] = "",
@@ -159,6 +160,9 @@ PasteDB = {
 			},
 		},
 		["Loranah - Kel'Thuzad"] = {
+			["loaded"] = true,
+		},
+		["Hauser - Mal'Ganis"] = {
 			["loaded"] = true,
 		},
 		["Laurranah - Kel'Thuzad"] = {
@@ -180,13 +184,13 @@ PasteDB = {
 			["pos"] = {
 			},
 		},
-		["Hauzerone - Dalaran"] = {
-			["loaded"] = true,
-		},
 		["Fsdkjhskdjfh - Kel'Thuzad"] = {
 			["loaded"] = true,
 		},
-		["Hauser - Mal'Ganis"] = {
+		["Fakake - Kel'Thuzad"] = {
+			["loaded"] = true,
+		},
+		["Hauzerone - Dalaran"] = {
 			["loaded"] = true,
 		},
 		["Alaurannah - Undermine"] = {
@@ -208,15 +212,15 @@ PasteDB = {
 			["whispertarget"] = "",
 			["where"] = "Default",
 			["loaded"] = true,
+			["minimap"] = {
+				["minimapPos"] = 216.288929982077,
+				["hide"] = true,
+			},
 			["pos"] = {
 				["height"] = 320.833404541016,
 				["top"] = 760,
 				["left"] = 816.666809082031,
 				["width"] = 499.999938964844,
-			},
-			["minimap"] = {
-				["minimapPos"] = 216.288929982077,
-				["hide"] = true,
 			},
 		},
 		["Nigellah - Kel'Thuzad"] = {
@@ -244,8 +248,8 @@ PasteDB = {
 		},
 		["Foiio - Drakkari"] = {
 			["loaded"] = true,
-			["where"] = "Default",
 			["whispertarget"] = "",
+			["where"] = "Default",
 			["pos"] = {
 			},
 		},
@@ -271,10 +275,10 @@ PasteDB = {
 		["Olrapey - Kel'Thuzad"] = {
 			["loaded"] = true,
 		},
-		["Beatryce - Kel'Thuzad"] = {
+		["Laurannah - Undermine"] = {
 			["loaded"] = true,
 		},
-		["Laurannah - Undermine"] = {
+		["Beatryce - Kel'Thuzad"] = {
 			["loaded"] = true,
 		},
 		["Hauzer - Kel'Thuzad"] = {
