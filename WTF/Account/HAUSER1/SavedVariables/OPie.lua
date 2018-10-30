@@ -148,49 +148,49 @@ OneRing_Config = {
 			},
 			["Emotes"] = {
 				{
-					["caption"] = "Cheer",
 					["sliceToken"] = "ABueo8E8ojk",
 					["id"] = "/cheer",
+					["caption"] = "Cheer",
 				}, -- [1]
 				{
-					["caption"] = "Wave",
 					["sliceToken"] = "ABueo8E8oj4",
 					["id"] = "/wave",
+					["caption"] = "Wave",
 				}, -- [2]
 				{
-					["caption"] = "Point",
 					["sliceToken"] = "ABueo8E8ojh",
 					["id"] = "/point",
+					["caption"] = "Point",
 				}, -- [3]
 				{
-					["caption"] = "Dance",
 					["sliceToken"] = "ABueo8E8ojj",
 					["id"] = "/dance",
+					["caption"] = "Dance",
 				}, -- [4]
 				{
-					["caption"] = "Shrug",
 					["sliceToken"] = "ABueo8E8ojd",
 					["id"] = "/shrug",
+					["caption"] = "Shrug",
 				}, -- [5]
 				{
-					["caption"] = "Sleep",
 					["sliceToken"] = "ABueo8E8oj3",
 					["id"] = "/sleep",
+					["caption"] = "Sleep",
 				}, -- [6]
 				{
-					["caption"] = "Laugh",
 					["sliceToken"] = "ABueo8E8ojs",
 					["id"] = "/laugh",
+					["caption"] = "Laugh",
 				}, -- [7]
 				{
-					["caption"] = "Spit",
 					["sliceToken"] = "ABueo8E8oja",
 					["id"] = "/spit",
+					["caption"] = "Spit",
 				}, -- [8]
 				{
-					["caption"] = "For the Alliance!",
 					["sliceToken"] = "ABue3Z618s1",
 					["id"] = "/forthealliance",
+					["caption"] = "For the Alliance!",
 				}, -- [9]
 				["noPersistentCA"] = true,
 				["name"] = "Emotes",
