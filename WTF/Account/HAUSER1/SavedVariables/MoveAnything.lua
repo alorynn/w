@@ -2,8 +2,8 @@
 MADB = {
 	["characters"] = {
 	},
-	["frameListRows"] = 18,
 	["tooltips"] = true,
+	["frameListRows"] = 18,
 	["profiles"] = {
 		["default"] = {
 			["name"] = "default",
@@ -25,23 +25,6 @@ MADB = {
 						48.6334400177002, -- [5]
 					},
 				},
-				["ObjectiveTrackerBonusBannerFrame"] = {
-					["orgPos"] = {
-						"TOP", -- [1]
-						"UIParent", -- [2]
-						"TOP", -- [3]
-						0, -- [4]
-						-170, -- [5]
-					},
-					["name"] = "ObjectiveTrackerBonusBannerFrame",
-					["pos"] = {
-						"TOP", -- [1]
-						"UIParent", -- [2]
-						"TOP", -- [3]
-						-3.05175781250e-005, -- [4]
-						-170, -- [5]
-					},
-				},
 				["ObjectiveTrackerFrameMover"] = {
 					["orgPos"] = {
 						"TOPRIGHT", -- [1]
@@ -59,6 +42,23 @@ MADB = {
 						0, -- [5]
 					},
 				},
+				["ObjectiveTrackerBonusBannerFrame"] = {
+					["orgPos"] = {
+						"TOP", -- [1]
+						"UIParent", -- [2]
+						"TOP", -- [3]
+						0, -- [4]
+						-170, -- [5]
+					},
+					["name"] = "ObjectiveTrackerBonusBannerFrame",
+					["pos"] = {
+						"TOP", -- [1]
+						"UIParent", -- [2]
+						"TOP", -- [3]
+						-3.05175781250e-005, -- [4]
+						-170, -- [5]
+					},
+				},
 				["TalkingHeadFrame"] = {
 					["orgPos"] = {
 						"BOTTOM", -- [1]
@@ -74,23 +74,6 @@ MADB = {
 						"BOTTOM", -- [3]
 						7.900717655055640e-005, -- [4]
 						3.39983787128470e-005, -- [5]
-					},
-				},
-				["ObjectiveTrackerFrameScaleMover"] = {
-					["orgPos"] = {
-						"TOPRIGHT", -- [1]
-						"MinimapCluster", -- [2]
-						"BOTTOMRIGHT", -- [3]
-						-10, -- [4]
-						0, -- [5]
-					},
-					["name"] = "ObjectiveTrackerFrameScaleMover",
-					["pos"] = {
-						"TOPRIGHT", -- [1]
-						"MinimapCluster", -- [2]
-						"BOTTOMRIGHT", -- [3]
-						-10, -- [4]
-						0, -- [5]
 					},
 				},
 				["PetStableFrame"] = {
@@ -120,6 +103,23 @@ MADB = {
 					["name"] = "PetStableFrame",
 					["disableLayerOverlay"] = false,
 					["disableLayerBorder"] = false,
+				},
+				["ObjectiveTrackerFrameScaleMover"] = {
+					["orgPos"] = {
+						"TOPRIGHT", -- [1]
+						"MinimapCluster", -- [2]
+						"BOTTOMRIGHT", -- [3]
+						-10, -- [4]
+						0, -- [5]
+					},
+					["name"] = "ObjectiveTrackerFrameScaleMover",
+					["pos"] = {
+						"TOPRIGHT", -- [1]
+						"MinimapCluster", -- [2]
+						"BOTTOMRIGHT", -- [3]
+						-10, -- [4]
+						0, -- [5]
+					},
 				},
 				["QuestLogPopupDetailFrame"] = {
 					["UIPanelWindows"] = {
