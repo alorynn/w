@@ -1,226 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/p Im gonna do all these quests if you wanna group", -- [1]
-		"/p heeya were gonna do all these quests", -- [2]
-		"/p lemme know when you guys are done", -- [3]
-		"/p done", -- [4]
-		"/p witherbark", -- [5]
-		"/p er defilers is closer", -- [6]
-		"/p oh I was at defilers lol", -- [7]
-		"/p ok witherbark", -- [8]
-		"/p er ", -- [9]
-		"/p blulderfist", -- [10]
-		"/p sw", -- [11]
-		"/p ya", -- [12]
-		"/p oh god not molok", -- [13]
-		"/p I have ghosts and syndicate left", -- [14]
-		"/p think you already did syndicate", -- [15]
-		"/p ghost", -- [16]
-		"/p all done", -- [17]
-		"/p ?", -- [18]
-		"/p ok cool I dont have time for rares today but ty for group!", -- [19]
-		"/cw Aeides ty for bruto!", -- [20]
+		"/p heeya were gonna do all these quests", -- [1]
+		"/p lemme know when you guys are done", -- [2]
+		"/p done", -- [3]
+		"/p witherbark", -- [4]
+		"/p er defilers is closer", -- [5]
+		"/p oh I was at defilers lol", -- [6]
+		"/p ok witherbark", -- [7]
+		"/p er ", -- [8]
+		"/p blulderfist", -- [9]
+		"/p sw", -- [10]
+		"/p ya", -- [11]
+		"/p oh god not molok", -- [12]
+		"/p I have ghosts and syndicate left", -- [13]
+		"/p think you already did syndicate", -- [14]
+		"/p ghost", -- [15]
+		"/p all done", -- [16]
+		"/p ?", -- [17]
+		"/p ok cool I dont have time for rares today but ty for group!", -- [18]
+		"/cw Aeides ty for bruto!", -- [19]
+		"/cast golden king", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"need help at circle of elements", -- [1]
-			"Bimbimbop-Stormrage", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Bimbimbop-Stormrage", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			179, -- [11]
-			"Player-60-0A265C62", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaBimbimbop-Stormrage|r",
-			[51] = 1539544508,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [1]
-		{
-			"holy shit", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			206, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1539544754,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [2]
-		{
-			"we got any heals?", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			207, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1539544766,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [3]
-		{
-			"you still can't add people to your guild from other servers right?", -- [1]
-			"Laurannah-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Laurannah", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			133, -- [11]
-			"Player-3693-092AD332", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffaad372Laurannah|r",
-			[51] = 1539565074,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
-		{
-			"•Colossal• is recruiting more competent players eager to progress thru Mythic Uldir. Raid days are Tues/Wed/Sun 8pm-11pm Server Time. ", -- [1]
-			"Darmoralol-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Darmoralol", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			333, -- [11]
-			"Player-3693-07344521", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffDarmoralol|r",
-			[51] = 1539566396,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
-		{
-			"•Colossal• is recruiting more competent players eager to progress thru Mythic Uldir. Raid days are Tues/Wed/Sun 8pm-11pm Server Time. ", -- [1]
-			"Darmoralol-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Darmoralol", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			341, -- [11]
-			"Player-3693-07344521", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffDarmoralol|r",
-			[51] = 1539566455,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
-		{
-			"BUYING |cffa335ee|Hitem:141577::::::::20:260::26:2:1483:3337:::|h[Fists of Thane Kray-Tan]|h|r/|cffa335ee|Hitem:141586::::::::20:260::26:3:40:1475:3528:::|h[Marfisi's Giant Censer]|h|r PST!", -- [1]
-			"Nomnombank-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nomnombank", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			343, -- [11]
-			"Player-3693-0950EE7B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Nomnombank|r",
-			[51] = 1539566466,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
-		{
-			"***Selling cheap wow gold***169USD for 1M***10% Bonus free gold**WWW.GOLD4PVE.COM***BUY NOW! selling cheap ilvl395 BOE plate/cloth/mail/leather& Ilvl385 Rings,ilvl370 Trinkets! ilvl 370 class package, ilvl 360 weapons!>>www.gold4pve.com<<", -- [1]
-			"Jedwayton-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Jedwayton", -- [5]
-			"DND", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			351, -- [11]
-			"Player-3693-0A102EE6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffffffffJedwayton|r",
-			[51] = 1539566510,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
-		{
-			"BUYING |cffa335ee|Hitem:141577::::::::20:260::26:2:1483:3337:::|h[Fists of Thane Kray-Tan]|h|r/|cffa335ee|Hitem:141586::::::::20:260::26:3:40:1475:3528:::|h[Marfisi's Giant Censer]|h|r PST!", -- [1]
-			"Nomnombank-Kel'Thuzad", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Nomnombank", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			356, -- [11]
-			"Player-3693-0950EE7B", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfffff468Nomnombank|r",
-			[51] = 1539566559,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [9]
 		{
 			"***Selling cheap wow gold***169USD for 1M***10% Bonus free gold**WWW.GOLD4PVE.COM***BUY NOW! selling cheap ilvl395 BOE plate/cloth/mail/leather& Ilvl385 Rings,ilvl370 Trinkets! ilvl 370 class package, ilvl 360 weapons!>>www.gold4pve.com<<", -- [1]
 			"Jedwayton-Kel'Thuzad", -- [2]
@@ -242,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffJedwayton|r",
 			[51] = 1539566569,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [10]
+		}, -- [1]
 		{
 			"{WTB} ALL Herbs 8g per Unlimited C.O.D. or PST.", -- [1]
 			"Holypedro-Kel'Thuzad", -- [2]
@@ -264,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffHolypedro|r",
 			[51] = 1539566596,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [11]
+		}, -- [2]
 		{
 			"•Colossal• is recruiting more competent players eager to progress thru Mythic Uldir. Raid days are Tues/Wed/Sun 8pm-11pm Server Time. ", -- [1]
 			"Darmoralol-Kel'Thuzad", -- [2]
@@ -286,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffDarmoralol|r",
 			[51] = 1539566600,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [12]
+		}, -- [3]
 		{
 			"***Selling cheap wow gold***169USD for 1M***10% Bonus free gold**WWW.GOLD4PVE.COM***BUY NOW! selling cheap ilvl395 BOE plate/cloth/mail/leather& Ilvl385 Rings,ilvl370 Trinkets! ilvl 370 class package, ilvl 360 weapons!>>www.gold4pve.com<<", -- [1]
 			"Jedwayton-Kel'Thuzad", -- [2]
@@ -308,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffJedwayton|r",
 			[51] = 1539566617,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [13]
+		}, -- [4]
 		{
 			"Free bags to new players click my name msg me & I'll get you set up ", -- [1]
 			"Firehore-Kel'Thuzad", -- [2]
@@ -330,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddFirehore|r",
 			[51] = 1539566630,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [14]
+		}, -- [5]
 		{
 			"BUYING |cffa335ee|Hitem:141577::::::::20:260::26:2:1483:3337:::|h[Fists of Thane Kray-Tan]|h|r/|cffa335ee|Hitem:141586::::::::20:260::26:3:40:1475:3528:::|h[Marfisi's Giant Censer]|h|r PST!", -- [1]
 			"Nomnombank-Kel'Thuzad", -- [2]
@@ -352,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Nomnombank|r",
 			[51] = 1539566652,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [15]
+		}, -- [6]
 		{
 			"***Selling cheap wow gold***169USD for 1M***10% Bonus free gold**WWW.GOLD4PVE.COM***BUY NOW! selling cheap ilvl395 BOE plate/cloth/mail/leather& Ilvl385 Rings,ilvl370 Trinkets! ilvl 370 class package, ilvl 360 weapons!>>www.gold4pve.com<<", -- [1]
 			"Jedwayton-Kel'Thuzad", -- [2]
@@ -374,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffJedwayton|r",
 			[51] = 1539566668,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [16]
+		}, -- [7]
 		{
 			"WTS Normal and Heroic Uldir Runs. Smooth and Easy Guild run! Also doing Mythic+ Carries /w for info", -- [1]
 			"Janyehies-Kel'Thuzad", -- [2]
@@ -396,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Janyehies|r",
 			[51] = 1539566704,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [17]
+		}, -- [8]
 		{
 			"Free bags to new players click my name msg me & I'll get you set up ", -- [1]
 			"Firehore-Kel'Thuzad", -- [2]
@@ -418,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cff0070ddFirehore|r",
 			[51] = 1539566711,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [18]
+		}, -- [9]
 		{
 			"BUYING |cffa335ee|Hitem:141577::::::::20:260::26:2:1483:3337:::|h[Fists of Thane Kray-Tan]|h|r/|cffa335ee|Hitem:141586::::::::20:260::26:3:40:1475:3528:::|h[Marfisi's Giant Censer]|h|r PST!", -- [1]
 			"Nomnombank-Kel'Thuzad", -- [2]
@@ -440,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Nomnombank|r",
 			[51] = 1539566745,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [19]
+		}, -- [10]
 		{
 			"***Selling cheap wow gold***169USD for 1M***10% Bonus free gold**WWW.GOLD4PVE.COM***BUY NOW! selling cheap ilvl395 BOE plate/cloth/mail/leather& Ilvl385 Rings,ilvl370 Trinkets! ilvl 370 class package, ilvl 360 weapons!>>www.gold4pve.com<<", -- [1]
 			"Jedwayton-Kel'Thuzad", -- [2]
@@ -462,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffffffffJedwayton|r",
 			[51] = 1539566781,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [20]
+		}, -- [11]
 		{
 			"|cffa335ee|Hitem:163596::::::::120:268::4:3:4825:1462:4786:::|h[Cowl of Dark Portents]|h|r roll", -- [1]
 			"Cnlolz-Kel'Thuzad", -- [2]
@@ -484,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Cnlolz|r",
 			[51] = 1539618109,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [21]
+		}, -- [12]
 		{
 			"i can run 3, 4 and 6", -- [1]
 			"Aennas-Stormrage", -- [2]
@@ -506,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Aennas-Stormrage|r",
 			[51] = 1539618168,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [22]
+		}, -- [13]
 		{
 			"I could use on of those rings if not needed", -- [1]
 			"Brexit-Hellscream", -- [2]
@@ -528,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dBrexit-Hellscream|r",
 			[51] = 1539618172,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [23]
+		}, -- [14]
 		{
 			"warlock put up portal for orb?", -- [1]
 			"Cnlolz-Kel'Thuzad", -- [2]
@@ -550,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Cnlolz|r",
 			[51] = 1539618206,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [24]
+		}, -- [15]
 		{
 			"actually only 3 and 6", -- [1]
 			"Aennas-Stormrage", -- [2]
@@ -572,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Aennas-Stormrage|r",
 			[51] = 1539618220,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [25]
+		}, -- [16]
 		{
 			"KK", -- [1]
 			"Kaidel-Skywall", -- [2]
@@ -594,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edKaidel-Skywall|r",
 			[51] = 1539618228,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [26]
+		}, -- [17]
 		{
 			"do we have people that know how to run ", -- [1]
 			"Cnlolz-Kel'Thuzad", -- [2]
@@ -616,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Cnlolz|r",
 			[51] = 1539618271,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [27]
+		}, -- [18]
 		{
 			"<---", -- [1]
 			"Aennas-Stormrage", -- [2]
@@ -638,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Aennas-Stormrage|r",
 			[51] = 1539618277,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [28]
+		}, -- [19]
 		{
 			"this is my first time here, i dont- sorry", -- [1]
 			"Aybara-SistersofElune", -- [2]
@@ -660,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aAybara-SistersofElune|r",
 			[51] = 1539618284,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [29]
+		}, -- [20]
 		{
 			"<---", -- [1]
 			"Malfura-ArgentDawn", -- [2]
@@ -682,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aMalfura-ArgentDawn|r",
 			[51] = 1539618285,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [30]
+		}, -- [21]
 		{
 			"you can legit run every orb", -- [1]
 			"Cnlolz-Kel'Thuzad", -- [2]
@@ -704,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Cnlolz|r",
 			[51] = 1539618291,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [31]
+		}, -- [22]
 		{
 			"no debuff ", -- [1]
 			"Cnlolz-Kel'Thuzad", -- [2]
@@ -726,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Cnlolz|r",
 			[51] = 1539618294,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [32]
+		}, -- [23]
 		{
 			"well", -- [1]
 			"Aennas-Stormrage", -- [2]
@@ -748,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Aennas-Stormrage|r",
 			[51] = 1539618302,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [33]
+		}, -- [24]
 		{
 			"i need to drop tans", -- [1]
 			"Aennas-Stormrage", -- [2]
@@ -770,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Aennas-Stormrage|r",
 			[51] = 1539618308,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [34]
+		}, -- [25]
 		{
 			"i mean 2 people can run every orb", -- [1]
 			"Cnlolz-Kel'Thuzad", -- [2]
@@ -792,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Cnlolz|r",
 			[51] = 1539618324,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [35]
+		}, -- [26]
 		{
 			"so can only do 2 really", -- [1]
 			"Aennas-Stormrage", -- [2]
@@ -814,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Aennas-Stormrage|r",
 			[51] = 1539618325,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [36]
+		}, -- [27]
 		{
 			"its not anything special", -- [1]
 			"Cnlolz-Kel'Thuzad", -- [2]
@@ -836,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Cnlolz|r",
 			[51] = 1539618329,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [37]
+		}, -- [28]
 		{
 			"warriors can solo left", -- [1]
 			"Aennas-Stormrage", -- [2]
@@ -858,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Aennas-Stormrage|r",
 			[51] = 1539618333,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [38]
+		}, -- [29]
 		{
 			"yea", -- [1]
 			"Aennas-Stormrage", -- [2]
@@ -880,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Aennas-Stormrage|r",
 			[51] = 1539618339,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [39]
+		}, -- [30]
 		{
 			"can i get assist", -- [1]
 			"Aennas-Stormrage", -- [2]
@@ -902,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Aennas-Stormrage|r",
 			[51] = 1539618351,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [40]
+		}, -- [31]
 		{
 			"i can mark gate", -- [1]
 			"Aennas-Stormrage", -- [2]
@@ -924,7 +726,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Aennas-Stormrage|r",
 			[51] = 1539618357,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [41]
+		}, -- [32]
 		{
 			"warlock go put gate on blue and green", -- [1]
 			"Cnlolz-Kel'Thuzad", -- [2]
@@ -946,7 +748,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Cnlolz|r",
 			[51] = 1539618395,
 			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [42]
+		}, -- [33]
 		{
 			"BETTER?", -- [1]
 			"Kaidel-Skywall", -- [2]
@@ -968,7 +770,7 @@ ElvCharacterDB = {
 			[52] = "|cff8787edKaidel-Skywall|r",
 			[51] = 1539618429,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [43]
+		}, -- [34]
 		{
 			"could be closer but its fine", -- [1]
 			"Aennas-Stormrage", -- [2]
@@ -990,7 +792,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Aennas-Stormrage|r",
 			[51] = 1539618447,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [44]
+		}, -- [35]
 		{
 			"grp 1?", -- [1]
 			"Aennas-Stormrage", -- [2]
@@ -1012,7 +814,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Aennas-Stormrage|r",
 			[51] = 1539618467,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [45]
+		}, -- [36]
 		{
 			"grp 2", -- [1]
 			"Aennas-Stormrage", -- [2]
@@ -1034,7 +836,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Aennas-Stormrage|r",
 			[51] = 1539618526,
 			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [46]
+		}, -- [37]
 		{
 			"Explosive Corruption on Laurannah", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1056,7 +858,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539618618,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [47]
+		}, -- [38]
 		{
 			"3", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1078,7 +880,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539618620,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [48]
+		}, -- [39]
 		{
 			"2", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1100,7 +902,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539618621,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [49]
+		}, -- [40]
 		{
 			"1", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1122,7 +924,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539618621,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [50]
+		}, -- [41]
 		{
 			"grp 5", -- [1]
 			"Aennas-Stormrage", -- [2]
@@ -1144,7 +946,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Aennas-Stormrage|r",
 			[51] = 1539618667,
 			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [51]
+		}, -- [42]
 		{
 			"grp 5", -- [1]
 			"Aennas-Stormrage", -- [2]
@@ -1166,7 +968,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Aennas-Stormrage|r",
 			[51] = 1539618687,
 			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [52]
+		}, -- [43]
 		{
 			"grp 5", -- [1]
 			"Aennas-Stormrage", -- [2]
@@ -1188,7 +990,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Aennas-Stormrage|r",
 			[51] = 1539618689,
 			[50] = "CHAT_MSG_RAID_WARNING",
-		}, -- [53]
+		}, -- [44]
 		{
 			"Blood Feast on Laurannah", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1210,7 +1012,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539618703,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [54]
+		}, -- [45]
 		{
 			"Blood Feast fading in 3", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1232,7 +1034,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539618708,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [55]
+		}, -- [46]
 		{
 			"Blood Feast fading in 2", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1254,7 +1056,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539618709,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [56]
+		}, -- [47]
 		{
 			"Blood Feast fading in 1", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1276,7 +1078,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539618710,
 			[50] = "CHAT_MSG_YELL",
-		}, -- [57]
+		}, -- [48]
 		{
 			"right", -- [1]
 			"Malfura-ArgentDawn", -- [2]
@@ -1298,7 +1100,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aMalfura-ArgentDawn|r",
 			[51] = 1539618711,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [58]
+		}, -- [49]
 		{
 			"Explosive Corruption on Laurannah", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1320,7 +1122,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539618728,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [59]
+		}, -- [50]
 		{
 			"3", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1342,7 +1144,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539618729,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [60]
+		}, -- [51]
 		{
 			"2", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1364,7 +1166,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539618730,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [61]
+		}, -- [52]
 		{
 			"1", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1386,7 +1188,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1539618731,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [62]
+		}, -- [53]
 		{
 			"right", -- [1]
 			"Malfura-ArgentDawn", -- [2]
@@ -1408,7 +1210,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aMalfura-ArgentDawn|r",
 			[51] = 1539618733,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [63]
+		}, -- [54]
 		{
 			"Explosive Corruption on Cnlolz", -- [1]
 			"Cnlolz-Kel'Thuzad", -- [2]
@@ -1430,7 +1232,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Cnlolz|r",
 			[51] = 1539618743,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [64]
+		}, -- [55]
 		{
 			"3", -- [1]
 			"Cnlolz-Kel'Thuzad", -- [2]
@@ -1452,7 +1254,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Cnlolz|r",
 			[51] = 1539618744,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [65]
+		}, -- [56]
 		{
 			"Explosive Corruption on Stahlar", -- [1]
 			"Stahlar-Kel'Thuzad", -- [2]
@@ -1474,7 +1276,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dStahlar|r",
 			[51] = 1539618759,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [66]
+		}, -- [57]
 		{
 			"3", -- [1]
 			"Stahlar-Kel'Thuzad", -- [2]
@@ -1496,7 +1298,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dStahlar|r",
 			[51] = 1539618760,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [67]
+		}, -- [58]
 		{
 			"2", -- [1]
 			"Stahlar-Kel'Thuzad", -- [2]
@@ -1518,7 +1320,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dStahlar|r",
 			[51] = 1539618761,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [68]
+		}, -- [59]
 		{
 			"1", -- [1]
 			"Stahlar-Kel'Thuzad", -- [2]
@@ -1540,7 +1342,7 @@ ElvCharacterDB = {
 			[52] = "|cffc69b6dStahlar|r",
 			[51] = 1539618762,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [69]
+		}, -- [60]
 		{
 			"Explosive Corruption on Cnlolz", -- [1]
 			"Cnlolz-Kel'Thuzad", -- [2]
@@ -1562,7 +1364,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Cnlolz|r",
 			[51] = 1539618775,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [70]
+		}, -- [61]
 		{
 			"3", -- [1]
 			"Cnlolz-Kel'Thuzad", -- [2]
@@ -1584,7 +1386,7 @@ ElvCharacterDB = {
 			[52] = "|cff00ff96Cnlolz|r",
 			[51] = 1539618776,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [71]
+		}, -- [62]
 		{
 			"|cffffff00The Canals is under attack!|r", -- [1]
 			"", -- [2]
@@ -1606,7 +1408,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1539618911,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [72]
+		}, -- [63]
 		{
 			"lmao love the lions ", -- [1]
 			"Aurik-Kel'Thuzad", -- [2]
@@ -1628,7 +1430,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaAurik|r",
 			[51] = 1539866144,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [73]
+		}, -- [64]
 		{
 			"heh thanks", -- [1]
 			"Aurik-Kel'Thuzad", -- [2]
@@ -1650,7 +1452,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaAurik|r",
 			[51] = 1539866600,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [74]
+		}, -- [65]
 		{
 			"finally some decent alliance themed mail mog this xpac", -- [1]
 			"Aurik-Kel'Thuzad", -- [2]
@@ -1672,7 +1474,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaAurik|r",
 			[51] = 1539866618,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [75]
+		}, -- [66]
 		{
 			"yep! 7th legion mogs are the best ", -- [1]
 			"Aurik-Kel'Thuzad", -- [2]
@@ -1694,7 +1496,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaAurik|r",
 			[51] = 1539866717,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [76]
+		}, -- [67]
 		{
 			"i'm close to getting the tabard", -- [1]
 			"Aurik-Kel'Thuzad", -- [2]
@@ -1716,7 +1518,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaAurik|r",
 			[51] = 1539866732,
 			[50] = "CHAT_MSG_WHISPER",
-		}, -- [77]
+		}, -- [68]
 		{
 			"nice", -- [1]
 			"Aurik-Kel'Thuzad", -- [2]
@@ -1738,7 +1540,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc6eaAurik|r",
 			[51] = 1539866768,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [78]
+		}, -- [69]
 		{
 			"heya", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1760,7 +1562,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1540309302,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [79]
+		}, -- [70]
 		{
 			"Im gonna do all these quests if you wanna group", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1782,7 +1584,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1540309310,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [80]
+		}, -- [71]
 		{
 			"sure", -- [1]
 			"Epicboomz-Dalaran", -- [2]
@@ -1804,7 +1606,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aEpicboomz-Dalaran|r",
 			[51] = 1540309316,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [81]
+		}, -- [72]
 		{
 			"heeya were gonna do all these quests", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1826,7 +1628,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1540309379,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [82]
+		}, -- [73]
 		{
 			"lemme know when you guys are done", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1848,7 +1650,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1540309411,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [83]
+		}, -- [74]
 		{
 			"+2", -- [1]
 			"Kaattana-Dalaran", -- [2]
@@ -1870,7 +1672,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Kaattana-Dalaran|r",
 			[51] = 1540309460,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [84]
+		}, -- [75]
 		{
 			"done", -- [1]
 			"Kaattana-Dalaran", -- [2]
@@ -1892,7 +1694,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Kaattana-Dalaran|r",
 			[51] = 1540309470,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [85]
+		}, -- [76]
 		{
 			"done", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1914,7 +1716,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1540309478,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [86]
+		}, -- [77]
 		{
 			"done", -- [1]
 			"Epicboomz-Dalaran", -- [2]
@@ -1936,7 +1738,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aEpicboomz-Dalaran|r",
 			[51] = 1540309495,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [87]
+		}, -- [78]
 		{
 			"witherbark", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1958,7 +1760,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1540309503,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [88]
+		}, -- [79]
 		{
 			"er defilers is closer", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -1980,7 +1782,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1540309512,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [89]
+		}, -- [80]
 		{
 			"done", -- [1]
 			"Kaattana-Dalaran", -- [2]
@@ -2002,7 +1804,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Kaattana-Dalaran|r",
 			[51] = 1540309640,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [90]
+		}, -- [81]
 		{
 			"oh I was at defilers lol", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2024,7 +1826,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1540309662,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [91]
+		}, -- [82]
 		{
 			"Interrupted Darbel Montrose's |cff71d5ff|Hspell:79932:0|h[Shadow Bolt]|h|r!", -- [1]
 			"Kaattana-Dalaran", -- [2]
@@ -2046,7 +1848,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Kaattana-Dalaran|r",
 			[51] = 1540309678,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [92]
+		}, -- [83]
 		{
 			"done", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2068,7 +1870,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1540309780,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [93]
+		}, -- [84]
 		{
 			"done", -- [1]
 			"Kaattana-Dalaran", -- [2]
@@ -2090,7 +1892,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Kaattana-Dalaran|r",
 			[51] = 1540309780,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [94]
+		}, -- [85]
 		{
 			"gtg. duild raid", -- [1]
 			"Kaattana-Dalaran", -- [2]
@@ -2112,7 +1914,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Kaattana-Dalaran|r",
 			[51] = 1540309797,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [95]
+		}, -- [86]
 		{
 			"done", -- [1]
 			"Epicboomz-Dalaran", -- [2]
@@ -2134,7 +1936,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aEpicboomz-Dalaran|r",
 			[51] = 1540309799,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [96]
+		}, -- [87]
 		{
 			"ok witherbark", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2156,7 +1958,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1540309818,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [97]
+		}, -- [88]
 		{
 			"er ", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2178,7 +1980,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1540309824,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [98]
+		}, -- [89]
 		{
 			"blulderfist", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2200,7 +2002,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1540309825,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [99]
+		}, -- [90]
 		{
 			"sw", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2222,7 +2024,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1540309832,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [100]
+		}, -- [91]
 		{
 			"lets do boulderfist", -- [1]
 			"Epicboomz-Dalaran", -- [2]
@@ -2244,7 +2046,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aEpicboomz-Dalaran|r",
 			[51] = 1540309842,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [101]
+		}, -- [92]
 		{
 			"get it out of the way", -- [1]
 			"Epicboomz-Dalaran", -- [2]
@@ -2266,7 +2068,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aEpicboomz-Dalaran|r",
 			[51] = 1540309847,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [102]
+		}, -- [93]
 		{
 			"ya", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2288,7 +2090,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1540309850,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [103]
+		}, -- [94]
 		{
 			"oh god not molok", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2310,7 +2112,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1540310069,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [104]
+		}, -- [95]
 		{
 			"lol i need it", -- [1]
 			"Epicboomz-Dalaran", -- [2]
@@ -2332,7 +2134,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aEpicboomz-Dalaran|r",
 			[51] = 1540310125,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [105]
+		}, -- [96]
 		{
 			"done", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2354,7 +2156,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1540310337,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [106]
+		}, -- [97]
 		{
 			"witherbark", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2376,7 +2178,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1540310352,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [107]
+		}, -- [98]
 		{
 			"ok yeh witherbark", -- [1]
 			"Epicboomz-Dalaran", -- [2]
@@ -2398,7 +2200,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aEpicboomz-Dalaran|r",
 			[51] = 1540310412,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [108]
+		}, -- [99]
 		{
 			"done", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2420,7 +2222,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1540310548,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [109]
+		}, -- [100]
 		{
 			"me too", -- [1]
 			"Epicboomz-Dalaran", -- [2]
@@ -2442,7 +2244,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aEpicboomz-Dalaran|r",
 			[51] = 1540310552,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [110]
+		}, -- [101]
 		{
 			"I have ghosts and syndicate left", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2464,7 +2266,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1540310574,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [111]
+		}, -- [102]
 		{
 			"ghosts", -- [1]
 			"Epicboomz-Dalaran", -- [2]
@@ -2486,7 +2288,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aEpicboomz-Dalaran|r",
 			[51] = 1540310576,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [112]
+		}, -- [103]
 		{
 			"think you already did syndicate", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2508,7 +2310,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1540310584,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [113]
+		}, -- [104]
 		{
 			"which is closer", -- [1]
 			"Epicboomz-Dalaran", -- [2]
@@ -2530,7 +2332,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aEpicboomz-Dalaran|r",
 			[51] = 1540310588,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [114]
+		}, -- [105]
 		{
 			"i can come help u with syndicate i dont mind", -- [1]
 			"Epicboomz-Dalaran", -- [2]
@@ -2552,7 +2354,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aEpicboomz-Dalaran|r",
 			[51] = 1540310604,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [115]
+		}, -- [106]
 		{
 			"done", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2574,7 +2376,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1540310685,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [116]
+		}, -- [107]
 		{
 			"ghost", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2596,7 +2398,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1540310689,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [117]
+		}, -- [108]
 		{
 			"done", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2618,7 +2420,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1540310823,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [118]
+		}, -- [109]
 		{
 			"same", -- [1]
 			"Epicboomz-Dalaran", -- [2]
@@ -2640,7 +2442,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aEpicboomz-Dalaran|r",
 			[51] = 1540310827,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [119]
+		}, -- [110]
 		{
 			"all done", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2662,7 +2464,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1540310836,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [120]
+		}, -- [111]
 		{
 			"?", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2684,7 +2486,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1540310838,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [121]
+		}, -- [112]
 		{
 			"yeh i just got rares to go around now", -- [1]
 			"Epicboomz-Dalaran", -- [2]
@@ -2706,7 +2508,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aEpicboomz-Dalaran|r",
 			[51] = 1540310852,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [122]
+		}, -- [113]
 		{
 			"ok cool I dont have time for rares today but ty for group!", -- [1]
 			"Laurannah-Kel'Thuzad", -- [2]
@@ -2728,7 +2530,7 @@ ElvCharacterDB = {
 			[52] = "|cffaad372Laurannah|r",
 			[51] = 1540310865,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [123]
+		}, -- [114]
 		{
 			"ty too", -- [1]
 			"Epicboomz-Dalaran", -- [2]
@@ -2750,7 +2552,7 @@ ElvCharacterDB = {
 			[52] = "|cffff7c0aEpicboomz-Dalaran|r",
 			[51] = 1540310873,
 			[50] = "CHAT_MSG_PARTY",
-		}, -- [124]
+		}, -- [115]
 		{
 			"ty for bruto!", -- [1]
 			"Aeides-Kel'Thuzad", -- [2]
@@ -2772,7 +2574,7 @@ ElvCharacterDB = {
 			[52] = "|cfffff468Aeides|r",
 			[51] = 1540311313,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
-		}, -- [125]
+		}, -- [116]
 		{
 			"WTS Mythic 10 keystone carries. 1400+ io. Get your 380+ drop next week and any tradeable 370+ loot. PST For more info.", -- [1]
 			"Gibiati-Kel'Thuzad", -- [2]
@@ -2794,7 +2596,7 @@ ElvCharacterDB = {
 			[52] = "|cffa330c9Gibiati|r",
 			[51] = 1540586791,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [126]
+		}, -- [117]
 		{
 			"|cffffff00Fort Daelin is under attack!|r", -- [1]
 			"", -- [2]
@@ -2815,6 +2617,204 @@ ElvCharacterDB = {
 			true, -- [17]
 			[52] = "",
 			[51] = 1541208878,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [118]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12889:Player-3693-092AD332:1:11:7:18:4294967295:4294967295:4294967295:4294967295|h[Strike Fast]|h|r!", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			115, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1541639867,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [119]
+		{
+			"we need people at the front", -- [1]
+			"Secco-Shadowsong", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Secco-Shadowsong", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			165, -- [11]
+			"Player-85-0841F8D4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaSecco-Shadowsong|r",
+			[51] = 1541640446,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [120]
+		{
+			"guys we are good to go now, get your altar buff and knights and attack", -- [1]
+			"Dreamstryker-Ravencrest", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Dreamstryker-Ravencrest", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			187, -- [11]
+			"Player-1072-067788B8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aDreamstryker-Ravencrest|r",
+			[51] = 1541640578,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [121]
+		{
+			"any healers", -- [1]
+			"Pristypeach-Lethon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Pristypeach-Lethon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			194, -- [11]
+			"Player-154-063340CD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aPristypeach-Lethon|r",
+			[51] = 1541640692,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [122]
+		{
+			"gate going down ", -- [1]
+			"Secco-Shadowsong", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Secco-Shadowsong", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			225, -- [11]
+			"Player-85-0841F8D4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff48cbaSecco-Shadowsong|r",
+			[51] = 1541640872,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [123]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12886:Player-3693-092AD332:1:11:7:18:4294967295:4294967295:4294967295:4294967295|h[Tour of War]|h|r!", -- [1]
+			"Laurannah-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Laurannah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			250, -- [11]
+			"Player-3693-092AD332", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffaad372Laurannah|r",
+			[51] = 1541640991,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [124]
+		{
+			"Selling Mythic+10 to get weekly reward 380, Heroic Uldir,Halls of Control 8/8 Personal loot run, also unlock |cffffff00|Hachievement:12806:Player-3693-0A17D0AF:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rget mount|cffa335ee|Hitem:163216::::::::1:259::::::|h[Bloodgorged Crawg]|h|r carry right now!! PST!!", -- [1]
+			"Gracenthanka-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gracenthanka", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			285, -- [11]
+			"Player-3693-0A17D0AF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Gracenthanka|r",
+			[51] = 1541641119,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [125]
+		{
+			"Selling Mythic+10 to get weekly reward 380, Heroic Uldir,Halls of Control 8/8 Personal loot run, also unlock |cffffff00|Hachievement:12806:Player-3693-0A17D0AF:0:0:0:-1:0:0:0:0|h[Glory of the Uldir Raider]|h|rget mount|cffa335ee|Hitem:163216::::::::1:259::::::|h[Bloodgorged Crawg]|h|r carry right now!! PST!!", -- [1]
+			"Gracenthanka-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Gracenthanka", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			289, -- [11]
+			"Player-3693-0A17D0AF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffff468Gracenthanka|r",
+			[51] = 1541641192,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [126]
+		{
+			"<www.gold4pve.com> Selling Cheap wow Gold! 14$=100k!! 30% Cheaper than wow tokens!  10M in stock.  <www.gold4pve.com>. Discount code- \"BESS\"", -- [1]
+			"Berebea-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Berebea", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			291, -- [11]
+			"Player-3693-0A17CFF3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff48cbaBerebea|r",
+			[51] = 1541641199,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [127]
 	},
