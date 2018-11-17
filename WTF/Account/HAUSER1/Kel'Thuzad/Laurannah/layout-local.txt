@@ -69,13 +69,6 @@ X: -245
 Y: -77
 W: 497
 H: 513
-Frame: TomTomCrazyArrow
-FrameLevel: 1
-Anchor: CENTER
-X: 11
-Y: -248
-W: 56
-H: 42
 Frame: TalkingHeadFrame
 FrameLevel: 1
 Anchor: RIGHT
@@ -83,3 +76,10 @@ X: -5
 Y: -266
 W: 570
 H: 155
+Frame: TomTomCrazyArrow
+FrameLevel: 1
+Anchor: CENTER
+X: 11
+Y: -248
+W: 56
+H: 42
