@@ -20,6 +20,7 @@ function GottaGoFastHistory:OnEnable()
 
     GottaGoFastHistory:InitOptions();
     GottaGoFastHistory:InitModels();
+    GottaGoFastHistory:BugFixes();
     GottaGoFastHistory:SendCommMessage("GottaGoFast", "HistoryLoaded", "WHISPER", GetUnitName("player"), "ALERT");
 end
 

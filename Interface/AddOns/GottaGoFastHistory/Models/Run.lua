@@ -101,6 +101,14 @@ function GottaGoFastHistory:InitModelRun()
   GottaGoFastHistory.Models.Run = Run;
 end
 
+function GottaGoFastHistory:RunHasBadTimeStamp(run)
+  if (run["timeStamp"] ~= nil and run["timeStamp"]["day"] == nil) then
+    return true;
+  end
+
+  return false;
+end
+
 function GottaGoFastHistory:MatchAffixes(a1, a2)
   local affixes = {};
   local state = true;

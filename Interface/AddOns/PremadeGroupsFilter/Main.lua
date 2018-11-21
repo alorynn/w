@@ -55,7 +55,7 @@ end
 
 function PGF.GetExpressionFromAdvancedExpression(model)
     if model.expression and model.expression ~= "" then
-        return " and " .. model.expression
+        return " and ( " .. model.expression .. " ) "
     end
     return ""
 end
@@ -114,6 +114,34 @@ function PGF.SortByFriendsAndAge(id1, id2)
     if charFriends1 ~= charFriends2 then return charFriends1 > charFriends2 end
     if guildMates1 ~= guildMates2 then return guildMates1 > guildMates2 end
     return age1 < age2
+end
+
+function PGF.PutRaiderIOMetrics(env, leaderName)
+    env.hasrio       = false
+    env.norio        = true
+    env.rio          = 0
+    env.riodps       = 0
+    env.rioheal      = 0
+    env.riotank      = 0
+    env.riokey5plus  = 0
+    env.riokey10plus = 0
+    env.riokey15plus = 0
+    env.riokeymax    = 0
+    if leaderName and RaiderIO and RaiderIO.HasPlayerProfile(leaderName) then
+        local result = RaiderIO.GetPlayerProfile(RaiderIO.ProfileOutput.MYTHICPLUS, leaderName)
+        if result and result.profile then
+            env.hasrio       = true
+            env.norio        = false
+            env.rio          = result.profile.allScore
+            env.rioheal      = result.profile.healScore
+            env.riotank      = result.profile.tankScore
+            env.riodps       = result.profile.dpsScore
+            env.riokey5plus  = result.profile.keystoneFivePlus
+            env.riokey10plus = result.profile.keystoneTenPlus
+            env.riokey15plus = result.profile.keystoneFifteenPlus
+            env.riokeymax    = result.profile.maxDungeonLevel
+        end
+    end
 end
 
 function PGF.DoFilterSearchResults(results)
@@ -262,6 +290,12 @@ function PGF.DoFilterSearchResults(results)
                 or activity == 536
         env.sob  = activity == 532 or activity == 535 or activity == 533 or activity == 534  -- Siege of Boralus
                                                       or activity == 658 or activity == 659
+        -- raider.io aliases
+        env.ml = env.tml
+        env.undr = env.tur
+        env.siege = env.sob
+        --env.tos = env.tosl -- collision with Tomb of Sargeras
+        PGF.PutRaiderIOMetrics(env, leaderName)
 
         setmetatable(env, { __index = function(table, key) return 0 end }) -- set non-initialized values to 0
         if PGF.DoesPassThroughFilter(env, exp) then

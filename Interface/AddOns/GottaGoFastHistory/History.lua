@@ -29,7 +29,7 @@ function GottaGoFastHistory:StoreRun(cCM)
       local deaths = cCM["Deaths"];
       local startTime = cCM["StartTime"];
       local endTime = GetTime();
-      local timeStamp = GottaGoFastHistory.Models.TimeStamp.New(dateInfo.month, dateInfo.day, dateInfo.year, hours, mins);
+      local timeStamp = GottaGoFastHistory.Models.TimeStamp.New(dateInfo.month, dateInfo.monthDay, dateInfo.year, hours, mins);
       local level = cCM["Level"];
       local objectiveTimes = cCM["ObjectiveTimes"];
       local affixes = cCM["Affixes"];

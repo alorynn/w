@@ -26,9 +26,13 @@ end
 
 function AS:SetOption(optionName, value)
 	self.db[optionName] = value
+
+	if AddOnSkinsDS[AS.Version] and AddOnSkinsDS[AS.Version][optionName] == true then
+		AddOnSkinsDS[AS.Version][optionName] = nil
+	end
 end
 
-function AS:Color(name)
+function AS:GetColor(name)
 	local color = '|cff1784d1%s|r'
 	return (color):format(name)
 end
@@ -221,10 +225,11 @@ end
 function AS:StartSkinning(event)
 	AS:UnregisterEvent(event)
 
-	AS:UpdateMedia()
-
+	AS.Color = AS:CheckOption('ClassColor') and AS.ClassColor or { 0, 0.44, .87, 1 }
 	AS.Mult = 768 / AS.ScreenHeight / UIParent:GetScale()
 	AS.ParchmentEnabled = AS:CheckOption('Parchment')
+
+	AS:UpdateMedia()
 
 	for addonName, alldata in pairs(AS.register) do
 		for _, data in pairs(alldata) do
@@ -241,6 +246,15 @@ function AS:StartSkinning(event)
 				if Version < AS.Version then
 					AddOnSkinsDS[Version] = nil
 				end
+			end
+		end
+	end
+
+	-- Check forced Blizzard AddOns
+	for addonName, funcs in AS:OrderedPairs(AS.skins) do
+		if AS:CheckOption(addonName) and strfind(addonName, 'Blizzard_') and IsAddOnLoaded(addonName) then
+			for _, func in ipairs(funcs) do
+				AS:CallSkin(addonName, func, 'ADDON_LOADED', addonName)
 			end
 		end
 	end
@@ -335,7 +349,7 @@ function AS:BugReportFrame(ErrorIndex)
 		AS:CreateShadow(BugReportFrame)
 		BugReportFrame:SetPoint('CENTER', UIParent, 'CENTER')
 		BugReportFrame:SetFrameStrata('DIALOG')
-		BugReportFrame:SetSize(480, 460)
+		BugReportFrame:SetSize(480, 230)
 		BugReportFrame:EnableMouse(true)
 		BugReportFrame:SetMovable(true)
 		BugReportFrame:RegisterForDrag('LeftButton')
@@ -345,11 +359,6 @@ function AS:BugReportFrame(ErrorIndex)
 		BugReportFrame.Title:SetFont(AS.Font, 14)
 		BugReportFrame.Title:SetPoint('TOP', BugReportFrame, 'TOP', 0, -4)
 		BugReportFrame.Title:SetText(ASL['AddOnSkins Bug Report'])
-
-		BugReportFrame.Report = BugReportFrame:CreateFontString(nil, "OVERLAY")
-		BugReportFrame.Report:SetFont(AS.Font, 14)
-		BugReportFrame.Report:SetPoint('TOP', BugReportFrame, 'TOP', 0, -26)
-		BugReportFrame.Report:SetText("Step 1: Open Favorite Internet Browser. \n\n Step 2: Enter GitLab link into address bar. \n\n Step 3: Check Current Issues. \n\n Step 4: If not present open New Issue. \n\n Step 5: Enter details from below.")
 
 		for _, Name in pairs({ 'GitLab', 'BugTitle', 'BugError'}) do
 			BugReportFrame[Name] = CreateFrame("EditBox", nil, BugReportFrame, "InputBoxTemplate")
