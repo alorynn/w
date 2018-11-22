@@ -5,7 +5,7 @@ OneRing_Config = {
 		["Kel'Thuzad-Hauzer-3"] = "default",
 	},
 	["_GameVersion"] = "8.0.1",
-	["_OPieVersion"] = "Vanilla 7 (3.93)",
+	["_OPieVersion"] = "Vanilla 9 (3.96)",
 	["ProfileStorage"] = {
 		["default"] = {
 			["UseDefaultBindings"] = false,

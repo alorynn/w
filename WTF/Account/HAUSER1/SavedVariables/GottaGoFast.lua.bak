@@ -40,7 +40,7 @@ GottaGoFastDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["Version"] = 30100,
+			["Version"] = 30200,
 		},
 	},
 }
