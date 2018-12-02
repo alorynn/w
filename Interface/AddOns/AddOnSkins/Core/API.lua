@@ -125,7 +125,7 @@ function AS:StripTextures(Object, Kill, Alpha)
 				local Region = select(i, Object:GetRegions())
 				if Region and Region:IsObjectType('Texture') then
 					if Kill then
-						AS:Kill(Object)
+						AS:Kill(Region)
 					elseif Alpha then
 						Region:SetAlpha(0)
 					else
@@ -192,7 +192,7 @@ function AS:Desaturate(frame)
 				local Texture = region:GetTexture()
 				if type(Texture) == 'string' and strlower(Texture) == 'interface\\dialogframe\\ui-dialogbox-corner' then
 					region:SetTexture(nil)
-					region:Kill()
+					AS:Kill(region)
 				else
 					region:SetDesaturated(true)
 				end

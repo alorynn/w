@@ -5,6 +5,6 @@ TipTac_Config = {
 	["healthBar"] = true,
 	["manaBar"] = false,
 	["optionsBottom"] = 410.999969482422,
-	["left"] = 863.832214355469,
 	["targetYouText"] = "<<YOU>>",
+	["left"] = 863.832214355469,
 }

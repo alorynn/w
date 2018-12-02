@@ -1,42 +1,28 @@
-lightweight tag 4216b5c1491a74d6f0f610db53db799b15bcf4a1 4.03
+lightweight tag 4430761bbf0f5986edd85eef232fdf1468baa1d9 4.04
 Author:	Michael James <darktemplar9900@yahoo.com>
-Date:	Tue Nov 20 20:14:12 2018 -0600
+Date:	Wed Nov 21 17:22:48 2018 -0600
 
-commit 4216b5c1491a74d6f0f610db53db799b15bcf4a1
+commit 4430761bbf0f5986edd85eef232fdf1468baa1d9
 Author: Michael James <darktemplar9900@yahoo.com>
-Date:   Tue Nov 20 20:14:12 2018 -0600
+Date:   Wed Nov 21 17:22:48 2018 -0600
 
-    4.03
+    4.04
 
-commit 49294184124bca6e5179c980aa94c8f428ceebea
+commit 856532c45d1f21d50cde96b482eef3d84c649535
 Author: Michael James <darktemplar9900@yahoo.com>
-Date:   Thu Nov 15 22:15:24 2018 -0600
+Date:   Wed Nov 21 17:21:38 2018 -0600
 
-    Protect this
+    :Kill to AS:Kill
 
-commit b9b546054ac6a07eb0a1a9f38a30c4e0319d7b1b
+commit 4cb0a155859c31f152930cf2f986637aca87073b
 Author: Michael James <darktemplar9900@yahoo.com>
-Date:   Thu Nov 15 19:30:55 2018 -0600
+Date:   Wed Nov 21 16:43:31 2018 -0600
 
-    Remove 'Parchment Remover'
+    Yea.. This is why drinking is bad kids.
 
-commit 07837d81d525d61dc7576386692374870435c3ee
-Author: Michael James <darktemplar9900@yahoo.com>
-Date:   Thu Nov 15 18:21:41 2018 -0600
+commit dd538d02336cb78a81921c812171f5b85a2df5c6
+Author: Merathilis <neo0608@gmail.com>
+Date:   Wed Nov 21 17:25:44 2018 +0100
 
-    Put this back
-
-commit 069e883b00b1fde1761066f16f753cbaf18008a3
-Author: Michael James <darktemplar9900@yahoo.com>
-Date:   Wed Nov 14 21:23:36 2018 -0600
-
-    ...
-
-commit ec50821dfe1321576ba330dc97f9c40b23212048
-Author: Michael James <darktemplar9900@yahoo.com>
-Date:   Wed Nov 14 21:18:44 2018 -0600
-
-    Fix StripTextures / SpellBook
-    
-    Issue #296
+    Slightly adjust the Postal OpenAllMenuButton: https://www.tukui.org/forum/viewtopic.php?f=35&t=4412
 

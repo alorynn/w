@@ -18,7 +18,7 @@ FrameLevel: 1
 Anchor: BOTTOM
 X: -290
 Y: 8
-W: 72
+W: 33
 H: 38
 Frame: ObjectiveTrackerFrame
 FrameLevel: 1
