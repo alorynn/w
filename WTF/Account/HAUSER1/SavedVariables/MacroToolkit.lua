@@ -6,6 +6,12 @@ MacroToolkitDB = {
 			},
 		},
 	},
+	["global"] = {
+		["ebackups"] = {
+		},
+		["backups"] = {
+		},
+	},
 	["profileKeys"] = {
 		["Testfoolio - Kel'Thuzad"] = "profile",
 		["Blahndee - Kel'Thuzad"] = "profile",
@@ -29,26 +35,20 @@ MacroToolkitDB = {
 		["Nigellah - Kel'Thuzad"] = "profile",
 		["Foioio - Bonechewer"] = "profile",
 		["Fooiis - Hakkar"] = "profile",
-		["Fooliolio - Kel'Thuzad"] = "profile",
+		["Laurannah - Undermine"] = "profile",
 		["Foiio - Drakkari"] = "profile",
-		["Laurranah - Kel'Thuzad"] = "profile",
-		["Foioio - Thunderlord"] = "profile",
-		["Foolioioio - Kel'Thuzad"] = "profile",
-		["Alorannah - Kel'Thuzad"] = "profile",
+		["Hauzerina - Kel'Thuzad"] = "profile",
+		["Hauzer - Kel'Thuzad"] = "profile",
+		["Foioioi - Gallywix"] = "profile",
+		["Loranah - Kel'Thuzad"] = "profile",
 		["Alaurannah - Undermine"] = "profile",
 		["Lorranah - Kel'Thuzad"] = "profile",
-		["Loranah - Kel'Thuzad"] = "profile",
-		["Foioioi - Gallywix"] = "profile",
-		["Hauzer - Kel'Thuzad"] = "profile",
-		["Hauzerina - Kel'Thuzad"] = "profile",
-		["Laurannah - Undermine"] = "profile",
+		["Alorannah - Kel'Thuzad"] = "profile",
+		["Foolioioio - Kel'Thuzad"] = "profile",
+		["Foioio - Thunderlord"] = "profile",
+		["Laurranah - Kel'Thuzad"] = "profile",
+		["Fooliolio - Kel'Thuzad"] = "profile",
 		["Foio - Garona"] = "profile",
-	},
-	["global"] = {
-		["backups"] = {
-		},
-		["ebackups"] = {
-		},
 	},
 	["profiles"] = {
 		["profile"] = {
