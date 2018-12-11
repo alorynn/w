@@ -1,9 +1,0 @@
-VER 3 0100000000000002 "Backstab" "INV_Misc_QuestionMark"
-#showtooltip Backstab
-/use 13
-/use 14
-/cast Backstab
-END
-VER 3 0100000000000001 "Mount" "INV_Misc_QuestionMark"
-/cast [flyable] Armored Bloodwing; Bloodfang Widow
-END

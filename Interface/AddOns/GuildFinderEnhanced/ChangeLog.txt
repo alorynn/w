@@ -1,7 +1,0 @@
-     =====================
-       GuildFinderEnhanced v1.0
-     =====================
-     *Initial Release
-     *Included ability to order guild results by name, number members, number achievement points, and left default order option.
-     *Included ability to search guild results for specific name(or prefix really).
-     *Included ability to search guild results for specific keywords in name and description (space separated keywords).

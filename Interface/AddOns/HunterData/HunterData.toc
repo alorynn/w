@@ -1,9 +1,0 @@
-## Interface: 80000
-## Title: Hunter Data
-## Author: rmaldoom
-## Version: 1.0.4.1
-
-embeds.xml
-
-HunterDataTable.lua
-HunterData.lua
